@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Binary Defense</title>
+    <atom:link href="https://www.binarydefense.com/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.binarydefense.com</link>
+    <description>Cybersecurity Solutions Provider</description>
+    <lastBuildDate>Wed, 27 Apr 2022 19:47:53 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=5.9.3</generator>
+    <image>
+      <url>https://www.binarydefense.com/wp-content/uploads/2019/12/cropped-Sheild-light-32x32.png</url>
+      <title>Binary Defense</title>
+      <link>https://www.binarydefense.com</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <item>
+      <title>Detecting Ransomware’s Stealthy Boot Configuration Edits</title>
+      <link>https://www.binarydefense.com/detecting-ransomwares-stealthy-boot-configuration-edits/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Wed, 27 Apr 2022 10:34:57 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <category><![CDATA[Featured]]></category>
+      <category><![CDATA[Threat Hunting]]></category>
+      <guid isPermaLink="false">https://www.binarydefense.com/?p=37147</guid>
+      <description><![CDATA[<p>Written By: Binary Defense Threat Researcher @shade_vx This blog post focuses on threat hunting methods and detections for a commonly observed technique used by Ransomware-as-a-Service (RaaS) operators. Such threat actors have often been observed altering boot loader configurations using the built-in Windows tool bcdedit.exe (Boot Configuration Data Edit) in order to: Modify Boot Status Policies [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/detecting-ransomwares-stealthy-boot-configuration-edits/">Detecting Ransomware’s Stealthy Boot Configuration Edits</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Breaking Down Password Storage Breakdowns</title>
+      <link>https://www.binarydefense.com/breaking-down-password-storage-break-downs/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Thu, 31 Mar 2022 12:24:02 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=36200</guid>
+      <description><![CDATA[<p>Written By: Kim McAloon Hunting for Password&#160;Files on Endpoints As part of the Okta compromise, it was announced that attackers accessed a spreadsheet on Sitel’s internal network called DomAdmins-LastPass.xlsx. The file name suggests that the spreadsheet contained passwords for domain administrator accounts. Users storing passwords in unencrypted documents on company endpoints could expedite post-compromise lateral [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/breaking-down-password-storage-break-downs/">Breaking Down Password Storage Breakdowns</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Dark Web Reactions to Russia’s Invasion of Ukraine</title>
+      <link>https://www.binarydefense.com/dark-web-reactions-to-russias-invasion-of-ukraine/</link>
+      <dc:creator><![CDATA[Patrick Wallenhorst]]></dc:creator>
+      <pubDate>Tue, 01 Mar 2022 20:22:16 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=35665</guid>
+      <description><![CDATA[<p>Tensions continue to escalate around the globe as the world watches Ukraine fight off a Russian invasion. Several events have unfolded since the initial invasion on February 24th, and Binary Defense analysts have observed dark web forums and media outlets reacting to the situation. Leading up to the invasion, Ukrainian government networks suffered DDoS attacks [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/dark-web-reactions-to-russias-invasion-of-ukraine/">Dark Web Reactions to Russia’s Invasion of Ukraine</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Take Stock of Cyber Risk in Light of Russian Cyber Activity</title>
+      <link>https://www.binarydefense.com/take-stock-of-cyber-risk-in-light-of-russian-cyber-activity/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Fri, 25 Feb 2022 20:57:44 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <category><![CDATA[Counterintelligence]]></category>
+      <category><![CDATA[Cybersecurity]]></category>
+      <category><![CDATA[Managed Detection & Response]]></category>
+      <category><![CDATA[Security Information & Event Management]]></category>
+      <category><![CDATA[Threat Hunting]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=35632</guid>
+      <description><![CDATA[<p>Many leaders in enterprise information security and IT operations organizations are taking stock of the potential for risk due to cyber operations between Russia and western countries that show support for Ukraine. Russian President Putin has said there will be “consequences” for nations that interfere, which could come in the form of cyberattacks, particularly on [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/take-stock-of-cyber-risk-in-light-of-russian-cyber-activity/">Take Stock of Cyber Risk in Light of Russian Cyber Activity</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Scams for Scans: QR Codes See Surge in Popularity, As Well As Fraud</title>
+      <link>https://www.binarydefense.com/scams-for-scans-qr-codes-see-surge-in-popularity-as-well-as-fraud/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Thu, 27 Jan 2022 18:06:56 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=35203</guid>
+      <description><![CDATA[<p>We ignored them for years, but it looks like the QR code may be here to stay. “QR” is short for “Quick Response.” The QR code, simply put, is a type of bar code that is easily scannable with a smart phone, and links to a webpage with relevant information. People interested in a product [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/scams-for-scans-qr-codes-see-surge-in-popularity-as-well-as-fraud/">Scams for Scans: QR Codes See Surge in Popularity, As Well As Fraud</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>2022: Expect the unexpected as cyberattacks continue to target organizations</title>
+      <link>https://www.binarydefense.com/2022-expect-the-unexpected-as-cyberattacks-continue-to-target-organizations/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Tue, 18 Jan 2022 14:39:04 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=35103</guid>
+      <description><![CDATA[<p>Headline-grabbing attacks such as Solarwinds, Kaseya, Colonial Pipeline, JBS Foods and the Log4j vulnerability kept infosec professionals on their toes all year long. Cybercriminals targeted supply chain,&#160;infrastructure&#160;and technology providers with the hopes of causing as much chaos and damage as possible. We asked&#160;our CTO and Co-Founder, David Kennedy (@hackingdave), as well as our VP of [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/2022-expect-the-unexpected-as-cyberattacks-continue-to-target-organizations/">2022: Expect the unexpected as cyberattacks continue to target organizations</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Threat Hunting AWS CloudTrail with Microsoft Sentinel: Part 4</title>
+      <link>https://www.binarydefense.com/threat-hunting-aws-cloudtrail-with-microsoft-sentinel-part-4/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Tue, 14 Dec 2021 17:04:03 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=34746</guid>
+      <description><![CDATA[<p>Section 4: Detecting AWS Atomic Red Team Attacks By Sean Fernandez &#124; Threat Researcher &#124; Binary Defense In part 4 of our series on Threat Hunting AWS CloudTrail with Sentinel, we simulated three Atomic Red Team Attacks with “Atomics” built specifically for AWS. The attacks were deployed on a test AWS environment that emulated a [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/threat-hunting-aws-cloudtrail-with-microsoft-sentinel-part-4/">Threat Hunting AWS CloudTrail with Microsoft Sentinel: Part 4</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Advice for Defenders Responding to the log4j Vulnerability CVE-2021-44228</title>
+      <link>https://www.binarydefense.com/advice-for-defenders-responding-to-the-log4j-vulnerability-cve-2021-44228/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Mon, 13 Dec 2021 15:18:25 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <category><![CDATA[Binary Defense]]></category>
+      <category><![CDATA[Counterintelligence]]></category>
+      <category><![CDATA[CVE-2021-44228]]></category>
+      <category><![CDATA[Cybersecurity]]></category>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Security Operations Center]]></category>
+      <category><![CDATA[Technology]]></category>
+      <category><![CDATA[Threat Hunting]]></category>
+      <category><![CDATA[TrustedSec]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=34707</guid>
+      <description><![CDATA[<p>Binary Defense Security Operations, Engineering, and Threat Hunting analysts have been working alongside our clients and our friends in the infosec community to mitigate the threat to organizations as a result of the critical Apache log4j vulnerability that is actively being exploited by threat actors. We are especially thankful for our colleagues at TrustedSec, who [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/advice-for-defenders-responding-to-the-log4j-vulnerability-cve-2021-44228/">Advice for Defenders Responding to the log4j Vulnerability CVE-2021-44228</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Threat Hunting AWS CloudTrail with Sentinel: Part 3</title>
+      <link>https://www.binarydefense.com/threat-hunting-aws-cloudtrail-with-sentinel-part-3/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Mon, 06 Dec 2021 20:23:00 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <category><![CDATA[AWS]]></category>
+      <category><![CDATA[CloudTrail]]></category>
+      <category><![CDATA[Threat Hunting]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=34631</guid>
+      <description><![CDATA[<p>Detecting Backdoor Attacks By Sean Fernandez &#124; Threat Researcher &#124; Binary Defense In part 3 of the blog series, Threat Hunting AWS CloudTrail with Sentinel, we simulated a series of adversary attacks focusing on persistence with backdoor access to a secondary access key and temporary security credentials. The attacks were deployed on our test AWS [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/threat-hunting-aws-cloudtrail-with-sentinel-part-3/">Threat Hunting AWS CloudTrail with Sentinel: Part 3</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+    <item>
+      <title>Threat Hunting AWS CloudTrail with Sentinel: Part 2</title>
+      <link>https://www.binarydefense.com/threat-hunting-aws-cloudtrail-with-sentinel-part-2/</link>
+      <dc:creator><![CDATA[Binary Defense]]></dc:creator>
+      <pubDate>Tue, 30 Nov 2021 20:38:30 +0000</pubDate>
+      <category><![CDATA[Blog]]></category>
+      <category><![CDATA[AWS]]></category>
+      <category><![CDATA[CloudTrail]]></category>
+      <category><![CDATA[Threat Hunting]]></category>
+      <guid isPermaLink="false">https://binarydefense.com/?p=34465</guid>
+      <description><![CDATA[<p>Detecting&#160;S3 Bucket&#160;Attack&#160;&#160; By Sean Fernandez&#160;&#124;&#160;Threat Researcher&#160;&#124;&#160;Binary Defense&#160;&#160; In&#160;part 2 of the blog series,&#160;Threat Hunting AWS CloudTrail with Sentinel, we simulated&#160;an attack on a misconfigured S3 bucket.&#160;The attacks were deployed on a test AWS environment that emulated a small organization with a set of users, roles, groups, and policies. We utilized Sentinel to gather raw event [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.binarydefense.com/threat-hunting-aws-cloudtrail-with-sentinel-part-2/">Threat Hunting AWS CloudTrail with Sentinel: Part 2</a> appeared first on <a rel="nofollow" href="https://www.binarydefense.com">Binary Defense</a>.</p>
+]]></description>
+    </item>
+  </channel>
+</rss>

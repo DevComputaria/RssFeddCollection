@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>CyberTalk</title>
+    <atom:link href="https://www.cybertalk.org/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.cybertalk.org</link>
+    <description>Cyber Security News And Insights For Executives</description>
+    <lastBuildDate>Mon, 02 May 2022 21:34:15 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=5.9.3</generator>
+    <item>
+      <title>REvil ransomware gang returns, targeting new high-value victims (like you)</title>
+      <link>https://www.cybertalk.org/2022/05/02/revil-ransomware-gang-returns-targeting-new-high-value-victims-like-you/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Mon, 02 May 2022 17:49:32 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[cyber security]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[ransomware]]></category>
+      <category><![CDATA[REvil]]></category>
+      <category><![CDATA[REvil back]]></category>
+      <category><![CDATA[REvil ransomware]]></category>
+      <category><![CDATA[REvil ransomware gang]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18766</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: REvil is back. The REvil ransomware gang is an ambitious Ransomware-as-a-Service (RaaS) operation. It first came to light in 2019, as another ransomware gang, known as GandCrab, dissolved into a digital black hole. On occasion, the group is known by other names, including Sodin and Sodinokibi. What makes REvil unique REvil has a [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/05/02/revil-ransomware-gang-returns-targeting-new-high-value-victims-like-you/">REvil ransomware gang returns, targeting new high-value victims (like you)</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<h2>EXECUTIVE SUMMARY:</h2>
+<p>REvil is back. The REvil ransomware gang is an ambitious Ransomware-as-a-Service (RaaS) operation. It first came to light in 2019, as another ransomware gang, known as GandCrab, dissolved into a digital black hole. On occasion, the group is known by other names, including Sodin and Sodinokibi.</p>
+<h3><strong>What makes REvil unique</strong></h3>
+<p>REvil has a rap sheet that includes requesting exorbitant payments from corporate victims. Its affiliates are also known for pursuing high levels of financial gain. In ‘underground’ cyber crime forums, REvil’s software is often recommended by cyber criminals as the best choice for maximizing profits.</p>
+<p>In an interview, the group’s product developers claimed to have earned more than <a href="https://www.tripwire.com/state-of-security/featured/revil-ransomware-what-you-need-to-know/" target="_blank" rel="noopener">$100</a> million USD per year through their operations. The developers are thought to receive just a fraction, roughly 20-30%, of the total funds extorted from victims.</p>
+<p>In the past, numerous high-profile o<span style="color: #000000;">rganizations have contended with REvil’s ransomware. The group is allegedly responsible for the <a style="color: #000000;" href="https://www.cybertalk.org/2021/06/02/global-meat-processor-ransomware-attack-shut-down-2021/" target="_blank" rel="noopener">JBS cyber attack</a>, which affected the global food supply chain, the <a style="color: #000000;" href="https://www.cybertalk.org/2021/07/06/kaseya-what-this-ransomware-attack-fallout-means/" target="_blank" rel="noopener">Kaseya VSA ransomware attack</a>, which affected hundreds of managed service providers, and the <a style="color: #000000;" href="https://www.cybertalk.org/2021/06/09/colonial-pipeline-co-attack-what-really-happened/" target="_blank" rel="noopener">Colonial Pipeline attack</a>, which disrupted the oil supply chain in the US.</span></p>
+<h3><strong>Wait, but weren’t REvil members arrested?</strong></h3>
+<h3></h3>
+<p>In January, authorities in Russia announced the disruption of the REvil ransomware gang’s activities. Fourteen of the group’s members were arrested. General operations were halted. The event “marked a rare positive moment” in geopolitical relations, according to the <a href="https://www.washingtonpost.com/world/2022/01/14/russia-hacker-revil/" target="_blank" rel="noopener">Washington Post.</a></p>
+<p>The takedown occurred in Russia, at the request of the US government, which intended to curtail possibilities for repeats of past cyber security incidents.</p>
+<p>At the time, the FSB seized millions of USD, Euros and Rubles, 20 luxury cars, computer equipment, and cryptocurrency wallets containing more than £<a href="https://www.bbc.com/news/technology-59998925#:~:text=According%20to%20the%20Russian%20state,440%2C000%20worth%20of%20crypto%2Dcurrency." target="_blank" rel="noopener">440,000</a> worth of Bitcoin from REvil members. A partial video of the sting made its way onto the internet.</p>
+<p>However, amidst recent geopolitical tensions, REvil members may have been excused from past offenses. REvil has begun operating again.</p>
+<h3><strong>REvil ransomware reemergence – <em>technical details</em></strong></h3>
+<p>Last week, researchers obtained a sample of a seemingly new ransomware operation’s encryptor. They <a href="https://www.bleepingcomputer.com/news/security/revil-ransomware-returns-new-malware-sample-confirms-gang-is-back/" target="_blank" rel="noopener">confirmed ties</a> to the REvil group. Although a few ransomware operations do use REvil’s encryptor, all rely on patched executables as opposed to maintaining direct access to the gang’s source code. Multiple security researchers and malware analysts state that the discovered REvil sample reflects a compilation of source code and includes new changes to the original encryptor.</p>
+<h3><strong>Closing thoughts</strong></h3>
+<p>In general, if affected by ransomware, organizations can restore systems from backups. The danger in relation to REvil stems from the fact that the group may try to sell an organization’s data in cyber crime forums, tarnishing a brand’s image and client relationships. This represents another &#8216;layer&#8217; of the REvil extortion scheme.</p>
+<p>In the event that your organization suffers a ransomware attack, pursue mitigation strategies and inform law enforcement agencies of the incident. Work with them to determine which ransomware group conducted the attack.</p>
+<h3><strong>Further resources<br />
+</strong></h3>
+<p>For more information about the REvil ransomware gang, see our past articles:</p>
+<ul>
+<li><a href="https://www.cybertalk.org/2021/10/06/revil-ransomware-gang-scams-its-own-affiliates/" target="_blank" rel="noopener">REvil ransomware gang scams its own affiliates</a></li>
+<li><a href="https://www.cybertalk.org/2021/06/14/this-nuclear-weapons-subcontractor-just-hit-with-revil-ransomware/" target="_blank" rel="noopener">Nuclear weapons subcontractor hit with REvil ransomware</a></li>
+<li><a href="https://www.cybertalk.org/2021/09/29/global-ransomware-group-reappears-did-it-ever-leave/" target="_blank" rel="noopener">Global ransomware group reappears; did it ever leave?</a></li>
+</ul>
+<p><em>Lastly, to receive more cutting-edge cyber security news,  best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener">CyberTalk.org newsletter. </a></em></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/05/02/revil-ransomware-gang-returns-targeting-new-high-value-victims-like-you/">REvil ransomware gang returns, targeting new high-value victims (like you)</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Addressing cyber security concerns on employees’ personal devices</title>
+      <link>https://www.cybertalk.org/2022/04/29/addressing-cyber-security-concerns-on-employees-personal-devices/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Fri, 29 Apr 2022 17:46:45 +0000</pubDate>
+      <category><![CDATA[OPINION]]></category>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[mobile]]></category>
+      <category><![CDATA[mobile device cyber security]]></category>
+      <category><![CDATA[mobile device management]]></category>
+      <category><![CDATA[mobile devices]]></category>
+      <category><![CDATA[mobile security]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18760</guid>
+      <description><![CDATA[<p>Devin Partida writes about cyber security and technology. She is also the Editor-in-Chief of ReHack.com.  Almost every American carries their smartphone wherever they go. Mobile devices have become an integral part of life for most people, meaning employers should expect that their employees will bring smartphones and other devices to work. While BYOD in the workplace [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/29/addressing-cyber-security-concerns-on-employees-personal-devices/">Addressing cyber security concerns on employees’ personal devices</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>Devin Partida writes about cyber security and technology. She is also the Editor-in-Chief of <a href="https://rehack.com/" target="_blank" rel="noopener">ReHack.com</a>. </em></p>
+<p>Almost every American carries their smartphone wherever they go. Mobile devices have become an integral part of life for most people, meaning employers should expect that their employees will bring smartphones and other devices to work.</p>
+<p>While BYOD in the workplace is nothing new, these personal devices can make a business more vulnerable to cyber attacks. Without the right security policies, personal devices are a risk. Here’s more about cyber security risks around personal devices that should concern employers, especially as employees return to the workplace.</p>
+<h3><strong>The potential risks of personal devices in the workplace</strong></h3>
+<p>Mobile devices can be susceptible to attack in ways that laptops or desktop computers are not – especially when those mobile devices are personal devices that employees may not properly secure and IT does not have access to by default.</p>
+<p>Employees may inadvertently compromise their personal devices with malware from spam, malicious links, or phishing campaigns (which <a href="https://www.f5.com/company/news/features/phishing-attacks-soar-220--during-covid-19-peak-as-cybercriminal" target="_blank" rel="noopener">have become much more common</a> since the beginning of COVID-19).</p>
+<p>Social engineering attacks and lost devices may also provide attackers with direct access to an employee’s personal device – and, as a result, any corporate information or business network access their device may have. A compromised personal device may easily lead to a more serious corporate data breach.</p>
+<p>Hackers have plenty of reasons for targeting personal mobile devices, even if they don’t know a device has corporate data or network access. Tools like digital wallets, for example, <a href="https://www.hydrogenplatform.com/blog/what-is-a-digital-wallet" target="_blank" rel="noopener">make transactions much easier</a>, but may also hold onto financial information that a cyber criminal may attempt to steal.</p>
+<p>Personal mobile devices may not be subject to the same security policies as corporate devices and IT teams may not even know they exist. These devices can create serious security risks that businesses will need to anticipate and manage. At the same time, preventing employees from bringing these devices to work may not be practical or could be seen as unusual.</p>
+<h3><strong>How businesses can manage cybersecurity with personal devices</strong></h3>
+<p>A combination of BYOD policy, training, and mobile device security tools will help businesses manage the security risks of personal devices while allowing employees to bring their devices to work.</p>
+<p>Effective BYOD policies help IT teams identify and secure personal devices. They also teach employees how to safely use their personal devices at work and provide specific guidance that they can use to protect both their devices and the company&#8217;s network.</p>
+<p>For example, a BYOD policy may require that employees not use their devices to store company information. This helps ensure that if a device is compromised, corporate information will remain confidential.</p>
+<p>Businesses can use tools like <a href="https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-mdm/" target="_blank" rel="noopener">mobile device management software</a> to ensure that employees use their personal devices in a way that protects their data, the company’s data, and the company network.</p>
+<p>These management tools create barriers on employee devices that separate corporate information from personal information, helping to ensure that employees do not accidentally compromise corporate information on their devices.</p>
+<p>If necessary, a business could also require that employees use only business-provided devices in the workplace and leave their personal devices at home or off while they work. This solution can be challenging to implement if the company isn’t willing to invest in new devices for workers, however, and able to navigate ongoing tech shortages.</p>
+<p>The company must also be willing to accept a transitional period during which employees adapt to new workflows that don’t involve their personal devices. These employees may also need to transfer work files off of their personal devices if they were using these devices for storage.</p>
+<h3><strong>Protecting employees’ personal devices in the workplace</strong></h3>
+<p>Having personal devices in the workplace is already the norm for many businesses, but these devices can come with cyber security risks.</p>
+<p>If compromised, a personal device may provide a hacker with access to important business information or network access. Because these devices are often unprotected and unmonitored by business IT teams, they may be more vulnerable to attack.</p>
+<p>Businesses should take action to ensure employees’ personal devices don’t create additional cyber security risks. Otherwise, they may be exposing both the business and its employees to cyber crime.</p>
+<p>For more from Editor-in-Chief of Rehack.com, Devin Partida, <a href="https://www.cybertalk.org/2022/01/21/how-to-improve-cyber-security-awareness-company-wide/" target="_blank" rel="noopener">see CyberTalk.org&#8217;s past coverage</a>. <em>Lastly, to receive more cutting-edge cyber security news, best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener">CyberTalk.org newsletter. </a></em></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/29/addressing-cyber-security-concerns-on-employees-personal-devices/">Addressing cyber security concerns on employees’ personal devices</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>4 Log4j strategies that can stop Log4j threats right now</title>
+      <link>https://www.cybertalk.org/2022/04/28/4-log4j-fix-strategies-that-can-stop-log4j-threats-now/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Thu, 28 Apr 2022 20:38:27 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[Log4j]]></category>
+      <category><![CDATA[Log4j core]]></category>
+      <category><![CDATA[Log4j detection]]></category>
+      <category><![CDATA[Log4j fix]]></category>
+      <category><![CDATA[Log4j management]]></category>
+      <category><![CDATA[Log4j vulnerability management]]></category>
+      <category><![CDATA[Log4j wordpress]]></category>
+      <category><![CDATA[Log4Shell]]></category>
+      <category><![CDATA[patching]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18738</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: The Log4j vulnerabilities represent a complicated and concerning set of issues for organizations and management around the globe. International cyber security watchdogs say that organizations should continue to remain cognizant of risks associated with Log4J attacks, and should stay on high-alert for potential Log4j-based threats. In the eyes of some experts, Log4j is [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/28/4-log4j-fix-strategies-that-can-stop-log4j-threats-now/">4 Log4j strategies that can stop Log4j threats right now</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<h2>EXECUTIVE SUMMARY:</h2>
+<p>The Log4j vulnerabilities represent a complicated and concerning set of issues for organizations and management around the globe. International cyber security watchdogs say that organizations should continue to remain cognizant of risks associated with Log4J attacks, and should stay on high-alert for potential Log4j-based threats. In the eyes of some experts, Log4j is among the most dangerous flaws disclosed in recent years. ​</p>
+<p>Upon its discovery, a Log4j fix was not apparent or available, and the cyber security workforce spent many hours attempting to identify and mitigate the vulnerability. Since then, a patch has been released. However, vulnerability isolation and patching hasn’t necessarily proceeded in the way that experts might have hoped…</p>
+<h3><strong>Recent Log4j developments</strong></h3>
+<p>In a recent scan, cyber security researchers discovered that more than 90,000 internet-exposed servers continue to contain vulnerable versions of the software. And this number may represent a mere fraction of the available attacker targets, as researchers only investigated publicly facing servers running on open source software. Once internal network servers and servers running proprietary applications are accounted for, the cumulative number of vulnerable targets could far surpass 90,000.</p>
+<h3><strong>Limitations of patching</strong></h3>
+<p>While the obvious Log4j fix does consist of patching, a Google open source scanning service recently revealed that just 7,140 Java packages have been patched since Log4j was disclosed. This number represents only 40% of affected packages, which total 17,840. In other words, many vulnerable Java packages containing the Log4j library remain unpatched.</p>
+<p>Adding to the concern around continued possibilities for exploit, researchers note that 36% of Log4j versions downloaded from Maven Central remain vulnerable.</p>
+<h3><strong>Other issues</strong></h3>
+<p>One difficulty is that many organizations lack visibility into their software components, which explains the continued use of vulnerable versions of Log4j. Few organizations maintain detailed configuration management databases that would show precise Log4j usage locations.</p>
+<h3><strong>Log4j fix information</strong></h3>
+<p>The continued exploitation of Log4j indicates that organizations aren’t prioritizing vulnerability identification, patching and other protective measures. For some, there may not be a single Log4j fix. However, you’ll find both short and long-term means of improving protection for your organization below.</p>
+<p><strong>1. Update Web Application Firewalls (WAFs) and other perimeter security tools. </strong>In so doing, organizations can immediately halt inbound and outbound Log4j attacks. However, experts note that hackers will likely attempt to overcome such barriers and that updating these tools likely represents a partial or temporary fix. Try out a breach and attack simulation tool to assess your WAF or NGFW protection against Log4j-related attacks.</p>
+<p><strong>2. Monitor your network activity. </strong>Are you seeing any unexpected outbound connections? Consider disabling outbound communications from internet-facing devices that are not business critical. In the event that you have a vulnerable system to which someone can pass a malicious JNDI command, but the malware fetch is blocked, you will have some level of protection.</p>
+<p><strong>3. Check device update status’.</strong> Search through every server, printer and other devices for inbound Transmission Control Protocol (TCP) connections. Contact device vendors to explore updates for Log4j. Java script is commonly in use on network appliances, printers, mobile phones and other types of devices. Experts suggest temporarily doing without use of these types of devices, if possible, until you can access Log4j information from the vendor.</p>
+<p><strong>4. Update all servers to Log4j 2.15.0. </strong>The importance of updating servers cannot be overstated, as hackers are quick to <span style="color: #000000;">identify and exploit such <a style="color: #000000;" href="https://www.cpomagazine.com/cyber-security/what-does-log4j-mean-for-the-enterprise-strategies-to-protect-your-organization/" target="_blank" rel="noopener">vulnerabilities</a>.</span></p>
+<p>Unpatched devices and systems using Log4j represent easy targets for threat actors. To further enhance protections, organizations may also wish to implement multi-factor authentication, zero-trust principles, network segmentation, and endpoint detection systems. Further, reach out to your security vendor for more customized security insights.</p>
+<h3>Additional information</h3>
+<h3></h3>
+<p>In the event that a vulnerable Log4j asset is found, security teams should act on the basis that the system has seen compromise – searching for threats, malicious activity and ways to take action.</p>
+<p>For more Log4j and Log4j solutions or Log4j fix information, see <a href="https://www.cybertalk.org/2022/03/16/where-are-we-with-log4j/" target="_blank" rel="noopener">CyberTalk.org’s past coverage</a>. <em>Lastly, to receive more cutting-edge cyber security news,  best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener">CyberTalk.org newsletter. </a></em></p>
+<p>​</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/28/4-log4j-fix-strategies-that-can-stop-log4j-threats-now/">4 Log4j strategies that can stop Log4j threats right now</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Did you install these dangerous Android apps? Delete them now, experts warn</title>
+      <link>https://www.cybertalk.org/2022/04/27/did-you-install-these-dangerous-android-apps-delete-them-now-experts-warn/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Wed, 27 Apr 2022 20:16:21 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[android]]></category>
+      <category><![CDATA[Android app]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[SharkBot]]></category>
+      <category><![CDATA[Sharkbot malware]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18724</guid>
+      <description><![CDATA[<p>Contributed by George Mack, Content Marketing Manager, Check Point Software. Over 15,000 Android users installed applications used to spread Sharkbot malware, which is capable of stealing your credentials and banking information. According to Check Point Research, earlier this year, there were a total of six Android applications masquerading as anti-virus solutions. Google has removed these [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/27/did-you-install-these-dangerous-android-apps-delete-them-now-experts-warn/">Did you install these dangerous Android apps? Delete them now, experts warn</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>Contributed by George Mack, Content Marketing Manager, Check Point Software.</em></p>
+<p>Over 15,000 Android users installed applications used to spread Sharkbot malware, which is capable of stealing your credentials and banking information.</p>
+<p>According to Check Point Research, earlier this year, there were a total of six Android applications masquerading as anti-virus solutions. Google has removed these apps from the Play Store, but if you installed any of the apps below, you should delete them immediately.</p>
+<h3><strong>Remove these malicious apps from your phone</strong></h3>
+<p>Here is a list of the Sharkbot-related apps:</p>
+<ul>
+<li>Atom Clean-Booster, Antivirus</li>
+<li>Antivirus, Super Cleaner</li>
+<li>Alpha Antivirus, Cleaner</li>
+<li>Powerful Cleaner, Antivirus</li>
+<li>Center Security – Antivirus (listed twice with two different icons)</li>
+</ul>
+<p>After revealing the details to Google on March 3<sup>rd</sup>, the apps were removed from the Play Store by March 27<sup>th</sup>. But if you have any of these apps on your device, then you still need to remove them. Make sure you check your bank account statements for any odd activity and change the passwords to your bank accounts.</p>
+<h3><strong>Ho<span style="color: #000000;">w <a style="color: #000000;" href="https://www.cybertalk.org/2022/03/08/sharkbot-banking-malware-hits-google-play-store-posing-as-antivirus/" target="_blank" rel="noopener">Sharkbot malware</a> works</span></strong></h3>
+<p>SharkBot’s goal is to initiate money transfers from compromised devices via Automatic Transfer Systems (ATS). According to researchers, this is an uncommon and advanced attack technique.</p>
+<p>In traditional Android banking malware, a live person needs to authorize and transact the money transfer. SharkBot is more advanced; threat actors can auto-fill the fields in the mobile banking app and initiate the money transfer. The malware can also simulate button touches and clicks, allowing other malicious applications to be installed.</p>
+<p>Sharkbot is also able to bypass multi-factor authentication mechanisms by using ATS. However, for SharkBot to abuse many of the features in Android, the victim needs to enable the <strong>Accessibility Permissions &amp; Services</strong>. The Android banking malware uses the permissions to intercept the accessibility events produced by the victim, such as touches, button presses, and other events. The accessibility events also detect when the banking application is open in order to steal user’s credentials.</p>
+<p>Sharkbot has the ability to reply to notifications from WhatsApp and Facebook Messenger to distribute phishing links to the banking Trojan, thus spreading the malware to more users.</p>
+<h3><strong>How to avoid downloading malicious apps</strong></h3>
+<p>Threat actors are always looking for new ways to spread malware by any means possible. They accomplish this by making their apps look legitimate and by creating applications that are already in high demand, such as calculators and flashlights, to attract more downloads. If you’re looking for an application from the Play Store, make sure to do your due diligence.</p>
+<p>Android users should:</p>
+<ul>
+<li>Only install applications from trusted and verified publishers</li>
+<li>Check if there is an equivalent application from a trusted publisher if you find an application from a new publisher</li>
+<li>Report any suspicious applications or activities to Google</li>
+</ul>
+<h3><strong>Mobile security protections</strong></h3>
+<p>If you’re responsible for the security of your business or organization, then you need a mobile security solution.</p>
+<p>Check Point’s <a href="https://www.checkpoint.com/harmony/mobile-security/mobile/" target="_blank" rel="noopener">Harmony Mobile</a> prevents malware from infiltrating mobile devices by detecting and blocking the download of malicious apps in real-time. Harmony Mobile’s unique network security infrastructure – on-device network protection – allows you to stay ahead of emerging threats by extending Check Point’s industry-leading network security <a href="https://www.checkpoint.com/quantum/maestro-hyperscale-network-security/" target="_blank" rel="noopener">technologies</a> to mobile devices.</p>
+<p><em>Lastly, to receive more cutting-edge cyber security news,  best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener">CyberTalk.org newsletter. </a></em></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/27/did-you-install-these-dangerous-android-apps-delete-them-now-experts-warn/">Did you install these dangerous Android apps? Delete them now, experts warn</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Advancing security with the MITRE ATT&amp;CK framework</title>
+      <link>https://www.cybertalk.org/2022/04/26/advancing-security-with-the-mitre-attck-framework/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Tue, 26 Apr 2022 20:59:27 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[Deryck Mitchelson]]></category>
+      <category><![CDATA[Deryck Mitchelson Field CISO EMEA Check Point Software]]></category>
+      <category><![CDATA[MITRE ATT&CK]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18705</guid>
+      <description><![CDATA[<p>Deryck Mitchelson, Field CISO EMEA, Check Point Software. The MITRE ATT&#38;CK framework represents a globally accessible knowledge base containing adversary tactics, techniques, and resources designed to aid cyber security defenders. The framework empowers defenders to identify gaps in visibility, defensive tools, and cyber security processes. It also serves as a “common language” for understanding the [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/26/advancing-security-with-the-mitre-attck-framework/">Advancing security with the MITRE ATT&#038;CK framework</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>Deryck Mitchelson, Field CISO EMEA, Check Point Software.</em></p>
+<p>The MITRE ATT&amp;CK framework represents a globally accessible knowledge base containing adversary tactics, techniques, and resources designed to aid cyber security defenders. The framework empowers defenders to identify gaps in visibility, defensive tools, and cyber security processes.</p>
+<p>It also serves as a “common language” for understanding the mechanics and impact of attacks. In turn, experts can then prepare stronger attack responses.</p>
+<p>This article decodes the MITRE ATT&amp;CK framework, highlights its utility and describes how to operationalize the information so that it seamlessly integrates into your existing cyber security processes and programming.</p>
+<h3><strong>The MITRE ATT&amp;CK framework<br />
+</strong></h3>
+<p>The MITRE Corporation is a federally funded non-profit group that receives security information from researchers, which is then catalogued in easy-to-read matrices.</p>
+<p>The three core matrices that MITRE produces are:</p>
+<p><strong>Enterprise: </strong>In this matrix, users can find information covering enterprise-level preparatory techniques for Windows, macOS, Linux, cloud, network and container environments.</p>
+<p><strong>Mobile: </strong>In this matrix, users can see how adversaries may hack into Android or iOS devices. Individual matrices exist for each respective mobile device type.</p>
+<p><strong>Industrial Control Systems:</strong> Attack for Industrial Control Systems (ICS) provides tactics and technique information pertaining to ICS infrastructure. A helpful list of resources is also available to offer contextual information around ICS attacks.</p>
+<p>MITRE ATT&amp;CK information should not necessarily be applied directly. Some concepts or techniques may require customization in order to maximise benefits for specific organisations or projects.</p>
+<h3><strong>MITRE ATT&amp;CK framework’s utility<br />
+</strong></h3>
+<p>The MITRE ATT&amp;CK framework allows for the aggregation and distribution of critical security information. Shared insights among the cyber security community can assist everyone in preparing for a more cyber secure future.</p>
+<p>Through the active use of MITRE, security teams can prevent breaches and stop in-motion attacks. The framework can help your organisation better align security strategy with attacker behaviour, enabling you to champion meaningful and measurable security outcomes.</p>
+<h3><strong>MITRE ATT&amp;CK framework: Blind spots<br />
+</strong></h3>
+<p>MITRE ATT&amp;CK&#8217;s resources primarily help defenders protect internal networks. Should your organisation need to monitor Infrastructure-as-a-Service or web applications, prioritise the adversarial techniques that need to be monitored, and conduct simulations accordingly. This will assist you in preventing the most common threats that may affect your sector or organisation.</p>
+<h3><strong>Closing thoughts<br />
+</strong></h3>
+<p>The MITRE ATT&amp;CK framework represents an invaluable resource for security professionals. It is open and available to any person or organization at no charge<em>. </em>In operationalizing the framework, you can increase your levels of threat intelligence, visibility, vulnerability management, and mitigation effectiveness.</p>
+<p>CheckPoint has integrated MITRE ATT&amp;CK’s taxonomy into its entire solution portfolio, and in so doing, we frame attacks in a common language that the cyber community understands.</p>
+<p>Mappings to MITRE ATT&amp;CK techniques are included in forensic reports, malware capability descriptions, <a href="https://www.checkpoint.com/products/infinity-soc/" target="_blank" rel="noopener">Infinity SOC</a> and <a href="https://www.checkpoint.com/cyber-hub/threat-prevention/what-is-xdr-extended-detection-and-response/" target="_blank" rel="noopener">Infinity XDR</a>, and more.</p>
+<p>This provides an SOC analyst with a number of advantages. When analysing a particular attack, the use of MITRE ATT&amp;CK makes it easy to understand the root causes, attack flow, and the attacker’s intent in each stage. By understanding what the attacker is trying to achieve and how, an SOC team can easily understand the scope of an attack, any necessary remediation, and how to improve defences for the future.</p>
+<p><img loading="lazy" class="size-medium wp-image-18706 alignright" src="/wp-content/uploads/2022/04/Picture_MITRE_ATTCK-300x181.png" alt="Picture_MITRE_ATT&amp;CK Framework" width="300" height="181" /></p>
+<p>It&#8217;s less a question of &#8216;if&#8217; your organization will experience a cyber security breach, as much as &#8216;when&#8217;. Incorporate MITRE ATT&amp;CK into your security framework to augment your security effectiveness and to achieve stronger results.</p>
+<p><em>Lastly, to receive more cutting-edge cyber security news,  best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener">CyberTalk.org newsletter. </a></em></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/26/advancing-security-with-the-mitre-attck-framework/">Advancing security with the MITRE ATT&#038;CK framework</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Top 5 cloud security breaches (and lessons)</title>
+      <link>https://www.cybertalk.org/2022/04/26/top-5-cloud-security-breaches-and-lessons/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Tue, 26 Apr 2022 19:12:21 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[cloud]]></category>
+      <category><![CDATA[cloud computing]]></category>
+      <category><![CDATA[cloud security attack]]></category>
+      <category><![CDATA[cloud security attacks]]></category>
+      <category><![CDATA[Cloud security breach]]></category>
+      <category><![CDATA[Cloud security breaches]]></category>
+      <category><![CDATA[cyber security]]></category>
+      <category><![CDATA[cybersecurity]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18688</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: Organizations leverage cloud computing to reduce compute costs and to rapidly provision new computing resources for the purpose of supporting evolving business needs. Cloud-based technologies provide opportunities to go-to-market quickly, allowing enterprises to reach stakeholders and customers faster than ever before. Across the past 10 years, cloud computing has transformed from into a [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/26/top-5-cloud-security-breaches-and-lessons/">Top 5 cloud security breaches (and lessons)</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>EXECUTIVE SUMMARY:</p>
+<p>Organizations leverage cloud computing to reduce compute costs and to rapidly provision new computing resources for the purpose of supporting evolving business needs. Cloud-based technologies provide opportunities to go-to-market quickly, allowing enterprises to reach stakeholders and customers faster than ever before.</p>
+<p>Across the past 10 years, cloud computing has transformed from into a cornerstone of the IT industry, boosting power of virtualization, storage, hosting and other networking services. Nonetheless, the cloud environment is vulnerable to cyber attacks. In 2021, <a href="https://www.securitymagazine.com/articles/96412-40-of-organizations-have-suffered-a-cloud-based-data-breach" target="_blank" rel="noopener">forty percent</a> of organizations reported cloud security breaches.</p>
+<p>Below are five cloud security breach examples and lessons that all organizations can benefit from.</p>
+<h2><strong>5 cloud security breaches (and lessons)</strong></h2>
+<p><strong>1. Accenture.</strong> In August of 2021, Accenture fell prey to a LockBit ransomware attack. The culprits claimed to have stolen 6TB worth of data, for which they requested a ransom of $50 million.</p>
+<p>The largest exposed server appeared to contain credentials linked to Accenture customer accounts. One backup database contained nearly <a href="https://www.healthcareitnews.com/news/accenture-latest-breach-client-data-due-misconfigured-aws-server" target="_blank" rel="noopener">40,000</a> passwords – the majority of which were in plain text.</p>
+<p>“This cloud leak shows that even the most advanced and secure enterprises can expose crucial data and risk serious consequences,” wrote security researcher <a href="https://www.healthcareitnews.com/news/accenture-latest-breach-client-data-due-misconfigured-aws-server" target="_blank" rel="noopener">Chris Vickery</a>.</p>
+<p><em>Lesson learned:</em> Ensure that IT departments and/or cyber security personnel check to ensure correct configuration of AWS cloud servers. Attacks on misconfigured servers can cause extreme reputational, client and financial damage.</p>
+<p><strong>2. Kaseya.</strong> In July of 2021, IT solutions provider Kaseya identified an attack on their unified remote monitoring and network perimeter security tool. The attackers aimed to steal administrative control for Kaseya services; from managed service providers to downstream customers.</p>
+<p>The attack itself disrupted the organization’s SaaS servers and affected on premise VSA solutions used by Kaseya customers across nearly a dozen countries. After Kaseya alerted customers about the attack, it then rolled out the Kaseya VSA detection tool, which enabled business users to analyze VSA services and to screen endpoints for indicators of vulnerability.</p>
+<p><em>Lessons learned:</em> From this attack, organizations observed the importance of maintaining updated backups in easily retrievable, air-gapped repositories that remain segregated from organizational networks. Businesses are also reminded to manage patches, implement multi-factor authentication, and follow principles of zero trust.</p>
+<p><strong>3. Cognyte.</strong> In May of 2021, the cyber analytics firm Cognyte left a database unsecured without authentication protocols. In turn, hackers managed to expose 5 billion records. Information such as names, email addresses, passwords, and vulnerability data points within their system were leaked. Information was even indexed by search engines.<strong></p>
+<p></strong><em>Lessons learned:</em> The company managed to secure the data within four days, but the incident highlighted how persistent cyber attackers can effectively exploit the smallest of flaws. In this instance, the importance of cyber attack prevention cannot be overstated. Prevent as many attacks as possible through a combination of policies, tools, education and vigilance.<strong><br />
+</strong></p>
+<p><strong>4. Facebook.</strong> In April of 2021, Facebook reported a breach affecting hundreds of millions of user records, which were publicly exposed on Amazon’s cloud computing service. Although Facebook confirmed that it identified and resolved the issue immediately, the attack managed to impact founder Mark Zuckerberg.<strong></p>
+<p></strong>In precipitating the incident, two third-party Facebook app development companies posted the records <a href="https://www.cbsnews.com/news/millions-facebook-user-records-exposed-amazon-cloud-server/" target="_blank" rel="noopener">in plain sight</a>. The database exposed contained private information that social engineers could use in targeted attacks or within hacking attempts.</p>
+<p><em>Lessons learned: </em>In resolving this issue, Facebook reached out to Amazon, which took down the exposed servers. “…If you’re still opening AWS buckets [to the public], you’re not paying attention,” says business advisor <a href="https://www.latimes.com/business/la-fi-tn-facebook-user-data-amazon-web-services-privacy-20190403-story.html" target="_blank" rel="noopener">Corey Quinn</a>.</p>
+<p><strong>5. Raychat.</strong> In February of 2021, Raychat, an online chat application, survived a large-scale cyber attack. A cloud database configuration breach gave hackers free access to 267 million usernames, emails, passwords, metadata and encrypted chats. Shortly thereafter, a targeted bot attack erased the entirety of the company’s data.<strong></p>
+<p></strong>According to reports, a MongoDB misconfiguration left the data openly available. The attack highlighted how NoSQL databases can function as easy targets for bot threat actors.<strong></p>
+<p></strong>Organizations need to ensure that databases are secure. NoSQL databases in particular represent targets for malicious actors who wish to steal or wipe content, unless given a ransom payment. In Raychat’s case, a README ransom note appeared, demanding roughly $700 USD.</p>
+<p><em>Lesson learned:</em> Database security requires a range of tools controls and measures that can protect the database itself, the actual data embedded within, its database management system and the assorted applications that access it. End-to-end compliance technologies and cybersecurity penetration tests can help.</p>
+<h3><strong>In closing</strong></h3>
+<p>Cloud computing increases operational efficiency and simplicity, provided that security measures are in place. Is your cloud secure enough?</p>
+<p>Be sure to avoid AWS security breaches and other common stumbling points. For more cloud security breach insights, see <a href="https://www.cybertalk.org/2021/10/20/key-cloud-security-statistics-that-will-reshape-your-cloud-perspectives/" target="_blank" rel="noopener">CyberTalk.org’s past coverage</a>. Also, be sure to check out our <a href="https://pages.checkpoint.com/buyers_guide_to_cloud_security_posture_management.html" target="_blank" rel="noopener">Cloud Security Buyer’s Guide</a>.</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/26/top-5-cloud-security-breaches-and-lessons/">Top 5 cloud security breaches (and lessons)</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Exposing the cyber criminal supply chain</title>
+      <link>https://www.cybertalk.org/2022/04/25/exposing-the-cyber-criminal-supply-chain/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Mon, 25 Apr 2022 21:07:20 +0000</pubDate>
+      <category><![CDATA[OPINION]]></category>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18681</guid>
+      <description><![CDATA[<p>By Pete Nicoletti, Check Point Field CISO, Americas Since the inception of the internet, we’ve referred to the bad guys as “hackers.”  But who are they exactly? How many people are involved? And most importantly, how can we reverse the increasing number of breaches conducted by cyber criminals? Recently, criminal organizations have evolved into large [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/25/exposing-the-cyber-criminal-supply-chain/">Exposing the cyber criminal supply chain</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>By Pete Nicoletti, Check Point Field CISO, Americas</p>
+<p>Since the inception of the internet, we’ve referred to the bad guys as “hackers.”  But who are they exactly? How many people are involved? And most importantly, how can we reverse the increasing number of breaches conducted by cyber criminals?</p>
+<p>Recently, criminal organizations have evolved into large multi-national enterprises. They now have all of the characteristics of a regular business. As with any other organization, cyber criminals need to pay their hundreds of employees, write and modify software code, create exploits, manage the targeting, exploitation and extortion of companies, and then dole out their ill-gotten gains to the participants. They have standard operating procedures, ticketing systems, tech support, contracts, hiring bonuses, training programs, college recruiting days and other characteristics of a normal company. Furthermore, the cyber criminal supply chain consists of not just one organization, but also dozens of affiliate crime groups that work together to profit from malware, DDoSing, ransomware-as-a-service, botnets, and other threat types.</p>
+<p>Cyber crime is an illicit multi-billion dollar industry. If you’re an IT security practitioner or a C-level executive, then it’s critical to understand who you’re up against and how you can disrupt their activities.</p>
+<h3><strong>The rise in cyber criminal syndicates</strong></h3>
+<p>Financial reward is still the main motive behind most cyber attacks, so it comes as no surprise that cyber attacks have increased at alarming rates. In 2021, organizations witnessed a 50% rise in cyber attacks compared to 2020, and this number is expected to increase throughout 2022.</p>
+<p>Cyber criminal organizations are structured like any other business enterprise. Every year, they evolve, pivot, and expand with new business angles and revenue streams. These organizations have one goal in mind – to spread of malware, ransomware, encryption extortion and related disruptions to generate profits.</p>
+<h3><strong>The cyber criminal supply chain</strong></h3>
+<p>What does the cybercrime supply chain look like? There are multiple players working together. First, the creators of malware sell, license, and distribute their software to affiliates and distributors, who then sell the software to partners, clients, and individual threat actors who target their victims.</p>
+<p>Then, there are hackers -also known as “brokers”- who sell access to hacked companies as well as to others who manage “insiders” willing to sell out their company for some silver. These criminals are charging anywhere from $500 to $7,000 for access to organizations’ networks, and these victims range from healthcare organizations to charities. When profits are at stake, morals don’t matter.</p>
+<p>Brokers often advertise their breaches in the corners of the Dark Web. Thus, it’s recommended that organizations lurk there or hire consultants to find out about whether or not a broker is advertising a breach of their network. Then, the victim organization can take preventative actions to remove the backdoor. A Spain-based arm of Doctors Without Borders discovered that a broker was advertising access into one of their servers. Once discovered, they immediately took corrective measures and strengthened their security processes.</p>
+<p>On the financial end, you have money managers who launder money and churn transactions to hide the ultimate money destinations, and those that process transactions and distribute payroll. Other individuals manage the sale of information on the Dark Web. They take advantage of money mules, who unwittingly lauder money and have no idea that what they’re doing is illegal. For example, a crime group will hire for an “Accounts Payable Manager,” portraying it as an easy job that anyone can do. However, what the job entails is processing invoices and sending them off to pay another account, which is actually laundering their money. And the legal consequences will fall on the person moving the money, even if they don’t know that what they’re doing is illegal.</p>
+<p>Let’s take a look at one of the most infamous examples of a cyber attack that has become the bread and butter of cyber criminal groups: ransomware, or more specifically, Ransomware-as-a-Service (RaaS). There’s a reason as to why ransomware has become incredibly popular; it’s because it works. The average ransom payment for US victims has increased to more than $6 million. With the amount of money at stake, it makes sense for threat actors to treat this professionally &#8211; like a business enterprise.</p>
+<p>There are a growing number of organizations, such as REvil, DarkSide, and others who provide Ransomware-as-a-Service to threat actors. Affiliates and clients are responsible for using the tools to penetrate the organization, while the ransomware franchisers provide ransom collection, encryption tools, and other services. They also collect a percentage of the total ransom obtained. The affiliates then attempt to monetize stolen blueprints and intellectual property and will even start blackmailing customers of the hacked company.</p>
+<p>This is referred to as “Triple Extorsion Ransomware” as it extracts money from the target company, their customers and their partners. Hackers commonly target critical infrastructure entities such as healthcare, transportation, and citizen services. These organizations often can’t afford the downtime, may not have the budget or security experts on staff, and are more likely to pay a ransom than other types of groups.</p>
+<h3><strong>How to break the supply chain<br />
+</strong></h3>
+<p>The goal of disrupting any threat is to block it before it can cause damage. In the previous generation of cyber threats, we used the “Kill Chain” model of an attack. That model has evolved into the MITRE ATT&amp;CK framework, as it is much more descriptive of the tactics, techniques and procedures that threat actors use. When attackers start to arrive at the front door, the MITRE ATT&amp;CK framework is often put into immediate play.</p>
+<p>But what are some approaches we’ve seen used before the hackers knock on your front door?  Until you are willing to travel to Russia, China or North Korea, we’ll have to depend on Law enforcement! The FBI, Interpol and other agencies can be a great partner that is at least partially focused on different methods to disrupt the hacker supply chain. In the past, we have seen government agencies shut down pirate sites set up for facilitating illegal sharing of movies and television shows. That was small time stuff.</p>
+<p>Now, law enforcement is targeting sites that sell and trade credit cards, illegal drugs, weapons, and hacking tools. Law enforcement is focusing on shutting down service providers, data hosts, and command and control networks that allow criminals to use their infrastructures to carry out their nefarious operations.</p>
+<p>It’s also critical to follow the money: police and detectives can focus on tracking cryptocurrency transactions through the block chain to see which groups and affiliates are connected. There is an entirely new FBI Division focused exclusively on criminals abusing cryptocurrency.  Compromising those sites and taking internal information and decryption keys, learning their tactics, freezing those assets and arresting the bad actors will have a significant impact.  Last week, six members of the LAPUS$ group were arrested, and their activities were disrupted. We have also seen how law enforcement can seed the Dark Web forums with misinformation or traps to lure criminals into giving up valuable information.</p>
+<p>Once the attack is directed towards you, there are several ways an organization can disrupt the criminal supply chain. First, you must have your cloud, network, endpoint and email protection tools all working together to “prevent” issues rather than just “detect” them.  Detection is no longer good enough as the threat actors have sped up the time from initial compromise to data exfiltration and encryption to mere seconds. Your tools must work at “machine speed,” not at “human speed.”</p>
+<p>If your tools only detect an issue, and you create a ticket while waiting for a human to research the problem, then you will experience a compromise soon! Your tools must also leverage artificial intelligence (AI) and Machine Learning (ML) algorithms designed to spot zero-days and their indicators. This capability enhances companies’ ability to execute countermeasures automatically as an attack hits.</p>
+<p>Second, your tools must leverage threat feeds to harness the power of seeing threats as they are seen attacking others. This info sharing also needs to be bi-directional, as by sharing this threat intelligence, organizations around the world can be prepared at the hint of a new attack. Of course, there are many other ways that organizations can beef up their own security and make it more difficult for cyber criminals to get in, so they will move on to an easier target. Finally, businesses need to thoroughly examine all the links in their own supply chain, partners, franchisees and remote offices to improve their security posture. This includes requiring 3<sup>rd</sup> party suppliers to verify the security of their processes as well as not fully trusting them and using security gateways to inspect their traffic. All these tactics combined will effectively disrupt the cyber criminal business model.</p>
+<p>Cyber crime has evolved into a huge industry in which threat actors have copied the business structures of legitimate organizations and are becoming more successful and damaging. With their own well-funded supply chain in place, it’s on us – organization and government leaders – to take the necessary actions to disrupt and ultimately put an end to their business model. This requires moving your tools to a “prevention” posture, identifying and dropping zero-day attacks before they are implemented, leveraging AI/ML to respond at lightning speed while working with and cheering on law enforcement as they are disrupting their hacking and financial networks.</p>
+<p>Don’t think that it can’t happen to you! <em>Lastly, to receive more cutting-edge cyber security news,  best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener">CyberTalk.org newsletter. </a></em></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/25/exposing-the-cyber-criminal-supply-chain/">Exposing the cyber criminal supply chain</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>How Hive ransomware Exchange server attacks could damage your business</title>
+      <link>https://www.cybertalk.org/2022/04/25/how-hive-ransomware-exchange-server-attacks-could-damage-your-business/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Mon, 25 Apr 2022 17:42:17 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[Hive]]></category>
+      <category><![CDATA[Hive ransomware]]></category>
+      <category><![CDATA[Hive ransomware affiliate]]></category>
+      <category><![CDATA[Hive ransomware gang]]></category>
+      <category><![CDATA[Hive ransomware group]]></category>
+      <category><![CDATA[ransomware as a service]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18667</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: In the past year, ransomware attacks have increased significantly. They represent one of hackers’ preferred methods for maximizing profits, but can lead to reputational damage, disruptions to business operations, data loss, stock price drops and legal consequences. At present, an affiliate of the notorious Hive ransomware group is exploiting known vulnerabilities in Microsoft [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/25/how-hive-ransomware-exchange-server-attacks-could-damage-your-business/">How Hive ransomware Exchange server attacks could damage your business</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<h2>EXECUTIVE SUMMARY:</h2>
+<p>In the past year, ransomware attack<span style="color: #000000;">s have <a style="color: #000000;" href="https://blog.checkpoint.com/2021/06/14/ransomware-attacks-continue-to-surge-hitting-a-93-increase-year-over-year/" target="_blank" rel="noopener">increased</a> sign</span>ificantly. They represent one of hackers’ preferred methods for maximizing profits, but can lead to reputational damage, disruptions to business operations, data loss, stock price drops and legal consequences.</p>
+<p>At present, an affiliate of the notorious Hive ransomware group is exploiting known vulnerabil<span style="color: #000000;">ities in <a style="color: #000000;" href="https://www.cybertalk.org/2021/04/15/the-nsa-alerts-and-new-microsoft-exchange-server-vulnerabilities/" target="_blank" rel="noopener">Microsoft Exchange servers</a> in or</span>der to launch ransomware attacks. Once the attacks hit targets, the attacker threatens to encrypt, exfiltrate and publicly disclose targets&#8217; privately owned data.</p>
+<h3><strong>Unnamed enterprise attack</strong></h3>
+<p>In a recent incident involving an unnamed organization, the Hive affiliate compromised several devices and file servers through the exploitation of the ProxyShell vulnerabilities in Exchange servers. Within 72 hours, data was irreconcilably encrypted.</p>
+<p>This attack included typical Hive hallmarks – data encr<span style="color: #000000;">ypting <a style="color: #000000;" href="https://www.cybertalk.org/2022/02/15/10-of-the-most-dangerous-malware-threats/" target="_blank" rel="noopener">malware</a> an</span>d threat of public disclosure. On occasion, the group has included a third threat, saying that they will erase all data in the event that a ransom request goes unpaid.</p>
+<h3><strong>Hive ransomware attackers</strong></h3>
+<p>The Hive ransomware group first emerged in June of 2021. Since then, Hive has targeted a range of sectors, including healthcare, nonprofit, retail, and energy. Last week, the US Health and Human Services (HHS) agency sent out a warning to healthcare providers regarding the Hive threat.</p>
+<p>In the short time since launch, Hive has established itself as a particularly aggressive organization. According to one report, Hive ranks as the fourth-most active ransomware operator in existence. As many as 335 ransomware attacks have been attributed to Hive or Hive affiliates.</p>
+<p>Hive operates using<span style="color: #000000;"> the <a style="color: #000000;" href="https://www.cybertalk.org/2021/08/19/believe-it-or-not-this-is-whats-happening-with-ransomware/" target="_blank" rel="noopener">Ransomware-as-a-Service</a> mod</span>el. In other words, Hive leases its technology to &#8216;smaller&#8217; cyber criminals, who then deploy the technology against organizations. Hive takes a cut of the ransom profits.</p>
+<h3><strong>Technical details</strong></h3>
+<p>Hive attacks focus on ProxyShell Remote Code Execution (RCE) vulnerabilities. Other threat groups, including Conti, have also been known to use these types of vulnerabilities. While Microsoft patched the flaw more than a year ago, not all organizations updated their Exchange Servers.</p>
+<p>After vulnerability exploit, the Hive affiliate deploys a backdoor webshell that executes malicious PowerShell code in compromised systems (with SYSTEM privileges). This is followed by additional stagers from a command-and-control (C2) server linked to the Cobalt Strike framework. One element of the framework includes an additional obfuscated PowerShell script. The hacker then takes control over the domain administrator account and moves laterally through the network.</p>
+<p>Observed hacker activities include searching for files labeled with the word “password,” dropp<span style="color: #000000;">ing <a style="color: #000000;" href="https://www.cybertalk.org/network-security-in-the-new-normal/" target="_blank" rel="noopener">network</a> scann</span>ers, and collecting networks’ IP addresses and device names, according to cyber security researchers. Further, investigative clues led researchers to believe that the Hive affiliate attempts to ensure access to critical servers ahead of ransomware deployment.</p>
+<h3><strong>How to avoid Hive ransomware</strong></h3>
+<p>Worried about Hive? Pursue various means of protecting your organization against Hive and Hive affiliate threats. Address the threat by:</p>
+<ul>
+<li>Updating Exchange servers with the latest Exchange cumulative and security patches from Microsoft</li>
+<li>Mandating the use of complex passwords</li>
+<li>Ensuring that employees rotate passwords on a regular basis</li>
+<li>Revoking local administrative permissions from domain accounts</li>
+<li>Removing inactive user accounts</li>
+</ul>
+<h3><strong>In closing</strong></h3>
+<p>Many businesses remain unable to survive the impact of a ransomware attack. Ensure that your enterprise has the right policies, procedures, and technologies in-place in order to protect your systems, employees and clients. Take a proactive stance against this Exchange server attack and against ransomware attacks at-large.</p>
+<p>For more information about Exchange server attacks and ransomware, <a href="https://www.cybertalk.org/2022/02/25/microsoft-confirms-exchange-servers-hacked-with-cuba-ransomware/" target="_blank" rel="noopener">click here.</a> <em>Lastly, to receive more cutting-edge cyber security news,  best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener">CyberTalk.org newsletter. </a></em></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/25/how-hive-ransomware-exchange-server-attacks-could-damage-your-business/">How Hive ransomware Exchange server attacks could damage your business</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>LinkedIn’s little secret: How a social media monolith became a magnet for hackers</title>
+      <link>https://www.cybertalk.org/2022/04/22/linkedins-little-secret-how-a-social-media-monolith-became-a-magnet-for-hackers/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Fri, 22 Apr 2022 21:37:30 +0000</pubDate>
+      <category><![CDATA[OPINION]]></category>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[52%]]></category>
+      <category><![CDATA[LinkedIn identity theft]]></category>
+      <category><![CDATA[LinkedIn Security]]></category>
+      <category><![CDATA[LinkedIn Security Check]]></category>
+      <category><![CDATA[social media]]></category>
+      <category><![CDATA[Staying safe on social media]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18644</guid>
+      <description><![CDATA[<p>By Edwin Doyle, Global Cyber Security Strategist, Check Point Software  LinkedIn is the #1 online platform through which to build your business brand and your personal brand. The LinkedIn business community empowers you to increase connections, track other businesses, measure engagement, browse events, and it helps establish credibility. However, as of late, it is also [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/22/linkedins-little-secret-how-a-social-media-monolith-became-a-magnet-for-hackers/">LinkedIn’s little secret: How a social media monolith became a magnet for hackers</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>By Edwin Doyle, Global Cyber Security Strategist, Check Point Software </em></p>
+<p>LinkedIn is the #1 online platform through which to build your business brand and your personal brand. The LinkedIn business community empowers you to increase connections, track other businesses, measure engagement, browse events, and it helps establish credibility. However, as of late, it is also the #1 social media site on which professionals might inadvertently succumb to an unnerving phishing attempt.</p>
+<p>New research sheds light on just how vulnerable the LinkedIn community really is and just how vicious cyber attackers have become. The research emerges from Check Point Software’s technical division, meaning that it’s highly repudiated and compelling. Share this article with your contacts to help them sidestep unnecessary risks, secure profiles, and contend with compromises.</p>
+<h3><strong>LinkedIn’s little secret</strong></h3>
+<p>In relation to LinkedIn, hackers have learned to tap into a unique little secret. And the secret is as salient as it is startling. The majority of internet users on LinkedIn are business professionals whose salaries surpass <a href="https://www.statista.com/statistics/246176/share-of-us-internet-users-who-use-linkedin-by-household-income/" target="_blank" rel="noopener">$100,000</a> per year. This transforms LinkedIn’s population into enticing spear phishing targets, especially as compared to individuals on Facebook, who aren’t necessarily salaried professionals.</p>
+<p>In the first quarter of 2022, <a href="https://blog.checkpoint.com/2022/04/19/social-networks-most-likely-to-be-imitated-by-criminal-groups-with-linkedin-now-accounting-for-half-of-all-phishing-attempts-worldwide/" target="_blank" rel="noopener">52%</a> of all phishing-related attempts occurred on LinkedIn, according to cyber security researchers with Check Point Software. LinkedIn-focused cyber criminals regularly launch large-scale attacks and attempt to deceptively access as many credit card numbers, bank account details, and payment account credentials as possible, in addition to pinching other types of information.</p>
+<h3><strong>Your LinkedIn security check</strong></h3>
+<p>To avoid financial losses, reputational damage, and legal consequences, ensure that you (and your organization) circumvent phishing on social media. Here’s how you can stay on a safe and secure path.</p>
+<ol>
+<li>Check to make sure that your email address and personal information are not visible to other LinkedIn users.</li>
+<li>Evaluate whether or not you are oversharing information. Screenshots and pictures reveal personal details that hackers can use to their advantage.</li>
+<li>Avoid responding to messages that sound urgent. Hackers like to pressure victims into complying with requests.</li>
+<li>Regularly refresh your knowledge pertaining to the latest social media scams. Once you’ve refreshed your knowledge, educate those around you.</li>
+</ol>
+<h3><strong>LinkedIn security check fails</strong></h3>
+<p>Over the course of the next few months, adopt an attitude of vigilance in relation to social media. In the event that your account is compromised, visit the relevant help page, follow the recommendations and report the incident. Respond, recover and thrive.</p>
+<h3><strong>Closing thoughts</strong></h3>
+<p>Securing any and all communication channels is a best practice. Cyber risk is a top concern for employers and employees alike. In the next normal, we’ll need a stronger cyber security mindset than ever before. Build digital resilience by leveraging the tips noted above and by sharing this article with your employees, contacts, and peers.</p>
+<p>To learn more about identifying phishing attempts and conducting a LinkedIn security check, visit the Linkedin.com <a href="https://www.linkedin.com/help/linkedin/answer/5342/phishing-emails?lang=en" target="_blank" rel="noopener">Help Center</a>. <em>Lastly, to receive cutting-edge cyber security news, insights, best practices and analyses in your inbox each week, sign up for the </em><a href="https://www.cybertalk.org/cyber-security-newsletter/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=articles" target="_blank" rel="noopener">CyberTalk.org newsletter.</a></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/22/linkedins-little-secret-how-a-social-media-monolith-became-a-magnet-for-hackers/">LinkedIn’s little secret: How a social media monolith became a magnet for hackers</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Hawaii undersea cable attack: A credential theft story</title>
+      <link>https://www.cybertalk.org/2022/04/22/hawaii-undersea-cable-attack-a-credential-theft-story/</link>
+      <dc:creator><![CDATA[Shira Landau]]></dc:creator>
+      <pubDate>Fri, 22 Apr 2022 21:23:06 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[espionage]]></category>
+      <category><![CDATA[Hawaii]]></category>
+      <category><![CDATA[Hawaii undersea cable attack]]></category>
+      <category><![CDATA[nation-state]]></category>
+      <category><![CDATA[ransomware]]></category>
+      <category><![CDATA[Undersea cable attack]]></category>
+      <guid isPermaLink="false">https://dm-cybertalk.us.checkpoint.com/?p=18640</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: The Hawaii undersea cable attack highlights a pervasive problem – the loose security surrounding more than 700,000 miles of undersea cables that ferry information to financial markets and that communicate sensitive national security information between governments. These cables are the invisible force giving life to the modern internet. Hawaii undersea cable attack According [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/22/hawaii-undersea-cable-attack-a-credential-theft-story/">Hawaii undersea cable attack: A credential theft story</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>EXECUTIVE SUMMARY:</p>
+<p><em><span style="font-size: 16px;">The Hawaii undersea cable attack highlights a pervasive problem – the loose security surrounding more than <a href="https://www.cnn.com/2019/07/25/asia/internet-undersea-cables-intl-hnk/index.html" target="_blank" rel="noopener">700,000 miles</a> of undersea cables that ferry information to financial markets and that communicate sensitive national security information between governments. These cables are the invisible force giving life to the modern internet.</span><br />
+</em></p>
+<h3><strong>Hawaii undersea cable attack</strong></h3>
+<p>According to the US National Oceanic and Atmospheric Administration, nearly 95% of intercontinental internet data flows via hundreds of submerged internet cables. Ownership of the cables falls under the purview of several private and state-owned entities. For a multiplicity of reasons, the cables face increasing risks to their cyber security and resilience.</p>
+<p>Reports indicate that threats to cable integrity include authoritarian regimes’ interests in controlling internet access, and surreptitious monitoring by government or criminal entities who wish to steal sensitive information.</p>
+<h3><strong>Undersea cable attack story</strong></h3>
+<p>In Honolulu, US federal agents recently disrupted a cyber attack targeting an unspecified telecommunication company’s servers. The servers are connected with an underwater cable responsible for internet, cellular connections and cable service in Hawaii.</p>
+<p>Hawaii-based Homeland Security agents pursued this investigation on account of a tip from US mainland counterparts. The investigation resulted in the disruption of a “<a href="https://www.cyberscoop.com/undersea-cable-operator-hacked-hawaii/" target="_blank" rel="noopener">significant</a> breach involving a private company’s servers associated with an undersea cable.”</p>
+<p>An international hacking group is allegedly responsible for the attack. Law enforcement partners in several nations worked together in order to make an arrest, although the location of the arrest remains classified.</p>
+<h3><strong>Credential theft’s role</strong></h3>
+<p>The Department of Homeland Security’s Special Agent John Tobon shared that attackers appeared to have obtained credentials that permitted access into the unnamed company’s systems. The credential theft component of this story reinforces the importance of strong credential management policies, including the use of zero trust principles.</p>
+<p>The attackers’ motivations remain unclear. They may have intended to create havoc, to shut down communications or to engage in espionage and information theft. In the wake of geopolitical events, the latter might not come as a surprise.</p>
+<h3><strong>Espionage, information theft and disruption</strong></h3>
+<p>The tapping of underwater cables in times of geopolitical turmoil is not new. Amidst the Cold War, US submarines dispatched divers to attach special equipment to Soviet undersea cables, allowing for the interception of all communications. This secret surveillance lasted for nearly a decade, until information was sold to the Soviets by a former National Security Agency communications specialist.</p>
+<p>A contemporary disruption to cables could potentially take down portions of the internet’s infrastructure, forcing people to use cables within an authoritarian regime’s control. This could be another motive for undersea cable attacks. <a href="https://www.cs.columbia.edu/~smb/papers/reroute.pdf" target="_blank" rel="noopener">AT&amp;T Labs</a> has issued a report on this subject.</p>
+<p><strong>Further threats</strong></p>
+<p>Beyond authoritarian regimes, another threat to the security of the undersea cables includes the remote management of cable networks. A number of undersea cable systems are known for low levels of security. In turn, this makes cables vulnerable to persistent cyber attackers and advanced persistent threats.</p>
+<p>Ransomware is also an “acute” threat in relation to undersea cables. Experts have expressed concern about the possibility of a cyber attacker holding an undersea cable management system hostage to engage in a ransom extortion scheme.</p>
+<h3><strong>Closing thoughts</strong></h3>
+<p>To better protect undersea cables, stronger government and private sector partnerships need to evolve. Opportunities to collaborate abound and everyone needs to work together when it comes to implementing more effective security solutions.<strong><br />
+</strong></p>
+<p>For related content, please see CyberTalk.org’s story entitled, <strong><a href="https://www.cybertalk.org/2020/05/13/could-ten-million-dollars-simply-vanish-in-the-ocean/" target="_blank" rel="noopener">Could Ten Million Dollars Simply Vanish into the Ocean?</a> </strong><em>Lastly, to receive more cutting-edge cyber security news,  best practices and analyses, please sign up for the <a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters">CyberTalk.org newsletter. </a></em></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2022/04/22/hawaii-undersea-cable-attack-a-credential-theft-story/">Hawaii undersea cable attack: A credential theft story</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

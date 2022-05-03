@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:thr="http://purl.org/syndication/thread/1.0" xml:lang="en-US" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <title type="text">Schneier on Security</title>
+  <subtitle type="text">
+  </subtitle>
+  <updated>2022-05-02T21:50:40Z</updated>
+  <link rel="alternate" type="text/html" href="https://www.schneier.com" />
+  <id>https://www.schneier.com/feed/atom/</id>
+  <link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+  <icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Friday Squid Blogging: Ten-Foot Long Squid Washed onto  Japanese Shore — ALIVE]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-ten-foot-long-squid-washed-onto-japanese-shore-alive.html" />
+    <id>https://www.schneier.com/?p=65360</id>
+    <updated>2022-04-27T17:26:55Z</updated>
+    <published>2022-04-29T21:08:34Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="squid" />
+    <summary type="html"><![CDATA[<p>This is <a href="https://mainichi.jp/english/articles/20220420/p2a/00m/0li/022000c">rare</a>:</p>
+<blockquote><p>An about 3-meter-long giant squid was found stranded on a beach here on April 20, in what local authorities said was a rare occurrence.</p>
+<p>At around 10 a.m., a nearby resident spotted the squid at Ugu beach in Obama, Fukui Prefecture, on the Sea of Japan coast. According to the Obama Municipal Government, the squid was still alive when it was found. It is unusual for a giant squid to be washed ashore alive, officials said.</p>
+<p>The deep-sea creature will be transported to Echizen Matsushima Aquarium in the prefectural city of Sakai.</p></blockquote>
+<p>Sadly, I do not expect the giant squid to survive, certainly not long enough for me to fly there and see it. But if any Japanese readers can supply more information, I would very much appreciate it...</p>]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-ten-foot-long-squid-washed-onto-japanese-shore-alive.html"><![CDATA[<p>This is <a href="https://mainichi.jp/english/articles/20220420/p2a/00m/0li/022000c">rare</a>:</p>
+<blockquote><p>An about 3-meter-long giant squid was found stranded on a beach here on April 20, in what local authorities said was a rare occurrence.</p>
+<p>At around 10 a.m., a nearby resident spotted the squid at Ugu beach in Obama, Fukui Prefecture, on the Sea of Japan coast. According to the Obama Municipal Government, the squid was still alive when it was found. It is unusual for a giant squid to be washed ashore alive, officials said.</p>
+<p>The deep-sea creature will be transported to Echizen Matsushima Aquarium in the prefectural city of Sakai.</p></blockquote>
+<p>Sadly, I do not expect the giant squid to survive, certainly not long enough for me to fly there and see it. But if any Japanese readers can supply more information, I would very much appreciate it.</p>
+<p>BoingBoing &lt;a href=&#8221;https://boingboing.net/2022/04/26/giant-squid-rescued-from-obama-in-japan.html>post</a>. <a href="https://mobile.twitter.com/AFP/status/1517406552776667136">Video</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-ten-foot-long-squid-washed-onto-japanese-shore-alive.html#comments" thr:count="101" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-ten-foot-long-squid-washed-onto-japanese-shore-alive.html/feed/atom/" thr:count="101" />
+    <thr:total>101</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Video Conferencing Apps Sometimes Ignore the Mute Button]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/video-conferencing-apps-sometimes-ignore-the-mute-button.html" />
+    <id>https://www.schneier.com/?p=65380</id>
+    <updated>2022-04-29T14:18:35Z</updated>
+    <published>2022-04-29T14:18:35Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="academic papers" />
+    <category scheme="https://www.schneier.com" term="privacy" />
+    <category scheme="https://www.schneier.com" term="videoconferencing" />
+    <summary type="html"><![CDATA[<p>New research: &#8220;<a href="https://wiscprivacy.com/publication/vca_mute/">Are You Really Muted?: A Privacy Analysis of Mute Buttons in Video Conferencing Apps</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> In the post-pandemic era, video conferencing apps (VCAs) have converted previously private spaces &#8212; bedrooms, living rooms, and kitchens &#8212; into semi-public extensions of the office. And for the most part, users have accepted these apps in their personal space, without much thought about the permission models that govern the use of their personal data during meetings. While access to a device’s video camera is carefully controlled, little has been done to ensure the same level of privacy for accessing the microphone. In this work, we ask the question: what happens to the microphone data when a user clicks the mute button in a VCA? We first conduct a user study to analyze users&#8217; understanding of the permission model of the mute button. Then, using runtime binary analysis tools, we trace raw audio in many popular VCAs as it traverses the app from the audio driver to the network. We find fragmented policies for dealing with microphone data among VCAs &#8212; some continuously monitor the microphone input during mute, and others do so periodically. One app transmits statistics of the audio to its telemetry servers while the app is muted. Using network traffic that we intercept en route to the telemetry server, we implement a proof-of-concept background activity classifier and demonstrate the feasibility of inferring the ongoing background activity during a meeting &#8212; cooking, cleaning, typing, etc. We achieved 81.9% macro accuracy on identifying six common background activities using intercepted outgoing telemetry packets when a user is muted...</p></blockquote>]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/video-conferencing-apps-sometimes-ignore-the-mute-button.html"><![CDATA[<p>New research: &#8220;<a href="https://wiscprivacy.com/publication/vca_mute/">Are You Really Muted?: A Privacy Analysis of Mute Buttons in Video Conferencing Apps</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> In the post-pandemic era, video conferencing apps (VCAs) have converted previously private spaces &#8212; bedrooms, living rooms, and kitchens &#8212; into semi-public extensions of the office. And for the most part, users have accepted these apps in their personal space, without much thought about the permission models that govern the use of their personal data during meetings. While access to a device’s video camera is carefully controlled, little has been done to ensure the same level of privacy for accessing the microphone. In this work, we ask the question: what happens to the microphone data when a user clicks the mute button in a VCA? We first conduct a user study to analyze users&#8217; understanding of the permission model of the mute button. Then, using runtime binary analysis tools, we trace raw audio in many popular VCAs as it traverses the app from the audio driver to the network. We find fragmented policies for dealing with microphone data among VCAs &#8212; some continuously monitor the microphone input during mute, and others do so periodically. One app transmits statistics of the audio to its telemetry servers while the app is muted. Using network traffic that we intercept en route to the telemetry server, we implement a proof-of-concept background activity classifier and demonstrate the feasibility of inferring the ongoing background activity during a meeting &#8212; cooking, cleaning, typing, etc. We achieved 81.9% macro accuracy on identifying six common background activities using intercepted outgoing telemetry packets when a user is muted.</p></blockquote>
+<p>The paper will be presented at <a href="https://petsymposium.org/2022/paperlist.php">PETS</a> this year.</p>
+<p>News <a href="https://thenextweb.com/news/muting-your-mic-doesnt-stop-big-tech-recording-your-audio">article</a>.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/video-conferencing-apps-sometimes-ignore-the-mute-button.html#comments" thr:count="15" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/video-conferencing-apps-sometimes-ignore-the-mute-button.html/feed/atom/" thr:count="15" />
+    <thr:total>15</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Microsoft Issues Report of Russian Cyberattacks against Ukraine]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/microsoft-issues-report-of-russian-cyberattacks-against-ukraine.html" />
+    <id>https://www.schneier.com/?p=65378</id>
+    <updated>2022-04-28T14:15:56Z</updated>
+    <published>2022-04-28T14:15:56Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="cyberattack" />
+    <category scheme="https://www.schneier.com" term="cyberespionage" />
+    <category scheme="https://www.schneier.com" term="cyberwar" />
+    <category scheme="https://www.schneier.com" term="espionage" />
+    <category scheme="https://www.schneier.com" term="reports" />
+    <category scheme="https://www.schneier.com" term="Russia" />
+    <category scheme="https://www.schneier.com" term="Ukraine" />
+    <summary type="html"><![CDATA[<p>Microsoft has a <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd">comprehensive report</a> on the dozens of cyberattacks &#8212; and even more espionage operations &#8212; Russia has conducted against Ukraine as part of this war:</p>
+<blockquote><p>At least six Russian Advanced Persistent Threat (APT) actors and other unattributed threats, have conducted destructive attacks, espionage operations, or both, while Russian military forces attack the country by land, air, and sea. It is unclear whether computer network operators and physical forces are just independently pursuing a common set of priorities or actively coordinating. However, collectively, the cyber and kinetic actions work to disrupt or degrade Ukrainian government and military functions and undermine the public&#8217;s trust in those same institutions...</p></blockquote>]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/microsoft-issues-report-of-russian-cyberattacks-against-ukraine.html"><![CDATA[<p>Microsoft has a <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd">comprehensive report</a> on the dozens of cyberattacks &#8212; and even more espionage operations &#8212; Russia has conducted against Ukraine as part of this war:</p>
+<blockquote><p>At least six Russian Advanced Persistent Threat (APT) actors and other unattributed threats, have conducted destructive attacks, espionage operations, or both, while Russian military forces attack the country by land, air, and sea. It is unclear whether computer network operators and physical forces are just independently pursuing a common set of priorities or actively coordinating. However, collectively, the cyber and kinetic actions work to disrupt or degrade Ukrainian government and military functions and undermine the public&#8217;s trust in those same institutions.</p>
+<p>[&#8230;]</p>
+<p>Threat groups with known or suspected ties to the GRU have continuously developed and used destructive wiper malware or similarly destructive tools on targeted Ukrainian networks at a pace of two to three incidents a week since the eve of invasion. From February 23 to April 8, we saw evidence of nearly 40 discrete destructive attacks that permanently destroyed files in hundreds of systems across dozens of organizations in Ukraine.</p></blockquote>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/microsoft-issues-report-of-russian-cyberattacks-against-ukraine.html#comments" thr:count="18" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/microsoft-issues-report-of-russian-cyberattacks-against-ukraine.html/feed/atom/" thr:count="18" />
+    <thr:total>18</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Zero-Day Vulnerabilities Are on the Rise]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/zero-day-vulnerabilities-are-on-the-rise.html" />
+    <id>https://www.schneier.com/?p=65374</id>
+    <updated>2022-04-27T18:40:22Z</updated>
+    <published>2022-04-27T18:40:22Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="hacking" />
+    <category scheme="https://www.schneier.com" term="malware" />
+    <category scheme="https://www.schneier.com" term="ransomware" />
+    <category scheme="https://www.schneier.com" term="vulnerabilities" />
+    <category scheme="https://www.schneier.com" term="zero-day" />
+    <summary type="html"><![CDATA[<p>Both <a href="https://googleprojectzero.blogspot.com/2022/04/the-more-you-know-more-you-know-you.html">Google</a> and <a href="https://www.mandiant.com/resources/zero-days-exploited-2021">Mandiant</a> are reporting a significant increase in the number of zero-day vulnerabilities reported in 2021.</p>
+<p>Google:</p>
+<blockquote><p>2021 included the detection and disclosure of 58 in-the-wild 0-days, the most ever recorded since Project Zero began tracking in mid-2014. That’s more than double the previous maximum of 28 detected in 2015 and especially stark when you consider that there were only 25 detected in 2020. We’ve tracked publicly known in-the-wild 0-day exploits in <a href="https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=0">this spreadsheet</a> since mid-2014.</p>
+<p>While we often talk about the number of 0-day exploits used in-the-wild, what we’re actually discussing is the number of 0-day exploits detected and disclosed as in-the-wild. And that leads into our first conclusion: we believe the large uptick in in-the-wild 0-days in 2021 is due to increased detection and disclosure of these 0-days, rather than simply increased usage of 0-day exploits...</p></blockquote>]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/zero-day-vulnerabilities-are-on-the-rise.html"><![CDATA[<p>Both <a href="https://googleprojectzero.blogspot.com/2022/04/the-more-you-know-more-you-know-you.html">Google</a> and <a href="https://www.mandiant.com/resources/zero-days-exploited-2021">Mandiant</a> are reporting a significant increase in the number of zero-day vulnerabilities reported in 2021.</p>
+<p>Google:</p>
+<blockquote><p>2021 included the detection and disclosure of 58 in-the-wild 0-days, the most ever recorded since Project Zero began tracking in mid-2014. That’s more than double the previous maximum of 28 detected in 2015 and especially stark when you consider that there were only 25 detected in 2020. We’ve tracked publicly known in-the-wild 0-day exploits in <a href="https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=0">this spreadsheet</a> since mid-2014.</p>
+<p>While we often talk about the number of 0-day exploits used in-the-wild, what we’re actually discussing is the number of 0-day exploits detected and disclosed as in-the-wild. And that leads into our first conclusion: we believe the large uptick in in-the-wild 0-days in 2021 is due to increased detection and disclosure of these 0-days, rather than simply increased usage of 0-day exploits.</p></blockquote>
+<p>Mandiant:</p>
+<blockquote><p>In 2021, <a href="https://www.mandiant.com/advantage/threat-intelligence">Mandiant Threat Intelligence</a> identified 80 zero-days exploited in the wild, which is more than double the previous record volume in 2019. State-sponsored groups continue to be the primary actors exploiting zero-day vulnerabilities, led by Chinese groups. The proportion of financially motivated actors­ &#8212; particularly ransomware groups &#8212; ­deploying zero-day exploits also grew significantly, and nearly 1 in 3 identified actors exploiting zero-days in 2021 was financially motivated. Threat actors exploited zero-days in Microsoft, Apple, and Google products most frequently, likely reflecting the popularity of these vendors. The vast increase in zero-day exploitation in 2021, as well as the diversification of actors using them, expands the risk portfolio for organizations in nearly every industry sector and geography, particularly those that rely on these popular systems.</p></blockquote>
+<p>News <a href="https://www.wired.com/story/zero-day-exploits-vulnerabilities-google-mandiant/">article</a>.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/zero-day-vulnerabilities-are-on-the-rise.html#comments" thr:count="31" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/zero-day-vulnerabilities-are-on-the-rise.html/feed/atom/" thr:count="31" />
+    <thr:total>31</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[SMS Phishing Attacks are on the Rise]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/sms-phishing-attacks-are-on-the-rise.html" />
+    <id>https://www.schneier.com/?p=65350</id>
+    <updated>2022-05-02T21:50:40Z</updated>
+    <published>2022-04-25T10:18:40Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="phishing" />
+    <category scheme="https://www.schneier.com" term="SMS" />
+    <summary type="html"><![CDATA[<p>SMS phishing attacks &#8212; annoyingly called &#8220;smishing&#8221; &#8212; are <a href="https://gizmodo.com/smishing-scams-are-on-the-rise-1848819274">becoming more common</a>.</p>
+<p>I know that I have been receiving a <i>lot</i> of phishing SMS messages over the past few months. I am not getting the &#8220;Fedex package delivered&#8221; messages the article talks about. Mine are usually of the form: &#8220;Thank you for paying your bill, here&#8217;s a free gift for you.&#8221;</p>
+]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/sms-phishing-attacks-are-on-the-rise.html"><![CDATA[<p>SMS phishing attacks &#8212; annoyingly called &#8220;smishing&#8221; &#8212; are <a href="https://gizmodo.com/smishing-scams-are-on-the-rise-1848819274">becoming more common</a>.</p>
+<p>I know that I have been receiving a <i>lot</i> of phishing SMS messages over the past few months. I am not getting the &#8220;Fedex package delivered&#8221; messages the article talks about. Mine are usually of the form: &#8220;Thank you for paying your bill, here&#8217;s a free gift for you.&#8221;</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/sms-phishing-attacks-are-on-the-rise.html#comments" thr:count="22" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/sms-phishing-attacks-are-on-the-rise.html/feed/atom/" thr:count="22" />
+    <thr:total>22</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Friday Squid Blogging: Squid Skin–Inspired Insulating Material]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-squid-skin-inspired-insulating-material.html" />
+    <id>https://www.schneier.com/?p=65290</id>
+    <updated>2022-04-07T14:34:42Z</updated>
+    <published>2022-04-22T21:04:24Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="academic papers" />
+    <category scheme="https://www.schneier.com" term="squid" />
+    <summary type="html"><![CDATA[<p><a href="https://phys.org/news/2022-03-squid-skin-inspired-cup-cozy-cool.html">Interesting</a>:</p>
+<blockquote><p>Drawing inspiration from cephalopod skin, engineers at the University of California, Irvine invented an adaptive composite material that can insulate beverage cups, restaurant to-go bags, parcel boxes and even shipping containers.</p>
+<p>[&#8230;]</p>
+<p>&#8220;The metal islands in our composite material are next to one another when the material is relaxed and become separated when the material is stretched, allowing for control of the reflection and transmission of infrared light or heat dissipation,&#8221; said Gorodetsky. &#8220;The mechanism is analogous to chromatophore expansion and contraction in a squid&#8217;s skin, which alters the reflection and transmission of visible light.&#8221;...</p></blockquote>]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-squid-skin-inspired-insulating-material.html"><![CDATA[<p><a href="https://phys.org/news/2022-03-squid-skin-inspired-cup-cozy-cool.html">Interesting</a>:</p>
+<blockquote><p>Drawing inspiration from cephalopod skin, engineers at the University of California, Irvine invented an adaptive composite material that can insulate beverage cups, restaurant to-go bags, parcel boxes and even shipping containers.</p>
+<p>[&#8230;]</p>
+<p>&#8220;The metal islands in our composite material are next to one another when the material is relaxed and become separated when the material is stretched, allowing for control of the reflection and transmission of infrared light or heat dissipation,&#8221; said Gorodetsky. &#8220;The mechanism is analogous to chromatophore expansion and contraction in a squid&#8217;s skin, which alters the reflection and transmission of visible light.&#8221;</p>
+<p>Chromatophore size changes help squids communicate and camouflage their bodies to evade predators and hide from prey. Gorodetsky said by mimicking this approach, his team has enabled &#8220;tunable thermoregulation&#8221; in their material, which can lead to improved energy efficiency and protect sensitive fingers from hot surfaces.</p></blockquote>
+<p>Research <a href="https://www.nature.com/articles/s41893-022-00847-2">paper</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.</p>
+<p>Read my blog posting guidelines <a href="https://www.schneier.com/blog/archives/2017/03/commenting_poli.html">here</a>.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-squid-skin-inspired-insulating-material.html#comments" thr:count="130" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/friday-squid-blogging-squid-skin-inspired-insulating-material.html/feed/atom/" thr:count="130" />
+    <thr:total>130</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Java Cryptography Implementation Mistake Allows Digital-Signature Forgeries]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/java-cryptography-implementation-mistake-allows-digital-signature-forgeries.html" />
+    <id>https://www.schneier.com/?p=65348</id>
+    <updated>2022-04-25T19:37:34Z</updated>
+    <published>2022-04-22T12:09:59Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="cryptography" />
+    <category scheme="https://www.schneier.com" term="forgery" />
+    <category scheme="https://www.schneier.com" term="patching" />
+    <category scheme="https://www.schneier.com" term="signatures" />
+    <summary type="html"><![CDATA[<p>Interesting <a href="https://arstechnica.com/information-technology/2022/04/major-crypto-blunder-in-java-enables-psychic-paper-forgeries/">implementation mistake</a>:</p>
+<blockquote><p>The vulnerability, which <a href="https://www.oracle.com/security-alerts/cpuapr2022.html">Oracle patched on Tuesday</a>, affects the company’s implementation of the <a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm">Elliptic Curve Digital Signature Algorithm</a> in Java versions 15 and above. ECDSA is an algorithm that uses the principles of <a href="https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/">elliptic curve cryptography</a> to authenticate messages digitally.</p>
+<p>[&#8230;]</p>
+<p>ECDSA signatures rely on a pseudo-random number, typically notated as K, that’s used to derive two additional numbers, R and S. To verify a signature as valid, a party must check the equation involving R and S, the signer’s public key, and a cryptographic hash of the message. When both sides of the equation are equal, the signature is valid. ...</p></blockquote>]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/java-cryptography-implementation-mistake-allows-digital-signature-forgeries.html"><![CDATA[<p>Interesting <a href="https://arstechnica.com/information-technology/2022/04/major-crypto-blunder-in-java-enables-psychic-paper-forgeries/">implementation mistake</a>:</p>
+<blockquote><p>The vulnerability, which <a href="https://www.oracle.com/security-alerts/cpuapr2022.html">Oracle patched on Tuesday</a>, affects the company’s implementation of the <a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm">Elliptic Curve Digital Signature Algorithm</a> in Java versions 15 and above. ECDSA is an algorithm that uses the principles of <a href="https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/">elliptic curve cryptography</a> to authenticate messages digitally.</p>
+<p>[&#8230;]</p>
+<p>ECDSA signatures rely on a pseudo-random number, typically notated as K, that’s used to derive two additional numbers, R and S. To verify a signature as valid, a party must check the equation involving R and S, the signer’s public key, and a cryptographic hash of the message. When both sides of the equation are equal, the signature is valid. </p>
+<p>[&#8230;]</p>
+<p>For the process to work correctly, neither R nor S can ever be a zero. That’s because one side of the equation is R, and the other is multiplied by R and a value from S. If the values are both 0, the verification check translates to 0 = 0 X (other values from the private key and hash), which will be true regardless of the additional values. That means an adversary only needs to submit a blank signature to pass the verification check successfully. </p>
+<p>Madden wrote:</p>
+<blockquote><p>Guess which check Java forgot?</p>
+<p>That’s right. Java’s implementation of ECDSA signature verification didn’t check if R or S were zero, so you could produce a signature value in which they are both 0 (appropriately encoded) and Java would accept it as a valid signature for any message and for any public key. The digital equivalent of a blank ID card.</p></blockquote>
+</blockquote>
+<p>More <a href="https://nakedsecurity.sophos.com/2022/04/20/critical-cryptographic-java-security-blunder-patched-update-now/">details</a>.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/java-cryptography-implementation-mistake-allows-digital-signature-forgeries.html#comments" thr:count="22" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/java-cryptography-implementation-mistake-allows-digital-signature-forgeries.html/feed/atom/" thr:count="22" />
+    <thr:total>22</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Long Article on NSO Group]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/long-article-on-nso-group.html" />
+    <id>https://www.schneier.com/?p=65346</id>
+    <updated>2022-04-25T19:40:06Z</updated>
+    <published>2022-04-21T12:16:35Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="Citizen Lab" />
+    <category scheme="https://www.schneier.com" term="cyberespionage" />
+    <category scheme="https://www.schneier.com" term="espionage" />
+    <category scheme="https://www.schneier.com" term="Israel" />
+    <category scheme="https://www.schneier.com" term="spyware" />
+    <summary type="html"><![CDATA[<p>Ronan Farrow has a <a href="https://www.newyorker.com/magazine/2022/04/25/how-democracies-spy-on-their-citizens">long article</a> in the <i>New Yorker</i> on NSO Group, which includes the news that someone &#8212; probably Spain &#8212; used the software to spy on domestic Catalonian separatists.</p>
+]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/long-article-on-nso-group.html"><![CDATA[<p>Ronan Farrow has a <a href="https://www.newyorker.com/magazine/2022/04/25/how-democracies-spy-on-their-citizens">long article</a> in the <i>New Yorker</i> on NSO Group, which includes the news that someone &#8212; probably Spain &#8212; used the software to spy on domestic Catalonian separatists.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/long-article-on-nso-group.html#comments" thr:count="15" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/long-article-on-nso-group.html/feed/atom/" thr:count="15" />
+    <thr:total>15</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Clever Cryptocurrency Theft]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/clever-cryptocurrency-theft.html" />
+    <id>https://www.schneier.com/?p=65343</id>
+    <updated>2022-04-25T18:15:14Z</updated>
+    <published>2022-04-20T13:57:49Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="cryptocurrency" />
+    <category scheme="https://www.schneier.com" term="theft" />
+    <summary type="html"><![CDATA[<p>Beanstalk Farms is a decentralized finance project that has a majority stake governance system: basically people have proportional votes based on the amount of currency they own. A <a href="https://www.theverge.com/2022/4/18/23030754/beanstalk-cryptocurrency-hack-182-million-dao-voting">clever hacker</a> used a &#8220;flash loan&#8221; feature  of another decentralized finance project to borrow enough of the currency to give himself a controlling stake, and then approved a $182 million transfer to his own wallet.</p>
+<p>It is insane to me that cryptocurrencies are still a thing.</p>
+]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/clever-cryptocurrency-theft.html"><![CDATA[<p>Beanstalk Farms is a decentralized finance project that has a majority stake governance system: basically people have proportional votes based on the amount of currency they own. A <a href="https://www.theverge.com/2022/4/18/23030754/beanstalk-cryptocurrency-hack-182-million-dao-voting">clever hacker</a> used a &#8220;flash loan&#8221; feature  of another decentralized finance project to borrow enough of the currency to give himself a controlling stake, and then approved a $182 million transfer to his own wallet.</p>
+<p>It is insane to me that cryptocurrencies are still a thing.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/clever-cryptocurrency-theft.html#comments" thr:count="67" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/clever-cryptocurrency-theft.html/feed/atom/" thr:count="67" />
+    <thr:total>67</thr:total>
+  </entry>
+  <entry>
+    <author>
+      <name>Bruce Schneier</name>
+    </author>
+    <title type="html"><![CDATA[Undetectable Backdoors in Machine-Learning Models]]></title>
+    <link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/undetectable-backdoors-in-machine-learning-models.html" />
+    <id>https://www.schneier.com/?p=65340</id>
+    <updated>2022-04-25T18:13:40Z</updated>
+    <published>2022-04-19T20:12:34Z</published>
+    <category scheme="https://www.schneier.com" term="Uncategorized" />
+    <category scheme="https://www.schneier.com" term="academic papers" />
+    <category scheme="https://www.schneier.com" term="backdoors" />
+    <category scheme="https://www.schneier.com" term="machine learning" />
+    <summary type="html"><![CDATA[<p>New paper: &#8220;<a href="https://arxiv.org/abs/2204.06974">Planting Undetectable Backdoors in Machine Learning Models</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> Given the computational cost and technical expertise required to train machine learning models, users may delegate the task of learning to a service provider. We show how a malicious learner can plant an undetectable backdoor into a classifier. On the surface, such a backdoored classifier behaves normally, but in reality, the learner maintains a mechanism for changing the classification of any input, with only a slight perturbation. Importantly, without the appropriate &#8220;backdoor key&#8221;, the mechanism is hidden and cannot be detected by any computationally-bounded observer. We demonstrate two frameworks for planting undetectable backdoors, with incomparable guarantees. ...</p></blockquote>]]></summary>
+    <content type="html" xml:base="https://www.schneier.com/blog/archives/2022/04/undetectable-backdoors-in-machine-learning-models.html"><![CDATA[<p>New paper: &#8220;<a href="https://arxiv.org/abs/2204.06974">Planting Undetectable Backdoors in Machine Learning Models</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> Given the computational cost and technical expertise required to train machine learning models, users may delegate the task of learning to a service provider. We show how a malicious learner can plant an undetectable backdoor into a classifier. On the surface, such a backdoored classifier behaves normally, but in reality, the learner maintains a mechanism for changing the classification of any input, with only a slight perturbation. Importantly, without the appropriate &#8220;backdoor key&#8221;, the mechanism is hidden and cannot be detected by any computationally-bounded observer. We demonstrate two frameworks for planting undetectable backdoors, with incomparable guarantees. </p>
+<p>First, we show how to plant a backdoor in any model, using digital signature schemes. The construction guarantees that given black-box access to the original model and the backdoored version, it is computationally infeasible to find even a single input where they differ. This property implies that the backdoored model has generalization error comparable with the original model. Second, we demonstrate how to insert undetectable backdoors in models trained using the Random Fourier Features (RFF) learning paradigm or in Random ReLU networks. In this construction, undetectability holds against powerful white-box distinguishers: given a complete description of the network and the training data, no efficient distinguisher can guess whether the model is &#8220;clean&#8221; or contains a backdoor. </p>
+<p>Our construction of undetectable backdoors also sheds light on the related issue of robustness to adversarial examples. In particular, our construction can produce a classifier that is indistinguishable from an &#8220;adversarially robust&#8221; classifier, but where every input has an adversarial example! In summary, the existence of undetectable backdoors represent a significant theoretical roadblock to certifying adversarial robustness.</p></blockquote>
+<p>EDITED TO ADD (4/20): Cory Doctorow <a href="https://doctorow.medium.com/undetectable-backdoors-for-machine-learning-models-8df33d92da30">wrote about this</a> as well.</p>
+]]></content>
+    <link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2022/04/undetectable-backdoors-in-machine-learning-models.html#comments" thr:count="21" />
+    <link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2022/04/undetectable-backdoors-in-machine-learning-models.html/feed/atom/" thr:count="21" />
+    <thr:total>21</thr:total>
+  </entry>
+</feed>
