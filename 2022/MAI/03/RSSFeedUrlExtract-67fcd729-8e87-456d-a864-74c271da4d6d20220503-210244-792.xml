@@ -1,0 +1,132 @@
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:s="https://www.zdnet.com/search" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
+  <channel>
+    <image>
+      <url>https://www.linuxsecurity.com/images/linuxsecurity-xml.png</url>
+      <title>LinuxSecurity - Security Advisories</title>
+      <link>https://www.linuxsecurity.com/</link>
+      <width>143</width>
+      <height>144</height>
+    </image>
+    <webfeeds:analytics id="UA-336357-8" engine="GoogleAnalytics" />
+    <webfeeds:cover image="https://linuxsecurity.com/images/LinuxSecuri-KC52a-A06-01-1024x1024.png" />
+    <webfeeds:icon>https://linuxsecurity.com/images/linuxsecurity-xml.png</webfeeds:icon>
+    <webfeeds:related layout="card" target="browser" />
+    <webfeeds:accentColor>0095DA</webfeeds:accentColor>
+    <webfeeds:wordmark>https://linuxsecurity.com/images/LinuxSecurity_Wordmark_White.png</webfeeds:wordmark>
+    <webfeeds:logo>https://linuxsecurity.com/images/LinuxSecurity_Icon_30px.png</webfeeds:logo>
+    <dc:creator>LinuxSecurity Contributors</dc:creator>
+    <link>https://www.linuxsecurity.com/</link>
+    <title>LinuxSecurity - Security Advisories</title>
+    <description>The central voice for Linux and Open Source security news.</description>
+    <language>en-us</language>
+    <copyright>2020 Guardian Digital, Inc. All rights reserved</copyright>
+    <pubDate>Tue, 3 May 2022 20:00:01 +0000</pubDate>
+    <lastBuildDate>Tue, 3 May 2022 20:00:01 +0000</lastBuildDate>
+    <generator>update-xml-feeds.pl (2.01)</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <atom:link href="https://www.linuxsecurity.com/static-content/linuxsecurity_advisories.xml" rel="self" type="application/rss+xml" />
+    <ttl>2</ttl>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2022-1509-1-moderate-pcp-17-24-49?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2022-1509-1-moderate-pcp-17-24-49?rss</link>
+      <title>SUSE: 2022:1509-1 moderate: pcp&gt;</title>
+      <description>An update that fixes one vulnerability is now available. </description>
+      <pubDate>Tue, 03 May 2022 17:24:49 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2022-1509-1-moderate-pcp-17-24-49</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros/dist-suse.gif" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2022-1507-1-important-containerd-docker-17-23-45?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2022-1507-1-important-containerd-docker-17-23-45?rss</link>
+      <title>SUSE: 2022:1507-1 important: containerd, docker&gt;</title>
+      <description>An update that solves 5 vulnerabilities and has one errata is now available. </description>
+      <pubDate>Tue, 03 May 2022 17:23:45 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2022-1507-1-important-containerd-docker-17-23-45</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros/dist-suse.gif" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2022-1512-1-important-ruby2-5-17-22-32?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2022-1512-1-important-ruby2-5-17-22-32?rss</link>
+      <title>SUSE: 2022:1512-1 important: ruby2.5&gt;</title>
+      <description>An update that fixes 5 vulnerabilities is now available. </description>
+      <pubDate>Tue, 03 May 2022 17:22:32 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2022-1512-1-important-ruby2-5-17-22-32</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros/dist-suse.gif" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2022-1513-1-important-java-11-openjdk-17-20-59?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2022-1513-1-important-java-11-openjdk-17-20-59?rss</link>
+      <title>SUSE: 2022:1513-1 important: java-11-openjdk&gt;</title>
+      <description>An update that fixes 5 vulnerabilities is now available. </description>
+      <pubDate>Tue, 03 May 2022 17:20:59 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2022-1513-1-important-java-11-openjdk-17-20-59</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros/dist-suse.gif" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2022-1506-1-moderate-xen-17-19-52?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2022-1506-1-moderate-xen-17-19-52?rss</link>
+      <title>SUSE: 2022:1506-1 moderate: xen&gt;</title>
+      <description>An update that fixes 6 vulnerabilities is now available. </description>
+      <pubDate>Tue, 03 May 2022 17:19:52 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2022-1506-1-moderate-xen-17-19-52</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros/dist-suse.gif" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2022-1508-1-moderate-libcaca-17-19-07?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2022-1508-1-moderate-libcaca-17-19-07?rss</link>
+      <title>SUSE: 2022:1508-1 moderate: libcaca&gt;</title>
+      <description>An update that fixes one vulnerability is now available. </description>
+      <pubDate>Tue, 03 May 2022 17:19:07 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2022-1508-1-moderate-libcaca-17-19-07</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros/dist-suse.gif" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+  </channel>
+</rss>
