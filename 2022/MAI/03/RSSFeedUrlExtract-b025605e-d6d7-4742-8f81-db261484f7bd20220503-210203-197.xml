@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>CheapSSLShop Blogs, News, Updates and Online Security Tips</title>
+    <atom:link href="https://www.cheapsslshop.com/blog/feed" rel="self" type="application/rss+xml" />
+    <link>https://www.cheapsslshop.com/blog</link>
+    <description>cheap price ssls</description>
+    <lastBuildDate>Tue, 03 May 2022 10:04:54 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=5.9.2</generator>
+    <item>
+      <title>What is Public Key Cryptography?</title>
+      <link>https://www.cheapsslshop.com/blog/what-is-public-key-cryptography</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Tue, 03 May 2022 09:53:57 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[Cryptography]]></category>
+      <category><![CDATA[Public Key Cryptography]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9493</guid>
+      <description><![CDATA[Public Key Cryptography (PKC) or Asymmetric Cryptosystems – ever heard about this cryptography (data encryption) method? This cryptography method involves two non-identical, but mathematically linked keys. One key is used to encrypt the data and is termed the public key, whereas the other key is used to decrypt the data and is termed the private key. The public key is shared amongst multiple users for encrypting the data. The private key on the other hand is secretly stored by the recipient of the data. The recipient can use this key to decrypt the information and read the message. Asymmetric cryptography is more preferred in the modern era than symmetric cryptography, wherein only one key is used in the entire encryption and decryption process. SSL Certificates &#38; Public Key Cryptography: Public keys are too huge and hence sharing them is a tough task, since they are difficult to remember. Hence, these keys are placed on SSL certificates, for secured communication as well as easy sharing. The private key which is also named the secret key is never shared with anyone. Its either stored in the user’s operating system, any software, or any external hardware (USB token) and is used for decrypting the ciphertext. PKC is mostly used in SSL/TLS (Secure Socket Layers/Transport Layer Security) certificates, which are issued by reputed Certificate Authorities (CA). When these security certificates are installed on the website, they show their presence in the form of HTTPS (hyper-text transfer protocol secure) in the URL and a padlock &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/what-is-public-key-cryptography" class="more-link">Continue reading<span class="screen-reader-text"> "What is Public Key Cryptography?"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>Everything You Need to Know About ARP Spoofing</title>
+      <link>https://www.cheapsslshop.com/blog/everything-you-need-to-know-about-arp-spoofing</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Mon, 25 Apr 2022 09:00:01 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[ARP spoofing]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9487</guid>
+      <description><![CDATA[You must be aware of impersonations in Hollywood movies wherein you find out that a certain villain was pretending to be a good guy until he realizes that time has come to fulfill his nefarious aspirations and bring out who he truly is. Similarly, in the cyber world, there are a lot of fringe elements that pretend to be authentic to trick you into believing them so that they can snoop and steal your sensitive data. By now, you must have got a little bit of idea about what ARP spoofing is. But, before understating how it works, let us look at what the term ARP means. What is ARP? In a simple world, ARP or Address Resolution Protocol helps connect a device to the internet by enabling the network to reach a particular device. ARP’s work is to translate a device’s IP or Internet Protocol address to a MAC or Media Access Control address so that the router can identify and enable the device to connect to the internet. Without using ARP, no device can contact a router. Now, you must be wondering, how does it protect your network? The device maintains an ARP cache that is used to map the IP and MAC addresses. When a device cannot figure out the router’s MAC address, it sends out a request packet where it asks all other devices on the network for the correct MAC address. After getting the response, they can finally connect to the internet. But, where does spoofing comes &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/everything-you-need-to-know-about-arp-spoofing" class="more-link">Continue reading<span class="screen-reader-text"> "Everything You Need to Know About ARP Spoofing"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>9 Common Myths and Facts about SSL Certificate</title>
+      <link>https://www.cheapsslshop.com/blog/myths-and-facts-about-ssl-certificate</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Fri, 15 Apr 2022 06:08:32 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[SSL University]]></category>
+      <category><![CDATA[HTTPS]]></category>
+      <category><![CDATA[SSL Certificate]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9481</guid>
+      <description><![CDATA[In a world where having an online presence is becoming a business necessity. Many businesses have to transfer sensitive information over the internet, there are numerous evolving threats of hacking, phishing, identity theft, and so on. Hence the need for a secure system to process and transfer data online emerges! Many steps could be taken to prevent unauthorized access to sensitive information, and one of the most pertinent is a secure socket layer certificate named SSL Certificate. SSL is a security protocol that creates a secure link between a client and a server. The data is transferred in an encrypted form and thus prevents misuse by anyone getting the access. However, many lies and myths are circulating on the internet about SSL certificates, some of which are genuine misunderstandings while some are perpetrated by people with an interest in having more untrusting businesses with unsecured data lying around for easy access. This article discloses some of those myths and confusions regarding SSL protocol, wide open. Myth #1 – Self-Signed Certificates are Sufficient for All Purposes Fact: Self-signed certificates can be quite useful for in-house testing and pilot runs of your website. You don’t need to pay anyone for the registration and are usually easy to create. You can create a self-signed certificate on the IIS version also. However, to be trusted by your customers, browsers, search engines, and other third parties you need an SSL certificate from certificate authorities like Comodo, GeoTrust, and DigiCert. At CheapSSLShop, We provide all types &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/myths-and-facts-about-ssl-certificate" class="more-link">Continue reading<span class="screen-reader-text"> "9 Common Myths and Facts about SSL Certificate"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>Reasons Why Businesses Need Cyber Security Awareness Training</title>
+      <link>https://www.cheapsslshop.com/blog/reasons-why-businesses-need-cyber-security-awareness-training</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Fri, 08 Apr 2022 07:09:12 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[Cyber Security Awareness Training]]></category>
+      <category><![CDATA[Cyber Security Training]]></category>
+      <category><![CDATA[Training]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9472</guid>
+      <description><![CDATA[As technology advances and shifts from physical to digital, so does the type of theft. The main difference in physical threat is that the thief can be caught via visibility in surveillance cameras or through fingerprints, but in digital theft, catching the virtual thief is quite difficult. In this cut-throat competition, the majority of the businesses focus on customers, their business operations, and customer service to expand their business. This allows cyber-criminals to look out for security lapses and pave their way into businesses and finances without setting off warning signals. Cyber thieves are becoming more advanced, sophisticated, and smart, making it almost impossible to reach them. The damage is already done before it is even noticed. This makes cybersecurity awareness a very crucial and challenging factor for businesses. Why Cyber Security Training is a Challenge? Cybersecurity training is a challenge because, despite the Covid-19 pandemic and cyber-threats, many questions need to be addressed to meet the same. Identification of the type of training Briefing on the types of cyber-attacks and their symptoms Employees who fall under the training criteria To maintain employee engagement And many more. Multiple factors need to be addressed to complete this challenge. What is Cyber Security Awareness Training? Cybersecurity awareness training means educating the employees about cyber threats, and to make this training successful, you need a well-defined action plan, sketched meticulously and implemented flawlessly. Tips for An Effective Cyber Security Awareness Plan: Check out your employee’s strengths and weaknesses Defend your assets Focus on &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/reasons-why-businesses-need-cyber-security-awareness-training" class="more-link">Continue reading<span class="screen-reader-text"> "Reasons Why Businesses Need Cyber Security Awareness Training"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>EV Code Signing Certificate vs Regular Code Signing Certificate</title>
+      <link>https://www.cheapsslshop.com/blog/ev-code-signing-certificate-vs-regular-code-signing-certificate</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Thu, 31 Mar 2022 08:53:23 +0000</pubDate>
+      <category><![CDATA[SSL University]]></category>
+      <category><![CDATA[Code Signing Certificate]]></category>
+      <category><![CDATA[EV Code Signing]]></category>
+      <category><![CDATA[Regular Code Signing]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9455</guid>
+      <description><![CDATA[EV Code Signing Vs Regular Code Signing Certificate &#8211; Which One You Should Choose? Get To Know The Difference Between These Two! Digital technology has simplified our lives in many ways. Having all the essentials as well as luxuries at your fingertip, this technology is loved by the masses. And the penetration of mobiles has only increased the craving for more digitalization.  Developers have presented these mobile users with apps that can be easily downloaded from their mobiles at any place and time. Research (in the first quarter of 2021) indicates: Google Play Store recorded approximately 3.48 million mobile apps. Apple App Store recorded approximately 2.22 million mobile apps. This ease to acquire products has led to an enhancement in mobile app downloads, which has been noticed by hackers. These scammers have eyed this mobile app platform to perform malicious activities by launching fake mobile applications along with genuine ones.  When a user downloads an unsecured app (software), they may lose out on their sensitive data, and hence it&#8217;s essential to know the authenticity of the app, before downloading the same. How to determine whether the application is genuine or not? A Code Signing Certificate can help resolve this issue. What is Code Signing Certificate? Code Signing Certificates are usually a favourite of software developers because they help in securing their code with digital signatures. These certificates are proof that the app code is intact and authentic and not tampered with after its signature. Hence, the users trust apps that &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/ev-code-signing-certificate-vs-regular-code-signing-certificate" class="more-link">Continue reading<span class="screen-reader-text"> "EV Code Signing Certificate vs Regular Code Signing Certificate"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>What Would Happen If Your SSL Certificate Expired?</title>
+      <link>https://www.cheapsslshop.com/blog/what-would-happen-if-your-ssl-certificate-expired</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Mon, 28 Mar 2022 11:55:53 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[Cybersecurity]]></category>
+      <category><![CDATA[SSL Certificate]]></category>
+      <category><![CDATA[SSL Certificate Expired]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9439</guid>
+      <description><![CDATA[When physical business owners turn into digital web owners, they search for digital securities that can secure their websites against intruders and hackers. They develop an awareness about the various types of protection for securing their site-sensitive data. One such security that they install on their websites for preventing their data from hackers is an SSL Certificate. What is an SSL Certificate? SSL (Secure Socket Layer) certificate is a digital security certificate that uses 256-bit encryption to secure site data. This encryption converts the plain text into a coded format, making it difficult for the hackers to decode. Business owners are relieved once they install this certificate, but little do they know that these certificates also come with an expiry date. Since they are unaware of the termination/end of SSL certificates and their consequences on their site data, their focus is minimal on this aspect. This article will discuss why SSL certificates expire, their consequences post their expiry date, and what steps need to be taken when an SSL certificate is expired. Do SSL certificates Expire? Yes, SSL certificates don&#8217;t live life long, and the web owners using SSL certificates must be aware of this fact. All SSL certificates have a termination/end date. The CAB Forum, which issues SSL certificates, has penned down some basic requirements which need to be followed by the CAs before the issuance of these certificates. These requirements also state that SSL certificates come with a limited lifespan. This lifespan (validity period) is defined for better site security &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/what-would-happen-if-your-ssl-certificate-expired" class="more-link">Continue reading<span class="screen-reader-text"> "What Would Happen If Your SSL Certificate Expired?"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>How to Tell If an Email Is Fake or Real</title>
+      <link>https://www.cheapsslshop.com/blog/how-to-tell-if-email-is-fake-or-real</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Mon, 28 Mar 2022 10:32:24 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[Email]]></category>
+      <category><![CDATA[Fake Mail]]></category>
+      <category><![CDATA[SECURITY]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9427</guid>
+      <description><![CDATA[In today’s digital world, attackers leave no stone unturned to gain access to your finances. Though your networks and systems are secured with robust digital securities, they are always a step ahead in implementing some malicious plan to penetrate your digital infrastructure. One such attack is carried out by sending a fake email posing as legit to gain information. Emails are becoming extremely popular and essential due to their convenience to communicate quickly and inexpensively for personal or professional reasons. It has paved another way for hackers to execute fake email attacks to grab your information. These fake emails are also termed phishing emails. Research indicates: 6 billion emails are sent and received daily. 94% of the people fail to tell the difference between a real email and a phishing email. Usually, phishing emails land up in spam folders, but sometimes they deceive the web and email security solutions and land in the client’s inbox. Tips on How to Know if an Email is Real or Not: In this blog, I have penned down some tips that will help you identify phishing emails from real ones. Let’s check them out. #1. Watch out for Deceitful Domains and Wrong Spellings in the Email Address: Phishing emails are difficult to trace since they mirror real ones for duping people or companies. Cyber-criminals are always on the lookout for legitimate email domain names of companies to create fake domains by adding or eliminating letters for generating a fake email ID. These clever attackers &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/how-to-tell-if-email-is-fake-or-real" class="more-link">Continue reading<span class="screen-reader-text"> "How to Tell If an Email Is Fake or Real"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>What is Typosquatting? – Definition and Explanation</title>
+      <link>https://www.cheapsslshop.com/blog/typosquatting</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Mon, 28 Mar 2022 10:09:53 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[News and Announcement]]></category>
+      <category><![CDATA[SSL Certificate]]></category>
+      <category><![CDATA[Typosquatting]]></category>
+      <category><![CDATA[Typosquatting Attacks]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9406</guid>
+      <description><![CDATA[Users love digital purchases and often order their preferred stuff from their desired e-commerce store.  Sometimes, even if their order is placed and online payment is made, the item has not been delivered to their doorstep. So, they check the issue only to notice that they have mistakenly typed the wrong URL address.  They are a victim of typosquatting. It was the user’s misfortune, but as an e-commerce store owner, you are too doomed since you are losing customers due to Typosquatting, your revenues, and your brand reputation.  So, what exactly is Typosquatting? What is Typosquatting? Typosquatting, or URL hijacking, as you name it, is a type of social engineering attack wherein the scammer attacks those users who have mistakenly typed a wrong URL address in the browser.  This cybersquatting attack is a cybercrime wherein scammers intentionally register domains with spelling mistakes, like the URLs of legit sites. These domains are also termed Typosquatting domains. Clever hackers create malicious websites with misspelled URLs and trick users into giving their sensitive details on these sites. Example: “hfdcbank.com” instead of “hdfcbank.com” The “typo” word stands for the typing mistakes made by users while entering the URL address. How does Typosquatting Work? Let us discover how these typosquatters use fake URLs to gain their desired information by taking advantage of human errors. There are varied ways in which these scammers perform these attacks. Let us check them out.  Types of Typosquatting Attacks: Typos: This common error results from a hurried search, i.e., quick typing &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/typosquatting" class="more-link">Continue reading<span class="screen-reader-text"> "What is Typosquatting? – Definition and Explanation"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>UCC SSL Certificate: The Ideal Choice for Multiple Domain Security</title>
+      <link>https://www.cheapsslshop.com/blog/ucc-ssl-certificate-for-multiple-domain-security</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Fri, 25 Mar 2022 10:54:10 +0000</pubDate>
+      <category><![CDATA[News and Announcement]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9416</guid>
+      <description><![CDATA[The masses love digitalization due to its convenience, but this convenience comes with a heavy price in the form of scammers and hackers.  To prevent these unauthorized intrusions from invading your networks, web developers always develop various digital securities. The more these securities try to catch or prevent them. The smarter these hackers have become in invading your privacy. SSL certificate is one such digital security solution that helps prevent these hackers from gaining your sensitive data. SSL stands for Secure Socket Layer. This digital certificate is loved for its encryption security which secures your entire web with 256-bit encryption. SSL certificates come in varied types and secure your web in multiple ways. This article will discuss the UCC SSL Certificate and how it helps to secure a whooping 250 domains (depending upon provider) with a single certificate. What is a UCC SSL Certificate? UCC (Unified Communications Certificate) is a budget-friendly certificate because it helps secure many domains and the first level of subdomains with a single certificate. This certificate is also termed a Multi-Domain SSL certificate or SAN certificate and helps in protecting various sites present on varied servers. In short, a multi-Domain SSL certificate secures all FQDN (fully qualified domain names) with only one certificate. UCC SSL can secure up to 250 domains. Of course, the upper cap on the count of domains that a UCC SSL certificate can secure solely depends on the Certificate Authority. Since multiple domains are involved in this certificate, the 1st domain comprises the primary/root domain, and the remaining domains are termed as &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/ucc-ssl-certificate-for-multiple-domain-security" class="more-link">Continue reading<span class="screen-reader-text"> "UCC SSL Certificate: The Ideal Choice for Multiple Domain Security"</span></a></p>]]></description>
+    </item>
+    <item>
+      <title>How to Fix ERR_CERTIFICATE_TRANSPARENCY_REQUIRED Error?</title>
+      <link>https://www.cheapsslshop.com/blog/how-to-fix-err_certificate_transparency_required-error</link>
+      <dc:creator><![CDATA[afgnalngasan]]></dc:creator>
+      <pubDate>Fri, 25 Mar 2022 09:23:16 +0000</pubDate>
+      <category><![CDATA[Cyber Security]]></category>
+      <category><![CDATA[SSL University]]></category>
+      <category><![CDATA[Error]]></category>
+      <category><![CDATA[SSL]]></category>
+      <guid isPermaLink="false">https://www.cheapsslshop.com/blog/?p=9396</guid>
+      <description><![CDATA[Find the way to Fix ERR_CERTIFICATE_TRANSPARENCY_REQUIRED error in Chrome. SSL certificates are digital security certificates issued by Certificate Authorities (CAs) to secure the web. When the CA’s issue these certificates, they need to register and add the same in public certificate transparency logs. This process is also termed Certificate Transparency. What is Certificate Transparency? In short, Certificate Transparency (CT) is an open-source structure used for surveillance and auditing of SSL (Secure Socket Layers) certificates. Though DigiCert was the first CA to implement CT in 2013, Google made it mandate from October 2017. CT logs function as per internet security standards and meet all the requirements stated by Google. Thus, CT is used to record and manage all the public logs of this digital certificate. Importance of CT Logs: Transparency logs are pivotal because they help monitor and expose SSL certificates issued fraudulently. They also help in detecting: Expired SSL certificates Corrupted SSL certificates Misconfigured SSL certificates If a CA issues an SSL certificate but forgets to append the same in the public logs, it can trigger an ERR_CERTIFICATE_TRANSPARENCY_REQUIRED error. What is an ERR_Certificate_Transparency_Required Error? The main motto of adding the issuance of SSL certificates to the public logs is to prevent wrong/fraudulent issuance of SSL certificates and repudiation. Hence, this Chrome error occurs when there is an issue with the CT logs. CT demands that all the SSL certificates issued to site owners be logged appropriately. So, when you are trying to view a site secured with an SSL certificate, but &#8230; <p class="link-more"><a href="https://www.cheapsslshop.com/blog/how-to-fix-err_certificate_transparency_required-error" class="more-link">Continue reading<span class="screen-reader-text"> "How to Fix ERR_CERTIFICATE_TRANSPARENCY_REQUIRED Error?"</span></a></p>]]></description>
+    </item>
+  </channel>
+</rss>

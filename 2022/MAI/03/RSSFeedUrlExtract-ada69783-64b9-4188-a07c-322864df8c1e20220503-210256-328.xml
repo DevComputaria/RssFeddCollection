@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Microsoft Security Response Center</title>
+    <atom:link href="https://msrc-blog.microsoft.com/feed/" rel="self" type="application/rss+xml" />
+    <link>https://msrc-blog.microsoft.com</link>
+    <description>
+    </description>
+    <lastBuildDate>Thu, 28 Apr 2022 15:04:49 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=5.7.6</generator>
+    <image>
+      <url>/wp-content/uploads/2019/06/msrc-logo-63x63.jpg</url>
+      <title>Microsoft Security Response Center</title>
+      <link>https://msrc-blog.microsoft.com</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <item>
+      <title>Azure Database for PostgreSQL Flexible Server Privilege Escalation and Remote Code Execution</title>
+      <link>https://msrc-blog.microsoft.com/2022/04/28/azure-database-for-postgresql-flexible-server-privilege-escalation-and-remote-code-execution/</link>
+      <dc:creator><![CDATA[msrc]]></dc:creator>
+      <pubDate>Thu, 28 Apr 2022 12:30:00 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14158</guid>
+      <description><![CDATA[MSRC was informed by Wiz, a cloud security vendor, under Coordinated Vulnerability Disclosure (CVD) of an issue with the Azure Database for PostgreSQL Flexible Server that could result in unauthorized cross-account database access in a region. By exploiting an elevated permissions bug in the Flexible Server authentication process for a replication user, a malicious user &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/04/28/azure-database-for-postgresql-flexible-server-privilege-escalation-and-remote-code-execution/"> <span class="screen-reader-text">Azure Database for PostgreSQL Flexible Server Privilege Escalation and Remote Code Execution</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>Congratulations and New Swag Awards for the Top MSRC 2022 Q1 Security Researchers!</title>
+      <link>https://msrc-blog.microsoft.com/2022/04/21/congratulations-and-new-swag-awards-for-the-top-msrc-2022-q1-security-researchers/</link>
+      <dc:creator><![CDATA[msrc]]></dc:creator>
+      <pubDate>Thu, 21 Apr 2022 16:05:00 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <category><![CDATA[Community-based Defense]]></category>
+      <category><![CDATA[Coordinated Vulnerability Disclosure]]></category>
+      <category><![CDATA[Researcher Recognition]]></category>
+      <category><![CDATA[Security Researcher]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14143</guid>
+      <description><![CDATA[Today, we are excited to recognize this quarter’s Microsoft Researcher Recognition Program leaderboard and share new swag awards and improvements to the leaderboard. Congratulations and thank you to everyone for your hard work and continued partnership to secure customers. The top three researchers of the 2022 Q1 Security Researcher Leaderboard are: Yuki Chen, William Söderberg, &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/04/21/congratulations-and-new-swag-awards-for-the-top-msrc-2022-q1-security-researchers/"> <span class="screen-reader-text">Congratulations and New Swag Awards for the Top MSRC 2022 Q1 Security Researchers!</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>Expanding High Impact Scenario Awards for Microsoft Bug Bounty Programs</title>
+      <link>https://msrc-blog.microsoft.com/2022/04/14/expanding-high-impact-scenario-awards-for-microsoft-bug-bounty-programs/</link>
+      <dc:creator><![CDATA[msrc]]></dc:creator>
+      <pubDate>Thu, 14 Apr 2022 17:00:00 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <category><![CDATA[Bounty]]></category>
+      <category><![CDATA[Community-based Defense]]></category>
+      <category><![CDATA[security]]></category>
+      <category><![CDATA[Security Research]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14116</guid>
+      <description><![CDATA[We are excited to announce the addition of scenario-based bounty awards to the Dynamics 365 and Power Platform Bounty Program and M365 Bounty Program. Through these new scenario-based bounty awards, we encourage researchers to focus their research on vulnerabilities that have the highest potential impact on customer privacy and security. Awards increase by up to &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/04/14/expanding-high-impact-scenario-awards-for-microsoft-bug-bounty-programs/"> <span class="screen-reader-text">Expanding High Impact Scenario Awards for Microsoft Bug Bounty Programs</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>Microsoft’s Response to CVE-2022-22965 Spring Framework</title>
+      <link>https://msrc-blog.microsoft.com/2022/04/05/microsofts-response-to-cve-2022-22965-spring-framework/</link>
+      <dc:creator><![CDATA[msrc]]></dc:creator>
+      <pubDate>Tue, 05 Apr 2022 23:41:01 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14093</guid>
+      <description><![CDATA[Summary Microsoft used the Spring Framework RCE, Early Announcement to inform analysis of the remote code execution vulnerability, CVE-2022-22965, disclosed on 31 Mar 2022. We have not to date noted any impact to the security of our enterprise services and have not experienced any degraded service availability due to this vulnerability. Threat analysis of the &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/04/05/microsofts-response-to-cve-2022-22965-spring-framework/"> <span class="screen-reader-text">Microsoft’s Response to CVE-2022-22965 Spring Framework</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>Randomizing the KUSER_SHARED_DATA Structure on Windows</title>
+      <link>https://msrc-blog.microsoft.com/2022/04/05/randomizing-the-kuser_shared_data-structure-on-windows/</link>
+      <dc:creator><![CDATA[Rohit Mothe]]></dc:creator>
+      <pubDate>Tue, 05 Apr 2022 18:00:00 +0000</pubDate>
+      <category><![CDATA[Security Research & Defense]]></category>
+      <category><![CDATA[Mitigations]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14009</guid>
+      <description><![CDATA[Windows 10 made a lot of improvements in Kernel Address Space Layout Randomization (KASLR) that increases the cost of exploitation, particularly for remote code execution exploits. Many kernel virtual address space (VAS) locations including kernel stacks, pools, system PTEs etc. are randomized. A well-known exception to this is the KUSER_SHARED_DATA structure which is a page &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/04/05/randomizing-the-kuser_shared_data-structure-on-windows/"> <span class="screen-reader-text">Randomizing the KUSER_SHARED_DATA Structure on Windows</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>On-Premises Servers Products are Here! Introducing the Applications and On-Premises Servers Bug Bounty Program</title>
+      <link>https://msrc-blog.microsoft.com/2022/04/05/on-premises-servers-products-are-here-introducing-the-applications-and-on-premises-servers-bug-bounty-program/</link>
+      <dc:creator><![CDATA[msrc]]></dc:creator>
+      <pubDate>Tue, 05 Apr 2022 15:30:00 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <category><![CDATA[Bounty]]></category>
+      <category><![CDATA[Community-based Defense]]></category>
+      <category><![CDATA[security]]></category>
+      <category><![CDATA[Security Research]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14033</guid>
+      <description><![CDATA[Microsoft is excited to announce the addition of Exchange on-premises, SharePoint on-premises, and Skype for Business on-premises to the Applications and On-Premises Servers Bounty Program.&#160; Through this expanded program, we encourage researchers to discover and report high-impact security vulnerabilities to help protect customers. We offer awards up to $26,000 USD for eligible submissions. The following &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/04/05/on-premises-servers-products-are-here-introducing-the-applications-and-on-premises-servers-bug-bounty-program/"> <span class="screen-reader-text">On-Premises Servers Products are Here! Introducing the Applications and On-Premises Servers Bug Bounty Program</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>Increasing Representation of Women in Security Research</title>
+      <link>https://msrc-blog.microsoft.com/2022/03/31/increasing-representation-of-women-in-security-research/</link>
+      <dc:creator><![CDATA[Stephanie Calabrese]]></dc:creator>
+      <pubDate>Fri, 01 Apr 2022 00:24:33 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14019</guid>
+      <description><![CDATA[Microsoft is committed to partnering with and supporting women in security research. Whether it’s growing women early in their career, or connecting people with mentors, we want to be a part of the journey. Throughout Women&#8217;s History Month we intentionally sought opportunities to engage with women in security research. Whether at an intimate gathering of &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/03/31/increasing-representation-of-women-in-security-research/"> <span class="screen-reader-text">Increasing Representation of Women in Security Research</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>Randomizing the KUSER_SHARED_DATA Structure on Windows</title>
+      <link>https://msrc-blog.microsoft.com/2022/03/30/randomizing-the-kuser_shared_data-structure-on-windows-2/</link>
+      <dc:creator><![CDATA[msrc]]></dc:creator>
+      <pubDate>Wed, 30 Mar 2022 18:22:00 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=14079</guid>
+      <description><![CDATA[Opps, this post exists, but was actually published 4/5/2022. We&#8217;re navigating you to the correct page now. If that doesn&#8217;t work click the link below: Randomizing the KUSER_SHARED_DATA Structure on Windows – Microsoft Security Response Center]]></description>
+    </item>
+    <item>
+      <title>Exploring a New Class of Kernel Exploit Primitive</title>
+      <link>https://msrc-blog.microsoft.com/2022/03/22/exploring-a-new-class-of-kernel-exploit-primitive/</link>
+      <dc:creator><![CDATA[Andrew Ruddick]]></dc:creator>
+      <pubDate>Tue, 22 Mar 2022 17:24:22 +0000</pubDate>
+      <category><![CDATA[Security Research & Defense]]></category>
+      <category><![CDATA[Security Research]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=13982</guid>
+      <description><![CDATA[The security landscape is dynamic, changing often and as a result, attack surfaces evolve. MSRC receives a wide variety of cases spanning different products, bug types and exploit primitives. One particularly interesting primitive we see is an arbitrary kernel pointer read. These often happen when kernel mode code does not validate that pointers read from &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/03/22/exploring-a-new-class-of-kernel-exploit-primitive/"> <span class="screen-reader-text">Exploring a New Class of Kernel Exploit Primitive</span> Read More &#187;</a></p>]]></description>
+    </item>
+    <item>
+      <title>Guidance for CVE-2022-23278 spoofing in Microsoft Defender for Endpoint</title>
+      <link>https://msrc-blog.microsoft.com/2022/03/08/guidance-for-cve-2022-23278-spoofing-in-microsoft-defender-for-endpoint/</link>
+      <dc:creator><![CDATA[msrc]]></dc:creator>
+      <pubDate>Tue, 08 Mar 2022 18:10:24 +0000</pubDate>
+      <category><![CDATA[MSRC]]></category>
+      <guid isPermaLink="false">https://msrc-blog.microsoft.com/?p=13950</guid>
+      <description><![CDATA[Microsoft released a security update to address CVE-2022-23278 in Microsoft Defender for Endpoint. This important class spoofing vulnerability impacts all platforms. We wish to thank Falcon Force for the collaboration on addressing this issue through coordinated vulnerability disclosure. Cybercriminals are looking for any opening to tamper with security protections in order to blind, confuse, or &#8230;<p class="read-more"> <a class="" href="https://msrc-blog.microsoft.com/2022/03/08/guidance-for-cve-2022-23278-spoofing-in-microsoft-defender-for-endpoint/"> <span class="screen-reader-text">Guidance for CVE-2022-23278 spoofing in Microsoft Defender for Endpoint</span> Read More &#187;</a></p>]]></description>
+    </item>
+  </channel>
+</rss>
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Page Caching using disk: enhanced (Page is feed) 
+
+Served from: msrc-blog.microsoft.com @ 2022-05-03 16:33:34 by W3 Total Cache
+-->
