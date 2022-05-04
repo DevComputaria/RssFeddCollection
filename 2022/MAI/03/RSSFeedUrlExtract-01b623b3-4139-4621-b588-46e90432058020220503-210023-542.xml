@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+  <channel>
+    <title>Biz &amp; IT – Ars Technica</title>
+    <link>https://arstechnica.com</link>
+    <description>Serving the Technologist for more than a decade. IT news, reviews, and analysis.</description>
+    <lastBuildDate>Tue, 03 May 2022 22:47:47 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=4.9.19</generator>
+    <image>
+      <url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-32x32.png</url>
+      <title>Biz &amp; IT – Ars Technica</title>
+      <link>https://arstechnica.com</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/arstechnica/technology-lab" />
+    <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="arstechnica/technology-lab" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Gear from Netgear, Linksys, and 200 others has unpatched DNS poisoning flaw</title>
+      <link>https://arstechnica.com/?p=1852022</link>
+      <pubDate>Tue, 03 May 2022 21:15:39 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[DNS poisoning]]></category>
+      <category><![CDATA[Internet of things]]></category>
+      <category><![CDATA[iot]]></category>
+      <category><![CDATA[routers]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1852022</guid>
+      <description><![CDATA[Vulnerability in 3rd-party libraries can send devices users to malicious sites.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/05/malicious-website-800x534.jpeg" alt="Gear from Netgear, Linksys, and 200 others has unpatched DNS poisoning flaw">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/05/malicious-website.jpeg" class="enlarge-link" data-height="667" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Hardware and software makers are scrambling to determine if their wares suffer from a critical vulnerability recently discovered in third-party code libraries used by hundreds of vendors, including Netgear, Linksys, Axis, and the Gentoo embedded Linux distribution.</p>
+<p>The flaw makes it possible for hackers with access to the connection between an affected device and the Internet to poison DNS requests used to translate domains to IP addresses, researchers from security firm Nozomi Networks <a href="https://www.nozominetworks.com/blog/nozomi-networks-discovers-unpatched-DNS-bug-in-popular-c-standard-library-putting-iot-at-risk/">said Monday</a>. By feeding a vulnerable device fraudulent IP addresses repeatedly, the hackers can force end users to connect to malicious servers that pose as Google or another trusted site.</p>
+<p>The vulnerability, which was disclosed to vendors in January and went public on Monday, resides in <a href="https://uclibc.org/">uClibc</a> and uClibc fork <a href="https://mailman.uclibc-ng.org/">uClibc-ng</a>, both of which provide alternatives to the standard C library for embedded Linux. Nozomi said 200 vendors incorporate at least one of the libraries into wares that, <a href="https://uclibc.org/products.html">according to the uClibc-ng maintainer</a>, include the following:</p></div><p><a href="https://arstechnica.com/?p=1852022#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1852022&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Botnet that hid for 18 months boasted some of the coolest tradecraft ever</title>
+      <link>https://arstechnica.com/?p=1851778</link>
+      <pubDate>Tue, 03 May 2022 12:24:19 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[advanced persistent threat]]></category>
+      <category><![CDATA[APT]]></category>
+      <category><![CDATA[botnets]]></category>
+      <category><![CDATA[espionage]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1851778</guid>
+      <description><![CDATA[Once-unknown group uses a tunnel fetish and a chameleon's ability to blend in.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/05/digital-eye-800x534.jpeg" alt="Botnet that hid for 18 months boasted some of the coolest tradecraft ever">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/05/digital-eye.jpeg" class="enlarge-link" data-height="667" data-width="1000">Enlarge</a> </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>It’s not the kind of security discovery that happens often. A previously unknown hacker group used a novel backdoor, top-notch tradecraft, and software engineering to create an espionage botnet that was largely invisible in many victim networks.</p>
+<p>The group, which security firm Mandiant is calling UNC3524, has spent the past 18 months burrowing into victims’ networks with unusual stealth. In cases where the group is ejected, it wastes no time reinfecting the victim environment and picking up where things left off. There are many keys to its stealth, including:</p>
+<ul>
+<li>The use of a unique backdoor Mandiant calls Quietexit, which runs on load balancers, wireless access point controllers, and other types of IoT devices that don’t support antivirus or endpoint detection. This makes detection through traditional means difficult.</li>
+<li>Customized versions of the backdoor that use file names and creation dates that are similar to legitimate files used on a specific infected device.</li>
+<li>A live-off-the-land approach that favors common Windows programming interfaces and tools over custom code with the goal of leaving as light a footprint as possible.</li>
+<li>An unusual way a second-stage backdoor connects to attacker-controlled infrastructure by, in essence, acting as a TLS-encrypted server that proxies data through the <a href="https://en.wikipedia.org/wiki/SOCKS">SOCKS protocol.</a></li>
+</ul>
+<h2>A tunneling fetish with SOCKS</h2>
+<p>In a <a href="https://www.mandiant.com/resources/unc3524-eye-spy-email">post</a>, Mandiant researchers Doug Bienstock, Melissa Derr, Josh Madeley, Tyler McLellan, and Chris Gardner wrote:</p></div><p><a href="https://arstechnica.com/?p=1851778#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1851778&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Elon Musk sold $8.5B in Tesla stock after agreeing to $44B Twitter deal</title>
+      <link>https://arstechnica.com/?p=1851362</link>
+      <pubDate>Sat, 30 Apr 2022 11:00:11 +0000</pubDate>
+      <dc:creator><![CDATA[Financial Times]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Elon Musk]]></category>
+      <category><![CDATA[Tesla]]></category>
+      <category><![CDATA[Twitter]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1851362</guid>
+      <description><![CDATA[Says "no further" sales planned after offloading portion of his stake in company.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/05/getty-elon-musk-800x533.jpg" alt="SpaceX CEO Elon Musk standing with his arms crossed.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/05/getty-elon-musk.jpg" class="enlarge-link" data-height="1856" data-width="2784">Enlarge</a> <span class="sep">/</span> CEO Elon Musk at SpaceX Headquarters in Hawthorne, California, on October 10, 2019. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/search/photographer?family=editorial&amp;photographer=NurPhoto">Getty Images | NurPhoto</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Elon Musk has raised $8.5 billion from selling part of his stake in Tesla, boosting his cash position ahead of his planned purchase of Twitter.</p>
+<p>The sales were made between Tuesday and Thursday, after Twitter’s board agreed to Musk’s $44 billion all-cash takeover approach.</p>
+<p>The electric car maker’s share price slumped in the wake of news of the deal, with the drop blamed on concerns about potential share sales by Musk to finance the acquisition, though it also came amid a sharp fall in the wider stock market.</p></div><p><a href="https://arstechnica.com/?p=1851362#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1851362&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>One of the most powerful DDoSes ever targets cryptocurrency platform</title>
+      <link>https://arstechnica.com/?p=1851143</link>
+      <pubDate>Thu, 28 Apr 2022 20:08:54 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[botnets]]></category>
+      <category><![CDATA[DDoS]]></category>
+      <category><![CDATA[distributed denial of service]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1851143</guid>
+      <description><![CDATA[15.3 million requests per second is HUGE, especially when delivered through HTTPS.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/digital-skull-and-crossbones-800x600.jpeg" alt="One of the most powerful DDoSes ever targets cryptocurrency platform">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/digital-skull-and-crossbones.jpeg" class="enlarge-link" data-height="750" data-width="1000">Enlarge</a> </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>A cryptocurrency platform was recently on the receiving end of one of the biggest distributed denial-of-service attacks ever after threat actors bombarded it with 15.3 million requests, content delivery network Cloudflare said.</p>
+<p>DDoS attacks can be measured in several ways, including by the volume of data, the number of packets, or the number of requests sent each second. The current records are <a href="https://arstechnica.com/information-technology/2022/01/microsoft-fends-off-record-breaking-3-47-tbps-ddos-attack/">3.4 terabits per second</a> for volumetric DDoSes—which attempt to consume all bandwidth available to the target—<a href="https://blogs.akamai.com/2020/06/largest-ever-recorded-packet-per-secondbased-ddos-attack-mitigated-by-akamai.html">809 million packets per second</a>, and <a href="https://blog.cloudflare.com/cloudflare-thwarts-17-2m-rps-ddos-attack-the-largest-ever-reported/">17.2 million requests per second</a>. The latter two records measure the power of application-layer attacks, which attempt to exhaust the computing resources of a target’s infrastructure.</p>
+<p>Cloudflare's recent DDoS mitigation peaked at 15.3 million requests per second. While still smaller than the record, its power was more considerable because the attack was delivered through HTTPS requests rather than HTTP requests used in the record. Because HTTPS requests are much more compute-intensive than HTTP requests, the latest attack had the potential to put much more strain on the target.</p></div><p><a href="https://arstechnica.com/?p=1851143#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1851143&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Russia wages “relentless and destructive” cyberattacks to bolster Ukraine invasion</title>
+      <link>https://arstechnica.com/?p=1850890</link>
+      <pubDate>Wed, 27 Apr 2022 21:07:28 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Cyberattacks]]></category>
+      <category><![CDATA[russia]]></category>
+      <category><![CDATA[Ukraine]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1850890</guid>
+      <description><![CDATA[Cyberattacks complement and are sometimes timed to military actions.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/russia-cyber-hack-800x534.jpeg" alt="Russia wages “relentless and destructive” cyberattacks to bolster Ukraine invasion">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/russia-cyber-hack.jpeg" class="enlarge-link" data-height="667" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On March 1, Russian forces invading Ukraine <a href="https://www.cnn.com/videos/world/2022/03/01/tv-tower-hit-strikes-russia-ukraine-ward-newsroom-vpx.cnn">took out a TV tower</a> in Kyiv after the Kremlin declared its intention to destroy “disinformation” in the neighboring country. That public act of kinetic destruction accompanied a much more hidden but no less damaging action: targeting a prominent Ukrainian broadcaster with malware to render its computers inoperable.</p>
+<p>The dual action is one of many examples of the “hybrid war” Russia has waged against Ukraine over the past year, according to a <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4Vwwd">report published Wednesday</a> by Microsoft. Since shortly before the invasion began, the company said, hackers in six groups aligned with the Kremlin have launched no fewer than 237 operations in concert with the physical attacks on the battlefield. Almost 40 of them targeting hundreds of systems used wiper malware, which deletes essential files stored on hard drives so the machines can’t boot.</p>
+<p>“As today’s report details, Russia’s use of cyberattacks appears to be strongly correlated and sometimes directly timed with its kinetic military operations targeting services and institutions crucial for civilians,” Tom Burt, Microsoft corporate vice president for customer security, <a href="https://blogs.microsoft.com/on-the-issues/2022/04/27/hybrid-war-ukraine-russia-cyberattacks/">wrote</a>. He said the “relentless and destructive Russian cyberattacks” were particularly concerning because many of them targeted critical infrastructure that could have cascading negative effects on the country.</p></div><p><a href="https://arstechnica.com/?p=1850890#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1850890&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Businesses are adopting Windows 11 more quickly than past versions, says Microsoft</title>
+      <link>https://arstechnica.com/?p=1850797</link>
+      <pubDate>Wed, 27 Apr 2022 18:10:08 +0000</pubDate>
+      <dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Tech]]></category>
+      <category><![CDATA[microsoft]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1850797</guid>
+      <description><![CDATA[Windows, Surface, Office, Xbox, and LinkedIn all earned more money than in 2021.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/03/microsoft-800x534.jpg" alt="Businesses are adopting Windows 11 more quickly than past versions, says Microsoft">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/03/microsoft.jpg" class="enlarge-link" data-height="683" data-width="1024">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/">Getty Images</a>)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+
+<p><a href="https://arstechnica.com/gadgets/2022/04/gamers-are-adopting-windows-11-about-half-as-quickly-as-they-did-for-windows-10/">Data suggests</a> that gamers are moving to Windows 11 at a steady pace but not nearly as quickly as they warmed to Windows 10 a few years ago. For historically change-averse businesses, surprisingly, the opposite may be true—Microsoft CEO Satya Nadella <a href="https://view.officeapps.live.com/op/view.aspx?src=https://c.s-microsoft.com/en-us/CMSFiles/TranscriptFY22Q3.docx?version=52d815b6-1a9f-0c49-d0ab-5cd077ae469d">said</a> during the company's <a href="https://www.microsoft.com/en-us/investor/earnings/FY-2022-Q3/press-release-webcast">Q3 2022 earnings call</a> that enterprises were "adopting Windows 11 at a faster pace than previous releases."</p>
+<p>That's just one highlight from an overwhelmingly rosy earnings report for Microsoft, which reported revenue of $49.4 billion (up 18 percent from the same quarter last year) and net income of $16.7 billion (up 8 percent year over year).</p>
+<p>Sales of Windows licenses to PC manufacturers increased by 11 percent; revenue from consumer and commercial Office products increased by 11 and 12 percent (respectively); revenue from Xbox content and services increased 4 percent; Surface hardware revenue increased by 13 percent; and LinkedIn revenue (of all things) increased 34 percent. But the biggest driver of growth continues to be Microsoft's cloud business, which reported 26 percent higher revenue year over year for a total of $19.1 billion in earnings. That growth is thanks in large part to <a href="https://azure.microsoft.com/en-us/">Azure cloud computing services</a>.</p></div><p><a href="https://arstechnica.com/?p=1850797#p3">Read 2 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1850797&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Microsoft finds Linux desktop flaw that gives root to untrusted users</title>
+      <link>https://arstechnica.com/?p=1850608</link>
+      <pubDate>Tue, 26 Apr 2022 21:48:33 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Linux]]></category>
+      <category><![CDATA[vulnerabilities]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1850608</guid>
+      <description><![CDATA[Elevation of privilege vulnerabilities can be used to gain persistent root access.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/desktop-machine-800x578.jpeg" alt="Microsoft finds Linux desktop flaw that gives root to untrusted users">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/desktop-machine.jpeg" class="enlarge-link" data-height="723" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Vulnerabilities recently discovered by Microsoft make it easy for people with a toehold on many Linux desktop systems to quickly gain root system rights— the latest elevation of privileges flaw to come to light in the open source OS.</p>
+<p>As operating systems have been hardened to withstand compromises in recent years, elevation of privilege (EoP) vulnerabilities have become a crucial ingredient for most successful hacks. They can be exploited in concert with other vulnerabilities that on their own are often considered less severe, with the latter giving what’s called local access and the former escalating the root access. From there, adversaries with physical access or limited system rights can deploy backdoors or execute code of their choice.</p>
+<p>Nimbuspwn, as Microsoft has named the EoP threat, is two vulnerabilities that reside in the networkd-dispatcher, a component in many Linux distributions that dispatch network status changes and can run various scripts to respond to a new status. When a machine boots, networkd-dispatcher runs as root.</p></div><p><a href="https://arstechnica.com/?p=1850608#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1850608&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>The first “Meta Store” is opening in California in May</title>
+      <link>https://arstechnica.com/?p=1850332</link>
+      <pubDate>Mon, 25 Apr 2022 18:14:11 +0000</pubDate>
+      <dc:creator><![CDATA[Sam Machkovech]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[amazon books]]></category>
+      <category><![CDATA[amazon go]]></category>
+      <category><![CDATA[amazon go grocery]]></category>
+      <category><![CDATA[Facebook]]></category>
+      <category><![CDATA[meta]]></category>
+      <category><![CDATA[meta quest]]></category>
+      <category><![CDATA[meta quest 2]]></category>
+      <category><![CDATA[meta store]]></category>
+      <category><![CDATA[Microsoft Store]]></category>
+      <category><![CDATA[oculus quest]]></category>
+      <category><![CDATA[oculus quest 2]]></category>
+      <category><![CDATA[oculus rift]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1850332</guid>
+      <description><![CDATA[Retail attempt down the road from Meta's VR labs primarily dedicated to VR headsets.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/meta-store-user-data-can-800x450.jpg" alt="The first Meta Store won't necessarily be your one-stop shop for all things sold by Meta—as this artistic interpretation points to one thing &lt;em&gt;not&lt;/em&gt; sold by the store until further notice.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/meta-store-user-data-can.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> <span class="sep">/</span> The first Meta Store won't necessarily be your one-stop shop for all things sold by Meta—as this artistic interpretation points to one thing <em>not</em> sold by the store until further notice. (credit: Aurich Lawson | Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>On May 9, Meta will double down on <a href="https://arstechnica.com/gadgets/2022/04/meta-will-take-almost-half-of-revenue-from-creators-on-its-metaverse-platform/">its metaverse sales pitch</a> by... making people drive to California to sample its wares at a single physical location.</p>
+<p>The uncreatively named <a href="https://about.fb.com/news/2022/04/meta-retail-store/">Meta Store</a> will showcase every physical product the company sells under its various branded umbrellas, particularly the Meta Quest 2 VR system (formerly <a href="https://arstechnica.com/gaming/2020/09/review-we-do-not-recommend-the-299-oculus-quest-2-as-your-next-vr-system/">Oculus Quest 2</a>). The company's first retail store will be housed in a 1,550-square-foot space on Meta's Burlingame, California, campus, which houses a number of Meta's VR- and AR-specific development efforts, and it will allow the public to test and purchase any of Meta's physical products.</p>
+<div class="image shortcode-img center"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/Meta-Store.jpg"><img alt="A photo of the first Meta Store, as provided by Meta." src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/Meta-Store-980x735.jpg"></a><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/Meta-Store.jpg" class="caption-link" rel="nofollow">A photo of the first Meta Store, as provided by Meta.</a> (credit: Meta)</p></div>
+<p>But it's not a comprehensive Meta sales location, as its shelves will not include access to the <a href="https://arstechnica.com/information-technology/2018/03/facebook-scraped-call-text-message-data-for-years-from-android-phones/">reams</a> of <a href="https://arstechnica.com/information-technology/2018/03/your-facebook-data-archive-wont-really-show-everything-facebook-knows-about-you/">user data</a> accumulated by the company's network of criss-crossed sites—though we'll keep our eyes peeled in case the Meta Store decides to unveil a <a href="https://arstechnica.com/series/cambridge-analytica-facebook/">Cambridge Analytica</a>-themed aisle in the future.</p></div><p><a href="https://arstechnica.com/?p=1850332#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1850332&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Hackers are exploiting 0-days more than ever</title>
+      <link>https://arstechnica.com/?p=1850040</link>
+      <pubDate>Sat, 23 Apr 2022 11:57:44 +0000</pubDate>
+      <dc:creator><![CDATA[WIRED]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[0-Day]]></category>
+      <category><![CDATA[google]]></category>
+      <category><![CDATA[hacking]]></category>
+      <category><![CDATA[Mandiant]]></category>
+      <category><![CDATA[project zero]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1850040</guid>
+      <description><![CDATA[Mandiant and Google both reported a spike in 0-day bugs in 2021.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2018/09/swiss-army-hack-800x533.jpg" alt="VPNfilter had a total of nine modular tools discovered thus far by researchers,  potentially turning thousands of routers into a versatile attack platform.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/09/swiss-army-hack.jpg" class="enlarge-link" data-height="853" data-width="1280">Enlarge</a> <span class="sep">/</span> VPNfilter had a total of nine modular tools discovered thus far by researchers,  potentially turning thousands of routers into a versatile attack platform. </p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Previously unknown “<a href="https://www.wired.com/2014/11/what-is-a-zero-day/">zero-day</a>” software vulnerabilities are mysterious and intriguing as a concept. But they're even more noteworthy when hackers are spotted actively exploiting the novel software flaws in the wild before anyone else knows about them. As researchers have expanded their focus to detect and study more of this exploitation, they're seeing it more often. Two reports this week from the threat intelligence firm <a href="https://www.mandiant.com/resources/0-days-exploited-2021">Mandiant</a> and Google's bug hunting team, <a href="https://googleprojectzero.blogspot.com/2022/04/the-more-you-know-more-you-know-you.html">Project Zero</a>, aim to give insight into the question of exactly how much zero-day exploitation has grown in recent years.</p>
+<p>Mandiant and Project Zero each have a different scope for the types of zero-days they track. Project Zero, for example, doesn't currently focus on analyzing flaws in Internet-of-things devices that are exploited in the wild. As a result, the absolute numbers in the two reports aren't directly comparable, but both teams tracked a record high number of exploited zero-days in 2021. Mandiant tracked 80 last year compared to 30 in 2020, and Project Zero tracked 58 in 2021 compared to 25 the year before. The key question for both teams, though, is how to contextualize their findings, given that no one can see the full scale of this clandestine activity.</p>
+<p></p></div><p><a href="https://arstechnica.com/?p=1850040#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1850040&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Hackers hammer SpringShell vulnerability in attempt to install cryptominers</title>
+      <link>https://arstechnica.com/?p=1850048</link>
+      <pubDate>Fri, 22 Apr 2022 21:53:59 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[cryptominers]]></category>
+      <category><![CDATA[exploits]]></category>
+      <category><![CDATA[springshell]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1850048</guid>
+      <description><![CDATA[Thousands of hack attempts made in the days following discovery of the vulnerability.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/cryptomining-800x438.jpeg" alt="Hackers hammer SpringShell vulnerability in attempt to install cryptominers">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/cryptomining.jpeg" class="enlarge-link" data-height="547" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Malicious hackers have been hammering servers with attacks that exploit the recently discovered SpringShell vulnerability in an attempt to install cryptomining malware, researchers said.</p>
+<p>SpringShell came to light late last month when a researcher demonstrated how it could be used to remotely execute malicious code on servers that run the Spring model-view-controller or WebFlux applications on top of Java Development Kit versions 9 or higher. Spring is the <a href="https://snyk.io/jvm-ecosystem-report-2021/">most widely used Java framework</a> for developing enterprise-level applications in Java. The framework is part of a sprawling ecosystem that provides tools for things like cloud, data, and security apps.</p>
+<p>Earlier this month, security firm Trend Micro said it began detecting attempts. From April 1 to April 12, company researchers detected an average of roughly 700 attempts per day to exploit the vulnerability to install cryptomining software. By running the malware on powerful enterprise servers, criminals can mine Bitcoin or other types of digital cash using the resources and electricity of an unwitting victim.</p></div><p><a href="https://arstechnica.com/?p=1850048#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1850048&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Critical bug could have let hackers commandeer millions of Android devices</title>
+      <link>https://arstechnica.com/?p=1849747</link>
+      <pubDate>Thu, 21 Apr 2022 19:22:01 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[ALAC]]></category>
+      <category><![CDATA[android]]></category>
+      <category><![CDATA[Mediatek]]></category>
+      <category><![CDATA[Qualcomm]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1849747</guid>
+      <description><![CDATA[Flaw could be exploited with malicious audio file.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2021/05/phone-security-800x534.jpeg" alt="Critical bug could have let hackers commandeer millions of Android devices">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2021/05/phone-security.jpeg" class="enlarge-link" data-height="668" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Security researchers said they uncovered a vulnerability that could have allowed hackers to commandeer millions of Android devices equipped with mobile chipsets made by Qualcomm and MediaTek.</p>
+<p>The vulnerability resided in ALAC—short for Apple Lossless Audio Codec and also known as Apple Lossless—which is an audio format introduced by Apple in 2004 to deliver lossless audio over the Internet. While Apple has updated its proprietary version of the decoder to fix security vulnerabilities over the years, an open-source version used by Qualcomm and MediaTek had not been updated since 2011.</p>
+<p>Together, Qualcomm and MediaTek supply mobile chipsets for an <a href="https://www.pcmag.com/news/now-no-1-chip-in-us-android-phones-mediatek-plans-midrange-millimeter-wave">estimated</a> 95 percent of US Android devices.</p></div><p><a href="https://arstechnica.com/?p=1849747#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1849747&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Major cryptography blunder in Java enables “psychic paper” forgeries</title>
+      <link>https://arstechnica.com/?p=1849522</link>
+      <pubDate>Wed, 20 Apr 2022 19:28:17 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[crypto]]></category>
+      <category><![CDATA[ecdsa]]></category>
+      <category><![CDATA[Java]]></category>
+      <category><![CDATA[oracle]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1849522</guid>
+      <description><![CDATA[A failure to sanity check signatures for division-by-zero flaws makes forgeries easy.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/broken-lock-800x513.jpeg" alt="Major cryptography blunder in Java enables “psychic paper” forgeries">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/broken-lock.jpeg" class="enlarge-link" data-height="641" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Organizations using newer versions of Oracle’s Java framework woke up on Wednesday to a disquieting advisory: A critical vulnerability can make it easy for adversaries to forge TLS certificates and signatures, two-factor authentication messages, and authorization credentials generated by a range of widely used open standards.</p>
+<p>The vulnerability, which <a href="https://www.oracle.com/security-alerts/cpuapr2022.html">Oracle patched on Tuesday</a>, affects the company’s implementation of the <a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm">Elliptic Curve Digital Signature Algorithm</a> in Java versions 15 and above. ECDSA is an algorithm that uses the principles of <a href="https://arstechnica.com/information-technology/2013/10/a-relatively-easy-to-understand-primer-on-elliptic-curve-cryptography/">elliptic curve cryptography</a> to authenticate messages digitally. A key advantage of ECDSA is the smaller size of the keys it generates, compared to RSA or other crypto algorithms, making it ideal for use in standards including <a href="https://arstechnica.com/information-technology/2020/07/apple-has-finally-embraced-key-based-2fa-so-should-you/">FIDO-based 2FA</a>, the <a href="https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language">Security Assertion Markup Language</a>, <a href="https://en.wikipedia.org/wiki/OpenID#OpenID_Connect_(OIDC)">OpenID</a>, and <a href="https://tools.ietf.org/html/rfc7519">JSON</a>.</p>
+<h2><em>Doctor Who</em> and the psychic paper</h2>
+<p>Neil Madden, the researcher at security firm ForgeRock who <a href="https://neilmadden.blog/2022/04/19/psychic-signatures-in-java/">discovered the vulnerability</a>, likened it to the blank identity cards that make regular appearances in the sci-fi show <em>Doctor Who</em>. The <a href="https://tardis.fandom.com/wiki/Psychic_paper">psychic paper</a> the cards are made of causes the person looking at it to see whatever the protagonist wants them to see.</p></div><p><a href="https://arstechnica.com/?p=1849522#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1849522&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Netflix stock plummets 37% as CEO says company plans ad-supported tier</title>
+      <link>https://arstechnica.com/?p=1849378</link>
+      <pubDate>Wed, 20 Apr 2022 16:10:07 +0000</pubDate>
+      <dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Netflix]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1849378</guid>
+      <description><![CDATA[Reed Hastings: Ads are "working for Hulu," and Netflix will adopt a similar model.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-reed-hastings-800x533.jpg" alt="Netflix CEO Reed Hastings sitting on stage at a conference.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-reed-hastings.jpg" class="enlarge-link" data-height="1333" data-width="2000">Enlarge</a> <span class="sep">/</span> Netflix CEO Reed Hastings at the Milken Institute Global Conference in Beverly Hills, California, on October 18, 2021.  (credit: Getty Images | Bloomberg)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Netflix plans to launch a lower-priced subscription tier with ads, CEO Reed Hastings said Tuesday in an <a href="https://www.youtube.com/watch?v=O1abP3Eo_RA">interview to discuss first-quarter earnings</a>. Netflix revenue growth is slowing amid a loss in subscribers, and the company's stock price was down about 37 percent Wednesday as of this writing.</p>
+<p>Hastings said that an ad-supported tier is something "we're trying to figure out over the next year or two" and that Netflix is "quite open to offering even lower prices with advertising as a consumer choice."</p>
+<p>"Those who follow Netflix know I've been against the complexity of advertising and a big fan of the simplicity of subscription," Hastings said. "But as much as I'm a fan of that, I'm a bigger fan of consumer choice, and allowing consumers who would like to have a lower price and are advertising-tolerant get what they want makes a lot of sense."</p></div><p><a href="https://arstechnica.com/?p=1849378#p3">Read 17 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1849378&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Hackers can infect &gt;100 Lenovo models with unremovable malware. Are you patched?</title>
+      <link>https://arstechnica.com/?p=1849194</link>
+      <pubDate>Tue, 19 Apr 2022 20:26:05 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[firmware]]></category>
+      <category><![CDATA[laptops]]></category>
+      <category><![CDATA[Lenovo]]></category>
+      <category><![CDATA[uefi]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1849194</guid>
+      <description><![CDATA[Exploiting critical UEFI vulnerabilities could allow malware to hide in firmware.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2020/08/Lenovo-Yoga-Slim-9i_Front_Facing_conv-5-800x600.jpg" alt="Promotional image of notebook computer.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2020/08/Lenovo-Yoga-Slim-9i_Front_Facing_conv-5.jpg" class="enlarge-link" data-height="1500" data-width="2000">Enlarge</a> <span class="sep">/</span> This is the 14-inch variant of the Yoga Slim 9i, with leather finish. (credit: Lenovo)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Lenovo has released security updates for more than 100 laptop models to fix critical vulnerabilities that make it possible for advanced hackers to surreptitiously install malicious firmware that can be next to impossible to remove or, in some cases, to detect.</p>
+<p>Three vulnerabilities affecting more than 1 million laptops can give hackers the ability to modify a computer’s UEFI. Short for <a href="https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface">Unified Extensible Firmware Interface</a>, the UEFI is the software that bridges a computer’s device firmware with its operating system. As the first piece of software to run when virtually any modern machine is turned on, it’s the initial link in the security chain. Because the UEFI resides in a flash chip on the motherboard, infections are difficult to detect and even harder to remove.</p>
+<h2>Oh, no</h2>
+<p>Two of the vulnerabilities—tracked as CVE-2021-3971 and CVE-2021-3972—reside in UEFI firmware drivers intended for use only during the manufacturing process of Lenovo consumer notebooks. Lenovo engineers inadvertently included the drivers in the production BIOS images without being properly deactivated. Hackers can exploit these buggy drivers to disable protections, including UEFI secure boot, BIOS control register bits, and protected range register, which are baked into the <a href="https://en.wikipedia.org/wiki/Serial_Peripheral_Interface">serial peripheral interface</a> (SPI) and designed to prevent unauthorized changes to the firmware it runs.</p></div><p><a href="https://arstechnica.com/?p=1849194#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1849194&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Your iOS app may still be covertly tracking you, despite what Apple says</title>
+      <link>https://arstechnica.com/?p=1848980</link>
+      <pubDate>Mon, 18 Apr 2022 21:10:19 +0000</pubDate>
+      <dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[apple]]></category>
+      <category><![CDATA[apps]]></category>
+      <category><![CDATA[iOS]]></category>
+      <category><![CDATA[privacy]]></category>
+      <category><![CDATA[tracking]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1848980</guid>
+      <description><![CDATA[Apple's landmark App Tracking Transparency may not be as tough as some people think.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/smartphone-usage-800x534.jpeg" alt="Your iOS app may still be covertly tracking you, despite what Apple says">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/smartphone-usage.jpeg" class="enlarge-link" data-height="667" data-width="1000">Enlarge</a> (credit: Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Last year, Apple enacted App Tracking Transparency, a mandatory policy that forbids app makers from tracking user activity across other apps without first receiving those users’ explicit permission. Privacy advocates praised the initiative, and Facebook warned it would spell certain doom for companies that rely on targeted advertising. However, research published last week suggests that ATT, as it’s usually abbreviated, doesn’t always curb the surreptitious collection of personal data or the fingerprinting of users.</p>
+<p>At the heart of ATT is the requirement that users must <a href="https://arstechnica.com/gadgets/2021/04/how-apples-new-app-tracking-transparency-policy-works/">click an “allow” button</a> that appears when an app is installed. It asks: “Allow [app] to track your activity across other companies’ apps and websites?” Without that consent, the app can’t access the so-called IDFA (Identifier for Advertisers), a unique identifier iOS or iPadOS assigns so they can track users across other installed apps. At the same time, Apple also started requiring app makers to provide “privacy nutrition labels” that declared the types of user and device data they collect and how that data is used.</p>
+<h2>Loopholes, bypasses, and outright violations</h2>
+<p>Last week’s <a href="https://arxiv.org/pdf/2204.03556.pdf">research paper</a> said that while ATT in many ways works as intended, loopholes in the framework also provided the opportunity for companies, particularly large ones like Google and Facebook, to work around the protections and stockpile even more data. The paper also warned that despite Apple’s promise for more transparency, ATT might give many users a false sense of security.</p></div><p><a href="https://arstechnica.com/?p=1848980#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1848980&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>US uncovers “Swiss Army knife” for hacking industrial control systems</title>
+      <link>https://arstechnica.com/?p=1848127</link>
+      <pubDate>Thu, 14 Apr 2022 20:52:36 +0000</pubDate>
+      <dc:creator><![CDATA[WIRED]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[hacking]]></category>
+      <category><![CDATA[industrial control]]></category>
+      <category><![CDATA[infrastructure attacks]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[power grid]]></category>
+      <category><![CDATA[utilities]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1848127</guid>
+      <description><![CDATA["Pipedream" an extremely versatile malware toolkit for targeting power grids, refineries.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/control-panel-800x534.jpg" alt="US uncovers “Swiss Army knife” for hacking industrial control systems">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/control-panel.jpg" class="enlarge-link" data-height="1414" data-width="2120">Enlarge</a> (credit: cravetiger | Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Malware designed to target industrial control systems like power grids, factories, water utilities, and oil refineries represents a rare species of digital badness. So when the United States government warns of a piece of code built to target not just one of those industries, but potentially all of them, critical infrastructure owners worldwide should take notice.</p>
+<p>On Wednesday, the Department of Energy, the Cybersecurity and Infrastructure Security Agency, the NSA, and the FBI jointly released an <a href="https://www.cisa.gov/uscert/ncas/alerts/aa22-103a">advisory</a> about a new hacker toolset potentially capable of meddling with a wide range of industrial control system equipment. More than any previous industrial control system hacking toolkit, the malware contains an array of components designed to disrupt or take control of the functioning of devices, including programmable logic controllers (PLCs) that are sold by Schneider Electric and OMRON and are designed to serve as the interface between traditional computers and the actuators and sensors in industrial environments. Another component of the malware is designed to target Open Platform Communications Unified Architecture (OPC UA) servers—the computers that communicate with those controllers.</p>
+<p></p></div><p><a href="https://arstechnica.com/?p=1848127#p3">Read 11 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1848127&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Amazon adds 5% “fuel and inflation” surcharge to seller fees for Prime shipping</title>
+      <link>https://arstechnica.com/?p=1848079</link>
+      <pubDate>Thu, 14 Apr 2022 16:57:39 +0000</pubDate>
+      <dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Policy]]></category>
+      <category><![CDATA[Amazon]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1848079</guid>
+      <description><![CDATA[Amazon reportedly already "pockets 34% of revenue earned by independent sellers."]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-amazon-truck-800x570.jpg" alt="A large Amazon Prime delivery truck driving on a highway.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/getty-amazon-truck.jpg" class="enlarge-link" data-height="1425" data-width="2000">Enlarge</a> (credit: Getty Images | NurPhoto)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Amazon said it will impose a 5 percent "fuel and inflation surcharge" on third-party sellers who ship through Amazon starting on April 28. The new fee for shipments in the US was <a href="https://sellercentral.amazon.com/gp/help/external/GABBX6GZPA8MSZGW?language=en_US">detailed on Amazon Seller Central</a> and applies to the Fulfillment by Amazon (FBA) service in which sellers rely on Amazon to store products in its warehouses and ship them to customers.</p>
+<p>The 5 percent charge will be applied to fulfillment fees on products shipped on April 28 or later, including products purchased before that date. Amazon also said that this "surcharge is subject to change." Amazon <a href="https://www.cnbc.com/2022/04/13/amazon-slaps-us-sellers-with-5percent-fuel-and-inflation-surcharge.html">reportedly</a> told sellers that the "surcharge will apply to all product types."</p>
+<p>In a "notice sent to sellers Wednesday, the company said its costs had gone up since the beginning of the COVID-19 pandemic due to increases in hourly wages, the hiring of workers, and construction of more warehouses," the Associated Press <a href="https://apnews.com/article/business-inflation-prices-4ae9ab8b6dd28652672f3e2615149de0">wrote</a>.</p></div><p><a href="https://arstechnica.com/?p=1848079#p3">Read 10 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1848079&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Preparing for Armageddon: How Ukraine battles Russian hackers</title>
+      <link>https://arstechnica.com/?p=1848046</link>
+      <pubDate>Thu, 14 Apr 2022 14:35:36 +0000</pubDate>
+      <dc:creator><![CDATA[Financial Times]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Cyberattacks]]></category>
+      <category><![CDATA[Cyberwarfare]]></category>
+      <category><![CDATA[Fancy Bear]]></category>
+      <category><![CDATA[russia]]></category>
+      <category><![CDATA[Russian invasion of Ukraine]]></category>
+      <category><![CDATA[Ukraine]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1848046</guid>
+      <description><![CDATA[One long-running rivalry shows how Kyiv has withstood major cyberattacks.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/03/ukr-matrix-800x533.jpg" alt="Preparing for Armageddon: How Ukraine battles Russian hackers">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/03/ukr-matrix.jpg" class="enlarge-link" data-height="1414" data-width="2121">Enlarge</a> (credit: gwengoat | Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>For years, a small and disparate Ukrainian team including IT experts, intelligence officers, and a criminal prosecutor has kept a wary eye on a group of hackers nicknamed Armageddon.</p>
+<p>The hackers were based in Crimea, shielded by the Russian government, which had seized the region in 2014, and out of the reach of the Security Service of Ukraine.</p>
+<p>The Ukrainian team watched Armageddon from afar to learn the ways of its enemy. It quietly studied the hacking group’s cyber weapons, intercepted phone calls, and even outed its purported leaders.</p></div><p><a href="https://arstechnica.com/?p=1848046#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1848046&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Microsoft’s tactics to win cloud battle lead to new antitrust scrutiny</title>
+      <link>https://arstechnica.com/?p=1847730</link>
+      <pubDate>Wed, 13 Apr 2022 15:48:40 +0000</pubDate>
+      <dc:creator><![CDATA[Financial Times]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[Policy]]></category>
+      <category><![CDATA[antitrust]]></category>
+      <category><![CDATA[AWS]]></category>
+      <category><![CDATA[azure]]></category>
+      <category><![CDATA[cloud computing]]></category>
+      <category><![CDATA[Microsoft Az]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1847730</guid>
+      <description><![CDATA[Licensing terms changed fees for Microsoft products running in Amazon, Google cloud.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/04/microsoft-azure-fighting-cloud-800x450.jpg" alt="Microsoft’s tactics to win cloud battle lead to new antitrust scrutiny">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/04/microsoft-azure-fighting-cloud.jpg" class="enlarge-link" data-height="1080" data-width="1920">Enlarge</a> (credit: Aurich Lawson | Getty Images)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>Microsoft has escaped the recent backlash against the power and wealth of the biggest US tech companies.</p>
+<p>Despite a stock market value that has soared to more than $2 trillion on its dominance of various parts of the business software market, it has avoided a repeat of the complaints that made it the most prominent target of antitrust action in the US and Europe at the end of the 1990s.</p>
+<p>That is, until now.</p></div><p><a href="https://arstechnica.com/?p=1847730#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1847730&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+    <item>
+      <title>Russia’s Sandworm hackers attempted a third blackout in Ukraine</title>
+      <link>https://arstechnica.com/?p=1847592</link>
+      <pubDate>Tue, 12 Apr 2022 21:02:52 +0000</pubDate>
+      <dc:creator><![CDATA[WIRED]]></dc:creator>
+      <category><![CDATA[Biz & IT]]></category>
+      <category><![CDATA[electrical transmission]]></category>
+      <category><![CDATA[hacking]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[russia]]></category>
+      <category><![CDATA[sandworm]]></category>
+      <category><![CDATA[Ukraine]]></category>
+      <guid isPermaLink="false">https://arstechnica.com/?p=1847592</guid>
+      <description><![CDATA[The attack was the first in five years to use Sandworm's Industroyer malware.]]></description>
+      <content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left">
+  <img src="https://cdn.arstechnica.net/wp-content/uploads/2022/02/substation-1-800x450.jpg" alt="High-voltage electricity towers and power lines seen during daytime at a power substation.">
+      <p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2022/02/substation-1.jpg" class="enlarge-link" data-height="1299" data-width="2309">Enlarge</a> (credit: Getty Images | Sundry Photography)</p>  </figure>
+
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p>More than half a decade has passed since the notorious Russian hackers known as Sandworm <a href="https://www.wired.com/story/russian-hackers-attack-ukraine/">targeted an electrical transmission station north of Kyiv</a> a week before Christmas in 2016, using a <a href="https://arstechnica.com/information-technology/2017/06/crash-override-malware-may-sabotage-electric-grids-but-its-no-stuxnet/">unique, automated piece of code</a> to interact directly with the station's circuit breakers and turn off the lights to a fraction of Ukraine's capital. That unprecedented specimen of industrial control system malware has never been seen again—until now: In the midst of Russia's brutal invasion of Ukraine, Sandworm appears to be pulling out its old tricks.</p>
+<p>On Tuesday, the Ukrainian Computer Emergency Response Team (CERT-UA) and the Slovakian cybersecurity firm ESET issued advisories that the Sandworm hacker group, confirmed to be Unit 74455 of Russia's GRU military intelligence agency, had targeted high-voltage electrical substations in Ukraine using a variation on a piece of malware known as Industroyer or Crash Override. The new malware, dubbed Industroyer2, can interact directly with equipment in electrical utilities to send commands to substation devices that control the flow of power, just like that earlier sample. It signals that Russia's most aggressive cyberattack team attempted a third blackout in Ukraine, years after its <a href="https://arstechnica.com/information-technology/2016/01/first-known-hacker-caused-power-outage-signals-troubling-escalation/">historic cyberattacks on the Ukrainian power grid in 2015 and 2016</a>, still the only confirmed blackouts known to have been caused by hackers.</p>
+<p>ESET and CERT-UA say the malware was planted on target systems within a regional Ukrainian energy firm on Friday. CERT-UA says that the attack was successfully detected in progress and stopped before any actual blackout could be triggered. But an earlier, private advisory from CERT-UA last week, <a href="https://www.technologyreview.com/2022/04/12/1049586/russian-hackers-tried-to-bring-down-ukraines-power-grid-to-help-the-invasion/">first reported by MIT Technology Review</a> Tuesday, stated that power had been temporarily switched off to nine electrical substations.</p></div><p><a href="https://arstechnica.com/?p=1847592#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1847592&comments=1">Comments</a></p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
