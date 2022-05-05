@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Announcements</title>
+    <description><![CDATA[]]></description>
+    <link>https://developer.joomla.org/security-centre.html</link>
+    <lastBuildDate>Thu, 05 May 2022 22:40:49 +0000</lastBuildDate>
+    <generator>Joomla! - Open Source Content Management</generator>
+    <atom:link rel="self" type="application/rss+xml" href="https://developer.joomla.org/security-centre.feed?type=rss" />
+    <language>en-gb</language>
+    <managingEditor>noreply@joomla.org (Joomla! Developer Network™)</managingEditor>
+    <item>
+      <title>[20220301] - Core - Zip Slip within the Tar extractor</title>
+      <link>https://developer.joomla.org/security-centre/870-20220301-core-zip-slip-within-the-tar-extractor.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/870-20220301-core-zip-slip-within-the-tar-extractor.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla! / Joomla! Framework</li>
+<li><strong>SubProject:</strong> CMS / archive</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> Path Traversal</li>
+<li><strong>Reported Date:</strong> 2022-02-20</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23793" target="_blank" rel="noopener noreferrer">CVE-2022-23793</a></li>
+</ul>
+<h3>Description</h3>
+<p>Extracting an specifilcy crafted tar package could write files outside of the intended path.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 3.10.7 or 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Egidio Romano</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220302] - Core - Path Disclosure within filesystem error messages</title>
+      <link>https://developer.joomla.org/security-centre/871-20220302-core-path-disclosure-within-filesystem-error-messages.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/871-20220302-core-path-disclosure-within-filesystem-error-messages.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla! / Joomla! Framework</li>
+<li><strong>SubProject:</strong> CMS / filesystem</li>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> Path Disclosure</li>
+<li><strong>Reported Date:</strong> 2021-02-17</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23794" target="_blank" rel="noopener noreferrer">CVE-2022-23794</a></li>
+</ul>
+<h3>Description</h3>
+<p>Uploading a file name of an excess length causes the error. This error brings up the screen with the path of the source code of the web application.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 3.10.7 or 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>DangKhai from Viettel Cyber Security</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220303] - Core - User row are not bound to a authentication mechanism</title>
+      <link>https://developer.joomla.org/security-centre/872-20220303-core-user-row-are-not-bound-to-a-authentication-mechanism.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/872-20220303-core-user-row-are-not-bound-to-a-authentication-mechanism.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>2.5.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2020-09-23</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23795" target="_blank" rel="noopener noreferrer">CVE-2022-23795</a></li>
+</ul>
+<h3>Description</h3>
+<p>A user row was not bound to a specific authentication mechanism which could under very special circumstances allow an account takeover.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 2.5.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 3.10.7 or 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Phil Taylor</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220304] - Core - Missing input validation within com_fields class inputs</title>
+      <link>https://developer.joomla.org/security-centre/873-20220304-core-missing-input-validation-within-com-fields-class-inputs.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/873-20220304-core-missing-input-validation-within-com-fields-class-inputs.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>3.7.0 - 3.10.6</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2021-05-06</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23796" target="_blank" rel="noopener noreferrer">CVE-2022-23796</a></li>
+</ul>
+<h3>Description</h3>
+<p>Lack of input validation could allow an XSS attack using com_fields</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 3.7.0 - 3.10.6</p>
+<h3>Solution</h3>
+<p>Upgrade to version 3.10.7</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Hoàng Nguyễn</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220305] - Core - Inadequate filtering on the selected Ids</title>
+      <link>https://developer.joomla.org/security-centre/874-20220305-core-inadequate-filtering-on-the-selected-ids.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/874-20220305-core-inadequate-filtering-on-the-selected-ids.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> SQL Injection</li>
+<li><strong>Reported Date:</strong> 2021-03-04</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23797" target="_blank" rel="noopener noreferrer">CVE-2022-23797</a></li>
+</ul>
+<h3>Description</h3>
+<p>Inadequate filtering on the selected Ids on an request could resulted into an possible SQL injection.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 3.10.7 &amp; 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Hoàng Nguyễn</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220306] - Core - Inadequate validation of internal URLs</title>
+      <link>https://developer.joomla.org/security-centre/875-20220306-core-inadequate-validation-of-internal-urls.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/875-20220306-core-inadequate-validation-of-internal-urls.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>2.5.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> Open redirect</li>
+<li><strong>Reported Date:</strong> 2021-03-23</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23798" target="_blank" rel="noopener noreferrer">CVE-2022-23798</a></li>
+</ul>
+<h3>Description</h3>
+<p>Inadequate validation of URLs could result into an invalid check whether an redirect URL is internal or not.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 2.5.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 3.10.7 &amp; 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Loïc LE MÉTAYER</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220307] - Core - Variable Tampering on JInput $_REQUEST data</title>
+      <link>https://developer.joomla.org/security-centre/876-20220307-core-variable-tampering-on-jinput-request-data.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/876-20220307-core-variable-tampering-on-jinput-request-data.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla! / Joomla! Framework</li>
+<li><strong>SubProject:</strong> CMS / input</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> Variable Tampering</li>
+<li><strong>Reported Date:</strong> 2021-11-05</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23799" target="_blank" rel="noopener noreferrer">CVE-2022-23799</a></li>
+</ul>
+<h3>Description</h3>
+<p>Under specific circumstances, JInput pollutes method-specific input bags with $_REQUEST data.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Nicholas K. Dionysopoulos, Phil Taylor</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220308] - Core - Inadequate content filtering within the filter code</title>
+      <link>https://developer.joomla.org/security-centre/877-20220308-core-inadequate-content-filtering-within-the-filter-code.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/877-20220308-core-inadequate-content-filtering-within-the-filter-code.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla! / Joomla! Framework</li>
+<li><strong>SubProject:</strong> CMS / filter</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2022-01-19</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23800" target="_blank" rel="noopener noreferrer">CVE-2022-23800</a></li>
+</ul>
+<h3>Description</h3>
+<p>Inadequate content filtering leads to XSS vulnerabilities in various components.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Sebastian Morris, pwnCTRL</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20220309] - Core - XSS attack vector through SVG</title>
+      <link>https://developer.joomla.org/security-centre/878-20220309-core-xss-attack-vector-through-svg.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/878-20220309-core-xss-attack-vector-through-svg.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> <span class="label label-info">Low</span></li>
+<li><strong>Probability:</strong> Low</li>
+<li><strong>Versions: </strong>4.0.0 - 4.1.0</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2021-08-25</li>
+<li><strong>Fixed Date:</strong> 2022-03-29</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23801" target="_blank" rel="noopener noreferrer">CVE-2022-23801</a></li>
+</ul>
+<h3>Description</h3>
+<p>Possible XSS attack vector through SVG embedding in com_media.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0 - 4.1.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 4.1.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Julia Polner, Simon Stockhause</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 29 Mar 2022 16:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>[20210801] - Core - Insufficient access control for com_media deletion endpoint</title>
+      <link>https://developer.joomla.org/security-centre/861-20210801-core-insufficient-access-control-for-com-media-deletion-endpoint.html</link>
+      <guid isPermaLink="true">https://developer.joomla.org/security-centre/861-20210801-core-insufficient-access-control-for-com-media-deletion-endpoint.html</guid>
+      <description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> <span class="label label-info">High</span></li>
+<li><strong>Versions: </strong>4.0.0</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2021-08-20</li>
+<li><strong>Fixed Date:</strong> 2021-08-24</li>
+<li><strong>CVE Number:</strong> <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26040" target="_blank" rel="noopener noreferrer">CVE-2021-26040</a></li>
+</ul>
+<h3>Description</h3>
+<p>The media manager does not correctly check the user's permissions before executing a file deletion command.</p>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0</p>
+<h3>Solution</h3>
+<p>Upgrade to version 4.0.1</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong>Maverick</div>]]></description>
+      <author>security@joomla.org (Joomla! Security Strike Team)</author>
+      <category>Security Centre</category>
+      <pubDate>Tue, 24 Aug 2021 07:00:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

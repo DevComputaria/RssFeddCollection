@@ -1,0 +1,1567 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>.NET Blog</title>
+    <atom:link href="https://devblogs.microsoft.com/dotnet/feed/" rel="self" type="application/rss+xml" />
+    <link>https://devblogs.microsoft.com/dotnet</link>
+    <description>Free. Cross-platform. Open source. A developer platform for building all your apps.</description>
+    <lastBuildDate>Thu, 05 May 2022 15:57:50 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <image>
+      <url>https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2018/10/Microsoft-Favicon.png</url>
+      <title>.NET Blog</title>
+      <link>https://devblogs.microsoft.com/dotnet</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <item>
+      <title>Upgrading a WCF service to .NET 6 with CoreWCF</title>
+      <link>https://devblogs.microsoft.com/dotnet/upgrading-a-wcf-service-to-dotnet-6/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/upgrading-a-wcf-service-to-dotnet-6/#respond</comments>
+      <dc:creator><![CDATA[Mike Rousos]]></dc:creator>
+      <pubDate>Thu, 05 May 2022 17:30:37 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET Core]]></category>
+      <category><![CDATA[WCF]]></category>
+      <category><![CDATA[.net framework]]></category>
+      <category><![CDATA[corewcf]]></category>
+      <category><![CDATA[modernization]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39752</guid>
+      <description><![CDATA[<p>Let's take a look at how to upgrade a sample WCF service to .NET 6 using CoreWCF.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/upgrading-a-wcf-service-to-dotnet-6/">Upgrading a WCF service to .NET 6 with CoreWCF</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Almost three years ago, I posted a blog walking through the process of <a href="https://devblogs.microsoft.com/dotnet/migrating-a-sample-wpf-app-to-net-core-3-part-1/">migrating a WPF app to .NET Core 3</a>. The app I migrated was a simple commodity trading sample called Bean Trader. At the time, though, I was only able to migrate part of the sample solution. The Bean Trader solution includes both a WPF client and a server-side application that the client communicates with to propose and accept trades. The client and server communicate using WCF. Because .NET Core 3 (and subsequent versions like .NET 5 and 6) supported client-side WCF APIs but not server-side ones, I was able to migrate the Bean Trader client but had to leave the server running on .NET Framework.</p>
+<p>With the recent announcement that <a href="https://github.com/corewcf/corewcf">CoreWCF</a> has reached 1.0, I&#8217;m excited to finish upgrading the Bean Trader sample to .NET 6!</p>
+<h2 id="about-corewcf">About CoreWCF</h2>
+<p>CoreWCF is a community-driven .NET Foundation project that makes WCF surface area available on modern versions of .NET. Although CoreWCF is not a Microsoft-owned project, Microsoft has announced that it will provide <a href="https://devblogs.microsoft.com/dotnet/corewcf-v1-released/">product support for CoreWCF</a>. While newer technologies like gRPC and ASP.NET WebAPI are still recommended for new development, CoreWCF is a great option to help projects with existing heavy WCF dependencies move to .NET 6.</p>
+<p>Although CoreWCF supports many common WCF scenarios, it does not support all WCF functionality. Your modernization experience may vary depending on the overlap between your WCF usage and the functionality included in CoreWCF. If functionality you depend on is not yet in CoreWCF, please provide feedback in the <a href="https://github.com/CoreWCF/CoreWCF/issues/234">Feature Roadmap</a> issue so that CoreWCF project maintainers can prioritize work based on community need.</p>
+<h2 id="about-the-sample">About the Sample</h2>
+<p>The Bean Trader app (available <a href="https://github.com/dotnet/windows-desktop/tree/main/Samples/BeanTrader">on GitHub</a>) is a sample I created several years ago to use when demonstrating how to migrate to .NET Core. Because the sample was originally only intended to show off modernizing the client, the Bean Trader service is quite simple. It consists of a class library with models and interfaces, and a console application that hosts a WCF service (using Net.Tcp transport with certificate authentication) allowing clients to propose or accept trades of different colors of beans. Even though the sample app is small, I think it&#8217;s still useful to see the process used to migrate it to .NET 6.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/05/BeanTraderServer.png" alt="Bean Trader server sample output" /></p>
+<h2 id="migration">Migration</h2>
+<h3 id="running-upgrade-assistant">Running Upgrade Assistant</h3>
+<p>To make the migration quicker, I will use the <a href="https://github.com/dotnet/upgrade-assistant">.NET Upgrade Assistant</a>. Upgrade Assistant is a command-line tool that helps users interactively upgrade projects from .NET Framework to .NET Standard and .NET 6. Upgrade Assistant doesn&#8217;t yet automate migration from WCF to CoreWCF (though it&#8217;s <a href="https://github.com/dotnet/upgrade-assistant/issues/1083">on the project&#8217;s backlog</a>), it is still useful to run the tool so that project files will be migrated, NuGet package references will be updated, and so on. After the tool runs, I will make the changes necessary to migrate from WCF to CoreWCF manually.</p>
+<p>To install Upgrade Assistant, I run the follow .NET SDK command:</p>
+<pre><code class="language-dotnetcli">dotnet tool install -g upgrade-assistant</code></pre>
+<p>With Upgrade Assistant installed, I can begin the migration process by running it on the BeanTrader solution file. By running on the solution file (rather than a specific project), I&#8217;m able to upgrade both the class library and server console app with one execution of the tool.</p>
+<p>The command to upgrade the solution is:</p>
+<pre><code class="language-dotnetcli">upgrade-assistant upgrade BeanTrader.sln</code></pre>
+<p>The tool then guides me through a series of upgrade steps (which are all taken care of automatically by Upgrade Assistant) as shown here.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/05/UpgradeBeanTraderCommon.png" alt="Upgrade Assistant upgrading BeanTraderCommon" /></p>
+<p>The complete list of steps that I apply via Upgrade Assistant are:</p>
+<ol>
+<li>Selecting an entry point. This allows me to choose the project that I ultimately want running on .NET 6. Based on the selection, Upgrade Assistant will decide which projects to upgrade and in what order. I choose BeanTraderServer.</li>
+<li>Selecting a project to upgrade. This transitions the tool to begin upgrading a specific project. It recommends upgrading BeanTraderCommon first and then BeanTraderServer which makes sense, so I will choose that order.</li>
+<li>Backing up BeanTraderCommon.</li>
+<li>Converting BeanTraderCommon to an SDK-style project.</li>
+<li>Updating BeanTraderCommon NuGet packages. This step replaces the assembly reference to System.ServiceModel with NuGet packages like System.ServiceModel.NetTcp, instead.</li>
+<li>Updating the BeanTraderCommon&#8217;s target framework (TFM). The tool recommends .NET Standard 2.0 since the project is a class library without any .NET 6-specific dependencies.</li>
+<li>At this point the upgrade of the helper library is done and Upgrade Assistant switches to upgrading BeanTraderServer.</li>
+<li>Backing up BeanTraderServer.</li>
+<li>Converting BeanTraderServer to an SDK-style project.</li>
+<li>Replacing System.ServiceModel references with equivalent NuGet packages, as was done for the BeanTraderCommon project.</li>
+<li>Updating BeanTraderServer&#8217;s target framework. The tool recommends .NET 6 since the project is a console app.</li>
+<li>Disabling unsupported configuration sections. Upgrade Assistant detected that BeanTraderServer has a system.ServiceModel section in its app.config file which isn&#8217;t supported on .NET 6 (it will cause runtime errors), so it comments that section out for me. Later, we&#8217;ll re-use this commented out section in a different file to configure our CoreWCF service.</li>
+<li>While inspecting C# source for any necessary changes, Upgrade Assistant warns about WCF usage. The warning message alerts me to the fact that BeanTraderServer uses server-side WCF APIs which aren&#8217;t supported on .NET 6 and which aren&#8217;t upgraded by the tool. It tells me that I will need to make manual changes and recommends upgrading to CoreWCF, gRPC, or ASP.NET Core instead.
+<ol>
+<li><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/05/UpgradeAssistantWCFWarning.png" alt="Upgrade Assistant&#039;s WCF warning" /></li>
+</ol>
+</li>
+<li>Upgrade cleanup. At this point, Upgrade Assistant is done so it removes some temporary files and exits.</li>
+</ol>
+<h3 id="corewcf-migration">CoreWCF Migration</h3>
+<p>Now that Upgrade Assistant has done the work to start the upgrade process, it&#8217;s time to upgrade to CoreWCF. Opening up the Bean Trader solution in Visual Studio, I find that the BeanTraderCommon class library builds successfully. That project&#8217;s upgrade to .NET Standard is done. The BeanTraderServer project has some errors, though, related to not being able to find some WCF types.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/05/BeanTraderServerWCFErrors.png" alt="Errors in BeanTraderServer after first targeting .NET 6" /></p>
+<p>To start upgrading to CoreWCF, I add a NuGet package reference to CoreWCF.NetTcp version 1.0. I also replace the <code>using System.ServiceModel;</code> import in BeanTrader.cs with <code>using CoreWCF;</code>. This addresses all the errors except for one in program.cs about how I&#8217;m creating a ServiceHost.</p>
+<p>CoreWCF is built on top of ASP.NET Core, so I need to update the project to start an ASP.NET Core host. The BeanTrader sample is a self-hosted service project, so I just need to make a few small changes to set up an ASP.NET Core host to run my service instead of using ServiceHost directly. To do that, I update the project&#8217;s SDK to <code>Microsoft.NET.Sdk.Web</code> (since it uses ASP.NET Core), make the app&#8217;s Main method async, and replace ServiceHost setup with the code shown below.</p>
+<p>There are different kinds of WCF projects (not all will be creating and starting ServiceHost instances directly), but all CoreWCF apps run as ASP.NET Core endpoints. The code shown here uses the new .NET 6 <a href="https://docs.microsoft.com/aspnet/core/fundamentals/minimal-apis">minimal API</a> syntax to get the ASP.NET Core host up and running with minimal code, but it would also be fine to use other ASP.NET Core syntaxes (having a separate Startup.cs, for example), if you prefer. <a href="https://github.com/CoreWCF/CoreWCF/tree/main/src/Samples">CoreWCF samples</a> demonstrate both approaches.</p>
+<p>Notice that the certificate configuration is copied from the old sample and is <strong>for demo purposes only</strong>. A real-world solution would use a certificate from the machine&#8217;s certificate stores or from a secure location like Azure Key Vault. Also, this is a good example of how service host properties can be changed when using CoreWCF but the scenario of setting a server certificate is specific to NetTcp scenarios. For HTTPS endpoints, SSL is setup via ASP.NET Core APIs just as it would in other ASP.NET Core apps.</p>
+<pre><code class="language-csharp">var builder = WebApplication.CreateBuilder();
+
+// Add CoreWCF services to the ASP.NET Core app's DI container
+builder.Services.AddServiceModelServices();
+
+var app = builder.Build();
+
+// Configure CoreWCF endpoints in the ASP.NET Core host
+app.UseServiceModel(serviceBuilder =&gt;
+{
+    serviceBuilder.ConfigureServiceHostBase&lt;BeanTrader&gt;(beanTraderServiceHost =&gt;
+    {
+        // This code is copied from the old ServiceHost setup and configures
+        // the local cert used for authentication.
+        // For demo purposes, this just loads the certificate from disk 
+        // so that no one needs to install an untrusted self-signed cert
+        // or load from KeyVault (which would complicate the sample)
+        var certPath = Path.Combine(Path.GetDirectoryName(typeof(Program).Assembly.Location), "BeanTrader.pfx");
+        beanTraderServiceHost.Credentials.ServiceCertificate.Certificate = new X509Certificate2(certPath, "password");
+        beanTraderServiceHost.Credentials.ClientCertificate.Authentication.CertificateValidationMode = X509CertificateValidationMode.None;
+    });
+});
+
+await app.StartAsync();</code></pre>
+<p>I also replace the <code>host.Close()</code> call in the original sample with <code>await app.StopAsync()</code>.</p>
+<p>At this point, the app builds without error! The only thing left to fix is to make sure that configuration for the service is loaded as expected.</p>
+<h3 id="configuration-updates">Configuration Updates</h3>
+<p>As mentioned previously, .NET 6 doesn&#8217;t include a system.serviceModel section by default. However a lot of existing WCF applications used app.config and web.config to setup bindings. To enable easy migration, CoreWCF includes APIs that can explicitly load configuration from xml config files.</p>
+<p>To make use of the Bean Trader server&#8217;s WCF configuration, I begin by adding a reference to the CoreWCF.ConfigurationManager package. Then, I move the system.serviceModel section from the app&#8217;s app.config (it was left commented out by Upgrade Assistant) into a new config file. The file can have any name, but I&#8217;ve called mine &#8216;wcf.config&#8217;.</p>
+<p>There are some small differences in what&#8217;s supported in WCF configuration between WCF and CoreWCF, so I need to make the following changes to wcf.config:</p>
+<ol>
+<li><code>IMetadataExchange</code> isn&#8217;t supported in CoreWCF yet, so remove the mex endpoint. I can still make the WSDL available for download, though. I&#8217;ll show how to do that next.</li>
+<li>The <code>&lt;host&gt;</code> element isn&#8217;t supported in service model configuration. Instead, the port that endpoints listen on is configured in code. So, I need to remove the <code>&lt;host&gt;</code> element from wcf.config and add the following line to the app&#8217;s main method: <code>builder.WebHost.UseNetTcp(8090);</code>. This should go before the call to <code>builder.Build</code>.</li>
+</ol>
+<p>Finally, I update the app&#8217;s main method to add the configuration to the ASP.NET Core app&#8217;s dependency injection container: <code>builder.Services.AddServiceModelConfigurationManagerFile("wcf.config");</code>.</p>
+<p>At this point, the app will work and clients should be able to successfully connect to it. I still want to make the WSDL available, though, so I&#8217;m going to make a few more changes to the project. First, I add the following code to the main method to have the ASP.NET Core app listen on port 8080 (since that is the port the WSDL was downloaded from previously):</p>
+<pre><code class="language-CSharp">builder.WebHost.ConfigureKestrel(options =&gt;
+{
+    options.ListenAnyIP(8080);
+});</code></pre>
+<p>Second, when registering services, I&#8217;ll add a call to <code>builder.Services.AddServiceModelMetadata()</code> to ensure that metadata services are available and then I&#8217;ll get the <code>ServiceMetadataBehavior</code> instance that is registered (as a singleton) and modify it to make WSDL download possible. This code needs to go after building the app but prior to starting it:</p>
+<pre><code class="language-CSharp">// Enable getting metadata/wsdl
+var serviceMetadataBehavior = app.Services.GetRequiredService&lt;ServiceMetadataBehavior&gt;();
+serviceMetadataBehavior.HttpGetEnabled = true;
+serviceMetadataBehavior.HttpGetUrl = new Uri("http://localhost:8080/metadata");</code></pre>
+<p>With those changes made, the Bean Trader service is now completely migrated to .NET 6! I can launch the app and connect to it with the existing client. And the WSDL is available at localhost:8080/metadata. To see all of the changes discussed in this post in their entirety, you can look at <a href="https://github.com/dotnet/windows-desktop/pull/21">this pull request</a> which updates the Bean Trader sample so that, finally, the NetCore folder of the sample contains only .NET Core and .NET 6-targeted projects!</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/05/BeanTraderServerOnNet6.png" alt="Bean Trader server migrated to .NET 6" /></p>
+<h2 id="wrap-up">Wrap-up</h2>
+<p>The Bean Trader sample is only a small app, but hopefully this walk-through demonstrates the sorts of changes needed to get WCF services working on .NET 6 with CoreWCF. The WCF service implementations were unchanged except for referencing some different namespaces and most of the configuration xml was re-used. I had to make some changes to how the service hosts were created (the services are hosted by ASP.NET Core now) but I was still able to reuse code that had previously been used to customize service host behavior.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/upgrading-a-wcf-service-to-dotnet-6/">Upgrading a WCF service to .NET 6 with CoreWCF</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/upgrading-a-wcf-service-to-dotnet-6/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Microsoft Graph’s Journey to .NET 6</title>
+      <link>https://devblogs.microsoft.com/dotnet/microsoft-graph-dotnet-6-journey/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/microsoft-graph-dotnet-6-journey/#respond</comments>
+      <dc:creator><![CDATA[Joao Paiva]]></dc:creator>
+      <pubDate>Tue, 03 May 2022 22:29:17 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET Core]]></category>
+      <category><![CDATA[ASP.NET]]></category>
+      <category><![CDATA[ASP.NET Core]]></category>
+      <category><![CDATA[Azure]]></category>
+      <category><![CDATA[Cloud]]></category>
+      <category><![CDATA[Developer Stories]]></category>
+      <category><![CDATA[Performance]]></category>
+      <category><![CDATA[.net 6]]></category>
+      <category><![CDATA[case study]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39725</guid>
+      <description><![CDATA[<p>Read about the journey of Microsoft Graph on upgrading from .NET Framework 4.6 to .NET 6 and all the impact that came with it.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/microsoft-graph-dotnet-6-journey/">Microsoft Graph&#8217;s Journey to .NET 6</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><a href="https://graph.microsoft.com">Microsoft Graph</a> is an API Gateway that provides unified access to data and intelligence in the Microsoft 365 ecosystem. The service needs to run at very high scale and to make efficient use of Azure computing resources. We&#8217;ve been able to achieve both of those goals, using .NET as our chosen cloud stack. I&#8217;ll tell you more about our journey of building Microsoft Graph into the service it is today.</p>
+<h2 id="the-journey-to-net-6">The journey to .NET 6</h2>
+<p>Four years ago, the service was running on IIS with ASP.NET on .NET Framework 4.6.2. Today, the service runs on HTTP.sys with ASP.NET Core on .NET 6, with interim stops on .NET Core 3.1 and .NET 5. With every upgrade, we observed improvements in CPU utilization, especially with .NET Core 3.1 and recently with .NET 6.</p>
+<ol>
+<li>From .NET Framework to <a href="https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/">.NET Core 3.1</a>, we observed a CPU reduction of 30%, for the same traffic volume.</li>
+<li>From .NET Core 3.1 to <a href="https://devblogs.microsoft.com/dotnet/announcing-net-5-0/">.NET 5</a>, we didn&#8217;t observe meaningful differences to report.</li>
+<li>From .NET 5 to <a href="https://devblogs.microsoft.com/dotnet/announcing-net-6/">.NET 6</a>, we observed another CPU reduction of 10%, for the same traffic volume.</li>
+</ol>
+<p>Such large reductions in CPU utilization translate to better latency, throughput, and meaningful cost savings in compute capacity, effectively helping us achieving our goals.</p>
+<p>The service has a global footprint, currently deployed in 20 regions around the world. Four years ago, the service was serving 1 billion requests per day, with extremely high operational costs. Today, it&#8217;s serving approximately 70 billion requests per day, representing a <strong>70x increase</strong>, with operational costs reduced by <strong>91%</strong> for every 1 billion requests processed. This puts in perspective the pace of growth and improvements over the last 4 years, where .NET Core migration also played a big role.</p>
+<h3 id="impact-of-net-core">Impact of .NET Core</h3>
+<p>During the initial migration from .NET Framework 4.6.2 (IIS + ASP.NET) to .NET Core 3.1 (Kestrel + ASP.NET Core; later, HTTP.sys) our benchmarks showed significant improvements in throughput. The following chart compares both stacks and plots the requests per seconds (RPS) and CPU utilization using <a href="https://docs.microsoft.com/azure/virtual-machines/dv2-dsv2-series">Standard_D3_v2</a> Virtual Machines, with synthetic traffic.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/05/benchmarks-dotnet.png" alt="benchmarks" /></p>
+<p>The chart illustrates a major increase in RPS relative to the same CPU utilization when we compare both stacks. At 60% CPU we are at approximately 350 RPS in the old stack (orange) and 850 in the new stack (blue). The new stack is performing significantly better at higher CPU thresholds.</p>
+<p>It&#8217;s important to note this benchmark uses synthetic traffic and that the improvements observed don&#8217;t necessarily directly translate to higher-scale production environment with real traffic. In production,  we observed a 30% CPU reduction (for the same traffic volume).</p>
+<h3 id="modernization-of-build-system">Modernization of build system</h3>
+<p>One big undertaking to make the migration to .NET Core possible was the modernization of our build system.</p>
+<p>Previously, we were using an internal build system with a toolchain incompatible with .NET Core. So the very first step in our case, was to modernize the build system. We migrated to a newer and modern build system, mostly using the Visual Studio toolchain with <a href="https://docs.microsoft.com/visualstudio/msbuild/msbuild">MSBuild</a> and <a href="https://docs.microsoft.com/dotnet/core/tools/dotnet-build">dotnet</a> support. The new toolchain supports .NET Framework and .NET Core, and gives us flexibility needed.</p>
+<p>Ultimately, the investment of modernizing the build system, while difficult at first, it has increased our productivity dramatically, with faster builds and projects that are easier to create and maintain.</p>
+<h3 id="the-big-picture">The big picture</h3>
+<p>Many improvements occur with every .NET upgrade, even without the Graph team doing any explicit work to improve performance. Each new .NET version improves low-level runtime APIs, common algorithms, and data structures, resulting in a drop in CPU cycles and GC work. For a service that is compute bound like Microsoft Graph, using the new runtime and algorithms that reduce time and space complexity is crucial, and one of the most effective ways to make the service fast and scalable. With the help of our friends on the .NET Team, we&#8217;ve been able to increase throughput, reduce latency overhead and compute operational costs. Thanks!</p>
+<p>The other reason to migrate was to modernize the codebase. A modern codebase attracts talent (hiring) and enables our developers to use newer language features and APIs to write better code. Constructs like spans introduced in .NET Core are priceless. One of common ways I use spans is for string manipulation. String manipulation is a common pitfall in old .NET codebases. Old patterns often leading to an explosion of string allocations due to endless concatenations that put pressure on GC and ultimately reflect in higher CPU cost. And developers do not even realize about the real cost and implications of such allocations. <a href="https://docs.microsoft.com/dotnet/standard/memory-and-spans/">Spans</a> and <a href="https://docs.microsoft.com/dotnet/api/system.string.create">string.Create</a> introduced in .NET Core gave us a tool to manipulate strings, avoiding the cost of unnecessary string allocations on the heap.</p>
+<p>In addition, we rely on observability tools to monitor the cost of the code deployed in dimensions like CPU, memory, and file and network I/O. These tools help us identify regressions and opportunities to improve processing latency, operational costs, and scalability.</p>
+<p>We&#8217;ve achieved very significant benefits with new APIs and C# features:</p>
+<ol>
+<li>Reducing buffer allocations with <a href="https://docs.microsoft.com/dotnet/api/system.buffers.arraypool-1">array pooling</a>.</li>
+<li>Reducing buffer and string allocations with <a href="https://docs.microsoft.com/dotnet/standard/memory-and-spans/">memory and span related types</a>.</li>
+<li>Reducing delegate allocations that capture state from enclosing context with <a href="https://docs.microsoft.com/dotnet/csharp/language-reference/proposals/csharp-9.0/static-anonymous-functions">static anonymous functions</a>.</li>
+<li>Reducing task allocations with <a href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask-1">ValueTask</a>.</li>
+<li>Removing redundant null checks throughout the codebase with <a href="https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-8#nullable-reference-types">nullable</a>.</li>
+<li>Writing succinct code with <a href="https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-8#null-coalescing-assignment">null-coalescing assignment</a> or <a href="https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-8#using-declarations">using declarations</a>, just to mention two.</li>
+</ol>
+<p>There are many other improvements, not captured by this list, that include algorithms and data structures as well as important architectural and infrastructure changes. Ultimately, .NET Core and the language features enable us to be more productive and to write algorithms and data structures that reduce the time and space complexity, which is crucial to achieve our goals in the long haul.</p>
+<p>Last but not least, .NET Core makes our service ready to run in Windows and Linux, and enables us to be on the leading edge to innovate at a quick pace, with transport protocols like HTTP/3 and gRPC.</p>
+<h2 id="migration-guidance">Migration guidance</h2>
+<p>This section describes the strategy employed to migrate from ASP.NET to an ASP.NET Core environment and it is meant to serve as high-level guidance.</p>
+<h3 id="step-1-build-modernization">Step 1 &mdash; build modernization</h3>
+<p>The first pre-requisite is a build system that allows you to build .NET Framework and .NET Core assemblies, if that is not already the case.</p>
+<p>For the Graph team, modernizing the build system, not only made the migration to .NET Core possible, but it has also increased our productivity dramatically, with faster builds and projects that are easier to create and maintain.</p>
+<h3 id="step-2-architecture-readiness">Step 2 &mdash; architecture readiness</h3>
+<p>It&#8217;s important to have a good architecture in place to perform the migration. Let&#8217;s use a diagram as an illustration of three main stages that we&#8217;ll go through.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/05/migration-stages.png" alt="migration" /></p>
+<ul>
+<li>In <strong>stage 1</strong>, we have the ASP.NET web server assembly and all libraries targeting .NET Framework (yellow).</li>
+<li>In <strong>stage 2</strong>, we have two web server assemblies, each targeting the respective .NET runtime, while the libraries now target .NET Standard (blue). This enables A/B testing.</li>
+<li>In <strong>stage 3</strong>, we have one web server assembly and all libraries targeting .NET Core (green).</li>
+</ul>
+<p>If your solution isn&#8217;t already decomposed in multiple assemblies (stage 1), it&#8217;s a good opportunity to do it now. The ASP.NET assembly should be a very thin stub for the web server, abstracting out the application from the host. This ASP.NET assembly should be host specific and reference downstream libraries that implement individual components like controllers, models, database access, and so on. It&#8217;s important to have an architectural pattern in place with separation of concerns, as that helps simplify the dependency chain and the migration work.</p>
+<p>In our service this is accomplished with a single HTTP application handler to process incoming requests, which is host specific. The handler converts the incoming <code>HttpContext</code> to an equivalent object agnostic from the host, which is passed to downstream assemblies that use the object to read the incoming request and write the response. We use interfaces that abstract the incoming <code>HttpContext</code> used by each host environment, <a href="https://docs.microsoft.com/dotnet/api/system.web.httpcontext">System.Web.HttpContext</a> and <a href="https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.http.httpcontext">Microsoft.AspNetCore.Http.HttpContext</a> respectively. Furthermore, we implement routing rules in downstream assemblies, agnostic from the host which also simplifies the migration. The service does not have UI or a <em>view</em> component. If you have a <em>view</em> component with MVC and model binding, the solution will necessarily be more complicated.</p>
+<h3 id="step-3-inventory-of-net-framework-dependencies">Step 3 &mdash; inventory of .NET Framework dependencies</h3>
+<p>Create an inventory of all dependencies used by the service that are .NET Framework only and identify the owners to engage with them if needed.</p>
+<p>Classify each dependency based on relevance and the return of investment. Using and maintaining dependencies comes with some baggage and tax, they better be worth it. Typically, a good dependency adheres to the following principles:</p>
+<ol>
+<li>It doesn&#8217;t carry implicit dependencies, other than .NET runtime or extensions.</li>
+<li>It solves a meaningful problem that can&#8217;t be easily solved, or the logic is very sensitive that duplication isn&#8217;t desired.</li>
+<li>It has good quality, reliability, and performance, especially when present in hot path.</li>
+<li>It&#8217;s actively maintained.</li>
+</ol>
+<p>If any of these premises is not met, it might be time to find an alternative, either by finding another dependency that does the job or by implementing it.</p>
+<p>Most popular libraries already target .NET Standard and many even target .NET Core. For any libraries that exclusively target .NET Framework, often it&#8217;s already in the owners&#8217; radar to build them in .NET Standard. Most of the owners are very receptive in doing such work, if requested. Engage with the owners of the libraries to understand the timeline to have .NET Core compatible version available.</p>
+<h3 id="step-4-get-rid-of-net-framework-dependencies-from-project-libraries">Step 4 &mdash; get rid of .NET Framework dependencies, from project libraries</h3>
+<p>Start migrating dependencies one by one, moving to the equivalent in .NET Standard. If there are many projects in the solution, start working on the projects that are at the bottom of dependency chain, following a bottoms-up approach, as typically they have the least number of dependencies and are easier to migrate.</p>
+<p>Projects targeting .NET Framework can continue doing so, while migration work is in progress. Once a project no longer references any .NET Framework dependency, make it target .NET Standard.</p>
+<h3 id="step-5-avoid-getting-blocked">Step 5 &mdash; avoid getting blocked</h3>
+<p>If the service has a legacy or is sizable, likely you will find dependencies buried that are hard to get rid of. Don&#8217;t give up. </p>
+<p>Consider the following options:</p>
+<ol>
+<li>Volunteer to help the owners build the dependency as .NET Standard to unblock yourself.</li>
+<li>Fork the code and build it in your repository to .NET Standard, as a temporary solution, until a compatible version is available.</li>
+<li>Run the dependency as separate console application or background service that runs with .NET Framework. Now your service can run in ASP.NET Core, while the console application or background service runs in .NET Framework.</li>
+<li>As a very last resort, try referencing the dependency from a .NET Core project, including your .NET Framework <strong>ProjectReference</strong> or <strong>PackageReference</strong> with <code>NoWarn="NU1702"</code>. The .NET Core runtime uses a compatibility shim that allows you to load and use some .NET Framework assemblies. However, this is not recommended as a permanent measure. This approach must be tested exhaustively (at runtime) as there are no guarantees the assembly is compatible (in all code paths), even if the build succeeds.</li>
+</ol>
+<p>In the case of the Microsoft Graph migration, we used all of these options at different times and for different dependencies. Currently we still run one console application as .NET Framework, and load one .NET Framework assembly in the service using compatibility shim.</p>
+<h3 id="step-6-create-new-webserver-project-for-asp-net-core">Step 6 &mdash; create new webserver project for ASP.NET Core</h3>
+<p>Create a new project for ASP.NET Core, side-by-side with your current ASP.NET Framework project, with equivalent settings. New ASP.NET Core projects use <a href="https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel">Kestrel</a> by default. It is very good and is where most .NET Team investment goes. It is their cross-platform web server. There are however other choices you can consider, like HTTP.sys, IIS, and even NGINX.</p>
+<p>Make sure to enable the newer <a href="https://docs.microsoft.com/dotnet/core/diagnostics/available-counters">performance counters in .NET Core</a>. Take the time to enable them, especially CPU, GC, memory and threadpool related. Also enable the performance counters for the web server chosen (for example, request queuing). These will be important when you start the rollout, to detect any regressions or anomalies.</p>
+<p>At this point, you should have completed <strong>stage 2</strong> (in the image I shared above) and are ready to do A/B test and start rollout.</p>
+<h3 id="step-7-a-b-testing-and-rollout-plan">Step 7 &mdash; A/B testing and rollout plan</h3>
+<p>Create a rollout plan that allows for A/B testing in some production capacity (for example, deploy the new runtime to one scale set), after passing through all pre-production gates. Testing at scale, with real traffic, is the ultimate gate and the moment of truth.</p>
+<p>You can measure application efficiency before and after, measuring differences between A/B bits, using the following heuristic: </p>
+<pre><code class="language-xml">Efficiency = (Requests per second) / (CPU utilization)</code></pre>
+<p>During the first rollout, minimize the changes introduced in the payload, to reduce the number of variables that can cause unexpected regressions. If we introduce too many variables in the payload, we are increasing the odds of introducing other bugs that can be unrelated to the new runtime, but still waste engineers&#8217; time to identify and root cause them.</p>
+<p>Once the initial rollout succeeds in a small scale and it is vetted, plan to enable the new bits using gradual rollout following the safe deployment practices in place. It is important to follow a gradual rollout, that allows you to detect and mitigate issues promptly that may surface with increased volume and scale.</p>
+<h3 id="step-8-target-net-core-in-all-projects">Step 8 &mdash; target .NET Core in all projects</h3>
+<p>Once you have the service running in ASP.NET Core, deployed at scale and vetted, it&#8217;s time to remove the very last fragments of .NET Framework still lingering around. Remove the web server project for ASP.NET and move all project libraries to target .NET Core explicitly, instead of .NET Standard, so you can start using newer APIs and language features that will enable developers to write better code. And with this, you have gone through <strong>stage 3</strong> successfully.</p>
+<h2 id="upgrade-tips">Upgrade tips</h2>
+<p>Some of the main learnings and upgrade tips applied.</p>
+<h3 id="quirks-in-uri-encoding">Quirks in URI encoding</h3>
+<p>One core function of the service is to parse the incoming URI. Over the years we ended up having different points throughout the codebase, with hard assumptions on how the incoming request is encoded. A lot of those assumptions were violated when we moved from ASP.NET to ASP.NET Core, resulting in numerous issues and edge cases. After a long time, several fixes and analysis, we consolidated in the following rules, used to convert ASP.NET Core path and query to the old ASP.NET format that different parts of the code require.</p>
+<ul>
+<li>
+<p>Rejected percent-encoded ASCII characters, by host.</p>
+<table>
+<thead>
+<tr>
+<th>ASP.NET Core</th>
+<th>ASP.NET</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Path</td>
+<td>%00</td>
+<td>%00 through %19, and %7F</td>
+</tr>
+<tr>
+<td>Query</td>
+<td>NONE</td>
+<td>NONE</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Automatically decoded percent-encoded characters, by host.</p>
+<table>
+<thead>
+<tr>
+<th>ASP.NET Core</th>
+<th>ASP.NET</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Path</td>
+<td>NONE</td>
+<td>NO multi-byte UTF8 character, EVERY non-rejected ASCII character except for: %20, %22, %23, %25, %3C, %3E, %3F, %5B, %5D, %5E, %60, %7B, %7C, %7D</td>
+</tr>
+<tr>
+<td>Query</td>
+<td>NONE</td>
+<td>NONE</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h3 id="enable-dynamic-pgo-with-net-6">Enable Dynamic PGO with .NET 6</h3>
+<p>With .NET 6 we have enabled <a href="https://devblogs.microsoft.com/dotnet/conversation-about-pgo/">Dynamic PGO</a>, one the most exciting features of .NET 6.0. PGO can benefit .NET 6.0 applications by maximizing steady-state performance.</p>
+<p>Dynamic PGO is an opt-in feature in .NET 6.0. There are 3 environment variables you need to set to enable dynamic PGO:</p>
+<ul>
+<li><code>set DOTNET_TieredPGO=1</code>. This setting leverages the initial Tier0 compilation of methods to observe method behavior. When methods are rejitted at Tier1, the information gathered from the Tier0 executions is used to optimize the Tier1 code.</li>
+<li><code>set DOTNET_TC_QuickJitForLoops=1</code>. This setting enables tiering for methods that contain loops.</li>
+<li><code>set DOTNET_ReadyToRun=0</code>. The core libraries that ship with .NET come with ReadyToRun enabled by default. ReadyToRun allows for faster startup because there is less to JIT compile, but this also means code in ReadyToRun images doesn’t go through the Tier0 profiling process which enables dynamic PGO. By disabling ReadyToRun, the .NET libraries also participate in the dynamic PGO process.</li>
+</ul>
+<p>These settings increased the application efficiency by <a href="https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-is-on-net-6-0/#enabling-dynamic-pgo-profile-guided-optimization">13% for Azure AD Gateway</a>.</p>
+<h2 id="other-references">Other references</h2>
+<p>For more learnings, refer to the following blogs posted by our Azure AD gateway sister team:</p>
+<ul>
+<li><a href="https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-service-is-on-net-core-3-1/">Azure Active Directory’s gateway is on .NET Core 3.1!</a></li>
+<li><a href="https://devblogs.microsoft.com/dotnet/azure-active-directorys-gateway-is-on-net-6-0/">Azure Active Directory’s gateway is on .NET 6.0!</a></li>
+</ul>
+<h2 id="summary">Summary</h2>
+<p>Every new release of .NET comes with tremendous productivity and performance improvements that continue helping accomplish our goals to build scalable services, with high availability, security, minimal latency overhead, and optimal routing, while having the lowest operational costs possible.</p>
+<p>Be assured, there is no magic wand. In most cases, the migration needs serious commitment and hard work from the team. But in the long haul, that work undoubtedly pays off many dividends.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/microsoft-graph-dotnet-6-journey/">Microsoft Graph&#8217;s Journey to .NET 6</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/microsoft-graph-dotnet-6-journey/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>YARP 1.1 is here with new requested reverse proxy features</title>
+      <link>https://devblogs.microsoft.com/dotnet/yarp-reverse-proxy-1-1-release/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/yarp-reverse-proxy-1-1-release/#comments</comments>
+      <dc:creator><![CDATA[Sam Spencer]]></dc:creator>
+      <pubDate>Mon, 02 May 2022 18:03:07 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET Core]]></category>
+      <category><![CDATA[ASP.NET Core]]></category>
+      <category><![CDATA[Networking]]></category>
+      <category><![CDATA[Reverse Proxy]]></category>
+      <category><![CDATA[YARP]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39711</guid>
+      <description><![CDATA[<p>YARP 1.1 has been released. YARP is a highly customizable open-source reverse proxy written for .NET. This release adds a few commonly requested features.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/yarp-reverse-proxy-1-1-release/">YARP 1.1 is here with new requested reverse proxy features</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>We are pleased to announce that YARP 1.1 has been released to <a href="https://www.nuget.org/packages/Yarp.ReverseProxy">nuget.org</a>. YARP 1.1 is an incremental release, adding some commonly requested features since the 1.0 release in November.</p>
+<h2 id="what-is-yarp">What is YARP?</h2>
+<p>YARP is an open source project to create a highly customizable reverse proxy built on the Microsoft .NET platform. To learn more, see the GitHub repo at <a href="https://github.com/microsoft/reverse-proxy">https://github.com/microsoft/reverse-proxy</a> or the <a href="https://devblogs.microsoft.com/dotnet/announcing-yarp-1-0-release/">1.0 Announcement post</a>.</p>
+<h2 id="whats-new-in-1-1">What&#8217;s new in 1.1?</h2>
+<ul>
+<li>
+<p><a href="https://github.com/microsoft/reverse-proxy/issues/1325">Zero Byte Reads</a> &#8211; This is a perf optimization which is especially valuable for proxying web socket and gRPC streams. A zero byte read is used to detect if data is waiting on the stream, and only then is a memory buffer allocated for the reads. This improves the memory scalability when handling large numbers of streaming requests which may be idle.</p>
+</li>
+<li>
+<p><a href="https://microsoft.github.io/reverse-proxy/articles/header-routing.html#scenario-2---multiple-values">Multi-value header matching</a> &#8211; Header matching rules for routes now support headers with multiple values, or multiple instances of the same header name.</p>
+</li>
+<li>
+<p><a href="https://microsoft.github.io/reverse-proxy/articles/http3.html">HTTP/3 Support</a> &#8211; On .NET 6, YARP supports inbound and outbound requests using HTTP/3. This is dependent on enabling the HTTP/3 functionality for .NET 6, which is a <a href="https://devblogs.microsoft.com/dotnet/http-3-support-in-dotnet-6/">preview feature</a>.</p>
+</li>
+<li>
+<p><a href="https://microsoft.github.io/reverse-proxy/articles/config-files.html">Multiple configuration sources</a> &#8211; YARP configuration can now be loaded from multiple sources, merging multiple route and cluster lists together. The sources can be a mix of config files and/or code-based providers, providing more flexibility with how dynamic configuration is handled.</p>
+</li>
+<li>
+<p><a href="https://microsoft.github.io/reverse-proxy/articles/httpsys-delegation.html">Http.Sys delegation</a> &#8211; If YARP is hosted by Http.sys, then it can route requests to other processes on the same machine also using Http.Sys. </p>
+</li>
+<li>
+<p><a href="https://microsoft.github.io/reverse-proxy/articles/ab-testing.html">APIs for Middleware</a> &#8211; Added APIs for middleware giving them real-time access to clusters and routes, and the ability to modify the cluster after routing has already run. These are the key building blocks for creating custom A/B testing and rolling upgrade systems.</p>
+</li>
+<li>
+<p><a href="https://microsoft.github.io/reverse-proxy/articles/getting-started.html">Documentation</a> &#8211; In addition to documentation for the features above, articles have been added for <a href="https://microsoft.github.io/reverse-proxy/articles/config-filters.html">configuration filters</a>, <a href="https://microsoft.github.io/reverse-proxy/articles/lets-encrypt.html">Lets Encrypt</a> and <a href="https://microsoft.github.io/reverse-proxy/articles/websockets.html">Web Socket support</a>. All the docs have been edited with a view to improving them for those not intimately familiar with the details of ASP.NET Core.</p>
+</li>
+</ul>
+<h2 id="join-the-asp-net-community-standup">Join the ASP.NET Community Standup</h2>
+<p>On May 3rd at 10AM Pacific, the team will join the weekly <a href="https://youtu.be/2AERbOJwXG4" rel="noopener" target="_blank">ASP.NET Community Standup</a> to discuss all things YARP 1.1!</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2AERbOJwXG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2 id="contributors">Contributors</h2>
+<p>In addition to the contributions from the YARP team members, we are very grateful to have received a number of PRs and issues from the community. Thank you to those who contributed PRs to make this release happen – @dpbevin, @specialforest, @kahbazi, @stanvanrooy, @NGloreous, @ericmutta, @Steve-Fenton, @illay1994,
+@macsux, @rwkarg, @horse315, @kkbruce, @mmitche, @damienbod, @tomaustin700, @Henfau, @jerry-shao.</p>
+<h2 id="closing">Closing</h2>
+<p>Over the next couple of weeks we will be planning the feature set for the next YARP release. One of the big areas of investment is Kubernetes integration being led by @dpbevin. </p>
+<p>We really value the feedback and questions in the GitHub <a href="https://github.com/microsoft/reverse-proxy/issues">issues</a> and <a href="https://github.com/microsoft/reverse-proxy/discussions">discussions</a>, so please keep them coming.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/yarp-reverse-proxy-1-1-release/">YARP 1.1 is here with new requested reverse proxy features</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/yarp-reverse-proxy-1-1-release/feed/</wfw:commentRss>
+      <slash:comments>1</slash:comments>
+    </item>
+    <item>
+      <title>CoreWCF 1.0 has been Released, WCF for .NET Core and .NET 5+</title>
+      <link>https://devblogs.microsoft.com/dotnet/corewcf-v1-released/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/corewcf-v1-released/#comments</comments>
+      <dc:creator><![CDATA[Sam Spencer]]></dc:creator>
+      <pubDate>Thu, 28 Apr 2022 18:06:25 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET Core]]></category>
+      <category><![CDATA[WCF]]></category>
+      <category><![CDATA[corewcf]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39661</guid>
+      <description><![CDATA[<p>CoreWCF 1.0 has been released, the first major release of the project, and provides WCF functionality for .NET Core, .NET Framework and .NET 5+.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/corewcf-v1-released/">CoreWCF 1.0 has been Released, WCF for .NET Core and .NET 5+</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>The CoreWCF Project team has released the 1.0 version of CoreWCF, a port of WCF to the .NET Core platform. It provides a compatible implementation of SOAP, NetTCP, and WSDL. Usage in code is similar to WCF, but updated to use ASP.NET Core as the service host, and to work with .NET Core. This is the first major release of the project, and provides WCF functionality for .NET Core, .NET Framework, and .NET 5+.</p>
+<p>The 1.0 release of CoreWCF is compatible with .NET Standard 2.0 so that it will work with:</p>
+<ul>
+<li>.NET Framework 4.6.2 (and above)</li>
+<li>.NET Core 3.1</li>
+<li>.NET 5 &amp; 6</li>
+</ul>
+<p>Support for .NET Framework will enable an easier modernization path to .NET Core. Applications with WCF dependencies can be updated to use CoreWCF in-place on .NET framework, which then will work the same when updated to use .NET Core or .NET 5+.</p>
+<p>The assemblies are available on <a href="https://www.nuget.org/profiles/corewcf">Nuget.org</a>, as described in the <a href="https://github.com/CoreWCF/CoreWCF/releases/latest">Release Notes</a>.</p>
+<h2 id="community-project">Community Project</h2>
+<p>CoreWCF was announced as a <a href="https://devblogs.microsoft.com/dotnet/supporting-the-community-with-wf-and-wcf-oss-projects/">community project</a> in June of 2019, and has had many contributors during the last 3 years. As a community project, CoreWCF has had more commits from other contributors than Microsoft employees, and regular contributions from AWS and other organizations.</p>
+<p>A special thanks to <a href="https://github.com/CoreWCF/CoreWCF/graphs/contributors">all those</a> who have contributed code, issues or suggestions. The community support has been critical to getting the project to this point, and we hope it will continue for subsequent versions. I&#8217;d be remiss if I didn&#8217;t make a special callout to <a href="https://github.com/mconnew">@mconnew</a> who has been the backbone of the project and contributed most of the code.</p>
+<p>As a community project, the voices of the community guide the direction of the project. For example, the <a href="https://github.com/CoreWCF/CoreWCF/issues/234">Feature Roadmap Vote issue</a> is highly influential to the planning process for what to work on next. If you are a WCF user, please provide feedback on what you would like to see in subsequent releases.</p>
+<h2 id="features">Features</h2>
+<p>CoreWCF is a subset of the functionality from WCF, but represents what we believe are the most used features, including:</p>
+<ul>
+<li>Http &amp; NetTCP transports</li>
+<li>Bindings:
+<ul>
+<li>BasicHttpBinding</li>
+<li>NetHttpBinding</li>
+<li>NetTcpBinding &#8211; some WS-* features not supported</li>
+<li>WebHttpBinding</li>
+<li>WSHttpBinding &#8211; some WS-* features not supported</li>
+</ul>
+</li>
+<li>Security:
+<ul>
+<li>Transport</li>
+<li>NetTcpBinding supports Certificate and Windows authentication</li>
+<li>Http bindings require authentication to be configured in ASP.NET Core</li>
+<li>Transport With Message Credentials</li>
+<li>Username, Certificate and Windows Authentication are supported</li>
+<li>WS Federation</li>
+</ul>
+</li>
+<li>WSDL generation</li>
+<li>Partial configuration support including services &amp; endpoints</li>
+<li>Extensibility (IServiceBehavior and IEndpointBehavior) &#8211; most extensibility is available</li>
+</ul>
+<p>Major WCF features not yet implemented include:</p>
+<ul>
+<li>Transports other than Http and NetTCP.</li>
+<li>Message security beyond Transport &amp; Transport with Message Credentials</li>
+<li>Distributed transactions</li>
+<li>Message Queueing</li>
+</ul>
+<h2 id="who-should-use-corewcf">Who should use CoreWCF?</h2>
+<p>CoreWCF is intended for customers who have been using WCF on .NET Framework and need WCF support in .NET Core to facilitate modernizing the application. While there is nothing stopping you from adopting CoreWCF in greenfield projects, we would recommend you consider more modern alternatives to SOAP such as <a href="https://docs.microsoft.com/aspnet/core/grpc/?view=aspnetcore-6.0">gRPC</a>. The sweet spot for CoreWCF is to make it easier to modernize server and clients that have a strong dependency on WCF and SOAP.</p>
+<h2 id="microsoft-support">Microsoft Support</h2>
+<p>We recognize how important support is to enterprise customers, and so we are pleased to announce that Microsoft Product Support will be available for CoreWCF customers.</p>
+<p>Support for CoreWCF 1.x will depend on the support status for the underlying .NET platforms it runs on.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Runtime Version</strong></th>
+<th><strong>Support dependency duration</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.NET Framework 4.x</td>
+<td>The specific version of <a href="https://dotnet.microsoft.com/platform/support/policy/dotnet-framework">.NET Framework</a>, and <a href="https://dotnet.microsoft.com/platform/support/policy/aspnet">ASP.NET Core 2.1.</a></td>
+</tr>
+<tr>
+<td>.NET Core 3.1</td>
+<td>.NET 3.1 LTS &#8211; December 3, 2022</td>
+</tr>
+<tr>
+<td>.NET 5</td>
+<td>.NET 5 &#8211; May 8, 2022</td>
+</tr>
+<tr>
+<td>.NET 6</td>
+<td>.NET 6 LTS &#8211; November 8, 2024</td>
+</tr>
+</tbody>
+</table>
+<p>CoreWCF will use Major.Minor versioning strategy:</p>
+<ul>
+<li>1.0 will be the first major release of CoreWCF</li>
+<li>Minor releases will be numbered 1.x, and will have the same underlying platform requirements as 1.0.</li>
+<li>Minor version releases (1.x) will be API compatible with the 1.0 release.</li>
+<li>Support will be primarily for the latest major.minor release of each supported major version.
+<ul>
+<li>When new major or minor versions are released, then the previous release will be supported for 6 months from the date of the new release, provided the underlying runtime dependency being used is still within support.</li>
+</ul>
+</li>
+<li>Subsequent major versions, such as 2.0, may reduce the map of runtimes that are supported. In that case 1.x will continue to be supported beyond the 6 months on the runtimes that are not supported by 2.0, and support duration will be limited only by the underlying platform.
+<ul>
+<li>This will most likely apply to .NET Framework, and means that 1.x will be supported as long as both ASP.NET Core 2.1 and .NET Framework 4.x are under support.</li>
+</ul>
+</li>
+</ul>
+<h4 id="more-support">More Support</h4>
+<p>Other organizations/companies may choose to provide support for CoreWCF in conjunction with the use of their products and services.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>The definition and implementation of data and service contracts is the same as WCF. The major difference is in the definition of the host which is now based on ASP.NET Core, and the ceremony of how a service is exposed. The following is based on .NET 6, but the same steps apply to other versions of .NET.</p>
+<h3 id="defining-the-service">Defining the service</h3>
+<h4 id="1-create-an-asp-net-core-empty-application-this-provides-the-host-for-the-service"> 1. Create an ASP.NET Core Empty application, this provides the host for the service.</h4>
+<p><em>Visual Studio:</em><br>
+<img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/image1.png" alt="Project Template" /></p>
+<p><em>Command Line:</em></p>
+<pre><code class="language-cli">mkdir CoreWCFDemoServer
+dotnet new web -n CoreWCFDemoServer -o CoreWCFDemoServer</code></pre>
+<h4 id="2-add-references-to-the-corewcf-nuget-packages">2. Add references to the CoreWCF Nuget Packages</h4>
+<p><em>Visual Studio:</em></p>
+<p>Using the package Manager console, add: </p>
+<ul>
+<li>Primitives</li>
+<li>Http</li>
+</ul>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/image2.png" alt="Package Manager Console" /></p>
+<p><em>Command Line:</em></p>
+<p><p>Edit the project file and add:</p>
+<pre><code class="language-xml">&lt;ItemGroup&gt;
+  &lt;PackageReference Include="CoreWCF.Http" Version="1.0.0" /&gt;
+  &lt;PackageReference Include="CoreWCF.Primitives" Version="1.0.0" /&gt;
+&lt;/ItemGroup&gt;</code></pre>
+<h4 id="3-create-the-service-contract-and-data-contract-definitions">3. Create the Service Contract and Data Contract definitions</h4>
+<p>These are defined the same as with WCF. When modernizing projects, this code can remain largely unchanged.</p>
+<p><strong>File: IEchoService.cs</strong></p>
+<pre><code class="language-C#">using System.Diagnostics.CodeAnalysis;
+using System.Runtime.Serialization;
+using CoreWCF;
+
+namespace CoreWCfDemoServer
+{
+    [DataContract]
+    public class EchoFault
+    {
+        [AllowNull]
+        private string _text;
+
+        [DataMember]
+        [AllowNull]
+        public string Text
+        {
+            get { return _text; }
+            set { _text = value; }
+        }
+    }
+
+    [ServiceContract]
+    public interface IEchoService
+    {
+        [OperationContract]
+        string Echo(string text);
+
+        [OperationContract]
+        string ComplexEcho(EchoMessage text);
+
+        [OperationContract]
+        [FaultContract(typeof(EchoFault))]
+        string FailEcho(string text);
+
+    }
+
+    [DataContract]
+    public class EchoMessage
+    {
+        [AllowNull]
+        [DataMember]
+        public string Text { get; set; }
+    }
+}
+</code></pre>
+<p><strong>File: EchoService.cs</strong></p>
+<pre><code class="language-c#">using CoreWCF;
+
+namespace CoreWCfDemoServer
+{
+    public class EchoService : IEchoService
+    {
+        public string Echo(string text)
+        {
+            System.Console.WriteLine($"Received {text} from client!");
+            return text;
+        }
+
+        public string ComplexEcho(EchoMessage text)
+        {
+            System.Console.WriteLine($"Received {text.Text} from client!");
+            return text.Text;
+        }
+
+        public string FailEcho(string text)
+            =&gt; throw new FaultException&lt;EchoFault&gt;(new EchoFault() { Text = "WCF Fault OK" }, new FaultReason("FailReason"));
+
+    }
+}</code></pre>
+<h4 id="4-the-service-host-needs-to-be-told-which-services-to-expose-via-which-bindings">4. The Service host needs to be told which services to expose via which bindings.</h4>
+<p> Update Program.cs to expose the Bindings:</p>
+<pre><code class="language-c#">using CoreWCF;
+using CoreWCF.Configuration;
+using CoreWCF.Description;
+using CoreWCfDemoServer;
+
+var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.ConfigureKestrel((context, options) =&gt;
+{
+options.AllowSynchronousIO = true;
+});
+
+// Add WSDL support
+builder.Services.AddServiceModelServices().AddServiceModelMetadata();
+builder.Services.AddSingleton&lt;IServiceBehavior, UseRequestHeadersForMetadataAddressBehavior&gt;();
+
+var app = builder.Build();
+app.UseServiceModel(builder =&gt;
+{
+builder.AddService((serviceOptions) =&gt; { })
+// Add a BasicHttpBinding at a specific endpoint
+.AddServiceEndpoint&lt;EchoService, IEchoService&gt;(new BasicHttpBinding(), "/EchoService/basichttp")
+// Add a WSHttpBinding with Transport Security for TLS
+.AddServiceEndpoint&lt;EchoService, IEchoService&gt;(new WSHttpBinding(SecurityMode.Transport), "/EchoService/WSHttps");
+});
+var serviceMetadataBehavior = app.Services.GetRequiredService();
+serviceMetadataBehavior.HttpGetEnabled = true;
+
+app.Run();
+</pre>
+<p></code></p>
+<h4 id="5-update-the-appsettings-json-to-specify-fixed-ports-for-the-service-to-listen-on">5. Update the appsettings.json to specify fixed ports for the service to listen on</h4>
+<p>Add the following line before the "Logging" line in appsettings.json:</p>
+<p><code></p>
+<pre>"Urls": "http://localhost:5000;https://localhost:5001",</code></pre>
+<h4 id="6-run-the-project-so-that-the-services-can-be-called">6. Run the project so that the services can be called</h4>
+</p>
+<h3 id="to-consume-the-service">To consume the service:</h3>
+<h4 id="1-create-a-console-application">1. Create a console application</h4>
+<h4 id="2-add-a-service-reference">2. Add a Service Reference</h4>
+<p><em>Visual Studio</em></p>
+<p>Use the "Add Service Reference" command, and select "WCF Web Service" as the service type.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/image3.png" alt="Add Service Reference Dialog" /></p>
+<p>Use <code>http://localhost:5000/EchoService/basichttp</code> as the URL for WSDL discovery.</p>
+<p><em>Command line</em></p>
+<p>From the Command Line, the same code can be generated using svcutil:</p>
+<pre><code class="language-cli">dotnet tool install --global dotnet-svcutil
+dotnet-svcutil --roll-forward LatestMajor http://localhost:5000/EchoService/basichttp?wsdl</code></pre>
+<h4 id="3-replace-the-code-of-the-console-app-with">3. Replace the code of the console app with:</h4>
+<pre><code class="language-C#">using ServiceReference1;
+// Instantiate the Service wrapper specifying the binding and optionally the Endpoint URL. The BasicHttpBinding could be used instead.
+var client = new EchoServiceClient(EchoServiceClient.EndpointConfiguration.WSHttpBinding_IEchoService, "https://localhost:5001/EchoService/WSHttps");
+
+var simpleResult = await client.EchoAsync("Hello");
+Console.WriteLine(simpleResult);
+
+var msg = new EchoMessage() { Text = "Hello2" };
+var msgResult = await client.ComplexEchoAsync(msg);
+Console.WriteLine(msgResult);
+</code></pre>
+<h2 id="other-samples">Other Samples</h2>
+<p>Other samples, including samples for desktop framework are available at <a href="https://github.com/CoreWCF/CoreWCF/tree/main/src/Samples">CoreWCF/src/Samples</a></p>
+<h2 id="see-it-in-action">See it in action</h2>
+<p>On an <a href="https://www.youtube.com/watch?v=dom2O19fGAo">recent episode</a> of <a href="https://docs.microsoft.com/shows/on-net/">On .NET</a>, Matthew Connew joined James Montemagno to walk through all of the new features and roadmap for CoreWCF:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dom2O19fGAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2 id="summary">Summary</h2>
+<p>We are pleased to see the community investment in the CoreWCF project, and congratulate them on this release. The project is ongoing and they welcome your feedback via <a href="https://github.com/CoreWCF/CoreWCF/issues">issues</a> and <a href="https://github.com/CoreWCF/CoreWCF/discussions">discussions</a> in GitHub, in particular which features you think should be worked on <a href="https://github.com/CoreWCF/CoreWCF/issues/234">next</a>.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/corewcf-v1-released/">CoreWCF 1.0 has been Released, WCF for .NET Core and .NET 5+</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/corewcf-v1-released/feed/</wfw:commentRss>
+      <slash:comments>10</slash:comments>
+    </item>
+    <item>
+      <title>.NET MAUI Release Candidate 2 – With 100% More Tizen</title>
+      <link>https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-2/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-2/#comments</comments>
+      <dc:creator><![CDATA[David Ortinau]]></dc:creator>
+      <pubDate>Tue, 26 Apr 2022 19:09:52 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET MAUI]]></category>
+      <category><![CDATA[.net 6]]></category>
+      <category><![CDATA[.net maui]]></category>
+      <category><![CDATA[android]]></category>
+      <category><![CDATA[ios]]></category>
+      <category><![CDATA[macos]]></category>
+      <category><![CDATA[release candidate]]></category>
+      <category><![CDATA[windows]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39634</guid>
+      <description><![CDATA[<p>.NET MAUI Release Candidate 2 is now available with dozens of bug fixes full support for Tizen. Get started today to build app for Android, Windows, iOS, and macOS.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-2/">.NET MAUI Release Candidate 2 &#8211; With 100% More Tizen</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>We are excited to release .NET Multi-platform App UI (.NET MAUI) Release Candidate 2. This release is covered by a &#8220;go-live&#8221; support policy, meaning .NET MAUI is supported by Microsoft for your production apps. The team has been focused on stabilizing the toolkit, resolving the high impact issues you have been helping us to identify through your valuable feedback. Thank you!</p>
+<h2 id="get-started-today">Get Started Today</h2>
+<p>To acquire .NET MAUI RC2 on Windows, <a href="https://aka.ms/vs2022preview">install or update Visual Studio 2022 Preview</a> to version 17.2 Preview 5. In the installer, confirm .NET MAUI (preview) is checked under the &#8220;Mobile Development with .NET&#8221; workload.</p>
+<p>To use .NET MAUI RC2 on Mac, follow the <a href="https://github.com/dotnet/maui/wiki/macOS-Install">command-line instructions</a> on the wiki. Support for .NET MAUI in Visual Studio 2022 for Mac will ship formally in a future preview.</p>
+<p>Release Candidate 2 <a href="https://github.com/dotnet/maui/releases/tag/6.0.300-rc.2">release notes are on GitHub</a>. For additional information about getting started with .NET MAUI, refer to our <a href="https://docs.microsoft.com/dotnet/maui/get-started/installation">documentation</a> and the <a href="https://github.com/dotnet/maui/wiki/Migrating-to-RC1">migration tip sheet</a> for a list of changes to adopt when upgrading projects.</p>
+<blockquote><p><strong>Reminder about Xamarin support</strong> The <a href="https://dotnet.microsoft.com/platform/support/policy/xamarin">Xamarin Support Policy</a> is still in effect, which covers those products for 2 years after initial release. The last release was in November of 2021, so support will continue through November 2023.</p></blockquote>
+<h2 id="adding-tizen-platform">Adding Tizen Platform</h2>
+<p>Tizen.NET has long enabled .NET applications to run on millions of Samsung TVs, phones, and other devices running Tizen. Today, Tizen joins Android, iOS, macOS, and Windows as one of the target platforms you can reach with .NET MAUI. Congratulations to the Samsung Tizen.NET team on this great milestone!</p>
+<p>Visit the <a href="https://github.com/Samsung/Tizen.NET">Tizen .NET introduction</a> to get started. While the platform support is part of .NET MAUI SDK and we&#8217;ve added the scaffolding for Tizen to the .NET MAUI template project, the required workload dependencies are distributed through a separate installation experience maintained by Tizen.</p>
+<p>Looking for samples? The Tizen team keeps up to date with all our beautiful sample apps to make sure they run great on Tizen mobile and Tizen TV.</p>
+<blockquote><p>The official Tizen Emulator supporting .NET 6 will be released by the Tizen team soon.</p></blockquote>
+<h3 id="hellomaui">HelloMaui</h3>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/hellomaui.gif" alt="Tizen emulator" /></p>
+<p><a href="https://github.com/Samsung/Tizen.NET/tree/main/samples/HelloMaui">Source</a></p>
+<h3 id="weathertwentyone">WeatherTwentyOne</h3>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/weather-tizen.gif" alt="Tizen TV emulator running WeatherTwentyOne" /></p>
+<p><a href="https://github.com/Samsung/Tizen.NET/tree/main/samples/WeatherTwentyOne">Source</a></p>
+<h3 id="net-podcast">.NET Podcast</h3>
+<p><img class="alignnone" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/podcast-tizen.gif" alt="Tizen emulator and browser running dot net podcasts, .NET MAUI Release Candidate 2" width="1263" height="758" /></p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/podcasttv-tizen.gif" alt="Tizen TV emulator running dot net podcasts" /></p>
+<p><a href="https://github.com/Samsung/Tizen.NET/tree/main/samples/dotnet-podcasts">Source</a></p>
+<h2 id="getting-the-most-from-platforms">Getting the most from platforms</h2>
+<p>.NET MAUI excels at giving you the same UI and styling for native controls across all supported platforms, while also giving you broad access to native platform features all from a single .NET language. .NET does this by taking full advantage of <a href="https://docs.microsoft.com/dotnet/standard/library-guidance/cross-platform-targeting#multi-targeting">multi-targeting</a> to organize code and resources that may span several platforms from a single project.</p>
+<p>There may also be scenarios in your applications where you&#8217;ll want to customize how it looks and behaves on a specific platform in order to take full advantage of native features only present on that platform, or to unify an experience to be more consistent with other platforms. There are 3 main ways in which you can do this in .NET MAUI:</p>
+<h3 id="1-platform-folders">1. Platform folders</h3>
+<p>Within the single project structure, we&#8217;ve paved the way for you to put platform-specific code and files into folders by platform. The build tasks for .NET MAUI are pre-configured to know that anything you place there will apply only to that platform.</p>
+<p><img class="alignnone" src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/solution_platforms.png" alt="Solution shows platform folders, .NET MAUI Release Candidate 2" width="654" height="834" /></p>
+<h3 id="2-filename-convention">2. Filename convention</h3>
+<p>The .NET MAUI build tasks will also look at filename conventions to determine what code should run for each platform. The source code is actually setup this way as well. The <code>Button</code> handlers suffix the filenames by platform: Android, iOS, Tizen, and Windows.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/button_handlers.png" alt="Button handler files by platform" /></p>
+<h3 id="3-conditional-compilation">3. Conditional compilation</h3>
+<p>Multi-targeting also works via conditional compilation arguments. By using <code>#if</code>, you can segment code per platform from anywhere in your project. For example, in the <a href="https://github.com/davidortinau/WeatherTwentyOne/blob/main/src/WeatherTwentyOne/MauiProgram.cs#L37-L46">WeatherTwentyOne</a> app&#8217;s <code>MauiProgram.cs</code>, we configure services for local notifications and the system tray, which are very platform-specific APIs.</p>
+<pre><code class="language-csharp">    var services = builder.Services;
+#if WINDOWS
+    services.AddSingleton&lt;ITrayService, WinUI.TrayService&gt;();
+    services.AddSingleton&lt;INotificationService, WinUI.NotificationService&gt;();
+#elif MACCATALYST
+    services.AddSingleton&lt;ITrayService, MacCatalyst.TrayService&gt;();
+    services.AddSingleton&lt;INotificationService, MacCatalyst.NotificationService&gt;();
+#endif
+    services.AddSingleton&lt;HomeViewModel&gt;();
+    services.AddSingleton&lt;HomePage&gt;();</code></pre>
+<p>By default, the following options are available to you:</p>
+<ul>
+<li>ANDROID</li>
+<li>IOS</li>
+<li>MACCATALYST</li>
+<li>TIZEN</li>
+<li>WINDOWS</li>
+</ul>
+<p>You&#8217;ll notice IntelliSense will additionally offer you more specific options to target each platform such as &#8220;WINDOWS10_0_17763_0_OR_GREATER&#8221; in case you need it.</p>
+<p>For additional information on writing platform-specific code, check out the .NET MAUI documentation:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/dotnet/maui/platform-integration/configure-multi-targeting">Configure multi-targeting</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/platform-integration/invoke-platform-code">Invoke platform code</a></li>
+</ul>
+<p>.NET MAUI provides other helpful strategies for adapting your applications to different platforms, screen sizes, idioms, and more. For example, you can leverage these markup extensions and strategies:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/dotnet/maui/xaml/markup-extensions/consume">OnPlatform</a> &#8211; <code>WidthRequest="{OnPlatform 250, iOS=200, Android=300}"</code></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/xaml/markup-extensions/consume">OnIdiom</a> &#8211; <code>WidthRequest="{OnIdiom 100, Phone=200, Tablet=300, Desktop=400}"</code></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/fundamentals/triggers">Triggers</a> &#8211; Property, Data, Event, Multi-triggers, EnterActions, ExitActions, and State</li>
+</ul>
+<h2 id="we-need-your-feedback">We need your feedback</h2>
+<p>Install the latest preview of Visual Studio 2022 for Windows (17.2 Preview 5) following our <a href="https://docs.microsoft.com/dotnet/maui/get-started/first-app">simple guide</a> and build your first multi-platform application today.</p>
+<p>We&#8217;d love to hear from you! As you encounter any issues, file a <a href="https://github.com/dotnet/maui/issues/new/choose">report on GitHub at dotnet/maui</a>.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-2/">.NET MAUI Release Candidate 2 &#8211; With 100% More Tizen</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-2/feed/</wfw:commentRss>
+      <slash:comments>46</slash:comments>
+    </item>
+    <item>
+      <title>.NET Framework April 2022 Cumulative Update Preview</title>
+      <link>https://devblogs.microsoft.com/dotnet/framework-april-2022-updates/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/framework-april-2022-updates/#comments</comments>
+      <dc:creator><![CDATA[Salini Agarwal]]></dc:creator>
+      <pubDate>Mon, 25 Apr 2022 21:50:56 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET Framework]]></category>
+      <category><![CDATA[Maintenance & Updates]]></category>
+      <category><![CDATA[.net framework]]></category>
+      <category><![CDATA[updates]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39531</guid>
+      <description><![CDATA[<p>We have released the April 2022 Cumulative Update Preview for .NET Framework with several quality and reliability improvements.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/framework-april-2022-updates/">.NET Framework April 2022 Cumulative Update Preview</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>We have released the April 2022 Cumulative Update Preview for .NET Framework.</p>
+<h3 id="quality-and-reliability">Quality and Reliability</h3>
+<p>This release contains the following quality and reliability improvements.</p>
+<h5 id="ds1">DS<span style="font-size: 12pt;"><sup>1</sup></span></h5>
+<ul>
+<li>Addresses an issue where 3rd party .NET apps using certain System.DirectoryServices APIs crash with an Access Violation (0xC0000005).</li>
+</ul>
+<p><sup>1 </sup>Directory Services (DS)</p>
+<h3><a id="user-content-getting-the-update" class="anchor" href="#getting-the-update"></a>Getting the Update</h3>
+<p>The Cumulative Update Preview is available via Windows Update, Windows Server Update Services, and Microsoft Update Catalog.</p>
+<h5><a id="user-content-microsoft-update-catalog" class="anchor" href="#microsoft-update-catalog"></a>Microsoft Update Catalog</h5>
+<p>You can get the update via the Microsoft Update Catalog. For Windows 10, NET Framework 4.8 updates are available via Windows Update, Windows Server Update Services, Microsoft Update Catalog. Updates for other versions of .NET Framework are part of the Windows 10 Monthly Cumulative Update.</p>
+<p><strong>Note</strong>: Customers that rely on Windows Update and Windows Server Update Services will automatically receive the .NET Framework version-specific updates. Advanced system administrators can also take use of the below direct Microsoft Update Catalog download links to .NET Framework-specific updates. Before applying these updates, please ensure that you carefully review the .NET Framework version applicability, to ensure that you only install updates on systems where they apply.</p>
+<p>The following table is for Windows 10 and Windows Server 2016+ versions.</p>
+<table border="1" cellspacing="0" cellpadding="8px">
+<thead>
+<tr>
+<th>Product Version</th>
+<th colspan="2">Cumulative Update</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F0F0F0">
+<td><strong>Windows 11</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>.NET Framework 3.5, 4.8</td>
+<td><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=5012159" rel="nofollow">Catalog</a></td>
+<td><a href="https://support.microsoft.com/kb/5012159" rel="nofollow">5012159</a></td>
+</tr>
+<tr bgcolor="#F0F0F0">
+<td><strong>Microsoft server operating systems version 21H2</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>.NET Framework 3.5, 4.8</td>
+<td><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=5012160" rel="nofollow">Catalog</a></td>
+<td><a href="https://support.microsoft.com/kb/5012160" rel="nofollow">5012160</a></td>
+</tr>
+<tr bgcolor="#F0F0F0">
+<td><strong>Windows 10 21H2</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>.NET Framework 3.5, 4.8</td>
+<td><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=5012157" rel="nofollow">Catalog</a></td>
+<td><a href="https://support.microsoft.com/kb/5012157" rel="nofollow">5012157</a></td>
+</tr>
+<tr bgcolor="#F0F0F0">
+<td><strong>Windows 10 21H1</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>.NET Framework 3.5, 4.8</td>
+<td><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=5012157" rel="nofollow">Catalog</a></td>
+<td><a href="https://support.microsoft.com/kb/5012157" rel="nofollow">5012157</a></td>
+</tr>
+<tr bgcolor="#F0F0F0">
+<td><strong>Windows 10, version 20H2 and Windows Server, version 20H2</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>.NET Framework 3.5, 4.8</td>
+<td><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=5012157" rel="nofollow">Catalog</a></td>
+<td><a href="https://support.microsoft.com/kb/5012157" rel="nofollow">5012157</a></td>
+</tr>
+<tr bgcolor="#F0F0F0">
+<td><strong>Windows 10 1809 (October 2018 Update) and Windows Server 2019</strong></td>
+<td></td>
+<td><strong><a href="https://support.microsoft.com/kb/5012796" rel="nofollow">5012796</a></strong></td>
+</tr>
+<tr>
+<td>.NET Framework 3.5, 4.7.2</td>
+<td><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=5012162" rel="nofollow">Catalog</a></td>
+<td><a href="https://support.microsoft.com/kb/5012162" rel="nofollow">5012162</a></td>
+</tr>
+<tr>
+<td>.NET Framework 3.5, 4.8</td>
+<td><a href="http://www.catalog.update.microsoft.com/Search.aspx?q=5012158" rel="nofollow">Catalog</a></td>
+<td><a href="https://support.microsoft.com/kb/5012158" rel="nofollow">5012158</a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h5 id="previous-monthly-rollups">Previous Monthly Rollups</h5>
+<p>The last few .NET Framework Monthly updates are listed below for your convenience:</p>
+<ul>
+<li><a href="https://devblogs.microsoft.com/dotnet/dotnet-framework-april-2022-updates/" rel="nofollow">.NET Framework April 2022 Security and Quality Rollup </a></li>
+<li><a href="https://devblogs.microsoft.com/dotnet/net-framework-february-2022-cumulative-update-preview/" rel="nofollow">.NET Framework February 2022 Cumulative Update Preview</a></li>
+<li><a href="https://devblogs.microsoft.com/dotnet/net-framework-february-2022-security-and-quality-rollup/" rel="nofollow">.NET Framework February 2022 Security and Quality Rollup</a></li>
+<li><a href="https://devblogs.microsoft.com/dotnet/net-framework-january-2022-cumulative-update-preview/" rel="nofollow">.NET Framework January 2022 Cumulative Update Preview</a></li>
+</ul>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/framework-april-2022-updates/">.NET Framework April 2022 Cumulative Update Preview</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/framework-april-2022-updates/feed/</wfw:commentRss>
+      <slash:comments>1</slash:comments>
+    </item>
+    <item>
+      <title>C# 11 Preview Updates – Raw string literals, UTF-8 and more!</title>
+      <link>https://devblogs.microsoft.com/dotnet/csharp-11-preview-updates/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/csharp-11-preview-updates/#comments</comments>
+      <dc:creator><![CDATA[Kathleen Dollard]]></dc:creator>
+      <pubDate>Mon, 18 Apr 2022 21:08:52 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET Core]]></category>
+      <category><![CDATA[C#]]></category>
+      <category><![CDATA[C# 11]]></category>
+      <category><![CDATA[Pattern Matching]]></category>
+      <category><![CDATA[String literals]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39527</guid>
+      <description><![CDATA[<p>C# 11 features are coming along nicely and the most recent release features all sorts of goodies including updates to string literals, pattern matching, checked user-defined operators, and an update on !!.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/csharp-11-preview-updates/">C# 11 Preview Updates &#8211; Raw string literals, UTF-8 and more!</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Features for C# 11 are coming along nicely! You can check these features out by downloading <a href="https://visualstudio.microsoft.com/vs/preview">Visual Studio 17.2 Preview 3</a> or <a href="https://dotnet.microsoft.com/download/dotnet/7.0">.NET 7 Preview 3</a> for other editors. You can find more about C# 11 features that appeared earlier in <a href="https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-11">What&#8217;s new in C# 11</a> and <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features">Early peek at C# 11 features</a> and you can follow the progress of C# 11 on the <a href="https://github.com/dotnet/roslyn/blob/main/docs/Language%20Feature%20Status.md">Feature Status page</a>. You can find out about other <a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3">.NET 7 Preview 3 features in this .NET Blog post</a> and more about <a href="https://docs.microsoft.com/visualstudio/releases/2022/release-notes-preview">Visual Studio 17.2 in the release notes</a>.</p>
+<p>We evolve C# to improve your development productivity, the resiliency of your applications in production, performance and support for new features. The C# team works on both the performance of your application in production, and how the compiler performance affects your development. Features in this post include:</p>
+<ul>
+<li><a href="#raw-string-literals">Raw string literals</a> to make you more productive and improve readability by avoiding escaping content inside strings.</li>
+<li><a href="#utf-8-string-literals">UTF-8 String Literals</a> to make it easier and less error prone to create UTF-8 strings for better productivity, resiliency and performance.</li>
+<li><a href="#checked-user-defined-operators">Checked user-defined operators</a> to allow user defined operators to respect the current arithmetic overflow check status for better resiliency.</li>
+<li><a href="#auto-default-structs">Auto-default structs</a> to initialize struct values for better productivity.</li>
+<li><a href="#pattern-matching-with-spans">Pattern matching with spans</a> adds to the set of patterns for better productivity.</li>
+<li><a href="#use-a-cached-delegate-for-method-group-conversion">Use a cached delegate for method group conversion</a> for better performance.</li>
+</ul>
+<p>This post also explains why we <a href="#remove-parameter-null-checking-from-c-11">removed parameter null-checking from C# 11</a> and are adding a <a href="#warning-wave-warnings-on-lowercase-type-names">warning for lowercase type names</a>.</p>
+<h2 id="raw-string-literals"><a href="https://github.com/dotnet/csharplang/issues/4304">Raw string literals</a></h2>
+<p>If you work with strings literal that contain quotes or embedded language strings like JSON, XML, HTML, SQL, Regex and others, <em>raw literal strings</em> may be your favorite feature of C# 11. Previously if you copied a literal string with quotes into a C# literal, the string ended at the first double quote with compiler errors until you escaped each one. Similarly, if you copied text with curly braces into an interpolated string literal, each curly bracket was interpreted as the beginning of a nested code expression unless you escape it, generally by doubling the curly bracket.</p>
+<p>Raw string literals have no escaping. For example, a backslash is output as a backslash, and <code>\t</code> is output as the backslash and a <code>t</code>, not as the tab character.</p>
+<p>Raw string literals start and end with at least three double quotes (<code>"""..."""</code>). Within these double quotes, single <code>"</code> are considered content and included in the string. Any number of double quotes less than the number that opened the raw string literal are treated as content. So, in the common case of three double quotes opening the raw string literals, two double quotes appearing together would just be content. If you need to output a sequence of three or more double quotes, just open and close the raw string literal with at least one more quote than that sequence.</p>
+<p>Raw string literals can be interpolated by preceding them with a <code>$</code>. The number of <code>$</code> that prefixes the string is the number of curly brackets that are required to indicate a nested code expression. This means that a <code>$</code> behaves like the existing string interpolation – a single set of curly brackets indicate nested code. If a raw string literal is prefixed with <code>$$</code>, a single curly bracket is treated as content and it takes two curly brackets to indicate nested code. Just like with quotes, you can add more <code>$</code> to allow more curly brackets to be treated as content. For example:</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/raw-string-literal.png" alt="JSON example of raw string literal" /></p>
+<p>Raw string literals also have new behavior around automatically determining indentation of the content based on leading whitespace. To learn more about this and to see more examples on this feature, check out the <a href="https://docs.microsoft.com/dotnet/csharp/whats-new/csharp-11#raw-string-literals">docs article Raw String Literals</a>.</p>
+<p>This feature will make it much easier to work with literals that contain certain characters. You can now copy code into or from a literal string without being hindered by adding or removing escape sequences.</p>
+<p>Special thanks to <a href="https://github.com/jnm2">jnm2 (Joseph Musser) </a><span style="font-size: 1rem;">for his work on the design and implementation of raw string literals.</span></p>
+<h2 id="utf-8-string-literals"><a href="https://github.com/dotnet/csharplang/blob/main/proposals/utf8-string-literals.md">UTF-8 String Literals</a></h2>
+<p>UTF-8 is used in many scenarios, particularly in web scenarios. Prior to C# 11, programmers had to either translate UTF-8 into hexadecimal – which led to verbose, unreadable, error prone code – or encode string literals at runtime.</p>
+<p>C# 11 allows converting string literals containing only UTF-8 characters to their byte representation. This is done at compile-time, so the bytes are ready to use without additional runtime cost. So you can write code like:</p>
+<pre><code class="language-c#">byte[] array = "hello";             // new byte[] { 0x68, 0x65, 0x6c, 0x6c, 0x6f }
+Span&lt;byte&gt; span = "dog";            // new byte[] { 0x64, 0x6f, 0x67 }
+ReadOnlySpan&lt;byte&gt; span = "cat";    // new byte[] { 0x63, 0x61, 0x74 }</code></pre>
+<p>There are ongoing discussions about details such as whether a type suffix is required and what natural type that would imply. If you expect to use UTF-8 string literals, we would really like your feedback and you can see the <a href="https://github.com/dotnet/csharplang/blob/main/proposals/utf8-string-literals.md">UTF-8 String Literal proposal</a> and the links contained in it for more information.</p>
+<p>This feature brings a welcome simplification to everyone currently building byte arrays to represent UTF-8. If you are doing this, you will probably want to convert your code to use it after C# 11 releases. If you are not using UTF-8 string literals you can ignore this feature. For ASP.NET users, your response is encoding to UTF-8 from strings automatically, so you can ignore this feature.</p>
+<h2 id="checked-user-defined-operators"><a href="https://github.com/dotnet/csharplang/blob/main/proposals/checked-user-defined-operators.md">Checked user-defined operators</a></h2>
+<p>One of the major motivations for the <a href="https://docs.microsoft.com/dotnet/csharp/whats-new/tutorials/static-abstract-interface-methods">static abstract members in interfaces</a> feature of C# 11 is the ability to support generic math. .NET developers can write algorithms that rely on interfaces that include static abstract members as the generic constraint. One such interface is <code>INumber&lt;TSelf&gt;</code> which provides access to APIs such as <code>Max</code>, <code>Min</code>, <code>Parse</code>, and even operators such as <code>+</code>, <code>-</code>, <code>*</code>, and <code>/</code>, as well as user defined conversions.</p>
+<p>User-defined operators respect the arithmetic overflow and underflow checking context of the calling code, controlled via the <code>&lt;CheckForOverflowUnderflow&gt;</code> project property or the <code>checked</code>/<code>unchecked</code> regions and operators. Check out the language reference for about <a href="https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/checked-and-unchecked">checked and unchecked behavior for arithmetic operators</a>. Prior to C# 11, a user-defined operator was unaware of the context in which it was used.</p>
+<p>C# 11 adds the ability to declare certain operators as checked, identified with the <code>checked</code> modifier. Operators that do not have this modifier will be unchecked when paired with a checked operator. The compiler will select the right operator to use based on the context of the calling code. The operators that can support checked versions are the <code>++</code>, <code>--</code> and <code>-</code> unary operators and the <code>+</code>, <code>-</code>, <code>*</code>, and <code>/</code> binary operators.</p>
+<p>The distinction between checked and unchecked is the context in which they are used. There is no requirement that checked operators <em>throw</em> if the bounds of the type are exceeded or that unchecked operators <em>not throw</em>, but this is the behavior users expect. For example, for integer types MAX_VALUE+1 is MIN_VALUE in the unchecked context and throws an exception in the checked context. Some types, such as floating point numbers, do not overflow and therefore do not need separate checked and unchecked operators.</p>
+<p>This feature is important to developers creating user-defined operators that operate on types where arithmetic overflow is a valid concept. It will allow new user-defined operators to respect the context in which the operator is used. We anticipate that only a small number of developers will use this feature directly, but the impact of their implementations will make the entire ecosystem more reliable and predictable.</p>
+<h2 id="auto-default-structs"><a href="https://github.com/dotnet/csharplang/issues/5737">Auto-default structs</a></h2>
+<p><em>Note: This feature is planned for 17.3, not 17.2. It was mistakenly included in this post. i am not removing it to avoid confusion about our intention regarding this feature. Look for it in a future preview!</em></p>
+<p>In C# 10 and earlier, you needed to initialize all fields of a struct by initializing fields and auto-properties or setting them in the constructors. This can be awkward, particularly with the expected introduction of the <code>field</code> keyword and semi-auto properties in a later C# 11 preview. If you did not set these values, you received a compiler error. If we have sufficient information to provide the error, perhaps we should just set these values to <code>default</code> for you!</p>
+<p>Starting with this preview, the compiler does exactly that. It initializes any fields and auto-properties that are not set based on definite assignment rules, and assigns the default value to them. If you do not want this behavior, there is a warning you can turn on.</p>
+<p>This feature simplifies initialization for anyone using structs that include explicit constructors. This is likely to feel like the way structs with initializers always should have worked, and so you may take advantage of this feature without even thinking about it. If you are explicitly initializing fields to their default value in response to the previous compiler errors, you can remove that code.</p>
+<h2 id="pattern-matching-with-spans"><a href="https://github.com/dotnet/csharplang/issues/1881">Pattern matching with spans</a></h2>
+<p>Starting with this preview, you can pattern match a <code>Span&lt;char&gt;</code> or a <code>ReadonlySpan&lt;char&gt;</code> with a string literal. This code now works:</p>
+<pre><code class="language-c#">static bool IsABC(Span&lt;char&gt; s)
+{
+    return s switch { 
+        "ABC" =&gt; true, 
+        _ =&gt; false };
+}</code></pre>
+<p>The input type must be statically known to be a <code>Span&lt;char&gt;</code> or a <code>ReadonlySpan&lt;char&gt;</code>. Also, the compiler reports an error if you match a <code>Span&lt;char&gt;</code> or a <code>ReadonlySpan&lt;char&gt;</code> to a <code>null</code> constant.</p>
+<p>This feature will allow <code>Span&lt;char&gt;</code> or <code>ReadonlySpan&lt;char&gt;</code> to participate as patterns in switch statements and switch expressions for matching string literals. If you are not using <code>Span&lt;char&gt;</code> and <code>ReadonlySpan&lt;char&gt;</code> you can ignore this feature.</p>
+<p>Special thanks to <a href="https://github.com/YairHalberstadt">YairHalberstadt</a> for implementing this feature.</p>
+<h2 id="use-a-cached-delegate-for-method-group-conversion"><a href="https://github.com/dotnet/roslyn/issues/5835">Use a cached delegate for method group conversion</a></h2>
+<p>This feature will improve runtime performance by caching static method groups, rather than creating fresh delegate instances. This is to improve your application’s performance, particularly for ASP.NET. You will get the benefit of this feature with no effort on your part.</p>
+<p>Special thanks to <a href="https://github.com/pawchen">pawchen</a> for implementing this feature</p>
+<h2 id="remove-parameter-null-checking-from-c-11"><a href="https://github.com/dotnet/csharplang/blob/main/meetings/2022/LDM-2022-04-13.md">Remove parameter null-checking from C# 11</a></h2>
+<p>We previewed <a href="https://devblogs.microsoft.com/dotnet/early-peek-at-csharp-11-features/#c-11-preview-parameter-null-checking">parameter null-checking</a> as early as possible because we anticipated feedback. This feature allows <code>!!</code> on the end of a parameter name to provide parameter null checking before the method begins execution. We included this feature early in C# 11 to maximize feedback, which we gathered from GitHub comments, MVPs, social media, a conference audience, individual conversations with users, and the C# design team’s ongoing reflection. We received a wide range of feedback on this feature, and we appreciate all of it.</p>
+<p>The feedback and the wide range of insight we gained from this feedback led us to reconsider this as a C# 11 feature. We do not have sufficient confidence that this is the right feature design for C# and are removing it from C# 11. We may return to this area again at a later date.</p>
+<p>While there are several valid ways you can do null check on a single line, if you are using .NET 6 we recommend using <code>ArgumentNullException.ThrowIfNull</code> method:</p>
+<pre><code class="language-c#">public static void M(string myString)
+{
+    ArgumentNullException.ThrowIfNull(myString);
+    // method 
+}</code></pre>
+<p>One of the benefits of using the <code>ThrowIfNull</code> method is it uses CallerArgumentExpression to include the parameter name in the exception message automatically:</p>
+<pre><code class="language-cs">System.ArgumentNullException: 'Value cannot be null. (Parameter 'myString')'</code></pre>
+<h2 id="warning-wave-warnings-on-lowercase-type-names">Warning wave: Warnings on lowercase type names</h2>
+<p>C# 11 introduces a Warning Wave 7 that includes a warning for any type that is declared with all lowercase ASCII characters. This has been a common stylistic rule in the C# ecosystem for years. We are making it a warning because C# needs to occasionally introduce new keywords in order to evolve. These keywords will be lowercase and may conflict with your type’s name, if it is lowercase. We introduced this warning so you can avoid a possible future breaking change.</p>
+<p>You can find out more about this change at <a href="https://blog.paranoidcoding.com/2022/04/11/lowercase-type-names.html">Warning on lowercase type names in C# 11</a>. <a href="https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/errors-warnings#warninglevel">Warning waves</a> allow new warnings in C# in a manner that allows you to delay adoption if the warning causes issues you cannot currently resolve.</p>
+<p>This warning is expected to affect very few people. But if you encounter it, we recommend updating your type name, or prefixing usages of it with <code>@</code>, such as <code>@lower</code>.</p>
+<h2 id="closing">Closing</h2>
+<p>Please download <a href="https://visualstudio.microsoft.com/vs/preview">Visual Studio 17.2 Preview 3</a> or <a href="https://dotnet.microsoft.com/download/dotnet/7.0">.NET 7 Preview 3</a>, try out the new features, and tell us what you think in the Discussions section of the <a href="https://github.com/dotnet/csharplang">CSharpLang repo</a>.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/csharp-11-preview-updates/">C# 11 Preview Updates &#8211; Raw string literals, UTF-8 and more!</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/csharp-11-preview-updates/feed/</wfw:commentRss>
+      <slash:comments>39</slash:comments>
+    </item>
+    <item>
+      <title>Announcing .NET 7 Preview 3</title>
+      <link>https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/#comments</comments>
+      <dc:creator><![CDATA[Jon Douglas]]></dc:creator>
+      <pubDate>Wed, 13 Apr 2022 17:19:01 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.net 7]]></category>
+      <category><![CDATA[Preview]]></category>
+      <category><![CDATA[release]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39396</guid>
+      <description><![CDATA[<p>.NET 7 Preview 3 is now available with enhancements to observability, startup times, codegen, GC regions, native AOT compilation, and more.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/">Announcing .NET 7 Preview 3</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Today, we are glad to release .NET 7 Preview 3. The third preview of .NET 7 includes enhancements to observability, startup times, codegen, GC regions, native AOT compilation, and more. The bits are available for you to grab <em>right now</em> and start experimenting with new features like:</p>
+<ul>
+<li>Native AOT</li>
+<li>Default GC regions</li>
+<li>ASP.NET Core startup time improvements</li>
+</ul>
+<p>You can <a href="https://dotnet.microsoft.com/download/dotnet/7.0">download .NET 7 Preview 3</a>, for Windows, macOS, and Linux.</p>
+<ul>
+<li><a href="https://dotnet.microsoft.com/download/dotnet/7.0">Installers and binaries</a></li>
+<li><a href="https://hub.docker.com/_/microsoft-dotnet">Container images</a></li>
+<li><a href="https://github.com/dotnet/core/blob/master/release-notes/7.0/">Linux packages</a></li>
+<li><a href="https://github.com/dotnet/core/tree/master/release-notes/7.0">Release notes</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/release-notes/7.0/known-issues.md">Known issues</a></li>
+<li><a href="https://github.com/dotnet/core/issues">GitHub issue tracker</a></li>
+</ul>
+<p>.NET 7 Preview 3 has been tested with Visual Studio 17.2 Preview 3. We recommend you use the <a href="https://visualstudio.com/preview">preview channel builds</a> if you want to try .NET 7 with Visual Studio family products. Visual Studio for Mac support for .NET 7 previews isn’t available yet but is coming soon. Now, let&#8217;s get into some of the latest updates in this release.</p>
+<h3 id="faster-lighter-apps-with-native-aot">Faster, Lighter Apps with Native AOT</h3>
+<p>In the <a href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-2/#nativeaot-update">.NET 7 Preview 2 blog post</a>, we announced that the Native AOT project has been moved out of experimental status and into mainline development in .NET 7 in the dotnet/runtime repo. We know that many of you have been eagerly awaiting updates from the team on what’s coming for Native AOT, and we have a couple of new updates for you for Preview 3.</p>
+<p>If you want details about Native AOT, or to jump in and get started with it, the <a href="https://github.com/dotnet/runtime/blob/main/src/coreclr/nativeaot/docs/compiling.md">repo docs</a> are the best place for that.</p>
+<p>We also recognize that some of you might not be familiar with what Native AOT is, so we wanted to share a quick overview of it with you.</p>
+<h4 id="what-is-native-aot">What is Native AOT?</h4>
+<p>Ahead-of-time (AOT) compilation refers to an umbrella of technologies which generate code at application build time, instead of run-time. AOT is not new to .NET. Today we ship <a href="https://docs.microsoft.com/dotnet/core/deploying/ready-to-run">ReadyToRun</a> for client and server scenarios, and Mono AOT for mobile and WASM. Native AOT brings full native pre-compilation to .NET desktop client and server scenarios. Native AOT is not replacing these existing technologies, rather it&#8217;s offering a new set of capabilities that unlocks new form factors.</p>
+<p>Existing AOT-compiled .NET assemblies contain platform-specific data structures and native code to frontload work typically done at runtime. Precompiling these artifacts saves time at startup (e.g. ReadyToRun), and enables access to no-JIT platforms (e.g. iOS). If precompiled artifacts are not present, .NET either falls back to JIT or interpretation (depending on the platform).</p>
+<p>Native AOT is similar to .NET’s existing AOT technologies, but it produces only native artifacts. In fact, the Native AOT runtime does not know how to read the .NET assembly file formats &#8211; everything is platform-native. The executable file format parsing is fully handled by the underlying operating system.</p>
+<p>The main advantage of Native AOT is in startup time, memory usage, accessing to restricted platforms (no JIT allowed), and smaller size on disk. Applications start running the moment the operating system pages in them into memory. The data structures are optimized for running AOT generated code, not for compiling new code at runtime. This is similar to how languages like Go, Swift, and Rust compile. Native AOT is best suited for environments where startup time matters the most. Targeting Native AOT has stricter requirements than general .NET Core/5+ applications and libraries. Native AOT forbids emitting new code at runtime (e.g. Reflection.Emit), and loading new .NET assemblies at runtime (eg. plug-in models).</p>
+<h4 id="prepare-your-apps-for-native-aot">Prepare your apps for Native AOT</h4>
+<p>For .NET 7 we are targeting console apps and <a href="https://github.com/dotnet/samples/blob/main/core/nativeaot/NativeLibrary/README.md">native libraries</a> as the primary scenario for Native AOT. Application developers and library authors can now take advantage of Native AOT by ensuring that their applications are trimmable. Since trimming is a requirement for Native AOT compilation, <a href="https://docs.microsoft.com/dotnet/core/deploying/trimming/trim-self-contained">preparing your applications and libraries</a> now for trimming will help them get ready for Native AOT as well. If you are an author of any .NET libraries, following the <a href="https://docs.microsoft.com/dotnet/core/deploying/trimming/prepare-libraries-for-trimming">“Trimming libraries” instructions</a> specifically will help you prepare your libraries for trimming and Native AOT.</p>
+<p>One of the apps that we&#8217;re planning to ship in .NET 7 compiled with Native AOT is the crossgen tool. Crossgen is part of the .NET SDK. It&#8217;s the CoreCLR AOT compiler that produces ReadyToRun executables. Crossgen is written in C# and we currently ship it compiled with itself as a ReadyToRun app (it&#8217;s turtles all the way down!). We&#8217;re already seeing some very promising numbers in terms of compilation speed and size. Crossgen benefits heavily from Native AOT because it&#8217;s a short-lived process and the startup overhead dominates the overall execution time:</p>
+<table>
+<thead>
+<tr>
+<th>Scenario</th>
+<th>ReadyToRun</th>
+<th>NativeAOT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Compile CoreLib</td>
+<td>4182 ms</td>
+<td>3512 ms</td>
+</tr>
+<tr>
+<td>Compile HelloWorld</td>
+<td>185 ms</td>
+<td>49 ms</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ReadyToRun</td>
+<td>34.8 MB</td>
+</tr>
+<tr>
+<td>NativeAOT</td>
+<td>17.6 MB</td>
+</tr>
+</tbody>
+</table>
+<p>Looking ahead, Native AOT compatibility will be improved over the next few versions of .NET, however there will always be reasons to prefer JIT for many scenarios. We will also add first-class support in the dotnet SDK for publishing projects with Native AOT.</p>
+<h3 id="observability">Observability</h3>
+<p>.NET 7 continues to evolve support for the cloud native OpenTelemetry specification. Preview 3 adds support for specification updates <a href="https://github.com/open-telemetry/opentelemetry-specification/pull/988">#988</a> and <a href="https://github.com/open-telemetry/opentelemetry-dotnet/issues/1708">#1708</a> that make the trace state mutable for samplers.</p>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/65530">Allow Trace Samplers to Modify the Activity Trace State</a></li>
+</ul>
+<pre><code class="language-C#">    //  ActivityListener Sampling callback
+    listener.Sample = (ref ActivityCreationOptions&lt;ActivityContext&gt; activityOptions) =&gt;
+    {
+        activityOptions = activityOptions with { TraceState = "rojo=00f067aa0ba902b7" };
+        return ActivitySamplingResult.AllDataAndRecorded;
+    };</code></pre>
+<h3 id="system-composition-hosting">System.Composition.Hosting</h3>
+<p>The latest Managed Extensibility Framework gets a slight update to align with the previous version APIs. The new APIs allow adding a single object instance to the <a href="https://docs.microsoft.com/dotnet/api/system.composition.hosting.containerconfiguration?view=dotnet-plat-ext-6.0">System.Composition.Hosting container</a>. Similar to the functionality provided in the legacy interfaces <a href="https://docs.microsoft.com/dotnet/api/system.componentmodel.composition.hosting?view=dotnet-plat-ext-6.0">System.ComponentModel.Composition.Hosting</a> with the API <a href="https://docs.microsoft.com/dotnet/api/system.componentmodel.composition.attributedmodelservices.composeexportedvalue?view=dotnet-plat-ext-6.0#system-componentmodel-composition-attributedmodelservices-composeexportedvalue-1(system-componentmodel-composition-hosting-compositioncontainer-0)">ComposeExportedValue(CompositionContainer, T)</a></p>
+<p><a href="https://github.com/dotnet/runtime/issues/29400">Proposal: Inject existing object into MEF2</a></p>
+<pre><code class="language-C#">namespace System.Composition.Hosting
+{
+    public class ContainerConfiguration
+    {
+        public ContainerConfiguration WithExport&lt;TExport&gt;(TExport exportedInstance);
+        public ContainerConfiguration WithExport&lt;TExport&gt;(TExport exportedInstance, string contractName = null, IDictionary&lt;string, object&gt; metadata = null);
+
+        public ContainerConfiguration WithExport(Type contractType, object exportedInstance);
+        public ContainerConfiguration WithExport(Type contractType, object exportedInstance, string contractName = null, IDictionary&lt;string, object&gt; metadata = null);
+    }
+}</code></pre>
+<h3 id="startup-time-improvements-with-write-xor-execute-enabled">Startup time improvements with Write-Xor-Execute enabled</h3>
+<p>Performance continues to be a major focus for .NET 7. The <a href="https://github.com/dotnet/runtime/pull/65738">dotnet/runtime#65738 PR</a> reimplemented the precode and call counting stubs (tiered compilation helper stubs) to significantly reduce number of post-creation modifications of executable code in the runtime. This resulted in 10-15% startup time improvements.</p>
+<p>As a bonus, this change also resulted in steady state performance improvements (upto 8%) in some microbenchmarks and some ASPNet Benchmarks even without Write-Xor-Execute enabled.</p>
+<p>However, there are few regressions resulting from that change too (without Write-Xor-Execute enabled) that will be addressed in the upcoming preview releases. These were observed in the Orchard and Fortunes benchmarks on Intel processors only.</p>
+<h3 id="codegen">CodeGen</h3>
+<p>Thanks in a large part to community contributors, Preview 3 features several optimizations and bug fixes to code generation and just-in time (JIT) compilation. Here&#8217;s an overview of the changes that are available today.</p>
+<h4 id="community-prs">Community PRs</h4>
+<p>These pull requests were all initiated by community contributors.</p>
+<h5 id="from-clamp03">From @clamp03</h5>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/66282">Enable Fast Tail Call Optimization for ARM32</a></li>
+</ul>
+<h5 id="from-skifod">From @SkiFoD</h5>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/62818">Optimize &#8220;X &amp; 1 == 1&#8221; to &#8220;X &amp; 1&#8221; (#61412)</a></li>
+</ul>
+<h5 id="from-sandreenko">From @sandreenko</h5>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/65682">[crossgen2] Promote single byref aot</a></li>
+</ul>
+<h5 id="from-singleaccretion">From @SingleAccretion</h5>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/64805">Fix missing zero-offset sequences and add checking</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/64846">Handle direct addresses for statics in IsFieldAddr</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/64898">Do not number partial definitions and ARGPLACE nodes</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65250">Use SSA def descriptors in copy propagation</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65257">ZeroObj assertions</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65302">Deduplicate some HWI codegen code</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65387">Use push for 8/12 byte struct args on x86</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65709">Do not set GLOB_REF for invariant indirections</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65902">Do not value number locals on the LHS</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65919">Keep the volatility of CLS_VARs in rationalization</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65920">Slightly more aggressive ASG reversal</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66070">Fix copy propagation</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66135">Count OBJ/BLK as memory uses</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66204">Delete compUnsafeCastUsed</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66247">Fix a couple issues with GTF_GLOB_REF setting</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66270">Do not create small constants while morphing cascading addition</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66291">Do not propagate RHS flags in block morphing</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66298">Stop generating CLS_VAR for 64 bit targets</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66335">A better fix for #66242</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66385">Do not assume containment</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66582">Some small copy propagation changes</a></li>
+</ul>
+<h5 id="from-trympet">From @trympet</h5>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/64951">Treat TZCNT/POPCNT/LZCNT as never negative</a></li>
+</ul>
+<h5 id="from-wraith2">From @Wraith2</h5>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/66193">Add xarch blsi</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66736">Add flags checks to BMI1 intrinsic lowering</a></li>
+</ul>
+<h3 id="dynamic-pgo">Dynamic PGO</h3>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/65460">PGO: Profile isinst/castclass in order to optimize them in Tier 1</a></li>
+</ul>
+<h3 id="arm64">Arm64</h3>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/63821">Morph Vector.Create(0) to Vector.Zero</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65028">Allow constant propagation of Vector.Zero.</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/64783">Optimize Arm64 comparison instructions: cmle, cmlt, fcmle, fcmlt</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65468">Better addressing mode for floating point on arm64</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65535">Optimize a % b</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65632">JIT: Faster vector == Vector128.Zero on arm64</a></li>
+</ul>
+<h3 id="loop-optimizations">Loop Optimizations</h3>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/66257">Loop Cloning</a> improved the duration of single invocation by 21% for System.Collections.Tests.Perf_BitArray.BitArrayLeftShift(Size: 512):
+<img src="https://user-images.githubusercontent.com/63486087/161346652-4964b4f8-7bb1-4c7f-acec-abd70d1dde43.png" alt="image" /></li>
+</ul>
+<h3 id="general-optimizations">General Optimizations</h3>
+<ul>
+<li><a href="https://github.com/dotnet/runtime/pull/64130">Eliminate extra copy of struct from a callee that was returned in Hidden Buffer</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/65288">Unroll String.Equals and str.StartsWith for constant strings</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66095">Extend Equals/StartsWith auto-vectorization for OrdinalIgnoreCase</a></li>
+<li><a href="https://github.com/dotnet/runtime/pull/66245">movzx optimization after setcc shows 0.03 ~ 0.16 % code size reduction</a></li>
+</ul>
+<h3 id="gc-regions-enabled-by-default">GC Regions Enabled by default</h3>
+<p>With Preview 3, regions functionality which should help with memory utilization for high throughput applications has been enabled by default. The functionality is now enabled for all Platforms except MacOS and NativeAOT (which would be enabled in the future). More details are available in this issue: https://github.com/dotnet/runtime/issues/43844</p>
+<p>We expect some working set increases for smaller applications due to how regions are initially allocated. If you notice any functional or performance differences please create an issue within the runtime repo.</p>
+<h3 id="cryptography-generating-x-500-names-more-robustly">Cryptography: Generating X.500 names more robustly</h3>
+<p>This change simplifies working with certificates by introducing a class that provides more clarity for parsing X.500 names.</p>
+<p><a href="https://github.com/dotnet/runtime/issues/44738">Make it safer and easier to build an X500DistinguishedName</a></p>
+<p>Classically, anyone wanting to build a X.500 name (such as for creating test certificates with the <code>CertificateRequest</code> class did so with string manipulation, either via a simple literal or with string formatting, e.g.</p>
+<pre><code class="language-C#">request = new CertificateRequest($"CN={subjectName},OU=Test,O=""Fabrikam, Inc.""", ...);</code></pre>
+<p>This is generally fine, except for when <code>subjectName</code> contains a comma, quote, or anything else that has an influence on the parser. To address that, we added the <code>X500DistinguishedNameBuilder</code> class. Because every method only operates on a single relative distinguished name (RDN), there&#8217;s no ambiguity in parsing. As a bonus, since the RDN identifiers are expanded, you no longer have to guess what &#8220;CN&#8221; stands for (&#8220;Common Name&#8221;).</p>
+<pre><code class="language-C#">X500DistinguishedNameBuilder nameBuilder = new();
+nameBuilder.AddCommonName(subjectName);
+nameBuilder.AddOrganizationalUnitName("Test");
+nameBuilder.AddOrganizationName("Fabrikam, Inc.");
+
+request = new CertificateRequest(nameBuilder.Build(), ...);</code></pre>
+<h2 id="targeting-net-7">Targeting .NET 7</h2>
+<p>To target .NET 7, you need to use a .NET 7 Target Framework Moniker (TFM) in your project file. For example:</p>
+<pre><code class="language-xml">&lt;TargetFramework&gt;net7.0&lt;/TargetFramework&gt;</code></pre>
+<p>The full set of .NET 7 TFMs, including operating-specific ones follows.</p>
+<ul>
+<li><code>net7.0</code></li>
+<li><code>net7.0-android</code></li>
+<li><code>net7.0-ios</code></li>
+<li><code>net7.0-maccatalyst</code></li>
+<li><code>net7.0-macos</code></li>
+<li><code>net7.0-tvos</code></li>
+<li><code>net7.0-windows</code></li>
+</ul>
+<p>We expect that upgrading from .NET 6 to .NET 7 should be straightforward. Please report any breaking changes that you discover in the process of testing existing apps with .NET 7.</p>
+<h2 id="support">Support</h2>
+<p>.NET 7 is a <strong>Current</strong> release, meaning it will receive free support and patches for 18 months from the release date. It&#8217;s important to note that the quality of all releases is the same. The only difference is the length of support. For more about .NET support policies, see the <a href="https://dotnet.microsoft.com/platform/support/policy/dotnet-core">.NET and .NET Core official support policy</a>.</p>
+<h2 id="breaking-changes">Breaking changes</h2>
+<p>You can find the most recent list of breaking changes in .NET 7 by reading the <a href="https://docs.microsoft.com/dotnet/core/compatibility/7.0">Breaking changes in .NET 7</a> document. It lists breaking changes by area and release with links to detailed explanations.</p>
+<p>To see what breaking changes are proposed but still under review, follow the <a href="https://github.com/dotnet/core/issues/7131">Proposed .NET Breaking Changes GitHub issue</a>.</p>
+<h2 id="roadmaps">Roadmaps</h2>
+<p>Releases of .NET include products, libraries, runtime, and tooling, and represent a collaboration across multiple teams inside and outside Microsoft. You can learn more about these areas by reading the product roadmaps:</p>
+<ul>
+<li><a href="https://github.com/dotnet/aspnetcore/issues/39504">ASP.NET Core 7 and Blazor Roadmap</a></li>
+<li><a href="https://docs.microsoft.com/ef/core/what-is-new/ef-core-7.0/plan">EF 7 Roadmap</a></li>
+<li><a href="https://github.com/dotnet/machinelearning/blob/main/ROADMAP.md">ML.NET</a></li>
+<li><a href="https://github.com/dotnet/maui/wiki/Roadmap">.NET MAUI</a></li>
+<li><a href="https://github.com/dotnet/winforms/blob/main/docs/roadmap.md">WinForms</a></li>
+<li><a href="https://github.com/dotnet/wpf/blob/main/roadmap.md">WPF</a></li>
+<li><a href="https://github.com/NuGet/Home/issues/11571">NuGet</a></li>
+<li><a href="https://github.com/dotnet/roslyn/blob/main/docs/Language%20Feature%20Status.md">Roslyn</a></li>
+<li><a href="https://github.com/dotnet/core/blob/main/roadmap.md">Runtime</a></li>
+</ul>
+<h2 id="closing">Closing</h2>
+<p>We appreciate and <a href="https://dotnet.microsoft.com/thanks">thank you</a> for your all your support and contributions to .NET. Please <a href="https://dotnet.microsoft.com/download/dotnet/7.0">give .NET 7 Preview 3 a try</a> and tell us what you think!</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/">Announcing .NET 7 Preview 3</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/announcing-dotnet-7-preview-3/feed/</wfw:commentRss>
+      <slash:comments>25</slash:comments>
+    </item>
+    <item>
+      <title>Announcing Entity Framework Core 7 (EF7) Preview 3</title>
+      <link>https://devblogs.microsoft.com/dotnet/announcing-entity-framework-7-preview-3/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/announcing-entity-framework-7-preview-3/#comments</comments>
+      <dc:creator><![CDATA[Jeremy Likness]]></dc:creator>
+      <pubDate>Wed, 13 Apr 2022 17:16:28 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[Entity Framework]]></category>
+      <category><![CDATA[EF Core]]></category>
+      <category><![CDATA[ef core 7]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39427</guid>
+      <description><![CDATA[<p>Announcing the release of EF7 Preview 3 and custom database-first scaffolding with T4 templates.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/announcing-entity-framework-7-preview-3/">Announcing Entity Framework Core 7 (EF7) Preview 3</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Today, the .NET data team announces the third preview release of
+<a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/7.0.0-preview.3.22175.1">EF Core 7.0 (EF7)</a>.
+In addition to bug fixes and foundation work for larger features, we are pleased to announce the initial preview of scaffolding (database-first) templates. This preview also includes changes to the update pipeline to improve performance and streamline the generated SQL, and support for TPC in migrations.
+Be sure to read the <a href="https://docs.microsoft.com/ef/core/what-is-new/ef-core-7.0/plan">full plan for EF7</a> to learn what&#8217;s on the roadmap.</p>
+<p>You can also view the <a href="https://github.com/dotnet/efcore/issues?q=is%3Aclosed+is%3Aissue+milestone%3A7.0.0-preview3+">full list of issues addressed in EF7 Preview 3</a>.</p>
+<h2 id="improvements-to-the-update-pipeline">Improvements to the update pipeline</h2>
+<p>Several improvements to the update pipeline are now part of Preview 3, including:</p>
+<ul>
+<li><a href="https://github.com/dotnet/efcore/pull/27573">Improve SQL Server insertion logic</a> (also make RETURNING the default INSERT strategy for retrieving db-generated values for other providers).</li>
+<li><a href="https://github.com/dotnet/efcore/pull/27663">Use RETURNING/OUTPUT clause for UPDATE/DELETE</a></li>
+<li><a href="https://github.com/dotnet/efcore/pull/27584">Refactor ReaderModificationCommandBatch</a></li>
+<li><a href="https://github.com/dotnet/efcore/pull/27696">Reimplement MaxBatchSize as a pre-check</a></li>
+</ul>
+<h2 id="take-control-of-your-dbcontext">Take control of your DbContext</h2>
+<p>Preview 3 introduces the ability to control how EF7 reverse engineers or scaffolds classes for database-first projects using <a href="https://docs.microsoft.com/visualstudio/modeling/code-generation-and-t4-text-templates">T4 templates</a>.
+Do you prefer &#8220;null bang&#8221; setters? Property initializers? Constructor initialization? All these customizations are now possible. In fact, you are not limited to generating
+the &#8220;traditional&#8221; DbContext and entity classes. Anything is possible, including using the templates to generate documentation.</p>
+<p>The best way to learn about this new feature is to watch our recent community standup: <a href="https://youtu.be/x2nh1vZBsHE">Database-first with T4 templates in EF7</a>. The video
+begins with an introduction to T4 templates for those of you who are not familiar with them. The EF7 feature is introduced about 23 minutes in. In addition to generating custom code, the demo shows how to create markdown using Mermaid syntax to generate ERD diagrams.</p>
+<p>Code like this:</p>
+<pre><code class="language-mermaid">
+```mermaid
+erDiagram
+    ORDERMASTER ||--o{ ORDERDETAIL : owns
+    ORDERDETAIL ||--|{ LINE-ITEM : contains
+    ORDERMASTER }|..|{ CUSTOMER : uses
+```</code></pre>
+<p>Produces diagrams like this:</p>
+<p><figure id="attachment_39431" aria-describedby="caption-attachment-39431" style="width: 400px" class="wp-caption aligncenter"><a href="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/mermaidexample.png"><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/mermaidexample.png" alt="An ERD diagram" width="400" height="527" class="size-full wp-image-39431" srcset="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/mermaidexample.png 400w, https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/mermaidexample-228x300.png 228w" sizes="(max-width: 400px) 100vw, 400px" /></a><figcaption id="caption-attachment-39431" class="wp-caption-text">Mermaid ERD Diagram</figcaption></figure></p>
+<p>You can get started in 3 steps:</p>
+<ul>
+<li>Include the Preview 3 <code>Microsoft.EntityFrameworkCore.Design</code> package in your project (this will also work with the daily builds). </li>
+<li>Install or update the <code>dotnet-ef</code> tool either globally or locally using a <a href="https://docs.microsoft.com/dotnet/core/tools/global-tools#install-a-local-tool">tool manifest</a>.</li>
+<li>Create the <code>DbContext.t4</code> and <code>EntityType.t4</code> T4 templates in a folder named <code>CodeTemplates</code>. EF7 will pick these up by convention.</li>
+</ul>
+<p>For more details, watch the <a href="https://youtu.be/x2nh1vZBsHE">community standup demo</a>.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+<li>EF7 currently targets .NET 6. This will likely be updated to .NET 7 as we near the release. </li>
+<li>EF7 will not run on .NET Framework.</li>
+</ul>
+<p>EF7 is the successor to EF Core 6.0, not to be confused with <a href="https://github.com/dotnet/ef6">EF6</a>. If you are considering upgrading from EF6, please read our guide to <a href="https://docs.microsoft.com/ef/efcore-and-ef6/porting/">port from EF6 to EF Core</a>.</p>
+<hr />
+<h2 id="how-to-get-ef7-previews">How to get EF7 previews</h2>
+<p>EF7 is distributed exclusively as a set of NuGet packages.
+For example, to add the SQL Server provider to your project, you can use the following command using the dotnet tool:</p>
+<pre><code class="language-bash">dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 7.0.0-preview.3.22175.1</code></pre>
+<p>This following table links to the preview 3 versions of the EF Core packages and describes what they are used for.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right"><strong>Package</strong></th>
+<th style="text-align: left"><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore</a></td>
+<td style="text-align: left">The main EF Core package that is independent of specific database providers</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.SqlServer</a></td>
+<td style="text-align: left">Database provider for Microsoft SQL Server and SQL Azure</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite</a></td>
+<td style="text-align: left">SQL Server support for spatial types</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Sqlite</a></td>
+<td style="text-align: left">Database provider for SQLite that includes the native binary for the database engine</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite.Core/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Sqlite.Core</a></td>
+<td style="text-align: left">Database provider for SQLite <em>without</em> a packaged native binary</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Sqlite.NetTopologySuite/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Sqlite.NetTopologySuite</a></td>
+<td style="text-align: left">SQLite support for spatial types</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Cosmos/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Cosmos</a></td>
+<td style="text-align: left">Database provider for Azure Cosmos DB</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.InMemory</a></td>
+<td style="text-align: left">The in-memory database provider</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Tools</a></td>
+<td style="text-align: left">EF Core PowerShell commands for the Visual Studio Package Manager Console; use this to integrate tools like <a href="https://docs.microsoft.com/ef/core/managing-schemas/scaffolding">scaffolding</a> and <a href="https://docs.microsoft.com/ef/core/managing-schemas/migrations/">migrations</a> with Visual Studio</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Design/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Design</a></td>
+<td style="text-align: left">Shared design-time components for EF Core tools</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Proxies/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Proxies</a></td>
+<td style="text-align: left">Lazy-loading and change-tracking proxies</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Abstractions/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Abstractions</a></td>
+<td style="text-align: left">Decoupled EF Core abstractions; use this for features like extended data annotations defined by EF Core</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Relational/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Relational</a></td>
+<td style="text-align: left">Shared EF Core components for relational database providers</td>
+</tr>
+<tr>
+<td style="text-align: right"><a href="https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Analyzers/7.0.0-preview.3.22175.1">Microsoft.EntityFrameworkCore.Analyzers</a></td>
+<td style="text-align: left">C# analyzers for EF Core</td>
+</tr>
+</tbody>
+</table>
+<p>We also published the 7.0 preview 3 release of the <a href="https://www.nuget.org/packages/Microsoft.Data.Sqlite.Core/7.0.0-preview.3.22175.1">Microsoft.Data.Sqlite.Core</a> provider for <a href="https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview">ADO.NET</a>.</p>
+<h2 id="installing-the-ef7-command-line-interface-cli">Installing the EF7 Command Line Interface (CLI)</h2>
+<p>Before you can execute EF7 Core migration or scaffolding commands, you&#8217;ll have to install the CLI package as either a global or local tool.</p>
+<p>To install the preview tool globally, install with:</p>
+<pre><code class="language-bash">dotnet tool install --global dotnet-ef --version 7.0.0-preview.3.22175.1</code></pre>
+<p>If you already have the tool installed, you can upgrade it with the following command:</p>
+<pre><code class="language-bash">dotnet tool update --global dotnet-ef --version 7.0.0-preview.3.22175.1</code></pre>
+<p>It&#8217;s possible to use this new version of the EF7 CLI with projects that use older versions of the EF Core runtime.</p>
+<h2 id="daily-builds">Daily builds</h2>
+<p>EF7 previews are aligned with .NET 7 previews. These previews tend to lag behind the latest work on EF7. Consider using the <a href="https://github.com/aspnet/AspNetCore/blob/master/docs/DailyBuilds.md">daily builds</a> instead to get the most up-to-date EF7 features and bug fixes.</p>
+<p>As with the previews, the daily builds require .NET 6.</p>
+<h2 id="the-net-data-community-standup">The .NET Data Community Standup</h2>
+<p>The .NET data team is now live streaming every other Wednesday at 10am Pacific Time, 1pm Eastern Time, or 17:00 UTC. Join the stream to ask questions about the data-related topic of your choice, including the latest preview release. </p>
+<ul>
+<li><a href="https://aka.ms/efstandups">Watch our YouTube playlist</a> of previous shows</li>
+<li><a href="https://dotnet.microsoft.com/platform/community/standup">Visit the .NET Community Standup</a> page to preview upcoming shows</li>
+<li><a href="https://github.com/dotnet/efcore/issues/22700">Submit your ideas</a> for a guest, product, demo, or other content to cover</li>
+</ul>
+<h2 id="documentation-and-feedback">Documentation and Feedback</h2>
+<p>The starting point for all EF Core documentation is <a href="https://docs.microsoft.com/ef/">docs.microsoft.com/ef/</a>.</p>
+<p>Please file issues found and any other feedback on the <a href="https://github.com/dotnet/efcore">dotnet/efcore GitHub repo</a>.</p>
+<h2 id="helpful-links">Helpful Links</h2>
+<p>The following links are provided for easy reference and access.</p>
+<p>EF Core Community Standup Playlist:
+<a href="https://aka.ms/efstandups" target="_blank" rel="noopener">https://aka.ms/efstandups</a></p>
+<p>Main documentation:
+<a href="https://aka.ms/efdocs" target="_blank" rel="noopener">https://aka.ms/efdocs</a></p>
+<p>Issues and feature requests for EF Core:
+<a href="https://aka.ms/efcorefeedback" target="_blank" rel="noopener">https://aka.ms/efcorefeedback</a></p>
+<p>Entity Framework Roadmap:
+<a href="https://aka.ms/efroadmap" target="_blank" rel="noopener">https://aka.ms/efroadmap</a></p>
+<p>Bi-weekly updates:
+<a href="https://github.com/dotnet/efcore/issues/27185" target="_blank" rel="noopener">https://github.com/dotnet/efcore/issues/27185</a></p>
+<h2 id="thank-you-from-the-team">Thank you from the team</h2>
+<p>A big thank you from the EF team to everyone who has used and contributed to EF over the years!</p>
+<p>Welcome to EF7.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/announcing-entity-framework-7-preview-3/">Announcing Entity Framework Core 7 (EF7) Preview 3</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/announcing-entity-framework-7-preview-3/feed/</wfw:commentRss>
+      <slash:comments>12</slash:comments>
+    </item>
+    <item>
+      <title>.NET MAUI Release Candidate – Ready for cross-platform app development</title>
+      <link>https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/</link>
+      <comments>https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/#comments</comments>
+      <dc:creator><![CDATA[David Ortinau]]></dc:creator>
+      <pubDate>Tue, 12 Apr 2022 18:00:39 +0000</pubDate>
+      <category><![CDATA[.NET]]></category>
+      <category><![CDATA[.NET MAUI]]></category>
+      <category><![CDATA[.net 6]]></category>
+      <category><![CDATA[.net maui]]></category>
+      <category><![CDATA[android]]></category>
+      <category><![CDATA[ios]]></category>
+      <category><![CDATA[macos]]></category>
+      <category><![CDATA[release candidate]]></category>
+      <category><![CDATA[windows]]></category>
+      <guid isPermaLink="false">https://devblogs.microsoft.com/dotnet/?p=39408</guid>
+      <description><![CDATA[<p>.NET MAUI Release Candidate is now feature complete, API stable for the upcoming GA release. Get started today to build app for Android, Windows, iOS, and macOS.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/">.NET MAUI Release Candidate &#8211; Ready for cross-platform app development</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Today we are excited to announce the availability of <a href="https://dotnet.microsoft.com/en-us/apps/maui" rel="noopener" target="_blank">.NET Multi-platform App UI</a> (.NET MAUI) Release Candidate. The SDK is now API complete, ready for libraries to update and make ready for GA (general availability) compatibility. As with other .NET release candidates, this release is covered by a &#8220;go live&#8221; support policy, meaning .NET MAUI is supported by Microsoft for your production apps.</p>
+<p><a href="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/dotnet-podcasts.png"><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/dotnet-podcasts.png" alt="Image dotnet podcasts" width="1920" height="1080" class="alignnone size-full wp-image-39414" srcset="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/dotnet-podcasts.png 1920w, https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/dotnet-podcasts-300x169.png 300w, https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/dotnet-podcasts-1024x576.png 1024w, https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/dotnet-podcasts-768x432.png 768w, https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/dotnet-podcasts-1536x864.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" /></a></p>
+<h2 id="get-started-today">Get Started Today</h2>
+<p>To acquire .NET MAUI RC1, <a href="https://aka.ms/vs2022preview">install or update Visual Studio 2022 Preview</a> to version 17.2 Preview 3. In the installer confirm .NET MAUI (preview) is checked under the &#8220;Mobile Development with .NET workload&#8221;.</p>
+<p>To use .NET MAUI RC1 on Mac, follow the <a href="https://github.com/dotnet/maui/wiki/macOS-Install">command line instructions</a> on the wiki. Support for .NET MAUI in Visual Studio 2022 for Mac will ship formally in a future preview.</p>
+<p>Release Candidate <a href="https://github.com/dotnet/maui/releases/tag/6.0.300-rc.1">release notes are on GitHub</a>. For additional information about getting started with .NET MAUI, refer to our <a href="https://docs.microsoft.com/dotnet/maui/get-started/installation">documentation</a>, and the <a href="https://github.com/dotnet/maui/wiki/Migrating-to-RC1">migration tip sheet</a> for a list of changes to adopt when upgrading projects.</p>
+<p>Jump start your journey with the <a href="https://github.com/microsoft/dotnet-podcasts" rel="noopener" target="_blank">.NET Podcasts app</a> (pictured above) which runs on Android, iOS, macOS, and Windows, and showcases both native app UI as well as <a href="https://docs.microsoft.com/en-us/aspnet/core/blazor/hybrid/" rel="noopener" target="_blank">Blazor Hybrid</a>. Looking for a full workshop on how to get started with .NET MAUI? We have you covered with our newly released <a href="https://github.com/dotnet-presentations/dotnet-maui-workshop">.NET MAUI workshop</a> where you will build an app from start to finish and integrate native features.</p>
+<blockquote>
+<p><strong>What about Xamarin support?</strong> The <a href="https://dotnet.microsoft.com/platform/support/policy/xamarin">Xamarin Support Policy</a> is still in effect which covers those products for 2 years after initial release. The last release was November of 2021, and so support will continue through November 2023.</p>
+</blockquote>
+<h2 id="whats-in-the-net-maui-release-candidate">What&#8217;s in the .NET MAUI release candidate?</h2>
+<p>As a multi-platform app building framework, .NET MAUI leverages platform SDKs for Android, iOS, macOS, and Windows. These foundational pieces are included in this release, and you can use them directly with C# in addition to maximizing your code sharing and productivity with .NET MAUI.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/base_theme.png" alt="base theme for all controls" /></p>
+<p>.NET MAUI ships with <a href="https://docs.microsoft.com/dotnet/maui/user-interface/controls/">40+ layouts and controls</a> optimized for building adaptive UIs across both desktop and mobile platforms. You can also incorporate Blazor components or entire Blazor applications to distribute the same experiences on desktop and mobile as you may today on web.</p>
+<blockquote>
+<p><strong>How does this compare to Xamarin.Forms?</strong> You get every UI control that ships with Xamarin.Forms, plus new controls such as BlazorWebView, Border, GraphicsView, MenuBar, Shadow, and Window.</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Layouts</strong></td>
+<td>CarouselView</td>
+<td>Line</td>
+<td>Stepper</td>
+</tr>
+<tr>
+<td>AbsoluteLayout</td>
+<td>Checkbox</td>
+<td>ListView</td>
+<td>SwipeView</td>
+</tr>
+<tr>
+<td>BindableLayout</td>
+<td>CollectionView</td>
+<td>Path</td>
+<td>Switch</td>
+</tr>
+<tr>
+<td>FlexLayout</td>
+<td>ContentView</td>
+<td>Picker</td>
+<td>TableView</td>
+</tr>
+<tr>
+<td>GridLayout</td>
+<td>DatePicker</td>
+<td>Polygon</td>
+<td>TimePicker</td>
+</tr>
+<tr>
+<td>HorizontalStackLayout</td>
+<td>Editor</td>
+<td>Polyline</td>
+<td>WebView</td>
+</tr>
+<tr>
+<td>StackLayout</td>
+<td>Ellipse</td>
+<td>ProgressBar</td>
+<td><strong>Pages</strong></td>
+</tr>
+<tr>
+<td>VerticalStackLayout</td>
+<td>Entry</td>
+<td>RadioButton</td>
+<td>ContentPage</td>
+</tr>
+<tr>
+<td><strong>Views</strong></td>
+<td>Frame</td>
+<td>Rectangle</td>
+<td>FlyoutPage</td>
+</tr>
+<tr>
+<td>ActivityIndicator</td>
+<td>GraphicsView</td>
+<td>RefreshView</td>
+<td>NavigationPage</td>
+</tr>
+<tr>
+<td>BlazorWebView</td>
+<td>Image</td>
+<td>RoundRectangle</td>
+<td>TabbedPage</td>
+</tr>
+<tr>
+<td>Border</td>
+<td>ImageButton</td>
+<td>ScrollView</td>
+<td>Shell</td>
+</tr>
+<tr>
+<td>BoxView</td>
+<td>IndicatorView</td>
+<td>SearchBar</td>
+<td></td>
+</tr>
+<tr>
+<td>Button</td>
+<td>Label</td>
+<td>Slider</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>These are all <a href="https://docs.microsoft.com/dotnet/maui/user-interface/controls/">documented</a> in addition to related topics such as:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/animation/basic">Animation</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/brushes/">Brushes</a> for solid and gradient colors</li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/pop-ups">Displaying Pop-ups</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/graphics/">Graphics</a> for making the most of <code>Microsoft.Maui.Graphics</code> with blend modes, colors, canvas drawing, images, transforms, winding modes, and more</li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/shadow">Shadows</a></li>
+<li>Styling with <a href="https://docs.microsoft.com/dotnet/maui/user-interface/styles/xaml">XAML</a> and <a href="https://docs.microsoft.com/dotnet/maui/user-interface/styles/css">CSS</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/theming">Theming</a> for light and dark modes</li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/visual-states">Visual States</a></li>
+</ul>
+<p>The new .NET MAUI project template now includes a default stylesheet in &#8220;Resourcesstyles.xaml&#8221; with a color palette and styling for all the controls. Take for example the <code>Entry</code>. When starting a new application these text inputs will now begin with a shared theme while still being true to the platform on which it runs.</p>
+<pre><code class="language-xaml">&lt;Style TargetType="Entry"&gt;
+    &lt;Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" /&gt;
+    &lt;Setter Property="FontFamily" Value="OpenSansRegular"/&gt;
+    &lt;Setter Property="FontSize" Value="14" /&gt;
+    &lt;Setter Property="PlaceholderColor" Value="{AppThemeBinding Light={StaticResource LightGray}, Dark={StaticResource DarkGray}}" /&gt;
+    &lt;Setter Property="VisualStateManager.VisualStateGroups"&gt;
+        &lt;VisualStateGroupList&gt;
+            &lt;VisualStateGroup x:Name="CommonStates"&gt;
+                &lt;VisualState x:Name="Normal"&gt;
+                    &lt;VisualState.Setters&gt;
+                        &lt;Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" /&gt;
+                    &lt;/VisualState.Setters&gt;
+                &lt;/VisualState&gt;
+                &lt;VisualState x:Name="Disabled"&gt;
+                    &lt;VisualState.Setters&gt;
+                        &lt;Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource LightGray}, Dark={StaticResource DarkGray}}" /&gt;
+                    &lt;/VisualState.Setters&gt;
+                &lt;/VisualState&gt;
+            &lt;/VisualStateGroup&gt;
+        &lt;/VisualStateGroupList&gt;
+    &lt;/Setter&gt;
+&lt;/Style&gt;</code></pre>
+<p>For views that support different states we&#8217;ve created a sensible default, and provided light and dark mode color options. For more information check out:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/styles/xaml">Styles</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/theming">Theming</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/maui/user-interface/visual-states">Visual states</a></li>
+</ul>
+<h3 id="customizing-controls">Customizing Controls</h3>
+<p>One of the things .NET MAUI does to improve upon the Xamarin.Forms architecture is adding low-code hooks to modify just about anything. Let&#8217;s consider the canonical example of removing the distinctive Android underline on an <code>Entry</code> field. How might you go about doing this when there is no multi-platform style for &#8220;underline&#8221; because it only exists on Android?</p>
+<pre><code class="language-csharp">#if ANDROID
+Microsoft.Maui.Handlers.EntryHandler.Mapper.ModifyMapping("NoUnderline", (h, v) =&gt;
+{
+    h.PlatformView.BackgroundTintList = ColorStateList.ValueOf(Colors.Transparent.ToPlatform());
+});
+#endif</code></pre>
+<p>That&#8217;s all the code there is. This code just needs to run somewhere in the start of your application before the handler is called. </p>
+<p>Let&#8217;s explain what is going on here. Firstly, the <code>#if ANDROID</code> is a conditional compilation directive that indicates this code should only run for Android. In other cases where you are modifying the control for ALL platforms, this isn&#8217;t necessary.</p>
+<p>Next, we need need access to the control. The <code>Entry</code> you use is a .NET MAUI control. Each property, command, event, etc. of the <code>Entry</code> is &#8220;mapped&#8221; by a &#8220;handler&#8221; to a platform implementation. To modify a mapping you can tap into it via the handler&#8217;s map such as <code>Microsoft.Maui.Handlers.EntryHandler.Mapper</code>. From the mapper we have 3 methods:</p>
+<ul>
+<li><code>PrependToMapping</code> which runs before the .NET MAUI code</li>
+<li><code>ModifyMapping</code> which runs instead of the .NET MAUI code</li>
+<li><code>AppendToMapping</code> which runs after the .NET MAUI code</li>
+</ul>
+<p>For this case it doesn&#8217;t matter which one we use, as it will be called at least once, and no other implementation on the <code>Entry</code> will touch the native properties we need to modify. Here the coded uses <code>ModifyMapping</code> and adds an entry called &#8220;NoUnderline&#8221;. Typically the property matches the name of an actual property, however in this case we are introducing a new one.</p>
+<p>The <code>h</code> in the action is the handler which gives us access to the <code>PlatformView</code> which in this case is of Android type <code>TextView</code>. At this point the code is working directly with the Android SDK.</p>
+<p>With the underline now out of the way, you can implement your own design of, say, a bordering box like old-school Windows Phone.</p>
+<p><img src="https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2022/04/border_entry.png" alt="border around an entry view" /></p>
+<pre><code class="language-xaml">&lt;Border Stroke="{StaticResource Black}"
+        StrokeThickness="2"
+        StrokeShape="Rectangle"&gt;
+    &lt;Entry
+        Margin="20,4"
+        Placeholder="Username" /&gt;
+&lt;/Border&gt;</code></pre>
+<p>For more examples on how you can easily modify the look and feel of controls at the cross-platform as well as platform specific layers, check out the <a href="https://docs.microsoft.com/dotnet/maui/user-interface/handlers/customize">documentation for customizing controls</a>.</p>
+<h2 id="we-need-your-feedback">We need your feedback</h2>
+<p>Install the latest preview of Visual Studio 2022 for Windows (17.2 Preview 3) following our <a href="https://docs.microsoft.com/dotnet/maui/get-started/first-app">simple guide</a> and build your first multi-platform application today. </p>
+<p>We&#8217;d love to hear from you! As you encounter any issues, file a <a href="https://github.com/dotnet/maui/issues/new/choose">report on GitHub at dotnet/maui</a>.</p>
+<p>The post <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/">.NET MAUI Release Candidate &#8211; Ready for cross-platform app development</a> appeared first on <a rel="nofollow" href="https://devblogs.microsoft.com/dotnet">.NET Blog</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://devblogs.microsoft.com/dotnet/dotnet-maui-rc-1/feed/</wfw:commentRss>
+      <slash:comments>71</slash:comments>
+    </item>
+  </channel>
+</rss>

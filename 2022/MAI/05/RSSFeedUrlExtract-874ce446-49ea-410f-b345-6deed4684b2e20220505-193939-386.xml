@@ -1,0 +1,309 @@
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+  <channel>
+    <title>Microsoft Security Content: Comprehensive Edition</title>
+    <link>https://technet.microsoft.com/en-us/security/bulletin</link>
+    <generator>MTPS_SecurityBulletin_RSS_Generator</generator>
+    <language>en-us</language>
+    <copyright>Copyright (C) 2020 Microsoft Corporation</copyright>
+    <item>
+      <title>4053440 - Securely opening Microsoft Office documents that contain Dynamic Data Exchange (DDE) fields - Version: 3.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4053440</link>
+      <pubDate>2018-01-09T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V3.0 (January 9, 2018): Microsoft has released an update for all supported editions of Microsoft Excel that allows users to set the functionality of the DDE protocol based on their environment. For more information and to download the update, see ADV170021.<br/>Summary: Microsoft is releasing this security advisory to provide information regarding security settings for Microsoft Office applications. This advisory provides guidance on what users can do to ensure that these applications are properly secured when processing Dynamic Data Exchange (DDE) fields.]]></content:encoded>
+    </item>
+    <item>
+      <title>4056318 - Guidance for securing AD DS account used by Azure AD Connect for directory synchronization - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4056318</link>
+      <pubDate>2017-12-12T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (December 12, 2017): Advisory published.<br/>Summary: Microsoft is releasing this security advisory to provide information regarding security settings for the AD DS (Active Directory Domain Services) account used by Azure AD Connect for directory synchronization. This advisory also provides guidance on what on-premises AD administrators can do to ensure that the account is properly secured.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS14-085 - Important: Vulnerability in Microsoft Graphics Component Could Allow Information Disclosure (3013126) - Version: 1.1</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS14-085</link>
+      <pubDate>2017-10-19T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.1 (October 19, 2017): Corrected a typo in the CVE description.<br/>Summary: This security update resolves a publicly disclosed vulnerability in Microsoft Windows. The vulnerability could allow information disclosure if a user browses to a website containing specially crafted JPEG content. An attacker could use this information disclosure vulnerability to gain information about the system that could then be combined with other attacks to compromise the system. The information disclosure vulnerability by itself does not allow arbitrary code execution. However, an attacker could use this information disclosure vulnerability in conjunction with another vulnerability to bypass security features such as Address Space Layout Randomization (ASLR).]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-AUG - Microsoft Security Bulletin Summary for August 2016 - Version: 3.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-AUG</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V3.0 (September 12, 2017): For MS16-095, revised the Windows Operating System and Components Affected Software table to include Internet Explorer 11 installed on Windows 10 Version 1703 for 32-bit Systems and Internet Explorer 11 installed on Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-3326. Microsoft recommends that customers running Internet Explorer on Windows 10 Version 1703 install update 4038788 to be protected from this vulnerability.<br/>Summary: This bulletin summary lists security bulletins released for August 2016.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-095 - Critical: Cumulative Security Update for Internet Explorer (3177356) - Version: 3.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-095</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V3.0 (September 12, 2017): Revised the Affected Software table to include Internet Explorer 11 installed on Windows 10 Version 1703 for 32-bit Systems and Internet Explorer 11 installed on Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-3326. Consumers using Windows 10 are automatically protected. Microsoft recommends that enterprise customers running Internet Explorer on Windows 10 Version 1703 ensure they have update 4038788 installed to be protected from this vulnerability. Customers who are running other versions of Windows 10 and who have installed the June cumulative updates do not need to take any further action.<br/>Summary: This security update resolves vulnerabilities in Internet Explorer. The most severe of the vulnerabilities could allow remote code execution if a user views a specially crafted webpage using Internet Explorer. An attacker who successfully exploited the vulnerabilities could gain the same user rights as the current user. If the current user is logged on with administrative user rights, an attacker could take control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-123 - Important: Security Update for Windows Kernel-Mode Drivers (3192892) - Version: 3.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-123</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V3.0 (September 12, 2017): Revised the Affected Software table to include Windows 10 Version 1703 for 32-bit Systems and Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-3376. Consumers using Windows 10 are automatically protected. Microsoft recommends that enterprise customers running Windows 10 Version 1703 ensure they have update 4038788 installed to be protected from this vulnerability.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The more severe of the vulnerabilities could allow elevation of privilege if an attacker logs on to an affected system and runs a specially crafted application that could exploit the vulnerabilities and take control of an affected system.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-OCT - Microsoft Security Bulletin Summary for October 2016 - Version: 3.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-OCT</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V3.0 (September 12, 2017): For MS16-123, revised the Windows Operating System and Components affected software table to include Windows 10 Version 1703 for 32-bit Systems and Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-3376. Consumers using Windows 10 are automatically protected. Microsoft recommends that enterprise customers running Windows 10 Version 1703 ensure they have update 4038788 installed to be protected from this vulnerability.<br/>Summary: This bulletin summary lists security bulletins released for October 2016.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-039 - Critical: Security Update for Microsoft Graphics Component  (3148522) - Version: 4.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-039</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V4.0 (September 12, 2017): Revised the Microsoft Windows affected software table to include Windows 10 Version 1703 for 32-bit Systems and Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-0165. Consumers running Windows 10 are automatically protected. Microsoft recommends that enterprise customers running Windows 10 Version 1703 ensure they have update 4038788 installed to be protected from this vulnerability.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows, Microsoft .NET Framework, Microsoft Office, Skype for Business, and Microsoft Lync. The most severe of the vulnerabilities could allow remote code execution if a user opens a specially crafted document or visits a webpage that contains specially crafted embedded fonts. ]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-087 - Critical: Security Update for Windows Print Spooler Components (3170005) - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-087</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V2.0 (September 12, 2017): To address known issues with the 3170455 update for CVE-2016-3238, Microsoft has made available the following updates for currently-supported versions of Microsoft Windows: • Rereleased update 3170455 for Windows Server 2008 • Monthly Rollup 4038777 and Security Update 4038779 for Windows 7 and Windows Server 2008 R2 • Monthly Rollup 4038799 and Security Update 4038786 for Windows Server 2012 • Monthly Rollup 4038792 and Security Update 4038793 for Windows 8.1 and Windows Server 2012 R2 • Cumulative Update 4038781 for Windows 10 • Cumulative Update 4038781 for Windows 10 Version 1511 • Cumulative Update 4038782 for Windows 10 Version 1607 and Windows Server 2016. Microsoft recommends that customers running Windows Server 2008 reinstall update 3170455. Microsoft recommends that customers running other supported versions of Windows install the appropriate update. See Microsoft Knowledge Base Article 3170005 (https://support.microsoft.com/en-us/help/3170005) for more information.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The more severe of the vulnerabilities could allow remote code execution if an attacker is able to execute a man-in-the-middle (MiTM) attack on a workstation or print server, or sets up a rogue print server on a target network.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-APR - Microsoft Security Bulletin Summary for April 2016 - Version: 4.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-APR</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V4.0 (September 12, 2017): For MS16-039, revised the Windows Operating Systems and Components affected software table to include Windows 10 Version 1703 for 32-bit Systems and Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-0165. Consumers running Windows 10 are automatically protected. Microsoft recommends that enterprise customers running Windows 10 Version 1703 ensure they have update 4038788 installed to be protected from this vulnerability.<br/>Summary: This bulletin summary lists security bulletins released for April 2016.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-JUL - Microsoft Security Bulletin Summary for July 2016 - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-JUL</link>
+      <pubDate>2017-09-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V2.0 (September 12, 2017): For MS16-087, to address known issues with the 3170455 update for CVE-2016-3238, Microsoft has made available the following updates for currently-supported versions of Microsoft Windows: • Rereleased update 3170455 for Windows Server 2008 • Monthly Rollup 4038777 and Security Update 4038779 for Windows 7 and Windows Server 2008 R2 • Monthly Rollup 4038799 and Security Update 4038786 for Windows Server 2012 • Monthly Rollup 4038792 and Security Update 4038793 for Windows 8.1 and Windows Server 2012 R2 • Cumulative Update 4038781 for Windows 10 • Cumulative Update 4038781 for Windows 10 Version 1511 • Cumulative Update 4038782 for Windows 10 Version 1607 and Windows Server 2016. Microsoft recommends that customers running Windows Server 2008 reinstall update 3170455. Microsoft recommends that customers running other supported versions of Windows install the appropriate update. See Microsoft Knowledge Base Article 3170005 (https://support.microsoft.com/en-us/help/3170005) for more information.<br/>Summary: This bulletin summary lists security bulletins released for July 2016.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-149 - Important: Security Update for Microsoft Windows  (3205655) - Version: 1.1</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-149</link>
+      <pubDate>2017-08-23T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.1 (August 23, 2017): Corrected the Updates Replaced for security update 3196726 to None. This is an informational change only. Customers who have already successfully installed the update do not need to take any further action.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The most severe of the vulnerabilities could allow elevation of privilege if a locally authenticated attacker runs a specially crafted application.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-007 - Critical: Cumulative Security Update for Microsoft Edge (4013071) - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-007</link>
+      <pubDate>2017-08-08T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V2.0 (August 8, 2017): To comprehensively address CVE-2017-0071, Microsoft released the July security updates for all versions of Windows 10. Note that Windows 10 for 32-bit Systems, Windows 10 for x64-based Systems, Windows 10 Version 1703 for 32-bit Systems, and Windows 10 Version 1703 for x64-based Systems have been added to the Affected Products table as they are also affected by this vulnerability. Microsoft recommends that customers who have not already done so install the July 2017 security updates to be fully protected from this vulnerability.<br/>Summary: This security update resolves vulnerabilities in Microsoft Edge. The most severe of the vulnerabilities could allow remote code execution if a user views a specially crafted webpage using Microsoft Edge. An attacker who successfully exploited these vulnerabilities could take control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>4038556 - Guidance for securing applications that host the WebBrowser Control - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4038556</link>
+      <pubDate>2017-08-08T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (August 8, 2017): Advisory published.<br/>Summary: Microsoft is releasing this security advisory to provide information regarding security settings for applications developed with the Microsoft Internet Explorer layout engine, also known as the Trident layout engine. This advisory also provides guidance on what developers and individuals can do to ensure that their applications hosting the WebBrowser Control are properly secured.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-MAR - Microsoft Security Bulletin Summary for March 2017 - Version: 4.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-MAR</link>
+      <pubDate>2017-08-08T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V4.0 (August 8, 2017): For MS17-007, to comprehensively address CVE-2017-0071, Microsoft released the July security updates for all versions of Windows 10. Note that Windows 10 for 32-bit Systems, Windows 10 for x64-based Systems, Windows 10 Version 1703 for 32-bit Systems, and Windows 10 Version 1703 for x64-based Systems have been added to the Affected Products table as they are also affected by this vulnerability. Microsoft recommends that customers who have not already done so install the July 2017 security updates to be fully protected from this vulnerability<br/>Summary: This bulletin summary lists security bulletins released for March 2017]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-SEP - Microsoft Security Bulletin Summary for September 2016 - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-SEP</link>
+      <pubDate>2017-07-11T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V2.0 (July 11, 2017): Revised Windows Affected Software and Vulnerability Severity Ratings table to include Windows 10 Version 1703 for 32-bit Systems and Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-3305. Microsoft recommends that customers running Windows 10 Version 1703 should install update 4025342 to be protected from this vulnerability.<br/>Summary: This bulletin summary lists security bulletins released for September 2016.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-111 - Important: Security Update for Windows Kernel (3186973) - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-111</link>
+      <pubDate>2017-07-11T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V2.0 (July 11, 2017): Revised Windows Affected Software and Vulnerability Severity Ratings table to include Windows 10 Version 1703 for 32-bit Systems and Windows 10 Version 1703 for x64-based Systems because they are affected by CVE-2016-3305. Microsoft recommends that customers running Windows 10 Version 1703 should install update 4025342 to be protected from this vulnerability.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The vulnerabilities could allow elevation of privilege if an attacker runs a specially crafted application on a target system.]]></content:encoded>
+    </item>
+    <item>
+      <title>4033453 - Vulnerability in Azure AD Connect Could Allow Elevation of Privilege - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4033453</link>
+      <pubDate>2017-06-27T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (June 27, 2017): Advisory published.<br/>Summary: Microsoft is releasing this security advisory to inform customers that a new version of Azure Active Directory (AD) Connect is available that addresses an Important security vulnerability.]]></content:encoded>
+    </item>
+    <item>
+      <title>4025685 - Guidance related to June 2017 security update release - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4025685</link>
+      <pubDate>2017-06-13T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (June 13, 2017): Advisory published<br/>Summary: Microsoft is announcing the availability of additional guidance for critical security updates, that are at heightened risk of exploitation due to past and threatened nation-state attacks and disclosures. Some of the releases are new, and some are for older platforms that we are making publicly available today.]]></content:encoded>
+    </item>
+    <item>
+      <title>4022345 - Identifying and correcting failure of Windows Update client to receive updates - Version: 1.3</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4022345</link>
+      <pubDate>2017-05-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.3 (May 12, 2017): Updated FAQ to clarify the update that needs to be installed: “the current cumulative update”. This is an informational change only.<br/>Summary: Microsoft is releasing this security advisory to provide information related to an uncommon deployment scenario in which the Windows Update Client may not properly scan for, or download, updates.]]></content:encoded>
+    </item>
+    <item>
+      <title>4022344 - Security Update for Microsoft Malware Protection Engine - Version: 1.2</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4022344</link>
+      <pubDate>2017-05-12T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.2 (May 12, 2017): Added entries into the affected software table. This is an informational change only.<br/>Summary: Microsoft is releasing this security advisory to inform customers that an update to the Microsoft Malware Protection Engine addresses a security vulnerability that was reported to Microsoft.]]></content:encoded>
+    </item>
+    <item>
+      <title>4021279 - Vulnerabilities in .NET Core, ASP.NET Core Could Allow Elevation of Privilege - Version: 1.1</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4021279</link>
+      <pubDate>2017-05-10T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.1 (May 10, 2017): Advisory revised to include a table of issue CVEs and their descriptions. This is an informational change only.<br/>Summary: Microsoft is releasing this security advisory to provide information about vulnerabilities in the public .NET Core and ASP.NET Core. This advisory also provides guidance on what developers can do to update their applications correctly.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-013 - Critical: Security Update for Microsoft Graphics Component (4013075) - Version: 3.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-013</link>
+      <pubDate>2017-05-09T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V3.0 (May 9, 2017): Microsoft has re-released security update 4017018 for affected editions of Windows Server 2008. The re-release has been re-classified as a security update. Microsoft recommends that customers should install update 4017018 to be fully protected from CVE-2017-0038. Customers who have already installed the update do not need to take any further action. In addition, this security update correction also applies to Windows Server 2008 for Itanium-based Systems.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows, Microsoft Office, Skype for Business, Silverlight and Microsoft Lync. The most serious of these vulnerabilities could allow remote code execution if a user either visits a specially crafted website or opens a specially crafted document. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>4010323 - Deprecation of SHA-1 for SSL/TLS Certificates in Microsoft Edge and Internet Explorer 11 - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4010323</link>
+      <pubDate>2017-05-09T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (May 9, 2017): Advisory published.<br/>Summary: Beginning May 9, 2017, Microsoft released updates to Microsoft Edge and Internet Explorer 11 to block sites that are protected with a SHA-1 certificate from loading and displays an invalid certificate warning. This change will only impact SHA-1 certificates that chain to a Microsoft Trusted Root CA where the end-entity certificate or the issuing intermediate uses SHA-1. Manually-installed enterprise or self-signed SHA-1 certificates will not be impacted, although we recommend that all customers quickly migrate to SHA-2. For more information, please see Windows Enforcement of SHA1 Certificates.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-014 - Important: Security Update for Microsoft Office (4013241) - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-014</link>
+      <pubDate>2017-04-11T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V2.0 (April 11, 2017): To comprehensively address CVE-2017-0027 for Office for Mac 2011 only, Microsoft is releasing security update 3212218. Microsoft recommends that customers running Office for Mac 2011 install update 3212218 to be fully protected from this vulnerability. See Microsoft Knowledge Base Article 3212218 for more information.<br/>Summary: This security update resolves vulnerabilities in Microsoft Office. The most severe of the vulnerabilities could allow remote code execution if a user opens a specially crafted Microsoft Office file. An attacker who successfully exploited the vulnerabilities could run arbitrary code in the context of the current user. Customers whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-021 - Important: Security Update for Windows DirectShow (4010318) - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-021</link>
+      <pubDate>2017-04-11T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V2.0 (April 11, 2017): Bulletin revised to announce that the security updates that apply to CVE-2017-0042 for Windows Server 2012 are now available. Customers running Windows Server 2012 should install update 4015548 (Security Only) or 4015551 (Monthly Rollup) to be fully protected from this vulnerability. Customers running other versions of Microsoft Windows do not need to take any further action.<br/>Summary: This security update resolves a vulnerability in Microsoft Windows. The vulnerability could allow an Information Disclosure if Windows DirectShow opens specially crafted media content that is hosted on a malicious website. An attacker who successfully exploited the vulnerability could obtain information to further compromise a target system.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-037 - Critical: Cumulative Security Update for Internet Explorer (3148531) - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-037</link>
+      <pubDate>2017-04-11T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V2.0 (April 11, 2017): Bulletin revised to announce the release of a new Internet Explorer cumulative update (4014661) for CVE-2016-0162. The update adds to the original release to comprehensively address CVE-2016-0162. Microsoft recommends that customers running the affected software install the security update to be fully protected from the vulnerability described in this bulletin. See Microsoft Knowledge Base Article 4014661 for more information.<br/>Summary: This security update resolves vulnerabilities in Internet Explorer. The most severe of the vulnerabilities could allow remote code execution if a user views a specially crafted webpage using Internet Explorer. An attacker who successfully exploited the vulnerabilities could gain the same user rights as the current user. If the current user is logged on with administrative user rights, an attacker could take control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-084 - Critical: Cumulative Security Update for Internet Explorer (3169991) - Version: 1.1</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-084</link>
+      <pubDate>2017-03-17T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.1 (March 17, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Internet Explorer. The most severe of the vulnerabilities could allow remote code execution if a user views a specially crafted webpage using Internet Explorer. An attacker who successfully exploited the vulnerabilities could gain the same user rights as the current user. If the current user is logged on with administrative user rights, an attacker could take control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-011 - Critical: Security Update for Microsoft Uniscribe (4013076) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-011</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves a vulnerability in Windows Uniscribe. The vulnerability could allow remote code execution if a user visits a specially crafted website or opens a specially crafted document. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights. ]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-012 - Critical: Security Update for Microsoft Windows  (4013078) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-012</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The most severe of the vulnerabilities could allow remote code execution if an attacker running inside a virtual machine runs a specially crafted application.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-009 - Critical: Security Update for Microsoft Windows PDF Library (4010319) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-009</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The vulnerabilities could allow information disclosure if a user views specially crafted PDF content online or opens a specially crafted PDF document.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-017 - Important: Security Update for Windows Kernel (4013081) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-017</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The vulnerabilities could allow elevation of privilege if an attacker runs a specially crafted application.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-0113 - Critical: Security Update for Microsoft Graphics Component (4013075) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-0113</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows, Microsoft Office, Skype for Business, Silverlight and Microsoft Lync. The most serious of these vulnerabilities could allow remote code execution if a user either visits a specially crafted website or opens a specially crafted document. Users whose accounts are configured to have fewer user rights on the system could be less impacted than users who operate with administrative user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-018 - Important: Security Update for Windows Kernel-Mode Drivers (4013083) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-018</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published<br/>Summary:  This security update resolves vulnerabilities in Microsoft Windows. The vulnerabilities could allow elevation of privilege if an attacker logs on to an affected system and runs a specially crafted application that could exploit the vulnerabilities and take control of an affected system.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-022 - Important: Security Update for Microsoft XML Core Services (4010321) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-022</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves a vulnerability in Microsoft Windows. The vulnerability could allow information disclosure if a user visits a malicious website. However, in all cases an attacker would have no way to force a user to click a specially crafted link. An attacker would have to convince a user to click the link, typically by way of an enticement in an email or Instant Messenger message.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-020 - Important: Security Update for Windows DVD Maker (3208223) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-020</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves an information disclosure vulnerability in Windows DVD Maker. The vulnerability could allow an attacker to obtain information to further compromise a target system.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-023 - Critical: Security Update for Adobe Flash Player (4014329) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-023</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Adobe Flash Player when installed on all supported editions of Windows 8.1, Windows Server 2012, Windows Server 2012 R2, Windows RT 8.1, and Windows 10.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-016 - Important: Security Update for Windows IIS (4013074) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-016</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.0 (March 14, 2017): Click here to enter text.<br/>Summary: This security update resolves a vulnerability in Microsoft Windows. The vulnerability could allow remote code execution if an attacker with access to the local system executes a malicious application. An attacker who successfully exploited this vulnerability could gain the same user rights as the current user. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-006 - Critical: Cumulative Security Update for Internet Explorer (4013073) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-006</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Internet Explorer. The most severe of the vulnerabilities could allow remote code execution if a user views a specially crafted webpage using Internet Explorer. An attacker who successfully exploited these vulnerabilities could gain the same user rights as the current user. If the current user is logged on with administrative user rights, an attacker who successfully exploited this vulnerability could take control of an affected system. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.]]></content:encoded>
+    </item>
+    <item>
+      <title>3123479 - SHA-1 Hashing Algorithm for Microsoft Root Certificate Program - Version: 2.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/3123479</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V2.0 (March 14, 2017): Advisory rereleased to announce that the changes described in this advisory have been reverted as of November 2016. This is an informational change only.<br/>Summary: Microsoft is announcing a policy change to the Microsoft Root Certificate Program.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-015 - Important: Security Update for Microsoft Exchange Server (4013242) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-015</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Microsoft Exchange Server.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-008 - Critical: Security Update for Windows Hyper-V (4013082) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-008</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The most severe of the vulnerabilities could allow remote code execution if an authenticated attacker on a guest operating system runs a specially crafted application that causes the Hyper-V host operating system to execute arbitrary code. Customers who have not enabled the Hyper-V role are not affected.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-019 - Important: Security Update for Active Directory Federation Services (4010320) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-019</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves a vulnerability in Active Directory Federation Services (ADFS). The vulnerability could allow information disclosure if an attacker sends a specially crafted request to an ADFS server, allowing the attacker to read sensitive information about the target system.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-010 - Critical: Security Update for Microsoft Windows SMB Server (4013389) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-010</link>
+      <pubDate>2017-03-14T17:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (March 14, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Microsoft Windows. The most severe of the vulnerabilities could allow remote code execution if an attacker sends specially crafted messages to a Windows SMBv1 server.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS16-155 - Important: Security Update for .NET Framework (3205640) - Version: 2.1</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS16-155</link>
+      <pubDate>2017-02-23T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Important<br/>Revision Note: V2.1 (February 23, 2017): Revised bulletin to announce a detection logic change to Monthly Rollup Release KB3205403 and Monthly Rollup Release KB3205404. This is an informational change only. Customers who have already successfully updated their systems do not need to take any action.<br/>Summary: This security update resolves a vulnerability in Microsoft .NET 4.6.2 Framework’s Data Provider for SQL Server. A security vulnerability exists in Microsoft .NET Framework 4.6.2 that could allow an attacker to access information that is defended by the Always Encrypted feature. ]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-005 - Critical: Security Update for Adobe Flash Player (4010250) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-005</link>
+      <pubDate>2017-02-21T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (February 21, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Adobe Flash Player when installed on all supported editions of Windows 8.1, Windows Server 2012, Windows Server 2012 R2, Windows RT 8.1, and Windows 10.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-FEB - Microsoft Security Bulletin Summary for February 2017 - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-FEB</link>
+      <pubDate>2017-02-21T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (February 21, 2017): <br/>Summary: This bulletin summary lists security bulletins released for February 2017]]></content:encoded>
+    </item>
+    <item>
+      <title>4010983 - Vulnerability in ASP.NET Core MVC 1.1.0 Could Allow Denial of Service - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/4010983</link>
+      <pubDate>2017-01-27T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (January 27, 2017): Advisory published.<br/>Summary: Microsoft is releasing this security advisory to provide information about a vulnerability in the public versions of ASP.NET Core MVC 1.1.0. This advisory also provides guidance on what developers can do to update their applications correctly.]]></content:encoded>
+    </item>
+    <item>
+      <title>3214296 -  Vulnerabilities in Identity Model Extensions Token Signing Verification Could Allow Elevation of Privilege - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/3214296</link>
+      <pubDate>2017-01-10T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Revision Note: V1.0 (January 10, 2017): Advisory published.<br/>Summary: Microsoft is releasing this security advisory to provide information about a vulnerability in the public version of Identity Model Extensions 5.1.0. This advisory also provides guidance on what developers can do to help ensure that their apps are updated correctly.]]></content:encoded>
+    </item>
+    <item>
+      <title>MS17-003 - Critical: Security Update for Adobe Flash Player (3214628) - Version: 1.0</title>
+      <link>https://technet.microsoft.com/en-us/library/security/MS17-003</link>
+      <pubDate>2017-01-10T18:00:00.0000000Z</pubDate>
+      <content:encoded><![CDATA[Severity Rating: Critical<br/>Revision Note: V1.0 (January 10, 2017): Bulletin published.<br/>Summary: This security update resolves vulnerabilities in Adobe Flash Player when installed on all supported editions of Windows 8.1, Windows Server 2012, Windows Server 2012 R2, Windows RT 8.1, and Windows 10.]]></content:encoded>
+    </item>
+  </channel>
+</rss>
