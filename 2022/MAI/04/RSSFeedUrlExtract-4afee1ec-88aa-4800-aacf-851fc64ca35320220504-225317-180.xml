@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[bacen/pix-api]]></title>
+    <description><![CDATA[bacen/pix-api]]></description>
+    <link>https://github.com/bacen/pix-api/issues</link>
+    <image>
+      <url>https://github.com/bacen.png</url>
+      <title>bacen/pix-api</title>
+      <link>https://github.com/bacen/pix-api/issues</link>
+    </image>
+    <generator>gh-feed</generator>
+    <lastBuildDate>Thu, 05 May 2022 01:53:17 GMT</lastBuildDate>
+    <atom:link href="/bacen/pix-api/issues" rel="self" type="application/rss+xml" />
+    <ttl>60</ttl>
+    <item>
+      <title><![CDATA[Erro no Decode de QrCode Dinâmico Por Outras Instituições ]]></title>
+      <description><![CDATA[<p>Olá, quando outras instituições financeiras tentam decodificar nosso QR Code dinamico, em ambiente de homolog, o seguinte erro é retornado</p>
+<p><img src="https://user-images.githubusercontent.com/104911151/166758511-d8450e85-430c-40cc-a301-7c163aa58921.png" alt="image (8)"></p>
+<p>Já realizamos a importação do certificado no STA e fizemos o credenciamento no SIsbacen </p>
+<p>Gostaria de saber quais as possíveis causas para o retorno dessa mensagem. Obrigada! </p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/505</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/505</guid>
+      <dc:creator><![CDATA[ThainaDhaila]]></dc:creator>
+      <pubDate>Wed, 04 May 2022 18:04:01 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Dúvida no erro recebido de GET /cobv]]></title>
+      <description><![CDATA[<p>Olá estou alterando de instuição bancaria e me deparei com esse erro no GET de cobv que não existia anteriormente, o padrão de data esta correto até onde entendo, não importa o quando eu altero o intervalo de busca sempre aparece esse erro.
+Conseguem ver algo errado?</p>
+<pre><code>
+/cobv?inicio=2022-04-01T00:00:00Z&amp;fim=2022-04-30T23:59:59Z&amp;cpf=DOC_VALIDO_AQUI&amp;paginacao.paginaAtual=0&amp;paginacao.itensPorPagina=100
+
+{
+   httpStatus: 400,
+   status: 400,
+   type: &#39;https://pix.bcb.gov.br/api/v2/error/RequisicaoInvalida&#39;,
+   title: &#39;Requisição inválida&#39;,
+   correlationId: &#39;service-084ce088-9b1f-4c01-8479-375d076d7fe3&#39;,
+   violacoes: [
+     {
+       propriedade: &#39;.query.fim&#39;,
+       razao: &#39;O timestamp representado pelo parâmetro fim é inválido&#39;,
+      valor:  [ &#39;2022-04-30T23:59:59Z&#39;, &#39;2022-04-30T23:59:59Z&#39; ]
+    }
+   ]
+ }
+</code></pre>]]></description>
+      <link>https://github.com/bacen/pix-api/issues/504</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/504</guid>
+      <dc:creator><![CDATA[amarborto]]></dc:creator>
+      <pubDate>Sat, 23 Apr 2022 15:25:55 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Erro na tentativa de efetuar uma requisição na api do banco: SSL_connect: SSL_ERROR_SYSCALL]]></title>
+      <description><![CDATA[<p>Olá, alguém já passou por esse problema onde tentou requisitar algo da api pix do seu banco e ocorreu o seguinte erro do OpenSSL? </p>
+<pre><code>#Request
+curl  -v --tls-max 1.2 --key minha.key --cert meucert.crt -X POST &#39;endponint.do.banco&#39; --header &#39;Content-Type: application/x-www-form-urlencoded&#39; --data-urlencode &#39;grant_type=client_credentials&#39; --data-urlencode &#39;client_id=credencial&#39; --data-urlencode &#39;client_secret=credencial&#39; --data-urlencode &#39;scope=cob.read&#39;
+
+#Resposta
+* TLSv1.2 (OUT), TLS handshake, Client hello (1):
+* OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to ...:443
+* Closing connection 0
+</code></pre><p>Esse Endpoint em questão é o de produção, já no de homologação funciona 100% e no mesmo servidor;
+Essa requisição foi feita no CURL para eliminar a possibilidade do problema ser na aplicação em si, feito tanto com credenciais e endpoint de homologação (que funciona e retorna o resultado esperado) e também com credenciais e endpoint de produção (que ocorre o erro em questão)</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/503</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/503</guid>
+      <dc:creator><![CDATA[amarborto]]></dc:creator>
+      <pubDate>Sat, 16 Apr 2022 15:17:17 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Como faço para conseguir  client_id: e client_secret:]]></title>
+      <description><![CDATA[<p>Como faço para conseguir  client_id: e client_secret:?
+Alguém pode me ajudar?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/501</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/501</guid>
+      <dc:creator><![CDATA[eduardohr-muniz]]></dc:creator>
+      <pubDate>Fri, 08 Apr 2022 02:18:54 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[API de validação de QRCode de PRD]]></title>
+      <description><![CDATA[<p>Boa tarde,</p>
+<p>Por acaso o Bacen disponibiliza alguma API de validação de QRCode em PRD?</p>
+<p>Pois temos a vontade de criar um dashboard que faça tais validações diariamente de QRCodes distintos para termos uma segurança maior nos nosso processos.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/499</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/499</guid>
+      <dc:creator><![CDATA[GustavoSTZ]]></dc:creator>
+      <pubDate>Wed, 16 Mar 2022 21:55:17 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Geração de QR Code dinâmico ]]></title>
+      <description><![CDATA[<p>Boa tarde pessoal! Estou com uma dúvida referente a geração do QR Code dinâmico via api pix e api proprietária.</p>
+<p>O recebedor pode gerar o QR Code dinâmico somente via api Pix? Ou ele também pode gerar via api proprietária? Por exemplo, um PSP pode oferecer as duas opções e o comércio tem a liberdade de escolha?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/498</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/498</guid>
+      <dc:creator><![CDATA[IsaBarbosa12]]></dc:creator>
+      <pubDate>Tue, 15 Mar 2022 01:50:17 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[API para obtenção de pix saque e troco]]></title>
+      <description><![CDATA[<p>Olá, boa tarde.</p>
+<p>Existem endpoints para que seja possível logar no pix tester e gerar os QR Codes do tipo pix saque e troco com o objetivo de automação de testes?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/497</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/497</guid>
+      <dc:creator><![CDATA[reelopes]]></dc:creator>
+      <pubDate>Mon, 07 Mar 2022 21:27:27 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Padronização dos Headers na APIs públicas ]]></title>
+      <description><![CDATA[<p>Boa tarde, tudo bem?</p>
+<p>Qual é o padrão correto que devemos respeitar para enviar um requisição para o PSP na api GETs (cob e cobv) pública? </p>
+<p>Ou seja, é preciso enviar algum header como padrão? por exemplo content-type? Ou o correto é não enviar nada? </p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/492</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/492</guid>
+      <dc:creator><![CDATA[LeoBOrtigoza-zz]]></dc:creator>
+      <pubDate>Fri, 28 Jan 2022 17:01:58 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Dúvida sobre possibilidade de confirmação de pagamento]]></title>
+      <description><![CDATA[<p>Olá! Tenho uma dúvida que pode ser um pouco básica, mas vamos lá:</p>
+<p>Estou com uma dúvida sobre como posso usar (ou se é possível) a API para fazer apenas a confirmação de pagamentos pix. Então a partir de uma chave, saber se os pagamentos estão chegando para ela. O uso seria para o seguinte cenário:</p>
+<blockquote>
+<p>Um usuário que não possui acesso à conta que vai receber o pix precisa realizar uma cobrança. Ao invés de depender apenas do comprovante gerado pelo pagador, a API forneceria informações necessárias para que eu possa validar ao cobrador que o pix foi bem sucedido.</p>
+</blockquote>
+<p>Basicamente o sistema geraria um QrCode de pagamento e conseguiria validar que o pagamento foi feito. Seria necessário consultar a api de cada um dos PSPs (banco) ou a própria API pix suporta essa funcionalidade?</p>
+<p>Lendo as issues, uma possível solução seria a proposta <a href="https://github.com/bacen/pix-api/issues/482#issuecomment-1006479506">aqui</a>, onde o próprio sistema receberia o dinheiro e o transferiria para a conta destido, pegando a confirmação nessa etapa. Queria ver se existe alguma solução diferente, pois não queremos intermediar o fluxo do dinheiro na operação.</p>
+<p>Agradeço desde já!</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/490</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/490</guid>
+      <dc:creator><![CDATA[JoaoPedroAssis]]></dc:creator>
+      <pubDate>Fri, 21 Jan 2022 14:35:12 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Valor diferente no cobV]]></title>
+      <description><![CDATA[<p>Conforme informado no #365 , valor.modalidadeAlteracao só existe atualmente no cob, não no cobv. 
+Isso significa que todo cobv deve aceitar pagamento por valor diferente ? Caso afirmativo, é possível usar a modalidade/valor de desconto para impedir isso ?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/486</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/486</guid>
+      <dc:creator><![CDATA[rubenskuhl]]></dc:creator>
+      <pubDate>Mon, 17 Jan 2022 02:36:35 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Funcionamento em PHP]]></title>
+      <description><![CDATA[<p>Alguém tem um tutorial em PHP de como implementar?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/484</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/484</guid>
+      <dc:creator><![CDATA[MeuGestor]]></dc:creator>
+      <pubDate>Mon, 10 Jan 2022 00:44:45 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[[Dúvidas Lote COBV] Validação de Schema]]></title>
+      <description><![CDATA[<p>Estamos desenvolvendo os endpoints de lote cobv e surgiu algumas dúvidas:</p>
+<p>1 - A violação abaixo se refere que devemos bloquear todas as requisições que tiverem objetos com patterns diferentes, por exemplo, quando vier um txid fora do pattern especificado (exemplo, maior que 35) devemos jogar um erro 400 e bloquear todas as Cobsv recebidas no array? Ou somente bloquear aquela que está com o pattern errado, mudando o status da mesma para NEGADA e permitindo as demais serem processadas?</p>
+<pre><code>Violações para os endpoints PUT|PATCH /lotecobv/{id}: 
+O objeto loteCobV.cobsV não respeita o schema.
+</code></pre><p>2 - Questões de segurança, podemos bloquear tal requisição que contém um payload malicioso já na entrada ou precisamos retornar no escopo do GET que foi recusada por conter um payload malicioso? Pergunto isso, pois teríamos que salvar tal payload malicioso para retornar que ele foi negado, o que poderia gerar grandes vulnerabilidades.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/483</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/483</guid>
+      <dc:creator><![CDATA[GustavoSTZ]]></dc:creator>
+      <pubDate>Thu, 06 Jan 2022 14:01:21 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Data de Desconto igual a Data de Vencimento de um Titulo]]></title>
+      <description><![CDATA[<p>Tenho uma dúvida acerca da Data de Desconto: no PUT/PATCH cobv, é colocado que a data de desconto deve ser obrigatoriamente menor que a data de vencimento do título. Temos vários casos de cobrança onde esta data pode ser igual a data de vencimento, mas nunca maior que a data de vencimento ( Ou seja, não se deve dar desconto a um título vencido ). </p>
+<p>Tenho exemplos de títulos/boletos que são emitidos por escolas, por exemplo. A API PIX deve recusar cobrança cuja a data de desconto seja igual a data de vencimento do título? </p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/481</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/481</guid>
+      <dc:creator><![CDATA[rgonzagaAut]]></dc:creator>
+      <pubDate>Wed, 05 Jan 2022 22:22:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[GET /pix/{e2eId}]]></title>
+      <description><![CDATA[<p>Estou integrando com um grande banco e o mesmo informou que a API não funciona para listar de PIX por chave ou estático.
+Existe uma regra/norma que os obrigue a oferecer as funcionalidades desta API sem estas restrições?
+Meu problema é que recebo webhook de PIX estático com txID (identificando meu ponto recebedor) em seguida tenho que ficar fazendo busca por filtro em vez de ir direto ao e2eid para completar a minha identificação do pagamento.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/476</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/476</guid>
+      <dc:creator><![CDATA[eduardomazolini]]></dc:creator>
+      <pubDate>Mon, 06 Dec 2021 18:56:20 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Devolução pix chave e estático]]></title>
+      <description><![CDATA[<p>Estou integrando com um grande banco e o mesmo informou que a API não funciona para devolução de PIX por chave ou estático.
+Existe uma regra/norma que os obrigue a oferecer as funcionalidades desta API sem estas restrições?
+Meu problema é que sempre devolvo pix feitos diretamente ao meu CNPJ pois não consigo conciliar os pagamentos e isso gera um grande trabalho hoje manual na minha operação.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/475</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/475</guid>
+      <dc:creator><![CDATA[eduardomazolini]]></dc:creator>
+      <pubDate>Mon, 06 Dec 2021 18:50:04 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Pix Saque/troco - pagamento tarifa]]></title>
+      <description><![CDATA[<p>Olá, </p>
+<p>Estava com uma dúvida relacionada ao pagamento da tarifa do Pix Saque/Troco.</p>
+<p>Na Instrução Normativa 151 diz que quando o participante recebedor da tarifa não faz parte do STR iremos realizar uma STR007.</p>
+<p>Para realização de tal transferência precisamos de informações da conta do cliente, no caso da conta do recebedor.</p>
+<p>Temos definido como vamos obter essas informações?
+Enviei um email para pix-operacional, mas não obtive resposta.</p>
+<p>Obrigada!</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/461</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/461</guid>
+      <dc:creator><![CDATA[paulaselihevic12]]></dc:creator>
+      <pubDate>Fri, 22 Oct 2021 15:16:49 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[QR Code dinâmico pode ser gerado por api proprietária?]]></title>
+      <description><![CDATA[<p>Tenho uma dúvida com relação ao QR Code dinâmico.</p>
+<p>No manual de padrões explicita que o QR Code pode ser gerado pelo usuário recebedor através da API Pix ou app Mobile.</p>
+<p><img src="https://user-images.githubusercontent.com/77291173/136460659-a6981ce1-ab11-458a-bd4e-31e3eda6bde2.png" alt="image"></p>
+<p>No entanto alguns bancos estão ofertando a possibilidade de uma API híbrida. Isto é, uma API proprietária onde é gerado tanto código de barras quanto QR Code. <strong>Esta abordagem é permitida?</strong></p>
+<p>Verifiquei nesta issue #58 que uma pergunta semelhante foi respondida.
+ Mas fiquei com dúvida, pois um determinado banco X tem ofertado este tipo de solução ao nosso cliente, e o mesmo está solicitando a integração com esta Api proprietária</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/458</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/458</guid>
+      <dc:creator><![CDATA[delimafcarol]]></dc:creator>
+      <pubDate>Thu, 07 Oct 2021 21:01:16 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[API Pix x Mecanismo Especial de Devolução]]></title>
+      <description><![CDATA[<p>Digamos que 3 hipóteses se apliquem:</p>
+<ul>
+<li>Um Pix havia sido sinalizado via API por ter txid (quer seja estático ou dinâmico)</li>
+<li>O PSP Recebedor aderiu ao Mecanismo Especial de Devolução</li>
+<li>O EC Recebedor aderiu ao Mecanismo Especial de Devolução</li>
+</ul>
+<p>Como fica a sinalização via API, tanto de webhook quanto de GET em /pix, disso ? 
+Lembrando que há casos finais (os de falha sistêmica) e casos de análise (fraude) onde há primeiro um congelamento do recurso e depois uma liberação ou definição. </p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/450</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/450</guid>
+      <category><![CDATA[negócio]]></category>
+      <dc:creator><![CDATA[rubenskuhl]]></dc:creator>
+      <pubDate>Sat, 18 Sep 2021 12:44:20 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Idéias para QR-Code do pagador]]></title>
+      <description><![CDATA[<p>Seguem alguns pensamentos meus e do @SeanWykes sobre como poderia ser a API Pix para suporte a QR-Code do pagador </p>
+<pre><code>Rubens Kuhl — Que mudanças na API vocês imaginam para usar o QR-Code do pagador ?
+Sean Wykes — Rubens, pelo lado pagador, penso de imediato que será preciso uma forma de subir o QR recebido para encaminhamento para o pagador pelo SPI. Pode ser tão simples quando um PUT o POST /qrcode. Daí, a confirmação do pagamento poderia vir pela notificação do webhook. O que ainda não vi é a questão de TXID, pois se for gerado pelo pagador, como identificar o pagamento na notificação?
+
+Já para atender o lado pagador, a coisa complica devida às diferentes regras e funcionalidades propostas
+Rubens Kuhl — Possivelmente o POST do /qrcode retorne o txid. O problema é garantir idempotência. O que me ocorre é o QR-Code ter um PaymentID do pagador cujo objetivo seja apenas esse de idempotência, não de conciliação. Então se fizer o POST do mesmo QR-Code duas vezes, retorna o mesmo TXID.
+Sean Wykes — Aí fica bacana. Como o QR pagador é completamente diferente do QR PIX atual, não precisa nem ter um TXID, então este pode ser gerado pelo recebedor ou seu PSP, e o PSP recebedor manter a relação entre os dois (PaymentID, TXID). Ao chegar no PSP pagador, será disparado o pagamento com o TXID do recebedor normalmente, assim funcionando o webhook e as consultas, inclusive um GET /qrcode/{txid} etc
+</code></pre>]]></description>
+      <link>https://github.com/bacen/pix-api/issues/437</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/437</guid>
+      <category><![CDATA[funcionalidade-nova]]></category>
+      <category><![CDATA[QR do Pagador]]></category>
+      <dc:creator><![CDATA[rubenskuhl]]></dc:creator>
+      <pubDate>Wed, 25 Aug 2021 01:26:52 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Período de Consulta online]]></title>
+      <description><![CDATA[<p>Bom dia!</p>
+<p>Existe um período obrigatório para retorno das consultas online da API?</p>
+<p>Exemplo: Cliente faz a requisição da api \PIX  dos recebimentos Pix de QR e transferências, efetuando a busca por um grande período. Dependendo do volume de pagamentos que o cliente possuir, pode dar  um erro de time out.</p>
+<p>A instituição pode criar uma regra de &quot;expurgo&quot; de dados online, para performar o retorno das APIs, disponibilizando outra forma de retorno para grandes volumes/períodos e incluir períodos máximos de busca?</p>
+<p>Obrigada!</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/436</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/436</guid>
+      <category><![CDATA[Documentação]]></category>
+      <dc:creator><![CDATA[biancaOliveiraSantos]]></dc:creator>
+      <pubDate>Mon, 23 Aug 2021 12:46:25 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Existe a funcionalidade ou intenção de implementação para efetuar envios pela API?]]></title>
+      <description><![CDATA[<p>Pelas pesquisas que vi, é possível criar cobranças e verificar recebimentos.
+A API também é capaz de efetuar envios para outras contas? Ou existe algum plano para que isso seja possível? </p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/432</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/432</guid>
+      <category><![CDATA[funcionalidade-nova]]></category>
+      <dc:creator><![CDATA[victorccaldas]]></dc:creator>
+      <pubDate>Mon, 09 Aug 2021 18:58:30 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Correção da Regex do parâmetro  código do municipio]]></title>
+      <description><![CDATA[<p>Correção da Regex do parâmetro  código do município na consulta do payload cobv</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/pull/430</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/pull/430</guid>
+      <dc:creator><![CDATA[tonyldo]]></dc:creator>
+      <pubDate>Fri, 06 Aug 2021 17:26:17 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Dúvida sobre data de vencimento e data de criação ]]></title>
+      <description><![CDATA[<p>Se eu criar uma cobrança as 22h no horário de Brasília do dia 28/07 a data de criação da cobrança no padrão UTC-0 vai informar data do dia 29/07, correto?</p>
+<p>O que acontece se eu colocar uma data de vencimento para o mesmo dia? cadastrando assim uma cobrança ás 22h, o resultado do calendário deve ficar assim?</p>
+<p>dataDeCriacao = &quot;2021-07-29T01:00:00.000Z&quot;
+dataDeVencimento = &quot;2021-07-28&quot;</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/426</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/426</guid>
+      <category><![CDATA[Documentação]]></category>
+      <dc:creator><![CDATA[wesleygonalv]]></dc:creator>
+      <pubDate>Wed, 28 Jul 2021 19:54:07 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Aplicação de desconto ]]></title>
+      <description><![CDATA[<p>Boa tarde!
+Temos uma dúvida quanto a aplicação do desconto quando ele cai em um fim de semana, dado a regra da documentação do manual de iniciação:</p>
+<p><strong>&quot;Sempre que a data limite para desconto cair em um fim de semana ou em um
+feriado para o usuário pagador, ela deve ser automaticamente prorrogada
+para o primeiro dia útil subsequente. &quot;.</strong></p>
+<p>Exemplo:
+Cliente cadastrou a cobrança da seguinte forma:
+Cobrança de 100 reais e com desconto com modalidade 1 
+sábado - dia 19/06 - 3 reais
+domingo - dia 20/06- 2 reais
+segunda - dia 21/06 - 1 real</p>
+<p>Na segunda-feira (21/06) deve-se aplicar o valor cadastrado (1 real) ou prorrogar o valor referente ao final de semana (3 reais)?</p>
+<p>O desconto só deve ser prorrogado quando a última data possível cai em um fim de semana/feriado ou quando qualquer data de desconto cai em um final de semana/feriado?</p>
+<p>Obrigada!</p>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/412</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/412</guid>
+      <category><![CDATA[Documentação]]></category>
+      <dc:creator><![CDATA[biancaOliveiraSantos]]></dc:creator>
+      <pubDate>Fri, 18 Jun 2021 19:53:19 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Diversos participantes falhando ao ler QRCode]]></title>
+      <description><![CDATA[<p>Boa tarde,
+Estamos implementando no Banco Arbi as soluções PIX e recentemente fomos aprovados em todos os testes do QRTester, porém alguns grandes bancos do mercado retornam erro ao ler o copia e cola.
+Alguém está sofrendo deste problema também?</p>
+<p>Pix copia e cola (QRCode dinâmico imediato): 00020101021226840014BR.GOV.BCB.PIX2562qrcode.bancoarbi.com.br/gi/v2/0d79dd1920434e39a536026da88fa86b5204000053039865802BR5915Juan Jose Ramos6013RIO DE JANEIR61082192002062070503<em>*</em>63049D8E</p>
+<table>
+<thead>
+<tr>
+<th>Participante</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bradesco</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>NuBank</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>Ame</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>C6 Bank</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>Caixa Econômica</td>
+<td>Falha na leitura</td>
+</tr>
+<tr>
+<td>Itaú</td>
+<td>Falha na leitura</td>
+</tr>
+<tr>
+<td>Santander</td>
+<td>Falha na leitura</td>
+</tr>
+</tbody>
+</table>
+]]></description>
+      <link>https://github.com/bacen/pix-api/issues/398</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-api/issues/398</guid>
+      <category><![CDATA[Erros dos PSPs]]></category>
+      <dc:creator><![CDATA[Raphael-Afonso]]></dc:creator>
+      <pubDate>Tue, 18 May 2021 14:21:38 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
