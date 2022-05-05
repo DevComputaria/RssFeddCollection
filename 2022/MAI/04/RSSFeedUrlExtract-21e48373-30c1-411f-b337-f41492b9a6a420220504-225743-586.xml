@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://www.ccn-cert.cni.es/components/com_obrss/assets/xsl/atom-to-html.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Últimas Vulnerabilidades</title>
+    <description><![CDATA[Últimas Vulnerabilidades]]></description>
+    <link>https://www.ccn-cert.cni.es/</link>
+    <lastBuildDate>Thu, 05 May 2022 01:57:43 +0000</lastBuildDate>
+    <generator>FeedCreator 1.8.3 (obRSS 3.2.3)</generator>
+    <atom:link href="https://www.ccn-cert.cni.es/component/obrss/rss-ultimas-vulnerabilidades.feed" rel="self" type="application/rss+xml" />
+    <language>es-ES</language>
+    <item>
+      <title>K37256400: Linux kernel vulnerability CVE-2021-4028</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33306.html</link>
+      <description><![CDATA[Linux kernel vulnerability CVE-2021-4028 Security Advisory Security Advisory Description ** RESERVED ** This candidate has been reserved by an organization or individual that will use it when ...More info:https://support.f5.com/csp/article/K37256400?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33306.html</guid>
+    </item>
+    <item>
+      <title>K23231802: Expat vulnerability CVE-2021-46143</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33305.html</link>
+      <description><![CDATA[Expat vulnerability CVE-2021-46143 Security Advisory Security Advisory Description In doProlog in xmlparse.c in Expat (aka libexpat) before 2.4.3, an integer overflow exists for m_groupSize. (CVE- ...More info:https://support.f5.com/csp/article/K23231802?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33305.html</guid>
+    </item>
+    <item>
+      <title>K91589041: Expat vulnerabilities CVE-2021-45960, CVE-2022-22825, CVE-2022-22826, and CVE-2022-22827</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33304.html</link>
+      <description><![CDATA[Expat vulnerabilities CVE-2021-45960, CVE-2022-22825, CVE-2022-22826, and CVE-2022-22827 Security Advisory Security Advisory Description CVE-2021-45960 In Expat (aka libexpat) before 2.4.3, a left ...More info:https://support.f5.com/csp/article/K91589041?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33304.html</guid>
+    </item>
+    <item>
+      <title>K23421535: Expat vulnerabilities CVE-2022-22822, CVE-2022-22823, and CVE-2022-22824</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33303.html</link>
+      <description><![CDATA[Expat vulnerabilities CVE-2022-22822, CVE-2022-22823, and CVE-2022-22824 Security Advisory Security Advisory Description CVE-2022-22822 addBinding in xmlparse.c in Expat (aka libexpat) before 2.4. ...More info:https://support.f5.com/csp/article/K23421535?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Mon, 02 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33303.html</guid>
+    </item>
+    <item>
+      <title>K84155336: rsync vulnerability CVE-2020-14387</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33302.html</link>
+      <description><![CDATA[rsync vulnerability CVE-2020-14387 Security Advisory Security Advisory Description A flaw was found in rsync in versions since 3.2.0pre1. Rsync improperly validates certificate with host mismatch ...More info:https://support.f5.com/csp/article/K84155336?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33302.html</guid>
+    </item>
+    <item>
+      <title>K19473898: Multiple Expat vulnerabilities CVE-2022-23852, CVE-2022-25235, CVE-2022-25236, and CVE-2022-23515</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33301.html</link>
+      <description><![CDATA[Multiple Expat vulnerabilities CVE-2022-23852, CVE-2022-25235, CVE-2022-25236, and CVE-2022-23515 Security Advisory Security Advisory Description CVE-2022-23852 Expat (aka libexpat) before 2.4.4 ...More info:https://support.f5.com/csp/article/K19473898?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33301.html</guid>
+    </item>
+    <item>
+      <title>K52308021: GNU C Library (glibc) vulnerabilities CVE-2022-23218 and CVE-2022-23219</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33300.html</link>
+      <description><![CDATA[GNU C Library (glibc) vulnerabilities CVE-2022-23218 and CVE-2022-23219 Security Advisory Security Advisory Description CVE-2022-23218 The deprecated compatibility function svcunix_create in the ...More info:https://support.f5.com/csp/article/K52308021?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33300.html</guid>
+    </item>
+    <item>
+      <title>K24207649: GNU C Library (glibc) vulnerability CVE-2021-3999</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33299.html</link>
+      <description><![CDATA[GNU C Library (glibc) vulnerability CVE-2021-3999 Security Advisory Security Advisory Description ** RESERVED ** This candidate has been reserved by an organization or individual that will use it ...More info:https://support.f5.com/csp/article/K24207649?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33299.html</guid>
+    </item>
+    <item>
+      <title>K69124112: PostgreSQL JDBC vulnerability CVE-2022-21724</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33298.html</link>
+      <description><![CDATA[PostgreSQL JDBC vulnerability CVE-2022-21724 Security Advisory Security Advisory Description pgjdbc is the offical PostgreSQL JDBC Driver. A security hole was found in the jdbc driver for ...More info:https://support.f5.com/csp/article/K69124112?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33298.html</guid>
+    </item>
+    <item>
+      <title>K69124112: PosGreSQL JDBC vulnerability CVE-2021-21724</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33297.html</link>
+      <description><![CDATA[PosGreSQL JDBC vulnerability CVE-2021-21724 Security Advisory Security Advisory Description A ZTE product has a memory leak vulnerability. Due to the products improper handling of memory release ...More info:https://support.f5.com/csp/article/K69124112?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33297.html</guid>
+    </item>
+  </channel>
+</rss>

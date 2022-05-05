@@ -1,0 +1,397 @@
+<rss xmlns:a10="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Cyber Security Advisories - MS-ISAC</title>
+    <link>https://www.cisecurity.org/feed/advisories</link>
+    <description>The latest MS-ISAC cyber security advisories. Feed provided by Center for Internet Security.</description>
+    <language>en</language>
+    <image>
+      <url>https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/uploads/2020/04/cropped-cis-512x512-1-32x32.png?h=32&amp;w=32&amp;rev=023ed3a07d874562a4ebce861c4525f0</url>
+      <title>Cyber Security Advisories - MS-ISAC</title>
+      <link>https://www.cisecurity.org/feed/advisories</link>
+    </image>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-escalation-of-privilege_2022-060</link>
+      <title>Multiple Vulnerabilities in Google Android OS Could Allow for Escalation of Privilege</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in the Google Android operating system (OS), the most severe of which could allow for escalation of privilege. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for escalation of privilege. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 03 May 2022 11:51:29 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-059</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Wed, 27 Apr 2022 10:01:08 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-wso2-products-could-allow-for-remote-code-execution_2022-058</link>
+      <title>A Vulnerability in WSO2 Products Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in specific WSO2 products, which could allow for remote code execution. WSO2 is an open-source technology provider. It offers an enterprise platform for integrating application programming interfaces (API), applications, and web services locally and across the Internet. Successful exploitation of this vulnerability could allow for remote code execution. Depending on the privileges associated with the user, an attacker could then install programs; view; change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 26 Apr 2022 11:19:20 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-april-19-2022_2022-057</link>
+      <title>Oracle Quarterly Critical Patches Issued April 19, 2022</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Oracle products, which could allow for remote code execution.&lt;/p&gt;</description>
+      <pubDate>Wed, 20 Apr 2022 13:47:41 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-apache-struts-could-allow-for-remote-code-execution_2022-056</link>
+      <title>A Vulnerability in Apache Struts Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Apache Struts, which could allow for remote code execution. Apache Struts is an open source framework used for building Java web applications. Successful exploitation of this vulnerability could allow for remote code execution. Depending on the privileges associated with the user, an attacker could then install programs; view; change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/p&gt;</description>
+      <pubDate>Fri, 15 Apr 2022 02:48:47 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-055</link>
+      <title>A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of this vulnerability could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Fri, 15 Apr 2022 01:24:16 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-citrix-sd-wan-contains-hard-coded-credentials_2022-054</link>
+      <title>Multiple Vulnerabilities in Citrix SD-WAN Contains Hard-Coded Credentials</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Citrix SD-WAN. Citrix SD-WAN is a software defined Wide Area Network (WAN) which can allow for easier management of multiple networks. The most severe of these vulnerabilities contains hard-coded credentials. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Apr 2022 07:10:34 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2022-053</link>
+      <title>Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe Acrobat and Reader are used to view, create, print, and manage PDF files&lt;/li&gt;
+&lt;li&gt;Adobe Commerce is an offering that provides companies with a flexible and scalable end-to-end plate form to manage commerce experiences of their customers&lt;/li&gt;
+&lt;li&gt;Adobe Photoshop is a graphics editor.&lt;/li&gt;
+&lt;li&gt;Adobe After Effects is a digital visual effects, motion graphics, and compositing application.&lt;br /&gt;
+Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Tue, 12 Apr 2022 22:53:22 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-linux-kernel-could-allow-for-data-overwrite-in-arbitrary-read-only-files_2022-030</link>
+      <title>A Vulnerability in Linux Kernel Could Allow for Data Overwrite in Arbitrary Read-Only Files</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in the Linux kernel, which could allow for data overwrite in arbitrary read-only files by non-privilege users. Linux is a family of open-source Unix-like operating systems based on the Linux kernel. Successful exploitation of this vulnerability could allow for root privilege escalation.&lt;/p&gt;</description>
+      <pubDate>Tue, 12 Apr 2022 16:36:00 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-april-12-2022_2022-052</link>
+      <title>Critical Patches Issued for Microsoft Products, April 12, 2022</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 12 Apr 2022 14:27:58 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-051</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 12 Apr 2022 04:03:23 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-vmware-products-could-allow-for-remote-code-execution_2022-049</link>
+      <title>Multiple Vulnerabilities in VMware Products  Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in VMware Products, the most severe of which could result in remote code execution.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;VMware Workspace ONE Access is an access control application for Workspace ONE. &lt;/li&gt;
+&lt;li&gt;VMware Identity Manager is the identity and access management component of Workspace ONE.&lt;/li&gt;
+&lt;li&gt;vRealize Automationi is a management platform for automating the delivery of container-based applications.&lt;/li&gt;
+&lt;li&gt;VMware Cloud Foundation is a hybrid cloud platform that provides a set of software-defined services for compute, storage, networking, security and cloud management to run enterprise apps.&lt;/li&gt;
+&lt;li&gt;vRealize Suite Lifecycle Manager allows for complete lifecycle and content management capabilities for vRealize Suite products.&lt;br /&gt;
+Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution within the context of the application, an attacker gaining the same privileges as the logged-on user, or the bypassing of security restrictions. Depending on the permission associated with the application running the exploit, an attacker could then install programs; view, change, or delete data.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 07 Apr 2022 13:16:10 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-fortiwan-could-allow-for-arbitrary-code-execution_2022-050</link>
+      <title>A Vulnerability in FortiWAN Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in FortiWAN which could allow for arbitrary code execution. FortiWAN is a product that balances traffic over multiple WAN connections. Successful exploitation of this vulnerability could allow an unauthenticated attacker to execute arbitrary code using specially crafted requests.&lt;/p&gt;</description>
+      <pubDate>Thu, 07 Apr 2022 09:34:23 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-and-firefox-esr-could-allow-for-remote-code-execution_2022-048</link>
+      <title>Multiple Vulnerabilities in Mozilla Firefox and Firefox ESR Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Mozilla Firefox and Firefox Extended Support Release (ESR), the most severe of which could allow for remote code execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mozilla Firefox is a web browser used to access the Internet. &lt;/li&gt;
+&lt;li&gt;Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations.&lt;br /&gt;
+Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Wed, 06 Apr 2022 11:11:01 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2022-047</link>
+      <title>Multiple Vulnerabilities in Google Android OS Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in the Google Android operating system (OS), the most severe of which could allow for remote code execution. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution within the context of a privileged process. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 05 Apr 2022 09:41:18 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-046</link>
+      <title>A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Google Chrome that could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data.&lt;/p&gt;</description>
+      <pubDate>Tue, 05 Apr 2022 00:35:45 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-trend-micro-apex-central-could-allow-for-arbitrary-file-upload_2022-044</link>
+      <title>A Vulnerability in Trend Micro Apex Central Could Allow for Arbitrary File Upload</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Trend Micro Apex Central which could allow for arbitrary file upload. Trend Micro Apex Central is a web-based console that provides centralized management for Trend Micro products and services at the gateway, mail server, file server, and corporate desktop levels. Successful exploitation of this vulnerability could result in arbitrary file upload which could allow a remote attacker to execute arbitrary code. Depending on the privileges associated with the application, an attacker could install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;</description>
+      <pubDate>Mon, 04 Apr 2022 10:16:32 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-zyxel-firewall-could-allow-for-authentication-bypass_2022-043</link>
+      <title>A Vulnerability in Zyxel Firewall Could Allow for Authentication Bypass</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in versions of Zyxel Firewall’s CGI program which could allow for authentication bypass. Zyxel Firewall is a next generation firewall product which enables users to manage, detect and respond to threats on the network. Successful exploitation of this vulnerability could allow an attacker to bypass authentication and obtain administrative access to the device. Malicious actors with administrative access may be able to view, change, or delete sensitive data.&lt;/p&gt;</description>
+      <pubDate>Mon, 04 Apr 2022 10:12:56 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-vulnerability-in-apple-products-could-allow-for-local-code-execution_2022-045</link>
+      <title>Multiple Vulnerabilities Vulnerability in Apple Products Could Allow for Local Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for local code execution. Successful exploitation of the most severe vulnerability could allow an attacker to execute code in the context of the kernel. Malicious actors with administrative access may be able to install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;</description>
+      <pubDate>Sat, 02 Apr 2022 12:19:27 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-042</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Wed, 30 Mar 2022 06:35:50 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-sophos-firewall-could-allow-for-arbitrary-remote-code-execution_2022-041</link>
+      <title>A Vulnerability in Sophos Firewall Could Allow for Arbitrary Remote Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Sophos Firewall’s user portal and Webadmin that could allow for arbitrary remote code execution. Sophos Firewall is a next generation firewall product which enables users to manage, detect and respond to threats on the network. Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code in the context of the web application. Depending on the privileges associated with the application, an attacker could view, change, or delete data.&lt;/p&gt;</description>
+      <pubDate>Tue, 29 Mar 2022 01:21:31 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-040</link>
+      <title>A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Google Chrome that could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data.&lt;/p&gt;</description>
+      <pubDate>Mon, 28 Mar 2022 10:00:21 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-038</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Wed, 16 Mar 2022 06:54:53 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2022-037</link>
+      <title>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Apple Products, the most severe of which could allow for arbitrary code execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GarageBand is an audio tool&lt;/li&gt;
+&lt;li&gt;iOS is a mobile operating system for mobile devices, including the iPhone, iPad, and iPod touch.&lt;/li&gt;
+&lt;li&gt;iPadOS is the successor to iOS 12 and is a mobile operating system for iPads.&lt;/li&gt;
+&lt;li&gt;Logic Pro X is a digital audio workstation&lt;/li&gt;
+&lt;li&gt;macOS Monterey is the 18th and current major release of macOS.&lt;/li&gt;
+&lt;li&gt;macOS Big Sur is the 17th release of macOS.&lt;/li&gt;
+&lt;li&gt;macOS Catalina is the 16th major release of macOS&lt;/li&gt;
+&lt;li&gt;watchOS is the mobile operating system for Apple Watch and is based on the iOS operating system.&lt;/li&gt;
+&lt;li&gt;tvOS is an operating system for fourth-generation Apple TV digital media player.&lt;/li&gt;
+&lt;li&gt;Xcode is Apple’s integrated development environment for macOS&lt;br /&gt;
+Successful exploitation of the most severe of these vulnerabilities could result in arbitrary code execution within the context of the application, an attacker gaining the same privileges as the logged-on user, or the bypassing of security restrictions. Depending on the permission associated with the application running the exploit, an attacker could then install programs; view, change, or delete data.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Tue, 15 Mar 2022 09:21:54 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-veeam-backup-replication-could-allow-for-remote-code-execution_2022-036</link>
+      <title>Multiple Vulnerabilities in Veeam Backup &amp; Replication Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Veeam Backup &amp; Replication that could allow for remote code execution. Veeam Backup &amp; Replication is a backup solutions for virtual environments. Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution within the context of the application. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;</description>
+      <pubDate>Mon, 14 Mar 2022 21:40:15 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-schneider-electric-apc-smart-ups-could-allow-for-remote-code-execution_2022-035</link>
+      <title>Multiple Vulnerabilities in Schneider Electric APC Smart-UPS Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Schneider Electric APC Smart-UPS that could allow for remote code execution. Schneider Electric APC Smart-UPS are devices that protect equipment and provide emergency backup power for mission-critical assets. Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution within the context of the application. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.&lt;/p&gt;</description>
+      <pubDate>Mon, 14 Mar 2022 14:52:06 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-ptc-axeda-agent-and-axeda-desktop-server-could-allow-for-remote-code-execution_2022-034</link>
+      <title>Multiple Vulnerabilities in PTC Axeda Agent and Axeda Desktop Server Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in PTC Axeda Agent and Axeda Desktop Server, the most severe of which could allow for remote code execution. PTC Axeda is a cloud based remote access solution commonly used for devices within the healthcare industry. Successful exploitation of these vulnerabilities could result in full system access, remote code execution, read/change configuration, file system read access, log information access, and a denial-of-service condition.&lt;/p&gt;</description>
+      <pubDate>Wed, 09 Mar 2022 11:26:30 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2022-033</link>
+      <title>Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for Arbitrary Code Execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Illustrator is a vector graphics editor and design program.&lt;/li&gt;
+&lt;li&gt;Photoshop is a graphics editor.&lt;/li&gt;
+&lt;li&gt;Adobe After Effects is a digital visual effects, motion graphics, and compositing application.&lt;br /&gt;
+Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Wed, 09 Mar 2022 10:58:02 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-and-could-allow-for-remote-code-execution_2022-029</link>
+      <title>Multiple Vulnerabilities in Mozilla Firefox and Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Mozilla Firefox and Firefox Extended Support Release (ESR), the most severe of which could allow for remote code execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mozilla Firefox is a web browser used to access the Internet. &lt;/li&gt;
+&lt;li&gt;Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations.&lt;br /&gt;
+Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Mon, 07 Mar 2022 11:46:00 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-028</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Wed, 02 Mar 2022 02:33:39 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-mitel-micollab-and-mivoice-business-express-could-allow-for-unauthorized-disclosure-of-data_2022-027</link>
+      <title>A Vulnerability in Mitel MiCollab and MiVoice Business Express Could Allow for Unauthorized Disclosure of Data</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Mitel MiCollab and MiVoice Business Express, which could allow for the unauthorized disclosure of data as well as result in denial of service. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mitel MiCollab is an enterprise collaboration software and tools platform solution that securely provides communications.&lt;/li&gt;
+&lt;li&gt;MiVoice Business Express provides a complete communications solution for small to mid-range businesses.&lt;br /&gt;
+Successful exploitation of this vulnerability could allow for unauthorized disclosure of data as well as result in denial of service. Depending on the goal of the attacker they could view sensitive information that should not be accessible, or create denial of service conditions within impacted the system.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Wed, 02 Mar 2022 02:21:15 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-commerce-and-magento-could-allow-for-remote-code-execution_2022-026</link>
+      <title>Multiple Vulnerabilities in Adobe Commerce and Magento Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Adobe Commerce and Magento Open Source, the most severe of which could allow for remote code execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adobe Commerce is a leading provider of cloud commerce innovation to merchants and brands across B2C and B2B industries.&lt;/li&gt;
+&lt;li&gt;Magento is a web-based e-commerce application written in PHP.&lt;br /&gt;
+Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Fri, 18 Feb 2022 14:59:16 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-024</link>
+      <title>A Vulnerability in Apple Products Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Apple Products, which could allow for arbitrary code execution if a user views a specially crafted web page. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iOS is a mobile operating system for mobile devices, including the iPhone, iPad, and iPod touch.&lt;/li&gt;
+&lt;li&gt;iPadOS is the successor to iOS 12 and is a mobile operating system for iPads.&lt;/li&gt;
+&lt;li&gt;macOS Monterey is the 18th and current major release of macOS.&lt;/li&gt;
+&lt;li&gt;Safari is a graphical web browser developed by Apple.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Successful exploitation of this vulnerability could result in arbitrary code execution within the context of the application, an attacker gaining the same privileges as the logged-on user, or the bypassing of security restrictions. Depending on the permission associated with the application running the exploit, an attacker could then install programs; view, change, or delete data.&lt;/p&gt;</description>
+      <pubDate>Tue, 15 Feb 2022 09:22:32 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-025</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights&lt;/p&gt;</description>
+      <pubDate>Tue, 15 Feb 2022 05:20:42 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-sap-products-could-allow-for-remote-code-execution_2022-023</link>
+      <title>Multiple Vulnerabilities in SAP Products Could Allow for Remote Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in SAP products, the most severe of which (CVE-2022-22536) could allow for remote code execution. SAP is a software company which creates software to manage business operations and customer relations. Successful exploitation of the most severe of these vulnerabilities could allow an unauthenticated, remote attacker to execute code on the affected systems. Depending on the privileges associated with the application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Applications configured to have fewer restrictions on the system could be less impacted than those who operate with elevated privileges.&lt;/p&gt;</description>
+      <pubDate>Wed, 09 Feb 2022 23:13:44 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-firefox-and-could-allow-for-arbitrary-code-execution_2022-020</link>
+      <title>Multiple Vulnerabilities in Mozilla Firefox and Firefox Extended Support Release (ESR) Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Mozilla Firefox and Firefox Extended Support Release (ESR), the most severe of which could allow for arbitrary code execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mozilla Firefox is a web browser used to access the Internet. &lt;/li&gt;
+&lt;li&gt;Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/p&gt;</description>
+      <pubDate>Wed, 09 Feb 2022 08:01:37 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2022-022</link>
+      <title>Multiple Vulnerabilities in Adobe Products could allow for Arbitrary Code Execution.</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for Arbitrary Code Execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Premiere Rush is a video editor.&lt;/li&gt;
+&lt;li&gt;Illustrator is a vector graphics editor and design program.&lt;/li&gt;
+&lt;li&gt;Photoshop is a graphics editor.&lt;/li&gt;
+&lt;li&gt;Adobe After Effects is a digital visual effects, motion graphics, and compositing application.&lt;/li&gt;
+&lt;li&gt;Creative Cloud is a cloud service provided by Adobe where its software can be accessed all in one place.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Feb 2022 20:23:52 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-february-08-2022_2022-021</link>
+      <title>Critical Patches Issued for Microsoft Products, February 08, 2022</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Feb 2022 14:53:51 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-escalation-of-privilege_2022-019</link>
+      <title>Multiple Vulnerabilities in Google Android OS Could Allow for Escalation of Privilege</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in the Google Android operating system (OS), the most severe of which could allow for escalation of privilege. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for escalation of privilege. Depending on the privileges associated with this application, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 08 Feb 2022 04:15:09 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-products-could-allow-for-arbitrary-code-execution_2022-018</link>
+      <title>Multiple Vulnerabilities in Cisco Products Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Cisco Products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow an unauthenticated, remote attacker to execute code on the affected systems. Depending on the privileges associated with the targeted user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users configured to have fewer privileges on the system could be less impacted than those who operate with elevated privileges.&lt;/p&gt;</description>
+      <pubDate>Thu, 03 Feb 2022 08:56:16 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-017</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Tue, 01 Feb 2022 23:45:09 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-samba-could-allow-for-arbitrary-code-execution_2022-016</link>
+      <title>A Vulnerability in Samba Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Samba which could allow for arbitrary code execution. Samba is the standard Windows interoperability suite of programs for Linux and Unix. Successful exploitation of this vulnerability could result in arbitrary code execution as root on affected Samba installations that use the VFS module vfs_fruit. Depending on the permission associated with the application running the exploit, an attacker could then install programs; view, change, or delete data.&lt;/p&gt;</description>
+      <pubDate>Tue, 01 Feb 2022 14:46:10 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2022-015</link>
+      <title>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution.</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Apple Products, the most severe of which could allow for arbitrary code execution. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;iOS is a mobile operating system for mobile devices, including the iPhone, iPad, and iPod touch.&lt;/li&gt;
+&lt;li&gt;iPadOS is the successor to iOS 12 and is a mobile operating system for iPads.&lt;/li&gt;
+&lt;li&gt;macOS Monterey is the 18th and current major release of macOS.&lt;/li&gt;
+&lt;li&gt;macOS Big Sur is the 17th release of macOS.&lt;/li&gt;
+&lt;li&gt;macOS Catalina is the 16th major release of macOS&lt;/li&gt;
+&lt;li&gt;watchOS is the mobile operating system for Apple Watch and is based on the iOS operating system.&lt;/li&gt;
+&lt;li&gt;tvOS is an operating system for fourth-generation Apple TV digital media player.&lt;/li&gt;
+&lt;li&gt;Safari is a graphical web browser developed by Apple.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Thu, 27 Jan 2022 10:08:36 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-polkits-pkexec-component-could-allow-for-local-privilege-escalation_2022-014</link>
+      <title>A Vulnerability in Polkit's pkexec Component Could Allow For Local Privilege Escalation</title>
+      <description>&lt;p&gt;A vulnerability in Polkit's pkexec component could allow for local privilege escalation. Polkit (formerly PolicyKit) is a component for controlling system-wide privileges in Unix-like operating systems. It provides an organized way for non-privileged processes to communicate with privileged ones. Polkit is installed by default on all major Linux distributions. Successful exploitation of this vulnerability could result in privilege escalation to root privileges.&lt;/p&gt;</description>
+      <pubDate>Wed, 26 Jan 2022 02:33:13 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-f5networks-big-ip-could-allow-for-denial-of-service_2022-013</link>
+      <title>A Vulnerability in F5Networks BIG-IP Could Allow for Denial of Service</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in F5Networks BIG-IP, which could result in a denial-of-service (DoS). BIG-IP is a family of products covering software and hardware designed around application availability, access control, and security solutions. Successful exploitation of this vulnerability could allow an attacker to cause a denial of service to all servers sitting behind the BIG-IP system.&lt;/p&gt;</description>
+      <pubDate>Tue, 25 Jan 2022 13:13:50 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-backdoor-in-wordpress-accesspress-plugins-and-themes-could-allow-an-attacker-access-to-a-targeted-website_2022-012</link>
+      <title>A Backdoor in WordPress AccessPress Plugins and Themes Could Allow an Attacker Access to a Targeted Website</title>
+      <description>&lt;p&gt;A backdoor has been discovered in WordPress AccessPress plugins and themes, which could allow an attacker access to a targeted website. AccessPress plugins and themes are used to provide website functionality and design options to website administrators. Successful exploitation of this backdoor could allow an attacker to redirect users to malicious sites as well as access to the vulnerable website.&lt;/p&gt;</description>
+      <pubDate>Fri, 21 Jan 2022 20:50:07 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-products-could-allow-for-arbitrary-code-execution_2022-011</link>
+      <title>Multiple Vulnerabilities in Cisco Products Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Cisco Products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow an unauthenticated, remote attacker to execute code on the affected systems. Depending on the privileges associated with the targeted user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users configured to have fewer privileges on the system could be less impacted than those who operate with elevated privileges.&lt;/p&gt;</description>
+      <pubDate>Fri, 21 Jan 2022 12:04:25 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2022-010</link>
+      <title>Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the Internet. Successful exploitation of the most severe of these vulnerabilities could allow an attacker to execute arbitrary code in the context of the browser. Depending on the privileges associated with the application, an attacker could view, change, or delete data. If this application has been configured to have fewer user rights on the system, exploitation of the most severe of these vulnerabilities could have less impact than if it was configured with administrative rights.&lt;/p&gt;</description>
+      <pubDate>Wed, 19 Jan 2022 23:22:15 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/a-vulnerability-in-zoho-desktop-central-and-desktop-central-msp-could-allow-for-authentication-bypass_2022-008</link>
+      <title>A Vulnerability in Zoho Desktop Central and Desktop Central MSP Could Allow for Authentication Bypass</title>
+      <description>&lt;p&gt;A vulnerability has been discovered in Zoho Desktop Central and Desktop Central MSP that could allow for authentication bypass. Zoho Desktop Central and Desktop Central MSP are unified endpoint management (UEM) solution that helps in managing servers, laptops, desktops, smartphones, and tablets from a central location. It allows admins to deploy patches and software over the network and troubleshoot them remotely. Successful exploitation of this vulnerability could allow for a remote user to perform unauthorized actions on a server including access to unauthorized data or the ability the write an arbitrary zip file.&lt;/p&gt;</description>
+      <pubDate>Tue, 18 Jan 2022 23:34:06 Z</pubDate>
+    </item>
+    <item>
+      <link>https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-january-18-2022_2022-009</link>
+      <title>Oracle Quarterly Critical Patches Issued January 18, 2022</title>
+      <description>&lt;p&gt;Multiple vulnerabilities have been discovered in Oracle products, which could allow for remote code execution&lt;/p&gt;</description>
+      <pubDate>Tue, 18 Jan 2022 22:10:10 Z</pubDate>
+    </item>
+  </channel>
+</rss>

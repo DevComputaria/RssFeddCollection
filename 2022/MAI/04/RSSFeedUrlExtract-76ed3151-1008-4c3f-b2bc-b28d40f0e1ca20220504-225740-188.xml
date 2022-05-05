@@ -1,0 +1,1336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <title>Security – WordPress News</title>
+    <atom:link href="https://wordpress.org/news/category/security/feed/" rel="self" type="application/rss+xml" />
+    <link>https://wordpress.org/news</link>
+    <description>The latest news about WordPress and the WordPress community</description>
+    <lastBuildDate>Mon, 28 Mar 2022 21:12:23 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=6.1-alpha-53349</generator>
+    <image>
+      <url>https://s.w.org/favicon.ico?2</url>
+      <title>Security – WordPress News</title>
+      <link>https://wordpress.org/news</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <site xmlns="com-wordpress:feed-additions:1">14607090</site>
+    <item>
+      <title>WordPress 5.9.2 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2022/03/wordpress-5-9-2-security-maintenance-release/</link>
+      <dc:creator><![CDATA[Jb Audras]]></dc:creator>
+      <pubDate>Fri, 11 Mar 2022 02:24:13 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[5.9]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=12421</guid>
+      <description><![CDATA[WordPress 5.9.2&#160;is now available! This security and maintenance release features 1 bug fix in addition to 3 security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated. WordPress 5.9.2 is a security and maintenance release. The next major release [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p><strong>WordPress 5.9.2&nbsp;</strong>is now available!</p>
+
+
+
+<p>This security and maintenance release features <a href="https://core.trac.wordpress.org/ticket/54578">1 bug fix</a> in addition to 3 security fixes. Because this is a <strong>security release</strong>, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated.</p>
+
+
+
+<p>WordPress 5.9.2 is a security and maintenance release. The next major release will be version&nbsp;<a href="https://make.wordpress.org/core/6-0/">6.0</a>.</p>
+
+
+
+<p>You can&nbsp;<a href="https://wordpress.org/wordpress-5.9.2.zip">download WordPress 5.9.2 from WordPress.org</a>, or visit your Dashboard&nbsp;→ Updates and click “Update Now”.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<p>The security team would like to thank the following people for responsively reporting vulnerabilities, allowing them to be fixed in this release:</p>
+
+
+
+<ul><li>Melar Dev, for finding a Prototype Pollution Vulnerability in a jQuery dependency</li><li>Ben Bidner&nbsp;of the WordPress security team, for finding a Stored Cross Site Scripting Vulnerability</li><li>Researchers from <em>Johns Hopkins University, </em>for finding a Prototype Pollution Vulnerability in the block editor</li></ul>
+
+
+
+<p>For more information, browse the&nbsp;<a href="https://core.trac.wordpress.org/query?milestone=5.9.2&amp;group=component&amp;col=id&amp;col=summary&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;col=milestone&amp;order=priority">full list of changes</a>&nbsp;on Trac, or check out the&nbsp;<a href="https://wordpress.org/support/wordpress-version/version-5-9-2/">version 5.9.2 HelpHub documentation page</a>.</p>
+
+
+
+<h2 id="thanks-and-props">Thanks and props!</h2>
+
+
+
+<p>The 5.9.2 release was led by <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, with the help of <a href="https://profiles.wordpress.org/jorgefilipecosta/">Jorge Costa</a> on package updates, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a> on mission control, and <a href="https://profiles.wordpress.org/davidbaumwald/">David Baumwald</a> on backport commits.</p>
+
+
+
+<p>In addition to the release squad members and security researchers mentioned above, thank you to everyone who helped make WordPress 5.9.2 happen:</p>
+
+
+
+<p class="is-style-wporg-props-short alignfull"><a href="https://profiles.wordpress.org/alanjacobmathew/">Alan Jacob Mathew</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/oandregal/">André</a>, <a href="https://profiles.wordpress.org/antonvlasenko/">Anton Vlasenko</a>, <a href="https://profiles.wordpress.org/davidbaumwald/">David Baumwald</a>, <a href="https://profiles.wordpress.org/ehtis/">ehtis</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Jorge Costa</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/hellofromTonya/">Tonya Mork</a>, and <a href="https://profiles.wordpress.org/ironprogrammer/">ironprogrammer</a>.</p>
+
+
+
+<p class="has-text-align-right has-small-font-size"><em>Props <a href='https://profiles.wordpress.org/davidbaumwald/' class='mention'><span class='mentions-prefix'>@</span>davidbaumwald</a> and <a href='https://profiles.wordpress.org/sergeybiryukov/' class='mention'><span class='mentions-prefix'>@</span>sergeybiryukov</a> for peer review.</em></p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">12421</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.8.3 Security Release</title>
+      <link>https://wordpress.org/news/2022/01/wordpress-5-8-3-security-release/</link>
+      <dc:creator><![CDATA[Jonathan Desrosiers]]></dc:creator>
+      <pubDate>Thu, 06 Jan 2022 21:02:03 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=11999</guid>
+      <description><![CDATA[This security release features four security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated. WordPress 5.8.3 is a short-cycle security release. The next major release will be version 5.9, which is already in the Release Candidate stage. You [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>This security release features four security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated.</p>
+
+
+
+<p>WordPress 5.8.3 is a short-cycle security release. The next major release will be version <a href="https://make.wordpress.org/core/5-9/">5.9</a>, which is already in the Release Candidate stage.</p>
+
+
+
+<p>You can update to WordPress 5.8.3 by downloading from WordPress.org or visiting your Dashboard → Updates and clicking Update Now.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<h3 id="security-updates">Security Updates</h3>
+
+
+
+<p>Four security issues affect WordPress versions between 3.7 and 5.8. If you haven’t yet updated to 5.8, all WordPress versions since 3.7 have also been updated to fix the following security issue (except where noted otherwise):</p>
+
+
+
+<ul><li>Props to Karim El Ouerghemmi and Simon Scannell of <a href="https://www.sonarsource.com/">SonarSource</a> for disclosing an issue with stored XSS through post slugs.</li><li>Props to Simon Scannell of <a href="https://www.sonarsource.com/">SonarSource</a> for reporting an issue with Object injection in some multisite installations.</li><li>Props to ngocnb and khuyenn from <a href="https://giaohangtietkiem.vn/">GiaoHangTietKiem JSC</a> for working with <a href="https://www.zerodayinitiative.com/">Trend Micro Zero Day Initiative</a> on reporting a SQL injection vulnerability in WP_Query.</li><li>Props to Ben Bidner from the WordPress security team for reporting a SQL injection vulnerability in WP_Meta_Query (only relevant to versions 4.1-5.8). </li></ul>
+
+
+
+<p>Thank you to all of the reporters above for <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing the vulnerabilities</a>. This gave the security team time to fix the vulnerabilities before WordPress sites could be attacked. Thank you to the members of the WordPress security team for implementing these fixes in WordPress.</p>
+
+
+
+<p>For more information, check out the <a href="https://wordpress.org/support/wordpress-version/version-5-8-3/">5.8.3 HelpHub documentation page</a>.</p>
+
+
+
+<h3 id="thanks-and-props">Thanks and props!</h3>
+
+
+
+<p>The 5.8.3 release was led by <a href='https://profiles.wordpress.org/desrosj/' class='mention'><span class='mentions-prefix'>@</span>desrosj</a> and <a href='https://profiles.wordpress.org/circlecube/' class='mention'><span class='mentions-prefix'>@</span>circlecube</a>.</p>
+
+
+
+<p>In addition to the security researchers and release squad members mentioned above, thank you to everyone who helped make WordPress 5.8.3 happen:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/ehtis/">ehtis</a>, <a href="https://profiles.wordpress.org/circlecube/">Evan Mullins</a>, <a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/vortfu/">vortfu</a>, and <a href="https://profiles.wordpress.org/zieladam/">zieladam</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">11999</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.8.2 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2021/11/wordpress-5-8-2-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Jonathan Desrosiers]]></dc:creator>
+      <pubDate>Wed, 10 Nov 2021 18:20:45 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=11546</guid>
+      <description><![CDATA[WordPress 5.8.2&#160;is now available! This security and maintenance release features 2 bug fixes in addition to 1 security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 5.2 have also been updated. WordPress 5.8.2 is a small focus security and maintenance release. The next [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p><strong>WordPress 5.8.2&nbsp;</strong>is now available!</p>
+
+
+
+<p>This security and maintenance release features <a href="https://core.trac.wordpress.org/query?id=54129%2C54323%2C54207&amp;milestone=5.8.2&amp;group=component&amp;col=id&amp;col=summary&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;col=milestone&amp;order=priority">2 bug</a> fixes in addition to <a href="https://core.trac.wordpress.org/ticket/54207">1 security</a> fix. Because this is a <strong>security release</strong>, it is recommended that you update your sites immediately. All versions since WordPress 5.2 have also been updated.</p>
+
+
+
+<p>WordPress 5.8.2 is a small focus security and maintenance release. The next major release will be version&nbsp;<a href="https://make.wordpress.org/core/5-9/">5.9</a>.</p>
+
+
+
+<p>You can download WordPress 5.8.2 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now. If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<p>For more information, browse the&nbsp;<a href="https://core.trac.wordpress.org/query?id=54129%2C54323%2C54207&amp;milestone=5.8.2&amp;group=component&amp;col=id&amp;col=summary&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;col=milestone&amp;order=priority">full list of changes</a>&nbsp;on Trac, or check out the&nbsp;<a href="https://wordpress.org/support/wordpress-version/version-5-8-2/">version 5.8.2 HelpHub documentation page</a>.</p>
+
+
+
+<h2 id="thanks-and-props">Thanks and props!</h2>
+
+
+
+<p>The 5.8.2 release was led by&nbsp;<a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>&nbsp;and&nbsp;<a href="https://profiles.wordpress.org/circlecube/">Evan Mullins</a>.</p>
+
+
+
+<p>In addition to the release squad members mentioned above, thank you to everyone who helped make WordPress 5.8.2 happen:</p>
+
+
+
+<div class="wp-container-1 wp-block-group">
+<a href="https://profiles.wordpress.org/aristath/">Ari Stathopoulos</a>, <a href="https://profiles.wordpress.org/bradleyt/">Bradley Taylor</a>, <a href="https://profiles.wordpress.org/davidwebca/">davidwebca</a>, <a href="https://profiles.wordpress.org/circlecube/">Evan Mullins</a>, <a href="https://profiles.wordpress.org/gziolo/">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/jrf/">Juliette Reinders Folmer</a>, <a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/shimon246/">shimon246</a>, and <a href="https://profiles.wordpress.org/fierevere/">Yui</a>.
+</div>
+
+
+
+<p class="has-text-align-right has-small-font-size"><em>Props </em><a href='https://profiles.wordpress.org/circlecube/' class='mention'><span class='mentions-prefix'>@</span>circlecube</a><em>&nbsp;and&nbsp;</em><a href='https://profiles.wordpress.org/pbiron/' class='mention'><span class='mentions-prefix'>@</span>pbiron</a> <em>for peer review.</em></p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">11546</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.8.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2021/09/wordpress-5-8-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Jonathan Desrosiers]]></dc:creator>
+      <pubDate>Thu, 09 Sep 2021 03:11:37 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=11190</guid>
+      <description><![CDATA[WordPress 5.8.1 is now available! This security and maintenance release features 60 bug fixes in addition to 3 security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 5.4 have also been updated. WordPress 5.8.1 is a short-cycle security and maintenance release. The next [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.8.1 is now available!</p>
+
+
+
+<p>This security and maintenance release features <a href="https://core.trac.wordpress.org/query?milestone=5.8.1&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priority">60 bug</a> <a href="https://github.com/WordPress/gutenberg/pull/34393">fixes</a> in addition to 3 security fixes. Because this is a <strong>security release</strong>, it is recommended that you update your sites immediately. All versions since WordPress 5.4 have also been updated.</p>
+
+
+
+<p>WordPress 5.8.1 is a short-cycle security and maintenance release. The next major release will be version <a href="https://make.wordpress.org/core/5-9/">5.9</a>.</p>
+
+
+
+<p>You can download WordPress 5.8.1 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<h3><strong>Security Updates</strong></h3>
+
+
+
+<p>3 security issues affect WordPress versions between 5.4 and 5.8. If you haven’t yet updated to 5.8, all WordPress versions since 5.4 have also been updated to fix the following security issues:</p>
+
+
+
+<ul><li>Props <a href='https://profiles.wordpress.org/mdawaffe/' class='mention'><span class='mentions-prefix'>@</span>mdawaffe</a>, member of the WordPress Security Team for their work fixing a data exposure vulnerability within the REST API.</li><li>Props to Michał Bentkowski of Securitum for reporting a XSS vulnerability in the block editor.</li><li>The Lodash library has been updated to version 4.17.21 in each branch to incorporate upstream security fixes.</li></ul>
+
+
+
+<p>In addition to these issues, the security team would like to thank the following people for reporting vulnerabilities during the WordPress 5.8 beta testing period, allowing them to be fixed prior to release:</p>
+
+
+
+<ul><li>Props <a rel="noreferrer noopener" target="_blank" href="https://evanricafort.com/">Evan Ricafort</a>&nbsp;for reporting a XSS vulnerability in the block editor discovered during the 5.8 release’s beta period.</li><li>Props <a rel="noreferrer noopener" target="_blank" href="https://profiles.wordpress.org/stevehenty/">Steve Henty</a>&nbsp;for reporting a privilege escalation issue in the block editor.</li></ul>
+
+
+
+<p>Thank you to all of the reporters for <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing the vulnerabilities</a>. This gave the WordPress security team time to fix the vulnerabilities before WordPress sites could be attacked.</p>
+
+
+
+<p>For more information, browse the <a href="https://core.trac.wordpress.org/query?milestone=5.8.1&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priority">full list of changes</a> on Trac, or check out the <a href="https://wordpress.org/support/wordpress-version/version-5-8-1/">version 5.8.1 HelpHub documentation page</a>.</p>
+
+
+
+<h2>Thanks and props!</h2>
+
+
+
+<p>The 5.8.1 release was led by <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a> and <a href="https://profiles.wordpress.org/circlecube/">Evan Mullins</a>.</p>
+
+
+
+<p>In addition to the security researchers and release squad members mentioned above, thank you to everyone who helped make WordPress 5.8.1 happen:</p>
+
+
+
+<div class="wp-container-2 wp-block-group">
+<a href="https://profiles.wordpress.org/2linctools/">2linctools</a>, <a href="https://profiles.wordpress.org/zieladam/">Adam Zielinski</a>, <a href="https://profiles.wordpress.org/schlessera/">Alain Schlesser</a>, <a href="https://profiles.wordpress.org/ajlende/">Alex Lende</a>, <a href="https://profiles.wordpress.org/alexstine/">alexstine</a>, <a href="https://profiles.wordpress.org/algala/">AlGala</a>, <a href="https://profiles.wordpress.org/oandregal/">André</a>, <a href="https://profiles.wordpress.org/andraganescu/">Andrei Draganescu</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/ankitmaru/">Ankit Panchal</a>, <a href="https://profiles.wordpress.org/antpb/">Anthony Burchell</a>, <a href="https://profiles.wordpress.org/antonvlasenko/">Anton Vlasenko</a>, <a href="https://profiles.wordpress.org/aristath/">Ari Stathopoulos</a>, <a href="https://profiles.wordpress.org/ribaricplusplus/">Bruno Ribaric</a>, <a href="https://profiles.wordpress.org/poena/">Carolina Nymark</a>, <a href="https://profiles.wordpress.org/daisyo/">Daisy Olsen</a>, <a href="https://profiles.wordpress.org/talldanwp/">Daniel Richards</a>, <a href="https://profiles.wordpress.org/dariak/">Daria</a>, <a href="https://profiles.wordpress.org/davidanderson/">David Anderson</a>, <a href="https://profiles.wordpress.org/davidbinda/">David Biňovec</a>, <a href="https://profiles.wordpress.org/dlh/">David Herrera</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/ellatrix/">Ella van&nbsp;Durpe</a>, <a href="https://profiles.wordpress.org/enchiridion/">Enchiridion</a>, <a href="https://profiles.wordpress.org/circlecube/">Evan Mullins</a>, <a href="https://profiles.wordpress.org/garyj/">Gary Jones</a>, <a href="https://profiles.wordpress.org/mamaduka/">George Mamadashvili</a>, <a href="https://profiles.wordpress.org/gziolo/">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/priethor/">Héctor Prieto</a>, <a href="https://profiles.wordpress.org/ianmjones/">ianmjones</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/jblz/">Jeff Bowen</a>, <a href="https://profiles.wordpress.org/joedolson/">Joe Dolson</a>, <a href="https://profiles.wordpress.org/joen/">Joen A.</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/juanmaguitar/">JuanMa Garrido</a>, <a href="https://profiles.wordpress.org/jrf/">Juliette Reinders Folmer</a>, <a href="https://profiles.wordpress.org/kevin940726/">Kai Hao</a>, <a href="https://profiles.wordpress.org/kapilpaul/">Kapil Paul</a>, <a href="https://profiles.wordpress.org/gwwar/">Kerry Liu</a>, <a href="https://profiles.wordpress.org/kevinfodness/">Kevin Fodness</a>, <a href="https://profiles.wordpress.org/mkaz/">Marcus Kazmierczak</a>, <a href="https://profiles.wordpress.org/mark-k/">Mark-k</a>, <a href="https://profiles.wordpress.org/mhuntdesign/">Matt</a>, <a href="https://profiles.wordpress.org/mdawaffe/">Michael Adams (mdawaffe)</a>, <a href="https://profiles.wordpress.org/mikeschroder/">Mike Schroder</a>, <a href="https://profiles.wordpress.org/moch11/">moch11</a>, <a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/ntsekouras/">Nik Tsekouras</a>, <a href="https://profiles.wordpress.org/paaljoachim/">Paal Joachim Romdahl</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/pbearne/">Paul Bearne</a>, <a href="https://profiles.wordpress.org/pbiron/">Paul Biron</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/walbo/">Petter Walbø Johnsgård</a>, <a href="https://profiles.wordpress.org/radixweb/">Radixweb</a>, <a href="https://profiles.wordpress.org/rtm909/">Rahul Mehta</a>, <a href="https://profiles.wordpress.org/ramonopoly/">ramonopoly</a>, <a href="https://profiles.wordpress.org/ravipatel/">ravipatel</a>, <a href="https://profiles.wordpress.org/youknowriad/">Riad Benguella</a>, <a href="https://profiles.wordpress.org/noisysocks/">Robert Anderson</a>, <a href="https://profiles.wordpress.org/kreppar/">Rodrigo Arias</a>, <a href="https://profiles.wordpress.org/sanketchodavadiya/">Sanket Chodavadiya</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/sabernhardt/">Stephen Bernhardt</a>, <a href="https://profiles.wordpress.org/netweb/">Stephen Edgar</a>, <a href="https://profiles.wordpress.org/stevehenty/">Steve Henty</a>, <a href="https://profiles.wordpress.org/terraling/">terraling</a>, <a href="https://profiles.wordpress.org/timothyblynjacobs/">Timothy Jacobs</a>, <a href="https://profiles.wordpress.org/tmatsuur/">tmatsuur</a>, <a href="https://profiles.wordpress.org/tobiasbg/">TobiasBg</a>, <a href="https://profiles.wordpress.org/hellofromTonya/">Tonya Mork</a>, <a href="https://profiles.wordpress.org/toro_unit/">Toro_Unit (Hiroshi Urabe)</a>, <a href="https://profiles.wordpress.org/vladytimy/">Vlad T</a>, <a href="https://profiles.wordpress.org/wb1234/">wb1234</a>, and <a href="https://profiles.wordpress.org/wfmattr/">WFMattR</a>.
+</div>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">11190</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.7.2 Security Release</title>
+      <link>https://wordpress.org/news/2021/05/wordpress-5-7-2-security-release/</link>
+      <dc:creator><![CDATA[Peter Wilson]]></dc:creator>
+      <pubDate>Thu, 13 May 2021 01:04:30 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=10334</guid>
+      <description><![CDATA[WordPress 5.7.2 is now available. This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated. WordPress 5.7.2 is a short-cycle security release. The next major release will be version 5.8. You can update to [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.7.2 is now available.</p>
+
+
+
+<p>This security release features one security fix. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated.</p>
+
+
+
+<p>WordPress 5.7.2 is a short-cycle security release. The next major release will be version 5.8.</p>
+
+
+
+<p>You can update to WordPress 5.7.2 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<h3>Security Updates</h3>
+
+
+
+<p>One security issue affecting WordPress versions between 3.7 and 5.7. If you haven’t yet updated to 5.7, all WordPress versions since 3.7 have also been updated to fix the following security issue:</p>
+
+
+
+<ul><li>Object injection in PHPMailer, <a href="https://nvd.nist.gov/vuln/detail/CVE-2020-36326">CVE-2020-36326</a> and <a href="https://nvd.nist.gov/vuln/detail/CVE-2018-19296">CVE-2018-19296</a>.</li></ul>
+
+
+
+<p>Thank you to the members of the WordPress security team for implementing these fixes in WordPress.</p>
+
+
+
+<p>For more information refer to <a href="https://wordpress.org/support/wordpress-version/version-5-7-2/">the version 5.7.2 HelpHub documentation</a> page.</p>
+
+
+
+<h3>Thanks and props!</h3>
+
+
+
+<p>The 5.7.2 release was led by <a href="https://profiles.wordpress.org/peterwilsoncc/">@peterwilsoncc</a> and <a href="https://profiles.wordpress.org/audrasjb/">@audrasjb</a>.</p>
+
+
+
+<p>Thank you to everyone who helped make WordPress 5.7.2 happen: <a href="https://profiles.wordpress.org/audrasjb/">@audrasjb</a>, <a href="https://profiles.wordpress.org/ayeshrajans/">@ayeshrajans</a>, <a href="https://profiles.wordpress.org/desrosj/">@desrosj</a>, <a href="https://profiles.wordpress.org/dd32/">@dd32</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">@peterwilsoncc</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov/">@SergeyBiryukov</a>, and <a href="https://profiles.wordpress.org/xknown/">@xknown</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">10334</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.7.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2021/04/wordpress-5-7-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Peter Wilson]]></dc:creator>
+      <pubDate>Thu, 15 Apr 2021 03:05:01 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=10144</guid>
+      <description><![CDATA[WordPress 5.7.1 is now available! This security and maintenance release features 26 bug fixes in addition to two security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 4.7 have also been updated. WordPress 5.7.1 is a short-cycle security and maintenance release. The next [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.7.1 is now available!</p>
+
+
+
+<p>This security and maintenance release features <a href="https://core.trac.wordpress.org/query?milestone=5.7.1&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priority">26 bug fixes</a> in addition to two security fixes. Because this is a <strong>security release</strong>, it is recommended that you update your sites immediately. All versions since WordPress 4.7 have also been updated.</p>
+
+
+
+<p>WordPress 5.7.1 is a short-cycle security and maintenance release. The next major release will be version 5.8.</p>
+
+
+
+<p>You can download WordPress 5.7.1 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<h3>Security Updates</h3>
+
+
+
+<p>Two security issues affect WordPress versions between 4.7 and 5.7. If you haven’t yet updated to 5.7, all WordPress versions since 4.7 have also been updated to fix the following security issues:</p>
+
+
+
+<ul><li>Thank you <a href="https://www.sonarsource.com/">SonarSource</a> for reporting an XXE vulnerability within the media library affecting PHP 8.</li><li>Thanks <a href="https://mikaelkorpela.fi/">Mikael Korpela</a> for reporting a data exposure vulnerability within the REST API.</li></ul>
+
+
+
+<p>Thank you to all of the reporters for <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing the vulnerabilities</a>. This gave the security team time to fix the vulnerabilities before WordPress sites could be attacked.</p>
+
+
+
+<p>Props to <a href="https://profiles.wordpress.org/zieladam/">Adam Zielinski</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/jrf/">Juliette Reinders Folmer</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/ehtis/">Ehtisham Siddiqui</a>, <a href="https://profiles.wordpress.org/timothyblynjacobs/">Timothy Jacobs</a> and the WordPress security team for their work on these issues.</p>
+
+
+
+<p>For more information, browse the <a href="https://core.trac.wordpress.org/query?milestone=5.7.1&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priority">full list of changes</a> on Trac, or check out the <a href="https://wordpress.org/support/wordpress-version/version-5-7-1/">version 5.7.1 HelpHub documentation page</a>.</p>
+
+
+
+<h2>Thanks and props!</h2>
+
+
+
+<p>The 5.7.1 release was led by <a href="https://profiles.wordpress.org/peterwilsoncc/">@peterwilsoncc</a> and <a href="https://profiles.wordpress.org/audrasjb/">@audrasjb</a>.</p>
+
+
+
+<p>In addition to the security researchers and release squad members mentioned above, thank you to everyone who helped make WordPress 5.7.1 happen:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/ninetyninew/">99w</a>, <a href="https://profiles.wordpress.org/adamsilverstein/">Adam Silverstein</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/annalamprou/">annalamprou</a>, <a href="https://profiles.wordpress.org/anotherdave/">anotherdave</a>, <a href="https://profiles.wordpress.org/aristath/">Ari Stathopoulos</a>, <a href="https://profiles.wordpress.org/ayeshrajans/">Ayesh Karunaratne</a>, <a href="https://profiles.wordpress.org/bobbingwide/">bobbingwide</a>, <a href="https://profiles.wordpress.org/brechtvds/">Brecht</a>, <a href="https://profiles.wordpress.org/talldanwp/">Daniel Richards</a>, <a href="https://profiles.wordpress.org/davidbaumwald/">David Baumwald</a>, <a href="https://profiles.wordpress.org/dkoo/">dkoo</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/dragongate/">dragongate</a>, <a href="https://profiles.wordpress.org/eatsleepcode/">eatsleepcode</a>, <a href="https://profiles.wordpress.org/ellatrix/">Ella van Durpe</a>, <a href="https://profiles.wordpress.org/kebbet/">Erik</a>, <a href="https://profiles.wordpress.org/fabianpimminger/">Fabian Pimminger</a>, <a href="https://profiles.wordpress.org/flixos90/">Felix Arntz</a>, <a href="https://profiles.wordpress.org/mista-flo/">Florian TIAR</a>, <a href="https://profiles.wordpress.org/gab81/">gab81</a>, <a href="https://profiles.wordpress.org/galbaras/">Gal Baras</a>, <a href="https://profiles.wordpress.org/geoffrey1963/">Geoffrey</a>, <a href="https://profiles.wordpress.org/mamaduka/">George Mamadashvili</a>, <a href="https://profiles.wordpress.org/glendaviesnz/">Glen Davies</a>, <a href="https://profiles.wordpress.org/gziolo/">Greg Ziółkowski</a>, <a href="https://profiles.wordpress.org/grzim/">grzim</a>, <a href="https://profiles.wordpress.org/ipstenu/">Ipstenu (Mika Epstein)</a>, <a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a>, <a href="https://profiles.wordpress.org/jaymanpandya/">Jayman Pandya</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/joen/">Joen A.</a>, <a href="https://profiles.wordpress.org/jonkastonka/">Johan Jonk Stenström</a>, <a href="https://profiles.wordpress.org/goaroundagain/">Johannes Kinast</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/johnjamesjacoby/">John James Jacoby</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/joseeyoast/">Josee Wouters</a>, <a href="https://profiles.wordpress.org/joyously/">Joy</a>, <a href="https://profiles.wordpress.org/k3nsai/">k3nsai</a>, <a href="https://profiles.wordpress.org/ryelle/">Kelly Choyce-Dwan</a>, <a href="https://profiles.wordpress.org/gwwar/">Kerry Liu</a>, <a href="https://profiles.wordpress.org/clorith/">Marius L. J.</a>, <a href="https://profiles.wordpress.org/melchoyce/">Mel Choyce-Dwan</a>, <a href="https://profiles.wordpress.org/mihdan/">Mikhail Kobzarev</a>, <a href="https://profiles.wordpress.org/mmuyskens/">mmuyskens</a>, <a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/nicegamer7/">nicegamer7</a>, <a href="https://profiles.wordpress.org/otshelnik-fm/">Otshelnik-Fm</a>, <a href="https://profiles.wordpress.org/paaljoachim/">Paal Joachim Romdahl</a>, <a href="https://profiles.wordpress.org/palmiak/">palmiak</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/pwallner/">pwallner</a>, <a href="https://profiles.wordpress.org/rachelbaker/">Rachel Baker</a>, <a href="https://profiles.wordpress.org/youknowriad/">Riad Benguella</a>, <a href="https://profiles.wordpress.org/rinatkhaziev/">Rinat Khaziev</a>, <a href="https://profiles.wordpress.org/noisysocks/">Robert Anderson</a>, <a href="https://profiles.wordpress.org/rogertheriault/">Roger Theriault</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/yakimun/">Sergey Yakimov</a>, <a href="https://profiles.wordpress.org/sirstuey/">SirStuey</a>, <a href="https://profiles.wordpress.org/stefanjoebstl/">stefanjoebstl</a>, <a href="https://profiles.wordpress.org/sabernhardt/">Stephen Bernhardt</a>, <a href="https://profiles.wordpress.org/sumitsingh/">Sumit Singh</a>, <a href="https://profiles.wordpress.org/cybr/">Sybre Waaijer</a>, <a href="https://profiles.wordpress.org/synchro/">Synchro</a>, <a href="https://profiles.wordpress.org/terriann/">Terri Ann</a>, <a href="https://profiles.wordpress.org/tigertech/">tigertech</a>, <a href="https://profiles.wordpress.org/timothyblynjacobs/">Timothy Jacobs</a>, <a href="https://profiles.wordpress.org/tmatsuur/">tmatsuur</a>, <a href="https://profiles.wordpress.org/tobiasbg/">TobiasBg</a>, <a href="https://profiles.wordpress.org/hellofromtonya/">Tonya Mork</a>, <a href="https://profiles.wordpress.org/toru/">Toru Miki</a>, <a href="https://profiles.wordpress.org/grapplerulrich/">Ulrich</a>, and <a href="https://profiles.wordpress.org/vladytimy/">Vlad T</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">10144</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.4.2 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2020/06/wordpress-5-4-2-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Jake Spurlock]]></dc:creator>
+      <pubDate>Wed, 10 Jun 2020 19:19:45 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=8592</guid>
+      <description><![CDATA[WordPress 5.4.2 is now available! This security and maintenance release features 23 fixes and enhancements. Plus, it adds a number of security fixes—see the list below. These bugs affect WordPress versions 5.4.1 and earlier; version 5.4.2 fixes them, so you’ll want to upgrade. If you haven’t yet updated to 5.4, there are also updated versions [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.4.2 is now available!</p>
+
+
+
+<p>This security and maintenance release features 23 fixes and enhancements. Plus, it adds a number of security fixes—see the list below.</p>
+
+
+
+<p>These bugs affect WordPress versions 5.4.1 and earlier; version 5.4.2 fixes them, so you’ll want to upgrade.</p>
+
+
+
+<p>If you haven’t yet updated to 5.4, there are also updated versions of 5.3 and earlier that fix the bugs for you.</p>
+
+
+
+<h3><strong>Security Updates</strong></h3>
+
+
+
+<p>WordPress versions 5.4 and earlier are affected by the following bugs, which are fixed in version 5.4.2. If you haven’t yet updated to 5.4, there are also updated versions of 5.3 and earlier that fix the security issues.</p>
+
+
+
+<ul><li>Props to Sam Thomas (jazzy2fives) for finding an XSS issue where authenticated users with low privileges are able to add JavaScript to posts in the block editor.</li><li>Props to Luigi &#8211; (<a href="https://www.gubello.me/">gubello.me</a>) for discovering an XSS issue where authenticated users with upload permissions are able to add JavaScript to media files.</li><li>Props to Ben Bidner of the WordPress Security Team for finding an open redirect issue in <em>wp_validate_redirect()</em>.</li><li>Props to <a href="http://apapedulimu.click">Nrimo Ing Pandum</a> for finding an authenticated XSS issue via theme uploads.</li><li>Props to <a href="https://blog.ripstech.com/authors/simon-scannell">Simon Scannell of RIPS Technologies</a> for finding an issue where <em>set-screen-option</em> can be misused by plugins leading to privilege escalation.</li><li>Props to <a href="https://profiles.wordpress.org/poena/">Carolina Nymark</a> for discovering an issue where comments from password-protected posts and pages could be displayed under certain conditions.</li></ul>
+
+
+
+<p>Thank you to all of the reporters for&nbsp;<a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing the vulnerabilities</a>. This gave the security team time to fix the vulnerabilities before WordPress sites could be attacked.</p>
+
+
+
+<p>One maintenance update was also deployed to versions 5.1, 5.2 and 5.3. See the <a href="https://make.wordpress.org/core/2020/06/09/wordpress-5-4-2-prevent-unmoderated-comments-from-search-engine-indexation/">related developer note</a> for more information.</p>
+
+
+
+<p>You can browse the&nbsp;<a href="https://core.trac.wordpress.org/query?status=closed&amp;resolution=fixed&amp;milestone=5.4.2&amp;order=priority">full list of changes on Trac</a>.</p>
+
+
+
+<p>For more info, browse the full list of changes on Trac or check out the Version&nbsp;<a href="https://wordpress.org/support/wordpress-version/version-5-4-2/">5.4.2 documentation page</a>.</p>
+
+
+
+<p>WordPress 5.4.2 is a short-cycle maintenance release. The next major release will be&nbsp;<a href="https://make.wordpress.org/core/5-5/">version 5.5</a>.</p>
+
+
+
+<p>You can download WordPress 5.4.2 from the button at the top of this page, or visit your<strong>&nbsp;Dashboard → Updates</strong>&nbsp;and click&nbsp;<strong>Update Now</strong>.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<h3>Thanks and props!</h3>
+
+
+
+<p>In addition to the security researchers mentioned above, thank you to everyone who helped make WordPress 5.4.2 happen:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/argentite/">argentite</a>, <a href="https://profiles.wordpress.org/asif2bd/">M Asif Rahman</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/ayeshrajans/">Ayesh Karunaratne</a>, <a href="https://profiles.wordpress.org/bdcstr/">bdcstr</a>, <a href="https://profiles.wordpress.org/delowardev/">Delowar Hossain</a>, <a href="https://profiles.wordpress.org/dhrrob/">Rob Migchels</a>, <a href="https://profiles.wordpress.org/donmhico/">donmhico</a>, <a href="https://profiles.wordpress.org/ehtis/">Ehtisham Siddiqui</a>, <a href="https://profiles.wordpress.org/emlebrun/">Emilie LEBRUN</a>, <a href="https://profiles.wordpress.org/finomeno/">finomeno</a>, <a href="https://profiles.wordpress.org/garethgillman/">garethgillman</a>, <a href="https://profiles.wordpress.org/giorgio25b/">Giorgio25b</a>, <a href="https://profiles.wordpress.org/gma992/">Gabriel Maldonado</a>, <a href="https://profiles.wordpress.org/h71/">Hector F</a>, <a href="https://profiles.wordpress.org/ianbelanger/">Ian Belanger</a>, <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/imath/">Mathieu Viet</a>, <a href="https://profiles.wordpress.org/javiercasares/">Javier Casares</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/jonkolbert/">jonkolbert</a>, <a href="https://profiles.wordpress.org/jonoaldersonwp/">Jono Alderson</a>, <a href="https://profiles.wordpress.org/joyously/">Joy</a>, <a href="https://profiles.wordpress.org/karmatosed/">Tammie Lister</a>, <a href="https://profiles.wordpress.org/kjellr/">Kjell Reigstad</a>, <a href="https://profiles.wordpress.org/kthmd/">KT</a>, <a href="https://profiles.wordpress.org/markusthiel/">markusthiel</a>, <a href="https://profiles.wordpress.org/mayankmajeji/">Mayank Majeji</a>, <a href="https://profiles.wordpress.org/melchoyce/">Mel Choyce-Dwan</a>, <a href="https://profiles.wordpress.org/mislavjuric/">mislavjuric</a>, <a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/nikhilbhansi/">Nikhil Bhansi</a>, <a href="https://profiles.wordpress.org/oakesjosh/">oakesjosh</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/passoniate/">Arslan Ahmed</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/poena/">Carolina Nymark</a>, <a href="https://profiles.wordpress.org/sabernhardt/">Stephen Bernhardt</a>, <a href="https://profiles.wordpress.org/samful/">Sam Fullalove</a>, <a href="https://profiles.wordpress.org/schlessera/">Alain Schlesser</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/skarabeq/">skarabeq</a>, <a href="https://profiles.wordpress.org/talldanwp/">Daniel Richards</a>, <a href="https://profiles.wordpress.org/skithund/">Toni Viemerö</a>, <a href="https://profiles.wordpress.org/suzylah/">suzylah</a>, <a href="https://profiles.wordpress.org/timothyblynjacobs/">Timothy Jacobs</a>, <a href="https://profiles.wordpress.org/utz119/">TeBenachi</a>, <a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a> and <a href="https://profiles.wordpress.org/yuhin/">yuhin</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">8592</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.4.1</title>
+      <link>https://wordpress.org/news/2020/04/wordpress-5-4-1/</link>
+      <dc:creator><![CDATA[Jake Spurlock]]></dc:creator>
+      <pubDate>Wed, 29 Apr 2020 19:56:47 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=8553</guid>
+      <description><![CDATA[WordPress 5.4.1 is now available! This security and maintenance release features 17 bug fixes in addition to 7 security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated. WordPress 5.4.1 is a short-cycle security and maintenance release. The next [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.4.1 is now available!</p>
+
+
+
+<p>This security and maintenance release features 17 <a href="https://core.trac.wordpress.org/query?milestone=5.4.1&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priorityhttps://core.trac.wordpress.org/query?milestone=5.4.1&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priority">bug fixes</a> in addition to 7 security fixes. Because this is a <strong>security release</strong>, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated.</p>
+
+
+
+<p>WordPress 5.4.1 is a short-cycle security and maintenance release. The next major release will be version 5.5.</p>
+
+
+
+<p>You can download WordPress 5.4.1 by downloading from WordPress.org, or visit your Dashboard → Updates and click Update Now.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<h3>Security Updates</h3>
+
+
+
+<p>Seven security issues affect WordPress versions 5.4 and earlier. If you haven’t yet updated to 5.4, all WordPress versions since 3.7 have also been updated to fix the following security issues:</p>
+
+
+
+<ul><li>Props to <a href="https://hackerone.com/hijibiji">Muaz Bin Abdus Sattar</a> and <a href="https://hackerone.com/dyennez">Jannes</a> who both independently reported an issue where password reset tokens were not properly invalidated.</li><li>Props to <a href="https://github.com/ka1n4t">ka1n4t</a> for finding an issue where certain private posts can be viewed unauthenticated.</li><li>Props to <a href="https://evanricafort.com/">Evan Ricafort</a> for discovering an XSS issue in the Customizer</li><li>Props to Ben Bidner from the WordPress Security Team who discovered an XSS issue in the search block.</li><li>Props to Nick Daugherty from <a href="https://wpvip.com">WordPress VIP</a> / WordPress Security Team who discovered an XSS issue in <code>wp-object-cache</code>.</li><li>Props to Ronnie Goodrich (<a href="https://hackerone.com/kahoots">Kahoots</a>) and <a href="http://pentestusa.com/">Jason Medeiros</a> who independently reported an XSS issue in file uploads.</li><li>Props to <a href="https://weston.ruter.net/">Weston Ruter</a> for fixing a stored XSS vulnerability in the WordPress customizer.</li><li>Additionally, an authenticated XSS issue in the block editor was discovered by Nguyen The Duc (<a href="https://twitter.com/ducnt_">ducnt</a>) in WordPress 5.4 RC1 and RC2. It was fixed in 5.4 RC5. We wanted to be sure to give credit and thank them for all of their work in making WordPress more secure.</li></ul>
+
+
+
+<p>Thank you to all of the reporters for <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing the vulnerabilities</a>. This gave the security team time to fix the vulnerabilities before WordPress sites could be attacked.</p>
+
+
+
+<p>For more information, browse the <a href="https://core.trac.wordpress.org/query?milestone=5.4.1&amp;group=component&amp;col=id&amp;col=summary&amp;col=milestone&amp;col=owner&amp;col=type&amp;col=status&amp;col=priority&amp;order=priority">full list of changes</a> on Trac, or check out the <a href="https://wordpress.org/support/wordpress-version/version-5-4-1/">version 5.4.1 HelpHub documentation page</a>.</p>
+
+
+
+<p>In addition to the security researchers mentioned above, thank you to everyone who helped make WordPress 5.4.1 happen:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/aduth/">Andrew Duthie</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/afragen/">Andy Fragen</a>, <a href="https://profiles.wordpress.org/apeatling/">Andy Peatling</a>, <a href="https://profiles.wordpress.org/arnaudbroes/">arnaudbroes</a>, <a href="https://profiles.wordpress.org/chrisvanpatten/">Chris Van Patten</a>, <a href="https://profiles.wordpress.org/talldanwp/">Daniel Richards</a>, <a href="https://profiles.wordpress.org/dhrrob/">DhrRob</a>, <a href="https://profiles.wordpress.org/dono12/">Dono12</a>, <a href="https://profiles.wordpress.org/dudo/">dudo</a>, <a href="https://profiles.wordpress.org/ehtis/">Ehtisham Siddiqui</a>, <a href="https://profiles.wordpress.org/ellatrix/">Ella van Durpe</a>, <a href="https://profiles.wordpress.org/garrett-eclipse/">Garrett Hyder</a>, <a href="https://profiles.wordpress.org/ianbelanger/">Ian Belanger</a>, <a href="https://profiles.wordpress.org/ipstenu/">Ipstenu (Mika Epstein)</a>, <a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/johnjamesjacoby/">John James Jacoby</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/jorgefilipecosta/">Jorge Costa</a>, <a href="https://profiles.wordpress.org/kadamwhite/">K. Adam White</a>, <a href="https://profiles.wordpress.org/ryelle/">Kelly Choyce-Dwan</a>, <a href="https://profiles.wordpress.org/markrh/">MarkRH</a>, <a href="https://profiles.wordpress.org/mattyrob/">mattyrob</a>, <a href="https://profiles.wordpress.org/mcsf/">Miguel Fonseca</a>, <a href="https://profiles.wordpress.org/batmoo/">Mohammad Jangda</a>, <a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/nickdaugherty/">Nick Daugherty</a>, <a href="https://profiles.wordpress.org/noahtallen/">noahtallen</a>, <a href="https://profiles.wordpress.org/pbiron/">Paul Biron</a>, <a href="https://profiles.wordpress.org/westi/">Peter Westwood</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/pikamander2/">pikamander2</a>, <a href="https://profiles.wordpress.org/r-a-y/">r-a-y</a>, <a href="https://profiles.wordpress.org/youknowriad/">Riad Benguella</a>, <a href="https://profiles.wordpress.org/noisysocks/">Robert Anderson</a>, <a href="https://profiles.wordpress.org/otto42/">Samuel Wood (Otto)</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/sorenbronsted/">Søren Brønsted</a>, <a href="https://profiles.wordpress.org/sstoqnov/">Stanimir Stoyanov</a>, <a href="https://profiles.wordpress.org/isabel_brison/">tellthemachines</a>, <a href="https://profiles.wordpress.org/timothyblynjacobs/">Timothy Jacobs</a>, <a href="https://profiles.wordpress.org/toro_unit/">Toro_Unit (Hiroshi Urabe)</a>, <a href="https://profiles.wordpress.org/treecutter/">treecutter</a>, and <a href="https://profiles.wordpress.org/yohannp/">yohannp</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">8553</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.3.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2019/12/wordpress-5-3-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Jb Audras]]></dc:creator>
+      <pubDate>Fri, 13 Dec 2019 00:07:06 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=8203</guid>
+      <description><![CDATA[WordPress 5.3.1 is now available! This security and maintenance release features 46 fixes and enhancements. Plus, it adds a number of security fixes—see the list below. WordPress 5.3.1 is a short-cycle maintenance release. The next major release will be version 5.4. You can download WordPress 5.3.1 by clicking the button at the top of this page, [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.3.1 is now available!</p>
+
+
+
+<p>This security and maintenance release features 46 fixes and enhancements. Plus, it adds a number of security fixes—see the list below.</p>
+
+
+
+<p>WordPress 5.3.1 is a short-cycle maintenance release. The next major release will be version 5.4.</p>
+
+
+
+<p>You can download WordPress 5.3.1 by clicking the button at the top of this page, or visit your<strong>&nbsp;Dashboard → Updates</strong>&nbsp;and click&nbsp;<strong>Update Now</strong>.</p>
+
+
+
+<p>If you have sites that support automatic background updates, they’ve already started the update process.</p>
+
+
+
+<h2>Security updates</h2>
+
+
+
+<p>Four security issues affect WordPress versions 5.3 and earlier; version 5.3.1 fixes them, so you’ll want to upgrade. If you haven’t yet updated to 5.3, there are also updated versions of 5.2 and earlier that fix the security issues.</p>
+
+
+
+<ul><li>Props to <a href="https://danielbachhuber.com/">Daniel Bachhuber</a> for finding an issue where an unprivileged user could make a post sticky via the REST API.</li><li>Props to <a href="https://blog.ripstech.com/authors/simon-scannell">Simon Scannell of RIPS Technologies</a> for finding and disclosing an issue where cross-site scripting (XSS) could be stored in well-crafted links.</li><li>Props to the <a rel="noreferrer noopener" target="_blank" href="https://wordpress.org/">WordPress.org</a> Security Team for hardening <code>wp_kses_bad_protocol()</code> to ensure that it is aware of the named colon attribute.</li><li>Props to <a href="https://twitter.com/ducnt_">Nguyen The Duc</a> for discovering a stored XSS vulnerability using block editor content.</li></ul>
+
+
+
+<h2>Maintenance updates</h2>
+
+
+
+<p>Here are a few of the highlights:</p>
+
+
+
+<ul><li>Administration: improvements to admin form controls height and alignment standardization (see related <a href="https://make.wordpress.org/core/2019/12/11/admin-form-controls-height-and-alignment-standardization-in-wordpress-5-3-1/">dev note</a>), dashboard widget links accessibility and alternate color scheme readability issues (see related <a href="https://make.wordpress.org/core/2019/12/10/alternate-color-schemes-changes-in-wordpress-5-3-1/">dev note</a>).</li><li>Block editor: fix Edge scrolling issues and intermittent JavaScript issues.</li><li>Bundled themes: add customizer option to show/hide author bio, replace JS based smooth scroll with CSS (see related <a href="https://make.wordpress.org/core/2019/12/08/twenty-twenty-animated-scroll-changes-in-wordpress-5-3-1/">dev note</a>) and fix Instagram embed CSS.</li><li>Date/time: improve non-GMT dates calculation, fix date format output in specific languages and make&nbsp;<code>get_permalink()</code>&nbsp;more resilient against PHP timezone changes.</li><li>Embeds: remove CollegeHumor oEmbed provider as the service doesn&#8217;t exist anymore.</li><li>External libraries: update <code>sodium_compat</code>.</li><li>Site health: allow the remind interval for the admin email verification to be filtered.</li><li>Uploads: avoid thumbnails overwriting other uploads when filename matches, and exclude PNG images from scaling after upload.</li><li>Users: ensure administration email verification uses the user&#8217;s locale instead of the site locale.</li></ul>
+
+
+
+<p>For more information, <a href="https://core.trac.wordpress.org/query?status=closed&amp;resolution=fixed&amp;milestone=5.3.1&amp;order=priority">browse the full list of changes on Trac</a> or check out the&nbsp;<a href="https://wordpress.org/support/wordpress-version/version-5-3-1/">version 5.3.1 HelpHub documentation page</a>.</p>
+
+
+
+<h2>Thanks!</h2>
+
+
+
+<p>In addition to the security researchers mentioned above, thank you to everyone who contributed to WordPress 5.3.1:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/123host/">123host</a>, <a href="https://profiles.wordpress.org/acosmin/">acosmin</a>, <a href="https://profiles.wordpress.org/adamsilverstein/">Adam Silverstein</a>, <a href="https://profiles.wordpress.org/aljullu/">Albert Juhé Lluveras</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/viper007bond/">Alex Mills</a>, <a href="https://profiles.wordpress.org/anantajitjg/">Anantajit JG</a>, <a href="https://profiles.wordpress.org/anlino/">Anders Norén</a>, <a href="https://profiles.wordpress.org/andraganescu/">andraganescu</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/aduth/">Andrew Duthie</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/rarst/">Andrey &#8220;Rarst&#8221; Savchenko</a>, <a href="https://profiles.wordpress.org/aravindajith/">aravindajith</a>, <a href="https://profiles.wordpress.org/archon810/">archon810</a>, <a href="https://profiles.wordpress.org/ate-up-with-motor/">Ate Up With Motor</a>, <a href="https://profiles.wordpress.org/ayeshrajans/">Ayesh Karunaratne</a>, <a href="https://profiles.wordpress.org/birgire/">Birgir Erlendsson (birgire)</a>, <a href="https://profiles.wordpress.org/boga86/">Boga86</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/poena/">Carolina Nymark</a>, <a href="https://profiles.wordpress.org/chetan200891/">Chetan Prajapati</a>, <a href="https://profiles.wordpress.org/littlebigthing/">Csaba (LittleBigThings)</a>, <a href="https://profiles.wordpress.org/xendo/">Dademaru</a>, <a href="https://profiles.wordpress.org/danielbachhuber/">Daniel Bachhuber</a>, <a href="https://profiles.wordpress.org/mte90/">Daniele Scasciafratte</a>, <a href="https://profiles.wordpress.org/talldanwp/">Daniel Richards</a>, <a href="https://profiles.wordpress.org/davidbaumwald/">David Baumwald</a>, <a href="https://profiles.wordpress.org/dlh/">David Herrera</a>, <a href="https://profiles.wordpress.org/dd32/">Dion hulse</a>, <a href="https://profiles.wordpress.org/ehtis/">ehtis</a>, <a href="https://profiles.wordpress.org/ellatrix/">Ella van Durpe</a>, <a href="https://profiles.wordpress.org/epiqueras/">epiqueras</a>, <a href="https://profiles.wordpress.org/fabifott/">Fabian</a>, <a href="https://profiles.wordpress.org/flixos90/">Felix Arntz</a>, <a href="https://profiles.wordpress.org/flaviozavan/">flaviozavan</a>, <a href="https://profiles.wordpress.org/garrett-eclipse/">Garrett Hyder</a>, <a href="https://profiles.wordpress.org/hometowntrailers/">Glenn</a>, <a href="https://profiles.wordpress.org/gziolo/">Grzegorz (Greg) Ziółkowski</a>, <a href="https://profiles.wordpress.org/grzegorzjanoszka/">Grzegorz.Janoszka</a>, <a href="https://profiles.wordpress.org/hareesh-pillai/">Hareesh Pillai</a>, <a href="https://profiles.wordpress.org/ianbelanger/">Ian Belanger</a>, <a href="https://profiles.wordpress.org/ispreview/">ispreview</a>, <a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a>, <a href="https://profiles.wordpress.org/macmanx/">James Huff</a>, <a href="https://profiles.wordpress.org/jameskoster/">James Koster</a>, <a href="https://profiles.wordpress.org/jarretc/">Jarret</a>, <a href="https://profiles.wordpress.org/studiotwee/">Jasper van der Meer</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/jeichorn/">jeichorn</a>, <a href="https://profiles.wordpress.org/jeremyclarke/">Jer Clarke</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/jipmoors/">Jip Moors</a>, <a href="https://profiles.wordpress.org/joehoyle/">Joe Hoyle</a>, <a href="https://profiles.wordpress.org/johnjamesjacoby/">John James Jacoby</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/spacedmonkey/">Jonny Harris</a>, <a href="https://profiles.wordpress.org/joostdevalk/">Joost de Valk</a>, <a href="https://profiles.wordpress.org/jorgefilipecosta/">Jorge Costa</a>, <a href="https://profiles.wordpress.org/joyously/">Joy</a>, <a href="https://profiles.wordpress.org/jrf/">Juliette Reinders Folmer</a>, <a href="https://profiles.wordpress.org/justdaiv/">justdaiv</a>, <a href="https://profiles.wordpress.org/ryelle/">Kelly Dwan</a>, <a href="https://profiles.wordpress.org/kharisblank/">Kharis Sulistiyono</a>, <a href="https://profiles.wordpress.org/ixkaito/">Kite</a>, <a href="https://profiles.wordpress.org/kyliesabra/">kyliesabra</a>, <a href="https://profiles.wordpress.org/lisota/">lisota</a>, <a href="https://profiles.wordpress.org/lukaswaudentio/">lukaswaudentio</a>, <a href="https://profiles.wordpress.org/maciejmackowiak/">Maciej Mackowiak</a>, <a href="https://profiles.wordpress.org/marcelo2605/">marcelo2605</a>, <a href="https://profiles.wordpress.org/clorith/">Marius L. J.</a>, <a href="https://profiles.wordpress.org/mat-lipe/">Mat Lipe</a>, <a href="https://profiles.wordpress.org/mayanksonawat/">mayanksonawat</a>, <a href="https://profiles.wordpress.org/melchoyce/">Mel Choyce-Dwan</a>, <a href="https://profiles.wordpress.org/michael-arestad/">Michael Arestad</a>, <a href="https://profiles.wordpress.org/miette49/">miette49</a>, <a href="https://profiles.wordpress.org/mcsf/">Miguel Fonseca</a>, <a href="https://profiles.wordpress.org/mihdan/">mihdan</a>, <a href="https://profiles.wordpress.org/mauteri/">Mike Auteri</a>, <a href="https://profiles.wordpress.org/msaari/">Mikko Saari</a>, <a href="https://profiles.wordpress.org/gdragon/">Milan Petrovic</a>, <a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/nextscripts/">NextScripts</a>, <a href="https://profiles.wordpress.org/nickdaugherty/">Nick Daugherty</a>, <a href="https://profiles.wordpress.org/nielslange/">Niels Lange</a>, <a href="https://profiles.wordpress.org/noyle/">noyle</a>, <a href="https://profiles.wordpress.org/ov3rfly/">Ov3rfly</a>, <a href="https://profiles.wordpress.org/paragoninitiativeenterprises/">Paragon Initiative Enterprises</a>, <a href="https://profiles.wordpress.org/pbiron/">Paul Biron</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/larrach/">Rachel Peter</a>, <a href="https://profiles.wordpress.org/youknowriad/">Riad Benguella</a>, <a href="https://profiles.wordpress.org/quicoto/">Ricard Torres</a>, <a href="https://profiles.wordpress.org/murgroland/">Roland Murg</a>, <a href="https://profiles.wordpress.org/rmccue/">Ryan McCue</a>, <a href="https://profiles.wordpress.org/welcher/">Ryan Welcher</a>, <a href="https://profiles.wordpress.org/samuelfernandez/">SamuelFernandez</a>, <a href="https://profiles.wordpress.org/sathyapulse/">sathyapulse</a>, <a href="https://profiles.wordpress.org/wonderboymusic/">Scott Taylor</a>, <a href="https://profiles.wordpress.org/scvleon/">scvleon</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/sergiomdgomes/">sergiomdgomes</a>, <a href="https://profiles.wordpress.org/sgr33n/">SGr33n</a>, <a href="https://profiles.wordpress.org/simonjanin/">simonjanin</a>, <a href="https://profiles.wordpress.org/smerriman/">smerriman</a>, <a href="https://profiles.wordpress.org/steevithak/">steevithak</a>, <a href="https://profiles.wordpress.org/sabernhardt/">Stephen Bernhardt</a>, <a href="https://profiles.wordpress.org/netweb/">Stephen Edgar</a>, <a href="https://profiles.wordpress.org/dufresnesteven/">Steve Dufresne</a>, <a href="https://profiles.wordpress.org/subratamal/">Subrata Mal</a>, <a href="https://profiles.wordpress.org/manikmist09/">Sultan Nasir Uddin</a>, <a href="https://profiles.wordpress.org/cybr/">Sybre Waaijer</a>, <a href="https://profiles.wordpress.org/karmatosed/">Tammie Lister</a>, <a href="https://profiles.wordpress.org/tanvirul/">Tanvirul Haque</a>, <a href="https://profiles.wordpress.org/tellyworth/">Tellyworth</a>, <a href="https://profiles.wordpress.org/timon33/">timon33</a>, <a href="https://profiles.wordpress.org/timothyblynjacobs/">Timothy Jacobs</a>, <a href="https://profiles.wordpress.org/spaceshipone/">Timothée Brosille</a>, <a href="https://profiles.wordpress.org/tmatsuur/">tmatsuur</a>, <a href="https://profiles.wordpress.org/dinhtungdu/">Tung Du</a>, <a href="https://profiles.wordpress.org/veminom/">Veminom</a>, <a href="https://profiles.wordpress.org/vortfu/">vortfu</a>, <a href="https://profiles.wordpress.org/waleedt93/">waleedt93</a>, <a href="https://profiles.wordpress.org/williampatton/">williampatton</a>, <a href="https://profiles.wordpress.org/wpgurudev/">wpgurudev</a>, and <a href="https://profiles.wordpress.org/tollmanz/">Zack Tollman</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">8203</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.2.4 Update</title>
+      <link>https://wordpress.org/news/2019/11/wordpress-5-2-4-update/</link>
+      <dc:creator><![CDATA[Jake Spurlock]]></dc:creator>
+      <pubDate>Tue, 19 Nov 2019 04:47:30 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=7787</guid>
+      <description><![CDATA[Late-breaking news on the 5.2.4 short-cycle security release that landed October 14. When we released the news post, I inadvertently missed giving props to Simon Scannell of RIPS Technologies for finding and disclosing an issue where path traversal can lead to remote code execution. Simon has done a great deal of work on the WordPress [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>Late-breaking news on the<a href="https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/"> 5.2.4 short-cycle security release </a>that landed October 14. When we released the news post, I inadvertently missed giving props to Simon Scannell of <a href="https://blog.ripstech.com/">RIPS Technologies</a> for finding and disclosing an issue where path traversal can lead to remote code execution. </p>
+
+
+
+<p>Simon has done a <a href="https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/">great</a> <a href="https://wordpress.org/news/2019/03/wordpress-5-1-1-security-and-maintenance-release/">deal</a> of <a href="https://wordpress.org/news/2019/09/wordpress-5-2-3-security-and-maintenance-release/">work</a> on the WordPress project, and failing to mention his contributions is a huge oversight on our end.</p>
+
+
+
+<p>Thank you to all of the reporters for <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing</a> vulnerabilities, which gave us time to fix them before WordPress sites could be attacked.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">7787</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.2.4 Security Release</title>
+      <link>https://wordpress.org/news/2019/10/wordpress-5-2-4-security-release/</link>
+      <dc:creator><![CDATA[Jake Spurlock]]></dc:creator>
+      <pubDate>Mon, 14 Oct 2019 21:54:03 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=7372</guid>
+      <description><![CDATA[WordPress 5.2.4 is now available! This security release fixes 6 security issues. WordPress versions 5.2.3 and earlier are affected by these bugs, which are fixed in version 5.2.4. Updated versions of WordPress 5.1 and earlier are also available for any users who have not yet updated to 5.2. Security Updates Props to&#160;Evan Ricafort&#160;for finding an [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p><a href="https://wordpress.org/wordpress-5.2.4.zip">WordPress 5.2.4</a> is now available! This security release fixes 6 security issues.<br><br>WordPress versions 5.2.3 and earlier are affected by these bugs, which are fixed in version 5.2.4. Updated versions of WordPress 5.1 and earlier are also available for any users who have not yet updated to 5.2.</p>
+
+
+
+<h3>Security Updates</h3>
+
+
+
+<ul><li>Props to&nbsp;<a rel="noreferrer noopener" target="_blank" href="https://evanricafort.com/">Evan Ricafort</a>&nbsp;for finding an issue where stored XSS (cross-site scripting) could be added via the Customizer.</li><li>Props to&nbsp;<a rel="noreferrer noopener" target="_blank" href="https://codesymphony.co/">J.D. Grimes</a>&nbsp;who found and disclosed a method of viewing unauthenticated posts.</li><li>Props to&nbsp;<a rel="noreferrer noopener" target="_blank" href="https://weston.ruter.net/">Weston Ruter</a>&nbsp;for finding a way to create a stored XSS to inject Javascript into style tags.</li><li>Props to David Newman for highlighting a method to poison the cache of JSON GET requests via the Vary: Origin header.</li><li>Props to <a href="http://eugenekolo.com/">Eugene Kolodenker</a> who found a server-side request forgery in the way that URLs are validated.</li><li>Props to Ben Bidner of the WordPress Security Team who discovered issues related to referrer validation in the admin.</li></ul>
+
+
+
+<p>Thank you to all of the reporters for <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing</a> the vulnerabilities, which gave us time to fix them before WordPress sites could be attacked.</p>
+
+
+
+<p>For more info, browse the full list of changes on Trac or check out the Version&nbsp;<a rel="noreferrer noopener" target="_blank" href="https://wordpress.org/support/wordpress-version/version-5-2-4/">5.2.4 documentation page</a>.<br><br>WordPress 5.2.4 is a short-cycle security release. The next major release will be&nbsp;<a rel="noreferrer noopener" target="_blank" href="https://make.wordpress.org/core/5-3/">version 5.3</a>.<br><br>You can <a href="https://wordpress.org/wordpress-5.2.4.zip">download WordPress 5.2.4</a> or visit <code>Dashboard → Updates</code> and click <code>Update Now</code>. Sites that support automatic background updates have already started to update automatically.<br><br>In addition to the security researchers mentioned above, thank you to everyone who contributed to WordPress 5.2.4:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/aaroncampbell/">Aaron D. Campbell</a>, <a href="https://profiles.wordpress.org/darthhexx/">darthhexx</a>, <a href="https://profiles.wordpress.org/davidbinda/">David Binovec</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>, <a href="https://profiles.wordpress.org/jeffpaul/">Jeff Paul</a>, <a href="https://profiles.wordpress.org/nickdaugherty/">Nick Daugherty</a>, <a href="https://profiles.wordpress.org/obenland/">Konstantin Obenland</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/sstoqnov/">Stanimir Stoyanov</a>, <a href="https://profiles.wordpress.org/voldemortensen/">Garth Mortensen</a>, <a href="https://profiles.wordpress.org/vortfu/">vortfu</a>, <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a>, <a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a>, and <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">7372</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.2.3 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2019/09/wordpress-5-2-3-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Jake Spurlock]]></dc:creator>
+      <pubDate>Thu, 05 Sep 2019 01:51:15 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=7064</guid>
+      <description><![CDATA[WordPress 5.2.3 is now available! This security and maintenance release features 29 fixes and enhancements. Plus, it adds a number of security fixes—see the list below. These bugs affect WordPress versions 5.2.2 and earlier; version 5.2.3 fixes them, so you&#8217;ll want to upgrade. If you haven&#8217;t yet updated to 5.2, there are also updated versions [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.2.3 is now available! </p>
+
+
+
+<p>This security and maintenance release features 29 fixes and enhancements. Plus, it adds a number of security fixes—see the list below.</p>
+
+
+
+<p>These bugs affect WordPress versions 5.2.2 and earlier; version 5.2.3 fixes them, so you&#8217;ll want to upgrade. </p>
+
+
+
+<p>If you haven&#8217;t yet updated to 5.2, there are also updated versions of 5.1 and earlier that fix the bugs for you.</p>
+
+
+
+<h3>Security Updates</h3>
+
+
+
+<ul><li>Props to&nbsp;<a href="https://blog.ripstech.com/authors/simon-scannell/">Simon Scannell of RIPS Technologies</a>&nbsp;for finding and disclosing two issues. The first, a cross-site scripting (XSS) vulnerability found in post previews by contributors. The second was a cross-site scripting vulnerability in stored comments.&nbsp;</li><li>Props to&nbsp;<a href="https://security-consulting.icu/blog/">Tim Coen</a>&nbsp;for disclosing an issue where validation and sanitization of a URL could lead to an open redirect.&nbsp;</li><li>Props to Anshul Jain for disclosing reflected cross-site scripting during media uploads.</li><li>Props to&nbsp;<a href="https://fortiguard.com/">Zhouyuan Yang of Fortinet’s FortiGuard Labs</a>&nbsp;who disclosed a vulnerability for cross-site scripting (XSS) in shortcode previews.</li><li>Props to Ian Dunn of the Core Security Team for finding and disclosing a case where reflected cross-site scripting could be found in the dashboard.</li><li>Props to Soroush Dalili (<a href="https://twitter.com/irsdl?lang=en">@irsdl</a>) from NCC Group for disclosing an issue with URL sanitization that can lead to cross-site scripting (XSS) attacks.</li><li>In addition to the above changes, we are also updating jQuery on older versions of WordPress. This change was&nbsp;<a href="https://core.trac.wordpress.org/ticket/47020">added in 5.2.1</a>&nbsp;and is now being brought to older versions.&nbsp;</li></ul>
+
+
+
+<p>You can browse the&nbsp;<a href="https://core.trac.wordpress.org/query?status=closed&amp;resolution=fixed&amp;milestone=5.2.3&amp;order=priority">full list of changes on Trac</a>.</p>
+
+
+
+<p>For more info, browse the full list of changes on Trac or check out the Version&nbsp;<a href="https://wordpress.org/support/wordpress-version/version-5-2-3/">5.2.3 documentation page</a>.</p>
+
+
+
+<p>WordPress 5.2.3 is a short-cycle maintenance release. The next major release will be&nbsp;<a href="https://make.wordpress.org/core/5-3/">version 5.3.</a></p>
+
+
+
+<p>You can download WordPress 5.2.3 from the button at the top of this page, or visit your<strong> Dashboard → Updates</strong> and click <strong>Update Now</strong>. </p>
+
+
+
+<p>If you have sites that support automatic background updates, they&#8217;ve already started the update process.</p>
+
+
+
+<h2>Thanks and props!</h2>
+
+
+
+<p>This release brings together contributions from more than 62 other people. Thank you to everyone who made this release possible!</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/adamsilverstein/">Adam Silverstein</a>,&nbsp;<a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>,&nbsp;<a href="https://profiles.wordpress.org/alpipego/">Alex Goller</a>,&nbsp;<a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>,&nbsp;<a href="https://profiles.wordpress.org/aduth/">Andrew Duthie</a>,&nbsp;<a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>,&nbsp;<a href="https://profiles.wordpress.org/afragen/">Andy Fragen</a>, <a href="https://profiles.wordpress.org/762e5e74/">Ashish Shukla</a>,&nbsp;<a href="https://profiles.wordpress.org/wpboss/">Aslam Shekh</a>,&nbsp;<a href="https://profiles.wordpress.org/backermann1978/">backermann1978</a>,&nbsp;<a href="https://profiles.wordpress.org/cdog/">Catalin Dogaru</a>,&nbsp;<a href="https://profiles.wordpress.org/chetan200891/">Chetan Prajapati</a>,&nbsp;<a href="https://profiles.wordpress.org/aprea/">Chris Aprea</a>,&nbsp;<a href="https://profiles.wordpress.org/christophherr/">Christoph Herr</a>,&nbsp;<a href="https://profiles.wordpress.org/danmicamediacom/">dan@micamedia.com</a>,&nbsp;<a href="https://profiles.wordpress.org/diddledan/">Daniel Llewellyn</a>,&nbsp;<a href="https://profiles.wordpress.org/donmhico/">donmhico</a>,&nbsp;<a href="https://profiles.wordpress.org/iseulde/">Ella van Durpe</a>,&nbsp;<a href="https://profiles.wordpress.org/epiqueras/">epiqueras</a>,&nbsp;<a href="https://profiles.wordpress.org/fencer04/">Fencer04</a>,&nbsp;<a href="https://profiles.wordpress.org/flaviozavan/">flaviozavan</a>,&nbsp;<a href="https://profiles.wordpress.org/garrett-eclipse/">Garrett Hyder</a>,&nbsp;<a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>,&nbsp;<a href="https://profiles.wordpress.org/gqevu6bsiz/">gqevu6bsiz</a>,&nbsp;<a href="https://profiles.wordpress.org/thakkarhardik/">Hardik Thakkar</a>,&nbsp;<a href="https://profiles.wordpress.org/ianbelanger/">Ian Belanger</a>,&nbsp;<a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>,&nbsp;<a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a>,&nbsp;<a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>,&nbsp;<a href="https://profiles.wordpress.org/jeffpaul/">Jeffrey Paul</a>,&nbsp;<a href="https://profiles.wordpress.org/jikamens/">jikamens</a>,&nbsp;<a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>,&nbsp;<a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/jorgefilipecosta/">Jorge Costa,</a> <a href="https://profiles.wordpress.org/karlgroves/">karlgroves</a>,&nbsp;<a href="https://profiles.wordpress.org/kjellr/">Kjell Reigstad</a>,&nbsp;<a href="https://profiles.wordpress.org/laurelfulford/">laurelfulford</a>,&nbsp;<a href="https://profiles.wordpress.org/majemedia/">Maje Media LLC</a>,&nbsp;<a href="https://profiles.wordpress.org/mspatovaliyski/">Martin Spatovaliyski</a>,&nbsp;<a href="https://profiles.wordpress.org/marybaum/">Mary Baum</a>,&nbsp;<a href="https://profiles.wordpress.org/monikarao/">Monika Rao</a>,&nbsp;<a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>,&nbsp;<a href="https://profiles.wordpress.org/nayana123/">nayana123</a>,&nbsp;<a href="https://profiles.wordpress.org/greatislander/">Ned Zimmerman</a>,&nbsp;<a href="https://profiles.wordpress.org/nickdaugherty/">Nick Daugherty</a>, <a href="https://profiles.wordpress.org/rabmalin/">Nilambar Sharma</a>,&nbsp;<a href="https://profiles.wordpress.org/nmenescardi/">nmenescardi</a>,&nbsp;<a href="https://profiles.wordpress.org/bassgang/">Paul Vincent Beigang</a>,&nbsp;<a href="https://profiles.wordpress.org/pedromendonca/">Pedro Mendonça</a>,&nbsp;<a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>,&nbsp;<a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>,&nbsp;<a href="https://profiles.wordpress.org/vjik/">Sergey Predvoditelev</a>,&nbsp;<a href="https://profiles.wordpress.org/sharaz/">Sharaz Shahid</a>,&nbsp;<a href="https://profiles.wordpress.org/sstoqnov/">Stanimir Stoyanov</a>,&nbsp;<a href="https://profiles.wordpress.org/ryokuhi/">Stefano Minoia</a>,&nbsp;<a href="https://profiles.wordpress.org/karmatosed/">Tammie Lister</a>,&nbsp;<a href="https://profiles.wordpress.org/isabel_brison/">tellthemachines</a>,&nbsp;<a href="https://profiles.wordpress.org/tmatsuur/">tmatsuur</a>,&nbsp;<a href="https://profiles.wordpress.org/vaishalipanchal/">Vaishali Panchal</a>,&nbsp;<a href="https://profiles.wordpress.org/vortfu/">vortfu</a>,&nbsp;<a href="https://profiles.wordpress.org/tsewlliw/">Will West</a>, and&nbsp;<a href="https://profiles.wordpress.org/yarnboy/">yarnboy</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">7064</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.1.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2019/03/wordpress-5-1-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Luke Carbis]]></dc:creator>
+      <pubDate>Tue, 12 Mar 2019 03:34:22 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[5.1.1]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=6736</guid>
+      <description><![CDATA[WordPress 5.1.1 is now available! This security and maintenance release introduces 14 fixes and enhancements, including changes designed to help hosts prepare users for the&#160;minimum PHP version bump coming in 5.2. This release also includes a pair of security fixes that handle how comments are filtered and then stored in the database. With a maliciously [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.1.1 is now available! This security and maintenance release introduces 14 fixes and enhancements, including changes designed to help hosts prepare users for the&nbsp;<a href="https://make.wordpress.org/core/2018/12/08/updating-the-minimum-php-version/">minimum PHP version bump coming in 5.2</a>.</p>
+
+
+
+<p>This release also includes a pair of security fixes that handle how comments are filtered and then stored in the database. With a maliciously crafted comment, a WordPress post was vulnerable to cross-site scripting.</p>
+
+
+
+<p>WordPress versions 5.1 and earlier are affected by these bugs, which are fixed in version 5.1.1. Updated versions of WordPress 5.0 and earlier are also available for any users who have not yet updated to 5.1.</p>
+
+
+
+<p>Props to&nbsp;Simon Scannell of RIPS Technologies who discovered this flaw independent of some work that was being done by members of the core security team. Thank you to all of the reporters for&nbsp;<a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing the vulnerabilities</a>, which gave us time to fix them before WordPress sites could be attacked.</p>
+
+
+
+<p>Other highlights of this release include:</p>
+
+
+
+<ul><li>Hosts can now offer a button for their users to update PHP.</li><li>The recommended PHP version used by the &#8220;Update PHP&#8221; notice can now be filtered.</li><li>Several minor bug fixes.</li></ul>
+
+
+
+<p>You can browse the&nbsp;<a href="https://core.trac.wordpress.org/query?status=closed&amp;resolution=fixed&amp;milestone=5.1.1&amp;order=priority">full list of changes on Trac</a>.</p>
+
+
+
+<p>WordPress 5.1.1 was a short-cycle maintenance release. <a href="https://core.trac.wordpress.org/query?milestone=5.1.2">Version 5.1.2</a> is expected to follow a similar two week release cadence.</p>
+
+
+
+<p>You can&nbsp;download <a href="https://wordpress.org/download/">WordPress 5.1.1</a>&nbsp;or visit <strong>Dashboard → Updates</strong> and click&nbsp;<strong>Update Now</strong>. Sites that support automatic background updates have already started to update automatically.</p>
+
+
+
+<p>In addition to the security researcher mentioned above, thank you to everyone who contributed to WordPress 5.1.1:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/afragen/">Andy Fragen</a>, <a href="https://profiles.wordpress.org/vanyukov/">Anton Vanyukov</a>, <a href="https://profiles.wordpress.org/vortfu/">Ben Bidner</a>, <a href="https://profiles.wordpress.org/bulletdigital/">bulletdigital</a>, <a href="https://profiles.wordpress.org/davidbinda/">David Binovec</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/flixos90/">Felix Arntz</a>, <a href="https://profiles.wordpress.org/garrett-eclipse/">Garrett Hyder</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>, <a href="https://profiles.wordpress.org/whyisjake/">Jake Spurlock</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/j-falk/">Johan Falk</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/lukecarbis/">Luke Carbis</a>, <a href="https://profiles.wordpress.org/mikeschroder/">Mike Schroder</a>, <a href="https://profiles.wordpress.org/dimadin/">Milan Dinić</a>, <a href="https://profiles.wordpress.org/mukesh27/">Mukesh Panchal</a>, <a href="https://profiles.wordpress.org/pbiron/">Paul Biron</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, and <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">6736</post-id>
+    </item>
+    <item>
+      <title>WordPress 5.0.1 Security Release</title>
+      <link>https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/</link>
+      <dc:creator><![CDATA[Ian Dunn]]></dc:creator>
+      <pubDate>Thu, 13 Dec 2018 03:13:50 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=6498</guid>
+      <description><![CDATA[WordPress 5.0.1 is now available. This is a security release for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately. Plugin authors are encouraged to read the 5.0.1 developer notes for information on backwards-compatibility. WordPress versions 5.0 and earlier are affected by the following bugs, which are fixed in version [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 5.0.1 is now available. This is a <strong>security release</strong> for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately.</p>
+
+
+
+<p>Plugin authors are encouraged to <a href="https://make.wordpress.org/core/2018/12/13/backwards-compatibility-breaks-in-5-0-1/">read the 5.0.1 developer notes</a> for information on backwards-compatibility.</p>
+
+
+
+<p>WordPress versions 5.0 and earlier are affected by the following bugs, which are fixed in version 5.0.1. Updated versions of WordPress 4.9 and older releases are also available, for users who have not yet updated to 5.0.</p>
+
+
+
+<ul><li><a href="https://ripstech.com">Karim El Ouerghemmi</a> discovered that authors could alter meta data to delete files that they weren&#8217;t authorized to.</li><li>Simon Scannell of <a href="https://blog.ripstech.com">RIPS Technologies</a> discovered that authors could create posts of unauthorized post types with specially crafted input.</li><li><a href="https://twitter.com/_s_n_t">Sam Thomas</a> discovered that contributors could craft meta data in a way that resulted in PHP object injection. </li><li><a href="https://security-consulting.icu">Tim Coen</a> discovered that contributors could edit new comments from higher-privileged users, potentially leading to a cross-site scripting vulnerability.</li><li><a href="https://security-consulting.icu">Tim Coen</a> also discovered that specially crafted URL inputs could lead to a cross-site scripting vulnerability in some circumstances. WordPress itself was not affected, but plugins could be in some situations. </li><li><a href="https://yoast.com/">Team Yoast</a> discovered that the user activation screen could be indexed by search engines in some uncommon configurations, leading to exposure of email addresses, and in some rare cases, default generated passwords.</li><li><a href="https://security-consulting.icu">Tim Coen</a> and <a href="https://medium.com/websec">Slavco</a> discovered that authors on Apache-hosted sites could upload specifically crafted files that bypass MIME verification, leading to a cross-site scripting vulnerability. </li></ul>
+
+
+
+<p>Thank you to all of the reporters for <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">privately disclosing the vulnerabilities</a>, which gave us time to fix them before WordPress sites could be attacked.</p>
+
+
+
+<p><a href="https://wordpress.org/download/">Download WordPress 5.0.1</a>, or venture over to <code>Dashboard → Updates</code> and click <code>Update Now</code>. Sites that support automatic background updates are already beginning to update automatically.</p>
+
+
+
+<p>In addition to the security researchers mentioned above, thank you to everyone who contributed to WordPress 5.0.1:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/tellyworth/">Alex Shiels</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/atimmer/">Anton Timmermans</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/aaroncampbell/">Aaron Campbell</a>, <a href="https://profiles.wordpress.org/andreamiddleton/">Andrea Middleton</a>, <a href="https://profiles.wordpress.org/vortfu/">Ben Bidner</a>, <a href="https://profiles.wordpress.org/barry/">Barry Abrahamson</a>, <a href="https://profiles.wordpress.org/chriscct7/">Chris Christoff</a>, <a href="https://profiles.wordpress.org/darthhexx/">David Newman</a>, <a href="https://profiles.wordpress.org/apokalyptik/">Demitrious Kelly</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/hnotess/">Hannah Notess</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/herregroen/">Herre Groen</a>, <a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnjamesjacoby/">John James Jacoby</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/chanthaboune/">Josepha Haden</a>, <a href="https://profiles.wordpress.org/joostdevalk/">Joost de Valk</a>, <a href="https://profiles.wordpress.org/batmoo/">Mo Jangda</a>, <a href="https://profiles.wordpress.org/nickdaugherty/">Nick Daugherty</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov/">Sergey Biryukov</a>, and <a href="https://twitter.com/p_valentyn">Valentyn Pylypchuk</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">6498</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.9.7 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2018/07/wordpress-4-9-7-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Aaron D. Campbell]]></dc:creator>
+      <pubDate>Thu, 05 Jul 2018 17:00:25 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=6091</guid>
+      <description><![CDATA[WordPress 4.9.7 is now available. This is a security and maintenance release for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately. WordPress versions 4.9.6 and earlier are affected by a media issue that could potentially allow a user with certain capabilities to attempt to delete files outside the uploads [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 4.9.7 is now available. This is a <strong>security and maintenance release</strong> for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately.</p>
+
+
+
+<p>WordPress versions 4.9.6 and earlier are affected by a media issue that could potentially allow a user with certain capabilities to attempt to delete files outside the uploads directory.</p>
+
+
+
+<p>Thank you to <a href="https://hackerone.com/slavco">Slavco</a> for reporting the original issue and <a href="https://www.wordfence.com/">Matt Barry</a> for reporting related issues.</p>
+
+
+
+<p>Seventeen other bugs were fixed in WordPress 4.9.7. Particularly of note were:</p>
+
+
+
+<ul>
+	<li>Taxonomy: Improve cache handling for term queries.</li>
+	<li>Posts, Post Types: Clear post password cookie when logging out.</li>
+	<li>Widgets: Allow basic HTML tags in sidebar descriptions on Widgets admin screen.</li>
+	<li>Community Events Dashboard: Always show the nearest WordCamp if one is coming up, even if there are multiple Meetups happening first.</li>
+	<li>Privacy: Make sure default privacy policy content does not cause a fatal error when flushing rewrite rules outside of the admin context.</li>
+</ul>
+
+
+
+<p><a href="https://wordpress.org/download/">Download WordPress 4.9.7</a> or venture over to Dashboard → Updates and click &#8220;Update Now.&#8221; Sites that support automatic background updates are already beginning to update automatically.</p>
+
+
+
+<p>The previously scheduled 4.9.7 is now referred to as 4.9.8, and will follow the <a href="https://make.wordpress.org/core/2018/07/04/dev-chat-summary-july-4th-4-9-7-week-7/">release schedule posted yesterday</a>.</p>
+
+
+
+<p>Thank you to everyone who contributed to WordPress 4.9.7:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/1naveengiri/">1naveengiri</a>, <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/abdullahramzan/">abdullahramzan</a>, <a href="https://profiles.wordpress.org/alejandroxlopez/">alejandroxlopez</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/aryamaaru/">Arun</a>, <a href="https://profiles.wordpress.org/birgire/">Birgir Erlendsson (birgire)</a>, <a href="https://profiles.wordpress.org/bjornw/">BjornW</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/kraftbj/">Brandon Kraft</a>, <a href="https://profiles.wordpress.org/chetan200891/">Chetan Prajapati</a>, <a href="https://profiles.wordpress.org/dlh/">David Herrera</a>, <a href="https://profiles.wordpress.org/flixos90/">Felix Arntz</a>, <a href="https://profiles.wordpress.org/garetharnold/">Gareth</a>, <a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>, <a href="https://profiles.wordpress.org/ianbelanger/">ibelanger</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/joyously/">Joy</a>, <a href="https://profiles.wordpress.org/khaihong/">khaihong</a>, <a href="https://profiles.wordpress.org/lbenicio/">lbenicio</a>, <a href="https://profiles.wordpress.org/leanderiversen/">Leander Iversen</a>, <a href="https://profiles.wordpress.org/mermel/">mermel</a>, <a href="https://profiles.wordpress.org/metalandcoffee/">metalandcoffee</a>, <a href="https://profiles.wordpress.org/jbpaul17/">Migrated to @jeffpaul</a>, <a href="https://profiles.wordpress.org/palmiak/">palmiak</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/skoldin/">skoldin</a>, <a href="https://profiles.wordpress.org/subrataemfluence/">Subrata Sarkar</a>, <a href="https://profiles.wordpress.org/itowhid06/">Towhidul Islam</a>, <a href="https://profiles.wordpress.org/warmlaundry/">warmlaundry</a>, and <a href="https://profiles.wordpress.org/yuriv/">YuriV</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">6091</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.9.5 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2018/04/wordpress-4-9-5-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Aaron D. Campbell]]></dc:creator>
+      <pubDate>Tue, 03 Apr 2018 19:56:54 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.9]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=5645</guid>
+      <description><![CDATA[WordPress 4.9.5 is now available. This is a security and maintenance release for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately. WordPress versions 4.9.4 and earlier are affected by three security issues. As part of the core team&#x27;s ongoing commitment to security hardening, the following fixes have been implemented [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 4.9.5 is now available. This is a <strong>security and maintenance release</strong> for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately.</p>
+
+
+
+<p>WordPress versions 4.9.4 and earlier are affected by three security issues. As part of the core team&#x27;s ongoing commitment to security hardening, the following fixes have been implemented in 4.9.5:</p>
+
+
+
+<ol>
+    <li>Don&#x27;t treat <code>localhost</code> as same host by default.</li>
+    <li>Use safe redirects when redirecting the login page if SSL is forced.</li>
+    <li>Make sure the version string is correctly escaped for use in generator tags.</li>
+</ol>
+
+
+
+<p>Thank you to the reporters of these issues for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">﻿coordinated security disclosure</a>: <a href="https://profiles.wordpress.org/xknown/">xknown</a> of the WordPress Security Team, <a href="https://hackerone.com/nitstorm">Nitin Venkatesh (nitstorm)</a>, and <a href="https://twitter.com/voldemortensen">Garth Mortensen</a> of the WordPress Security Team.</p>
+
+
+
+<p>Twenty-five other bugs were fixed in WordPress 4.9.5. Particularly of note were:</p>
+
+
+
+<ul>
+    <li>The previous styles on caption shortcodes have been restored.</li>
+    <li>Cropping on touch screen devices is now supported.</li>
+    <li>A variety of strings such as error messages have been updated for better clarity.</li>
+    <li>The position of an attachment placeholder during uploads has been fixed.</li>
+    <li>Custom nonce functionality in the REST API JavaScript client has been made consistent throughout the code base.</li>
+    <li>Improved compatibility with PHP 7.2.</li>
+</ul>
+
+
+
+<p><a href="https://make.wordpress.org/core/2018/04/03/wordpress-4-9-5/">This post has more information about all of the issues fixed in 4.9.5 if you&#x27;d like to learn more</a>.</p>
+
+
+
+<p><a href="https://wordpress.org/download/">Download WordPress 4.9.5</a> or venture over to Dashboard → Updates and click &quot;Update Now.&quot; Sites that support automatic background updates are already beginning to update automatically.</p>
+
+
+
+<p>Thank you to everyone who contributed to WordPress 4.9.5:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/1265578519-1/">1265578519</a>, <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/adamsilverstein/">Adam Silverstein</a>, <a href="https://profiles.wordpress.org/schlessera/">Alain Schlesser</a>, <a href="https://profiles.wordpress.org/alexgso/">alexgso</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/andrei0x309/">andrei0x309</a>, <a href="https://profiles.wordpress.org/antipole/">antipole</a>, <a href="https://profiles.wordpress.org/aranwer104/">Anwer AR</a>, <a href="https://profiles.wordpress.org/birgire/">Birgir Erlendsson (birgire)</a>, <a href="https://profiles.wordpress.org/blair-jersyer/">Blair jersyer</a>, <a href="https://profiles.wordpress.org/bandonrandon/">Brooke.</a>, <a href="https://profiles.wordpress.org/chetan200891/">Chetan Prajapati</a>, <a href="https://profiles.wordpress.org/codegrau/">codegrau</a>, <a href="https://profiles.wordpress.org/conner_bw/">conner_bw</a>, <a href="https://profiles.wordpress.org/davidakennedy/">David A. Kennedy</a>, <a href="https://profiles.wordpress.org/designsimply/">designsimply</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling (ocean90)</a>, <a href="https://profiles.wordpress.org/electricfeet/">ElectricFeet</a>, <a href="https://profiles.wordpress.org/ericmeyer/">ericmeyer</a>, <a href="https://profiles.wordpress.org/fpcsjames/">FPCSJames</a>, <a href="https://profiles.wordpress.org/garrett-eclipse/">Garrett Hyder</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/soulseekah/">Gennady Kovshenin</a>, <a href="https://profiles.wordpress.org/henrywright/">Henry Wright</a>, <a href="https://profiles.wordpress.org/audrasjb/">Jb Audras</a>, <a href="https://profiles.wordpress.org/jbpaul17/">Jeffrey Paul</a>, <a href="https://profiles.wordpress.org/jipmoors/">Jip Moors</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/joen/">Joen Asmussen</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/johnpgreen/">johnpgreen</a>, <a href="https://profiles.wordpress.org/junaidkbr/">Junaid Ahmed</a>, <a href="https://profiles.wordpress.org/kristastevens/">kristastevens</a>, <a href="https://profiles.wordpress.org/obenland/">Konstantin Obenland</a>, <a href="https://profiles.wordpress.org/lakenh/">Laken Hafner</a>, <a href="https://profiles.wordpress.org/lancewillett/">Lance Willett</a>, <a href="https://profiles.wordpress.org/leemon/">leemon</a>, <a href="https://profiles.wordpress.org/melchoyce/">Mel Choyce</a>, <a href="https://profiles.wordpress.org/mikeschroder/">Mike Schroder</a>, <a href="https://profiles.wordpress.org/mrmadhat/">mrmadhat</a>, <a href="https://profiles.wordpress.org/nandorsky/">nandorsky</a>, <a href="https://profiles.wordpress.org/jainnidhi/">Nidhi Jain</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/qcmiao/">qcmiao</a>, <a href="https://profiles.wordpress.org/rachelbaker/">Rachel Baker</a>, <a href="https://profiles.wordpress.org/larrach/">Rachel Peter</a>, <a href="https://profiles.wordpress.org/ravanh/">RavanH</a>, <a href="https://profiles.wordpress.org/otto42/">Samuel Wood (Otto)</a>, <a href="https://profiles.wordpress.org/sebastienthivinfocom/">Sebastien SERRE</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/shital-patel/">Shital Marakana</a>, <a href="https://profiles.wordpress.org/netweb/">Stephen Edgar</a>, <a href="https://profiles.wordpress.org/karmatosed/">Tammie Lister</a>, <a href="https://profiles.wordpress.org/thomas-vitale/">Thomas Vitale</a>, <a href="https://profiles.wordpress.org/kwonye/">Will Kwon</a>, and <a href="https://profiles.wordpress.org/yahil/">Yahil Madakiya</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">5645</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.9.2 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2018/01/wordpress-4-9-2-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Ian Dunn]]></dc:creator>
+      <pubDate>Tue, 16 Jan 2018 23:00:14 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.9]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=5376</guid>
+      <description><![CDATA[WordPress 4.9.2 is now available. This is a security and maintenance release for all versions since WordPress 3.7﻿. We strongly encourage you to update your sites immediately. An XSS vulnerability was discovered in the Flash fallback files in MediaElement, a library that is included with WordPress. Because the Flash files are no longer needed for [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 4.9.2 is now available. This is a <strong>security and maintenance release</strong> for all versions since WordPress 3.7﻿. We strongly encourage you to update your sites immediately.</p>
+
+
+
+<p>An XSS vulnerability was discovered in the Flash fallback files in MediaElement, a library that is included with WordPress. Because the Flash files are no longer needed for most use cases, they have been removed from WordPress.</p>
+
+
+
+<p>MediaElement has released a new version that contains a fix for the bug, and <a href="https://wordpress.org/plugins/mediaelement-flash-fallbacks/">a WordPress plugin containing the fixed files</a> is available in the plugin repository.</p>
+
+
+
+<p>Thank you to the reporters of this issue for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible security disclosure</a>: <a href="https://opnsec.com">Enguerran Gillier</a> and <a href="https://widiz.com/">Widiz﻿</a>.</p>
+
+
+
+<p>21 other bugs were fixed in WordPress 4.9.2. Particularly of note were:</p>
+
+
+
+<ul>
+    <li>JavaScript errors that prevented saving posts in Firefox have been fixed.</li>
+    <li>The previous taxonomy-agnostic behavior of <code>get_category_link()</code> and <code>category_description()</code> was restored.</li>
+    <li>Switching themes will now attempt to restore previous widget assignments, even when there are no sidebars to map.<br /></li>
+</ul>
+
+
+
+<p>The Codex has <a href="https://codex.wordpress.org/Version_4.9.2">more information about all of the issues fixed in 4.9.2</a>, if you&#x27;d like to learn more.</p>
+
+
+
+<p>﻿<a href="https://wordpress.org/download/"></a><a href="https://wordpress.org/download/">Download WordPress 4.9.2</a> or venture over to Dashboard → Updates and click &quot;Update Now.&quot; Sites that support automatic background updates are already beginning to update automatically.</p>
+
+
+
+<p>Thank you to everyone who contributed to WordPress 4.9.2:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/0x6f0/">0x6f0</a>, <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/aduth/">Andrew Duthie</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/blobfolio/">Blobfolio</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/icaleb/">Caleb Burks</a>, <a href="https://profiles.wordpress.org/poena/">Carolina Nymark</a>, <a href="https://profiles.wordpress.org/chasewg/">chasewg</a>, <a href="https://profiles.wordpress.org/chetan200891/">Chetan Prajapati</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/hardik-amipara/">Hardik Amipara</a>, <a href="https://profiles.wordpress.org/ionvv/">ionvv</a>, <a href="https://profiles.wordpress.org/jaswrks/">Jason Caldwell</a>, <a href="https://profiles.wordpress.org/jbpaul17/">Jeffrey Paul</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnschulz/">johnschulz</a>, <a href="https://profiles.wordpress.org/juiiee8487/">Juhi Patel</a>, <a href="https://profiles.wordpress.org/obenland/">Konstantin Obenland</a>, <a href="https://profiles.wordpress.org/markjaquith/">Mark Jaquith</a>, <a href="https://profiles.wordpress.org/rabmalin/">Nilambar Sharma</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/rachelbaker/">Rachel Baker</a>, <a href="https://profiles.wordpress.org/rinkuyadav999/">Rinku Y</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, and <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a>.﻿<strong></strong><br /></p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">5376</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.9.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2017/11/wordpress-4-9-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[John Blackbourn]]></dc:creator>
+      <pubDate>Wed, 29 Nov 2017 20:33:11 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=5215</guid>
+      <description><![CDATA[WordPress 4.9.1 is now available. This is a security and maintenance release for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately. WordPress versions 4.9 and earlier are affected by four security issues which could potentially be exploited as part of a multi-vector attack. As part of the core team&#x27;s [&#8230;]]]></description>
+      <content:encoded><![CDATA[
+<p>WordPress 4.9.1 is now available. This is a <strong>security and maintenance release</strong> for all versions since WordPress 3.7. We strongly encourage you to update your sites immediately.</p>
+
+
+
+<p>WordPress versions 4.9 and earlier are affected by four security issues which could potentially be exploited as part of a multi-vector attack. As part of the core team&#x27;s ongoing commitment to security hardening, the following fixes have been implemented in 4.9.1:</p>
+
+
+
+<ol>
+    <li>Use a properly generated hash for the <code>newbloguser</code> key instead of a determinate substring.</li>
+    <li>Add escaping to the language attributes used on <code>html</code> elements.</li>
+    <li>Ensure the attributes of enclosures are correctly escaped in RSS and Atom feeds.</li>
+    <li>Remove the ability to upload JavaScript files for users who do not have the <code>unfiltered_html</code> capability.</li>
+</ol>
+
+
+
+<p>Thank you to the reporters of these issues for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible security disclosure</a>: <a href="https://twitter.com/0x62626262">Rahul Pratap Singh</a> and John Blackbourn.</p>
+
+
+
+<p>Eleven other bugs were fixed in WordPress 4.9.1. Particularly of note were:</p>
+
+
+
+<ul>
+    <li>Issues relating to the caching of theme template files.</li>
+    <li>A MediaElement JavaScript error preventing users of certain languages from being able to upload media files.</li>
+    <li>The inability to edit theme and plugin files on Windows based servers.</li>
+</ul>
+
+
+
+<p><a href="https://make.wordpress.org/core/2017/11/28/wordpress-4-9-1-scheduled-for-november-29th/">This post has more information about all of the issues fixed in 4.9.1 if you&#x27;d like to learn more</a>.</p>
+
+
+
+<p><a href="https://wordpress.org/download/">Download WordPress 4.9.1</a> or venture over to Dashboard → Updates and click &quot;Update Now.&quot; Sites that support automatic background updates are already beginning to update automatically.</p>
+
+
+
+<p>Thank you to everyone who contributed to WordPress 4.9.1:</p>
+
+
+
+<p><a href="https://profiles.wordpress.org/schlessera/">Alain Schlesser</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/la-geek/">Angelika Reisiger</a>, <a href="https://profiles.wordpress.org/blobfolio/">Blobfolio</a>, <a href="https://profiles.wordpress.org/bobbingwide/">bobbingwide</a>, <a href="https://profiles.wordpress.org/chetan200891/">Chetan Prajapati</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling (ocean90)</a>, <a href="https://profiles.wordpress.org/edo888/">edo888</a>, <a href="https://profiles.wordpress.org/erich_k4wp/">Erich Munz</a>, <a href="https://profiles.wordpress.org/flixos90/">Felix Arntz</a>, <a href="https://profiles.wordpress.org/mista-flo/">Florian TIAR</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/ibenic/">Igor Benic</a>, <a href="https://profiles.wordpress.org/jfarthing84/">Jeff Farthing</a>, <a href="https://profiles.wordpress.org/jbpaul17/">Jeffrey Paul</a>, <a href="https://profiles.wordpress.org/jeremyescott/">jeremyescott</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/johnpgreen/">johnpgreen</a>, <a href="https://profiles.wordpress.org/ryelle/">Kelly Dwan</a>, <a href="https://profiles.wordpress.org/lenasterg/">lenasterg</a>, <a href="https://profiles.wordpress.org/clorith/">Marius L. J.</a>, <a href="https://profiles.wordpress.org/melchoyce/">Mel Choyce</a>, <a href="https://profiles.wordpress.org/mariovalney/">Mário Valney</a>, <a href="https://profiles.wordpress.org/natacado/">natacado</a>, <a href="https://profiles.wordpress.org/odysseygate/">odyssey</a>, <a href="https://profiles.wordpress.org/precies/">precies</a>, <a href="https://profiles.wordpress.org/stodorovic/">Saša</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, and <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">5215</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.8.3 Security Release</title>
+      <link>https://wordpress.org/news/2017/10/wordpress-4-8-3-security-release/</link>
+      <dc:creator><![CDATA[Gary Pendergast]]></dc:creator>
+      <pubDate>Tue, 31 Oct 2017 14:20:16 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.8]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=5035</guid>
+      <description><![CDATA[WordPress 4.8.3 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.8.2 and earlier are affected by an issue where $wpdb->prepare() can create unexpected and unsafe queries leading to potential SQL injection (SQLi). WordPress core is not directly vulnerable to [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.8.3 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.8.2 and earlier are affected by an issue where <code>$wpdb->prepare()</code> can create unexpected and unsafe queries leading to potential SQL injection (SQLi). WordPress core is not directly vulnerable to this issue, but we’ve added hardening to prevent plugins and themes from accidentally causing a vulnerability. Reported by <a href="https://twitter.com/ircmaxell">Anthony Ferrara</a>.</p>
+<p>This release includes a change in behaviour for the <code>esc_sql()</code> function. Most developers will not be affected by this change, you can read more details in the <a href="https://make.wordpress.org/core/2017/10/31/changed-behaviour-of-esc_sql-in-wordpress-4-8-3/">developer note</a>.</p>
+<p>Thank you to the reporter of this issue for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.8.3</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.8.3.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">5035</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.8.2 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2017/09/wordpress-4-8-2-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Aaron D. Campbell]]></dc:creator>
+      <pubDate>Tue, 19 Sep 2017 22:17:15 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4909</guid>
+      <description><![CDATA[WordPress 4.8.2 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.8.1 and earlier are affected by these security issues: $wpdb->prepare() can create unexpected and unsafe queries leading to potential SQL injection (SQLi). WordPress core is not directly vulnerable to this [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.8.2 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.8.1 and earlier are affected by these security issues:</p>
+<ol>
+<li><code>$wpdb->prepare()</code> can create unexpected and unsafe queries leading to potential SQL injection (SQLi). WordPress core is not directly vulnerable to this issue, but we&#8217;ve added hardening to prevent plugins and themes from accidentally causing a vulnerability. Reported by <a href="https://hackerone.com/slavco">Slavco</a></li>
+<li>A cross-site scripting (XSS) vulnerability was discovered in the oEmbed discovery. Reported by xknown of the WordPress Security Team.</li>
+<li>A cross-site scripting (XSS) vulnerability was discovered in the visual editor. Reported by <a href="https://twitter.com/brutelogic">Rodolfo Assis (@brutelogic)</a> of Sucuri Security.</li>
+<li>A path traversal vulnerability was discovered in the file unzipping code. Reported by <a href="https://hackerone.com/noxrnet">Alex Chapman (noxrnet)</a>.</li>
+<li>A cross-site scripting (XSS) vulnerability was discovered in the plugin editor. Reported by 陈瑞琦 (Chen Ruiqi).</li>
+<li>An open redirect was discovered on the user and term edit screens. Reported by <a href="https://hackerone.com/ysx">Yasin Soliman (ysx)</a>.</li>
+<li>A path traversal vulnerability was discovered in the customizer. Reported by Weston Ruter of the WordPress Security Team.</li>
+<li>A cross-site scripting (XSS) vulnerability was discovered in template names. Reported by <a href="https://hackerone.com/sikic">Luka (sikic)</a>.</li>
+<li>A cross-site scripting (XSS) vulnerability was discovered in the link modal. Reported by <a href="https://hackerone.com/qasuar">Anas Roubi (qasuar)</a>.</li>
+</ol>
+<p>Thank you to the reporters of these issues for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p>In addition to the security issues above, WordPress 4.8.2 contains 6 maintenance fixes to the 4.8 release series. For more information, see the <a href="https://codex.wordpress.org/Version_4.8.2">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?status=closed&amp;milestone=4.8.2&amp;group=component&amp;col=id&amp;col=summary&amp;col=component&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=keywords&amp;order=priority">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.8.2</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.8.2.</p>
+<p>Thanks to everyone who contributed to 4.8.2.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4909</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.7.5 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2017/05/wordpress-4-7-5/</link>
+      <dc:creator><![CDATA[Pascal Birchler]]></dc:creator>
+      <pubDate>Tue, 16 May 2017 22:39:31 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.7]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4734</guid>
+      <description><![CDATA[WordPress 4.7.5 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.7.4 and earlier are affected by six security issues: Insufficient redirect validation in the HTTP class. Reported by Ronni Skansing. Improper handling of post meta data values in the XML-RPC [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.7.5 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.7.4 and earlier are affected by six security issues:</p>
+<ol>
+<li>Insufficient redirect validation in the HTTP class. Reported by <a href="https://dk.linkedin.com/in/ronni-skansing-36143b65">Ronni Skansing</a>.</li>
+<li>Improper handling of post meta data values in the XML-RPC API. Reported by <a href="https://hackerone.com/jazzy2fives">Sam Thomas</a>.</li>
+<li>Lack of capability checks for post meta data in the XML-RPC API. Reported by <a href="https://profiles.wordpress.org/vortfu/">Ben Bidner</a> of the WordPress Security Team.</li>
+<li>A Cross Site Request Forgery (CSRF)  vulnerability was discovered in the filesystem credentials dialog. Reported by <a href="https://twitter.com/yorickkoster">Yorick Koster</a>.</li>
+<li>A cross-site scripting (XSS) vulnerability was discovered when attempting to upload very large files. Reported by <a href="https://dk.linkedin.com/in/ronni-skansing-36143b65">Ronni Skansing</a>.</li>
+<li>A cross-site scripting (XSS) vulnerability was discovered related to the Customizer. Reported by <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a> of the WordPress Security Team.</li>
+</ol>
+<p>Thank you to the reporters of these issues for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p>In addition to the security issues above, WordPress 4.7.5 contains 3 maintenance fixes to the 4.7 release series. For more information, see the <a href="https://codex.wordpress.org/Version_4.7.5">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?status=closed&amp;milestone=4.7.5&amp;group=component&amp;col=id&amp;col=summary&amp;col=component&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=keywords&amp;order=priority">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.7.5</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.7.5.</p>
+<p>Thanks to everyone who contributed to 4.7.5.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4734</post-id>
+    </item>
+    <item>
+      <title>WordPress Now on HackerOne</title>
+      <link>https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/</link>
+      <dc:creator><![CDATA[Aaron D. Campbell]]></dc:creator>
+      <pubDate>Mon, 15 May 2017 16:02:19 +0000</pubDate>
+      <category><![CDATA[Security]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4730</guid>
+      <description><![CDATA[WordPress has grown a lot over the last thirteen years – it now powers more than 28% of the top ten million sites on the web. During this growth, each team has worked hard to continually improve their tools and processes. Today, the WordPress Security Team is happy to announce that WordPress is now officially [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress has grown a lot over the last thirteen years – it now powers more than 28% of the top ten million sites on the web. During this growth, each team has worked hard to continually improve their tools and processes. Today, the WordPress Security Team is happy to announce that <a href="https://hackerone.com/wordpress">WordPress is now officially on HackerOne</a>!</p>
+<p><a href="https://www.hackerone.com/about">HackerOne</a> is a platform for security researchers to securely and responsibly report vulnerabilities to our team. It provides tools that improve the quality and consistency of communication with reporters, and will reduce the time spent on responding to commonly reported issues. This frees our team to spend more time working on improving the security of WordPress.</p>
+<p>The security team has been working on this project for quite some time. Nikolay Bachiyski started the team working on it just over a year ago. We ran it as a private program while we worked out our procedures and processes, and are excited to finally make it public.</p>
+<p>With the announcement of the WordPress HackerOne program we are also introducing bug bounties. Bug bounties let us reward reporters for disclosing issues to us and helping us secure our products and infrastructure. We&#8217;ve already awarded more than $3,700 in bounties to seven different reporters! We are thankful to Automattic for paying the bounties on behalf of the WordPress project.</p>
+<p>The program and bounties cover all our projects including WordPress, BuddyPress, bbPress, GlotPress, and WP-CLI as well as all of our sites including WordPress.org, bbPress.org, WordCamp.org, BuddyPress.org, and GlotPress.org.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4730</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.7.3 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2017/03/wordpress-4-7-3-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[James Nylen]]></dc:creator>
+      <pubDate>Mon, 06 Mar 2017 17:53:30 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.7]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4696</guid>
+      <description><![CDATA[WordPress 4.7.3 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.7.2 and earlier are affected by six security issues: Cross-site scripting (XSS) via media file metadata.  Reported by Chris Andrè Dale, Yorick Koster, and Simon P. Briggs. Control characters can trick redirect [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.7.3 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.7.2 and earlier are affected by six security issues:</p>
+<ol>
+<li>Cross-site scripting (XSS) via media file metadata.  Reported by <a href="https://www.securesolutions.no/">Chris Andrè Dale</a>, <a href="https://twitter.com/yorickkoster">Yorick Koster</a>, and Simon P. Briggs.</li>
+<li>Control characters can trick redirect URL validation.  Reported by <a href="http://www.danielchatfield.com/">Daniel Chatfield</a>.</li>
+<li>Unintended files can be deleted by administrators using the plugin deletion functionality.  Reported by <a href="https://hackerone.com/triginc">TrigInc</a> and <a href="http://b.360.cn/">xuliang</a>.</li>
+<li>Cross-site scripting (XSS) via video URL in YouTube embeds.  Reported by <a href="https://twitter.com/marcs0h">Marc Montpas</a>.</li>
+<li>Cross-site scripting (XSS) via taxonomy term names.  Reported by <a href="https://profiles.wordpress.org/deltamgm2/">Delta</a>.</li>
+<li>Cross-site request forgery (CSRF) in Press This leading to excessive use of server resources.  Reported by Sipke Mellema.</li>
+</ol>
+<p>Thank you to the reporters for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p>In addition to the security issues above, WordPress 4.7.3 contains 39 maintenance fixes to the 4.7 release series. For more information, see the <a href="https://codex.wordpress.org/Version_4.7.3">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?status=closed&amp;milestone=4.7.3&amp;group=component&amp;col=id&amp;col=summary&amp;col=component&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=keywords&amp;order=priority">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.7.3</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.7.3.</p>
+<p>Thanks to everyone who contributed to 4.7.3: <a href="https://profiles.wordpress.org/aaroncampbell/">Aaron D. Campbell</a>, <a href="https://profiles.wordpress.org/adamsilverstein/">Adam Silverstein</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/asalce/">asalce</a>, <a href="https://profiles.wordpress.org/blobfolio/">blobfolio</a>, <a href="https://profiles.wordpress.org/gitlost/">bonger</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/bor0/">Boro Sitnikovski</a>, <a href="https://profiles.wordpress.org/bradyvercher/">Brady Vercher</a>, <a href="https://profiles.wordpress.org/drrobotnik/">Brandon Lavigne</a>, <a href="https://profiles.wordpress.org/bhargavbhandari90/">Bunty</a>, <a href="https://profiles.wordpress.org/ccprog/">ccprog</a>, <a href="https://profiles.wordpress.org/ketuchetan/">chetansatasiya</a>, <a href="https://profiles.wordpress.org/davidakennedy/">David A. Kennedy</a>, <a href="https://profiles.wordpress.org/dlh/">David Herrera</a>, <a href="https://profiles.wordpress.org/dhanendran/">Dhanendran</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling (ocean90)</a>, <a href="https://profiles.wordpress.org/drivingralle/">Drivingralle</a>, <a href="https://profiles.wordpress.org/iseulde/">Ella Van Dorpe</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>, <a href="https://profiles.wordpress.org/ipstenu/">Ipstenu (Mika Epstein)</a>, <a href="https://profiles.wordpress.org/jnylen0/">James Nylen</a>, <a href="https://profiles.wordpress.org/jazbek/">jazbek</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/jpry/">Jeremy Pry</a>, <a href="https://profiles.wordpress.org/joehoyle/">Joe Hoyle</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/johnjamesjacoby/">John James Jacoby</a>, <a href="https://profiles.wordpress.org/desrosj/">Jonathan Desrosiers</a>, <a href="https://profiles.wordpress.org/ryelle/">Kelly Dwan</a>, <a href="https://profiles.wordpress.org/markoheijnen/">Marko Heijnen</a>, <a href="https://profiles.wordpress.org/matheusgimenez/">MatheusGimenez</a>, <a href="https://profiles.wordpress.org/mnelson4/">Mike Nelson</a>, <a href="https://profiles.wordpress.org/mikeschroder/">Mike Schroder</a>, <a href="https://profiles.wordpress.org/codegeass/">Muhammet Arslan</a>, <a href="https://profiles.wordpress.org/celloexpressions/">Nick Halsey</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/pbearne/">Paul Bearne</a>, <a href="https://profiles.wordpress.org/pavelevap/">pavelevap</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/rachelbaker/">Rachel Baker</a>, <a href="https://profiles.wordpress.org/reldev/">reldev</a>, <a href="https://profiles.wordpress.org/sanchothefat/">Robert O&#8217;Rourke</a>, <a href="https://profiles.wordpress.org/welcher/">Ryan Welcher</a>, <a href="https://profiles.wordpress.org/sanketparmar/">Sanket Parmar</a>, <a href="https://profiles.wordpress.org/seanchayes/">Sean Hayes</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/netweb/">Stephen Edgar</a>, <a href="https://profiles.wordpress.org/triplejumper12/">triplejumper12</a>, <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a>, and <a href="https://profiles.wordpress.org/wpfo/">wpfo</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4696</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.7.2 Security Release</title>
+      <link>https://wordpress.org/news/2017/01/wordpress-4-7-2-security-release/</link>
+      <dc:creator><![CDATA[Aaron D. Campbell]]></dc:creator>
+      <pubDate>Thu, 26 Jan 2017 19:34:02 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.7]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4676</guid>
+      <description><![CDATA[WordPress 4.7.2 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.7.1 and earlier are affected by three security issues: The user interface for assigning taxonomy terms in Press This is shown to users who do not have permissions to use it. [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.7.2 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.7.1 and earlier are affected by three security issues:</p>
+<ol>
+<li>The user interface for assigning taxonomy terms in Press This is shown to users who do not have permissions to use it. Reported by David Herrera of <a href="https://www.alleyinteractive.com/">Alley Interactive</a>.</li>
+<li><code>WP_Query</code> is vulnerable to a SQL injection (SQLi) when passing unsafe data. WordPress core is not directly vulnerable to this issue, but we&#8217;ve added hardening to prevent plugins and themes from accidentally causing a vulnerability. Reported by <a href="https://github.com/mjangda">Mo Jangda</a> (batmoo).</li>
+<li>A cross-site scripting (XSS) vulnerability was discovered in the posts list table. Reported by <a href="https://iandunn.name/">Ian Dunn</a> of the WordPress Security Team.</li>
+<li>An unauthenticated privilege escalation vulnerability was discovered in a REST API endpoint. Reported by <a href="https://twitter.com/MarcS0h">Marc-Alexandre Montpas</a> of Sucuri Security. *</li>
+</ol>
+<p>Thank you to the reporters of these issues for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.7.2</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.7.2.</p>
+<p>Thanks to everyone who contributed to 4.7.2.</p>
+<p>* Update: An additional serious vulnerability was fixed in this release and public disclosure was delayed. For more information on this vulnerability, additional mitigation steps taken, and an explanation for why disclosure was delayed, please read <a href="https://make.wordpress.org/core/2017/02/01/disclosure-of-additional-security-fix-in-wordpress-4-7-2/">Disclosure of Additional Security Fix in WordPress 4.7.2</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4676</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.7.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2017/01/wordpress-4-7-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Aaron D. Campbell]]></dc:creator>
+      <pubDate>Wed, 11 Jan 2017 03:53:57 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.7]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4650</guid>
+      <description><![CDATA[WordPress 4.7 has been downloaded over 10 million times since its release on December 6, 2016 and we are pleased to announce the immediate availability of WordPress 4.7.1. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.7 and earlier are affected by eight security issues: [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.7 has been <a href="https://wordpress.org/download/counter/">downloaded over 10 million times</a> since its release on December 6, 2016 and we are pleased to announce the immediate availability of WordPress 4.7.1. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.7 and earlier are affected by eight security issues:</p>
+<ol>
+<li>Remote code execution (RCE) in PHPMailer &#8211; <em>No specific issue appears to affect WordPress</em> or any of the major plugins we investigated but, out of an abundance of caution, we updated PHPMailer in this release. This issue was fixed in PHPMailer thanks to <a href="https://legalhackers.com/">Dawid Golunski</a> and <a href="https://twitter.com/Zenexer">Paul Buonopane</a>.</li>
+<li>The REST API exposed user data for all users who had authored a post of a public post type. WordPress 4.7.1 limits this to only post types which have specified that they should be shown within the REST API. Reported by <a href="https://poststatus.com/">Krogsgard</a> and <a href="https://ithemes.com/">Chris Jean</a>.</li>
+<li>Cross-site scripting (XSS) via the plugin name or version header on <code>update-core.php</code>. Reported by <a href="https://dominikschilling.de/">Dominik Schilling</a> of the WordPress Security Team.</li>
+<li>Cross-site request forgery (CSRF) bypass via uploading a Flash file. Reported by <a href="https://twitter.com/Abdulahhusam">Abdullah Hussam</a>.</li>
+<li>Cross-site scripting (XSS) via theme name fallback. Reported by <a href="https://pentest.blog/">Mehmet Ince</a>.</li>
+<li>Post via email checks <code>mail.example.com</code> if default settings aren&#8217;t changed. Reported by John Blackbourn of the WordPress Security Team.</li>
+<li>A cross-site request forgery (CSRF) was discovered in the accessibility mode of widget editing. Reported by <a href="https://dk.linkedin.com/in/ronni-skansing-36143b65">Ronnie Skansing</a>.</li>
+<li>Weak cryptographic security for multisite activation key. Reported by <a href="https://itsjack.cc/">Jack</a>.</li>
+</ol>
+<p>Thank you to the reporters for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p>In addition to the security issues above, WordPress 4.7.1 fixes 62 bugs from 4.7. For more information, see the <a href="https://codex.wordpress.org/Version_4.7.1">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?milestone=4.7.1">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.7.1</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.7.1.</p>
+<p>Thanks to everyone who contributed to 4.7.1: <a href="https://profiles.wordpress.org/aaroncampbell/">Aaron D. Campbell</a>, <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/adamsilverstein/">Adam Silverstein</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/gitlost/">bonger</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/chandrapatel/">Chandra Patel</a>, <a href="https://profiles.wordpress.org/christian1012/">Christian Chung</a>, <a href="https://profiles.wordpress.org/dlh/">David Herrera</a>, <a href="https://profiles.wordpress.org/dshanske/">David Shanske</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling (ocean90)</a>, <a href="https://profiles.wordpress.org/dreamon11/">DreamOn11</a>, <a href="https://profiles.wordpress.org/chopinbach/">Edwin Cromley</a>, <a href="https://profiles.wordpress.org/iseulde/">Ella van Dorpe</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/hristo-sg/">Hristo Pandjarov</a>, <a href="https://profiles.wordpress.org/jnylen0/">James Nylen</a>, <a href="https://profiles.wordpress.org/jblz/">Jeff Bowen</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/jpry/">Jeremy Pry</a>, <a href="https://profiles.wordpress.org/joehoyle/">Joe Hoyle</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/kkoppenhaver/">Keanan Koppenhaver</a>, <a href="https://profiles.wordpress.org/obenland/">Konstantin Obenland</a>, <a href="https://profiles.wordpress.org/laurelfulford/">laurelfulford</a>, <a href="https://profiles.wordpress.org/tyxla/">Marin Atanasov</a>, <a href="https://profiles.wordpress.org/mattyrob/">mattyrob</a>, <a href="https://profiles.wordpress.org/monikarao/">monikarao</a>, <a href="https://profiles.wordpress.org/natereist/">Nate Reist</a>, <a href="https://profiles.wordpress.org/celloexpressions/">Nick Halsey</a>, <a href="https://profiles.wordpress.org/nikschavan/">Nikhil Chavan</a>, <a href="https://profiles.wordpress.org/nullvariable/">nullvariable</a>, <a href="https://profiles.wordpress.org/sirbrillig/">Payton Swick</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/presskopp/">Presskopp</a>, <a href="https://profiles.wordpress.org/rachelbaker/">Rachel Baker</a>, <a href="https://profiles.wordpress.org/rmccue/">Ryan McCue</a>, <a href="https://profiles.wordpress.org/sanketparmar/">Sanket Parmar</a>, <a href="https://profiles.wordpress.org/sebastianpisula/">Sebastian Pisula</a>, <a href="https://profiles.wordpress.org/sfpt/">sfpt</a>, <a href="https://profiles.wordpress.org/shazahm1hotmailcom/">shazahm1</a>, <a href="https://profiles.wordpress.org/sstoqnov/">Stanimir Stoyanov</a>, <a href="https://profiles.wordpress.org/stevenkword/">Steven Word</a>, <a href="https://profiles.wordpress.org/szaqal21/">szaqal21</a>, <a href="https://profiles.wordpress.org/timph/">timph</a>, <a href="https://profiles.wordpress.org/voldemortensen/">voldemortensen</a>, <a href="https://profiles.wordpress.org/vortfu/">vortfu</a>, and <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4650</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.6.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2016/09/wordpress-4-6-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Jeremy Felt]]></dc:creator>
+      <pubDate>Wed, 07 Sep 2016 15:52:09 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.6]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4507</guid>
+      <description><![CDATA[WordPress 4.6.1 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.6 and earlier are affected by two security issues: a cross-site scripting vulnerability via image filename, reported by SumOfPwn researcher Cengiz Han Sahin; and a path traversal vulnerability in [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.6.1 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.6 and earlier are affected by two security issues: a cross-site scripting vulnerability via image filename, reported by SumOfPwn researcher <a href="https://twitter.com/cengizhansahin">Cengiz Han Sahin</a>; and a path traversal vulnerability in the upgrade package uploader, reported by <a href="https://dominikschilling.de/">Dominik Schilling</a> from the WordPress security team.</p>
+<p>Thank you to the reporters for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p>In addition to the security issues above, WordPress 4.6.1 fixes 15 bugs from 4.6. For more information, see the <a href="https://codex.wordpress.org/Version_4.6.1">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?milestone=4.6.1">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.6.1</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.6.1.</p>
+<p>Thanks to everyone who contributed to 4.6.1:</p>
+<p><a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/gitlost/">bonger</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/chaos-engine/">Chaos Engine</a>, <a href="https://profiles.wordpress.org/danielkanchev/">Daniel Kanchev</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/drewapicture/">Drew Jaynes</a>, <a href="https://profiles.wordpress.org/flixos90/">Felix Arntz</a>, <a href="https://profiles.wordpress.org/frozzare/">Fredrik Forsmo</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/geminorum/">geminorum</a>, <a href="https://profiles.wordpress.org/iandunn/">Ian Dunn</a>, <a href="https://profiles.wordpress.org/ionutst/">Ionut Stanciu</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/clorith/">Marius L. J. (Clorith)</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/rpayne7264/">Robert D Payne</a>, <a href="https://profiles.wordpress.org/sergeybiryukov/">Sergey Biryukov</a>, and <a href="https://profiles.wordpress.org/nmt90/">Triet Minh</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4507</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.5.3 Maintenance and Security Release</title>
+      <link>https://wordpress.org/news/2016/06/wordpress-4-5-3/</link>
+      <dc:creator><![CDATA[Adam Silverstein]]></dc:creator>
+      <pubDate>Sat, 18 Jun 2016 09:38:15 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.5]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4311</guid>
+      <description><![CDATA[WordPress 4.5.3 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.5.2 and earlier are affected by several security issues: redirect bypass in the customizer, reported by Yassine Aboukir; two different XSS problems via attachment names, reported by Jouko Pynnönen and Divyesh Prajapati; revision history information disclosure, reported [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.5.3 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.5.2 and earlier are affected by several security issues: redirect bypass in the customizer, reported by <a href="http://yassineaboukir.com">Yassine Aboukir</a>; two different XSS problems via attachment names, reported by <a href="https://klikki.fi/">Jouko Pynnönen</a> and <a href="https://twitter.com/divy_er">Divyesh Prajapati</a>; revision history information disclosure, reported independently by <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a> from the WordPress security team and by Dan Moen from the Wordfence Research Team; oEmbed denial of service reported by Jennifer Dodd from Automattic; unauthorized category removal from a post, reported by David Herrera from <a href="https://www.alleyinteractive.com/">Alley Interactive</a>; password change via stolen cookie, reported by <a href="https://blogwaffe.com/">Michael Adams</a> from the WordPress security team; and some less secure <code>sanitize_file_name</code> edge cases reported by <a href="http://peter.westwood.name/">Peter Westwood</a> of  the WordPress security team.</p>
+<p>Thank you to the reporters for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p>In addition to the security issues above, WordPress 4.5.3 fixes 17 bugs from 4.5, 4.5.1 and 4.5.2. For more information, see the <a href="https://codex.wordpress.org/Version_4.5.3">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?milestone=4.5.3">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.5.3</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.5.3.</p>
+<p>Thanks to everyone who contributed to 4.5.3:</p>
+<p><a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/neverything/">Silvan Hagen</a>, <a href="https://profiles.wordpress.org/vortfu/">vortfu</a>, <a href="https://profiles.wordpress.org/ericlewis/">Eric Andrew Lewis</a>, <a href="https://profiles.wordpress.org/nbachiyski/">Nikolay Bachiyski</a>,  <a href="https://profiles.wordpress.org/mdawaffe/">Michael Adams</a>, <a href="https://profiles.wordpress.org/jeremyfelt/">Jeremy Felt</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/westonruter/">Weston Ruter</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/rachelbaker/">Rachel Baker</a>, <a href="https://profiles.wordpress.org/xknown/">Alex Concha</a>, <a href="https://profiles.wordpress.org/jmdodd/">Jennifer M. Dodd</a>, <a href="https://profiles.wordpress.org/kraftbj/">Brandon Kraft</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/iseulde/">Ella Iseulde Van Dorpe</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/dlh/">David Herrera</a> and <a href="https://profiles.wordpress.org/adamsilverstein/">Adam Silverstein</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4311</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.5.2 Security Release</title>
+      <link>https://wordpress.org/news/2016/05/wordpress-4-5-2/</link>
+      <dc:creator><![CDATA[Helen Hou-Sandi]]></dc:creator>
+      <pubDate>Fri, 06 May 2016 19:17:08 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.5]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4290</guid>
+      <description><![CDATA[WordPress 4.5.2 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.5.1 and earlier are affected by a SOME vulnerability through Plupload, the third-party library WordPress uses for uploading files. WordPress versions 4.2 through 4.5.1 are vulnerable to reflected XSS [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.5.2 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.5.1 and earlier are affected by a <abbr title="Same-Origin Method Execution">SOME</abbr> vulnerability through Plupload, the third-party library WordPress uses for uploading files. WordPress versions 4.2 through 4.5.1 are vulnerable to reflected XSS using specially crafted URIs through MediaElement.js, the third-party library used for media players. MediaElement.js and Plupload have also released updates fixing these issues.</p>
+<p>Both issues were analyzed and reported by Mario Heiderich, Masato Kinugawa, and Filedescriptor from <a href="https://cure53.de/">Cure53</a>. Thanks to the team for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>, and to the Plupload and MediaElement.js teams for working closely with us to coördinate and fix these issues.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.5.2</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.5.2.</p>
+<p>Additionally, there are multiple widely publicized vulnerabilities in the ImageMagick image processing library, which is used by a number of hosts and is supported in WordPress. For our current response to these issues, see <a href="https://make.wordpress.org/core/2016/05/06/imagemagick-vulnerability-information/">this post on the core development blog</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4290</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.4.2 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2016/02/wordpress-4-4-2-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Samuel Sidler]]></dc:creator>
+      <pubDate>Tue, 02 Feb 2016 17:57:13 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.4]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4065</guid>
+      <description><![CDATA[WordPress 4.4.2 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.4.1 and earlier are affected by two security issues: a possible SSRF for certain local URIs, reported by Ronni Skansing; and an open redirection attack, reported by Shailesh Suthar. Thank you [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.4.2 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.4.1 and earlier are affected by two security issues: a possible SSRF for certain local URIs, reported by <a href="https://www.linkedin.com/in/ronni-skansing-36143b65">Ronni Skansing</a>; and an open redirection attack, reported by <a href="https://twitter.com/shailesh4594">Shailesh Suthar</a>.</p>
+<p>Thank you to both reporters for practicing <a href="https://make.wordpress.org/core/handbook/testing/reporting-security-vulnerabilities/">responsible disclosure</a>.</p>
+<p>In addition to the security issues above, WordPress 4.4.2 fixes 17 bugs from 4.4 and 4.4.1. For more information, see the <a href="https://codex.wordpress.org/Version_4.4.2">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?milestone=4.4.2">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.4.2</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.4.2.</p>
+<p>Thanks to everyone who contributed to 4.4.2:</p>
+<p><a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/berengerzyla/">berengerzyla</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/chandrapatel/">Chandra Patel</a>, <a href="https://profiles.wordpress.org/chriscct7/">Chris Christoff</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling</a>, <a href="https://profiles.wordpress.org/firebird75/">firebird75</a>, <a href="https://profiles.wordpress.org/ivankristianto/">Ivan Kristianto</a>, <a href="https://profiles.wordpress.org/jmdodd/">Jennifer M. Dodd</a>, <a href="https://profiles.wordpress.org/salvoaranzulla/">salvoaranzulla</a></p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4065</post-id>
+    </item>
+    <item>
+      <title>WordPress 4.4.1 Security and Maintenance Release</title>
+      <link>https://wordpress.org/news/2016/01/wordpress-4-4-1-security-and-maintenance-release/</link>
+      <dc:creator><![CDATA[Aaron Jorbin]]></dc:creator>
+      <pubDate>Wed, 06 Jan 2016 20:07:41 +0000</pubDate>
+      <category><![CDATA[Releases]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[4.4]]></category>
+      <guid isPermaLink="false">https://wordpress.org/news/?p=4041</guid>
+      <description><![CDATA[WordPress 4.4.1 is now available. This is a security release for all previous versions and we strongly encourage you to update your sites immediately. WordPress versions 4.4 and earlier are affected by a cross-site scripting vulnerability that could allow a site to be compromised. This was reported by Crtc4L. There were also several non-security bug fixes: Emoji [&#8230;]]]></description>
+      <content:encoded><![CDATA[<p>WordPress 4.4.1 is now available. This is a <strong>security release</strong> for all previous versions and we strongly encourage you to update your sites immediately.</p>
+<p>WordPress versions 4.4 and earlier are affected by a cross-site scripting vulnerability that could allow a site to be compromised. This was <a href="https://make.wordpress.org/core/handbook/reporting-security-vulnerabilities/">reported</a> by <a href="https://hackerone.com/crtc4l">Crtc4L</a>.</p>
+<p>There were also several non-security bug fixes:</p>
+<ul>
+<li>Emoji support has been updated to include all of the latest emoji characters, including the new diverse emoji! <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f44d-1f3ff.png" alt="👍🏿" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f44c-1f3fd.png" alt="👌🏽" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f44f-1f3fc.png" alt="👏🏼" class="wp-smiley" style="height: 1em; max-height: 1em;" /></li>
+<li>Some sites with older versions of OpenSSL installed were unable to communicate with other services provided through some plugins.</li>
+<li>If a post URL was ever re-used, the site could redirect to the wrong post.</li>
+</ul>
+<p>WordPress 4.4.1 fixes 52 bugs from 4.4. For more information, see the <a href="https://codex.wordpress.org/Version_4.4.1">release notes</a> or consult the <a href="https://core.trac.wordpress.org/query?milestone=4.4.1">list of changes</a>.</p>
+<p><a href="https://wordpress.org/download/">Download WordPress 4.4.1</a> or venture over to Dashboard → Updates and simply click “Update Now.” Sites that support automatic background updates are already beginning to update to WordPress 4.4.1.</p>
+<p>Thanks to everyone who contributed to 4.4.1:</p>
+<p><a href="https://profiles.wordpress.org/aaroncampbell/">Aaron D. Campbell</a>, <a href="https://profiles.wordpress.org/jorbin/">Aaron Jorbin</a>, <a href="https://profiles.wordpress.org/afercia/">Andrea Fercia</a>, <a href="https://profiles.wordpress.org/nacin/">Andrew Nacin</a>, <a href="https://profiles.wordpress.org/azaozz/">Andrew Ozz</a>, <a href="https://profiles.wordpress.org/boonebgorges/">Boone Gorges</a>, <a href="https://profiles.wordpress.org/Compute/">Compute</a>, <a href="https://profiles.wordpress.org/redsweater/">Daniel Jalkut (Red Sweater)</a>, <a href="https://profiles.wordpress.org/DvanKooten/">Danny van Kooten</a>, <a href="https://profiles.wordpress.org/dd32/">Dion Hulse</a>, <a href="https://profiles.wordpress.org/ocean90/">Dominik Schilling (ocean90)</a>, <a href="https://profiles.wordpress.org/dossy/">Dossy Shiobara</a>, <a href="https://profiles.wordpress.org/eherman24/">Evan Herman</a>, <a href="https://profiles.wordpress.org/pento/">Gary Pendergast</a>, <a href="https://profiles.wordpress.org/gblsm/">gblsm</a>, <a href="https://profiles.wordpress.org/hnle/">Hinaloe</a>, <a href="https://profiles.wordpress.org/igmoweb/">Ignacio Cruz Moreno</a>, <a href="https://profiles.wordpress.org/jadpm/">jadpm</a>, <a href="https://profiles.wordpress.org/jeffpyebrookcom/">Jeff Pye Brook</a>, <a href="https://profiles.wordpress.org/joemcgill/">Joe McGill</a>, <a href="https://profiles.wordpress.org/johnbillion/">John Blackbourn</a>, <a href="https://profiles.wordpress.org/JPr/">jpr</a>, <a href="https://profiles.wordpress.org/obenland/">Konstantin Obenland</a>, <a href="https://profiles.wordpress.org/KrissieV/">KrissieV</a>, <a href="https://profiles.wordpress.org/tyxla/">Marin Atanasov</a>, <a href="https://profiles.wordpress.org/wp-architect/">Matthew Ell</a>, <a href="https://profiles.wordpress.org/meitar/">Meitar</a>, <a href="https://profiles.wordpress.org/swissspidy/">Pascal Birchler</a>, <a href="https://profiles.wordpress.org/peterwilsoncc/">Peter Wilson</a>, <a href="https://profiles.wordpress.org/rogerhub/">Roger Chen</a>, <a href="https://profiles.wordpress.org/rmccue/">Ryan McCue</a>, <a href="https://profiles.wordpress.org/salcode/">Sal Ferrarello</a>, <a href="https://profiles.wordpress.org/wonderboymusic/">Scott Taylor</a>, <a href="https://profiles.wordpress.org/scottbrownconsulting/">scottbrownconsulting</a>, <a href="https://profiles.wordpress.org/SergeyBiryukov/">Sergey Biryukov</a>, <a href="https://profiles.wordpress.org/ShinichiN/">Shinichi Nishikawa</a>, <a href="https://profiles.wordpress.org/smerriman/">smerriman</a>, <a href="https://profiles.wordpress.org/netweb/">Stephen Edgar</a>, <a href="https://profiles.wordpress.org/stephenharris/">Stephen Harris</a>, <a href="https://profiles.wordpress.org/tharsheblows/">tharsheblows</a>, <a href="https://profiles.wordpress.org/voldemortensen/">voldemortensen</a>, and <a href="https://profiles.wordpress.org/webaware/">webaware</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">4041</post-id>
+    </item>
+  </channel>
+</rss>

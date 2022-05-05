@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.incibe-cert.es/feed/avisos-seguridad/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INCIBE-CERT - Avisos de seguridad RSS</title>
+    <link>https://www.incibe-cert.es/feed/avisos-seguridad/all</link>
+    <description>
+    </description>
+    <language>es</language>
+    <atom:link href="https://www.incibe-cert.es/feed/avisos-seguridad/all" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ejecución remota de código en switches de Aruba</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/ejecucion-remota-codigo-switches-aruba</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 04/05/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Aruba &lt;em&gt;Switch&lt;/em&gt; Models:
+	&lt;ul&gt;
+		&lt;li&gt;Aruba 5400R Series,&lt;/li&gt;
+		&lt;li&gt;Aruba 3810 Series,&lt;/li&gt;
+		&lt;li&gt;Aruba 2920 Series,&lt;/li&gt;
+		&lt;li&gt;Aruba 2930F Series,&lt;/li&gt;
+		&lt;li&gt;Aruba 2930M Series,&lt;/li&gt;
+		&lt;li&gt;Aruba 2530 Series,&lt;/li&gt;
+		&lt;li&gt;Aruba 2540 Series.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Versiones de Software:
+	&lt;ul&gt;
+		&lt;li&gt;ArubaOS-Switch 15.xx.xxxx, todas las versiones;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.01.xxxx, todas las versiones;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.02.xxxx, versión K.16.02.0033 y anteriores;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.03.xxxx, todas las versiones;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.04.xxxx, todas las versiones;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.05.xxxx, todas las versiones;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.06.xxxx, todas las versiones;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.07.xxxx, todas las versiones;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.08.xxxx, versión KB/WB/WC/YA/YB/YC.16.08.0024 y anteriores;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.09.xxxx, versión KB/WB/WC/YA/YB/YC.16.09.0019 y anteriores;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.10.xxxx, versión KB/WB/WC/YA/YB/YC.16.10.0019 y anteriores;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.11.xxxx, versión KB/WB/WC/YA/YB/YC.16.11.0003 y anteriores.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;El equipo de investigación de Armis ha descubierto múltiples vulnerabilidades de desbordamiento de búfer basado en memoria dinámica (&lt;em&gt;heap&lt;/em&gt;) en varios dispositivos de Aruba que podría permitir a un atacante remoto la ejecución de código arbitrario en el dispositivo afectado.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Actualizar:
+	&lt;ul&gt;
+		&lt;li&gt;ArubaOS-Switch 16.02.xxxx, a la versión K.16.02.0034 y superior;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.08.xxxx, a la versión KB/WB/WC/YA/YB/YC.16.08.0025 o superior;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.09.xxxx, a la versión KB/WB/WC/YA/YB/YC.16.09.0020 o superior;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.10.xxxx, a la versión KB/WB/WC/YA/YB/YC.16.10.0020 o superior;&lt;/li&gt;
+		&lt;li&gt;ArubaOS-Switch 16.11.xxxx, a la versión KB/WB/WC/YA/YB/YC.16.11.0004 o superior;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El resto de productos se actualizarán próximamente.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Múltiples vulnerabilidades de desbordamiento de búfer basado en memoria dinámica (&lt;em&gt;heap&lt;/em&gt;), en el &lt;em&gt;firmware&lt;/em&gt; de ArubaOS-Switch y en la biblioteca criptográfica Mocana, en el&lt;em&gt; firmware&lt;/em&gt; de ArubaOS-Switch, podrían permitir a un atacante remoto la ejecución de código arbitrario en el dispositivo afectado. La explotación de estas vulnerabilidades requiere la interacción de un &lt;em&gt;switch&lt;/em&gt; afectado con una fuente de mensajes de desafío de acceso RADIUS controlada por un atacante. Debido a esto, la explotación de estas vulnerabilidades probablemente ocurriría como parte de una cadena de ataque que se basa en la explotación previa de la infraestructura controlada por el cliente. Se han asignado los identificadores CVE-2022-23676 y CVE-2022-23677 para estas vulnerabilidades.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/hp"&gt;HP&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 07:26:24 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202837 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Vulnerabilidad de omisión de autenticación en productos Atlassian</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/vulnerabilidad-omision-autenticacion-productos-atlassian</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 22/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Jira Core Server, Jira Software Server y Jira Software Data Center, versiones:
+	&lt;ul&gt;
+		&lt;li&gt;anteriores a 8.13.18;&lt;/li&gt;
+		&lt;li&gt;8.14.x;&lt;/li&gt;
+		&lt;li&gt;8.15.x;&lt;/li&gt;
+		&lt;li&gt;8.16.x;&lt;/li&gt;
+		&lt;li&gt;8.17.x;&lt;/li&gt;
+		&lt;li&gt;8.18.x;&lt;/li&gt;
+		&lt;li&gt;8.19.x;&lt;/li&gt;
+		&lt;li&gt;8.20.x anteriores a 8.20.6;&lt;/li&gt;
+		&lt;li&gt;8.21.x.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Jira Service Management Server y Jira Service Management Data Center, versiones:
+	&lt;ul&gt;
+		&lt;li&gt;anteriores a 4.13.18;&lt;/li&gt;
+		&lt;li&gt;4.14.x;&lt;/li&gt;
+		&lt;li&gt;4.15.x;&lt;/li&gt;
+		&lt;li&gt;4.16.x;&lt;/li&gt;
+		&lt;li&gt;4.17.x;&lt;/li&gt;
+		&lt;li&gt;4.18.x;&lt;/li&gt;
+		&lt;li&gt;4.19.x;&lt;/li&gt;
+		&lt;li&gt;4.20.x anteriores a 4.20.6;&lt;/li&gt;
+		&lt;li&gt;4.21.x.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Asimismo, en el apartado &lt;em&gt;List of affected Atlassian Marketplace Apps&lt;/em&gt;&amp;nbsp;se proporciona un listado de las aplicaciones del &lt;em&gt;marketplace&lt;/em&gt; de Atlassian afectadas por esta vulnerabilidad.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Khoadha, de Viettel Cyber Security, ha notificado al fabricante una vulnerabilidad de severidad crítica. Un atacante remoto no autenticado podría enviar una petición HTTP, especialmente diseñada para saltarse los requisitos de autenticación y autorización en las acciones de WebWork, mediante el uso de una configuración afectada.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Actualizar Jira Core Server, Jira Software Server y Jira Software Data Center desde las páginas de descarga de &lt;a href="https://www.atlassian.com/software/jira/core/download" rel="external" target="_blank" title="Download Jira Core Server"&gt;Jira Core&lt;/a&gt; o &lt;a href="https://www.atlassian.com/software/jira/update" rel="external" target="_blank" title="Update Jira Software"&gt;Jira Software&lt;/a&gt; a las versiones:
+	&lt;ul&gt;
+		&lt;li&gt;8.13.18 o superiores en la rama 8.13.x;&lt;/li&gt;
+		&lt;li&gt;8.20.6 o superiores en la rama 8.20.x;&lt;/li&gt;
+		&lt;li&gt;8.22.0 o superiores.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Actualizar Jira Service Management Server y Jira Service Management Data Center desde la página de descarga de &lt;a href="https://www.atlassian.com/software/jira/service-management/update" rel="external" target="_blank" title="Update Jira Service Management Server"&gt;Jira Service Management&lt;/a&gt; a las versiones:
+	&lt;ul&gt;
+		&lt;li&gt;4.13.18 o superiores en la rama 4.13.x;&lt;/li&gt;
+		&lt;li&gt;4.20.6 o superiores en la rama 4.20.x;&lt;/li&gt;
+		&lt;li&gt;4.22.0 o superiores.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Aunque la vulnerabilidad está en el &lt;em&gt;core&lt;/em&gt; de Jira afecta a las aplicaciones de primera y tercera parte que especifican &lt;em&gt;roles-required&lt;/em&gt; en el nivel de &lt;em&gt;namespace&lt;/em&gt; de la acción &lt;em&gt;webwork1&lt;/em&gt; y no los especifican en el nivel de &lt;em&gt;action&lt;/em&gt;. Para que una acción específica se vea afectada no tendrá que realizar ninguna otra comprobación de autenticación o autorización. Se ha asignado el identificador CVE-2022-0540 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 22 Apr 2022 08:07:57 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202739 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Múltiples vulnerabilidades en el core de Drupal 9</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-el-core-drupal-9</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 21/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Media&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Drupal, versiones anteriores a la 9.3.12 y 9.2.18.&lt;/p&gt;
+
+&lt;p&gt;Las versiones de Drupal 8 y de Drupal 9, anteriores a la 9.2.x, se encuentran al final de su vida útil y ya no reciben cobertura de seguridad.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Se han publicado dos vulnerabilidades de severidad media, que podrían afectar al core de Drupal.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;div class="field-items"&gt;
+&lt;div class="field-item even"&gt;
+&lt;p&gt;Actualizar:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Drupal 9.3 a la versión &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.12" rel="external noopener noreferrer" target="_blank" title="actualización 9.3.12"&gt;9.3.12&lt;/a&gt;;&lt;/li&gt;
+	&lt;li&gt;Drupal 9.2 a la versión &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.18" rel="external noopener noreferrer" target="_blank" title="actualización 9.2.18"&gt;9.2.18&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;La API de formularios del núcleo de Drupal tiene una vulnerabilidad en la que ciertos formularios de módulos contribuidos o personalizados pueden ser vulnerables a una validación de entrada inadecuada. Esto podría permitir a un atacante inyectar valores no permitidos o sobrescribir datos. Los formularios afectados son poco comunes pero, en ciertos casos, un atacante podría alterar datos críticos o sensibles.&lt;/li&gt;
+	&lt;li&gt;Drupal 9.3 implementó una API de acceso a entidades genéricas para las revisiones de entidades que no se integró completamente con los permisos existentes, lo que podría permitir la derivación de acceso para los usuarios que pueden utilizar revisiones de contenido, pero que no tienen acceso a elementos individuales de contenido de nodos y medios. Esta vulnerabilidad sólo afecta a los sitios que utilizan el sistema de revisión de Drupal.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/cms"&gt;CMS&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 21 Apr 2022 07:34:11 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202725 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Actualizaciones críticas en Oracle (abril 2022)</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/actualizaciones-criticas-oracle-abril-2022</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 20/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Engineered Systems Utilities, versiones 12.1.0.2, 19c y 21c;&lt;/li&gt;
+	&lt;li&gt;Enterprise Manager Base Platform, versiones 13.4.0.0 y 13.5.0.0;&lt;/li&gt;
+	&lt;li&gt;Enterprise Manager para Peoplesoft, versiones 13.4.1.1 y 13.5.1.1;&lt;/li&gt;
+	&lt;li&gt;Enterprise Manager para Storage Management, versión 13.4.0.0;&lt;/li&gt;
+	&lt;li&gt;Enterprise Manager Ops Center, versión 12.4.0.0;&lt;/li&gt;
+	&lt;li&gt;Helidon, versiones 1.4.7, 1.4.10 y 2.0.0-RC1;&lt;/li&gt;
+	&lt;li&gt;Instantis EnterpriseTrack, versiones 17.1, 17.2 y 17.3;&lt;/li&gt;
+	&lt;li&gt;JD Edwards EnterpriseOne Tools, versiones anteriores a 9.2.6.3;&lt;/li&gt;
+	&lt;li&gt;JD Edwards World Security, versión A9.4;&lt;/li&gt;
+	&lt;li&gt;Management Cloud Engine, versiones 1.5.0 y anteriores;&lt;/li&gt;
+	&lt;li&gt;Middleware Common Libraries y Tools, versiones 12.2.1.3.0, 12.2.1.4.0 y 14.1.1.0.0;&lt;/li&gt;
+	&lt;li&gt;MySQL Cluster, versiones 7.4.35 y anteriores, 7.5.25 y anteriores, 7.6.21 y anteriores y 8.0.28 y anteriores;&lt;/li&gt;
+	&lt;li&gt;MySQL Connectors, versiones 8.0.28 y anteriores;&lt;/li&gt;
+	&lt;li&gt;MySQL Enterprise Monitor, versiones 8.0.29 y anteriores;&lt;/li&gt;
+	&lt;li&gt;MySQL Server, versiones 5.7.37 y anteriores y 8.0.28 y anteriores;&lt;/li&gt;
+	&lt;li&gt;MySQL Workbench, versiones 8.0.28 y anteriores;&lt;/li&gt;
+	&lt;li&gt;Oracle Advanced Supply Chain Planning, versiones 12.1, 12.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Agile Engineering Data Management, versión 6.2.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Agile PLM, versión 9.3.6;&lt;/li&gt;
+	&lt;li&gt;Oracle Agile PLM MCAD Connector, versión 3.6;&lt;/li&gt;
+	&lt;li&gt;Oracle Application Express, versiones anteriores a 22.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Application Testing Suite, versión 13.3.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Autovue para Agile Product Lifecycle Management, versión 21.0.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Deposits y Lines of Credit Servicing, versión 2.12.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Enterprise Default Management, versiones 2.7.1, 2.10.0 y 2.12.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Loans Servicing, versión 2.12.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Party Management, versión 2.7.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Payments, versión 14.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Platform, versiones 2.6.2, 2.7.1 y 2.12.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Trade Finance, versión 14.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Banking Treasury Management, versión 14.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Blockchain Platform, versiones anteriores a 21.1.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Business Intelligence Enterprise Edition, versiones 5.5.0.0.0, 5.9.0.0.0, 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Business Process Management Suite, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Coherence, versiones 12.2.1.3.0, 12.2.1.4.0 y 14.1.1.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Commerce Guided Search, versión 11.3.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications ASAP, versión 7.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Billing y Revenue Management, versiones 12.0.0.4 y 12.0.0.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Automated Test Suite, versiones 1.8.0, 1.9.0 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Binding Support Function, versión 1.11.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Console, versiones 1.9.0 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Network Exposure Function, versión 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Network Function Cloud Native Environment, versiones 1.10.0 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Network Repository Function, versiones 1.15.0, 1.15.1 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Network Slice Selection Function, versiones 1.8.0 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Policy, versiones 1.14.0, 1.15.0 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Security Edge Protection Proxy, versiones 1.7.0 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Service Communication Proxy, versión 1.15.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Cloud Native Core Unified Data Repository, versiones 1.15.0 y 22.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Contacts Server, versión 8.0.0.6.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Convergence, versiones 3.0.2.2 y 3.0.3.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Convergent Charging Controller, versiones 6.0.1.0.0 y 12.0.1.0.0-12.0.4.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Design Studio, versiones 7.3.5 y 7.4.0-7.4.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Diameter Intelligence Hub, versiones 8.0.0-8.2.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Diameter Signaling Router, versión 8.4.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications EAGLE Application Processor;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications EAGLE Element Management System, versión 46.6;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications EAGLE FTP Table Base Retrieval, versión 4.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications EAGLE LNP Application Processor, versiones 10.1 y 10.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications EAGLE Software, versiones 46.7.0, 46.8.0-46.8.2 y 46.9.1-46.9.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Element Manager, versiones anteriores a 9.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Evolved Communications Application Server, versión 7.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Instant Messaging Server, versión 10.0.1.5.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Interactive Session Recorder, versión 6.4;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications IP Service Activator, versión 7.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Messaging Server, versión 8.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications MetaSolv Solution, versión 6.3.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Network Charging y Control, versiones 6.0.1.0.0 y 12.0.1.0.0-12.0.4.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Network Integrity, versiones 7.3.2, 7.3.5 y 7.3.6;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Operations Monitor, versiones 4.3, 4.4 y 5.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Order y Service Management, versiones 7.3 y 7.4;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Performance Intelligence Center (PIC) Software, versiones 10.3.0.0.0-10.3.0.2.1 y 10.4.0.1.0-10.4.0.3.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Policy Management, versiones 12.5.0.0.0 y 12.6.0.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Pricing Design Center, versiones 12.0.0.4 y 12.0.0.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Services Gatekeeper, versión 7.0.0.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Session Border Controller, versiones 8.4 y 9.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Session Report Manager, versiones anteriores a 9.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Session Route Manager, versiones anteriores a 9.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Unified Inventory Management, versiones 7.4.1 y 7.4.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications Unified Session Manager, versiones 8.2.5 y 8.4.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications User Data Repository, versión 12.4;&lt;/li&gt;
+	&lt;li&gt;Oracle Communications WebRTC Session Controller, versión 7.2.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Data Integrator, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Database Server, versiones 12.1.0.2, 19c y 21c;&lt;/li&gt;
+	&lt;li&gt;Oracle Documaker, versiones 12.6.0, 12.6.2-12.6.4 y 12.7.0;&lt;/li&gt;
+	&lt;li&gt;Oracle E-Business Suite, versiones 12.2.4-12.2.11, [EBS Cloud Manager y Backup Module] anteriores a 22.1.1.1, [Enterprise Command Center] 7.0 y [Enterprise Information Discovery] 7-9;&lt;/li&gt;
+	&lt;li&gt;Oracle Enterprise Communications Broker, versiones 3.2 y 3.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Enterprise Session Border Controller, versiones 8.4 y 9.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Ethernet Switch ES1-24, versión 1.3.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Ethernet Switch TOR-72, versión 1.2.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Financial Services Analytical Applications Infrastructure, versiones 8.0.6.0-8.0.9.0 y 8.1.0.0-8.1.2.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Financial Services Behavior Detection Platform, versiones 8.0.6.0-8.0.8.0, 8.1.1.0, 8.1.1.1 y 8.1.2.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Financial Services Enterprise Case Management, versiones 8.0.7.1, 8.0.7.2, 8.0.8.0, 8.0.8.1, 8.1.1.0, 8.1.1.1 y 8.1.2.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Financial Services Revenue Management y Billing, versiones 2.7.0.0, 2.7.0.1 y 2.8.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle FLEXCUBE Universal Banking, versiones 11.83.3, 12.1-12.4, 14.0-14.3 y 14.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Global Lifecycle Management OPatch;&lt;/li&gt;
+	&lt;li&gt;Oracle GoldenGate, versiones anteriores a 12.3.0.1.2 y 23.1;&lt;/li&gt;
+	&lt;li&gt;Oracle GoldenGate Application Adapters, versiones anteriores a 23.1;&lt;/li&gt;
+	&lt;li&gt;Oracle GoldenGate Big Data y Application Adapters, versiones anteriores a 23.1;&lt;/li&gt;
+	&lt;li&gt;Oracle GraalVM Enterprise Edition, versiones 20.3.5, 21.3.1 y 22.0.0.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Health Sciences Empirica Signal, versiones 9.1.0.6 y 9.2.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Health Sciences InForm, versiones 6.2.1.1, 6.3.2.1 y 7.0.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Health Sciences InForm Publisher, versiones 6.2.1.1 y 6.3.1.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Health Sciences Information Manager, versiones 3.0.1-3.0.4;&lt;/li&gt;
+	&lt;li&gt;Oracle Healthcare Data Repository, versiones 8.1.0 y 8.1.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Healthcare Foundation, versiones 7.3.0.1-7.3.0.4;&lt;/li&gt;
+	&lt;li&gt;Oracle Healthcare Master Person Index, versión 5.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Healthcare Translational Research, versiones 4.1.0 y 4.1.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Hospitality Suite8, versiones 8.10.2 y 8.11.0-8.14.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hospitality Token Proxy Service, versión 19.2;&lt;/li&gt;
+	&lt;li&gt;Oracle HTTP Server, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion BI+, versiones anteriores a 11.2.8.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion Calculation Manager, versiones anteriores a 11.2.8.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion Data Relationship Management, versiones anteriores a 11.2.8.0 y 11.2.9.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion Financial Management, versiones anteriores a 11.2.8.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion Infrastructure Technology, versiones anteriores a 11.2.8.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion Planning, versiones anteriores a 11.2.8.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion Profitability y Cost Management, versiones anteriores a 11.2.8.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Hyperion Tax Provision, versiones anteriores a 11.2.8.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Identity Management Suite, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Identity Manager Connector, versiones 9.1.0 y 11.1.1.5.0;&lt;/li&gt;
+	&lt;li&gt;Oracle iLearning, versiones 6.2 y 6.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Insurance Data Gateway, versión 1.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Insurance Insbridge Rating y Underwriting, versiones 5.2.0, 5.4.0-5.6.0 y 5.6.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Insurance Policy Administration, versiones 11.0.2, 11.1.0, 11.2.8, 11.3.0 y 11.3.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Insurance Rules Palette, versiones 11.0.2, 11.1.0, 11.2.8, 11.3.0 y 11.3.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Internet Directory, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Java SE, versiones 7u331, 8u321, 11.0.14, 17.0.2 y 18;&lt;/li&gt;
+	&lt;li&gt;Oracle JDeveloper, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Managed File Transfer, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Middleware Common Libraries y Tools, versión 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle NoSQL Database;&lt;/li&gt;
+	&lt;li&gt;Oracle Outside In Technology, versión 8.5.5;&lt;/li&gt;
+	&lt;li&gt;Oracle Payment Interface, versiones 19.1 y 20.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Product Lifecycle Analytics, versión 3.6.1.0;&lt;/li&gt;
+	&lt;li&gt;Oracle REST Data Services, versiones anteriores a 21.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Bulk Data Integration, versión 16.0.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Customer Insights, versiones 15.0.2 y 16.0.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Customer Management y Segmentation Foundation, versiones 17.0-19.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Data Extractor para Merchandising, versiones 15.0.2 y 16.0.2;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail EFTLink, versiones 17.0.2, 18.0.1, 19.0.1, 20.0.1 y 21.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Extract Transform y Load, versión 13.2.8;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Financial Integration, versiones 14.1.3.2, 15.0.3.1, 16.0.1-16.0.3, 19.0.0 y 19.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Integration Bus, versiones 14.1.3.2, 15.0.3.1, 16.0.1-16.0.3, 19.0.0 y 19.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Invoice Matching, versión 16.0.3;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Merchandising System, versiones 16.0.3 y 19.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Service Backbone, versiones 14.1.3.2, 15.0.3.1, 16.0.1-16.0.3, 19.0.0 y 19.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Store Inventory Management, versiones 14.0.4.13, 14.1.3.5, 14.1.3.14, 15.0.3.3, 15.0.3.8 y 16.0.3.7;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Xstore Office Cloud Service, versiones 16.0.6, 17.0.4, 18.0.3, 19.0.2 y 20.0.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Retail Xstore Point of Service, versiones 16.0.6, 17.0.4, 18.0.3, 19.0.2, 20.0.1 y 21.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle SD-WAN Edge, versiones 9.0 y 9.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Secure Backup;&lt;/li&gt;
+	&lt;li&gt;Oracle Secure Global Desktop, versión 5.6;&lt;/li&gt;
+	&lt;li&gt;Oracle Solaris, versión 11;&lt;/li&gt;
+	&lt;li&gt;Oracle Solaris Cluster, versión 4;&lt;/li&gt;
+	&lt;li&gt;Oracle SQL Developer, versiones anteriores a 21.99;&lt;/li&gt;
+	&lt;li&gt;Oracle StorageTek ACSLS, versión 8.5.1;&lt;/li&gt;
+	&lt;li&gt;Oracle StorageTek Tape Analytics (STA), versión 2.4;&lt;/li&gt;
+	&lt;li&gt;Oracle Taleo Platform, versiones anteriores a 22.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Transportation Management, versiones 6.4.3 y 6.5.1;&lt;/li&gt;
+	&lt;li&gt;Oracle Tuxedo, versión 12.2.2.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle Utilities Framework, versiones 4.3.0.1.0-4.3.0.6.0, 4.4.0.0.0, 4.4.0.2.0 y 4.4.0.3.0;&lt;/li&gt;
+	&lt;li&gt;Oracle VM VirtualBox, versiones anteriores a 6.1.34;&lt;/li&gt;
+	&lt;li&gt;Oracle Web Services Manager, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle WebCenter Portal, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle WebCenter Sites, versiones 12.2.1.3.0 y 12.2.1.4.0;&lt;/li&gt;
+	&lt;li&gt;Oracle WebLogic Server, versiones 12.2.1.3.0, 12.2.1.4.0 y 14.1.1.0.0;&lt;/li&gt;
+	&lt;li&gt;Oracle ZFS Storage Appliance Kit, versión 8.8;&lt;/li&gt;
+	&lt;li&gt;OSS Support Tools, versiones 2.12.42 y 18.3;&lt;/li&gt;
+	&lt;li&gt;PeopleSoft Enterprise CS Academic Advisement, versión 9.2;&lt;/li&gt;
+	&lt;li&gt;PeopleSoft Enterprise FIN Cash Management, versión 9.2;&lt;/li&gt;
+	&lt;li&gt;PeopleSoft Enterprise PeopleTools, versiones 8.58 y 8.59;&lt;/li&gt;
+	&lt;li&gt;PeopleSoft Enterprise PRTL Interaction Hub, versión 9.1;&lt;/li&gt;
+	&lt;li&gt;Primavera Unifier, versiones 17.7-17.12, 18.8, 19.12, 20.12 y 21.12.&lt;br /&gt;
+	&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Oracle ha publicado una actualización crítica con parches para corregir vulnerabilidades, que afectan a múltiples productos.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Aplicar los parches correspondientes, según los productos afectados. La información para descargar las actualizaciones puede obtenerse del boletín de seguridad publicado por Oracle.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Esta actualización resuelve 520 vulnerabilidades, algunas de las cuales son críticas. El detalle de las vulnerabilidades resueltas se puede consultar en el enlace de Oracle de la sección de ‘Referencias’.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+	&lt;p&gt;Las vulnerabilidades que afectan a Oracle Solaris pueden afectar a Oracle ZFSSA, por lo que los clientes de Oracle deben consultar el documento sobre actualizaciones de parches críticos de Oracle y Sun Systems Product Suite, &lt;a href="https://support.oracle.com/rs?type=doc&amp;amp;id=2160904.1" rel="external" target="_blank" title="documento My Oracle Support Note 2160904.1"&gt;My Oracle Support Note 2160904.1&lt;/a&gt;, para obtener información sobre las revisiones mínimas de los parches de seguridad necesarios para resolver los problemas de ZFSSA, publicados en las actualizaciones de parches críticos y los boletines de Solaris de terceros.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Los boletines de terceros de Solaris se utilizan para anunciar los parches de seguridad para el &lt;em&gt;software&lt;/em&gt; de terceros distribuido con Oracle Solaris. Los clientes de Solaris 10 deben consultar los últimos conjuntos de parches de seguridad críticos, detallados en el documento de disponibilidad de parches. Se puede consultar el índice de referencia de CVE y parches de Solaris (&lt;a href="https://support.oracle.com/rs?type=doc&amp;amp;id=1448883.1" rel="external" target="_blank" title="documento My Oracle Support Note 1448883.1"&gt;My Oracle Support Note 1448883.1&lt;/a&gt;) para obtener más información.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+	&lt;p&gt;Los usuarios que utilicen Java SE con un navegador pueden descargar la última versión desde la &lt;a href="https://java.com/" rel="external" target="_blank" title="Java web"&gt;web de Java&lt;/a&gt;. Los usuarios de las plataformas Windows y macOS X también pueden utilizar las &lt;a href="https://www.java.com/en/download/help/java_update.xml" rel="external" target="_blank" title="What is Java Auto Update? How do I change notify settings?"&gt;actualizaciones automáticas&lt;/a&gt; para obtener la última versión.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/apache"&gt;Apache&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/infraestructuras-criticas"&gt;Infraestructuras críticas&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/java"&gt;Java&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/oracle"&gt;Oracle&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/php"&gt;PHP&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/virtualizacion"&gt;Virtualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 20 Apr 2022 07:10:36 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202710 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Evasión de autenticación en productos Cisco</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/evasion-autenticacion-productos-cisco</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 18/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Los siguientes productos de Cisco, con &lt;em&gt;Release Cisco WLC Software&lt;/em&gt; 8.10.151.0 o 8.10.162.0 y la opción &lt;em&gt;macfilter radius compatibility &lt;/em&gt;configurada como &lt;em&gt;other&lt;/em&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;3504 Wireless Controller,&lt;/li&gt;
+	&lt;li&gt;5520 Wireless Controller,&lt;/li&gt;
+	&lt;li&gt;8540 Wireless Controller,&lt;/li&gt;
+	&lt;li&gt;Mobility Express,&lt;/li&gt;
+	&lt;li&gt;Virtual Wireless Controller (vWLC).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Las versiones de clientes específicos, desde la 8.10.151.4 hasta la 8.10.151.10 y desde la 8.10.162.1 hasta la 8.10.162.14, que no se encuentran en el &lt;em&gt;Software Center &lt;/em&gt;de Cisco, también se ven afectadas.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Cisco ha publicado una vulnerabilidad en la funcionalidad de autenticación del software Cisco Wireless LAN Controller (WLC) que podría permitir a un atacante remoto, no autenticado, saltarse los controles de autenticación e iniciar sesión en el dispositivo a través de la interfaz de gestión.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Actualizar a la versión &lt;a href="https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html#ssu" rel="external" title="actualizaciones"&gt;8.10.171.0&lt;/a&gt;. Como medidas de mitigación es posible:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Opción 1: cuando no se utiliza filtrado por MAC, resetear &lt;em&gt;macfilter radius compatibility mode&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+wlc &amp;gt; config macfilter radius-compat cisco&lt;/pre&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Opción 2: cuando se utiliza filtrado por MAC, cambiar el modo de compatibilidad &lt;em&gt;macfilter compatibility &lt;/em&gt;a &lt;em&gt;CISCO&lt;/em&gt; o a &lt;em&gt;free.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;
+wlc &amp;gt; config macfilter radius-compat cisco
+&lt;/pre&gt;
+
+&lt;pre&gt;
+wlc &amp;gt; config macfilter radius-compat free&lt;/pre&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;La implementación inadecuada del algoritmo de validación de contraseñas podría permitir a un atacante eludir la autenticación e iniciar sesión en el dispositivo como administrador. El atacante podría obtener privilegios del mismo nivel que un usuario administrativo, pero dependerá de las credenciales falsificadas. Se ha asignado el identificador CVE-2022-20695 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/cisco"&gt;Cisco&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 18 Apr 2022 09:44:08 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202691 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Múltiples vulnerabilidades en Contrail Networking de Juniper Networks</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-contrail-networking-juniper-networks</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 18/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Contrail Networking, versiones anteriores a 2011.L4.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Juniper Networks ha informado de múltiples vulnerabilidades descubiertas durante una investigación de seguridad externa que permitirían a un atacante causar una denegación de servicio, lectura fuera de los límites, validación incorrecta certificados SSL, elevación de privilegios, o ejecución de código.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Juniper Networks ha publicado la versión 2011.L4 para solucionar estas vulnerabilidades.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Juniper Networks ha corregido un total de 10 vulnerabilidades en Contrail Networking siendo 5 de ellas calificadas como críticas. Estas vulnerabilidades afectarían a la resolución UDP de NGINX, la validación de certificados en Node.js, un desbordamiento de búfer basado en memoria dinámica (&lt;em&gt;heap&lt;/em&gt;) en TiffDecode, las bibliotecas de Python Pillow y PIL (también conocida como biblioteca de imágenes de Python) y un desbordamiento del almacenamiento dinámico en Apache HTTP.&lt;/p&gt;
+
+&lt;p&gt;Los identificadores asignados a las vulnerabilidades corregidas son: CVE-2015-8315, CVE-2018-1000654, CVE-2020-7774, CVE-2021-3517, CVE-2021-23017, CVE-2021-31597, CVE-2021-3560, CVE-2021-25289, CVE-2021-34552 y CVE-2021-26691.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 18 Apr 2022 09:18:24 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202690 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Vulnerabilidad RCE en VMware Cloud Director</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/vulnerabilidad-rce-vmware-cloud-director</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 18/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;VMware Cloud Director, versiones:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;10.3.x;&lt;/li&gt;
+	&lt;li&gt;10.2.x;&lt;/li&gt;
+	&lt;li&gt;10.1.x.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Jari Jääskelä (@JJaaskela) ha reportado una vulnerabilidad crítica en VMware Cloud Director, cuya explotación podría permitir a un atacante obtener acceso al servidor.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Actualizar VMware Cloud Director a las versiones:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.3.3/rn/vmware-cloud-director-1033-release-notes/index.html" rel="external" target="_blank" title="VMware Cloud Director 10.3.3"&gt;10.3.3&lt;/a&gt;;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.2.2.3/rn/vmware-cloud-director-10223-release-notes/index.html" rel="external" target="_blank" title="VMware Cloud Director 10.2.2.3"&gt;10.2.2.3&lt;/a&gt;;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="https://docs.vmware.com/en/VMware-Cloud-Director/10.1.4.1/rn/vmware-cloud-director-10141-release-notes/index.html" rel="external" target="_blank" title="VMware Cloud Director 10.1.4.1"&gt;10.1.4.1&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Un atacante autenticado, con alto nivel de privilegios y acceso a la red del proveedor de VMware Cloud Director, podría explotar una vulnerabilidad de ejecución remota de código (RCE) para obtener acceso al servidor. Se ha asignado el identificador CVE-2022-22966 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/virtualizacion"&gt;Virtualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vmware"&gt;VMware&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Mon, 18 Apr 2022 08:05:29 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202687 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Actualización de seguridad de SAP de abril de 2022 </title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/actualizacion-seguridad-sap-abril-2022</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 13/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Fiori Launchpad, versiones 754, 755 y 756;&lt;/li&gt;
+	&lt;li&gt;SAP 3D Visual Enterprise Viewer, versión 9;&lt;/li&gt;
+	&lt;li&gt;SAP Business Client, versión 6.5;&lt;/li&gt;
+	&lt;li&gt;SAP BusinessObjects Business Intelligence Platform (BI Workspace), versión 420;&lt;/li&gt;
+	&lt;li&gt;SAP BusinessObjects Business Intelligence Platform, versiones 420 y 430;&lt;/li&gt;
+	&lt;li&gt;SAP BusinessObjects Enterprise (Central Management Server), versiones 420 y 430;&lt;/li&gt;
+	&lt;li&gt;SAP Commerce, versiones 1905, 2005, 2105 y 2011;&lt;/li&gt;
+	&lt;li&gt;SAP Content Server, versión 7.53;&lt;/li&gt;
+	&lt;li&gt;SAP Customer Checkout, versión 2.0;&lt;/li&gt;
+	&lt;li&gt;SAP Customer Checkout_SVR, versión 2.0;&lt;/li&gt;
+	&lt;li&gt;SAP Focused Run (Simple Diagnostics Agent), versión 1.0;&lt;/li&gt;
+	&lt;li&gt;SAP HANA Extended Application Services, versión 1;&lt;/li&gt;
+	&lt;li&gt;SAP Innovation Management, versión 2;&lt;/li&gt;
+	&lt;li&gt;SAP Manufacturing Integration and Intelligence, versiones 15.1, 15.2, 15.3 y 15.4;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver (EP Web Page Composer), versiones 7.20, 7.30, 7.31, 7.40 y 7.50;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver (Internet Communication Manager), versiones KRNL64NUC 7.22, 7.22EXT, 7.49, KRNL64UC 7.22, 7.22EXT, 7.49, 7.53, KERNEL 7.22, 7.49, 7.53, 7.77, 7.81, 7.85 y 7.86;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver ABAP Server and ABAP Platform, versiones 740, 750 y 787;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver Application Server ABAP and ABAP Platform, versiones 700, 710, 711, 730, 731, 740 y 750-756;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver Application Server Java, versiones KRNL64NUC 7.22, 7.22EXT, 7.49, KRNL64UC, 7.22, 7.22EXT, 7.49, 7.53, KERNEL 7.22, 7.49 y 7.53;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver Application Server for ABAP (Kernel) and ABAP Platform (Kernel), versiones KERNEL 7.22, 8.04, 7.49, 7.53, 7.77, 7.81, 7.85, 7.86, 7.87, KRNL64UC 8.04, 7.22, 7.22EXT, 7.49, 7.53, KRNL64NUC 7.22, 7.22EXT y 7.49;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver Application Server for Java, versión 7.50;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver Enterprise Portal, versiones 7.10, 7.11, 7.20, 7.30, 7.31, 7.40 y 7.50;&lt;/li&gt;
+	&lt;li&gt;SAP NetWeaver and ABAP Platform, versiones KERNEL 7.22, 8.04, 7.49, 7.53, 7.77, 7.81, 7.85, 7.86, 7.87, KRNL64UC 8.04, 7.22, 7.22EXT, 7.49, 7.53, KRNL64NUC 7.22, 7.22EXT y 7.49;&lt;/li&gt;
+	&lt;li&gt;SAP SQL Anywhere Server, versión 17.0;&lt;/li&gt;
+	&lt;li&gt;SAP Web Dispatcher, versiones 7.22, 7.22EXT, 7.49, 7.53, 7.77, 7.81, 7.83, 7.85, 7.86 y 7.87;&lt;/li&gt;
+	&lt;li&gt;SAPS/4HANA(Supplier Factsheet and Enterprise Search for Business Partner, Supplier and Customer), versiones 104, 105 y 106;&lt;/li&gt;
+	&lt;li&gt;SAPUI5 (vbm library), versiones 750, 753, 754, 755 y 756;&lt;/li&gt;
+	&lt;li&gt;SAPUI5, versiones: 750, 753, 754, 755, 756 y 200.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;SAP ha publicado varias actualizaciones de seguridad en diferentes productos en su comunicado mensual.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Visitar el portal de &lt;a data-mce-href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html" href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news.html" rel="external noopener noreferrer" target="_blank" title="SAP Security Notes &amp;amp; News"&gt;soporte de SAP&lt;/a&gt; e instalar las actualizaciones o los parches necesarios, según indique el fabricante.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;SAP, en su comunicado mensual de parches de seguridad, ha emitido un total de 22 notas de seguridad y 10 actualizaciones de notas anteriores, siendo 3 de severidad crítica, 4 de severidad alta, 13 de severidad media y 2 de severidad baja.&lt;/p&gt;
+
+&lt;p&gt;Los tipos de vulnerabilidades publicadas se corresponden con los siguientes:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;4 vulnerabilidades de ejecución remota de código;&lt;/li&gt;
+	&lt;li&gt;3 vulnerabilidades de &lt;em&gt;Cross-Site Scripting&lt;/em&gt; (XSS);&lt;/li&gt;
+	&lt;li&gt;3 vulnerabilidades de denegación de servicio (DoS);&lt;/li&gt;
+	&lt;li&gt;3 vulnerabilidades de divulgación de información;&lt;/li&gt;
+	&lt;li&gt;1 vulnerabilidad de escalada de privilegios;&lt;/li&gt;
+	&lt;li&gt;1 vulnerabilidad de falta de comprobación de entrada;&lt;/li&gt;
+	&lt;li&gt;2 vulnerabilidades de falta de validación XML;&lt;/li&gt;
+	&lt;li&gt;1 vulnerabilidad de redirección URL;&lt;/li&gt;
+	&lt;li&gt;1 vulnerabilidad de &lt;em&gt;directory traversal&lt;/em&gt;;&lt;/li&gt;
+	&lt;li&gt;1 vulnerabilidad de &lt;em&gt;Cross-Side Request Forgery&lt;/em&gt; (CSRF);&lt;/li&gt;
+	&lt;li&gt;1 vulnerabilidad de falta de autorización;&lt;/li&gt;
+	&lt;li&gt;1 vulnerabilidad de otro tipo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;La nota de seguridad más destacada del mes se refiere a la &lt;a href="https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-productos-spring" target="_blank" title="vulnerabilidad en Spring Framework"&gt;vulnerabilidad en&amp;nbsp;Spring Framework&lt;/a&gt; en&amp;nbsp;SAP HANA Extended Application Services, con el identificador&amp;nbsp;CVE-2022-22965 asignado.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/sap"&gt;SAP&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Apr 2022 09:13:19 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202651 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Vulnerabilidad RCE en Apache Struts</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/vulnerabilidad-rce-apache-struts</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 13/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Alta&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Struts, versiones desde la 2.0.0 hasta la 2.5.29.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;El investigador Chris McCown ha reportado una vulnerabilidad de ejecución remota de código (RCE) con severidad alta, cuya explotación podría permitir a un atacante tomar el control del sistema afectado.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;&lt;a href="https://struts.apache.org/security/#do-not-use-incoming-untrusted-user-input-in-forced-expression-evaluation" rel="external" target="_blank" title="Do not use incoming, untrusted user input in forced expression evaluation"&gt;Evitar el uso&lt;/a&gt; de la evaluación OGNL (&lt;em&gt;Object Graph Navigation Language&lt;/em&gt;) forzada en datos de entrada de un usuario no confiable y/o actualizar a Struts &lt;a href="https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.5.30" rel="external" target="_blank" title="Apache Struts 2.5.30"&gt;2.5.30&lt;/a&gt; o versiones superiores.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;La corrección para la vulnerabilidad &lt;a href="https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/vulnerabilidad-tipo-ejecucion-remota-codigo-apache-struts" target="_blank" title="Vulnerabilidad de tipo ejecución remota de código en Apache Struts"&gt;CVE-2020-17530&lt;/a&gt; estaba incompleta, ya que algunos atributos de la etiqueta podrían realizar una doble evaluación si un desarrollador aplicara la evaluación OGNL mediante la sintaxis %{...}, posibilitando la ejecución de código remoto. Se ha asignado el identificador CVE-2021-31805 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/apache"&gt;Apache&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/java"&gt;Java&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Apr 2022 08:53:54 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202650 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Actualizaciones de seguridad de Microsoft de abril de 2022</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/actualizaciones-seguridad-microsoft-abril-2022</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 13/04/2022&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;.NET Framework,&lt;/li&gt;
+	&lt;li&gt;Active Directory Domain Services,&lt;/li&gt;
+	&lt;li&gt;Azure SDK,&lt;/li&gt;
+	&lt;li&gt;Azure Site Recovery,&lt;/li&gt;
+	&lt;li&gt;LDAP - Lightweight Directory Access Protocol,&lt;/li&gt;
+	&lt;li&gt;Microsoft Bluetooth Driver,&lt;/li&gt;
+	&lt;li&gt;Microsoft Dynamics,&lt;/li&gt;
+	&lt;li&gt;Microsoft Edge (basado en Chromium),&lt;/li&gt;
+	&lt;li&gt;Microsoft Graphics Component,&lt;/li&gt;
+	&lt;li&gt;Microsoft Local Security Authority Server (lsasrv),&lt;/li&gt;
+	&lt;li&gt;Microsoft Office Excel,&lt;/li&gt;
+	&lt;li&gt;Microsoft Office SharePoint,&lt;/li&gt;
+	&lt;li&gt;Microsoft Windows ALPC,&lt;/li&gt;
+	&lt;li&gt;Microsoft Windows Codecs Library,&lt;/li&gt;
+	&lt;li&gt;Microsoft Windows Media Foundation,&lt;/li&gt;
+	&lt;li&gt;Power BI,&lt;/li&gt;
+	&lt;li&gt;Role: DNS Server,&lt;/li&gt;
+	&lt;li&gt;Role: Windows Hyper-V,&lt;/li&gt;
+	&lt;li&gt;Skype para Business,&lt;/li&gt;
+	&lt;li&gt;Visual Studio,&lt;/li&gt;
+	&lt;li&gt;Visual Studio Code,&lt;/li&gt;
+	&lt;li&gt;Windows Ancillary Function Driver para WinSock,&lt;/li&gt;
+	&lt;li&gt;Windows App Store,&lt;/li&gt;
+	&lt;li&gt;Windows AppX Package Manager,&lt;/li&gt;
+	&lt;li&gt;Windows Cluster Client Failover,&lt;/li&gt;
+	&lt;li&gt;Windows Cluster Shared Volume (CSV),&lt;/li&gt;
+	&lt;li&gt;Windows Common Log File System Driver,&lt;/li&gt;
+	&lt;li&gt;Windows Defender,&lt;/li&gt;
+	&lt;li&gt;Windows DWM Core Library,&lt;/li&gt;
+	&lt;li&gt;Windows Endpoint Configuration Manager,&lt;/li&gt;
+	&lt;li&gt;Windows Fax Compose Form,&lt;/li&gt;
+	&lt;li&gt;Windows Feedback Hub,&lt;/li&gt;
+	&lt;li&gt;Windows File Explorer,&lt;/li&gt;
+	&lt;li&gt;Windows File Server,&lt;/li&gt;
+	&lt;li&gt;Windows Installer,&lt;/li&gt;
+	&lt;li&gt;Windows iSCSI Target Service,&lt;/li&gt;
+	&lt;li&gt;Windows Kerberos,&lt;/li&gt;
+	&lt;li&gt;Windows Kernel,&lt;/li&gt;
+	&lt;li&gt;Windows Local Security Authority Subsystem Service,&lt;/li&gt;
+	&lt;li&gt;Windows Media,&lt;/li&gt;
+	&lt;li&gt;Windows Network File System,&lt;/li&gt;
+	&lt;li&gt;Windows PowerShell,&lt;/li&gt;
+	&lt;li&gt;Windows Print Spooler Components,&lt;/li&gt;
+	&lt;li&gt;Windows RDP,&lt;/li&gt;
+	&lt;li&gt;Windows Remote Procedure Call Runtime,&lt;/li&gt;
+	&lt;li&gt;Windows schannel,&lt;/li&gt;
+	&lt;li&gt;Windows SMB,&lt;/li&gt;
+	&lt;li&gt;Windows Telephony Server,&lt;/li&gt;
+	&lt;li&gt;Windows Upgrade Assistant,&lt;/li&gt;
+	&lt;li&gt;Windows User Profile Service,&lt;/li&gt;
+	&lt;li&gt;Windows Win32K,&lt;/li&gt;
+	&lt;li&gt;Windows Work Folder Service&lt;/li&gt;
+	&lt;li&gt;YARP reverse proxy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;La publicación de actualizaciones de seguridad de Microsoft, correspondiente al mes de abril y que incluye toda la información comprendida entre el día 09/03/2022 y el día 12/04/2022 con la publicación del boletín de este mes, consta de 157 vulnerabilidades (con CVE asignado), calificadas como: 10 de severidad crítica, 116 importantes, 3 moderadas y 28 sin severidad asignada.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Instalar la actualización de seguridad correspondiente. En la &lt;a href="https://msrc.microsoft.com/update-guide/releaseNote/2022-Apr" rel="external" target="_blank" title="April 2022 Security Updates"&gt;página de Microsoft&lt;/a&gt; se informa de los distintos métodos para llevar a cabo dichas actualizaciones.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Las vulnerabilidades publicadas se corresponden con los siguientes tipos:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;denegación de servicio,&lt;/li&gt;
+	&lt;li&gt;escalada de privilegios,&lt;/li&gt;
+	&lt;li&gt;divulgación de información,&lt;/li&gt;
+	&lt;li&gt;ejecución remota de código,&lt;/li&gt;
+	&lt;li&gt;suplantación de identidad (&lt;em&gt;spoofing&lt;/em&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Entre las vulnerabilidades corregidas se encuentran dos 0day, ambas de severidad alta:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;CVE-2022-24521: escalada de privilegios en Windows Common Log File System Driver, divulgada&amp;nbsp;públicamente.&lt;/li&gt;
+	&lt;li&gt;CVE-2022-26904: escalada de privilegios en Windows User Profile Service, explotada&amp;nbsp;de manera activa.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/0day"&gt;0day&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/microsoft"&gt;Microsoft&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/navegador"&gt;Navegador&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/privacidad"&gt;Privacidad&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/windows"&gt;Windows&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 13 Apr 2022 07:40:21 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">202648 at https://www.incibe-cert.es</guid>
+    </item>
+  </channel>
+</rss>

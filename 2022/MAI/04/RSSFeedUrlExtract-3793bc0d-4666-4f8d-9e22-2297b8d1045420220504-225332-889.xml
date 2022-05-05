@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AlienVault Blogs</title>
+    <link>https://cybersecurity.att.com/blogs</link>
+    <description>The most recent posts from across the AlienVault blogs.</description>
+    <dc:language>en</dc:language>
+    <dc:creator>hello@alienvault.com</dc:creator>
+    <dc:rights>Copyright 2019</dc:rights>
+    <dc:date>2019-04-12T13:00:00+00:00</dc:date>
+    <admin:generatorAgent rdf:resource="http://expressionengine.com/" />
+    <item>
+      <title>How and why you should secure APIs</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/how-and-why-you-should-secure-apis</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/how-and-why-you-should-secure-apis#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p><i>This blog was written by an independent guest blogger.</i></p>
+
+<p>APIs are a crucial tool in today&rsquo;s business environment. Allowing applications to interact and exchange data and services means that companies can provide an ever-greater range of features and functionalities to their clients quickly and easily. So, it is no wonder that a quarter of businesses report that <a href="https://www.businesswire.com/news/home/20220301005499/en/APi-Group-Reports-Fourth-Quarter-and-Full-Year-2021-Financial-Results" target="_blank">APIs account for at least 10% of their total revenue</a> - a number that will only increase in coming years.</p>
+
+<p>But for all their benefits, APIs also create security concerns for organizations. In one survey of API users, <a href="https://www.securitymagazine.com/articles/94509-of-organizations-had-api-security-incident-last-year" target="_blank">91% reported an API-related security incident</a>. Unfortunately, API security efforts within many organizations are simply not sufficient, exposing the company and its clients to attack and loss of sensitive data.&nbsp;</p>
+
+<p>Every business that uses APIs, indeed every business even thinking about using APIs, should have a solid API security strategy in place. This article reviews API vulnerabilities and outlines steps organizations should take to secure their APIs.</p>
+
+<h2>The importance of APIs</h2>
+
+<p>APIs provide numerous benefits for both businesses and their customers. At its most basic level, an API is simply a tool that allows an application to communicate with external applications and data sources. Developers can leverage these connections to create new applications, functionalities, and analytical tools, speeding the pace of business innovation and constantly improving user experience.</p>
+
+<p>APIs facilitate everything from online payment systems and banking to travel aggregator services, social media, and media streaming services. They are also an important part of the rapidly expanding cryptocurrency world.&nbsp;</p>
+
+<p>Crypto developers use APIs to build decentralized applications (DApps) on blockchains. APIs also interact with the smart contracts that control everything from transactions to the formation of decentralized autonomous organizations (blockchain governance structures known colloquially <a href="https://www.doola.com/blog/what-is-a-dao-llc-your-complete-guide-to-daos" target="_blank">as DAOs</a>).</p>
+
+<p>APIs also ease data sharing among corporate applications, reducing the need for repetitive and wasteful data entry. And they are an essential part of automating many business functions. And in a business environment that increasingly includes remote workers, they help businesses build effective collaboration tools to ensure that their teams continue to work well, even when virtual.</p>
+
+<p>Businesses can also <a href="https://blog.hubspot.com/website/application-programming-interface-api" target="_blank">use APIs</a> for advanced competitive intelligence programs. Not only can they simplify the aggregation of competitive data from a range of sources, but they are integral in building effective data analytics and display tools.&nbsp;</p>
+
+<p>They can even be used to continuously track changes to your competitors&rsquo; websites so you can always be on top of the latest innovations in your industry (e.g., <a href="https://visualping.io/" target="_blank">with tools like Visualping</a>).&nbsp;&nbsp;</p>
+
+<h2>API security vulnerabilities</h2>
+
+<p>Because APIs are such a dominant part of the business landscape, cyber attackers have targeted them with growing frequency. Gartner predicted that API attacks would be the most <a href="https://www.gartner.com/en/webinars/4002323/api-security-protect-your-apis-from-attacks-and-data-breaches" target="_blank">common attack vector this year</a>, and that prediction is rapidly proving true.</p>
+
+<p>Some of the world&rsquo;s largest and most sophisticated companies have suffered widely publicized data breaches resulting from API attacks. And as businesses have painfully learned, hackers have many different ways to attack APIs.</p>
+
+<h2>Targeting code vulnerabilities</h2>
+
+<p>As with any software, APIs are only as good as their underlying code. Poor coding of APIs creates inherent vulnerabilities that hackers are only too happy to exploit.</p>
+
+<h3>DDoS attacks</h3>
+
+<p>Distributed denial of service attacks, which attempt to render APIs <a href="https://cybersecurity.att.com/blogs/security-essentials/types-of-ddos-attacks-explained" target="_blank">completely unavailable</a> to users by overwhelming them with traffic, are rapidly increasing in frequency. One reason is the increase in e-commerce in recent years. DDoS attacks can prevent access to inventories by adding stock to carts that they then never check out (denial of inventory attack).</p>
+
+<h3>Failed authentication and access control policies</h3>
+
+<p>It is crucial for organizations to strictly control API access and require strong authentication. Company API security policies should include <a href="https://cybersecurity.att.com/documentation/usm-central/user-management/user-access-rbac.htm" target="_blank">role-based access control</a>, least privilege, and zero trust policies to limit opportunities for hackers to interfere with APIs using compromised credentials. These policies will also help restrict how far a successful hacker can get within company systems using compromised credentials, especially if companies strictly limit granting wide-ranging privileges to users.</p>
+
+<h3>Man-in-the-Middle (MitM) attacks&nbsp;</h3>
+
+<p>Hackers can insert themselves between users and APIs by intercepting and changing the communications between them. Using <a href="https://www.csoonline.com/article/3340117/man-in-the-middle-attack-definition-and-examples.html">MitM attacks</a>, hackers can gain access to sensitive user accounts and information, which they can use to exfiltrate company data. The danger of MitM attacks increases when companies do not apply transport layer security (TLS) in their APIs.</p>
+
+<h2>Securing your APIs</h2>
+
+<p>So what steps do businesses need to take to have the best security possible when using APIs?&nbsp;</p>
+
+<h3>Build an API inventory</h3>
+
+<p>The first step is to know what APIs you have and how you use them. A complete API inventory, including whether you have multiple versions of a given API, allows you to minimize your overall attack surface by eliminating unused or outdated APIs. An API inventory also helps you prioritize your security efforts, directing resources towards your most critical systems.</p>
+
+<h3>Create effective API security policies</h3>
+
+<p>API vulnerabilities start well before a hacker ever enters the picture. Unfortunately, many companies don&rsquo;t adequately protect their API assets because they don&rsquo;t have API security policies in place, or if they do, those policies are ineffective. Organizations must apply strong security policies to their API usage and routinely enforce and update those policies.</p>
+
+<h3>Use strong authentication methods and encryption</h3>
+
+<p>In addition to having policies that limit who can access your APIs, you need to verify the identity of the people and services accessing them. Authentication methods such as API key or <a href="https://cybersecurity.att.com/blogs/security-essentials/oauth2-as-the-solution-for-three-iot-security-challenges" target="_blank">OAuth authentication</a> harden your APIs against attacks and reduce your attack surface.</p>
+
+<h3>Limit data exposure</h3>
+
+<p>The less data transferred through an API, the less there is for an attacker to intercept or exfiltrate. Therefore, keep data sharing across an API to what is absolutely necessary. Not only do you minimize potential breach issues, but the organization will also be in a better position concerning compliance issues.</p>
+
+<h2>Conclusion</h2>
+
+<p>APIs will only continue to grow in popularity and utility. And they will also continue to be popular attack targets. So, make sure you are taking all the necessary steps to secure your APIs against attackers.&nbsp;</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-05-03T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Analysis on recent wiper attacks: examples and how wiper malware works</title>
+      <link>https://cybersecurity.att.com/blogs/labs-research/analysis-on-recent-wiper-attacks-examples-and-how-they-wiper-malware-works</link>
+      <guid>https://cybersecurity.att.com/blogs/labs-research/analysis-on-recent-wiper-attacks-examples-and-how-they-wiper-malware-works#When:10:00:00Z</guid>
+      <description><![CDATA[
+<h2>Executive summary</h2>
+
+<ul>
+	<li>2022 has experienced an increase in the number of wiper&nbsp;variants targeting Ukrainian entities.</li>
+	<li>This blog post looks to explain how wipers work, what makes them so effective and provides a short overview of the most recent samples that appeared in the eastern Europe geopolitical conflict.</li>
+</ul>
+
+<h2>How does wiper malware work?</h2>
+
+<p>Wiper&rsquo;s main objective is to destroy data from any storage device and make the information unavailable (T1485). There are two ways of removing files, logical and physical.</p>
+
+<p>Logical file removal is the most common way of erasing a file, performed by users daily when a file is sent to (and emptied from) the Recycle bin, or when it is removed with the command line or terminal with the commands <i>del</i>/<i>rm</i>. This action deletes the pointer to the file but not the file data, making it recoverable with forensic tools as long as the Operative System does not write any other file in the same physical location.</p>
+
+<p>However, malware wipers aim to make the data irrecoverable, so they tend to remove the data from the physical level of the disk. The most effective way to remove the data/file is by overwriting the specific physical location with other data (usually a repeated byte like 0xFF). This process usually involves writing to disk several Gigabytes (or Terabytes) of data and can be time consuming. For this reason, in addition to destroying the data, many wipers first&nbsp;destroy two special files in the system:</p>
+
+<ul>
+	<li>The Master Boot Record (MBR), which is used during the boot process to identify where the Operative System is stored in the disk. By replacing the MBR, the boot process crashes, making the files inaccessible unless forensic methodologies are used.</li>
+	<li>The Master File Table (MFT) is exclusive to NTFS file systems, contains the physical location of files in the drive as well as logical and physical size and any associated metadata. If big files need to be stored in the drive, and cannot use consecutive blocks, these files will have to be fragmented in the disk. The MFT holds the information of where each fragment is stored. Removing the MFT will require the use of forensic tools to recover small files, and basically&nbsp;prevents recovery of fragmented files since the link between fragments is lost.</li>
+</ul>
+
+<p>The main difference between wipers and ransomware is that it&rsquo;s impossible to retrieve the impacted information after a wiper attack. Attackers using wipers do not usually target financial reward but intend to disrupt the victim&rsquo;s operations as much as possible. Ransomware operators aim to get a payment in exchange for the key to decrypt the user&rsquo;s data.</p>
+
+<p>With both wiper and ransomware attacks, the victim depends on their back up system to recover after an attack. However, even some wiper attacks carry ransom notes requesting a payment to recover the data. It is important that the victim properly identifies the attack they&#39;ve suffered, or they may pay the ransom without any chance of retrieving the lost data.</p>
+
+<p>In the last month and a half, since the war started in Eastern Europe, several wipers have been used in parallel with DDoS attacks (T1499) to keep financial institutions and government organizations, mainly Ukrainian, inaccessible for extended periods of time. Some of the wipers observed in this timeframe have been: WhisperKill, HermeticWiper, IsaacWiper, CaddyWiper, DoubleZero Wiper and AcidRain.</p>
+
+<h2>Most recent wiper examples</h2>
+
+<p><b>WhisperKill</b></p>
+
+<p>On January 14, 2022, the Ukrainian government experienced&nbsp;a coordinated attack on 22 of their government agencies, defacing their websites. Almost all the compromised websites were developed by the same Ukranian IT company, Kitsoft, and all of them were built on OctoberCMS. Therefore, the attack vector was most probably&nbsp;a supply chain attack on the IT provider, or an exploitation of an OctoberCMS vulnerability, combined with exploitations of Log4Shell vulnerability (T1190).</p>
+
+<p style="text-align:center"><img alt="defaced Ukrainian website" src="blog-content/defaced_website.jpg" /></p>
+
+<p style="text-align:center">Figure 1. Example of defaced Ukrainian government website.</p>
+
+<p>In addition to the website defacement, Microsoft Threat Intelligence Center (MSTIC), identified in a <a href="https://www.microsoft.com/security/blog/2022/01/15/destructive-malware-targeting-ukrainian-organizations/" target="_blank">report</a>&nbsp;destructive malware samples targeting Ukrainian organizations with two malware samples. Microsoft named the samples&nbsp;WhisperGate, while other security companies labeled the downloader as WhisperGate and WhisperKill as&nbsp;the actual wiper, which was considered a component of WhisperGate.</p>
+
+<p>The identified files were:</p>
+
+<ul>
+	<li>Stage1 replaces&nbsp;the Master Boot Record (MBR) with a ransom note when the system is powered down, deeming the machine unbootable after that point. When booted up, the system displays Figure 2 on screen. Despite the ransom request, the data will not be recoverable since all efforts made by WhisperKill are looking to destroy data, not encrypt it. In this case, the wallet is most probably an attempt to decoy&nbsp;attribution efforts.</li>
+</ul>
+
+<p><img alt="wiper ransom note" src="blog-content/wiper_ransome_note.jpg" /></p>
+
+<p style="text-align:center">Figure 2. Ransom note obtained by MSTIC.</p>
+
+<ul>
+	<li>Stage 2 attempts&nbsp;to download the next stage malware (T1102.003) from the Discord app, if unsuccessful, it sleeps and tries again. The payload downloaded from the messaging app destroys as much data as possible by overwriting certain file types with 0xCC for the first MB of the file. Then it modifies&nbsp;the file extension to a random four-byte extension. By selecting the file types to be wiped and only writing over the first MB of data, the attackers are&nbsp;optimizing the wiping process. This is due to not wasting time on system files and only spending the necessary time to wipe each file, rapidly switching to the next file as soon as the current one is unrecoverable. Finally, the malware executes&nbsp;a command to delete itself from the system (T1070.004).</li>
+</ul>
+
+<p><b>HermeticWiper</b></p>
+
+<p>A month after, on February 23rd 2022, ESET Research <a href="https://www.welivesecurity.com/2022/02/24/hermeticwiper-new-data-wiping-malware-hits-ukraine/" target="_blank">reported</a> a new Wiper being used against hundreds of Ukrainian systems. The wiper receives its name from the stolen certificate (T1588.003) it was using to bypass security controls &ldquo;Hermetica Digital Ltd&rdquo; (T1588.003). According to a Reuters article, the certificate could have also been obtained by impersonating the company and requesting a certificate from scratch.</p>
+
+<p style="text-align:center"><img alt="hermetica certificate" src="blog-content/hermetica.jpg" /></p>
+
+<p style="text-align:center">Figure 3. Hermetica Digital Ltd certificate.</p>
+
+<p>The attackers have been seen using several methods to distribute the wiper through the domain, like: domain Group Policy Object (GPO) (T1484.001), Impacket or SMB (T1021.002) and WMI (T1047) with an additional worm component named HermeticWizard.</p>
+
+<p>The wiper component first installs the payload as a service (T1569.002) under <i>C:\Windows\system32\Drivers\</i>. Afterwards, the service corrupts the first 512 bytes of the MBR of all the Physical Drives, and then enumerates their partitions. Before attempting to overwrite as much data as the wiper can it will delete key files in the partition, like MFT, $Bitmap, $LogFile, the NTUSER registry hive (T1112) and the event logs (T1070.001).</p>
+
+<p>On top of deleting key file system structures, it also performs a drive fragmentation (breaking up files and segregating them in the drive to optimize the system&rsquo;s performance). The combination of the file fragmentation and the deletion of the MFT makes file recovery difficult, since files will be scattered through the drive in small parts - without any guidance as to where each part is located.</p>
+
+<p>Finally, the malware writes randomized contents into all occupied sectors in the partition in an attempt to remove all potential hope of recovering any data with forensic tools or procedures.</p>
+
+<p><b>IsaacWiper</b></p>
+
+<p>A day after the initial destructive attack with HermeticWiper, on February 24th, 2022, a new wiper was used against the Ukrainian government, as reported by ESET, without any significant similarities to the HermaticWiper used the day before.</p>
+
+<p>IsaacWiper identifies all the physical drives not containing the Operative System and locks their logical partitions by only allowing a single thread to&nbsp;access&nbsp;each of them. Then it starts to write random data into the drives in chunks of 64 KB. There is a unique thread per volume, making the wiping process very long.</p>
+
+<p>Once the rest of the physical drives and the logical partitions sharing physical drive with the Operative System&rsquo;s volume have been wiped, this last volume is wiped by:</p>
+
+<ul>
+	<li>Erasing the MBR.</li>
+	<li>Overwriting all files with 64 KB chunks of random data with one thread.</li>
+	<li>Creating a new file under the C drive which will be filled with random data until it takes the maximum space it can from the partition, overwriting the already overwritten existing files. This process is performed with a different thread, but it would still take a long time to write the full partition since both concurrent threads are actually attempting to write random data on the full disk.</li>
+</ul>
+
+<p style="text-align:center"><img alt="Isaacwiper strings" src="blog-content/isaacwiper.jpg" /></p>
+
+<p style="text-align:center">Figure 4. IsaacWiper strings.</p>
+
+<p>When comparing IsaacWiper to WhisperKill, the attackers&rsquo; priorities become clear. WhisperKill creators prioritized speed and number of affected files over ensuring the full drive is overwritten, since only 1 MB of each file was overwritten. On the other hand, IsaacWiper creators gave total priority to deliver the most effective wiper, no matter how long it takes to overwrite the full physical disk.</p>
+
+<p><b>AcidRain</b></p>
+
+<p>On the same day IsaacWiper was deployed, another wiper attacked Viasat KA-SAT modems in Ukraine, this time with a different wiper, named AcidRain by <a href="https://www.sentinelone.com/labs/acidrain-a-modem-wiper-rains-down-on-europe/" target="_blank">SentinelLABS</a>. This wiper was particularly aimed at modems, probably to disrupt Internet access from Ukraine. This new wiper showed similarities to previously seen botnets targeting modems using VPNFilter. It was used in 2018, targeting vulnerabilities in several common router brands: Linksys, MikroTik, NETGEAR, and TP-Link. Exploiting vulnerabilities allowed the attackers to obtain Initial Access inside all types of networks, where the bot would search for Modbus traffic to identify infected systems with Industrial Control Systems (ICS).</p>
+
+<p>The wiper used was the ELF MIPS wiper targeting Viasat KA-SAT modems, which aimed to firstly overwrite any file outside of the any common *nix installation: bin, boot, dev, lib, proc, sbin, sys, sur, etc. to then delete data from /dev/.</p>
+
+<p><b>CaddyWiper</b></p>
+
+<p>The first version of CaddyWiper was discovered by ESET researchers on 2022-03-14 when it was used against a Ukrainian bank. This new wiper variant does not have any significant code similarities to previous wipers. This sample specifically sets an exclusion to avoid infecting Domain Controllers in the infected system. Afterwards, it targets <i>C:/Users</i> and any additional attached drive all the way to letter <i>Z:/ </i>and zeroes all the files present in such folders/drives. Finally, the extended information of the physical drives is destroyed, including the MBR and partition entries.</p>
+
+<p>A variant of CaddyWiper was used again on 2022-04-08 14:58 against high-voltage electrical substations in Ukraine. This latest version of the wiper was delivered together with Industroyer2, an evolution of Industroyer, which has the main functionn being to communicate with industrial equipment. In this case, the wiper was used with the purpose of slowing down the recovery process from the Industroyer2 attack and gaining back control of the ICS consoles, as well as covering the tracks of the attack. According to <a href="https://www.welivesecurity.com/" target="_top">Welivesecurity</a>, who have been cooperating with CERT-UA in this investigation, the Sandworm Team is behind this latest attack.</p>
+
+<p>In this same attack against the energy station in Ukraine, other wiper samples for Linux and Solaris were observed by WeliveSecurity. These wipers leverage the shred command if present, otherwise they use the basic dd or rm commands to wipe the system.</p>
+
+<p><b>DoubleZero wiper</b></p>
+
+<p>On March 22, 2022 CERT-UA <a href="https://cert.gov.ua/article/38088" target="_blank">reported</a> a new wiper used against their infrastructure and enterprises. Named DoubleZero, the wiper was distributed as a ZIP file containing an obfuscated .NET program. The wiper&rsquo;s routine sets a hardcoded list of system directories, which are skipped during an initial wiping targeting user files. Afterwards, the skipped system directories are targeted and finally the registry hives: HKEY_LOCAL_MACHINE (containing the hives Sam, Security, Software and System), HKEY_CURRENT_USER and HKEY_USERS.</p>
+
+<p>There are two wiping methods, both of which zero&nbsp;out the selected file.</p>
+
+<p style="text-align:center"><img alt="doublezero wiper" src="blog-content/doublezero.jpg" /></p>
+
+<p style="text-align:center">Figure 5. DoubleZero first wiping function.</p>
+
+<h2>Conclusion</h2>
+
+<p>As we have seen in the examples above, the main objective of the attackers behind wipers is to destroy all possible data and render systems unbootable (if possible), potentially requiring a full system restore if backups aren&rsquo;t available. These malware attacks can be as disruptive as ransomware attacks, but wipers are arguably worse since there is no potential escape door of a payment to recover the data.</p>
+
+<p>There are plenty of ways to wipe systems. We&#39;ve looked at 6 different wiper&nbsp;samples observed targeting Ukranian entities.&nbsp;These samples approach the attack in very different ways, and most of them occur faster than the time required to respond. For that reason, it is not effective to employ detection of wiper malware, as&nbsp;once they are in the system as it is already too late. The best approach against wipers is to prevent attacks by keeping systems up to date and by increasing cybersecurity awareness. In addition, consequences can be ameliorated by having periodic backup copies of key infrastructure available.</p>
+
+<h2>Associated indicators (IOCs)</h2>
+
+<p>The following technical indicators are associated with the reported intelligence. A list of indicators is also available in the following OTX Pulses:</p>
+
+<ul>
+	<li><a href="https://otx.alienvault.com/pulse/61e5965bff9d283ca1d6722e" target="_blank">WhisperKill</a></li>
+	<li><a href="https://otx.alienvault.com/pulse/621e480e5642b2dd2e48ee76" target="_blank">HermeticWiper and IsaacWiper</a></li>
+	<li><a href="https://otx.alienvault.com/pulse/6246c203738cd312cf509dd4" target="_blank">AcidRain</a></li>
+	<li><a href="https://otx.alienvault.com/pulse/62552abdd7e44d9aba08636d" target="_blank">CaddyWiper</a></li>
+	<li><a href="https://otx.alienvault.com/pulse/6239af0cc64380c3277ca09e" target="_blank">DoubleZero</a></li>
+</ul>
+
+<p>Please note, the pulses may include other activities related but out of the scope of the report.</p>
+
+<table style="border-collapse:collapse">
+	<tbody>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:1px solid #959595; height:26px; width:97px">
+			<p>TYPE</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:1px solid #959595; height:26px; width:311px">
+			<p>INDICATOR</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:1px solid #959595; height:26px; width:216px">
+			<p>DESCRIPTION</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>a196c6b8ffcb97ffb276d04f354696e2391311db3841ae16c8c9f56f36a38e92</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>WhisperKill (stage1.exe)</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>dcbbae5a1c61dbbbb7dcd6dc5dd1eb1169f5329958d38b58c3fd9384081c9b78</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>WhisperKill (stage2.exe)</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>0385eeab00e946a302b24a91dea4187c1210597b8e17cd9e2230450f5ece21da</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>HermeticWiper</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>1bc44eef75779e3ca1eefb8ff5a64807dbc942b1e4a2672d77b9f6928d292591</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>HermeticWiper</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>13037b749aa4b1eda538fda26d6ac41c8f7b1d02d83f47b0d187dd645154e033</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>IsaacWiper</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>9b4dfaca873961174ba935fddaf696145afe7bbf5734509f95feb54f3584fd9a</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>AcidRain</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>47f521bd6be19f823bfd3a72d851d6f3440a6c4cc3d940190bdc9b6dd53a83d6</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>AcidRain</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>Fc0e6f2effbfa287217b8930ab55b7a77bb86dbd923c0e8150551627138c9caa</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>CaddyWiper</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>7062403bccacc7c0b84d27987b204777f6078319c3f4caa361581825c1a94e87</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>Industroyer2</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>3b2e708eaa4744c76a633391cf2c983f4a098b46436525619e5ea44e105355fe</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>DoubleZero</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-bottom:1px solid #959595; border-left:1px solid #959595; border-right:1px solid #959595; border-top:none; height:33px; width:97px">
+			<p>SHA256</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:311px">
+			<p>30b3cbe8817ed75d8221059e4be35d5624bd6b5dc921d4991a7adc4c3eb5de4a</p>
+			</td>
+			<td style="border-bottom:1px solid #959595; border-left:none; border-right:1px solid #959595; border-top:none; height:33px; width:216px">
+			<p>DoubleZero</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>&nbsp;</h3>
+
+<h2>Mapped to MITRE ATT&amp;CK</h2>
+
+<h3>The findings of this report are mapped to the following <a href="https://attack.mitre.org/" target="_blank">MITRE ATT&amp;CK Matrix</a> techniques:</h3>
+
+<ul>
+	<li>TA0001: Initial Access
+	<ul>
+		<li>T1190: Exploit Public-Facing Application</li>
+	</ul>
+	</li>
+	<li>TA0002: Execution
+	<ul>
+		<li>T1047: Windows Management Instrumentation</li>
+		<li>T1569: System Services
+		<ul>
+			<li>T1569.002: Service Execution</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>TA0008: Lateral Movement
+	<ul>
+		<li>T1021: Remote Services
+		<ul>
+			<li>T1021.002: SMB/Windows Admin Shares</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>TA0005: Defense Evasion
+	<ul>
+		<li>T1070: Indicator Removal on Host
+		<ul>
+			<li>T1070.004: File Deletion</li>
+			<li>T1070.001: Clear Windows Event Logs</li>
+		</ul>
+		</li>
+		<li>T1112: Modify Registry</li>
+		<li>T1484: Domain Policy Modification
+		<ul>
+			<li>T1484.001: Group Policy Modification</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>TA0011: Command and Control
+	<ul>
+		<li>T1102: Web Service
+		<ul>
+			<li>T1102.003: One-Way Communication</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>TA0040: Impact
+	<ul>
+		<li>T1485: Data Destruction</li>
+		<li>T1499: Endpoint Denial of Service</li>
+	</ul>
+	</li>
+	<li>TA0042: Resource Development
+	<ul>
+		<li>T1588: Obtain Capabilities
+		<ul>
+			<li>T1588.003: Code Signing Certificates</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-05-02T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Endpoint security and remote work</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/endpoint-security-and-remote-work</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/endpoint-security-and-remote-work#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p><i>This is part one of a three-part series, written by an independent guest blogger. Please keep an eye out for the next blog in this series.</i></p>
+
+<p>Remote work is the new reality for companies of all sizes and across every industry.&nbsp; As the majority of employees now perform their job functions outside the technology ecosystem of their local office, the cybersecurity landscape has evolved with the adoption of terms such as Zero Trust and Secure Services Edge (SSE).&nbsp; To accommodate this new landscape, organizations have undergone fundamental changes to allow employees to work from anywhere, using any device, and many times at the expense of data security. As a result, a paradigm shift has occurred that demonstrates employees are increasingly dependent on their smartphones and tablets which have jointly become the new epicenter of endpoint security.</p>
+
+<p>This next-level dependence on mobile devices is consistent across the remote work environment.&nbsp; There are countless anecdotes about the new reality of hybrid work.&nbsp; For example, workers using personal tablets to access sensitive data via SaaS apps, or taking a work Zoom call while waiting in the school pickup line. &nbsp;&nbsp;The constant for each of these stories has been the overwhelming preference to use whatever device is available to complete the task at hand. Therefore, it is extremely logical that bad actors have pivoted to mobile to launch their attacks given the overwhelming use of non-traditional endpoints to send email, edit spreadsheets, update CRMs and craft presentations. &nbsp;</p>
+
+<p><a href="https://www.statista.com/topics/779/mobile-internet/#topicHeader__wrapper" target="_blank">4.32B Active Mobile Internet Users </a></p>
+
+<p><a href="https://www.statista.com/topics/779/mobile-internet/#topicHeader__wrapper" target="_blank">56.89% Mobile Internet Traffic as Share of Total Global Online Traffic</a></p>
+
+<p>Although the experience paradigm quickly changed with the adoption of remote work, the perception of mobile devices as a risk vector has been more gradual for most customers. In fact, Gartner estimates that only 30% of enterprise customers currently employ a mobile threat detection solution.&nbsp; Many organizations still assume that their UEM solution provides security or that iOS devices are already safe enough. The most shocking feedback from customers indicates that they historically haven&rsquo;t seen attacks on mobile, so they have no reason to worry about it. &nbsp;Given this mindset, it&rsquo;s again no surprise that hackers have trained their focus on mobile as their primary attack vector and entry point to harvest user credentials.</p>
+
+<ul>
+	<li>16.1 % of Enterprise Devices Encountered one (or more) Phishing or Malicious links in 3Q2021 globally</li>
+	<li>51.2% of Personal Devices Encountered one (or more) Phishing or Malicious links in 3Q2021 globally.</li>
+</ul>
+
+<p>What this mindset reveals is a certain naivete from many organizations, regardless of size or industry, that believe mobile devices do not present significant risk and therefore don&rsquo;t need to be considered in their data security and compliance strategies. This oversight points to two separate tenants that must be addressed when protecting sensitive data via mobile devices:</p>
+
+<h2>Endpoint security is an absolute requirement to protect sensitive data and it includes laptops, desktops, and mobile devices<b> </b></h2>
+
+<p>There isn&rsquo;t a single business that would issue a laptop to an employee without some version of anti-virus or anti-malware security installed yet most mobile devices have no such protections.&nbsp; The primary explanation for this is that organizations think mobile device management is the same as mobile endpoint security. &nbsp;While device management tools are capable of locking or wiping a device, they lack the vast majority of capabilities necessary to proactively detect threats. Without visibility into threats like mobile phishing, malicious network connections, or advanced surveillanceware like Pegasus, device management falls far short of providing the necessary capabilities for true mobile security.</p>
+
+<p>Even cybersecurity thought leaders sometimes overlook the reality of cyber-attacks on mobile.&nbsp; In a recent blog, &ldquo;<a href="https://drive.google.com/file/d/1--nF7bpt3O1be3BTEXxj_rKk2th-gzrC/view?ts=61fd43b9" target="_blank">5 Endpoint Attacks Your Antivirus Won&rsquo;t Catch</a>&rdquo;, the entire story was exclusive to the impact on traditional endpoints even though rootkits and ransomware are just as likely to occur on mobile.&nbsp;</p>
+
+<h2>Traditional security tools do not inherently protect mobile devices</h2>
+
+<p>Given the architectural differences that exist between mobile operating systems (iOS/Android) and traditional endpoint OS (MacOS, Windows, Linux, etc.), the methods for securing them are vastly different.&nbsp; These differences inhibit traditional endpoint security tools, which are not purpose-built for mobile, from providing the right level of protection.&nbsp;</p>
+
+<p>This is especially true when talking about the leading EPP/EDR vendors such as Carbon Black, SentinelOne and Crowdstrike.&nbsp; Their core functionality is exclusive to traditional endpoints, although the inclusion of mobile security elements to their solutions is trending.&nbsp; We&rsquo;re seeing strategic partnerships emerge and it&rsquo;s expected that the mobile security and traditional endpoint security ecosystems will continue to merge as customers look to consolidate vendors.&nbsp;</p>
+
+<p>What&rsquo;s more is that there are so many ways that users interact with their smartphones and tablets that are unique to these devices. For example, a secure email gateway solution can&rsquo;t protect against phishing attacks delivered via SMS or QR codes. Also, can you identify all of your devices (managed and unmanaged) that are subject to the latest OS vulnerability that was just identified and needs to be patched immediately?&nbsp; Did one of your engineers just fall victim to a man-in-the-middle attack when they connected to a malicious WiFi network at a random coffee shop?&nbsp; These are just some of the examples of the threats and vulnerabilities that can only be mitigated with the use of a mobile endpoint security tool, dedicated to protecting mobile endpoints.</p>
+
+<p>The acceleration of remote work and the &ldquo;always-on&rdquo; productivity that&#39;s expected has shifted your employees&rsquo; preferences for the devices they use to get work done.&nbsp;&nbsp; Reading email, sending an SMS rather than leaving a voicemail (who still uses voicemail?), and the fact that just about every work-related application now resides in the cloud has changed how business is transacted. &nbsp;This pivot to mobile has already occurred. It&rsquo;s well past time that companies acknowledge this fact and update their endpoint security posture to include mobile devices.&nbsp;&nbsp;</p>
+
+<p>If you would like to learn more or are interested in a Mobile Security Risk Assessment to provide visibility into the threat landscape of your existing mobile fleet, please <a href="https://www.business.att.com/content/dam/attbusiness/briefs/mobile-security-risk-assessment-services.pdf" target="_blank">click here</a> or contact your local AT&amp;T sales team.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-27T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>DevOps release process</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/devops-release-process</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/devops-release-process#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p>In the <a href="https://cybersecurity.att.com/blogs/security-essentials/devsecops-build-and-test-process" target="_blank">previous article</a>, we covered the build and test process and why it&rsquo;s important to use automated scanning tools for security scanning and remediation. The build pipeline compiles the software and packages into an artifact. The artifact is then stored in a repository (called a registry) where it can be retrieved by the release pipeline during the release process. The release process prepares the different components, including the packaged software (or artifacts) to be deployed into an environment. This article will cover the contents of a release and features within a release pipeline that prepare a release for deployment into an environment.</p>
+
+<p><img alt="DevOps process" src="blog-content/devops_process.jpg" /></p>
+
+<h2>Artifact registry</h2>
+
+<p>Artifacts are stored in a registry (separate system from the code repository) and accessible by DevOps tools like release pipelines and the IT systems that the application will be deployed on to. Registries should be managed as an IT system and provided to the Development and DevOps teams as a service. The IT systems that support the registry should be hardened using the corporate security policies. The registry should be private and only accessible within the company if it is not intended to be a public source for artifacts. Password protection and IP whitelisting are also advised to ensure that packages can only be retrieved by approved systems. Logging information needs to be sent to a Security Operations Center (SOC) for monitoring. Encryption of the packages at rest and in transit is also required.</p>
+
+<h2>Contents of a release</h2>
+
+<p>A release is created by the release pipeline (Azure DevOps, Jenkins, Team City) and uses the artifacts created by a build pipeline. The release pipeline is triggered by the build pipeline and it knows attributes like the latest software version that was created and the name and location of the artifacts. The release pipeline is highly configurable depending on when the release should be scheduled to deploy, what variables and secrets (passwords, certificates, and keys) should be used, which version of the compiled code needs to be deployed, and approval processes to protect environments from having a release replaced without approvals.</p>
+
+<p>Releases are capable of being automatically deployed onto IT systems when a new artifact version is built. DevSecOps best practice encourages automated builds but advises manual approval instead of automated releases to most environments. However, it may be appropriate for release pipelines to automatically deploy into a development environment that is under the development team control. Environments controlled by different teams like Quality Assurance (QA), User Acceptability Testing (UAT), Production, and Disaster Recovery (DR) typically do not have automated release pipelines after every new artifact version is built.</p>
+
+<p>Variables and secrets are how running applications can be adapted to the different environments (development, QA, UAT, Production and DR). Variables are created in the pipeline tools and can be applied during the release pipeline. DevSecOps recommends storing secrets in a separate &ldquo;key&rdquo; vault that can be connected to the pipeline. Separate variables and secrets allow the software artifacts to remain the same no matter which environment they are deployed into. When the software is deployed, it looks for variables and secrets that were configured in the build and release processes and uses them to properly set the system up. Variables and secrets are a big reason why releases can be deployed so quickly and multiple times per day.</p>
+
+<p><img alt="DevOps release" src="blog-content/DevOps_release.png" /></p>
+
+<p>Version control is mandatory for knowing which version of software is being deployed, having a rollback plan to recover if there is a bug or issue, and keeping track of features and additions to the application as developers work on the code. Every time a build creates an artifact, a version number is applied. The version number is used by the release pipeline so that it knows which artifact to retrieve and deploy. DevSecOps recommends using the semantic versioning system for all artifacts.</p>
+
+<p>Release pipelines have approval features that control the software release. At a minimum, approvals should be setup for each environment, or where separation of duties is required between the development team and other groups in the organization. For example, the QA group should be the only team who can grant approval to release and deploy into the QA environment. This is because QA teams may still be working through their test plans on an older release, and they need to finish before testing the new release.</p>
+
+<h2>Build and release agents</h2>
+
+<p>The two types of servers (IT) for build and release activities are vendor-hosted and self-hosted. Vendor-hosted agents are managed by the vendor so upgrades and maintenance or taken care of. Also, a new agent is provided every time the build or release pipelines are run. This makes resource management easy for the company but may not be an option for unique build and deploy dependencies. While extremely secure, builds and releases performed by vendor-hosted servers are not in the company&rsquo;s control.</p>
+
+<p>Self-hosted agents are managed by the company and require the systems to be upgraded, maintained and any dependencies be installed before the agents can be used in build and release activities. Self-hosted agents work well when the DevOps platforms are internally hosted and not using any cloud-based servers. For example, self-hosted Jenkins pipelines use self-hosted servers and remain completely private and in the control of IT.</p>
+
+<h2>Next steps</h2>
+
+<p>There are many moving parts and components to the release process that need to be architected and designed with security in mind. The parts and components overlay with multiple vendors, all of the different environment owners, security, and IT. This requires the different members of a DevOps team, spread across all the different organizations, to work together and deliver changes to business systems safely and securely. The next article covers how a release is deployed and operated securely</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-26T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Next CISO headache: Vendor cyber insurance</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/next-ciso-headache-vendor-cyber-insurance</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/next-ciso-headache-vendor-cyber-insurance#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p>Cyber insurance coverage? Through the roof these days. Also, coverage is not that easy to get. The many breaches and the dollar judgements handed down make cyber insurance another costly operating investment. A mid-sized client of mine, as an example, pays $1 million in annual cyber insurance costs just to do business with its commercial and government customers.</p>
+
+<p>The issue adds another twist to the topic of third-party risk. Typically, a corporation&rsquo;s top tier of vendors has some form of cyber insurance. Such vendor coverage generally protects their customers from financial liability involving the breach of customer sensitive data such as Personal Identifiable Information (PII). &nbsp;</p>
+
+<p>Breach incidents can also include disruptions, intellectual property exfiltration, and website defacements. Lately ransom threats where the hacker demands payment for not releasing data onto dark sites have escalated. For those vendor corporations handling customer data, ranging from sales histories to financial transactions, such vendor coverage is a must instead of an option.</p>
+
+<p>Yet there are those smaller supplier companies which eschew cyber insurance either by choice or through lack of awareness. <b><i>Estimates vary, but those smaller uninsured companies range from 28 to 41%, according to industry reports</i></b>. &nbsp;Rising costs, coupled with the rigors of insurance requirements, ratchet down coverage as a priority. &nbsp;</p>
+
+<p>This is the crux of an escalating vendor issue facing CISO&rsquo;s today: which ones pose uninsured risks? Is it simply the smaller boutique vendor? Or does scope include second tier and third tier suppliers to main vendors as well? What precautions can be taken in advance to pre-empt lack of vendor coverage across tiers? These problems have been echoed by the CISO community now faced by increasing attacks channeled through third parties. &nbsp;</p>
+
+<p>Here are three immediate mitigation steps CISO&rsquo;s can take: &nbsp;&nbsp;</p>
+
+<ul>
+	<li><b><i>Know vendors to the nth degree</i></b>.&nbsp; Besides the standard inventory of cyber and IT suppliers, identify who are those who supply them. Do these secondary vendors have adequate coverage, and how about their subcontractors? This is not an easy task. But AT&amp;T Cybersecurity offers vendor discovery tools, along with % risk levels, from partners such as NetSkope and BitSight. These tools help spare inter-vendor finger pointing and the &ldquo;shock and surprise&rdquo; in event of breach. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+	<li><b><i>Lock down contracts</i></b>. There are any number of cyber insurance requirement clauses that can be added to new contracts in progress and ones for renewal. Here&rsquo;s where the CISO finds Finance and Legal resources to be invaluable partners. Together they can determine if adequate vendor coverage exists for legal fees, breach recovery and cyber vandalism.</li>
+	<li><b><i>Cyber hygiene vigilance. </i></b>Third parties still pose the greatest threat of breach despite the best of plans. No one wants to in a position where they must execute on cyber insurance in the first place CISO&rsquo;s can keep cyber fences &ldquo;horse high&rdquo; with basic defense mechanisms such as:</li>
+</ul>
+
+<ul style="list-style-type:circle">
+	<li>Complex passwords</li>
+	<li>VPN use</li>
+	<li>Encryption</li>
+	<li>Multi-factor Authentication (MFA)</li>
+	<li>Sound firewall rules</li>
+	<li>Strong anti-virus</li>
+	<li>User security awareness</li>
+</ul>
+
+<p>Within any of these intertwined areas of defense, <a href="https://www.business.att.com/portfolios/cybersecurity.html" target="_blank">AT&amp;T Cybersecurity</a> can be of assistance.</p>
+
+<p>To summarize the complete evaluation of third-party risk must now include cyber insurance readiness as a factor. No CISO is an island here, and it becomes a protective opportunity rather than a headache once the right internal business partners are engaged.&nbsp;&nbsp;</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-25T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>What is tokenization, what are the types of tokenization, and what are its benefits for eCommerce businesses?</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/what-is-tokenization-what-are-the-types-of-tokenization-and-what-are-its-benefits-for-ecommerce-businesses</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/what-is-tokenization-what-are-the-types-of-tokenization-and-what-are-its-benefits-for-ecommerce-businesses#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p style="text-align: left;"><img alt="credit card for ecommerce" src="blog-content/credit_card_for_ecommerce.jpg" /><br />
+<b>Image source: </b><a href="https://www.freepik.com/free-photo/business-online-shopping-concept-people-shopping-pay-by-credeit-card_1211597.htm#query=payments%20and%20security&amp;position=4&amp;from_view=search" target="_blank"><b>Freepik</b></a></p>
+
+<p style="text-align: left;"><em>This blog was written by an independent guest blogger.</em></p>
+
+<p>As eCommerce grows, there are more issues concerning <a href="https://cybersecurity.att.com/blogs/security-essentials/online-payment-security-8-steps-to-ensure-safe-transactions" target="_blank">payments and security</a>. Customers still don&rsquo;t enjoy a smooth user experience, can&rsquo;t access fraud-free transactions, and there are still many declined transactions.</p>
+
+<p><b><i>Online shopping still lacks a seamless experience </i></b><a href="https://cybersecurity.att.com/blogs/security-essentials/the-ultimate-guide-to-cyber-risk-management" target="_blank"><b><i>due to the risks</i></b></a><b><i> of storing and handling sensitive account data.</i></b></p>
+
+<p>The payment system uses basic details like CVV2, 3-digit security codes, expiration dates, and primary account numbers. If these details are compromised, a lot of things can go wrong. The industry is adopting a technology called &ldquo;tokenization&rdquo; to deal with these issues.&nbsp;</p>
+
+<p>Today, we will discuss this technology and help you understand how it can help.</p>
+
+<h2>What is tokenization?</h2>
+
+<p>Tokenization might sound like something complex, but the basic principle behind it is simple. It&rsquo;s a process of replacing <a href="https://cybersecurity.att.com/blogs/security-essentials/securing-data-in-the-cloud-whats-so-different-tweetchat-roundup" target="_blank">sensitive pieces of data</a> with tokens. These tokens are random data strings that don&rsquo;t hold any meaning or value to third parties.</p>
+
+<p>These tokens are unique identifiers that can still hold a portions of the essential sensitive data, but they protect its security. The original data is linked to the new tokens but without giving any information that lets people reveal the data, trace it, or decipher it.</p>
+
+<p style="text-align:center"><b><i>Here is a&nbsp; </i></b><a href="https://www.youtube.com/watch?v=K4J-8lNRAy4" target="_blank"><b><i>video overview of tokenization</i></b></a><b><i>.</i></b></p>
+
+<p>The data piece is stored outside the internal system used by the business. Tokens are irreversible, so if they&rsquo;re exposed, they cannot be returned to their original form.</p>
+
+<p>Since the data is moved elsewhere, it&rsquo;s almost impossible for someone to compromise this data.</p>
+
+<h2>How tokenization works</h2>
+
+<p>Tokenization has a wide range of applications. In eCommerce, payment processing is one of the most popular areas of tokenization and companies use tokens to replace account or card numbers, most commonly the primary account number (PAN) associated with a credit card.</p>
+
+<p><a href="https://www.investopedia.com/terms/p/primary-account-number-pan.asp">The PAN</a> is replaced with a random placeholder token, and the original sensitive data is stored externally. Once the original data needs to be used to complete transaction, it can be exchanged for the token and then transmitted to payment gateways, processors, and other endpoints using various network systems.</p>
+
+<h3><b>Example of tokenization </b></h3>
+
+<p>TokenEx is a typical tokenization platform used for eCommerce payments. The platform first intercepts the sensitive data from whichever channel it is being collected&ndash;mobile, desktop, PIN pad, etc. This data is tokenized and stored securely, and then the token is returned to the client for internal use. In the end, the sensitive data is detokenized and sent to payment-processing providers for executing and verifying transactions.</p>
+
+<p>In the image below you can see how data travels on the <a href="https://www.tokenex.com/products/platform-overview" target="_blank">TokenEx platform</a>.</p>
+
+<ol>
+	<li>First, you have the channels through which the data is coming (&ldquo;Secure Data Collection&rdquo;).</li>
+	<li>In the bottom-middle section, you have our platform, where data is tokenized and stored (&ldquo;Secure Data Storage&rdquo;) before being returned to a client environment in the top-middle section (&ldquo;Compliance Safe Harbor&rdquo;) for safe, compliant internal use.</li>
+	<li>And then finally, on the right, you have the data being sent to a third party for processing (&ldquo;Secure Data Transmission&rdquo;), likely a payment service provider to authorize a digital transaction.</li>
+</ol>
+
+<p>This combination of security and flexibility enables customers to positively impact revenue by improving payment acceptance rates, reducing latency, and minimizing their PCI footprint.</p>
+
+<p><img alt="How tokenization works" src="blog-content/tokenization.jpg" /></p>
+
+<p style="text-align:center"><b>Image source: </b><a href="https://www.tokenex.com/" target="_blank"><b>TokenEx</b></a></p>
+
+<h2>Types of tokenization</h2>
+
+<p>Tokenization is becoming popular in many different industries and not just eCommerce. Payments are just one of the uses of tokenization, and there are many more applications out there. Not all tokenization processes are the same, as they have different setups depending on the application.</p>
+
+<h3><b>Tokenization outside of the blockchain </b></h3>
+
+<p>Tokenization outside of the blockchain means that digital assets are traded outside of the blockchain and have nothing to do with <a href="https://cybersecurity.att.com/blogs/security-essentials/nfts-protecting-the-investment" target="_blank">NFTs</a> or smart contracts. There are a variety of tokens and tokenization types outside the blockchain.</p>
+
+<h4><b>Vaultless tokenization </b></h4>
+
+<p>Vaultless tokenization is typically used in payment processing. Vaultless tokenization uses secure cryptographic devices with specific algorithms created on conversion standards that allow the safe transfer of sensitive data into non-sensitive assets. Vaultless tokens don&rsquo;t require a tokenization vault database for storage.</p>
+
+<h4><b>Vault tokenization </b></h4>
+
+<p>Vault tokenization is used for traditional payment processing for maintaining secure databases. This secure database is called vault database tokenization, and its role is to store both non-sensitive and sensitive data. Users within the network decrypt tokenized information using both data tables.</p>
+
+<h4><b>NLP tokenization types </b></h4>
+
+<p>The natural language processing domain includes tokenization as one of the most basic functions. In this context, tokenization involves dividing a text into smaller pieces called tokens, allowing machines to understand natural text better. The three categories of NLP tokenization are:</p>
+
+<ol>
+	<li>Subword tokenization</li>
+	<li>Character tokenization</li>
+	<li>Word tokenization</li>
+</ol>
+
+<h3><b>Blockchain tokenization types</b></h3>
+
+<p>Blockchain tokenization divides asset ownership into multiple tokens. Tokenization on the blockchain is similar to NFTs as they behave as &ldquo;shares.&rdquo; However, tokenization also uses fungible tokens, and they have a value directly tied to an asset.</p>
+
+<p>Blockchain tokenization allows decentralized app development. This concept is also known as platform tokenization, where the blockchain network is used as the foundation that provides transactional support and security.</p>
+
+<h4><b>NFT tokenization </b></h4>
+
+<p>One of the most popular tokenizations today is blockchain NFTs. Non-fungible tokens are digital data representing unique assets.</p>
+
+<p>These assets don&rsquo;t have a predetermined value (that is where the name non-fungible comes from) and can be used as proof of ownership, letting people trade various items or authenticate transactions. NFTs are used for digital art, games, real estate, etc.</p>
+
+<h4><b>Governance tokenization </b></h4>
+
+<p>This kind of tokenization is directed toward voting systems on the blockchain. Governance tokenization allows a better decision-making process with decentralized protocols as all stakeholders can vote, debate, and collaborate fairly on-chain.</p>
+
+<h4><b>Utility tokenization&nbsp; </b></h4>
+
+<p>Utility tokens are created using a certain protocol allowing access to various services within that protocol. There is no direct investment token creation with utility tokens, and they provide good platform activity for improving the system&#39;s economy.</p>
+
+<h2>Where tokenization and eCommerce meet</h2>
+
+<p>Ecommerce payments have been growing for a long time, even before the global pandemic. We&rsquo;re seeing a massive shift to online shopping with an <a href="https://www.statista.com/statistics/379046/worldwide-retail-e-commerce-sales/" target="_blank">exponential </a><a href="https://www.statista.com/statistics/379046/worldwide-retail-e-commerce-sales/">growth</a><a href="https://www.statista.com/statistics/379046/worldwide-retail-e-commerce-sales/" target="_blank"> in sales</a>. Even though the shift towards the digital world is definitive, this trend has introduced new challenges concerning security.</p>
+
+<p>There&rsquo;s a growing number of hackers and fraudsters looking to steal personal data. According to <a href="https://pages.riskbasedsecurity.com/hubfs/Reports/2019/2019%20Year%20End%20Data%20Breach%20QuickView%20Report.pdf" target="_blank">Risk Based Security research</a>, in 2019 alone there were over 15 million data breaches in eCommerce. Tokenization is quickly being introduced as a way to combat fraud and convert account numbers into digital assets to prevent their theft and abuse.</p>
+
+<p><a href="https://www.tokenex.com/blog/what-is-a-payment-service-provider" target="_blank">Payment service providers</a> that specialize in fraud detection can help verify transactions and devices, making it far more difficult for hackers to abuse someone&rsquo;s information. Credit card and account information tokenization boosts security and protects data from external influences and internal issues.</p>
+
+<h2>Benefits of tokenization in eCommerce</h2>
+
+<p>Ecommerce companies can use tokenization to improve <a href="https://www.tokenex.com/blog/data-privacy-vs-security" target="_blank">privacy and security</a> by safeguarding payment information. Data breaches, cyber-attacks, and fraud can seriously affect the success of a business. Here&rsquo;s how tokenization helps with all these threats.&nbsp;</p>
+
+<ul>
+	<li><b>&nbsp;</b><b>No need for extensive data control because tokens aren&rsquo;t sensitive</b></li>
+</ul>
+
+<p>Ecommerce businesses need to implement <a href="https://cybersecurity.att.com/blogs/security-essentials/5-industries-that-need-advanced-cybersecurity-measures" target="_blank">extensive data control</a> protocols for handling sensitive data and ensuring there are no liabilities. It can be a really tiresome and expensive process. Tokenization removes this issue because none of the confidential data is stored internally.</p>
+
+<ul>
+	<li><b>&nbsp;</b><b>No exposure if someone gets access to tokens</b></li>
+</ul>
+
+<p>Data breaches are often fatal to businesses. They can lead to destroyed reputations, damaged business operations, loss of customers, and even legal issues. There&rsquo;s no exposure of sensitive data when hackers access a database with tokenized payment records.</p>
+
+<p>All payment data and personal information are safe since they aren&rsquo;t stored within your systems. It&rsquo;s true that this doesn&rsquo;t prevent hacks, but it prevents the consequences of such events.</p>
+
+<ul>
+	<li><b>&nbsp;</b><b>Frictionless transactions and convenience</b></li>
+</ul>
+
+<p>Modern customers love simplicity. Having saved payment information and the option to press one button to make a purchase is crucial for business success. However, providing this kind of experience carries risk as companies must save payment information so that customers can reuse it.</p>
+
+<p>Having multiple cards linked to an account with saved information creates liability. Tokenization can enable seamless payment options for end customers without requiring routing numbers or credit cards to be stored internally.</p>
+
+<ul>
+	<li><b>&nbsp;</b><b>Companies can more easily comply with the <a href="https://cybersecurity.att.com/solutions/pci-dss-compliance" target="_blank">PCI DSS</a></b></li>
+</ul>
+
+<p>Companies that accept payment information and store it need to be compliant with various regulations, specifically the Payment Card Industry Data Security Standard. However, meeting these security requirements takes a lot of time and money. Payment tokenization service providers usually already have the required compliance certifications, so you&rsquo;re outsourcing the majority of this responsibility to someone else.</p>
+
+<h2>Conclusion</h2>
+
+<p>We hope this post has helped you understand the basics of tokenization and how you can use it in eCommerce. The global tokenization market is estimated to grow at <a href="https://www.marketdataforecast.com/market-reports/tokenization-market" target="_blank">21.5% CAGR</a>, indicating that tokenization is here to stay.&nbsp;</p>
+
+<p>Keep in mind that we&rsquo;re only scratching the surface here.</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-20T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Stories from the SOC - Lateral movement using default accounts</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/stories-from-the-soc-lateral-movement-using-default-accounts</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/stories-from-the-soc-lateral-movement-using-default-accounts#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p>Stories from the SOC is a blog series that describes recent real-world security incident investigations conducted and reported by the AT&amp;T SOC analyst team for AT&amp;T Managed Threat Detection and Response customers.</p>
+
+<h2>Executive summary</h2>
+
+<p>The Windows &lsquo;Administrator&rsquo; account is a highly privileged account that is created during a Windows installation by default. If this account is not properly secured, attackers may leverage it to conduct privilege escalation and lateral movement. When this account is used for administrative purposes, it can be difficult to distinguish between legitimate and malicious activity. Security best practice is to create and implement user accounts with limited privileges and disable the default &lsquo;Administrator&rsquo; account on all machines.</p>
+
+<p>The <a href="https://cybersecurity.att.com/products/managed-threat-detection-and-response" target="_blank">Managed Threat Detection and Response (MTDR)</a>&nbsp;analyst team received 82 alarms involving the default &lsquo;Administrator&rsquo; account successfully logging into multiple assets in the customer environment. The source asset attempting these logons was internal, successfully logging into multiple other internal assets within a short timeframe. Further investigation revealed the use of PowerShell scripts used for network share enumeration, account enumeration, and asset discovery.</p>
+
+<h2>Investigation</h2>
+
+<h3>Initial alarm review</h3>
+
+<h4>Indicators of Compromise (IOC)</h4>
+
+<p>An initial alarm was triggered by a built-in USM Anywhere rule named &ldquo;Successful Logon to Default Account.&rdquo; This rule was developed by the Alien Labs team to trigger based on successful login attempts to default Windows accounts, captured by Windows Event Log. This alarm was the first indicator of compromise in this environment which prompted this investigation.</p>
+
+<p><img alt="IoC initial" src="blog-content/IoC_initial.png" /></p>
+
+<h2>Expanded investigation</h2>
+
+<h3>Events search</h3>
+
+<p>The customer confirmed in prior investigations that the default Administrator account is widely used for legitimate administrative purposes in this environment. How does one distinguish between administrative activity and malicious activity? Additional event searching must be conducted to provide more context into this login and the actions surrounding it. To do this, filters were utilized in <a href="https://cybersecurity.att.com/products/usm-anywhere" target="_blank">USM Anywhere</a> to query for events associated with the Administrator account on the affected asset.</p>
+
+<h3>Event deep dive</h3>
+
+<p>First, the account Security Identifier (SID) was used to confirm which account was being used for this login. The SID Is a Globally Unique Identifier (GUID) that is unique to each account on a Windows System. The default Administrator Security Identifier (SID) typically ends with the Relative Identifier (RID) of 500 on Windows Systems.</p>
+
+<p>A review of the event attached to this alarm confirms that the default Administrator account was used to sign in, with a SID ending with the RID of 500.</p>
+
+<p><img alt="Alarm default admin" src="blog-content/alarm_default_admin.jpg" /></p>
+
+<p>To provide more context, events originating from the source asset were queried within the last 24 hours. 40 successful logins using the Administrator account were seen from this source to other internal assets in less than 10 minutes.<br />
+<img alt="default alarm events" src="blog-content/default_alarm_events.jpg" /></p>
+
+<p>These events were captured by the AlienVault Agent, which was installed directly on the source asset&nbsp; to forward events to USM Anywhere.</p>
+
+<h3>Reviewing for additional indicators</h3>
+
+<p>Further review into the activity originating from the source asset reveals the use of an encoded and compressed PowerShell script. Encoding and compression effectively allow the attacker to obfuscate scripts being executed, evading detection.</p>
+
+<p>Using open-source tools, we were able to decode and decompress the underlying PowerShell script:</p>
+
+<p><img alt="default account PowerShell" src="blog-content/default_account_powershell.jpg" /></p>
+
+<p>The decoded &lsquo;Invoke-ShareFinder&rsquo; script seen above is a function used to query for exposed network shares in a Windows domain. This tool can also be used to determine which users have access to each network share.&nbsp; Exposed and insecure network shares could allow an attacker to obtain sensitive information or conduct lateral movement.<br />
+<br />
+An additional event was found for the PowerShell script &ldquo;Discovery.psm1&rdquo; being executed on this asset. This script is used for internal network discovery using various scanning techniques.</p>
+
+<p><img alt="PowerShell script" src="blog-content/powershell_script.jpg" /></p>
+
+<h2>Response</h2>
+
+<h3>Building the investigation</h3>
+
+<p>With all events gathered and analysis completed, an investigation was created and submitted to the customer for review. Due to the severity of this incident and for situational awareness, a call was made to the customer to inform them of this activity.</p>
+
+<h2>Customer interaction</h2>
+
+<p>The customer took quick action to isolate the source asset, preventing further lateral movement attempts. Additionally, all affected assets were scanned using SentinelOne to ensure they were not infected with malware. Lastly, the default &lsquo;Administrator&rsquo; account was disabled on all assets in this environment, effectively preventing future abuse of this account.</p>
+
+<h2>Limitations and opportunities</h2>
+
+<h3>Limitations</h3>
+
+<p>The MTDR team lacked visibility into the customer&rsquo;s SentinelOne EDR environment, which would have allowed for additional context and quicker response action.</p>
+
+<h3>Opportunities</h3>
+
+<p>AT&amp;T offers <a href="https://cybersecurity.att.com/blogs/security-essentials/introducing-atts-managed-endpoint-security-with-sentinelone" target="_blank">Managed Endpoint Security (MES)</a>, a tool that provides comprehensive endpoint protection against malware, ransomware, and fileless attacks. MES utilizes behavioral analysis, which would have alerted analysts of malicious activity and prevented the &ldquo;Discovery&rdquo; and &ldquo;Invoke-ShareFinder&rdquo; scripts from executing on the asset. MES can also be used to conduct response actions such as isolating and scanning affected assets.&nbsp;</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-19T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Microsoft releases open-source tool for securing MikroTik routers</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/microsoft-releases-open-source-tool-for-securing-mikrotik-routers</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/microsoft-releases-open-source-tool-for-securing-mikrotik-routers#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p><em>This blog was written by an independent guest blogger.</em></p>
+
+<p>In mid-March, Microsoft released a free, open-source tool that can be used to secure MikroTik routers. The tool, RouterOS Scanner, has its source code available on GitHub. It is designed to analyze routers for Indicators of Compromise (IoCs) associated with Trickbot. This article will introduce some background on the MikroTik vulnerability, the <a href="https://cybersecurity.att.com/blogs/labs-research/trickbot-bazarloader-in-depth" target="_blank">Trickbot malware</a>, and some ways you can protect yourself.</p>
+
+<h2>Trickbot emerges from the darknet</h2>
+
+<p>Trickbot was first discovered in 2016 and, despite efforts by Microsoft to stamp it out, has continued to remain a threat online. One of the main reasons for Trickbot&rsquo;s persistence is that it has continued to change and evolve over the years. As a result, Trickbot has proven to be an adaptable, sophisticated trojan of modular nature, molding itself for different networks, environments, and devices.</p>
+
+<p>As Trickbot has evolved, it began to reach Internet of Things (IoT) devices like routers. Since Trickbot continuously improves its persistence capabilities by dodging researchers and their reverse engineering attempts, it has been able to maintain the stability of its command-and-control (C2) framework.</p>
+
+<h2>Why is the MikroTik security flaw important?</h2>
+
+<p>Malware is particularly dangerous because it <a href="https://www.crowdstrike.com/cybersecurity-101/ransomware/" target="_blank">can be ransomware</a>, a special type of malware that takes control over your computer or devices. Trickbot, as it has grown and evolved, now includes a plug-in for backdoor access for Ryuk, a piece of ransomware with crypto-mining capabilities.&nbsp;</p>
+
+<p>Once it had expanded its reach to networking devices, Trickbot began <a href="https://www.helpnetsecurity.com/2022/03/17/trickbot-uses-compromised-mikrotik-routers-as-c2-communication-proxies/" target="_blank">infecting MikroTik routers</a> and modules and using them as proxy servers for its C2 servers and redirecting router traffic through alternative non-standard ports.</p>
+
+<p>What makes the infection of MikroTik routers so significant is that they are used by millions of homes and organizations worldwide. The broad distribution of MikroTik routers gave Trickbot extensive infrastructure. Security flaws, like the MikroTik one, can be particularly important for<a href="https://www.chromatix.com.au/web-design-sydney/" target="_blank"> web design</a> because coders that work on the back end have to ensure that web pages are secure.</p>
+
+<h2>How does Trickbot work?</h2>
+
+<p>Researchers at Microsoft on the Microsoft Defender for IoT team discovered the exact mechanism that Trickbot&rsquo;s C2 system used to exploit MikroTik devices. Hopefully, by discovering its inner workings, Trickbot will be stamped out for good.</p>
+
+<p>The reason hackers use Trickbot is that it allows compromised <a href="https://www.business.att.com/support/supportcenter.html?content!KM1260146#topic_security2" target="_blank">IoT devices</a> to communicate between the C2 server and other compromised devices. Hackers then breach target routers, typically using a combination of brute force and exploits.</p>
+
+<p>One of the key ways brute force techniques are used by malware to infect MikroTik devices is by utilizing default MikroTik passwords. They also exploit brute force attacks that utilize passwords harvested from other MikroTik devices. Finally, they exploit the CVE-2018-14847 vulnerability utilizing RouterOS versions older than 6.42. This exploit <a href="https://www.cisecurity.org/insights/blog/trickbot-not-your-average-hat-trick-a-malware-with-multiple-hats" target="_blank">allows hackers to read files</a> from the device like <i>user.dat</i>, which often contains passwords.</p>
+
+<p>Once they&rsquo;ve gotten access, they start issuing commands that redirect traffic between two ports on the router. Redirecting traffic creates the communication line between impacted devices and the C2.</p>
+
+<p>In the end, catching on to how Trickbot worked involved sniffing out commands that were specific to the unique operating system, RouterOS and RouterBOARD, used by MikroTik IoT devices.</p>
+
+<h2>All IoT devices are vulnerable</h2>
+
+<p>The important takeaway for professionals and end-users is that all IoT devices are vulnerable. In fact, many journalists have recently brought attention to the <a href="https://www.forbes.com/sites/zakdoffman/2019/08/03/update-now-warning-as-eavesdropping-risk-hits-millions-of-chinese-made-cameras/" target="_blank">dangers of networked security cameras</a> in your home.</p>
+
+<p>A professionally-installed ADT security system was exploited by a technician who used his access to watch people&rsquo;s deeply personal private lives.&nbsp;All of these cameras were IoT devices.</p>
+
+<p>Although your smart fridge probably isn&rsquo;t spying on you, it&rsquo;s important to remember that the security landscape continues to expand as more and more devices become connected to the Internet. Devices that perform limited functionality, like routers and cameras, can often become prime targets for hackers because they are not regularly updated like smartphones and computers.</p>
+
+<h2>How do you protect yourself?</h2>
+
+<p>Utilizing special software tools can be a great way to protect yourself from cybersecurity threats. Microsoft&rsquo;s RouterOS Scanner is the go-to way to resolve the MikroTik router vulnerability. As you can see, exploiting one MikroTik device opens up the possibility for exploiting many more.</p>
+
+<p>Microsoft did the tech community a huge favor by giving away their security tool for free, but this may not be the end for Trickbot. Unfortunately, as long as MikroTik devices continue to operate without having their firmware updated and their devices monitored, Trickbot will probably stay around.</p>
+
+<p>Starting a cybersecurity audit can be a good way to find other ways your company might be at risk. Understanding your digital security needs is the first step in securing your network and enterprise. AT&amp;T offers several<a href="https://www.business.att.com/portfolios/cybersecurity.html" target="_blank"> enterprise-level cybersecurity network solutions</a> that are worth examining.</p>
+
+<p>Another thing all Internet users should do is change their default passwords to more secure unique passwords. Much of the damage done by Trickbot and the MikroTik exploits was because of default passwords shipped with the devices. Changing your default passwords will ensure that brute-forcing your network will be much harder.</p>
+
+<p>Generating hard-to-guess unique passwords is actually the number one cybersecurity tip. Whether you&rsquo;re<a href="https://www.invoiceberry.com/blog/start-blog/" target="_blank"> </a>starting a blog for your small business or running a large company with hundreds of staff, creating a strong password is the best way to decrease your vulnerability to cyberattacks and loss of data privacy and security.</p>
+
+<p>Staying educated is another way to ensure you stay on top of cyber security threats. Many large organizations offer training to employees to help them understand the terminology surrounding IT. It&rsquo;s important to continue to educate yourself, too, as threats can change, vulnerabilities can be patched, and new technologies can make how we approach security shift overnight.</p>
+
+<p>Finally, enable multi-factor authentication or MFA whenever it&rsquo;s available. MFA can help cut down on unauthorized device access by requiring you to authenticate your identity every time you try to log on. MFA is a critical component of building a zero-trust cybersecurity model, which is the preferred way of securing your business today.</p>
+
+<h2>Conclusion</h2>
+
+<p>From Russia hacking Ukrainian government websites to the <a href="https://www.bbc.com/news/technology-60849687" target="_blank">Okta hack</a> that demonstrated even digital security firms are vulnerable to hackers, hacks and exploits have been all over the news lately. The release of Microsoft&rsquo;s MikroTik router tool marks a turn in digital security and demonstrates that companies and teams are working hard to ensure that digital security can be maintained.</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-18T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>Corporate structure and roles in InfoSec</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/corporate-structure-and-roles-in-infosec</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/corporate-structure-and-roles-in-infosec#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p><i>This blog was written by an independent guest blogger.</i></p>
+
+<p>When assessing the corporate governance of modern companies, one cannot help but note the obvious problems with <a href="https://cybersecurity.att.com/resource-center/videos/information-security-101" target="_blank">information security</a>. To solve these problems, it is crucial to carry out initiatives that, on the one hand, are complex, multifaceted, and nonobvious, and on the other, assume the involvement of all employees of the company, including the heads of key departments.</p>
+
+<h2>Information security is impossible without help from within the organization</h2>
+
+<p>Let us analyze the roles and possible points of interaction of several different management positions (skipping the CISO) responsible for operational resiliency, secure infrastructure, proper resource allocation, reputational risks, incident response, and other aspects of information security.</p>
+
+<h3><b>Chief Executive Officer (CEO)</b></h3>
+
+<p>The company&rsquo;s management ensures the creation and maintenance of an internal environment that allows employees to participate in achieving strategic goals fully. Information security starts with the CEO and goes down, covering all staff. The CEO is responsible for creating a strong culture of safe behavior. CEOs must personally set an example of the correct attitude towards information security requirements. This attitude and position of the company leader will stimulate the communication between departments allowing them to fight against ransomware and other serious threats more effectively.</p>
+
+<p>Companies today need leaders who combine a high level of technology awareness with an open mind. These leaders must create an open environment in which not only information about success is encouraged but also about information about any negative processes. Creating an atmosphere of transparency is an important task of top management when developing a <a href="https://www.nakivo.com/ransomware-protection/" target="_blank">ransomware </a><a href="https://www.nakivo.com/ransomware-protection/" target="_blank">protection</a> strategy.</p>
+
+<h3><b>Chief Human Resources\People Officer (CHRO/CPO)</b></h3>
+
+<p>Information security largely depends on the organizational structure and corporate culture of the company, and the role of the HR leader is one of the key ones in ensuring information security.</p>
+
+<p>How is this expressed? First of all, such a leader must take responsibility for all employees hired by the company. These days, many information security incidents happen due to <a href="https://cybersecurity.att.com/blogs/security-essentials/insider-threats" target="_blank">malicious insiders</a> or employee incompetence. Understanding the day-to-day interests and motivations of employees is an important part of the work of the HR department.</p>
+
+<p>Organizations can treat their employees on a &ldquo;hired and fired&rdquo; basis. But in this case, you should not expect high levels of personnel loyalty and a good reputation in the labor market. Managing the recruitment and departure of employees, taking into account emerging risks associated with, for example, data breaches, is one of the most important contributions of the HR leader to the security of the company.</p>
+
+<p>Another significant part of HR is the application of advanced information security training programs.</p>
+
+<p>The role of the HR department is also crucial in ensuring the ethics of security measures adopted by the company and in aligning these measures with the tasks and goals of employees. Effective corporate governance cannot rely on employees who are forced to act against their own interests and habits. Monitoring employee actions often raises questions about trust in the staff. HR director should understand the ethical underpinnings of these issues best and can provide advice to the CEO and information security department on whether the adopted security policies will be effective and if they are in line with the corporate culture.</p>
+
+<h3><b>Chief Information Officer (CIO)</b></h3>
+
+<p>It is essential for the CIO that information security increases the stability and reliability of IT systems, affecting the operational resiliency of all business processes.</p>
+
+<p>On the technical side, the company&rsquo;s top managers are primarily concerned about outages of IT systems or employee dissatisfaction with the use of IT infrastructure.</p>
+
+<p>Throughout the life cycle of company development, it often happens that the information security team comes in and leaves after a short time, while the IT team remains for a long time. This is a consequence of the business&rsquo;s strategic priorities, which were formed with the development and implementation of IT technologies. Indeed, a mature company has been living with the IT service for about 40 years and is used to following and trusting everything IT people say.</p>
+
+<p>The business has been familiar with information security for the last 10-15 years at best. And it&nbsp;is the information security team that informs the CEO about all the problems of the IT team like the bad habits of employees in terms of using passwords, clicking links, the presence of technical accounts in Active Directory, update management, etc. For instance, employees might be recommended to <a href="https://atlasvpn.com/download" target="_blank">download VPN services</a> for security reasons whenever they work remotely.</p>
+
+<p>In the fight of the security team with infosec issues, the IT team is formally on the side of information security. Still, in the real world, there is a misunderstanding, rivalry, explicit or hidden actions on the part of IT engineers (IT gurus) who are accustomed to creating certain rules independently. The CIO should make his employees realize the importance of information security for the company&#39;s sustainability.</p>
+
+<h3><b>Chief Risk Officer (CRO)</b></h3>
+
+<p>Continuous development and improvement should be obligatory and constant strategic objectives of any company. Identifying risks in the context of business priorities is one of the company&#39;s key goals in the field of information security. Therefore, the participation of the CRO in ensuring the information security of the company is directly related to his duties.</p>
+
+<p>Risk prioritization is not a technical task. This is the matter of managing the company. The Chief Risk Officer should play an important role in developing the information security program and overseeing how identified risks are documented and eliminated.</p>
+
+<p>At the same time, tech people need to get rid of the illusion that only they are able to understand information security risks. IT and security departments should share more information about various infosec subtleties so that company executives and risk management staff understand them better.</p>
+
+<h3><b>Chief Audit Executive (CAE)</b></h3>
+
+<p>The activities of the internal audit department are vital both for the information security and IT services as well as for the company&rsquo;s executives. For information security and IT services, this is a third-party view of cybersecurity problems, focused on the most critical areas of the company&#39;s business activities. For top managers, the internal audit department significantly saves time and eliminates routine supervision procedures.</p>
+
+<p>There are, however, some pitfalls in the way the internal audit department works. For this unit, complying with information security requirements may be less of a priority than complying with industry standards and regulations. Top managers should not think that compliance with standards will protect the company from all trouble. It is important here not to neglect other preventive measures proposed by all company stakeholders.</p>
+
+<h3><b>Chief Legal Officer (CLO)</b></h3>
+
+<p>If the specialists of the legal department are well versed in legislation related to the protection of personal data, understand the basics of technology, know reliable legal practices in the field of compliance with information security legislation, then this may indicate that the company has deep legal expertise in security technologies.</p>
+
+<p>Legal specialists play a key role in determining the company&#39;s policy on exchanging information with government agencies. They participate in court proceedings. A significant part from the point of view of information security is played by the legal department when responding to data breaches.</p>
+
+<h3><b>Chief Security Officer (CSO)</b></h3>
+
+<p>In modern companies, the organization of physical security is usually outsourced, and the security department primarily deals with internal, strategic, operational, financial, and reputational risks. When investigating incidents, the security service traditionally comes to the fore. The information security team provides all evidence like logs or emails, and the security department brings the investigation to its logical conclusion.</p>
+
+<h2>Conclusion</h2>
+
+<p>The above-mentioned business divisions and their leaders often look at information security issues differently. Still, under the strong leadership of the CEO, they may come to a mutual understanding of arising problems and effectively determine the cybersecurity strategy.</p>
+
+<p>One of the key conditions for a large number of participants to cooperate successfully is to recognize the roles that each group should play in the company. Top managers play the leading roles in these processes. They have the authority to determine what is vital to the company and what is not.</p>
+
+<p>There are peculiarities and differences in how each department ensures the strong cybersecurity posture of the company. But there is one area where all efforts converge. It is the cybersecurity incident response. Developing and implementing sound, consistent incident response plans is a formidable task that is absolutely essential to a company&#39;s success in dealing with negative events. Developing such plans is a multidisciplinary project in which each of the key leaders must play a role.</p>
+
+<p>The solution to many information security problems is impossible without finding a compromise between the participants. Top managers are not used to acting on someone else&#39;s orders. Rules introduced by technology leaders who have unexpectedly appeared (CISO) in the company often limit their freedom and infringe upon their pride. Today&#39;s business leaders should understand the hidden technological risks and rely on a wide range of opinions in the company when developing a security strategy.</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-13T10:00:00+00:00</dc:date>
+    </item>
+    <item>
+      <title>What is data fabric and how does it impact Cybersecurity?</title>
+      <link>https://cybersecurity.att.com/blogs/security-essentials/what-is-data-gabric-and-how-does-it-impact-cybersecurity</link>
+      <guid>https://cybersecurity.att.com/blogs/security-essentials/what-is-data-gabric-and-how-does-it-impact-cybersecurity#When:10:00:00Z</guid>
+      <description><![CDATA[
+<p><em>This blog was written by an independent guest blogger.</em></p>
+
+<p>Amidst sweeping digital transformation across the globe, numerous organizations have been seeking a better way to manage data. Still in the beginning stages of adoption, data fabric provides many possibilities as an integrated layer that unifies data from across endpoints.&nbsp;</p>
+
+<p>A combination of factors has created a digital environment where data is stored in several places at once, leaving cracks in security for fraudsters to take advantage of. Cybercrime has reached historic highs, with vulnerabilities that <a href="https://cybersecurity.att.com/blogs/security-essentials/5-industries-that-need-advanced-cybersecurity-measures" target="_blank">affect crucial industries</a> such as healthcare, eCommerce, and manufacturing.&nbsp;</p>
+
+<p>Data fabric works like a needle and thread, stitching each business resource together as an interconnected data system that feeds data into one large connector. When each application is connected to every other part of your system, data silos are broken, allowing for complete transparency in the cloud or a hybrid approach.&nbsp;</p>
+
+<p>What is data fabric? How does it work? And how does data fabric impact cybersecurity? Let&rsquo;s dive in.&nbsp;</p>
+
+<h2>What is data fabric?</h2>
+
+<p>Data fabric <a href="https://www.bmc.com/blogs/data-fabric/" target="_blank">is a modern data design concept</a> to better integrate and connect processes across various resources and endpoints. Data fabric can continuously analyze assets to support the design and deployment of reusable data across all environments.&nbsp;</p>
+
+<p>By utilizing both human and machine capabilities, data fabric identifies and connects disparate data. This supports faster decision-making, re-engineering optimization, and enhanced data management practices.</p>
+
+<p>For example, you could think of data fabric as a passive data observer that only acts when it encounters assets that need to be managed. Based on its specific implementation, data fabrics can automatically govern data and make suggestions for data alternatives. Both humans and machines work together to unify data and improve efficiency overall.&nbsp;</p>
+
+<h2>How does it work?</h2>
+
+<p>Data fabric architecture provides strategic security and business advantages for companies and organizations. To better understand how data fabric works, let&rsquo;s go over the six different layers of data fabric:</p>
+
+<ul>
+	<li><b>Data management </b>&mdash; This layer is responsible for data security and governance.&nbsp;</li>
+	<li><b>Data ingestion</b> &mdash; This layer finds connections between structured and unstructured.&nbsp;</li>
+	<li><b>Data processing</b> &mdash; This layer refines data for accurate and relevant extraction.</li>
+	<li><b>Data orchestration</b> &mdash; This layer makes data usable for teams by transforming, integrating, and cleansing the data.&nbsp;</li>
+	<li><b>Data discovery</b> &mdash; This layer precipitates new opportunities to integrate and develop insights from disparate data sources.&nbsp;</li>
+	<li><b>Data access</b> &mdash; Finally, this layer ensures that permissions and compliance conditions are met and allows access through virtual dashboards.&nbsp;</li>
+</ul>
+
+<p>This integrative and layered approach to data management helps protect organizations against the <a href="https://cybersecurity.att.com/blogs/security-essentials/10-things-cybercriminals-love-about-you" target="_blank">most prevalent attack types</a> such as client-side, supply chain, business app, and even automated attacks.&nbsp;</p>
+
+<h2>Who can benefit from data fabrics?</h2>
+
+<p>Because data fabric use cases are still developing, there are potentially many unknown instances where data fabric can provide a security advantage for organizations. However, the possibilities are endless based on the data fabric&rsquo;s ability to eliminate silos and integrate data across various sources. Data fabric can be implemented as an <a href="https://www.identityguard.com/news/prevent-identity-theft" target="_blank">identity theft prevention strategy</a>, to improve performance and everything in between.</p>
+
+<p>Here are just a few specific use cases for data fabric architecture:</p>
+
+<ul>
+	<li>Customer profiles</li>
+	<li>Preventative maintenance</li>
+	<li>Business analysis</li>
+	<li>Risk models</li>
+	<li>Fraud detection</li>
+</ul>
+
+<h2>Advantages of data fabric architectures</h2>
+
+<p>Even in its early stages, data fabric has been shown to improve efficiency from workflows to product life cycles significantly. In addition to increasing business productivity, here are some other examples of how adopters can benefit from a data fabric architecture:</p>
+
+<ol>
+	<li class="margin-bottom30">Intelligent data integration<br><br>
+		<p>Data fabric architectures use AI-powered tools <a href="https://www.rtinsights.com/the-role-of-ai-and-ml-in-building-a-logical-data-fabric/" target="_blank">to unify data across numerous endpoints</a> and data types. With the help of metadata management, knowledge graphs, and machine learning, it makes data management easier than ever before. By automating data workloads, a data fabric architecture not only improves efficiency, but also eliminates siloed data, centralized data governance, and improves the quality of your business data.&nbsp;</p>
+	</li>
+
+	<li class="margin-bottom30">Better data accessibility<br><br>
+		<p>The centralized nature of data fabric systems makes accessing data from various endpoints fast and simple. Data bottlenecks are reduced since data permissions can be controlled from a centralized location despite users&rsquo; physical locations. And data access can easily be granted when necessary for use by engineers, developers, and analysts. Data fabric enables workers to make business decisions faster and allows teams to prioritize tasks from a holistic business perspective.&nbsp;</p>
+	</li>
+
+	<li class="margin-bottom30">Improved data protection<br><br>
+		<p>Possibly the most crucial aspect of implementing data fabric is that it improves your data security posture. You get the best of both worlds, broad data access, and improved data privacy. With more data governance and security guardrails in place with the help of a unified data fabric. Technical and data security teams can streamline encryption and data masking procedures while still having the ability to access data based on user permissions.&nbsp;</p>
+	</li>
+</ol>
+
+
+
+<h2>Data fabric and cybersecurity</h2>
+
+<p>As a part of a robust cybersecurity ecosystem, data fabric acts as the foundation from which the entirety of your business data sets upon. When used correctly, data fabric makes business processes more efficient and improves data protection with the right defensive strategies built in.&nbsp;</p>
+
+<p>Because data fabric acts as a single source for all business data, there are many who wonder about its cybersecurity implications. In fact, most <a href="https://www.whitesourcesoftware.com/open-source-security/" target="_blank">open source security</a> vulnerabilities have a validated fix that must be patched. But many attackers take advantage of these entry points before organizations have time to update their software.&nbsp;</p>
+
+<p>Organizations using data fabric can also benefit from cybersecurity mesh to combine automation with a strategic security approach. Data mesh relies on the organizational structure to define data security needs so that the data fabric can more efficiently align with those needs.&nbsp;</p>
+
+<p>Gartner predicts that organizations that adopt a data fabric and cybersecurity mesh architecture will <a href="https://www.gartner.com/en/articles/the-top-8-cybersecurity-predictions-for-2021-2022" target="_blank">reduce the financial impact</a> of data breaches by 90% by 2024. No other cybersecurity posture comes close to the security implications of data fabric across business applications.&nbsp;</p>
+
+<p>Data fabric is also essential to cybersecurity infrastructure because it requires that teams adopt a security-by-design outlook. With centralized data fabric built into your environment, organizations can greatly reduce their vulnerabilities and attack vectors from the inside out.&nbsp;</p>
+
+<h2>Putting it all together</h2>
+
+<p>Data fabric provides organizations with a way to integrate data sources across platforms, users, and locations so that business data is available to those that need it when it is needed. While this does reduce data management issues, it raises important cybersecurity questions related to its centralized nature.&nbsp;</p>
+
+<p>However, data fabric and cybersecurity mesh work together to build integrated security controls that include encryption, compliance, virtual perimeter, and even real-time automatic vulnerability mitigation.</p>
+
+<p>Now, stand-alone security solutions protecting numerous data sources can work together to improve security efforts overall. Data fabric is an essential aspect of a <a href="https://cybersecurity.att.com/blogs/security-essentials/a-lasting-trend-as-a-service" target="_blank">business-driven cyber strategy</a>, especially for industries utilizing hybrid cloud setups, businesses struggling with disparate data, and an evolving cybersecurity landscape.</p>
+]]></description>
+      <dc:subject><![CDATA[]]></dc:subject>
+      <dc:date>2022-04-12T10:00:00+00:00</dc:date>
+    </item>
+  </channel>
+</rss>

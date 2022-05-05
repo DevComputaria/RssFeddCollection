@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.veracode.com/">
+  <channel>
+    <title>Application Security Research, News, and Education Blog</title>
+    <link>https://www.veracode.com/</link>
+    <description />
+    <language>en</language>
+    <item>
+      <title>Official Close of TA Investment Sparks Next Step of Veracode Journey</title>
+      <link>https://www.veracode.com/blog/customer-news/official-close-ta-investment-sparks-next-step-veracode-journey</link>
+      <description>Recently I shared with you our excitement about our agreement with TA Associates (TA) to make a significant growth investment in Veracode. I am pleased to share that the deal is now closed, opening up a tremendous new chapter in Veracode’s journey.
+In the weeks since the announcement, people I speak with every day – customers, prospective customers, analysts, journalists who cover the critical software security space, and other Veracoders – ask me, “What do you envision together with TA for this next chapter?”
+Veracode’s history is rooted in bringing awareness to the topic of software security and leading the market to action in this area. Going back to 1998, our founder and CTO Chris Wysopal, also known as Weld Pond, along with his colleagues from the hacker group The L0pht, testified to the US Congress about the importance of securing the software and networks that run the internet. Their forward-thinking led to the formation of Veracode, with a vision to provide a scalable,…</description>
+      <pubDate>Mon, 02 May 2022 16:55:28 -0400</pubDate>
+      <dc:creator>SKing@veracode.com (SKing)</dc:creator>
+      <guid isPermaLink="false">ver59191</guid>
+    </item>
+    <item>
+      <title>NASCIO and the Challenge of Cybersecurity</title>
+      <link>https://www.veracode.com/blog/intro-appsec/nascio-and-challenge-cybersecurity</link>
+      <description>My name is Claire Bailey, the Vice President of Government Affairs at Veracode.
+My team recently asked me to describe technology policy, and given my current obsessions with Wordle, I thought I’d take a gamified approach to my explanation.
+Much like Wordle, the answers will be five letters and pertain to security. We will call this game, Securidle!
+Let’s get started…
+First, what is the most consistent technology policy on the NASCIO Top Ten?
+Answer: CYBERsecurity.
+Cyber security has been in the NASCIO Top Ten for quite some time. My first NASCIO event was a Security Summit following 9/11. My team and I flew into Washington, D.C. Heavily armed security forces patrolled the mostly empty airport.  We were on hand to protect our government infrastructure, systems, and people from cyber threats. 
+That mission continues today. I have walked the halls of the US Capitol and briefed congressional members on the need to fully fund cyber initiatives. Every step we have taken to work with our…</description>
+      <pubDate>Tue, 26 Apr 2022 17:43:49 -0400</pubDate>
+      <dc:creator>Veracode@veracode.com (Veracode)</dc:creator>
+      <guid isPermaLink="false">ver59126</guid>
+    </item>
+    <item>
+      <title>How to Generate an SBOM in Veracode SCA</title>
+      <link>https://www.veracode.com/blog/managing-appsec/how-generate-sbom-veracode-sca</link>
+      <description>Emerging government regulations have driven the advancement of standards for securing software supply chains. The production of a Software Bill of Materials (SBOM) in a standard format is an increasing audit and compliance need for large organizations.
+Having an SBOM can help 
+Identify and avoid security risks
+Understand and manage licensing risks
+Veracode Software Composition Analysis (SCA) helps teams qualify and manage risks from software running in their environments, better plan and control their security program, and understand where risks may be as new security threats or new versions of software become available.
+Generating an SBOM in Veracode SCA
+
+
+Veracode SCA SBOM API will help your organization identify vulnerabilities and license risks and help you better understand what software is contained within your application.
+
+The SBOM API response provides you with an inventory of the components within your application, including insight into the relationships that the various…</description>
+      <pubDate>Mon, 25 Apr 2022 16:30:51 -0400</pubDate>
+      <dc:creator>shinksmon@veracode.com (shinksmon)</dc:creator>
+      <guid isPermaLink="false">ver59096</guid>
+    </item>
+    <item>
+      <title>Just Because You Don’t Use Log4j or Spring Beans Doesn’t Mean Your Application is Unaffected  </title>
+      <link>https://www.veracode.com/blog/managing-appsec/just-because-you-dont-use-log4j-or-spring-beans-doesnt-mean-your-application</link>
+      <description>By now, you’re probably all aware of the recent Log4j and Spring Framework vulnerabilities.  
+As a recap, the Log4j vulnerability – made public on December 10, 2021 – was the result of an exploitable logging feature that, if successfully exploited, could allow attackers to perform an RCE (Remote Code Execution) and compromise the affected server.  
+The Spring Framework vulnerability – made public on March 29, 2021 – was caused by unforeseen access to Tomcat’s ClassLoader as a result of the new Module feature added in Java 9. The access could potentially allow an attacker to write a malicious JSP file accessible via the application server.    
+Just because your organization isn’t using a vulnerable version of Log4j or Spring doesn’t mean that you aren’t using a Java component or development framework that relies on Log4j or Spring Beans. For example, Apache Struts2, ElasticSearch, Apache Kafka, among others, call on Log4j.  
+Our co-founder and CTO, Chris Wysopal explained: 
+“There…</description>
+      <pubDate>Wed, 20 Apr 2022 18:35:10 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver59071</guid>
+    </item>
+    <item>
+      <title>Veracode Acquires ML-Powered Vulnerability Remediation Technology From Jaroona GmbH</title>
+      <link>https://www.veracode.com/blog/security-news/veracode-acquires-ml-powered-vulnerability-remediation-technology-jaroona-gmbh</link>
+      <description>On the heels of our significant growth investment from TA Associates, we are pleased to announce our acquisition of auto-remediation technology from Jaroona. Jaroona’s intelligent remediation technology accelerates Veracode’s vision and strategy to automatically detect and remediate software vulnerabilities. Jaroona was recognized as a 2021 Gartner® Cool Vendors™ for DevSecOps1. 
+Accelerated development practices and dependency on software have increased the software attack surface exponentially, placing a greater strain on development and security teams to ramp up security awareness and skills as well as find and fix flaws across an evolving technical environment. This investment will allow us to offer a unique benefit to our customers, leveraging our collective knowledge over nearly two decades of helping customers find and fix security flaws. This milestone is yet another step toward our vision to deliver a frictionless experience for developers to find and fix security flaws,…</description>
+      <pubDate>Tue, 12 Apr 2022 00:49:45 -0400</pubDate>
+      <dc:creator>broche@veracode.com (broche)</dc:creator>
+      <guid isPermaLink="false">ver59066</guid>
+    </item>
+    <item>
+      <title>Testing OWASP’s Top 10 API Security Vulnerabilities (Part 1)</title>
+      <link>https://www.veracode.com/blog/managing-appsec/testing-owasps-top-10-api-security-vulnerabilities-part-1</link>
+      <description>Application Programming Interface (API) attacks are set to become one of the most prevalent cyberattacks with a broad target range. By nature, APIs expose application logic and sensitive data such as personally identifiable information (PII), causing APIs to become a target for attackers. In 2019, Gartner predicted that API hacks would become the most common form of cyberattacks in 2022. So how can teams stay ahead of API attacks? One answer is by implementing a strong API security strategy that focuses on developer education.
+Upskilling developers is a key part of a strong API security strategy 
+API security strategies help organizations focus on solutions to understand and mitigate the unique vulnerabilities and security risks of APIs. When designing an API security strategy, it’s imperative to look at the experience and training of the developers and determine what they know about API security. Developers are the key to quality – they’re building and fixing applications that we…</description>
+      <pubDate>Wed, 06 Apr 2022 12:25:23 -0400</pubDate>
+      <dc:creator>shinksmon@veracode.com (shinksmon)</dc:creator>
+      <guid isPermaLink="false">ver59051</guid>
+    </item>
+    <item>
+      <title>Spring4Shell Vulnerability vs Log4Shell Vulnerability     </title>
+      <link>https://www.veracode.com/blog/security-news/spring4shell-vulnerability-vs-log4shell-vulnerability</link>
+      <description>On March 29, 2022, details of a zero-day vulnerability in Spring Framework (CVE-2022-22965) were leaked. For many, this is reminiscent of the zero-day vulnerability in Log4j (CVE-2021-44228) back in December 2021.   
+What is the difference between the vulnerabilities?  
+The Spring Framework vulnerability was caused by unforeseen access to Tomcat’s ClassLoader as a result of the new Module feature added in Java 9. The access could potentially allow an attacker to write a malicious JSP file accessible via the application server.   
+On the other hand, the Log4j vulnerability was the result of an exploitable logging feature. If the logging feature is successfully exploited on your infrastructure, attackers can perform an RCE (Remote Code Execution) attack and compromise the affected server. 
+What is the scope of the vulnerabilities?  
+Since we are a cloud-based Software Composition Analysis (SCA) provider, we are able to leverage data on the scope of the vulnerabilities.   
+As we…</description>
+      <pubDate>Fri, 01 Apr 2022 19:51:15 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver58971</guid>
+    </item>
+    <item>
+      <title>Spring Framework Remote Code Execution (CVE-2022-22965)</title>
+      <link>https://www.veracode.com/blog/security-news/spring-framework-remote-code-execution-cve-2022-22965</link>
+      <description>Details of a zero-day vulnerability in Spring Framework were leaked on March 29, 2022 but promptly taken down by the original source. Although much of the initial speculation about the nature of the vulnerability was incorrect, we now know that the vulnerability has the potential to be quite serious depending on your organization’s use of Spring Framework. There is also a dedicated CVE 2022-22965 assigned to this vulnerability. 
+We will keep this blog updated as new information comes up.  
+Technical summary 
+The cause was initially rumored to be related to deserialization, but the actual cause is due to unforeseen access to Tomcat’s ClassLoader as a result of the new Module feature added in Java 9. An existing mitigation only blocked access to the classLoader property of Class objects, but the new Module object also has a classLoader property and was therefore accessible through Spring’s property bindings when a Java object is bound to a request parameter. 
+Access to the classLoader…</description>
+      <pubDate>Thu, 31 Mar 2022 12:15:17 -0400</pubDate>
+      <dc:creator>The Veracode Research Team@veracode.com (The Veracode Research Team)</dc:creator>
+      <guid isPermaLink="false">ver58961</guid>
+    </item>
+    <item>
+      <title>The Public Sector Has the Highest Proportion of Security Flaws of Any Industry </title>
+      <link>https://www.veracode.com/blog/managing-appsec/public-sector-has-highest-proportion-security-flaws-any-industry</link>
+      <description>We recently launched the 12th annual edition of our State of Software Security (SOSS) report. To draw conclusions for the report, we examined the entire history of active applications. For the public sector data, we took the same approach. We examined the entire history of applications for government agencies and educational institutions.
+We found that the public sector has the highest proportion of security flaws of any industry. On average, most industries have flaws in approximately 76 percent of their applications – but that number is 8 percent higher for the public sector at 82 percent.
+​
+As you’ll see in the figure above, the public sector also has a lower-than-average proportion of flaws actually fixed, and it takes significantly longer to remediate flaws.
+Let’s dig a bit deeper into the remediation of open-source flaws. Remediating open-source flaws appears to take a while for every industry. In fact, for most industries, 30 percent of vulnerable libraries remain unresolved…</description>
+      <pubDate>Tue, 29 Mar 2022 14:02:48 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver58946</guid>
+    </item>
+    <item>
+      <title>Shifting Log4j Discovery Right </title>
+      <link>https://www.veracode.com/blog/managing-appsec/shifting-log4j-discovery-right</link>
+      <description>You hear a lot about shifting your application security (AppSec) left – in other words, shifting AppSec to the beginning of the software development lifecycle (SDLC). While we firmly believe that you should continue scanning in development environments, that doesn’t mean that you should neglect applications that have been deployed to or staged in runtime environments.  Runtime presents a unique set of challenges – misconfigurations, logic errors and the like that can’t be identified in a static or software composition analysis scan. If you aren’t testing for vulnerabilities at runtime, you are risking a potential breach of a different kind. As Chris Wysopal, our co-founder and CTO, frequently emphasizes:
+ In a shift left world, shifting right is more important than ever.
+
+There are many examples that warrant shifting both left and right – especially during times of heightened alert like the current political unrest. President Biden recently addressed our nation on cybersecurity,…</description>
+      <pubDate>Tue, 22 Mar 2022 17:35:44 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver58886</guid>
+    </item>
+    <item>
+      <title>Veracode Announces Significant Growth Investment From TA Associates</title>
+      <link>https://www.veracode.com/blog/security-news/veracode-announces-significant-growth-investment-ta-associates</link>
+      <description>I am pleased to share the exciting news that TA Associates (“TA”), a leading global growth equity firm, has signed an agreement to make a strategic growth investment in Veracode, taking a majority equity position in the business. Thoma Bravo will also continue to be an investor alongside TA. This new partnership is forming at a critical moment in the evolution of the software security market. Enterprises across all industry verticals need a platform and a partner that can help them secure the software that runs our world. We are excited to partner with TA and Thoma Bravo to do exactly that for our customers and deliver the best outcomes for both their development and security teams.
+Today’s news represents another step on the journey that began even before Veracode was incorporated, when Weld Pond, our founder and CTO Chris Wysopal, and his colleagues at L0pht testified to the US Congress about the need to secure software. Since our founding, Veracode has consistently led the way to…</description>
+      <pubDate>Tue, 15 Mar 2022 09:58:36 -0400</pubDate>
+      <dc:creator>SKing@veracode.com (SKing)</dc:creator>
+      <guid isPermaLink="false">ver58841</guid>
+    </item>
+    <item>
+      <title>Veracode Achieves AWS Security Competency Status</title>
+      <link>https://www.veracode.com/blog/security-news/veracode-achieves-aws-security-competency-status</link>
+      <description>We are proud to announce that we have recently achieved AWS Security Competency Partner status. This status exemplifies our technical expertise and dedication to helping customers secure their software at every stage of cloud adoption.
+“Veracode has been partnering with AWS for years. In fact, we also recently received our AWS DevOps Competency status for our demonstrated expertise in delivering DevOps solutions on the AWS Cloud.  We trust the security and reliability of AWS and, now that we have achieved the AWS Security Competency status, we are proud to say that AWS trusts the security and reliability of Veracode. Together, we can help customers change the world with innovative cloud-based software,” said Dave Grazio, Senior Director of Partner Marketing at Veracode.
+As an AWS Security Competency Partner, we offer security-focused solutions to meet a wide variety of workloads and use cases. And since we’re cloud-based, you can easily deploy our solutions in a matter of minutes.…</description>
+      <pubDate>Wed, 02 Mar 2022 18:29:20 -0500</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver58761</guid>
+    </item>
+    <item>
+      <title>New in Security Labs: Kotlin &amp; Swift Mobile Courses</title>
+      <link>https://www.veracode.com/blog/secure-development/new-security-labs-kotlin-swift-mobile-courses</link>
+      <description>Secure coding with Kotlin &amp; Swift 
+This week we’ve added new Kotlin &amp; Swift Courses to the Security Labs catalog! The update includes 4-5 Kotlin (Android) labs and 4 Swift (iOS) labs that cover common mobile security topics such as secret storage, authorization, and custom URL handling. 
+Developers (and anyone curious about how to write secure code) can now try out hands-on exercises in real applications that help highlight coding mistakes that can lead to security vulnerabilities as well as steps to take to avoid and/or fix them. 
+What is Kotlin? 
+Kotlin is an open-source, statically typed programming language developed by JetBrains designed for JVM, Android, JavaScript, and Native. Kotlin combines object-oriented and functional constructs, focusing on interoperability, safety, clarity, and tooling support, and can be used for any kind of development, be it server-side, client-side web, or Android.  It tends to be more concise, so if you’re looking to cut down on the number…</description>
+      <pubDate>Mon, 28 Feb 2022 17:04:51 -0500</pubDate>
+      <dc:creator>shinksmon@veracode.com (shinksmon)</dc:creator>
+      <guid isPermaLink="false">ver58751</guid>
+    </item>
+    <item>
+      <title>SQL Injection in Today’s Landscape</title>
+      <link>https://www.veracode.com/blog/managing-appsec/sql-injection-todays-landscape</link>
+      <description>What is SQL injection?
+A SQL injection flaw allows for an attacker to modify or inject SQL syntax into the request to make the application behave in a manner that was not initially intended. In other words, an attacker can change a database query to:
+Read sensitive data
+Modify the database
+Execute other database functions
+Break authentication
+Lead to remote code execution
+Now with almost all web applications having integrations with databases in some way, this flaw has the potential to arise often. However, many frameworks and libraries are available to make database connections and queries safe.  That said, SQL injection still exists and is very common. Injection flaws were the number one flaw category under the OWASP 2017, and, currently, injection flaws hold the number three spot in the OWASP 2021.
+SQL injection flaws have impacted every industry as well as enterprises that already have a mature information security program in place. It can happen, and it can be catastrophic!
+How…</description>
+      <pubDate>Thu, 17 Feb 2022 12:24:35 -0500</pubDate>
+      <dc:creator>dsilveri@veracode.com (dsilveri)</dc:creator>
+      <guid isPermaLink="false">ver58661</guid>
+    </item>
+    <item>
+      <title>What Is an SBOM and Why Do You Need One? </title>
+      <link>https://www.veracode.com/blog/intro-appsec/what-sbom-and-why-do-you-need-one</link>
+      <description>SBOM stands for Software Bill of Materials 
+Before we jump into definitions, let’s quickly level set on how we got here. Over the last few years, the way we build software has changed drastically. With the increasing need to move faster and release more frequently, organizations are opting to get rid of monolithic architectures and adopt a microservices architecture for greater agility, resiliency, and efficiency.  
+Developers are now able to use more third-party resources and containers to piece together best-of-breed parts for their applications to run on.  As a result, less of the code that makes up an application is owned and managed directly by that organization.  Unfortunately, it’s difficult to get full transparency into all these pieces since the decision-making process and documentation process can happen in numerous places across an organization.  The lack of a concrete way to determine all the components of an application introduces substantial cybersecurity risks,…</description>
+      <pubDate>Mon, 14 Feb 2022 12:19:04 -0500</pubDate>
+      <dc:creator>jtsmith@veracode.com (jtsmith)</dc:creator>
+      <guid isPermaLink="false">ver58626</guid>
+    </item>
+    <item>
+      <title>Announcing the 12th Volume of Our State of Software Security Report </title>
+      <link>https://www.veracode.com/blog/intro-appsec/announcing-12th-volume-our-state-software-security-report</link>
+      <description>The 12th volume of our annual State of Software Security (SOSS) report is now live! Rather than examining a single year of activity associated with an application, in this year's report we looked at the entire history of active applications. By doing so, we can view the full life cycle of applications, which results in more accurate metrics and observations. Aside from looking at the past, we also imagined the future by considering practices — such as Veracode Security Labs training — that might help improve application security. 
+As with all of our SOSS reports, the goal is to help you make informed decisions about your software security program so that you can minimize risk, protect your applications, and meet industry regulations.  
+Some key takeaways: 
+Time is a competitive currency for software development teams. 
+The world is becoming more connected than ever before. But it’s not just increased connectivity that’s shaping the security landscape — it’s the hypercompetitiveness…</description>
+      <pubDate>Tue, 08 Feb 2022 12:13:23 -0500</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver58566</guid>
+    </item>
+    <item>
+      <title>A Review of Log4Shell Detection Methods </title>
+      <link>https://www.veracode.com/blog/managing-appsec/review-log4shell-detection-methods</link>
+      <description>Ever since the public exploit of the Log4Shell remote code execution (RCE) vulnerability became known on December 10, 2021, security teams have been scrambling to understand the risk to their environments. Part of that scramble has been to ascertain which tools are best positioned to help detect the vulnerability. Which approaches are most effective and where do they fall short? In this blog post, we'll describe some of the ways that Log4Shell vulnerabilities can be detected and discuss the pros and cons of each.   
+Software Composition Analysis (SCA) 
+SCA tools are focused on risks associated with third-party libraries.  As such, they are well-suited to identify the presence of vulnerable log4j-core components in Java applications and other Java codebases.  It's important that the SCA tool pinpoints and reports the exact version that is being used as there has been a flurry of releases of log4j-core in the past two weeks.  As of this writing, 2.17 is considered the only fully safe…</description>
+      <pubDate>Wed, 22 Dec 2021 22:23:15 -0500</pubDate>
+      <dc:creator>The Veracode Research Team@veracode.com (The Veracode Research Team)</dc:creator>
+      <guid isPermaLink="false">ver58246</guid>
+    </item>
+    <item>
+      <title>Part 4: Using Veracode From the Command Line in Cloud9 IDE</title>
+      <link>https://www.veracode.com/blog/managing-appsec/part-4-using-veracode-command-line-cloud9-ide</link>
+      <description>It’s Clint Pollock, principal solutions architect, here for the final lesson in the four-part series on how to use Veracode from the command line in the Cloud9 IDE to submit a software composition analysis (SCA) scan and a dynamic scan.
+
+
+To start, if you’re looking to leverage the Veracode API signing docker image with the Veracode rest APIs, go to the Help Center, go to the Rest API section, and take a look at the available options.
+From here you can get a list of all the details for a particular application. You won't need to add this parameter unless you are using the HMAC authentication plugin described in this section. Otherwise, remove it.
+Now, let's learn how to submit a dynamic scan. In the Veracode Help Center, you'll see an example of how to create dynamic analysis for a single URL. You’ll see the post call and the value of the file. Copy it and make it a JSON file in your project. It's a good idea to check the file into source code and, potentially, into a subfolder called…</description>
+      <pubDate>Sat, 18 Dec 2021 15:45:23 -0500</pubDate>
+      <dc:creator>cpollock@veracode.com (cpollock)</dc:creator>
+      <guid isPermaLink="false">ver58056</guid>
+    </item>
+    <item>
+      <title>The Good, the Bad, and The Ugly: Understanding the API Security Top 10 List </title>
+      <link>https://www.veracode.com/blog/managing-appsec/good-bad-and-ugly-understanding-api-security-top-10-list</link>
+      <description>Why is OWASP a Good Framework
+The Open Web Application Security Project (OWASP) is a nonprofit organization with the purpose to help secure software. They provide data that can give engineering and security teams a better idea of where the most common risks may lie. The 2021 OWASP Top 10, released in November 2021, lists the most critical web application security risks. But OWASP also maintains the API Security Top 10 project which was last updated in 2019. Each category is ranked based on the frequency and severity of the defect.
+The API Security Top 10 consists of:
+1. API1-2019 Broken Object Level Authorization.
+2. API2-2019 Broken User authentication
+3. API3-2019 Excessive Data Exposure
+4. API4-2019 Lack of Resources &amp; Rate Limiting
+5. API5-2019 Broken Function Level Authorization
+6. API6-2019 Mass Assignment
+7. API7-2019 Security Misconfiguration
+8. API8-2019 Injection
+9. API9-2019 Improper Assets Management
+10. API10-2019 Insufficient Logging and Monitoring
+The Good
+As the…</description>
+      <pubDate>Fri, 17 Dec 2021 16:58:58 -0500</pubDate>
+      <dc:creator>The Veracode Research Team@veracode.com (The Veracode Research Team)</dc:creator>
+      <guid isPermaLink="false">ver58051</guid>
+    </item>
+    <item>
+      <title>58% of Orgs Are Using a Vulnerable Version of Log4j </title>
+      <link>https://www.veracode.com/blog/security-news/58-orgs-are-using-vulnerable-version-log4j</link>
+      <description>On December 9, 2021, a zero-day vulnerability in Log4j 2.x was discovered. This vulnerability is of great concern because if it’s successfully exploited, attackers are able to perform a RCE (Remote Code Execution) attack and compromise the affected server.  
+Since we are a cloud-based Software Composition Analysis (SCA) provider, we have useful customer data that gives insight into the scope of the Log4j vulnerability.  
+For starters, we found that 95 percent of our enterprise customers – organizations with over 100 applications – use Java.   
+
+That doesn’t mean that every organization using Java is using Log4j … but most do. 88 percent of enterprises are using some version of Log4j – the most popular being version 1.2. 
+
+That leads us to the million-dollar question: How many enterprises are using a vulnerable version of Log4j? Nearly 58 percent. 
+
+And if we look at the data in terms of Java applications, approximately 17 percent have a Log4j vulnerability.  
+What should you do if you…</description>
+      <pubDate>Wed, 15 Dec 2021 14:19:45 -0500</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57986</guid>
+    </item>
+    <item>
+      <title>URGENT: Analysis and Remediation Guidance to the Log4j Zero-Day RCE (CVE-2021-44228) Vulnerability</title>
+      <link>https://www.veracode.com/blog/security-news/urgent-analysis-and-remediation-guidance-log4j-zero-day-rce-cve-2021-44228</link>
+      <description>Updates:
+30-Dec-2021: Clarified attack scenario for Log4j 1.x CVE-2021-4104
+29-Dec-2021: Updated remediation guidance to include CVE-2021-44832
+22-Dec-2021: Added details for the latest version of Log4J for Java 6 and Java 7
+20-Dec-2021: Updated Am I affected, Remediation and Off-the-Shelf sections
+17-Dec-2021: Added more details around CVE-2021-45046 and Log4j 2.15.0
+16-Dec-2021: Added Organizational update priority section to plan for upgrade to 2.16
+15-Dec-2021: Removed Mitigation using System properties or Environment Variables
+15-Dec-2021: Additional details around vulnerability in 2.15.0
+15-Dec-2021: More information around Log4j 1.x impact
+14-Dec-2021: Updated reference to log4j 2.16.0
+14-Dec-2021: Updated reference to vulnerability in SCA
+13-Dec-2021: Removed JDK versions from affected list based on Márcio Almeida's work
+13-Dec 2021: Added Log4j 1.x based recommendation
+12-Dec-2021: Removed Java version-based recommendation
+10-Dec-2021: Initial version
+A previously unknown…</description>
+      <pubDate>Fri, 10 Dec 2021 11:59:05 -0500</pubDate>
+      <dc:creator>The Veracode Research Team@veracode.com (The Veracode Research Team)</dc:creator>
+      <guid isPermaLink="false">ver57976</guid>
+    </item>
+    <item>
+      <title>Part 3: Using Veracode From the Command Line in Cloud9 IDE</title>
+      <link>https://www.veracode.com/blog/managing-appsec/part-3-using-veracode-command-line-cloud9-ide</link>
+      <description>In part three of a four-part series, Clint Pollock, principal solutions architect at Veracode, details how to use Veracode from the command line in the Cloud9 IDE to submit a software composition analysis (SCA) scan. Check out the video and step-by-step instructions below.
+
+
+It’s Clint Pollock, principal solutions architect, back again for part three of our four-part series on using Veracode from the command line in Cloud9 IDE. If you haven’t done so already, please check out part one on static policy scans and static sandbox scans and part two on the pipeline scanner.  
+For part three, we will dive into open source and third-party libraries. Those are libraries that you don't generally fix. You just need to upgrade and keep an eye on these libraries to make sure that they don't have vulnerabilities. Now, inside of the Veracode application profile, there are results on static analysis and software composition analysis. In addition, if you had manual tests or dynamic scanning, you'll…</description>
+      <pubDate>Thu, 02 Dec 2021 18:23:23 -0500</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57951</guid>
+    </item>
+    <item>
+      <title>Don’t Let Code Injections Mess Up Your Holiday eCommerce Season</title>
+      <link>https://www.veracode.com/blog/intro-appsec/dont-let-code-injections-mess-your-holiday-ecommerce-season</link>
+      <description>The holidays are right around the corner. It’s a well-deserved time to spend with your friends and family, and it likely translates to increased online sales. But more eCommerce activity also means increased cybersecurity risks. 
+Most organizations with eCommerce deploy cybersecurity measures such as Content Security Policies (CPSs), to help secure their site and protect their customer’s personally identifiable information from a breach. Specifically, CSPs act to defend websites against online scripts that can cause fraud or steal credit card information. 
+And while CSPs do represent a solid first line of defense, as we will soon explore, there is also so much more that organizations need to do to protect against malicious scripts and code injections. That’s because CSPs are only as effective as your allow list, so if a hacker targets any services already used by your CSPs, attacks are easy to execute. 
+In this article, we’ll dive into how and why code injections are a threat to your…</description>
+      <pubDate>Tue, 23 Nov 2021 14:21:23 -0500</pubDate>
+      <dc:creator>sjones@veracode.com (sjones)</dc:creator>
+      <guid isPermaLink="false">ver57926</guid>
+    </item>
+    <item>
+      <title>EWF Conference: Plotting the Course for Your Personal Brand </title>
+      <link>https://www.veracode.com/blog/intro-appsec/ewf-conference-plotting-course-your-personal-brand</link>
+      <description>“Why focus on building your personal brand?” 
+This was the first question that Elana Anderson, Chief Marketing Officer at Veracode, asked during her presentation Plotting the Course for Your Personal Brand at the recent Executive Women’s Forum (EWF). Anderson, a lifelong student of marketing, and a former analyst at Forrester Research, has a deep understanding of the importance of both corporate and personal brands and the steps necessary to both build and maintain a brand.  
+To help the viewers grasp the impact that a brand can have on your image, Anderson used a series of words or phrases and asked the audience to guess the well-known women she described. Starting with “humble, holy, self-less, and devoted,” do you think you know who that is? The audience guessed Mother Teresa almost instantaneously. The next one was a bit more challenging: “Powerful, ultra-competitive, willing to take a stand, bold style.” Most guessed the correct answer, Serena Williams.  
+Anderson described the…</description>
+      <pubDate>Thu, 18 Nov 2021 21:38:14 -0500</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57906</guid>
+    </item>
+    <item>
+      <title>Part 2: Using Veracode From the Command Line in Cloud9 IDE</title>
+      <link>https://www.veracode.com/blog/secure-development/part-2-using-veracode-command-line-cloud9-ide</link>
+      <description>In part two of a four-part series, Clint Pollock, principal solutions architect at Veracode, details how to use Veracode from the command line in the Cloud9 IDE to submit a static pipeline scan. Check out the video and step-by-step instructions below.
+
+
+It’s Clint Pollock, principal solutions architect, back for part two of our four-part series on using Veracode from the command line in Cloud9 IDE. Hopefully you all had a chance to check out part one on static policy scans and static sandbox scans. For part two, I will be moving on to the pipeline scanner.  
+First, let's review the use cases for each of the types of static scans. The static policy scan is the only required scan from a governance perspective. This is something that should be submitted on a regular basis once a month, hopefully, or more.
+The sandbox was the traditional way that developers would preview a new bill to make sure they hadn’t added any new flaws. The pipeline scanner is our newest approach, helping you scan…</description>
+      <pubDate>Thu, 18 Nov 2021 19:25:13 -0500</pubDate>
+      <dc:creator>cpollock@veracode.com (cpollock)</dc:creator>
+      <guid isPermaLink="false">ver57901</guid>
+    </item>
+    <item>
+      <title>Champion Spotlight: Damian Sniezek</title>
+      <link>https://www.veracode.com/blog/managing-appsec/champion-spotlight-damian-sniezek</link>
+      <description>
+This interview was cross-posted from the Veracode Community.
+With his third consecutive championship in the Secure Coding Challenge – the monthly coding competition in the Veracode Community – Damian is the latest member of our community to be named a Secure Code Champion. After his win, we spoke with Damian about his experience in the competition and his career growth from a software developer into a Security engineer.
+A Software Architect at SmartBear, Damian is responsible for the security and engineering excellence of the BitBar Device Cloud solution. He decided to enter the Secure Coding Challenge after seeing the announcement in the Veracode Community Forum. After his first win in May, he went on to consecutively take the top spot for the next two months. Read more from our Q&amp;A with Damian below.
+About His Experience in the Secure Coding Challenge
+Q: What did you find most valuable in participating in the Challenge? 
+A: In every engineering challenge I’ve participated in, I…</description>
+      <pubDate>Thu, 18 Nov 2021 13:47:13 -0500</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57896</guid>
+    </item>
+    <item>
+      <title>Veracode Named Top 100 Women-Led Business in Massachusetts by the Commonwealth Institute and The Boston Globe</title>
+      <link>https://www.veracode.com/blog/intro-appsec/veracode-named-top-100-women-led-business-massachusetts-commonwealth-institute</link>
+      <description>Veracode was recently recognized by the Commonwealth Institute and Boston Globe Magazine as a Top 100 Women-Led Business in Massachusetts. The honor, which was awarded to Veracode’s CEO, Sam King, is given to female leaders across multiple industries who are at the helm of Massachusetts’ most noteworthy companies.
+​
+Sam, who was also recently named a Tech Top 50 recipient by the Mass Technology Leadership Council (MassTLC) for her exemplary leadership over the past twelve months, is helping to make Veracode one of the most noteworthy cybersecurity companies. “It’s a great honor for Veracode to be recognized as a Top 100 Women-Led Business in Massachusetts, and I am especially proud that we are the only software company to make the list. This award is a true testament to our teams, who are dedicated to helping our customers secure the software applications that are integral to their business. The passionate people driving Veracode’s mission every day are who make this achievement…</description>
+      <pubDate>Mon, 15 Nov 2021 15:38:12 -0500</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57846</guid>
+    </item>
+    <item>
+      <title>Recent Updates to the OWASP Top Ten Web Application Security Risks </title>
+      <link>https://www.veracode.com/blog/managing-appsec/recent-updates-owasp-top-ten-web-application-security-risks</link>
+      <description>The Open Web Application Security Project (aka OWASP) recently announced its latest updates to the venerable OWASP Top Ten list. This publication is meant to bring attention to the most common classes of software-related security issues facing developers and organizations in the hopes of helping them to better plan for and address potential high-severity issues in their codebases. While not specifically an industry standard, it is highly regarded among the security community and is regularly combined with findings from application security vendors and researchers to create a reference point for secure coding practices. The newest edition does make updates to certain conventions but also highlights the consistent issues seen throughout the years, such as injection attacks and insecure components.  
+Initially notable is the more generalized approach to categorization and naming, with OWASP describing the motivation for these changes as a “focus on the root cause over the symptom.” Given…</description>
+      <pubDate>Wed, 10 Nov 2021 12:34:31 -0500</pubDate>
+      <dc:creator>The Veracode Research Team@veracode.com (The Veracode Research Team)</dc:creator>
+      <guid isPermaLink="false">ver57821</guid>
+    </item>
+    <item>
+      <title>Part 1: Using Veracode From the Command Line in Cloud9 IDE</title>
+      <link>https://www.veracode.com/blog/secure-development/part-1-using-veracode-command-line-cloud9-ide</link>
+      <description>In part one of a four-part series, Clint Pollock, principal solutions architect at Veracode, details how to use Veracode from the command line in the Cloud9 IDE to submit a policy scan and a static sandbox scan. Check out the video and step-by-step instructions below.
+
+
+Hello, Clint Pollock, principal solutions architect here to explain how to use Veracode completely from a command prompt in your IDE or CI/CD system. I’m going to teach you how to submit a static policy scan and a static sandbox scan. Then, I’m going to clean up some builds using the API, submit a static pipeline scan, a software composition analysis scan, and a dynamic scan … all from the command prompt. Let's get started!
+The environment I typically work with is an Amazon Cloud9 IDE. I also leverage Docker and a cloned Java app called Vera demo Java from github.com/veracode/verademo. Maven is also useful to have installed to help build the project. Since my IDE already has Docker installed, I can pull down all the…</description>
+      <pubDate>Thu, 04 Nov 2021 16:19:13 -0400</pubDate>
+      <dc:creator>cpollock@veracode.com (cpollock)</dc:creator>
+      <guid isPermaLink="false">ver57356</guid>
+    </item>
+    <item>
+      <title>Champion Spotlight: Cris Rodriguez</title>
+      <link>https://www.veracode.com/blog/managing-appsec/champion-spotlight-cris-rodriguez</link>
+      <description>
+This interview was cross-posted from the Veracode Community.
+Join us in congratulating Cris, the latest Secure Code Champion in the Veracode Community! The Secure Code Champion is an award that recognizes individuals with three championships in the Veracode Community’s Secure Coding Challenge competitions.  
+Cris is a principal-level Application Security engineer in a large global travel technology company. In this role, he focuses on application penetration testing and setting the strategy for migrating their apps over to Google Cloud. Before entering the security space, he was a software developer for five years.
+In this interview, we asked Cris about this experience participating in the Secure Coding Challenges and his career change story. He talked about how he made the career switch from a developer to become a security engineer, and what he thinks is important for someone to be successful in this role. For developers considering a similar career move, he also shared the…</description>
+      <pubDate>Tue, 02 Nov 2021 14:09:27 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57276</guid>
+    </item>
+    <item>
+      <title>Software Composition Analysis Mitigates Systemic Risk in the Popular NPM Repository </title>
+      <link>https://www.veracode.com/blog/managing-appsec/software-composition-analysis-mitigates-systemic-risk-popular-npm-repository</link>
+      <description>Chris Wysopal, Veracode Chief Technology Officer and Co-Founder, recently sat down to discuss the open source supply chain attack on the popular npm repository. Below is the transcript and corresponding video of his reaction.  
+
+Just a few days ago, we saw a classic open source supply chain attack where someone modified a JavaScript library, UA-Parser-JS, which is in the npm repository. The attackers modified the library to include password stealers and crypto miners so that the applications of anyone who downloaded that version would be compromised. 
+With an attack like this, the applications that are using this library with this code are going to be running that code with the privileges that they have, wherever they're deployed.  
+In this case, it was malicious code that was planted. I'm sure it was done in such a way that everyone using those libraries is going to become vulnerable. 
+If it's password-stealing code, it's going to grab the passwords and send them to the attackers. In…</description>
+      <pubDate>Fri, 29 Oct 2021 14:31:12 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57261</guid>
+    </item>
+    <item>
+      <title>Cybersecurity Awareness Month: Top Trends Impacting Your Applications  </title>
+      <link>https://www.veracode.com/blog/intro-appsec/cybersecurity-awareness-month-top-trends-impacting-your-applications</link>
+      <description>It’s always important to take a pause to evaluate your software security – and what better time to do that than during Cybersecurity Awareness Month? To help get you thinking, we’ve compiled a list of cybersecurity trends that are happening now and will likely continue throughout the next several years.  
+1. Ubiquitous Connectivity: We are quickly moving to a world where everyone and everything is connected. Most software is internet-connected, as are most devices. Everything is talking to everything. So as data flows between enterprise applications, cloud-connected or SaaS software, and IoT devices, business risk is growing exponentially.   
+2. Abstraction &amp; Componentization: Software and technology continue to be the backbone of modern society. As a result, businesses are constantly seeking methods to innovate and build software faster. To move faster, many development teams are turning not only to the cloud but to microservices. With microservices, development teams can break…</description>
+      <pubDate>Fri, 29 Oct 2021 09:38:32 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57251</guid>
+    </item>
+    <item>
+      <title>MassTLC Names Sam King a Tech Top 50 Recipient</title>
+      <link>https://www.veracode.com/blog/security-news/masstlc-names-sam-king-tech-top-50-recipient</link>
+      <description>Sam King, CEO of Veracode, was recently named a Tech Top 50 recipient by the Mass Technology Leadership Council (MassTLC) for her exemplary leadership over the past twelve months.
+The Mass Technology Leadership Council (MassTLC), the region's leading technology association and premier network for tech executives, entrepreneurs, investors and policy leaders, recognizes tech companies and leaders for their achievements across multiple categories. “The resiliency and determination of the tech ecosystem in this region enables the innovation and leadership that makes Massachusetts so special,” remarked MassTLC CEO Tom Hopcroft. “It is an honor to recognize the people and companies and their amazing stories.” 
+The candidates were awarded based on their contributions in one of the following eight categories: Best Pivot to Meet the New World, Business Accomplishment, Company Culture, Inclusivity Impact, Leadership, New Company of the Year, Tech for Good: Social Responsibility, and Tech to…</description>
+      <pubDate>Tue, 12 Oct 2021 15:31:43 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57001</guid>
+    </item>
+    <item>
+      <title>The Aspen Cyber Summit: How Innovation Can Keep Us Safe</title>
+      <link>https://www.veracode.com/blog/intro-appsec/aspen-cyber-summit-how-innovation-can-keep-us-safe</link>
+      <description>Is your organization concerned about systemic cyber risk? Sam King, Veracode CEO, recently participated in the Aspen Institute’s sixth annual Aspen Cyber Summit which put the spotlight on this issue.
+“Leaders in an organization, even those not responsible for infrastructure or security, should care about systemic risk because their ability to drive business results and their ability to manage risk for their business is increasingly dependent on the broader ecosystem.” - Sam King, CEO, Veracode 
+This year, the Aspen Institute’s Cyber Summit focused on the theme of systemic cyber risk and its impact in today’s digital world. As premised by the Aspen Institute, “Systemic disruptions of internet infrastructure, healthcare during a pandemic, energy infrastructure, and food supplies within just the past five years have triggered significant unease about the potential for loss of not just data or state secrets, but the critical operational systems that underlie real-world social functions…</description>
+      <pubDate>Thu, 07 Oct 2021 12:30:36 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver57271</guid>
+    </item>
+    <item>
+      <title>.NET 5, Source Generators, and Supply Chain Attacks</title>
+      <link>https://www.veracode.com/blog/secure-development/net-5-source-generators-and-supply-chain-attacks</link>
+      <description>IDEs and build infrastructure are being a target of various threat actors since at least 2015 when XcodeGhost has been discovered - https://en.wikipedia.org/wiki/XcodeGhost - malware-ridden Apple Xcode IDE that enabled attackers to plant malware in iOS applications built using it. 
+Attacks executed through builds abuse trust we have in our build tools, IDEs, and software projects. This is slowly changing (for example Visual Studio Code added Workspace Trust feature in one of the recent releases: https://code.visualstudio.com/docs/editor/workspace-trust ), yet at the same time, .NET 5 added a powerful yet dangerous feature that could make attacks similar to described above easier to implement, deliver, and stay under the radar. 
+Source Generators introduction 
+Back in 2020 (https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/ ) Microsoft announced a new and exciting feature of the upcoming .NET 5 - Source Generators. This functionality is intended to enable easier …</description>
+      <pubDate>Thu, 30 Sep 2021 14:22:27 -0400</pubDate>
+      <dc:creator>mkrzeszowiec@veracode.com (mkrzeszowiec)</dc:creator>
+      <guid isPermaLink="false">ver56841</guid>
+    </item>
+    <item>
+      <title>Recap: Virtual Boston Globe Summit </title>
+      <link>https://www.veracode.com/blog/managing-appsec/recap-virtual-boston-globe-summit</link>
+      <description>Veracode CEO Sam King had the opportunity to speak at this year’s inaugural virtual Boston Globe Summit, “The Great Recovery.” Sam was invited to join the panel, How Boston is Tackling the Biggest Cyber Threats Facing Society, moderated by Gregory T. Huang, Business Editor at the Boston Globe, with guests Greg Dracon of .406 Ventures and Christopher Ahlberg of Recorded Future.  
+The group began by discussing the evolving landscape of software today. Sam noted that the COVID-19 pandemic, a forcing function to remote work environments, kicked digital transformation into action for many organizations, whether or not they were prepared. In fact, a survey from Verizon detailing sentiment among business leaders about the impacts of COVID-19 found that 38 percent of respondents had implemented virtual collaboration technology and a third chose to temporarily close to allow for transitions to new systems that would enable new ways of working. There was also increased adoption of cloud and…</description>
+      <pubDate>Mon, 27 Sep 2021 18:27:30 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver56796</guid>
+    </item>
+    <item>
+      <title>Application Security Testing Evolution and How a Software Bill of Materials Can Help</title>
+      <link>https://www.veracode.com/blog/managing-appsec/appsec-testing-evolution-software-bill-materials</link>
+      <description>Early in my career, I developed web applications. At the time there were practically no frameworks or libraries to help.  I was coding with Java using raw servlets and JSPs – very primitive by today's standards.  There was no OWASP Top 10 and writing secure code was not something we paid much attention to.   
+I specifically remember coding an open redirect years ago.  I didn't know it was a vulnerability at the time.  In my mind, it was a great feature for my Java servlet to recognize a special query string parameter that, if present, would trigger a redirection to the given URL!  Interestingly, a dynamic scan or penetration test of the application would not have found my vulnerability.  The name of the parameter was undocumented and not easy to guess.  On the other hand, static application security testing (SAST) or a manual code review would have found it.   
+My first stint at Veracode was in 2012, after six years working as an application security consultant.  It was exciting to …</description>
+      <pubDate>Thu, 23 Sep 2021 08:55:21 -0400</pubDate>
+      <dc:creator>dferguson@veracode.com (dferguson)</dc:creator>
+      <guid isPermaLink="false">ver56646</guid>
+    </item>
+    <item>
+      <title>MPT’s Value at Veracode</title>
+      <link>https://www.veracode.com/blog/managing-appsec/mpts-value-at-veracode</link>
+      <description>You finally have some budget to buy tools for your application security (AppSec) program! GREAT! Purchasing the correct tools for your AppSec pogram can be overwhelming. Even when looking only at point solutions, there still may be some confusion on the value that various tools can provide. Sometimes you'll find the perfect tool, but others may offer you a similar tool with added manual penetration testing (MPT) as part of the overall bundle. That seems like a great idea for the budget. Let's dive in and see what these types of value these other offerings really provide.
+First, let's cover the shortcoming of other Automated Tools + Manual Penetration Testing bundles. This is going to be pretty high level and will avoid comprehensive dives for ease of consumption. If you read anything, read the short bulleted list!
+Who is doing your MPT as part of this engagement?
+Veracode has world-famous authors and hackers on their MPT teams. Please reach out and ask for our MPT team profile and…</description>
+      <pubDate>Tue, 21 Sep 2021 10:49:49 -0400</pubDate>
+      <dc:creator>jmazo@veracode.com (jmazo)</dc:creator>
+      <guid isPermaLink="false">ver56651</guid>
+    </item>
+    <item>
+      <title>2003 Testimony to Congress Proves That We Still Have a Long Way to Go In Building Secure Software </title>
+      <link>https://www.veracode.com/blog/security-news/2003-testimony-congress-proves-we-still-have-long-way-go-building-secure</link>
+      <description>Back in May 1998, as a member of the hacker think tank, L0pht, I testified under my hacker name, Weld Pond, in front of a U.S. Senate committee investigating government cybersecurity. It was a novel event. Hackers, testifying under their hacker names, telling the U.S. government how the world of cybersecurity really was from those down in the computer underground trenches.
+Many in the security community know of the famous L0pht Senate testimony, but very few know that one of the L0pht members testified on Capitol Hill 5 years later. That member was me. This time I testified as a cybersecurity professional using my real name. I was the director of research and development at @stake, an information security consulting company.
+Back in the summer of 2003, the internet was plagued with worms such as Blaster and Sobig. The U.S. House of Representatives Committee on Government Reform wanted to hold hearings to understand the problem. Why had 400,000 computers been infected with Blaster in…</description>
+      <pubDate>Fri, 10 Sep 2021 08:25:31 -0400</pubDate>
+      <dc:creator>cwysopal@veracode.com (cwysopal)</dc:creator>
+      <guid isPermaLink="false">ver56571</guid>
+    </item>
+    <item>
+      <title>Digital Signatures Using Java</title>
+      <link>https://www.veracode.com/blog/research/digital-signatures-using-java</link>
+      <description>This is the ninth entry in blog series on using Java Cryptography securely. We started off by looking at the basics of Java Cryptography Architecture, assembling one crypto primitive after other in posts on Cryptographically Secure Random Number Generator, symmetric &amp; asymmetric encryption/decryption &amp; hashes. In the meantime, we had to catchup with cryptographic update in latest versions of Java. Having looked at some of the most common symmetric cryptography based applications a.k.a. Message Authentication Codes and Password Storage, let’s take a slight diversion and look at asymmetric cryptography applications starting with Digital Signatures in this post.
+Skip to the TL; DR
+Overview: What Is a Digital Signature
+Digital Signatures are in many ways analogous to physical signatures, providing assurance to the receiver that the received message was created and sent by claimed sender (authentication), binds sender to the data in the received message (non-repudiation) and…</description>
+      <pubDate>Tue, 07 Sep 2021 16:31:28 -0400</pubDate>
+      <dc:creator>msheth@veracode.com (msheth)</dc:creator>
+      <guid isPermaLink="false">ver54906</guid>
+    </item>
+    <item>
+      <title>Veracode Ranked as a Strong Performer in Forrester Wave™ Software Composition Analysis Report </title>
+      <link>https://www.veracode.com/blog/customer-news/veracode-ranked-strong-performer-forrester-wave-software-composition-analysis</link>
+      <description>Veracode has been recognized in a report Forrester Research recently released, The Forrester Wave™: Software Composition Analysis, Q3 2021. The report helps security professionals select a software composition analysis (SCA) vendor that best fits their needs. The report, which evaluates 10 SCA vendors against 37 criteria, ranks Veracode as a strong performer. 
+The Forrester Wave™ states, “Veracode is a strong choice for customers that are most interested in remediating vulnerabilities in open source components.” Noted in the report is our roadmap, which “...focuses on unifying the SAST and SCA capabilities in the developer environment and enhancing container and IaC security capabilities.” The report also highlighted, “Veracode has concentrated its SCA solution on finding and remediating open source vulnerabilities, with dependency graphs and guidance on a fix’s likelihood to break the code — one customer’s reference called the dependency graph ‘amazing’.” 
+Why is SCA such a critical…</description>
+      <pubDate>Thu, 19 Aug 2021 08:10:39 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver56386</guid>
+    </item>
+    <item>
+      <title>Recap: Black Hat USA 2021</title>
+      <link>https://www.veracode.com/blog/customer-news/recap-black-hat-usa-2021</link>
+      <description>Black Hat USA 2021 kicked off this week and we enjoyed the show! In addition to hosting a Cards and Coding virtual casino night to discuss the future of cybersecurity (and give away some prizes), we held a Lunch &amp; Learn with Wallace Dalrymple, CISO of Emerging Markets at Advantasure. In the session, our Founder and CTO Chris Wysopal chatted with Wallace about how Veracode and Advantasure worked together to build a mature application security (AppSec) program while addressing modern software security requirements.
+As Chris noted when the Lunch &amp; Learn session began, the pandemic drove many organizations to digitally transform most functions of business, quickly, which meant increased security threats — especially for organizations in the healthcare industry where Advantasure thrives. The effort to produce more secure code is especially critical after the Biden Administration’s recent Executive Order on cybersecurity, which impacts software security for organizations big and…</description>
+      <pubDate>Fri, 06 Aug 2021 09:32:28 -0400</pubDate>
+      <dc:creator>mmcbee@veracode.com (mmcbee)</dc:creator>
+      <guid isPermaLink="false">ver56341</guid>
+    </item>
+    <item>
+      <title>SANS Survey Finds Only 29% of Orgs Have Automated Most of Their Security Testing </title>
+      <link>https://www.veracode.com/blog/managing-appsec/sans-survey-finds-only-29-orgs-have-automated-most-their-security-testing</link>
+      <description>IT workloads are increasingly moving to the cloud, changing the way organizations develop and deliver software. Deploying and running production systems is now separate from the hardware and network, infrastructure is defined through code, and operations are now part of cloud service APIs.
+What does this mean for security?
+Security professionals need to be able to read and write code.
+They need to build security tests into the continuous integration/continuous delivery pipelines (CI)/(CD).
+They need to understand the different cloud architectures and platforms.
+Security tests need to be conducted at a fast pace that won’t impact the speed of software deployments.
+Ideally … security needs to become code.
+But how are we doing on this quest to the future state of security? SANS Institute examined 281 global organizations to find out what security teams need to understand about software development to meet the demand of high-velocity software deliveries, the skills they need to catch…</description>
+      <pubDate>Mon, 02 Aug 2021 14:28:46 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver56321</guid>
+    </item>
+    <item>
+      <title>Champion Spotlight: Hans Dam</title>
+      <link>https://www.veracode.com/blog/secure-development/champion-spotlight-hans-dam</link>
+      <description>​
+This interview was cross-posted from the Veracode Community.
+With his third consecutive championship in the Secure Coding Challenge – the monthly coding competition in the Veracode Community – Hans Dam is the first in the community to clinch the title of Secure Code Champion. We spoke with him about his experience in the coding competitions and his career growth from a software developer to a DevSecOps manager.  
+As DevSecOps manager currently working at Explorance, Hans manages the DevOps and AppSec teams and is responsible for managing internal application security scans, improving internal processes with automation, and developing tools for deployment and monitoring. His strong passion for DevOps and automation is at the core of his current role. 
+What makes Hans the first Secure Code Champion and how did he get application security under his belt? In this interview, Hans shares his takeaways from the Secure Coding Challenges and his advice for developers looking to break into…</description>
+      <pubDate>Mon, 02 Aug 2021 10:56:59 -0400</pubDate>
+      <dc:creator>mmcbee@veracode.com (mmcbee)</dc:creator>
+      <guid isPermaLink="false">ver56246</guid>
+    </item>
+    <item>
+      <title>Veracode CEO Sam King Named a Winner in the EY Entrepreneur Of The Year® New England Award</title>
+      <link>https://www.veracode.com/blog/customer-news/veracode-ceo-sam-king-named-winner-ey-entrepreneur-year-new-england</link>
+      <description>For the past 35 years, EY’s Entrepreneur Of The Year® program has honored leaders from around the world who continue to make positive impacts within their industries. We’re thrilled to share that, this year, Veracode’s CEO Sam King has been named a winner in the Entrepreneur Of The Year® New England award! This prestigious program celebrates entrepreneurs like Sam who are leading successful companies, underscoring each nominee’s innovation, financial aptitude, and commitment. 
+Awarded to executives who work hard to build leading businesses that create jobs and contribute to their communities, the Entrepreneur of the Year® honor celebrates Sam’s dedication to cementing Veracode as a leader of the pack in software security.
+Sam was selected for her integral role in Veracode’s growth, success, and innovation over the past 15 years, initially as a founding team member and then as CEO. Her inspiring leadership, ability to succeed in a complex economic environment and commitment to…</description>
+      <pubDate>Thu, 29 Jul 2021 12:31:31 -0400</pubDate>
+      <dc:creator>mmcbee@veracode.com (mmcbee)</dc:creator>
+      <guid isPermaLink="false">ver56286</guid>
+    </item>
+    <item>
+      <title>Announcing the Veracode Security Labs FREE Trial </title>
+      <link>https://www.veracode.com/blog/secure-development/announcing-veracode-security-labs-free-trial</link>
+      <description>We’re excited to announce a new free trial option of Veracode Security Labs that allows new users to try the full Enterprise Edition for 14 days. Why is this hands-on training solution so critical? Developers are the backbone of the software that powers our world today, but when they lack security skills, it’s harder for them to keep up with the rapid pace of modern software development while still producing secure code. Veracode Security Labs helps close these skill gaps by giving developers that inimitable hands-on experience, and now with this two-week trial, you’ll have plenty of time to try out these hands-on-keyboard labs with your developers and see just how effective it is in real-time.  
+“Veracode Security Labs engages and actively teaches developers by giving them a containerized space to work with real code and demonstrates how to avoid flaws that have led to some of the headline-making vulnerabilities of the last few years,” says Ian McLeod, Chief Product Officer at…</description>
+      <pubDate>Mon, 26 Jul 2021 09:56:06 -0400</pubDate>
+      <dc:creator>jlane@veracode.com (jlane)</dc:creator>
+      <guid isPermaLink="false">ver56226</guid>
+    </item>
+    <item>
+      <title>What Will Cybersecurity Look Like Over the Next Five Years? </title>
+      <link>https://www.veracode.com/blog/intro-appsec/what-will-cybersecurity-look-over-next-five-years</link>
+      <description>As a result of the Covid-19 pandemic, organizations in all industries ramped up their digital transformation efforts to make online operations easier for their employees and customers. But with more and more organizations online, the digital attack surface is growing at a record pace. The more applications with vulnerable code, the more opportunities for a cyberattack. In fact, our research found that 76 percent of applications have at least one security vulnerability. So how will this shape the future of cybersecurity, and software security?
+There are three key technology trends that we believe will impact cybersecurity, and software security, the most over the next several years.
+The first trend is ubiquitous connectivity. Think about how quickly the world – and everyone and everything in it – is becoming interconnected. Did you ever think you’d see a day where you can search the Internet from your refrigerator or turn on your television with a simple voice command? By the end of…</description>
+      <pubDate>Fri, 23 Jul 2021 15:50:53 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver56251</guid>
+    </item>
+    <item>
+      <title>Executive Order Update: NIST Establishes a Definition for Critical Software and Outlines Scan Requirements for Software Source Code</title>
+      <link>https://www.veracode.com/blog/security-news/executive-order-update-nist-establishes-definition-critical-software-and</link>
+      <description>On May 12, 2021, President Biden announced an executive order to improve the nation’s cybersecurity. The order, which outlines security initiatives and timelines, calls for the U.S. Department of Commerce’s National Institute of Standards and Technology (NIST) to enhance the security of the software supply chain.  
+One of NIST’s first orders of business was to define critical software by June 26, 2021. According to the executive order, the definition of critical software needs to “reflect the level of privilege or access required to function, integration and dependencies with other software, direct access to networking and computing resources, performance of a function critical to trust, and potential for harm if compromised.” In other words, the definition must be specific enough to help the federal government with purchase decisions and deployment of critical software.
+NIST met the due date, releasing its definition of critical software. “EO-critical software is defined as any…</description>
+      <pubDate>Mon, 19 Jul 2021 13:17:15 -0400</pubDate>
+      <dc:creator>cwysopal@veracode.com (cwysopal)</dc:creator>
+      <guid isPermaLink="false">ver56221</guid>
+    </item>
+    <item>
+      <title>Key Takeaways for Developers From SOSS v11: Open Source Edition</title>
+      <link>https://www.veracode.com/blog/research/key-takeaways-developers-soss-v11-open-source-edition</link>
+      <description>Our latest State of Software Security: Open Source Edition report just dropped, and developers will want to take note of the findings. After studying 13 million scans of over 86,000 repositories, the report sheds light on the state of security around open source libraries – and what you can do to improve it.
+The key takeaway? Open source libraries are a part of pretty much all software today, enabling developers to work faster and smarter, but they’re not static. Library popularity and usage changes and evolves with trends in software development, and if developers don’t keep up with these movements, the organizations they’re building innovative applications for are at greater risk of damaging data leaks and cyberattacks.  
+Let’s dive into the data.
+Just over half of developers have a process for selecting third-party libraries
+As part of this year’s report, we ran a survey that asked customers some critical questions about how they interact with third-party libraries. We weren’t…</description>
+      <pubDate>Wed, 14 Jul 2021 09:53:51 -0400</pubDate>
+      <dc:creator>mmcbee@veracode.com (mmcbee)</dc:creator>
+      <guid isPermaLink="false">ver56166</guid>
+    </item>
+    <item>
+      <title>Speed or Security? Don’t Compromise</title>
+      <link>https://www.veracode.com/blog/secure-development/speed-or-security-dont-compromise</link>
+      <description>“Speed is the new currency of business.” Chairman and CEO of Salesforce Marc R. Benioff’s words are especially potent today as many organizations small and large look for ways to speed up production during their shifts to digital.    
+In software development, speed is a critical factor. Everything from shifting priorities to manual processes and siloed teams can seriously impede deployment schedules. One of the biggest obstacles, however, is a lack of security throughout every step of the production process to ensure that coding mistakes and flaws are found and fixed before they turn into project-derailing problems. 
+A lack of an efficient and flexible AppSec program becomes an issue when you look at the data:
+Cyberattacks occur every 39 seconds.
+60 percent of developers are releasing code 2x faster than before.
+76 percent of applications have least at least one security flaw on first scan.
+85 percent of orgs admit to releasing vulnerable code to production because of time restraints…</description>
+      <pubDate>Tue, 29 Jun 2021 11:30:29 -0400</pubDate>
+      <dc:creator>mmcbee@veracode.com (mmcbee)</dc:creator>
+      <guid isPermaLink="false">ver56096</guid>
+    </item>
+  </channel>
+</rss>
