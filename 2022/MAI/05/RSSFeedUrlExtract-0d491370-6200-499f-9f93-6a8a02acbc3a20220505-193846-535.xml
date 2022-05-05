@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Siemplify</title>
+    <atom:link href="https://www.siemplify.co/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.siemplify.co</link>
+    <description>
+    </description>
+    <lastBuildDate>Tue, 12 Apr 2022 20:37:14 +0000</lastBuildDate>
+    <language>en-GB</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=5.8.4</generator>
+    <item>
+      <title>Why People Still Dominate Modern Security Operations (And How Detection and Response Technology Can Help)</title>
+      <link>https://www.siemplify.co/blog/how-the-human-still-plays-the-biggest-role-in-security-operations/</link>
+      <comments>https://www.siemplify.co/blog/how-the-human-still-plays-the-biggest-role-in-security-operations/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Tue, 12 Apr 2022 17:50:03 +0000</pubDate>
+      <category><![CDATA[Product Updates & Tips]]></category>
+      <category><![CDATA[Security Orchestration and Automation]]></category>
+      <category><![CDATA[SOC Best Practices]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=16878</guid>
+      <description><![CDATA[<p>Of all the cybersecurity disciplines, one is uniquely and intrinsically connected to the human being: security operations. The success of...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/how-the-human-still-plays-the-biggest-role-in-security-operations/">Why People Still Dominate Modern Security Operations (And How Detection and Response Technology Can Help)</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><span style="font-weight: 400;">Of all the cybersecurity disciplines, one is uniquely and intrinsically connected to the human being: security operations.</span></p>
+<p><span style="font-weight: 400;">The success of the modern security operations center, despite the infusion of automation, machine learning, and artificial intelligence, remains heavily dependent on people. This is largely due to the vast amounts of data a SOC must ingest – a product of an attack surface ceaselessly expanding in the age of professionalized cybercrime and the borderless enterprise. All those alerts coming in mean proactive and reactive </span><i><span style="font-weight: 400;">human</span></i><span style="font-weight: 400;"> decision making remains critical.</span></p>
+<p style="text-align: center;"><a href="https://cloudonair.withgoogle.com/events/summit-security-2022?utm_source=linkedin&amp;utm_medium=unpaidsoc&amp;utm_campaign=FY22-Q2-global-EXPMKT11-onlineevent-er-security-summit-main&amp;utm_content=siemplify-social&amp;utm_term=-" target="_blank" rel="noopener"><span class="editor-formats editor-formats--cta-link">Register Today to for the Google Cloud Security Summit on May 17</span></a></p>
+<p><span style="font-weight: 400;">Perhaps, then, it should come as no surprise that the security analyst now </span><a href="https://money.usnews.com/careers/articles/why-information-security-analyst-is-the-no-1-job-of-2022"><span style="font-weight: 400;">ranks as No. 1</span></a><span style="font-weight: 400;"> in U.S. News’ 100 Best Jobs Rankings, “determined by identifying careers with the largest projected number and percentage of openings through 2030, according to the U.S. Bureau of Labor Statistics.” Security, namely detection and response, is not only a business imperative – it is arguably the top worry on the </span><a href="https://www.irmagazine.com/technology-social-media/ceos-name-cyber-risk-top-threat-2022-according-pwc-survey#:~:text=Read%20now-,CEOs%20name%20cyber%2Drisk%20as%20top%20threat,2022%2C%20according%20to%20PwC%20survey&amp;text=CEOs%20view%20cyber%2Dattacks%20as,to%20new%20research%20from%20PwC."><span style="font-weight: 400;">minds of CEOs</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">In a somewhat cruel twist of irony, however, the security analyst is also one of the most likely professions </span><a href="https://www.infosecurity-magazine.com/news/60-soc-analysts-planning-quit-next/"><span style="font-weight: 400;">to want to leave their jobs</span></a><span style="font-weight: 400;">, according to a newly released “Voice of the SOC Analyst” study conducted by Tines. </span></p>
+<p><span style="font-weight: 400;">What gives?</span></p>
+<p><span style="font-weight: 400;">Turnover woes are attributable to several key SecOps challenges that never seem to budge.</span><span style="font-weight: 400;"><br />
+</span></p>
+<p><b>1)  Alert Fatigue:</b><span style="font-weight: 400;"> Have you ever received so many spam and junk mails that you end up ignoring your new messages entirely, which leads you to missing an important one? The same can happen for alerts. </span><a href="https://www.securitymagazine.com/articles/97400-alert-fatigue-crippling-security-operation-centers"><span style="font-weight: 400;">Too much noise</span></a><span style="font-weight: 400;"> is unsustainable and can lead to the real threats being missed, especially as perimeters expand and cloud adoption increases.</span></p>
+<p><b>2) Disparate Tools:</b><span style="font-weight: 400;"> Already in the company of too many point detection tools, security operations professionals saying hello to a few more in the era of remote work and increased cloud demands. The latest count i</span><a href="https://www.infosecurity-magazine.com/news/organizations-76-security-tools/#:~:text=Organizations%20Now%20Have%20an%20Average%2076%20Security%20Tools%20to%20Manage%20%2D%20Infosecurity%20Magazine"><span style="font-weight: 400;">s north of 75 security tools</span></a><span style="font-weight: 400;"> needing managing by the average enterprise.</span></p>
+<p><b>3) Manual Processes: </b><span style="font-weight: 400;">Use case procedures that result in inconsistent, unrepeatable processes can bottleneck response times and frustrate SecOps teams. Not everything in the SOC needs to – or should be – automated, but lots can, which will free up analysts and engineers to concentrate on higher-order tasks and be able to easily transfer knowledge to new employees.</span></p>
+<p><b>4) Talent Shortage: </b><span style="font-weight: 400;">Death, taxes and the cybersecurity skills shortage. As sure as the sun will rise tomorrow, so will the need for proficient individuals to wage the cybersecurity fight. But what happens when not enough talent is filling the seats? Teams must compensate to fill the gap.</span></p>
+<p><b>5) Lack of Visibility:</b> <a href="https://www.siemplify.co/resources/no-nonsense-guide-to-security-operations-metrics/"><span style="font-weight: 400;">Security operations metrics</span></a><span style="font-weight: 400;"> are critical for improving productivity and attracting buy-in, but SecOps success can be difficult to track, as reports can require a significant amount of work to pull together.</span></p>
+<p><span style="font-weight: 400;">The caveat of course is that it would be rare to find a SecOps team working without the above challenges. As such, what are some of the immediate steps you can take to push back against these stifling constraints? As you can probably induce, it comes down to processes and technology, powered by people, to remedy the issues. </span></p>
+<p><a href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-deloitte-google-cloud-alliance-future-of-the-SOC-whitepaper.pdf" target="_blank" rel="noopener"><span style="font-weight: 400;">According to a recent paper co-authored by Google Cloud and Deloitte: </span></a></p>
+<p><span class="editor-formats editor-formats--media-box">Humans are—and will be—needed to both perform final triage on the most obtuse security signals (similar to conventional SOC Level 3+) and to conduct a form of threat hunting (i.e. looking for what didn’t trigger that alert).</span></p>
+<p><span class="editor-formats editor-formats--media-box">Machines will be needed to deliver better data to humans, both in a more organized form (stories made of alerts) and in improved quality detections using rules and algorithms— all while covering more emerging IT environments.</span></p>
+<p><span class="editor-formats editor-formats--media-box">Both humans and machines will need to work together on mixed manual and automated workflows, such as those enabled by SOAR tools today.</span></p>
+<p>So, what does this ultimately mean you must do to improve your security operations? Here are five practical suggestions:</p>
+<h3>Detect Threats More Efficiently</h3>
+<p><span style="font-weight: 400;">Efficiencies within the SOC can also be realized from a SIEM solution that </span><a href="https://chroniclesec.medium.com/security-analyst-diaries-2-detect-alert-respond-context-is-key-everywhere-in-security-operations-1f7b9be0f7c3"><span style="font-weight: 400;">automatically detects threats in real-time and at scale</span></a><span style="font-weight: 400;">. The right platform will support massive data ingestion and storage, relieve traditional cost and scaling limitations, and broaden the lens for anomaly and machine learning/AI-based detection. With data stored and analyzed in one place, security teams can investigate and detect threats more effectively.</span></p>
+<h3>Respond to Threats Automatically</h3>
+<p><span style="font-weight: 400;">Security orchestration, automation and response can be a game-changer in terms of caseload reduction and faster (and smarter, especially </span><a href="https://www.siemplify.co/resources/top-use-cases-for-integrating-threat-intelligence-with-soar/"><span style="font-weight: 400;">when integrated with threat intelligence</span></a><span style="font-weight: 400;">) response times. But before rushing headfirst into automation, you should consider your processes, review outcomes you are trying to achieve (such as reduced MTTD) – and then decide exactly what you want to automate (</span><a href="https://www.youtube.com/watch?v=uFpsO4jnV_Q"><span style="font-weight: 400;">which can be a lot with SOAR</span></a><span style="font-weight: 400;">).  Once clear processes are determined where automation can contribute, humans are freed up to be more creative in the </span></p>
+<h3>Prioritize Logs</h3>
+<p><span style="font-weight: 400;">Many teams lack a strategy for collecting, analyzing and prioritizing logs, despite the fact that these sources of insight often hold the clues of an ongoing attack. To help, we have prepared two </span><a href="https://www.siemplify.co/blog/your-security-operations-cheat-sheet-for-windows-and-linux-logs-and-how-to-tie-them-to-the-mitre-attck-framework/"><span style="font-weight: 400;">cheat</span></a> <a href="https://www.siemplify.co/blog/part-2-your-security-operations-cheat-sheet-for-cloud-logs-and-how-to-tie-them-to-the-mitre-attck-framework/"><span style="font-weight: 400;">sheets</span></a><span style="font-weight: 400;"> featuring essential logs to monitor.</span></p>
+<h3>Outsource What You Can’t Do Yourself</h3>
+<p><span style="font-weight: 400;">Process improvements may help you compensate for perceived personnel shortages (for example, perhaps fixing a misconfigured monitoring tool will reduce alert noise). Of course, most organizations need additional human hands to help them perform tasks like round-the-clock monitoring and more specialized functions like threat hunting. Here is where a </span><a href="https://www.siemplify.co/resources/the-5-biggest-security-operations-trends-shaping-todays-mssp/"><span style="font-weight: 400;">managed security services provider</span></a><span style="font-weight: 400;"> or managed detection provider can be helpful. Be realistic about your budget, however, as you may be able to introduce something in-house. </span></p>
+<h3><span style="font-weight: 400;">Institute Career Models</span></h3>
+<p><span style="font-weight: 400;">Lack of management support was cited as the fourth-biggest obstacle to a full SOC model, according to a recent SANS Security Operations Center Survey. To overcome this, leaders must work to improve workflow processes, <a href="https://www2.deloitte.com/content/dam/Deloitte/us/Documents/about-deloitte/us-google-cloud-soc-whitepaper.pdf" target="_blank" rel="noopener">protect innovation</a>, keep teams working on inspiring tasks, be flexible with employees and endorse training and career development. </span><span style="font-weight: 400;">Because at the end of the day, the SOC is still distinctly human.</span></p>
+<p><em>Dan Kaplan is a content marketer at Google Cloud Security.</em></p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/how-the-human-still-plays-the-biggest-role-in-security-operations/">Why People Still Dominate Modern Security Operations (And How Detection and Response Technology Can Help)</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/how-the-human-still-plays-the-biggest-role-in-security-operations/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Part 2: Your Security Operations Cheat Sheet for Cloud Logs (And How to Tie Them to the MITRE ATT&amp;CK Framework)</title>
+      <link>https://www.siemplify.co/blog/part-2-your-security-operations-cheat-sheet-for-cloud-logs-and-how-to-tie-them-to-the-mitre-attck-framework/</link>
+      <comments>https://www.siemplify.co/blog/part-2-your-security-operations-cheat-sheet-for-cloud-logs-and-how-to-tie-them-to-the-mitre-attck-framework/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Thu, 17 Mar 2022 19:30:50 +0000</pubDate>
+      <category><![CDATA[SOC Best Practices]]></category>
+      <category><![CDATA[Cloud]]></category>
+      <category><![CDATA[Logs]]></category>
+      <category><![CDATA[MITRE]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=16842</guid>
+      <description><![CDATA[<p>Cloud adoption is growing at astonishing rates, and more than 90 percent of organizations are now operating a multi-cloud strategy....</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/part-2-your-security-operations-cheat-sheet-for-cloud-logs-and-how-to-tie-them-to-the-mitre-attck-framework/">Part 2: Your Security Operations Cheat Sheet for Cloud Logs (And How to Tie Them to the MITRE ATT&#038;CK Framework)</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><span style="font-weight: 400;">Cloud adoption </span><a href="https://www.cybersecuritydive.com/news/cybersecurity-risk-cloud-adoption/619200/" target="_blank" rel="noopener"><span style="font-weight: 400;">is growing</span></a><span style="font-weight: 400;"> at astonishing rates, and more than 90 percent of organizations are now operating a multi-cloud strategy. While data protection concerns are obviously not restraining cloud adoption, seven out of ten businesses remain concerned about covering all of their security blind spots.</span></p>
+<p style="text-align: center;"><span class="editor-formats editor-formats--cta-link"><a href="https://www.siemplify.co/resources/debunking-cloud-security-myths-webinar/" target="_blank" rel="noopener">Watch On Demand: Debunking Cloud Security Myths Webinar</a></span></p>
+<p><span style="font-weight: 400;">Anton Chuvakin, a Google Cloud security solutions strategist, recently </span><a href="https://medium.com/anton-on-security/a-soc-tried-to-detect-threats-in-the-cloud-your-wont-believe-what-happened-next-4a2ba0ab5d81" target="_blank" rel="noopener"><span style="font-weight: 400;">shared a helpful list</span></a><span style="font-weight: 400;"> of challenges facing security teams when it comes to thriving in the cloud, specifically around detection and personnel issues. Here are a few impediments he identified:</span></p>
+<blockquote class="editor-formats editor-formats--text-box">
+<ul>
+<li><span style="font-weight: 400;">Alien </span><a href="https://medium.com/anton-on-security/role-of-context-in-threat-detection-f7076e71f206" target="_blank" rel="noopener"><span style="font-weight: 400;">detection context</span></a><span style="font-weight: 400;"> — instances, containers, microservices, etc — has confused many teams born and raised on server names and IP addresses for context. This topic is big enough to be explored in a dedicated post </span><a href="https://medium.com/anton-on-security" target="_blank" rel="noopener"><span style="font-weight: 400;">later</span></a><span style="font-weight: 400;">.</span></li>
+<li><span style="font-weight: 400;">Lack of clarity on cloud detection use cases is there despite useful resources like </span><a href="https://attack.mitre.org/matrices/enterprise/cloud/" target="_blank" rel="noopener"><span style="font-weight: 400;">ATT&amp;CK Cloud</span></a><span style="font-weight: 400;">. Sadly, cloud providers haven’t necessarily simplified this journey for customers either, and many traditional SOC teams are not sure what to detect in the environments that their business is using today (“is this container access bad?”).</span></li>
+<li><span style="font-weight: 400;">Also, there is a lot of cloud; this means governance sprawl causes visibility gaps for the SOC. Examples include shadow IT (“BYOCloud” and SaaS purchased by departments) as well as other cloud sprawl (that is why people are reaching for all those novel </span><a href="https://censys.io/" target="_blank" rel="noopener"><span style="font-weight: 400;">attack surface management tools</span></a><span style="font-weight: 400;">; this should help).</span></li>
+<li><span style="font-weight: 400;">SOC teams lacking cloud skill in general; complex public/hybrid/multi- cloud scenarios require more extensive knowledge of various technologies, their security implications, diverse (and alien) data sources, while SOC teams are too busy doing D&amp;R to grow their cloud skills.</span></li>
+<li><span style="font-weight: 400;">Lack of input from SOCs into cloud decisions, ranging from provider choices to IT architecture (and even security architecture). Frankly, many SOC teams are too busy and too focused on threats and don’t have a dedicated headcount focused on preparing their organization for the </span><span style="font-weight: 400;">cloud change</span><span style="font-weight: 400;">.</span></li>
+</ul>
+</blockquote>
+<p><span style="font-weight: 400;">And where there are detection tools in place, there are alerts – sometimes too many of them, which can range from </span><a href="https://www.siemplify.co/press/half-of-security-pros-ignore-some-important-alerts/"><span style="font-weight: 400;">important events being missed</span></a><span style="font-weight: 400;"> to </span><a href="https://cisomag.eccouncil.org/security-alerts-emotionally-overwhelm-soc/"><span style="font-weight: 400;">major “emotional </span></a><span style="font-weight: 400;">consequences, including </span><a href="https://www.siemplify.co/burnout/"><span style="font-weight: 400;">burnout</span></a><span style="font-weight: 400;">. With SOC teams already overwhelmed by alerts, cloud environments are only intensifying this burden.</span></p>
+<p style="text-align: center;"><span class="editor-formats editor-formats--cta-link"><a href="https://www.siemplify.co/resources/socstock-session-2021-the-cloud-native-soc/" target="_blank" rel="noopener">SOCstock 2021: The Cloud-Native SOC [Watch On Demand]</a></span></p>
+<p><span style="font-weight: 400;">One way to help control alert overload is by managing the log data produced by point systems, devices and applications living across the enterprise environment. But </span><a href="https://medium.com/anton-on-security/a-soc-tried-to-detect-threats-in-the-cloud-your-wont-believe-what-happened-next-4a2ba0ab5d81" target="_blank" rel="noopener"><span style="font-weight: 400;">as Chuvakin reminds us</span></a><span style="font-weight: 400;">, collecting logs and making sure the right ones make it to the SIEM is no guarantee in the cloud world. According to him, this is because of:</span></p>
+<blockquote class="editor-formats editor-formats--text-box">
+<ul>
+<li><span style="font-weight: 400;">Uncommon log collection methods (compared to on-premise systems). Cloud providers haven’t necessarily simplified this journey for customers, even though, </span><a href="https://blogs.gartner.com/anton-chuvakin/2012/01/09/cloud-security-monitoring/" target="_blank" rel="noopener"><span style="font-weight: 400;">compared to 2012</span></a><span style="font-weight: 400;">, decent logs actually exist today in many cases.</span></li>
+<li><span style="font-weight: 400;">Telemetry data volumes may be high; this has sometimes led to “log fragmentation” where cloud logs never make it to a SIEM, but are left to rot in some storage buckets in the cloud.</span></li>
+<li><span style="font-weight: 400;">For those organizations trying to stick to old on-premise tools many other challenges abound; tools don’t support many cloud telemetry sources — they lack collection machinery, parsing/analysis, use cases, useful visuals, etc. Also, log support is often not done at “cloud speed.”</span></li>
+<li><span style="font-weight: 400;">Egress costs are there sometimes, especially if you want to move the logs from one cloud to another for analysis.</span></li>
+</ul>
+</blockquote>
+<p><span style="font-weight: 400;">Identifying and assessing the most relevant log sources from which to draw data and prioritize alerts (which, by the way, can be </span><a href="https://www.siemplify.co/blog/what-is-siem-what-is-soar-how-do-they-compare-do-you-need-both/" target="_blank" rel="noopener"><span style="font-weight: 400;">automatically assigned</span></a><span style="font-weight: 400;"> for investigation and response through playbooks within a SOAR platform) are among a security analyst’s biggest challenges. We recently shared with you </span><a href="https://www.siemplify.co/blog/your-security-operations-cheat-sheet-for-windows-and-linux-logs-and-how-to-tie-them-to-the-mitre-attck-framework/" target="_blank" rel="noopener"><span style="font-weight: 400;">a popular “cheat sheet,&#8221;</span></a><span style="font-weight: 400;"> compiled by Google Cloud Technical Solutions Engineer Ivan Ninichuck, of high-priority Windows and Linux logs – and mapped them to key tactics and techniques of the </span><a href="https://www.siemplify.co/mitre-attack-framework/" target="_blank" rel="noopener"><span style="font-weight: 400;">MITRE ATT&amp;CK framework</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">In part two, we have included the top security logs to monitor by cloud platform: </span><a href="https://cloud.google.com/" target="_blank" rel="noopener"><span style="font-weight: 400;">Google Cloud</span></a><span style="font-weight: 400;">, Amazon Web Services and Microsoft Azure. Next to each log file is a link to the MITRE ATT&amp;CK subtechniques, which describe how adversaries accomplish their goals. In this context, these listed subtechniques help to supply SOC teams with practical mitigation and detection steps for cloud-related threats.</span></p>
+<p><span style="font-weight: 400;">Cloud security can be tricky, and </span><a href="https://cloudsecurityalliance.org/artifacts/cloud-threat-modeling/" target="_blank" rel="noopener"><span style="font-weight: 400;">threat modeling for cloud,</span></a><span style="font-weight: 400;"> although industry-wide efforts are underway to help define it, is still in its nascency. Of course, you must continue practicing essentials like authentication and network access monitoring, as you would in an exclusively on-premises environment. But now you also must consider new vectors specific to the cloud, such as account management, instance images and serverless services like Lambda functions. </span></p>
+<p><span style="font-weight: 400;">The below list, while not exhaustive or definitive, is a fine starter sampling of critical cloud logs to monitor. Leveraging it will help to ensure you are devoting know-how to detecting potential malicious activity across this new paradigm. Enjoy!</span></p>
+<blockquote class="editor-formats editor-formats--text-box">
+<p style="text-align: center;"><strong>Google Cloud Platform Logs</strong></p>
+</blockquote>
+<div>
+<style>
+table {border: 1px solid #ccc;border-collapse: collapse;margin: 0;padding: 0;width: 100%;table-layout: fixed;}<br />table tr {border: 1px solid #ddd;padding: .35em;}<br />table tr, td{color: #474747;font-family: "Barlow",sans-serif;font-size: 19px;letter-spacing: .01em;line-height: 30px;}<br />table th, td {padding: .625em;text-align: center;}</style>
+<table>
+<thead>
+<tr>
+<th scope="col"><b>Location</b></th>
+<th scope="col"><b>Description</b></th>
+<th scope="col"><b> ATT&amp;CK (Sub)Technique</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Location"><b>Admin activity audit logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Admin activity audit logs contain log entries for API calls or other actions that modify the configuration or metadata of resources. For example, these logs record when users create VM instances or change identity and access management permissions.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1525/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1525: Implant Internal Image</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Data access audit logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Data access audit logs contain API calls that read the configuration or metadata of resources, as well as user-driven API calls that create, modify, or read user-provided resource data.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1562/007/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1562.007: Imapair Defenses-Disable or Modify Cloud Firewall</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>System Event Audit Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">System event audit logs contain log entries for Google Cloud actions that modify the configuration of resources. System event audit logs are generated by Google systems; they aren’t driven by direct user action.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1078/001/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1078.001: Valid Accounts – Default Accounts</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Policy-denied Audit Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Policy-denied audit logs are recorded when a Google Cloud service denies access to a user or service account because of a security policy violation. The security policies are determined by VPC service controls, which provides the policy-denied audit logs to cloud logging.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1053/003/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1190: Exploit Public Facing Application</span></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<blockquote class="editor-formats editor-formats--text-box">
+<p style="text-align: center;"><strong>Amazon Web Services Logs</strong></p>
+</blockquote>
+<table>
+<tbody>
+<tr>
+<td data-label="Location"><b>Amazon CloudWatch Events</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Amazon CloudWatch events deliver a near real-time stream of system events that describe changes in AWS resources, or when API calls are published by AWS CloudTrail. Real-time stream makes it possible to create detection rules that fire based on chosen events.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1525/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1525: Implant Internal Image</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>AWS Config</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources. Config continuously monitors and records your AWS resource configurations and enables you to automate the evaluation of recorded configurations against desired configurations. With Config, you can review changes in configurations and relationships between AWS resources, manually or automatically.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1562/007/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1562.007: Impair Defenses-Disable or Modify Cloud Firewall</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Amazon S3 Access Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">If you store sensitive information in an Amazon S3 bucket, you can enable S3 access logs to record every upload, download, and modification to that data.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1530/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1530: Data from Cloud Storage Object</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Amazon CloudWatch Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">You can use Amazon CloudWatch Logs to monitor, store, and access your log files (such as your operating system, application, and custom log files) from your Amazon Elastic Compute Cloud (Amazon EC2) instances using the CloudWatch Logs agent. Additionally, Amazon CloudWatch logs can capture logs from AWS CloudTrail, Amazon Route 53 DNS Queries, VPC Flow Logs, Lambda functions, and other sources. You can then retrieve the associated log data from CloudWatch logs.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1562/008/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1562.008: Disable Cloud Logging</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Amazon VPC Flow Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">VPC flow logs enable you to capture information about the IP traffic going to and from network interfaces in your VPC. After you’ve created a flow log, you can view and retrieve its data in Amazon CloudWatch logs. VPC flow logs can help you with a number of tasks. You can also use flow logs as a security tool to monitor the traffic to your instance.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1046/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1046: Network Service Scanning</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>AWS WAF Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">AWS WAF now supports full logging of all web requests that are inspected by the service.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1190/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1190: Exploit Public Facing Application</span></a></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<blockquote class="editor-formats editor-formats--text-box">
+<p style="text-align: center;"><strong>Microsoft Azure Logs</strong></p>
+</blockquote>
+<table>
+<tbody>
+<tr>
+<td data-label="Location"><b>Azure Active Directory Reporting</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Reports user sign-in activities and system activity information about users and group management.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1078/004/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1078.004: Valid Accounts-Cloud</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Activity Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Provides insight into the operations that were performed on resources in your subscription.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1525/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1525: Implant Internal Image</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Azure Resource Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Provides insight into operations that your resource itself performed.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1562/007/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1562.007: Imapair Defenses-Disable or Modify Cloud Firewall</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Azure Storage Analytics</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Provides insight into trace requests, analyzes usage trends, and diagnoses issues with your storage account.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1530/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1530: Data from Cloud Storage Object</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Process Data / Security Alerts</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Provides security information and alerts.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1562/008/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1562.008: Disable Cloud Logging</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Network Security Group (NSG) Flow Logs</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Displays information about ingress and egress IP traffic through a network security group.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1046/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1046: Network Service Scanning</span></a></td>
+</tr>
+<tr>
+<td scope="row" data-label="Location"><b>Virtual Machines and Cloud Services</b></td>
+<td data-label="Description"><span style="font-weight: 400;">Captures system data and logging data on the virtual machines and transfers that data into a storage account of your choice.</span></td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique"><a href="https://attack.mitre.org/techniques/T1190/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1190: Exploit Public Facing Application</span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/part-2-your-security-operations-cheat-sheet-for-cloud-logs-and-how-to-tie-them-to-the-mitre-attck-framework/">Part 2: Your Security Operations Cheat Sheet for Cloud Logs (And How to Tie Them to the MITRE ATT&#038;CK Framework)</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/part-2-your-security-operations-cheat-sheet-for-cloud-logs-and-how-to-tie-them-to-the-mitre-attck-framework/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Google Cloud Security Talks Set to Tackle Improving Your Threat Detection and Response </title>
+      <link>https://www.siemplify.co/blog/google-cloud-security-talks-set-to-tackle-improving-your-threat-detection-and-response/</link>
+      <comments>https://www.siemplify.co/blog/google-cloud-security-talks-set-to-tackle-improving-your-threat-detection-and-response/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Thu, 24 Feb 2022 21:41:42 +0000</pubDate>
+      <category><![CDATA[Product Updates & Tips]]></category>
+      <category><![CDATA[Detection]]></category>
+      <category><![CDATA[Google Security Talks]]></category>
+      <category><![CDATA[Response]]></category>
+      <category><![CDATA[Security Operations]]></category>
+      <category><![CDATA[SOAR]]></category>
+      <category><![CDATA[Threat Hunting]]></category>
+      <category><![CDATA[Threat Intelligence]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=16790</guid>
+      <description><![CDATA[<p>As if your detection and response efforts needed any more reminding, the tenuous state of geopolitics has left many security...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/google-cloud-security-talks-set-to-tackle-improving-your-threat-detection-and-response/">Google Cloud Security Talks Set to Tackle Improving Your Threat Detection and Response </a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><span style="font-weight: 400;">As if your detection and response efforts needed any more reminding, the tenuous state of geopolitics has left many security operations teams anxiously </span><a href="https://www.cnn.com/2022/02/24/tech/russia-ukraine-us-sanctions-cyberattacks/index.html" target="_blank" rel="noopener"><span style="font-weight: 400;">anticipating</span></a><span style="font-weight: 400;"> an uptick in attacks targeting Western interests. </span></p>
+<p><span style="font-weight: 400;">And, by the way, that everyday stuff, including vulnerabilities, banking Trojans (</span><a href="https://www.pr.com/press-release/855675" target="_blank" rel="noopener"><span style="font-weight: 400;">hello, Emotet</span></a><span style="font-weight: 400;">!) and phishing attacks, are still running rampant.</span></p>
+<p><span style="font-weight: 400;">Thus the first 2022 installment of the quarterly <a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?utm_source=siemplify&amp;utm_medium=blog&amp;utm_campaign=FY22-Q1-northam-NTHM32-onlineevent-er-nfpm_security_talks_march_22_registration&amp;utm_content=blog&amp;utm_term=-" target="_blank" rel="noopener">Google Security Talks, happening March 9, </a>could not be arriving at a better time to help you discover ways to bulk up your organization&#8217;s last lines of defense, especially critical as SOC teams are more decentralized and organizations more exposed to  cloud services than ever.</span></p>
+<p><span style="font-weight: 400;">For the first time, <a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?utm_source=siemplify&amp;utm_medium=blog&amp;utm_campaign=FY22-Q1-northam-NTHM32-onlineevent-er-nfpm_security_talks_march_22_registration&amp;utm_content=blog&amp;utm_term=-" target="_blank" rel="noopener">Google Security Talks</a> (Siemplify is a part of Google now, </span><a href="https://www.siemplify.co/blog/siemplify-is-joining-forces-with-google/" target="_blank" rel="noopener"><span style="font-weight: 400;">if you missed the news</span></a><span style="font-weight: 400;">) will be entirely focused on detection and response – through the modernization of your security operations – and is geared specifically for security analysts and engineers and SOC managers.</span></p>
+<p><span class="editor-formats editor-formats--cta-link"><a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?utm_source=siemplify&amp;utm_medium=blog&amp;utm_campaign=FY22-Q1-northam-NTHM32-onlineevent-er-nfpm_security_talks_march_22_registration&amp;utm_content=blog&amp;utm_term=-" target="_blank" rel="noopener"><span style="font-weight: 400;">Register Now for Google Cloud Security Talks on Security Operations </span></a></span></p>
+<p><span style="font-weight: 400;">The roughly three-hour virtual program kicks off with <a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?talk=emea-talk-1" target="_blank" rel="noopener">a keynote from Siemplify Co-Founder &amp; CEO Amos Stern and Google Cloud Product Management Director Jess Leroy</a>, who will lay out a practical blueprint for designing a modern threat detection and response program, one which </span><span style="font-weight: 400;">takes advantage of the speed, automation and scale of the cloud.</span></p>
+<p><span style="font-weight: 400;">Following their talk, <a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?talk=emea-talk-2" target="_blank" rel="noopener">drill down into the wonders of security orchestration, automation and response (SOAR) technology</a> from Siemplify, with a primer from Nimmy Reichenberg. Later, hear from Google experts on an array of topics, from <a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?talk=emea-talk-3" target="_blank" rel="noopener">what&#8217;s new in Chronicle</a> to trends in cloud workload protection and network-based threat detection. The researchers at VirusTotal will also be on hand, <a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?talk=emea-talk-6" target="_blank" rel="noopener">drawing on their latest cybercrime findings to present a talk on threat hunting and intelligence</a>.</span></p>
+<p><span style="font-weight: 400;">The event&#8217;s penultimate session promises to be a thought-provoking one: a “fireside chat,”</span><a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?talk=emea-talk-7" target="_blank" rel="noopener"><span style="font-weight: 400;"> featuring real-life SOC practitioners and influencers, including Robert Herjavec</span></a>. The show conclude<span style="font-weight: 400;">s with a tidy wrap-up of all that you learned about Google Cloud SecOps offerings and how to take the next step in your modernization journey.</span></p>
+<p>Not a bad investment for three hours.</p>
+<p><span style="font-weight: 400;">We look forward to sharing our latest security insights and solutions with you. </span><a href="https://cloudonair.withgoogle.com/events/security-talks-march-2022?utm_source=siemplify&amp;utm_medium=blog&amp;utm_campaign=FY22-Q1-northam-NTHM32-onlineevent-er-nfpm_security_talks_march_22_registration&amp;utm_content=blog&amp;utm_term=-" target="_blank" rel="noopener"><span style="font-weight: 400;">Sign up now to reserve your virtual seat</span></a><span style="font-weight: 400;">. Google Security Talks is 100% digital and free to attend. All sessions will be available on demand after they air.</span></p>
+<p>See you there!</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/google-cloud-security-talks-set-to-tackle-improving-your-threat-detection-and-response/">Google Cloud Security Talks Set to Tackle Improving Your Threat Detection and Response </a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/google-cloud-security-talks-set-to-tackle-improving-your-threat-detection-and-response/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>How to Map SOC Analyst Skills With Experience Level</title>
+      <link>https://www.siemplify.co/blog/how-to-map-soc-analyst-skills-with-experience-level/</link>
+      <comments>https://www.siemplify.co/blog/how-to-map-soc-analyst-skills-with-experience-level/#respond</comments>
+      <dc:creator><![CDATA[Chris Crowley]]></dc:creator>
+      <pubDate>Tue, 11 Jan 2022 20:24:58 +0000</pubDate>
+      <category><![CDATA[MSSP]]></category>
+      <category><![CDATA[Security Orchestration and Automation]]></category>
+      <category><![CDATA[SOC Best Practices]]></category>
+      <category><![CDATA[Uncategorized]]></category>
+      <category><![CDATA[Security Operations]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=15918</guid>
+      <description><![CDATA[<p>[Chris Crowley is a cybersecurity instructor and industry analyst. This is Part 3 of his series of easy-to-use “best practice”...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/how-to-map-soc-analyst-skills-with-experience-level/">How to Map SOC Analyst Skills With Experience Level</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>[Chris Crowley is a cybersecurity instructor and industry analyst. This is Part 3 of his series of easy-to-use “best practice” documents – a veritable Swiss Army Knife of security operations assets on topics ranging from email writing to shift handoffs to training –  created to help SOC professionals save time on common housekeeping tasks. You can read <a href="https://www.siemplify.co/blog/how-to-write-crisp-and-clear-security-operations-communications-before-you-hit-send-template-infographic/" target="_blank" rel="noopener">Part 1</a> and <a href="https://www.siemplify.co/blog/shifts-happen-how-to-rock-the-soc-handoff-process-with-the-seat-swap-method/" target="_blank" rel="noopener">Part 2</a> here.]</em></p>
+<p><span style="font-weight: 400;">Security operations centers (SOCs) </span><a href="https://www.siemplify.co/resources/the-blueprint-of-modern-security-operations/" target="_blank" rel="noopener"><span style="font-weight: 400;">exist to deliver</span></a><span style="font-weight: 400;"> sustained monitoring and response capabilities. </span><span style="font-weight: 400;">S</span><span style="font-weight: 400;">taff members are a core pillar of this mission.</span></p>
+<p><span style="font-weight: 400;">Each SOC should have clearly articulated </span><a href="https://www.siemplify.co/blog/understanding-the-soc-team-roles-and-responsibilities/" target="_blank" rel="noopener"><span style="font-weight: 400;">roles and levels</span></a><span style="font-weight: 400;"> for its personnel. This helps to  establish fair practices for hiring, training, promotion, compensation and performance expectations.</span></p>
+<p style="text-align: center;"><span class="editor-formats editor-formats--cta-link"><a href="https://www.siemplify.co/resources/the-blueprint-of-modern-security-operations/" target="_blank" rel="noopener">E-Book Download: The Blueprint of Modern Security Operations</a></span></p>
+<p><span style="font-weight: 400;">In many SOCs, the level (or tier) of a staff member is also articulated by their area of responsibility: for example, SOC monitoring analyst, incident responder, forensic analyst, penetration tester and vulnerability management evangelist.</span></p>
+<p><span style="font-weight: 400;">Typically, however, areas of responsibility are combined, presuming the SOC is staffed by many general-purpose analysts. In such a setup, most SOC personnel share duties, with individuals taking on tasks as the primary performer according to a skill matrix. This is a common practice in SOCs because of the budget reality: The average size of a SOC is </span><a href="https://www.sans.org/white-papers/sans-2021-survey-security-operations-center-soc/" target="_blank" rel="noopener"><span style="font-weight: 400;">about 10 people</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">There are several ways to separate staff levels within a SOC, including  junior, moderate and senior.</span></p>
+<p><span style="font-weight: 400;">Let’s start by characterizing these three levels before defining the competencies of each. The competencies are intended to be applicable to both generalists and specialists within their varying domains of expertise. </span></p>
+<p><span style="font-weight: 400;">(By the way, if you are seeking a per-role task, knowledge and skill matrix depiction, the </span><a href="https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/workforce-framework-cybersecurity-nice" target="_blank" rel="noopener"><span style="font-weight: 400;">NICE framework, </span></a><span style="font-weight: 400;">produced by the U.S. Department of Commerce’s National Institute of Standards and Technology (NIST), is an exceedingly thorough reference.)</span></p>
+<h2><span style="font-weight: 400;">Staff Levels</span></h2>
+<h3><span style="font-weight: 400;">Junior Staff</span></h3>
+<p><span style="font-weight: 400;">Junior staff ranges from having no experience to only a small amount of cybersecurity experience. Previous experience in the domain of information technology (IT) is useful, but cybersecurity experience is specific.</span></p>
+<h3><span style="font-weight: 400;">Moderate Staff</span></h3>
+<p><span style="font-weight: 400;">Moderate staff has experience in varying domains of cybersecurity knowledge and may have some expertise in one domain, but wouldn’t be considered a subject-matter expert in any given area.</span></p>
+<h3><span style="font-weight: 400;">Senior Staff</span></h3>
+<p><span style="font-weight: 400;">Senior staff are subject-matter experts. Because cybersecurity staff are often generalists for much of their careers, it is not uncommon for someone with expertise in one domain of cybersecurity to have extensive, perhaps expert-level knowledge, in other domains as well.</span></p>
+<h2><span style="font-weight: 400;">Staff Competencies</span></h2>
+<p><span style="font-weight: 400;">This section defines competencies for each level. It does not intend to assign the competencies based on job role. Specific job roles in your organization will place a greater or lesser emphasis on each competency. </span></p>
+<h3><span style="font-weight: 400;">1) Junior</span></h3>
+<p><span style="font-weight: 400;">For junior staff, the focus is, fundamentally, on understanding how computers talk to one another. This includes a massive volume of information including, but not limited, to </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">DNS</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">IP</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">TCP/UDP</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">HTTP(s)</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">TLS</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Network connection protocols such as SMB, SSH, RPC over TCP, LDAP and Kerberos</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Associated resource access as is common in “cloud” deployments like </span><a href="https://cloud.google.com/" target="_blank" rel="noopener"><span style="font-weight: 400;">Google Cloud Platform (GCP)</span></a><span style="font-weight: 400;">, AWS and Azure. </span></li>
+</ul>
+<p><span style="font-weight: 400;">Knowledge of common successful adversary techniques and tactics (</span><a href="https://attack.mitre.org/" target="_blank" rel="noopener"><span style="font-weight: 400;">MITRE ATT&amp;CK</span></a><span style="font-weight: 400;"> is a good list) for command-and-control (C2) attacks (service side, client side, phishing, web app attacks, etc.) is another area that the junior staff focus on comprehending and using.</span></p>
+<p><span style="font-weight: 400;">Tactical task performances (aka ingestion of threat intelligence) include: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Basic host-based acquisition.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Pre-forensic collection across all types of assets.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Secure configuration specification and baseline development.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Hunting for outliers in the data associated with these tasks.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Use of standard SOC technology in prescribed ways according to standard procedures and playbooks. Technology includes, but is not limited to, VPN, EDR, firewall, NIDPS, </span><a href="https://chronicle.security/" target="_blank" rel="noopener"><span style="font-weight: 400;">SIEM</span></a><span style="font-weight: 400;"> and </span><a href="https://www.siemplify.co/soar-platform-overview/" target="_blank" rel="noopener"><span style="font-weight: 400;">SOAR</span></a><span style="font-weight: 400;">.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Report </span><a href="https://www.siemplify.co/blog/how-to-write-crisp-and-clear-security-operations-communications-before-you-hit-send-template-infographic/" target="_blank" rel="noopener"><span style="font-weight: 400;">writing fundamentals</span></a><span style="font-weight: 400;"> are also necessary to clearly articulate the activities taken by staff and the important information derived from these actions.</span></p>
+<h3><span style="font-weight: 400;">2) Moderate</span></h3>
+<p><span style="font-weight: 400;">Each step-up in level indicates a tiered growth upon previous competencies. Few people will have a firm grasp of all of the competencies from the junior level, but the expectation is that basic familiarity and comprehension exists across all of the identified items (with the understanding that refamiliarization may be needed and that most will have comprehensive experience in some of the areas).</span></p>
+<p><span style="font-weight: 400;">Staff members in the moderate level continue to work with </span><a href="https://www.siemplify.co/blog/security-orchestration-and-threat-intelligence/" target="_blank" rel="noopener"><span style="font-weight: 400;">threat intelligence</span></a><span style="font-weight: 400;"> (TI), whereby relevant data for specific inquiries is selected. TI work at this level includes extraction of elements of information from incidents handled.</span></p>
+<p><span style="font-weight: 400;">Meanwhile, continued task development at this level includes host-based memory collection and analysis of memory; basic reverse engineering of software, including assembly-level instructions across all standard processors; and architecture and security specifications for assets of all types, such as:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Apple MacOS/iOS </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Cisco IOS</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Cloud: Google Private Cloud/Amazon Web Services/Microsoft Azure</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Linux/Unix/Android</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Microsoft Windows</span></li>
+</ul>
+<p><span style="font-weight: 400;">Technology use (such as the above-mentioned tools) includes deploying playbooks (sometimes referred to as runbooks), plus the ability to leverage tools in new ways when circumstances dictate. In the interest of capturing the application of this sort of tool use, </span><a href="https://www.siemplify.co/blog/security-orchestration-automation-response-benefits/" target="_blank" rel="noopener"><span style="font-weight: 400;">development of SOAR modules</span></a><span style="font-weight: 400;"> and/or capture of playbooks is appropriate. New tools included are more sophisticated cyber-specific technologies like web application firewalls. Testing of emerging technologies (e.g. AI, deception, cloud asset monitoring) is performed to see what should be added to the technology portfolio.</span></p>
+<p><span style="font-weight: 400;">In addition at this level, organization-focused </span><a href="https://www.recordedfuture.com/open-source-intelligence-definition/" target="_blank" rel="noopener"><span style="font-weight: 400;">OSINT</span></a><span style="font-weight: 400;"> (open-source intelligence) research is understood and may be conducted. </span></p>
+<p><span style="font-weight: 400;">Report writing focus continues and may include critical review of reports either publicly available or written by other analysts on the team.</span></p>
+<h3><span style="font-weight: 400;">3) Senior  </span></h3>
+<p><span style="font-weight: 400;">The senior stage sees further accretion of duties, built upon the expected competencies of the junior and moderate levels.</span></p>
+<p><span style="font-weight: 400;">At the senior stage, staff members develop and deploy advanced assessment creation: for example, a novel C2 development of an advanced adversary capability, involving perhaps  a unique take on DNS tunneling or tunneling ICMP4 with embedded data over IPv6 to confuse detection capabilities.</span></p>
+<p><span style="font-weight: 400;">Analysts at this level also will be familiar with advanced memory, host and forensic analysis capabilities, which are required to collect the assets necessary to perform this analysis at scale. </span></p>
+<p><span style="font-weight: 400;">In addition to the use of technologies previously mentioned, senior-level staff develop standard procedures, such as a coherent flow of operations that enables less experienced staff to perform optimally with the tools available. </span></p>
+<p><span style="font-weight: 400;">Staff at this level also anticipate future technology trends and needs, facilitating the inclusion of new tools in ways that provide seamless integration into deployed systems, as well as offering support to less experienced staff with smooth </span><a href="https://www.siemplify.co/blog/5-ways-a-soar-solution-improves-soc-analyst-onboarding/" target="_blank" rel="noopener"><span style="font-weight: 400;">on-ramps of training and documentation.</span></a></p>
+<p><span style="font-weight: 400;">Proficiency in </span><a href="https://www.siemplify.co/blog/3-ways-automation-and-orchestration-can-help-you-stem-the-insider-threat/" target="_blank" rel="noopener"><span style="font-weight: 400;">insider threat</span></a><span style="font-weight: 400;"> profiling of potential internal digital risks (which often take the form of external threat actors operating with stolen credentials) is also expected.</span></p>
+<p><span style="font-weight: 400;">At this level, acumen around threat intelligence advances so that it can be applied at large scale, </span><a href="https://www.siemplify.co/resources/top-use-cases-for-integrating-threat-intelligence-with-soar/" target="_blank" rel="noopener"><span style="font-weight: 400;">often via automation. </span></a><span style="font-weight: 400;">Senior-level staffers also lead hunt activities by choosing appropriate hunts based on current threat intelligence and organization-relevant OSINT.</span></p>
+<p><span style="font-weight: 400;">Report writing evolves into graphical depiction of complicated information and development of </span><a href="https://www.siemplify.co/resources/no-nonsense-guide-to-security-operations-metrics/" target="_blank" rel="noopener"><span style="font-weight: 400;">cybersecurity-related metrics</span></a><span style="font-weight: 400;">, which help SOCs forecast their need and optimize their use of resources like staff and technology.</span></p>
+<h2>Now What? Tips on Training</h2>
+<p><span style="font-weight: 400;">If you don’t have staff roles and levels identified and assigned yet, get that done first. Next, take the suggestions in this post and customize them to your organizational needs. </span></p>
+<p><span style="font-weight: 400;">After that: find, develop and purchase training that fulfills the needs of your staff. Don’t neglect the option of using the training time to develop training for others on the team. </span></p>
+<p><span style="font-weight: 400;">Lay out the metrics for training. This should likely include completion of the training, credit for developing new training, and some incentives to go above and beyond. Certifications should also be part of your portfolio, as they compel people to study and </span><span style="font-weight: 400;">verify knowledge</span> <span style="font-weight: 400;">acquisition</span><span style="font-weight: 400;">. </span></p>
+<p><span style="font-weight: 400;">Build a program that provides a clear pathway for everyone and leaves some latitude for individual preference in learning style and topics of interest. Some people prefer videos, others like written content, some need to sit in a classroom to be able to pay attention. </span></p>
+<p><span style="font-weight: 400;">Each person has personal goals and aspirations. Align the individual train plan with them by leaving some time for self-selected topics!</span></p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/how-to-map-soc-analyst-skills-with-experience-level/">How to Map SOC Analyst Skills With Experience Level</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/how-to-map-soc-analyst-skills-with-experience-level/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Siemplify is Joining Forces with Google Cloud</title>
+      <link>https://www.siemplify.co/blog/siemplify-is-joining-forces-with-google/</link>
+      <comments>https://www.siemplify.co/blog/siemplify-is-joining-forces-with-google/#respond</comments>
+      <dc:creator><![CDATA[Amos Stern]]></dc:creator>
+      <pubDate>Tue, 04 Jan 2022 13:57:13 +0000</pubDate>
+      <category><![CDATA[Company Updates]]></category>
+      <category><![CDATA[News]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=15837</guid>
+      <description><![CDATA[<p>Today, I am excited and proud to announce that Siemplify has been acquired by Google. This marks an important milestone...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/siemplify-is-joining-forces-with-google/">Siemplify is Joining Forces with Google Cloud</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>Today, I am excited and proud to announce that Siemplify has been acquired by Google.</p>
+<p>This marks an important milestone in the Siemplify journey. When co-founders Alon Cohen and Garry Fatakhov and I started Siemplify in 2015, we all knew, from our experience building and training security operations centers from around the world, that security operations was a function in dire need of innovation. Naturally, security orchestration, automation and response (SOAR) as a category did not yet exist, and as is often the case with startups, we had to keep innovating, working with customers and listening to the market in order to build a security operations platform that truly improves the way security teams respond to cyberthreats.</p>
+<p>Today, the Siemplify platform is trusted by many of the world&#8217;s leading security teams, from Fortune 500 companies to world-class MSSPs. The challenges we set out to solve are only becoming more profound, and organizations are facing an unprecedented volume of cybersecurity threats &#8211; all as the shortage of skilled personnel to address these threats remains at an all-time high. There is a need and opportunity to grow our business to meet these challenges.</p>
+<p>Enter Google Cloud.</p>
+<p>Beyond Google&#8217;s resources, expertise and overall commitment to cybersecurity (including a recent pledge <a href="https://blog.google/technology/safety-security/why-were-committing-10-billion-to-advance-cybersecurity/" target="_blank" rel="noopener">to invest $10 billion in cybersecurity</a> over the next five years), we have found a remarkable partner in Google Cloud. A partner that truly shares our mission, vision, values and culture. We could not be more excited to join forces with Google Cloud to drive innovation and help many more security teams take their operations to a whole new level.</p>
+<p>We want to thank our customers and partners for their ongoing business and trust in our team. With Google Cloud’s commitments to delivering an open ecosystem, minimizing vendor lock-in and leveraging best-in-breed solutions, as well as its support for multi-cloud environments, we truly believe that together we will deliver more innovation while staying true to our values.</p>
+<p>On a personal note, I want to thank everyone who contributed to Siemplify’s success – our customers, partners, investors, advisers and, above all, the amazing Siemplify team. I am extremely proud of our achievement, which is a direct result of all the hard work, soul and dedication that you have poured into Siemplify throughout the years.</p>
+<p>You can check out <a href="https://cloud.google.com/blog/products/identity-security/raising-the-bar-in-security-operations" target="_blank" rel="noopener">Google Cloud&#8217;s blog</a> for more details. Looking forward to conquering new heights together.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/siemplify-is-joining-forces-with-google/">Siemplify is Joining Forces with Google Cloud</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/siemplify-is-joining-forces-with-google/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Sitdown With a SOC Star: 11 Questions With MRK’s Managed Security Services Director Todd Pigram</title>
+      <link>https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-mrks-managed-security-services-director-todd-pigram/</link>
+      <comments>https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-mrks-managed-security-services-director-todd-pigram/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Thu, 23 Dec 2021 19:40:27 +0000</pubDate>
+      <category><![CDATA[MSSP]]></category>
+      <category><![CDATA[Sitdown With a SOC Star]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=15871</guid>
+      <description><![CDATA[<p>Our &#8220;holiday&#8221; edition of Sitdown gives you the gift of Todd Pigram, who began his IT career in the late 1990s...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-mrks-managed-security-services-director-todd-pigram/">Sitdown With a SOC Star: 11 Questions With MRK&#8217;s Managed Security Services Director Todd Pigram</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<style>.single-blog__header-left-featured img { height: 372px;top: 0px;} </style>
+<p>Our &#8220;holiday&#8221; edition of <em>Sitdown </em>gives you the gift of Todd Pigram, who began his IT career in the late 1990s as a laptop repairman. His lengthy tenure in the IT space has truly come full circle, as his role now involves helping to protect those popular endpoints, especially vulnerable in the era of heavy remote work. In addition to learning about his current position, Pigram unwraps his thoughts on the powers of Python, shares his dream encounter with an industry luminary, plus much more!</p>
+<h3><strong>1) Hi Todd! Thanks for (virtually) sitting down with us. Tell us about where you work, what you do there, and the role security operations plays there.</strong></h3>
+<p>I am the director of managed security services for MRK Technologies. I am responsible for the operations and products that we support within the SOC. Security operations play s a huge role in all our services, and our managed orchestration workflow allows us to be product-agnostic while supporting our clients.</p>
+<h3><strong>2) Describe your career path and what propelled you to want to work in security operations.</strong></h3>
+<p><span style="font-weight: 400;">I am going to date myself here, but I started back on the </span><a href="https://en.wikipedia.org/wiki/Commodore_64" target="_blank" rel="noopener"><span style="font-weight: 400;">Commodore 64</span></a><span style="font-weight: 400;"> in 1984. I continued with computers but only as a hobby until 1997, when I started in the IT field repairing monitors, printers and laptops. I switched to the software side of the house in 1999, doing Novell, Windows NT 3.51/4.0, Citrix WinFrame/MetaFrame and Active Directory when it came out. </span></p>
+<p><span style="font-weight: 400;">For many years I rode the enterprise Citrix wave, which includes many facets of security, remote access, SSL VPN, centralized management and application firewalls. Most of that time was in health care, delivering EMR via Citrix to comply with HIPAA and ensure that PHI stayed in the data center. In 2011, I moved to the VAR side and have been involved with MSP and MSSP since then.</span><span style="font-weight: 400;"> </span></p>
+<h3><strong>3) Managed security is experiencing a boon – as Anton Chuvakin says, every SOC is a hybrid SOC nowadays – but so are customer expectations of their providers. How is the MSSP-customer relationship evolving? </strong></h3>
+<p>MSSPs must evolve just like their clients. As clients move to a more hybrid cloud model, using SaaS services, MSSPs must adapt their methodology as well. The relationship should evolve to the point where the MSSP or SOC becomes an extension of the client’s team.</p>
+<h3><strong>4) What&#8217;s the most important hard skill(s) and soft skill(s) for an analyst or engineer to possess to move to the next level?</strong></h3>
+<p>In my opinion learning to program Python is the hard skill I would recommend. It can be used for red-team or blue-team purposes. As for a soft skill, it must be teamwork. As security professionals, we can sometimes get lost down rabbit holes while investigating potential issues. The ability to collaborate and build a cohesive team is extremely important in a SOC.</p>
+<h3><strong>5) Which common threat impacting organizations worries you the most/keeps you up at night? </strong></h3>
+<p>As with most everyone, the biggest concern is ransomware. I was formerly part of an incident response team, and the devastation from ransomware can be severe.</p>
+<h3><strong>6) What&#8217;s one piece of advice you&#8217;d give for someone considering a career in security operations?</strong></h3>
+<p>As someone who worked construction for 10 years prior to starting in IT, you need to be a hard worker and have the ability and desire to learn. While you will receive on-the-job training, there will be times when you must just put in the work and learn on your own time. It’s the difference between a job and a career.</p>
+<h3><strong>7) With the uptake in cloud computing, digital transformation and remote working, the traditional SOC as we’ve come to know it is changing. How do you think companies should model their security operations in the “anywhere era”? </strong></h3>
+<p>As most companies are now having to contend with greater remote work, the times of hardening the perimeter and keeping bad things out doesn’t really help on an end-user’s home network. Companies need to invest in an EDR/MDR product to help protect all their devices. All work-from-home employees should have an EPP/EDR solution installed on their devices.</p>
+<h3><strong>8) What&#8217;s one thing you wish was happening more in enterprise security that is still pretty rare to see these days?</strong></h3>
+<p>This may seem simple but basic patching of endpoints and servers would help alleviate some breaches. Zero-day exploits aside, patching security holes with fixes that vendors make available should be a priority. I would even extend this to router and switch firmware. It’s just good basic cyber hygiene.</p>
+<h3><strong>9) What&#8217;s your proudest professional accomplishment? </strong></h3>
+<p>One of my proudest moments was back in 2013 when I finally got to meet (former) Citrix <a href="https://en.wikipedia.org/wiki/Mark_B._Templeton" target="_blank" rel="noopener">CEO Mark Templeton</a> in person. As someone who built their career on Citrix technologies, I was honored and privileged to finally be able to meet him at the Citrix Synergy conference.</p>
+<h3><strong>10) When you&#8217;re not SOC&#8217;ing, what is your favorite thing to be doing and what do you like about it? </strong></h3>
+<p>When I am not working, I love spending time with my family and gaming together. I also sometimes use off hours to learn new skills.</p>
+<h3><strong>11) What value does security automation and orchestration (SOAR) technology bring to security operations? </strong></h3>
+<p>The best value a SOAR will bring a SOC is assistance with noise reduction. The ability for analysts to only work on real threats is invaluable. With the automation portion, you can close alerts automatically without analyst involvement. A SOAR can also make the SOC product agnostic as well.</p>
+<p><em>You can connect with Pigram on LinkedIn <a href="https://www.linkedin.com/in/toddpigram/" target="_blank" rel="noopener">here</a>.</em></p>
+<p><em style="font-weight: inherit;">Are you or someone you know a SOC star whose insights would be valuable to share in this space? We’re always looking for new candidates! Just <a href="mailto:dkaplan@siemplify.co" target="_blank" rel="noopener">email </a>Content Director Dan Kaplan.</em></p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-mrks-managed-security-services-director-todd-pigram/">Sitdown With a SOC Star: 11 Questions With MRK&#8217;s Managed Security Services Director Todd Pigram</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-mrks-managed-security-services-director-todd-pigram/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Log4Shell Vulnerability: What Security Operations Teams Need to Know Now and How SOAR Can Help You Detect and Respond</title>
+      <link>https://www.siemplify.co/blog/log4shell-vulnerability-what-security-operations-teams-need-to-know-now-and-how-soar-can-help-you-detect-and-respond/</link>
+      <comments>https://www.siemplify.co/blog/log4shell-vulnerability-what-security-operations-teams-need-to-know-now-and-how-soar-can-help-you-detect-and-respond/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Tue, 14 Dec 2021 20:31:41 +0000</pubDate>
+      <category><![CDATA[Industry Trends]]></category>
+      <category><![CDATA[MSSP]]></category>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Product Updates & Tips]]></category>
+      <category><![CDATA[Security Orchestration and Automation]]></category>
+      <category><![CDATA[SOC Best Practices]]></category>
+      <category><![CDATA[Apache]]></category>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Log4j]]></category>
+      <category><![CDATA[Log4Shell]]></category>
+      <category><![CDATA[Playbooks]]></category>
+      <category><![CDATA[SOAR]]></category>
+      <category><![CDATA[Threat Hunting]]></category>
+      <category><![CDATA[Vulnerabilities]]></category>
+      <category><![CDATA[Zero-Day]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=15854</guid>
+      <description><![CDATA[<p>For security professionals, 2021 will conclude with them racing to respond to one of the most grave internet vulnerabilities in...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/log4shell-vulnerability-what-security-operations-teams-need-to-know-now-and-how-soar-can-help-you-detect-and-respond/">Log4Shell Vulnerability: What Security Operations Teams Need to Know Now and How SOAR Can Help You Detect and Respond</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><span style="font-weight: 400;">For security professionals, 2021 will conclude with them racing to respond to one of the most grave internet vulnerabilities in recent memory. The </span><a href="https://nvd.nist.gov/vuln/detail/CVE-2021-44228" target="_blank" rel="noopener"><span style="font-weight: 400;">Log4Shell vulnerability</span></a><span style="font-weight: 400;">, an input-validation flaw in the omnipresent Apache logging library </span><a href="https://logging.apache.org/log4j/2.x/" target="_blank" rel="noopener"><span style="font-weight: 400;">Log4j </span></a><span style="font-weight: 400;">and </span><a href="https://www.ncsc.gov.uk/news/apache-log4j-vulnerability" target="_blank" rel="noopener"><span style="font-weight: 400;">disclosed</span></a><span style="font-weight: 400;"> by the open-source company on Thursday, exposes  </span><a href="https://www.wired.com/story/log4j-log4shell/" target="_blank" rel="noopener"><span style="font-weight: 400;">“the world&#8217;s most popular applications and services”</span></a><span style="font-weight: 400;"> to remote code execution.</span></p>
+<p><span style="font-weight: 400;">Despite an </span><a href="https://lists.apache.org/thread/d6v4r6nosxysyq9rvnr779336yf0woz4" target="_blank" rel="noopener"><span style="font-weight: 400;">update now available</span></a><span style="font-weight: 400;">, companies worldwide are already under </span><a href="https://arstechnica.com/information-technology/2021/12/hackers-launch-over-840000-attacks-through-log4j-flaw/?comments=1" target="_blank" rel="noopener"><span style="font-weight: 400;">mass bombardment </span></a><span style="font-weight: 400;">by attackers exploiting the vulnerability with everything from crypto-mining to ransomware to credential theft (including with variants that </span><a href="https://threatpost.com/apache-log4j-log4shell-mutations/176962/" target="_blank" rel="noopener"><span style="font-weight: 400;">may be able to evade</span></a><span style="font-weight: 400;"> newly introduced protections) . Administrators of thousands of government websites, for example, have </span><a href="https://www.techtimes.com/articles/269269/20211212/hacker-log4shell-malware-attack-hack-shut-down-government-websites-log4shell-malware-cyberattack.htm" target="_blank" rel="noopener"><span style="font-weight: 400;">chosen to pre-emptively shut them down</span></a><span style="font-weight: 400;"> rather than face an exploit, and the sheer number of systems impacted globally virtually guarantees that businesses and users will face torment from this bug for many years to come.</span></p>
+<p><a href="https://blog.checkpoint.com/2021/12/11/protecting-against-cve-2021-44228-apache-log4j2-versions-2-14-1/" target="_blank" rel="noopener"><span style="font-weight: 400;">According to Check Point Software Technologies:</span></a></p>
+<p><span class="editor-formats editor-formats--media-box" style="font-weight: 400;">The Log4j library is embedded in almost every Internet service or application we are familiar with, including Twitter, Amazon, Microsoft, Minecraft and more. At present most of the attacks focus on the use of a cryptocurrency mining at the expense of the victims, however under the auspices of the noise more advanced attackers may act aggressively against quality targets.</span></p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Reality check: the <a href="https://twitter.com/hashtag/log4shell?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener">#log4shell</a> vulnerability is a more serious risk to Internet security than EternalBlue was in 2017.</p>
+<p>— Jake Williams (@MalwareJake) <a href="https://twitter.com/MalwareJake/status/1470483339169738763?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">December 13, 2021</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><span style="font-weight: 400;">To help your security operations team detect and respond to this threat, the Siemplify team has prepared a FAQ:</span></p>
+<h2>What is Log4j?<b><br />
+</b></h2>
+<p><span style="font-weight: 400;">Log4j version 2 is a Java library that provides advanced logging capabilities for Java applications. It is an (open-source) Apache product and thus has been implemented in a majority of applications that utilize Java. The first version of Log4j was released Jan. 8, 2001.</span></p>
+<p><img class="alignnone size-medium wp-image-15855" src="https://www.siemplify.co/wp-content/uploads/2021/12/apachelog4j-300x115.png" alt="" width="300" height="115" srcset="https://www.siemplify.co/wp-content/uploads/2021/12/apachelog4j-300x115.png 300w, https://www.siemplify.co/wp-content/uploads/2021/12/apachelog4j.png 363w" sizes="(max-width: 300px) 100vw, 300px" /></p>
+<p><span style="font-weight: 400;">What impact can successful exploitation of the vulnerability cause?</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Allows remote-code execution on vulnerable systems.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Allows an LDAP ( Lightweight Directory Access Protocol) request to be called.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Can result in complete takeover of the targeted device.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">In milder cases, can result in data leakage.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Both internet-facing and internal-facing assets are at risk, and the vulnerability can be used to facilitate lateral movement.</span></li>
+</ul>
+<h2><span style="font-weight: 400;">What is the rough timeline of the event?</span></h2>
+<p><span style="font-weight: 400;"><strong>Dec. 1-2:</strong> Both </span><a href="https://blog.talosintelligence.com/2021/12/apache-log4j-rce-vulnerability.html?m=1&amp;s=03" target="_blank" rel="noopener"><span style="font-weight: 400;">Cisco and Cloudflare</span></a><span style="font-weight: 400;"> reported cases of the exploit in the wild, starting mostly with the Microsoft-owned Minecraft video game.</span></p>
+<p><span style="font-weight: 400;"><strong>Dec. 3-9:</strong> Researchers apparently </span><a href="https://twitter.com/TaliaRinger/status/1470015866918125581?s=20" target="_blank" rel="noopener"><span style="font-weight: 400;">privately share information</span></a><span style="font-weight: 400;"> about the vulnerability with Log4j developers before it is publicly known.</span></p>
+<p><span style="font-weight: 400;"><strong>Dec. 9-10:</strong> Apache discloses CVE-2021-44228, quickly followed by </span><a href="https://github.com/tangxiaofeng7/CVE-2021-44228-Apache-Log4j-Rce" target="_blank" rel="noopener"><span style="font-weight: 400;">proof-of-concept code being</span></a> <a href="https://atos.net/en/lp/securitydive/log4shell-unauthenticated-rce-0-day-exploit"><span style="font-weight: 400;">publicly published</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;"><strong>Dec. 10-11:</strong> Computer emergency teams worldwide </span><a href="https://www.govcert.ch/blog/zero-day-exploit-targeting-popular-java-library-log4j/?s=03" target="_blank" rel="noopener"><span style="font-weight: 400;">confirm</span></a><span style="font-weight: 400;"> that a proof-of-concept of Log4j 2 exploit was released on GitHub. Meanwhile, various </span><a href="https://www.cisa.gov/uscert/ncas/current-activity/2021/12/10/apache-releases-log4j-version-2150-address-critical-rce"><span style="font-weight: 400;">vendors rush</span></a><span style="font-weight: 400;"> to provide guidance and patches, while botnets such as Mirai begin to utilize the vulnerability. The Siemplify Security Operations Platform begins to assist in the automation of detection, hunting and remediation of the threat.</span></p>
+<p style="text-align: center;"><span class="editor-formats editor-formats--cta-link"><a href="http://siemplify.co/community" target="_blank" rel="noopener">Try SOAR for Free With the Siemplify Community Edition</a></span></p>
+<p><span style="font-weight: 400;"><strong>Dec. 10 and 13:</strong> Apache releases </span><a href="https://logging.apache.org/log4j/2.x/security.html" target="_blank" rel="noopener"><span style="font-weight: 400;">Log4j 2.15.0</span></a><span style="font-weight: 400;"> to patch the vulnerability, shortly thereafter releasing </span><a href="https://lists.apache.org/thread/d6v4r6nosxysyq9rvnr779336yf0woz4" target="_blank" rel="noopener"><span style="font-weight: 400;">2.16.0</span></a><span style="font-weight: 400;"> to amend one issue.</span></p>
+<p><span style="font-weight: 400;"><strong>Ongoing:</strong> A </span><a href="https://www.digitalshadows.com/blog-and-research/the-log4j-zero-day-what-we-know-so-far/?s=03" target="_blank" rel="noopener"><span style="font-weight: 400;">massive rise in scans </span></a><span style="font-weight: 400;">for the vulnerability means the associated risk is rising at an alarming rate.</span></p>
+<h2>Are playbooks available?</h2>
+<p><a href="https://blog.reconinfosec.com/recons-soar-playbook-to-detect-the-log4j-exploit/" target="_blank" rel="noopener"><span style="font-weight: 400;">Siemplify partner Recon Infosec has published a playbook leveraging the Siemplify SOAR platform. From the post, which contains the complete playbook:</span></a></p>
+<blockquote class="editor-formats editor-formats--text-box"><p><span style="font-weight: 400;">In this blog post, we describe how Recon’s SOC quickly built a playbook within our </span><a href="https://www.siemplify.co/" target="_blank" rel="noopener"><span style="font-weight: 400;">Siemplify SOAR platform</span></a><span style="font-weight: 400;"> that takes advantage of the intelligence GreyNoise is providing to continually hunt for Log4j attackers in our customers’ environments. This rapid and tactical precaution freed up our time to take care of everything else that this disaster requires.</span></p>
+<p><span style="font-weight: 400;">Our goal was simple: take advantage of the valuable intelligence GreyNoise was providing about the growing list of attackers found exploiting the Log4j vulnerability. We wanted to search our SIEM for any evidence of these IP addresses in our customers’ environments. However, it wouldn’t be enough to do this once: it had to happen continuously as GreyNoise updated their intelligence. We also wanted to continue searching for historical events, so just building alerts for future events from these IP addresses would also be insufficient&#8230;</span></p>
+<p>By automating what can and should be automated, our analysts are free to apply themselves toward the more important challenges this complex problem requires, like threat hunting, securing our customers&#8217; environments, and responding to incidents.</p></blockquote>
+<h3><img class="alignnone wp-image-15858 size-full aligncenter" src="https://www.siemplify.co/wp-content/uploads/2021/12/recon_playbook.png" alt="" width="2600" height="326" srcset="https://www.siemplify.co/wp-content/uploads/2021/12/recon_playbook.png 2600w, https://www.siemplify.co/wp-content/uploads/2021/12/recon_playbook-300x38.png 300w, https://www.siemplify.co/wp-content/uploads/2021/12/recon_playbook-1024x128.png 1024w, https://www.siemplify.co/wp-content/uploads/2021/12/recon_playbook-768x96.png 768w, https://www.siemplify.co/wp-content/uploads/2021/12/recon_playbook-1536x193.png 1536w, https://www.siemplify.co/wp-content/uploads/2021/12/recon_playbook-2048x257.png 2048w" sizes="(max-width: 2600px) 100vw, 2600px" /></h3>
+<h2><span style="font-weight: 400;">What are the biggest takeaways?</span></h2>
+<p><span style="font-weight: 400;">The largest challenge of dealing with the vulnerability is the sheer amount of attack surface. So many applications, Servers and other devices use Log4j that a full inventory will take most organizations quite a lot of resources to compile.</span></p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">If <a href="https://twitter.com/hashtag/log4j?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener">#log4j</a> has taught us anything, it’s that asset tracking is especially important for when shit hits the fan.<br />
+Can’t security well without asset tracking</p>
+<p>— Tom McCheese (@Wookiee__) <a href="https://twitter.com/Wookiee__/status/1470584333744357383?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">December 14, 2021</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><span style="font-weight: 400;">The most important patching targets will be internet-facing assets. Next an organization should think about how an adversary will move laterally in its environment. Remember, they could get in through, for instance, a traditional phishing attack and then exploit Log4j.</span></p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">This week the internet has learned—once again—that asset management is the center of security.</p>
+<p>It’s hard to patch what you can’t find.</p>
+<p>— ᴅᴀɴɪᴇʟ ᴍɪᴇssʟᴇʀ (@DanielMiessler) <a href="https://twitter.com/DanielMiessler/status/1469407696235286530?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">December 10, 2021</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><span style="font-weight: 400;">But it is not as simple as “just patch.&#8221; Most organizations face both organizational hurdles and monetary barriers to fix all possibly affected systems, especially during the holiday season.</span></p>
+<p><span style="font-weight: 400;"><a href="https://www.siemplify.co/blog/soc-automation-101-how-to-use-soar-to-overcome-time-consuming-tasks-and-address-alerts-video/" target="_blank" rel="noopener">Automation</a> will play a huge role in dealing with the crisis. The above-mentioned Recon playbook enables organizations to review logs for both past, present and future exploitation with little to no analyst intervention.</span></p>
+<h2>What other intelligence exists to aid SOC teams?</h2>
+<p>In true collective fashion, the security community is uniting to share intelligence about the threat, including efforts such as this:</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">Following in the footsteps of many others, I&#8217;ve decided to collect intel on log4shell and share it. I&#8217;ve deployed a few honeypots with ModSecurity yesterday and the data is streaming into an <a href="https://twitter.com/elastic?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">@elastic</a> cluster. <a href="https://t.co/pbsSRPLzgA" target="_blank" rel="noopener">https://t.co/pbsSRPLzgA</a></p>
+<p>— James (@jamesspi) <a href="https://twitter.com/jamesspi/status/1470771002019917836?ref_src=twsrc%5Etfw" target="_blank" rel="noopener">December 14, 2021</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>In addition, you can map the threat to the MITRE ATT&amp;CK framework:</p>
+<table>
+<tbody>
+<tr>
+<td><a href="https://attack.mitre.org/techniques/T1595/002/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1595.002: Active Scanning: Vulnerability</span></a></td>
+<td><span style="font-weight: 400;">Adversaries may scan victims for vulnerabilities that can be used during targeting. </span></td>
+</tr>
+<tr>
+<td><a href="https://attack.mitre.org/techniques/T1588/006/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1588.006: Obtain Capabilities: Vulnerabilities </span></a></td>
+<td><span style="font-weight: 400;">Adversaries may use POC of given vulnerabilities instead of developing in-house tools</span></td>
+</tr>
+<tr>
+<td><a href="https://attack.mitre.org/techniques/T1190/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1190: Exploit Public-Facing Application</span></a></td>
+<td><span style="font-weight: 400;">Adversaries may use a known exploit on applications with public internet traffic.</span></td>
+</tr>
+<tr>
+<td><a href="https://attack.mitre.org/techniques/T1203/" target="_blank" rel="noopener"><span style="font-weight: 400;">T1203: Exploitation for Client Execution </span></a></td>
+<td><span style="font-weight: 400;">Exploit of code vulnerabilities leading to command execution on a remote system.</span></td>
+</tr>
+</tbody>
+</table>
+<h2><b><br />
+</b>What should Siemplify customers know?</h2>
+<p><span style="font-weight: 400;">Siemplify’s stack technology is not based on Java, and our core product is </span><b>not</b><span style="font-weight: 400;"> affected by this vulnerability. There are, however, a few third-party components, such as Tableau, that we work with that might be impacted. We are conducting a complete investigation and will share more details as we progress.</span></p>
+<p><span style="font-weight: 400;">(This blog post will be updated as more information becomes available.)</span></p>
+<p><strong>UPDATE DEC. 20, 2021: <span style="font-weight: 400;">Many organizations are still reporting to be <a href="https://gizmodo.com/log4j-vulnerabilities-are-piling-up-as-companies-scramb-1848245370" target="_blank" rel="noopener">in the process of</a> completely identifying which assets are vulnerable to the original exploit. Vendors, in particular, are having trouble both patching their own environments and providing automated patch solutions for customers. Despite the problems caused by these events, it is essential that security teams keep and a watchful eye on more common attack vectors that many adversaries will surely be hoping evade the noise of the crisis and upcoming holidays.</span></strong></p>
+<p><strong>UPDATE DEC. 21, 2021:</strong> A third vulnerability, which allows for denial-of-service, has been discovered. Log4j <a href="https://nvd.nist.gov/vuln/detail/CVE-2021-45105?s=09" target="_blank" rel="noopener">must now be updated</a> to the newest version 2.17.</p>
+<p><i><span style="font-weight: 400;">Dan Kaplan is director of content at Siemplify. Solutions Engineer Ivan Ninichuck and Product Marketing Director Kristen Cooper contributed to this post.</span></i></p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/log4shell-vulnerability-what-security-operations-teams-need-to-know-now-and-how-soar-can-help-you-detect-and-respond/">Log4Shell Vulnerability: What Security Operations Teams Need to Know Now and How SOAR Can Help You Detect and Respond</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/log4shell-vulnerability-what-security-operations-teams-need-to-know-now-and-how-soar-can-help-you-detect-and-respond/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Your Security Operations Cheat Sheet for Windows and Linux Logs (And How to Tie Them to the MITRE ATT&amp;CK Framework)</title>
+      <link>https://www.siemplify.co/blog/your-security-operations-cheat-sheet-for-windows-and-linux-logs-and-how-to-tie-them-to-the-mitre-attck-framework/</link>
+      <comments>https://www.siemplify.co/blog/your-security-operations-cheat-sheet-for-windows-and-linux-logs-and-how-to-tie-them-to-the-mitre-attck-framework/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Wed, 08 Dec 2021 19:53:25 +0000</pubDate>
+      <category><![CDATA[MSSP]]></category>
+      <category><![CDATA[SOC Best Practices]]></category>
+      <category><![CDATA[Alerts]]></category>
+      <category><![CDATA[Events]]></category>
+      <category><![CDATA[Linux]]></category>
+      <category><![CDATA[Logs]]></category>
+      <category><![CDATA[Windows]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=15831</guid>
+      <description><![CDATA[<p>Within the security operations center, visibility is everything. Being aware of the details of users, assets, known threats, and specific...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/your-security-operations-cheat-sheet-for-windows-and-linux-logs-and-how-to-tie-them-to-the-mitre-attck-framework/">Your Security Operations Cheat Sheet for Windows and Linux Logs (And How to Tie Them to the MITRE ATT&#038;CK Framework)</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<link rel="stylesheet" type="text/css" href="https://pages.siemplify.co/rs/182-SXA-457/images/table blog.css">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Within the security operations center, <a href="https://www.siemplify.co/blog/how-to-reduce-noise-and-fix-alert-fatigue-in-security-operations-with-examples/" target="_blank" rel="noopener">visibility is everything</a>. Being aware of the details of users, assets, known threats, and specific vulnerabilities present across security, network, server, application and database sources allows security operations teams to act quickly and decisively to address possible risks.</span></p>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Here is where Linux and Windows event logs come in, providing that essential observability into the goings-on across your organization’s network and digital footprint. But it is not always easy for teams to know where they should be looking. That’s because your logs are likely capturing huge volumes of data. Knowing which events are indicative of something major and worthy of further investigation, like a security breach, isn’t always self-evident.</span></p>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">That is why Siemplify Solutions Engineer Ivan Ninichuck compiled the below cheat sheet of go-to Windows and Linux logs – and mapped them to key tactics and techniques of the </span><a href="https://www.siemplify.co/mitre-attack-framework/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">MITRE ATT&amp;CK framework</span></a><span style="font-weight: 400; font-family: "Barlow",sans-serif;">. This will allow your security operations team to know which log files are critical for activities such as monitoring, auditing, analysis, threat hunting, and overall security program improvement.</span></p>
+<div style=" position: relative;    width: 100%;    height: 0;    padding-bottom: 56.25%;">
+<iframe title="YouTube video player" src="//www.youtube.com/embed/FDCMrcddDiY" 
+frameborder="0" allowfullscreen style="  position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;"></iframe>
+</div>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Keep this list handy, especially if your SOC’s maturity level needs a little boost!</span></p>
+<blockquote class="editor-formats editor-formats--text-box">
+<p style="text-align: center;"><strong>LINUX LOGS</strong></p>
+</blockquote>
+<div>
+<table>
+<thead>
+<tr>
+<th scope="col">
+<p><b><span style="font-family: "Barlow",sans-serif;">Location</span></b></p>
+</th>
+<th scope="col">
+<p><b><span style="font-family: "Barlow",sans-serif;">Description</span></b></p>
+</th>
+<th scope="col">
+<p><b><span style="font-family: "Barlow",sans-serif;">MITRE ATT&amp;CK (Sub)Technique</span></b></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">/var/log/messages(debian /var/log/syslog)</span></b></p>
+</td>
+<td data-label="Description">
+<p><p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Stores all global system activity data, including startup messages</span></p>
+</p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1133/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1133: External Remote Services</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">/var/log/secure(debian /var/log/auth.log)</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Security-related events such as user logins, root user activity and PAM output</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1078/001/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1078.001: Default Locations</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">/var/log/kern.log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Contains errors, events and warning logs</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1543/002/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1543: Systemd Service</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">/var/log/cron</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Scheduled tasks (optimal for identifying persistence)</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1053/003/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1053.003: Cron</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">/var/log/faillog</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Failed logon attempts</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1110/001/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1110.001: Brute Force Password Guessing</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">/var/log/wtmp</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Contains all login and logout events</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1078/001/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1078.001: Default Locations</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">/var/log/audit/audit</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">System logs designed to record security events for incident investigation</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1543/002/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1543: Systemd Service</span></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<blockquote class="editor-formats editor-formats--text-box">
+<p style="text-align: center;"><strong>WINDOWS LOGS</strong></p>
+</blockquote>
+<table>
+<tbody>
+<tr>
+<td data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">C:\WINDOWS\system32\config\</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">This location is the storage point for the Windows event logs. These logs cover everything from system logs to security logs to application and service logs. For the purpose of this cheat sheet, we will break them down into categories in the following rows.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Windows event logs can be used to investigate any MITRE ATT&amp;CK technique applicable to the Windows OS.</span></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">Application Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Any event logged by an application.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1610/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1610: Deploy Container</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">System Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Any event that the operating system logs based on both normal and abnormal operations.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1543/003/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1543.003: Create or Modify System Process-Windows Service</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">PowerShell Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">A special set of event logs in the &#8216;Application and Services&#8217; section record all activity undertaken using the PowerShell scripting language</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1059/001/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1059.001: PowerShell Scripting</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">Sysmon Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">A special set of logs can be added in the &#8216;Application and Services&#8217; by installing the Sysinternal tool Sysmon. It provides alerting based on key security events beyond that offered by the security log.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1574/002/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1574.002: DLL-Sideloading</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">Security Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">All security events are logged in this category. Examples include valid/invalid logins, file deletions, registry changes and several others.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1037/001/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1037.001: Boot or Logon Initialization Script</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">Directory Service Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">If the Windows OS is a domain controller, then Active Directory logs are located in this category.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1556/001/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1556.001: Domain Controller Authentication</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">DNS Server Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">If the Windows OS is acting as a DNS server then all logs for that Service are kept under this section.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1071/004/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1071.004: Exfiltration over Application Layer Protocol: DNS</span></a></p>
+</td>
+</tr>
+<tr>
+<td scope="row" data-label="Location">
+<p><b><span style="font-family: "Barlow",sans-serif;">File Replication Service Log</span></b></p>
+</td>
+<td data-label="Description">
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">If the Windows OS is acting as a domain controller then all replication logs are kept under this section.</span></p>
+</td>
+<td data-label="MITRE ATT&amp;CK (Sub)Technique">
+<p><a href="https://attack.mitre.org/techniques/T1556/001/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">T1556.001: Domain Controller Authentication</span></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Certain tools can help you collect, centralize and interpret the log data. SIEMs, for example, help to “connect the dots” about potential incidents by correlating events from these different sources, generating alerts for analysts about potentially malicious activity happening within the network. </span></p>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">It is that last step – generating alerts for analysts – that creates the need for something more. Given the manual-intensive, time-consuming and repetitive nature of alerts, several ramifications can result, including analysts being overwhelmed by their sheer volume. This can result in poor outcomes, like missing something important or </span><a href="http://siemplify.co/burnout" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">even burning out</span></a><span style="font-weight: 400; font-family: "Barlow",sans-serif;">.</span></p>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">For maximum effectiveness, you can connect your SIEM systems (or other detection tools like EDR, NDR, anti-phishing, DLP and CASBs) to a security orchestration, automation and response (SOAR) platform, which will address the alerts.</span></p>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;"><a href="https://www.siemplify.co/resources/what-is-soar-security-orchestration-automation/" target="_blank" rel="noopener">SOAR</a> helps to streamline the management of security issues through automated </span><a href="https://www.siemplify.co/resources/siemplify-playbooks/" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">playbooks</span></a><span style="font-weight: 400; font-family: "Barlow",sans-serif;">, manage disparate detection tools through a single interface and coordinate responses to security incidents.</span></p>
+<p><a href="https://www.siemplify.co/community/" target="_blank" rel="noopener"><span class="editor-formats editor-formats--cta-link">Siemplify Community Edition: Get Started With a Free Version of SOAR</span></a></p>
+<p><span style="font-weight: 400; font-family: "Barlow",sans-serif;">For our next post, we will look at some of the key cloud-related security logs (for example, </span><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Amazon Web Services (AWS) CloudWatch logs</span></a><span style="font-weight: 400; font-family: "Barlow",sans-serif;"> and </span><a href="https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html" target="_blank" rel="noopener"><span style="font-weight: 400; font-family: "Barlow",sans-serif;">Amazon Virtual Private Cloud Flow logs</span></a><span style="font-weight: 400; font-family: "Barlow",sans-serif;">), that you must monitor.</span></p>
+<p><em>Dan Kaplan is director of content at Siemplify.</em></p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/your-security-operations-cheat-sheet-for-windows-and-linux-logs-and-how-to-tie-them-to-the-mitre-attck-framework/">Your Security Operations Cheat Sheet for Windows and Linux Logs (And How to Tie Them to the MITRE ATT&#038;CK Framework)</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/your-security-operations-cheat-sheet-for-windows-and-linux-logs-and-how-to-tie-them-to-the-mitre-attck-framework/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>Sitdown With a SOC Star: 11 Questions With Sentara Healthcare’s John DePalma</title>
+      <link>https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-sentara-healthcares-john-depalma/</link>
+      <comments>https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-sentara-healthcares-john-depalma/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Thu, 02 Dec 2021 21:48:21 +0000</pubDate>
+      <category><![CDATA[Security Orchestration and Automation]]></category>
+      <category><![CDATA[Sitdown With a SOC Star]]></category>
+      <category><![CDATA[SOC Best Practices]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=15816</guid>
+      <description><![CDATA[<p>John DePalma, winner of the 2021 Security Engineer of the Year Award at the inaugural SOCstock Awards, joined the hot...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-sentara-healthcares-john-depalma/">Sitdown With a SOC Star: 11 Questions With Sentara Healthcare&#8217;s John DePalma</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<style>.single-blog__header-left-featured img { height: 372px;top: 0px;} </style>
+<p>John DePalma, winner of the 2021 Security Engineer of the Year Award at the inaugural <a href="https://www.socstock2021.com/" target="_blank" rel="noopener">SOCstock Awards</a>, joined the hot seat for another edition of &#8220;Sitdown With a SOC Star.&#8221; DePalma, a security engineer at Sentara Healthcare, describes himself as an &#8220;IT security enthusias,t&#8221; and after reading this interview, you&#8217;ll realize his fondness for protecting things transcends his professional career.</p>
+<p>Like others who have appeared in this space, DePalma&#8217;s career trajectory to his current role was anything but &#8220;ordinary,&#8221; but, in short, he swapped car engines for computer servers. We&#8217;ll explain more in a bit.</p>
+<p>DePalma is passionate about everything from using SOAR technology as a vehicle (no pun intended) to keep analysts from burning out to helping aspiring cybersecurity professionals – or anyone who is looking for security advice. In fact, if you frequent the r/cyberscurity subreddit, you may have already virtually run into him.</p>
+<p>Enjoy the conversation with DePalma!</p>
+<h3><b>1) Hi John! Thanks for (virtually) sitting down with us. Tell us about where you work, what you do there, and the role security operations plays there.</b></h3>
+<p><span style="font-weight: 400;">I am a cybersecurity engineer at <a href="https://www.sentara.com/" target="_blank" rel="noopener">Sentara Healthcare</a> in Virginia. My duties include, but are not limited to, the following:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">IAM provisioning.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Assisting in DFIR engagements.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Evaluating and setting up new security technologies.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">SIEM administration.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"><a href="https://www.siemplify.co/blog/selecting-the-best-soar-solution-series-whats-in-a-name-part-1/" target="_blank" rel="noopener">SOAR</a> administration.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Creating automations to ease workloads.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">PKI administration.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Cloud and on-premises controls auditing and configuring.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Penetration testing, designing pen tests and working with hired testers.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Assisting in troubleshooting never-before-seen applications.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Anything else with the word security or a concern for the confidentiality, integrity or availability of company assets. Every day is something new!</span></li>
+</ul>
+<h3><b>2) According to your LinkedIn profile, you have taken more of an interest in DevSecOps. Why is the concept of DevSecOps gaining traction within organizations, and what can they do to get it right?</b></h3>
+<p><span style="font-weight: 400;">If you consider the average day-to-day operations of an IT or IT security admin ,you might note that most of the tasks are reactionary. </span></p>
+<p><img class="wp-image-15819 alignleft" src="https://www.siemplify.co/wp-content/uploads/2021/12/lab-300x182.png" alt="" width="391" height="237" srcset="https://www.siemplify.co/wp-content/uploads/2021/12/lab-300x182.png 300w, https://www.siemplify.co/wp-content/uploads/2021/12/lab-1024x620.png 1024w, https://www.siemplify.co/wp-content/uploads/2021/12/lab-768x465.png 768w, https://www.siemplify.co/wp-content/uploads/2021/12/lab.png 1402w" sizes="(max-width: 391px) 100vw, 391px" /></p>
+<p><span style="font-weight: 400;">Some server has multiple high-severity vulnerabilities, the containers are running as root, the vendor for an application asked for the service account to be global admin, you need to safe list 20 URLs and 10 IP addresses, and all of that has to be cleaned up. Or, something worked but after an update or application of a security control or best practice, that something is broken now. With something like <a href="https://www.siemplify.co/blog/3-things-every-soc-team-needs-to-know-about-devsecops-in-a-cloud-native-world/" target="_blank" rel="noopener">DevSecOps</a>, the idea of security is considered from the start instead of the typical after-thought.</span></p>
+<h3><b>3) What&#8217;s the most important hard skill(s) and soft skill(s) for an analyst or engineer to possess to move to the next level?</b></h3>
+<p><span style="font-weight: 400;">Problem solving as the soft skill. I know it sounds so generic, but the ability to logically reason and troubleshoot a problem – one never before encountered – is by far the most important aspect of this field. What good is the ability to quote <a href="https://en.wikipedia.org/wiki/NIST_Special_Publication_800-53" target="_blank" rel="noopener">NIST 800-53</a> if you can’t apply the controls to your environment? Or, figure out why they fail (or succeed)? Every day, all day, SOC analysts are required to solve new problems that have no procedure or workflow, so they need to be able to address the problem dynamically and move on to the next. </span><span style="font-weight: 400;">An additional soft skill I would list is threat actor methodologies. Certainly helps with investigations if you know how attacks are carried out.</span></p>
+<p><span style="font-weight: 400;">Hard skills? Anything IT and IT security. SOC personnel need to have a wide breadth of skillsets with different technologies so they can readily respond to any event. If I had to name a few: identity and access management (Microsoft ADUC), firewalls, intrusion prevention systems, anti-virus, endpoint detection and response tools, cloud network security groups, SIEMs, Linux and Windows logs, vulnerability management tools and forensics software.</span></p>
+<h3><b>4) What&#8217;s one piece of advice you&#8217;d give for someone considering a career in security operations?</b></h3>
+<p><span style="font-weight: 400;">Start a home lab! Begin with some  virtual machines (VMs), a Windows VM and a Kali Linux VM, and attack the Windows machine. (There are many tutorials out there for this.) Then, start investigating the attack and determine solutions to mitigate impact and stop the attack from recurring. Continue to try out different techniques while learning both <a href="https://purplesec.us/red-team-vs-blue-team-cyber-security/" target="_blank" rel="noopener">blue team and red team</a> techniques. Not only will this prepare you for the role, but talking about your home lab during an interview will demonstrate your skills and enthusiasm. (Editor&#8217;s note: We agree!)</span></p>
+<h3><b>5) When you&#8217;re not SOC&#8217;ing, what is your favorite thing to be doing and what do you like about it?</b></h3>
+<p><span style="font-weight: 400;">When not professionally SOC’ing, I am usually working on my home lab, which is basically a miniature corporation of desktops, servers, domain controllers, firewalls and the whole security stack. I like to switch out different tools and then (launch &#8220;attacks&#8221; against my &#8220;corporation&#8221;) to see how the tools respond and how I can tweak them. </span></p>
+<p><span style="font-weight: 400;">I control servers at locations in North Carolina and Virginia. These servers are equipped with the tools your typical threat actor might use. I use these servers and the tools on them to conduct attacks against my fake company.</span></p>
+<div class="editor-formats editor-formats--quote">
+<p><span style="font-weight: 400;">I control servers at locations in North Carolina and Virginia. These servers are equipped with the tools your typical threat actor might use. I use these servers and the tools on them to conduct attacks against my fake company.</span></p>
+</div>
+<p><span style="font-weight: 400;">Occasionally I’ll round up some students from the local university and have them see what incident response in a SOC is like.</span></p>
+<h3><b>6) Which industry luminary would you most want to have dinner with and why?</b></h3>
+<p><span style="font-weight: 400;"><a href="https://en.wikipedia.org/wiki/Mikko_Hypp%C3%B6nen" target="_blank" rel="noopener">Mikko Hypponen</a> (longtime chief research officer at security firm F-Secure). Mikko and his whole team! They’ve done terrific work in the field and work to interrupt bad actors.</span></p>
+<h3><b>7) You spent more than a decade as an automotive mechanic before switching to the cybersecurity field. How did this unusual career path come to be (although thinking more about it, it seems like many of the skills might be transferable)?</b></h3>
+<p><span style="font-weight: 400;">I started out as an automotive mechanic because I was good with solving problems with cars (namely my own that broke down weekly) and because I needed a job. At the same time I had a lot of interest in computers and technology – I was the neighborhood IT guy after all – and spent most of my free time tinkering with computers or code.</span></p>
+<p><img class="size-medium wp-image-15817 alignleft" src="https://www.siemplify.co/wp-content/uploads/2021/12/IMAG0152-170x300.jpg" alt="" width="170" height="300" srcset="https://www.siemplify.co/wp-content/uploads/2021/12/IMAG0152-170x300.jpg 170w, https://www.siemplify.co/wp-content/uploads/2021/12/IMAG0152-580x1024.jpg 580w, https://www.siemplify.co/wp-content/uploads/2021/12/IMAG0152-768x1355.jpg 768w, https://www.siemplify.co/wp-content/uploads/2021/12/IMAG0152-870x1536.jpg 870w, https://www.siemplify.co/wp-content/uploads/2021/12/IMAG0152.jpg 1088w" sizes="(max-width: 170px) 100vw, 170px" /></p>
+<p><span style="font-weight: 400;">A mechanic’s job is hard on the body. Take a look at the “old-timers” in the field and you’ll see the scars. After nearly 15 years on the job I really wanted to get away from abusing my body and wanted to apply my computer skills instead. So, I went to the nearby university, tackled the first “computery” degree option they had, which was computer science (I didn’t notice the IT degrees for some reason), joined the university’s Cybersecurity Club and eventually got invited to participate in an internship for a hospital as a cybersecurity analyst. </span></p>
+<div class="editor-formats editor-formats--quote">
+<p><span style="font-weight: 400;">A mechanic’s job is hard on the body. Take a look at the &#8216;old-timers&#8217; in the field and you’ll see the scars. After nearly 15 years on the job I really wanted to get away from abusing my body and wanted to apply my computer skills instead.</span></p>
+</div>
+<p><span style="font-weight: 400;">I found I really enjoyed cybersecurity, and the problem solving skills I gained over the years working on cars and my home labs really paid off. Over five years later, I still enjoy solving the interesting problems network security offers.</span></p>
+<h3><b>8) What value does security automation and orchestration (SOAR) technology bring to security operations?</b></h3>
+<p><span style="font-weight: 400;">Immense! There’s too much noise, too much signal for the human being to make sense of everything. SOAR helps enrich events, and at the bare minimum, save the analyst time on the enrichment, and, on the maximum, can determine if an event is really worth looking at. How many SOC analysts out there <a href="http://siemplify.co/burnout" target="_blank" rel="noopener">get burned out</a> after tirelessly tracking down hundreds of failed (login attempts)? </span></p>
+<p><span class="editor-formats editor-formats--cta-link"><a href="https://www.siemplify.co/burnout/" target="_blank" rel="noopener">Security Operations Burnout: A Guide for SOC Professionals</a></span></p>
+<p><span style="font-weight: 400;">With SOAR we can automate the base tasks of the Tier 1 analyst and free them up to do more meaningful work. SOAR can’t and won’t replace the human, but it can enable the human to be more effective.</span></p>
+<h3><b>9) We’ve read that you run a quasi-MSSP out of your home for friends and family to help them stay protected. We’re intrigued. Were you tired of all the help desk texts and emails?</b></h3>
+<p><span style="font-weight: 400;">Ha, no! If anything this little project created that work. After all the time spent with my home lab and several SIEM-like technologies, I figured I could onboard real data and provide meaningful services to real people. Depending on comfort level, I might be managing a firewall, anti-virus and web-filter on the entire network of a household with all logs (Sysmon ftw!) shipped to my SIEM. Occasionally there’s an alert, but usually most of the time is spent managing the tools (PKI for the web-proxy is so annoying nowadays) so ensure the network doesn’t feel a negative impact of protection. It’s been a great learning resource too!</span></p>
+<h3><b>10) What&#8217;s the No. 1 thing security operations teams can do to improve their maturity?</b></h3>
+<p><span style="font-weight: 400;">SOCs have a difficult job. There’s no projects to mark complete, no satisfying conclusion to an endeavor. They don’t get to set up a new tool and celebrate that the world is safer now. No, they have to react to the tool. Every day is a fire drill, but they have 100 fires to choose from. SOCs need tight organization. Tickets come in from every angle – SIEM, anti-virus, help desk, threat hunting, vulnerability reports – which necessitates the need for prioritization and something like a case manager to possibly perform the initial triage, determine priority, assign to a caseworker and follow up with other cases. Sounds tiring, right? Perhaps SOAR can assist here.</span></p>
+<h3><b>11) You mentioned you spend a lot of time talking to students about the cybersecurity industry. Why is this something you are passionate about and what methods do you use to reach them?</b></h3>
+<p><span style="font-weight: 400;">My answer might rub some people the wrong way, but I am also passionate about my answer: I believe most of today’s education platforms are failing our students when it comes to cybersecurity. The majority of these programs are in their infancy and barely provide the students with the needed skillsets to succeed. The IT security field doesn’t need bodies in chairs, it needs skilled people. Ask nearly any student working towards a cybersecurity degree, and they’ll most likely remark on how easy the classes are. But they don’t feel they are learning anything and are worried they won’t be able to get a job, let alone know what to do if they land one. They are not being taught to problem solve IT issues or investigate suspicious events. I don’t think I’ve spoken to any student that’s had hands-on experience with a SIEM, yet we expect entry-level analysts to sit down at the company SIEM and get to work.</span></p>
+<div class="editor-formats editor-formats--quote">
+<p><span style="font-weight: 400;">The IT security field doesn’t need bodies in chairs, it needs skilled people.</span></p>
+</div>
+<p><span style="font-weight: 400;">I can be found attending security conferences and speaking about the value of setting up a home lab to help bridge the skills gap that education systems miss. I’m also active on the <a href="https://www.reddit.com/r/cybersecurity/" target="_blank" rel="noopener">r/cybersecurity subreddit</a>, usually the &#8220;Mentorship Monday&#8221; bit but also responding to the heaps of questions on “how do I get started?&#8221; And I also stay active with the local university’s Cybersecurity Club, where I craft capture-the-flag challenges for students or provide different methods of creating a lab that will help prepare them for the field. Sometimes I try to run some students through my own little incident response “training course,” which provides hands-on SIEM and investigation on actual servers and desktops.</span></p>
+<p><em>You can connect with DePalma on LinkedIn <a href="https://www.linkedin.com/in/john-depalma/" target="_blank" rel="noopener">here</a>. </em></p>
+<p><em style="font-weight: inherit;">Are you or someone you know a SOC star whose insights would be valuable to share in this space? We’re always looking for new candidates! Just <a href="mailto:dkaplan@siemplify.co" target="_blank" rel="noopener">email </a>Content Director Dan Kaplan.</em></p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-sentara-healthcares-john-depalma/">Sitdown With a SOC Star: 11 Questions With Sentara Healthcare&#8217;s John DePalma</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/sitdown-with-a-soc-star-11-questions-with-sentara-healthcares-john-depalma/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>How SOAR Helps to Hold Up Your Part of the Cloud Security Shared Responsibility Model</title>
+      <link>https://www.siemplify.co/blog/how-soar-helps-to-hold-up-your-part-of-the-cloud-security-shared-responsibility-model/</link>
+      <comments>https://www.siemplify.co/blog/how-soar-helps-to-hold-up-your-part-of-the-cloud-security-shared-responsibility-model/#respond</comments>
+      <dc:creator><![CDATA[Dan Kaplan]]></dc:creator>
+      <pubDate>Tue, 23 Nov 2021 19:13:16 +0000</pubDate>
+      <category><![CDATA[Product Updates & Tips]]></category>
+      <category><![CDATA[Security Orchestration and Automation]]></category>
+      <category><![CDATA[Cloud]]></category>
+      <category><![CDATA[SOAR]]></category>
+      <guid isPermaLink="false">https://www.siemplify.co/?p=15783</guid>
+      <description><![CDATA[<p>The allure of the cloud is indisputable. Flexibility, reliability, efficiency, scalability and cost savings are tantalizing traits for a business...</p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/how-soar-helps-to-hold-up-your-part-of-the-cloud-security-shared-responsibility-model/">How SOAR Helps to Hold Up Your Part of the Cloud Security Shared Responsibility Model</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><span style="font-weight: 400;">The allure of the cloud is indisputable. Flexibility, reliability, efficiency, scalability and cost savings are tantalizing traits for a business at any time, never mind when most have been catapulted into a colossal work-from-home experiment.</span></p>
+<p><span style="font-weight: 400;">According to O’Reilly’s annual cloud adoption survey, nine out of 10 businesses </span><a href="https://www.businesswire.com/news/home/20211108005089/en/Cloud-Adoption-Steadily-Rising-Across-Industries-but-Managing-Cost-Remains-a-Concern-New-O%E2%80%99Reilly-Research-Reveals" target="_blank" rel="noopener"><span style="font-weight: 400;">now use cloud computing</span></a><span style="font-weight: 400;">, with nearly half planning to migrate more than 50 percent of their applications into the cloud in the upcoming year. Amazon Web Services (AWS) is leading the pack, with a recent Vectra AI study </span><a href="https://www.continuitycentral.com/index.php/news/technology/6535-survey-shows-increasing-organizational-reliance-on-aws-and-highlights-security-blind-spots" target="_blank" rel="noopener"><span style="font-weight: 400;">reporting that</span></a><span style="font-weight: 400;"> 78% of organizations are running AWS across multiple regions, including 40% in at least three. </span></p>
+<p><span style="font-weight: 400;">But the benefits of the cloud make it easy to leap headfirst without adequately acknowledging and prioritizing its dangers, especially within multi-cloud and hybrid cloud environments. Indeed, as cloud adoption increases, so will the magnitude of both malicious attacks and user errors. For example, a study by Ermetic </span><a href="https://www.bloomberg.com/press-releases/2021-10-07/ermetic-finds-majority-of-aws-accounts-surveyed-are-vulnerable-to-ransomware" target="_blank" rel="noopener"><span style="font-weight: 400;">found that</span></a><span style="font-weight: 400;"> 90% of AWS S3 buckets are prone to identity management and </span><a href="https://www.siemplify.co/blog/responding-to-cloud-misconfigurations-with-security-automation-and-common-sense-tips/" target="_blank" rel="noopener"><span style="font-weight: 400;">configuration errors</span></a><span style="font-weight: 400;"> that could permit admin-level ransomware attacks.</span></p>
+<p style="text-align: center;"><a href="https://www.siemplify.co/resources/the-definitive-guide-to-ransomware-response/" target="_blank" rel="noopener"><span class="editor-formats editor-formats--cta-link">Free E-Book Download: The Definitive Guide to Ransomware Response</span></a></p>
+<p><span style="font-weight: 400;">Thankfully public cloud services like AWS, Google Cloud Platform (GCP), and Microsoft Azure offer numerous controls for managing these threats and making compromise more difficult. However, these tools experience their optimal value when organizations accept a </span><a href="https://www.csoonline.com/article/3641835/four-tips-to-build-security-into-your-accidental-multi-cloud.html" target="_blank" rel="noopener"><span style="font-weight: 400;">communal burden for security</span></a><span style="font-weight: 400;">, something Amazon references as the </span><a href="https://aws.amazon.com/compliance/shared-responsibility-model/" target="_blank" rel="noopener"><span style="font-weight: 400;">Shared Responsibility Model</span></a><span style="font-weight: 400;">. This is where a security orchestration, automation and response (SOAR) platform can step in, helping to bridge the gap between alert overload and analyst capacity, and pave the way for successful case investigations and remediation.</span></p>
+<div class="editor-formats editor-formats--quote">
+<p><span style="font-weight: 400;">[A SOAR-AWS integration can help to] bridge the gap between alert overload and analyst capacity, and pave the way for successful case investigations and remediation.</span></p>
+</div>
+<p><span style="font-weight: 400;">At Siemplify, AWS cloud-native controls, including GuardDuty, CloudWatch, and Security Hub, conveniently </span><a href="https://www.siemplify.co/marketplace/search/?search=aws" target="_blank" rel="noopener"><span style="font-weight: 400;">integrate</span></a><span style="font-weight: 400;"> with the Siemplify Security Operations Platform, allowing threat responders to slash investigation times, extract valuable context-rich insights into incidents and immediately investigate and take action, such as disabling rogue instances and correcting misconfigurations.</span></p>
+<p><a href="https://www.siemplify.co/soar-platform-overview/" target="_blank" rel="noopener"><span style="font-weight: 400;">The Siemplify platform</span></a><span style="font-weight: 400;"> combines security orchestration, automation and response with end-to-end security operations management to make analysts more productive, engineers more effective and managers more informed. The SOAR experience is brought to life inside the rich </span><a href="https://www.siemplify.co/marketplace/" target="_blank" rel="noopener"><span style="font-weight: 400;">Siemplify Marketplace</span></a><span style="font-weight: 400;">, where security professionals can access a vast array of integrations, including AWS, and ready-to-deploy use cases.</span></p>
+<p><span style="font-weight: 400;">The Siemplify platform seamlessly connects to cloud threat detection technologies, as well as any on-premises tools, effectively delivering unified incident response at the speed of cloud. Additionally, Siemplify leverages AWS capabilities for monitoring and securing the environment in best of class solutions.</span></p>
+<p><span style="font-weight: 400;">Siemplify customers, as well as users of the free </span><a href="http://siemplify.co/community" target="_blank" rel="noopener"><span style="font-weight: 400;">Siemplify Community Edition</span></a><span style="font-weight: 400;">, can integrate AWS within Siemplify by downloading the marketplace connector and entering AWS credentials. For more information, visit </span><a href="https://www.siemplify.co/marketplace/" target="_blank" rel="noopener"><span style="font-weight: 400;">siemplify.co/marketplace</span></a><span style="font-weight: 400;">.</span><span style="font-weight: 400;"><br />
+</span><i><span style="font-weight: 400;"><br />
+</span></i><span style="font-weight: 400;">The Siempify platform </span><span style="font-weight: 400;">is also available on the AWS marketplace for existing AWS customers. </span><a href="https://aws.amazon.com/marketplace/pp/prodview-ddqiclksqmili?ref_=srh_res_product_title" target="_blank" rel="noopener"><span style="font-weight: 400;">You can find it here.</span></a></p>
+<p><em>Dan Kaplan is director of content at Siemplify.</em></p>
+<p>The post <a rel="nofollow" href="https://www.siemplify.co/blog/how-soar-helps-to-hold-up-your-part-of-the-cloud-security-shared-responsibility-model/">How SOAR Helps to Hold Up Your Part of the Cloud Security Shared Responsibility Model</a> appeared first on <a rel="nofollow" href="https://www.siemplify.co">Siemplify</a>.</p>
+]]></content:encoded>
+      <wfw:commentRss>https://www.siemplify.co/blog/how-soar-helps-to-hold-up-your-part-of-the-cloud-security-shared-responsibility-model/feed/</wfw:commentRss>
+      <slash:comments>0</slash:comments>
+    </item>
+  </channel>
+</rss>
