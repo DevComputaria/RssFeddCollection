@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="dsa-rdf.css" type="text/css"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">
+  <channel rdf:about="https://www.debian.org/security/dsa.rdf">
+    <title>Debian Security</title>
+    <link>http://security.debian.org/</link>
+    <description>
+Debian Security Advisories
+  </description>
+    <dc:date>2022-05-05T19:32:01+00:00</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5131" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5130" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5129" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5128" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5127" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5126" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5125" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5124" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5123" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5122" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5121" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5120" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5119" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5118" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5117" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5116" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5115" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5114" />
+        <rdf:li resource="https://www.debian.org/security/2022/dsa-5113" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5131">
+    <title>DSA-5131 openjdk-11</title>
+    <link>https://www.debian.org/security/2022/dsa-5131</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-05-05</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5130">
+    <title>DSA-5130 dpdk</title>
+    <link>https://www.debian.org/security/2022/dsa-5130</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-05-05</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5129">
+    <title>DSA-5129 firefox-esr</title>
+    <link>https://www.debian.org/security/2022/dsa-5129</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-05-04</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5128">
+    <title>DSA-5128 openjdk-17</title>
+    <link>https://www.debian.org/security/2022/dsa-5128</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-05-03</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5127">
+    <title>DSA-5127 linux</title>
+    <link>https://www.debian.org/security/2022/dsa-5127</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-05-02</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5126">
+    <title>DSA-5126 ffmpeg</title>
+    <link>https://www.debian.org/security/2022/dsa-5126</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-05-01</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5125">
+    <title>DSA-5125 chromium</title>
+    <link>https://www.debian.org/security/2022/dsa-5125</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-27</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5124">
+    <title>DSA-5124 ffmpeg</title>
+    <link>https://www.debian.org/security/2022/dsa-5124</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-25</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5123">
+    <title>DSA-5123 xz-utils</title>
+    <link>https://www.debian.org/security/2022/dsa-5123</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-18</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5122">
+    <title>DSA-5122 gzip</title>
+    <link>https://www.debian.org/security/2022/dsa-5122</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-18</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5121">
+    <title>DSA-5121 chromium</title>
+    <link>https://www.debian.org/security/2022/dsa-5121</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-16</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5120">
+    <title>DSA-5120 chromium</title>
+    <link>https://www.debian.org/security/2022/dsa-5120</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-13</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5119">
+    <title>DSA-5119 subversion</title>
+    <link>https://www.debian.org/security/2022/dsa-5119</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-13</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5118">
+    <title>DSA-5118 thunderbird</title>
+    <link>https://www.debian.org/security/2022/dsa-5118</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-10</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5117">
+    <title>DSA-5117 xen</title>
+    <link>https://www.debian.org/security/2022/dsa-5117</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-10</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5116">
+    <title>DSA-5116 wpewebkit</title>
+    <link>https://www.debian.org/security/2022/dsa-5116</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-08</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5115">
+    <title>DSA-5115 webkit2gtk</title>
+    <link>https://www.debian.org/security/2022/dsa-5115</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-08</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5114">
+    <title>DSA-5114 chromium</title>
+    <link>https://www.debian.org/security/2022/dsa-5114</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-07</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2022/dsa-5113">
+    <title>DSA-5113 firefox-esr</title>
+    <link>https://www.debian.org/security/2022/dsa-5113</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2022-04-06</dc:date>
+  </item>
+</rdf:RDF>

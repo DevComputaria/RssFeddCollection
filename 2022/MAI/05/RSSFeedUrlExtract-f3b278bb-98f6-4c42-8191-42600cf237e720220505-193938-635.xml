@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Released updates</title>
+    <link>https://bodhi.fedoraproject.org/rss/updates/?type=security</link>
+    <description>Filtered on: type(security)</description>
+    <atom:link href="https://bodhi.fedoraproject.org/rss/updates/?type=security" rel="self" />
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 May 2022 22:39:37 +0000</lastBuildDate>
+    <item>
+      <title>supertux-0.6.3-4.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-509887bd99</link>
+      <description>&lt;h1&gt;FEDORA-2022-509887bd99&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;supertux-0.6.3-4.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Fix CVE-2022-30292&lt;/p&gt;</description>
+      <pubDate>Thu, 05 May 2022 22:20:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>slurm-21.08.8-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-916bb58e38</link>
+      <description>&lt;h1&gt;FEDORA-2022-916bb58e38&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;slurm-21.08.8-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Update to 21.08.8 to fix CVE-2022-29500, CVE-2022-29501, and CVE-2022-29502.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.schedmd.com/news.php?id=260#OPT_260"&gt;https://www.schedmd.com/news.php?id=260#OPT_260&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 05 May 2022 22:15:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>slurm-21.08.8-1.fc34</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-eeeff46680</link>
+      <description>&lt;h1&gt;FEDORA-2022-eeeff46680&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;slurm-21.08.8-1.fc34&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Update to 21.08.8 to fix CVE-2022-29500, CVE-2022-29501, and CVE-2022-29502.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.schedmd.com/news.php?id=260#OPT_260"&gt;https://www.schedmd.com/news.php?id=260#OPT_260&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 05 May 2022 22:15:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>slurm-21.08.8-1.fc35</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-6d9d1862ee</link>
+      <description>&lt;h1&gt;FEDORA-2022-6d9d1862ee&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;slurm-21.08.8-1.fc35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Update to 21.08.8 to fix CVE-2022-29500, CVE-2022-29501, and CVE-2022-29502.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.schedmd.com/news.php?id=260#OPT_260"&gt;https://www.schedmd.com/news.php?id=260#OPT_260&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 05 May 2022 22:15:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>slurm-21.08.8-1.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-417587a4b9</link>
+      <description>&lt;h1&gt;FEDORA-2022-417587a4b9&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;slurm-21.08.8-1.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Automatic update for slurm-21.08.8-1.fc37.&lt;/p&gt;
+&lt;h5&gt;&lt;strong&gt;Changelog&lt;/strong&gt;&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;* Thu May  5 2022 Carl George &amp;lt;&lt;a href="mailto:carl@george.com"&gt;carl@george.com&lt;/a&gt;puter&amp;gt; - 21.08.8-1
+- Update to 21.08.8, resolves: rhbz#2082276
+- Fix CVE-2022-29500, resolves: rhbz#2082286
+- Fix CVE-2022-29501, resolves: rhbz#2082289
+- Fix CVE-2022-29502, resolves: rhbz#2082293
+
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <pubDate>Thu, 05 May 2022 21:10:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>thunderbird-91.9.0-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-2a6ebe688a</link>
+      <description>&lt;h1&gt;FEDORA-2022-2a6ebe688a&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;thunderbird-91.9.0-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Update to 91.9.0&lt;/p&gt;</description>
+      <pubDate>Thu, 05 May 2022 09:13:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>thunderbird-91.9.0-1.fc35</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-9e66cba2d8</link>
+      <description>&lt;h1&gt;FEDORA-2022-9e66cba2d8&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;thunderbird-91.9.0-1.fc35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Update to 91.9.0&lt;/p&gt;</description>
+      <pubDate>Thu, 05 May 2022 09:13:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>thunderbird-91.9.0-1.fc34</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-9ce9716352</link>
+      <description>&lt;h1&gt;FEDORA-2022-9ce9716352&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;thunderbird-91.9.0-1.fc34&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Update to 91.9.0&lt;/p&gt;</description>
+      <pubDate>Thu, 05 May 2022 09:12:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>keylime-6.4.0-1.fc34</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-f9ace23a78</link>
+      <description>&lt;h1&gt;FEDORA-2022-f9ace23a78&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;keylime-6.4.0-1.fc34&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Updating for Keylime release v6.4.0&lt;/li&gt;
+&lt;li&gt;Fixes CVE-2022-1053&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Wed, 04 May 2022 21:13:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>keylime-6.4.0-1.fc35</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-7c9173843a</link>
+      <description>&lt;h1&gt;FEDORA-2022-7c9173843a&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;keylime-6.4.0-1.fc35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Updating for Keylime release v6.4.0&lt;/li&gt;
+&lt;li&gt;Fixes CVE-2022-1053&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Wed, 04 May 2022 21:10:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>keylime-6.4.0-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-748fda10e7</link>
+      <description>&lt;h1&gt;FEDORA-2022-748fda10e7&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;keylime-6.4.0-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Updating for Keylime release v6.4.0&lt;/li&gt;
+&lt;li&gt;Fixes CVE-2022-1053&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <pubDate>Wed, 04 May 2022 21:08:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>java-1.8.0-openjdk-aarch32-1.8.0.332.b09-1.fc34</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-efaa7e8775</link>
+      <description>&lt;h1&gt;FEDORA-2022-efaa7e8775&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;java-1.8.0-openjdk-aarch32-1.8.0.332.b09-1.fc34&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;8u332 update&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 16:03:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>java-1.8.0-openjdk-aarch32-1.8.0.332.b09-1.fc35</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-0a719e8ba4</link>
+      <description>&lt;h1&gt;FEDORA-2022-0a719e8ba4&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;java-1.8.0-openjdk-aarch32-1.8.0.332.b09-1.fc35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;8u332 update&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 16:02:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>java-1.8.0-openjdk-aarch32-1.8.0.332.b09-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-eb9cc91549</link>
+      <description>&lt;h1&gt;FEDORA-2022-eb9cc91549&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;java-1.8.0-openjdk-aarch32-1.8.0.332.b09-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;8u332 update&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 16:01:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>freetype-2.10.4-6.fc34</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-5e45671294</link>
+      <description>&lt;h1&gt;FEDORA-2022-5e45671294&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;freetype-2.10.4-6.fc34&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2022-27404, CVE-2022-27405 and CVE-2022-27406.&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 14:53:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>freetype-2.11.0-6.fc35</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-80e1724780</link>
+      <description>&lt;h1&gt;FEDORA-2022-80e1724780&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;freetype-2.11.0-6.fc35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2022-27404, CVE-2022-27405 and CVE-2022-27406.&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 14:53:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>java-latest-openjdk-18.0.1.0.10-1.rolling.el7</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-EPEL-2022-ec554055b2</link>
+      <description>&lt;h1&gt;FEDORA-EPEL-2022-ec554055b2&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;java-latest-openjdk-18.0.1.0.10-1.rolling.el7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Oracle 04/2022 critical path update&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;a href="https://www.oracle.com/security-alerts/cpuapr2022.html#AppendixJAVA"&gt;https://www.oracle.com/security-alerts/cpuapr2022.html#AppendixJAVA&lt;/a&gt;
+&lt;/code&gt;&lt;/pre&gt;</description>
+      <pubDate>Wed, 04 May 2022 11:50:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>mingw-SDL2_ttf-2.0.18-2.fc34</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-857d1f7050</link>
+      <description>&lt;h1&gt;FEDORA-2022-857d1f7050&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mingw-SDL2_ttf-2.0.18-2.fc34&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2022-27470&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 08:40:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>mingw-SDL2_ttf-2.0.18-2.fc35</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-600e0cba93</link>
+      <description>&lt;h1&gt;FEDORA-2022-600e0cba93&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mingw-SDL2_ttf-2.0.18-2.fc35&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2022-27470&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 08:28:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>mingw-SDL2_ttf-2.0.18-3.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2022-280ac942be</link>
+      <description>&lt;h1&gt;FEDORA-2022-280ac942be&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mingw-SDL2_ttf-2.0.18-3.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2022-27470&lt;/p&gt;</description>
+      <pubDate>Wed, 04 May 2022 08:12:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
