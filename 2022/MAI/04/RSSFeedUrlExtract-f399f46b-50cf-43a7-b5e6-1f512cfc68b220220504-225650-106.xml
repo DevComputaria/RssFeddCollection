@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://us-cert.cisa.gov/">
+  <channel>
+    <title>CISA Current Activity</title>
+    <link>https://us-cert.cisa.gov/</link>
+    <description>A regularly updated summary of the most frequent, high-impact security incidents currently being reported to the US-CERT.</description>
+    <language>en</language>
+    <item>
+      <title>F5 Releases Security Advisories Addressing Multiple Vulnerabilities</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/05/04/f5-releases-security-advisories-addressing-multiple</link>
+      <description>Original release date: May 4, 2022&lt;br/&gt;&lt;p&gt;F5 has released security advisories on vulnerabilities affecting multiple products, including various versions of BIG-IP. Included in the release is &lt;a href="https://support.f5.com/csp/article/K23605346"&gt;an advisory for CVE-2022-1388&lt;/a&gt;, which allows undisclosed requests to bypass the iControl REST authentication in BIG-IP. An attacker could exploit CVE-2022-1388 to take control of an affected system.&lt;/p&gt;
+
+&lt;p&gt;CISA encourages users and administrators to review the F5 webpage, &lt;a href="https://support.f5.com/csp/article/K55879220"&gt;Overview of F5 vulnerabilities (May 2022)&lt;/a&gt;, and apply the necessary updates or workarounds.&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 04 May 2022 17:02:30 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17588 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>Mozilla Releases Security Updates for Firefox and Firefox ESR</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/05/04/mozilla-releases-security-updates-firefox-and-firefox-esr</link>
+      <description>Original release date: May 4, 2022&lt;br/&gt;&lt;p&gt;Mozilla has released security updates to address vulnerabilities in Firefox and Firefox ESR. An attacker could exploit some of these vulnerabilities to take control of an affected system.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;CISA encourages users and administrators to review the Mozilla Security Advisory for &lt;a href="https://www.mozilla.org/en-US/security/advisories/mfsa2022-16/"&gt;Firefox 100&lt;/a&gt; and Firefox &lt;a href="https://www.mozilla.org/en-US/security/advisories/mfsa2022-17/"&gt;ESR 91.9&lt;/a&gt; and apply the necessary updates.&amp;nbsp;&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 04 May 2022 15:00:00 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17587 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>CISA Adds Five Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/05/04/cisa-adds-five-known-exploited-vulnerabilities-catalog</link>
+      <description>Original release date: May 4, 2022&lt;br/&gt;&lt;p&gt;CISA has added five new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities Catalog&lt;/a&gt;, based on evidence of active exploitation. These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risk to the federal enterprise. Note: to view the newly added vulnerabilities in the catalog, click on the arrow on the of the "Date Added to Catalog" column, which will sort by descending dates.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.cisa.gov/binding-operational-directive-22-01"&gt;Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities&lt;/a&gt;&amp;nbsp;established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the &lt;a href="https://cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf"&gt;BOD 22-01 Fact Sheet&lt;/a&gt;&amp;nbsp;for more information.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Catalog vulnerabilities&lt;/a&gt;&amp;nbsp;as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 04 May 2022 14:00:00 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17586 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>Cisco Releases Security Updates for Multiple Products</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/04/28/cisco-releases-security-updates-multiple-products</link>
+      <description>Original release date: April 28, 2022&lt;br/&gt;&lt;p&gt;Cisco has released security updates to address vulnerabilities in multiple Cisco products. An attacker could exploit some of these vulnerabilities to take control of an affected system.&lt;/p&gt;
+
+&lt;p&gt;CISA encourages users and administrators to review the &lt;a href="https://tools.cisco.com/security/center/publicationListing.x"&gt;Cisco Security Advisories page&lt;/a&gt;&amp;nbsp;and apply the necessary updates.&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Thu, 28 Apr 2022 16:00:00 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17581 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>Google Releases Security Updates for Chrome</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/04/28/google-releases-security-updates-chrome</link>
+      <description>Original release date: April 28, 2022&lt;br/&gt;&lt;p&gt;Google has released Chrome version 101.0.4951.41 for Windows, Mac, and Linux. This version addresses vulnerabilities that an attacker could exploit to take control of an affected system.&lt;/p&gt;
+
+&lt;p&gt;CISA encourages users and administrators to review the &lt;a href="https://chromereleases.googleblog.com/2022/04/stable-channel-update-for-desktop_26.html"&gt;Chrome Release Note&lt;/a&gt;&amp;nbsp;and apply the necessary updates.&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Thu, 28 Apr 2022 15:00:00 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17579 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>CISA and FBI Update Advisory on Destructive Malware Targeting Organizations in Ukraine </title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/04/28/cisa-and-fbi-update-advisory-destructive-malware-targeting</link>
+      <description>Original release date: April 28, 2022&lt;br/&gt;&lt;p&gt;CISA and the Federal Bureau of Investigation (FBI) have updated joint Cybersecurity Advisory &lt;a href="https://www.cisa.gov/uscert/ncas/alerts/aa22-057a"&gt;AA22-057A: Destructive Malware Targeting Organizations in Ukraine&lt;/a&gt;, originally released February 26, 2022. The advisory has been updated to include additional indicators of compromise for WhisperGate and technical details for HermeticWiper, IsaacWiper, HermeticWizard, and CaddyWiper destructive malware.&lt;/p&gt;
+
+&lt;p&gt;CISA and the FBI encourage organizations to review the update to &lt;a href="https://www.cisa.gov/uscert/ncas/alerts/aa22-057a"&gt;AA22-057A&lt;/a&gt;&amp;nbsp;as well as the &lt;a href="https://www.cisa.gov/uscert/shields-technical-guidance"&gt;Shields Up Technical Guidance webpage&lt;/a&gt;&amp;nbsp;for ways to identify, respond to, and mitigate disruptive cyber activity.&amp;nbsp;&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Thu, 28 Apr 2022 14:00:00 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17573 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>2021 Top Routinely Exploited Vulnerabilities</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/04/27/2021-top-routinely-exploited-vulnerabilities</link>
+      <description>Original release date: April 27, 2022&lt;br/&gt;&lt;p&gt;CISA, the National Security Agency (NSA), the Federal Bureau of Investigation (FBI), the Australian Cyber Security Centre (ACSC), the Canadian Centre for Cyber Security (CCCS), the New Zealand National Cyber Security Centre (NZ NCSC), and the United Kingdom’s National Cyber Security Centre (NCSC-UK) &amp;nbsp;have released a &lt;a href="https://www.cisa.gov/uscert/ncas/alerts/aa22-117a"&gt;joint Cybersecurity Advisory&lt;/a&gt;&amp;nbsp;that provides details on the top 15 Common Vulnerabilities and Exposures (CVEs) routinely exploited by malicious cyber actors in 2021, as well as other CVEs frequently exploited.&lt;/p&gt;
+
+&lt;p&gt;CISA encourages users and administrators to review &lt;a href="https://www.cisa.gov/uscert/ncas/alerts/aa22-117a"&gt;joint Cybersecurity Advisory: 2021 Top Routinely Exploited Vulnerabilities&lt;/a&gt;&amp;nbsp; and apply the recommended mitigations to reduce the risk of compromise by malicious cyber actors.&amp;nbsp;&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Wed, 27 Apr 2022 14:00:00 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17577 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>CISA Adds Seven Known Exploited Vulnerabilities to Catalog</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/04/25/cisa-adds-seven-known-exploited-vulnerabilities-catalog</link>
+      <description>Original release date: April 25, 2022&lt;br/&gt;&lt;p&gt;CISA has added seven new vulnerabilities to its &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Known Exploited Vulnerabilities Catalog&lt;/a&gt;, based on evidence of active exploitation. These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risk to the federal enterprise. Note: to view the newly added vulnerabilities in the catalog, click on the arrow on the of the "Date Added to Catalog" column, which will sort by descending dates.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.cisa.gov/binding-operational-directive-22-01"&gt;Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities&lt;/a&gt;&amp;nbsp;established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the &lt;a href="https://cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf"&gt;BOD 22-01 Fact Sheet&lt;/a&gt;&amp;nbsp;for more information.&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog"&gt;Catalog vulnerabilities&lt;/a&gt;&amp;nbsp;as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the meet the &lt;a href="https://www.cisa.gov/known-exploited-vulnerabilities"&gt;specified criteria&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Mon, 25 Apr 2022 20:00:00 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17576 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>FBI Releases IOCs Associated with BlackCat/ALPHV Ransomware</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/04/22/fbi-releases-iocs-associated-blackcatalphv-ransomware</link>
+      <description>Original release date: April 22, 2022&lt;br/&gt;&lt;p&gt;The Federal Bureau of Investigation (FBI) has released &lt;a href="https://www.ic3.gov/Media/News/2022/220420.pdf"&gt;a Flash report&lt;/a&gt;&amp;nbsp;detailing indicators of compromise (IOCs) associated with attacks involving BlackCat/ALPHV, a Ransomware-as-a-Service that has compromised at least 60 entities worldwide.&lt;/p&gt;
+
+&lt;p&gt;CISA encourages users and administrators to review the IOCs and technical details in &lt;a href="https://www.ic3.gov/Media/News/2022/220420.pdf"&gt;FBI Flash CU-000167-MW&lt;/a&gt;&amp;nbsp;and apply the recommended mitigations.&amp;nbsp;&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Fri, 22 Apr 2022 12:02:01 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17569 at https://us-cert.cisa.gov</guid>
+    </item>
+    <item>
+      <title>Drupal Releases Security Updates</title>
+      <link>https://us-cert.cisa.gov/ncas/current-activity/2022/04/21/drupal-releases-security-updates</link>
+      <description>Original release date: April 21, 2022&lt;br/&gt;&lt;p&gt;Drupal has released security updates to address vulnerabilities affecting Drupal 9.2 and 9.3. An attacker could exploit these vulnerabilities to take control of an affected system.&lt;/p&gt;
+
+&lt;p&gt;CISA encourages users and administrators to review Drupal security advisories &lt;a href="https://www.drupal.org/sa-core-2022-008"&gt;SA-CORE-008&lt;/a&gt;&amp;nbsp;and &lt;a href="https://www.drupal.org/sa-core-2022-009"&gt;SA-CORE-009&lt;/a&gt;&amp;nbsp;and apply the necessary updates.&lt;/p&gt;
+
+            &lt;div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"&gt;&lt;p class="privacy-and-terms"&gt;This product is provided subject to this &lt;a href="https://us-cert.cisa.gov/privacy/notification"&gt;Notification&lt;/a&gt; and this &lt;a href="https://www.dhs.gov/privacy-policy"&gt;Privacy &amp;amp; Use&lt;/a&gt; policy.&lt;/p&gt;
+&lt;/div&gt;
+      </description>
+      <pubDate>Thu, 21 Apr 2022 10:50:56 +0000</pubDate>
+      <dc:creator>CISA</dc:creator>
+      <guid isPermaLink="false">17563 at https://us-cert.cisa.gov</guid>
+    </item>
+  </channel>
+</rss>

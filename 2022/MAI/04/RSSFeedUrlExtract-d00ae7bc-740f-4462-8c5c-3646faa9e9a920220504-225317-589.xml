@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[bacen/pix-dict-api]]></title>
+    <description><![CDATA[bacen/pix-dict-api]]></description>
+    <link>https://github.com/bacen/pix-dict-api/issues</link>
+    <image>
+      <url>https://github.com/bacen.png</url>
+      <title>bacen/pix-dict-api</title>
+      <link>https://github.com/bacen/pix-dict-api/issues</link>
+    </image>
+    <generator>gh-feed</generator>
+    <lastBuildDate>Thu, 05 May 2022 01:53:17 GMT</lastBuildDate>
+    <atom:link href="/bacen/pix-dict-api/issues" rel="self" type="application/rss+xml" />
+    <ttl>60</ttl>
+    <item>
+      <title><![CDATA[[PROPOSTA] Adição de parâmetro "ReportedBy" para filtragem na operação de listInfractions]]></title>
+      <description><![CDATA[<p>Atualmente, é possível filtrar as infrações em que o PSP é o debitado e/ou creditado, independente se ele foi o criador ou não da infração, e isso, em alguns casos,, retorna muitos registros desnecessários. Há momentos em que é importante saber, por exemplo, apenas as infrações que foram criadas pelo PSP debitado. </p>
+<p>A sugestão do filtro &quot;reportedBy&quot; poderia otimizar a pesquisa, já que o PSP criador da infração pode ser, ora o debitado ora o creditado.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/47</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/47</guid>
+      <dc:creator><![CDATA[GabrielSouzasbl]]></dc:creator>
+      <pubDate>Tue, 25 Jan 2022 18:08:47 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Falta do header cache-control/max-age no CheckKeys]]></title>
+      <description><![CDATA[<p>Segundo o Manual Operacional do Dict na seção <strong>17. Cache de existência de chave Pix</strong>:</p>
+<p>O cache de existência de chave Pix pode ser alimentado a partir das seguintes fontes:</p>
+<blockquote>
+<p>d. verificação de chaves registradas no DICT (checkKeys). </p>
+</blockquote>
+<p>Caso o registro no cache seja feito por meio da fonte “d”, o registro deve seguir as diretivas contidas no header Cache-Control, para que ele seja válido.</p>
+<p>Porém ao chamar o <strong>endpoint /keys/check</strong> não está sendo retornado o atributo <strong>max-age</strong> no header <strong>cache-control</strong>.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/46</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/46</guid>
+      <dc:creator><![CDATA[rafaelchagasb]]></dc:creator>
+      <pubDate>Tue, 28 Dec 2021 19:28:49 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Devolução - campo refundtransactionid]]></title>
+      <description><![CDATA[<p>Prezados, boa tarde.
+Revisando a documentação da API DICT, identificamos que o campo refundtransactionid não é de preenchimento obrigatório (&quot;required&quot;) ao fechar uma solicitação de devolução no MED. Em testes realizados em homologação, alguns PSPs estão enviando esse campo em branco ao concluir uma devolução. </p>
+<p>Gostaríamos de sugerir de alterar este campo para &quot;required&quot; de forma condicional: quando for encerramento de um devolução em que houve a refund-transaction, esse campo deve ser obrigatório.</p>
+<p>Isso ajuda a ter mais confiança no mecanismo, possibilitando que possamos fazer conciliação entre a solicitação de refund e o refund efetivamente criado. </p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/45</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/45</guid>
+      <dc:creator><![CDATA[amandachermont]]></dc:creator>
+      <pubDate>Fri, 03 Dec 2021 20:49:26 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Response Endpoint API DICT - Estatísticas]]></title>
+      <description><![CDATA[<p>Prezados, boa tarde.</p>
+<p>Conforme consulta realizada ao marcado com prazo de resposta de 15/10, foi indicado que o endpoint de estatísticas do DICT retornaria 24 informações, sendo elas:
+·       Qtd de liquidações por CPF/CNPJ nos últimos 3 dias
+·       Qtd de liquidações por CPF/CNPJ nos últimos 30 dias
+·       Qtd de liquidações por CPF/CNPJ nos últimos 6 meses
+·       Qtd de liquidações por conta nos últimos 3 dias
+·       Qtd de liquidações por conta nos últimos 30 dias
+·       Qtd de liquidações por conta nos últimos 6 meses
+·       Qtd de relatos de infração abertos por CPF/CNPJ nos últimos 3 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração abertos por CPF/CNPJ nos últimos 30 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração abertos por CPF/CNPJ nos últimos 6 meses (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração abertos por conta nos últimos 3 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração abertos por conta nos últimos 30 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração abertos por conta nos últimos 6 meses (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração confirmados por CPF/CNPJ nos últimos 3 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração confirmados por CPF/CNPJ nos últimos 30 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração confirmados por CPF/CNPJ nos últimos 6 meses (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração confirmados por conta nos últimos 3 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração confirmados por conta nos últimos 30 dias (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração confirmados por conta nos últimos 6 meses (inclui os relatos do tipo SPI e INTERNAL)
+·       Qtd de relatos de infração do tipo REJECTED_PAYER e REJECTED_PAYEE abertos e confirmados por CPF/CNPJ nos últimos 3 dias
+·       Qtd de relatos de infração do tipo REJECTED_PAYER e REJECTED_PAYEE abertos e confirmados por CPF/CNPJ nos últimos 30 dias
+·       Qtd de relatos de infração do tipo REJECTED_PAYER e REJECTED_PAYEE abertos e confirmados por CPF/CNPJ nos últimos 6 meses
+·       Qtd de relatos de infração do tipo REJECTED_PAYER e REJECTED_PAYEE abertos e confirmados por conta nos últimos 3 dias
+·       Qtd de relatos de infração do tipo REJECTED_PAYER e REJECTED_PAYEE abertos e confirmados por conta nos últimos 30 dias
+·       Qtd de relatos de infração do tipo REJECTED_PAYER e REJECTED_PAYEE abertos e confirmados por conta nos últimos 6 meses</p>
+<p>Porém a API DICT versão 1.7.0 apenas retorna 9 campos de informações. Gostaríamos de confirmar que o que consta na API é o schema final que deve ser considerando para a data de implementação do bloqueio cautelar de 16/Nov.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/41</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/41</guid>
+      <dc:creator><![CDATA[amandachermont]]></dc:creator>
+      <pubDate>Mon, 08 Nov 2021 19:56:28 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Dúvidas Mecanismo Especial de Devolução - Refund rejection reason]]></title>
+      <description><![CDATA[<p>Pessoal, bom dia.</p>
+<p>De acordo com o Manual Operacional do DICT, existem três motivos para rejeição de pedidos de devolução que podem ser utilizados, sendo eles:</p>
+<ul>
+<li>no_balance : falta de saldo na conta do cliente</li>
+<li>account_closure : relacionamento com cliente encerrado</li>
+<li>cannot_refund : participante não pode acionar Mecanismo Especial de Devolução</li>
+</ul>
+<p>Temos dúvidas com relação a qual motivo de rejeição utilizar nos seguintes cenários:</p>
+<ol>
+<li>Conta do cliente bloqueada (não podemos retirar o dinheiro da conta para fazer a devolução, ex: bacenjud ou bloqueio cautelar em andamento)</li>
+<li>Devolução já foi feita manualmente pelo cliente</li>
+<li>Instabilidade no Pix </li>
+<li>Pedido de devolução inválido (ex: duplicado, transação +90 dias, pedido tipo fraude sem infração aprovada, etc)</li>
+</ol>
+<p>Poderiam por favor nos auxiliar? </p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/36</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/36</guid>
+      <dc:creator><![CDATA[amandachermont]]></dc:creator>
+      <pubDate>Fri, 29 Oct 2021 17:54:18 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[DICT versão 1.6.1]]></title>
+      <description><![CDATA[<p>Recebemos notícia de um cliente sobre a recente publicação de uma atualização da especificação DICT versão 1.6.1.</p>
+<p>O cliente nos informou o seguinte URL para a especificação atualizada:
+<a href="https://www.bcb.gov.br/content/estabilidadefinanceira/pix/API-DICT-1-6-1.html">https://www.bcb.gov.br/content/estabilidadefinanceira/pix/API-DICT-1-6-1.html</a></p>
+<p>Este repositório deixou de ser referência normativa para a especificação DICT?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/35</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/35</guid>
+      <dc:creator><![CDATA[pedrolamarao]]></dc:creator>
+      <pubDate>Mon, 18 Oct 2021 18:04:49 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Massa de Teste Tipo de Conta TRAN]]></title>
+      <description><![CDATA[<p>Olá pessoal, </p>
+<p>Teriam Contas ou Chave de Endereçamento em  ambiente de homologação com o  tipo de conta TRAN para teste </p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/34</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/34</guid>
+      <dc:creator><![CDATA[aeceloto]]></dc:creator>
+      <pubDate>Wed, 15 Sep 2021 15:28:08 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Sobre devolução]]></title>
+      <description><![CDATA[<p>A primeira coisa é sobre o tipo &quot;RefundAnalysisResult&quot;, um dos possíveis valores é &quot;PARCIALlY_ACCEPTED&quot;. Acredito que a grafia correta seria &quot;PARTIALLY_ACCEPTED&quot;.</p>
+<p>A segunda coisa é: A solicitação de devolução já está funcional em homologação?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/31</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/31</guid>
+      <dc:creator><![CDATA[erikaaseg]]></dc:creator>
+      <pubDate>Mon, 09 Aug 2021 19:10:29 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Suporte para nome fantasia (tradeName) na criação de reivindicação]]></title>
+      <description><![CDATA[<p>Hoje só é possível passar a razão social da empresa na criação de um pedido de reivindicação. Para utilizar a razão social temos que concluir a reivindicação e depois alterar o registro para adicionar o nome fantasia. </p>
+<p>O ideal seria poder informar no momento da criação do pedido de reivindicação.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/28</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/28</guid>
+      <dc:creator><![CDATA[ghobolds]]></dc:creator>
+      <pubDate>Mon, 31 May 2021 05:30:57 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Versão 1.2.0 - Cache_control]]></title>
+      <description><![CDATA[<p>1- Observei que os arquivos .json e YAML parecem estar desatualizados não contendo as informações da consulta de existência de chaves (CheckKeys).</p>
+<p>2- Seria possível forcener a sintaxe e regra de composição deo campo Cache_control do header? 
+Não localizei regras desse campo no swagger ou no documento &quot;Manual Operacional do Diretório de Identificadores de Contas Transacionais (DICT)&quot;.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/25</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/25</guid>
+      <dc:creator><![CDATA[welpenetra]]></dc:creator>
+      <pubDate>Fri, 07 May 2021 12:08:20 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Permitir mais robustez no cadastro de claims]]></title>
+      <description><![CDATA[<p>Quando um PSP tenta cadastrar uma claim chamando o serviço &quot;Criar Reivindicação&quot;, o PSP está sujeito a passar por um cenário onde o PSP sofre um crash após obter a response do serviço (ou após iniciar a request para o serviço) e antes de salvar no seu ambiente os dados da claim criada.
+Já passamos por este problema algumas poucas vezes o que causou transtorno.</p>
+<p>Hoje, não há forma efetiva do PSP lidar com esta questão. O PSP pode, antes de fazer a requisição, salvar em seu ambiente a intenção de criar a claim, de forma que se o crash ocorrer, ele pode ter um processo de recuperação ou de retry. Só que, se o PSP tenta cadastrar a claim novamente, ele recebe o erro <code>ClaimAlreadyExistsForKey</code>. Ao ocorrer isso, o PSP até pode <em>assumir</em> que esta claim que já existe é a claim que ele está tentando criar. Mas isto não é muito seguro. O mais correto seria, ao receber este erro, o PSP ter como consultar os dados desta claim no lado do DICT, para confirmar que trata-se mesmo da claim que ele queria registrar. Só que o PSP neste ponto, não tem em mãos o ID da claim para consultar por ele (visto que na primeira tentativa houve o crash). E utilizar o serviço &quot;Listar Reivindicações&quot; para tentar encontrar a claim não é efetivo.</p>
+<p>O melhor seria que a API tivesse uma destas duas alterações/melhorias:</p>
+<ul>
+<li>ao retornar <code>ClaimAlreadyExistsForKey</code>, retornar também o ID da claim.</li>
+</ul>
+<p>ou</p>
+<ul>
+<li>o serviço &quot;Listar Reivindicações&quot; passar a ter uma opção de filtro sobre o valor da chave.</li>
+</ul>
+<p>A primeira alteração seria mais direta e mais voltada para este problema em específico. A segunda alteração (incluir filtro da chave no serviço &quot;Listar Reinvindicações&quot;) poderia ajudar a resolver outros tipos de situações também.</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/24</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/24</guid>
+      <dc:creator><![CDATA[jgslima]]></dc:creator>
+      <pubDate>Thu, 06 May 2021 17:54:16 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[[Dúvida][v-1.2.0] - Funcionalidade: Atualizar Vínculo - Possível BUG]]></title>
+      <description><![CDATA[<p>Prezados,</p>
+<p>Na versão 1.2.0 da API do DICT, é permitido alterar os dados do &quot;Owner&quot; na funcionalidade de Atualizar Vínculo. Porém ao tentar realizar a alteração de uma chave aleatória, só é permitido com a razão &quot;BRANCH_TRANSFER&quot;. Não achei em nenhum lugar o motivo para tal regra. Existe alguma documentação para que possa ler e entender melhor a respeito disso?</p>
+<p>Não poderia ser usada a razão &quot;USER_REQUESTED&quot; ou &quot;RECONCILIATION&quot;, conforme documentado na API?</p>
+<p><img src="https://user-images.githubusercontent.com/7198068/117301685-4188cb00-ae51-11eb-8f51-65e8b2d095d6.png" alt="image"></p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/23</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/23</guid>
+      <dc:creator><![CDATA[ekiametis]]></dc:creator>
+      <pubDate>Thu, 06 May 2021 12:56:18 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Esclarecimentos sobre o serviço "Listar Reivindicações"]]></title>
+      <description><![CDATA[<p>Notamos que na versão 1.2.0 da API foi incluída a observação sobre este serviço:</p>
+<p>&quot;<em>A atualização de informações de reinvindicações para listagens é assíncrona em relação às operações de inclusão e atualização de registros, sendo assim, é possível haver um retardo de 5 segundos até que os dados incluídos ou alterados constem na consulta.</em>&quot;</p>
+<p>Estamos deixando de puxar algumas respostas do Doador o que está causando transtornos. Por isto é importante para nós termos os seguintes esclarecimentos.</p>
+<p><strong>1) Tempo do delay</strong>
+É esperado que o delay para que alterações nas reinvindicações sejam refletidas na consulta possa ser na prática maior do que 5 segundos?</p>
+<p><strong>2) Valor efetivo do campo <code>LastModified</code> após uma alteração ser refletida na consulta</strong>
+Quando o Doador atua sobre a claim alterando seu status, e quando ocorre um delay até a alteração do status ser refletida no serviço &quot;<em>Listar Reivindicações</em>&quot;, o valor do campo <code>LastModified</code> da claim será o timestamp de quando a alteração de status ocorreu originalmente, ou será o timestamp de quando ela passou a constar na consulta?</p>
+<p>Exemplo:</p>
+<ol>
+<li><code>01:44:00</code> =&gt; Doador cancela a claim</li>
+<li>delay</li>
+<li><code>01:44:05</code> =&gt; alteração passa a ser refletida na consulta.</li>
+</ol>
+<p>A partir deste momento, a claim será considerada na consulta com <code>LastModified</code> igual a <code>01:44:00</code> ou igual a <code>01:44:05</code>?</p>
+<p><strong>3) Alterações em claims serem refletidas fora de ordem</strong>
+Se a resposta da pergunta anterior for que o <code>LastModified</code> será sempre a data/hora original da atualização de status, devido ao aspecto assíncrono da atualização de informações, pode ocorrer da atualização da listagem ser feita fora de ordem?</p>
+<p>Por exemplo, o seguinte cenário poderia ocorrer?</p>
+<ol>
+<li><code>01:44:00</code> =&gt; Doador cancela a Claim 1.</li>
+<li><code>01:44:02</code> =&gt; Doador cancela a Claim 2.</li>
+<li>delay</li>
+<li><code>01:44:03</code> =&gt; alteração da Claim <strong>2</strong> passa a ser refletida na consulta, com valor de <code>LastModified</code> igual a <code>01:44:02</code>.</li>
+<li><code>01:44:05</code> =&gt; alteração da Claim <strong>1</strong> passa a ser refletida na consulta, com valor de <code>LastModified</code> igual a <code>01:44:00</code>.</li>
+</ol>
+<p>Obrigado</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/21</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/21</guid>
+      <dc:creator><![CDATA[jgslima]]></dc:creator>
+      <pubDate>Tue, 20 Apr 2021 21:03:51 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Serviço para abrir pedido de portabilidade/reivindicação retorna erro 404]]></title>
+      <description><![CDATA[<p>Olá!! No serviço para abrir um pedido de portabilidade/reivindicação, pode ser retornado o status de erro <strong>404</strong>?
+Pelo Redoc, os erros mapeados são os abaixo.</p>
+<p><img src="https://user-images.githubusercontent.com/5355541/98549540-ae901f00-2279-11eb-9864-8f9a328832ae.png" alt="image"></p>
+<p>Mas estamos recebendo um response com o erro <strong>404</strong>. </p>
+<p><code>&lt;ds:X509SerialNumber&gt;66906355272994040667436154809&lt;/ds:X509SerialNumber&gt;&lt;/ds:X509IssuerSerial&gt;&lt;/ds:X509Data&gt;&lt;/ds:KeyInfo&gt;&lt;/ds:Signature&gt;&lt;type&gt;https://dict.pi.rsfn.net.br/api/v1/error/ClaimKeyNotFound&lt;/type&gt;&lt;title&gt;Not Found&lt;/title&gt;&lt;status&gt;404&lt;/status&gt;&lt;detail&gt;Entry associated with given key does not exist&lt;/detail&gt;&lt;correlationId&gt;f9d73c535297bc3a1d720d797e6fc10c&lt;/correlationId&gt;&lt;/problem&gt;</code>  </p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/13</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/13</guid>
+      <dc:creator><![CDATA[monise]]></dc:creator>
+      <pubDate>Mon, 09 Nov 2020 13:53:39 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[[PROPOSTA] Adição de parâmetro role para filtragem na operação de listClaims]]></title>
+      <description><![CDATA[<p><strong>Motivação</strong>: Os filtros <em>isDonor</em>, <em>isClaimer</em> da operação de <a href="https://www.bcb.gov.br/content/estabilidadefinanceira/pix/API_do_DICT-v1.0.html#operation/listClaims">listClaims</a> não tem comportamento muito claro para algumas combinações de valores. Além disso, a especificação não deixa bem definido se esses filtros se combinam como conjunção (AND) ou como disjunção (OR). Por fim, há ainda que se considerar o comportamento quando o valor de um desses parâmetros não é passado.
+Essa complexidade toda deixa a API menos intuitiva e mais propensa a erros de implementação.</p>
+<p><strong>Proposta</strong>: Adicionar um parâmetro <strong>role</strong>, que poderia assumir os valores DONOR ou CLAIMER, na filtragem de listClaims.
+Para manter a compatibilidade da API, os parâmetros <em>isDonor</em> e <em>isClaimer</em> continuariam a existir e teriam sua definição com base em uma equivalência ao parâmetro role. Algumas combinações &quot;estranhas&quot; (não utilizadas na prática) passariam a ser inválidas.</p>
+<p>A tabela abaixo resume o comportamento atual da API e o comportamento com a nova definição. </p>
+<table>
+<thead>
+<tr>
+<th>isDonor</th>
+<th>IsClaimer</th>
+<th>Comportamento atual</th>
+<th>Nova definição em termos de &quot;role&quot;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>True</td>
+<td>True</td>
+<td>Retorna claims em   que participante é doador OU reivindicador</td>
+<td>Inválido</td>
+</tr>
+<tr>
+<td>True</td>
+<td></td>
+<td>Retorna claims em   que participante é doador</td>
+<td>role=DONOR</td>
+</tr>
+<tr>
+<td>True</td>
+<td>False</td>
+<td>Retorna claims em   que participante é doador</td>
+<td>role=DONOR</td>
+</tr>
+<tr>
+<td>False</td>
+<td>True</td>
+<td>Retorna claims em   que participante é reivindicador</td>
+<td>role=CLAIMER</td>
+</tr>
+<tr>
+<td>False</td>
+<td></td>
+<td>Retorna claims em   que participante é reivindicador</td>
+<td>role=CLAIMER</td>
+</tr>
+<tr>
+<td>False</td>
+<td>False</td>
+<td>Retorna claims em   que participante é doador OU reivindicador</td>
+<td>Inválido!</td>
+</tr>
+<tr>
+<td></td>
+<td>True</td>
+<td>Retorna claims em   que participante é reivindicador</td>
+<td>role=CLAIMER</td>
+</tr>
+<tr>
+<td></td>
+<td>False</td>
+<td>Retorna claims em   que participante é reivindicador <a href="https://github.com/bacen/pix-perguntas-e-respostas/issues/306">(bug!)</a></td>
+<td>role=DONOR</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>Retorna claims em   que participante é doador OU reivindicador</td>
+<td>role=</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Perguntas</strong>:</p>
+<ul>
+<li>Essa evolução da API a deixaria mais intuitiva ?</li>
+<li>Uma futura remoção dos parâmetros isDonor e isClaimer, com a substituição pelo parâmetro role, teria impacto muito grande de implementação no seu participante?</li>
+</ul>
+<p><strong>Proposta complementar</strong>: Tornar o parâmetro <strong>role</strong> obrigatório.</p>
+<p>A fim de simplificar o desenho do backend do DICT, melhorar o desempenho da query e diminuir o consumo de recursos no SGBD, estamos considerando a alternativa de tornar o parâmetro role obrigatório.</p>
+<p><strong>Perguntas</strong>:</p>
+<p>Tornar esse parâmetro obrigatório teria impacto de implementação muito grande no seu participante ?</p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/11</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/11</guid>
+      <dc:creator><![CDATA[luizlaydner]]></dc:creator>
+      <pubDate>Fri, 16 Oct 2020 15:32:43 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[[info] - Swagger - Unofficial API Swagger]]></title>
+      <description><![CDATA[<p>Caros a título de informação documentação em formato Swagger - Unofficial API Swagger</p>
+<p><a href="https://github.com/entria/awesome-pix#pix-api">https://github.com/entria/awesome-pix#pix-api</a></p>
+]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/7</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/7</guid>
+      <dc:creator><![CDATA[rturk]]></dc:creator>
+      <pubDate>Tue, 01 Sep 2020 15:58:41 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Geração de Arquivo CID com status AVAILABLE mas ao tentar fazer download do arquivo, retorna 404.]]></title>
+      <description><![CDATA[<p>Solicitamos a geração de arquivos CID. Recebemos o status AVAILABLE para o arquivo abaixo:
+<a href="https://arq-h.pi.rsfn.net.br/api/v1/download/01181521/cidsetfile/01181521_EMAIL_14241_2020-08-27T17:01:08.273Z.txt">https://arq-h.pi.rsfn.net.br/api/v1/download/01181521/cidsetfile/01181521_EMAIL_14241_2020-08-27T17:01:08.273Z.txt</a></p>
+<p>Segue o XML de retorno:</p>
+<pre><code>&lt;GetCidSetFileResponse&gt;&lt;ds:Signature xmlns:ds=&quot;http://www.w3.org/2000/09/xmldsig#&quot;&gt;&lt;ds:SignedInfo&gt;&lt;ds:CanonicalizationMethod Algorithm=&quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot;/&gt;&lt;ds:SignatureMethod Algorithm=&quot;http://www.w3.org/2001/04/xmldsig-more#rsa-sha256&quot;/&gt;&lt;ds:Reference URI=&quot;#key-info-id&quot;&gt;&lt;ds:Transforms&gt;&lt;ds:Transform Algorithm=&quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot;/&gt;&lt;/ds:Transforms&gt;&lt;ds:DigestMethod Algorithm=&quot;http://www.w3.org/2001/04/xmlenc#sha256&quot;/&gt;&lt;ds:DigestValue&gt;pHDbsKklpORCx1ABvvlCOZIg/+2QjO90lesGqdGitbE=&lt;/ds:DigestValue&gt;&lt;/ds:Reference&gt;&lt;ds:Reference URI=&quot;&quot;&gt;&lt;ds:Transforms&gt;&lt;ds:Transform Algorithm=&quot;http://www.w3.org/2000/09/xmldsig#enveloped-signature&quot;/&gt;&lt;ds:Transform Algorithm=&quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot;/&gt;&lt;/ds:Transforms&gt;&lt;ds:DigestMethod Algorithm=&quot;http://www.w3.org/2001/04/xmlenc#sha256&quot;/&gt;&lt;ds:DigestValue&gt;Fknk1JyQD/Pz0l7Mw5DDk7NtOUolq1VF4i9yDHQQ4O4=&lt;/ds:DigestValue&gt;&lt;/ds:Reference&gt;&lt;/ds:SignedInfo&gt;&lt;ds:SignatureValue&gt;k8c/w0vI8O8Kufy0QUeD7DJywfIyrGKuPwI/m2AUpFThZQssZWCX0scZazqC92zrXiBwSJOS6zEl
+rZ+Z7/Al8+lqKgFCQ0n2RDu9L6J4wHDD0YMGtsHJSJZhXLiyOg2gCi70Lc+OUVKe5LgSwSjqIdgf
+YTuIQH0ksQBcugzKInFyr4NvH4LW1EyPzlIDcpBBZyKI8dUvb98VCiEKD2fFKaMaAQnj4dukylBS
+Hxubpi2nEmDNLG+BxHb9GjOVX4kBX+W7Gml4360hZtH+yC8CWpp20JXjLsCQMJYjrceBNjDAIbla
+epcBKslV2YMGeuDzCXOSXsjbADNzg0JEmm0QEQ==&lt;/ds:SignatureValue&gt;&lt;ds:KeyInfo Id=&quot;key-info-id&quot;&gt;&lt;ds:X509Data&gt;&lt;ds:X509IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=Autoridade Certificadora do SERPRO Final SSL, OU=Servico Federal de Processamento de Dados - SERPRO, OU=CSPB-1, O=ICP-Brasil, C=BR&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;66906355272994040667436154809&lt;/ds:X509SerialNumber&gt;&lt;/ds:X509IssuerSerial&gt;&lt;/ds:X509Data&gt;&lt;/ds:KeyInfo&gt;&lt;/ds:Signature&gt;&lt;CidSetFile&gt;&lt;Id&gt;14241&lt;/Id&gt;&lt;Status&gt;AVAILABLE&lt;/Status&gt;&lt;Participant&gt;01181521&lt;/Participant&gt;&lt;KeyType&gt;EMAIL&lt;/KeyType&gt;&lt;RequestTime&gt;2020-08-27T17:01:08.256Z&lt;/RequestTime&gt;&lt;CreationTime&gt;2020-08-27T17:01:08.734Z&lt;/CreationTime&gt;&lt;Url&gt;https://arq-h.pi.rsfn.net.br/api/v1/download/01181521/cidsetfile/01181521_EMAIL_14241_2020-08-27T17:01:08.273Z.txt&lt;/Url&gt;&lt;Bytes&gt;12090&lt;/Bytes&gt;&lt;Sha256&gt;9748064e9f7d47d54f4ae4a0fcf2d519c686204a056d5b60303c274d1bba0f06&lt;/Sha256&gt;&lt;/CidSetFile&gt;&lt;/GetCidSetFileResponse&gt;
+</code></pre><p>Segue o retorno para o GET da URL:</p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;problem xmlns=&quot;urn:ietf:rfc:7807&quot;&gt;
+    &lt;type&gt;https://icom.pi.rsfn.net.br/api/v1/error/notFound&lt;/type&gt;
+    &lt;title&gt;Não encontrado&lt;/title&gt;
+&lt;/problem&gt;
+</code></pre>]]></description>
+      <link>https://github.com/bacen/pix-dict-api/issues/6</link>
+      <guid isPermaLink="true">https://github.com/bacen/pix-dict-api/issues/6</guid>
+      <dc:creator><![CDATA[morellibmv]]></dc:creator>
+      <pubDate>Thu, 27 Aug 2020 17:46:31 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

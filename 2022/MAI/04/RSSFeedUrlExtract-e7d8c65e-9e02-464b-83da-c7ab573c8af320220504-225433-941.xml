@@ -1,0 +1,2308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.trendmicro.com/~d/styles/itemcontent.css"?>
+<rss xmlns:trendmicro="https://www.trendmicro.com" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" version="2.0">
+  <channel>
+    <title>Trend Micro Research, News, Perspectives</title>
+    <description>
+    </description>
+    <link>https://www.trendmicro.com/en_us/research.html</link>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.trendmicro.com/TrendMicroResearch" />
+    <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="trendmicroresearch" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/</creativeCommons:license>
+    <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+    <feedburner:emailServiceId xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">TrendMicroResearch</feedburner:emailServiceId>
+    <feedburner:feedburnerHostname xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">https://feedburner.google.com</feedburner:feedburnerHostname>
+    <item>
+      <title>AvosLocker Ransomware Variant Abuses Driver File to Disable Anti-Virus, Scans for Log4shell</title>
+      <description>We found an AvosLocker ransomware variant using a legitimate anti-virus component to disable detection and blocking solutions.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=AQhItPOK5UE:FygbbTzchvs:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/e/avoslocker-ransomware-variant-abuses-driver-file-to-disable-anti-Virus-scans-log4shell.html</link>
+      <pubDate>Mon, 2 May 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Christoper Ordonez</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Alvin Nieto</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Christoper Ordonez</dc:creator>
+      <dc:creator>Alvin Nieto</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/e/avoslocker-ransomware-variant-abuses-driver-file-to-disable-anti-virus-scans-for-log4shell/cover-avoslocker-disables-defense-with-driver-file-scans-log4shell.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>New APT Group Earth Berberoka Targets Gambling Websites With Old and New Malware</title>
+      <description>We recently found a new advanced persistent threat (APT) group that we have dubbed Earth Berberoka (aka GamblingPuppet). This APT group targets gambling websites on Windows, macOS, and Linux platforms using old and new malware families.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=jf7Bc2cVnm4:-mIAB2zB4aw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/new-apt-group-earth-berberoka-targets-gambling-websites-with-old.html</link>
+      <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Daniel Lunghi</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Jaromir Horejsi</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Daniel Lunghi</dc:creator>
+      <dc:creator>Jaromir Horejsi</dc:creator>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/new-apt-group-earth-berberoka-targets-gambling-websites-with-old-and-new-malware/Earth%20Berberoka%20Targets%20Gambling%20Websites_641.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Trend Micro Partnering with Bit Discovery</title>
+      <description>We’re excited to partner with Bit Discovery, bringing attack surface discovery capabilities to the Trend Micro One platform, providing ongoing visibility to internal assets (devices, identities, applications) but also external, internet-facing assets.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=IebwW7WV46Y:ueotTin3084:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/attack-surface-management-partner.html</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/partnership-with-bit-discovery-for-attack-surface-management/bit-discovery-helps-TM-attack-surface-rnp-tn.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>How to better manage your digital attack surface risk</title>
+      <description>As organizations shift to the cloud in droves, their digital attack surface continues to rapidly expand. And with the number of threats rapidly increasing, security leaders need to enhance their attack surface risk management. We explore how a unified cybersecurity platform can help improve your defenses against cyber risk in comparison to point products.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=kSgK0BrVTWY:0sTAuou00Ac:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/attack-surface-management.html</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/how-to-better-manage-your-digital-attack-surface-risk/tmo-641x350-01.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Analyzing Attempts to Exploit the Spring4Shell Vulnerability CVE-2022-22965 to Deploy Cryptocurrency Miners</title>
+      <description>Recently, we observed attempts to exploit the Spring4Shell vulnerability — a remote code execution bug, assigned as CVE-2022-22965 —  by malicious actors to deploy cryptocurrency miners.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=39SHHiaHOMo:y1xYiiTukWw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/spring4shell-exploited-to-deploy-cryptocurrency-miners.html</link>
+      <pubDate>Wed, 20 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Nitesh Surana</name>
+          <title>Threat Research Engineer</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ashish Verma</name>
+          <title>Vulnerability Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Nitesh Surana</dc:creator>
+      <dc:creator>Ashish Verma</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/spring4shell-vulnerability-cve-2022-22965-exploited-to-deploy-cryptocurrency-miners/spring4shell-641.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Critically Underrated: Studying the Data Distribution Service (DDS) Protocol</title>
+      <description>Researchers from Trend Micro Research, TXOne, ADLINK, Alias Robotics, and ZDI looked into the Data Distribution Service (DDS) standard and its implementations from a security angle. The full findings of this research will be presented in the S4X22 Conference in April 2022.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=Ixn3Sq_FAbQ:rKAUl6oxuSk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/critically-underrated-studying-data-distribution-service-DDS-protocol.html</link>
+      <pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/critically-underrated-studying-the-data-distribution-service-dds-protocol/critically-underrated-studying-the-dds-protocol.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>An Investigation of the BlackCat Ransomware via Trend Micro Vision One</title>
+      <description>We recently investigated a case related to the BlackCat ransomware group using the Trend Micro Vision One™ platform, which comes with extended detection and response (XDR) capabilities. BlackCat (aka AlphaVM or AlphaV) is a ransomware family created in the Rust programming language and operated under a ransomware-as-a-service (RaaS) model.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=ybJFptGXkmQ:I0NgRCb1O6s:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/an-investigation-of-the-blackcat-ransomware.html</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Lucas Silva</name>
+          <title>Incident Response Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Leandro Froes</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Lucas Silva</dc:creator>
+      <dc:creator>Leandro Froes</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/an-investigation-of-the-blackcat-ransomware-via-trend-micro-vision-one/blackcat-641.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Cyber Risk Index (2H’ 2021): An Assessment for Security Leaders</title>
+      <description>We take a look at our latest Cyber Risk Index (CRI) findings across North America, Europe, Asia-Pacific, and Latin/South America, to help security leaders better understand, communicate, and address their enterprise’s cyber risk.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=k3BwjjEPFOs:dOnUi7a-Alc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/cyber-risk-index-2H-2021-security-assessment.html</link>
+      <pubDate>Mon, 18 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/cyber-risk-index-for-cisos/img-ciso-rnp-cyber-risk-index-blog.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>CVE-2022-22965: Analyzing the Exploitation of Spring4Shell Vulnerability in Weaponizing and Executing the Mirai Botnet Malware</title>
+      <description>We discovered active exploitation of a vulnerability in the Spring Framework designated as CVE-2022-22965 that allows malicious actors to download the Mirai botnet malware.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=Iro7ZITGQJ4:OvpFj2cCJSc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/cve-2022-22965-analyzing-the-exploitation-of-spring4shell-vulner.html</link>
+      <pubDate>Fri, 8 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Deep Patel</name>
+          <title>Threat Research Engineer</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Nitesh Surana</name>
+          <title>Threat Research Engineer</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ashish Verma</name>
+          <title>Vulnerability Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Deep Patel</dc:creator>
+      <dc:creator>Nitesh Surana</dc:creator>
+      <dc:creator>Ashish Verma</dc:creator>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/spring4shell/spring4shell-tb.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>TM Named CWS "Strong Performer" by Research Firm</title>
+      <description>Trend Micro was named a strong performer in the Forrester Wave™: Cloud Workload Security, Q1 2022, achieving the highest possible score in the market presence category. That said, Trend Micro Cloud One secures far more than workloads and containers.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=tTAo4fAfDmA:U093eu_2Utk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/cloud-workload-security-cws-forrester-wave-2022.html</link>
+      <pubDate>Thu, 7 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/research-trend-micro-a-strong-performer-in-cws/rnp-forrester-wave.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>An In-Depth Look at ICS Vulnerabilities Part 3</title>
+      <description>In our series wrap-up, we look into CVEs that affect critical manufacturing based on MITRE’s matrix. We also explore common ICS-affecting vulnerabilities identified in 2021.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=ZL0T_0HDraE:cG2kfiV_91A:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/an-in-depth-look-at-ics-vulnerabilities-part-3.html</link>
+      <pubDate>Wed, 6 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/an-in-depth-look-at-ics-vulnerabilities-part-3/rnp-ics-vulnerabilities-image-3.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Detecting Exploitation of Local Vulnerabilities Through Trend Micro Vision One™ and Cloud One™</title>
+      <description>We provide a guide to detecting Dirty Pipe, a Linux kernel vulnerability tracked as CVE-2022-0847. &lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=nGJwjGuI2Ng:R8X3Iyus4aM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/detecting-exploitation-of-local-vulnerabilities-through-trend-mi.html</link>
+      <pubDate>Wed, 6 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Sunil Bharti</name>
+          <title>Senior Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Sunil Bharti</dc:creator>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/detecting-exploitation-of-local-vulnerabilities-through-trend-micro-vision-one-and-cloud-one/RESIZED%20Dirty%20Pipe.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Thwarting Loaders: From SocGholish to BLISTER’s LockBit Payload</title>
+      <description>Both BLISTER and SocGholish are loaders known for their evasion tactics. Our report details what these loaders are capable of and our investigation into a campaign that uses both to deliver the LockBit ransomware.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=wSWWu9V5wNE:VbtBg2UJyBI:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/Thwarting-Loaders-From-SocGholish-to-BLISTERs-LockBit-Payload.html</link>
+      <pubDate>Tue, 5 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Earle Maui Earnshaw</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Mohamed Fahmy</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ian Kenefick</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ryan Maglaque</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Abdelrhman Sharshar</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Lucas Silva</name>
+          <title>Threat Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Earle Maui Earnshaw</dc:creator>
+      <dc:creator>Mohamed Fahmy</dc:creator>
+      <dc:creator>Ian Kenefick</dc:creator>
+      <dc:creator>Ryan Maglaque</dc:creator>
+      <dc:creator>Abdelrhman Sharshar</dc:creator>
+      <dc:creator>Lucas Silva</dc:creator>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/thwarting-loaders-from-socgholish-to-blisters-lockbit-payload/thwarting-loaders-from-socgholish-to-blisters-lockBit-payload.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>An In-Depth Look at ICS Vulnerabilities Part 2</title>
+      <description>In part two of our three-part series, we continue to analyze vulnerabilities using MITRE ATT&amp;CK. We also look into the sectors affected and their risk levels.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=zaECe2FEqBc:o24cj71Ip48:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/an-in-depth-look-at-ics-vulnerabilities-part-2.html</link>
+      <pubDate>Mon, 4 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/an-in-depth-look-at-ics-vulnerabilities-part-2/rnp-ics-vulnerabilities-image-2.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>MITRE Engenuity ATT&amp;CK Tests</title>
+      <description>Trend Micro Vision One achieved a protection score of 100% in this year’s evaluation, proving once again that it is an invaluable tool that provides higher confidence detections for security operations teams.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=mnJ2lTVvqLo:nUravJOiG28:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/mitre-engenuity-attack-tests.html</link>
+      <pubDate>Mon, 4 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/mitre-engenuity-attack-tests/mitre-engenuity-blog-image.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>MacOS SUHelper Root Privilege Escalation Vulnerability: A Deep Dive Into CVE-2022-22639 </title>
+      <description>We discovered a now-patched vulnerability in macOS SUHelper, designated as CVE-2022-22639. If exploited, the vulnerability could allow malicious actors to gain root privilege escalation.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=Qu4NI8xGnjI:YvAYCqsyEQw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/macos-suhelper-root-privilege-escalation-vulnerability-a-deep-di.html</link>
+      <pubDate>Mon, 4 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Mickey Jin</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Mickey Jin</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/d/suhelper/suhelper-cover.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>This Week in Security News - April 1, 2022</title>
+      <description>Probing the activities of cloud-based cryptocurrency-mining groups, and Lapsus$ ‘back from vacation’&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=Mlk9W5DaHG4:JMvj2-HCoSE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/d/this-week-in-security-news-april-1-2022.html</link>
+      <pubDate>Fri, 1 Apr 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>An In-Depth Look at ICS Vulnerabilities Part 1</title>
+      <description>In this blog series our team examined various ICS vulnerabilities using the MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&amp;CK) for ICS.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=6d47-O1WQvI:Qc4_YvPvQFA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/an-in-depth-look-at-ics-vulnerabilities-part-1.html</link>
+      <pubDate>Wed, 30 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/an-in-depth-look-at-ics-vulnerabilities-part-1/rnp-%20ics-vulnerabilities-image.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Why Organizations Should Take Cloud-Based Cryptocurrency-Mining Attacks Seriously</title>
+      <description>One of the recent trends we’ve observed is the rise of cloud-based cryptocurrency-mining groups that exploit cloud resources, specifically the CPU power of deployed cloud instances, to mine cryptocurrency.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=_ADx9VP9U1Q:v7THwrH8aYU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/organizations-should-take-cloud-cryptomining-attacks-seriously.html</link>
+      <pubDate>Tue, 29 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Mayra Rosario Fuentes</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Stephen Hilt</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Robert McArdle</name>
+          <title>Director, Threat Research</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Lord Alfred Remorin</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Mayra Rosario Fuentes</dc:creator>
+      <dc:creator>Stephen Hilt</dc:creator>
+      <dc:creator>Robert McArdle</dc:creator>
+      <dc:creator>Lord Alfred Remorin</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/why-organizations-should-take-cloud-based-cryptocurrency-mining-attacks-seriously/cloud-miners.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>This Week in Security News - March 25, 2022</title>
+      <description>An investigation of cryptocurrency scams and schemes, and Lapsus$: Oxford teen accused of being multi-millionaire cyber-criminal&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=bWPWao5vWyY:VdSbZRUt424:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/this-week-in-security-news-march-25-2022.html</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Purple Fox Uses New Arrival Vector and Improves Malware Arsenal</title>
+      <description>Purple Fox is an old threat that has been making waves since 2018. This most recent investigation covers Purple Fox’s new arrival vector and early access loaders. Users’ machines seem to be targeted with malicious payloads masquerading as legitimate application installers.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=5yo_Z3jW2L4:10SD8gNO1zg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/purple-fox-uses-new-arrival-vector-and-improves-malware-arsenal.html</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Sherif Magdy</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Abdelrhman Sharshar</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Jay Yaneza</name>
+          <title>Director, MDR Operations</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Sherif Magdy</dc:creator>
+      <dc:creator>Abdelrhman Sharshar</dc:creator>
+      <dc:creator>Jay Yaneza</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/purple-fox-uses-new-arrival-vector-and-improves-malware-arsenal/Purple%20Fox%20banner.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>An Investigation of Cryptocurrency Scams and Schemes</title>
+      <description>We provide an overview of the diverse range of NFT- and cryptocurrency-related scams that malicious actors use to steal assets worldwide.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=nQwi3Wi7n-I:zvfJfrPU2PM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/an-investigation-of-cryptocurrency-scams-and-schemes.html</link>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Cifer Fang</name>
+          <title>Mobile Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Vladimir Kropotov</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Loseway Lu</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Qi Sun</name>
+          <title>Mobile Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Fyodor Yarochkin</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Cifer Fang</dc:creator>
+      <dc:creator>Vladimir Kropotov</dc:creator>
+      <dc:creator>Loseway Lu</dc:creator>
+      <dc:creator>Qi Sun</dc:creator>
+      <dc:creator>Fyodor Yarochkin</dc:creator>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/an-investigation-of-cryptocurrency-scams-and-schemes/cryptocurrency_scams_schemes.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>This Week in Security News - March 18, 2022</title>
+      <description>Global Cyberattacks: Navigating New Frontiers: Trend Micro 2021 Annual Cybersecurity Report, and US Has 'Significant' Cyber Vulnerabilities, But A Sweeping Russian Cyberattack Is Unlikely&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=xccodPVP-Y0:hU7CIzjivTo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/this-week-in-security-news-march-18-2022.html</link>
+      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Cyclops Blink Sets Sights on Asus Routers  </title>
+      <description>This report discusses the technical capabilities of this Cyclops Blink malware variant that targets ASUS routers and includes a list of more than 150 current and historical command-and-control (C&amp;C) servers of the Cyclops Blink botnet.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=GcAby0NWaAw:xJ4_pcRrgpg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/cyclops-blink-sets-sights-on-asus-routers--.html</link>
+      <pubDate>Thu, 17 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Feike Hacquebord</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Stephen Hilt</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Fernando Merces</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Feike Hacquebord</dc:creator>
+      <dc:creator>Stephen Hilt</dc:creator>
+      <dc:creator>Fernando Merces</dc:creator>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/cyclops-blink-sets-sights-on-asus-routers/Cyclops%20Blink%20Sets%20Sights%20on%20ASUS%20Routers_641.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Oil/Gas Cybersecurity: Halt Critical Operation Attacks</title>
+      <description>Trend Micro has released a technical report on how the oil and gas industry can gain situational awareness across OT, IT and CT.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=0SIT1cJ8w70:RqKG5Dtlhrk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/oil-gas-cybersecurity-critical-operation-attacks.html</link>
+      <pubDate>Tue, 15 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Kazuhisa Tagaya</name>
+          <title>Security Expert</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Kazuhisa Tagaya</dc:creator>
+      <category>Trend Micro Research : Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/oil-gas-cybersecurity--halt-critical-operation-attacks/oil_gas_utilities_image.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Utility Cybersecurity: Situational Awareness Cuts Risk</title>
+      <description>Trend Micro has released a technical report on how the electric utility industry can gain situational awareness across entire network.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=P7wpV1RuwWw:tyeLkOwunW8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/cyber-awareness-utility-cybersecurity.html</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Kazuhisa Tagaya</name>
+          <title>Security Expert</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Kazuhisa Tagaya</dc:creator>
+      <category>Trend Micro Research : Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/utility-cybersecurity--situational-awareness-cuts-risk/electric_utilities_image.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Will Russian Oil Ban Spur Increased Cyber-Attacks</title>
+      <description>President Biden banned the sale of Russian oil to the United States to deprive the Putin regime of the economic resources needed to wage war. But this may put US companies in the firing line of cyber-attacks from the east.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=90adbpmI22M:vqfDICqiQLA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/ban-on-russian-oil-possible-cyber-attacks.html</link>
+      <pubDate>Wed, 9 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Ed Cabrera</name>
+          <title>Chief Cybersecurity Officer</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Ed Cabrera</dc:creator>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Network</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/ban-on-russian-oil-possible-cyber-attacks/ukraine-blog-image-01.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>New Nokoyawa Ransomware Possibly Related to Hive </title>
+      <description>In March 2022, we came across evidence that another, relatively unknown, ransomware known as Nokoyawa is likely connected with Hive, as the two families share some striking similarities in their attack chain, from the tools used to the order in which they execute various steps.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=-E_7QvqY8V0:qI3kybbxVlY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/nokoyawa-ransomware-possibly-related-to-hive-.html</link>
+      <pubDate>Wed, 9 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Don Ovid Ladores</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ian Kenefick</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Earle Maui Earnshaw</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Don Ovid Ladores</dc:creator>
+      <dc:creator>Ian Kenefick</dc:creator>
+      <dc:creator>Earle Maui Earnshaw</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/new-nokoyawa-ransomware-possibly-related-to-hive-/nokoyawa-641.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>New RURansom Wiper Targets Russia</title>
+      <description>We analyze RURansom, a malware variant discovered to be targeting Russia. Originally suspected to be a ransomware because of its name, analysis reveals RURansom to be a wiper.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=uqnK1l9_PJM:JpKZn4otj5I:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/new-ruransom-wiper-targets-russia.html</link>
+      <pubDate>Tue, 8 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jaromir Horejsi</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Cedric Pernet</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jaromir Horejsi</dc:creator>
+      <dc:creator>Cedric Pernet</dc:creator>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Research</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/new-ruransom-wiper-targets-russia/new_ruransom_wiper_targets_russia.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News March 4, 2022</title>
+      <description>Global Cyberattacks: How to manage risk in times of chaos, and Ukraine-Russia cyber warzone splits cyber underground&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=TKgEQHKqFUg:Oaga7mpHli4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/this-week-in-security-news-march-4-2022.html</link>
+      <pubDate>Fri, 4 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Cyberattacks are Prominent in the Russia-Ukraine Conflict</title>
+      <description>As Russia invaded Ukraine, our researchers have also observed a number of alleged cyberattacks perpetrated by different groups. Our research teams have verified and validated internal data and external reports to provide accurate information that can be used to strengthen defenses against these attacks. We will continuously update this blog with validated threats as more events unfold.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=iwX6eb1wTmg:N0VME_zV51s:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/cyberattacks-are-prominent-in-the-russia-ukraine-conflict.html</link>
+      <pubDate>Thu, 3 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Trend Micro Research</name>
+          <title>Trend Micro</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Trend Micro Research</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Reports</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/cyberattacks-are-prominent-in-the-russia-ukraine-conflict/Main-Ukraine-Russia-conflic.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>SMS PVA Part 3: Countries Most Impacted by Service</title>
+      <description>In this final part, we discuss the countries most affected by SMS PVA services as well as lay out several recommendations to mitigate the risks of such threats.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=744r_SPRg5Q:NI4s6nod56I:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/c/sms-pva-countries-part-3.html</link>
+      <pubDate>Thu, 3 Mar 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/c/sms-pva-a-new-underground-service-used-by-cybercrime-actors-part-3/sms-pv-3.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>SMS PVA Part 2: Underground Service for Cybercriminals</title>
+      <description>In part two of this blog entry, we further investigate the innings of smspva.net and discuss the impact and implications of such services.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=NXcZJrSyYco:ReiAlxXPebQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/sms-pva-cybercriminals-part-2.html</link>
+      <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/sms-pva-a-new-underground-service-used-by-cybercrime-actors-part-2/sms-pv-2.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - February 25, 2022</title>
+      <description>Recent cyberattacks increasingly target open-source web servers, and US officials tell businesses to watch for potential ransomware attacks after Biden announces Russia sanctions&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=rT5j70w0aCk:1sozXn9Al38:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/this-week-in-security-news-february-25-2022.html</link>
+      <pubDate>Fri, 25 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Global Cyberattacks Tied to the Russian Invasion of Ukraine</title>
+      <description>Cyber-risk management and security fundamentals are the key to cyber-resilience. 5 best practices to manage your cyber risk.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=MBQng6vqEjE:BriC5OteAhM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/global-cyberattacks-cyber-risk.html</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/managing-cyber-risk-in-a-time-of-uncertainty/managing-cyber-risk-in-time-of-uncertainty.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Recent Cyberattacks Target Open-source Web Servers</title>
+      <description>Malicious actors take advantage of people’s reliance on web servers to perform attacks like remote code execution, access control bypass, denial of service, or even cyberjacking the victim servers to mine cryptocurrencies.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=yYDIte6Kozo:hsUbsT7gH6A:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/recent-cyberattacks-open-source-web-servers.html</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Security Strategies</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/cyberattacks-increasingly-target-open-source-web-servers/open-web-servers-rnp.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>SMS PVA Part 1: Underground Service for Cybercriminals</title>
+      <description>In this three-part blog entry, our team explored SMS PVA, a service built on top of a global bot network that compromises smartphone cybersecurity as we know it.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=ZlKz-7AKhLE:cJCoPPFT084:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/sms-pva-cybercriminals-part-1.html</link>
+      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/sms-pva-a-new-underground-service-used-by-cybercrime-actors-part-1/sms-pv-1.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Latest Mac Coinminer Utilizes Open-Source Binaries and the I2P Network</title>
+      <description>A Mac coinminer has been spotted using open-source components in its routine and the I2P Network to hide its traffic. We dive into old iterations of this malware, and also analyze the newest version.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=XnTBV-IvtgA:VUFCjoSXOdo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/latest-mac-coinminer-utilizes-open-source-binaries-and-the-i2p-network.html</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Luis Magisa</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Luis Magisa</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/latest-mac-coinminer-utilizes-open-source-binaries-and-the-i2p-network/Mac%20coinminer%20banner.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - February 18, 2022</title>
+      <description>SMS PVA services' use of infected Android phones reveals flaws in SMS verification, and 'Russian state-sponsored cyber actors' cited in hacks of U.S. defense contractors&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=TiKD87zyI_g:NuVhZw9_bJQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/this-week-in-security-news-february-18-2022.html</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Ukraine Cyberattack 2022: Geopolitical Cybersecurity</title>
+      <description>As geopolitical tensions rise, so does pressure to enhance corporate cyber-resilience&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=GJarNOWfiFY:IoHsTsrQ6J8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/ukraine-cyberattack-2022.html</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/why-cybersecurity-matters-in-geopolitics/why-cybersecurity-matters-in-geopolitics.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>SMS PVA Services' Use of Infected Android Phones Reveals Flaws in SMS Verification</title>
+      <description>Certain SMS PVA services allow their customers to create disposable user profiles or register multiple accounts on many popular online platforms. These services can be abused by criminals to conduct fraud or other malicious activities.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=C4iAAvpr4HM:Er9uyyHE3qg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/sms-pva-services-use-of-infected-android-phones-reveals-flaws-in-sms-verification.html</link>
+      <pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Zhengyu Dong</name>
+          <title>Mobile Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ryan Flores</name>
+          <title>Sr. Manager, Threat Research</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Vladimir Kropotov</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Paul Pajares</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Fyodor Yarochkin</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Zhengyu Dong</dc:creator>
+      <dc:creator>Ryan Flores</dc:creator>
+      <dc:creator>Vladimir Kropotov</dc:creator>
+      <dc:creator>Paul Pajares</dc:creator>
+      <dc:creator>Fyodor Yarochkin</dc:creator>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/sms-pva-services-use-of-infected-android-phones-reveals-flaws-in-sms-verification/SMS%20pva%20services.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Security Automation with Vision One &amp; Palo Alto</title>
+      <description>Trend Micro Vision One™ integrates with Palo Alto Networks Cortex™ XSOAR to drive automated response to incidents uncovered by Vision One.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=qP5tPuI6NnE:LvQMnmJ8Zo8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/security-automation.html</link>
+      <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/security-automation-with-vision-one-palo-alto/tm-palo-alto-networks.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>This Week in Security News - February 11, 2022</title>
+      <description>Hidden scams in malicious scans, and feds arrest couple who allegedly laundered $1 Billion in stolen bitcoins&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=tKYlKzLVNbY:nnVj6vQk7T4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/this-week-in-security-news-february-11-2022.html</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Detecting PwnKit (CVE-2021-4034) Using Trend Micro™ Vision One™ and Cloud One™</title>
+      <description>This blog discusses how CVE-2021-4034 can be detected and blocked using Trend Micro™ Vision One™ and Trend Micro Cloud One™.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=TWR4FeEaCDs:IFS94QWc4hk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/detecting-pwnkit-cve20214034-using-trend-micro-vision-one-cloud-one.html</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Sunil Bharti</name>
+          <title>Senior Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Nitesh Surana</name>
+          <title>Threat Research Engineer</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Sunil Bharti</dc:creator>
+      <dc:creator>Nitesh Surana</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/detecting-pwnkit-cve-2021-4034-using-trend-micro-vision-one-and-cloud-one/cover-detecting-pwnkit-cve20214034-trend-micro-vision-one-cloud-one.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - February 4, 2022</title>
+      <description>Welcome to our weekly roundup, where we share what you need to know about cybersecurity news and events that happened over the past few days. Learn about the Samba vulnerability discovered by Trend Micro the White House’s warning of Russian hacks as tensions with Ukraine grow. &lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=JryDvWXOTKA:ZvJVs6LrIKc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/this-week-in-security-news-february-4-2022.html</link>
+      <pubDate>Fri, 4 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Why Cyber Change Outpaces Boardroom Engagement</title>
+      <description>Organizations must avoid the mistakes of the past and build a security-by-design culture that permeates enterprise-wide.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=edIaauEwI_I:b5gEQrbQAwY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/why-cyber-change-outpaces-boardroom-engagement.html</link>
+      <pubDate>Fri, 4 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Bharat Mistry</name>
+          <title>Principal Security Strategist</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Bharat Mistry</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Reports</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/why-cyber-change-outpaces-boardroom-engagement/cyber-change.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Codex Exposed: Helping Hackers in Training?</title>
+      <description>How useful is the Codex code generator as a potential training tool?&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=iS2kCVktvvM:ElCAmzI_ljE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/codex-exposed-helping-hackers-in-training.html</link>
+      <pubDate>Thu, 3 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Forward-Looking Threat Research Team</name>
+          <title>Sr. Threat Researchers</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Forward-Looking Threat Research Team</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/gpt-part-4/gpt-part4-cover.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>The Samba Vulnerability: What is CVE-2021-44142 and How to Fix It</title>
+      <description>Information on the latest Samba vulnerability and how to protect systems against the threats that can exploit it.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=eJlz7SnlO0c:46-LL5sjAAo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/b/the-samba-vulnerability-what-is-cve-2021-44142-and-how-to-fix-it.html</link>
+      <pubDate>Wed, 2 Feb 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/b/the-samba-vulnerability-what-is-cve-2021-44142-and-how-to-fix-it/cover-samba-cve-2021-44142-critical-how-to-fix.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - January 28th, 2022</title>
+      <description>Welcome to our weekly roundup, where we share what you need to know about cybersecurity news and events that happened over the past few days. This week, read the third installment of Trend Micro’s Codex series. Also, read about the White House’s latest zero-trust approach to its cybersecurity strategy.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=_USsB3nGUfE:MAE-Qj3WhNY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/this-week-in-security-news-january-28th-2022.html</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Defending the Supply Chain: Why the DDS Protocol is Critical in Industrial and Software Systems</title>
+      <description>In 2021, a team of researchers from Trend Micro Research, TXOne, ADLINK, Alias Robotics, and ZDI  looked into the Data Distribution Service (DDS) standard and its implementations from a security angle. The full findings of this research will be presented in the S4X22 Conference in April 2022.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=g9wmLAPOupA:wkUk-72NGR4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/defending-the-supply-chain-why-dds-is-critical-in-industrial-and-software-systems.html</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Connected Car</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/defending-the-supply-chain-why-the-dds-protocol-is-critical-in-industrial-and-software-systems/cover-2-defending-the-supply-chain-why-DDS-critical-industrial-software-industry.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>TianySpy Malware Uses Smishing Disguised as Message From Telco</title>
+      <description>Trend Micro confirmed a new mobile malware infection chain targeting both Android and iPhone devices. The malware might have been designed to steal credentials associated with membership websites of major Japanese telecommunication services.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=dxUne4hFERU:6vAWUIEPS_o:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/tianyspy-malware-uses-smishing-disguised-as-message-from-telco.html</link>
+      <pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/tianyspy-malware-uses-smishing-disguised-as-message-from-telco/tianypsy-main.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Analysis and Impact of LockBit Ransomware’s First Linux and VMware ESXi Variant</title>
+      <description>LockBit ransomware's operators announced the release of its first Linux and ESXi variant in October. With samples also spotted in the wild, we discuss the impact and analysis of this variant.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=M-jdnDpMjqE:yBZiSB227cg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/analysis-and-Impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant.html</link>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Junestherry Dela Cruz</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Junestherry Dela Cruz</dc:creator>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/analysis-and-impact-of-lockbit-ransomwares-first-linux-and-vmware-esxi-variant/analysis_and%20mpact_of_lockbit_ransomwares_first_linux_and_vmware_esxi_variant.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Investigating APT36 or Earth Karkaddan’s Attack Chain and Malware Arsenal</title>
+      <description>We investigated the most recent activities of APT36, also known as Earth Karkaddan, a politically motivated advanced persistent threat (APT) group, and discuss its use of CapraRAT, an Android RAT with clear similarities in design to the group’s favored Windows malware, Crimson RAT.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=aLkCw-F_NvU:bdBAOYGNf-c:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/investigating-apt36-or-earth-karkaddans-attack-chain-and-malware.html</link>
+      <pubDate>Mon, 24 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/investigating-apt36-or-earth-karkaddan-attack-chain-and-malware-arsenal/Thumb_Earth%20Karkaddan%20APT_641" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - January 21, 2022</title>
+      <description> This week, read about various cybersecurity threats that affect industrial control and the Cybersecurity and Infrastructure Security Agency (CISA)’s latest cyberattack warnings.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=QXqDIJDrq90:tsPqz-_1Xzg:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/this-week-in-security-news-january-21-2022.html</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Emotet Spam Abuses Unconventional IP Address Formats to Spread Malware</title>
+      <description>We found waves of Emotet spam campaigns using unconventional IP addresses to evade detection.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=dbcgyInW_4g:VD8IfTJu_qw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/emotet-spam-abuses-unconventional-ip-address-formats-spread-malware.html</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Ian Kenefick</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Ian Kenefick</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Spam</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/emotet-spam-abuses-unconventional-ip-address-formats-to-spread-malware/cover-emotet-using-unconventional-octal-hexadecimal-IP-addresses-spam-campaign-evasion-technique.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Codex Exposed: Task Automation and Response Consistency</title>
+      <description>Being able to automate tasks or programmatically execute them unsupervised is an essential part of both regular and malicious computer usage, so we wondered if a tool like Codex was reliable enough to be scripted and left to run unsupervised, generating the required code.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=Pse27le_R-4:rUMGPEpOJ10:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/codex-exposed-task-automation-and-response-consistency.html</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Forward-Looking Threat Research Team</name>
+          <title>Sr. Threat Researchers</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Forward-Looking Threat Research Team</dc:creator>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/gpt-part-3/gpt-part3-cover.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Defending Users’ NAS Devices From Evolving Threats</title>
+      <description>In our latest research, we analyze the threats targeting well-known brands of network-attached storage (NAS) devices.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=839oLNKVFzM:4sIl28Gki8M:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/defending-users-NAS-devices-from-evolving-threats.html</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Stephen Hilt</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Fernando Merces</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Stephen Hilt</dc:creator>
+      <dc:creator>Fernando Merces</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Smart Home</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/defending-users-nas-devices-from-evolving-threats/cover-defending-users-nas-from-evolving-threats.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Cybersecurity for Industrial Control Systems: Part 2</title>
+      <description>To cap off the series, we’ll discuss malware detection and distribution in various countries. Our team also rounds up several insights to help strengthen ICS cybersecurity and mitigate malware attacks.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=bh7rOnnvAzw:oDgqgS440e4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/cybersecurity-for-industrial-control-systems-part-2.html</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Ericka Pingol</name>
+          <title>Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Ericka Pingol</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/cybersecurity-for-industrial-control-systems-part-1/Threats-Affecting-ICS-Endpoints.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>New Ransomware Spotted: White Rabbit and Its Evasion Tactics</title>
+      <description>We analyze the ransomware White Rabbit and bring into focus the familiar evasion tactics employed by this newcomer.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=Tiybe_VGK2E:s-9GeOzvO9Q:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/new-ransomware-spotted-white-rabbit-and-its-evasion-tactics.html</link>
+      <pubDate>Tue, 18 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Arianne Dela Cruz</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Bren Matthew Ebriega</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Don Ovid Ladores</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Mary Yambao</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Arianne Dela Cruz</dc:creator>
+      <dc:creator>Bren Matthew Ebriega</dc:creator>
+      <dc:creator>Don Ovid Ladores</dc:creator>
+      <dc:creator>Mary Yambao</dc:creator>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/new-ransomware-spotted--white-rabbit-and-its-evasion-tactics-/new_ransomware_spotted_white_rabbit_and_its_evasion_tactics.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Earth Lusca Employs Sophisticated Infrastructure, Varied Tools and Techniques</title>
+      <description>Our technical brief provides an in-depth look at Earth Lusca’s activities, the tools it employs in attacks, and the infrastructure it uses.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=aPCUsW6p7Cc:9coq0DEVucc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/earth-lusca-sophisticated-infrastructure-varied-tools-and-techni.html</link>
+      <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/earth-lusca-employs-sophisticated-infrastructure-varied-tools-and-techniques/earth-lusca-641.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Cybersecurity for Industrial Control Systems: Part 1</title>
+      <description>In this two-part series, we look into various cybersecurity threats that affected industrial control systems endpoints.  We also discuss several insights and recommendations to mitigate such threats.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=qjBlONsa-zI:GX19yBQ_Q4A:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/cybersecurity-industrial-control-systems-ics-part-1.html</link>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Trend Micro Research</name>
+          <title>Trend Micro</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Trend Micro Research</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/cybersecurity-for-industrial-control-systems-part-1/Threats-Affecting-ICS-Endpoints.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - January 14, 2022</title>
+      <description>This week, read about how crucial it is for security teams to adopt an integrated approach to threat detection, such as remote control, and Congress’s plan to update the Federal Information Security Management Act (FISMA) for the first time in eight years.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=f701Rg-XXZM:poH58e2l3T4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/this-week-in-security-news-january-14th-2022.html</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Analyzing an Old Bug and Discovering CVE-2021-30995</title>
+      <description>A vulnerability found in 2021 has been patched and re-patched in the months since it was reported. We analyze the bug and outline the process that led to the discovery of CVE-2021-30995.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=LrR3Sl8G_VA:rVCx4Yo4M-I:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/analyzing-an-old-bug-and-discovering-cve-2021-30995-.html</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Mickey Jin</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Mickey Jin</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/analyzing-an-old-bug-and-discovering-cve-2021-30995-/Old%20Bug%20CVE%20banner.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Codex Exposed: How Low Is Too Low When We Generate Code?</title>
+      <description>In a series of blog posts, we explore different aspects of Codex and assess its capabilities with a focus on the security aspects that affect not only regular developers but also malicious users. This is the second part of the series.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=qbbYCfLlK5Q:apZys-uLft0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/codex-exposed-how-low-is-too-low-when-we-generate-code.html</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Forward-Looking Threat Research Team</name>
+          <title>Sr. Threat Researchers</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Forward-Looking Threat Research Team</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/gpt-3-part-2/gpt-part2-cover.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>LoRaWAN's Protocol Stacks: The Forgotten Targets at Risk</title>
+      <description>This report is the fourth part of our LoRaWAN security series, and highlights an attack vector that, so far, has not attracted much attention: the LoRaWAN stack. The stack is the root of LoRaWAN implementation and security. We hope to help users secure it and make LoRaWAN communication resistant to critical bugs.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=q9NsgFiSIM8:LGzRbJ7YRhY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/lorawans-protocol-stacks-the-forgotten-targets-at-risk.html</link>
+      <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Sébastien Dudek</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Sébastien Dudek</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/lorawans-protocol-stacks-the-forgotten-targets-at-risk/LoRaWAN%20stack%20banner.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Uncovering and Defending Systems Against Attacks With Layers of Remote Control</title>
+      <description>The Trend Micro™ Managed XDR team addressed a stealthy multilayered attack that progressed from an exploited endpoint vulnerability to the use of legitimate remote access tools including Remote Desktop Protocol (RDP) as its final means of intrusion.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=JAlepCirTaM:rFHt2nH-XF4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/defending-systems-against-attacks-with-layers-of-remote-control.html</link>
+      <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Abraham Camba</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Gilbert Sison</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ryan Maglaque</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Abraham Camba</dc:creator>
+      <dc:creator>Gilbert Sison</dc:creator>
+      <dc:creator>Ryan Maglaque</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/uncovering-and-defending-systems-against-attacks-with-layers-of-remote-control/remote-control-layers-main.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - January 7, 2022</title>
+      <description>This week, read about Log4j vulnerabilities in connected cars and charging stations and how iOS malware can fake iPhone shutdowns to snoop on cameras and microphones.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=PJLyHsIN1pM:ucK0QSVSjZs:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/this-week-in-security-news-january-7th-2022.html</link>
+      <pubDate>Fri, 7 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Connected Car</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Codex Exposed: Exploring the Capabilities and Risks of OpenAI’s Code Generator</title>
+      <description>The first of a series of blog posts examines the security risks of Codex, a code generator powered by the GPT-3 engine.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=Gkau4R75s5g:ZMswW3wEQq8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/22/a/codex-exposed--exploring-the-capabilities-and-risks-of-openai-s-.html</link>
+      <pubDate>Fri, 7 Jan 2022 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Forward-Looking Threat Research Team</name>
+          <title>Sr. Threat Researchers</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Forward-Looking Threat Research Team</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/22/a/gpt-3-part-1/gpt-part1-cover.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Examining Log4j Vulnerabilities in Connected Cars and Charging Stations</title>
+      <description>In this entry we look into how Log4j vulnerabilities affect devices or properties embedded in or used for connected cars, specifically chargers, in-vehicle infotainment systems, and digital remotes for opening cars.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=oaYiwtDK678:RWyoaWY6y3w:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/examining-log4j-vulnerabilities-in-connected-cars.html</link>
+      <pubDate>Thu, 23 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Sébastien Dudek</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Sébastien Dudek</dc:creator>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Connected Car</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/examining-log4j-vulnerabilities-in-connected-cars-and-charging-stations/examining-log4j-vulnerabilities-in-connected-cars.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>The Log4j story, and how it has impacted our customers</title>
+      <description>Read about the Log4j story, an analysis of the impact and what to do next.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=R3zEIYipEHg:jPiDnM7dH70:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/the-log4j-story-and-how-it-has-impacted-our-customers.html</link>
+      <pubDate>Wed, 22 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/the-log4j-story-and-how-it-has-impacted-our-customers/microsoftteams-image.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>What to Do About Log4j</title>
+      <description>Learn more about some tactical measures people are already taking, and some strategic guidance for what to do after the immediate crisis abates.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=3KeXWi-bAJ8:IkfRpvKBjg4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/log4j.html</link>
+      <pubDate>Tue, 21 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>William Malik</name>
+          <title>VP, Infrastructure Strategies</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>William Malik</dc:creator>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/what-to-do-about-log4j/log4j-rnp.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Are Endpoints at Risk for Log4Shell Attacks?</title>
+      <description>We created a free assessment tool for scanning devices to know whether it is at risk for Log4Shell attacks.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=tcnHjdK30OU:MojGMEYfIxA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/are-endpoints-at-risk-for-log4shell-attacks.html</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/are-endpoints-at-risk-for-log4shell-attacks/log4shelldesktop-main.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - December 17, 2021</title>
+      <description>This week, read on Purple Fox’s infection chain observed by Trend Micro’s Managed XDR. Also, learn about the Log4j vulnerability that has the potential to cause ‘incalculable’ damage.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=zwwnVVymioA:rL-R3mwhYtc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/this-week-in-security-news-dec-17-2021.html</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Staging a Quack: Reverse Analyzing a Fileless QAKBOT Stager</title>
+      <description>We analyzed a fileless QAKBOT stager possibly connected to the recently reported Squirrelwaffle campaign.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=DWkdNywv1II:u7EJ8l0rXfY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/staging-a-quack-reverse-analyzing-fileless-qakbot-stager.html</link>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Abraham Camba</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Jonna Santos</name>
+          <title>Security Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Gilbert Sison</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Jay Yaneza</name>
+          <title>Director, MDR Operations</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Abraham Camba</dc:creator>
+      <dc:creator>Jonna Santos</dc:creator>
+      <dc:creator>Gilbert Sison</dc:creator>
+      <dc:creator>Jay Yaneza</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Spam</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/staging-a-quack-reverse-analyzing-a-fileless-qakbot-stager/cover-staging-a-quack-reverse-analyzing-a-fileless-qakbot-stager.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Volatile and Adaptable: Tracking the Movements of Modern Ransomware</title>
+      <description>Trend Micro's tracking of  modern ransomware, as well as of older families, shows which attacks are gaining momentum and which families are particularly dangerous for enterprises and private users.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=_azAVjPw8No:d_4PppNo-qY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/volatile-and-adaptable-tracking-the-movements-of-modern-ransomware.html</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Trend Micro Research</name>
+          <title>Trend Micro</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Trend Micro Research</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/volatile-and-adaptable-tracking-the-movements-of-modern-ransomware/banner%20volatile%20ransomware.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Collecting In the Dark: Tropic Trooper Targets Transportation and Government</title>
+      <description>Our long-term monitoring of the cyberespionage group Earth Centaur (aka Tropic Trooper) shows that the threat actors are equipped with new tools and techniques. The group seems to be targeting transportation companies and government agencies related to transportation.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=4kUS4yfzjUM:eBSjNWI-R3s:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/collecting-in-the-dark-tropic-trooper-targets-transportation-and-government-organizations.html</link>
+      <pubDate>Tue, 14 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Nick Dai</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ted Lee</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Vickie Su</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Nick Dai</dc:creator>
+      <dc:creator>Ted Lee</dc:creator>
+      <dc:creator>Vickie Su</dc:creator>
+      <category>Trend Micro Research : APT &amp; Targeted Attacks</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/collecting-in-the-dark-tropic-trooper-targets-transportation-and-government-organizations/earth%20trooper%20banner.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>A Look Into Purple Fox’s Server Infrastructure</title>
+      <description>By examining Purple Fox’s routines and activities, both with our initial research and the subject matter we cover in this blog post, we hope to help incident responders, security operation centers (SOCs), and security researchers find and weed out Purple Fox infections in their network.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=l_t215a-leg:OH0YSnkgGtU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/a-look-into-purple-fox-server-infrastructure.html</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jay Yaneza</name>
+          <title>Director, MDR Operations</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Abdelrhman Sharshar</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Sherif Magdy</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jay Yaneza</dc:creator>
+      <dc:creator>Abdelrhman Sharshar</dc:creator>
+      <dc:creator>Sherif Magdy</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/a-look-into-purple-fox-infrastructure/purplefox-641.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Patch Now: Apache Log4j Vulnerability Called Log4Shell Actively Exploited</title>
+      <description>Log4Shell, also known as CVE-2021-44228, was first reported privately to Apache on November 24 and was patched on December 9. It affects Apache Struts, Apache Solr, Apache Druid, Elasticsearch, Apache Dubbo, and VMware vCenter.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=5udoeDS3_TA:vDg1FAj8bVE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-acti.html</link>
+      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Ranga Duraisamy</name>
+          <title>Vulnerability Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ashish Verma</name>
+          <title>Vulnerability Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Miguel Carlo Ang</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Nitesh Surana</name>
+          <title>Threat Research Engineer</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Ranga Duraisamy</dc:creator>
+      <dc:creator>Ashish Verma</dc:creator>
+      <dc:creator>Miguel Carlo Ang</dc:creator>
+      <dc:creator>Nitesh Surana</dc:creator>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-actively-exploited/log4shell-main.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - December 10, 2021</title>
+      <description>This week, read about Trend Micro’s predictions for security in the coming year. Also, learn about the Biden administration’s latest initiatives for curtailing attacks on the transport infrastructure.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=phVWtB2TGGs:sm6CrSjFbX0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/this-week-in-security-news-december-10-2021.html</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Connected Car</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Mobile</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>New Yanluowang Ransomware Found to be Code-Signed, Terminates Database-Related Processes</title>
+      <description>We analyzed new samples of the Yanluowang ransomware. One interesting aspect of these samples is that the files are code-signed. They also terminate various processes which are related to database and backup management.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=vh4hi6CY92c:oMxITciwBng:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/yanluowang-ransomware-code-signed-terminates-database-processes.html</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Don Ovid Ladores</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Don Ovid Ladores</dc:creator>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/new-yanluowang-ransomware-found-to-be-code-signed-terminates-database-related-processes/yanluowang-banner.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>The Evolution of IoT Linux Malware Based on MITRE ATT&amp;CK TTPs</title>
+      <description>In our study, we relied on the tactics, techniques, and procedures of MITRE ATT&amp;CK to define the malware capabilities and characteristics of IoT Linux malware. We describe our findings and how IoT malware has been evolving.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=D8lMErS6nzo:LGlnfrvfgh4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/the-evolution-of-iot-linux-malware-based-on-mitre-att&amp;ck-ttps.html</link>
+      <pubDate>Thu, 9 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Veronica Chierzi</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Veronica Chierzi</dc:creator>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/the-evolution-of-iot-linux-malware-based-on-mitre-att-ck-ttps/the%20evolution%20of%20IoT%20linux%20malware%20based%20on%20mitre%20attack%20ttps.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Pushing Forward: Key Takeaways From Trend Micro’s Security Predictions for 2022</title>
+      <description>In this entry, we discuss several of our predictions that security professionals and decision-makers should know about to help them make informed decisions on various security fronts in the coming year.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=q7kI4vm_HU0:aI_1MfF4EDE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/pushing-forward-key-takeaways-from-trend-micros-security-predict.html</link>
+      <pubDate>Tue, 7 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Annual Predictions</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Report</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/pushing-forward-key-takeaways-from-trend-micros-security-predictions-for-2022/Pushing%20Forward%20Key%20Takeaways%20From%20Trend%20Micros%20Security%20Predictions%20for%202022_641.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - December 3, 2021</title>
+      <description>This week, learn about how Squirrelwaffle utilized ProxyLogon and ProxyShell to hack email chains. Also, read on a recent data breach of the Los Angeles Planned Parenthood Network.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=c7F74Pbxr1k:YynyY7LuwgA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/this-week-in-security-news-dec-3-2021.html</link>
+      <pubDate>Fri, 3 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : ICS OT</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Vulnerabilities Exploited for Monero Mining Malware Delivered via GitHub, Netlify</title>
+      <description>We looked into exploitation attempts we observed in the wild and the abuse of legitimate platforms Netlify and GitHub as repositories for malware.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=SzPHbH-_Ld4:eBxEPtToVOc:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/vulnerabilities-exploited-for-monero-mining-malware-delivered-via-gitHub-netlify.html</link>
+      <pubDate>Fri, 3 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Nitesh Surana</name>
+          <title>Threat Research Engineer</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Nitesh Surana</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/vulnerabilities-exploited-for-monero-mining-malware-delivered-via-github-netlify/cover-vulnerabilities-exploited-monero-mining-malware-delivered-github-netlify-650.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>What to do at AWS re:Invent 2021 - Day 3</title>
+      <description>Welcome to your complete guide to AWS re:Invent 2021 Day 3, where you will find tips on how to get the most out of your conference experience both in Las Vegas and virtually.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=YnV6h0j32_I:d0HtSkfXSjE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/aws-reinvent-2021-agenda.html</link>
+      <pubDate>Wed, 1 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/aws-re-invent-2021-guide-checklist-key-sessions/blog-image-option.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Analyzing How TeamTNT Used Compromised Docker Hub Accounts</title>
+      <description>Following our previous disclosure of compromised Docker hub accounts delivering cryptocurrency miners, we analyze these accounts and discover more malicious actions that you need to be aware of.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=gjNBXI3J1h8:wGFyWKisO8Y:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/l/more-tools-in-the-arsenal-how-teamtnt-used-compromised-docker-hu.html</link>
+      <pubDate>Wed, 1 Dec 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Trend Micro Research</name>
+          <title>Trend Micro</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Trend Micro Research</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/more-tools-in-the-arsenal/compromiseddocker-main.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>What You Can Do to Mitigate Cloud Misconfigurations </title>
+      <description>Cloud misconfigurations can become opportunities for cyberattacks or lead to data breaches. Organizations must mitigate them before incurring significant and costly consequences.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=74u466J7xDY:0fRTuo08HOk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/what-can-you-do-to-mitigate-cloud-misconfigurations.html</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Aaron Ansari</name>
+          <title>VP, Cloud Security</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Aaron Ansari</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/what-you-can-do-to-mitigate-cloud-misconfigurations-/what-you-can-do-to-mitigate-cloud-misconfigurations.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Trend Micro Cloud One Network Security-as-a-Service</title>
+      <description>Trend Micro, alongside Amazon Web Services, provides the latest in cloud-native deployment options. We have simplified network security, protecting customers across Virtual Private Clouds (VPCs) without needing agents to be installed on instances.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=UzspsEQXR-Q:5Lwy5icsQ-k:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/trend-micro-cloud-one-network-security-as-a-service.html</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Laura Roantree</name>
+          <title>Cloud Advocate</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Laura Roantree</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Privacy &amp; Risks</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/a/the-top-worry-in-cloud-security-for-2021/the-worry-in-cloud-security-for-2021.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>AWS re:Invent 2021 Guide: Checklist &amp; Key Sessions</title>
+      <description>Welcome to your complete guide to AWS re:Invent 2021, where you will find tips on how to get the most out of your conference experience both in Las Vegas and virtually.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=6oV0dAZqIE8:dJLM5h0iZDU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/aws-re-Invent-2021-guide-checklist-key-sessions.html</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Aaron Ansari</name>
+          <title>VP, Cloud Security</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Aaron Ansari</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/aws-re-invent-2021-guide-checklist-key-sessions/blog-image-option.png" length="0" type="image/png" />
+    </item>
+    <item>
+      <title>Campaign Abusing Legitimate Remote Administrator Tools Uses Fake Cryptocurrency Websites</title>
+      <description>We have been tracking a campaign involving the SpyAgent malware that abuses well-known remote access tools (RATs) for some time now. While previous versions of the malware have been covered by other researchers, our blog entry focuses on the malicious actor’s latest attacks.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=3BFTUKEyAZ0:X1DGGdrDYLw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/campaign-abusing-rats-uses-fake-websites.html</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jaromir Horejsi</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jaromir Horejsi</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/campaign-abusing-legitimate-remote-administrator-tools-uses-fake-cryptocurrency-websites/spyagent-main.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>BazarLoader Adds Compromised Installers, ISO to Arrival and Delivery Vectors</title>
+      <description>We observed BazarLoader adding two new arrival mechanisms to their current roster of malware delivery techniques.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=gWTiC9MEvJA:G4vNIJoen5w:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/bazarloader-adds-compromised-installers-iso-to-arrival-delivery-vectors.html</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Ian Kenefick</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Ian Kenefick</dc:creator>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Spam</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/bazarloader-adds-compromised-installers-iso-to-arrival-delivery-vectors/cover-bazarloader-adds-compromised-installers-iso-arrival-and-delivery-vectors.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>COP26 Backs Electric Vehicles to Reduce Climate Change</title>
+      <description>The 26 United Nations Climate Change Conference pushes for countries of parties to adopt more widespread EV use in order to reduce the looming threats of climate change.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=YUMWQS0dV5A:Iuyoqn1AZMQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/cop26-rallies-behind-evs-to-mitigate-climate-change.html</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : IoT</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Connected Car</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/cop26-rallies-behind-evs-to-mitigate-climate-change/climate-change.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - November 19, 2021</title>
+      <description>This week, learn about how the QAKBOT Loader malware has evolved its techniques and strategies over time. Also, read about the most recent initiative by the legislation to further cybersecurity protection.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=vrOCU7Zjt7E:WRxQY1xePc4:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/this-week-in-security-news-nov-19-21.html</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Web</category>
+      <category>Trend Micro Research : Social Media</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Phishing</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Squirrelwaffle Exploits ProxyShell and ProxyLogon to Hijack Email Chains</title>
+      <description>Squirrelwaffle is known for using the tactic of sending malicious spam as replies to existing email chains. We look into how by investigating its exploit of Microsoft Exchange Server vulnerabilities, ProxyLogon and ProxyShell.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=OWn2OXD82tQ:isF9KQjaNA8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/Squirrelwaffle-Exploits-ProxyShell-and-ProxyLogon-to-Hijack-Email-Chains.html</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Mohamed Fahmy</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Sherif Magdy</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Abdelrhman Sharshar</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Mohamed Fahmy</dc:creator>
+      <dc:creator>Sherif Magdy</dc:creator>
+      <dc:creator>Abdelrhman Sharshar</dc:creator>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Spam</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/squirrelwaffle-exploits-proxyshell-and-proxylogon-vulnerabilities-in-microsoft-exchange-to-hijack-email-chains/squirrelwaffle-exploits-proxyshell-and-proxylogon-microsoft-exchange-vulnerabilities-to-hijack-email-chains.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Analyzing ProxyShell-related Incidents via Trend Micro Managed XDR</title>
+      <description>In this blog entry, we will take a look at the ProxyShell vulnerabilities that were being exploited in these events, and dive deeper into the notable post-exploitation routines that were used in four separate incidents involving these web shell attacks.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=KidVg462kwk:YePas6YS7cM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/analyzing-proxyshell-related-incidents-via-trend-micro-managed-x.html</link>
+      <pubDate>Wed, 17 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Mohamed Fahmy</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Abdelrhman Sharshar</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Sherif Magdy</name>
+          <title>Threat Intelligence Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Ryan Maglaque</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Mohamed Fahmy</dc:creator>
+      <dc:creator>Abdelrhman Sharshar</dc:creator>
+      <dc:creator>Sherif Magdy</dc:creator>
+      <dc:creator>Ryan Maglaque</dc:creator>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/analyzing-proxyshell-related-incidents-via-trend-micro-managed-xdr/proxyshell-xdr-641.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Post-pandemic growth starts with understanding risk</title>
+      <description>The digital transformations that accompanied the pandemic are here to stay. To succeed in the post-pandemic era, organizations must come to a shared understanding about cybersecurity as a critical element of business risk.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=e-re69U0LCU:ymEu5ySzW6Y:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/post-pandemic-growth-starts-with-understanding-risk.html</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Bharat Mistry</name>
+          <title>Principal Security Strategist</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Bharat Mistry</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <category>Trend Micro Research : Compliance &amp; Risks</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/post-pandemic-growth-starts-with-understanding-risk/psychology-of-risk-blog.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Global Operations Lead to Arrests of Alleged Members of GandCrab/REvil and Cl0p Cartels</title>
+      <description>A total of 13 suspects believed to be members of two prolific cybercrime rings were arrested as a global coalition across five continents involving law enforcement and private partners, including Trend Micro, sought to crack down on big ransomware operators.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=rXgmq5-7fL8:pMZ1CHXd5gY:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/global-operations-lead-to-arrests-of-alleged-members-of-gandcrab.html</link>
+      <pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors />
+      <category>Trend Micro Research : Latest News</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/global-operations-lead-to-arrests-of-alleged-members-of-gandcrab-revil-and-cl0p-cartels/gandcrab-revil-clop-main.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Groups Target Alibaba ECS Instances for Cryptojacking</title>
+      <description>We looked at how some malicious groups disable features in Alibaba Cloud ECS instances for illicit mining of Monero.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=ZjpVcutXWUk:nxhGttKgzHE:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/groups-target-alibaba-ecs-instances-for-cryptojacking.html</link>
+      <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>David Fiser</name>
+          <title>Threat Researcher</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Alfredo Oliveira</name>
+          <title>Sr. Security Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>David Fiser</dc:creator>
+      <dc:creator>Alfredo Oliveira</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Malware</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <category>Trend Micro Research : Privacy &amp; Risks</category>
+      <category>Trend Micro Research : Cyber Threats</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/groups-target-alibaba-ecs-instances-for-cryptojacking/cover-groups-target-alibaba-ecs-cryptojacking-641.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>QAKBOT Loader Returns With New Techniques and Tools</title>
+      <description>QAKBOT operators resumed email spam operations towards the end of September after an almost three-month hiatus. QAKBOT detection has become a precursor to many critical and widespread ransomware attacks. Our report shares some insight into the new techniques and tools this threat is using.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=ldeEVavWduQ:Invsbj0DKuU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/qakbot-loader-returns-with-new-techniques-and-tools.html</link>
+      <pubDate>Sat, 13 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Ian Kenefick</name>
+          <title>Threats Analyst</title>
+        </trendmicro:author>
+        <trendmicro:author>
+          <name>Vladimir Kropotov</name>
+          <title>Sr. Threat Researcher</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Ian Kenefick</dc:creator>
+      <dc:creator>Vladimir Kropotov</dc:creator>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Research</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/k/qakbot-loader-returns-with-new-techniques-and-tools/qakbot%20banner.jpg" length="0" type="image/jpeg" />
+    </item>
+    <item>
+      <title>This Week in Security News - November 12, 2021</title>
+      <description>This week, learn about the prolific cybermercenaries, Void Balaur, and their recent attacks. Also, read on the 80-country agreement to mobilize safeguards against cyberattacks.&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.trendmicro.com/~ff/TrendMicroResearch?a=mXehzaOMlf0:zB1ZcahF9nk:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TrendMicroResearch?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;</description>
+      <link>https://www.trendmicro.com/en_us/research/21/k/this-week-in-security-news-november-12-2021.html</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      <trendmicro:authors>
+        <trendmicro:author>
+          <name>Jon Clay</name>
+          <title>VP, Threat Intelligence</title>
+        </trendmicro:author>
+      </trendmicro:authors>
+      <dc:creator>Jon Clay</dc:creator>
+      <category>Trend Micro Research : Cloud</category>
+      <category>Trend Micro Research : Cyber Crime</category>
+      <category>Trend Micro Research : Exploits &amp; Vulnerabilities</category>
+      <category>Trend Micro Research : Expert Perspective</category>
+      <category>Trend Micro Research : Endpoints</category>
+      <category>Trend Micro Research : Ransomware</category>
+      <category>Trend Micro Research : Network</category>
+      <category>Trend Micro Research : Articles, News, Reports</category>
+      <enclosure url="https://www.trendmicro.com/content/dam/trendmicro/global/en/research/week-in-security-news_lrg.jpg" length="0" type="image/jpeg" />
+    </item>
+  </channel>
+</rss>
