@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://www.ccn-cert.cni.es/components/com_obrss/assets/xsl/atom-to-html.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Últimas Vulnerabilidades</title>
+    <description><![CDATA[Últimas Vulnerabilidades]]></description>
+    <link>https://www.ccn-cert.cni.es/</link>
+    <lastBuildDate>Fri, 06 May 2022 19:18:09 +0000</lastBuildDate>
+    <generator>FeedCreator 1.8.3 (obRSS 3.2.3)</generator>
+    <atom:link href="https://www.ccn-cert.cni.es/component/obrss/rss-ultimas-vulnerabilidades.feed" rel="self" type="application/rss+xml" />
+    <language>es-ES</language>
+    <item>
+      <title>Infographic &amp;ndash; Exposing Malware in Linux-Based Multi-Cloud Environments</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33364.html</link>
+      <description><![CDATA[Exposing Malware in Linux-Based Multi-Cloud Environments, a recent report conducted by the VMware Threat Analysis Unit takes a comprehensive look at attacks in Linux-based multi-cloud environments. These malware attacks, according to the report, are often leveraged by the adversary once inside, which includes executing ransomware, deploying cryptomining components, and RATs. The VMware Threat Analysis Unit &hellip; ContinuedThe post Infographic &ndash; Exposing Malware in Linux-BasedMore info:https://blogs.vmware.com/security/2022/05/infographic-exposing-malware-in-linux-based-multi-cloud-environments.html?utm_source=rss&utm_medium=rss&utm_campaign=infographic-exposing-malware-in-linux-based-multi-cloud-environments]]></description>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33364.html</guid>
+    </item>
+    <item>
+      <title>K19473898: Expat vulnerabilities CVE-2022-23852, CVE-2022-25235, CVE-2022-25236, and CVE-2022-25315</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33363.html</link>
+      <description><![CDATA[Expat vulnerabilities CVE-2022-23852, CVE-2022-25235, CVE-2022-25236, and CVE-2022-25315 Security Advisory Security Advisory Description CVE-2022-23852 Expat (aka libexpat) before 2.4.4 has a ...More info:https://support.f5.com/csp/article/K19473898?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33363.html</guid>
+    </item>
+    <item>
+      <title>K57110035: BIG-IP APM Edge Client for Windows logging vulnerability CVE-2022-27636</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33362.html</link>
+      <description><![CDATA[BIG-IP APM Edge Client for Windows logging vulnerability CVE-2022-27636 Security Advisory Security Advisory Description BIG-IP Edge Client may log sensitive APM session-related information when ...More info:https://support.f5.com/csp/article/K57110035?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33362.html</guid>
+    </item>
+    <item>
+      <title>K74302282: BIG-IP APM RDP resource security exposure</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33361.html</link>
+      <description><![CDATA[BIG-IP APM RDP resource security exposure Security Advisory Security Advisory Description When BIG-IP APM Remote Desktop Protocol (RDP) is configured, users can bypass RDP resource redirection ...More info:https://support.f5.com/csp/article/K74302282?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33361.html</guid>
+    </item>
+    <item>
+      <title>K82034427: BIG-IP FTP profile vulnerability CVE-2022-26130</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33360.html</link>
+      <description><![CDATA[BIG-IP FTP profile vulnerability CVE-2022-26130 Security Advisory Security Advisory Description When an Active mode-enabled FTP profile is configured on a virtual server, undisclosed traffic can ...More info:https://support.f5.com/csp/article/K82034427?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33360.html</guid>
+    </item>
+    <item>
+      <title>K52340447: F5 ePVA vulnerability CVE-2022-28705</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33359.html</link>
+      <description><![CDATA[F5 ePVA vulnerability CVE-2022-28705 Security Advisory Security Advisory Description On platforms with an ePVA and the pva.fwdaccel BigDB variable enabled, undisclosed requests to a virtual server ...More info:https://support.f5.com/csp/article/K52340447?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33359.html</guid>
+    </item>
+    <item>
+      <title>K16187341: BIG-IP ICAP profile vulnerability CVE-2022-27189</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33358.html</link>
+      <description><![CDATA[BIG-IP ICAP profile vulnerability CVE-2022-27189 Security Advisory Security Advisory Description When an Internet Content Adaptation Protocol (ICAP) profile is configured on a virtual server, ...More info:https://support.f5.com/csp/article/K16187341?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33358.html</guid>
+    </item>
+    <item>
+      <title>K99123750: BIG-IP Stream profile vulnerability CVE-2022-28701</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33357.html</link>
+      <description><![CDATA[BIG-IP Stream profile vulnerability CVE-2022-28701 Security Advisory Security Advisory Description When the stream profile is configured on a virtual server, undisclosed requests can cause an ...More info:https://support.f5.com/csp/article/K99123750?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33357.html</guid>
+    </item>
+    <item>
+      <title>K70300233: BIG-IP TMUI XSS vulnerability CVE-2022-28707</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33356.html</link>
+      <description><![CDATA[BIG-IP TMUI XSS vulnerability CVE-2022-28707 Security Advisory Security Advisory Description A stored cross-site scripting (XSS) vulnerability exists in an undisclosed page of the BIG-IP ...More info:https://support.f5.com/csp/article/K70300233?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33356.html</guid>
+    </item>
+    <item>
+      <title>K41877405: BIG-IP TMUI vulnerability CVE-2022-27659</title>
+      <link>http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33355.html</link>
+      <description><![CDATA[BIG-IP TMUI vulnerability CVE-2022-27659 Security Advisory Security Advisory Description An authenticated attacker can modify or delete Dashboards created by other BIG-IP users in the Traffic ...More info:https://support.f5.com/csp/article/K41877405?utm_source=f5support&utm_medium=RSS]]></description>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">http://www.ccn-cert.cni.es/component/vulnerabilidades/view/33355.html</guid>
+    </item>
+  </channel>
+</rss>

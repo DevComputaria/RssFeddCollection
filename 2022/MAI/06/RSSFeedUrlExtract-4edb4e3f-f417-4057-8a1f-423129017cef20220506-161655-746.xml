@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu security notices</title>
+    <link>https://usn.ubuntu.com/</link>
+    <description>Recent content on Ubuntu security notices</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> 2020 Canonical Ltd. Ubuntu and Canonical are registered trademarks of Canonical Ltd.</copyright>
+    <lastBuildDate>Tue, 27 Oct 2020 16:57:58 +0000</lastBuildDate>
+    <atom:link href="https://usn.ubuntu.com/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>USN-4603-1: MariaDB vulnerabilities</title>
+      <link>https://usn.ubuntu.com/4603-1/</link>
+      <pubDate>Tue, 27 Oct 2020 16:57:58 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4603-1/</guid>
+      <description><![CDATA[
+
+<h2 id="mariadb-10-1-mariadb-10-3-vulnerabilities">mariadb-10.1, mariadb-10.3 vulnerabilities</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 20.04 LTS</li>
+<li>Ubuntu 18.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>Several security issues were fixed in MariaDB.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>mariadb-10.3 - MariaDB database</li>
+<li>mariadb-10.1 - MariaDB database</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>It was discovered that MariaDB didn&rsquo;t properly validate the content of a packet
+received from a server. A remote attacker could use this vulnerability to sent
+a specialy crafted file to cause a denial of service. (CVE-2020-13249)</p>
+
+<p>It was discovered that MariaDB has other security issues. An attacker can cause
+a hang or frequently repeatable crash (denial of service). (CVE-2020-15180,
+CVE-2020-2752, CVE-2020-2760, CVE-2020-2812, CVE-2020-2814)</p>
+
+<p>In addition to security fixes, the updated packages contain bug fixes, new
+features, and possibly incompatible changes.</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 20.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/mariadb-10.3">mariadb-server</a> - <a href="https://launchpad.net/ubuntu/+source/mariadb-10.3/1:10.3.25-0ubuntu0.20.04.1">1:10.3.25-0ubuntu0.20.04.1</a></dd>
+<dt>Ubuntu 18.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/mariadb-10.1">mariadb-server</a> - <a href="https://launchpad.net/ubuntu/+source/mariadb-10.1/1:10.1.47-0ubuntu0.18.04.1">1:10.1.47-0ubuntu0.18.04.1</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>This update uses a new upstream release, which includes additional bug
+fixes. After a standard system update you need to restart MariaDB to
+make all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-13249">CVE-2020-13249</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15180">CVE-2020-15180</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-2752">CVE-2020-2752</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-2760">CVE-2020-2760</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-2812">CVE-2020-2812</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-2814">CVE-2020-2814</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4600-2: Netty vulnerabilities</title>
+      <link>https://usn.ubuntu.com/4600-2/</link>
+      <pubDate>Tue, 27 Oct 2020 13:40:49 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4600-2/</guid>
+      <description><![CDATA[
+
+<h2 id="netty-vulnerabilities">netty vulnerabilities</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 18.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>netty could be made to crash or run programs if it received
+specially crafted network traffic.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>netty - None</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>USN-4600-1 fixed multiple vunerabilities in Netty 3.9. This update provides
+the corresponding fixes for CVE-2019-20444, CVE-2019-20445 for Netty.</p>
+
+<p>Also it was discovered that Netty allow for unbounded memory allocation. A
+remote attacker could send a large stream to the Netty server causing it to
+crash (denial of service). (CVE-2020-11612)</p>
+
+<p>Original advisory details:</p>
+
+<p>It was discovered that Netty had HTTP request smuggling vulnerabilities. A
+ remote attacker could used it to extract sensitive information. (CVE-2019-16869,
+ CVE-2019-20444, CVE-2019-20445, CVE-2020-7238)</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 18.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/netty">libnetty-java</a> - <a href="https://launchpad.net/ubuntu/+source/netty/1:4.1.7-4ubuntu0.1">1:4.1.7-4ubuntu0.1</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>In general, a standard system update will make all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://usn.ubuntu.com/usn/usn-4600-1">USN-4600-1</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-20444">CVE-2019-20444</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-20445">CVE-2019-20445</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-11612">CVE-2020-11612</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4599-2: Firefox vulnerabilities</title>
+      <link>https://usn.ubuntu.com/4599-2/</link>
+      <pubDate>Mon, 26 Oct 2020 21:01:23 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4599-2/</guid>
+      <description><![CDATA[
+
+<h2 id="firefox-vulnerabilities">firefox vulnerabilities</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 16.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>Firefox could be made to crash or run programs as your login if it
+opened a malicious website.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>firefox - Mozilla Open Source web browser</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>USN-4599-1 fixed vulnerabilities in Firefox. This update provides the
+corresponding updates for Ubuntu 16.04 LTS.</p>
+
+<p>Original advisory details:</p>
+
+<p>Multiple security issues were discovered in Firefox. If a user were
+ tricked in to opening a specially crafted website, an attacker could
+ potentially exploit these to cause a denial of service, spoof the prompt
+ for opening an external application, obtain sensitive information, or execute
+ arbitrary code.</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 16.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/firefox">firefox</a> - <a href="https://launchpad.net/ubuntu/+source/firefox/82.0+build2-0ubuntu0.16.04.5">82.0+build2-0ubuntu0.16.04.5</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>After a standard system update you need to restart Firefox to make
+all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://usn.ubuntu.com/usn/usn-4599-1">USN-4599-1</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15254">CVE-2020-15254</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15680">CVE-2020-15680</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15681">CVE-2020-15681</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15682">CVE-2020-15682</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15683">CVE-2020-15683</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15684">CVE-2020-15684</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15969">CVE-2020-15969</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4599-1: Firefox vulnerabilities</title>
+      <link>https://usn.ubuntu.com/4599-1/</link>
+      <pubDate>Fri, 23 Oct 2020 10:29:55 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4599-1/</guid>
+      <description><![CDATA[
+
+<h2 id="firefox-vulnerabilities">firefox vulnerabilities</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 20.10</li>
+<li>Ubuntu 20.04 LTS</li>
+<li>Ubuntu 18.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>Firefox could be made to crash or run programs as your login if it
+opened a malicious website.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>firefox - Mozilla Open Source web browser</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>Multiple security issues were discovered in Firefox. If a user were
+tricked in to opening a specially crafted website, an attacker could
+potentially exploit these to cause a denial of service, spoof the prompt
+for opening an external application, obtain sensitive information, or execute
+arbitrary code.</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 20.10</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/firefox">firefox</a> - <a href="https://launchpad.net/ubuntu/+source/firefox/82.0+build2-0ubuntu0.20.10.1">82.0+build2-0ubuntu0.20.10.1</a></dd>
+<dt>Ubuntu 20.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/firefox">firefox</a> - <a href="https://launchpad.net/ubuntu/+source/firefox/82.0+build2-0ubuntu0.20.04.1">82.0+build2-0ubuntu0.20.04.1</a></dd>
+<dt>Ubuntu 18.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/firefox">firefox</a> - <a href="https://launchpad.net/ubuntu/+source/firefox/82.0+build2-0ubuntu0.18.04.1">82.0+build2-0ubuntu0.18.04.1</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>After a standard system update you need to restart Firefox to make
+all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15254">CVE-2020-15254</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15680">CVE-2020-15680</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15681">CVE-2020-15681</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15682">CVE-2020-15682</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15683">CVE-2020-15683</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15684">CVE-2020-15684</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15969">CVE-2020-15969</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>LSN-0073-1: Kernel Live Patch Security Notice</title>
+      <link>https://usn.ubuntu.com/lsn/0073-1/</link>
+      <pubDate>Fri, 23 Oct 2020 09:23:57 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/lsn/0073-1/</guid>
+      <description><![CDATA[
+
+<h2 id="linux-kernel-vulnerabilities">Linux kernel vulnerabilities</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 18.04 LTS</li>
+<li>Ubuntu 20.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>Several security issues were fixed in the kernel.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>linux -  Linux kernel</li>
+<li>linux-aws -  Linux kernel for Amazon Web Services (AWS) systems</li>
+<li>linux-azure -  Linux kernel for Microsoft Azure Cloud systems</li>
+<li>linux-gcp -  Linux kernel for Google Cloud Platform (GCP) systems</li>
+<li>linux-oem -  Linux kernel for OEM systems</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>Andy Nguyen discovered that the Bluetooth L2CAP implementation in the Linux
+kernel contained a type-confusion error. A physically proximate remote
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2020-12351)</p>
+
+<p>Andy Nguyen discovered that the Bluetooth A2MP implementation in the Linux
+kernel did not properly initialize memory in some situations. A physically
+proximate remote attacker could use this to expose sensitive information
+(kernel memory). (CVE-2020-12352)</p>
+
+<p>Andy Nguyen discovered that the Bluetooth HCI event packet parser in the
+Linux kernel did not properly handle event advertisements of certain sizes,
+leading to a heap-based buffer overflow. A physically proximate remote
+attacker could use this to cause a denial of service (system crash) or
+possibly execute arbitrary code. (CVE-2020-24490)</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your kernel livepatch to the following
+versions:</p>
+
+<dl>
+<dt>Ubuntu 18.04 LTS</dt>
+<dd>aws - 73.1</dd>
+<dd>generic - 73.1</dd>
+<dd>lowlatency - 73.1</dd>
+<dd>oem - 73.1</dd>
+<dt>Ubuntu 20.04 LTS</dt>
+<dd>aws - 73.1</dd>
+<dd>azure - 73.1</dd>
+<dd>gcp - 73.1</dd>
+<dd>generic - 73.1</dd>
+<dd>lowlatency - 73.1</dd>
+</dl>
+
+<h2 id="support-information">Support Information</h2>
+
+<p>Kernels older than the levels listed below do not receive livepatch
+updates. If you are running a kernel version earlier than the one listed
+below, please upgrade your kernel as soon as possible.</p>
+
+<dl>
+<dt>Ubuntu 18.04 LTS</dt>
+<dd>linux-aws - 4.15.0-1054</dd>
+<dd>linux-azure - 5.0.0-1025</dd>
+<dd>linux-gcp - 5.0.0-1025</dd>
+<dd>linux-oem - 4.15.0-1063</dd>
+<dd>linux - 4.15.0-69</dd>
+<dt>Ubuntu 20.04 LTS</dt>
+<dd>linux-aws - 5.4.0-1009</dd>
+<dd>linux-azure - 5.4.0-1010</dd>
+<dd>linux-gcp - 5.4.0-1009</dd>
+<dd>linux-oem - 5.4.0-26</dd>
+<dd>linux - 5.4.0-26</dd>
+<dt>Ubuntu 16.04 LTS</dt>
+<dd>linux-aws - 4.4.0-1098</dd>
+<dd>linux-azure - 4.15.0-1063</dd>
+<dd>linux-hwe - 4.15.0-69</dd>
+<dd>linux - 4.4.0-168</dd>
+<dt>Ubuntu 14.04 ESM</dt>
+<dd>linux-lts-xenial - 4.4.0-168</dd>
+</dl>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-12351">CVE-2020-12351</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-12352">CVE-2020-12352</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-24490">CVE-2020-24490</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4601-1: pip vulnerability</title>
+      <link>https://usn.ubuntu.com/4601-1/</link>
+      <pubDate>Thu, 22 Oct 2020 22:18:11 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4601-1/</guid>
+      <description><![CDATA[
+
+<h2 id="python-pip-vulnerability">python-pip vulnerability</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 18.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>pip could be made to overwrite files as the administrator.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>python-pip - Python package installer</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>It was discovered that pip did not properly sanitize the filename during
+pip install. A remote attacker could possible use this issue to read and
+write arbitrary files on the host filesystem as root, resulting in a
+directory traversal attack. (CVE-2019-20916)</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 18.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/python-pip">python-pip</a> - <a href="https://launchpad.net/ubuntu/+source/python-pip/9.0.1-2.3~ubuntu1.18.04.4">9.0.1-2.3~ubuntu1.18.04.4</a></dd>
+<dd><a href="https://launchpad.net/ubuntu/+source/python-pip">python3-pip</a> - <a href="https://launchpad.net/ubuntu/+source/python-pip/9.0.1-2.3~ubuntu1.18.04.4">9.0.1-2.3~ubuntu1.18.04.4</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>In general, a standard system update will make all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-20916">CVE-2019-20916</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4600-1: Netty vulnerabilities</title>
+      <link>https://usn.ubuntu.com/4600-1/</link>
+      <pubDate>Thu, 22 Oct 2020 18:26:07 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4600-1/</guid>
+      <description><![CDATA[
+
+<h2 id="netty-3-9-vulnerabilities">netty-3.9 vulnerabilities</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 16.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>Netty could be made to expose sensitive information over the
+network.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>netty-3.9 - Asynchronous event-driven network application framework</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>It was discovered that Netty had HTTP request smuggling vulnerabilities. A
+remote attacker could used it to extract sensitive information. (CVE-2019-16869,
+CVE-2019-20444, CVE-2019-20445, CVE-2020-7238)</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 16.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/netty-3.9">libnetty-3.9-java</a> - <a href="https://launchpad.net/ubuntu/+source/netty-3.9/3.9.0.Final-1ubuntu0.1">3.9.0.Final-1ubuntu0.1</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>In general, a standard system update will make all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-16869">CVE-2019-16869</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-20444">CVE-2019-20444</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-20445">CVE-2019-20445</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-7238">CVE-2020-7238</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4593-2: FreeType vulnerability</title>
+      <link>https://usn.ubuntu.com/4593-2/</link>
+      <pubDate>Thu, 22 Oct 2020 14:48:01 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4593-2/</guid>
+      <description><![CDATA[
+
+<h2 id="freetype-vulnerability">freetype vulnerability</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 14.04 ESM</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>FreeType could be made to crash or run programs as your login if it
+opened a specially crafted file.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>freetype - FreeType 2 is a font engine library</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>USN-4593-1 fixed a vulnerability in FreeType. This update provides
+the corresponding update for Ubuntu 14.04 ESM.</p>
+
+<p>Original advisory details:</p>
+
+<p>Sergei Glazunov discovered that FreeType did not correctly handle certain
+ malformed font files. If a user were tricked into using a specially crafted
+ font file, a remote attacker could cause FreeType to crash or possibly
+ execute arbitrary code with user privileges.</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 14.04 ESM</dt>
+<dd>libfreetype6 - 2.5.2-1ubuntu2.8+esm2</dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>After a standard system update you need to restart your session to make
+all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://usn.ubuntu.com/usn/usn-4593-1">USN-4593-1</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15999">CVE-2020-15999</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4598-1: LibEtPan vulnerability</title>
+      <link>https://usn.ubuntu.com/4598-1/</link>
+      <pubDate>Thu, 22 Oct 2020 13:22:09 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4598-1/</guid>
+      <description><![CDATA[
+
+<h2 id="libetpan-vulnerability">libetpan vulnerability</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 16.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>LibEtPan could be made to expose sensitive information over the network.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>libetpan - Mail Framework for C Language</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>It was discovered that LibEtPan incorrectly handled STARTTLS when using
+IMAP, SMTP and POP3. A remote attacker could possibly use this issue
+to perform a response injection attack. (CVE-2020-15953)</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 16.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/libetpan">libetpan-dev</a> - <a href="https://launchpad.net/ubuntu/+source/libetpan/1.6-1ubuntu0.1">1.6-1ubuntu0.1</a></dd>
+<dd><a href="https://launchpad.net/ubuntu/+source/libetpan">libetpan17</a> - <a href="https://launchpad.net/ubuntu/+source/libetpan/1.6-1ubuntu0.1">1.6-1ubuntu0.1</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>In general, a standard system update will make all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2020-15953">CVE-2020-15953</a></li>
+</ul>
+]]></description>
+    </item>
+    <item>
+      <title>USN-4597-1: mod_auth_mellon vulnerabilities</title>
+      <link>https://usn.ubuntu.com/4597-1/</link>
+      <pubDate>Thu, 22 Oct 2020 12:47:17 +0000</pubDate>
+      <guid>https://usn.ubuntu.com/4597-1/</guid>
+      <description><![CDATA[
+
+<h2 id="libapache2-mod-auth-mellon-vulnerabilities">libapache2-mod-auth-mellon vulnerabilities</h2>
+
+<p>A security issue affects these releases of Ubuntu and its derivatives:</p>
+
+<ul>
+<li>Ubuntu 16.04 LTS</li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+
+<p>Several security issues were fixed in mod_auth_mellon.</p>
+
+<h3 id="software-description">Software Description</h3>
+
+<ul>
+<li>libapache2-mod-auth-mellon - SAML 2.0 authentication module for Apache</li>
+</ul>
+
+<h3 id="details">Details</h3>
+
+<p>François Kooman discovered that mod_auth_mellon incorrectly handled
+cookies. An attacker could possibly use this issue to cause a Cross-Site
+Session Transfer attack. (CVE-2017-6807)</p>
+
+<p>It was discovered that mod_auth_mellon incorrectly handled certain requests.
+An attacker could possibly use this issue to redirect a user to a malicious
+URL. (CVE-2019-3877)</p>
+
+<p>It was discovered that mod_auth_mellon incorrectly handled certain requests.
+An attacker could possibly use this issue to access sensitive information.
+(CVE-2019-3878)</p>
+
+<h2 id="update-instructions">Update instructions</h2>
+
+<p>The problem can be corrected by updating your system to the following package versions:</p>
+
+<dl>
+<dt>Ubuntu 16.04 LTS</dt>
+<dd><a href="https://launchpad.net/ubuntu/+source/libapache2-mod-auth-mellon">libapache2-mod-auth-mellon</a> - <a href="https://launchpad.net/ubuntu/+source/libapache2-mod-auth-mellon/0.12.0-2+deb9u1build0.16.04.1">0.12.0-2+deb9u1build0.16.04.1</a></dd>
+</dl>
+
+<p>To update your system, please follow these instructions: <a href="https://wiki.ubuntu.com/Security/Upgrades">https://wiki.ubuntu.com/Security/Upgrades</a>.</p>
+
+<p>In general, a standard system update will make all the necessary changes.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2017-6807">CVE-2017-6807</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-3877">CVE-2019-3877</a></li>
+<li><a href="https://people.canonical.com/~ubuntu-security/cve/CVE-2019-3878">CVE-2019-3878</a></li>
+</ul>
+]]></description>
+    </item>
+  </channel>
+</rss>
