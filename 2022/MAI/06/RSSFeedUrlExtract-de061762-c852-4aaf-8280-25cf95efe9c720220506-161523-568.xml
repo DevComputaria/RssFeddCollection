@@ -1,0 +1,1427 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <title>Security Affairs</title>
+    <atom:link href="http://securityaffairs.co/wordpress/feed" rel="self" type="application/rss+xml" />
+    <link>https://securityaffairs.co/wordpress</link>
+    <description>Read, think, share … Security is everyone's responsibility</description>
+    <lastBuildDate>Fri, 06 May 2022 18:38:38 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <site xmlns="com-wordpress:feed-additions:1">29506073</site>
+    <item>
+      <title>QNAP fixes multiple flaws, including a QVR RCE vulnerability</title>
+      <link>https://securityaffairs.co/wordpress/131000/security/qnap-fixes-critical-flaws.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 06 May 2022 18:38:36 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[QNAP]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=131000</guid>
+      <description><![CDATA[<p>QNAP addressed multiple vulnerabilities, including a critical remote execution flaw affecting the QVR video surveillance solution. QNAP has addressed multiple vulnerabilities, including a critical security issue, tracked as CVE-2022-27588 (CVSS score of 9.8), that could be exploited by a remote attacker to execute arbitrary commands on vulnerable QVR systems. QNAP QVR is a video surveillance [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/131000/security/qnap-fixes-critical-flaws.html">QNAP fixes multiple flaws, including a QVR RCE vulnerability</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>QNAP addressed multiple vulnerabilities, including a critical remote execution flaw affecting the QVR video surveillance solution.<gwmw style="display:none;"><gwmw style="display:none;"></h2>
+
+
+
+<p>QNAP has addressed multiple vulnerabilities, including a critical security issue, tracked as <a href="https://nvd.nist.gov/vuln/detail/CVE-2022-27588" target="_blank" rel="noreferrer noopener">CVE-2022-27588</a> (CVSS score of 9.8), that could be exploited by a remote attacker to execute arbitrary commands on vulnerable QVR systems.</p>
+
+
+
+<p>QNAP QVR is a video surveillance solution of the Taiwanese vendor which is hosted on its NAS devices and doesn&#8217;t require any extra software.</p>
+
+
+
+<p><em>&#8220;A vulnerability has been reported to affect QNAP VS Series NVR running QVR. If exploited, this vulnerability allows remote attackers to run arbitrary commands.&#8221; reads the <a href="https://www.qnap.com/en/security-advisory/qsa-22-07">advisory</a> published by QNAP.</em></p>
+
+
+
+<p>The company addressed the issue with the release of QVR 5.1.6 build 20220401.</p>
+
+
+
+<p>Below is the list of the other issues addressed by the vendor:</p>
+
+
+
+<ul><li><a href="https://www.qnap.com/go/security-advisory/qsa-22-15" target="_blank" rel="noreferrer noopener">CVE-2021-44057</a>: (High-severity) vulnerability in QNAP NAS Photo Station that could allow attackers to compromise the security of the system.</li><li><a href="https://www.qnap.com/go/security-advisory/qsa-22-16" target="_blank" rel="noreferrer noopener">CVE-2021-44051</a>: (High-severity) command injection flaw in QTS, QuTS hero, and QuTScloud.</li><li><a href="https://www.qnap.com/go/security-advisory/qsa-22-16" target="_blank" rel="noreferrer noopener">CVE-2021-44052</a>: (High-severity) link resolution flaw in QTS, QuTS hero, and QuTScloud.</li><li><a href="https://www.qnap.com/go/security-advisory/qsa-22-16" target="_blank" rel="noreferrer noopener">CVE-2021-44053</a>: (High-severity) cross-site scripting (XSS) flaw in QTS, QuTS hero, and QuTScloud.</li><li><a href="https://www.qnap.com/go/security-advisory/qsa-22-16" target="_blank" rel="noreferrer noopener">CVE-2021-44054</a>: (High-severity) open-redirect vulnerability in QTS, QuTS hero, and QuTScloud.</li><li><a href="https://www.qnap.com/en/security-advisory/qsa-22-13">CVE-2021-38693</a> &#8211; (Medium Severity) Path Traversal Vulnerability in thttpd in QTS, QuTS hero, and QuTScloud.</li><li><a href="https://www.qnap.com/go/security-advisory/qsa-22-14" target="_blank" rel="noreferrer noopener">CVE-2021-44055</a>/ <a href="https://www.qnap.com/go/security-advisory/qsa-22-14" target="_blank" rel="noreferrer noopener">CVE-2021-44056</a>: (Medium severity) vulnerabilities affecting QNAP NAS running certain versions of Video Station. If exploited, these vulnerabilities allow remote attackers to access sensitive data, perform unauthorized actions, and compromise the security of the system.<gwmw style="display:none;"></li></ul>
+
+
+
+<blockquote class="wp-block-quote is-style-default"><p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong> </strong><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></p></blockquote>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong> <strong>hacking, QNAP)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<p><div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div><gwmw style="display:none;"></p>
+
+
+
+<p><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw></gwmw></gwmw></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/131000/security/qnap-fixes-critical-flaws.html">QNAP fixes multiple flaws, including a QVR RCE vulnerability</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">131000</post-id>
+    </item>
+    <item>
+      <title>Anonymous and Ukraine IT Army continue to target Russian entities</title>
+      <link>https://securityaffairs.co/wordpress/130992/hacktivism/anonymous-ukraine-it-army-vs-russia.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 06 May 2022 14:16:08 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber warfare]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Hacktivism]]></category>
+      <category><![CDATA[Anonymous]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130992</guid>
+      <description><![CDATA[<p>The Anonymous collective and the volunteer group Ukraine IT Army continues to launch cyber attacks on Russian entities. The Anonymous collective continues its cyber war on Russian businesses and government organizations. Below is the list of the most recent organizations targeted by the collective that also leaked stolen data through the DDoSecrets platform: CorpMSP is [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130992/hacktivism/anonymous-ukraine-it-army-vs-russia.html">Anonymous and Ukraine IT Army continue to target Russian entities</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>The Anonymous collective and the volunteer group Ukraine IT Army continues to launch cyber attacks on Russian entities.</h2>
+
+
+
+<p>The Anonymous collective continues its cyber war on Russian businesses and government organizations. Below is the list of the most recent organizations targeted by the collective that also leaked stolen data through the <a href="https://securityaffairs.co/wordpress/wp-admin/post.php?post=130992&amp;action=edit">DDoSecrets</a> platform:</p>
+
+
+
+<ul><li><a href="https://ddosecrets.com/wiki/CorpMSP">CorpMSP</a> is a federal institution providing support to small and medium-sized businesses. The controlling shareholder of CorpMSP is the Russian Federation. <a href="https://twitter.com/xxNB65/status/1518594916431060992/photo/1">According to group of hacktivist NB65</a>, CorpMSP is allegedly used as a shell company for digital spies, and supports operations of the Russian Ministry of Defense. The leaked <a href="https://twitter.com/xxNB65/status/1519772298282254341">files documented these allegations</a>, they were quickly <a href="https://twitter.com/xxNB65/status/1520037618670526467">removed from Mega</a>. According to NB65, the 9GB of files included client contracts and image files of the Ministry of Defense contracts. The Anonymous-linked group leaked a 482.5 GB archive containing 75,000 files, emails and disk images from CorpMSP. </li><li><a href="https://ddosecrets.com/wiki/LLC_Capital">LLC Capital</a> is a specialized accounting firm which works with <a href="https://en.wikipedia.org/wiki/Mikhail_Gutseriev">Mikhail Gutseriev&#8217;s</a> <a href="https://en.wikipedia.org/wiki/SAFMAR">SAFMAR Group</a> and its assets, including PJSC RussNeft. Anonymous leaked a 20.4 GB archive containing 31,990 emails from LLC Capital.</li></ul>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">CorpMSP is a naughty group of IT people.  <br><br>You have 3 days to contact us.  We have 675GB of data.<br><br>How many of your clients and government contracts are going to stick around once they learn you&#39;re completely owned by Network Battalion 65? <br><br>Let&#39;s find out.<br><br>Fuck your president. <a href="https://t.co/G41KkmUm96">pic.twitter.com/G41KkmUm96</a></p>&mdash; NB65 (@xxNB65) <a href="https://twitter.com/xxNB65/status/1518594916431060992?ref_src=twsrc%5Etfw">April 25, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><figcaption><gwmw style="display:none;"></figcaption></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">JUST IN: <a href="https://twitter.com/hashtag/Anonymous?src=hash&amp;ref_src=twsrc%5Etfw">#Anonymous</a>-linked group &#39;NB65&#39; (<a href="https://twitter.com/xxNB65?ref_src=twsrc%5Etfw">@xxNB65</a>) hacked over 480 GB and 75,000 files, emails and disk images from CorpMSP, a federal institution providing support to small and medium-sized businesses. The controlling shareholder of CorpMSP is the Russian Federation. <a href="https://twitter.com/hashtag/OpRussia?src=hash&amp;ref_src=twsrc%5Etfw">#OpRussia</a> <a href="https://t.co/r3tMdMlKSF">pic.twitter.com/r3tMdMlKSF</a></p>&mdash; Anonymous TV <img src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f1fa-1f1e6.png" alt="🇺🇦" class="wp-smiley" style="height: 1em; max-height: 1em;" /> (@YourAnonTV) <a href="https://twitter.com/YourAnonTV/status/1522254867246505984?ref_src=twsrc%5Etfw">May 5, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><figcaption><br><gwmw style="display:none;"></figcaption></figure>
+
+
+
+<p>Anonymous is also working to inform Russians about the crimes committed by its Army in the barbarian invasion of Ukraine. The hacking group <a href="https://twitter.com/squad3o3?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1521248352415137792%7Ctwgr%5E%7Ctwcon%5Es1_&amp;ref_url=https%3A%2F%2Fsecurityaffairs.co%2Fwordpress%2Fwp-admin%2Fpost.php%3Fpost%3D130992action%3Dedit" target="_blank" rel="noreferrer noopener">@squad3o3</a> claimed that over 100 million messages have been sent from its services to Russia to fight Moscow&#8217;s propaganda.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">JUST IN: The amazing <a href="https://twitter.com/squad3o3?ref_src=twsrc%5Etfw">@squad3o3</a> continues to provide a way to send messages to Russian about the war in <a href="https://twitter.com/hashtag/Ukraine?src=hash&amp;ref_src=twsrc%5Etfw">#Ukraine</a> to fight Russian propaganda. Over 100 million messages sent so far from warriors all over the world. <a href="https://twitter.com/hashtag/OpRussia?src=hash&amp;ref_src=twsrc%5Etfw">#OpRussia</a> <a href="https://twitter.com/hashtag/Anonymous?src=hash&amp;ref_src=twsrc%5Etfw">#Anonymous</a> <a href="https://t.co/4xFYx4sfHS">https://t.co/4xFYx4sfHS</a> <a href="https://t.co/GyjPgjkEgU">pic.twitter.com/GyjPgjkEgU</a></p>&mdash; Anonymous TV <img src="https://s.w.org/images/core/emoji/13.1.0/72x72/1f1fa-1f1e6.png" alt="🇺🇦" class="wp-smiley" style="height: 1em; max-height: 1em;" /> (@YourAnonTV) <a href="https://twitter.com/YourAnonTV/status/1521248352415137792?ref_src=twsrc%5Etfw">May 2, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><figcaption><gwmw style="display:none;"></figcaption></figure>
+
+
+
+<p>This week the collective of hacktivists Ukraine IT Army has launched a series of massive DDoS attacks on Russian targets causing severe problems. Once of the targets of the attack was the <a href="https://securityaffairs.co/wordpress/130966/cyber-warfare-2/ukraine-it-army-hit-egais.html">Unified State Automated Alcohol Accounting Information System (EGAIS)</a> portal, which is considered crucial for alcohol distribution in Russia.</p>
+
+
+
+<p>The attacks on the EGAIS websites took place on May 2 and 3 and failures were reported on 4, a call to action to attack the site was shared within the community of IT Army of Ukraine.</p>
+
+
+
+<p>Due to the effects of the attack, factories cannot accept tanks with alcohol, and customers (both stores and distributors) were not able to receive finished products that have already been delivered to them,<gwmw style="display:none;"></p>
+
+
+
+<p>Many factories halted shipments to warehouses completely and subsequently cut their production rate.<gwmw style="display:none;"></p>
+
+
+
+<p>This week Crowdstrike researchers <a href="https://securityaffairs.co/wordpress/130901/cyber-warfare-2/docker-images-ddos-attack-russia.html">reported</a> that Pro-Ukraine hackers, likely linked to <a href="https://securityaffairs.co/wordpress/129991/hacktivism/anonymous-it-army-of-ukraine-vs-russia.html">Ukraine IT Army</a>, are using Docker images to launch distributed denial-of-service (DDoS) attacks against a dozen websites belonging to government, military, and media agencies. The DDoS attacks also targeted three Lithuanian media websites.</p>
+
+
+
+<p>The attackers attempt to exploit misconfigured Docker installs through exposed APIs and takeover them to abuse their computational resources.</p>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, Ukraine)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div>
+
+
+
+<p><gwmw style="display:none;"></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130992/hacktivism/anonymous-ukraine-it-army-vs-russia.html">Anonymous and Ukraine IT Army continue to target Russian entities</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130992</post-id>
+    </item>
+    <item>
+      <title>NetDooka framework distributed via a pay-per-install (PPI) malware service</title>
+      <link>https://securityaffairs.co/wordpress/130979/cyber-crime/netdooka-framework.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 06 May 2022 13:28:06 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber Crime]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Cybercrime]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[NetDooka]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130979</guid>
+      <description><![CDATA[<p>Researchers discovered a sophisticated malware framework, dubbed NetDooka, distributed via a pay-per-install (PPI) malware service known as PrivateLoader. Trend Micro researchers uncovered a sophisticated malware framework dubbed NetDooka that is distributed via a pay-per-install (PPI) service known as PrivateLoader and includes multiple components, including a loader, a dropper, a protection driver, and a full-featured remote [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130979/cyber-crime/netdooka-framework.html">NetDooka framework distributed via a pay-per-install (PPI) malware service</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>Researchers discovered a sophisticated malware framework, dubbed NetDooka, distributed via a pay-per-install (PPI) malware service known as PrivateLoader.</h2>
+
+
+
+<p>Trend Micro researchers uncovered a sophisticated malware framework dubbed NetDooka that is distributed via a pay-per-install (PPI) service known as <a href="https://intel471.com/blog/privateloader-malware">PrivateLoader</a> and includes multiple components, including a loader, a dropper, a protection driver, and a full-featured remote access trojan (RAT) that implements its protocol for C2 communication.&nbsp;</p>
+
+
+
+<p>The PrivateLoader malware is a downloader used by threat actors for downloading and installing multiple malware. Some of the malware families distributed via PPI services include <a href="https://securityaffairs.co/wordpress/128116/malware/golang-kraken-botnet.html">SmokeLoader</a>, <a href="https://securityaffairs.co/wordpress/126627/cyber-crime/redline-malware-omicron.html">RedLine</a>, and <a href="https://securityaffairs.co/wordpress/107591/malware/anubis-info-stealing-malware.html">Anubis</a>.<gwmw style="display:none;"></p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full is-resized"><a href="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/netdooka-2.png?ssl=1"><img src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/netdooka-2.png?resize=660%2C362&#038;ssl=1" alt="netdooka" class="wp-image-130984" width="660" height="362" srcset="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/netdooka-2.png?w=1017&amp;ssl=1 1017w, https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/netdooka-2.png?resize=300%2C165&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/netdooka-2.png?resize=768%2C422&amp;ssl=1 768w" sizes="(max-width: 660px) 100vw, 660px" data-recalc-dims="1" /></a><figcaption><gwmw style="display:none;"><gwmw style="display:none;"></figcaption></figure></div>
+
+
+
+<p>The attack chain starts when a user downloads PrivateLoader, usually through pirated software, then the NetDooka malware is installed to act as a dropper for additional components.<gwmw style="display:none;"><gwmw style="display:none;"></p>
+
+
+
+<p>The researchers pointed out that the framework is still under development. </p>
+
+
+
+<p>The loader performs a set of checks to avoid being executed in a virtual environment, it might also install a kernel driver for future use.</p>
+
+
+
+<p><em>&#8220;Upon execution, the loader will deobfuscate strings, such as the command-and-control (C&amp;C) server address, and check for the command-line arguments that were passed. The malware accepts multiple arguments that indicate what action should be taken.&#8221;  reads a <a href="https://www.trendmicro.com/en_us/research/22/e/netdooka-framework-distributed-via-privateloader-ppi.html">report</a> published by Trend Micro.</em> The malware used a function called “DetectAV()” to determine the antivirus solution installed on the system and uninstall it.</p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td>Argument</td><td>Function</td></tr><tr><td>001</td><td>Uninstalls Avira programs</td></tr><tr><td>004</td><td>Uninstalls Viper programs</td></tr><tr><td>006</td><td>Uninstalls Total 360 programs</td></tr><tr><td>007</td><td>Uninstalls ESET programs</td></tr><tr><td>008</td><td>Uninstalls GData programs</td></tr><tr><td>embedded</td><td>Downloads the dropper component and renames it to reloadbitex.exe</td></tr><tr><td>correct</td><td>Executes the dropper component and blocks antivirus vendor domains</td></tr><tr><td>&lt;No ARG&gt;</td><td>Downloads the dropper component and executes itself using the “embedded” and “correct” arguments</td></tr></tbody></table></figure>
+
+
+
+<p>One of the dropper component analyzed by Trend Micro is the downloaded malware which is executed by the loader. This dropper is responsible for decrypting and executing the final payload, a RAT that implements multiple capabilities such as starting a remote shell, grabbing browser data, taking screenshots, and gathering system information. It can also start the installed kernel driver component to protect the dropped payload.</p>
+
+
+
+<p>The final payload, the NetDookaRAT, supports multiple functions such as executing shell commands, performing distributed denial-of-service (DDoS) attacks, downloading and executing files, logging keystrokes on the infected machine, and performing remote desktop operations.</p>
+
+
+
+<p><em>&#8220;PPI malware services allow malware creators to easily deploy their payloads. The use of a malicious driver creates a large attack surface for attackers to exploit, while also allowing them to take advantage of approaches such as protecting processes and files, bypassing antivirus programs, and hiding the malware or its network communications from the system, among others.&#8221; concludes the analysis. &#8220;Furthermore, with the RAT payload properly installed, malicious actors can perform actions such as stealing several critical information from the infected systems, gaining remote control access to the system, and creating botnet networks.&nbsp;&#8220;</em></p>
+
+
+
+<p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong>&nbsp;</strong></p>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong> <strong>hacking, NetDooka)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<p><div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div><gwmw style="display:none;"><gwmw style="display:none;"></p>
+
+
+
+<p></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130979/cyber-crime/netdooka-framework.html">NetDooka framework distributed via a pay-per-install (PPI) malware service</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130979</post-id>
+    </item>
+    <item>
+      <title>Vulnerable Docker Installations Are A Playhouse for Malware Attacks</title>
+      <link>https://securityaffairs.co/wordpress/130973/cyber-crime/uptycs-docker-malware-attacks.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 06 May 2022 10:02:23 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber Crime]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Cybersecurity]]></category>
+      <category><![CDATA[cybersecurity news]]></category>
+      <category><![CDATA[Docker]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130973</guid>
+      <description><![CDATA[<p>Uptycs researchers identified ongoing malicious campaigns through our Docker honeypot targeting exposed Docker API. The Uptycs Threat Research team has identified ongoing malicious campaigns through our Docker honeypot targeting exposed Docker API port 2375. The attacks are related to crypto miners and reverse shells on the vulnerable servers using base64-encoded commands in the cmdline, built [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130973/cyber-crime/uptycs-docker-malware-attacks.html">Vulnerable Docker Installations Are A Playhouse for Malware Attacks</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>Uptycs researchers identified ongoing malicious campaigns through our Docker honeypot targeting exposed Docker API.<gwmw style="display:none;"></h2>
+
+
+
+<p>The Uptycs Threat Research team has identified ongoing malicious campaigns through our Docker honeypot targeting exposed Docker API port 2375. The attacks are related to crypto miners and reverse shells on the vulnerable servers using base64-encoded commands in the cmdline, built to evade defense mechanisms. This article briefly discusses three types of attacks which we observed lately in our Docker honeypot.</p>
+
+
+
+<ul><li>Coinminer attacks</li><li>Reverse shell attacks</li><li>Kinsing malware attacks</li></ul>
+
+
+
+<h2>Case 1 &#8211; Coinminer Attacks&nbsp;</h2>
+
+
+
+<p>The coinminer attack chain involves several shell scripts to drop malicious components via deployment of legitimate Docker images on the vulnerable servers (the servers exposed to Docker API).&nbsp;</p>
+
+
+
+<h3>&nbsp;</h3>
+
+
+
+<h2>Malicious Shell Scripts Involved In The Campaign</h2>
+
+
+
+<p>The threat actors tried to run the&nbsp;<a href="https://hub.docker.com/_/alpine">Alpine</a>&nbsp;Docker image with chroot command to gain full privileges on the vulnerable server host (a common misconfiguration). The attacker passed curl utility as an argument to the Alpine image which downloads and runs the malicious shell script (hash:&nbsp;<a href="https://www.virustotal.com/gui/file/fa98add22756cc2041f1dc372c709a4039cd0d6ae000454f728e95165be08abe">fa98add22756cc2041f1dc372c709a4039cd0d6ae000454f728e95165be08abe</a>) on the vulnerable server host as shown below (see Figure 1).</p>
+
+
+
+<p><img src="https://lh3.googleusercontent.com/0_esoNG97T5GI7YioD7QPeFB3rdlgPOZ07vqg88-tkuZnxgDTyEwt6CWlZ_YsQgYVo0R2W9qTcp9n8ndjIOO6HUzVOIFIovxUeIHrW7Dlo-aYaPKlT8Ov1pvIA9YHg1JpOuzs0on" width="1905"><em>Figure 1: honeypot log &#8211; command ran by attacker on the vulnerable server</em></p>
+
+
+
+<h3>Cronb.sh (the miner script)</h3>
+
+
+
+<p>In the above image, the cronb.sh (hash: fa98add22756cc2041f1dc372c709a4039cd0d6ae000454f728e95165be08abe) shell script does the following activities onto the server:</p>
+
+
+
+<ol><li>Tries to disable security monitoring agents like aliyun in the victim system.</li><li>Downloads the xmrig coinminer onto the system.&nbsp;</li></ol>
+
+
+
+<p><img src="https://lh4.googleusercontent.com/49KNJIGk4WxHiaepXWcTqgGkJZpLbT-adE0tGe_NYWkrPO42dHMnuX2jiZQezt9mYh-02OfZumrmDkVYTsYezPy9CH103n6Q2SP3LW3mENWFL2qqoOf2-CcoBLiulId1BSuEXNL2" width="4324"><br><em>Figure 2: Xmrig getting downloaded</em><br>&nbsp; &nbsp; &nbsp; &nbsp;3. Kills already running miner-related processes (if any).&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp;4. Decodes a Base64-encoded tar file containing the Diamorphine rootkit.&nbsp;</p>
+
+
+
+<p><img src="https://lh6.googleusercontent.com/L02wIRMakR9V84QCPtRmt3cs9k427n2ri5C6_uqbs5OYwCrWUYD7MS7BrQsIa3XQgfBgF5xDHhRhke6-raCEzM6_RKcJEKO3P22urK6PEI_hy95bmjxjktbhZ3HiG9I30OrZuuMp" width="1710"><br><em>Figure 3: base64 encoded tar file</em>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5. Upon extraction, the rootkit gets deployed into the victim system.</p>
+
+
+
+<p><img src="https://lh3.googleusercontent.com/J07tFDwKzkcWUCae6WcvdNoTzMOzudgkrHW_LEBQBrvIc59qSSObo4pQ4AorsxqMyfE1I81lrymT4aceGzHzVGdRx3LtiSqWucBpfJxTUro7V2Wyx5rxYIF7ol3H4Z2y5-AiI29K" width="2090"><br><em>Figure 4: Rootkit installation</em></p>
+
+
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; 6. The cronb.sh at last downloads and runs another shell script named cronis.sh in the system.</p>
+
+
+
+<p><img src="https://lh6.googleusercontent.com/C2N5rDHrepB-xFoqjpc62Pzf54cNd1UJ9RgXCqDaFHQKa9YhtpAqOBL1AyDwgn5Z-T28BYmoHmZ82NdhJA7dpAAWvmk85p52BhZiPllEG8Q4WspZ0ftr6_S_tQLo5IroOipfH-JG" width="7089"><br><em>Figure 5: cronb.sh downloading cronis.sh</em></p>
+
+
+
+<h3>Cronis.sh</h3>
+
+
+
+<p>The second stage shell script cronis.sh (hash: cbb37344fdf2429306d4f608237def14465f5667080f6ee43c732d8d42fa7e5b) starts with renaming common utilities as a defense evasion tactic. The script then downloads pentesting tools like masscan and pnscan for scanning open ports on the systems in the victim’s subnet.&nbsp;</p>
+
+
+
+<p>The script also checks if the Docker service is active or not. If the Docker service is not active, the script executes commands to start the Docker service with exposed Docker APIs (port 2375).&nbsp;</p>
+
+
+
+<p>Lastly, the shell script downloads and runs another shell script named cronscan.</p>
+
+
+
+<h4>&nbsp;</h4>
+
+
+
+<h3>Cronscan</h3>
+
+
+
+<p>The cronscan (hash: 6826653f0d3728f75d672c3c2dc152a45ecbd34a17bc1117d01fcf3c097586cd) is a shell script that downloads and runs multiple malicious shell scripts in the system which are often used for mass scanning and banner grabbing in the campaign.&nbsp;</p>
+
+
+
+<h3><strong>Mass scanning to find more vulnerable servers</strong></h3>
+
+
+
+<h3><strong>rss.sh</strong></h3>
+
+
+
+<p>The shell scripts which get downloaded by cronscan perform mass scanning to find more vulnerable servers. One of those shell scripts is rss.sh (hash: 2b229093689856cf1e606fcfbcb8716e53dc96fffed2fb5f6e5247d088843f4c). The commands inside rss.sh start scanning for the systems having port 6379 opened in the victim subnet. This port, if opened and unauthenticated, gives remote connection via the redis-cli utility.&nbsp;</p>
+
+
+
+<p>As a result of scanning, once the target is found, the attacker passes the .dat file as argument to redis-cli utility. The .dat file contains the contents of cronb.sh which we discussed above.</p>
+
+
+
+<p><img src="https://lh3.googleusercontent.com/CuVPr4HrsWmaG9wqYSlTIAHW4M_0NU4Ac7E6HSrT6IzIebtKBxPR34aK7J60_HBk4_wLKsyF-zeMNe8ezD_0ERxj35m5unfdbYSuIffZj9CSwTKCHjiJpR0qex4UxYJWg9sTsc6X" width="4978"><em>Figure 6: command to run cronb.sh via redis-cli utility on target</em></p>
+
+
+
+<h2>Case 2 &#8211; Coinminer attack with a different flavor</h2>
+
+
+
+<p>The second type of the crypto miner attack we found in our honeypot involved heavy obfuscation (see Figures 7 and 8).</p>
+
+
+
+<p><img src="https://lh5.googleusercontent.com/7epRIorCGZEorNMjAPiIUIRQJOfnYpyHZWCgsZ4UzaX9x-4VyjAZq0woMgTL5w6fEGkEmvt1PJJ-tSNjB6gvq5oM5eIqGm-P9IgFvs-M68QKO9y0NbBahnpJWKqWvFBKGfA9GB0n" width="1870"><em>Figure 7:honeypot log &#8211; crypto miner attack</em></p>
+
+
+
+<p><img src="https://lh4.googleusercontent.com/PodiAjYWqk4QYmRfNh4m_ROwSsPJvF-nfkTdqjBTj21Q5C5r4KtCT9lJSKqGAo47w0wZC0kWk3zmbVjduJx_SaFRA_m2pndv8QeOmCUYDynyR6jamsp-qacW6O9SOgx6ToAKXOrN" width="3173"><em>Figure 8: aaa.sh contents&nbsp;</em></p>
+
+
+
+<p>As we can see in the above figures, the attacker used heavy obfuscation to evade static defenses. On executing the above shell script (hash: 05a65e666492dd8ec5ab0985e5395967bc7bed03e9aaca11cdb9351873093382), the Xmrig miner gets downloaded from github and mining gets started (see Figure 8).</p>
+
+
+
+<p><img src="https://lh4.googleusercontent.com/LoDwWxY5it6DpUHHah7llqOyO0W6Khsea3IAOi7hM1U9sE3OVHu0i4NNGHoTmlKW3PUnNxY4SBzrUIazGEQgUTFvdJCvaytbQ6TLCPG3rvUA2QLyAEGkKdAwZ2elLcyzEok2T6KK" width="3185"><em>Figure 9: xmrig getting downloaded</em></p>
+
+
+
+<h2>Case 3 &#8211; Reverse shell based attacks</h2>
+
+
+
+<p>The third type of attack we observed was the reverse shell based attacks where attackers tried to run a reverse shell on the vulnerable servers. The below image shows the full details of the activity, remotely done by the attacker (see Figure 9).</p>
+
+
+
+<p><img src="https://lh5.googleusercontent.com/T-B_M3gWrmb9ot7BuN1LXJu2dHcK3Afzq0fhqpUUUBHeYcUi-s1hgZqwedeLjfIKJbWYltCZsWUGBHbxjxj8DNelakFBKZ-0OhkGtW7LKyj58WYsghgTNPTYQkoFBJHVPd45DlOy" width="1495"><em>Figure 10: Details of the remote activity done by the attacker</em></p>
+
+
+
+<p>As we can see in the above image, the attackers perform the following actions via cmdline&nbsp;</p>
+
+
+
+<ul><li>Tried to run the alpine docker image with full privilege.</li><li>Used base64-encoded commands to evade defense mechanism.</li><li>Gave executable permission to the reverse shell binary using chmod utility.&nbsp;</li><li>Tried to register the reverse shell binary in the cron for persistence.</li></ul>
+
+
+
+<p>We observed that the reverse shell binary used in this campaign tried to connect to the IP address ‘185[.232.169.211’ and port ‘3242’ (see Figure 8).<br></p>
+
+
+
+<p><img src="https://lh6.googleusercontent.com/4Q5Z2qQqcAk_CsJ1PeXpLu8zXSMiPKLiGDjKvQcXmMDSm_NNdtzcUD0m-TVij9n-OkYxDXXx7YHJUoOtozUq89RJConzn_B_yzsLbqK18DkFmLP36VOzJB6IaFFuyt7e4fBaunuu" width="10769"><em>Figure 11: reverse shell binary connecting to C2</em></p>
+
+
+
+<h2>Case 4 &#8211; Kinsing malware attacks</h2>
+
+
+
+<p>The last and the most commonly seen attacks is Kinsing, a popular malware family seen in the *nix based malware attacks. The Kinsing attack chain includes&nbsp;<a href="https://www.uptycs.com/blog/evasive-techniques-used-by-malicious-linux-shell-scripts">various defense evasive</a>&nbsp;mechanisms and commands along with a rootkit to hide malicious activity. The main objective of kinsing is to mine cryptocurrency on the vulnerable servers. In our Docker honeypot, we observed a huge magnitude of kinsing related attacks on the vulnerable servers.&nbsp;</p>
+
+
+
+<p><img src="https://lh5.googleusercontent.com/1tTgIa5RusLz0jSf8bGLtRoRk7C3xxpGvonVb4crIOe0fRwfbYl3I0fvaROUZGl_OpVE4VoYzPbfibQb22JCGaPBrycyvqLNFuvuc6hNCk67AZXU5Aw3fK-uxgJynilrqyggIMtd" width="1958"><em>Figure 12: honeypot log &#8211; kinsing malware attack</em></p>
+
+
+
+<p>The kinsing shell script contains the Docker-related commands which kills already running miner processes (if any are present) on the victim system.</p>
+
+
+
+<p><img src="https://lh4.googleusercontent.com/4jGXhIcGw36M5IrPDANkKSveS5WV5cVwbhLA9U1NgA_IVvIOTL7Tmg5ozNpvtWbVQcOEeMnRhIA3HL02VDwr3MI-9Mf9ES9SrlJcgVDU0IXQBivbA5eNp4nRjpGuu34sHEhR0AB3" width="1547"><em>Figure 13: Docker commands to kill already running&nbsp; miners</em></p>
+
+
+
+<p><img loading="lazy" src="https://lh5.googleusercontent.com/OqxYS2iNUquJWIknzI58teUG7W35dJ6AVPZgHDiYNnk05jbcHaNt8da3zK_xAhOALnVSSkXfFoP7xURQa48Jh-MfJ0yBoKrqmcIfdqFCjNxN5yC2W-YXQqbgDDH-F1ITbHcZA2fo" width="624" height="236"><br><em>Figure 14: Kinsing getting downloaded via shell script</em></p>
+
+
+
+<p>The analysis and operation of Kinsing has already been covered in our previous <a href="https://www.uptycs.com/blog/detecting-docker-container-malware-using-osquery">blog</a>. </p>
+
+
+
+<p><strong>About the author: <a href="https://www.uptycs.com/blog/author/uptycs-threat-research">Uptycs Threat Research</a></strong></p>
+
+
+
+<h2>Conclusion<gwmw style="display:none;"></h2>
+
+
+
+<p>Docker containers have become a fundamental aspect in application development. If proper protections are not in place, these servers become vulnerable and a playground from which attackers launch and host attacks. Our in-house Docker honeypot monitors Docker related threats continuously and provides intelligence to the team to protect our customers.The EDR capabilities of Uptycs empowers security teams to detect and investigate attacks in their Docker infrastructure.</p>
+
+
+
+<p>Further details, including indicators of compromise (IoCs) are available in the original post published by Uptycs.</p>
+
+
+
+<p><a href="https://www.uptycs.com/blog/vulnerable-docker-installations-are-a-playhouse-for-malware-attacks?hs_preview=roycVWho-72459548548"><strong>https://www.uptycs.com/blog/vulnerable-docker-installations-are-a-playhouse-for-malware-attacks?hs_preview=roycVWho-72459548548</strong></a></p>
+
+
+
+<blockquote class="wp-block-quote is-style-default"><p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong> </strong><gwmw style="display:none;"><gwmw style="display:none;"></p><cite><gwmw style="display:none;"></cite></blockquote>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong> <strong>hacking, domain name system)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130973/cyber-crime/uptycs-docker-malware-attacks.html">Vulnerable Docker Installations Are A Playhouse for Malware Attacks</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130973</post-id>
+    </item>
+    <item>
+      <title>Ukraine IT Army hit EGAIS portal impacting Russia’s alcohol distribution</title>
+      <link>https://securityaffairs.co/wordpress/130966/cyber-warfare-2/ukraine-it-army-hit-egais.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 06 May 2022 07:26:25 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber warfare]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Hacktivism]]></category>
+      <category><![CDATA[DDoS]]></category>
+      <category><![CDATA[EGAIS]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Russia]]></category>
+      <category><![CDATA[Security News]]></category>
+      <category><![CDATA[Ukraine]]></category>
+      <category><![CDATA[Ukraine IT Army]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130966</guid>
+      <description><![CDATA[<p>Ukraine IT Army launched massive DDoS attacks on the EGAIS portal that has a crucial role in Russia&#8217;s alcohol distribution. The collective of hacktivists Ukraine IT Army has launched a series of massive DDoS attacks on the Unified State Automated Alcohol Accounting Information System (EGAIS) portal, which is considered crucial for alcohol distribution in Russia. [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130966/cyber-warfare-2/ukraine-it-army-hit-egais.html">Ukraine IT Army hit EGAIS portal impacting Russia&#8217;s alcohol distribution</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>Ukraine IT Army launched massive DDoS attacks on the EGAIS portal that has a crucial role in Russia&#8217;s alcohol distribution.<gwmw style="display:none;"><gwmw style="display:none;"></h2>
+
+
+
+<p>The collective of hacktivists Ukraine IT Army has launched a series of massive DDoS attacks on the Unified State Automated Alcohol Accounting Information System (EGAIS) portal, which is considered crucial for alcohol distribution in Russia.</p>
+
+
+
+<p><em>&#8220;Producers and distributors of alcohol for the first May holidays could not ship products to their customers due to a large-scale failure in the operation of the Unified State Automated Alcohol Accounting Information System (EGAIS).&nbsp;This was reported to Vedomosti by four participants in this market, a representative of a large retailer and an employee of a specialized association.&#8221; <a href="https://www.vedomosti.ru/business/articles/2022/05/04/920913-u-proizvoditelei-i-distributorov-alkogolya-voznikli-slozhnosti-s-postavkami-produktsii" target="_blank" rel="noreferrer noopener">reported Vedomosti</a>&nbsp;&#8220;Apparently, we are talking about DDoS attacks.&#8221;</em></p>
+
+
+
+<p>Alcohol producers and distributors were not able to ship products due to the unavailability of EGAIS system, and retail points warned of possible shortages due to the current situation.</p>
+
+
+
+<p>The attacks on the EGAIS websites took place on May 2 and 3 and failures were reported on 4, a call to action to attack the site was shared within the community of IT Army of Ukraine.</p>
+
+
+
+<p>Due to the effects of the attack, factories cannot accept tanks with alcohol, and customers (both stores and distributors) were not able to receive finished products that have already been delivered to them,<gwmw style="display:none;"><gwmw style="display:none;"></p>
+
+
+
+<p>Many factories halted shipments to warehouses completely and subsequently cut their production rate.</p>
+
+
+
+<p>At the time of writing this, the EGAIS&nbsp;portal is still unreachable.</p>
+
+
+
+<p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong>&nbsp;</strong></p>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong> <strong>hacking, Ukraine)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<p><div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div><gwmw style="display:none;"></p>
+
+
+
+<p><gwmw style="display:none;"><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130966/cyber-warfare-2/ukraine-it-army-hit-egais.html">Ukraine IT Army hit EGAIS portal impacting Russia&#8217;s alcohol distribution</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130966</post-id>
+    </item>
+    <item>
+      <title>Google addresses actively exploited Android flaw in the kernel</title>
+      <link>https://securityaffairs.co/wordpress/130960/security/android-actively-exploited-flaw.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 05 May 2022 19:47:00 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Mobile]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Android]]></category>
+      <category><![CDATA[Cybersecurity]]></category>
+      <category><![CDATA[cybersecurity news]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[Linux Kernel]]></category>
+      <category><![CDATA[mobile]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130960</guid>
+      <description><![CDATA[<p>Google released the May security bulletin for Android, 2022-05-05 security patch level, which fixed an actively exploited Linux kernel flaw. Google has released the second part of the May Security Bulletin for Android, which includes a fix for an actively exploited Linux kernel vulnerability tracked as CVE-2021-22600. The CVE-2021-22600 is a privilege escalation issue that [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130960/security/android-actively-exploited-flaw.html">Google addresses actively exploited Android flaw in the kernel</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>Google released the May security bulletin for Android, 2022-05-05 security patch level, which fixed an actively exploited Linux kernel flaw.</h2>
+
+
+
+<p>Google has released the second part of the May Security Bulletin for Android, which includes a fix for an actively exploited Linux kernel vulnerability tracked as <a href="https://securityaffairs.co/wordpress/130112/security/cisa-watchguard-flaw-known-exploited-vulnerabilities-catalog.html">CVE-2021-22600</a>.</p>
+
+
+
+<p>The CVE-2021-22600 is a privilege escalation issue that resides in the Linux kernel, an attacker can trigger it via local access. In April, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added the flaw to its <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer noopener">Known Exploited Vulnerabilities Catalog</a>.<gwmw style="display:none;"></p>
+
+
+
+<p>Google disclosed the flaw in January, but it was addressed for Android OS only this month.</p>
+
+
+
+<p><em>&#8220;There are indications that CVE-2021-22600 may be under limited, targeted exploitation&#8221; reads the <a href="https://source.android.com/security/bulletin/2022-05-01?hl=en">bulletin</a> published by Google. </em></p>
+
+
+
+<p>The company did not disclose the details of the attacks exploiting this flaw.</p>
+
+
+
+<p>The bulletin addressed five flaws in Framework, eight in the System, four in the Kernel components, three in the MediaTek components, five in the Qualconm Components, end eleven in the Qualcomm closed-source components.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default"><p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong> </strong><gwmw style="display:none;"><gwmw style="display:none;"></p></blockquote>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong> <strong>hacking, Android)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<p><div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div><gwmw style="display:none;"></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130960/security/android-actively-exploited-flaw.html">Google addresses actively exploited Android flaw in the kernel</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130960</post-id>
+    </item>
+    <item>
+      <title>Cisco addresses three bugs in Enterprise NFVIS Software</title>
+      <link>https://securityaffairs.co/wordpress/130952/security/cisco-nfvis-software-bugs.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 05 May 2022 14:51:11 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[CISCO]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[NFVIS]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130952</guid>
+      <description><![CDATA[<p>Cisco addresses three flaws impacting its Enterprise NFV Infrastructure Software (NFVIS) that could allow the compromise of the hosts. Cisco addressed three vulnerabilities, tracked as CVE-2022-20777, CVE-2022-20779, and CVE-2022-20780, affecting the Enterprise NFV Infrastructure Software (NFVIS) that could be exploited by attackers to take control over the hosts. &#8220;Multiple vulnerabilities in Cisco Enterprise NFV Infrastructure [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130952/security/cisco-nfvis-software-bugs.html">Cisco addresses three bugs in Enterprise NFVIS Software</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>Cisco addresses three flaws impacting its Enterprise NFV Infrastructure Software (NFVIS) that could allow the compromise of the hosts.<gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></h2>
+
+
+
+<p>Cisco addressed three vulnerabilities, tracked as CVE-2022-20777, CVE-2022-20779, and CVE-2022-20780, affecting the Enterprise NFV Infrastructure Software (<a href="https://www.cisco.com/c/en/us/products/routers/enterprise-nfv-infrastructure-software/index.html" target="_blank" rel="noreferrer noopener">NFVIS</a>) that could be exploited by attackers to take control over the hosts.</p>
+
+
+
+<p><em>&#8220;Multiple vulnerabilities in Cisco Enterprise NFV Infrastructure Software (NFVIS) could allow an attacker to escape from the guest virtual machine (VM) to the host machine, inject commands that execute at the root level, or leak system data from the host to the VM.&#8221; reads the advisory published by Cisco.</em></p>
+
+
+
+<p>An attacker could exploit the vulnerabilities to escape from the guest virtual machine (VM) to the host machine, execute commands as root, or leak system data from the host to the VM.</p>
+
+
+
+<p>Below are the three vulnerabilities fixed by the IT giant:</p>
+
+
+
+<ul><li><strong>CVE-2022-20777</strong> (CVSS score: 9.9) -A vulnerability in the Next Generation Input/Output (NGIO) feature of Cisco Enterprise NFVIS could allow an authenticated, remote attacker to escape from the guest VM to gain unauthorized <em>root</em>-level<em> </em>access on the NFVIS host.</li><li><strong>CVE-2022-20779</strong> (CVSS score: 8.8) &#8211; A vulnerability in the image registration process of Cisco Enterprise NFVIS could allow an unauthenticated, remote attacker to inject commands that execute at the <em>root</em> level on the NFVIS host during the image registration process.</li><li><strong>CVE-2022-20780</strong> (CVSS score: 7.4) &#8211; A vulnerability in the import function of Cisco Enterprise NFVIS could allow an unauthenticated, remote attacker to leak system data from the host to any configured VM.<gwmw style="display:none;"></li></ul>
+
+
+
+<p>The vulnerabilities were reported by Cyrille Chatras, Pierre Denouel, and Loïc Restoux of Orange Group. </p>
+
+
+
+<p>The Cisco Product Security Incident Response Team (PSIRT) said that it is not aware of any public announcements or malicious use of these vulnerabilities.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default"><p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong> </strong><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw></gwmw><gwmw style="display:none;"></p></blockquote>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, NFVIS)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<p><div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div><gwmw style="display:none;"></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130952/security/cisco-nfvis-software-bugs.html">Cisco addresses three bugs in Enterprise NFVIS Software</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130952</post-id>
+    </item>
+    <item>
+      <title>A couple of 10-Year-Old flaws affect Avast and AVG antivirus￼</title>
+      <link>https://securityaffairs.co/wordpress/130944/security/avast-avg-antivirus-flaws.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 05 May 2022 13:45:51 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Avast]]></category>
+      <category><![CDATA[AVG]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130944</guid>
+      <description><![CDATA[<p>Researcher discovered a couple of high-severity security flaws that affect a driver used by Avast and AVG antivirus solutions. SentinelOne researcher Kasif Dekel discovered two high-severity security vulnerabilities, tracked as CVE-2022-26522 and CVE-2022-26523, that affect a driver used by Avast and AVG antivirus solutions. The bugs reside in the anti-rootkit kernel driver named aswArPot.sys which [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130944/security/avast-avg-antivirus-flaws.html">A couple of 10-Year-Old flaws affect Avast and AVG antivirus￼</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>Researcher discovered a couple of high-severity security flaws that affect a driver used by Avast and AVG antivirus solutions.<gwmw style="display:none;"></h2>
+
+
+
+<p>SentinelOne researcher Kasif Dekel discovered two high-severity security vulnerabilities, tracked as CVE-2022-26522 and CVE-2022-26523, that affect a driver used by Avast and AVG antivirus solutions.</p>
+
+
+
+<p>The bugs reside in the anti-rootkit kernel driver named aswArPot.sys which is the &#8220;Avast anti-rootkit,&#8221; digitally signed by&nbsp;AVAST Software. The driver was introduced in Avast version 12.1, which dates back to June 2012.</p>
+
+
+
+<p>An attacker could exploit these vulnerabilities to escalate privileges and potentially disable antivirus solutions.</p>
+
+
+
+<p><em>&#8220;SentinelLabs has discovered two high severity flaws in Avast and AVG (acquired by Avast in 2016) that went undiscovered for 10 years affecting dozens of millions of users.&#8221; reads the <a href="https://www.sentinelone.com/labs/10-year-old-vulnerabilities-in-avast-and-avg-put-millions-at-risk/">advisory</a> published by SentinelOne. &#8220;These vulnerabilities allow attackers to escalate privileges enabling them to disable security products, overwrite system components, corrupt the operating system, or perform malicious operations unimpeded.&#8221;</em></p>
+
+
+
+<p>The vulnerable routine resides in a socket connection handler used in the kernel driver aswArPot.sys, the issue can be triggered by initiating a socket connection.</p>
+
+
+
+<p>The second issue, tracked as CVE-2022-26523, resides in the function at&nbsp;aswArPot+0xbb94&nbsp;and is very similar to the first vulnerability.</p>
+
+
+
+<p>Experts pointed out that the flaws can be exploited to perform a sandbox escape in a second-stage browser attack.</p>
+
+
+
+<p><em>&#8220;Due to the nature of these vulnerabilities, they can be triggered from sandboxes and might be exploitable in contexts other than just local privilege escalation. For example, the vulnerabilities could be exploited as part of a second stage browser attack or to perform a sandbox escape, among other possibilities.&#8221; concludes the experts. &#8220;As we have noted with similar flaws in other products recently (<a href="https://www.sentinelone.com/labs/cve-2021-3437-hp-omen-gaming-hub-privilege-escalation-bug-hits-millions-of-gaming-devices/" target="_blank" rel="noreferrer noopener">1</a>,&nbsp;<a href="https://www.sentinelone.com/labs/cve-2021-21551-hundreds-of-millions-of-dell-computers-at-risk-due-to-multiple-bios-driver-privilege-escalation-flaws/" target="_blank" rel="noreferrer noopener">2</a>,&nbsp;<a href="https://www.sentinelone.com/labs/usb-over-ethernet-multiple-privilege-escalation-vulnerabilities-in-aws-and-other-major-cloud-services/" target="_blank" rel="noreferrer noopener">3</a>), such vulnerabilities have the potential to allow complete take over of a device, even without privileges, due to the ability to execute code in kernel mode. Among the obvious abuses of such vulnerabilities are that they could be used to bypass security products.&#8221;</em></p>
+
+
+
+<p>The flaws were reported by SentinelOne on December 20, 2021, and Avast fixed the issues with the release of antivirus version 22.1 on February 8, 2022. </p>
+
+
+
+<p>The researchers pointed out that most Avast and AVG installs will be automatically updated, while air gapped or on-premise installs would be manually fixed as soon as possible.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default"><p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS</strong><gwmw style="display:none;"></p><p><strong>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.</strong></p><p><strong>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong> </strong><gwmw style="display:none;"></p></blockquote>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong> <strong>hacking, Avast)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<p><div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div><gwmw style="display:none;"></p>
+
+
+
+<p><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130944/security/avast-avg-antivirus-flaws.html">A couple of 10-Year-Old flaws affect Avast and AVG antivirus￼</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130944</post-id>
+    </item>
+    <item>
+      <title>F5 warns its customers of tens of flaws in its products</title>
+      <link>https://securityaffairs.co/wordpress/130934/security/f5-flaws.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 05 May 2022 09:47:30 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[BIG-IP]]></category>
+      <category><![CDATA[Cybersecurity]]></category>
+      <category><![CDATA[cybersecurity news]]></category>
+      <category><![CDATA[F5]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130934</guid>
+      <description><![CDATA[<p>Cybersecurity provider F5 released security patches to address tens of vulnerabilities affecting its products. Security and application delivery solutions provider F5 released its security notification to inform customers that it has released security updates from tens of vulnerabilities in its products. The company addressed a total of&#160;43 vulnerabilities, the most severe one is a critical [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130934/security/f5-flaws.html">F5 warns its customers of tens of flaws in its products</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>Cybersecurity provider F5 released security patches to address tens of vulnerabilities affecting its products.</h2>
+
+
+
+<p>Security and application delivery solutions provider F5 released its security notification to inform customers that it has released <a href="https://support.f5.com/csp/article/K55879220">security updates</a> from tens of vulnerabilities in its products.</p>
+
+
+
+<p>The company addressed a total of&nbsp;43 vulnerabilities, the most severe one is a critical issue tracked as <a href="https://support.f5.com/csp/article/K23605346" target="_blank" rel="noreferrer noopener">CVE-2022-1388</a> (CVSS score of 9.8). An unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses can exploit the <a href="https://support.f5.com/csp/article/K23605346" target="_blank" rel="noreferrer noopener">CVE-2022-1388</a> flaw to execute arbitrary system commands, create or delete files, or disable services. </p>
+
+
+
+<p><em>&#8220;This vulnerability may allow an unauthenticated attacker with network access to the BIG-IP system through the management port and/or self IP addresses to execute arbitrary system commands, create or delete files, or disable services. There is no data plane exposure; this is a control plane issue only.&#8221; reads the <a href="https://support.f5.com/csp/article/K23605346">advisory</a> published by the vendor.&#8221;</em></p>
+
+
+
+<p>The flaw affects the following versions:</p>
+
+
+
+<p>16.1.0 &#8211; 16.1.2<br>15.1.0 &#8211; 15.1.5<br>14.1.0 &#8211; 14.1.4<br>13.1.0 &#8211; 13.1.4<br>12.1.0 &#8211; 12.1.6<br>11.6.1 &#8211; 11.6.5</p>
+
+
+
+<p>and the vendor addressed it with the release of:</p>
+
+
+
+<p>17.0.0<br>16.1.2.2<br>15.1.5.1<br>14.1.4.6<br>13.1.5</p>
+
+
+
+<p>The company provided the following temporary mitigations for customers that cannot install the patched versions:<gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></p>
+
+
+
+<ul><li><a href="https://support.f5.com/csp/article/K23605346#proc1">Block iControl REST access through the self IP address</a></li><li><a href="https://support.f5.com/csp/article/K23605346#proc2">Block iControl REST access through the management interface</a></li><li><a href="https://support.f5.com/csp/article/K23605346#proc3">Modify the BIG-IP httpd configuration</a></li></ul>
+
+
+
+<p>F5 also addressed a couple of other important authentication bypass issues, tracked as <a href="https://support.f5.com/csp/article/K52322100">CVE-2022-25946</a> and <a href="https://support.f5.com/csp/article/K68647001">CVE-2022-27806</a>, in BIG-IP Guided Configuration and BIG-IP (ASM, Advanced WAF, APM). Both vulnerabilities could allow attackers to execute arbitrary JavaScript code in the context of the currently logged-in user.</p>
+
+
+
+<p>Below the two bugs, both received a CVSS score of 8.7:</p>
+
+
+
+<ul><li><a href="https://support.f5.com/csp/article/K52322100">Authenticated F5 BIG-IP Guided Configuration integrity check in Appliance mode vulnerability CVE-2022-25946</a></li><li><a href="https://support.f5.com/csp/article/K68647001">Authenticated F5 BIG-IP Guided Configuration in Appliance mode vulnerability CVE-2022-27806</a><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"><gwmw style="display:none;"></gwmw></gwmw></gwmw></li></ul>
+
+
+
+<p>The vendor also addressed <a href="https://support.f5.com/csp/article/K70300233">XSS vulnerability, tracked as CVE-2022-28707</a>, in BIG-IP, that received a CVSS score of 8.0. </p>
+
+
+
+<p><em>&#8220;A stored cross-site scripting (XSS) vulnerability exists in an undisclosed page of the BIG-IP Configuration utility (also referred to as the BIG-IP TMUI) that allows an attacker to execute JavaScript in the context of the currently logged-in user. (CVE-2022-28707) Impact An authenticated attacker with at least a guest role may exploit this vulnerability by storing malicious HTML or JavaScript code in the BIG-IP Configuration utility.&#8221; <a href="https://support.f5.com/csp/article/K70300233">reads</a> the advisory. &#8220;If successful, an attacker can run JavaScript in the context of the currently logged-in user. In the case of an administrative user with access to the Advanced Shell (bash), an attacker can leverage successful exploitation of this vulnerability to compromise the BIG-IP system. This is a control plane issue; there is no data plane exposure.&#8221;</em></p>
+
+
+
+<blockquote class="wp-block-quote is-style-default"><p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong> </strong><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"><gwmw style="display:none;"></p></blockquote>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, BIG-IP)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div>
+
+
+
+<p><gwmw style="display:none;"><gwmw style="display:none;"></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130934/security/f5-flaws.html">F5 warns its customers of tens of flaws in its products</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130934</post-id>
+    </item>
+    <item>
+      <title>China-linked Winnti APT steals intellectual property from companies worldwide</title>
+      <link>https://securityaffairs.co/wordpress/130909/apt/china-winnti-apt-steals-intellectual-property.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Wed, 04 May 2022 22:06:34 +0000</pubDate>
+      <category><![CDATA[APT]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Intelligence]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[China]]></category>
+      <category><![CDATA[Cybersecurity]]></category>
+      <category><![CDATA[cybersecurity news]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[intellectual property]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.co/wordpress/?p=130909</guid>
+      <description><![CDATA[<p>A sophisticated cyberespionage campaign, dubbed Operation CuckooBees, conducted by the China-linked Winnti group remained undetected since at least 2019. Researchers from Cybereason uncovered a sophisticated cyberespionage campaign, dubbed Operation CuckooBees, aimed at stealing intellectual property from the victims. The campaign flew under the radar since at least 2019, it was attributed by the experts to [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130909/apt/china-winnti-apt-steals-intellectual-property.html">China-linked Winnti APT steals intellectual property from companies worldwide</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2>A sophisticated cyberespionage campaign, dubbed Operation CuckooBees, conducted by the China-linked Winnti group remained undetected since at least 2019.</h2>
+
+
+
+<p>Researchers from Cybereason uncovered a sophisticated cyberespionage campaign, dubbed Operation CuckooBees, aimed at stealing intellectual property from the victims.</p>
+
+
+
+<p>The campaign flew under the radar since at least 2019, it was attributed by the experts to the China-linked <a href="https://securityaffairs.co/wordpress/113458/apt/winnti-attacks-russia-hk.html">Winnti</a> group and targeted technology and manufacturing companies primarily located in East Asia, Western Europe, and North America.</p>
+
+
+
+<p><em>&#8220;For years, the campaign had operated undetected, siphoning intellectual property and sensitive data.&#8221; reads the <a href="https://www.cybereason.com/blog/operation-cuckoobees-cybereason-uncovers-massive-chinese-intellectual-property-theft-operation">report</a> published by Cybereason. &#8220;With years to surreptitiously conduct reconnaissance and identify valuable data, it is estimated that the group managed to exfiltrate hundreds of gigabytes of information. The attackers targeted intellectual property developed by the victims, including sensitive documents, blueprints, diagrams, formulas, and manufacturing-related proprietary data.&#8221; </em></p>
+
+
+
+<p>The attribution to the China-linked APT group is&nbsp;based on the analysis of the forensic artifacts.</p>
+
+
+
+<p>Winnti (aka&nbsp;<a href="https://securityaffairs.co/wordpress/100465/apt/apt41-citrix-cisco-zoho-flaws.html">APT41</a>, <a href="https://securityaffairs.co/wordpress/116094/apt/redecho-apt-c2-shutdown.html">Axiom,</a> <a href="https://securityaffairs.co/wordpress/115156/apt/china-apt41-india.html">Barium</a>, Blackfly) is a cyberespionage group that has been active since at least 2007.</p>
+
+
+
+<p>The attacks leverage a multi-step infection chain that starts with attacks on internet-facing servers in the attempt to deploy a web shell used for reconnaissance, lateral movement, and data exfiltration purposes.</p>
+
+
+
+<p>One of the characteristics of this campaign is the abuse of the Windows CLFS mechanism and NTFS transaction manipulations to conceal their malicious payloads and evade detection by security solutions. The technique was rarely seen in attacks.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-full is-resized"><a href="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/winnti.png?ssl=1"><img loading="lazy" src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/winnti.png?resize=623%2C496&#038;ssl=1" alt=" winnti" class="wp-image-130914" width="623" height="496" srcset="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/winnti.png?w=748&amp;ssl=1 748w, https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2022/05/winnti.png?resize=300%2C239&amp;ssl=1 300w" sizes="(max-width: 623px) 100vw, 623px" data-recalc-dims="1" /></a></figure></div>
+
+
+
+<p>The threat actors gain access to the target organizations by exploiting vulnerabilities in the organizational&nbsp;ERP&nbsp;(Enterprise Resource Planning) platform. Then the attackers achieve persistence with the deployment of the WebShell.&nbsp;</p>
+
+
+
+<p>The attackers abuse the legitimate IKEEXT and PrintNotify&nbsp;Windows Services&nbsp;to&nbsp;side-load&nbsp;Winnti DLLs, along with the WinRM protocol for remote access.</p>
+
+
+
+<p>Once gained access to the target network, the attackers conducted reconnaissance activity using Windows commands such as:<gwmw style="display:none;"></p>
+
+
+
+<ul><li><em>systeminfo</em></li><li><em>net start</em></li><li><em>net user</em></li><li><em>dir c:\&nbsp;</em></li></ul>
+
+
+
+<p><em>&#8220;After establishing a foothold on multiple machines in the network, Winnti began leveraging&nbsp;<a href="https://attack.mitre.org/techniques/T1053/" target="_blank" rel="noreferrer noopener">Scheduled Tasks</a>&nbsp;to execute batch scripts by the names “cc.bat” or&nbsp;“bc.bat”. The content of these batch files varied from one machine to another, each time containing different reconnaissance commands based on the attackers’ goals.&#8221; <a href="https://www.cybereason.com/blog/operation-cuckoobees-deep-dive-into-stealthy-winnti-techniques">continues</a> the report from Cybereason.</em></p>
+
+
+
+<p>Cybereason observed the threat actors using two methods for credential dumping, the first one used the known&nbsp;<a href="https://attack.mitre.org/techniques/T1003/002/" target="_blank" rel="noreferrer noopener">reg save</a>&nbsp;command, and the second was an unknown tool, named&nbsp;<em>MFSDLL.exe</em>. </p>
+
+
+
+<p>The attackers used the Windows-native&nbsp;<a href="https://docs.microsoft.com/en-us/windows/win32/taskschd/schtasks" target="_blank" rel="noreferrer noopener"><em>Schtasks</em>&nbsp;</a>command to create remote scheduled tasks and to execute malicious code in the attempt to perform the lateral movement,</p>
+
+
+
+<p>The threat actors used a renamed Chinese-language version of&nbsp;WinRAR&nbsp;to create password-protected archives containing the stolen data. Attackers employed a sophisticated modular backdoor called Spyder to decrypt and load additional payloads. </p>
+
+
+
+<p>Below is a list of malware from the Winnti arsenal analyzed in a <a href="https://www.cybereason.com/blog/operation-cuckoobees-a-winnti-malware-arsenal-deep-dive">report</a> published by the experts:&nbsp;</p>
+
+
+
+<ul><li><strong>Spyder:</strong>&nbsp;A sophisticated modular backdoor</li></ul>
+
+
+
+<ul><li><strong>STASHLOG:</strong>&nbsp;The initial deployment tool “stashing” payloads in Windows CLFS&nbsp;</li></ul>
+
+
+
+<ul><li><strong>SPARKLOG:&nbsp;</strong>Extracts and deploys PRIVATELOG to gain privilege escalation and achieve persistence</li></ul>
+
+
+
+<ul><li><strong>PRIVATELOG:&nbsp;</strong>Extracts and deploys DEPLOYLOG</li></ul>
+
+
+
+<ul><li><strong>DEPLOYLOG:</strong>&nbsp;Deploys the WINNKIT Rootkit and serves as a userland agent&nbsp;</li></ul>
+
+
+
+<ul><li><strong>WINNKIT:</strong> The Winnti Kernel-level Rootkit<gwmw style="display:none;"></li></ul>
+
+
+
+<p>The attacks were aimed at stealing intellectual property from the victims, including patents, copyrights, and trademarks. These attacks caused immense losses to the targeted organizations, potentially undermining their economy.<gwmw style="display:none;"><gwmw style="display:none;"></p>
+
+
+
+<p><em>&#8220;Winnti is an exceptionally capable adversary.&nbsp;<a href="https://www.mandiant.com/sites/default/files/2022-02/rt-apt41-dual-operation.pdf" target="_blank" rel="noreferrer noopener">One report states</a>, “The group’s distinct use of supply chain compromises to target select individuals, consistent use of compromised digital certificates, and deployment of bootkits (rare among APT operators), highlight a creative and well-resourced adversary.&#8221;”concludes the report. &#8220;The Cybereason research agrees with that assessment. Operation CuckooBees offers a glimpse into the evolving Winnti intrusion playbook..&#8221;</em></p>
+
+
+
+<blockquote class="wp-block-quote is-style-default"><p><strong>Please vote for Security Affairs as the best European Cybersecurity Blogger Awards 2022 &#8211; VOTE FOR YOUR WINNERS<br>Vote for me in the sections &#8220;The Underdogs &#8211; Best Personal (non-commercial) Security Blog&#8221; and &#8220;The Tech Whizz &#8211; Best Technical Blog&#8221; and others of your choice.<br>To nominate, please visit: </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfxxrxICiMZ9QM9iiPuMQIC-IoM-NpQMOsFZnJXrBQRYJGCOw/viewform </a><strong> </strong><gwmw style="display:none;"><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></p></blockquote>
+
+
+
+<p>Follow me on Twitter: <a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a> and <a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a></p>
+
+
+
+<figure class="wp-block-table"><table><tbody><tr><td><div class="a-single a-9"><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div><div id="816788371">
+    <script type="text/javascript">
+        try {
+            window._mNHandle.queue.push(function (){
+                window._mNDetails.loadTag("816788371", "300x250", "816788371");
+            });
+        }
+        catch (error) {}
+    </script>
+</div></div></td><td><!-- Error, Advert is not available at this time due to schedule/geolocation restrictions! --></td></tr></tbody></table></figure>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong> <strong>hacking, Winnti)</strong></p>
+
+
+
+<div class="a-single a-5"><!-- AuctionX Display platform tag START -->
+<div id="24272x320x50x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24272x320x50x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END -->
+</div>
+
+
+
+<p><div class="a-single a-13"><!-- AuctionX Display platform tag START -->
+<div id="24270x300x250x4142x_ADSLOT1" clickTrack="%%CLICK_URL_ESC%%"></div>
+<script type="text/javascript" async src="//served-by.pixfuture.com/www/delivery/headerbid.js" slotId="24270x300x250x4142x_ADSLOT1" refreshTime="5" refreshInterval="60"></script><!-- AuctionX Display platform tag END --></div><gwmw style="display:none;"></p>
+
+
+
+<p><gwmw style="display:none;"></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.co/wordpress/130909/apt/china-winnti-apt-steals-intellectual-property.html">China-linked Winnti APT steals intellectual property from companies worldwide</a> appeared first on <a rel="nofollow" href="https://securityaffairs.co/wordpress">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">130909</post-id>
+    </item>
+  </channel>
+</rss>

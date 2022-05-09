@@ -1,0 +1,1151 @@
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
+  <channel>
+    <!-- I2R 9899 -->
+    <title>Cisco Security Advisory</title>
+    <link>https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml</link>
+    <description>
+    </description>
+    <language>en-us</language>
+    <copyright>
+         1992-2010 Cisco Systems, Inc. All rights reserved.
+    </copyright>
+    <category>Cisco Security Advisory</category>
+    <generator>
+    	Cisco Systems, Inc.
+    </generator>
+    <atom:link href="https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml" rel="self" type="application/rss+xml">
+    </atom:link>
+    <ttl>15</ttl>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Enterprise NFV Infrastructure Software Vulnerabilities</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-NFVIS-MUL-7DySRX9?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Enterprise%20NFV%20Infrastructure%20Software%20Vulnerabilities&amp;vs_k=1</link>
+      <description>
+			&amp;lt;p&amp;gt; Multiple vulnerabilities in Cisco&amp;amp;nbsp;Enterprise NFV Infrastructure Software (NFVIS) could allow an attacker to escape from the guest virtual machine (VM) to the host machine, inject commands that execute at the &amp;lt;em&amp;gt;root&amp;lt;/em&amp;gt; level, or leak system data from the host to the VM.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;For more information about these vulnerabilities, see the &amp;lt;a href=&amp;quot;#details&amp;quot;&amp;gt;Details&amp;lt;/a&amp;gt; section of this advisory.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-NFVIS-MUL-7DySRX9&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-NFVIS-MUL-7DySRX9&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+			      
+		          &lt;br/&gt;Security Impact Rating:  Critical
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20777,CVE-2022-20779,CVE-2022-20780
+		    
+         </description>
+      <pubDate>2022-05-04 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-NFVIS-MUL-7DySRX9</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco SD-WAN vManage Software Information Disclosure Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmge-infodc-WPSkAMhp?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20SD-WAN%20vManage%20Software%20Information%20Disclosure%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in Cisco&amp;amp;nbsp;SD-WAN vManage Software could allow an authenticated, local attacker to view sensitive information on an affected system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient file system restrictions. An authenticated attacker with &amp;lt;em&amp;gt;netadmin &amp;lt;/em&amp;gt;privileges could exploit this vulnerability by accessing the vshell of an affected system. A successful exploit could allow the attacker to read sensitive information on the underlying operating system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmge-infodc-WPSkAMhp&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmge-infodc-WPSkAMhp&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20734
+		    
+         </description>
+      <pubDate>2022-05-04 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vmge-infodc-WPSkAMhp</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Small Business RV Series Routers Command Injection Vulnerabilities</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-rv-cmd-inj-8Pv9JMJD?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Small%20Business%20RV%20Series%20Routers%20Command%20Injection%20Vulnerabilities&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;Multiple vulnerabilities in the web-based management interface of Cisco&amp;amp;nbsp;Small Business RV340 and RV345 Routers could allow an authenticated, remote attacker to inject and execute arbitrary commands on the underlying operating system of an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;These vulnerabilities are due to insufficient validation of user-supplied input. An attacker could exploit these vulnerabilities by sending malicious input to an affected device. A successful exploit could allow the attacker to execute arbitrary commands on the underlying Linux operating system of the affected device. To exploit these vulnerabilities, an attacker would need to have valid &amp;lt;em&amp;gt;Administrator&amp;lt;/em&amp;gt; credentials on the affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-rv-cmd-inj-8Pv9JMJD&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-rv-cmd-inj-8Pv9JMJD&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20799,CVE-2022-20801
+		    
+         </description>
+      <pubDate>2022-05-04 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-smb-rv-cmd-inj-8Pv9JMJD</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Small Business RV Series Routers Remote Code Execution Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sbrv-rce-OYLQbL9u?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Small%20Business%20RV%20Series%20Routers%20Remote%20Code%20Execution%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in web-based management interface of Cisco&amp;amp;nbsp;Small Business RV340 and RV345 Routers could allow an authenticated, remote attacker to execute arbitrary code on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient validation of user-supplied input. An attacker could exploit this vulnerability by sending malicious input to an affected device. A successful exploit could allow the attacker to execute remote code on the affected device. To exploit this vulnerability, an attacker would need to have valid &amp;lt;em&amp;gt;Administrator&amp;lt;/em&amp;gt;&amp;amp;nbsp;credentials on the affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sbrv-rce-OYLQbL9u&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sbrv-rce-OYLQbL9u&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20753
+		    
+         </description>
+      <pubDate>2022-05-04 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sbrv-rce-OYLQbL9u</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>ClamAV Truncated File Denial of Service Vulnerability Affecting Cisco Products: May 2022</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-vL9x58p4?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=ClamAV%20Truncated%20File%20Denial%20of%20Service%20Vulnerability%20Affecting%20Cisco%20Products:%20May%202022&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;On May 4, 2022, the following vulnerability in the ClamAV scanning library versions 0.103.5 and earlier and 0.104.2 and earlier was disclosed:&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;A vulnerability in Clam AntiVirus (ClamAV) versions 0.103.4, 0.103.5, 0.104.1, and 0.104.2 could allow an authenticated, local attacker to cause a denial of service condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;For a description of this vulnerability, see the &amp;lt;a href=&amp;quot;https://blog.clamav.net/2022/05/clamav-01050-01043-01036-released.html&amp;quot;&amp;gt;ClamAV blog&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-vL9x58p4&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-vL9x58p4&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20796
+		    
+         </description>
+      <pubDate>2022-05-04 20:36:47.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-vL9x58p4</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>ClamAV CHM File Parsing Denial of Service Vulnerability Affecting Cisco Products: May 2022</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-prVGcHLd?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=ClamAV%20CHM%20File%20Parsing%20Denial%20of%20Service%20Vulnerability%20Affecting%20Cisco%20Products:%20May%202022&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;On May 4, 2022, the following vulnerability in the ClamAV scanning library versions 0.103.5 and earlier and 0.104.2 and earlier was disclosed:&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;A vulnerability in CHM file parser of Clam AntiVirus (ClamAV) versions 0.104.0 through 0.104.2 and LTS version 0.103.5 and prior versions could allow an unauthenticated, remote attacker to cause a denial of service condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;For a description of this vulnerability, see the &amp;lt;a href=&amp;quot;https://blog.clamav.net/2022/05/clamav-01050-01043-01036-released.html&amp;quot;&amp;gt;ClamAV blog&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory will be updated as additional information becomes available.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-prVGcHLd&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-prVGcHLd&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20770
+		    
+         </description>
+      <pubDate>2022-05-04 20:36:46.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-prVGcHLd</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>ClamAV HTML Scanning Memory Leak Vulnerability Affecting Cisco Products: May 2022</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-html-XAuOK8mR?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=ClamAV%20HTML%20Scanning%20Memory%20Leak%20Vulnerability%20Affecting%20Cisco%20Products:%20May%202022&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;On May 4, 2022, the following vulnerability in the ClamAV scanning library versions 0.103.5 and earlier and 0.104.2 and earlier was disclosed:&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;A vulnerability in HTML file parser of Clam AntiVirus (ClamAV) versions 0.104.0 through 0.104.2 and LTS version 0.103.5 and prior versions could allow an unauthenticated, remote attacker to cause a denial of service condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;For a description of this vulnerability, see the &amp;lt;a href=&amp;quot;https://blog.clamav.net/2022/05/clamav-01050-01043-01036-released.html&amp;quot;&amp;gt;ClamAV blog&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory will be updated as additional information becomes available.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-html-XAuOK8mR&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-html-XAuOK8mR&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20785
+		    
+         </description>
+      <pubDate>2022-05-04 20:36:46.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-html-XAuOK8mR</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>ClamAV TIFF File Parsing Denial of Service Vulnerability Affecting Cisco Products: May 2022</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-ZAZBwRVG?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=ClamAV%20TIFF%20File%20Parsing%20Denial%20of%20Service%20Vulnerability%20Affecting%20Cisco%20Products:%20May%202022&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;On May 4, 2022, the following vulnerability in the ClamAV scanning library versions 0.103.5 and earlier and 0.104.2 and earlier was disclosed:&amp;lt;/p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;A vulnerability in the TIFF file parser of Clam AntiVirus (ClamAV) versions 0.104.0 through 0.104.2 and LTS version 0.103.5 and prior versions could allow an unauthenticated, remote attacker to cause a denial of service condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&amp;lt;p&amp;gt;For a description of this vulnerability, see the &amp;lt;a href=&amp;quot;https://blog.clamav.net/2022/05/clamav-01050-01043-01036-released.html&amp;quot;&amp;gt;ClamAV blog&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory will be updated as additional information becomes available.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-ZAZBwRVG&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-ZAZBwRVG&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20771
+		    
+         </description>
+      <pubDate>2022-05-04 20:36:45.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-dos-ZAZBwRVG</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco TelePresence Collaboration Endpoint and RoomOS Software Vulnerabilities</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ROS-DOS-X7H7XhkK?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20TelePresence%20Collaboration%20Endpoint%20and%20RoomOS%20Software%20Vulnerabilities&amp;vs_k=1</link>
+      <description>
+			&amp;lt;p&amp;gt;Multiple vulnerabilities in the web engine of Cisco&amp;amp;nbsp;TelePresence Collaboration Endpoint (CE) Software and Cisco&amp;amp;nbsp;RoomOS Software could allow a remote attacker to cause a denial of service (DoS) condition, view sensitive data on an affected device, or redirect users to an attacker-controlled destination.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;For more information about these vulnerabilities, see the &amp;lt;a href=&amp;quot;#details&amp;quot;&amp;gt;Details&amp;lt;/a&amp;gt; section of this advisory.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ROS-DOS-X7H7XhkK&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ROS-DOS-X7H7XhkK&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20764,CVE-2022-20794
+		    
+         </description>
+      <pubDate>2022-05-04 16:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ROS-DOS-X7H7XhkK</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Web Services Interface Privilege Escalation Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-mgmt-privesc-BMFMUvye?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20Web%20Services%20Interface%20Privilege%20Escalation%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web services interface for remote access VPN features of Cisco&amp;amp;nbsp;Adaptive Security Appliance (ASA) Software and Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an authenticated, but unprivileged, remote attacker to elevate privileges to level 15.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper separation of authentication and authorization scopes. An attacker could exploit this vulnerability by sending crafted HTTPS messages to the web services interface of an affected device. A successful exploit could allow the attacker to gain privilege level 15 access to the web management interface of the device. This includes privilege level 15 access to the device using management tools like the Cisco&amp;amp;nbsp;Adaptive Security Device Manager (ASDM) or the Cisco&amp;amp;nbsp;Security Manager (CSM).&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Note:&amp;lt;/strong&amp;gt; With Cisco&amp;amp;nbsp;FTD Software, the impact is lower than the CVSS score suggests because the affected web management interface allows for read access only.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-mgmt-privesc-BMFMUvye&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-mgmt-privesc-BMFMUvye&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20759
+		    
+         </description>
+      <pubDate>2022-05-03 11:45:21.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-mgmt-privesc-BMFMUvye</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Adaptive Security Appliance and Cisco Firepower Threat Defense Software AnyConnect SSL VPN Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vpndtls-dos-TunzLEV?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20and%20Cisco%20Firepower%20Threat%20Defense%20Software%20AnyConnect%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the implementation of the Datagram TLS (DTLS) protocol in Cisco&amp;amp;nbsp;Adaptive Security Appliance (ASA) Software and Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause high CPU utilization, resulting in a denial of service (DoS) condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to suboptimal processing that occurs when establishing a DTLS tunnel as part of an AnyConnect SSL VPN connection. An attacker could exploit this vulnerability by sending a steady stream of crafted DTLS traffic to an affected device. A successful exploit could allow the attacker to exhaust resources on the affected VPN headend device. This could cause existing DTLS tunnels to stop passing traffic and prevent new DTLS tunnels from establishing, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Note&amp;lt;/strong&amp;gt;: When the attack traffic stops, the device recovers gracefully.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vpndtls-dos-TunzLEV&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vpndtls-dos-TunzLEV&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20795
+		    
+         </description>
+      <pubDate>2022-05-02 17:17:11.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vpndtls-dos-TunzLEV</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Umbrella Secure Web Gateway File Decryption Bypass Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uswg-fdbps-xtTRKpp6?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Umbrella%20Secure%20Web%20Gateway%20File%20Decryption%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the automatic decryption process in Cisco&amp;amp;nbsp;Umbrella Secure Web Gateway (SWG) could allow an authenticated, adjacent attacker to bypass the SSL decryption and content filtering policies on an affected system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to how the decryption function uses the TLS Sever Name Indication (SNI) extension of an HTTPS request to discover the destination domain and determine if the request needs to be decrypted. An attacker could exploit this vulnerability by sending a crafted request over TLS from a client to an unknown or controlled URL. A successful exploit could allow an attacker to bypass the decryption process of Cisco&amp;amp;nbsp;Umbrella SWG and allow malicious content to be downloaded to a host on a protected network.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;There are workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uswg-fdbps-xtTRKpp6&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uswg-fdbps-xtTRKpp6&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20805
+		    
+         </description>
+      <pubDate>2022-04-30 02:14:17.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uswg-fdbps-xtTRKpp6</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Vulnerability in Spring Framework Affecting Cisco Products: March 2022</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Vulnerability%20in%20Spring%20Framework%20Affecting%20Cisco%20Products:%20March%202022&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;On March 31, 2022, the following critical vulnerability in the Spring Framework affecting Spring MVC and Spring WebFlux applications running on JDK 9+ was released:&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;amp;nbsp; &amp;amp;nbsp; CVE-2022-22965: Spring Framework RCE via Data Binding on JDK 9+&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;For a description of this vulnerability, see &amp;lt;a href=&amp;quot;https://tanzu.vmware.com/security/cve-2022-22965&amp;quot;&amp;gt;VMware Spring Framework Security Vulnerability Report&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Critical
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-22965
+		    
+         </description>
+      <pubDate>2022-04-29 16:53:49.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-rce-Zx9GUc67</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Management Center File Upload Security Bypass Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-security-bypass-JhOd29Gg?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20File%20Upload%20Security%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web management interface of Cisco&amp;amp;nbsp;Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to bypass security protections and upload malicious files to the affected system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper validation of files uploaded to the web management interface of Cisco&amp;amp;nbsp;FMC Software. An attacker could exploit this vulnerability by uploading a maliciously crafted file to a device running affected software. A successful exploit could allow the attacker to store malicious files on the device, which they could access later to conduct additional attacks, including executing arbitrary code on the affected device with &amp;lt;em&amp;gt;root&amp;lt;/em&amp;gt; privileges.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-security-bypass-JhOd29Gg&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-security-bypass-JhOd29Gg&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20743
+		    
+         </description>
+      <pubDate>2022-04-28 23:29:27.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-security-bypass-JhOd29Gg</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco IOS XR Software for ASR 9000 Series Routers Lightspeed-Plus Line Cards Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-lsplus-Z6AQEOjk?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XR%20Software%20for%20ASR%209000%20Series%20Routers%20Lightspeed-Plus%20Line%20Cards%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the data plane microcode of Lightspeed-Plus line cards for &amp;lt;span class=&amp;quot;mce-annotation tox-comment&amp;quot; data-mce-annotation-uid=&amp;quot;CONV-0005559&amp;quot; data-mce-annotation=&amp;quot;tinycomments&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;ASR 9000 Series Aggregation Services Routers&amp;lt;/span&amp;gt;,&amp;amp;nbsp;ASR 9902 Compact High-Performance Routers, and ASR 9903 Compact High-Performance Routers could allow an unauthenticated, remote attacker to cause the line card to reset.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to the incorrect handling of malformed packets that are received on the Lightspeed-Plus line cards. An attacker could exploit this vulnerability by sending a crafted IPv4 or IPv6 packet through an affected device. A successful exploit could allow the attacker to cause the Lightspeed-Plus line card to reset, resulting in a denial of service (DoS) condition for any traffic that traverses that line card.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-lsplus-Z6AQEOjk&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-lsplus-Z6AQEOjk&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS XR Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74835&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;IOS XR Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20714
+		    
+         </description>
+      <pubDate>2022-04-28 21:28:53.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-lsplus-Z6AQEOjk</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Management Center Software Cross-Site Scripting Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-SfpEcvGT?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Cross-Site%20Scripting%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web-based management interface of Cisco&amp;amp;nbsp;Firepower Management Center (FMC) Software could allow an unauthenticated, remote attacker to conduct a cross-site scripting attack.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper validation of user-supplied input to the web-based management interface. An attacker could exploit this vulnerability by convincing a user to click a link designed to pass malicious input to the interface. A successful exploit could allow the attacker to conduct cross-site scripting attacks and gain access to sensitive browser-based information.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-SfpEcvGT&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-SfpEcvGT&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20740
+		    
+         </description>
+      <pubDate>2022-04-28 16:24:30.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-SfpEcvGT</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Threat Defense Software DNS Enforcement Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-FTD-snort3-DOS-Aq38LVdM?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20DNS%20Enforcement%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the Snort rule evaluation function of Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The vulnerability is due to improper handling of the DNS reputation enforcement rule. An attacker could exploit this vulnerability by sending crafted UDP packets through an affected device to force a buildup of UDP connections. A successful exploit could allow the attacker to cause traffic that is going through the affected device to be dropped, resulting in a DoS condition.&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Note:&amp;lt;/strong&amp;gt; This vulnerability only affects Cisco&amp;amp;nbsp;FTD devices that are running Snort 3.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-FTD-snort3-DOS-Aq38LVdM&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-FTD-snort3-DOS-Aq38LVdM&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20767
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-FTD-snort3-DOS-Aq38LVdM</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Threat Defense Software XML Injection Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-xmlinj-8GWjGzKe?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20XML%20Injection%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in CLI of Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an authenticated, local attacker to inject XML into the command parser.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by including crafted input in commands. A successful exploit could allow the attacker to inject XML into the command parser, which could result in unexpected processing of the command and unexpected command output.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-xmlinj-8GWjGzKe&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-xmlinj-8GWjGzKe&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20729
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-xmlinj-8GWjGzKe</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Threat Defense Software Snort Out of Memory Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort-dos-hd2hFgM?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20Snort%20Out%20of%20Memory%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the Snort detection engine integration for Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause unlimited memory consumption, which could lead to a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient memory management for certain Snort events. An attacker could exploit this vulnerability by sending a series of crafted IP packets that would generate specific Snort events on an affected device. A sustained attack could cause an out of memory condition on the affected device. A successful exploit could allow the attacker to interrupt all traffic flowing through the affected device. In some circumstances, the attacker may be able to cause the device to reload, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort-dos-hd2hFgM&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort-dos-hd2hFgM&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20751
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-snort-dos-hd2hFgM</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Threat Defense Software Security Intelligence DNS Feed Bypass Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-sidns-bypass-3PzA5pO?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20Security%20Intelligence%20DNS%20Feed%20Bypass%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the Security Intelligence feed feature of Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to bypass the Security Intelligence DNS feed.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to incorrect feed update processing. An attacker could exploit this vulnerability by sending traffic through an affected device that should be blocked by the affected device. A successful exploit could allow the attacker to bypass device controls and successfully send traffic to devices that are expected to be protected by the affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-sidns-bypass-3PzA5pO&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-sidns-bypass-3PzA5pO&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20730
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-sidns-bypass-3PzA5pO</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Threat Defense Software Local Malware Analysis Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-amp-local-dos-CUfwRJXT?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20Local%20Malware%20Analysis%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the local malware analysis process of Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on the affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient error handling in the local malware analysis process of an affected device. An attacker could exploit this vulnerability by sending a crafted file through the device. A successful exploit could allow the attacker to cause the local malware analysis process to crash, which could result in a DoS condition.&amp;amp;nbsp;&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Notes&amp;lt;/strong&amp;gt;:&amp;lt;/p&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;Manual intervention may be required to recover from this situation.&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;Malware cloud lookup and dynamic analysis will not be impacted.&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-amp-local-dos-CUfwRJXT&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-amp-local-dos-CUfwRJXT&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tvce.cisco.com/security/aims/PublicationPreview.aspx?ID=74836&amp;amp;amp;Version=1&amp;amp;amp;Revision=26&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20748
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-amp-local-dos-CUfwRJXT</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Management Center Software Cross-Site Scripting Vulnerabilities</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-qXz4uAkM?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Cross-Site%20Scripting%20Vulnerabilities&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;Multiple vulnerabilities in the web-based management interface of Cisco&amp;amp;nbsp;Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;These vulnerabilities are due to insufficient validation of user-supplied input by the web-based management interface. An attacker could exploit these vulnerabilities by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the interface or access sensitive, browser-based information.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address these vulnerabilities. There are no workarounds that address these vulnerabilities.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-qXz4uAkM&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-qXz4uAkM&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20627,CVE-2022-20628,CVE-2022-20629
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-xss-qXz4uAkM</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Management Center Software Information Disclosure Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-infdisc-guJWRwQu?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Management%20Center%20Software%20Information%20Disclosure%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the input protection mechanisms of Cisco&amp;amp;nbsp;Firepower Management Center (FMC) Software could allow an authenticated, remote attacker to view data without proper authorization.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability exists because of a protection mechanism that relies on the existence or values of a specific input. An attacker could exploit this vulnerability by modifying this input to bypass the protection mechanism and sending a crafted request to an affected device. A successful exploit could allow the attacker to view data beyond the scope of their authorization.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-infdisc-guJWRwQu&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-infdisc-guJWRwQu&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20744
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-infdisc-guJWRwQu</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software IPsec IKEv2 VPN Information Disclosure Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ipsec-mitm-CKnLr4?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20IPsec%20IKEv2%20VPN%20Information%20Disclosure%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in an IPsec VPN library of Cisco&amp;amp;nbsp;Adaptive Security Appliance (ASA) Software and Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to read or modify data within an IPsec IKEv2 VPN tunnel.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to an improper implementation of Galois/Counter Mode (GCM) ciphers. An attacker in a man-in-the-middle position could exploit this vulnerability by intercepting a sufficient number of encrypted messages across an affected IPsec IKEv2 VPN tunnel and then using cryptanalytic techniques to break the encryption. A successful exploit could allow the attacker to decrypt, read, modify, and re-encrypt data that is transmitted across an affected IPsec IKEv2 VPN tunnel.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ipsec-mitm-CKnLr4&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ipsec-mitm-CKnLr4&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20742
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ipsec-mitm-CKnLr4</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software DNS Inspection Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dos-nJVAwOeq?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20DNS%20Inspection%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the DNS inspection handler of Cisco&amp;amp;nbsp;Adaptive Security Appliance (ASA) Software and Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service condition (DoS) on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to a lack of proper processing of incoming requests. An attacker could exploit this vulnerability by sending crafted DNS requests at a high rate to an affected device. A successful exploit could allow the attacker to cause the device to stop responding, resulting in a DoS condition.&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dos-nJVAwOeq&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dos-nJVAwOeq&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20760
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dos-nJVAwOeq</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Web Services Interface Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asafdt-webvpn-dos-tzPSYern?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20Web%20Services%20Interface%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web services interface for remote access VPN features of Cisco&amp;amp;nbsp;Adaptive Security Appliance (ASA) Software and Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper input validation when parsing HTTPS requests. An attacker could exploit this vulnerability by sending a crafted HTTPS request to an affected device. A successful exploit could allow the attacker to cause the device to reload, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asafdt-webvpn-dos-tzPSYern&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asafdt-webvpn-dos-tzPSYern&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20745
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asafdt-webvpn-dos-tzPSYern</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Adaptive Security Appliance Software Clientless SSL VPN Heap Overflow Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-heap-zLX3FdX?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20Clientless%20SSL%20VPN%20Heap%20Overflow%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p class=&amp;quot;line874&amp;quot;&amp;gt;A vulnerability in the handler for HTTP authentication for resources accessed through the Clientless SSL VPN portal of Cisco&amp;amp;nbsp;Adaptive Security Appliance (ASA) Software could allow an authenticated, remote attacker to cause a denial of service (DoS) condition on an affected device or to obtain portions of process memory from an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;span class=&amp;quot;more&amp;quot;&amp;gt;This vulnerability is due to insufficient bounds checking when parsing specific HTTP authentication messages. An attacker could exploit this vulnerability by sending malicious traffic to an affected device acting as a VPN Gateway. To send this malicious traffic, an attacker would need to control a web server that can be accessed through the Clientless SSL VPN portal. &amp;lt;/span&amp;gt;A successful exploit could allow the attacker to &amp;lt;span class=&amp;quot;more&amp;quot;&amp;gt;cause the device to reload, resulting in a DoS condition, or to retrieve bytes from the device process memory that may contain sensitive information.&amp;lt;br&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-heap-zLX3FdX&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-heap-zLX3FdX&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20737
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ssl-vpn-heap-zLX3FdX</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Remote Access SSL VPN Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-dos-tL4uA4AA?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Adaptive%20Security%20Appliance%20Software%20and%20Firepower%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the remote access SSL VPN features of Cisco&amp;amp;nbsp;Adaptive Security Appliance (ASA) Software and Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper validation of errors that are logged as a result of client connections that are made using remote access VPN. An attacker could exploit this vulnerability by sending crafted requests to an affected system. A successful exploit could allow the attacker to cause the affected device to restart, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-dos-tL4uA4AA&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-dos-tL4uA4AA&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20715
+		    
+         </description>
+      <pubDate>2022-04-27 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-dos-tL4uA4AA</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Threat Defense Software Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-dos-JnnJm4wB?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the connection handling&amp;amp;nbsp;function in Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper traffic handling when platform limits are reached. An attacker could exploit this vulnerability by sending a high rate of UDP traffic through an affected device. A successful exploit could allow the attacker to cause all new, incoming connections to be dropped, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-dos-JnnJm4wB&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-dos-JnnJm4wB&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20757
+		    
+         </description>
+      <pubDate>2022-04-27 16:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-dos-JnnJm4wB</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Firepower Threat Defense Software TCP Proxy Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-tcp-dos-kM9SHhOu?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Firepower%20Threat%20Defense%20Software%20TCP%20Proxy%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the TCP proxy functionality of Cisco&amp;amp;nbsp;Firepower Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to trigger a denial of service (DoS) condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper handling of TCP flows. An attacker could exploit this vulnerability by sending a crafted stream of TCP traffic through an affected device. A successful exploit could allow the attacker to cause the device to reload, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tcp-dos-kM9SHhOu&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tcp-dos-kM9SHhOu&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;ASA, FTD, and FMC Security Advisory Bundled publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74836&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;ASA, FMC, and FTD Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20746
+		    
+         </description>
+      <pubDate>2022-04-27 16:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-tcp-dos-kM9SHhOu</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco IOS XE Software for Cisco Catalyst 9000 Family Switches and Catalyst 9000 Family Wireless Controllers Privilege Escalation Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ewlc-priv-esc-ybvHKO5?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Software%20for%20Cisco%20Catalyst%209000%20Family%20Switches%20and%20Catalyst%209000%20Family%20Wireless%20Controllers%20Privilege%20Escalation%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the CLI of Cisco&amp;amp;nbsp;IOS XE Software for Cisco&amp;amp;nbsp;Catalyst 9000 Family Switches and Cisco&amp;amp;nbsp;Catalyst 9000 Family Wireless Controllers could allow an authenticated, local attacker to elevate privileges to level 15 on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient validation of user privileges after the user executes certain CLI commands. An attacker could exploit this vulnerability by logging in to an affected device as a low-privileged user and then executing certain CLI commands. A successful exploit could allow the attacker to execute arbitrary commands with level 15 privileges on the affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ewlc-priv-esc-ybvHKO5&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ewlc-priv-esc-ybvHKO5&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74561&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Semiannual Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20681
+		    
+         </description>
+      <pubDate>2022-04-27 13:54:36.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ewlc-priv-esc-ybvHKO5</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Multiple Cisco Products Snort Modbus Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-dos-9D3hJLuj?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Multiple%20Cisco%20Products%20Snort%20Modbus%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the Modbus preprocessor of the Snort detection engine could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to an integer overflow while processing Modbus traffic. An attacker could exploit this vulnerability by sending crafted Modbus traffic through an affected device. A successful exploit could allow the attacker to cause the Snort process to hang, causing traffic inspection to stop.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-dos-9D3hJLuj&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-dos-9D3hJLuj&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20685
+		    
+         </description>
+      <pubDate>2022-04-26 19:41:55.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort-dos-9D3hJLuj</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco TelePresence Collaboration Endpoint and RoomOS Software H.323 Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ce-roomos-dos-c65x2Qf2?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20TelePresence%20Collaboration%20Endpoint%20and%20RoomOS%20Software%20H.323%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the packet processing functionality of Cisco&amp;amp;nbsp;TelePresence Collaboration Endpoint (CE) Software and Cisco&amp;amp;nbsp;RoomOS Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient input validation. An attacker could exploit this vulnerability by sending crafted H.323 traffic to an affected device. A successful exploit could allow the attacker to cause the affected device to either reboot normally or reboot into maintenance mode, which could result in a DoS condition on the device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ce-roomos-dos-c65x2Qf2&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ce-roomos-dos-c65x2Qf2&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20783
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ce-roomos-dos-c65x2Qf2</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Virtualized Infrastructure Manager Privilege Escalation Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vim-privesc-T2tsFUf?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Virtualized%20Infrastructure%20Manager%20Privilege%20Escalation%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the configuration file protections of Cisco&amp;amp;nbsp;Virtualized Infrastructure Manager (VIM) could allow an authenticated, local attacker to access confidential information and elevate privileges on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper access permissions for certain configuration files. An attacker with low-privileged credentials could exploit this vulnerability by accessing an affected device and reading the affected configuration files. A successful exploit could allow the attacker to obtain internal database credentials, which the attacker could use to view and modify the contents of the database. The attacker could use this access to the database to elevate privileges on the affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vim-privesc-T2tsFUf&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vim-privesc-T2tsFUf&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20732
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vim-privesc-T2tsFUf</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Umbrella Virtual Appliance Static SSH Host Key Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uva-static-key-6RQTRs4c?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Umbrella%20Virtual%20Appliance%20Static%20SSH%20Host%20Key%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the key-based SSH authentication mechanism of Cisco&amp;amp;nbsp;Umbrella Virtual Appliance (VA) could allow an unauthenticated, remote attacker to impersonate a VA.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to the presence of a static SSH host key. An attacker could exploit this vulnerability by performing a man-in-the-middle attack on an SSH connection to the Umbrella VA. A successful exploit could allow the attacker to learn the administrator credentials, change configurations, or reload the VA.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Note&amp;lt;/strong&amp;gt;: SSH is not enabled by default on the Umbrella VA.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uva-static-key-6RQTRs4c&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uva-static-key-6RQTRs4c&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20773
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-uva-static-key-6RQTRs4c</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Unified Communications Products Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-dos-zHS9X9kD?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Unified%20Communications%20Products%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the Cisco&amp;amp;nbsp;Discovery Protocol of Cisco&amp;amp;nbsp;Unified Communications Manager (Unified CM) and Cisco&amp;amp;nbsp;Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, adjacent attacker to cause a kernel panic on an affected system, resulting in a denial of service (DoS) condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to incorrect processing of certain Cisco&amp;amp;nbsp;Discovery Protocol packets. An attacker could exploit this vulnerability by continuously sending certain Cisco&amp;amp;nbsp;Discovery Protocol packets to an affected device. A successful exploit could allow the attacker to cause a kernel panic on the system that is running the affected software, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-dos-zHS9X9kD&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-dos-zHS9X9kD&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20804
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-dos-zHS9X9kD</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Unified Communications Products Cross-Site Request Forgery Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-csrf-jrKP4eNT?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Unified%20Communications%20Products%20Cross-Site%20Request%20Forgery%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web-based management interface of Cisco&amp;amp;nbsp;Unified Communications Manager (Unified CM) Software and Cisco&amp;amp;nbsp;Unified CM Session Management Edition (SME) Software could allow an authenticated, remote attacker to conduct a cross-site request forgery (CSRF) attack on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient CSRF protections for the web-based management interface on an affected device. An attacker could exploit this vulnerability by persuading a user of the interface to click a malicious link. A successful exploit could allow the attacker to perform arbitrary actions with the privilege level of the affected user.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-csrf-jrKP4eNT&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-csrf-jrKP4eNT&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20787
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-csrf-jrKP4eNT</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Unified Communications Manager IM &amp;amp; Presence Service SQL Injection Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-sqlinj-GrpUuQEJ?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Unified%20Communications%20Manager%20IM%20&amp;amp;%20Presence%20Service%20SQL%20Injection%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web-based management interface of Cisco&amp;amp;nbsp;Unified Communications Manager IM &amp;amp;amp; Presence Service (Unified CM IM&amp;amp;amp;P) could allow an authenticated, remote attacker to conduct SQL injection attacks on an affected system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper validation of user-submitted parameters. An attacker could exploit this vulnerability by authenticating to the application and sending malicious requests to an affected system. A successful exploit could allow the attacker to obtain data or modify data that is stored in the underlying database of the affected system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-sqlinj-GrpUuQEJ&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-sqlinj-GrpUuQEJ&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20786
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-imp-sqlinj-GrpUuQEJ</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Unified Communications Products Cross-Site Scripting Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-6MCe4kPF?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Unified%20Communications%20Products%20Cross-Site%20Scripting%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web-based management interface of Cisco&amp;amp;nbsp;Unified Communications Manager (Unified CM), Cisco&amp;amp;nbsp;Unified CM Session Management Edition (Unified CM SME), and &amp;lt;span class=&amp;quot;more&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Unity Connection&amp;lt;/span&amp;gt; could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the interface.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive browser-based information.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-6MCe4kPF&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-6MCe4kPF&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20788
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-6MCe4kPF</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Unified Communications Products Arbitrary File  Write Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-arb-write-74QzruUU?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Unified%20Communications%20Products%20Arbitrary%20File%20%20Write%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the software upgrade process of Cisco&amp;amp;nbsp;Unified Communications Manager (Unified CM) and Cisco&amp;amp;nbsp;Unified Communications Manager Session Management Edition (Unified CM SME)&amp;amp;nbsp;could allow an authenticated, remote attacker to write arbitrary files on the affected system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to improper restrictions applied to a system script. An attacker could exploit this vulnerability by using crafted variables during the execution of a system upgrade. A successful exploit could allow the attacker to overwrite or append arbitrary data to system files using &amp;lt;em&amp;gt;root&amp;lt;/em&amp;gt;-level privileges.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-arb-write-74QzruUU&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-arb-write-74QzruUU&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20789
+		    
+         </description>
+      <pubDate>2022-04-20 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-arb-write-74QzruUU</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Unified Communications Products Arbitrary File Read Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-file-read-h8h4HEJ3?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Unified%20Communications%20Products%20Arbitrary%20File%20Read%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the web-based management interface of Cisco&amp;amp;nbsp;Unified Communications Manager (Unified CM) and Cisco&amp;amp;nbsp;Unified Communications Manager Session Management Edition (Unified CM SME) could allow an authenticated, remote attacker to read arbitrary files from the underlying operating system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability exists because the web-based management interface does not properly validate user-supplied input. An attacker could exploit this vulnerability by sending a crafted HTTP request that contains directory traversal character sequences to an affected system. A successful exploit could allow the attacker to access sensitive files on the underlying operating system.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-file-read-h8h4HEJ3&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-file-read-h8h4HEJ3&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20790
+		    
+         </description>
+      <pubDate>2022-04-20 16:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucm-file-read-h8h4HEJ3</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Webex Meetings Cross-Site Scripting Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-w47AMqAk?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Webex%20Meetings%20Cross-Site%20Scripting%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the authentication component of Cisco&amp;amp;nbsp;Webex Meetings could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS) attack against a user of the web-based interface.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient validation of user-supplied input by the web-based interface of the authentication component of Cisco&amp;amp;nbsp;Webex Meetings. An attacker could exploit this vulnerability by persuading a user of the interface to click a maliciously crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-w47AMqAk&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-w47AMqAk&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20778
+		    
+         </description>
+      <pubDate>2022-04-20 16:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-webex-xss-w47AMqAk</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco IOS XR Software Border Gateway Protocol Ethernet VPN Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgpevpn-zWTRtPBb?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XR%20Software%20Border%20Gateway%20Protocol%20Ethernet%20VPN%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the implementation of the Border Gateway Protocol (BGP) Ethernet VPN (EVPN) functionality in Cisco&amp;amp;nbsp;IOS XR Software could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to the incorrect processing of a BGP update message that contains specific EVPN attributes. An attacker could exploit this vulnerability by sending a BGP update message that contains specific EVPN attributes.&amp;amp;nbsp;To exploit this vulnerability, an attacker must control a BGP speaker that has an established trusted peer connection to an affected device that is configured with the address family L2VPN EVPN to receive and process the update message. This vulnerability cannot be exploited by any data that is initiated by clients on the Layer 2 network or by peers that are not configured to accept the L2VPN EVPN address family. A successful exploit could allow the attacker to cause the BGP process to restart unexpectedly, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;The Cisco&amp;amp;nbsp;implementation of BGP accepts incoming BGP updates only from explicitly defined peers. For this vulnerability to be exploited, the malicious BGP update message must either come from a configured, valid BGP peer or be injected by the attacker into the affected BGP network on an existing, valid TCP connection to a BGP peer.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgpevpn-zWTRtPBb&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgpevpn-zWTRtPBb&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS XR Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74835&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Cisco&amp;amp;nbsp;IOS XR Software Security Advisory Bundled Publication&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Medium
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20758
+		    
+         </description>
+      <pubDate>2022-04-19 14:12:27.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bgpevpn-zWTRtPBb</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Vulnerability in Spring Cloud Function Framework Affecting Cisco Products: March 2022</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-scf-rce-DQrHhJxH?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Vulnerability%20in%20Spring%20Cloud%20Function%20Framework%20Affecting%20Cisco%20Products:%20March%202022&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;On March 29, 2022, the following critical vulnerability in the Spring Cloud Function Framework affecting releases 3.1.6, 3.2.2, and older unsupported releases was disclosed: &amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;CVE-2022-22963: Remote code execution in Spring Cloud Function by malicious Spring Expression&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;For a description of this vulnerability, see &amp;lt;a href=&amp;quot;https://tanzu.vmware.com/security/cve-2022-22963&amp;quot;&amp;gt;VMware Spring Framework Security Vulnerability Report&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Cisco's Response to This Vulnerability&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;accessed all products for impact from CVE-2022-22963. To help detect exploitation of this vulnerability, Cisco&amp;amp;nbsp;has released Snort rules at the following location: &amp;lt;a href=&amp;quot;https://www.snort.org/rule_docs/1-59388&amp;quot;&amp;gt;Talos Rule SID 59388&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link: &amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-scf-rce-DQrHhJxH&amp;quot; target=&amp;quot;_blank&amp;quot; rel=&amp;quot;noopener&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-scf-rce-DQrHhJxH&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  Critical
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-22963
+		    
+         </description>
+      <pubDate>2022-04-15 22:31:28.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-java-spring-scf-rce-DQrHhJxH</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco Embedded Wireless Controller with Catalyst Access Points IP Flood Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ap-ip-flood-dos-6hxxENVQ?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20Embedded%20Wireless%20Controller%20with%20Catalyst%20Access%20Points%20IP%20Flood%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p class=&amp;quot;line874&amp;quot;&amp;gt;A vulnerability in IP ingress packet processing of the Cisco&amp;amp;nbsp;Embedded Wireless Controller with Catalyst Access Points Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, causing a denial of service (DoS) condition. The device may experience a performance degradation in traffic processing or high CPU usage prior to the unexpected reload.&amp;lt;span id=&amp;quot;line-100&amp;quot; class=&amp;quot;anchor&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p class=&amp;quot;line874&amp;quot;&amp;gt;This vulnerability is due to improper rate limiting of IP packets to the management interface. An attacker could exploit this vulnerability by sending a steady stream of IP traffic at a high rate to the management interface of the affected device. A successful exploit could allow the attacker to cause the device to reload.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;
+&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ap-ip-flood-dos-6hxxENVQ&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ap-ip-flood-dos-6hxxENVQ&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20622
+		    
+         </description>
+      <pubDate>2022-04-13 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ap-ip-flood-dos-6hxxENVQ</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco 1000 Series Connected Grid Router Integrated Wireless Access Point Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cgr1k-ap-dos-mSZR4QVh?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%201000%20Series%20Connected%20Grid%20Router%20Integrated%20Wireless%20Access%20Point%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the integrated wireless access point (AP) packet processing of the Cisco&amp;amp;nbsp;1000 Series Connected Grid Router (CGR1K) could allow an unauthenticated, adjacent attacker to cause a denial of service condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient input validation of received traffic. An attacker could exploit this vulnerability by sending crafted traffic to an affected device. A successful exploit could allow the attacker to cause the integrated AP to stop processing traffic, resulting in a DoS condition. It may be necessary to manually reload the CGR1K to restore AP operation.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cgr1k-ap-dos-mSZR4QVh&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cgr1k-ap-dos-mSZR4QVh&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74561&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Semiannual Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20761
+		    
+         </description>
+      <pubDate>2022-04-13 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cgr1k-ap-dos-mSZR4QVh</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco IOS XE Wireless Controller Software for the Catalyst 9000 Family SNMP Trap Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-snmp-trap-dos-mjent3Ey?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Wireless%20Controller%20Software%20for%20the%20Catalyst%209000%20Family%20SNMP%20Trap%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in Simple Network Management Protocol (SNMP) trap generation for wireless clients of Cisco&amp;amp;nbsp;IOS XE Wireless Controller Software for the Catalyst 9000 Family could allow an unauthenticated, adjacent attacker to cause an affected device to unexpectedly reload, resulting in a denial of service (DoS) condition on the device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to a lack of input validation of the information used to generate an SNMP trap related to a wireless client connection event. An attacker could exploit this vulnerability by sending an 802.1x packet with crafted parameters during the wireless authentication setup phase of a connection. A successful exploit could allow the attacker to cause the device to reload, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-snmp-trap-dos-mjent3Ey&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-snmp-trap-dos-mjent3Ey&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74561&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Semiannual Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20684
+		    
+         </description>
+      <pubDate>2022-04-13 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-snmp-trap-dos-mjent3Ey</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco IOS XE Software for Catalyst 9800 Series Wireless Controllers Application Visibility and Control Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-fnf-dos-bOL5vLge?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Software%20for%20Catalyst%209800%20Series%20Wireless%20Controllers%20Application%20Visibility%20and%20Control%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the Application Visibility and Control (AVC-FNF) feature of Cisco&amp;amp;nbsp;IOS XE Software for Cisco&amp;amp;nbsp;Catalyst 9800 Series Wireless Controllers could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to insufficient packet verification for traffic inspected by the AVC feature. An attacker could exploit this vulnerability by sending crafted packets from the wired network to a wireless client, resulting in the crafted packets being processed by the wireless controller. A successful exploit could allow the attacker to cause a crash and reload of the affected device, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-fnf-dos-bOL5vLge&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-fnf-dos-bOL5vLge&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74561&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Semiannual Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20683
+		    
+         </description>
+      <pubDate>2022-04-13 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-fnf-dos-bOL5vLge</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco IOS XE Wireless Controller Software for the Catalyst 9000 Family CAPWAP Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-capwap-mdns-6PSn7gKU?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Wireless%20Controller%20Software%20for%20the%20Catalyst%209000%20Family%20CAPWAP%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the Control and Provisioning of Wireless Access Points (CAPWAP) protocol processing of Cisco&amp;amp;nbsp;IOS XE Wireless Controller Software for the Catalyst 9000 Family could allow an unauthenticated, remote attacker to cause a denial of service (DoS) condition on an affected device.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to inadequate input validation of incoming CAPWAP packets encapsulating multicast DNS (mDNS) queries. An attacker could exploit this vulnerability by connecting to a wireless network and sending a crafted mDNS query, which would flow through and be processed by the wireless controller. A successful exploit could allow the attacker to cause the affected device to crash and reload, resulting in a DoS condition.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-capwap-mdns-6PSn7gKU&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-capwap-mdns-6PSn7gKU&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74561&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Semiannual Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20682
+		    
+         </description>
+      <pubDate>2022-04-13 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-c9800-capwap-mdns-6PSn7gKU</guid>
+    </item>
+    <item>
+      <!-- I2R 9899 -->
+      <title>Cisco IOS XE Software AppNav-XE Denial of Service Vulnerability</title>
+      <link>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appnav-xe-dos-j5MXTR4?vs_f=Cisco%20Security%20Advisory&amp;vs_cat=Security%20Intelligence&amp;vs_type=RSS&amp;vs_p=Cisco%20IOS%20XE%20Software%20AppNav-XE%20Denial%20of%20Service%20Vulnerability&amp;vs_k=1</link>
+      <description>
+			
+&amp;lt;p&amp;gt;A vulnerability in the AppNav-XE feature of Cisco&amp;amp;nbsp;IOS XE Software could allow an unauthenticated, remote attacker to cause an affected device to reload, resulting in a denial of service (DoS) condition.&amp;amp;nbsp;&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This vulnerability is due to the incorrect handling of certain TCP segments. An attacker could exploit this vulnerability by sending a stream of crafted TCP traffic at a high rate through an interface of an affected device. That interface would need to have AppNav interception enabled. A successful exploit could allow the attacker to cause the device to reload.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cisco&amp;amp;nbsp;has released software updates that address this vulnerability. There are no workarounds that address this vulnerability.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;This advisory is available at the following link:&amp;lt;br&amp;gt;&amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appnav-xe-dos-j5MXTR4&amp;quot;&amp;gt;https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appnav-xe-dos-j5MXTR4&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;This advisory is part of the April 2022 release of the Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication. For a complete list of the advisories and links to them, see &amp;lt;a href=&amp;quot;https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-74561&amp;quot;&amp;gt;Cisco&amp;amp;nbsp;Event Response: April 2022 Semiannual Cisco&amp;amp;nbsp;IOS and IOS XE Software Security Advisory Bundled Publication.&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+
+
+			      
+		          &lt;br/&gt;Security Impact Rating:  High
+		    
+		    
+		       &lt;br/&gt;CVE: CVE-2022-20678
+		    
+         </description>
+      <pubDate>2022-04-13 23:00:00.0</pubDate>
+      <guid>https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-appnav-xe-dos-j5MXTR4</guid>
+    </item>
+  </channel>
+</rss>
