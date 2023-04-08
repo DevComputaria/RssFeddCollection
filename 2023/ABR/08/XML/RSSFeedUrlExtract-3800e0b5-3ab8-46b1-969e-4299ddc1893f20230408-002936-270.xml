@@ -1,0 +1,1510 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <title>Security Affairs</title>
+    <atom:link href="https://securityaffairs.com/feed" rel="self" type="application/rss+xml" />
+    <link>https://securityaffairs.com/</link>
+    <description>Read, think, share … Security is everyone's responsibility</description>
+    <lastBuildDate>Fri, 07 Apr 2023 20:42:01 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <site xmlns="com-wordpress:feed-additions:1">29506073</site>
+    <item>
+      <title>Apple addressed two actively exploited zero-day flaws</title>
+      <link>https://securityaffairs.com/144551/hacking/apple-zero-day-flaws-3.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 20:41:58 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Apple]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <category><![CDATA[zero-Day]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144551</guid>
+      <description><![CDATA[<p>Apple released emergency security updates to address two actively exploited zero-day vulnerabilities impacting iPhones, Macs, and iPads. Apple has released emergency security updates to address two actively exploited zero-day vulnerabilities, tracked as CVE-2023-28205 and CVE-2023-28206, impacting iPhones, Macs, and iPads. Impacted devices include: Both vulnerabilities were reported by Clément Lecigne of Google&#8217;s Threat Analysis Group [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144551/hacking/apple-zero-day-flaws-3.html">Apple addressed two actively exploited zero-day flaws</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading" id="block-7ed80d1e-2179-4354-b3f5-0580d8ed63ba">Apple released emergency security updates to address two actively exploited zero-day vulnerabilities impacting iPhones, Macs, and iPads.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></h2>
+
+
+
+<p>Apple has released emergency security updates to address two actively exploited zero-day vulnerabilities, tracked as CVE-2023-28205 and CVE-2023-28206, impacting iPhones, Macs, and iPads.</p>
+
+
+
+<p>Impacted devices include:</p>
+
+
+
+<ul>
+<li>iPhone 8 and later,</li>
+
+
+
+<li>iPad Pro (all models),</li>
+
+
+
+<li>iPad Air 3rd generation and later,</li>
+
+
+
+<li>iPad 5th generation and later,</li>
+
+
+
+<li>iPad mini 5th generation and later,</li>
+
+
+
+<li>and Macs running macOS Ventura.</li>
+</ul>
+
+
+
+<p>Both vulnerabilities were reported by Clément Lecigne of Google&#8217;s Threat Analysis Group and Donncha Ó Cearbhaill of Amnesty International’s Security Lab.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Super proud of our team at <a href="https://twitter.com/AmnestyTech?ref_src=twsrc%5Etfw">@AmnestyTech</a> and everyone who helped in this investigation.<br><br>Today, Apple published an emergency update for all iPhones to patch an exploit chain which we, together with <a href="https://twitter.com/_clem1?ref_src=twsrc%5Etfw">@_clem1</a> (Google TAG)  discovered in the wild. <a href="https://t.co/KLMYjqi3lK">pic.twitter.com/KLMYjqi3lK</a></p>&mdash; Donncha Ó Cearbhaill (@DonnchaC) <a href="https://twitter.com/DonnchaC/status/1644414669254271006?ref_src=twsrc%5Etfw">April 7, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div><figcaption class="wp-element-caption"><gwmw style="display:none;"></gwmw></figcaption></figure>
+
+
+
+<p>The zero-day CVE-2023-28205 is a use after free issue that resides in the WebKit, its exploitation may lead to arbitrary code execution. An attacker can trigger the flaw by tricking the victims into loading maliciously crafted web pages.</p>
+
+
+
+<p><em>&#8220;Processing maliciously crafted web content may lead to arbitrary code execution. Apple is aware of a report that this issue may have been actively exploited.&#8221; <a href="https://support.apple.com/en-us/HT213721">reads the advisory</a>.</em></p>
+
+
+
+<p>The IT giant addressed the flaw with improved memory management.</p>
+
+
+
+<p>The zero-day CVE-2023-28206 is an out-of-bounds write issue that resides in the IOSurfaceAccelerator.</p>
+
+
+
+<p><em>&#8220;An app may be able to execute arbitrary code with kernel privileges. Apple is aware of a report that this issue may have been actively exploited.&#8221; reads the advisory.</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The company addressed the flaw with improved input validation.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Apple addressed the zero-day issue with the release of macOS Ventura 13.3.1, iOS 16.4.1, iPadOS 16.4.1, and Safari 16.4.1. </p>
+
+
+
+<p>In February, the company released emergency security updates to address an actively exploited zero-day vulnerability, <a href="https://securityaffairs.com/142200/hacking/apple-zero-day-iphones-macs.html">tracked as CVE-2023-23529</a>, that impacts iOS, iPadOS, and macOS. The flaw is a type confusion issue in WebKit that was addressed by the IT giant with improved checks.</p>
+
+
+
+<p>An attacker can achieve arbitrary code execution by tricking the victims into visiting maliciously crafted web content.</p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, zero-day)</strong></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144551/hacking/apple-zero-day-flaws-3.html">Apple addressed two actively exploited zero-day flaws</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144551</post-id>
+    </item>
+    <item>
+      <title>MSI confirms security breach after Money Message ransomware attack</title>
+      <link>https://securityaffairs.com/144546/data-breach/msi-confirms-security-breach.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 18:41:46 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber Crime]]></category>
+      <category><![CDATA[Data Breach]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Cybercrime]]></category>
+      <category><![CDATA[data breach]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[Money Message]]></category>
+      <category><![CDATA[MSI]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[ransomware]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144546</guid>
+      <description><![CDATA[<p>Multinational IT corporation MSI (Micro-Star International) confirms security breach after Money Message ransomware gang claimed the hack. This week the ransomware gang Money Message announced to have hacked the Taiwanese multinational IT corporation MSI (Micro-Star International). Micro-Star International AKA MSI designs, manufactures, and sells motherboards and graphics cards for customers in the United States, Canada, and [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144546/data-breach/msi-confirms-security-breach.html">MSI confirms security breach after Money Message ransomware attack</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">Multinational IT corporation MSI (Micro-Star International) confirms security breach after Money Message ransomware gang claimed the hack.</h2>
+
+
+
+<p>This week the ransomware gang Money Message announced to have hacked the Taiwanese multinational IT corporation MSI (Micro-Star International). Micro-Star International AKA MSI designs, manufactures, and sells motherboards and graphics cards for customers in the United States, Canada, and internationally. MSI is headquartered in Taipei, Taiwan.</p>
+
+
+
+<p>The ransomware group added the company to the list of victims on its Tor leak site, it claims to have stolen the source code from the company, including a framework to develop bios, and private keys.</p>
+
+
+
+<figure class="wp-block-image"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?ssl=1"><img decoding="async" width="1702" height="742" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=1024%2C446&amp;ssl=1" alt="MSI" class="wp-image-144521" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?w=1702&amp;ssl=1 1702w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=300%2C131&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=1024%2C446&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=768%2C335&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=1536%2C670&amp;ssl=1 1536w" sizes="(max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p>The group published a series of screenshots of the company’s CTMS and ERP databases<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The Money Message group threatens to publish the stolen files by Wednesday, April 12, 2023, if the company will not pay the ransom.</p>
+
+
+
+<p>Today MSI confirmed the security breach, it confirmed that threat actors had access to some of its information service systems.</p>
+
+
+
+<p></p>
+
+
+
+<p><em>&#8220;MSI recently suffered a cyberattack on part of its information systems. Upon detecting network anomalies, the information department promptly activated relevant defense mechanisms and carried out recovery measures, and reported the incident to government law enforcement agencies and cybersecurity units.&#8221; reads a <a href="https://www.msi.com/news/detail/MSI-Statement-141688">statement</a> published by the company. &#8220;Currently, the affected systems have gradually resumed normal operations, with no significant impact on financial business.&#8221;</em></p>
+
+
+
+<p>The company reported the security breach to the relevant authorities, and it downplayed the incident, saying that the attack had no significant financial and operational impact.</p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>In response to the incident, the company announced it is enhancing the information security control measures of its network and infrastructure.</p>
+
+
+
+<p>MSI is urging users to obtain firmware/BIOS updates only from its official website fearing that threat actors could circulate malware-laced versions of the company&#8217;s BIOS.</p>
+
+
+
+<p>BleepingComputer first <a href="https://www.bleepingcomputer.com/news/security/money-message-ransomware-gang-claims-msi-breach-demands-4-million/"><strong>reported</strong></a> that the ransomware gang claimed the theft of 1.5TB of internal files and has demanded a ransom payment of $4,000,000.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, MSI)</strong></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144546/data-breach/msi-confirms-security-breach.html">MSI confirms security breach after Money Message ransomware attack</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144546</post-id>
+    </item>
+    <item>
+      <title>Microsoft aims at stopping cybercriminals from using cracked copies of Cobalt Strike</title>
+      <link>https://securityaffairs.com/144537/hacking/microsoft-vs-cracked-copies-cobalt-strike.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 10:38:37 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Cobalt Strike]]></category>
+      <category><![CDATA[Cybercrime]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <category><![CDATA[state-sponsored hacker]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144537</guid>
+      <description><![CDATA[<p>Microsoft announced it has taken legal action to disrupt the illegal use of copies of the post-exploitation tool Cobalt Strike by cybercriminals. Cobalt Strike is a paid penetration testing product that allows an attacker to deploy an agent named ‘Beacon’ on the victim machine. The Beacon includes a wealth of functionality for the attacker, including, but [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144537/hacking/microsoft-vs-cracked-copies-cobalt-strike.html">Microsoft aims at stopping cybercriminals from using cracked copies of Cobalt Strike</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">Microsoft announced it has taken legal action to disrupt the illegal use of copies of the post-exploitation tool Cobalt Strike by cybercriminals.</h2>
+
+
+
+<p><a href="https://malpedia.caad.fkie.fraunhofer.de/details/win.cobalt_strike">Cobalt Strike</a> is a paid penetration testing product that allows an attacker to deploy an agent named ‘Beacon’ on the victim machine. The Beacon includes a wealth of functionality for the attacker, including, but not limited to command execution, key logging, file transfer, SOCKS proxying, privilege escalation, mimikatz, port scanning and lateral movement. <gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Microsoft Digital Crimes Unit (DCU) announced that has collaborated with Fortra, the company that develops and maintains the tool,  and Health Information Sharing and Analysis Center (Health-ISAC) to curb the abuse of Cobalt Strike by cybercriminals.</p>
+
+
+
+<p>The Microsoft DCU secured a <a href="https://noticeofpleadings.com/crackedcobaltstrike/" target="_blank" rel="noreferrer noopener">court order</a> in the U.S. to remove cracked versions of Cobalt Strike (&#8220;refer to stolen, unlicensed, or otherwise unauthorized versions or copies of the tool&#8221;) so they can no longer be used by cybercriminals.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Threat actors, including ransomware groups and nation-state actors, use Cobalt Strike after obtaining initial access to a target network. The tool is used to conduct multiple malicious activities, including escalating privileges, lateral movements, and deploying additional malicious payloads.</p>
+
+
+
+<p><em>&#8220;More specifically, cracked versions of Cobalt Strike allow Defendants to gain control of their victim’s machine and move laterally through the connected network to find other victims and install malware. This includes installing ransomware like <a href="https://securityaffairs.com/130640/cyber-crime/conti-ransomware-operations-continues.html">Conti</a>, <a href="https://securityaffairs.com/143495/cyber-crime/lockbit-ransomware-gang-spacex-files.html">LockBit</a>, Quantum Locker, Royal, Cuba, <a href="https://securityaffairs.com/138037/cyber-crime/black-basta-linked-fin7.html">BlackBasta</a>, BlackCat and PlayCrypt, to arrest access to the systems. In essence, Defendants are able to leverage cracked versions of Cobalt Strike to brutally force their way into victim machines and deploy malware.&#8221; reads the <a href="https://noticeofpleadings.com/crackedcobaltstrike/files/ComplaintAndSummons/1%20-Microsoft%20Cobalt%20Strike%20-%20Complaint(907040021.9).pdf"><strong>court order</strong></a>. &#8220;Additionally, once the Defendants deploy the malware or ransomware onto computers running Microsoft’s Window operating system, Defendants are able to execute a series of actions involving abuse of Microsoft’s copyrighted declaring code.&#8221;</em></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-10.png?ssl=1"><img decoding="async" loading="lazy" width="1024" height="338" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-10.png?resize=1024%2C338&#038;ssl=1" alt="Cobalt Strike attack chain" class="wp-image-144539" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-10.png?resize=1024%2C338&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-10.png?resize=300%2C99&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-10.png?resize=768%2C253&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-10.png?w=1186&amp;ssl=1 1186w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>Example of an attack flow by threat actor <a href="https://www.microsoft.com/en-us/security/blog/2022/05/09/ransomware-as-a-service-understanding-the-cybercrime-gig-economy-and-how-to-protect-yourself/">DEV-0243</a>.</p>
+
+
+
+<p>Microsoft observed more than 68 ransomware attacks, involving the use of cracked copies of Cobalt Strike, against healthcare organizations in more than 19 countries around the world. </p>
+
+
+
+<p>The attacks caused huge financial damages to the attacked hospitals in recovery and repair costs, plus interruptions to critical patient care services.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Microsoft also observed nation-state actors, including APT groups from Russia, China, Vietnam, and Iran, using cracked copies of Cobalt Strike.</p>
+
+
+
+<p><em>&#8220;Microsoft, Fortra and Health-ISAC remain relentless in our efforts to improve the security of the ecosystem, and we are collaborating with the FBI Cyber Division, National Cyber Investigative Joint Task Force (NCIJTF) and Europol’s European Cybercrime Centre (EC3) on this case. While this action will impact the criminals’ immediate operations, we fully anticipate they will attempt to revive their efforts. Our action is therefore not one and done.&#8221; concludes the report.</em></p>
+
+
+
+<p>In November 2022, Google Cloud researchers <a href="https://securityaffairs.com/138795/hacking/google-cobalt-strike-detection.html"><strong>announced</strong></a> the discovery of 34 different Cobalt Strike hacked release versions with a total of 275 unique JAR files across these versions.</p>
+
+
+
+<p>Google Cloud Threat Intelligence (GCTI) researchers developed a set of YARA rules to detect hacked variants in the wild with a high degree of accuracy. The researchers noticed that each Cobalt Strike version contains approximately 10 to 100 attack template binaries<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, Phishing)</strong><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144537/hacking/microsoft-vs-cracked-copies-cobalt-strike.html">Microsoft aims at stopping cybercriminals from using cracked copies of Cobalt Strike</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144537</post-id>
+    </item>
+    <item>
+      <title>Phishers migrate to Telegram</title>
+      <link>https://securityaffairs.com/144525/cyber-crime/phishers-migrate-to-telegram.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 18:33:16 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber Crime]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Cybercrime]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[PhaaS]]></category>
+      <category><![CDATA[Phishig-as-a-Service]]></category>
+      <category><![CDATA[phishing]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <category><![CDATA[Telegram]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144525</guid>
+      <description><![CDATA[<p>Experts warn that Telegram is becoming a privileged platform for phishers that use it to automate their activities and for providing various services. Kaspersky researchers have published an analysis of phishers’ Telegram channels used to promote their services and products. The experts pointed out that crooks engaged in phishing activities have started to rely on [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144525/cyber-crime/phishers-migrate-to-telegram.html">Phishers migrate to Telegram</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">Experts warn that Telegram is becoming a privileged platform for phishers that use it to automate their activities and for providing various services.</h2>
+
+
+
+<p>Kaspersky researchers have published an analysis of phishers’ Telegram channels used to promote their services and products.</p>
+
+
+
+<p>The experts pointed out that crooks engaged in phishing activities have started to rely on the popular instant messaging platform more in recent months.<gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>On Telegram is possible to find channels that offer:</p>
+
+
+
+<p>Free phishing kits that can be used to target users of a large number of global and local brands. Phishers also use to share stolen personal data with their subscribers. The free phishing material is offered as bait of sorts for less experienced phishers to bite and to recruiting an unpaid workforce.</p>
+
+
+
+<ul>
+<li>One reason is that any free content or manuals so willingly distributed by scammers to their Telegram audience serve as bait of sorts for less experienced phishers to bite. Newbies get a taste of what phishing tools can do, pull off their first scam and wish for more, which is when they will be offered paid content. The creators of phishing bots and kits can get access to data that is gathered with their tools. <gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><em>&#8220;To attract larger audiences, scam operators advertise their services, promising to teach others how to phish for serious cash.&#8221; <a href="https://securelist.com/telegram-phishing-services/109383/"><strong>reads</strong></a> the post published by Kaspersky.</em></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-8.png?ssl=1"><img decoding="async" loading="lazy" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-8.png?resize=578%2C568&#038;ssl=1" alt="" class="wp-image-144526" width="578" height="568" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-8.png?w=812&amp;ssl=1 812w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-8.png?resize=300%2C295&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-8.png?resize=768%2C755&amp;ssl=1 768w" sizes="(max-width: 578px) 100vw, 578px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p><strong><em>Contents of a free phishing kit archive</em></strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<ul>
+<li>Paid phishing pages and data, as well as phishing-as-a-service (PhaaS) subscriptions. Crooks use Telegram channel to offer paid phishing content and data. They also provide <a href="https://securityaffairs.com/138199/cyber-crime/robin-banks-phaas.html">phishing-as-a-service</a> (PhaaS) subscriptions that give their customers access to phishing tools, as well as guides for beginners and technical support.<gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><em>&#8220;Malicious actors offer “premium” phishing and scam pages for sale. Unlike the primitive copies of popular websites, these offers include pages built from scratch with a range of advanced capabilities or tools for generating such pages.&#8221; continues the report. &#8220;For instance, a “premium” page may include elements of social engineering, such as an appealing design, promises of large earnings, an anti-detection system and so on.&#8221;</em></p>
+
+
+
+<p>The cost of phishing pages goes from $10 per copy up to $50 for an archive containing several pages. A package containing features such as 3-D Secure support and support for configuring a phishing website, may cost up to $300.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-9.png?ssl=1"><img decoding="async" loading="lazy" width="445" height="321" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-9.png?resize=445%2C321&#038;ssl=1" alt="Phishing" class="wp-image-144529" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-9.png?w=445&amp;ssl=1 445w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-9.png?resize=300%2C216&amp;ssl=1 300w" sizes="(max-width: 445px) 100vw, 445px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<ul>
+<li>User personal data for sale. Crooks offers data collected through phishing campaign to the subscribers. Data includes verified online banking credentials, in some cases phishers also provides info on the account balances. <gwmw style="display:none;"></gwmw></li>
+</ul>
+
+
+
+<p><em>&#8220;The higher the balance, the more money scammers will typically charge for the credentials.&#8221; continues the analysis. &#8220;For example, the same Telegram channel offered the credentials for a bank account with $1,400 in it for $110, whereas access to an account with a balance of $49,000 was put up for $700.&#8221;</em></p>
+
+
+
+<ul>
+<li>Phishing-as-a-Service. Telegram channels are used to sell a range of subscriptions, with can also include customer support. Phishers provides updates on a regular basis for the phishing tools, anti-detection systems and links generated by the phishing kits.</li>
+
+
+
+<li>One-time password (OTP) bots. These bots allows phishers to bypass 2FA (two-factor authentication) protections automatically. The experts observed that a subscription for this kind of service goes for$130/week, or $500/month for custom deployments.</li>
+</ul>
+
+
+
+<p>In the last six months, Kaspersky has detected 2.5 million malicious URLs generated with phishing kits. The cyber security firm reported that it has prevented 7.1 million attempts by users to access these malicious sites within the same period.</p>
+
+
+
+<p><em>&#8220;Wannabe phishers used to need to find a way onto the dark web, study the forums there and do other things to get started.&#8221; concludes the report. &#8220;The threshold to joining the phisher community lowered once malicious actors migrated to Telegram and now share insights and knowledge, often for free, right there in the popular messaging service.&#8221;</em><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, Phishing)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144525/cyber-crime/phishers-migrate-to-telegram.html">Phishers migrate to Telegram</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144525</post-id>
+    </item>
+    <item>
+      <title>Money Message ransomware group claims to have hacked IT giant MSI</title>
+      <link>https://securityaffairs.com/144519/cyber-crime/money-message-claims-msi-hack.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 13:57:35 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber Crime]]></category>
+      <category><![CDATA[Data Breach]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Cybercrime]]></category>
+      <category><![CDATA[data breach]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[Money Message ransomware]]></category>
+      <category><![CDATA[MSI]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144519</guid>
+      <description><![CDATA[<p>Ransomware gang Money Message claims to have hacked the Taiwanese multinational IT corporation MSI (Micro-Star International). Ransomware gang Money Message announced to have hacked the Taiwanese multinational IT corporation MSI (Micro-Star International). Micro-Star International AKA MSI designs, manufactures, and sells motherboards and graphics cards for customers in the United States, Canada, and internationally. MSI is headquartered in Taipei, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144519/cyber-crime/money-message-claims-msi-hack.html">Money Message ransomware group claims to have hacked IT giant MSI</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">Ransomware gang Money Message claims to have hacked the Taiwanese multinational IT corporation MSI (Micro-Star International). </h2>
+
+
+
+<p>Ransomware gang Money Message announced to have hacked the Taiwanese multinational IT corporation MSI (Micro-Star International). Micro-Star International AKA MSI designs, manufactures, and sells motherboards and graphics cards for customers in the United States, Canada, and internationally. MSI is headquartered in Taipei, Taiwan. </p>
+
+
+
+<p>The ransomware group added the company to the list of victims on its Tor leak site, it claims to have stolen the source code from the company, including a framework to develop bios, and private keys. <gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?ssl=1"><img decoding="async" loading="lazy" width="1024" height="446" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=1024%2C446&#038;ssl=1" alt="MSI" class="wp-image-144521" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=1024%2C446&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=300%2C131&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=768%2C335&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?resize=1536%2C670&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/MSI.png?w=1702&amp;ssl=1 1702w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p>The group published a series of screenshots of the company&#8217;s CTMS and ERP databases </p>
+
+
+
+<p>The Money Message group threatens to publish the stolen files by Wednesday, April 12, 2023, if the company will not pay the ransom.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>BleepingComputer <a href="https://www.bleepingcomputer.com/news/security/money-message-ransomware-gang-claims-msi-breach-demands-4-million/"><strong>reported</strong></a> that the ransomware gang has demanded a ransom payment of $4,000,000.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, MSI)</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144519/cyber-crime/money-message-claims-msi-hack.html">Money Message ransomware group claims to have hacked IT giant MSI</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144519</post-id>
+    </item>
+    <item>
+      <title>OCR Labs exposes its systems, jeopardizing major banking clients</title>
+      <link>https://securityaffairs.com/144514/data-breach/ocr-labs-data-leak.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 10:47:49 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Data Breach]]></category>
+      <category><![CDATA[data leak]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[OCR Labs]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144514</guid>
+      <description><![CDATA[<p>A digital identification tool provided by OCR Labs to major banks and government agencies leaked sensitive credentials, putting clients at severe risk. The Cybernews research team discovered a misconfiguration in the OCR Labs system that exposed sensitive data. The company is a leading provider of digital ID verification tools, with its IDkit tool being used [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144514/data-breach/ocr-labs-data-leak.html">OCR Labs exposes its systems, jeopardizing major banking clients</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">A digital identification tool provided by OCR Labs to major banks and government agencies leaked sensitive credentials, putting clients at severe risk.</h2>
+
+
+
+<ul>
+<li>London-based OCR Labs is a major provider of digital ID verification tools. Its services are used by companies and financial institutions including BMW, Vodafone, the Australian government, Westpac, ANZ, HSBC, and Virgin Money.</li>
+
+
+
+<li>A misconfiguration of the company’s systems exposed sensitive credentials to the public.</li>
+
+
+
+<li>Data leak affected QBANK, Defence Bank, Bloom Money, Admiral Money, MA Money, and Reed.</li>
+
+
+
+<li>Using leaked data, threat actors could potentially breach banks’ backend infrastructure and consequently the infrastructure of their clients.</li>
+
+
+
+<li>Financial services are the main target for cybercriminals, so the threat for the organizations and their customers is severe.</li>
+
+
+
+<li>Cybernews contacted OCR Labs, and the company fixed the issue.</li>
+</ul>
+
+
+
+<p>The Cybernews research team discovered a misconfiguration in the OCR Labs system that exposed sensitive data.</p>
+
+
+
+<p>The company is a leading provider of digital ID verification tools, with its IDkit tool being used by major banks, telecoms companies, and governmental agencies. IDKit verifies users by linking their faces to their identity documents.</p>
+
+
+
+<p>The discovered data leak impacted financial institutions in Australia – QBANK, mainly used by government agency workers, Defence Bank, catering to the Australian armed forces, and MA Money, a company that focuses on residential mortgages.</p>
+
+
+
+<p>The leak also affected Bloom Money and Admiral Money – two financial companies based in the UK, and Reed, which is the UK&#8217;s top recruitment agency.</p>
+
+
+
+<p>Using leaked data, threat actors could potentially breach companies’ backend infrastructure and consequently the infrastructure of their clients. While financial services are the main target for cybercriminals, the threat to the organizations and their customers is severe.</p>
+
+
+
+<p>Cybernews reached out to the company, and it fixed the issue.</p>
+
+
+
+<p><strong>A treasure trove of credentials</strong></p>
+
+
+
+<p>On March 8, 2023, the Cybernews research team discovered a publicly accessible environment file (.env) belonging to idkit.com, owned by OCR Labs.</p>
+
+
+
+<p>The file contained database credentials, including host, port, and username,&nbsp;<a href="https://cybernews.com/news/over-1800-ios-and-android-apps-leak-aws-credentials/">Amazon Web Services&nbsp;</a>(AWS) with Simple Queue Service (SQS) access credentials, application tokens, and various application programming interface (API) keys.</p>
+
+
+
+<p>Among the leaked data, researchers found Google and Liveness API keys. Liveness is used in the digital identification process, determining whether the sample belongs to a live person or a fake, thereby preventing&nbsp;<a href="https://cybernews.com/news/how-to-avoid-neighbor-spoofing-scams/">spoofing</a>&nbsp;or account-holder&nbsp;<a href="https://cybernews.com/privacy/common-forms-identity-fraud-how-to-avoid/">impersonation.</a></p>
+
+
+
+<p>The exposure of these keys is particularly dangerous because it potentially allows an attacker to see all the API&#8217;s data and modify and update related files, pipelines, and workflows.</p>
+
+
+
+<p>Researchers also stumbled upon Engine v4 credentials: while they cannot determine the exact impact of this discovery, it is related to the <a href="https://cybernews.com/security/astyanax-kanakakis-norbloc-having-secure-systems-in-place-is-vital-to-avoid-a-pandoras-box-of-data-breaches/">Know Your Customer (KYC) </a>service, which entails verifying a client&#8217;s identity when opening an account and periodically over time to guard against money laundering. The exposure of its ID and secret can potentially compromise KYC processes.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/OCR-Labs.png?ssl=1"><img decoding="async" loading="lazy" width="1024" height="471" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/OCR-Labs.png?resize=1024%2C471&#038;ssl=1" alt="OCR Labs" class="wp-image-144517" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/OCR-Labs.png?resize=1024%2C471&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/OCR-Labs.png?resize=300%2C138&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/OCR-Labs.png?resize=768%2C353&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/OCR-Labs.png?resize=1536%2C706&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/OCR-Labs.png?resize=2048%2C941&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a><figcaption class="wp-element-caption">Leaked credentials for Defence Bank | Image by Cybernews</figcaption></figure>
+
+
+
+<p><strong>Financial data at risk</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Another piece of sensitive information observed was the API key from Experian, a well-known multinational data analytics and consumer credit reporting company.</p>
+
+
+
+<p>Experian collects financial data on individuals to help rate their creditworthiness. Having access to the API might enable the threat actor to access private user data such as credit score, and edit all data associated with the API.</p>
+
+
+
+<p>Leaked app URLs, IDs, and tokens could have been used by threat actors to hijack OCR Labs client applications.</p>
+
+
+
+<p>The exposure of AWS and SQS access credentials has put OCR Labs clients in danger. Leaking this kind of data opens up the possibility of disrupting the company’s systems operations, hampers its ability to view internal server communication, and potentially enables malicious actors to gain further access to cause harm to customers.</p>
+
+
+
+<p>The discovered OAuth endpoint URL and token for business metrics could help malicious actors access private commercial information.</p>
+
+
+
+<p><strong>Wide range of attacks</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>This leak could have caused significant damage if malicious actors used it to take over the application instance, enabling lateral movement with a targeted system.</p>
+
+
+
+<p>The environment file could potentially provide threat actors with various attack options. Ransomware deployment, and access to sensitive customer data such as personally identifiable information (PII), deposits, withdrawals, and transfers, are just a few examples of what could be done with the leaked data.</p>
+
+
+
+<p>Leaked data could be highly beneficial for phishers and fraudsters who may exploit the opportunity to impersonate brokers or banks and deceive unsuspecting individuals and businesses into transferring money to scammers.</p>
+
+
+
+<p>Moreover, the risk of<a href="https://cybernews.com/editorial/identity-theft-why-oversharing-your-data-online-could-put-your-quality-of-life-in-jeopardy/">&nbsp;identity theft&nbsp;</a>and establishing fraudulent bank accounts, also known as bank drops, using stolen customer credentials, cannot be overlooked.</p>
+
+
+
+<p><strong>OCR Labs’ response</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Immediately after Cybernews informed the company about the misconfiguration, it took all the necessary actions to remedy the situation. OCR Labs says it adheres to a vulnerability disclosure program (VDP) framework “to securely accept, triage, and rapidly remediate vulnerabilities.”</p>
+
+
+
+<p>Following the framework, the company claims to have notified all impacted clients as part of their response. After an internal investigation, it stated that there was “no risk to the security of our client’s data or any of our other clients.”</p>
+
+
+
+<p>“After more than 40 hours of investigation, we discovered that these reports pertained to unused demo and non-production environments and the keys which were discovered by the bots were of offline systems,” said Paul Warren-Tape of OCR Labs.</p>
+
+
+
+<p>Cybernews reached out to the affected clients, but at the time of writing has not received their comment yet.</p>
+
+
+
+<p>If you want to read the OCR Labs’ response and how to secure your data give a look at the original post:</p>
+
+
+
+<p><strong><a href="https://cybernews.com/security/ocr-labs-exposes-its-systems/">https://cybernews.com/security/ocr-labs-exposes-its-systems/</a></strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>About the author: <a href="https://cybernews.com/author/paulinaokunyte/">Paulina Okunytė</a>, Journalist at cyberNews</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong>&nbsp;–</strong>&nbsp;<strong>hacking, North Korea)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144514/data-breach/ocr-labs-data-leak.html">OCR Labs exposes its systems, jeopardizing major banking clients</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144514</post-id>
+    </item>
+    <item>
+      <title>Threat Report Portugal: Q3 &amp; Q4 2022</title>
+      <link>https://securityaffairs.com/144508/malware/threat-report-portugal-q3-q4-2022.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 10:15:28 +0000</pubDate>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Cybercrime]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <category><![CDATA[Threat Report Portugal]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144508</guid>
+      <description><![CDATA[<p>The Threat Report Portugal: H2 2022 compiles data collected on the malicious campaigns that occurred from July to December, H2, 2022. The Portuguese Abuse Open Feed&#160;0xSI_f33d&#160;is an open-sharing database with the ability to collect indicators from multiple sources, developed and maintained by&#160;Segurança-Informática. This feed is based on automatic searches and is supported by a healthy [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144508/malware/threat-report-portugal-q3-q4-2022.html">Threat Report Portugal: Q3 &#038; Q4 2022</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">The Threat Report Portugal: H2 2022 compiles data collected on the malicious campaigns that occurred from July to December, H2, 2022.</h2>
+
+
+
+<p><strong>The Portuguese Abuse Open Feed</strong>&nbsp;<a href="https://feed.seguranca-informatica.pt/"><strong><em>0xSI_f33d</em></strong></a>&nbsp;is an open-sharing database with the ability to collect indicators from multiple sources, developed and maintained by&nbsp;<a href="https://seguranca-informatica.pt/"><strong><em>Segurança-Informática</em></strong></a>. This feed is based on automatic searches and is supported by a healthy community of contributors.&nbsp;&nbsp;This makes it a reliable, trustworthy, continuously updated source, focused on the threats targeting Portuguese citizens.&nbsp;<a href="https://feed.seguranca-informatica.pt/"><strong>0xSI_f33d&nbsp;</strong></a>has been<strong>&nbsp;part of the official&nbsp;</strong><a href="https://support.virustotal.com/hc/en-us/articles/115002146809-Contributors"><strong>VirusTotal ingestors</strong></a><strong>&nbsp;since July 2021</strong>&nbsp;allowing the community to verify threats worldwide provided by this feed.</p>
+
+
+
+<p>The <strong>Threat Report Portugal: Q3 &amp; Q4 2022</strong> compiles data collected on the malicious campaigns that occurred from Jully to December, Q3 and Q4, 2022. The submissions were classified as either phishing or malware. In addition, the report highlights the threats, trends, and key takeaways of threats observed and reported into <a href="https://feed.seguranca-informatica.pt/"><strong><em>0xSI_f33d</em></strong></a>. This report provides intelligence and indicators of compromise (IOCs) that organizations can use to fight current attacks, anticipate emerging threats, and manage security awareness in a better way.</p>
+
+
+
+<p><strong>Phishing and Malware Q3 &amp; Q4 2022</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The results depicted in Figure 1 show that phishing campaigns (98,7%) were more prevalent than malware (1,3%) during Q3 and Q4 2022. A growing trend in phishing submissions was observed in Q3 and Q4 (25369), with malware having 1.3% of the total,&nbsp;<strong><a href="https://seguranca-informatica.pt/threat-report-portugal-q2-2022/">in comparison with 31.1% in Q2 2022</a></strong>.</p>
+
+
+
+<figure class="wp-block-image"><a href="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/t1.png?ssl=1"><img decoding="async" src="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/t1.png?ssl=1" alt="" class="wp-image-10800" data-recalc-dims="1"/></a></figure>
+
+
+
+<p>Regarding Q1 2022, the phishing campaigns increased in reference to 2021 as a result of the research focused on the&nbsp;<strong><a href="https://seguranca-informatica.pt/shopping-trap-the-online-stores-scam-that-hits-users-worldwide/">online stores’ scams that hit users worldwide</a></strong>. In detail, thousands of fake online store domains were compiled through this research in March 2022 – a process that is still being carried out continuously by 0xSI_feed’s cyber intelligence agents during 2022. A clear sign is the peak of submissions noticed from July until October, with thousands of domains associated with the online stores’ campaigns collected and flagged as malicious.</p>
+
+
+
+<p>Notice that, end users can validate if their data is now in the wrong hands by utilizing the<strong><a href="https://tools.seguranca-informatica.pt/st0r3_sc4m_l34k_ch3ck3r/index.php">&nbsp;st0r3_sc4m_l34a_ch3ck3r available here</a>.</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter"><a href="https://tools.seguranca-informatica.pt/st0r3_sc4m_l34k_ch3ck3r/index.php"><img decoding="async" src="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2022/03/xxxx.jpg?ssl=1" alt="" data-recalc-dims="1"/></a></figure></div>
+
+
+<p>Also during Q1 of 2022 criminals<strong><a href="https://seguranca-informatica.pt/alerta-phishing-bancario-com-novo-template-a-circular-em-portugal/#.YsH6dHbMJhE">&nbsp;have updated phishing templates targeting banking organizations in Portugal</a>.&nbsp;</strong>These kinds of campaigns are the most critical and dangerous for Internet end-users, with a large number of people impacted every week.</p>
+
+
+
+<p>In terms of malware, the&nbsp;<a href="https://seguranca-informatica.pt/a-taste-of-the-latest-release-of-qakbot/#.YPix4ehKhPY"><strong>popular QakBot trojan banker</strong></a>&nbsp;has been observed as an increased threat in Q2 2022 in Portugal. This piece of malware is focused on stealing banking credentials and victims’ secrets using different techniques tactics and procedures (TTP) which have evolved over the years, including its delivery mechanisms, C2 techniques, and anti-analysis and reversing features. In detail, 1467 endpoints related to Qakbot operations were submitted into the 0xSI_f33d in April 2022 which increase the malware numbers during this quarter.</p>
+
+
+
+<p>For more information about the<strong><a href="https://seguranca-informatica.pt/a-taste-of-the-latest-release-of-qakbot/#.YsH8InbMJhE">&nbsp;Qakbot TTPs check below the full analysis</a></strong>.</p>
+
+
+
+<p>It is possible to verify that there was a high number of phishing campaigns connected to a&nbsp;<strong><a href="https://seguranca-informatica.pt/e-phishing-como-os-burloes-estao-a-usar-os-seus-dados-em-campanhas-maliciosas/#.YhF0VujP0Q8">social engineering campaign</a></strong>&nbsp;related to package delivery services, including CTT, DHL, UPS, FedEx, etc. Notice that, this campaign has been tracked by Segurança-Informática, and all the malicious domains are submitted on the&nbsp;<a href="https://feed.seguranca-informatica.pt/"><strong>0xSI_f33d</strong>&nbsp;</a>every day.</p>
+
+
+
+<p><strong>Malware by Numbers</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Overall,&nbsp;<a href="https://seguranca-informatica.pt/a-taste-of-the-latest-release-of-qakbot/#.YPix4ehKhPY">&nbsp;</a>the Satori/Mirai botnet,&nbsp;<a href="https://seguranca-informatica.pt/ursa-trojan-is-back-with-a-new-dance/"><strong>URSA trojan</strong></a>, and&nbsp;<a href="https://seguranca-informatica.pt/a-taste-of-the-latest-release-of-qakbot/#.YPix4ehKhPY"><strong>Qakbot trojan</strong></a>&nbsp;were some of the most prevalent threats affecting Portuguese citizens during Q3 and Q4 2022. Other&nbsp;<strong><a href="https://seguranca-informatica.pt/brazilian-trojan-impacting-portuguese-users-and-using-the-same-capabilities-seen-in-other-latin-american-threats/#.YsH903bMJhE">trojan bankers variants</a></strong>&nbsp;and families affecting users from different banks in Portugal were also observed, including&nbsp;<a href="https://seguranca-informatica.pt/the-new-maxtrilha-trojan-is-being-disseminated-and-targeting-several-banks"><strong>Maxtrilha</strong></a>,&nbsp;<strong><a href="https://seguranca-informatica.pt/latin-american-javali-trojan-weaponizing-avira-antivirus-legitimate-injector-to-implant-malware/">Javali</a></strong>, and&nbsp;<strong><a href="https://seguranca-informatica.pt/targeting-portugal-a-new-trojan-lampion-has-spread-using-template-emails-from-the-portuguese-government-finance-tax/">Lampion</a></strong>. The Lampion 212 version in particular has used&nbsp;<strong><a href="https://seguranca-informatica.pt/the-hidden-c2-lampion-trojan-release-212-is-on-the-rise-and-using-a-c2-server-for-two-years/#.YsH92nbMJhE">hidden C2 servers for at least two years</a></strong>.</p>
+
+
+
+<p>These kinds of malwares come from Brazil and the attacks are disseminated via phishing campaigns. Criminals are also using <em>smishing </em>to enlarge the scope and to impact a large group of victims.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Also, the popular Emotet has a prominent place in this listing, as it returns a few months later in December 2022, and is a threat to keep under the radar during 2023.</p>
+
+
+
+<figure class="wp-block-image"><a href="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/t2.png?ssl=1"><img decoding="async" src="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/t2.png?ssl=1" alt="" class="wp-image-10801" data-recalc-dims="1"/></a></figure>
+
+
+
+<p><strong>Threats by Sector</strong><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Regarding the affected sectors, Banking was the most affected with both phishing and malware campaigns hitting Portuguese citizens during Q2 2022. Next, Retail and Health, as the most sectors affected in this season.</p>
+
+
+
+<figure class="wp-block-image"><a href="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/t3.png?ssl=1"><img decoding="async" src="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/t3.png?ssl=1" alt="" class="wp-image-10802" data-recalc-dims="1"/></a></figure>
+
+
+
+<p>Threat campaigns during Q1 2023 will be published daily into&nbsp;<a href="https://feed.seguranca-informatica.pt/"><strong><em>0xSI_f33d</em></strong></a>, as well as additional incidents and investigations that are being documented and published on&nbsp;<a href="https://seguranca-informatica.pt/"><strong><em>Segurança-Informatica</em></strong></a>.</p>
+
+
+
+<p>The infographic containing the report can be downloaded from here in printable format:&nbsp;<strong>PDF</strong>&nbsp;or&nbsp;<strong>PNG</strong>.</p>
+
+
+
+<figure class="wp-block-image"><a href="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/Threat-Report-Portugal-Q3Q4-2022.png?ssl=1"><img decoding="async" src="https://i0.wp.com/seguranca-informatica.pt/wp-content/uploads/2023/04/Threat-Report-Portugal-Q3Q4-2022.png?ssl=1" alt="" class="wp-image-10803" data-recalc-dims="1"/></a></figure>
+
+
+
+<p><strong>You can Download [PDF] or [PNG] report from the original post at <a href="https://seguranca-informatica.pt/threat-report-portugal-q3-2021/#.YZDV-WDMI2x">https://seguranca-informatica.pt/threat-report-portugal-q3-q4-2022/#.ZC6Y-XZBy5d</a></strong></p>
+
+
+
+<p><strong>About the author:&nbsp;<a href="https://twitter.com/sirpedrotavares">Pedro Tavarez</a></strong></p>
+
+
+
+<p>Pedro Tavares is a professional in the field of information security working as an Ethical Hacker, Malware Analyst and also a Security Evangelist. He is also a founding member and Pentester at CSIRT.UBI and founder of the security computer blog <a href="https://seguranca-informatica.pt/">seguranca–informatica.pt</a>.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, Threat Report Portugal)</strong><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144508/malware/threat-report-portugal-q3-q4-2022.html">Threat Report Portugal: Q3 &#038; Q4 2022</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144508</post-id>
+    </item>
+    <item>
+      <title>Analyzing attacks conducted by North Korea-linked ARCHIPELAGO APT group</title>
+      <link>https://securityaffairs.com/144499/apt/north-korea-archipelago-apt.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 09:47:52 +0000</pubDate>
+      <category><![CDATA[APT]]></category>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber warfare]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Intelligence]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[ARCHIPELAGO]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[North Korea]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144499</guid>
+      <description><![CDATA[<p>Google&#8217;s Threat Analysis Group (TAG) warns of a North Korea-linked cyberespionage group tracked as ARCHIPELAGO. Google&#8217;s Threat Analysis Group (TAG) is warning of the North Korea-linked ARCHIPELAGO group that is targeting government and military personnel, think tanks, policy makers, academics, and researchers in South Korea, the US and elsewhere. Google experts are tracking ARCHIPELAGO since [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144499/apt/north-korea-archipelago-apt.html">Analyzing attacks conducted by North Korea-linked ARCHIPELAGO APT group</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">Google&#8217;s Threat Analysis Group (TAG) warns of a North Korea-linked cyberespionage group tracked as ARCHIPELAGO.</h2>
+
+
+
+<p>Google&#8217;s Threat Analysis Group (TAG) is warning of the North Korea-linked ARCHIPELAGO group that is targeting government and military personnel, think tanks, policy makers, academics, and researchers in South Korea, the US and elsewhere.</p>
+
+
+
+<p>Google experts are tracking ARCHIPELAGO since 2012 and have observed the group targeting individuals with expertise in North Korea policy issues.</p>
+
+
+
+<p>TAG believes that the ARCHIPELAGO group is a subset of a threat actor tracked by Mandiant as <a href="https://www.mandiant.com/resources/blog/apt43-north-korea-cybercrime-espionage"><strong>APT43</strong></a>.</p>
+
+
+
+<p></p>
+
+
+
+<p>The attack chain associated with ARCHIPELAGO starts with phishing emails that embed malicious links. The messages pose as sent by a representative of a media outlet or think tank and ask North Korea experts to participate in a media interview or request for information (RFI).  Upon clicking the link, the recipient is redirected to a phishing page that masquerades as a login prompt.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The credentials provided by the recipient are sent to an attacker-controlled URL, however, after the recipient enters their password, the phishing page redirects to a benign document that contains the interview questions, or an RFI that includes information of interest for the victims.</p>
+
+
+
+<p>The experts pointed out that ARCHIPELAGO focuses on building a rapport with targets.</p>
+
+
+
+<p><em>&#8220;ARCHIPELAGO invests time and effort to build rapport with targets, often corresponding with them by email over several days or weeks before finally sending a malicious link or file. In one case, the group posed as a journalist for a South Korean news agency and sent benign emails with an interview request to North Korea experts.&#8221; reads the <a href="https://blog.google/threat-analysis-group/how-were-protecting-users-from-government-backed-attacks-from-north-korea/">analysis</a> published by Google TAG. &#8220;When recipients replied expressing interest in an interview, ARCHIPELAGO continued the correspondence over several emails before finally sending a OneDrive link to a password-protected file that contained malware.&#8221;</em></p>
+
+
+
+<p>The threat actor has also sent links that lead to “<a href="https://mrd0x.com/browser-in-the-browser-phishing-attack/">browser-in-the-browser</a>” phishing pages. The phishing pages display users with a fake browser window rendered inside the actual browser window. The fake browser window displays a URL and a login prompt designed to trick recipients into providing their password to a legitimate login page.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-7.png?ssl=1"><img decoding="async" loading="lazy" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-7.png?resize=556%2C313&#038;ssl=1" alt="ARCHIPELAGO “browser-in-the-browser” phishing page" class="wp-image-144501" width="556" height="313" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-7.png?w=1000&amp;ssl=1 1000w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-7.png?resize=300%2C169&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-7.png?resize=768%2C433&amp;ssl=1 768w" sizes="(max-width: 556px) 100vw, 556px" data-recalc-dims="1" /></a><figcaption class="wp-element-caption">ARCHIPELAGO “browser-in-the-browser” phishing page<gwmw style="display:none;"></gwmw></figcaption></figure></div>
+
+
+<p>The ARCHIPELAGO group has shifted its phishing tactics over time to avoid detection, the attackers use phishing messages posing as Google account security alerts. The threat actor employed malware like <a href="https://securityaffairs.com/133837/apt/sharptongue-spy-gmail-aol.html">BabyShark</a> that were hosted on Google Drive in the form of blank files or ISO image files.</p>
+
+
+
+<p></p>
+
+
+
+<p>ARCHIPELAGO also used malicious Google Chrome extensions to harvest sensitive data since at least 2018 as part of the <a href="https://securityaffairs.com/78774/apt/stolen-pencil-campaign.html">STOLEN PENCIL campaign</a>. At the time, the attackers sent phishing emails with a link that directed recipients to a lure document that prompted users to install the malicious Chrome extension.</p>
+
+
+
+<p><em>&#8220;More recently, ARCHIPELAGO has attempted work-arounds to install a new malicious Chrome extension known publicly as <a href="https://www.volexity.com/blog/2022/07/28/sharptongue-deploys-clever-mail-stealing-browser-extension-sharpext/" target="_blank" rel="noreferrer noopener">SHARPEXT</a>. If successfully installed on a user system, SHARPEXT can parse emails from active Gmail or AOL Mail tabs and exfiltrate them to an attacker-controlled system.&#8221; concludes the report. &#8220;As a result of improved security in the Chrome extension ecosystem, ARCHIPELAGO must now complete several additional steps to install the extension, including first successfully installing malware on the user system and then overwriting the Chrome Preferences and Secure Preferences files to allow the extension to run.&#8221;</em></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, North Korea)</strong><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144499/apt/north-korea-archipelago-apt.html">Analyzing attacks conducted by North Korea-linked ARCHIPELAGO APT group</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144499</post-id>
+    </item>
+    <item>
+      <title>Nexx bugs allow to open garage doors, and take control of alarms and plugs</title>
+      <link>https://securityaffairs.com/144488/iot/nexx-smart-devices-flaws.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Wed, 05 Apr 2023 20:57:44 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[Internet of Things]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IoT]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[Nexx]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144488</guid>
+      <description><![CDATA[<p>A series of vulnerabilities in multiple smart devices manufactured by Nexx can be exploited to remotely open garage doors, and take control of alarms and plugs. In late 2022, the researcher Sam Sabetan discovered a series of critical vulnerabilities in several smart devices manufactured by Nexx, including Smart Garage Door Openers, Alarms, and Plugs. A [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144488/iot/nexx-smart-devices-flaws.html">Nexx bugs allow to open garage doors, and take control of alarms and plugs</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">A series of vulnerabilities in multiple smart devices manufactured by Nexx can be exploited to remotely open garage doors, and take control of alarms and plugs.</h2>
+
+
+
+<p>In late 2022, the researcher Sam Sabetan discovered a series of critical vulnerabilities in several smart devices manufactured by Nexx, including Smart Garage Door Openers, Alarms, and Plugs. A remote attacker can exploit these vulnerabilities to open and close garage doors, take control of alarms, and switch smart plugs on and off for any customer.</p>
+
+
+
+<p>The expert attempted to report the flaws to Nexx, but the company has never replied to the reports. </p>
+
+
+
+<p><em>&#8220;Nexx has not replied to any correspondence from myself, DHS (CISA and US-CERT) or VICE Media Group.&#8221; reads a <a href="https://medium.com/@samsabetan/the-uninvited-guest-idors-garage-doors-and-stolen-secrets-e4b49e02dadc"><strong>post</strong></a> published by Sabetan. &#8220;I have independently verified Nexx has purposefully ignored all our attempts to assist with remediation and has let these critical flaws continue to affect their customers.&#8221; </em></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p id="eeb3">The researchers reported the issues to the United States Department of Homeland Security Cybersecurity and Infrastructure Security Agency (CISA), which <a href="https://www.cisa.gov/news-events/ics-advisories/icsa-23-094-01"><strong>assigned</strong></a> the following five CVEs:</p>
+
+
+
+<ol>
+<li>Use of Hard-coded Credentials CWE-798 (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1748" target="_blank" rel="noreferrer noopener">CVE-2023–1748</a>, CVSS3.0: 8.6)<gwmw style="display:none;"></gwmw></li>
+
+
+
+<li>Authorization Bypass Through User-Controlled Key CWE-639 (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1749" rel="noreferrer noopener" target="_blank">CVE-2023–1749</a>, CVSS3.0: 6.5)</li>
+
+
+
+<li>Authorization Bypass Through User-Controlled Key CWE-639 (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1750" rel="noreferrer noopener" target="_blank">CVE-2023–1750</a>, CVSS3.0: 7.1)</li>
+
+
+
+<li>Improper Input Validation CWE-20 (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1751" rel="noreferrer noopener" target="_blank">CVE-2023–1751</a>, CVSS3.0: 7.5)</li>
+
+
+
+<li>Improper Authentication Validation CWE-287 (<a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1752" target="_blank" rel="noreferrer noopener">CVE-2023–1752</a>, CVSS3.0: 8.1)</li>
+</ol>
+
+
+
+<p>The expert estimated that over 40,000 devices, located in both residential and commercial properties, are affected by the above issues. He also determined that more than 20,000 individuals have active Nexx accounts.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/nexx.png?ssl=1"><img decoding="async" loading="lazy" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/nexx.png?resize=396%2C333&#038;ssl=1" alt="nexx" class="wp-image-144494" width="396" height="333" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/nexx.png?w=1002&amp;ssl=1 1002w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/nexx.png?resize=300%2C253&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/nexx.png?resize=768%2C647&amp;ssl=1 768w" sizes="(max-width: 396px) 100vw, 396px" data-recalc-dims="1" /></a></figure></div>
+
+
+<p>To mitigate the risk of the exploitation of the above flaws, it is recommended to disable internet connectivity for vulnerable Nexx devices or protect them with a firewall.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>Below is a video demo published by the researcher that shows how to exploit the flaw <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1748" target="_blank" rel="noreferrer noopener">CVE-2023–1748</a> to obtain users&#8217; info.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="NexxHome Smart Garage Vulnerability - CVE-2023-1748" width="500" height="281" src="https://www.youtube.com/embed/kD1cBfv9To8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div><figcaption class="wp-element-caption"><gwmw style="display:none;"></gwmw></figcaption></figure>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, Nexx)</strong><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144488/iot/nexx-smart-devices-flaws.html">Nexx bugs allow to open garage doors, and take control of alarms and plugs</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144488</post-id>
+    </item>
+    <item>
+      <title>Tax preparation and e-file service eFile.com compromised to serve malware</title>
+      <link>https://securityaffairs.com/144477/malware/efile-com-compromised-serve-malware.html</link>
+      <dc:creator><![CDATA[Pierluigi Paganini]]></dc:creator>
+      <pubDate>Wed, 05 Apr 2023 18:56:33 +0000</pubDate>
+      <category><![CDATA[Breaking News]]></category>
+      <category><![CDATA[Cyber Crime]]></category>
+      <category><![CDATA[Malware]]></category>
+      <category><![CDATA[Cybercrime]]></category>
+      <category><![CDATA[eFile.com]]></category>
+      <category><![CDATA[Hacking]]></category>
+      <category><![CDATA[hacking news]]></category>
+      <category><![CDATA[information security news]]></category>
+      <category><![CDATA[IRS]]></category>
+      <category><![CDATA[IT Information Security]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[Pierluigi Paganini]]></category>
+      <category><![CDATA[Security Affairs]]></category>
+      <category><![CDATA[Security News]]></category>
+      <guid isPermaLink="false">https://securityaffairs.com/?p=144477</guid>
+      <description><![CDATA[<p>The eFile.com online service, which is authorized by the US Internal Revenue Service (IRS), was spotted serving malicious malware to visitors. eFile.com, the personal online tax preparation and e-file service authorized by the US Internal Revenue Service (IRS), was spotted serving malware to visitors. The service helps taxpayers to file tax returns, experts reported that [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144477/malware/efile-com-compromised-serve-malware.html">Tax preparation and e-file service eFile.com compromised to serve malware</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<h2 class="wp-block-heading">The eFile.com online service, which is authorized by the US Internal Revenue Service (IRS), was spotted serving malicious malware to visitors.</h2>
+
+
+
+<p><strong>eFile.com</strong>, the personal online tax preparation and e-file service authorized by the US Internal Revenue Service (IRS), was spotted serving malware to visitors.</p>
+
+
+
+<p>The service helps taxpayers to file tax returns, experts reported that eFile.com was first compromised in mid-March and was sanitized only this week.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>A user on Reddit noticed that taxpayers attempting to load the website were redirected to a fake ‘network error’ page that instructed them to download a fake browser update (called “installer.exe” or “update.exe”) to correctly access the service.<gwmw style="display:none;"></gwmw></p>
+
+
+
+<p><em>&#8220;Any attempt to load the website <a href="http://www.efile.com/" target="_blank" rel="noreferrer noopener">www.efile.com</a> appears to redirect to a fake “Network Error” page claiming that a “browser update” is required to access the site and providing a link to download an application called “installer.exe” or “update.exe,” depending on which browser is used.&#8221; <a href="https://www.reddit.com/r/Scams/comments/11tx8pj/possible_fake_website_network_error/"><strong>explained</strong></a> the user on Reddit.</em></p>
+
+
+
+<p><em>&#8220;I have attached screenshots of the error. Note that the lock icon in the address bar indicates the site is secure, contradicting the error message: “NET::ERR_SSL_VERSION_OR_CIPHER_MISMATCH” in the body of the page, and that clicking “Advanced” reveals further details that contain multiple misspellings, formatting, and grammatical errors. All of this suggests that the site is compromised and is being used to distribute malware.&#8221;</em></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-6.png?ssl=1"><img decoding="async" loading="lazy" width="1024" height="550" src="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-6.png?resize=1024%2C550&#038;ssl=1" alt="eFile.com malware" class="wp-image-144482" srcset="https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-6.png?resize=1024%2C550&amp;ssl=1 1024w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-6.png?resize=300%2C161&amp;ssl=1 300w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-6.png?resize=768%2C412&amp;ssl=1 768w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-6.png?resize=1536%2C825&amp;ssl=1 1536w, https://i0.wp.com/securityaffairs.com/wp-content/uploads/2023/04/image-6.png?resize=2048%2C1099&amp;ssl=1 2048w" sizes="(max-width: 1000px) 100vw, 1000px" data-recalc-dims="1" /></a></figure>
+
+
+
+<p>The expert Johannes Ullrich, from the SANS Internet Storm Center, <a href="https://isc.sans.edu/diary/29708"><strong>explained</strong></a> that the malware served by the service was only detected by Crowdstrike and Cynet anti-malware solutions.</p>
+
+
+
+<p>Ullrich noticed that eFile.com removed the malicious JavaScript code from the website on April 3, however, the attackers &#8220;reacted a bit faster and removed some of the additional malware&#8221; to cover their tracks. </p>
+
+
+
+<p><em>&#8220;Depending on the browser, you may have received one of two binaries. &#8220;update.exe&#8221; or &#8220;installer.exe.&#8221; These binaries are quite different. I will focus on &#8220;update.exe&#8221; for two reasons: It was used for Chrome users, which is the vast majority compared to the other option, Firefox. Secondly, &#8220;update.exe&#8221; is written in Python, making it much easier to analyze.&#8221; <a href="https://isc.sans.edu/diary/Analyzing+the+efile.com+Malware+%22efail%22/29712"><strong>wrote Ullrich</strong></a>.</em><gwmw style="display:none;"></gwmw><gwmw style="display:none;"></gwmw></p>
+
+
+
+<p>The expert discovered that the attack involves two main executables, the &#8220;update.exe&#8221; which acts as a downloader for a PHP script communicating with the C2 server. The PHP script downloads and executes additional code.</p>
+
+
+
+<p><em>&#8220;During the installation, basic system information is sent to the attacker, and the backdoor is made persistent via scheduled/on-boot registry entries.&#8221; added the expert.</em></p>
+
+
+
+<p>The  ‘update.exe’ is digitally signed with a valid certificate from Sichuan Niurui Science and Technology Co., Ltd.</p>
+
+
+
+<p>Who is behind the attack?</p>
+
+
+
+<p>There is no evidence that can allow identifying the attackers, but Ullrich noticed that part of the attack infrastructure is hosted with Alibaba. </p>
+
+
+
+<p><em>&#8220;Some of the attack infrastructure is hosted with Alibaba in China, and some Chinese comments are in the code. So probably someone Chinese. The code is very cobbled together, and the clumsy inclusion of PHP points to a not-so-advanced, but maybe still persistent, threat actor.&#8221; concludes the expert.</em></p>
+
+
+
+<p><strong>Please vote for Security Affairs (<a href="https://securityaffairs.com/">https://securityaffairs.com/</a>) as the best European Cybersecurity Blogger Awards 2022 – VOTE FOR YOUR WINNERS</strong><br><strong>Vote for me in the sections:</strong></p>
+
+
+
+<ul>
+<li>The Teacher – Most Educational Blog</li>
+
+
+
+<li>The Entertainer – Most Entertaining Blog</li>
+
+
+
+<li>The Tech Whizz – Best Technical Blog</li>
+
+
+
+<li>Best Social Media Account to Follow (@securityaffairs)</li>
+</ul>
+
+
+
+<p>Please nominate Security Affairs as your favorite blog.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<blockquote class="wp-block-quote">
+<p><strong>Nominate here:&nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform">https://docs.google.com/forms/d/e/1FAIpQLSfaFMkrMlrLhOBsRPKdv56Y4HgC88Bcji4V7OCxCm_OmyPoLw/viewform</a></strong></p>
+</blockquote>
+</blockquote>
+
+
+
+<p>Follow me on Twitter:&nbsp;<a href="https://twitter.com/securityaffairs"><strong>@securityaffairs</strong></a>&nbsp;and&nbsp;<a href="https://www.facebook.com/sec.affairs"><strong>Facebook</strong></a>&nbsp;and&nbsp;<a href="https://infosec.exchange/@securityaffairs"><strong>Mastodon</strong></a></p>
+
+
+
+<p><a href="http://www.linkedin.com/pub/pierluigi-paganini/b/742/559"><strong>Pierluigi&nbsp;Paganini</strong></a></p>
+
+
+
+<p><strong>(</strong><a href="http://securityaffairs.co/wordpress/"><strong>SecurityAffairs</strong></a><strong> –</strong> <strong>hacking, eFile.com)</strong></p>
+
+
+
+<p><gwmw style="display:none;"></gwmw></p>
+<p>The post <a rel="nofollow" href="https://securityaffairs.com/144477/malware/efile-com-compromised-serve-malware.html">Tax preparation and e-file service eFile.com compromised to serve malware</a> appeared first on <a rel="nofollow" href="https://securityaffairs.com">Security Affairs</a>.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">144477</post-id>
+    </item>
+  </channel>
+</rss>

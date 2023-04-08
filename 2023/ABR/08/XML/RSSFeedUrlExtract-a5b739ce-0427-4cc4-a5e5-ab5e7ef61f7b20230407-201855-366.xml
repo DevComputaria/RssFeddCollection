@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.drupal.org/security/core" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security advisories</title>
+    <link>https://www.drupal.org/security/core</link>
+    <description>
+    </description>
+    <language>en</language>
+    <atom:link href="https://www.drupal.org/security/rss.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drupal core - Moderately critical - Access bypass - SA-CORE-2023-004</title>
+      <link>https://www.drupal.org/sa-core-2023-004</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2023-March-15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Complex or highly specific (multi-step, unintuitive process with high number of dependencies)
+A - Authentication: Administrator (broad permissions required where “restrict access” is set to false)
+CI - Confidentiality impact: All non-public data is accessible
+II - Integrity impact: All data can be modified or deleted
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 14∕25 AC:Complex/A:Admin/CI:All/II:All/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Access bypass&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;lt;7.95 || &amp;gt;=8.0.0 &amp;lt;9.4.12 || &amp;gt;=9.5.0 &amp;lt;9.5.5 || &amp;gt;=10.0.0 &amp;lt;10.0.5&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Drupal core provides a page that outputs the markup from &lt;code class="language-php"&gt;phpinfo()&lt;/code&gt; to assist with diagnosing PHP configuration.&lt;/p&gt;
+&lt;p&gt;If an attacker was able to achieve an XSS exploit against a privileged user, they may be able to use the phpinfo page to access sensitive information that could be used to escalate the attack.&lt;/p&gt;
+&lt;p&gt;This vulnerability is mitigated by the fact that a successful XSS exploit is required in order to exploit it.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 10.0, update to &lt;a href="https://www.drupal.org/project/drupal/releases/10.0.5" rel="nofollow"&gt;Drupal 10.0.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.5, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.5.5" rel="nofollow"&gt;Drupal 9.5.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.12" rel="nofollow"&gt;Drupal 9.4.12&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 7, update to &lt;a href="https://www.drupal.org/project/drupal/releases/7.95" rel="nofollow"&gt;Drupal 7.95&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.4.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3583903" rel="nofollow"&gt;Elar Lang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/108450" rel="nofollow"&gt;Damien McKenna&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3583903" rel="nofollow"&gt;Elar Lang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1987218" rel="nofollow"&gt;Joseph Zhao&lt;/a&gt; Provisional Member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/255969" rel="nofollow"&gt;Drew Webber&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/85586" rel="nofollow"&gt;Jen Lampton&lt;/a&gt; Provisional Member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/35821" rel="nofollow"&gt;Nate Lampton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/36762" rel="nofollow"&gt;Greg Knaddison&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 15 Mar 2023 16:26:24 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3348206 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Information Disclosure - SA-CORE-2023-003</title>
+      <link>https://www.drupal.org/sa-core-2023-003</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2023-March-15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: None (user visits page)
+A - Authentication: None (all/anonymous users)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Data integrity remains intact
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 13∕25 AC:None/A:None/CI:Some/II:None/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Information Disclosure&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;=8.0.0 &amp;lt;9.4.12 || &amp;gt;=9.5.0 &amp;lt;9.5.5 || &amp;gt;=10.0.0 &amp;lt;10.0.5&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;The language module provides a Language switcher block which can be placed to provide links to quickly switch between different languages.&lt;/p&gt;
+&lt;p&gt;The URL of unpublished translations may be disclosed. When used in conjunction with a module like Pathauto, this may reveal the title of unpublished content.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 10.0, update to &lt;a href="https://www.drupal.org/project/drupal/releases/10.0.5" rel="nofollow"&gt;Drupal 10.0.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.5, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.5.5" rel="nofollow"&gt;Drupal 9.5.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.12" rel="nofollow"&gt;Drupal 9.4.12&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.4.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core does not include the Language module and therefore is not affected. The contributed modules for translation do not have the same code for language-switching links, so they are not affected, either.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/371731" rel="nofollow"&gt;Jan Kellermann&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/371731" rel="nofollow"&gt;Jan Kellermann&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/36762" rel="nofollow"&gt;Greg Knaddison&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/214652" rel="nofollow"&gt;Sascha Grossenbacher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3064" rel="nofollow"&gt;Neil Drumm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 15 Mar 2023 16:24:29 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3348203 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Information Disclosure - SA-CORE-2023-002</title>
+      <link>https://www.drupal.org/sa-core-2023-002</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2023-March-15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: None (user visits page)
+A - Authentication: None (all/anonymous users)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Data integrity remains intact
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 14∕25 AC:None/A:None/CI:Some/II:None/E:Theoretical/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Information Disclosure&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;=8.0.0 &amp;lt;9.4.12 || &amp;gt;=9.5.0 &amp;lt;9.5.5 || &amp;gt;=10.0.0 &amp;lt;10.0.5&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;The Media module does not properly check entity access in some circumstances. This may result in users seeing thumbnails of media items they do not have access to, including for private files.&lt;/p&gt;
+&lt;p&gt;This release was coordinated with &lt;a href="https://www.drupal.org/sa-contrib-2023-010" rel="nofollow"&gt;SA-CONTRIB-2023-010&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 10.0, update to &lt;a href="https://www.drupal.org/project/drupal/releases/10.0.5" rel="nofollow"&gt;Drupal 10.0.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.5, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.5.5" rel="nofollow"&gt;Drupal 9.5.5&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.12" rel="nofollow"&gt;Drupal 9.4.12&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.4.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core does not include the Media Library module and therefore is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/592268" rel="nofollow"&gt;James Williams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3615359" rel="nofollow"&gt;Dan Flanagan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/592268" rel="nofollow"&gt;James Williams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;Jess &lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3615359" rel="nofollow"&gt;Dan Flanagan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/85586" rel="nofollow"&gt;Jen Lampton&lt;/a&gt; Provisional Member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1987218" rel="nofollow"&gt;Joseph Zhao&lt;/a&gt; Provisional Member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 15 Mar 2023 16:21:27 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3348201 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Information Disclosure - SA-CORE-2023-001</title>
+      <link>https://www.drupal.org/sa-core-2023-001</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2023-January-18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: None (user visits page)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Data integrity remains intact
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 12∕25 AC:None/A:User/CI:Some/II:None/E:Theoretical/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Information Disclosure&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;=8.0.0 &amp;lt;9.4.10 || &amp;gt;=9.5.0 &amp;lt;9.5.2 || &amp;gt;=10.0.0 &amp;lt;10.0.2&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;The Media Library module does not properly check entity access in some circumstances. This may result in users with access to edit content seeing metadata about media items they are not authorized to access.&lt;/p&gt;
+&lt;p&gt;The vulnerability is mitigated by the fact that the inaccessible media will only be visible to users who can already edit content that includes a media reference field.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 10.0, update to &lt;a href="https://www.drupal.org/project/drupal/releases/10.0.2" rel="nofollow"&gt;Drupal 10.0.2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.5, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.5.2" rel="nofollow"&gt;Drupal 9.5.2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.10" rel="nofollow"&gt;Drupal 9.4.10&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.4.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core does not include the Media Library module and therefore is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3615359" rel="nofollow"&gt;Dan Flanagan&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3615359" rel="nofollow"&gt;Dan Flanagan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/545912" rel="nofollow"&gt;Sean Blommaert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/85586" rel="nofollow"&gt;Jen Lampton&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/214652" rel="nofollow"&gt;Sascha Grossenbacher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 18 Jan 2023 17:40:39 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3334612 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Critical - Multiple vulnerabilities - SA-CORE-2022-016</title>
+      <link>https://www.drupal.org/sa-core-2022-016</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-September-28&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: Administrator (broad permissions required where “restrict access” is set to false)
+CI - Confidentiality impact: All non-public data is accessible
+II - Integrity impact: All data can be modified or deleted
+E - Exploit (Zero-day impact): Proof of concept exists (documented methods for developing exploit exist in the wild)
+TD - Target distribution: All module configurations are exploitable"&gt;&lt;strong&gt;Critical&lt;/strong&gt; 18∕25 AC:Basic/A:Admin/CI:All/II:All/E:Proof/TD:All&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Multiple vulnerabilities&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;= 8.0.0 &amp;lt;9.3.22 || &amp;gt;= 9.4.0 &amp;lt;9.4.7&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-39261&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Drupal uses the &lt;a href="https://twig.symfony.com/" rel="nofollow"&gt;Twig&lt;/a&gt; third-party library for content templating and sanitization. &lt;a href="https://symfony.com/blog/twig-security-release-possibility-to-load-a-template-outside-a-configured-directory-when-using-the-filesystem-loader" rel="nofollow"&gt;Twig has released a security update&lt;/a&gt; that affects Drupal. Twig has rated the vulnerability as high severity. &lt;/p&gt;
+&lt;p&gt;Drupal core's code extending Twig has also been updated to mitigate a related vulnerability.&lt;/p&gt;
+&lt;p&gt;Multiple vulnerabilities are possible if an untrusted user has access to write Twig code, including potential unauthorized read access to private files, the contents of other files on the server, or database credentials.&lt;/p&gt;
+&lt;p&gt;The vulnerability is mitigated by the fact that an exploit is only possible in Drupal core with a restricted access administrative permission. Additional exploit paths for the same vulnerability may exist with contributed or custom code that allows users to write Twig templates.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+    If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.7" rel="nofollow"&gt;Drupal 9.4.7&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;
+    If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.22" rel="nofollow"&gt;Drupal 9.3.22&lt;/a&gt;.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.3.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core does not include Twig and therefore is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1467782" rel="nofollow"&gt;Fabien Potencier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3407972" rel="nofollow"&gt;Nicolas Grekas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/592268" rel="nofollow"&gt;James Williams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/2582268" rel="nofollow"&gt;Samuel Mortenson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/157725" rel="nofollow"&gt;Alex Pott&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/214652" rel="nofollow"&gt;Sascha Grossenbacher&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/35733" rel="nofollow"&gt;Nathaniel Catchpole&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1850070" rel="nofollow"&gt;cilefen &lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/592268" rel="nofollow"&gt;James Williams&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3509746" rel="nofollow"&gt;Luke Leber&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3709704" rel="nofollow"&gt;pooja saraah&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 28 Sep 2022 16:24:08 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3312374 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Multiple vulnerabilities - SA-CORE-2022-015</title>
+      <link>https://www.drupal.org/sa-core-2022-015</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-July-20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Complex or highly specific (multi-step, unintuitive process with high number of dependencies)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 11∕25 AC:Complex/A:User/CI:Some/II:Some/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Multiple vulnerabilities&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;= 8.0.0 &amp;lt;9.3.19 || &amp;gt;= 9.4.0 &amp;lt;9.4.3&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25276&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;The Media oEmbed iframe route does not properly validate the iframe domain setting, which allows embeds to be displayed in the context of the primary domain. Under certain circumstances, this could lead to cross-site scripting, leaked cookies, or other vulnerabilities.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.3" rel="nofollow"&gt;Drupal 9.4.3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.19" rel="nofollow"&gt;Drupal 9.3.19&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.3.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core does not include the Media module and therefore is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/17943" rel="nofollow"&gt;Heine&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/157725" rel="nofollow"&gt;Alex Pott&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/2582268" rel="nofollow"&gt;Samuel Mortenson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/17943" rel="nofollow"&gt;Heine&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1987218" rel="nofollow"&gt;Joseph Zhao&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/93488" rel="nofollow"&gt;Vijay Mani&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3064" rel="nofollow"&gt;Neil Drumm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/85586" rel="nofollow"&gt;Jen Lampton&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 20 Jul 2022 15:41:37 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3298647 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2022-014</title>
+      <link>https://www.drupal.org/sa-core-2022-014</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-July-20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: Administrator (broad permissions required where “restrict access” is set to false)
+CI - Confidentiality impact: All non-public data is accessible
+II - Integrity impact: All data can be modified or deleted
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Critical&lt;/strong&gt; 15∕25 AC:Basic/A:Admin/CI:All/II:All/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Arbitrary PHP code execution&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;= 8.0.0 &amp;lt;9.3.19 || &amp;gt;= 9.4.0 &amp;lt;9.4.3&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25277&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;&lt;em&gt;Updated 2022-07-20 19:45 UTC to indicate that this only affects Apache web servers.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Drupal core sanitizes filenames with dangerous extensions upon upload (reference: &lt;a href="https://www.drupal.org/sa-core-2020-012" rel="nofollow"&gt;SA-CORE-2020-012&lt;/a&gt;) and strips leading and trailing dots from filenames to prevent uploading server configuration files (reference: &lt;a href="https://www.drupal.org/sa-core-2019-010" rel="nofollow"&gt;SA-CORE-2019-010&lt;/a&gt;). &lt;/p&gt;
+&lt;p&gt;However, the protections for these two vulnerabilities previously did not work correctly together. As a result, if the site were configured to allow the upload of files with an &lt;code class="language-php"&gt;htaccess&lt;/code&gt; extension, these files' filenames would not be properly sanitized. This could allow bypassing the protections provided by Drupal core's default &lt;code class="language-php"&gt;.htaccess&lt;/code&gt; files and possible remote code execution on Apache web servers.&lt;/p&gt;
+&lt;p&gt;This issue is mitigated by the fact that it requires a field administrator to explicitly configure a file field to allow &lt;code class="language-php"&gt;htaccess&lt;/code&gt; as an extension (a restricted permission), or a contributed module or custom code that overrides allowed file uploads.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.3" rel="nofollow"&gt;Drupal 9.4.3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.19" rel="nofollow"&gt;Drupal 9.3.19&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.3.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core is not affected.&lt;/p&gt;
+&lt;h4&gt;Auditing your files directory's &lt;code class="language-php"&gt;.htaccess&lt;/code&gt; to ensure it has not been overwritten or overridden in a subdirectory&lt;/h4&gt;
+&lt;p&gt;If your web server uses Apache httpd with &lt;code class="language-php"&gt;AllowOverride&lt;/code&gt;, you should check within your files directories and subdirectories to ensure that any &lt;code class="language-php"&gt;.htaccess&lt;/code&gt; files present are intentional. You can search for files named &lt;code class="language-php"&gt;.htaccess&lt;/code&gt; by running the following command in the roots of both your public and private files directory:&lt;/p&gt;
+&lt;p&gt;&lt;code class="language-php"&gt;find ./ -name ".htaccess" -print&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Drupal automatically creates &lt;code class="language-php"&gt;.htaccess&lt;/code&gt; files like the following in the root of the public files directory:&lt;/p&gt;
+&lt;pre class="codeblock"&gt;&lt;code class="language-php"&gt;# Turn off all options we don't need.
+Options -Indexes -ExecCGI -Includes -MultiViews
+
+# Set the catch-all handler to prevent scripts from being executed.
+SetHandler Drupal_Security_Do_Not_Remove_See_SA_2006_006
+&amp;lt;Files *&amp;gt;
+  # Override the handler again if we're run later in the evaluation list.
+  SetHandler Drupal_Security_Do_Not_Remove_See_SA_2013_003
+&amp;lt;/Files&amp;gt;
+
+# If we know how to do it safely, disable the PHP engine entirely.
+&amp;lt;IfModule mod_php7.c&amp;gt;
+  php_flag engine off
+&amp;lt;/IfModule&amp;gt;
+&amp;lt;IfModule mod_php.c&amp;gt;
+  php_flag engine off
+&amp;lt;/IfModule&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;
+Check with your system administrator for the correct &lt;code class="language-php"&gt;.htaccess&lt;/code&gt; configuration for the given files directory.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3583903" rel="nofollow"&gt;Elar Lang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/49851" rel="nofollow"&gt;Peter Wolanin&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/255969" rel="nofollow"&gt;Drew Webber&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/36762" rel="nofollow"&gt;Greg Knaddison&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/85586" rel="nofollow"&gt;Jen Lampton&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 20 Jul 2022 15:40:05 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3298646 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Access Bypass - SA-CORE-2022-013</title>
+      <link>https://www.drupal.org/sa-core-2022-013</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-July-20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 12∕25 AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Access Bypass&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;= 8.0.0 &amp;lt;9.3.19 || &amp;gt;= 9.4.0 &amp;lt;9.4.3&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25278&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Under certain circumstances, the Drupal core form API evaluates form element access incorrectly. This may lead to a user being able to alter data they should not have access to. &lt;/p&gt;
+&lt;p&gt;No forms provided by Drupal core are known to be vulnerable. However, forms added through contributed or custom modules or themes may be affected.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.3" rel="nofollow"&gt;Drupal 9.4.3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.19" rel="nofollow"&gt;Drupal 9.3.19&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.3.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3611858" rel="nofollow"&gt;Pierre Rudloff&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3611858" rel="nofollow"&gt;Pierre Rudloff&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/241634" rel="nofollow"&gt;Tim Plunkett&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/17943" rel="nofollow"&gt;Heine&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 20 Jul 2022 15:35:43 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3298644 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Information Disclosure - SA-CORE-2022-012</title>
+      <link>https://www.drupal.org/sa-core-2022-012</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-July-20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: None (user visits page)
+A - Authentication: None (all/anonymous users)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Data integrity remains intact
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 13∕25 AC:None/A:None/CI:Some/II:None/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Information Disclosure&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;=7.0 &amp;lt;7.91 || &amp;gt;= 8.0.0 &amp;lt;9.3.19 || &amp;gt;= 9.4.0 &amp;lt;9.4.3&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25275&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;In some situations, the Image module does not correctly check access to image files not stored in the standard public files directory when generating derivative images using the image styles system.&lt;/p&gt;
+&lt;p&gt;Access to a non-public file is checked only if it is stored in the "private" file system. However, some contributed modules provide additional file systems, or schemes, which may lead to this vulnerability.&lt;/p&gt;
+&lt;p&gt;This vulnerability is mitigated by the fact that it only applies when the site sets (Drupal 9) &lt;code class="language-php"&gt;$config['image.settings']['allow_insecure_derivatives']&lt;/code&gt; or (Drupal 7) &lt;code class="language-php"&gt;$conf['image_allow_insecure_derivatives']&lt;/code&gt; to TRUE. The recommended and default setting is FALSE, and Drupal core does not provide a way to change that in the admin UI.&lt;/p&gt;
+&lt;p&gt;Some sites may require configuration changes following this security release. Review the release notes for your Drupal version if you have issues accessing files or image styles after updating.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+    If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.3" rel="nofollow"&gt;Drupal 9.4.3&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;
+    If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.19" rel="nofollow"&gt;Drupal 9.3.19&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;
+    If you are using Drupal 7, update to &lt;a href="https://www.drupal.org/project/drupal/releases/7.91" rel="nofollow"&gt;Drupal 7.91&lt;/a&gt;.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.3.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/156932" rel="nofollow"&gt;Guy Elsmore-Paddock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1790054" rel="nofollow"&gt;Conrad Lara&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1790054" rel="nofollow"&gt;Conrad Lara&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1307444" rel="nofollow"&gt;mondrake&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/53892" rel="nofollow"&gt;Dave Reid&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/156932" rel="nofollow"&gt;Guy Elsmore-Paddock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt; Provisional Member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt; Provisional Member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/93254" rel="nofollow"&gt;David Strauss&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt; Provisional Member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/157725" rel="nofollow"&gt;Alex Pott&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/255969" rel="nofollow"&gt;Drew Webber&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/693738" rel="nofollow"&gt;Fabian Franz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 20 Jul 2022 15:34:05 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3298643 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Third-party libraries - SA-CORE-2022-011</title>
+      <link>https://www.drupal.org/sa-core-2022-011</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-June-10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Complex or highly specific (multi-step, unintuitive process with high number of dependencies)
+A - Authentication: None (all/anonymous users)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 13∕25 AC:Complex/A:None/CI:Some/II:Some/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Third-party libraries&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;= 8.0.0 &amp;lt;9.2.21 || &amp;gt;= 9.3.0 &amp;lt;9.3.16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-31042&lt;/div&gt;&lt;div class="field-item odd"&gt;CVE-2022-31043&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;&lt;em&gt;Updated 22:00 UTC 2022-06-10: Added steps to update without &lt;code class="language-php"&gt;drupal/core-recommended&lt;/code&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Drupal uses the third-party Guzzle library for handling HTTP requests and responses to external services. Guzzle has released two security advisories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/guzzle/guzzle/security/advisories/GHSA-f2wf-25xc-69c9" rel="nofollow"&gt;Failure to strip the Cookie header on change in host or HTTP downgrade&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/guzzle/guzzle/security/advisories/GHSA-w248-ffj2-4v5q" rel="nofollow"&gt;Fix failure to strip Authorization header on HTTP downgrade&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These do not affect Drupal core, but may affect some contributed projects or custom code on Drupal sites.&lt;/p&gt;
+&lt;p&gt;We are issuing this security advisory outside our regular &lt;a href="https://www.drupal.org/node/1173280" rel="nofollow"&gt;Drupal security release window schedule&lt;/a&gt; since Guzzle has already published information about the vulnerabilities, and vulnerabilities might exist in contributed modules or custom modules that use Guzzle for outgoing requests. Guzzle has rated these vulnerabilities as high-risk.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by Drupal Steward.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.4, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.0-rc2" rel="nofollow"&gt;Drupal 9.4.0-rc2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.16" rel="nofollow"&gt;Drupal 9.3.16&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.21" rel="nofollow"&gt;Drupal 9.2.21&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 is not affected.&lt;/p&gt;
+&lt;p&gt;Advanced users may also work around this issue by &lt;a href="https://www.drupal.org/docs/develop/using-composer/manage-dependencies#s-moving-from-drupalcore-recommended-to-drupalcore" rel="nofollow"&gt;temporarily using &lt;code class="language-php"&gt;drupal/core&lt;/code&gt; instead of &lt;code class="language-php"&gt;drupal/core-recommended&lt;/code&gt;&lt;/a&gt; and then updating Guzzle to the desired version. &lt;a href="https://www.drupal.org/node/3268032" rel="nofollow"&gt;More information on managing Guzzle with Drupal 9.4&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1507580" rel="nofollow"&gt;GHaddon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/2228934" rel="nofollow"&gt;Jeroen Tubex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3513564" rel="nofollow"&gt;Yasen Ivanov&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/17943" rel="nofollow"&gt;Heine&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/108450" rel="nofollow"&gt;Damien McKenna&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/102818" rel="nofollow"&gt;Michael Hess&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1850070" rel="nofollow"&gt;cilefen &lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Fri, 10 Jun 2022 19:39:02 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3285170 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Third-party libraries - SA-CORE-2022-010</title>
+      <link>https://www.drupal.org/sa-core-2022-010</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-May-25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Complex or highly specific (multi-step, unintuitive process with high number of dependencies)
+A - Authentication: None (all/anonymous users)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 13∕25 AC:Complex/A:None/CI:Some/II:Some/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Third-party libraries&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt; &amp;gt;= 8.0.0 &amp;lt;9.2.20 || &amp;gt;= 9.3.0 &amp;lt;9.3.14&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-29248&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Drupal uses the third-party Guzzle library for handling HTTP requests and responses to external services. &lt;a href="https://github.com/guzzle/guzzle/security/advisories/GHSA-cwmx-hcrq-mhc3" rel="nofollow"&gt;Guzzle has released a security update&lt;/a&gt; which does not affect Drupal core, but may affect some contributed projects or custom code on Drupal sites.&lt;/p&gt;
+&lt;p&gt;We are issuing this security advisory outside our regular &lt;a href="https://www.drupal.org/node/1173280" rel="nofollow"&gt;Drupal security release window schedule&lt;/a&gt; since Guzzle has already published information about the vulnerability, and vulnerabilities might exist in contributed modules or custom modules that use Guzzle for outgoing requests. Guzzle has rated this vulnerability as high-risk.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by Drupal Steward.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.14" rel="nofollow"&gt;Drupal 9.3.14&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.20" rel="nofollow"&gt;Drupal 9.2.20&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/315522" rel="nofollow"&gt;Dezső BICZÓ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3351026" rel="nofollow"&gt;mayela&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1850070" rel="nofollow"&gt;cilefen &lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/315522" rel="nofollow"&gt;Dezső BICZÓ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/36762" rel="nofollow"&gt;Greg Knaddison&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/108450" rel="nofollow"&gt;Damien McKenna&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/157725" rel="nofollow"&gt;Alex Pott&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 25 May 2022 19:39:01 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3282334 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Access bypass - SA-CORE-2022-009</title>
+      <link>https://www.drupal.org/sa-core-2022-009</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-April-20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 13∕25 AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Access bypass&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;= 9.3.0 &amp;lt;9.3.12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25274&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Drupal 9.3 implemented a generic entity access API for entity revisions. However, this API was not completely integrated with existing permissions, resulting in some possible access bypass for users who have access to use revisions of content generally, but who do not have access to individual items of node and media content.&lt;/p&gt;
+&lt;p&gt;This vulnerability only affects sites using Drupal's revision system.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.12" rel="nofollow"&gt;Drupal 9.3.12&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All releases prior to Drupal 9.3 (including Drupal 7) are not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1345130" rel="nofollow"&gt;Kristiaan Van den Eynde&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1345130" rel="nofollow"&gt;Kristiaan Van den Eynde&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1036766" rel="nofollow"&gt;Adam Bramley&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/35733" rel="nofollow"&gt;Nathaniel Catchpole&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1198144" rel="nofollow"&gt;Jibran Ijaz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/683300" rel="nofollow"&gt;Benji Fisher&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 20 Apr 2022 15:07:29 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3276246 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Improper input validation - SA-CORE-2022-008</title>
+      <link>https://www.drupal.org/sa-core-2022-008</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-April-20&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 12∕25 AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Improper input validation&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt; &amp;gt;= 8.0.0 &amp;lt;9.2.18 || &amp;gt;= 9.3.0 &amp;lt;9.3.12&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25273&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Drupal core's form API has a vulnerability where certain contributed or custom modules' forms may be vulnerable to improper input validation. This could allow an attacker to inject disallowed values or overwrite data. Affected forms are uncommon, but in certain cases an attacker could alter critical or sensitive data.&lt;/p&gt;
+&lt;p&gt;We do not know of affected forms within core itself, but contributed and custom project forms could be affected. Installing this update will fix those forms.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.12" rel="nofollow"&gt;Drupal 9.3.12&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.18" rel="nofollow"&gt;Drupal 9.2.18&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/315522" rel="nofollow"&gt;Dezső BICZÓ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/315522" rel="nofollow"&gt;Dezső BICZÓ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 20 Apr 2022 15:04:23 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3276245 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Third-party libraries - SA-CORE-2022-006</title>
+      <link>https://www.drupal.org/sa-core-2022-006</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-March-21&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Complex or highly specific (multi-step, unintuitive process with high number of dependencies)
+A - Authentication: None (all/anonymous users)
+CI - Confidentiality impact: No confidentiality impact
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 11∕25 AC:Complex/A:None/CI:None/II:Some/E:Theoretical/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Third-party libraries&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt; &amp;gt;= 8.0.0 &amp;lt;9.2.16 || &amp;gt;= 9.3.0 &amp;lt;9.3.9&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-24775&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Drupal uses the third-party Guzzle library for handling HTTP requests and responses to external services. &lt;a href="https://github.com/guzzle/psr7/security/advisories/GHSA-q7rv-6hp3-vh96" rel="nofollow"&gt;Guzzle has released a security update &lt;/a&gt; which may affect some Drupal sites.&lt;/p&gt;
+&lt;p&gt;We are issuing this security advisory outside our regular &lt;a href="https://www.drupal.org/node/1173280" rel="nofollow"&gt;Drupal security release window schedule&lt;/a&gt; since Guzzle has already published information about the vulnerability, and vulnerabilities might exist with core, contributed modules, or custom modules that use Guzzle for outgoing requests. Guzzle has rated this vulnerability as low-risk.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by Drupal Steward.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.9" rel="nofollow"&gt;Drupal 9.3.9&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.16" rel="nofollow"&gt;Drupal 9.2.16&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/2228934" rel="nofollow"&gt;Jeroen Tubex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/108450" rel="nofollow"&gt;Damien McKenna&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/157725" rel="nofollow"&gt;Alex Pott&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/36762" rel="nofollow"&gt;Greg Knaddison&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/49851" rel="nofollow"&gt;Peter Wolanin&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Mon, 21 Mar 2022 21:39:35 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3270872 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Third-party libraries - SA-CORE-2022-005</title>
+      <link>https://www.drupal.org/sa-core-2022-005</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-March-16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 13∕25 AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Third-party libraries&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt; &amp;gt;= 8.0.0 &amp;lt;9.2.15 || &amp;gt;= 9.3.0 &amp;lt;9.3.8&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-24728&lt;/div&gt;&lt;div class="field-item odd"&gt;CVE-2022-24729&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;The Drupal project uses the &lt;a href="https://github.com/ckeditor/ckeditor4" rel="nofollow"&gt;CKEditor&lt;/a&gt; library for WYSIWYG editing. CKEditor has released &lt;a href="https://ckeditor.com/blog/ckeditor-4.18.0-browser-bugfix-and-security-patches/" rel="nofollow"&gt;a security update that impacts Drupal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Vulnerabilities are possible if Drupal is configured to allow use of the CKEditor library for WYSIWYG editing. An attacker that can create or edit content (even without access to CKEditor themselves) may be able to exploit one or more Cross-Site Scripting (XSS) vulnerabilities to target users with access to the WYSIWYG CKEditor, including site admins with privileged access.&lt;/p&gt;
+&lt;p&gt;For more information, see CKEditor's security advisories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ckeditor/ckeditor4/security/advisories/GHSA-4fc4-4p5g-6w89" rel="nofollow"&gt;CVE-2022-24728: HTML processing vulnerability allowing to execute JavaScript code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ckeditor/ckeditor4/security/advisories/GHSA-f6rf-9m92-x2hh" rel="nofollow"&gt;CVE-2022-24729: Regular expression Denial of Service in dialog plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.8" rel="nofollow"&gt;Drupal 9.3.8&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.15" rel="nofollow"&gt;Drupal 9.2.15&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Instructions for Drupal 7 and contributed modules&lt;/h3&gt;
+&lt;p&gt;Drupal 7 core is not affected, although Drupal 7, 8, and 9 site owners should review their site following the &lt;a href="https://www.drupal.org/psa-2011-002" rel="nofollow"&gt;protocol for managing external libraries and plugins&lt;/a&gt; previously suggested by the Drupal Security Team, as contributed projects may use additional CKEditor plugins not packaged in Drupal core.&lt;/p&gt;
+&lt;p&gt;Users of the Webform module should ensure Webform's version of CKEditor 4 is also up-to-date after updating Drupal core and libraries for any affected contributed modules. &lt;a href="https://www.drupal.org/docs/contributed-modules/webform/webform-libraries" rel="nofollow"&gt;Learn more about updating Webform libraries.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3683355" rel="nofollow"&gt;Jacek Bogdański&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;Jess &lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/99777" rel="nofollow"&gt;Wim Leers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 16 Mar 2022 16:10:34 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3269927 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Information disclosure - SA-CORE-2022-004</title>
+      <link>https://www.drupal.org/sa-core-2022-004</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-February-16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: None (user visits page)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Data integrity remains intact
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 12∕25 AC:None/A:User/CI:Some/II:None/E:Theoretical/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Information disclosure&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt; &amp;gt;= 8.0.0 &amp;lt;9.2.13 || &amp;gt;= 9.3.0 &amp;lt;9.3.6&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25270&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;The Quick Edit module does not properly check entity access in some circumstances. This could result in users with the "access in-place editing" permission viewing some content they are are not authorized to access.&lt;/p&gt;
+&lt;p&gt;Sites are only affected if the QuickEdit module (which comes with the Standard profile) is installed.&lt;/p&gt;
+&lt;p&gt;Also see &lt;a href="https://www.drupal.org/sa-contrib-2022-025" rel="nofollow"&gt;Quick Edit - Moderately critical - Information disclosure - SA-CONTRIB-2022-025&lt;/a&gt; which addresses the same vulnerability for the contributed module.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.6" rel="nofollow"&gt;Drupal 9.3.6&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.13" rel="nofollow"&gt;Drupal 9.2.13&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core does not include the QuickEdit module and therefore is not affected.&lt;/p&gt;
+&lt;p&gt;Uninstalling the QuickEdit module will also mitigate the vulnerability. Site owners may wish to consider this option as &lt;a href="https://www.drupal.org/node/3227039" rel="nofollow"&gt;the QuickEdit module will be removed from core in Drupal 10&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/2582268" rel="nofollow"&gt;Samuel Mortenson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/598310" rel="nofollow"&gt;Théodore Biadala&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/205645" rel="nofollow"&gt;Adam G-H&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/255969" rel="nofollow"&gt;Drew Webber&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/99777" rel="nofollow"&gt;Wim Leers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/240860" rel="nofollow"&gt;Ted Bowman&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/246492" rel="nofollow"&gt;Dave Long&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/46549" rel="nofollow"&gt;Derek Wright&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/2582268" rel="nofollow"&gt;Samuel Mortenson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1987218" rel="nofollow"&gt;Joseph Zhao&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 16 Feb 2022 16:46:24 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3264797 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Improper input validation - SA-CORE-2022-003</title>
+      <link>https://www.drupal.org/sa-core-2022-003</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-February-16&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: None (all/anonymous users)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Only uncommon module configurations are exploitable"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 14∕25 AC:Basic/A:None/CI:Some/II:Some/E:Theoretical/TD:Uncommon&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Improper input validation&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;=7.0 &amp;lt;7.88 || &amp;gt;= 8.0.0 &amp;lt;9.2.13 || &amp;gt;= 9.3.0 &amp;lt;9.3.6&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-cve field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;CVE IDs:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;CVE-2022-25271&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Drupal core's form API has a vulnerability where certain contributed or custom modules' forms may be vulnerable to improper input validation. This could allow an attacker to inject disallowed values or overwrite data. Affected forms are uncommon, but in certain cases an attacker could alter critical or sensitive data.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.6" rel="nofollow"&gt;Drupal 9.3.6&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.13" rel="nofollow"&gt;Drupal 9.2.13&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 7, update to &lt;a href="https://www.drupal.org/project/drupal/releases/7.88" rel="nofollow"&gt;Drupal 7.88&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1632364" rel="nofollow"&gt;Fabian Iwand&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/395439" rel="nofollow"&gt;Lee Rowlands&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1852732" rel="nofollow"&gt;Ben Dougherty&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/255969" rel="nofollow"&gt;Drew Webber&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/85586" rel="nofollow"&gt;Jen Lampton&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/35821" rel="nofollow"&gt;Nate Lampton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/693738" rel="nofollow"&gt;Fabian Franz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 16 Feb 2022 16:43:20 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3264796 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Cross site scripting - SA-CORE-2022-002</title>
+      <link>https://www.drupal.org/sa-core-2022-002</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-January-19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Proof of concept exists (documented methods for developing exploit exist in the wild)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 14∕25 AC:Basic/A:User/CI:Some/II:Some/E:Proof/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Cross site scripting&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;7.0 &amp;lt;=7.86&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;jQuery UI is a third-party library used by Drupal. This library was previously thought to be end-of-life.&lt;/p&gt;
+&lt;p&gt;Late in 2021, jQuery UI announced that they would be continuing development, and released a &lt;a href="https://blog.jqueryui.com/2021/10/jquery-ui-1-13-0-released/" rel="nofollow"&gt;jQuery UI 1.13.0&lt;/a&gt; version. In addition to the issue covered by &lt;a href="/sa-core-2022-001" rel="nofollow"&gt;SA-CORE-2022-001&lt;/a&gt;, further security vulnerabilities disclosed in jQuery UI 1.13.0 may affect Drupal 7 only:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2021-41182: &lt;a href="https://github.com/jquery/jquery-ui/security/advisories/GHSA-9gj3-hwp5-pmwc" rel="nofollow"&gt;XSS in the altField option of the Datepicker widget&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CVE-2021-41183: &lt;a href="https://github.com/jquery/jquery-ui/security/advisories/GHSA-j7qv-pgf6-hvh4" rel="nofollow"&gt;XSS in *Text options of the Datepicker widget&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Furthermore, other vulnerabilities listed below were previously unaddressed in the version of jQuery UI included in Drupal 7 or in the &lt;a href="/project/jquery_update" rel="nofollow"&gt;jQuery Update&lt;/a&gt; module:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2016-7103: &lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2016-7103" rel="nofollow"&gt;XSS in closeText option of Dialog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CVE-2010-5312: &lt;a href="https://nvd.nist.gov/vuln/detail/CVE-2010-5312" rel="nofollow"&gt;XSS in the title option of Dialog&lt;/a&gt; (applicable only to the jQuery UI version included in D7 core)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is possible that these vulnerabilities are exploitable via contributed Drupal modules or custom code. As a precaution, this Drupal security release applies the fix for the above cross-site scripting issues, without making other changes to the jQuery UI version that is included in Drupal.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Important note regarding the jQuery Update contrib module&lt;/h3&gt;
+&lt;p&gt;These backport fixes in D7 have also been tested with the version of jQuery UI provided by the most recent releases of the jQuery Update module (jQuery UI 1.10.2) and the fixes confirmed. Therefore, there is no accompanying security release for jQuery Update.&lt;/p&gt;
+&lt;p&gt;However, in early 2022 the currently supported release of jQuery Update (7.x-2.7 from 2015) will be deprecated and replaced by a new release from the 7.x-4.x branch. The stable release from that branch will then be the only release considered by Drupal Security Team when new jQuery security issues arise.&lt;/p&gt;
+&lt;p&gt;Please check the &lt;a href="/project/jquery_update" rel="nofollow"&gt;jQuery Update project page&lt;/a&gt; for more details, and for announcements when the changes are made to supported releases.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 7, update to &lt;a href="https://www.drupal.org/project/drupal/releases/7.86" rel="nofollow"&gt;Drupal 7.86&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/255969" rel="nofollow"&gt;Drew Webber&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 19 Jan 2022 17:27:57 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3259422 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Cross Site Scripting - SA-CORE-2022-001</title>
+      <link>https://www.drupal.org/sa-core-2022-001</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2022-January-19&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Proof of concept exists (documented methods for developing exploit exist in the wild)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 14∕25 AC:Basic/A:User/CI:Some/II:Some/E:Proof/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Cross Site Scripting&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;=7.0 &amp;lt;7.86 || &amp;gt;= 8.0.0 &amp;lt;9.2.11 || &amp;gt;= 9.3.0 &amp;lt;9.3.3&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;jQuery UI is a third-party library used by Drupal. This library was previously thought to be end-of-life. &lt;/p&gt;
+&lt;p&gt;Late in 2021, jQuery UI announced that they would be continuing development, and released a &lt;a href="https://blog.jqueryui.com/2021/10/jquery-ui-1-13-0-released/" rel="nofollow"&gt;jQuery UI 1.13.0&lt;/a&gt; version. As part of this 1.13.0 update, they disclosed the following security issue that may affect Drupal 9 and 7:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CVE-2021-41184: &lt;a href="https://github.com/jquery/jquery-ui/security/advisories/GHSA-gpqq-952q-5327" rel="nofollow"&gt;XSS in the `of` option of the `.position()` util&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It is possible that this vulnerability is exploitable with some Drupal modules. As a precaution, this Drupal security release applies the fix for the above cross-site description issue, without making any of the other changes to the jQuery version that is included in Drupal.&lt;/p&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.3, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.3.3" rel="nofollow"&gt;Drupal 9.3.3&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.11" rel="nofollow"&gt;Drupal 9.2.11&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 7, update to &lt;a href="https://www.drupal.org/project/drupal/releases/7.86" rel="nofollow"&gt;Drupal 7.86&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All versions of Drupal 8 and 9 prior to 9.2.x are end-of-life and do not receive security coverage. Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1850070" rel="nofollow"&gt;Chris &lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/255969" rel="nofollow"&gt;Drew Webber&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/78040" rel="nofollow"&gt;Alex Bronstein&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/2369194" rel="nofollow"&gt;Ben Mullins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/598310" rel="nofollow"&gt;Théodore Biadala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 19 Jan 2022 17:20:38 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3259420 at https://www.drupal.org</guid>
+    </item>
+    <item>
+      <title>Drupal core - Moderately critical - Cross Site Scripting - SA-CORE-2021-011</title>
+      <link>https://www.drupal.org/sa-core-2021-011</link>
+      <description>&lt;div class="field field-name-field-project field-type-entityreference field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Project:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/project/drupal"&gt;Drupal core&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-drupalorg-sa-date field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Date:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;2021-November-17&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-criticality field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Security risk:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;a href="/security-team/risk-levels" class="moderately-critical" title="AC - Access complexity: Basic or routine (user must follow specific path)
+A - Authentication: User-level access (basic/commonly assigned permissions)
+CI - Confidentiality impact: Certain non-public data is released
+II - Integrity impact: Some data can be modified
+E - Exploit (Zero-day impact): Theoretical or white-hat (no public exploit code or documentation on development exists)
+TD - Target distribution: Default or common module configurations are exploitable, but a config change can disable the exploit"&gt;&lt;strong&gt;Moderately critical&lt;/strong&gt; 13∕25 AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:Default&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-type field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Vulnerability:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;Cross Site Scripting&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-affected-versions field-type-text field-label-inline clearfix"&gt;&lt;div class="field-label"&gt;Affected versions:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&amp;gt;= 8.0.0 &amp;lt;8.9.20 || &amp;gt;= 9.1.0 &amp;lt;9.1.14 || &amp;gt;=9.2.0 &amp;lt;9.2.9&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-description field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Description:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;The Drupal project uses the &lt;a href="https://github.com/ckeditor/ckeditor4" rel="nofollow"&gt;CKEditor&lt;/a&gt; library for WYSIWYG editing. CKEditor has released &lt;a href="https://ckeditor.com/cke4/release/CKEditor-4.17.0" rel="nofollow"&gt;a security update that impacts Drupal&lt;/a&gt;, along with a &lt;a href="https://ckeditor.com/cke4/release/CKEditor-4.17.1" rel="nofollow"&gt;hotfix for that update&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Vulnerabilities are possible if Drupal is configured to allow use of the CKEditor library for WYSIWYG editing. An attacker that can create or edit content (even without access to CKEditor themselves) may be able to exploit one or more Cross-Site Scripting (XSS) vulnerabilities to target users with access to the WYSIWYG CKEditor, including site admins with privileged access.&lt;/p&gt;
+&lt;p&gt;For more information, see CKEditor's security advisories:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ckeditor/ckeditor4/security/advisories/GHSA-7h26-63m7-qhf2" rel="nofollow"&gt;CVE-2021-41165: HTML comments vulnerability allowing to execute JavaScript code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ckeditor/ckeditor4/security/advisories/GHSA-pvmx-g8h5-cprj" rel="nofollow"&gt;CVE-2021-41164: Advanced Content Filter (ACF) vulnerability allowing to execute JavaScript code using malformed HTML&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This advisory is not covered by &lt;a href="/steward" rel="nofollow"&gt;Drupal Steward&lt;/a&gt;.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-solution field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Solution:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;p&gt;Install the latest version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you are using Drupal 9.2, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.2.9" rel="nofollow"&gt;Drupal 9.2.9&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 9.1, update to &lt;a href="https://www.drupal.org/project/drupal/releases/9.1.14" rel="nofollow"&gt;Drupal 9.1.14&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;If you are using Drupal 8.9, update to &lt;a href="https://www.drupal.org/project/drupal/releases/8.9.20" rel="nofollow"&gt;Drupal 8.9.20&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Versions of Drupal prior to 9.1.x are end-of-life and do not receive security coverage.&lt;/p&gt;
+&lt;p&gt; Note that &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="nofollow"&gt;Drupal 8 has reached its end of life&lt;/a&gt; so this is the final security release provided for Drupal 8.&lt;/p&gt;
+&lt;p&gt;Drupal 7 core does not include the CKEditor module and therefore is not affected.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-reported-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Reported By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/3683355" rel="nofollow"&gt;Jacek Bogdański&lt;/a&gt; coordinated on the release with Drupal project.&lt;/li&gt;
+&lt;li&gt;See the CKEditor announcements above for the original reporters of the vulnerabilities.&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="field field-name-field-sa-fixed-by field-type-text-long field-label-above"&gt;&lt;div class="field-label"&gt;Fixed By:&amp;nbsp;&lt;/div&gt;&lt;div class="field-items"&gt;&lt;div class="field-item even"&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/65776" rel="nofollow"&gt;xjm&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/99777" rel="nofollow"&gt;Wim Leers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/36762" rel="nofollow"&gt;Greg Knaddison&lt;/a&gt; of the Drupal Security Team&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/1078742" rel="nofollow"&gt;Lauri Eskola&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.drupal.org/user/240860" rel="nofollow"&gt;Ted Bowman&lt;/a&gt;, provisional member of the Drupal Security Team&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+      <pubDate>Wed, 17 Nov 2021 21:28:49 +0000</pubDate>
+      <dc:creator>Drupal Security Team</dc:creator>
+      <guid isPermaLink="false">3250021 at https://www.drupal.org</guid>
+    </item>
+  </channel>
+</rss>

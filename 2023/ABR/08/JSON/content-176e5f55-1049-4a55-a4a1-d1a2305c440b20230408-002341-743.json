@@ -1,0 +1,1095 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "channel": {
+            "title": "WeLiveSecurity",
+            "atom:link": {
+                "@href": "https://www.welivesecurity.com/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://www.welivesecurity.com",
+            "description": "News, views, and insight from the ESET security community",
+            "lastBuildDate": "Thu, 06 Apr 2023 14:15:14 +0000",
+            "language": "en-US",
+            "sy:updatePeriod": "hourly",
+            "sy:updateFrequency": "1",
+            "item": [
+                {
+                    "title": "Steer clear of tax scams – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/steer-clear-tax-scams-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/steer-clear-tax-scams-week-security-tony-anscombe/#respond",
+                    "pubDate": "Thu, 06 Apr 2023 14:15:03 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=173058"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>In a rush to file your taxes? Watch out for cybercriminals preying on stressed taxpayers as Tax Day looms large on the horizon. </p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/steer-clear-tax-scams-week-security-tony-anscombe/\">Steer clear of tax scams – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/steer-clear-tax-scams-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/04/0-5.jpg"
+                },
+                {
+                    "title": "Cleaning up your social media and passwords: What to trash and what to treasure",
+                    "link": "https://www.welivesecurity.com/2023/04/06/social-media-password-cleanup-trash-treasure/",
+                    "comments": "https://www.welivesecurity.com/2023/04/06/social-media-password-cleanup-trash-treasure/#respond",
+                    "pubDate": "Thu, 06 Apr 2023 09:30:37 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Thomas Uhlemann"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170799"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Give your social media presence a good spring scrubbing, audit your passwords and other easy ways to bring order to your digital chaos</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/04/06/social-media-password-cleanup-trash-treasure/\">Cleaning up your social media and passwords: What to trash and what to treasure</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/04/06/social-media-password-cleanup-trash-treasure/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2019/03/social-media-tipps.jpg"
+                },
+                {
+                    "title": "Why you should spring clean your home network and audit your backups",
+                    "link": "https://www.welivesecurity.com/2023/04/05/spring-clean-network-backups/",
+                    "comments": "https://www.welivesecurity.com/2023/04/05/spring-clean-network-backups/#respond",
+                    "pubDate": "Wed, 05 Apr 2023 09:30:09 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Thomas Uhlemann"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170753"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Do you know how many devices are connected to your home network? You don’t? This is precisely why it’s time for a network audit.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/04/05/spring-clean-network-backups/\">Why you should spring clean your home network and audit your backups</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/04/05/spring-clean-network-backups/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2019/03/SmartHome.jpg"
+                },
+                {
+                    "title": "Spring into action and tidy up your digital life like a pro",
+                    "link": "https://www.welivesecurity.com/2023/04/04/spring-action-tidy-up-digital-life/",
+                    "comments": "https://www.welivesecurity.com/2023/04/04/spring-action-tidy-up-digital-life/#respond",
+                    "pubDate": "Tue, 04 Apr 2023 09:30:18 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Thomas Uhlemann"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170692"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Spring is in the air and as the leaves start growing again, why not breathe some new life into the devices you depend on so badly?</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/04/04/spring-action-tidy-up-digital-life/\">Spring into action and tidy up your digital life like a pro</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/04/04/spring-action-tidy-up-digital-life/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/04/digital-spring-cleaning-laptop-smartphone-tablet.jpg"
+                },
+                {
+                    "title": "Avoiding data backup failures – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/avoiding-data-backup-failures-week-in-security-with-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/avoiding-data-backup-failures-week-in-security-with-tony-anscombe/#respond",
+                    "pubDate": "Fri, 31 Mar 2023 13:00:42 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=172699"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Today is World Backup Day, but maybe we also need a \"did you test your backups\" day?</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/avoiding-data-backup-failures-week-in-security-with-tony-anscombe/\">Avoiding data backup failures – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/avoiding-data-backup-failures-week-in-security-with-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/0-30.jpg"
+                },
+                {
+                    "title": "World Backup Day: Avoiding a data disaster is a forever topic ",
+                    "link": "https://www.welivesecurity.com/2023/03/31/world-backup-day-avoiding-data-disaster-forever-topic/",
+                    "comments": "https://www.welivesecurity.com/2023/03/31/world-backup-day-avoiding-data-disaster-forever-topic/#respond",
+                    "pubDate": "Fri, 31 Mar 2023 09:30:34 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Márk Szabó"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=172137"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By failing to prepare you are preparing to fail. Make sure you're able to bounce back if, or when, a data disaster strikes.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/31/world-backup-day-avoiding-data-disaster-forever-topic/\">World Backup Day: Avoiding a data disaster is a forever topic </a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/31/world-backup-day-avoiding-data-disaster-forever-topic/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/data-world-backup-day-1.jpg"
+                },
+                {
+                    "title": "ESET Research Podcast: A year of fighting rockets, soldiers, and wipers in Ukraine",
+                    "link": "https://www.welivesecurity.com/2023/03/30/eset-research-podcast-year-fighting-rockets-soldiers-wipers-ukraine/",
+                    "comments": "https://www.welivesecurity.com/2023/03/30/eset-research-podcast-year-fighting-rockets-soldiers-wipers-ukraine/#respond",
+                    "pubDate": "Thu, 30 Mar 2023 09:30:41 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=172102"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>ESET experts share their insights on the cyber-elements of the first year of the war in Ukraine and how a growing number of destructive malware variants tried to rip through critical Ukrainian systems</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/30/eset-research-podcast-year-fighting-rockets-soldiers-wipers-ukraine/\">ESET Research Podcast: A&nbsp;year of fighting rockets, soldiers, and wipers in Ukraine</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/30/eset-research-podcast-year-fighting-rockets-soldiers-wipers-ukraine/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2022/07/eset-research-podcast-rsa.png"
+                },
+                {
+                    "title": "Pig butchering scams: The anatomy of a fast‑growing threat",
+                    "link": "https://www.welivesecurity.com/2023/03/29/pig-butchering-scams-anatomy-fast-growing-threat/",
+                    "comments": "https://www.welivesecurity.com/2023/03/29/pig-butchering-scams-anatomy-fast-growing-threat/#respond",
+                    "pubDate": "Wed, 29 Mar 2023 09:30:03 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Márk Szabó"
+                    },
+                    "category": {
+                        "#cdata-section": "Scams"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=172096"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>How fraudsters groom their marks and move in for the kill using tricks from the playbooks of romance and investment scammers </p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/29/pig-butchering-scams-anatomy-fast-growing-threat/\">Pig butchering scams: The anatomy of a fast&#8209;growing threat</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/29/pig-butchering-scams-anatomy-fast-growing-threat/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/pig-butchering-scam-investment-romance-fraud.png"
+                },
+                {
+                    "title": "Staying safe on OnlyFans: The naked truth",
+                    "link": "https://www.welivesecurity.com/2023/03/28/staying-safe-onlyfans-naked-truth/",
+                    "comments": "https://www.welivesecurity.com/2023/03/28/staying-safe-onlyfans-naked-truth/#respond",
+                    "pubDate": "Tue, 28 Mar 2023 09:30:14 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Jake Moore"
+                    },
+                    "category": {
+                        "#cdata-section": "Social Media"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=171770"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>How content creators and subscribers can embrace the social media platform without (overly) exposing themselves to the potentially toxic brew of NSFW content and privacy threats</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/28/staying-safe-onlyfans-naked-truth/\">Staying safe on OnlyFans: The naked truth</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/28/staying-safe-onlyfans-naked-truth/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/onlyfans-privacy-security.jpg"
+                },
+                {
+                    "title": "Highlights from TikTok CEO’s Congress grilling – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/highlights-tiktok-ceo-congress-testimony-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/highlights-tiktok-ceo-congress-testimony-week-security-tony-anscombe/#respond",
+                    "pubDate": "Fri, 24 Mar 2023 15:50:33 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=171772"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Here are some of the key moments from the five hours of Shou Zi Chew's testimony and other interesting news on the data privacy front</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/highlights-tiktok-ceo-congress-testimony-week-security-tony-anscombe/\">Highlights from TikTok CEO&#8217;s Congress grilling – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/highlights-tiktok-ceo-congress-testimony-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/0-27.jpg"
+                },
+                {
+                    "title": "What TikTok knows about you – and what you should know about TikTok",
+                    "link": "https://www.welivesecurity.com/2023/03/24/what-tiktok-knows-you-should-know-tiktok/",
+                    "comments": "https://www.welivesecurity.com/2023/03/24/what-tiktok-knows-you-should-know-tiktok/#respond",
+                    "pubDate": "Fri, 24 Mar 2023 10:30:53 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Roman Cuprik"
+                    },
+                    "category": {
+                        "#cdata-section": "Social Media"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=171394"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>As TikTok CEO attempts to placate U.S. lawmakers, it’s time for us all to think about the wealth of personal information that TikTok and other social media giants collect about us</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/24/what-tiktok-knows-you-should-know-tiktok/\">What TikTok knows about you – and what you should know about TikTok</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/24/what-tiktok-knows-you-should-know-tiktok/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/tiktok-personal-data-congress-ceo-testimony.png"
+                },
+                {
+                    "title": "Understanding Managed Detection and Response – and what to look for in an MDR solution",
+                    "link": "https://www.welivesecurity.com/2023/03/23/understanding-managed-detection-response-what-look-mdr-solution/",
+                    "comments": "https://www.welivesecurity.com/2023/03/23/understanding-managed-detection-response-what-look-mdr-solution/#respond",
+                    "pubDate": "Thu, 23 Mar 2023 10:30:58 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Phil Muncaster"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=171153"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Why your organization should consider an MDR solution and five key things to look for in a service offering</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/23/understanding-managed-detection-response-what-look-mdr-solution/\">Understanding Managed Detection and Response – and what to look for in an MDR solution</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/23/understanding-managed-detection-response-what-look-mdr-solution/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/managed-detection-response-mdr-solution-1.png"
+                },
+                {
+                    "title": "Twitter ends free SMS 2FA: Here’s how you can protect your account now",
+                    "link": "https://www.welivesecurity.com/2023/03/20/twitter-free-sms-2fa-secure-account/",
+                    "comments": "https://www.welivesecurity.com/2023/03/20/twitter-free-sms-2fa-secure-account/#respond",
+                    "pubDate": "Mon, 20 Mar 2023 16:30:33 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Roman Cuprik"
+                    },
+                    "category": {
+                        "#cdata-section": "Social Media"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=171127"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Twitter’s ditching of free text-message authentication doesn’t mean that you should forgo using 2FA. Instead, switch to another – and, indeed, better – 2FA option.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/20/twitter-free-sms-2fa-secure-account/\">Twitter ends free SMS 2FA: Here’s how you can protect your account now</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/20/twitter-free-sms-2fa-secure-account/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/twitter-2fa-sms-account-security.jpg"
+                },
+                {
+                    "title": "Banking turmoil opens opportunities for fraud – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/banking-turmoil-opportunities-cybercriminals-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/banking-turmoil-opportunities-cybercriminals-week-security-tony-anscombe/#respond",
+                    "pubDate": "Fri, 17 Mar 2023 15:30:05 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=171085"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Scammers are looking to cash in on the chaos that has set in following the startling meltdowns of Silicon Valley Bank and Signature Bank and the crisis at Credit Suisse</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/banking-turmoil-opportunities-cybercriminals-week-security-tony-anscombe/\">Banking turmoil opens opportunities for fraud – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/banking-turmoil-opportunities-cybercriminals-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/0-22.jpg"
+                },
+                {
+                    "title": "SVB’s collapse is a scammer’s dream: Don’t get caught out",
+                    "link": "https://www.welivesecurity.com/2023/03/17/svb-collapse-scammers-dream-dont-get-caught-out/",
+                    "comments": "https://www.welivesecurity.com/2023/03/17/svb-collapse-scammers-dream-dont-get-caught-out/#respond",
+                    "pubDate": "Fri, 17 Mar 2023 11:12:34 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Phil Muncaster"
+                    },
+                    "category": {
+                        "#cdata-section": "Scams"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=171067"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>How cybercriminals can exploit Silicon Valley Bank's downfall for their own ends – and at your expense</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/17/svb-collapse-scammers-dream-dont-get-caught-out/\">SVB&#8217;s collapse is a scammer’s dream: Don’t get caught out</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/17/svb-collapse-scammers-dream-dont-get-caught-out/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/svb-silicon-valley-bank-scams-fraud.jpg"
+                },
+                {
+                    "title": "Not‑so‑private messaging: Trojanized WhatsApp and Telegram apps go after cryptocurrency wallets",
+                    "link": "https://www.welivesecurity.com/2023/03/16/not-so-private-messaging-trojanized-whatsapp-telegram-cryptocurrency-wallets/",
+                    "comments": "https://www.welivesecurity.com/2023/03/16/not-so-private-messaging-trojanized-whatsapp-telegram-cryptocurrency-wallets/#respond",
+                    "pubDate": "Thu, 16 Mar 2023 10:30:41 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Lukas Stefanko"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170919"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>ESET researchers analyzed Android and Windows clippers that can tamper with instant messages and use OCR to steal cryptocurrency funds</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/16/not-so-private-messaging-trojanized-whatsapp-telegram-cryptocurrency-wallets/\">Not&#8209;so&#8209;private messaging: Trojanized WhatsApp and Telegram apps go after cryptocurrency wallets</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/16/not-so-private-messaging-trojanized-whatsapp-telegram-cryptocurrency-wallets/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/whatsapp-telegram-crypto-wallets-clippers.jpg"
+                },
+                {
+                    "title": "The slow Tick‑ing time bomb: Tick APT group compromise of a DLP software developer in East Asia",
+                    "link": "https://www.welivesecurity.com/2023/03/14/slow-ticking-time-bomb-tick-apt-group-dlp-software-developer-east-asia/",
+                    "comments": "https://www.welivesecurity.com/2023/03/14/slow-ticking-time-bomb-tick-apt-group-dlp-software-developer-east-asia/#respond",
+                    "pubDate": "Tue, 14 Mar 2023 10:30:49 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Facundo Muñoz"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170445"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>ESET Research uncovered a campaign by APT group Tick against a data-loss prevention company in East Asia and found a previously unreported tool used by the group</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/14/slow-ticking-time-bomb-tick-apt-group-dlp-software-developer-east-asia/\">The slow Tick&#8209;ing time bomb: Tick APT group compromise of a DLP software developer in East Asia</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/14/slow-ticking-time-bomb-tick-apt-group-dlp-software-developer-east-asia/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/tick-apt-group-data-loss-protection-software-developer-asia.jpg"
+                },
+                {
+                    "title": "5 signs you’ve fallen for a scam – and what to do next",
+                    "link": "https://www.welivesecurity.com/2023/03/13/signs-scam-how-tell-what-do-next/",
+                    "comments": "https://www.welivesecurity.com/2023/03/13/signs-scam-how-tell-what-do-next/#respond",
+                    "pubDate": "Mon, 13 Mar 2023 10:30:30 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Phil Muncaster"
+                    },
+                    "category": {
+                        "#cdata-section": "Scams"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170821"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Here’s how to know you have fallen victim to a scam – and what to do in order to undo or mitigate the damage.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/13/signs-scam-how-tell-what-do-next/\">5 signs you’ve fallen for a scam – and what to do next</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/13/signs-scam-how-tell-what-do-next/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/signs-scams-victim.jpg"
+                },
+                {
+                    "title": "APT hackers set a honeytrap to ensnare victims – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/apt-hackers-honeytrap-ensnare-targets-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/apt-hackers-honeytrap-ensnare-targets-week-security-tony-anscombe/#respond",
+                    "pubDate": "Fri, 10 Mar 2023 14:00:00 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=170828"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>A request to move an online conversation to a supposedly more secure platform may not be as well-meaning as it sounds</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/apt-hackers-honeytrap-ensnare-targets-week-security-tony-anscombe/\">APT hackers set a honeytrap to ensnare victims – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/apt-hackers-honeytrap-ensnare-targets-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/0-14.jpg"
+                },
+                {
+                    "title": "Common WhatsApp scams and how to avoid them",
+                    "link": "https://www.welivesecurity.com/2023/03/10/common-whatsapp-scams-how-avoid/",
+                    "comments": "https://www.welivesecurity.com/2023/03/10/common-whatsapp-scams-how-avoid/#respond",
+                    "pubDate": "Fri, 10 Mar 2023 10:30:42 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "André Lameiras"
+                    },
+                    "category": {
+                        "#cdata-section": "Scams"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170430"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Here's a roundup of some of the most common tricks that fraudsters use to dupe their victims on WhatsApp – and what you can do to protect yourself against them.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/10/common-whatsapp-scams-how-avoid/\">Common WhatsApp scams and how to avoid them</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/10/common-whatsapp-scams-how-avoid/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/whatsapp-scams-avoiding.jpg"
+                },
+                {
+                    "title": "‘A woman from Mars’: Life in the pursuit of space exploration",
+                    "link": "https://www.welivesecurity.com/2023/03/08/woman-mars-pursuit-of-space-exploration/",
+                    "comments": "https://www.welivesecurity.com/2023/03/08/woman-mars-pursuit-of-space-exploration/#respond",
+                    "pubDate": "Wed, 08 Mar 2023 10:30:28 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Alžbeta Kovaľová"
+                    },
+                    "category": {
+                        "#cdata-section": "We Live Progress"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170418"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>An astrobiologist, analog astronaut, author and speaker, Dr. Michaela Musilova shares her experience as a woman at the forefront of space exploration and from her quest for scientific and personal excellence</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/08/woman-mars-pursuit-of-space-exploration/\">&#8216;A woman from Mars&#8217;: Life in the pursuit of space exploration</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/08/woman-mars-pursuit-of-space-exploration/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/michaela-musilova-astrobiologist.jpg"
+                },
+                {
+                    "title": "Love scam or espionage? Transparent Tribe lures Indian and Pakistani officials",
+                    "link": "https://www.welivesecurity.com/2023/03/07/love-scam-espionage-transparent-tribe-lures-indian-pakistani-officials/",
+                    "comments": "https://www.welivesecurity.com/2023/03/07/love-scam-espionage-transparent-tribe-lures-indian-pakistani-officials/#respond",
+                    "pubDate": "Tue, 07 Mar 2023 10:30:37 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Lukas Stefanko"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170326"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>ESET researchers analyze a cyberespionage campaign that distributes CapraRAT backdoors through trojanized and supposedly secure Android messaging apps – but also exfiltrates sensitive information</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/07/love-scam-espionage-transparent-tribe-lures-indian-pakistani-officials/\">Love scam or espionage? Transparent Tribe lures Indian and Pakistani officials</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/07/love-scam-espionage-transparent-tribe-lures-indian-pakistani-officials/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/transparent-tribe-apt-espionage-india-pakistan.jpg"
+                },
+                {
+                    "title": "What does $5,000 buy you on a hacking forum? – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/what-does-5000-buy-you-on-a-hacking-forum-week-in-security-with-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/what-does-5000-buy-you-on-a-hacking-forum-week-in-security-with-tony-anscombe/#respond",
+                    "pubDate": "Fri, 03 Mar 2023 13:00:29 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=170338"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>A bootkit that ESET researchers have discovered in the wild is the BlackLotus UEFI bootkit that is being peddled on hacking forums</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/what-does-5000-buy-you-on-a-hacking-forum-week-in-security-with-tony-anscombe/\">What does $5,000 buy you on a hacking forum? – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/what-does-5000-buy-you-on-a-hacking-forum-week-in-security-with-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/0-6.jpg"
+                },
+                {
+                    "title": "MQsTTang: Mustang Panda’s latest backdoor treads new ground with Qt and MQTT",
+                    "link": "https://www.welivesecurity.com/2023/03/02/mqsttang-mustang-panda-latest-backdoor-treads-new-ground-qt-mqtt/",
+                    "comments": "https://www.welivesecurity.com/2023/03/02/mqsttang-mustang-panda-latest-backdoor-treads-new-ground-qt-mqtt/#respond",
+                    "pubDate": "Thu, 02 Mar 2023 10:30:48 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Alexandre Côté Cyr"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=170254"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>ESET researchers tease apart MQsTTang, a new backdoor used by Mustang Panda, which communicates via the MQTT protocol</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/02/mqsttang-mustang-panda-latest-backdoor-treads-new-ground-qt-mqtt/\">MQsTTang: Mustang Panda’s latest backdoor treads new ground with Qt and MQTT</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/02/mqsttang-mustang-panda-latest-backdoor-treads-new-ground-qt-mqtt/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/MQsTTang-apt-mustang-panda-backdoor.jpg"
+                },
+                {
+                    "title": "BlackLotus UEFI bootkit: Myth confirmed",
+                    "link": "https://www.welivesecurity.com/2023/03/01/blacklotus-uefi-bootkit-myth-confirmed/",
+                    "comments": "https://www.welivesecurity.com/2023/03/01/blacklotus-uefi-bootkit-myth-confirmed/#respond",
+                    "pubDate": "Wed, 01 Mar 2023 10:30:38 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Martin Smolár"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169896"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>The first in-the-wild UEFI bootkit bypassing UEFI Secure Boot on fully updated UEFI systems is now a reality</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/03/01/blacklotus-uefi-bootkit-myth-confirmed/\">BlackLotus UEFI bootkit: Myth confirmed</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/03/01/blacklotus-uefi-bootkit-myth-confirmed/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/03/blacklotus-uefi-bootkit-secure-boot.jpg"
+                },
+                {
+                    "title": "ESET Research Podcast: Ransomware trashed data, Android threats soared in T3 2022",
+                    "link": "https://www.welivesecurity.com/2023/02/28/eset-research-podcast-ransomware-trashed-data-android-threats/",
+                    "comments": "https://www.welivesecurity.com/2023/02/28/eset-research-podcast-ransomware-trashed-data-android-threats/#respond",
+                    "pubDate": "Tue, 28 Feb 2023 10:30:04 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169885"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>And that’s just the tip of the iceberg when it comes to the trends that defined the cyberthreat landscape in the final four months of 2022.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/28/eset-research-podcast-ransomware-trashed-data-android-threats/\">ESET Research Podcast: Ransomware trashed data, Android threats soared in T3 2022</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/28/eset-research-podcast-ransomware-trashed-data-android-threats/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2022/07/eset-research-podcast-rsa.png"
+                },
+                {
+                    "title": "One year on, how is the war playing out in cyberspace? – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/twelve-months-war-ukraine-cyberspace-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/twelve-months-war-ukraine-cyberspace-week-security-tony-anscombe/#respond",
+                    "pubDate": "Fri, 24 Feb 2023 13:00:09 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=169866"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>With the conflict in Ukraine passing the one-year mark, have its cyber-war elements turned out as expected?</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/twelve-months-war-ukraine-cyberspace-week-security-tony-anscombe/\">One year on, how is the war playing out in cyberspace? – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/twelve-months-war-ukraine-cyberspace-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/0-29.jpg"
+                },
+                {
+                    "title": "A year of wiper attacks in Ukraine",
+                    "link": "https://www.welivesecurity.com/2023/02/24/year-wiper-attacks-ukraine/",
+                    "comments": "https://www.welivesecurity.com/2023/02/24/year-wiper-attacks-ukraine/#respond",
+                    "pubDate": "Fri, 24 Feb 2023 10:30:09 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "category": {
+                        "#cdata-section": "Ukraine Crisis – Digital Security Resource Center"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169817"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>ESET Research has compiled a timeline of cyberattacks that used wiper malware and have occurred since Russia’s invasion of Ukraine in 2022</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/24/year-wiper-attacks-ukraine/\">A year of wiper attacks in Ukraine</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/24/year-wiper-attacks-ukraine/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/ukraine-wipers-malware-russia.jpg"
+                },
+                {
+                    "title": "WinorDLL64: A backdoor from the vast Lazarus arsenal?",
+                    "link": "https://www.welivesecurity.com/2023/02/23/winordll64-backdoor-vast-lazarus-arsenal/",
+                    "comments": "https://www.welivesecurity.com/2023/02/23/winordll64-backdoor-vast-lazarus-arsenal/#respond",
+                    "pubDate": "Thu, 23 Feb 2023 10:30:19 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Vladislav Hrčka"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169677"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>The targeted region, and overlap in behavior and code, suggest the tool is used by the infamous North Korea-aligned APT group</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/23/winordll64-backdoor-vast-lazarus-arsenal/\">WinorDLL64: A backdoor from the vast Lazarus arsenal?</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/23/winordll64-backdoor-vast-lazarus-arsenal/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/lazarus-malware-north-korea-winordll64-backdoor.jpg"
+                },
+                {
+                    "title": "Writing like a boss with ChatGPT and how to get better at spotting phishing scams",
+                    "link": "https://www.welivesecurity.com/2023/02/22/chatgpt-level-up-phishing-defenses/",
+                    "comments": "https://www.welivesecurity.com/2023/02/22/chatgpt-level-up-phishing-defenses/#respond",
+                    "pubDate": "Wed, 22 Feb 2023 10:30:16 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Phil Muncaster"
+                    },
+                    "category": {
+                        "#cdata-section": "How To"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169649"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>It’s never been easier to write a convincing message that can trick you into handing over your money or personal data</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/22/chatgpt-level-up-phishing-defenses/\">Writing like a boss with ChatGPT and how to get better at spotting phishing scams</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/22/chatgpt-level-up-phishing-defenses/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/chatgpt-cyberattacks-scams-phishing.jpg"
+                },
+                {
+                    "title": "ESET SMB Digital Security Sentiment Report: The damaging effects of a breach",
+                    "link": "https://www.welivesecurity.com/2023/02/21/eset-smb-digital-security-sentiment-report-damaging-effects-breach/",
+                    "comments": "https://www.welivesecurity.com/2023/02/21/eset-smb-digital-security-sentiment-report-damaging-effects-breach/#respond",
+                    "pubDate": "Tue, 21 Feb 2023 10:30:13 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169625"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>SMBs need to not only reduce their odds of being hit by an attack, but also implement processes that they can follow if their defenses are breached</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/21/eset-smb-digital-security-sentiment-report-damaging-effects-breach/\">ESET SMB Digital Security Sentiment Report: The damaging effects of a breach</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/21/eset-smb-digital-security-sentiment-report-damaging-effects-breach/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2022/11/eset-smb-sentiment-report-2022.jpg"
+                },
+                {
+                    "title": "Will ChatGPT start writing killer malware?",
+                    "link": "https://www.welivesecurity.com/2023/02/20/will-chatgpt-start-writing-killer-malware/",
+                    "comments": "https://www.welivesecurity.com/2023/02/20/will-chatgpt-start-writing-killer-malware/#respond",
+                    "pubDate": "Mon, 20 Feb 2023 10:30:58 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Cameron Camp"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169571"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>AI-pocalypse soon? As stunning as ChatGPT’s output can be, should we also expect the chatbot to spit out sophisticated malware?</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/20/will-chatgpt-start-writing-killer-malware/\">Will ChatGPT start writing killer malware?</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/20/will-chatgpt-start-writing-killer-malware/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/chatgpt-malware-machine-learning-abilities.jpg"
+                },
+                {
+                    "title": "Search ads abused to spread malware – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/search-ads-abused-spread-malware-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/search-ads-abused-spread-malware-week-security-tony-anscombe/#respond",
+                    "pubDate": "Fri, 17 Feb 2023 13:00:54 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=169621"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Threat actors used search engine ads to impersonate makers of popular software and direct internet users to malicious websites</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/search-ads-abused-spread-malware-week-security-tony-anscombe/\">Search ads abused to spread malware – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/search-ads-abused-spread-malware-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/0-18.jpg"
+                },
+                {
+                    "title": "Security amidst a global frost",
+                    "link": "https://www.welivesecurity.com/2023/02/16/security-amidst-global-frost/",
+                    "comments": "https://www.welivesecurity.com/2023/02/16/security-amidst-global-frost/#respond",
+                    "pubDate": "Thu, 16 Feb 2023 16:15:08 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Cameron Camp"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169598"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>No longer relegated to a side-show, tech is embedded into virtually every new piece of gear entering the battlefield</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/16/security-amidst-global-frost/\">Security amidst a global frost</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/16/security-amidst-global-frost/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/security-defense-technology-war-cyber-kinetic.jpg"
+                },
+                {
+                    "title": "These aren’t the apps you’re looking for: fake installers targeting Southeast and East Asia",
+                    "link": "https://www.welivesecurity.com/2023/02/16/these-arent-apps-youre-looking-for-fake-installers/",
+                    "comments": "https://www.welivesecurity.com/2023/02/16/these-arent-apps-youre-looking-for-fake-installers/#respond",
+                    "pubDate": "Thu, 16 Feb 2023 10:30:22 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Matías Porolli"
+                    },
+                    "category": {
+                        "#cdata-section": "ESET Research"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169430"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>ESET researchers have identified a campaign using trojanized installers to deliver the FatalRAT malware, distributed via malicious websites linked in ads that appear in Google search results</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/16/these-arent-apps-youre-looking-for-fake-installers/\">These aren’t the apps you’re looking for: fake installers targeting Southeast and East Asia</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/16/these-arent-apps-youre-looking-for-fake-installers/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/malware-apps-installers-google-search-ads.jpg"
+                },
+                {
+                    "title": "10 signs that scammers have you in their sights",
+                    "link": "https://www.welivesecurity.com/2023/02/15/10-signs-scammers-sights/",
+                    "comments": "https://www.welivesecurity.com/2023/02/15/10-signs-scammers-sights/#respond",
+                    "pubDate": "Wed, 15 Feb 2023 10:30:46 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Phil Muncaster"
+                    },
+                    "category": {
+                        "#cdata-section": "Scams"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169383"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Don’t be their next victim – here’s a handy round-up of some the most common signs that should set your alarm bells ringing</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/15/10-signs-scammers-sights/\">10 signs that scammers have you in their sights</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/15/10-signs-scammers-sights/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/scams-warning-signs-red-flags.jpg"
+                },
+                {
+                    "title": "ChatGPT, will you be my Valentine?",
+                    "link": "https://www.welivesecurity.com/2023/02/14/chatgpt-will-you-be-my-valentine/",
+                    "comments": "https://www.welivesecurity.com/2023/02/14/chatgpt-will-you-be-my-valentine/#respond",
+                    "pubDate": "Tue, 14 Feb 2023 10:30:06 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "André Lameiras"
+                    },
+                    "category": {
+                        "#cdata-section": "We Live Progress"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169310"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Spoiler alert: it turned me down. But that’s far from the only thing I learned while playing around with the bot that the world has fallen in love with so badly.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/14/chatgpt-will-you-be-my-valentine/\">ChatGPT, will you be my Valentine?</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/14/chatgpt-will-you-be-my-valentine/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/chatbot-chatgpt-valentines-day-technology.jpg"
+                },
+                {
+                    "title": "Confident cybersecurity means fewer headaches for SMBs",
+                    "link": "https://www.welivesecurity.com/2023/02/13/confident-cybersecurity-fewer-headaches-smbs/",
+                    "comments": "https://www.welivesecurity.com/2023/02/13/confident-cybersecurity-fewer-headaches-smbs/#respond",
+                    "pubDate": "Mon, 13 Feb 2023 10:30:33 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169287"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Small and medium-sized businesses have good reason to be concerned about the loss of data and financial impacts</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/13/confident-cybersecurity-fewer-headaches-smbs/\">Confident cybersecurity means fewer headaches for SMBs</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/13/confident-cybersecurity-fewer-headaches-smbs/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/smb-cybersecurity-digital-security-survey-sentiment.jpg"
+                },
+                {
+                    "title": "Key findings from the latest ESET Threat Report – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/key-findings-from-the-latest-eset-threat-report-week-in-security-with-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/key-findings-from-the-latest-eset-threat-report-week-in-security-with-tony-anscombe/#respond",
+                    "pubDate": "Fri, 10 Feb 2023 15:00:11 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=169312"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>What is behind the drop in ransomware and what should still be done for containing the ransomware scourge?</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/key-findings-from-the-latest-eset-threat-report-week-in-security-with-tony-anscombe/\">Key findings from the latest ESET Threat Report – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/key-findings-from-the-latest-eset-threat-report-week-in-security-with-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/0-11.jpg"
+                },
+                {
+                    "title": "Alexa, who else is listening?",
+                    "link": "https://www.welivesecurity.com/2023/02/09/alexa-who-else-is-listening/",
+                    "comments": "https://www.welivesecurity.com/2023/02/09/alexa-who-else-is-listening/#respond",
+                    "pubDate": "Thu, 09 Feb 2023 10:30:58 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Jake Moore"
+                    },
+                    "category": {
+                        "#cdata-section": "Privacy"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169191"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Your smart speaker is designed to listen, but could it be eavesdropping too?</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/09/alexa-who-else-is-listening/\">Alexa, who else is listening?</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/09/alexa-who-else-is-listening/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/alexa-smart-speaker-voice-assistant-listening-eavesdropping.jpg"
+                },
+                {
+                    "title": "ESET Threat Report T3 2022",
+                    "link": "https://www.welivesecurity.com/2023/02/08/eset-threat-report-t3-2022/",
+                    "comments": "https://www.welivesecurity.com/2023/02/08/eset-threat-report-t3-2022/#respond",
+                    "pubDate": "Wed, 08 Feb 2023 10:30:08 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Roman Kovac"
+                    },
+                    "category": {
+                        "#cdata-section": "Threat Reports"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169023"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>A view of the T3 2022 threat landscape as seen by ESET telemetry and from the perspective of ESET threat detection and research experts</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/08/eset-threat-report-t3-2022/\">ESET Threat Report T3 2022</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/08/eset-threat-report-t3-2022/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/eset-threat-report-t3-2022.jpg"
+                },
+                {
+                    "title": "Into the void: Your tech and security in digital darkness",
+                    "link": "https://www.welivesecurity.com/2023/02/07/into-void-tech-security-digital-darkness/",
+                    "comments": "https://www.welivesecurity.com/2023/02/07/into-void-tech-security-digital-darkness/#respond",
+                    "pubDate": "Tue, 07 Feb 2023 10:30:36 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Aryeh Goretsky"
+                    },
+                    "category": {
+                        "#cdata-section": "Digital Security"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169074"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>No internet, perfect security? Two ESET researchers perform a thought experiment where they consider the implications of being plunged into digital darkness.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/07/into-void-tech-security-digital-darkness/\">Into the void: Your tech and security in digital darkness</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/07/into-void-tech-security-digital-darkness/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/tech-security-internet-disconnected-digital-vacuum.jpg"
+                },
+                {
+                    "title": "Online safety laws: What’s in store for children’s digital playgrounds?",
+                    "link": "https://www.welivesecurity.com/2023/02/06/online-safety-laws-whats-store-childrens-digital-playgrounds/",
+                    "comments": "https://www.welivesecurity.com/2023/02/06/online-safety-laws-whats-store-childrens-digital-playgrounds/#respond",
+                    "pubDate": "Mon, 06 Feb 2023 15:00:22 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "André Lameiras"
+                    },
+                    "category": {
+                        "#cdata-section": "Kids Online"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=169122"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>As children’s safety and privacy online becomes a matter of increasing urgency, lawmakers around the world push ahead on new regulations in the digital realm</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/06/online-safety-laws-whats-store-childrens-digital-playgrounds/\">Online safety laws: What’s in store for children’s digital playgrounds?</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/06/online-safety-laws-whats-store-childrens-digital-playgrounds/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/online-safety-privacy-data-laws-children-thumbnail.jpg"
+                },
+                {
+                    "title": "Key takeaways from ESET’s new APT Activity Report – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/key-takeaways-eset-apt-activity-report-t3-2022-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/key-takeaways-eset-apt-activity-report-t3-2022-week-security-tony-anscombe/#respond",
+                    "pubDate": "Fri, 03 Feb 2023 14:00:03 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=169128"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>As our latest APT Activity Report makes abundantly clear, the threat of cyberespionage and stealthy attacks remains very real</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/key-takeaways-eset-apt-activity-report-t3-2022-week-security-tony-anscombe/\">Key takeaways from ESET&#8217;s new APT Activity Report – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/key-takeaways-eset-apt-activity-report-t3-2022-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/0-6.jpg"
+                },
+                {
+                    "title": "Are online surveys legit and safe? Watch out for survey scams",
+                    "link": "https://www.welivesecurity.com/2023/02/02/real-fake-spot-survey-scam/",
+                    "comments": "https://www.welivesecurity.com/2023/02/02/real-fake-spot-survey-scam/#respond",
+                    "pubDate": "Thu, 02 Feb 2023 10:30:54 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Phil Muncaster"
+                    },
+                    "category": {
+                        "#cdata-section": "Scams"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=168991"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>“Can I tell a legitimate survey apart from a fake one?” is the single most important question you need to answer for yourself before taking any surveys online</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/02/real-fake-spot-survey-scam/\">Are online surveys legit and safe? Watch out for survey scams</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/02/real-fake-spot-survey-scam/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/surveys-online-scams-safe-data-privacy-thumbnail.jpg"
+                },
+                {
+                    "title": "Less is more: Conquer your digital clutter before it conquers you",
+                    "link": "https://www.welivesecurity.com/2023/02/01/less-more-conquer-clutter-protect-data/",
+                    "comments": "https://www.welivesecurity.com/2023/02/01/less-more-conquer-clutter-protect-data/#respond",
+                    "pubDate": "Wed, 01 Feb 2023 10:30:26 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Phil Muncaster"
+                    },
+                    "category": {
+                        "#cdata-section": "Privacy"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=168921"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Lose what you don’t use and other easy ways to limit your digital footprint and strengthen your online privacy and security</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/02/01/less-more-conquer-clutter-protect-data/\">Less is more: Conquer your digital clutter before it conquers you</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/02/01/less-more-conquer-clutter-protect-data/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/02/online-clutter-digital-footprint.jpg"
+                },
+                {
+                    "title": "ESET APT Activity Report T3 2022",
+                    "link": "https://www.welivesecurity.com/2023/01/31/eset-apt-activity-report-t3-2022/",
+                    "comments": "https://www.welivesecurity.com/2023/01/31/eset-apt-activity-report-t3-2022/#respond",
+                    "pubDate": "Tue, 31 Jan 2023 10:30:36 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Jean-Ian Boutin"
+                    },
+                    "category": {
+                        "#cdata-section": "APT Activity Reports"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=168802"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>An overview of the activities of selected APT groups investigated and analyzed by ESET Research in T3 2022</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/01/31/eset-apt-activity-report-t3-2022/\">ESET APT Activity Report T3 2022</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/01/31/eset-apt-activity-report-t3-2022/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/01/eset-t3-2022-apt-activity-report.jpg"
+                },
+                {
+                    "title": "Are you in control of your personal data? – Week in security with Tony Anscombe",
+                    "link": "https://www.welivesecurity.com/videos/control-your-personal-information-week-security-tony-anscombe/",
+                    "comments": "https://www.welivesecurity.com/videos/control-your-personal-information-week-security-tony-anscombe/#respond",
+                    "pubDate": "Fri, 27 Jan 2023 18:15:58 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?post_type=post_video&p=168894"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Data Privacy Week is a reminder to protect your data – all year round. Here are three privacy-boosting habits you can start today.</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/videos/control-your-personal-information-week-security-tony-anscombe/\">Are you in control of your personal data? – Week in security with Tony Anscombe</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/videos/control-your-personal-information-week-security-tony-anscombe/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/01/0-28.jpg"
+                },
+                {
+                    "title": "SwiftSlicer: New destructive wiper malware strikes Ukraine",
+                    "link": "https://www.welivesecurity.com/2023/01/27/swiftslicer-new-destructive-wiper-malware-ukraine/",
+                    "comments": "https://www.welivesecurity.com/2023/01/27/swiftslicer-new-destructive-wiper-malware-ukraine/#respond",
+                    "pubDate": "Fri, 27 Jan 2023 17:45:36 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Editor"
+                    },
+                    "category": {
+                        "#cdata-section": "Ukraine Crisis – Digital Security Resource Center"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=168897"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Sandworm continues to conduct attacks against carefully chosen targets in the war-torn country</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/01/27/swiftslicer-new-destructive-wiper-malware-ukraine/\">SwiftSlicer: New destructive wiper malware strikes Ukraine</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/01/27/swiftslicer-new-destructive-wiper-malware-ukraine/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/01/swiftslicer-destructive-wipermalware-ukraine.jpg"
+                },
+                {
+                    "title": "Why your data is more valuable than you may realize",
+                    "link": "https://www.welivesecurity.com/2023/01/26/data-more-valuable-you-realize/",
+                    "comments": "https://www.welivesecurity.com/2023/01/26/data-more-valuable-you-realize/#respond",
+                    "pubDate": "Thu, 26 Jan 2023 10:30:59 +0000",
+                    "dc:creator": {
+                        "#cdata-section": "Tony Anscombe"
+                    },
+                    "category": {
+                        "#cdata-section": "Privacy"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://backend.welivesecurity.com/?p=168843"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>The data trail you leave behind whenever you're online is bigger – and more revealing – than you may think</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.welivesecurity.com/2023/01/26/data-more-valuable-you-realize/\">Why your data is more valuable than you may realize</a> appeared first on <a href=\"/\" rel=\"nofollow\">WeLiveSecurity</a></p>\n"
+                    },
+                    "wfw:commentRss": "https://www.welivesecurity.com/2023/01/26/data-more-valuable-you-realize/feed/",
+                    "slash:comments": "0",
+                    "image": "https://www.welivesecurity.com/wp-content/uploads/2023/01/personal-data-privacy-week.jpg"
+                }
+            ]
+        }
+    }
+}

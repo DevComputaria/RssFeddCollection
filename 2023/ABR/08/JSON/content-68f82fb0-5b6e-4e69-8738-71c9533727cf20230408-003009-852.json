@@ -1,0 +1,181 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "channel": {
+            "title": "SecPod Blog",
+            "atom:link": {
+                "@href": "https://www.secpod.com/blog/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://www.secpod.com/blog/",
+            "description": "Prevent Cyber Attacks Now",
+            "lastBuildDate": "Fri, 31 Mar 2023 07:30:34 +0000",
+            "language": "en-US",
+            "sy:updatePeriod": "\n\thourly\t",
+            "sy:updateFrequency": "\n\t1\t",
+            "generator": "https://wordpress.org/?v=6.1.1",
+            "image": {
+                "url": "https://www.secpod.com/blog/wp-content/uploads/2020/03/cropped-SecPod-Logo-Icon-1-32x32.png",
+                "title": "SecPod Blog",
+                "link": "https://www.secpod.com/blog/",
+                "width": "32",
+                "height": "32"
+            },
+            "item": [
+                {
+                    "title": "Introduce Custom Scripting for your Patching Workflow Using SanerNow",
+                    "link": "https://www.secpod.com/blog/introduce-custom-scripting-for-your-patching-workflow-using-sanernow/",
+                    "dc:creator": {
+                        "#cdata-section": "Chaitra Sree"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 07:06:39 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Featured Articles"
+                        },
+                        {
+                            "#cdata-section": "Patch Management"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.secpod.com/blog/?p=34828"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Custom scripting in patching workflow helps organizations to back up the data from getting lost or can be used to upload the already backed data. Few organizations create a complete patch management process using scripts that would help maintain the organization&#8217;s security posture and cut off the cost of using third-party tools. Though scripting can [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.secpod.com/blog/introduce-custom-scripting-for-your-patching-workflow-using-sanernow/\">Introduce Custom Scripting for your Patching Workflow Using SanerNow</a> appeared first on <a rel=\"nofollow\" href=\"https://www.secpod.com/blog\">SecPod Blog</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "A Step-by-Step Guide to Build a Strategic Vulnerability Management Policy",
+                    "link": "https://www.secpod.com/blog/a-step-by-step-guide-to-build-a-strategic-vulnerability-management-policy/",
+                    "dc:creator": {
+                        "#cdata-section": "Chaitra Sree"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 06:45:58 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Featured Articles"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability Management"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.secpod.com/blog/?p=34852"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>A vulnerability management policy is a set of guidelines and procedures that organizations use to manage vulnerabilities that are identified. Vulnerability management is a process of identifying, assessing, prioritizing, and mitigating vulnerabilities to protect IT infrastructure from cyberattacks. Pre-planned vulnerability management policy stating the complete vulnerability management program will help IT admins in protecting organizational [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.secpod.com/blog/a-step-by-step-guide-to-build-a-strategic-vulnerability-management-policy/\">A Step-by-Step Guide to Build a Strategic Vulnerability Management Policy</a> appeared first on <a rel=\"nofollow\" href=\"https://www.secpod.com/blog\">SecPod Blog</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Are Network Vulnerability Tools building your First Line of Cyber Defense?",
+                    "link": "https://www.secpod.com/blog/are-network-vulnerability-tools-building-your-first-line-of-cyber-defense/",
+                    "dc:creator": {
+                        "#cdata-section": "Shivathmaja PS"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 06:09:04 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Featured Articles"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability Management"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.secpod.com/blog/?p=34781"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Even with great vulnerability management, your attack surface mitigation is based on the vulnerabilities you detect. And in the case of XYZ_Tech(imaginary example), the words were right on the mark. Be it regular vulnerability scans or rapid mitigation of the detected risks; the IT security team had done everything right. Yet XYZ_Tech was breached, and [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.secpod.com/blog/are-network-vulnerability-tools-building-your-first-line-of-cyber-defense/\">Are Network Vulnerability Tools building your First Line of Cyber Defense?</a> appeared first on <a rel=\"nofollow\" href=\"https://www.secpod.com/blog\">SecPod Blog</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Apple’s March 2023 Updates Addresses Multiple Security Vulnerabilities!",
+                    "link": "https://www.secpod.com/blog/apples-march-2023-updates-address-multiple-security-vulnerabilities/",
+                    "dc:creator": {
+                        "#cdata-section": "Ashwitha Kallalike"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 07:36:49 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Endpoint Security and Management"
+                        },
+                        {
+                            "#cdata-section": "Patch Management"
+                        },
+                        {
+                            "#cdata-section": "Security Research and Intelligence"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability Management"
+                        },
+                        {
+                            "#cdata-section": "Apple Safari"
+                        },
+                        {
+                            "#cdata-section": "Arbitrary Code Execution"
+                        },
+                        {
+                            "#cdata-section": "Denial Of Service"
+                        },
+                        {
+                            "#cdata-section": "information disclosure"
+                        },
+                        {
+                            "#cdata-section": "macOS Big Sur"
+                        },
+                        {
+                            "#cdata-section": "macOS Monterey"
+                        },
+                        {
+                            "#cdata-section": "macOS Ventura"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.secpod.com/blog/?p=34790"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Apple recently released multiple security updates in-order to patch various Apple products affected by multiple vulnerabilities. A total of 126 vulnerabilities were fixed in six of its products on March 27th. An attacker who successfully exploits these flaws could compromise the affected device and take complete control of the affected device. These security patches released [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.secpod.com/blog/apples-march-2023-updates-address-multiple-security-vulnerabilities/\">Apple&#8217;s March 2023 Updates Addresses Multiple Security Vulnerabilities!</a> appeared first on <a rel=\"nofollow\" href=\"https://www.secpod.com/blog\">SecPod Blog</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Vulnerability Assessment Methodology: Tiny Steps with Titanic Impact",
+                    "link": "https://www.secpod.com/blog/vulnerability-assessment-methodology-tiny-steps-with-titanic-impact/",
+                    "dc:creator": {
+                        "#cdata-section": "Shivathmaja PS"
+                    },
+                    "pubDate": "Mon, 27 Mar 2023 10:07:34 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Featured Articles"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability Management"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.secpod.com/blog/?p=34707"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>The cyberattack on LastPass, a popular password management firm, was unexpected and stunned the world. A vulnerability in a 3rd party multimedia software led to the compromise of LastPass’s network, and down went its business, brand trust, and reputation. Like LastPass, critical vulnerabilities may run rampant in your network and have a disastrous impact on [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.secpod.com/blog/vulnerability-assessment-methodology-tiny-steps-with-titanic-impact/\">Vulnerability Assessment Methodology: Tiny Steps with Titanic Impact</a> appeared first on <a rel=\"nofollow\" href=\"https://www.secpod.com/blog\">SecPod Blog</a>.</p>\n"
+                    }
+                }
+            ]
+        }
+    }
+}

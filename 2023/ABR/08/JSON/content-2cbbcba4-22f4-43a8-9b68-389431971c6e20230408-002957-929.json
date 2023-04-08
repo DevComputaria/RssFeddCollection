@@ -1,0 +1,233 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "channel": {
+            "title": "Cyber Defense Magazine",
+            "atom:link": {
+                "@href": "https://www.cyberdefensemagazine.com/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://www.cyberdefensemagazine.com/",
+            "description": "InfoSec  Knowledge is Power",
+            "lastBuildDate": "Mon, 03 Apr 2023 14:48:23 +0000",
+            "language": "en-US",
+            "sy:updatePeriod": "\n\thourly\t",
+            "sy:updateFrequency": "\n\t1\t",
+            "generator": "https://wordpress.org/?v=6.2",
+            "image": {
+                "url": "https://www.cyberdefensemagazine.com/wp-content/uploads/2019/01/cropped-cdm-logo-2019-1-150x150.png",
+                "title": "Cyber Defense Magazine",
+                "link": "https://www.cyberdefensemagazine.com/",
+                "width": "32",
+                "height": "32"
+            },
+            "item": [
+                {
+                    "title": "A Question of Doubt",
+                    "link": "https://www.cyberdefensemagazine.com/a-question-of-doubt/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 13:00:50 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=49050"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>The cyber security crisis of confidence amongst CISOs and CIOs — and how to overcome it. By Gary Penolver, Chief Technology Officer at Quod Orbis I’ve worked closely with CISOs [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/a-question-of-doubt/\" data-wpel-link=\"internal\">A Question of Doubt</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Cloud Visibility and Port Spoofing: the “Known Unknown”",
+                    "link": "https://www.cyberdefensemagazine.com/cloud-visibility-and-port-spoofing-the-known-unknown/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Mon, 03 Apr 2023 14:30:43 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=49043"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By Stephen Goudreault, Cloud Security Evangelist, Gigamon As with all technology, new tools are iterations built on what came before and classic network logging and metrics are no different. The [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/cloud-visibility-and-port-spoofing-the-known-unknown/\" data-wpel-link=\"internal\">Cloud Visibility and Port Spoofing: the “Known Unknown”</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Treading Water: The Struggle Against Third-Party Vulnerabilities and How True Automation Can Help.",
+                    "link": "https://www.cyberdefensemagazine.com/treading-water-the-struggle-against-third-party-vulnerabilities-and-how-true-automation-can-help/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 13:00:10 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=49028"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By Dan Richings – Senior Vice President, Global Presales, Solutions Engineering, and Support – Adaptiva Using third-party software is unavoidable in today’s market. The competition and the break-neck pace that [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/treading-water-the-struggle-against-third-party-vulnerabilities-and-how-true-automation-can-help/\" data-wpel-link=\"internal\">Treading Water: The Struggle Against Third-Party Vulnerabilities and How True Automation Can Help.</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "As Cyber Attacks Target Large Corporates, Teams Need to Evolve Data Security",
+                    "link": "https://www.cyberdefensemagazine.com/as-cyber-attacks-target-large-corporates-teams-need-to-evolve-data-security/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 15:56:55 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=49022"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By Karthikeyan Mariappan, VP of Engineering, Titaniam Chief information security officers (CISOs) and their teams zealously study attack data to determine how adversaries’ strategies are changing from month to month [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/as-cyber-attacks-target-large-corporates-teams-need-to-evolve-data-security/\" data-wpel-link=\"internal\">As Cyber Attacks Target Large Corporates, Teams Need to Evolve Data Security</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Security leaders are finally getting a seat at the table with corporate leadership – make good use of your time there",
+                    "link": "https://www.cyberdefensemagazine.com/security-leaders-are-finally-getting-a-seat-at-the-table-with-corporate-leadership-make-good-use-of-your-time-there/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 13:46:50 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=49008"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Looking to automation, engaging offensive security, and making the business case for building a robust cybersecurity strategy will help security leaders mature their program By Robert Herjavec, CEO, Cyderes The [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/security-leaders-are-finally-getting-a-seat-at-the-table-with-corporate-leadership-make-good-use-of-your-time-there/\" data-wpel-link=\"internal\">Security leaders are finally getting a seat at the table with corporate leadership – make good use of your time there</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Next Generation Cybersecurity for Small to Midsize Businesses",
+                    "link": "https://www.cyberdefensemagazine.com/next-generation-cybersecurity-for-small-to-midsize-businesses/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Mon, 27 Mar 2023 22:40:19 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Cyber Security News"
+                        },
+                        {
+                            "#cdata-section": "Featured"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=49002"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>How Cynet is giving lean security teams the tools they need to protect their business as budget crunches and reduced headcounts put many companies at risk by By Eyal Gruner, [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/next-generation-cybersecurity-for-small-to-midsize-businesses/\" data-wpel-link=\"internal\">Next Generation Cybersecurity for Small to Midsize Businesses</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Eight Tips for CISOs Trying Get Their Board on Board",
+                    "link": "https://www.cyberdefensemagazine.com/eight-tips-for-cisos-trying-get-their-board-on-board/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Mon, 27 Mar 2023 13:00:03 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=48994"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By Ori Arbel, CTO, CYREBRO Nobody likes to be misunderstood, least of all C-level executives who play a key role in strategic decision-making in enterprises. Yet CISOs frequently find themselves [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/eight-tips-for-cisos-trying-get-their-board-on-board/\" data-wpel-link=\"internal\">Eight Tips for CISOs Trying Get Their Board on Board</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Zero Trust in a DevOps World",
+                    "link": "https://www.cyberdefensemagazine.com/zero-trust-in-a-devops-world/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Sun, 26 Mar 2023 15:03:30 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=48983"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By Joel Krooswyk, Federal CTO, GitLab Inc. Although zero trust may seem like an overused buzzword, the approach is critical to securing people, devices, infrastructure, and applications – all of [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/zero-trust-in-a-devops-world/\" data-wpel-link=\"internal\">Zero Trust in a DevOps World</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Solving Cybersecurity Problems Arising in “Difficult Environments of High Uncertainty.”",
+                    "link": "https://www.cyberdefensemagazine.com/solving-cybersecurity-problems-arising-in-difficult-environments-of-high-uncertainty/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Sat, 25 Mar 2023 15:32:06 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=49016"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By James Hess, CEO of Unknown Cyber Cybersecurity is a critical issue that affects organizations of all sizes and industries, but it can be particularly challenging in environments of high [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/solving-cybersecurity-problems-arising-in-difficult-environments-of-high-uncertainty/\" data-wpel-link=\"internal\">Solving Cybersecurity Problems Arising in &#8220;Difficult Environments of High Uncertainty.&#8221;</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Why You Can’t Have True Zero Trust Without API Security",
+                    "link": "https://www.cyberdefensemagazine.com/why-you-cant-have-true-zero-trust-without-api-security/",
+                    "dc:creator": {
+                        "#cdata-section": "News team"
+                    },
+                    "pubDate": "Thu, 23 Mar 2023 13:35:28 +0000",
+                    "category": {
+                        "#cdata-section": "Cyber Security News"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.cyberdefensemagazine.com/?p=48959"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>By Richard Bird, Chief Security Officer, Traceable Global adoption of Zero Trust security models is soaring and with good reason. Due to organizations’ embrace of digital business models and enablement [&#8230;]</p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com/why-you-cant-have-true-zero-trust-without-api-security/\" data-wpel-link=\"internal\">Why You Can&#8217;t Have True Zero Trust Without API Security</a> appeared first on <a rel=\"nofollow\" href=\"https://www.cyberdefensemagazine.com\" data-wpel-link=\"internal\">Cyber Defense Magazine</a>.</p>\n"
+                    }
+                }
+            ]
+        }
+    } /*
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 98/157 objects using disk
+Page Caching using disk: enhanced (Page is feed) 
+Minified using disk
+Database Caching 12/32 queries in 0.014 seconds using disk
+
+Served from: www.cyberdefensemagazine.com @ 2023-04-06 13:31:28 by W3 Total Cache
+*/
+}

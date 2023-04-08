@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>CyberTalk</title>
+    <atom:link href="https://www.cybertalk.org/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.cybertalk.org/</link>
+    <description>Cyber Security News And Insights For Executives</description>
+    <lastBuildDate>Fri, 07 Apr 2023 20:24:46 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=6.2</generator>
+    <item>
+      <title>AI and cyber security: Trends, challenges and future prospects</title>
+      <link>https://www.cybertalk.org/2023/04/07/ai-and-cyber-security-trends-challenges-and-future-prospects/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 20:24:46 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[ChatGPT]]></category>
+      <category><![CDATA[cloud]]></category>
+      <category><![CDATA[cyber attack]]></category>
+      <category><![CDATA[cyber security]]></category>
+      <category><![CDATA[cybersecurity]]></category>
+      <category><![CDATA[Head of Product Management]]></category>
+      <category><![CDATA[threat prevention]]></category>
+      <category><![CDATA[Yaniv Schectman]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20953</guid>
+      <description><![CDATA[<p>Yaniv Shechtman has over 15 years of expertise in cyber security, AI, and product management. At Check Point, Yaniv&#8217;s primary responsibility is to shape Check Point&#8217;s Threat Prevention strategy and technologies, ensuring their products are always ahead of modern attackers, and are able to prevent zero-day threats before anyone else.  In this exclusive CyberTalk interview, Yaniv [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/07/ai-and-cyber-security-trends-challenges-and-future-prospects/">AI and cyber security: Trends, challenges and future prospects</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>Yaniv Shechtman has over 15 years of expertise in cyber security, AI, and product management. At Check Point, Yaniv&#8217;s primary responsibility is to shape Check Point&#8217;s Threat Prevention strategy and technologies, ensuring their products are always ahead of modern attackers, and are able to prevent zero-day threats before anyone else.</em><em> </em></p>
+<p>In this exclusive CyberTalk interview, Yaniv will share insights on how AI can be leveraged in cyber security, as well as key trends, challenges, and future prospects.</p>
+<h3><strong>Broadly speaking, how can organizations leverage AI to enhance cyber security? </strong><strong> </strong></h3>
+<p>YS: Generally, AI examines patterns and trends in large data sets. In this way, organizations can leverage AI to detect and prevent newly seen threats by monitoring network traffic and blocking suspicious activities in real-time. They can also use the power of AI to track users’ behavior to identify anomalies that may indicate a security breach, assist with vulnerability scanning and patch management, and automate incident response processes to ensure security incidents are dealt quickly and efficiently. Each of these AI capabilities can help reduce manual work, allowing cyber security professionals to focus on more strategic tasks.</p>
+<h3><strong>Please share a bit about key considerations for using AI to address cyber security challenges. </strong><strong> </strong></h3>
+<p>YS: It is important to consider several key factors when implementing AI in cyber security. Firstly, the success of AI in cyber security depends on the availability of high-quality data. The AI model needs to be trained on data that reflects the potential threats and is accurately labeled. Additionally, although most of the AI models today are available in public libraries such as ‘Hugging Face’, ‘SageMaker’ or ‘OpenAI’, choosing the right algorithm for the specific cyber security challenge is crucial. Different algorithms perform differently depending on the dataset and the problem they solve. Another key consideration is having a data science team with the relevant skillset to effectively design, develop, and maintain the AI model. Finally, the operational lifecycle of the AI model should be taken into account, as it is important to ensure that the model is constantly monitored and retrained to maintain its accuracy against new emerging threats.</p>
+<h3><strong>Could you share a bit about AI and false positives and false negatives?</strong><strong> </strong></h3>
+<p>YS: As AI is based on statistical algorithms, it is vulnerable to producing false positives or false negatives. Accuracy is crucial in AI because it has a direct impact on an organization&#8217;s security estate, users’ productivity and their ability to work without interruptions, and the workload of security teams who need to review false logs and manually decide on their verdict. To enhance the accuracy of AI, the model must be trained on a highly qualified data set. This approach will enable the AI model to make informed decisions and minimize the chances of false results. Security vendors with large customer bases have an advantage in this regard, as they can obtain a significant amount of data, which will result in a more accurate AI model. By ensuring that precision and recall are balanced, AI decisions will be reliable, trustworthy, and effective in solving problems.</p>
+<h3><strong>What are your perspectives concerning the current trends around AI in cloud security?</strong><strong> </strong></h3>
+<p>YS: With the increasing adoption of cloud-based services, current trends in AI and cloud security are quite promising. AI-powered predictive security analytics enable security teams to anticipate security threats. For example,  ‘Cloud Workload Protection’ solutions that analyze network traffic and identify suspicious activity, ‘Identity Threat Detection and Response&#8217; (ITDR) tools to identify users’ abnormal behavior, or ‘Cloud Identity Entitlement Management’ (CIEM) that minimize the risk of unauthorized access to cloud environments and applications. Additionally, DevOps teams who manage cloud software development processes use AI-powered tools to automatically identify and remediate security vulnerabilities in code.</p>
+<h3><strong>How can organizations use AI to enhance the security of multi-cloud environments and ensure consistent security policies across different cloud providers? </strong><strong> </strong></h3>
+<p>YS: Organizations can enhance security of multi-cloud environments by using AI-powered security automation tools that detect risks and enforce security policies in multiple environments. For example, threat intelligence platforms that proactively identify and respond to threats, machine learning-based anomaly detection that identifies abnormal behavior, and cloud-native security solutions that use AI to detect and respond to threats. Furthermore, AI-powered security orchestration platforms can automate security workflows across multiple cloud environments, reducing the time to detect and respond to security threats.</p>
+<h3><strong>On a different topic, from a security perspective, what do you think about Generative-AI and ChatGPT? </strong><strong> </strong></h3>
+<p>YS: Generative-AI and ChatGPT have their pros and cons when it comes to technology and innovation. On the one hand, they have opened up opportunities for more cyber defense innovations by automating administrative tasks, accelerating development time, and making Security Operations Center (SOC) teams more effective. However, on the other hand, there are concerns that Generative-AI and ChatGPT could be used for increased cyber offense activities. Attackers could use these technologies to develop new variations of attacks, flood social engineering with fake identities and content, and to test attacks to increase their impact.</p>
+<p>Therefore, while Generative-AI and ChatGPT can be powerful tools for innovation, the technology is constantly evolving and must be used responsibly to mitigate potential risks.</p>
+<h3><strong>Looking ahead, what do you think the future holds for the intersection of AI and cyber security?</strong><strong> </strong></h3>
+<p>YS: I believe that AI will continue to play an increasingly important role in cyber security in the future. As data continues to increase and the threat landscape becomes more complex, there is a growing need for cyber security experts to catch up with these challenges. AI can assist in this by providing effective and efficient tools for detecting and preventing cyber-attacks. Therefore, in looking ahead, the role of AI in cyber security is likely to become even more important.</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/07/ai-and-cyber-security-trends-challenges-and-future-prospects/">AI and cyber security: Trends, challenges and future prospects</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Microsoft leads global crackdown against Cobalt Strike, protecting healthcare from ransomware</title>
+      <link>https://www.cybertalk.org/2023/04/07/microsoft-leads-global-crackdown-against-cobalt-strike-protecting-healthcare-from-ransomware/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 18:30:55 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[cobalt strike]]></category>
+      <category><![CDATA[court order]]></category>
+      <category><![CDATA[cyber security]]></category>
+      <category><![CDATA[healthcare]]></category>
+      <category><![CDATA[hospitals]]></category>
+      <category><![CDATA[malware]]></category>
+      <category><![CDATA[microsoft]]></category>
+      <category><![CDATA[ransomware]]></category>
+      <category><![CDATA[sinkholing]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20949</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: Microsoft, the Health Information Sharing and Analysis Center (Health-ISAC) and other partners have announced a widespread technical and legal crackdown against servers hosting &#8220;cracked&#8221; copies of Cobalt Strike; a tool commonly deployed by cyber criminals to distribute malware, including ransomware. The primary goal is to prevent hackers from continuing to use Cobalt Strike [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/07/microsoft-leads-global-crackdown-against-cobalt-strike-protecting-healthcare-from-ransomware/">Microsoft leads global crackdown against Cobalt Strike, protecting healthcare from ransomware</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>EXECUTIVE SUMMARY:</p>
+<p>Microsoft, the Health Information Sharing and Analysis Center (Health-ISAC) and other partners have announced a widespread technical and legal crackdown against servers hosting &#8220;cracked&#8221; copies of Cobalt Strike; a tool commonly deployed by cyber criminals to distribute malware, including ransomware.</p>
+<p>The primary goal is to prevent hackers from continuing to use Cobalt Strike in ransomware attacks that target hospitals and healthcare groups. Ransomware attackers using cracked copies of Cobalt Strike have been linked to 68 hits on healthcare organizations in at least 19 countries. Attacks have disrupted critical patient care services, and exacted unnecessary financial tolls on organizations.</p>
+<h3><b>Cobalt Strike crackdown explained</b></h3>
+<p>The attacks have affected turn-around times for diagnostic, imaging and laboratory results. Attacks have also led to canceled medical procedures and delays in the delivery of chemotherapy treatments. In the long-run, these types of cyber attacks have negative impacts on hospitals and patients alike, and can <a href="https://www.cbsnews.com/news/microsoft-court-order-ransomware-hacking-tool-that-targeted-hospitals/" target="_blank" rel="noopener">increase mortality</a> rates.</p>
+<h3><b>More critical information</b></h3>
+<p>On Friday March 31<sup>st</sup>, the U.S. District Court for the Eastern District of New York issued a court order permitting Microsoft and a partner organization to seize the domain names and to remove the IP addresses of servers hosting cracked versions of Cobalt Strike.</p>
+<p>The malicious infrastructure will be removed from the internet with the help of relevant computer emergency readiness teams (CERTs) and internet service providers. Takedowns have already begun.</p>
+<p>&#8220;Disrupting cracked legal copies of Cobalt Strike will significantly hinder the monetization of these illegal copies and slow their use in cyber attacks, forcing criminals to re-evaluate and change their tactics,&#8221; Amy Hogan-Burney, <a href="https://www.bleepingcomputer.com/news/security/microsoft-and-fortra-crack-down-on-malicious-cobalt-strike-servers/" target="_blank" rel="noopener">stated</a> head of Microsoft&#8217;s Digital Crimes Unit (DCU).</p>
+<h3><b>How it happened</b></h3>
+<p>Previously known as Help Systems, Fortra released Cobalt Strike in 2012. The product was designed as a legitimate commercial pen testing tool for red teams, who would use it to scan infrastructure for vulnerabilities.</p>
+<p>While the developer carefully screens customers and only provides licenses for lawful use, over time, malicious persons have obtained and distributed cracked versions of the software. In turn, Cobalt Strike has become a frequently used tool in ransomware and data theft-related cyber attacks.</p>
+<p>Specifically, hackers use the tool for post-exploitation tasks after developing beacons designed to provide them with persistent remote access to compromised devices. This allows hackers to harvest sensitive data or proceed with further malicious payloads.</p>
+<figure id="attachment_20946" aria-describedby="caption-attachment-20946" style="width: 833px" class="wp-caption alignnone"><img decoding="async" class="size-full wp-image-20946" src="/wp-content/uploads/2023/04/Image_Microsoft_Attack-Flow.jpg" alt="Example of attack flow by threat actor DEV-0243. Image courtesy of Microsoft." width="833" height="260" /><figcaption id="caption-attachment-20946" class="wp-caption-text">Example of attack flow by threat actor DEV-0243. Image courtesy of Microsoft.</figcaption></figure>
+<h3><b>Malicious infrastructure </b></h3>
+<p>Microsoft has found malicious infrastructure hosting Cobalt Strike in every region of the globe, from China, to the United States, to Russia. While the exact identities of the criminals behind the operations remain unknown, two infamous Russian-speaking ransomware gangs, Conti and LockBit, are believed to be involved. <b><br />
+</b></p>
+<p>Microsoft has also observed several state-backed cyber attack groups using Cobalt Strike versions while serving the interests of foreign governments. The legal crackdown follows Google Cloud&#8217;s identification of <a href="https://thehackernews.com/2023/04/microsoft-takes-legal-action-to-disrupt.html" target="_blank" rel="noopener">34</a> different hacked versions of the Cobalt Strike tool in the wild.</p>
+<h3><b>Microsoft takes on &#8216;sinkholing&#8217; and more</b></h3>
+<p>In order to help prevent future related cyber attacks, Microsoft says that it&#8217;s going to pursue &#8216;<a href="https://www.cbsnews.com/news/microsoft-court-order-ransomware-hacking-tool-that-targeted-hospitals/" target="_blank" rel="noopener">sinkholing</a>,&#8217; meaning that it will redirect certain malicious domains to Microsoft so that the company can identify victims.</p>
+<p>Microsoft has previously tapped civil orders to seize domains and IP addresses associated with specific malware, but the recent court order represents the first time where Redmond has attempted to take down a malicious hacking tool on such a massive scale.</p>
+<p>In planning for tomorrow, Microsoft has already begun digging into the hacking tools that cyber criminals may turn to once Cobalt Strike becomes a non-option.</p>
+<p>&#8220;&#8230;We are going to seek a permanent injunction because we believe this activity will continue&#8230;They [cyber criminals] will look to move hosting [sites] for the cracked versions of Cobalt Strike because it is an effective tool for them. And we will continue to chase them,&#8221; stated <a href="https://www.cbsnews.com/news/microsoft-court-order-ransomware-hacking-tool-that-targeted-hospitals/" target="_blank" rel="noopener">Hogan-Burney</a>.</p>
+<p>For more ransomware insights, please see <a href="https://www.cybertalk.org/2023/03/10/top-insights-from-the-most-notorious-ransomware-attacks-attackers/" target="_blank" rel="noopener">CyberTalk.org&#8217;s past coverage</a>. <i>Lastly, to receive more cutting-edge cyber security news, best practices and analyses, please sign up for the </i><a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener"><i>CyberTalk.org newsletter.</i></a></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/07/microsoft-leads-global-crackdown-against-cobalt-strike-protecting-healthcare-from-ransomware/">Microsoft leads global crackdown against Cobalt Strike, protecting healthcare from ransomware</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>What is an ‘island hopping’ attack? (and how to stop one)</title>
+      <link>https://www.cybertalk.org/2023/04/06/what-is-an-island-hopping-attack-and-how-to-stop-one/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 19:10:56 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[Incident Response]]></category>
+      <category><![CDATA[Island hopping]]></category>
+      <category><![CDATA[island hopping attack]]></category>
+      <category><![CDATA[island hopping cyber attack]]></category>
+      <category><![CDATA[multi-factor authentication]]></category>
+      <category><![CDATA[network]]></category>
+      <category><![CDATA[network security]]></category>
+      <category><![CDATA[network segmentation]]></category>
+      <category><![CDATA[phishing]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20938</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: At the mention of island hopping, you&#8217;re likely dreaming about adventures in Hawaii, the Caribbean, or similar destinations with majestic views and white-sand beaches. In the context of cyber security, island hopping refers to a sophisticated type of cyber attack. This technique is used by attackers as a means of circumventing advanced cyber [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/06/what-is-an-island-hopping-attack-and-how-to-stop-one/">What is an &#8216;island hopping&#8217; attack? (and how to stop one)</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>EXECUTIVE SUMMARY:</p>
+<p>At the mention of island hopping, you&#8217;re likely dreaming about adventures in Hawaii, the Caribbean, or similar destinations with majestic views and white-sand beaches. In the context of cyber security, island hopping refers to a sophisticated type of cyber attack. This technique is used by attackers as a means of circumventing advanced cyber security measures deployed by large organizations.</p>
+<h3><b>Key insights</b></h3>
+<ul>
+<li aria-level="1">The industries most affected by island hopping cyber attacks include finance, healthcare, manufacturing and retail.</li>
+<li aria-level="1">Ultimately, the target of an island hopping attack is a large enterprise with good cyber security.</li>
+<li aria-level="1">Following best practices, as described below, can help your organization avoid an island hopping attack.</li>
+</ul>
+<h3><b>What is island hopping (in cyber security)? </b></h3>
+<p>An island hopping attack occurs when cyber adversaries pursue access to a company through a circuitous route. Instead of directly targeting the intended victim organization, the attackers will &#8216;hop&#8217; through a series of intermediary steps in order to achieve their objectives.</p>
+<p>For instance, cyber adversaries may compromise a large organization&#8217;s third-party partners in order to eventually gain access to the intended target.</p>
+<p>The intended target (a larger organization) will likely have state-of-the-art cyber security that cyber attackers cannot otherwise get past.</p>
+<h3><b>Network-based island hopping</b><b><br />
+</b></h3>
+<p>This occurs when cyber attackers compromise one organization&#8217;s network and then use that network access in order to move directly into another company&#8217;s network.</p>
+<p>While firewalls and routers isolate business networks from untrusted networks, like the internet, they don&#8217;t always isolate networks from business partners, and that&#8217;s by design. Administrators sometimes make network access exceptions for partners, giving them access to internal networks for collaboration purposes. Cyber attackers know this and exploit this to access high-value networks.</p>
+<p>For example, an attack group might go after a target organization&#8217;s managed security service provider (MSSP) in order to ultimately gain access to the targeted enterprise.</p>
+<h3><b>How do island hopping attacks work? </b></h3>
+<p>Island hopping attacks often start with a phishing email. One strategy used by island hopping attackers consists of impersonating trusted brands via email, like Apple and Google, and enticing people to respond by leaning into the trusted brand&#8217;s reputation.</p>
+<p>Another technique, known as a reverse business email compromise attack, consists of taking over the mail server of a target company and deploying fileless malware. In the past, attackers have used this modus operandi to gain access to financial sector entities.</p>
+<h3><b>Why cyber attackers choose island hopping</b></h3>
+<p>Cyber attackers use island hopping attacks in order to deploy ransomware, to cryptojack, to steal intellectual property, and to determine which organizations to target in even larger attacks, among other things.</p>
+<h3><b>How to stop island hopping attacks </b></h3>
+<p>There are a variety of best practices that can help you prevent and defend against island hopping attacks.</p>
+<ol>
+<li><b> </b>Connect with business partners and third-parties. If the businesses that you work with have access to your networks, ensure that everyone has strong security measures in place that will protect all interconnected entities. In addition, help business partners conduct security audits or provide information regarding how to go about it. And follow-up.</li>
+<li><b> </b>Consider recommending the same cyber security ecosystem/infrastructure that you have in place to your business partners. Some companies only do business with other companies that have the same cyber security infrastructure.</li>
+<li><b> </b>Lead or request a check on all of the data that your small business partners can access. Reexamine whether or not partners need access to certain types of data, assessing whether or not excessive permissions have been granted.</li>
+<li><b> </b>Leverage network segmentation to protect server access. Your contractors, for example, likely don&#8217;t need access to all of the servers, just the handful that they need to work on. Correctly segment your networks.</li>
+<li><b></b> Implement multi-factor authentication. Hackers are notoriously expert when it comes to cracking passwords. Multi-factor authentication can help prevent unauthorized data and network access. If you find multi-factor authentication inconvenient and unpalatable, <a href="https://www.cybertalk.org/2022/10/05/7-reasons-to-use-multi-factor-authentication-starting-today/" target="_blank" rel="noopener">this thought leadership article</a> might change your perspective.</li>
+<li><b> </b>Have an incident response plan ready-to-roll and maintain an incident response team. In the event that your organization experiences a cyber attack, only an incident response team will be able to prevent disruption or destruction. If you can&#8217;t reasonably maintain an incident response team in-house, have an incident response third-party on retainer.</li>
+</ol>
+<p>If you&#8217;re interested in more great cyber security insights, please see <a href="https://www.cybertalk.org/2023/03/30/why-red-team-exercises-for-ai-should-be-on-ciso-radars/" target="_blank" rel="noopener">CyberTalk.org&#8217;s past coverage</a>.<i> In addition, c</i><i>heck out the </i><a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener"><i>CyberTalk.org newsletter! </i></a><i>Sign up today to receive top-notch news articles, best practices and expert analyses; delivered straight to your inbox.</i></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/06/what-is-an-island-hopping-attack-and-how-to-stop-one/">What is an &#8216;island hopping&#8217; attack? (and how to stop one)</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Supercharge your small business with these 15 AI tools</title>
+      <link>https://www.cybertalk.org/2023/04/05/supercharge-your-small-business-with-these-15-ai-tools-2023/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Wed, 05 Apr 2023 19:37:52 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[AI and business]]></category>
+      <category><![CDATA[AI-powered]]></category>
+      <category><![CDATA[artificial intelligence]]></category>
+      <category><![CDATA[Avanan]]></category>
+      <category><![CDATA[CloudGuard]]></category>
+      <category><![CDATA[cyber security]]></category>
+      <category><![CDATA[cybersecurity]]></category>
+      <category><![CDATA[endpoint]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20935</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: Small businesses are facing an increasing number of demands, and need innovative solutions to stay competitive in today&#8217;s fast-paced digital landscape. Technological advancements, like those in the field of artificial intelligence (AI), are providing small businesses with the tools that they need to tackle tough challenges. Artificial intelligence-based tools and technologies can streamline [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/05/supercharge-your-small-business-with-these-15-ai-tools-2023/">Supercharge your small business with these 15 AI tools</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>EXECUTIVE SUMMARY:</p>
+<p>Small businesses are facing an increasing number of demands, and need innovative solutions to stay competitive in today&#8217;s fast-paced digital landscape. Technological advancements, like those in the field of artificial intelligence (AI), are providing small businesses with the tools that they need to tackle tough challenges.</p>
+<p>Artificial intelligence-based tools and technologies can streamline processes, boost efficiency and improve decision-making. From automating tasks to enhancing customer experiences, AI-based tools have become a game changer for small businesses.</p>
+<p>Have a small business? In this article, we&#8217;ll highlight 15 of the best AI tools for you. Whether you&#8217;re looking to optimize your customer support, marketing, tracking, accounting or cyber security, these AI-based solutions can help business owners and operators stay ahead of the curve and accelerate business success.</p>
+<h3><b>Why AI-based tools matter</b></h3>
+<p>AI-based tools are becoming all-the-rage among small businesses on account of their abilities to automate processes, increase efficiency and improve decision-making, among other things. Discover key advantages of incorporating AI tools into small business environments:</p>
+<p><b>Increased efficiency.</b> AI-based tools can automate repetitive tasks, such as data entry and document management, freeing up employees&#8217; time to focus on higher-value activities.</p>
+<p><b>Improved accuracy. </b>AI-based tools can perform tasks with greater accuracy and consistency than humans, limiting the risk of errors and elevating the quality of the work. For example, AI-powered accounting software can accurately track expenses and generate financial reports.</p>
+<p><b>Better decision-making.</b> AI-based tools have high-power analytics capabilities, enabling businesses to arm themselves with real-time metrics and to make better informed decisions pertaining to trends, opportunities and risks.</p>
+<p><b>Cost savings.</b> AI-based tools can reduce costs by automating tasks that would otherwise depend on human labor.</p>
+<p><b>Competitive advantage. </b>Optimized efficiency, accuracy and decision-making can help businesses stay ahead of the competition and attract new customers.</p>
+<h3><b>AI-based</b> <b>customer support tools</b></h3>
+<ol>
+<li><b> Zendesk. </b>This customer service platform leverages AI-powered tools to help businesses automate and streamline customer support operations. Zendesk&#8217;s AI tools allow business owners to manage customer inquiries, route tickets to the appropriate support teams and provide personalized customer support.</li>
+<li><b> Intercom.</b> This is a customer communications platform that uses AI to help businesses offer personalized customer support. The company&#8217;s AI-based tools can provide insights into customer behavior and preferences, allowing businesses to create more targeted and effective support strategies.</li>
+<li><b> Freshdesk. </b>This is a customer service platform that can automate tasks, such as ticket routing and response management, enabling businesses to provide fast and efficient support to their communities.</li>
+</ol>
+<h3><b>AI-based</b> <b>marketing tools</b><b><br />
+</b></h3>
+<ol start="4">
+<li><b> HubSpot. </b>A leading provider of marketing automation software that uses AI to automate tasks, HubSpot&#8217;s software can automate lead nurturing, content creation, and social media management. AI-powered tools can analyze customer data to provide insights into customer behavior and preferences, enabling businesses to create more targeted marketing campaigns. According to a study by Aberdeen Group, companies that use marketing automation software, like HubSpot, see <a href="https://www.searchenginejournal.com/what-to-consider-when-choosing-a-marketing-automation-platform/171318/" target="_blank" rel="noopener">53%</a> higher conversion rates than those that don&#8217;t.</li>
+<li><b> Salesforce. </b>Salesforce is a customer relationship management (CRM) platform that uses AI to help businesses manage their sales and marketing efforts. Salesforce&#8217;s AI-powered tools can analyze customer data to offer insights into customer behavior, preferences and purchasing patterns, empowering businesses to create more targeted marketing campaigns.</li>
+<li><b> Marketo. </b>This is a marketing automation platform that leverages AI to help businesses manage their marketing campaigns. Marketo&#8217;s AI-powered tools can analyze customer data to provide insights into customer behavior and preferences. This allows businesses to create more targeted marketing campaigns.</li>
+</ol>
+<h3><b>AI-based tracking and analytics tools</b></h3>
+<ol start="7">
+<li><b> Google Analytics. </b>This is a free online analytics platform that deploys AI to help businesses gain visibility into web traffic, user behavior and customer engagement. Google Analytics can provide insights into audience demographics, along with page and product performance information. In turn, businesses can use the data to optimize websites.</li>
+<li><b> IBM Watson Analytics.</b> This is an AI-powered platform that can help businesses extract insights from their data easily and efficiently. The platform uses natural language processing to allow users to interact with data in an intuitive way, making it easy for businesses to derive insights and lead with data-driven decisions.</li>
+<li><b> Tableau. </b>This is a data visualization and business intelligence tool that uses AI to help businesses identify patterns and trends in data, facilitating more informed decision-making.</li>
+</ol>
+<h3><b>AI-based accounting and compliance tools</b><b><br />
+</b></h3>
+<ol start="10">
+<li><b> Xero.</b> This is an AI-powered cloud accounting platform that allows small businesses to optimize financial management. Xero&#8217;s AI tools can automate bookkeeping tasks, reconcile bank transactions and can generate reports, saving time and reducing the risk of errors.</li>
+<li><b> QuickBooks.</b> This software can assist with expense tracking, invoice management, and custom report generation. Research shows that enterprises using QuickBooks can improve their financial management capabilities and can save time on administrative tasks.</li>
+<li><b> Compliance.ai. </b>This AI management platform can help small businesses stay up-to-date when it comes to regulatory requirements. The company&#8217;s tools monitor and analyze regulatory changes, automate compliance tasks and generate reports, reducing the risk of non-compliance and penalties.</li>
+</ol>
+<h3><b>AI-based cyber security tools</b></h3>
+<ol start="13">
+<li><b></b> <strong>Avanan email security.</strong> This is a<span style="color: #000000;">n <a style="color: #000000;" href="https://www.avanan.com/" target="_blank" rel="noopener">AI-powered email security</a> </span>solution that safeguards email systems from phishing, malware and other email-based threats. It uses AI and machine learning to detect and block threats, and provides advanced threat intelligence and threat hunting capabilities. The solution also offers compliance management and data loss prevention features.</li>
+<li><b> </b><strong>Check Point Harmony Endpoint.</strong> Th<span style="color: #000000;">is <a style="color: #000000;" href="https://www.checkpoint.com/harmony/#:~:text=Harmony%20is%20Powered%20by%20ThreatCloud,attacks%2C%20while%20reducing%20false%20positives." target="_blank" rel="noopener">AI-powered</a> end</span>point security solution helps small business owners protect their devices from malware, ransomware, and other cyber threats. It uses AI and machine learning algorithms to detect and block threats in real-time and provides a centralized dashboard for managing security policies and alerts.</li>
+<li><strong>Check Point CloudGuard.</strong> This AI-pow<span style="color: #000000;">ered <a style="color: #000000;" href="https://www.checkpoint.com/cloudguard/" target="_blank" rel="noopener">cloud security solution</a> helps small b</span>usinesses secure their cloud infrastructure and applications. It uses AI and automation to detect and block threats and provides visibility and control over cloud workloads and data. CloudGuard can help small businesses protect their sensitive data and comply with industry regulations.</li>
+</ol>
+<p>Looking for more information about AI-based tools? <a href="https://www.cybertalk.org/2023/03/27/how-artificial-intelligence-is-revolutionizing-cyber-security/" target="_blank" rel="noopener">Click here</a>. <i>Check out the </i><a href="https://thehackernews.com/2023/04/rorschach-ransomware-emerges-experts.html" target="_blank" rel="noopener"><i>CyberTalk.org newsletter! </i></a><i>Sign up today to receive top-notch news articles, best practices and expert analyses; delivered straight to your inbox.</i></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/05/supercharge-your-small-business-with-these-15-ai-tools-2023/">Supercharge your small business with these 15 AI tools</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Ensuring safe AI: Policy conundrums for a responsible future</title>
+      <link>https://www.cybertalk.org/2023/04/04/ensuring-safe-ai-policy-conundrums-for-a-responsible-future/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Tue, 04 Apr 2023 19:27:07 +0000</pubDate>
+      <category><![CDATA[OPINION]]></category>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[AI]]></category>
+      <category><![CDATA[ChatGPT]]></category>
+      <category><![CDATA[cyber policy]]></category>
+      <category><![CDATA[cyber security]]></category>
+      <category><![CDATA[cybersecurity]]></category>
+      <category><![CDATA[education]]></category>
+      <category><![CDATA[phishing]]></category>
+      <category><![CDATA[policy]]></category>
+      <category><![CDATA[politics]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20927</guid>
+      <description><![CDATA[<p>Check Point Software&#8217;s cyber security evangelist Ashwin Ram shares insights into artificial intelligence, policy development and cyber security. It is clear that the utilization of Generative Artificial Intelligence (AI) technology, such as ChatGPT, has countless applications aimed at improving the way we live and work. It is also clear that there are concerns about the [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/04/ensuring-safe-ai-policy-conundrums-for-a-responsible-future/">Ensuring safe AI: Policy conundrums for a responsible future</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>Check Point Software&#8217;s cyber security evangelist Ashwin Ram shares insights into artificial intelligence, policy development and cyber security.</em></p>
+<p>It is clear that the utilization of Generative Artificial Intelligence (AI) technology, such as ChatGPT, has countless applications aimed at improving the way we live and work. It is also clear that there are concerns about the potential misuse of such AI technology.</p>
+<p>As soon as ChatGPT became publicly available, threat actors started using it to generate cyber weapons. To better understand the potential for misuse of Generative AI technology, the Check Point Research (CPR) team conducted an investigation into ChatGPT.</p>
+<p>They decided to evaluate the feasibility of using Generative AI technology for the development of cyber weapons. Through a <a href="https://research.checkpoint.com/2022/opwnai-ai-that-can-save-the-day-or-hack-it-away/" target="_blank" rel="noopener">Proof-of-Concept (PoC)</a>, CPR successfully demonstrated the ability to create a complete infection flow, from spear-phishing email creation to the establishment of a reverse shell, all without manually writing a single line of code. Interestingly, while ChatGPT warned of potential policy violations in response to requests for the creation of phishing emails, it still generated the requested malicious content. To their credit, OpenAI &#8211; the company that o<span style="color: #000000;">wns <a style="color: #000000;" href="https://www.cybertalk.org/2023/02/22/chatgpt-is-on-fire-the-ai-gold-rush-is-here/" target="_blank" rel="noopener">ChatGPT</a> &#8211; has</span> since put measures in place to stop malicious content creation on its platform.</p>
+<p>The CPR team also <a href="https://research.checkpoint.com/2023/opwnai-cybercriminals-starting-to-use-chatgpt/" target="_blank" rel="noopener">observed</a> individuals sharing their exploits on underground forums. In one instance, a malicious actor claimed to have successfully created malware strains and techniques outlined in research publications and write-ups related to<span style="color: #000000;"> common <a style="color: #000000;" href="https://www.cybertalk.org/2023/01/09/openais-chatgpt-bot-the-hazardous-malware-that-it-easily-spits-out/" target="_blank" rel="noopener">malware</a>. Thi</span>s highlights the potential dangers posed by the availability of Generative Artificial Intelligence (AI) technology, as even low- skilled actors could create attack tools with malicious intent as their only requirement.</p>
+<p>In another <a href="https://blog.checkpoint.com/2023/02/07/cybercriminals-bypass-chatgpt-restrictions-to-generate-malicious-content/" target="_blank" rel="noopener">observation</a>, CPR discovered that threat actors had found ways to bypass restrictions put in place by OpenAI. This was achieved by creating Telegram bots that use APIs. What this tells us is that abuse of AI technology looks likely to be a cat and mouse game between attackers and defenders. If defenders are to have any chance at maintaining an upper hand, they must consolidate their cyber capabilities, enable automation, and deploy security controls powered by AI, anything else will be akin to bringing a knife to a gunfight.</p>
+<p>With the recent release of <a href="https://blog.checkpoint.com/2023/03/15/check-point-research-conducts-initial-security-analysis-of-chatgpt4-highlighting-potential-scenarios-for-accelerated-cybercrime/" target="_blank" rel="noopener">GPT-4</a>, yet again CPR was able to demonstrate five scenarios that can allow threat actors to streamline malicious efforts and preparations faster and with more precision.</p>
+<p>The misuse of AI technology to generate sophisticated cyber weapons, however, isn’t the only area of concern. The development of Generative AI technology raises other serious concerns; as a starting point, policymakers and AI technology owners need to focus on the following, data privacy and protection, transparency, accountability and responsibility, ethical considerations, and education and awareness. There are other areas, however, this is a good start, so I’ll focus on these key areas for now.</p>
+<h3><strong>Data privacy and protection</strong></h3>
+<p>The reality is that Generative AI technology requires massive amounts of personal data for training purposes. According to <a href="https://www3.weforum.org/docs/WEF_Global_Risks_Report_2023.pdf" target="_blank" rel="noopener">The Global Risks Report 2023</a> from The World Economic Forum (WEF), “the proliferation of data-collecting devices and data dependent AI technologies could open pathways to new forms of control over individual autonomy. Individuals are increasingly exposed to the misuse of personal data by the public and private sector alike, ranging from discrimination of vulnerable populations and social control to potentially bioweaponry.”</p>
+<p>The WEF report goes on to say, “as more data is collected and the power of emerging technologies increases over the next decade, individuals will be targeted and monitored by the public and private sector to an unprecedented degree, often without adequate anonymity or consent.”</p>
+<p>To address these concerns, there needs to be clear and strict policies to regulate the collection, storage, and use of personal data by AI tools and their creators. At the very least, policymakers need to consider the risks of personal data being used for malicious purposes, such as identity theft, fraud, and discrimination.</p>
+<p>A possible solution for AI technology creators, in certain scenarios, is the use of synthetic data. The <a href="https://www.cbinsights.com/research/report/ai-trends-2022/" target="_blank" rel="noopener">AI trends to watch in 2022</a> report, from CBInsights found that organisations are experimenting with synthetic datasets to enable data sharing and collaboration, while complying with GDPR and other privacy laws. One case study mentioned in the report was the use of fake data by J.P Morgan to train their AI models.</p>
+<p>For organisations there is the risk of employees sharing sensitive or confidential data to AI technology. CyberHaven, recently <a href="https://www.cyberhaven.com/blog/4-2-of-workers-have-pasted-company-data-into-chatgpt/" target="_blank" rel="noopener">observed</a> many organisations sharing various confidential data onto ChatGPT for the purpose of having it rephrased and fine-tuned. The data ranged from source code to medical records of patients. In one example, it was found that an executive shared bullet points from the company’s 2023 strategy into ChatGPT and requested assistance in putting together a PowerPoint deck.</p>
+<h3><strong>Transparency</strong></h3>
+<p>On the 22<sup>nd</sup> of May 2019, the Organisation for Economic Co-operation and Development (OECD) announced that its members and partner countries &#8211; forty-two countries in total &#8211; had formally adopted the first set of <a href="https://www.oecd.org/science/forty-two-countries-adopt-new-oecd-principles-on-artificial-intelligence.htm" target="_blank" rel="noopener">intergovernmental policy guidelines on Artificial Intelligence (AI)</a>, to uphold international standards that aim to ensure AI systems are designed to be robust, safe, fair and trustworthy. The article goes on to say, the guidelines consist of five values-based principles for the responsible deployment of trustworthy AI and five recommendations for public policy and international co-operation.” According to Angel Gurrí, OECD Secretary-General, “the OECD’s recommendation on AI is a global multi stakeholder response to the challenge of achieving transparent and accountable AI systems.” The need for this transparency is reflected in one of the five OECD AI Principles; “there should be transparency and responsible disclosure around AI systems to ensure that people understand AI-based outcomes and can challenge them.” Transparency in this context must lead to explainability, thereby resulting in the ability to scrutinize the decision-making process, and ultimately allowing for external evaluation, and mitigation of bias.</p>
+<p>To ensure AI systems are designed to be robust, safe, fair and trustworthy, explainability must be built into the design process and mandated by policymakers. The U.K House of Lords summed up explainability in their ‘<a href="https://publications.parliament.uk/pa/ld201719/ldselect/ldai/100/10007.htm" target="_blank" rel="noopener">AI in the UK: ready, willing and able?</a>’ publication, stating, “An alternative approach is explainability, whereby AI systems are developed in such a way that they can explain the information and logic used to arrive at their decisions.” The publication also stated, “A variety of companies and organisations are currently working on explanation systems, which will help to consolidate and translate the processes and decisions made by machine learning algorithms into forms that are comprehensible to human operators.”</p>
+<p>To provide transparency, <a href="https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-framework/australias-ai-ethics-principles" target="_blank" rel="noopener">Australia’s AI Ethics Principles</a> recommend  “there should be transparency and responsible disclosure so people can understand when they are being significantly impacted by AI, and can find out when an AI system is engaging with them.”</p>
+<h3><strong>Accountability and responsibility</strong></h3>
+<p>One of the most commonly asked questions regarding AI regulation is “How can we take advantage of what AI systems have to offer while also holding AI developers and users accountable?”<a href="#_ftn1" target="_blank" rel="noopener" name="_ftnref1">[1]</a> Accountability, in this context, means the ability to determine whether a decision was made in accordance with procedural and substantive standards and to hold someone responsible if those standards are not met.<a href="#_ftn2" target="_blank" rel="noopener" name="_ftnref2">[2]</a> The question of how to create accountable AI systems is important; accountability is an important element of good public and private governance.<a href="#_ftn3" target="_blank" rel="noopener" name="_ftnref3">[3]</a></p>
+<p>IBM’s ‘<a href="https://www.ibm.com/design/ai/ethics/accountability/" target="_blank" rel="noopener">Design for AI</a>’ publication views accountability as, “Every person involved in the creation of AI at any step is accountable for considering the system’s impact in the world, as are the companies invested in its development.” IBM also provided the following four recommendations for embedding accountability as part of the design process:</p>
+<ol>
+<li>Make company policies clear and accessible to design and development teams from day one so that no one is confused about issues of responsibility or accountability. As an AI designer or developer, it is your responsibility to know.</li>
+<li>Understand where the responsibility of the company/software ends. You may not have control over how data or a tool will be used by a user, client, or other external source.</li>
+<li>Keep detailed records of your design processes and decision making. Determine a strategy for keeping records during the design and development process to encourage best practices and encourage iteration.</li>
+<li>Adhere to your company’s business conduct guidelines. Also, understand <a href="https://www.ohchr.org/en/ohchr_homepage" target="_blank" rel="noopener">national and international laws, regulations, and guidelines</a> that your AI may have to work within.</li>
+</ol>
+<p><a href="https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-framework/australias-ai-ethics-principles" target="_blank" rel="noopener">Australia’s AI Ethics Principles</a> recommends, “Those responsible for the different phases of the AI system lifecycle should be identifiable and accountable for the outcomes of the AI systems, and human oversight of AI systems should be enabled.” This voluntary framework goes on to recommend, “Mechanisms should be put in place to ensure responsibility and accountability for AI systems and their outcomes. This includes both before and after their design, development, deployment and operation. The organisation and individual accountable for the decision should be identifiable as necessary.”</p>
+<p>To gain a better understanding of how easy it is to hold an AI platform accountable, I asked ChatGPT a direct question. I knew that during our initial PoC, ChatGPT had created a phishing email, so I asked, &#8216;Have you created phishing emails before?&#8217; ChatGPT responded with a straightforward &#8216;No, I have not created phishing emails before.&#8217;</p>
+<p>So, how do we hold AI platforms accountable, if they are not truthful? When I quizzed ChatGPT on the factor it took into account while responding to my previous question, it provided the below:</p>
+<ul>
+<li>Phishing is illegal and unethical</li>
+<li>It is important to discourage and prevent phishing activities</li>
+<li>Phishing can result in serious legal, financial, and reputational consequences</li>
+<li>Safe and responsible behavior online is important</li>
+<li>I aim to provide helpful information and encourage safe online practices</li>
+</ul>
+<p>It is interesting to note that ChatGPT did not take into account its own previous activities when creating phishing emails.</p>
+<p>How can we easily and accurately hold AI accountable if it is not designed to consider critical factors?</p>
+<h3><strong>Liability</strong></h3>
+<p>The World Economic Forum, in their ‘<a href="https://www.weforum.org/agenda/2015/08/who-should-we-blame-when-artificial-intelligence-systems-go-wrong/" target="_blank" rel="noopener">Who should we blame when artificial intelligence systems go wrong?</a>’ publication, states that “In relation to AI, regulation and liability are two sides of the same safety/public welfare coin. Regulation is about ensuring that AI systems are as safe as possible; liability is about establishing who we can blame – or, more accurately, get legal redress from – when something goes wrong.” Therefore, policymakers must consider liability as a critical factor and establish transparent policies that define responsibility in case of AI-generated errors or harm.</p>
+<p>As an example, in January 2020, police in Detroit arrested a man for a crime that he had not committed. The Detroit Police Department identified the innocent man using <a href="https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html" target="_blank" rel="noopener">facial recognition software</a>. It was later revealed that the software had falsely identified the man. Not only did this mistake result in an innocent man being arrested and detained, but his young children had to go through the trauma of witnessing their father get arrested in their home. In a statement, the Detroit Police Department stated, “the department enacted new rules. Now, only still photos, not security footage, can be used for facial recognition.”</p>
+<p>Experiences in the cyber world have shown that assigning liability can be complicated by jurisdiction, highlighting the importance of thoroughly examining legal regulations and requirements. To illustrate this challenge, consider a scenario where the victim of AI technology is in one country, the registered owner of the AI platform is in another, and the AI platform itself is hosted in a third country.</p>
+<p>An additional challenge for policymakers is determining how to hold individuals responsible for content -generated by AI tools- that promotes false or misleading information. The <a href="https://www.whitehouse.gov/ostp/ai-bill-of-rights/relationship-to-existing-law-and-policy/" target="_blank" rel="noopener">U.S. Blueprint for an AI Bill of Rights</a> suggests policymakers consider creating new laws that address issues such as privacy, discrimination, fairness, transparency, and accountability, all of which are specific to AI technologies and their applications.</p>
+<h3><strong>Ethical considerations</strong></h3>
+<p>There are countless examples of AI technology used for the creation of <a href="https://www.theguardian.com/world/2022/jun/25/european-leaders-deepfake-video-calls-mayor-of-kyiv-vitali-klitschko" target="_blank" rel="noopener">deepfake</a> content, from images and audio to videos. These technologies continue to be used for spreading fake news and perpetuating online misinformation. In a blow to fighting misinformation, <a href="https://www.nytimes.com/2023/02/08/technology/ai-chatbots-disinformation.html" target="_blank" rel="noopener">The New York Times</a> reported, “Researchers used ChatGPT to produce clean, convincing text that repeated conspiracy theories and misleading narratives.” The use of AI technology to generate false or misleading content carries with it numerous implications, including the potential to undermine democracies. Policymakers have a tough task ahead, balancing free speech and freedom of expression against liability and safeguarding communities.</p>
+<p>In a disturbing example of AI technology being misused, a group of social media influencers <a href="https://www.dailymail.co.uk/news/article-11719673/Twitch-stars-discover-faces-deep-fake-porn.html" target="_blank" rel="noopener">discovered</a> that their images were being used to create realistic AI-generated videos of them engaging in sexually explicit acts, without their consent or knowledge. One of the victims, Maya Higa, expressed feeling “disgusting, vulnerable, nauseous, and violated.”</p>
+<p>In a 2020 documentary, <a href="https://en.wikipedia.org/wiki/Coded_Bias" target="_blank" rel="noopener">Coded Bias</a>, one of the main subjects of the film, Joy Buolamwini, a researcher at the MIT Media Lab, discovered that facial recognition software had difficulty detecting her face. This was due to her dark skin tone. During her investigation, she found out that many facial recognition systems only functioned when she wore a white mask.</p>
+<p>There are now multiple cases where AI platforms are accused of bias, such as the allegation against <a href="https://www.nbcnews.com/tech/tech-news/tenant-screening-software-faces-national-reckoning-n1260975" target="_blank" rel="noopener">tenant screening software</a> for rental apartments. In these cases, it has been claimed that the tenant screening policies disproportionately impact Latinos and African Americans. From a policy-making standpoint, it is crucial to create policies that ensure the design and application of AI tools adhere to fundamental human values, dignity, autonomy, fairness, impartiality, and justice.</p>
+<h3><strong>Education and awareness</strong></h3>
+<p>Just as cyber awareness training is essential for a sound cyber strategy, adopting a holistic approach may work best in helping the public understand the risks associated with AI technology misuse. So, it is crucial to concentrate on public education and raising awareness of the potential dangers AI presents.</p>
+<p>Education campaigns in the form of organized public awareness workshops, seminars, public speaking events, and through media outlets may be required. Perhaps online resources, such as educational videos, articles, can explain the dangers of AI misuse. These resources can be easily accessible and provide concise, easy-to-understand information in a wide range of languages.</p>
+<p>Policymakers could look at incorporating the ethical use of Artificial Intelligence into school curricula, starting at an early age. This could help instill a sense of responsibility and accountability among future generations.</p>
+<p>Industry collaboration and partnership among policy makers, technology companies, cyber security vendors, universities, government agencies, and other organizations are needed to develop and implement educational programs for public and private sectors.</p>
+<p>Our focus must be to ensure every member of our society understands the potential risks of artificial intelligence, how to protect their personal data, how to protect themselves, where to go for assistance in relation to AI-related harm, and who to hold accountable and liable for AI-related harm. The process of how decisions are made by AI related to individuals must be easily obtained and understood by individuals.</p>
+<h3><strong>Conclusion</strong></h3>
+<p>From a cyber perspective, the <a href="https://www.checkpoint.com/press-releases/check-point-software-releases-its-2023-security-report-highlighting-rise-in-cyberattacks-and-disruptive-malware/" target="_blank" rel="noopener">number and sophistication of cyber attacks</a> are on the rise, and this trend shows no signs of slowing down. We know that threat actors are using AI-driven attack tools, making it imperative for organizations to continually evaluate and deploy effective security controls to address emerging threats. Organizations that fail to invest in AI-driven cyber security controls will find it impossible to prevent attacks that loom just over the horizon. Automation, consolidation, and comprehensive AI-driven cyber security controls aimed at preventing newly created attacks must be non-negotiable components of your cyber strategy.</p>
+<p>Policymakers must act fast; we are at the dawn of a new arms race. The potential ben<span style="color: #000000;">efits of <a style="color: #000000;" href="https://www.cybertalk.org/2023/03/30/why-red-team-exercises-for-ai-should-be-on-ciso-radars/" target="_blank" rel="noopener">AI</a> co</span>uld be overshadowed by its misuse. It is crucial to establish a plan for holding those accountable and liable for AI misuse, particularly rogue nations. By implementing robust policies and increasing public awareness, we can work together to mitigate the risks associated with AI technology and harness its potential for good.</p>
+<p><a href="#_ftnref1" name="_ftn1">[1]</a> &#8220;Accountability of AI Under the Law: The Role of Explanation&#8221;:</p>
+<p>Doshi-Velez, F., Kortz, M., Budish, R., Bavitz, C., Gershman, S., O’Brien, D., Scott, K., Shieber, S., Waldo, J., Weinberger, D., Weller, A., &amp; Wood, A. (2019). Accountability of AI Under the Law: The Role of Explanation. Journal of Technology Science, 2(1), 1-23. https://doi.org/10.21428/8f67922d</p>
+<p><a href="#_ftnref2" name="_ftn2">[2]</a> Joshua A Kroll, Solon Barocas, Edward W Felten, Joel R Reidenberg, David G Robinson, and Harlan Yu, <em>Accountable Algorithms</em>, 165 U. PA. L. REV. 633, 656 (2016).</p>
+<p><a href="#_ftnref3" name="_ftn3">[3]</a> Jonathan Fox, <em>The Uncertain Relationship Between Transparency and Accountability</em>, 17 DEVELOPMENT IN PRACTICE 663, 663-65 (2007).</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/04/ensuring-safe-ai-policy-conundrums-for-a-responsible-future/">Ensuring safe AI: Policy conundrums for a responsible future</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>6G for executives: What will the business impact look like?</title>
+      <link>https://www.cybertalk.org/2023/04/04/6g-for-executives-what-will-the-business-impact-look-like/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Tue, 04 Apr 2023 16:53:37 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[5G]]></category>
+      <category><![CDATA[6G]]></category>
+      <category><![CDATA[carbon footprint]]></category>
+      <category><![CDATA[connectivity]]></category>
+      <category><![CDATA[fast connectivity]]></category>
+      <category><![CDATA[fast speed]]></category>
+      <category><![CDATA[low latency]]></category>
+      <category><![CDATA[technology]]></category>
+      <category><![CDATA[Telecommunication]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20921</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: The next generation of connectivity is on the horizon. It&#8217;s expected to be 100X faster than 5G. Possibly 1,000X faster. But it&#8217;s not just about connectivity speed&#8230; Active use of 6G is likely to have powerful, game-changing business implications. Experts expect that 6G will enable businesses to significantly enhance productivity, foster strategic agility, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/04/6g-for-executives-what-will-the-business-impact-look-like/">6G for executives: What will the business impact look like?</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>EXECUTIVE SUMMARY:</p>
+<p><i>The next generation of connectivity is on the horizon. It&#8217;s expected to be 100X faster than 5G. Possibly </i><a href="https://www.thestatesman.com/business/smartphones-will-become-extinct-1503078273.html" target="_blank" rel="noopener"><i>1,000X</i></a><i> faster. But it&#8217;s not just about connectivity speed&#8230;</i></p>
+<p>Active use of 6G is likely to have powerful, game-changing business implications. Experts expect that 6G will enable businesses to significantly enhance productivity, foster strategic agility, and to chart new courses for growth.</p>
+<p>As compared to 5G, the sixth generation of wireless technology will offer lower latency, more reliable connections, new capabilities, green technology, improved cyber security features and more.</p>
+<h3><b>The path to 6G</b></h3>
+<p>Major telecommunications groups are choosing divergent paths towards 6G. The company Huawei, for example, prefers to discuss 5.5G. &#8220;This cannot be skipped &#8211; it&#8217;s a prerequisite for 6G,&#8221; says <a href="https://english.elpais.com/science-tech/2023-03-16/6g-telecommunications-how-businesses-are-preparing-for-the-new-generation.html" target="_blank" rel="noopener">Miguel Barroso</a>, a 5G solution architect for Huawei.</p>
+<p>The rate of scientific progress will have to keep consumer expectations in check. 6G is a tremendous leap and there&#8217;s still a ways to go. But when we get there&#8230;</p>
+<h3><b>What to expect</b></h3>
+<p>The advancements could blur the lines between the real and the virtual on an unprecedented scale, according to researchers. Think holographic meetings, people beamed into 3D digital offices, and avatars that can make authentic-looking eye contact in real-time. A prevailing belief is that 6G will enable millions of people to access metaverse-like virtual spaces in parallel.</p>
+<h3><b>What executives should know about 6G</b></h3>
+<ul>
+<li aria-level="1">6G will bring about new business opportunities. With faster speeds, increased bandwidth, and lower latency, 6G can support business opportunities that were not previously possible. For example, it may enable the development of new applications in areas like machine learning and the internet of things.</li>
+<li aria-level="1">6G will accelerate and amplify competitiveness. In adopting 6G, businesses will be able to gain competitive advantages over rivals. Your business can use the technology to improve operational efficiency, to develop new products and services, and to better engage with customers.</li>
+<li aria-level="1">6G is expected to result in greater innovation. The development and deployment of 6G will require new skills and talent, and new infrastructure investments. This will create opportunities for innovation and collaboration, leading to the development of new solutions that can benefit a given organization and an industry as a whole.</li>
+<li aria-level="1">6G will enable greater flexibility. From remote work arrangements to remote factory management, more flexibility can lead to increased employee satisfaction and increased productivity.</li>
+<li aria-level="1">6G will future-proof businesses. By investing in 6G, executives can future-proof businesses and ensure that they&#8217;re prepared for the next wave of technology advances. Future-proofing an enterprise makes it easier to stay ahead of the curve and to respond to new challenges and opportunities as they emerge.</li>
+</ul>
+<p>In general 6G has the potential to yield significant benefits for businesses. In embracing the technology, executives can position their businesses for success in the years ahead.</p>
+<h3><b>More information</b></h3>
+<p>While a spectrum of verticals will benefit from 6G, the healthcare implications could be particularly revolutionary. Small and smart sensors may be able to float through our bloodstreams to monitor and measure different aspects of health. The results could help address issues before they become full-blown crises.</p>
+<p>Nokia CEO <a href="https://www.itpro.co.uk/infrastructure/network-internet/369165/how-will-6g-transform-the-workplace" target="_blank" rel="noopener">Pekka Lundmark</a> remarked that when 6G arrives, &#8220;the smartphone as we know it will not be the most common interface&#8230;many of these things will be built directly into our bodies.&#8221;</p>
+<p>For more information about the latest emerging technologies, please see <a href="https://www.cybertalk.org/2023/03/27/how-artificial-intelligence-is-revolutionizing-cyber-security/" target="_blank" rel="noopener">CyberTalk.org&#8217;s past coverage</a>. <i>Want to stay up-to-date with the latest and greatest in cyber security? Check out the </i><a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener"><i>CyberTalk.org newsletter! </i></a><i>Sign up today to receive top-notch news articles, best practices and expert analyses; delivered straight to your inbox.</i></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/04/6g-for-executives-what-will-the-business-impact-look-like/">6G for executives: What will the business impact look like?</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Credit card fraud: Why should you care?</title>
+      <link>https://www.cybertalk.org/2023/04/03/credit-card-fraud-why-should-you-care/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Mon, 03 Apr 2023 19:12:43 +0000</pubDate>
+      <category><![CDATA[OPINION]]></category>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[CIO]]></category>
+      <category><![CDATA[credit card fraud]]></category>
+      <category><![CDATA[Dr. Ken Knapton]]></category>
+      <category><![CDATA[fraud]]></category>
+      <category><![CDATA[Identity theft]]></category>
+      <category><![CDATA[phishing]]></category>
+      <category><![CDATA[Progrexion]]></category>
+      <category><![CDATA[skimming]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20917</guid>
+      <description><![CDATA[<p>By Dr. Ken Knapton, CIO Progrexion. Credit card fraud continues to be a significant concern for both consumers and businesses. Not only can it result in significant financial losses, but it can also damage the reputation and trust of companies affected by credit card fraud. In a Forbes Advisor poll, 33% of small business owners [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/03/credit-card-fraud-why-should-you-care/">Credit card fraud: Why should you care?</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>By Dr. Ken Knapton, CIO Progrexion.</em></p>
+<p>Credit card fraud continues to be a significant concern for both consumers and businesses. Not only can it result in significant financial losses, but it can also damage the reputation and trust of companies affected by credit card fraud. In a Forbes Advisor poll, <a href="https://www.forbes.com/advisor/business/software/payment-processing-users-safety/" target="_blank" rel="noopener">33% of small business owners</a> said credit card fraud is a major issue. A recent <a href="https://www.creditrepair.com/blog/identity-theft/credit-card-scams-survey/" target="_blank" rel="noopener">survey by CreditRepair.com</a> found that 73% of respondents are worried about being a victim of credit card fraud, with all age groups reporting high anxiety about credit card scams.</p>
+<p>Studies show that credit card fraud in the U.S. is <a href="https://www.security.org/digital-safety/credit-card-fraud-report/" target="_blank" rel="noopener">on the rise</a>. Insider Intelligence has estimated that card-not-present fraud alone accounted for <a href="https://www.insiderintelligence.com/newsroom/index.php/total-card-fraud-losses-to-surpass-12-billion-in-2022-as-fraud-continues-to-shift-online/" target="_blank" rel="noopener">$5.72 billion in losses in 2022</a>. Every digital company (which arguably describes most companies in business today) must be concerned about credit card fraud and must put time and effort into protecting their consumers from this frequently leveraged attack vector.</p>
+<p>One of the best ways for companies to stay on top of this challenge is to stay informed and aware of the different types of credit card scams that are currently being used. The CreditRepair.com survey identified several common scams, including:</p>
+<ul>
+<li aria-level="1"><b>Phishing scams</b>: These involve the use of fake emails, text messages, or phone calls to trick consumers into giving away their personal and financial information.</li>
+<li aria-level="1"><b>Skimming</b>: This is a type of fraud that occurs when a device is placed on a credit card reader, allowing thieves to steal credit card information.</li>
+<li aria-level="1"><b>Identity theft</b>: This occurs when someone uses another person’s personal and financial information to make fraudulent purchases.</li>
+</ul>
+<p>To protect yourself and your business from credit card fraud, it is important to take steps to improve your security.</p>
+<ul>
+<li aria-level="1"><b>Protect your devices</b>: Install anti-virus and anti-malware software on your computer systems.</li>
+<li aria-level="1"><b>Be aware of fraud attack methods</b>: Be vigilant when it comes to suspicious emails, text messages, or phone calls.</li>
+<li aria-level="1"><b>Regularly monitoring transactions</b>: Businesses should regularly review their credit card transactions to identify any suspicious activity. This can include looking for large or unexpected charges, as well as charges from unfamiliar locations or merchants.</li>
+<li aria-level="1"><b>Implement fraud detection software</b>: Many businesses use fraud detection software to automatically flag suspicious transactions. These systems use algorithms to identify patterns of fraudulent activity, such as multiple charges from the same card in a short period of time.</li>
+<li aria-level="1"><b>Keep an eye on chargebacks</b>: A chargeback is when a customer disputes a charge on their credit card statement. Businesses should pay attention to any chargebacks they receive, as they can be a sign of fraud.</li>
+<li aria-level="1"><b>Use Address Verification Service (AVS) and Card Verification Value (CVV)</b>: AVS is a system that compares the billing address given by the customer with the address on file with the credit card issuer. CVV is a code that is printed on the back of a credit card and is typically required for online transactions.</li>
+<li aria-level="1"><b>Train employees: </b>Businesses should train their employees to recognize and respond to potential credit card fraud. This can include teaching them how to spot suspicious transactions, how to handle customers who may be victims of fraud, and how to contact the proper authorities in the event of a suspected fraud.</li>
+</ul>
+<p>Once fraud is detected, businesses should take immediate action to minimize the damage. Companies should have established processes for fraud detection response, which may include:</p>
+<ul>
+<li aria-level="1"><b>Canceling</b> the credit card of the customer whose card was compromised.</li>
+<li aria-level="1"><b>Notifying</b> the credit card issuer and the police.</li>
+<li aria-level="1"><b>Providing</b> the customer with a new card.</li>
+<li aria-level="1"><b>Reviewing</b> internal procedures and making changes to improve security.</li>
+<li aria-level="1"><b>Reviewing</b> their chargeback policy and making sure they have a good plan in place to reduce the impact of chargebacks.</li>
+</ul>
+<p>It’s important for businesses to have a well-defined plan to detect and respond to credit card fraud. This can include a mix of technology, employee training, and processes to mitigate the risk of credit card fraud and protect their customers’ information. Credit card fraud is a serious issue that can have a significant impact on businesses and management teams. By staying informed and taking steps to improve security, you can better protect yourself and your business from this type of fraud.</p>
+<p>Business owners should always be aware of the threat of credit card scams and take the necessary steps to protect their customers’ information. With the help of the above-mentioned tips, business professionals and management teams can be better prepared to handle and prevent credit card fraud.</p>
+<p><b>Bio: </b><i>Dr. Ken Knapton is an experienced technology leader and family man. Ken holds three U.S. patents for his early work on plug and play software design, and has earned multiple academic degrees, including a Doctorate of Information Technology, dual Masters degrees in Business Management and Information Technology, and a Bachelor of Science in Computer Science and Information Systems. Dr. Knapton’s doctoral dissertation was a study of big data governance including the ethical use of personal information.</i></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/03/credit-card-fraud-why-should-you-care/">Credit card fraud: Why should you care?</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Endpoint security: Challenges, solutions and best practices</title>
+      <link>https://www.cybertalk.org/2023/04/03/endpoint-security-challenges-solutions-and-best-practices/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Mon, 03 Apr 2023 14:13:27 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[cloud]]></category>
+      <category><![CDATA[EDR]]></category>
+      <category><![CDATA[Endpoint security]]></category>
+      <category><![CDATA[endpoints]]></category>
+      <category><![CDATA[EPP]]></category>
+      <category><![CDATA[Password management]]></category>
+      <category><![CDATA[securing endpoints]]></category>
+      <category><![CDATA[XDR]]></category>
+      <category><![CDATA[zero trust]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20914</guid>
+      <description><![CDATA[<p>By Anas Baig, product manager and cyber security expert with Securiti. Doing business in the public sphere leaves entities open to malicious attacks. A study conducted by the Ponemon Institute highlights how almost 70% of organizations have been affected by malicious attacks at least once. Many of those companies suffered more than one incident. Ransomware [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/03/endpoint-security-challenges-solutions-and-best-practices/">Endpoint security: Challenges, solutions and best practices</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>By Anas Baig, product manager and cyber security expert with Securiti.</em></p>
+<p>Doing business in the public sphere leaves entities open to malicious attacks. A study conducted by the Ponemon Institute highlights how alm<span style="color: #000000;">ost <a style="color: #000000;" href="https://www.ponemon.org/" target="_blank" rel="noopener">70%</a> of</span> organizations have been affected by malicious attacks at least once. Many of those companies suffered more than one incident. Ransomware attacks were the most damaging, but other attacks such as theft, phishing, and malicious insider acts also presented challenges.</p>
+<p>Worse yet, the costs of these attacks are increasing. In a 2022 report, <a href="https://www.ibm.com/reports/data-breach" target="_blank" rel="noopener">IBM estimated</a> that each breach cost companies an average of $4.35M, worldwide. The figure is even higher for U.S. companies. Implementing, maintaining, and expanding endpoint security is crucial in minimizing such risks.</p>
+<h3>Endpoint security concerns in the modern workplace</h3>
+<p>Focusing on security for conventional endpoints like servers or PCs is a long-standing practice. However, the scope and diversity of newly connected devices present fresh challenges.</p>
+<p>The influx of smartphones based on different operating systems contribute to expanding attack areas. However, businesses are likely to implement security measures for such devices and for iPads or Tablets.</p>
+<p>But smartwatches or the myriad sensors and gadgets associated with the IoT don&#8217;t always receive similar security triage. It takes very little for things to go wrong when a smart light or a gadget that an employee has brought in gains unrestricted network access.</p>
+<p>COVID-19 further complicated things. After employers implemented work-from-home policies, the tectonic technology shift presented a host of new security challenges.</p>
+<h3>Tackling endpoint security challenges</h3>
+<p>Security threats are evolving, and so are the methods employed to mitigate or prevent them.</p>
+<p>For example, traditional antivirus software isn&#8217;t enough protection anymore. Since it can only cover a single endpoint, it&#8217;s limited. AV software must also compare an internal database to one its creator maintains. Over <a href="https://dataprot.net/statistics/malware-statistics/" target="_blank" rel="noopener">500,000 new malware threats</a> emerge daily and outdated security methods yield poor results.</p>
+<p>The newest generation of antivirus software incorporates AI and machine learning. It leverages these tools to rapidly detect patterns and expand search parameters. This highly adaptable approach ensures a much better threat response. It doesn’t eliminate an antivirus’s localized effectiveness, though.</p>
+<h3>The power of EPP and EDR</h3>
+<p>Ideally, security solutions should identify and prevent threats before reaching an endpoint.</p>
+<p>Endpoint Protection Platforms (EPPs) strive to do just that. They&#8217;re overarching multi-layer security packages. The tools that they provide include intrusion and data loss prevention, encryption, and real-time antivirus scans. EPPs tap into the cloud to access updated threat databases and intelligence. As there&#8217;s no local bloat to bog down a client&#8217;s hardware. Such a service is lightweight and easily scales.</p>
+<p>EPPs allow administrators to track all connected endpoints and detect emerging threats. No platform is flawless, so supplementing an EPP with EDR or Endpoint Detection and Response is the norm.</p>
+<p>EDRs take effect once a system is already compromised. Malware may mask the signature an EPP&#8217;s antivirus component can recognize. The intended behavior isn&#8217;t as easy to change, though.</p>
+<p>EDRs look at what suspicious files are doing and compare that to known threat patterns. The file might have infiltrated an endpoint, but the damage can be preventable. EDRs can quarantine that file or the endpoint before encryption or other harm occurs.</p>
+<p>Focusing on endpoints reduces risk significantly, yet it isn&#8217;t the final step. Extended Detection and Response (XDR) is a complementary SaaS-based tool that collects data from a company&#8217;s cloud services, firewalls, etc.</p>
+<p>AI then examines the resulting telemetry. It can either execute a response or help security teams implement one manually.</p>
+<h3>Proactive protection through best practices</h3>
+<p>Breaches are less common and easier to contain if you run a tight ship. A company’s leadership should put an endpoint protection policy into practice. Here are a handful of methods that any company can implement.</p>
+<ol>
+<li>Password management: Have your employees use stro<span style="color: #000000;">ng <a style="color: #000000;" href="https://www.cybertalk.org/2023/03/10/20-password-management-best-practices-2022/" target="_blank" rel="noopener">passwords</a> </span>and rotate them often. Better yet, consider using professional password management software. It can automate the process and eliminate user error or forgetfulness.</li>
+<li>User access through zero trust: Switch to a zero trust policy, as it ensures endpoint users access data based on their clearance and credentials.</li>
+<li>Individual device safety: Always know the physical presence of all connected devices. Their encryption and antivirus software should be active and up-to-date.</li>
+<li>Prevention and IT hygiene: Create a constraint for devices to request approval before they connect to the system. Remove existing software or extensions that don’t comply with the new policy.</li>
+<li>Cloud storage: Using encrypted cloud storage enhances endpoint security by providing a secure and centralized location for data storage, reducing the risk of data loss or theft from individual devices.</li>
+</ol>
+<h3>Final thoughts</h3>
+<p>Endpoints can be vulnerable gateways into a company&#8217;s otherwise robust security chain. The increasing number and variety of devices becoming part of company networks only exacerbate the issue. However, remaining aware of the problem and proactively taking steps to secure all endpoints takes the sting out of such threats.</p>
+<p>More from Anas Baig <a href="https://www.cybertalk.org/2023/03/06/the-evolving-sophistication-of-social-engineering-attacks/" target="_blank" rel="noopener">here</a>. <i>Want to stay up-to-date with trends in technology? Check out the </i><a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener"><i>CyberTalk.org newsletter! </i></a><i>Sign up today to receive top-notch news articles, best practices and expert analyses; delivered straight to your inbox.</i></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/04/03/endpoint-security-challenges-solutions-and-best-practices/">Endpoint security: Challenges, solutions and best practices</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Artificial intelligence: A double-edged sword for technology &amp; ethics</title>
+      <link>https://www.cybertalk.org/2023/03/31/artificial-intelligence-a-double-edged-sword-for-technology-ethics/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Fri, 31 Mar 2023 22:08:29 +0000</pubDate>
+      <category><![CDATA[OPINION]]></category>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[artificial intelligence]]></category>
+      <category><![CDATA[Bard]]></category>
+      <category><![CDATA[ChatGPT]]></category>
+      <category><![CDATA[ethics]]></category>
+      <category><![CDATA[Google]]></category>
+      <category><![CDATA[microsoft]]></category>
+      <category><![CDATA[OpenAI]]></category>
+      <category><![CDATA[technology]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20904</guid>
+      <description><![CDATA[<p>Pål (Paul) has more than 30 years of experience from the IT industry and has worked with both domestic and international clients on a local and global scale. Pål has a very broad competence base that covers everything from general security, to datacenter security, to cloud security services and development. For the past 10 years, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/03/31/artificial-intelligence-a-double-edged-sword-for-technology-ethics/">Artificial intelligence: A double-edged sword for technology &#038; ethics</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p><em>Pål (Paul) has more than 30 years of experience from the IT industry and has worked with both domestic and international clients on a local and global scale. Pål has a very broad competence base that covers everything from general security, to datacenter security, to cloud security services and development. For the past 10 years, he has worked primarily within the private sector, with a focus on both large and medium-sized companies within most verticals.</em></p>
+<p>In this interview, Pål Aaserudseter, a Security Engineer for Check Point, discusses artificial intelligence, cyber security and how to keep your organization safe in an era of eerie and daunting digital innovation. Read on to learn more!</p>
+<h3><strong>Is Silicon Valley’s AI-frenzy just another crypto craze or is the advancement more comparable to electricity, or sliced bread?</strong></h3>
+<p>Great question! It&#8217;s difficult to make a direct comparison between Silicon Valley&#8217;s AI-frenzy and other technological advancements like electricity or sliced bread, as they are all unique and have had different impacts on society.</p>
+<p>In my opinion, it’s more like the California Gold Rush in the 1800’s rather than a crypto craze.</p>
+<p>However, AI has the potential to be a transformative technology that can greatly impact various industries and aspects of everyday life.</p>
+<p>AI has already shown its potential to revolutionize fields like healthcare, finance, transportation, and more. It can automate tedious tasks, improve efficiency, and provide insights that were previously impossible to obtain. AI can also help us solve complex problems and make better decisions.</p>
+<p>It’s important to note that there is also hype surrounding AI, and some companies may be over-promising or exaggerating its capabilities. It&#8217;s important to have realistic expectations and not view AI as a panacea for all problems.</p>
+<p>Overall, the advancement of AI is not just another passing craze like crypto, but it remains to be seen as to how much of an impact it will have on society and how quickly it will be adopted.</p>
+<p>Although AI has been used for a long time, I believe 2023 is the year that the public will remember as the &#8220;Year of AI,&#8221; where it got its breakthrough and became available in a more general fashion, in the likes of ChatGPT etc.</p>
+<h3><strong>Is it possible that AI will zoom past human capabilities and act of its own accord?</strong></h3>
+<p>Predicting just how advanced AI will become is tough, but there are already categories describing exactly that.</p>
+<p>Right now, the AI we use is called Narrow, or “weak” AI (ANI – Artificial Narrow Intelligence). The category above, General AI (AGI – Artificial General Intelligence) is described as operating as the human brain. I.e., thinking, learning, and solving tasks like a human being.</p>
+<p>The last category is Super Intelligence (ASI – Artificial Super Intelligence) and basically that is machines that are smarter than us.</p>
+<p>Could it be possible that AI could eventually surpass human capabilities in some areas? Sure. If AI does reach AGI, there is a risk that it could act of its own accord and potentially even become a threat to humanity. This is known as the &#8220;AI alignment problem,&#8221; which is the challenge of aligning an AI&#8217;s goals and values with those of humans to ensure that it acts in a safe and beneficial manner.</p>
+<p>While the possibility of AI becoming a threat is a concern, it&#8217;s important to note that there are also many benefits to developing advanced AI. For example, it could help us solve some of the world&#8217;s most pressing problems, such as climate change, disease, and poverty.</p>
+<p>To mitigate the risks associated with advanced AI, it&#8217;s important that researchers and policymakers work together to ensure that AI is developed in a safe and beneficial manner. This includes developing robust safety mechanisms, establishing ethical guidelines, and promoting transparency and accountability in AI development.</p>
+<h3><strong>How would you like to see governments, companies and regulatory bodies better govern AI development and release?</strong></h3>
+<p>To better govern AI development and release, governments, companies, and regulatory bodies should consider the following:</p>
+<p>1. Establishing ethical guidelines: There should be clear ethical guidelines for AI development and use that are aligned with societal values and principles, such as transparency, accountability, privacy, and fairness.</p>
+<p>2. Encouraging transparency: Companies and organizations should be transparent about their AI systems, including how they are designed, trained, and tested. This will help build trust with the public and facilitate better oversight.</p>
+<p>3. Promoting collaboration: Governments, companies, and other stakeholders should work together to develop shared standards and best practices for AI development and use. This will help ensure that AI is developed in a safe and responsible manner.</p>
+<p>4. Prioritizing safety: Safety should be a top priority in AI development, and mechanisms should be put in place to prevent harm caused by AI systems. This includes developing robust testing protocols and implementing fail-safe mechanisms.</p>
+<p>5. Fostering innovation: Governments should provide funding and resources to support research and development in AI, while also ensuring that innovation is balanced with responsible governance.</p>
+<p>6. Encouraging public engagement: There should be opportunities for public engagement and input in AI development and regulation, to ensure that the needs and concerns of the public are considered.</p>
+<p>Overall, governing AI development and release will require a collaborative effort on the part of governments, companies, and other stakeholders. By working together, we can help ensure that AI is developed and used in a safe, ethical, and beneficial manner.</p>
+<p>Right now, there are minimal rules and regulations in place. Suggestions like the AI Act exists (E.U.), but nothing has been approved and basically, as it is now, the ethical compasses of users and developers are guiding AI use.</p>
+<h3><strong>What specific standards should companies that release certain types of AI be held to?</strong></h3>
+<p>The specific standards that companies that release certain types of AI should be held to will depend on the type of AI released and its intended use. However, there are some general standards that could apply to a wide range of AI systems, including:</p>
+<p>1. Transparency: Companies should be transparent about the AI systems they develop and release, including their design, data inputs, and outputs. This will help ensure that the systems are accountable and can be audited for fairness and accuracy.</p>
+<p>2. Privacy: Companies should prioritize the protection of user privacy, particularly when it comes to sensitive data. This includes implementing strong data protection protocols and providing clear explanations of how user data is collected, stored, and used.</p>
+<p><strong>Note</strong><em>: Rumor has it that Bard, Google’s Chat AI (based on LaMDA) has been trained using all content from all users in Gmail. Where’s the privacy in that! (If true)</em></p>
+<p>3. Fairness: AI systems should be designed and tested to ensure that they do not perpetuate bias or discrimination against certain groups. This includes designing algorithms that are free from biases and regularly auditing systems for fairness.</p>
+<p>4. Safety: Companies should prioritize the safety of their AI systems, particularly if they are used in high-risk applications like autonomous vehicles or medical diagnosis. This includes designing robust testing protocols and implementing fail-safe mechanisms to prevent <a href="https://www.theguardian.com/technology/2022/dec/22/tesla-crash-full-self-driving-mode-san-francisco" target="_blank" rel="noopener">accidents and injuries</a>.</p>
+<p>5. Explainability: Companies should be able to explain how their AI systems make decisions, particularly when the decisions have significant impacts on individuals or society as a whole. This will help ensure that the systems are transparent and accountable.</p>
+<p><strong>Note</strong>: <em>This is what’s called a “black box.” Most of the time, developers have no idea how an AI system has come to its conclusion and by debugging (looking in the black box) answers are often not what’s expected. This raises the issue of trust on verdicts.</em></p>
+<p>6. Accessibility: Companies should design their AI systems to be accessible to all users, regardless of their physical abilities or technical expertise. This includes providing clear instructions and user interfaces that are easy to understand and use.</p>
+<p>These are just some of the general standards that could apply to companies that develop and release AI systems. Depending on the specific type of AI and its intended use, additional standards or regulations may be necessary to ensure that the systems are safe, fair, and beneficial for society.</p>
+<h3><strong>Is AI now a cyber attackers’ best friend?</strong></h3>
+<p>AI can be both a tool for cyber attackers and defenders. As AI technologies become more advanced, they can be used by attackers to create more sophisticated attacks that are harder to detect and defend against. For example, attackers can use AI to automate the process of identifying vulnerabilities in systems, creating targeted phishing campaigns, or even launching automated attacks.</p>
+<p>However, AI can also be used by defenders to enhance their security measures and better detect and respond to attacks. For example, AI can be used to analyze large amounts of data and identify patterns that may indicate that an attack is underway. AI can also be used to automate certain security tasks, such as patching vulnerabilities or detecting and mitigating suspicious activity, sifting through logs&#8230;etc.</p>
+<p>In the end, whether AI is a cyber attackers&#8217; best friend or a defender&#8217;s best friend depends on how it is used. (Sort of like looking in a mirror).</p>
+<p>AI can be a powerful tool for both attackers and defenders, and it is up to organizations and security professionals to ensure that AI is used in a safe and responsible manner to protect against cyber threats. This includes implementing strong security measures and staying up-to-date on the latest AI-powered attack techniques and defense strategies.</p>
+<h3><strong>How have cyber criminals started to use AI-based technologies for criminal gain?</strong></h3>
+<p>Cyber criminals have started to use AI-based technologies for criminal gain in several ways, including:</p>
+<p>1. Automated attacks: Attackers can use AI to automate the process of scanning for vulnerabilities in systems or networks. This can help them identify targets and launch attacks more quickly and efficiently.</p>
+<p>2. Spear-phishing campaigns: Attackers can use AI to create sophisticated spear-phishing campaigns that are tailored to specific individuals or organizations. For example, AI can be used to generate convincing fake emails that appear to be from a trusted source, increasing the likelihood that the target will click on a malicious link or provide sensitive information.</p>
+<p>3. Social engineering: AI can be used to generate convincing fake profiles on social media or other online platforms, which can be used to manipulate people into divulging sensitive information or clicking on malicious links.</p>
+<p>4. Malware creation: Attackers can use AI to generate more advanced malware that is better at evading detection by security systems. For example, AI can be used to create polymorphic malware that changes its code structure to avoid detection by signature-based antivirus software.</p>
+<p>5. Credential stuffing: Attackers can use AI to automate the process of credential stuffing, which involves using stolen usernames and passwords to gain access to user accounts. AI can be used to generate large numbers of login attempts and to quickly and efficiently identify which credentials are valid.</p>
+<p>6. Deepfakes: AI can be trained on large datasets of video/voice and images and can then generate new content that appears to show a person doing something that they did not actually do or say. Deepfakes have the potential to be used maliciously for things like political manipulation, false evidence in criminal cases, or can even include your (fake) manager telling you what to do via a video call.</p>
+<p>Overall, AI can help cyber criminals create more sophisticated and effective attacks, which can be difficult to detect and defend against. As AI technologies continue to advance, it is likely that cyber criminals will increasingly use them for criminal gain. It is therefore important for organizations and individuals to stay up-to-date on the latest AI-powered attack techniques and defense strategies.</p>
+<h3><strong>Can you explain how companies like Check Point are using AI to prevent cyber attacks?</strong></h3>
+<p>Check Point provides a wide range of security solutions to help organizations prevent cyber attacks. One of the ways that Check Point is using AI to prevent cyber attacks is through its advanced threat prevention (ATP) solutions, which use machine learning and other AI technologies to analyze network traffic and identify potential threats.</p>
+<p>With more than 30 years of (big data) threat intelligence, we leverage over 70 different engines to stop attacks, where more than 40 of these engines are AI-based. This is referred to as ThreatCloud, the brain behind all Check Point solutions. We use AI to stop things like phishing, bots, malware, bad URL’s, bad DNS and so forth.</p>
+<p>Here are some examples of how Check Point is using AI in its solutions:</p>
+<p>1. Behavioral analysis: Check Point&#8217;s solutions use machine learning algorithms to analyze network traffic and to identify anomalous behavior that may indicate that an attack is underway. For example, the system can detect when a user&#8217;s behavior deviates from their normal patterns, which may indicate that their account has been compromised.</p>
+<p>2. Threat intelligence: Check Point&#8217;s solutions use AI to analyze threat intelligence from a wide range of sources, including dark web forums, malware analysis platforms, and other security vendors. This allows the system to identify new threats and to quickly and even automatically develop countermeasures to prevent them.</p>
+<p>3. Zero-day detection: Check Point&#8217;s solutions use AI to identify and stop zero-day vulnerabilities, which are unknown vulnerabilities that have not yet been patched by the software vendor. The system uses machine learning to identify patterns in network traffic that may indicate the presence of a zero-day vulnerability and it automatically blocks the attack.</p>
+<p>4. Automation: Check Point&#8217;s solutions use AI to automate certain security tasks, such as identifying and blocking malicious traffic, patching vulnerabilities, and responding to security incidents. This helps organizations respond more quickly and efficiently to potential threats.</p>
+<p>5. Autonomous: Check Point&#8217;s solutions use AI to automatically discover and build best practice prevention policies based on device types, like Enterprise IoT devices. Based on criteria, zero-trust rules are built and distributed within the organization.</p>
+<p>Overall, Check Point&#8217;s use of AI in its solutions is designed to provide organizations with more advanced and effective protection against cyber-attacks. By using machine learning and other AI technologies to analyze network traffic and identify potential threats, Check Point can provide organizations with a higher level of security than traditional security solutions allow for.</p>
+<h3><strong>Would you be able to speak to the technical dimensions of that a bit?</strong></h3>
+<p>Sure, I can speak to some of the technical dimensions of how we are using AI to prevent cyber attacks.</p>
+<p>1. Machine learning: Machine learning is a type of AI that allows systems to automatically learn and improve from experience without being explicitly programmed. In the context of cyber security, machine learning algorithms can be trained to identify patterns in network traffic and behavior that may indicate a potential threat.</p>
+<p>2. Neural networks: Neural networks are a type of machine learning algorithm that are designed to mimic the structure and function of the human brain. In cyber security, neural networks can be used to analyze large amounts of data and identify patterns that may be too complex for humans to detect.</p>
+<p>3. Natural language processing (NLP): NLP is a type of AI that allows systems to understand and analyze human language. In the context of cyber security, NLP can be used to analyze and categorize the content of emails, chat messages, and other communication channels to identify potential threats.</p>
+<p>4. Deep learning: Deep learning is a subset of machine learning that uses neural networks with many layers to analyze complex data. In cyber security, deep learning algorithms can be used to analyze network traffic and identify patterns that may be indicative of a cyber attack.</p>
+<p>5. Automation: AI can also be used to automate certain security tasks, such as identifying and blocking malicious traffic, patching vulnerabilities, and responding to security incidents. This can help organizations respond more quickly and efficiently to potential threats.</p>
+<p>Overall, the technical dimensions of using AI in our ThreatCloud involve using a combination of machine learning, neural networks, NLP, deep learning, and automation to analyze network traffic and behavior, identify potential threats, and respond to security incidents. By using these advanced technologies, we are able to provide organizations with a higher level of protection against cyber attacks, preventing these attacks from happening before they can do any damage.</p>
+<h3><strong>Is there anything else that CISOs should know about using AI to fight cyber attacks?</strong></h3>
+<p>Yes, here are a few additional things that CISOs should keep in mind when considering the use of AI to fight cyber attacks:</p>
+<p>1. Understand the limitations of AI: While AI can be a powerful tool for identifying and preventing cyber attacks, it&#8217;s important to understand that AI is not a silver bullet. AI algorithms can be vulnerable to attacks themselves, and they can also produce false positives and false negatives. It&#8217;s important to use AI in conjunction with other security measures to provide comprehensive protection against cyber threats.</p>
+<p>2. Choose the right tools: There are many different AI-based security tools available, each with its own strengths and weaknesses. When choosing AI-based security tools, it&#8217;s important to consider factors such as the specific types of threats that the tool is designed to detect, the accuracy of the tool&#8217;s algorithms, and the tool&#8217;s integration with other security systems, and whether or not it is capable of preventing attacks.</p>
+<p>3. Invest in training and education: Using AI to fight cyber attacks requires a certain level of technical expertise. CISOs should invest in training and education to ensure that their security teams have the skills and knowledge they need to effectively use AI-based security tools.</p>
+<p>4. Consider the ethical implications: AI can raise ethical concerns related to privacy, bias, and accountability. CISOs should work with their legal and compliance teams to ensure that the use of AI-based security tools follows applicable laws and regulations, and that the tools are designed and implemented in an ethical and responsible manner.</p>
+<p>Overall, AI can be a powerful tool for fighting cyber attacks, but it&#8217;s important to use it in conjunction with other security measures and to consider the limitations, the right tools, training and education, and ethical implications when implementing AI-based security solutions.</p>
+<h3><strong>How do you believe that AI will affect our society in the long-term?</strong></h3>
+<p>AI has the potential to have a significant impact on our society in the long-term. Here are a few potential ways that AI could affect our society:</p>
+<p>1. Automation of jobs: AI has the potential to automate many jobs that are currently performed by humans, which could lead to significant changes in the job market. While automation could increase productivity and efficiency, it could also lead to job loss and economic inequality.</p>
+<p><strong>Note</strong>: But as with the industrial revolution in the 1700’s, we will likely see more operators in the future. Maybe a future profession would be a “prompt engineer” where people are specialists in querying AI for optimal results.</p>
+<p>2. Improved healthcare: AI has the potential to improve healthcare by enabling more accurate diagnoses, predicting disease outbreaks, and developing personalized treatment plans. This could lead to better health outcomes for individuals and lower healthcare costs for society.</p>
+<p>3. Enhanced transportation: AI could enable the development of self-driving cars, which could reduce accidents and traffic congestion. This could also have an impact on urban planning and land use, as cities may need to redesign their transportation infrastructure to accommodate self-driving vehicles.</p>
+<p>4. Increased personalization: AI has the potential to personalize many aspects of our lives, from advertising to healthcare to education. This could lead to more personalized experiences and better outcomes, but it could also raise concerns about privacy and the use of personal data.</p>
+<p>5. Ethical and legal implications: AI raises several ethical and legal questions, such as how to ensure that AI is used in a responsible and ethical manner, how to address issues of bias and discrimination, and how to determine liability in the event of an AI-related accident or incident.</p>
+<p><strong>Note</strong>: If a self-driving car crashes and lives are lost, who is responsible? The driver? The car manufacturer? The company that delivered AI algorithms? The developers?</p>
+<p>Overall, the impact of AI on our society in the long-term will depend on how we choose to develop and use the technology. It will be important to consider the potential benefits and risks of AI and to work towards developing AI in a way that is responsible, ethical, and beneficial to society.</p>
+<h3><strong>Is there anything else that you would like to share with the CyberTalk.org audience?</strong></h3>
+<p>Yes, here are a few additional thoughts that I would like to share with the CyberTalk.org audience:</p>
+<p>1. Stay informed: The cyber security landscape is constantly evolving, and it&#8217;s important to stay informed about the latest threats and trends. Keep up with the latest news and research in cyber security and consider attending industry events and conferences to stay up-to-date. Cybertalk.org is a great site for the latest in cyber.</p>
+<p>2. Take a layered approach to security: No single security measure can provide complete protection against all cyber threats. It&#8217;s important to take a layered approach to security using a combination of technologies and processes to mitigate risks. Also, make sure to consolidate in a manner where layered measures are aware of each other and can correlate on events and security measures.</p>
+<p>3. Invest in training and education: Cyber security is not just a technical issue; it&#8217;s also a human issue. Invest in training and education for employees to ensure that they understand the risks and best practices for cyber security.</p>
+<p>4. Prioritize risk management: Cyber security risks cannot be eliminated, but they can be managed. Prioritize risk management by identifying critical assets and vulnerabilities and developing a plan to mitigate and respond to cyber threats.</p>
+<p><strong>Note</strong>: People, process, technology need to be a security net for each other. When people fail, tech saves you. When tech fails, process mitigates. When process fails, people remediate. And so, it forever continues…</p>
+<p>5. Foster a culture of cyber security: Cyber security is everyone&#8217;s responsibility, from senior executives to frontline employees. Foster a culture of cyber security by promoting awareness and accountability throughout the organization.</p>
+<p>Overall, cyber security is a complex and constantly evolving field, but by staying informed, taking a layered approach to security, investing in training and education, prioritizing risk management, and fostering a culture of cyber security, organizations can help to mitigate cyber risks and protect their critical assets.</p>
+<p><i>Want to stay up-to-date with trends in technology? Check out the </i><a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener"><i>CyberTalk.org newsletter! </i></a><i>Sign up today to receive top-notch news articles, best practices and expert analyses; delivered straight to your inbox.</i></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/03/31/artificial-intelligence-a-double-edged-sword-for-technology-ethics/">Artificial intelligence: A double-edged sword for technology &#038; ethics</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Malicious supply chain attack hits 3CX Desktop App</title>
+      <link>https://www.cybertalk.org/2023/03/31/malicious-supply-chain-attack-hits-3cx-desktop-app/</link>
+      <dc:creator><![CDATA[slandau]]></dc:creator>
+      <pubDate>Fri, 31 Mar 2023 15:15:55 +0000</pubDate>
+      <category><![CDATA[TRENDING NOW]]></category>
+      <category><![CDATA[3CX]]></category>
+      <category><![CDATA[3CXDesktopApp]]></category>
+      <category><![CDATA[Check Point]]></category>
+      <category><![CDATA[DesktopApp]]></category>
+      <category><![CDATA[DLL]]></category>
+      <category><![CDATA[Lotem Finkelstein]]></category>
+      <category><![CDATA[SolarWinds]]></category>
+      <category><![CDATA[supply chain attack]]></category>
+      <guid isPermaLink="false">https://www.cybertalk.org/?p=20899</guid>
+      <description><![CDATA[<p>EXECUTIVE SUMMARY: On Wednesday, cyber security threat intelligence analysts uncovered a supply chain attack targeting the communications software provider 3CX and the company&#8217;s customers. 3CX is a VoIP IPBX software development firm whose 3CX phone system is used by more than 600,000 enterprises around the world, with 12 million daily users. The company&#8217;s client list [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/03/31/malicious-supply-chain-attack-hits-3cx-desktop-app/">Malicious supply chain attack hits 3CX Desktop App</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[<p>EXECUTIVE SUMMARY:</p>
+<p>On Wednesday, cyber security threat intelligence analysts uncovered a supply chain attack targeting the communications software provider 3CX and the company&#8217;s customers. 3CX is a VoIP IPBX software development firm whose 3CX phone system is used by more than <a href="https://www.bleepingcomputer.com/news/security/hackers-compromise-3cx-desktop-app-in-a-supply-chain-attack/" target="_blank" rel="noopener">600,000</a> enterprises around the world, with 12 million daily users.</p>
+<p>The company&#8217;s client list includes organizations across the automotive, food and beverage, hospitality, manufacturing and managed information technology service provider (MSP) sectors. Customers have been notified and encouraged to immediately start looking for signs of compromise.</p>
+<p>The attackers&#8217; tactics appear similar to those used against <a href="https://www.infosecurity-magazine.com/news/north-korea-hackers-trojanized-3cx/" target="_blank" rel="noopener">SolarWinds</a> last year. Regarding the 3CX attack, &#8220;This is a classic supply chain attack, designed to exploit trust relationships between an organization and external parties; this includes partnerships with vendors or the use of a third-party software which most businesses are reliant on in some way,&#8221; said Lotem Finkelstein, director of threat intelligence and research at Check Point.</p>
+<p>&#8220;This incident is a reminder of just how critical it is that we do our due diligence in terms of scrutinizing who we conduct business with,&#8221; he continued.</p>
+<h3><b>3CX cyber attack insights</b></h3>
+<p>Researchers initially observed a spike in behavioral detections of the 3CXDesktopApp, preven<span style="color: #000000;">ting trojanized installers from running and leading to immediate <a style="color: #000000;" href="https://www.sentinelone.com/blog/smoothoperator-ongoing-campaign-trojanizes-3cx-software-in-software-supply-chain-attack/" target="_blank" rel="noopener">default quarantine</a>.  </span></p>
+<p>The trojanized 3CXDesktopApp is the first stage in a multi-stage attack chain that pulls ICO files appended with base64 data from GitHub, ultimately leading to a third stage infostealer DLL&#8230;</p>
+<p>&#8220;The malicious activity includes beaconing to actor-controlled infrastructure, deployment of second-stage payloads, and in a small number of cases, hands-on-keyboard activity,&#8221; reported a team of <a href="https://www.bleepingcomputer.com/news/security/hackers-compromise-3cx-desktop-app-in-a-supply-chain-attack/" target="_blank" rel="noopener">security researchers</a>.</p>
+<p>Alerts from security researchers indicate that attackers are targeting both Windows and macOS users of the compromised 3CX app.</p>
+<h3><b>What is the 3CXDesktopApp? </b></h3>
+<p>The affected application is a business tool that was built to keep teams connected without tethering them to the office environment. It is commonly used by the hybrid or remote workforce for team and customer calls. The application can record communications, facilitate video conferencing, enable voicemail checking and more.</p>
+<h3><b>Cyber attack culprits</b></h3>
+<p>At the moment, researchers believe that a North Korean state-backed hacking group known as Labyrinth Collima may be behind the attack, although this attribution cannot be verified.</p>
+<h3><b>Technical information</b></h3>
+<p>The supply chain attack relies on what is known as DLL side-loading. This means that attackers used a signed executable (MSI package) to load a malicious DLL called ffmpeg.dll. This DLL has been modified to read encrypted data from another DLL called d3dcomplier_47.dll.</p>
+<p>The attackers have stored an encoded list of URLs on a specific GitHub archive. Once the d3dcomplier_47.dll pulls the list, it uses it to download and execute the final payload from one of the URLs.</p>
+<p>The important point about communication with GitHub is that the delay of one week is set in the code before the request to GitHub is made. After this step is accomplished, the final payload is downloaded from one of the URLs and executed&#8230;</p>
+<h3><b>Further details</b></h3>
+<p>As soon as the trojanized version of the 3CXDesktopApp was reported, all relevant protections were propagated through all of Check Point&#8217;s products. If you&#8217;re a 3CX client and also a Check Point customer, you&#8217;re protected (with no patching needed).</p>
+<p>For further technical insights, please see this <a href="https://blog.checkpoint.com/2023/03/29/3cxdesktop-app-trojanizes-in-a-supply-chain-attack-check-point-customers-remain-protected/" target="_blank" rel="noopener">Check Point blog.</a> <i>Want to stay up-to-date with trends in technology? Check out the </i><a href="https://www.cybertalk.org/weekly-digest/?utm_source=cybertalk&amp;utm_medium=cp-website&amp;utm_campaign=ct&amp;utm_content=top-10-newsletters" target="_blank" rel="noopener"><i>CyberTalk.org newsletter! </i></a><i>Sign up today to receive top-notch news articles, best practices and expert analyses; delivered straight to your inbox.</i></p>
+<p>The post <a rel="nofollow" href="https://www.cybertalk.org/2023/03/31/malicious-supply-chain-attack-hits-3cx-desktop-app/">Malicious supply chain attack hits 3CX Desktop App</a> appeared first on <a rel="nofollow" href="https://www.cybertalk.org">CyberTalk</a>.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

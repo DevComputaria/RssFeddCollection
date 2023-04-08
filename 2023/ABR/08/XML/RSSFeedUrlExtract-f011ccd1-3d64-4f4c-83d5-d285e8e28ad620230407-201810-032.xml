@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Released updates</title>
+    <link>https://bodhi.fedoraproject.org/rss/updates/?type=security</link>
+    <description>Filtered on: type(security)</description>
+    <atom:link href="https://bodhi.fedoraproject.org/rss/updates/?type=security" rel="self" />
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Apr 2023 23:18:09 +0000</lastBuildDate>
+    <item>
+      <title>golang-1.20.3-1.fc38</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-611d06c2a5</link>
+      <description>&lt;h1&gt;FEDORA-2023-611d06c2a5&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;golang-1.20.3-1.fc38&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;go1.20.3 (released 2023-04-04) includes security fixes to the go/parser, html/template, mime/multipart, net/http, and net/textproto packages, as well as bug fixes to the compiler, the linker, the runtime, and the time package. See the &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.20.3+label%3ACherryPickApproved"&gt;Go 1.20.3 milestone on the issue tracker&lt;/a&gt; for details.&lt;/p&gt;</description>
+      <pubDate>Fri, 07 Apr 2023 18:51:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>golang-1.19.8-1.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-7232640d17</link>
+      <description>&lt;h1&gt;FEDORA-2023-7232640d17&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;golang-1.19.8-1.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;go1.19.8 (released 2023-04-04) includes security fixes to the go/parser, html/template, mime/multipart, net/http, and net/textproto packages, as well as bug fixes to the linker, the runtime, and the time package. See the &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.19.8+label%3ACherryPickApproved"&gt;Go 1.19.8 milestone on the issue tracker&lt;/a&gt; for details.&lt;/p&gt;</description>
+      <pubDate>Fri, 07 Apr 2023 18:50:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>golang-1.19.8-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-ab5f0c32da</link>
+      <description>&lt;h1&gt;FEDORA-2023-ab5f0c32da&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;golang-1.19.8-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;go1.19.8 (released 2023-04-04) includes security fixes to the go/parser, html/template, mime/multipart, net/http, and net/textproto packages, as well as bug fixes to the linker, the runtime, and the time package. See the &lt;a href="https://github.com/golang/go/issues?q=milestone%3AGo1.19.8+label%3ACherryPickApproved"&gt;Go 1.19.8 milestone on the issue tracker&lt;/a&gt; for details.&lt;/p&gt;</description>
+      <pubDate>Fri, 07 Apr 2023 18:50:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>ffmpeg-5.0.3-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-1e24db98a6</link>
+      <description>&lt;h1&gt;FEDORA-2023-1e24db98a6&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ffmpeg-5.0.3-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;New release with bug fixes across the tree&lt;/p&gt;
+&lt;p&gt;Contains security fixes for CVE-2022-48434 and CVE-2022-3109.&lt;/p&gt;</description>
+      <pubDate>Thu, 06 Apr 2023 20:04:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>ghostscript-9.56.1-7.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-366850fc87</link>
+      <description>&lt;h1&gt;FEDORA-2023-366850fc87&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ghostscript-9.56.1-7.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2023-28879&lt;/p&gt;</description>
+      <pubDate>Thu, 06 Apr 2023 13:34:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>ghostscript-9.56.1-7.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-f51bc947bb</link>
+      <description>&lt;h1&gt;FEDORA-2023-f51bc947bb&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ghostscript-9.56.1-7.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2023-28879&lt;/p&gt;</description>
+      <pubDate>Thu, 06 Apr 2023 13:25:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>ghostscript-10.01.0-3.fc38</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-fbf86d8916</link>
+      <description>&lt;h1&gt;FEDORA-2023-fbf86d8916&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ghostscript-10.01.0-3.fc38&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Security fix for CVE-2023-28879&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;set 'a4' as a default in &lt;a href="http://gs_init.ps"&gt;gs_init.ps&lt;/a&gt; to fix unrecognized 'Letter' page size (#2183166)&lt;/p&gt;</description>
+      <pubDate>Thu, 06 Apr 2023 13:15:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>glusterfs-10.4-1.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-5a54eea360</link>
+      <description>&lt;h1&gt;FEDORA-2023-5a54eea360&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;glusterfs-10.4-1.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;GlusterFS 10.4 GA
+Security fix for CVE-2023-26253, CVE-2022-48340&lt;/p&gt;</description>
+      <pubDate>Thu, 06 Apr 2023 12:08:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>libyang-2.1.55-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-17aaa2187f</link>
+      <description>&lt;h1&gt;FEDORA-2023-17aaa2187f&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;libyang-2.1.55-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Rebase to version 2.1.55&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 15:16:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>libyang-2.1.55-1.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-9887f01975</link>
+      <description>&lt;h1&gt;FEDORA-2023-9887f01975&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;libyang-2.1.55-1.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Rebase to version 2.1.55&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 15:15:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>libyang-2.1.55-1.fc38</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-93d978c182</link>
+      <description>&lt;h1&gt;FEDORA-2023-93d978c182&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;libyang-2.1.55-1.fc38&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Rebase to version 2.1.55&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 15:14:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>mingw-glib2-2.72.1-2.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-f519fe8cda</link>
+      <description>&lt;h1&gt;FEDORA-2023-f519fe8cda&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mingw-glib2-2.72.1-2.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Backport patch for CVE-2023-24593.&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 13:55:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>mingw-glib2-2.74.1-2.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-cfe20dbcab</link>
+      <description>&lt;h1&gt;FEDORA-2023-cfe20dbcab&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;mingw-glib2-2.74.1-2.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Backport patch for CVE-2023-24593.&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 13:55:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>bzip3-1.3.0-1.el8</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-EPEL-2023-b06600ebc7</link>
+      <description>&lt;h1&gt;FEDORA-EPEL-2023-b06600ebc7&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bzip3-1.3.0-1.el8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;This release fixes a memory heap corruption.&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 09:03:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>bzip3-1.3.0-1.el9</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-EPEL-2023-1fcf6a407e</link>
+      <description>&lt;h1&gt;FEDORA-EPEL-2023-1fcf6a407e&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bzip3-1.3.0-1.el9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;This release fixes a memory heap corruption.&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 09:03:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>bzip3-1.3.0-1.fc36</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-3a821e6e73</link>
+      <description>&lt;h1&gt;FEDORA-2023-3a821e6e73&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bzip3-1.3.0-1.fc36&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;This release fixes a memory heap corruption.&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 09:03:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>bzip3-1.3.0-1.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-c08f9dfc16</link>
+      <description>&lt;h1&gt;FEDORA-2023-c08f9dfc16&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bzip3-1.3.0-1.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;This release fixes a memory heap corruption.&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 09:03:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>bzip3-1.3.0-1.fc38</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-3589ad1c55</link>
+      <description>&lt;h1&gt;FEDORA-2023-3589ad1c55&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;bzip3-1.3.0-1.fc38&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;This release fixes a memory heap corruption.&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 09:03:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>zchunk-1.3.1-1.fc38</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-86dce75007</link>
+      <description>&lt;h1&gt;FEDORA-2023-86dce75007&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;zchunk-1.3.1-1.fc38&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Fix several low severity security bugs.&lt;/p&gt;</description>
+      <pubDate>Tue, 04 Apr 2023 20:50:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>zchunk-1.3.1-1.fc37</title>
+      <link>https://bodhi.fedoraproject.org/updates/FEDORA-2023-5a4fd08de9</link>
+      <description>&lt;h1&gt;FEDORA-2023-5a4fd08de9&lt;/h1&gt;
+&lt;h2&gt;Packages in this update:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;zchunk-1.3.1-1.fc37&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Update description:&lt;/h2&gt;
+&lt;p&gt;Fix several low severity security bugs.&lt;/p&gt;</description>
+      <pubDate>Tue, 04 Apr 2023 20:50:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

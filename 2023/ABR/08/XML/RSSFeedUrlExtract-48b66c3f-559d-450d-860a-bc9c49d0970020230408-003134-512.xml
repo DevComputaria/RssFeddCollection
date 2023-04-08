@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://www.incibe-cert.es/feed/avisos-seguridad/all" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>INCIBE-CERT - Avisos de seguridad RSS</title>
+    <link>https://www.incibe-cert.es/feed/avisos-seguridad/all</link>
+    <description>
+    </description>
+    <language>es</language>
+    <atom:link href="https://www.incibe-cert.es/feed/avisos-seguridad/all" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ransomware Rorschach impacta en producto Cortex XDR de Palo Alto Networks</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/ransomware-rorschach-impacta-producto-cortex-xdr-palo-alto-networks</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 05/04/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Cortex XDR Agent, versiones:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;5.0, todos los agentes en Windows;&lt;/li&gt;
+	&lt;li&gt;7.5 CE, todos los agentes en Windows;&lt;/li&gt;
+	&lt;li&gt;7.8, agentes con actualización de contenido anterior a CU-240 en Windows;&lt;/li&gt;
+	&lt;li&gt;7.9 CE, agentes con actualización de contenido anterior a CU-240 en Windows;&lt;/li&gt;
+	&lt;li&gt;8.0, agentes con actualización de contenido anterior a CU-240 en Windows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;El equipo de Product Security Assurance, de Palo Alto Networks, tiene conocimiento de un artículo que detalla una variante de &lt;em&gt;ransomware&lt;/em&gt; denominada Rorschach, que podría afectar a varias versiones del agente Cortex XDR ejecutadas en entornos Windows.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Cortex XDR 7.7 y versiones posteriores, con la actualización de contenido versión 240 (publicada en noviembre de 2021) y actualizaciones de contenido posteriores, detectan y bloquean la amenaza&amp;nbsp;&lt;em&gt;ransomware&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Próximamente, se publicarán nuevas versiones del agente Cortex XDR para evitar el impacto del &lt;em&gt;ransomware&lt;/em&gt; Rorschach en el &lt;em&gt;software&lt;/em&gt; de la compañía, permitiendo así detectar y prevenir la técnica de carga lateral de DLL que realiza la amenaza.&lt;/p&gt;
+
+&lt;p&gt;El aviso de Palo Alto Networks se actualizará una vez que estén disponibles las ETA (arquitecturas de tecnología empresarial) y las actualizaciones de &lt;em&gt;software&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;No se contemplan actualizaciones para el agente Cortex XDR 5.0, ya que no posee el módulo de protección contra amenazas de comportamiento relevante necesario para detectar esta técnica.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Una variante de la amenaza &lt;em&gt;ransomware&lt;/em&gt; Rorschach podría evadir las técnicas de detección en los sistemas que carecen de suficiente protección en su &lt;em&gt;endpoint&lt;/em&gt;, mediante el uso de Cortex XDR Dump Service Tool (&lt;em&gt;cydump.exe&lt;/em&gt;), una herramienta que está incluida en el agente Cortex XDR para Windows, otorgando la posibilidad de cargar DLL no fiables mediante la técnica de carga lateral de DLL.&lt;/p&gt;
+
+&lt;p&gt;Cuando el agente Cortex XDR está instalado en Windows y el proceso Cortex XDR Dump Service Tool se ejecuta desde la ruta de instalación, no es posible cargar DLL lateralmente con esta técnica. Los permisos y protecciones de seguridad del agente Cortex XDR instalado lo impiden.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/malware"&gt;Malware&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/windows"&gt;Windows&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 05 Apr 2023 08:25:25 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">234272 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Boletín de seguridad de Android de abril de 2023</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/boletin-seguridad-android-abril-2023</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 04/04/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Android Open Source Project (AOSP): versiones 11, 12, 12L y 13.&lt;/li&gt;
+	&lt;li&gt;Componentes:
+	&lt;ul&gt;
+		&lt;li&gt;&lt;em&gt;framework,&lt;/em&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;system&lt;/em&gt;,&lt;/li&gt;
+		&lt;li&gt;sistema de actualizaciones de Google Play,&lt;/li&gt;
+		&lt;li&gt;&lt;em&gt;kernel&lt;/em&gt;,&lt;/li&gt;
+		&lt;li&gt;Arm,&lt;/li&gt;
+		&lt;li&gt;Imagination Technologies.&lt;/li&gt;
+		&lt;li&gt;MediaTek,&lt;/li&gt;
+		&lt;li&gt;Unisoc,&lt;/li&gt;
+		&lt;li&gt;Qualcomm (incluidos &lt;em&gt;closed-source&lt;/em&gt;).&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;El boletín de Android, relativo a abril de 2023, soluciona múltiples vulnerabilidades de severidad crítica, alta y moderada, que afectan al sistema operativo Android, así como a múltiples componentes, y que podrían permitir a un atacante realizar una escalada de privilegios, divulgar información y provocar una denegación de servicio (DoS) o una ejecución de código remota (RCE).&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;En caso de utilizar dispositivos Android, comprobar que el &lt;a href="https://source.android.com/security/bulletin" rel="external" target="_blank" title="Boletines de seguridad de Android"&gt;fabricante&lt;/a&gt; haya publicado un parche de seguridad y actualizarlos.&lt;/p&gt;
+
+&lt;p&gt;En esta página se indica cómo &lt;a href="https://support.google.com/android/answer/7680439?hl=es" rel="external" target="_blank" title="Comprobar y actualizar la versión de Android"&gt;verificar la versión de Android de un dispositivo y la fecha del parche de seguridad de algunos fabricantes&lt;/a&gt;. En caso de que siguiendo esta guía no puedas comprobar la versión de tus dispositivos o la fecha del parche de seguridad, revisa la página del fabricante.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;El boletín de seguridad de Android del mes de abril corrige varias vulnerabilidades, que se encuentran disponibles en los parches de seguridad del 01-04-2023 y del 05-04-2023, así como en posteriores.&lt;/p&gt;
+
+&lt;p&gt;Las vulnerabilidades críticas se detallan a continuación:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;2 de tipo RCE que afectan al componente &lt;em&gt;system&lt;/em&gt; (CVE-2023-21085 y CVE-2023-21096).&lt;/li&gt;
+	&lt;li&gt;4 que afectan al componente &lt;em&gt;Qualcomm closed-source&lt;/em&gt; (CVE-2022-33231, CVE-2022-33288, CVE-2022-33289 y CVE-2022-33302).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/linux"&gt;Linux&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/moviles"&gt;Móviles&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 04 Apr 2023 07:53:03 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">234131 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Fuga de información en impresoras HP</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/fuga-informacion-impresoras-hp</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 04/04/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Algunos modelos de impresoras HP Enterprise LaserJet y HP LaserJet Managed cuando IPsec está habilitado con FutureSmart versión 5.6, concretamente:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;HP Color LaserJet Enterprise M455;&lt;/li&gt;
+	&lt;li&gt;HP Color LaserJet Enterprise MFP M480;&lt;/li&gt;
+	&lt;li&gt;HP Color LaserJet Managed E45028;&lt;/li&gt;
+	&lt;li&gt;HP Color LaserJet Managed MFP E47528;&lt;/li&gt;
+	&lt;li&gt;HP Color LaserJet Managed MFP E785dn, HP Color LaserJet Managed MFP E78523, E78528;&lt;/li&gt;
+	&lt;li&gt;HP Color LaserJet Managed MFP E786, HP Color LaserJet Managed Flow MFP E786, HP Color LaserJet Managed MFP E78625/30/35, HP Color LaserJet Managed Flow MFP E78625/30/35;&lt;/li&gt;
+	&lt;li&gt;HP Color LaserJet Managed MFP E877, E87740/50/60/70, HP Color LaserJet Managed Flow E87740/50/60/70;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Enterprise M406;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Enterprise M407;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Enterprise MFP M430;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Enterprise MFP M431;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Managed E40040;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Managed MFP E42540;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Managed MFP E730, HP LaserJet Managed MFP E73025, E73030;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Managed MFP E731, HP LaserJet Managed Flow MFP M731, HP LaserJet Managed MFP E73130/35/40, HP LaserJet Managed Flow MFP E73130/35/40;&lt;/li&gt;
+	&lt;li&gt;HP LaserJet Managed MFP E826dn, HP LaserJet Managed Flow MFP E826z, HP LaserJet Managed E82650/60/70, HP LaserJet Managed E82650/60/70.&lt;br /&gt;
+	&amp;nbsp;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;HP ha informado de una vulnerabilidad crítica que afecta a varios modelos de HP Enterprise LaserJet y HP LaserJet Managed Printers, cuya explotación podría permitir la divulgación de información.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;El fabricante ha proporcionado una mitigación temporal de &lt;em&gt;firmware&lt;/em&gt; para los clientes que actualmente ejecutan FutureSmart 5.6 con IPsec habilitado en los productos afectados.&lt;/p&gt;
+
+&lt;p&gt;HP recomienda revertir la versión de &lt;em&gt;firmware&lt;/em&gt; FutureSmart a &lt;a href="https://support.hp.com/us-en/drivers" rel="external" target="_blank" title="HP firmware download"&gt;5.5.0.3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Se espera una actualización del &lt;em&gt;firmware&lt;/em&gt; para solucionar la vulnerabilidad en un plazo de 90 días.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Varios modelos de impresoras HP Enterprise LaserJet y HP LaserJet Managed son potencialmente vulnerables a la divulgación de información cuando IPsec está activado con FutureSmart versión 5.6. Se ha asignado el identificador CVE-2023-1707 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/hp"&gt;HP&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 04 Apr 2023 07:11:20 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">234130 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>[Actualización 03/04/2023] Campaña de distribución de software troyanizado contra 3CX DesktopApp</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/campana-distribucion-software-troyanizado-3cx-desktopapp</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 31/03/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Electron Windows App&amp;nbsp;publicado en la Update 7, versiones:
+	&lt;ul&gt;
+		&lt;li&gt;18.12.407;&lt;/li&gt;
+		&lt;li&gt;18.12.416.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Electron Mac App, versiones:
+	&lt;ul&gt;
+		&lt;li&gt;18.11.1213;&lt;/li&gt;
+		&lt;li&gt;18.12.402;&lt;/li&gt;
+		&lt;li&gt;18.12.407;&lt;/li&gt;
+		&lt;li&gt;18.12.416.&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Este &lt;em&gt;software&lt;/em&gt; está disponible para Windows, macOS, Linux y dispositivos móviles Android o iOS, pero las versiones maliciosas conocidas hasta ahora con un binario troyanizado son para Windows y macOS.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;CISA ha informado una campaña en la cadena de suministro para la distribución de &lt;em&gt;software&lt;/em&gt; malicioso denominada &lt;em&gt;Smooth Operator&lt;/em&gt;, destinado a conferencias de voz y video, incluyendo el enrutamiento de llamadas a través de centralitas automáticas privadas (PABX). En concreto, las compañías de ciberseguridad SentinelOne y CrowdStrike han publicado informes en los que identifican binarios del producto 3CX DesktopApp troyanizado, y que permitirían a un atacante realizar una segunda etapa de ataques contra los usuarios afectados.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Se recomienda no instalar ninguna versión de este &lt;em&gt;software&lt;/em&gt;, ya que no se conocen todas las posibles versiones del instalador afectadas en esta campaña o aquellas no han sido modificadas.&lt;/p&gt;
+
+&lt;p&gt;Adicionalmente, se recomienda a los usuarios de este producto revisar los informes de las compañías SentinelOne y CrowdStrike con los indicadores de compromiso (IoC) detectados para localizar posibles actividades maliciosas en sus sistemas o en los binarios de instalación afectados que se conocen.&lt;/p&gt;
+
+&lt;p&gt;El fabricante recomienda utilizar la aplicación &lt;a href="https://www.3cx.com/user-manual/web-client/" rel="external" target="_blank" title="3CX Web Client - One Stop for All Communications"&gt;PWA&lt;/a&gt; en sustitución de&amp;nbsp;DesktopApp.&lt;/p&gt;
+
+&lt;div aria-atomic="true" class="alert alert-danger" role="alert"&gt;&lt;strong&gt;[Actualización 03/04/2023]&lt;/strong&gt;
+
+&lt;p&gt;Para los usuarios que cuenten con instalaciones "&lt;em&gt;Self Hosted&lt;/em&gt;" y "&lt;em&gt;On Premise&lt;/em&gt;", se recomienda instalar la actualización siguiendo los siguientes pasos:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Iniciar&amp;nbsp;la consola de gestión&lt;/li&gt;
+	&lt;li&gt;Ir a la sección&amp;nbsp;Actualizaciones&lt;/li&gt;
+	&lt;li&gt;Descargar Mac Desktop App - 18.12.422&lt;/li&gt;
+	&lt;li&gt;Descargar Windows Desktop App - 18.12.422&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;La información conocida por las compañías &lt;a href="https://www.sentinelone.com/blog/smoothoperator-ongoing-campaign-trojanizes-3cx-software-in-software-supply-chain-attack/" rel="external" target="_blank" title="SmoothOperator | Ongoing Campaign Trojanizes 3CXDesktopApp in Supply Chain Attack"&gt;SentinelOne&lt;/a&gt; y &lt;a href="https://www.crowdstrike.com/blog/crowdstrike-detects-and-prevents-active-intrusion-campaign-targeting-3cxdesktopapp-customers/" rel="external" target="_blank" title="CrowdStrike Falcon Platform Detects and Prevents Active Intrusion Campaign Targeting 3CXDesktopApp Customers"&gt;CrowdStrike&lt;/a&gt; identifica la existencia de un binario para la instalación del &lt;em&gt;software&lt;/em&gt; legitimo y firmado digitalmente de 3CX DesktopApp. En dicho binario se han podido observar modificaciones con capacidades de un troyano que permitirían una actividad maliciosa por parte de un atacante desde una infraestructura remota controlada por él, pudiendo desplegar otras cargas maliciosas de segunda etapa, e incluso capturas de teclado, información de navegación, etc.&lt;/p&gt;
+
+&lt;p&gt;El troyano distribuido utiliza para esto varias &lt;em&gt;shellcode&lt;/em&gt; ejecutadas desde el espacio de almacenamiento dinámico, desde el cual se carga una DLL a través de una explotación con nombre '&lt;em&gt;DllGetClassObject&lt;/em&gt;'. En esta etapa a su vez se descargan diferentes archivos de iconos desde un repositorio alojado en GitHub, que contienen información codificada en BASE64 para una posterior descarga de otras capacidades.&lt;/p&gt;
+
+&lt;p&gt;La compañía CrowdStrike asocia como probable actor de esta campaña a un actor malicioso de un estado o nación conocido como "LABYRINTH CHOLLIMA".&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/apple"&gt;Apple&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/malware"&gt;Malware&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/navegador"&gt;Navegador&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/privacidad"&gt;Privacidad&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/windows"&gt;Windows&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 31 Mar 2023 08:27:17 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">233857 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Múltiples vulnerabilidades en Samba</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-samba-4</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 30/03/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Alta&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Todas las versiones desde 4.0.&lt;/li&gt;
+	&lt;li&gt;Versiones 4.17.0 y posteriores.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Varios investigadores han reportado 3 vulnerabilidades en Samba, 1 de severidad alta y 2 de severidad media, cuya explotación podría permitir a un atacante realizar una escalada de privilegios, eliminar atributos u obtener contraseñas.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Aplicar los siguientes parches para cada versión:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href="https://www.samba.org/samba/ftp/patches/security/samba-4.18.1-security-2023-03-29.patch" rel="external" target="_blank" title="Parche para 4.18.1"&gt;4.18.1&lt;/a&gt;;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="https://www.samba.org/samba/ftp/patches/security/samba-4.17.7-security-2023-03-29.patch" rel="external" target="_blank" title="Parche para 4.17.7"&gt;4.17.7&lt;/a&gt;;&lt;/li&gt;
+	&lt;li&gt;&lt;a href="https://www.samba.org/samba/ftp/patches/security/samba-4.16.10-security-2023-03-29.patch" rel="external" target="_blank" title="Parche para 4.16.10"&gt;4.16.10&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;En AD (&lt;em&gt;Active Directory&lt;/em&gt;) hay 4 clases diferentes de atributos (secretos, confidenciales, de control de acceso y públicos). Debido a que las reglas de control de acceso para un atributo concreto no son consistentes entre objetos, Samba implementó restricciones de control de acceso después de comparar objetos contra el filtro. Tomando esto en consideración, los atributos confidenciales y de control de acceso podrían ser vulnerables a un ataque que utilice filtros LDAP. Se ha asignado el identificador CVE-2023-0614 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;Las vulnerabilidades de severidad media tienen asignadas los identificadores CVE-2023-0225 y CVE-2023-0922.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/samba"&gt;Samba&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 30 Mar 2023 07:15:00 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">233852 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Múltiples vulnerabilidades en router Netgear Orbi</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-router-netgear-orbi</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 22/03/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Versión 4.6.8.5 del &lt;em&gt;router&lt;/em&gt; Orbi de Netgear, modelos:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;RBR750,&lt;/li&gt;
+	&lt;li&gt;RBS750.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Christopher McBee y Dave McDaniel, investigadores de Cisco Talos, han descubierto 4 vulnerabilidades en el sistema inalámbrico de malla Orbi de Netgear, cuya explotación podría permitir a un atacante ejecutar comandos arbitrarios o divulgar información sensible.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Actualizar los modelos afectados de Netgear Orbi Satellite a una versión superior a 4.6.8.5.&lt;/li&gt;
+	&lt;li&gt;Las reglas de SNORT 60474 – 60477 y 60499 detectan intentos de explotación contra estas vulnerabilidades.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;Se ha detectado una vulnerabilidad crítica de ejecución arbitraria de comandos en la funcionalidad de control de acceso del &lt;em&gt;router&lt;/em&gt; Orbi RBR750 4.6.8.5 de Netgear, causada por el envío de una petición HTTP especialmente diseñada. Se ha asignado el identificador CVE-2022-37337 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;Para las vulnerabilidades de severidad alta se han asignado los identificadores CVE-2022-38452 y CVE-2022-36429, mientras que la vulnerabilidad media tiene asignado CVE-2022-38458.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Wed, 22 Mar 2023 08:13:12 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">232596 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Múltiples vulnerabilidades en productos Aspera Faspex de IBM</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-productos-aspera-faspex-ibm</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 21/03/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;IBM Aspera Faspex 4.4.2 PL2 y versiones anteriores.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;IBM ha publicado tres vulnerabilidades: una de ellas de severidad crítica que podría permitir a un atacante ejecutar comandos arbitrarios. Las otras dos vulnerabilidades son de severidad alta y media.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Se recomienda que los clientes tomen una de las siguientes medidas lo antes posible:&lt;/p&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;Actualizar a la versión &lt;a href="https://www.ibm.com/support/fixcentral/swg/selectFixes?fixids=ibm-aspera-faspex-5.0.4.5744.x86_64&amp;amp;product=ibm%2FOther%20software%2FIBM%20Aspera%20Faspex%20Server&amp;amp;source=dbluesearch&amp;amp;mhsrc=ibmsearch_a&amp;amp;mhq=faspex%205%26period%3B0%26period%3B4&amp;amp;function=fixId&amp;amp;parent=ibm/Other%20software" rel="external" target="_blank" title="IBM - Fix Central"&gt;Faspex v5&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Aplicar el último parche de la versión 4 - 4.4.2 PL3 para &lt;a href="https://www.ibm.com/support/fixcentral/swg/selectFixes?fixids=IBM_Aspera_Faspex_4.4.2_Windows_Patch_Level_3&amp;amp;product=ibm%2FOther%20software%2FIBM%20Aspera%20Faspex%20Server&amp;amp;source=dbluesearch&amp;amp;mhsrc=ibmsearch_a&amp;amp;mhq=IBM%26lowbar%3BAspera%26lowbar%3BFaspex%26lowbar%3B4%26period%3B4%26period%3B2%26lowbar%3BWindows%26lowbar%3BPatch%26lowbar%3BLevel%26lowbar%3B3&amp;amp;function=fixId&amp;amp;parent=ibm/Other%20software" rel="external" target="_blank" title="IBM - Fix Central (Windows)"&gt;Windows&lt;/a&gt; y &lt;a href="https://www.ibm.com/support/fixcentral/swg/selectFixes?fixids=IBM_Aspera_Faspex_4.4.2_Linux_Patch_Level_3&amp;amp;product=ibm%2FOther%20software%2FIBM%20Aspera%20Faspex%20Server&amp;amp;source=dbluesearch&amp;amp;mhsrc=ibmsearch_a&amp;amp;mhq=IBM%26lowbar%3BAspera%26lowbar%3BFaspex%26lowbar%3B4%26period%3B4%26period%3B2%26lowbar%3BLinux%26lowbar%3BPatch%26lowbar%3BLevel%26lowbar%3B3&amp;amp;function=fixId&amp;amp;parent=ibm/Other%20software" rel="external" target="_blank" title="IBM - Fix Central - Linux"&gt;Linux&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esta solución mitiga CVE-2023-27874.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;p&gt;La vulnerabilidad de severidad crítica podría permitir un ataque de inyección de entidad externa XML (XXE) al procesar datos XML. Un atacante remoto autenticado podría aprovechar esta vulnerabilidad para ejecutar comandos arbitrarios. Se ha asignado el identificador CVE-2023-27874 para esta vulnerabilidad.&lt;/p&gt;
+
+&lt;p&gt;Para la vulnerabilidad de severidad alta se ha asignado el identificador CVE-2023-27871, mientras que para la de severidad media el CVE-2023-27873.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/ibm"&gt;IBM&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 21 Mar 2023 09:24:56 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">232512 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Múltiples vulnerabilidades en Moodle</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-moodle-21</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 21/03/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Alta&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Versiones:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;desde 4.1 hasta 4.1.1;&lt;/li&gt;
+	&lt;li&gt;desde 4.0 hasta 4.0.6;&lt;/li&gt;
+	&lt;li&gt;desde 3.11 hasta 3.11.12;&lt;/li&gt;
+	&lt;li&gt;desde 3.9 hasta 3.9.19;&lt;/li&gt;
+	&lt;li&gt;versiones anteriores sin soporte.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Los investigadores Vincent Schneider (cli-ish) y Petr Skoda han reportado 3 vulnerabilidades de severidad alta que afectan a Moodle.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Actualizar a las versiones 4.1.2, 4.0.7, 3.11.13 y 3.9.20, respectivamente.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Una validación insuficiente de la condición de disponibilidad del campo de perfil podría provocar una inyección SQL (por defecto, solo disponible para los roles de profesores y gestores). Se ha asignado el identificador CVE-2023-28329 para esta vulnerabilidad.&lt;/li&gt;
+	&lt;li&gt;Una copia de seguridad no sanitizada correctamente podría provocar una lectura arbitraria de archivos. La capacidad de acceder a esta función solo está disponible para profesores, gestores y administradores de forma predeterminada. Se ha asignado el identificador CVE-2023-28330 para esta vulnerabilidad.&lt;/li&gt;
+	&lt;li&gt;El contenido generado por el filtro de enlace automático a la base de datos requería una sanitización adicional para evitar un XSS (&lt;em&gt;Cross-Site Scripting&lt;/em&gt;). Se ha asignado el identificador CVE-2023-28331 para esta vulnerabilidad.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/cms"&gt;CMS&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Tue, 21 Mar 2023 08:12:05 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">232511 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Vulnerabilidades 0day en chipsets Exynos de Samsung </title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/vulnerabilidades-0day-chipsets-exynos-samsung</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 17/03/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Crítica&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;p&gt;Entre los modelos de &lt;em&gt;chipsets&lt;/em&gt; Exynos afectados se encuentran:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Exynos 850,&lt;/li&gt;
+	&lt;li&gt;Exynos 980,&lt;/li&gt;
+	&lt;li&gt;Exynos 1080,&lt;/li&gt;
+	&lt;li&gt;Exynos 1280,&lt;/li&gt;
+	&lt;li&gt;Exynos 2200,&lt;/li&gt;
+	&lt;li&gt;Exynos Modem 5123,&lt;/li&gt;
+	&lt;li&gt;Exynos Modem 5300,&lt;/li&gt;
+	&lt;li&gt;Exynos Auto T5123.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Según la información obtenida y recopilada por Project Zero de webs públicas que asignan &lt;em&gt;chipsets&lt;/em&gt; a dispositivos, entre los productos potencialmente afectados se encuentran:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;dispositivos móviles Samsung, incluidos los de las series S22, M33, M13, M12, A71, A53, A33, A21, A13, A12 y A04;&lt;/li&gt;
+	&lt;li&gt;dispositivos móviles de Vivo, incluidos los de las series S16, S15, S6, X70, X60 y X30;&lt;/li&gt;
+	&lt;li&gt;dispositivos de las series Pixel 6 y 7 de Google;&lt;/li&gt;
+	&lt;li&gt;cualquier &lt;em&gt;wearable&lt;/em&gt; que utilice el &lt;em&gt;chipset&lt;/em&gt; Exynos W920;&lt;/li&gt;
+	&lt;li&gt;cualquier vehículo que utilice el &lt;em&gt;chipset&lt;/em&gt; Exynos Auto T5123.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Project Zero, el equipo interno especializado en seguridad de Google, ha publicado 18 de vulnerabilidades 0day en los módems Samsung Exynos, siendo las 4 de mayor severidad las que permiten realizar una ejecución remota de código (RCE), mientras que las 14 restantes requieren acceso local al dispositivo por parte del atacante.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;p&gt;Se recomienda contactar con cada &lt;em&gt;Product Manager&lt;/em&gt; de Samsung, según el producto afectado, y actualizar los dispositivos afectados lo antes posible.&lt;/p&gt;
+
+&lt;p&gt;Para los dispositivos Pixel afectados, Google ya ha corregido una de las vulnerabilidades en su &lt;a href="https://source.android.com/docs/security/bulletin/pixel/2023-03-01" rel="external" target="_blank" title="Pixel Update Bulletin—March 2023"&gt;boletín de marzo 2023&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Las 4 vulnerabilidades con mayor severidad (CVE-2023-24033 y otras 3 sin CVE asignado aún) podrían permitir la ejecución remota de código de Internet a banda base. Las pruebas realizadas por Project Zero confirman que esas 4 vulnerabilidades permiten a un atacante comprometer remotamente un dispositivo a nivel de banda base sin interacción del usuario, y sólo requieren que el atacante conozca el número de teléfono de la potencial víctima.&lt;/li&gt;
+	&lt;li&gt;Las 14 vulnerabilidades restantes de menor severidad (CVE-2023-26072, CVE-2023-26073, CVE-2023-26074, CVE-2023-26075, CVE-2023-26076, CVE-2023-26496,&amp;nbsp;CVE-2023-26497,&amp;nbsp;CVE-2023-26498&amp;nbsp;y otras 6&amp;nbsp;sin CVE asignado aún) requieren acceso local al dispositivo afectado por parte de un operador de red móvil malintencionado o un atacante para poder explotarlas. Las 5 vulnerabilidades con CVE asignado son de tipo desbordamiento de búfer y se producen por una validación incorrecta de parámetros.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/0day"&gt;0day&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/comunicaciones"&gt;Comunicaciones&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/moviles"&gt;Móviles&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Fri, 17 Mar 2023 09:23:50 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">232323 at https://www.incibe-cert.es</guid>
+    </item>
+    <item>
+      <title>Múltiples vulnerabilidades en el core de Drupal</title>
+      <link>https://www.incibe-cert.es/alerta-temprana/avisos-seguridad/multiples-vulnerabilidades-el-core-drupal-5</link>
+      <description>&lt;p&gt;&lt;strong&gt;Fecha de publicación:&lt;/strong&gt; 16/03/2023&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Importancia:&lt;/strong&gt;
+Media&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Recursos afectados:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Versiones anteriores a 7.95.&lt;/li&gt;
+	&lt;li&gt;Versiones comprendidas entre la 8.0.0 (incluida) hasta la 9.4.12 (no incluida).&lt;/li&gt;
+	&lt;li&gt;Versiones comprendidas entre la 9.5.0 (incluida) hasta la 9.5.5 (no incluida).&lt;/li&gt;
+	&lt;li&gt;Versiones comprendidas entre la 10.0.0 (incluida) hasta la 10.0.5 (no incluida).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Descripción:&lt;/strong&gt;
+&lt;p&gt;Varios investigadores han reportado 3 vulnerabilidades de severidad media que afectan a varias versiones del &lt;em&gt;core&lt;/em&gt; de Drupal, y cuya explotación podría permitir la divulgación de información sensible.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Solución:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;Para Drupal 10.0, actualiza a Drupal &lt;a href="https://www.drupal.org/project/drupal/releases/10.0.5" rel="external" target="_blank" title="Drupal 10.0.5"&gt;10.0.5&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Para &amp;nbsp;Drupal 9.5, actualiza a Drupal &lt;a href="https://www.drupal.org/project/drupal/releases/9.5.5" rel="external" target="_blank" title="Drupal 9.5.5"&gt;9.5.5&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Para Drupal 9.4, actualiza a Drupal &lt;a href="https://www.drupal.org/project/drupal/releases/9.4.12" rel="external" target="_blank" title="Drupal 9.4.12"&gt;9.4.12&lt;/a&gt;.&lt;/li&gt;
+	&lt;li&gt;Para Drupal 7, actualiza a Drupal &lt;a href="https://www.drupal.org/project/drupal/releases/7.95" rel="external" target="_blank" title="Drupal 7.95"&gt;7.95&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota&lt;/strong&gt;: todas las versiones de Drupal 9, anteriores a 9.4.x, no reciben cobertura de seguridad. Además, Drupal 8 ha llegado a &lt;a href="https://www.drupal.org/psa-2021-06-29" rel="external" target="_blank" title="Drupal 8 end of life"&gt;EOL&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Detalle:&lt;/strong&gt;
+&lt;ul&gt;
+	&lt;li&gt;El módulo&amp;nbsp;&lt;em&gt;media&lt;/em&gt;&amp;nbsp;no comprueba correctamente el acceso a las entidades en algunas circunstancias, lo que podría provocar que los usuarios vean miniaturas de elementos multimedia a los que no tienen acceso, incluso para archivos privados.&lt;/li&gt;
+	&lt;li&gt;El módulo de idiomas proporciona un bloque de cambio&amp;nbsp;que podría emplearse para proporcionar enlaces que permitan variar entre diferentes idiomas. En esta circunstancia, cuando se utiliza junto con un módulo como &lt;em&gt;Pathauto&lt;/em&gt;, se podría revelar la URL del contenido no publicado.&lt;/li&gt;
+	&lt;li&gt;El &lt;em&gt;core&lt;/em&gt; de Drupal proporciona una página que muestra el marcado de &lt;em&gt;phpinfo()&lt;/em&gt; para diagnosticar la configuración de PHP. Si un atacante utilizase un &lt;em&gt;exploit&lt;/em&gt; XSS contra un usuario privilegiado, podría ser capaz de utilizar la página &lt;em&gt;phpinfo&lt;/em&gt; para acceder a información sensible y escalar el ataque.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href="https://www.incibe-cert.es/encuesta-valoracion"&gt;&lt;img alt="Encuesta valoración" class="img-responsive" src="https://www.incibe-cert.es/sites/default/files/contenidos/banner/aviso-encuesta.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;strong&gt;Etiquetas:&lt;/strong&gt;
+&lt;a href="/alerta-temprana/avisos-seguridad/filtro/actualizacion"&gt;Actualización&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/cms"&gt;CMS&lt;/a&gt;, &lt;a href="/alerta-temprana/avisos-seguridad/filtro/vulnerabilidad"&gt;Vulnerabilidad&lt;/a&gt;&lt;/p&gt;</description>
+      <pubDate>Thu, 16 Mar 2023 08:18:15 +0000</pubDate>
+      <dc:creator>INCIBE</dc:creator>
+      <guid isPermaLink="false">232201 at https://www.incibe-cert.es</guid>
+    </item>
+  </channel>
+</rss>

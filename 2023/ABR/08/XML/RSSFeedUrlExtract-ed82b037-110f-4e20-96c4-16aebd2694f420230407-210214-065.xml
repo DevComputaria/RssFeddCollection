@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+  <channel>
+    <title>MIT Technology Review</title>
+    <atom:link href="https://www.technologyreview.com/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.technologyreview.com</link>
+    <description>
+    </description>
+    <lastBuildDate>Fri, 07 Apr 2023 16:35:13 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <generator>https://wordpress.org/?v=6.1.1</generator>
+    <image>
+      <url>https://wp.technologyreview.com/wp-content/uploads/2020/01/20130408-ftweekendmag-mit-0030-final-w0-1.jpg?w=32?crop=0px,33px,1272px,716px&amp;w=32px</url>
+      <title>MIT Technology Review</title>
+      <link>https://www.technologyreview.com</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <site xmlns="com-wordpress:feed-additions:1">172986898</site>
+    <item>
+      <title>Delivering a quantum future</title>
+      <link>https://www.technologyreview.com/2023/04/07/1069778/delivering-a-quantum-future/</link>
+      <dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 16:35:12 +0000</pubDate>
+      <category><![CDATA[Computing]]></category>
+      <category><![CDATA[Quantum computing]]></category>
+      <category><![CDATA[Sponsored]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1069778</guid>
+      <description><![CDATA[More companies are starting to consider the impact that quantum computing will have on their business in the coming years. According to a survey by Deloitte, about half of all companies believe that they are vulnerable to a “harvest now, decrypt later” attack, where encrypted information is stored until a future quantum computer can decrypt&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p>More companies are starting to consider the impact that quantum computing will have on their business in the coming years. According to a survey by Deloitte, about half of all companies believe that they are vulnerable to a “harvest now, decrypt later” attack, where encrypted information is stored until a future quantum computer can decrypt the data. No wonder, then, that 61% of firms have either conducted an assessment of their readiness or plan to analyze the issue within five years.</p>
+
+
+
+<p>In 2022, the National Institute of Standards and Technology (NIST) made a significant decision to help companies prepare for a world where quantum computing is commonplace. The decision was also an effort to help protect today’s data from tomorrow’s quantum computers. The U.S. technology agency selected four algorithms for encryption methods to replace public key infrastructure (PKI) algorithms currently in use as a way of protecting data encrypted today against quantum computers developed in the future.</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-full"><img decoding="async" width="2209" height="1689" src="https://wp.technologyreview.com/wp-content/uploads/2023/04/Quantum-Future-cover-1.jpg" alt="" class="wp-image-1071162" srcset="https://wp.technologyreview.com/wp-content/uploads/2023/04/Quantum-Future-cover-1.jpg 2209w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Quantum-Future-cover-1.jpg?resize=300,229 300w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Quantum-Future-cover-1.jpg?resize=768,587 768w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Quantum-Future-cover-1.jpg?resize=1536,1174 1536w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Quantum-Future-cover-1.jpg?resize=2048,1566 2048w" sizes="(max-width: 2209px) 100vw, 2209px" /></figure></div>
+
+
+
+
+
+
+<p>Because data can be saved and archived, classified and sensitive information—which may need to be protected longer than a decade, or more—needs to be protected with quantum-resistant algorithms. The four algorithms selected by NIST represent an early milestone in the development of the post-quantum encryption standard.</p>
+
+
+
+<p>“Cryptographic protocols that are deployed today can still be in use in 10 years, in 20 years, in 30 years,” says Daniel Gottesman, a professor of theoretical computer science at the University of Maryland and a quantum computing consultant at Keysight Technologies, a U.S.-based provider of design, emulation, and test equipment for electronics. “If you send messages today, if they’re still going to be relevant in that time, then you need to worry about security against quantum computers of the future.”</p>
+
+
+
+<p>Yet, quantum computing’s promise goes far beyond unlocking decades-old secrets.</p>
+
+
+
+<p>Quantum computing offers the enticing promise of problem-solving abilities and computing power far exceeding today’s most powerful supercomputers. Google has built a quantum AI campus with the goal of creating a “useful, error-corrected quantum computer” by 2029. IBM expanded its quantum efforts with the goal of creating a 4,000-qubit quantum computer by 2025.</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-Graphic-16-9-v2.png" alt="" class="wp-image-1071163" width="887" height="495" srcset="https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-Graphic-16-9-v2.png 1183w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-Graphic-16-9-v2.png?resize=300,167 300w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-Graphic-16-9-v2.png?resize=768,428 768w" sizes="(max-width: 887px) 100vw, 887px" /></figure>
+
+
+
+<p>These more sophisticated platforms will allow a greater breadth of applications—such as chemical simulation and machine learning—and provide more momentum to the long-term development of quantum computer systems. According to analyst firm International Data Corporation (IDC), the global quantum computing market will grow 51% annually, as measured in spending, from $412 million in 2020 to $8.6 billion in 2027.</p>
+
+
+
+<p>“Companies building quantum hardware and software services now have several platforms already used by niche customers in the financial and defense spaces,” says John Blyler, industrial solutions manager, wireline communications, at Keysight Technologies. “And new applications are being identified, such as the simulation of molecules that may result in new life-saving drugs that cure various diseases.”</p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" loading="lazy" src="https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-16-9-v2.png" alt="" class="wp-image-1071164" width="900" height="495" srcset="https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-16-9-v2.png 1200w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-16-9-v2.png?resize=300,165 300w, https://wp.technologyreview.com/wp-content/uploads/2023/04/Keysight-Web-Ready-16-9-v2.png?resize=768,422 768w" sizes="(max-width: 900px) 100vw, 900px" /></figure>
+
+
+
+<p>Companies that develop applications for the near-future quantum computers will derive a range of benefits and lead the market because of their quantum advantage, says Chad Rigetti, former CEO of Rigetti Computing, a company that provides quantum computing as a service. Quantum computing as a service, or QCaaS, allows customers to have access to a quantum computer through a cloud service that typically integrates with workloads based on classical computing. The result is a hybrid system that can be optimized for the specific problem: Most of the software will run on classical computers, while quantum algorithms and simulations can run on quantum systems.</p>
+
+
+
+<p>While much of the discussion of quantum computing has focused on the risks to privacy and encrypted information, the far greater risk today is failing to plan for the ways that quantum computing can affect a company’s business.</p>
+
+
+
+<p><em><a href="https://bit.ly/40Wy03O" target="_blank" rel="noreferrer noopener">Download the report</a></em></p>
+
+
+
+<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff.</em></p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1069778</post-id>
+    </item>
+    <item>
+      <title>We can use stem cells to make embryos. How far should we go?</title>
+      <link>https://www.technologyreview.com/2023/04/07/1071121/stem-cells-make-embryos-how-far-should-we-go/</link>
+      <dc:creator><![CDATA[Jessica Hamzelou]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 09:00:00 +0000</pubDate>
+      <category><![CDATA[Biotechnology]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1071121</guid>
+      <description><![CDATA[This article is from The Checkup, MIT Technology Review&#8217;s weekly biotech newsletter. To receive it in your inbox every Thursday, sign up here. Embryos are special. These tiny blobs of cells have the potential to create life. That’s why we limit what scientists can do with them. Researchers are generally not allowed to grow human&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p><em>This article is from The Checkup, MIT Technology Review&#8217;s weekly biotech newsletter. To receive it in your inbox every Thursday, <a href="https://forms.technologyreview.com/newsletters/biotech-the-checkup/?_ga=2.241810882.15113993.1664981064-43237434.1647441349">sign up here</a>.</em></p>
+
+
+
+<p>Embryos are special. These tiny blobs of cells have the potential to create life. That’s why we limit what scientists can do with them. Researchers are generally not allowed to grow human embryos for more than 14 days, for example.</p>
+
+
+
+<p><strong>But what about embryo-like structures made from stem cells?</strong> These “synthetic embryos” can be made without the direct contribution of egg or sperm cells. Because they’re not “real” embryos, some have argued that the same restrictions don’t apply.</p>
+
+
+
+
+
+<p>Recent advances are allowing scientists to create embryo-like structures that look more and more like the real thing. Just this week, <a href="https://www.technologyreview.com/2023/04/06/1071112/synthetic-embryos-have-been-implanted-into-monkey-wombs/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23">scientists in China described how they developed structures called blastoids for 17 days in the lab</a>. They even managed to get some of them to implant in the uteruses of monkeys and trigger the very first signs of pregnancy.</p>
+
+
+
+<p>The blastoids didn’t survive for very long, probably because researchers haven’t quite figured out how best to mimic what happens during the development of a conventional embryo. But most believe that it’s just a matter of time. If we can eventually get stem cells to form a viable embryo, a functional fetus, or even a baby, should we treat blastoids in the same way we treat embryos?</p>
+
+
+
+<p><strong>First, a bit more on the rule that human embryos should not be grown in labs beyond 14 days after fertilization, which was recommended by a UK government committee back in 1984.</strong> Since then, it has been enshrined in law in at least 12 countries, including the US. </p>
+
+
+
+<p>Why 14 days? One reason is that this is just before an embryo develops three layers of cells that eventually go on to form its organs and tissues. Another is that this is around the time when the embryo is no longer able to split and form twins, so it is set on course to become an individual.</p>
+
+
+
+<p><strong>Today, most scientists believe that the cutoff is a pretty arbitrary one.</strong> When I asked Susana Chuva de Sousa Lopes, a developmental biologist at Leiden University in the Netherlands, where she stood, she shrugged over Zoom. “I’m not sure,” she told me. “Some people might say that [at 15 days] there’s an early, early progenitor of the brain. But a week later, it’s still a progenitor. And a week after that. It’s still not a brain.”</p>
+
+
+
+<p>A couple of years ago, scientists representing the International Society for Stem Cell Research (ISSCR) recommended that <a href="https://www.technologyreview.com/2021/03/16/1020879/scientists-14-day-limit-stem-cell-human-embryo-research/">the 14-day rule be relaxed somewhat</a>. Rather than being completely banned, research on human embryos that goes beyond 14 days should be subject to an ethical and regulatory review, <a href="https://www.isscr.org/guidelines">they wrote</a>.</p>
+
+
+
+
+
+<p><strong>What about blastoids?</strong> For a start, it would be difficult to apply the 14-day rule in the same way, says Janet Rossant, a developmental biologist at the Hospital for Sick Children in Toronto and an ISSCR steering committee member. With human embryos, the clock starts ticking from the moment of fertilization, which is when the sperm successfully fertilizes the egg. This doesn’t happen when you make a blastoid from stem cells. So when should you start counting? From when you put the cells in a dish? From the first time the cells divide? Or the second?</p>
+
+
+
+<p>Perhaps the bigger question rests on how embryo-like these stem-cell-derived structures are. For some scientists, it’s a catch-22 situation. If the blastoids look too much like embryos, then many believe research with them should be restricted in the same way that we control work on human embryos.</p>
+
+
+
+<p><strong>But if they don’t look enough like embryos, then there’s no point in using them for research, says Chuva de Sousa Lopes. “At the moment, it’s so difficult to understand how close they are, or how different they are,” she says.</strong></p>
+
+
+
+<p>Scientists tend to look at the size and shape of the structures, and which genes their cells express, to work out how similar they are to typical embryos. But there are other important aspects to consider.</p>
+
+
+
+<p>“We first need to agree on what an embryo is,” says Naomi Moris, a developmental biologist at the Crick Institute in London. “Is it the thing that is only generated from the fusion of a sperm and an egg? Is it something to do with the cell types it possesses, or the [shape] of the structure?”</p>
+
+
+
+<p><strong>Perhaps it’s more to do with the structure’s potential.</strong> A human embryo could go on to form a person. Human blastoids can’t develop into people. Yet. </p>
+
+
+
+<p>As the technology advances, it is looking increasingly likely that one day, stem-cell-derived embryos will be able to develop into living animals. “Theoretically, if you have all the right cell types … they could go further,” says Rossant. “Never say never.”</p>
+
+
+
+<p>However we define blastoids and other embryo-like structures, now is the time to start regulating how we grow and study them. Rossant is one of the many scientists I spoke to who agree that, given how embryo-like these structures are looking, they should probably be subject to the same rules and regulations that cover research on normal embryos.</p>
+
+
+
+<p><strong>“The big risk is … if we had one rogue player that went really fast [with human cells], and developed something that caused a public backlash,” says Moris.</strong></p>
+
+
+
+<p>Jianping Fu, a bioengineer at the University of Michigan in Ann Arbor, has similar concerns. “Given how rapidly the field has been moving over the last few years … I’ve become more and more concerned about how close we are to generating a complete human embryo model with the potential to develop into a viable human embryo or fetus,” he says. “This is not some far-fetched, remote possibility.”</p>
+
+
+
+<h3>Read more from Tech Review&#8217;s archive</h3>
+
+
+
+<p><strong>You can read more about the new study in monkeys,</strong> and what happens to the synthetic embryos when they are implanted into animals, <a href="https://www.technologyreview.com/2023/04/06/1071112/synthetic-embryos-have-been-implanted-into-monkey-wombs/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23">here</a>.</p>
+
+
+
+<p><strong>My colleague Antonio Regalado has been covering these advances for a while.</strong> Back in 2017, he <a href="https://www.technologyreview.com/2017/09/19/149089/artificial-human-embryos-are-coming-and-no-one-knows-how-to-handle-them/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23#:~:text=Biotechnology-,Artificial%20Human%20Embryos%20Are%20Coming,%20and%20No%20One%20Knows%20How,into%20structures%20resembling%20human%20embryos.&amp;text=COURTESY%20OF%20ARYEH%20WARMFLASH,%20RICE,seen%20anything%20quite%20like%20it.">pointed out</a> that “artificial embryos” were coming, and that no one knew what to do with them.</p>
+
+
+
+<p><strong>These embryo-like structures were featured as one of Technology Review’s top 10 breakthrough technologies of 2020. </strong>Antonio explained why <a href="https://www.technologyreview.com/technology/artificial-embryos/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23">here</a>. (And <a href="https://www.technologyreview.com/2023/01/09/1066394/10-breakthrough-technologies-2023/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23">here’s this year’s list</a>, in case you missed it!)</p>
+
+
+
+<p><strong>In the last year, scientists have pushed stem-cell-derived embryos further than ever before.</strong> My colleague Rhiannon Williams <a href="https://www.technologyreview.com/2022/08/25/1058620/scientists-synthetic-mouse-embryos-developed-brains/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23">wrote</a> about mouse embryos created this way, which showed more brain development than had been seen previously.</p>
+
+
+
+<p><strong>And Antonio has covered similar work that resulted in mouse embryoids with a beating heart.</strong> The researcher behind that work plans to develop human cells in the same way—<a href="https://www.technologyreview.com/2022/08/04/1056633/startup-wants-copy-you-embryo-organ-harvesting/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23">to eventually grow new organs for transplantation</a>. </p>
+
+
+
+<h3>From around the web</h3>
+
+
+
+<p><strong>The first CRISPR treatment for sickle-cell disease has been submitted to the US Food and Drug Administration. </strong>Vertex, the company behind the treatment, has requested a priority review from the FDA. If approved, the treatment could become available by the end of the year. (<a rel="noreferrer noopener" href="https://www.statnews.com/2023/04/03/vertex-crispr-therapeutics-inch-ahead-of-rival-for-genetic-fix-to-sickle-cell-disease/" target="_blank">STAT</a>)</p>
+
+
+
+<p><strong>Ten years ago, pancreas cells from newborn pigs were transplanted into 14 people with diabetes.</strong> A decade later, most of them have better control over their blood sugar levels, and say they would recommend the treatment. (<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/xen.12798?">Xenotransplantation</a>)</p>
+
+
+
+<p><strong>Lab-grown fat, anyone? </strong>Scientists have managed to grow fatty tissues from cells in the lab, and hope to use them to make lab-grown meat more meat-like. (<a href="https://elifesciences.org/articles/82120">eLife</a>)</p>
+
+
+
+<p><strong>Ozempic has been all over the news lately.</strong> But a host of other weight-loss drugs are on the horizon. (<a href="https://www.theatlantic.com/health/archive/2023/04/ozempic-wegovy-mounjaro-weight-loss-drug-development-access/673627/">The Atlantic</a>)</p>
+
+
+
+<p><strong>Remember <a href="https://www.technologyreview.com/2023/03/24/1070250/newly-revealed-coronavirus-data-debate-virus-origins/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-06-23">the brouhaha</a> about samples collected from the infamous wet market that has long been considered the epicenter of the covid-19 outbreak?</strong> The Chinese scientists who collected the samples have finally <a href="https://www.nature.com/articles/s41586-023-06043-2">published their research</a>. Their paper suggests that humans might have brought the virus to the market, rather than the other way around. But not everyone is convinced by the study—not least because it suggests pandas were at the market, despite the fact that killing a panda carries the death sentence in China. (<a href="https://www.nature.com/articles/d41586-023-00998-y">Nature</a>)</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1071121</post-id>
+    </item>
+    <item>
+      <title>High-quality data enables medical research</title>
+      <link>https://www.technologyreview.com/2023/04/06/1070902/high-quality-data-enables-medical-research/</link>
+      <dc:creator><![CDATA[MIT Technology Review Insights]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 17:14:39 +0000</pubDate>
+      <category><![CDATA[Humans and technology]]></category>
+      <category><![CDATA[Sponsored]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1070902</guid>
+      <description><![CDATA[One unexpected side effect of the covid-19 pandemic was that the usually obscure world of health data was brought to national attention. Who was most at risk for infection? Who was most likely to die? Was one treatment better than another? Was getting covid-19 more or less dangerous than getting a vaccine? These complex questions,&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p>One unexpected side effect of the covid-19 pandemic was that the usually obscure world of health data was brought to national attention. Who was most at risk for infection? Who was most likely to die? Was one treatment better than another? Was getting covid-19 more or less dangerous than getting a vaccine?</p>
+
+
+<div class="wp-block-image">
+<figure class="alignright size-large"><img decoding="async" loading="lazy" width="6250" height="4838" src="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Cover150dpi.png?w=2584" alt="" class="wp-image-1070911" srcset="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Cover150dpi.png 6250w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Cover150dpi.png?resize=300,232 300w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Cover150dpi.png?resize=768,594 768w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Cover150dpi.png?resize=1536,1189 1536w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Cover150dpi.png?resize=2048,1585 2048w" sizes="(max-width: 6250px) 100vw, 6250px" /></figure></div>
+
+
+
+
+
+
+<p>These complex questions, usually the province of medical research, became concrete seemingly overnight. While amateur epidemiologists scoured the internet for statistics to support their personal beliefs, professionals often appeared on the nightly news, even if just to say, “We don’t have good enough data.”</p>
+
+
+
+<p>While our focus on the pandemic has now subsided, our health data quality problems remain. We’re swimming in health data—by some estimates, one-third of all data generated in the world is related to health and health care, and that amount increases more than 30% every year.</p>
+
+
+
+<p>With all that data, then, why can’t we answer our most pressing heath questions? Which of the five top diabetes drugs (if any) will be best for me? Will back surgery be more effective than physical therapy for my spine? What are the chances that I will need chemotherapy in addition to radiation to make my tumor go away?</p>
+
+
+
+<h3>EHRs have become ubiquitous</h3>
+
+
+
+<p>Electronic health records (EHRs) have become pervasive in the U.S., largely thanks to a multi-billion-dollar federal initiative that made interoperable EHRs a national goal. The 2009 HITECH Act provided incentives for healthcare providers who computerized and penalties for those who did not. In addition to the improved patient care this would enable, the millions of digitized health records would create opportunities to transform medical research.</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="5171" height="2252" src="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_EHSChartV2.png?w=3000" alt="" class="wp-image-1070919" srcset="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_EHSChartV2.png 5171w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_EHSChartV2.png?resize=300,131 300w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_EHSChartV2.png?resize=768,334 768w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_EHSChartV2.png?resize=1536,669 1536w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_EHSChartV2.png?resize=2048,892 2048w" sizes="(max-width: 5171px) 100vw, 5171px" /></figure>
+
+
+
+<p>“Prior to EHRs, clinical research was all on paper,” says Dale Sanders, chief strategy officer at Intelligent Medical Objects (IMO), a healthcare data enablement company that offers clinical terminology and tooling to improve the quality of medical data. “You would transfer that paper-based data to spreadsheets and do your own data analysis in a very small local environment. It didn’t give a broader view of a patient’s life, and it certainly didn’t enable any kind of broader population analysis.”</p>
+
+
+
+<p>Theoretically, EHRs should make it possible to aggregate, analyze, and search through information collected from millions of patients to discover patterns that aren’t evident on a smaller scale—as well as to track a single patient’s health status methodically over time. Imagine being able to quickly compare and analyze the cases of the few thousand people who have a particular rare condition or to follow users of a certain drug over a set period of time to observe long-term side effects that weren’t obvious in trials.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" loading="lazy" src="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Quote_JohnLee.png?w=3000" alt="" class="wp-image-1070913" width="1500" height="912" srcset="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Quote_JohnLee.png 6250w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Quote_JohnLee.png?resize=300,182 300w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Quote_JohnLee.png?resize=768,467 768w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Quote_JohnLee.png?resize=1536,933 1536w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_IMO_Quote_JohnLee.png?resize=2048,1245 2048w" sizes="(max-width: 1500px) 100vw, 1500px" /></figure>
+
+
+
+<p>Of course, it’s not that easy. “There’s a lot of raw data [in EHRs] and it’s very, very dirty,” explains John Lee, MD, an emergency physician and clinical informaticist who has served as chief medical information officer for several health systems. “Some of it isn’t accurate, and the stuff that is accurate isn’t packaged up in a way that’s usable and scalable. There is an opportunity tantalizingly at our fingertips if we could get out of our own way.”</p>
+
+
+
+<p>Sanders concurs. “Covid made us all realize that the data that we’re collecting with EHRs is not very good for clinical research, or for reacting to pandemics and public health challenges. It’s time to evolve the way we’re using them.”</p>
+
+
+
+<p><em><a href="https://forms.technologyreview.com/insights-imo-high-quality-data-enables-medical-research-report/" data-type="URL" data-id="https://forms.technologyreview.com/insights-imo-high-quality-data-enables-medical-research-report/" target="_blank" rel="noreferrer noopener">Download the report</a>.</em></p>
+
+
+
+<p><em>This content was produced by Insights, the custom content arm of MIT Technology Review. It was not written by MIT Technology Review’s editorial staff.</em></p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1070902</post-id>
+    </item>
+    <item>
+      <title>Synthetic embryos have been implanted into monkey wombs</title>
+      <link>https://www.technologyreview.com/2023/04/06/1071112/synthetic-embryos-have-been-implanted-into-monkey-wombs/</link>
+      <dc:creator><![CDATA[Jessica Hamzelou]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 15:00:00 +0000</pubDate>
+      <category><![CDATA[Biotechnology]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1071112</guid>
+      <description><![CDATA[Embryos made from stem cells—instead of a sperm and egg—have been created from monkey cells for the first time. When researchers put these “synthetic embryos” into the uteruses of adult monkeys, some showed the initial signs of pregnancy. It’s the furthest scientists have ever been able to take lab-grown embryos in primates—and the work hints&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p>Embryos made from stem cells—instead of a sperm and egg—have been created from monkey cells for the first time. When researchers put these “synthetic embryos” into the uteruses of adult monkeys, some showed the initial signs of pregnancy. It’s the furthest scientists have ever been able to take lab-grown embryos in primates—and the work hints that it may one day be possible to generate fetuses this way.&nbsp;</p>
+
+
+
+<p>“This is amazing,” says Susana Chuva de Sousa Lopes, a developmental biologist at Leiden University in the Netherlands, who was not involved in the study. “It’s the first time I’ve seen [synthetic embryos] developed so far, and with such good quality.” It is also the first time such embryo-like structures have been implanted in monkeys.</p>
+
+
+
+<p>The team behind the research, Zhen Liu at the Chinese Academy of Sciences in Shanghai and his colleagues, started with embryonic stem cells originally taken from macaque monkey embryos. These cells have been grown in labs for multiple generations and, given the right conditions, have the potential to develop into pretty much any type of body cell, including those that make up organs, blood, and nervous system.</p>
+
+
+
+<h3>Lab-grown embryos</h3>
+
+
+
+<p>The team used a set of lab conditions, which they tweaked and improved, to encourage embryonic stem cells to develop further. Over several days, the cells began developing in a very similar way to embryos. The<strong> </strong>resulting blobs of cells are called blastoids, because they look like early embryos, which are called blastocysts.</p>
+
+
+
+<p>After the blastoids had been growing in a dish for seven days, the researchers put them through a series of tests to figure out how similar they were to typical embryos. In one test, the team separated the individual cells in the blastoids and checked to see which genes were expressed in each one. The team analyzed over 6,000 individual cells this way.</p>
+
+
+
+
+
+<p>These tests revealed close similarities between the stem-cell-derived embryos and conventional monkey embryos. “The … analysis is simply mind-blowing,” says Chuva de Sousa Lopes. “These blastoids seemed to transition to something that really looks like an embryo. And that is really amazing.”</p>
+
+
+
+<p>Some of the blastoids were grown for longer—up to 17 days. These structures looked very much like typical embryos, the researchers say, although other scientists not involved in the study say more evidence is needed to prove just how similar they are.</p>
+
+
+
+<p>The only way to find out how embryo-like these blastoids really are is to test whether they can develop in a monkey’s uterus. So the team put between eight and 10 seven-day-old blastoids into the uteruses of each of eight adult monkeys. The researchers then monitored the transferred blastoids for three weeks.</p>
+
+
+
+<p>The researchers believe that in three of these monkeys, the blastoids successfully implanted in the uterus and appeared to generate a yolk sac—one of the very first signs of pregnancy. These monkeys also had elevated levels of pregnancy hormones. In other words, they would have had a positive pregnancy test.</p>
+
+
+
+<p>The presence of these hormones is not surprising, says Nicolas Rivron at the Austrian Academy of Sciences in Vienna, who has done similar research in mice. It is a set of cells in the developing embryo that produce these hormones, whether or not the embryo is going to develop further, he says. As part of his own past research, Rivron and his colleagues grew human blastoids in a dish. When they dipped a pregnancy test into this dish, <a href="https://www.nature.com/articles/s41596-023-00802-1">it gave a positive result</a>.</p>
+
+
+
+
+
+<p>But within 20 days of transfer, the monkey blastoids stopped developing and seemed to come apart, say Liu and colleagues, who published their results in the journal Cell Stem Cell. This suggests the blastoids still aren’t perfect replicas of normal embryos, says Alfonso Martinez Arias, a developmental biologist at Pompeu Fabra University in Barcelona, Spain. For the time being, “it clearly doesn’t work,” he says.</p>
+
+
+
+<p>That might be because a typical embryo is generated from an egg, which is then fertilized by sperm. A blastoid made from stem cells might express genes in the same way as a normal embryo, but it may be missing something crucial that normally comes from an egg, says Martinez Arias.</p>
+
+
+
+<p>There’s also a chance that the team might have seen more progress if the experiment had been done in more monkeys. After all, of the 484 blastoids that were developing at day seven, only five survived to day 17. And getting an embryo to implant in the uterus is a tricky business, says Chuva de Sousa Lopes. “Even when you do IVF in humans, it’s one of the bottlenecks in getting pregnant,” she says. “Perhaps if you did this with 100 monkeys, you would have two that would get pregnant further.”&nbsp;</p>
+
+
+
+<p>Monkey lives are precious, though, says Martinez Arias, and such large experiments would probably not be considered ethical.</p>
+
+
+
+<h3>A model embryo</h3>
+
+
+
+<p>None of this means that the blastoids are not useful. They still provide a good model of what happens in the earliest stages of embryo development in monkeys—and potentially in humans.</p>
+
+
+
+<p>Researchers hope that monkey blastoids will help us learn more about human embryos. We know very little about how the union of sperm and egg eventually leads to the development of our organs and nervous system—and why things can sometimes go wrong. Scientists are generally not allowed to study human embryos in a lab beyond 14 days after fertilization. And recently published <a href="https://www.isscr.org/guidelines">international guidelines</a> stress that human blastoids should never be implanted into a person or any other animal.</p>
+
+
+
+<p>“We want to understand human development, and it is not safe to transfer human blastoids [into people],” says Rivron. “We have to find an alternative. And nonhuman primates are the closest relatives to humans.”</p>
+
+
+
+<p>Scientists hope that this type of research can tell us more about human pregnancy, including why some people struggle to conceive and why some miscarriages happen. Because scientists could generate infinite numbers of blastoids, they wouldn’t need to rely on animals as embryo donors. And they would be able to test drugs on hundreds or thousands of blastoids in the hope of discovering ways to improve IVF, says Naomi Moris, who researches embryo development at the Crick Institute in London.</p>
+
+
+
+<h3>Stem-cell babies?</h3>
+
+
+
+<p>As the technology advances, it’s likely that researchers will find ways to use stem cells to create more mature embryos, and potentially fetuses and baby animals. “There seems to be some kind of race to see who is first to get something out of these blastoids,” says Martinez Arias.</p>
+
+
+
+<p>As things stand, there’s no way one of these blastoids could develop into a fetus or, eventually, a baby monkey. But the technology is improving all the time. Research into synthetic embryos has really taken off only in the last five to 10 years, and a huge amount of progress has been made in that time, says Moris.</p>
+
+
+
+<p>“We’re definitely moving very fast, and developments are being made really, really rapidly in this field,” she says. We need to make sure that laws keep pace with developments “to make sure we’re not pushing ahead too fast,” she says.</p>
+
+
+
+<p>“One day, will someone get a monkey from a blastoid? Probably,” says Martinez Arias. “But I don’t see that happening anytime soon.”</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1071112</post-id>
+    </item>
+    <item>
+      <title>The Download: ChatGPT in schools, and deep sea mining</title>
+      <link>https://www.technologyreview.com/2023/04/06/1071074/download-chatgpt-in-schools-deep-sea-mining/</link>
+      <dc:creator><![CDATA[Rhiannon Williams]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 12:10:00 +0000</pubDate>
+      <category><![CDATA[The Download]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1071074</guid>
+      <description><![CDATA[This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. ChatGPT is going to change education, not destroy it Just days after OpenAI dropped ChatGPT in late November 2022, the chatbot was widely denounced as a free essay-writing, test-taking tool that made it&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p><em>This is today&#8217;s edition of <a href="https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289">The Download</a></em>,<em> our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</em></p>
+
+
+
+<p class="has-medium-font-size"><strong>ChatGPT is going to change education, not destroy it</strong></p>
+
+
+
+<p>Just days after OpenAI dropped ChatGPT in late November 2022, the chatbot was widely denounced as a free essay-writing, test-taking tool that made it laughably easy to cheat.&nbsp;</p>
+
+
+
+<p>Schools swiftly blocked access to OpenAI’s website, while several leading universities issued statements that warned students against using the chatbot to cheat.<br><br>This initial panic was understandable. ChatGPT can answer questions and generate slick, well-structured text on almost any topic, from string theory to Shakespeare. But three months on, the outlook is a lot less bleak. <a href="https://www.technologyreview.com/2023/04/06/1071059/chatgpt-change-not-destroy-education-openai/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">Read the full story</a>.</p>
+
+
+
+<p><em>—Will Douglas Heaven</em></p>
+
+
+
+<p><strong>Will’s piece is from our forthcoming Education print issue. If you haven’t already, you can </strong><a href="https://www.technologyreview.com/subscribe?itm_source=nav-button&amp;itm_medium=onsite&amp;itm_campaign=subscribe-BAU&amp;truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*"><strong>subscribe</strong></a><strong> to MIT Technology Review from just $80 a year.</strong></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>These deep-sea “potatoes” could be the future of mining for renewable energy</strong></p>
+
+
+
+<p>There’s been growing buzz in the news about mining in the deep ocean lately. Proponents say certain spots on the ocean floor could be a key source of some of the metals we need to build batteries and other technology that’s crucial for addressing climate change.&nbsp;</p>
+
+
+
+<p>But whether commercial efforts should go ahead is a source of growing controversy: there’s a lot of uncertainty about how they might affect ecosystems, and a lot of politics at play.</p>
+
+
+
+<p>A UN group just finished up meetings last week to try to sort all this out, and there could be some key actions on deep-sea mining this summer. Our climate reporter Casey Crownhart explains why potato-sized lumps called polymetallic nodules found on the seabed could help to solve the shortage of the essential metals we need to make more EV batteries. <a href="https://www.technologyreview.com/2023/04/06/1071051/these-deep-sea-potatoes-could-be-the-future-of-mining-for-renewable-energy/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">Read the full story</a>.</p>
+
+
+
+<p><strong>Casey’s story is from The Spark, her weekly climate and energy newsletter. </strong><a href="https://forms.technologyreview.com/newsletters/climate-energy-the-spark/?_ga=2.156922875.1373485121.1680512602-160041263.1657781451"><strong>Sign up</strong></a><strong> to receive it in your inbox every Wednesday.</strong></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>The must-reads</strong></p>
+
+
+
+<p><em>I’ve combed the internet to find you today’s most fun/important/scary/fascinating stories about technology.</em></p>
+
+
+
+<p><strong>1 Chatgpt invented a sexual harassment scandal</strong><br>It’s even citing sources for scenarios that never happened. (<a href="https://www.washingtonpost.com/technology/2023/04/05/chatgpt-lies/">WP</a> $)<br>+ <em>Google search is going to feature AI from now on. </em>(<a href="https://www.wsj.com/articles/google-ceo-sundar-pichai-says-search-to-feature-chat-ai-2fa0f54c?mod=pls_whats_news_us_business_f">WSJ</a> $)<br>+ <em>US VC firms are funding China’s chatbots. </em>(<a href="https://www.theinformation.com/articles/sequoia-and-other-u-s-backed-vcs-are-funding-chinas-answer-to-openai?rc=e9y5ks">The Information</a> $)<br>+ <em>Why a lot of the fears around AI focus on the wrong things. </em>(<a href="https://www.vox.com/future-perfect/23671304/artificial-intelligence-biotechnology-covid-pandemics-existential-risks-gain-of-function">Vox</a>)<br>+ <em>The inside story of how ChatGPT was built from the people who made it. </em>(<a href="https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>2 Donald Trump’s supporters are content creators now </strong><br>Everyone at the rally protesting his arrest was filming and live streaming. (<a href="https://www.theverge.com/2023/4/5/23671490/donald-trump-protest-arrest-content-creators-influencers-truth-social">The Verge</a>)</p>
+
+
+
+<p><strong>3 Meet the Dutch student fighting against exam monitoring software</strong><br>Robin Pocornie claims the face detection software discriminates against Black users. (<a href="https://www.wired.com/story/student-exam-software-bias-proctorio/">Wired</a> $)<br>+ <em>London police’s facial recognition system is being met with resistance. </em>(<a href="https://www.theguardian.com/technology/2023/apr/05/live-facial-recognition-criticised-metropolitan-police">The Guardian</a>)<br>+ <em>This is how we lost control of our faces. </em>(<a href="https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>4 Police have busted an international criminal password marketplace</strong><br>It sold stolen identities belonging to 2 million victims. (<a href="https://www.theguardian.com/technology/2023/apr/05/international-sting-takes-down-online-marketplace-of-stolen-identities">The Guardian</a>)<br>+ <em>Here’s how to check if your credentials were affected. </em>(<a href="https://www.theverge.com/2023/4/5/23671412/genesis-marketplace-two-factor-passwords-how-to">The Verge</a>)</p>
+
+
+
+<p><strong>5 The US is overlooking the electric rickshaw</strong><br>They’re widely used across Asia, and much nimbler than cars. (<a href="https://www.theatlantic.com/science/archive/2023/04/electric-ev-rickshaw-sales-climate-change/673629/">The Atlantic</a> $)</p>
+
+
+
+<p><strong>6 India won’t regulate AI</strong><br>It’s taking a different tack to policymakers in Europe and the US. (<a href="https://gizmodo.com/ai-chatgpt-google-bard-india-will-not-regulate-ai-1850305129">Gizmodo</a>)<br>+ <em>The EU wants to regulate your favorite AI tools. </em>(<a href="https://www.technologyreview.com/2023/01/10/1066538/the-eu-wants-to-regulate-your-favorite-ai-tools/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>7 What YouTube’s toxic masculinity teaches young boys<br></strong>Its echo chamber amplifies and perpetuates the hateful teachings of Andrew Tate. (<a href="https://www.ft.com/content/c9b6516a-ea26-42e4-9760-68f87e0cbf6b">FT</a> $)</p>
+
+
+
+<p><strong>8 Animal testing could be on the way out</strong><br>Organoids are closer to mirroring how chemicals could affect humans. (<a href="https://www.inverse.com/science/end-of-animal-testing-organoids">Inverse</a>)<br>+ <em>Are rats with human brain cells still just rats? </em>(<a href="https://www.technologyreview.com/2022/10/14/1061611/rats-with-human-brain-cells/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>9 How one gambler cracked roulette</strong><br>Many tried to cheat the game using microcomputers. Others didn’t need them.(<a href="https://www.bloomberg.com/features/2023-how-to-beat-roulette-gambler-figures-it-out/?srnd=businessweek-v2&amp;sref=E9Urfma4">Bloomberg</a> $)<br>+ <em>How mobile money supercharged Kenya’s sports betting addiction. </em>(<a href="https://www.technologyreview.com/2022/04/14/1049239/kenya-sports-betting-mobile-money/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>10 Ukrainian refugees are healing their trauma in the metaverse</strong><br>The virtual support group gathers in a virtual version of Kyiv. (<a href="https://www.vice.com/en/article/g5ybmq/ukrainian-refugees-are-working-through-trauma-in-a-metaverse-version-of-kyiv">Motherboard</a>)</p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>Quote of the day</strong></p>
+
+
+
+<p class="has-large-font-size"><strong>&#8220;We could move to a four-day week easily.”</strong></p>
+
+
+
+<p>—Christopher Pissarides, a Nobel Prize-winning labor economist, is optimistic about chatbots&#8217; ability to lighten humans&#8217; working load, <a href="https://www.bloomberg.com/news/articles/2023-04-05/chatgpt-opens-door-to-four-day-week-says-nobel-prize-winner?sref=E9Urfma4">Bloomberg</a> reports.</p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>The big story</strong></p>
+
+
+
+<p><strong>How scientists want to make you young again</strong></p>
+
+
+
+<figure class="wp-block-image"><a href="https://www.technologyreview.com/2022/10/25/1061644/how-to-be-young-again/?truid=*|LINKID|*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*|SUBCLASS|*&amp;utm_content=*|DATE:m-d-Y|*"><img decoding="async" src="https://lh3.googleusercontent.com/3QWZfvWz2IB37e4xcMXcC_SWovXKc8mS0JHqQl0tutvlR3vTA9kK6LHnjwAbGSvzO0YsEkrH1jPCgzIfj4CBL58ch4tguuk7WPMJByF09xgfOYcIF6M41K2T5jMmHrG60lZOgT8HIOSUR0O3WZjuBts" alt=""/></a></figure>
+
+
+
+<p><a href="https://www.technologyreview.com/2022/10/25/1061644/how-to-be-young-again/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*"></a><strong>October 2022</strong></p>
+
+
+
+<p>A little over 15 years ago, scientists at Kyoto University in Japan made a remarkable discovery.&nbsp;</p>
+
+
+
+<p>When they added just four proteins to a skin cell and waited about two weeks, some of the cells underwent an unexpected and astounding transformation: they became young again. They turned into stem cells almost identical to the kind found in a days-old embryo, just beginning life’s journey.</p>
+
+
+
+<p>Now, after more than a decade of studying and tweaking so-called cellular reprogramming, a number of biotech companies and research labs say they have tantalizing hints that the process could be the gateway to an unprecedented new technology for age reversal. <a href="https://www.technologyreview.com/2022/10/25/1061644/how-to-be-young-again/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">Read the full story</a>.</p>
+
+
+
+<p><em>—Antonio Regalado</em></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>We can still have nice things</strong></p>
+
+
+
+<p><em>A place for comfort, fun and distraction in these weird times. (Got any ideas? </em><a href="mailto:rhiannon.williams@technologyreview.com"><em>Drop me a line</em></a><em> or </em><a href="https://twitter.com/RhiannonJudithW"><em>tweet &#8217;em at me</em></a><em>.)</em></p>
+
+
+
+<p>+ If you’re planning a trip to the UK this year, these <a href="https://www.cntraveller.com/gallery/best-places-to-visit-uk">sightseeing suggestions</a> are a good place to start.<br>+ An interesting take on a possible inspiration for Vincent van Gogh’s Starry Night: <a href="https://hyperallergic.com/811008/did-van-goghs-disdain-for-the-eiffel-tower-inspire-starry-night/">his hatred of the Eiffel Tower</a>.<br>+ Is it even possible to <a href="https://www.outsideonline.com/outdoor-adventure/water-activities/river-permit-pirate-sundog/#_pay-wall">pirate a river</a>?!<br>+ A useful guide on how to make peace with <a href="https://thewalrus.ca/how-to-make-peace-with-canada-geese/">Canada Geese</a>.<br>+ For such slow movers, <a href="https://nautil.us/how-snails-cross-vast-oceans-288802/?_sp=713bdc4f-9646-49d9-8973-7b193168c24b.1680378497599">snails</a> are surprisingly intrepid travelers.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1071074</post-id>
+    </item>
+    <item>
+      <title>ChatGPT is going to change education, not destroy it</title>
+      <link>https://www.technologyreview.com/2023/04/06/1071059/chatgpt-change-not-destroy-education-openai/</link>
+      <dc:creator><![CDATA[Will Douglas Heaven]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 10:13:15 +0000</pubDate>
+      <category><![CDATA[Artificial intelligence]]></category>
+      <category><![CDATA[Artificial Intelligence]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1071059</guid>
+      <description><![CDATA[The response from schools and universities was swift and decisive. Just days after OpenAI dropped ChatGPT in late November 2022, the chatbot was widely denounced as a free essay-writing, test-taking tool that made it laughably easy to cheat on assignments. Los Angeles Unified, the second-­largest school district in the US, immediately blocked access to OpenAI’s&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p>The response from schools and universities was swift and decisive.</p>
+
+
+
+<p>Just days after OpenAI dropped <a href="https://www.technologyreview.com/2023/02/08/1068068/chatgpt-is-everywhere-heres-where-it-came-from/">ChatGPT</a> in late November 2022, the chatbot was widely denounced as a free essay-writing, test-taking tool that made it laughably easy to cheat on assignments.</p>
+
+
+
+<p>Los Angeles Unified, the second-­largest school district in the US, immediately blocked access to OpenAI’s website from its schools’ network. Others soon joined. By January, school districts across the English-speaking world had started banning the software, from Washington, New York, Alabama, and Virginia in the United States to Queensland and New South Wales in Australia.</p>
+
+
+
+<p>Several leading universities in the UK, including Imperial College London and the University of Cambridge, issued statements that warned students against using ChatGPT to cheat.&nbsp;</p>
+
+
+
+<p>“While the tool may be able to provide quick and easy answers to questions, it does not build critical-­thinking and problem-solving skills, which are essential for academic and lifelong success,” Jenna Lyle, a spokeswoman for the New York City Department of Education, told the Washington Post in early January.</p>
+
+
+
+<p>This initial panic from the education sector was understandable. ChatGPT, available to the public via a web app, can answer questions and generate slick, well-structured blocks of text several thousand words long on almost any topic it is asked about, from string theory to Shakespeare. Each essay it produces is unique, even when it is given the same prompt again, and its authorship is (practically) impossible to spot. It looked as if ChatGPT would undermine the way we test what students have learned, a cornerstone of education.</p>
+
+
+
+
+
+<p>But three months on, the outlook is a lot less bleak. I spoke to a number of teachers and other educators who are now reevaluating what chatbots like ChatGPT mean for how we teach our kids. Far from being just a dream machine for cheaters, many teachers now believe, ChatGPT could actually help make education better.</p>
+
+
+
+<p>Advanced chatbots could be used as powerful classroom aids that make lessons more interactive, teach students media literacy, generate personalized lesson plans, save teachers time on admin, and more.</p>
+
+
+
+<p>Educational-tech companies including Duolingo and Quizlet, which makes digital flash cards and practice assessments used by half of all high school students in the US, have already integrated OpenAI’s chatbot into their apps. And OpenAI has worked with educators to put together a fact sheet about ChatGPT’s potential impact in schools. The company says it also consulted educators when it developed a <a href="https://www.technologyreview.com/2023/02/07/1067928/why-detecting-ai-generated-text-is-so-difficult-and-what-to-do-about-it/">free tool to spot text written by a chatbot</a> (though its accuracy is limited).&nbsp;</p>
+
+
+
+<p>“We believe that educational policy experts should decide what works best for their districts and schools when it comes to the use of new technology,” says Niko Felix, a spokesperson for OpenAI. “We are engaging with educators across the country to inform them of ChatGPT’s capabilities. This is an important conversation to have so that they are aware of the potential benefits and misuse of AI, and so they understand how they might apply it to their classrooms.”</p>
+
+
+
+<p>But it will take time and resources for educators to innovate in this way. Many are too overworked, under-resourced, and beholden to strict performance metrics to take advantage of any opportunities that chatbots may present.&nbsp;</p>
+
+
+
+<p>It is far too soon to say what the lasting impact of ChatGPT will be—it hasn’t even been around for a full semester. What’s certain is that essay-writing chatbots are here to stay. And they will only get better at standing in for a student on deadline—more accurate and harder to detect. Banning them is futile, possibly even counterproductive. “We need to be asking what we need to do to prepare young people—learners—for a future world that’s not that far in the future,” says Richard Culatta, CEO of the International Society for Technology in Education (ISTE), a nonprofit that advocates for the use of technology in teaching.</p>
+
+
+
+<p>Tech’s ability to revolutionize schools has been overhyped in the past, and it’s easy to get caught up in the excitement around ChatGPT’s transformative potential. But this feels bigger: AI will be in the classroom one way or another. It’s vital that we get it right.&nbsp;</p>
+
+
+
+<h3>From ABC to GPT</h3>
+
+
+
+<p>Much of the early hype around ChatGPT was based on how good it is at test taking. In fact, this was a key point OpenAI touted when it rolled out <a href="https://www.technologyreview.com/2023/03/14/1069823/gpt-4-is-bigger-and-better-chatgpt-openai/">GPT-4</a>, the latest version of the large language model that powers the chatbot, in March. It could pass the bar exam! It scored a 1410 on the SAT! It aced the AP tests for biology, art history, environmental science, macroeconomics, psychology, US history, and more. Whew!</p>
+
+
+
+<p>It’s little wonder that some school districts totally freaked out.</p>
+
+
+
+<p>Yet in hindsight, the immediate calls to ban ChatGPT in schools were a dumb reaction to some very smart software. “People panicked,” says Jessica Stansbury, director of teaching and learning excellence at the University of Baltimore. “We had the wrong conversations instead of thinking, ‘Okay, it’s here. How can we use it?’”</p>
+
+
+
+<p>“It was a storm in a teacup,” says David Smith, a professor of bioscience education at Sheffield Hallam University in the UK. Far from using the chatbot to cheat, Smith says, many of his students hadn’t yet heard of the technology until he mentioned it to them: “When I started asking my students about it, they were like, ‘Sorry, what?’”</p>
+
+
+
+<p>Even so, teachers are right to see the technology as a game changer. Large language models like OpenAI’s ChatGPT and its successor GPT-4, as well as Google’s Bard and Microsoft’s Bing Chat, are set to have a massive impact on the world. The technology is already being rolled out into consumer and business software. If nothing else, many teachers now recognize that they have an obligation to teach their students about how this new technology works and what it can make possible. “They don’t want it to be vilified,” says Smith. “They want to be taught how to use it.”</p>
+
+
+
+
+
+<p>Change can be hard. “There’s still some fear,” says Stansbury. “But we do our students a disservice if we get stuck on that fear.”</p>
+
+
+
+<p>Stansbury has helped organize workshops at her university to allow faculty and other teaching staff to share their experiences and voice their concerns. She says that some of her colleagues turned up worried about cheating, others about losing their jobs. But talking it out helped. “I think some of the fear that faculty had was because of the media,” she says. “It’s not because of the students.”</p>
+
+
+
+<p>In fact, a US survey of 1,002 K–12 teachers and 1,000 students between 12 and 17, commissioned by the Walton Family Foundation in February, found that more than half the teachers had used ChatGPT—10% of them reported using it every day—but only a third of the students. Nearly all those who had used it (88% of teachers and 79% of students) said it had a positive impact.</p>
+
+
+
+<p>A majority of teachers and students surveyed also agreed with this statement: “ChatGPT is just another example of why we can’t keep doing things the old way for schools in the modern world.”</p>
+
+
+
+<p>Helen Crompton, an associate professor of instructional technology at Old Dominion University in Norfolk, Virginia, hopes that chatbots like ChatGPT will make school better.</p>
+
+
+
+<p>Many educators think that schools are stuck in a groove, says Crompton, who was a K–12 teacher for 16 years before becoming a researcher. In a system with too much focus on grading and not enough on learning, ChatGPT is forcing a debate that is overdue. “We’ve long wanted to transform education,” she says. “We’ve been talking about it for years.”</p>
+
+
+
+<p>Take cheating. In Crompton’s view, if ChatGPT makes it easy to cheat on an assignment, teachers should throw out the assignment rather than ban the chatbot.</p>
+
+
+
+<p>We need to change how we assess learning, says Culatta: “Did ChatGPT kill assessments? They were probably already dead, and they’ve been in zombie mode for a long time. What ChatGPT did was call us out on that.”</p>
+
+
+
+<h3>Critical thinking</h3>
+
+
+
+<p>Emily Donahoe, a writing tutor and educational developer at the University of Mississippi, has noticed classroom discussions starting to change in the months since ChatGPT’s release. Although she first started to talk to her undergraduate students about the technology out of a sense of duty, she now thinks that ChatGPT could help teachers shift away from an excessive focus on final results. Getting a class to engage with AI and think critically about what it generates could make teaching feel more human, she says, “rather than asking students to write and perform like robots.”</p>
+
+
+
+<p>This idea isn’t new. Generations of teachers have subscribed to a framework known as Bloom’s taxonomy, introduced by the educational psychologist Benjamin Bloom in the 1950s, in which basic knowledge of facts is just the bedrock on which other forms of learning, such as analysis and evaluation, sit. Teachers like Donahoe and Crompton think that chatbots could help teach those other skills.&nbsp;</p>
+
+
+
+<p>In the past, Donahoe would set her students to writing assignments in which they had to make an argument for something—and grade them on the text they turned in. This semester, she asked her students to use ChatGPT to generate an argument and then had them annotate it according to how effective they thought the argument was for a specific audience. Then they turned in a rewrite based on their criticism.</p>
+
+
+
+
+
+<p>Breaking down the assignment in this way also helps students focus on specific skills without getting sidetracked. Donahoe found, for example, that using ChatGPT to generate a first draft helped some students stop worrying about the blank page and instead focus on the critical phase of the assignment. “It can help you move beyond particular pain points when those pain points aren’t necessarily part of the learning goals of the assignment,” she says.</p>
+
+
+
+<p>Smith, the bioscience professor, is also experimenting with ChatGPT assignments. The hand-wringing around it reminds him of the anxiety many teachers experienced a couple of years ago during the pandemic. With students stuck at home, teachers had to find ways to set assignments where solutions were not too easy to Google. But what he found was that Googling—what to ask for and what to make of the results—was itself a skill worth teaching.&nbsp;</p>
+
+
+
+<p>Smith thinks chatbots could be the same way. If his undergraduate students want to use ChatGPT in their written assignments, he will assess the prompt as well as—or even rather than—the essay itself. “Knowing the words to use in a prompt and then understanding the output that comes back is important,” he says. “We need to teach how to do that.”</p>
+
+
+
+<h3>The new education</h3>
+
+
+
+<p>These changing attitudes reflect a wider shift in the role that teachers play, says Stansbury. Information that was once dispensed in the classroom is now everywhere: first online, then in chatbots. What educators must now do is show students not only how to find it, but what information to trust and what not to, and how to tell the difference. “Teachers are no longer gatekeepers of information, but facilitators,” she says.</p>
+
+
+
+<p>In fact, teachers are finding opportunities in the misinformation and bias that large language models often produce. These shortcomings can kick off productive discussions, says Crompton: “The fact that it’s not perfect is great.”</p>
+
+
+
+<p>Teachers are asking students to use ChatGPT to generate text on a topic and then getting them to point out the flaws. In one example that a colleague of Stansbury’s shared at her workshop, students used the bot to generate an essay about the history of the printing press. When its US-centric response included no information about the origins of print in Europe or China, the teacher used that as the starting point for a conversation about bias. “It’s a great way to focus on media literacy,” says Stansbury.</p>
+
+
+
+<p>Crompton is working on a study of ways that chatbots can improve teaching. She runs off a list of potential applications she’s excited about, from generating test questions to summarizing information for students with different reading levels to helping with time-­consuming administrative tasks such as drafting emails to colleagues and parents.</p>
+
+
+
+<p>One of her favorite uses of the technology is to bring more interactivity into the classroom. Teaching methods that get students to be creative, to role-play, or to think critically lead to a deeper kind of learning than rote memorization, she says. ChatGPT can play the role of a debate opponent and generate counterarguments to a student’s positions, for example. By exposing students to an endless supply of opposing viewpoints, chatbots could help them look for weak points in their own thinking.&nbsp;</p>
+
+
+
+<p>Crompton also notes that if English is not a student’s first language, chatbots can be a big help in drafting text or paraphrasing existing documents, doing a lot to level the playing field. Chatbots also serve students who have specific learning needs, too. Ask ChatGPT to explain Newton’s laws of motion to a student who learns better with images rather than words, for example, and it will generate an explanation that features balls rolling on a table.</p>
+
+
+
+<h3>Made-to-measure learning</h3>
+
+
+
+<p>All students can benefit from personalized teaching materials, says Culatta, because everybody has different learning preferences. Teachers might prepare a few different versions of their teaching materials to cover a range of students’ needs. Culatta thinks that chatbots could generate personalized material for 50 or 100 students and make bespoke tutors the norm. “I think in five years the idea of a tool that gives us information that was written for somebody else is going to feel really strange,” he says.</p>
+
+
+
+<p>Some ed-tech companies are already doing this. In March, Quizlet updated its app with a feature called Q-Chat, built using ChatGPT, that tailors material to each user’s needs. The app adjusts the difficulty of the questions according to how well students know the material they’re studying and how they prefer to learn. “Q-Chat provides our students with an experience similar to a one-on-one tutor,” says Quizlet’s CEO, Lex Bayer.</p>
+
+
+
+<p>In fact, some educators think future textbooks could be bundled with chatbots trained on their contents. Students would have a conversation with the bot about the book’s contents as well as (or instead of) reading it. The chatbot could generate personalized quizzes to coach students on topics they understand less well.</p>
+
+
+<div class="wp-block-image">
+<figure class="wp-block-image size-large"><img decoding="async" loading="lazy" width="2700" height="2700" src="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg?w=2000" alt="chalkboard where the &quot;T&quot; of G-P-T has been erased and replaced with an &quot;A&quot;" class="wp-image-1071029" srcset="https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg 2700w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg?resize=150,150 150w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg?resize=300,300 300w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg?resize=768,768 768w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg?resize=2000,2000 2000w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg?resize=1536,1536 1536w, https://wp.technologyreview.com/wp-content/uploads/2023/04/MIT_ChatGPT_Chalk_CMYK.jpeg?resize=2048,2048 2048w" sizes="(max-width: 2700px) 100vw, 2700px" /><div class="image-credit">SELMAN DESIGN</div>
+</figure>
+</div>
+
+
+<p>Not all these approaches will be instantly successful, of course. Donahoe and her students came up with guidelines for using ChatGPT together, but “it may be that we get to the end of this class and I think this absolutely did not work,” she says. “This is still an ongoing experiment.”</p>
+
+
+
+<p>She has also found that students need considerable support to make sure ChatGPT promotes learning rather than getting in the way of it. Some students find it harder to move beyond the tool’s output and make it their own, she says: “It needs to be a jumping-off point rather than a crutch.”</p>
+
+
+
+<p>And, of course, some students will still use ChatGPT to cheat. In fact, it makes it easier than ever. With a deadline looming, who wouldn’t be tempted to get that assignment written at the push of a button? “It equalizes cheating for everyone,” says Crompton. “You don’t have to pay. You don’t have to hack into a school computer.”</p>
+
+
+
+<p>Some types of assignments will be harder hit than others, too. ChatGPT is really good at summarizing information. When that is the goal of an assignment, cheating is a legitimate concern, says Donahoe: “It would be virtually indistinguishable from an A answer in that context. It is something we should take seriously.”</p>
+
+
+
+<p>None of the educators I spoke to have a fix for that. And not all other fears will be easily allayed. (Donahoe recalls a recent workshop at her university in which faculty were asked what they were planning to do differently after learning about ChatGPT. One faculty member responded: “I think I’ll retire.”)</p>
+
+
+
+<p>But nor are teachers as worried as initial reports suggested. Cheating is not a new problem: schools have survived calculators, Google, Wikipedia, essays-for-pay websites, and more.</p>
+
+
+
+<p>For now, teachers have been thrown into a radical new experiment. They need support to figure it out—perhaps even government support in the form of money, training, and regulation. But this is not the end of education. It’s a new beginning.</p>
+
+
+
+<p>“We have to withhold some of our quick judgment,” says Culatta. “That’s not helpful right now. We need to get comfortable kicking the tires on this thing.”</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1071059</post-id>
+    </item>
+    <item>
+      <title>These deep-sea “potatoes” could be the future of mining for renewable energy</title>
+      <link>https://www.technologyreview.com/2023/04/06/1071051/these-deep-sea-potatoes-could-be-the-future-of-mining-for-renewable-energy/</link>
+      <dc:creator><![CDATA[Casey Crownhart]]></dc:creator>
+      <pubDate>Thu, 06 Apr 2023 10:00:00 +0000</pubDate>
+      <category><![CDATA[Climate change]]></category>
+      <category><![CDATA[climate change]]></category>
+      <category><![CDATA[sustainable energy]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1071051</guid>
+      <description><![CDATA[I’ve been on the road this week, and by a stroke of luck I got to visit one of my favorite places in the world: the whale shark exhibit at the Georgia Aquarium in Atlanta.&#160; The tank is massive, holding over 6 million gallons of water. Six full-sized whale sharks swim around it, along with&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p>I’ve been on the road this week, and by a stroke of luck I got to visit one of my favorite places in the world: the whale shark exhibit at the Georgia Aquarium in Atlanta.&nbsp;</p>
+
+
+
+<p>The tank is massive, holding over 6 million gallons of water. Six full-sized whale sharks swim around it, along with lots of manta rays and other assorted ocean creatures. I remember sitting down in front of the main viewing window on a school field trip, captivated by this gigantic array of life. But compared with the ocean, even this huge display is infinitesimal—less than a drop in the bucket.&nbsp;</p>
+
+
+
+<p><strong>I’ve been thinking a lot about the oceans recently, even before this aquarium trip, because there’s been growing buzz in the news about mining in the deep ocean.</strong>&nbsp;</p>
+
+
+
+<p>Proponents say certain spots on the ocean floor could be a key source of some of the metals we need to build batteries and other technology that’s crucial for addressing climate change. But whether commercial efforts should go ahead is a source of growing controversy: there’s a lot of uncertainty about how they might affect ecosystems, and a lot of politics at play.&nbsp;</p>
+
+
+
+<p><strong>A UN group just finished up meetings last week to try to sort all this out, and there could be some key actions on deep-sea mining this summer that you should know about. So this week, let’s talk about mining and the ocean.&nbsp;</strong></p>
+
+
+
+<h3><strong>Why mine in the ocean?</strong></h3>
+
+
+
+<p>To transform our world to address climate change, we need a lot of stuff: lithium for batteries, rare-earth elements like neodymium and dysprosium for wind turbines, copper for, well, basically everything.&nbsp;</p>
+
+
+
+<p>We’re not exactly going to run out of any of these key materials: the planet has <a href="https://www.technologyreview.com/2023/01/31/1067444/we-have-enough-materials-to-power-world-with-renewables/?utm_source=the_spark&amp;utm_medium=email&amp;utm_campaign=the_spark.unpaid.engagement&amp;utm_content=*%7Cdate:m-d-y%7C*" target="_blank" rel="noreferrer noopener">plenty of the resources</a> we need to build clean energy infrastructure. But mining is a huge and complicated undertaking, so the question is whether we can access what we need quickly and cheaply enough.&nbsp;</p>
+
+
+
+
+
+<p>Take copper, for example. Demand for the metal in energy technologies alone will add up to over a million tons <a href="https://pubdocs.worldbank.org/en/961711588875536384/Minerals-for-Climate-Action-The-Mineral-Intensity-of-the-Clean-Energy-Transition.pdf" target="_blank" rel="noreferrer noopener"><em>every year</em> by around 2050</a>, and it’s getting harder to find good spots to dig up more. Companies are resorting to mining sites with lower concentrations of copper because we’ve exhausted the accessible higher-concentration spots we know about.&nbsp;</p>
+
+
+
+<p><strong>The ocean could be a new source for copper and other crucial materials. Seabed mining could happen in a few different ways, but the stars of the show are potato-sized lumps called polymetallic nodules</strong>. These nodules dot the ocean floor in some places, especially in the Clarion-Clipperton Zone, which lies between Hawaii and Mexico in the Pacific Ocean.&nbsp;</p>
+
+
+
+<p>Nodules form naturally over millions of years as trace elements in seawater get deposited onto small objects nestled together on the ocean floor, like bone fragments or shark teeth, and slowly grow. They contain manganese, cobalt, copper, and nickel, which are all used in the lithium-ion batteries that power electric vehicles today, as well as a bit of iron and titanium and trace amounts of rare-earth metals and lithium.&nbsp;</p>
+
+
+
+<p>Because of the impressive array of metals they contain, at least one company has likened each nodule to a battery in a rock. That’s why over the past decade, companies have begun to explore the possibility of commercial mining operations in the deep sea, mostly in the Clarion-Clipperton Zone.&nbsp;</p>
+
+
+
+<p><strong>But not everyone is on board with this use of the ocean, because <a rel="noreferrer noopener" href="https://www.nytimes.com/interactive/2022/08/29/world/deep-sea-riches-mining-nodules.html" target="_blank">a lot of life is found in and around these nodule fields</a>,</strong> from corals and sea cucumbers, to worms and dumbo octopuses, not to mention all the tiny creatures we haven’t discovered yet. Scientists have also raised questions about what will happen when the mining operations kick up sediment: plumes could disturb wildlife or even the natural carbon storage beneath the seabed.&nbsp;</p>
+
+
+
+<h3><strong>Who gets to decide?&nbsp;</strong></h3>
+
+
+
+<p>Governing international waters is a complicated business. For deep-sea mining, there’s a UN group in charge, called the International Seabed Authority (ISA), which was founded in 1994 and is based in Jamaica. The ISA has been developing a mining code for commercial operations, but some companies want to get things going already.&nbsp;</p>
+
+
+
+<p>A process is in place to address this situation, called the two-year rule: at any time before regulations get passed, a member nation has the authority to give the ISA notice that it wants to start mining, and the ISA then has two years to come up with rules.&nbsp;</p>
+
+
+
+<p><strong>The small island nation of Nauru, in Micronesia, triggered the two-year rule just about two years ago, so the deadline is July 9, 2023.</strong> But the ISA’s next meeting, during which it could potentially finish up regulations, starts July 10, so that deadline is toast.&nbsp;</p>
+
+
+
+
+
+<p>It’s not totally clear exactly what will happen after the deadline passes. One possibility is that a company could submit an application to begin commercial mining anyway, which the ISA might choose to review even if the rules aren’t established yet.&nbsp;</p>
+
+
+
+<p>A subgroup of the ISA just wrapped up two weeks of meetings in Jamaica, where delegates discussed potential regulations and how the group would handle commercial mining efforts in the meantime. <a href="https://www.bloomberg.com/news/articles/2023-04-03/companies-can-vie-to-mine-the-deep-sea-starting-in-july?srnd=green&amp;sref=E9Urfma4" target="_blank" rel="noreferrer noopener">As Bloomberg reported</a>, there are growing calls from both member nations and advocacy groups for the ISA to not consider applications until the rules are done. Others are calling for either a temporary pause or outright ban on any commercial ocean mining until more research is available about its effects on the ocean.&nbsp;</p>
+
+
+
+<p><strong>Weighing the potential benefits and harms of deep-sea mining, especially compared with land-based mining, is a complex undertaking.</strong> This is definitely an ongoing story, and one you’ll be hearing more about from me. For now, I’d recommend checking out this episode of <a href="https://gimletmedia.com/shows/howtosaveaplanet/z3hjxg6" target="_blank" rel="noreferrer noopener">How to Save a Planet</a> from last year and <a href="https://www.nytimes.com/interactive/2022/08/29/world/deep-sea-riches-mining-nodules.html" target="_blank" rel="noreferrer noopener">this piece about the ecosystems at stake from the New York Times</a>.&nbsp;</p>
+
+
+
+<h3><strong>Related Reading</strong></h3>
+
+
+
+<ul>
+<li>There are a lot of myths floating around about <a href="https://www.technologyreview.com/2023/02/02/1067641/busting-myths-about-materials-and-renewable-energy/?utm_source=the_spark&amp;utm_medium=email&amp;utm_campaign=the_spark.unpaid.engagement&amp;utm_content=*%7Cdate:m-d-y%7C*" target="_blank" rel="noreferrer noopener">materials and renewable energy.</a> Let’s bust a few.</li>
+
+
+
+<li>Technology is changing, and our material needs could too. <a href="https://www.technologyreview.com/2023/01/04/1066141/whats-next-for-batteries/?utm_source=the_spark&amp;utm_medium=email&amp;utm_campaign=the_spark.unpaid.engagement&amp;utm_content=*%7Cdate:m-d-y%7C*" target="_blank" rel="noreferrer noopener">Here’s what’s coming next for batteries.&nbsp;</a></li>
+
+
+
+<li>We’re still working to understand the <a href="https://www.technologyreview.com/2022/03/30/1048434/why-using-the-oceans-to-suck-up-co2-might-not-be-as-easy-as-hoped/?utm_source=the_spark&amp;utm_medium=email&amp;utm_campaign=the_spark.unpaid.engagement&amp;utm_content=*%7Cdate:m-d-y%7C*" target="_blank" rel="noreferrer noopener">relationship between oceans and climate change</a>.</li>
+</ul>
+
+
+
+<h3><strong>Keeping up with climate</strong></h3>
+
+
+
+<p><strong>Cheaper batteries could help renewables power the world, and Form Energy is betting that iron will be a key ingredient to build them.</strong> (<a href="https://www.bloomberg.com/news/features/2023-03-30/this-cheap-battery-can-power-green-energy-transition" target="_blank" rel="noreferrer noopener">Bloomberg</a>)&nbsp;</p>
+
+
+
+<p>→ Iron batteries were on our list of 10 breakthrough technologies in 2022. (<a href="https://www.technologyreview.com/2022/02/23/1044962/grid-battery-iron-clean-energy/?utm_source=the_spark&amp;utm_medium=email&amp;utm_campaign=the_spark.unpaid.engagement&amp;utm_content=*%7Cdate:m-d-y%7C*" target="_blank" rel="noreferrer noopener">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>New rules in California could be a major boost for electric trucks. By 2035, at least half of new trucks sold in the state will need to be zero-emissions vehicles.</strong> (<a href="https://www.npr.org/2023/03/31/1167561417/california-diesel-truck-phase-out-plan-epa" target="_blank" rel="noreferrer noopener">NPR</a>)</p>
+
+
+
+<p><strong>Tesla is reportedly looking to partner with Chinese battery giant CATL for a new manufacturing facility in the US.</strong> (<a href="https://www.bloomberg.com/news/articles/2023-03-30/tesla-pursues-us-plant-with-china-s-dominant-battery-maker-catl?sref=E9Urfma4" target="_blank" rel="noreferrer noopener">Bloomberg</a>)</p>
+
+
+
+<p>→ EV batteries are becoming a touchy subject between the two nations. (<a href="https://www.technologyreview.com/2023/02/22/1069032/ev-batteries-politicization-china-us/?utm_source=the_spark&amp;utm_medium=email&amp;utm_campaign=the_spark.unpaid.engagement&amp;utm_content=*%7Cdate:m-d-y%7C*" target="_blank" rel="noreferrer noopener">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>CFCs are powerful greenhouse gases. Despite being banned, they’re making a surprising comeback—and scientists aren’t sure why. </strong>(<a href="https://www.theverge.com/2023/4/3/23665293/cfcs-air-conditioning-refrigerants-ozone-depleting-chemicals-surprise-comeback" target="_blank" rel="noreferrer noopener">The Verge</a>)</p>
+
+
+
+<p><strong>New sea walls are already saving Venice from flooding, but they may not be enough to stanch the flow for very long.</strong> (<a href="https://www.nytimes.com/2023/04/01/world/europe/venice-mose-flooding.html" target="_blank" rel="noreferrer noopener">New York Times</a>)</p>
+
+
+
+<p><strong>The list of electric vehicles that are eligible for tax credits in the US will be shrinking soon</strong>. Lawmakers finally released detailed rules specifying where materials for EV batteries can come from and where they can be made. (<a href="https://www.politico.com/news/2023/03/31/treasury-tax-breaks-ev-00089883" target="_blank" rel="noreferrer noopener">Politico</a>)</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1071051</post-id>
+    </item>
+    <item>
+      <title>The Green Future Index 2023</title>
+      <link>https://www.technologyreview.com/2023/04/05/1070581/the-green-future-index-2023/</link>
+      <dc:creator><![CDATA[Alli Chase]]></dc:creator>
+      <pubDate>Wed, 05 Apr 2023 19:18:21 +0000</pubDate>
+      <category><![CDATA[Climate change]]></category>
+      <category><![CDATA[Sponsored]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1070581</guid>
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1070581</post-id>
+    </item>
+    <item>
+      <title>The Download: Turkey’s EV ambitions, and making AI fair for artists</title>
+      <link>https://www.technologyreview.com/2023/04/05/1071011/download-turkey-ev-ambitions-making-ai-fair-artists/</link>
+      <dc:creator><![CDATA[Rhiannon Williams]]></dc:creator>
+      <pubDate>Wed, 05 Apr 2023 12:10:00 +0000</pubDate>
+      <category><![CDATA[The Download]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1071011</guid>
+      <description><![CDATA[This is today&#8217;s edition of&#160;The Download,&#160;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How a Chinese battery company powers Turkey’s home-grown EVs 2023 is a big year for Turkey, with both the republic’s 100-year-anniversary and a high-stakes election coming up. It’s also the year when the&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p><em>This is today&#8217;s edition of&nbsp;<a href="https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289">The Download</a></em>,<em>&nbsp;our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology.</em></p>
+
+
+
+<p><strong>How a Chinese battery company powers Turkey’s home-grown EVs</strong></p>
+
+
+
+<p>2023 is a big year for Turkey, with both the republic’s 100-year-anniversary and a high-stakes election coming up. It’s also the year when the country is set to start shipping its first domestic electric vehicle, a symbol of future economic growth.</p>
+
+
+
+<p>There are a lot of similarities between the path China took and the path Turkey is now on. Both countries are automotive powerhouses that aren’t satisfied with staying at the lower end of the auto supply chain. EVs offer the chance to enter a new and fast-growing market.</p>
+
+
+
+<p>The key difference is that China is already ahead in the EV race, while Turkey has just entered it. That’s why Turkey isn’t going it alone. It’s partnering with Farasis, one of China’s top battery companies, heralding the next step in the two countries’ already close economic relationship. <a href="https://www.technologyreview.com/2023/04/05/1071006/china-report-how-a-chinese-battery-company-powers-turkeys-home-grown-evs/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">Read the full story</a>.</p>
+
+
+
+<p><em>—Zeyi Yang</em></p>
+
+
+
+<p><strong>Zeyi’s</strong> <strong>story is from China Report, his weekly newsletter giving you the inside track on all things China. </strong><a href="https://forms.technologyreview.com/newsletters/tech-control-china-report/?_ga=2.157039611.1373485121.1680512602-160041263.1657781451"><strong>Sign up</strong></a><strong> to receive it in your inbox every Tuesday.</strong></p>
+
+
+
+<p><strong>Read more about China’s electric vehicle ambitions:</strong></p>
+
+
+
+<p>+ <strong>How did China come to dominate the world of electric cars?</strong> Hint: generous government subsidies have helped. <a href="https://www.technologyreview.com/2023/02/21/1068880/how-did-china-dominate-electric-cars-policy/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">Read the full story</a>.</p>
+
+
+
+<p>+ <strong>EV batteries are the next point of tension between China and the US</strong>. The US wants to move away from gas-powered cars, but it won’t be able to without Chinese-made batteries.&nbsp; <a href="https://www.technologyreview.com/2023/02/22/1069032/ev-batteries-politicization-china-us/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">Read the full story</a>.</p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>Podcast: Generating creativity</strong></p>
+
+
+
+<p>In the latest episode of In Machines We Trust, the team meets people building next generation tools for creativity, and exploring how these AI models should be trained and deployed in order to be both useful and fair to artists. Listen to it on <a href="https://podcasts.apple.com/us/podcast/in-machines-we-trust/id1523584878?i=1000607462859">Apple Podcasts</a>, or wherever you get your podcasts.</p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>The must-reads</strong></p>
+
+
+
+<p><em>I’ve combed the internet to find you today’s most fun/important/scary/fascinating stories about technology.</em></p>
+
+
+
+<p><strong>1 We already know how to make AI safer&nbsp;</strong><br>Making research more transparent and robust guidelines are the first steps. (<a href="https://www.wired.com/story/the-call-to-halt-dangerous-ai-research-ignores-a-simple-truth/">Wired</a> $)<br>+ <em>Progress in robotics is massively lagging behind AI these days. </em>(<a href="https://www.theatlantic.com/technology/archive/2023/04/ai-robotics-research-engineering/673608/">The Atlantic</a> $)<br>+ <em>Do AI systems need to come with safety warnings? </em>(<a href="https://www.technologyreview.com/2022/10/24/1062071/do-ai-systems-need-to-come-with-safety-warnings/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>2 China is stalling mergers involving American companies</strong><br>It’s a power move to counter the US’ recent export rules. (<a href="https://www.wsj.com/articles/chinas-new-tech-weapon-dragging-its-feet-on-global-merger-approvals-d653ca4a?mod=tech_lead_pos1">WSJ</a> $)<br>+ <em>China is reviewing a top US chipmaker’s security. </em>(<a href="https://www.nytimes.com/2023/04/04/business/micron-china-investigation.html">NYT</a> $)+ <em>How a security blog uncovered surveillance in China. </em>(<a href="https://www.wired.com/story/surveillance-china-security-camera-giant-ipvm/">Wired</a> $)</p>
+
+
+
+<p><strong>3 Amazon helped to kill an emissions reduction climate bill&nbsp;</strong><br>If passed, the bill would have regulated its data centers. (<a href="https://www.washingtonpost.com/technology/2023/04/04/amazon-climate-energy-fuel-oregon/">WP</a> $)<br>+ <em>Amazon is labeling massive companies as ‘small businesses.’ </em>(<a href="https://www.theinformation.com/articles/amazon-hands-out-small-business-label-to-huge-sellers">The Information</a> $)</p>
+
+
+
+<p><strong>4 Google is extremely proud of its supercomputer</strong><br>It says the machine is faster and greener than Nvidia’s similar systems. (<a href="https://www.reuters.com/technology/google-says-its-ai-supercomputer-is-faster-greener-than-nvidia-2023-04-05/">Reuters</a>)</p>
+
+
+
+<p><strong>5 Chatbots’ grasp of non-English languages is shaky</strong><br>A group of AI startups want to improve its responses for users in other countries. (<a href="https://www.ft.com/content/563256d4-67b2-465e-b219-52d0f91684ef">FT</a> $)</p>
+
+
+
+<p><strong>6 The weight loss drug market is exploding</strong><br>But the side-effects can be brutal. (<a href="https://www.theatlantic.com/health/archive/2023/04/ozempic-wegovy-mounjaro-weight-loss-drug-development-access/673627/">The Atlantic</a> $)<br>+ <em>Weight-loss injections have taken over the internet. But what does this mean for people IRL? </em>(<a href="https://www.technologyreview.com/2023/03/20/1070037/weight-loss-injections-societal-impact-ozempic/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>7 How Europe became a green aviation hotbed</strong><br>The bloc’s ambitious carbon-neutral targets are incentivizing startups. (<a href="https://www.bloomberg.com/news/articles/2023-04-05/europe-climate-change-goals-fuel-green-aviation-innovation?srnd=businessweek-v2&amp;sref=E9Urfma4">Bloomberg</a> $)<br>+ <em>Falling lithium prices is good news for EV makers. </em>(<a href="https://www.wsj.com/articles/lithium-prices-are-down-cheaper-batteries-and-evs-could-follow-7a171fc0">WSJ</a> $)+ <em>How new technologies could clean up air travel. </em>(<a href="https://www.technologyreview.com/2023/01/26/1067290/new-technologies-clean-up-air-travel/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>8 Inside the bitter battle over chip design</strong><br>Researchers are arguing over whether humans or AI design better chips. (<a href="https://spectrum.ieee.org/chip-design-controversy">IEEE Spectrum</a>)<br>+ <em>These simple design rules could turn the chip industry on its head. </em>(<a href="https://www.technologyreview.com/2023/01/24/1064974/riscv-chip-design-10-breakthough-technologies-2023/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">MIT Technology Review</a>)</p>
+
+
+
+<p><strong>9</strong> <strong>Marketing students are being taught how to go viral online<br></strong>Staying one step ahead of the algorithm takes some serious work. (<a href="https://www.nytimes.com/2023/04/04/style/tiktok-final-exams.html">NYT</a> $)</p>
+
+
+
+<p><strong>10 Why pop-ups keeping popping up</strong><br>Cookie notices, and subscription request boxes are relentless right now. (<a href="https://www.theverge.com/tech/23653544/pop-up-website-ad-ui-design">The Verge</a>)</p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>Quote of the day</strong></p>
+
+
+
+<p class="has-large-font-size">“It’s like the MAGA hat for Twitter.”</p>
+
+
+
+<p>—Podcast host Rick Smith says Twitter’s blue check mark has become more of an indicator of someone’s views than a signifier of their credibility, reports <a href="https://www.bloomberg.com/news/newsletters/2023-04-04/twitter-s-strike-of-new-york-times-blue-check-mark-blurs-verification-system?srnd=technology-vp&amp;sref=E9Urfma4">Bloomberg</a>.</p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>The big story</strong></p>
+
+
+
+<p><strong>The metaverse is the next venue for body dysmorphia online</strong></p>
+
+
+
+<figure class="wp-block-image"><a href="https://www.technologyreview.com/2021/11/16/1040174/facebook-metaverse-body-dysmorphia/?truid=*|LINKID|*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*|SUBCLASS|*&amp;utm_content=*|DATE:m-d-Y|*"><img decoding="async" src="https://lh3.googleusercontent.com/snh8w0If4OVON7xpkOuIzFPJ1D0wYK0O7tS2LmNYKCTNmTwRJCqZOBD2wcge1tux8nPlhnKmQWND0KsRwZE8AvxkZhIwUgMLma5txzxzseFFsGI6eDSSL6OkJUQ93jMTirOi-_rmIlx3qxQ0Y-xRtA" alt=""/></a></figure>
+
+
+
+<p><a href="https://www.technologyreview.com/2021/11/16/1040174/facebook-metaverse-body-dysmorphia/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*"></a><strong>November 2021</strong></p>
+
+
+
+<p>In Facebook’s vision of the metaverse, we will all interact in a mashup of the digital and physical worlds. Digital representations of ourselves will eat, talk, date, shop, and more.&nbsp;</p>
+
+
+
+<p>But if these avatars really are on their way, we’ll need to face some tough questions about how we present ourselves to others. And how might these virtual versions of ourselves change the way we feel about our bodies, for better or worse? <a href="https://www.technologyreview.com/2021/11/16/1040174/facebook-metaverse-body-dysmorphia/?truid=*%7CLINKID%7C*&amp;utm_source=the_download&amp;utm_medium=email&amp;utm_campaign=the_download.unpaid.engagement&amp;utm_term=*%7CSUBCLASS%7C*&amp;utm_content=*%7CDATE:m-d-Y%7C*">Read the full story</a>.</p>
+
+
+
+<p><em>—Tanya Basu</em></p>
+
+
+
+<p></p>
+
+
+
+<p class="has-medium-font-size"><strong>We can still have nice things</strong></p>
+
+
+
+<p><em>A place for comfort, fun and distraction in these weird times. (Got any ideas? </em><a href="mailto:rhiannon.williams@technologyreview.com"><em>Drop me a line</em></a><em> or </em><a href="https://twitter.com/RhiannonJudithW"><em>tweet &#8217;em at me</em></a><em>.)</em></p>
+
+
+
+<p><em>+ </em><a href="https://www.vogue.com/article/daisy-jones-and-the-six-is-ridiculously-addictive-tv">Daisy Jones and the Six</a> may feature some dodgy lyrics, but makes for pretty fun TV.<br>+ Plenty of sports teams use <a href="https://defector.com/owl-you-need-to-know-about-owl-mascots">owls</a> as their mascots, but how do they stack up?<br>+ <a href="https://www.nylon.com/beauty/how-to-prepare-a-spiritual-bath-with-intention">#SpiritualBath</a> is one TikTok trend I’m fully onboard with.&nbsp;<br>+ These photos are a joyous celebration of New York’s <a href="https://www.huckmag.com/art-and-culture/photography-2/in-photos-the-glorious-heyday-of-the-empire-roller-disco/">vibrant roller disco scene</a>.<br>+ Now that we know the third season of The White Lotus will be set in Thailand, here’s some top predictions for the <a href="https://www.architecturaldigest.com/story/the-white-lotus-season-3-thailand-hotel">hotels</a> that could feature.</p>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1071011</post-id>
+    </item>
+    <item>
+      <title>How a Chinese battery company powers Turkey’s home-grown EVs</title>
+      <link>https://www.technologyreview.com/2023/04/05/1071006/china-report-how-a-chinese-battery-company-powers-turkeys-home-grown-evs/</link>
+      <dc:creator><![CDATA[Zeyi Yang]]></dc:creator>
+      <pubDate>Wed, 05 Apr 2023 10:00:00 +0000</pubDate>
+      <category><![CDATA[Climate change]]></category>
+      <guid isPermaLink="false">https://www.technologyreview.com/?p=1071006</guid>
+      <description><![CDATA[China Report is MIT Technology Review’s newsletter about technology developments in China. Sign up to receive it in your inbox every Tuesday. First, a quick housekeeping note: China Report will be off for a few weeks. I’ll be away from work for the rest of the month, so the newsletter will take a brief pause.&#8230;]]></description>
+      <content:encoded><![CDATA[
+<p><em>China Report is MIT Technology Review’s newsletter about technology developments in China. </em><a href="https://forms.technologyreview.com/newsletters/tech-control-china-report/?_ga=2.51846569.1436992670.1667238728-1045050203.1649777307"><em>Sign up</em></a><em> to receive it in your inbox every Tuesday.</em></p>
+
+
+
+<p><em>First, a quick housekeeping note: China Report will be off for a few weeks. I’ll be away from work for the rest of the month, so the newsletter will take a brief pause. It will return on May 9 with more news and analysis of China’s tech world. So stay tuned! In the meantime, I hope you’ll reach out and tell me what you’ve enjoyed about the newsletter so far—and what you’d like to read more about in the future.</em></p>
+
+
+
+<p>I’m currently traveling in Turkey, and even though I’m just a few days from starting a vacation and could be spending my time outside petting the street cats of Istanbul, I’m a journalist. I can’t not pay attention to the tech news around me. And 2023 is actually a big year for Turkey, but not only because it’s the republic’s 100-year-anniversary, with a high-stakes election coming up. On the technology side of things, this is the year when the country starts shipping its first domestic electric vehicle, a symbol of future economic growth.</p>
+
+
+
+<p>In 2018, five of Turkey’s most influential companies formed Togg, the country’s first electric-vehicle maker. After a few rounds of delay, the EVs made by Togg are finally expected to hit the market this year, and they already seem pretty popular: just last week, the company completed a lottery drawing that selected 20,000 people to become the first batch of owners out of nearly 180,000 applicants. (The very first car <a href="https://www.hurriyetdailynews.com/turkiyes-first-national-car-togg-delivered-182097">was delivered</a> on Monday to the Turkish president, Recep Tayyip Erdoğan, who has made Togg an important political project of his own.)</p>
+
+
+
+<p><strong>After working on my explainer about </strong><a href="https://www.technologyreview.com/2023/02/21/1068880/how-did-china-dominate-electric-cars-policy/"><strong>how China built its world-leading EV industry</strong></a><strong>, I can see a lot of similarities between the path China took and the path Turkey is now on.</strong> Both countries are automotive manufacturing powerhouses but aren’t satisfied with staying at the lower end of the auto supply chain. EVs offer the chance to enter a new and fast-growing market, one that is poised to disrupt the traditional automotive industry and become an essential part of the global energy transition. The difference is that China is already a few laps into the EV race, while Turkey has just entered it.</p>
+
+
+
+<p><strong>But there are more material connections between the two countries.</strong> Starting an EV business from scratch is hard; making batteries—the most important part of an EV—is even harder. That’s why Turkey isn’t going it alone and is instead partnering with Farasis, one of the top Chinese battery companies, just behind the industry leaders like CATL, BYD, and CALB. In 2019, Togg and Farasis formed a joint venture named SIRO, each taking a 50% stake, to build a battery plant in Gebze, Turkey, that will produce lithium-ion batteries to power Togg’s electric cars.</p>
+
+
+
+<p><strong>Farasis is not the only Chinese tech company making its way into Turkey.</strong> In January, a Turkish newspaper <a href="https://www.reuters.com/technology/alibaba-plans-1-bln-investment-turkey-newspaper-2023-01-08/">reported</a> that Alibaba is planning on investing more than $1 billion to build a data center and a logistics center in Turkey. Alibaba owns Turkey’s biggest e-commerce company, Trendyol, and its overseas shopping app AliExpress is <a href="https://app.sensortower.com/top-charts?country=TR&amp;device=&amp;os=android&amp;category=all&amp;date=2023-04-01">often the most downloaded free app</a> in Turkey’s Google Play store. Shein, another important Chinese player in the fast-fashion industry, has also started manufacturing in Turkey after producing exclusively in China for a decade, the Wall Street Journal <a href="https://www.wsj.com/articles/fast-fashion-giant-shein-explores-becoming-online-marketplace-11670827480">reported in December</a>.</p>
+
+
+
+<p>It’s not surprising that these companies are choosing Turkey, considering that Turkey has always had a close economic relationship with China. It plays a strong role in Beijing’s Belt and Road Initiative, and that role has only strengthened since the start of the Russia-Ukraine war, which made railway logistics through Russia less dependable.&nbsp;&nbsp;</p>
+
+
+
+<p><strong>But Turkey is also important because, sitting at the intersection of Europe and Asia, it can be an entry point for Chinese tech companies aiming to go into the European market.</strong></p>
+
+
+
+<p>The EV industry is a good example of that. Chinese battery companies have met with resistance trying to make inroads in the US. For example, when Chinese battery giant CATL entered into a deal with Ford in February to make EV batteries in Michigan, <a href="https://edition.cnn.com/2023/03/10/tech/rubio-ford-china-battery-technology/index.html">Senator Marco Rubio immediately asked</a> the Committee on Foreign Investment in the United States to review the deal and also sought to ban EV companies from receiving tax credits if they used Chinese technologies.</p>
+
+
+
+<p>Europe seems to be a more hospitable market, but it hasn’t been smooth sailing there either. In 2019, <a href="https://group.mercedes-benz.com/innovation/drive-systems/electric/mercedes-benz-and-farasis.html">Mercedes-Benz took a 3% strategic stake</a> in Farasis to work together on supplying EV batteries. They planned to build a battery plant in Germany, but that has been severely delayed and <a href="https://www.electrive.com/2022/05/04/bitterfeld-wolfen-is-cancelling-contract-with-farasis/">even reportedly canceled</a>. Turkey seems to be Farasis’s backup plan.&nbsp;</p>
+
+
+
+<p>When we talk about the globalization efforts of Chinese tech companies, the spotlight is usually cast on the United States and how companies like TikTok and Shein are succeeding or floundering in the US market. But it’s good to remember that these Chinese companies are also expanding into other corners of the world—and that some countries, like Turkey, are even actively courting their presence.&nbsp;</p>
+
+
+
+<p>As the US-China relationship remains heated, Chinese tech companies will be even more inclined to give up on entering the US and to turn to other markets. It will be interesting to see how that dynamic shapes tech industries and local communities around the world.</p>
+
+
+
+<p><em>Where else in the world have you seen Chinese tech companies making significant inroads? Let me know what you’ve observed at </em><a href="mailto:zeyi@technologyreview.com"><em>zeyi@technologyreview.com</em></a><em>.</em></p>
+
+
+
+<p><strong>Catch up with China</strong></p>
+
+
+
+<p>1. The Chinese government launched a national security review of US chip manufacturer Micron Technology on Friday, likely to retaliate against the escalating restrictions that the US government has placed on Chinese chip-making companies. (<a href="https://www.ft.com/content/79ddb4bb-cbfc-4e4f-bca8-ef52ea0157c1">Financial Times $</a>)</p>
+
+
+
+<p>2. A new indictment against Sam Bankman-Fried claims that the FTX founder successfully bribed at least one Chinese government official with a $40 million payment in 2021. (<a href="https://www.nbcnews.com/tech/crypto/sam-bankman-fried-allegedly-bribed-one-chinese-official-40-million-rcna76985">NBC News</a>)</p>
+
+
+
+<p>3. A US ban on TikTok would affect not only American users but also TikTok influencers around the world who rely on advertising deals and traffic coming from the US. (<a href="https://restofworld.org/2023/global-tiktok-creators-us-ban/">Rest of World</a>)</p>
+
+
+
+<p>4. Pinduoduo, a popular Chinese e-commerce app, used malware to exploit vulnerabilities in Android operating systems and obtain user data to boost sales. (<a href="https://edition.cnn.com/2023/04/02/tech/china-pinduoduo-malware-cybersecurity-analysis-intl-hnk/index.html">CNN</a>)</p>
+
+
+
+<p>5. Chinese tech giant Alibaba announced it will split into six companies. (<a href="https://www.reuters.com/markets/deals/alibaba-splits-into-six-units-that-may-pursue-individual-ipos-bloomberg-news-2023-03-28/">Reuters $</a>) Its logistics arm, Cainiao, is already preparing to go public in Hong Kong. (<a href="https://www.bloomberg.com/news/articles/2023-03-30/alibaba-s-20-billion-logistics-arm-said-to-gear-up-for-hk-ipo#xj4y7vzkg">Bloomberg $</a>)</p>
+
+
+
+<p>6. To restrict Beijing’s influence in Europe, US officials secretly (and successfully) campaigned to block a port renovation deal between Croatia and China. (<a href="https://www.wsj.com/articles/in-croatia-u-s-campaigned-to-stop-chinese-bid-on-key-port-58c9bbff">Wall Street Journal $</a>)</p>
+
+
+
+<p>7. Yang Bing-Yi, cofounder of the Taiwanese soup dumpling chain Din Tai Fung, which now boasts more than 170 locations around the world, has died at the age of 96. (<a href="https://www.npr.org/2023/03/29/1166425223/taiwan-soup-dumplings-din-tai-fung-founder-yang-bing-yi-dies">NPR</a>)</p>
+
+
+
+<p>8. TikTok and Amazon tried to bring the Chinese livestream shopping business to the United States, but US consumers are just not interested. (<a href="https://www.wired.co.uk/article/tiktok-amazon-china-livestream-ecommerce">Wired $</a>)</p>
+
+
+
+<p><strong>Lost in translation</strong></p>
+
+
+
+<p>After spending millions of dollars on two Super Bowl ads, Temu, <a href="https://www.technologyreview.com/2022/10/25/1062142/temu-shopping-app-most-downloaded/">the new e-commerce app owned by Chinese company PDD Holdings</a>, is struggling to deal with surging sales. According to <a href="https://www.jiemian.com/article/9153945.html">Chinese business publication Jiemian</a>, Temu has been having problems with its warehouses and logistics in the past two weeks after a sharp increase in orders. It even had to pause user acquisition activities to give other departments some time to catch up.</p>
+
+
+
+<p>Temu is trying to replicate the success of Pinduoduo, its sister app in China. Like Pinduoduo, Temu sells products at extremely discounted prices. To enable those discounts, Temu has instituted many strict pricing policies that have infuriated its suppliers. Any product that hasn’t sold 30 pieces in 30 days on the platform is labeled “unsellable” and must either have its price lowered or be removed from the website.&nbsp;</p>
+
+
+
+<p>In January, when most suppliers took a break during China’s Lunar New Year holiday, Temu instituted a new rule that allowed the platform to arbitrarily lower listing prices without the suppliers’ agreement. Feeling exploited by the platform, many Chinese suppliers decided to end their business with Temu.</p>
+
+
+
+<p><strong>One more thing</strong></p>
+
+
+
+<p>You really can get anything online. Last week, the Chinese private satellite company Commsat put three types of commercial satellites up for sale on Taobao, a popular Chinese e-commerce shop. The prices ranged from $290,000 to over $4 million (launch costs included). The mid-range option, also the most gimmicky one, is a satellite that holds a selfie of you while it orbits the Earth (lower middle image). The other two only have more traditional functionalities, like remote sensing and communication. The company has already had two buyers.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://lh6.googleusercontent.com/zCOIQb8DCHQ4SX9jcF0N8wBrnL9_MhEbJ1wCZEKvd6GfrOay1k2kYtPdrqm6fghc_uiQ363Sejk-SoUKOx41sL7mWVorJ3gTSBYB6YR5KltD9j6G_JUlZ0TXypp3tH4qF-13ZGOPzlq6pYKfHj-8Mw" alt=""/></figure>
+]]></content:encoded>
+      <post-id xmlns="com-wordpress:feed-additions:1">1071006</post-id>
+    </item>
+  </channel>
+</rss>

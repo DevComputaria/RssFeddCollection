@@ -1,0 +1,639 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8",
+        "@standalone": "no"
+    },
+    "rss": {
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
+        "@xmlns:georss": "http://www.georss.org/georss",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@version": "2.0",
+        "channel": {
+            "title": "Naked Security - Sophos",
+            "atom:link": {
+                "@href": "https://nakedsecurity.sophos.com/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://nakedsecurity.sophos.com",
+            "description": "News, opinion, advice and research on computer security threats from Sophos",
+            "lastBuildDate": "Sat, 08 Apr 2023 01:56:37 +0000",
+            "language": "en-US",
+            "sy:updatePeriod": "\n\thourly\t",
+            "sy:updateFrequency": "\n\t1\t",
+            "generator": "https://wordpress.org/?v=6.2",
+            "image": {
+                "url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2020/03/cropped-sophos.png?w=32",
+                "title": "Naked Security",
+                "link": "https://nakedsecurity.sophos.com",
+                "width": "32",
+                "height": "32"
+            },
+            "site": {
+                "@xmlns": "com-wordpress:feed-additions:1",
+                "#text": "166161173"
+            },
+            "item": [
+                {
+                    "title": "Apple issues emergency patches for spyware-style 0-day exploits – update now!",
+                    "link": "https://nakedsecurity.sophos.com/2023/04/08/apple-issues-emergency-patches-for-spyware-style-0-day-exploits-update-now/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/04/08/apple-issues-emergency-patches-for-spyware-style-0-day-exploits-update-now/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Sat, 08 Apr 2023 01:20:44 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Apple"
+                        },
+                        {
+                            "#cdata-section": "Apple Safari"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability"
+                        },
+                        {
+                            "#cdata-section": "0 day"
+                        },
+                        {
+                            "#cdata-section": "Amnesty International"
+                        },
+                        {
+                            "#cdata-section": "Exploit"
+                        },
+                        {
+                            "#cdata-section": "ios"
+                        },
+                        {
+                            "#cdata-section": "iPhone"
+                        },
+                        {
+                            "#cdata-section": "mac"
+                        },
+                        {
+                            "#cdata-section": "Zero Day"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886232"
+                    },
+                    "description": {
+                        "#cdata-section": "A bug to hack your browser, then a bug to pwn the kernel... reported from the wild by Amnesty International. \n"
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/04/08/apple-issues-emergency-patches-for-spyware-style-0-day-exploits-update-now/feed/",
+                    "slash:comments": "0",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/01/apple-1200.png?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/01/apple-1200.png?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886232"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/01/apple-1200.png"
+                    }
+                },
+                {
+                    "title": "S3 Ep129: When spyware arrives from someone you trust",
+                    "link": "https://nakedsecurity.sophos.com/2023/04/06/s3-ep129-when-spyware-arrives-from-someone-you-trust/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/04/06/s3-ep129-when-spyware-arrives-from-someone-you-trust/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Thu, 06 Apr 2023 18:57:50 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Podcast"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "3CX"
+                        },
+                        {
+                            "#cdata-section": "Naked Security Podcast"
+                        },
+                        {
+                            "#cdata-section": "supply chain"
+                        },
+                        {
+                            "#cdata-section": "Wi-fi"
+                        },
+                        {
+                            "#cdata-section": "world backup day"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886201"
+                    },
+                    "description": {
+                        "#cdata-section": "Scanning tools, supply-chain malware, Wi-Fi hacking, and why there should be TWO World Backup Days... listen now!"
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/04/06/s3-ep129-when-spyware-arrives-from-someone-you-trust/feed/",
+                    "slash:comments": "4",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/s3-ep129-lens-1200.png?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/s3-ep129-lens-1200.png?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886201"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/s3-ep129-lens-1200.png"
+                    }
+                },
+                {
+                    "title": "Hack and enter! The “secure” garage doors that anyone can open from anywhere – what you need to know",
+                    "link": "https://nakedsecurity.sophos.com/2023/04/05/us-government-warning-what-if-anyone-could-open-your-garage-door/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/04/05/us-government-warning-what-if-anyone-could-open-your-garage-door/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Wed, 05 Apr 2023 18:49:18 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability"
+                        },
+                        {
+                            "#cdata-section": "Cybercrime"
+                        },
+                        {
+                            "#cdata-section": "hacking"
+                        },
+                        {
+                            "#cdata-section": "iot"
+                        },
+                        {
+                            "#cdata-section": "Nexx"
+                        },
+                        {
+                            "#cdata-section": "responsible disclosure"
+                        },
+                        {
+                            "#cdata-section": "vulnerbility"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886178"
+                    },
+                    "description": {
+                        "#cdata-section": "Grab a message/Play it back/You've just performed/A big phat hack..."
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/04/05/us-government-warning-what-if-anyone-could-open-your-garage-door/feed/",
+                    "slash:comments": "17",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/garage-1200.jpg?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/garage-1200.jpg?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886178"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/garage-1200.jpg"
+                    }
+                },
+                {
+                    "title": "Einstein tilings – the amazing “Hat” shape that never repeats!",
+                    "link": "https://nakedsecurity.sophos.com/2023/04/04/einstein-tilings-the-amazing-hat-shape-that-never-repeats/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/04/04/einstein-tilings-the-amazing-hat-shape-that-never-repeats/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 18:59:20 +0000",
+                    "category": {
+                        "#cdata-section": "Uncategorized"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886146"
+                    },
+                    "description": {
+                        "#cdata-section": "Imagine tiling a whole football field using a single shape... yet not being able to produce a repeating pattern, even if you wanted to."
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/04/04/einstein-tilings-the-amazing-hat-shape-that-never-repeats/feed/",
+                    "slash:comments": "16",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/hat-1200.png?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/hat-1200.png?w=170&h=90&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/carpet-640.png"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/heptapet-640.png"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/rhomitrihex-640.png"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/hat-640.png"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886146"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/hat-1200.png"
+                    }
+                },
+                {
+                    "title": "Researchers claim they can bypass Wi-Fi encryption (briefly, at least)",
+                    "link": "https://nakedsecurity.sophos.com/2023/04/03/researchers-claim-they-can-bypass-wi-fi-encryption-briefly-at-least/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/04/03/researchers-claim-they-can-bypass-wi-fi-encryption-briefly-at-least/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Mon, 03 Apr 2023 18:59:14 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Framing Frames"
+                        },
+                        {
+                            "#cdata-section": "snooping"
+                        },
+                        {
+                            "#cdata-section": "Wi-fi"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886072"
+                    },
+                    "description": {
+                        "#cdata-section": "They can't read much of your data, but even a few stray network packets could tell them something they're not supposed to know."
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/04/03/researchers-claim-they-can-bypass-wi-fi-encryption-briefly-at-least/feed/",
+                    "slash:comments": "8",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/wifi-1200.jpg?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/wifi-1200.jpg?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886072"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/04/wifi-1200.jpg"
+                    }
+                },
+                {
+                    "title": "World Backup Day is here again – 5 tips to keep your precious data safe",
+                    "link": "https://nakedsecurity.sophos.com/2023/03/31/world-backup-day-is-here-again-5-tips-to-keep-your-precious-data-safe/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/03/31/world-backup-day-is-here-again-5-tips-to-keep-your-precious-data-safe/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 18:14:36 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "ransomware"
+                        },
+                        {
+                            "#cdata-section": "recovery"
+                        },
+                        {
+                            "#cdata-section": "world backup day"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886049"
+                    },
+                    "description": {
+                        "#cdata-section": "The only backup you will ever regret is the one you didn't make..."
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/03/31/world-backup-day-is-here-again-5-tips-to-keep-your-precious-data-safe/feed/",
+                    "slash:comments": "6",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/03/hdd-1200.jpg?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/03/hdd-1200.jpg?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886049"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/03/hdd-1200.jpg"
+                    }
+                },
+                {
+                    "title": "Supply chain blunder puts 3CX telephone app users at risk",
+                    "link": "https://nakedsecurity.sophos.com/2023/03/30/supply-chain-blunder-puts-3cx-telephone-app-users-at-risk/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/03/30/supply-chain-blunder-puts-3cx-telephone-app-users-at-risk/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 20:36:16 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "3CX"
+                        },
+                        {
+                            "#cdata-section": "Electron"
+                        },
+                        {
+                            "#cdata-section": "git"
+                        },
+                        {
+                            "#cdata-section": "malware"
+                        },
+                        {
+                            "#cdata-section": "suuply chain"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886030"
+                    },
+                    "description": {
+                        "#cdata-section": "Booby-trapped app, apparently signed and shipped by 3CX itself after its source code repository was broken into."
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/03/30/supply-chain-blunder-puts-3cx-telephone-app-users-at-risk/feed/",
+                    "slash:comments": "0",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/3cx-1200.png?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/3cx-1200.png?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886030"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/3cx-1200.png"
+                    }
+                },
+                {
+                    "title": "S3 Ep128: So you want to be a cyber­criminal? [Audio + Text]",
+                    "link": "https://nakedsecurity.sophos.com/2023/03/30/s3-ep128-so-you-want-to-be-a-cybercriminal-audio-text/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/03/30/s3-ep128-so-you-want-to-be-a-cybercriminal-audio-text/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 19:43:50 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Apple"
+                        },
+                        {
+                            "#cdata-section": "Google"
+                        },
+                        {
+                            "#cdata-section": "Law & order"
+                        },
+                        {
+                            "#cdata-section": "Microsoft"
+                        },
+                        {
+                            "#cdata-section": "Podcast"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "DDoS"
+                        },
+                        {
+                            "#cdata-section": "Naked Security Podcast"
+                        },
+                        {
+                            "#cdata-section": "vulnerability"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=886016"
+                    },
+                    "description": {
+                        "#cdata-section": "Latest episode - listen now!"
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/03/30/s3-ep128-so-you-want-to-be-a-cybercriminal-audio-text/feed/",
+                    "slash:comments": "1",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/s3-ep128.png?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/s3-ep128.png?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "886016"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/s3-ep128.png"
+                    }
+                },
+                {
+                    "title": "Cops use fake DDoS services to take aim at wannabe cybercriminals",
+                    "link": "https://nakedsecurity.sophos.com/2023/03/28/cops-use-fake-ddos-services-to-take-aim-at-wannabe-cybercriminals/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/03/28/cops-use-fake-ddos-services-to-take-aim-at-wannabe-cybercriminals/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Naked Security writer"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 19:58:35 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Law & order"
+                        },
+                        {
+                            "#cdata-section": "booter"
+                        },
+                        {
+                            "#cdata-section": "botnet"
+                        },
+                        {
+                            "#cdata-section": "DDoS"
+                        },
+                        {
+                            "#cdata-section": "DOS"
+                        },
+                        {
+                            "#cdata-section": "NCA"
+                        },
+                        {
+                            "#cdata-section": "zombie"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=885941"
+                    },
+                    "description": {
+                        "#cdata-section": "Thinking of trying a bit of DDoSsing to get a feel for life at the fringes of the Dark Side? Don't do it!"
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/03/28/cops-use-fake-ddos-services-to-take-aim-at-wannabe-cybercriminals/feed/",
+                    "slash:comments": "1",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/po-1200.png?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/po-1200.png?w=170&h=90&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/controlled-640.jpg"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "885941"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2023/03/po-1200.png"
+                    }
+                },
+                {
+                    "title": "Apple patches everything, including a zero-day fix for iOS 15 users",
+                    "link": "https://nakedsecurity.sophos.com/2023/03/28/apple-patches-everything-including-a-zero-day-fix-for-ios-15-users/",
+                    "comments": "https://nakedsecurity.sophos.com/2023/03/28/apple-patches-everything-including-a-zero-day-fix-for-ios-15-users/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Paul Ducklin"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 18:59:24 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Apple"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability"
+                        },
+                        {
+                            "#cdata-section": "0 day"
+                        },
+                        {
+                            "#cdata-section": "Exploit"
+                        },
+                        {
+                            "#cdata-section": "ios"
+                        },
+                        {
+                            "#cdata-section": "iPad"
+                        },
+                        {
+                            "#cdata-section": "iPadOS"
+                        },
+                        {
+                            "#cdata-section": "iPhone"
+                        },
+                        {
+                            "#cdata-section": "macOS"
+                        },
+                        {
+                            "#cdata-section": "vulnerability"
+                        },
+                        {
+                            "#cdata-section": "Zero Day"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://nakedsecurity.sophos.com/?p=885926"
+                    },
+                    "description": {
+                        "#cdata-section": "Got an older iPhone that can't run iOS 16? You've got a zero-day to deal with! That super-cool Studio Display monitor needs patching, too.\n"
+                    },
+                    "wfw:commentRss": "https://nakedsecurity.sophos.com/2023/03/28/apple-patches-everything-including-a-zero-day-fix-for-ios-15-users/feed/",
+                    "slash:comments": "2",
+                    "media:content": [
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/01/apple-1200.png?w=230&h=130&crop=1"
+                        },
+                        {
+                            "@medium": "image",
+                            "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/01/apple-1200.png?w=170&h=90&crop=1"
+                        }
+                    ],
+                    "post-id": {
+                        "@xmlns": "com-wordpress:feed-additions:1",
+                        "#text": "885926"
+                    },
+                    "media:thumbnail": {
+                        "@url": "https://nakedsecurity.sophos.com/wp-content/uploads/sites/2/2022/01/apple-1200.png"
+                    }
+                }
+            ]
+        }
+    }
+}

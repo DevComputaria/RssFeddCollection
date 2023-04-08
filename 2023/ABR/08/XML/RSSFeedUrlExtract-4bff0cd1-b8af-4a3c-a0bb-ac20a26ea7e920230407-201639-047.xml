@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" version="2.0" xml:base="https://www.veracode.com/">
+  <channel>
+    <title>Application Security Research, News, and Education Blog</title>
+    <link>https://www.veracode.com/</link>
+    <description />
+    <language>en</language>
+    <pubDate>Thu, 30 Mar 2023 13:14:38 -0400</pubDate>
+    <item>
+      <title>We’re Good at Finding Security Flaws, But What About Fixing Them? </title>
+      <link>https://www.veracode.com/blog/secure-development/were-good-finding-security-flaws-what-about-fixing-them</link>
+      <description>Technology is a double-edged sword. On one hand, it can make new experiences possible and elevate productivity. On the other hand, it introduces new threats and attack vectors; and it can widen the gap even further between our ability to produce software and our ability to secure it. Getting faster at creating and finding security flaws does not make us faster at fixing them; data shows us that one in four vulnerabilities remain open well over a year after first discovery. Instead, as we increase productivity and get better at detecting flaws, we find ourselves in a situation where we create and find flaws faster than we can fix them.  
+The outcome: Security debt accrues, and organizations must slow development, spend money to increase their capacity to fix flaws, or instead increase risk and exposure to ever more frequent, sophisticated, and severe cybersecurity threats. Let’s dive further into the problem and then look at potential solutions. 
+Three Factors Contributing to the…</description>
+      <pubDate>Thu, 30 Mar 2023 13:14:38 -0400</pubDate>
+      <dc:creator>dmaguire@veracode.com (dmaguire)</dc:creator>
+      <guid isPermaLink="false">ver61786</guid>
+    </item>
+    <item>
+      <title>It Takes a Village: The Power of Partnership in Creating Secure Software </title>
+      <link>https://www.veracode.com/blog/intro-appsec/it-takes-village-power-partnership-creating-secure-software</link>
+      <description>Application security is about so much more than scanning. The Velocity Partner Program aligns Veracode and our Partners as together we deliver application security solutions and services that enable customers to build a secure DevOps program. The Velocity Partner Program empowers our partners in their trusted advisor role to address key security requirements and business challenges customers are facing throughout their application security journey.  
+Veracode provides key insights, market intelligence, skills development, and best practices for partners to help customers leverage security as a competitive edge. Customers have access to innovative application security solutions and services, managed by Veracode Partners, to enhance their security posture. By working with Veracode Partners, customers can effectively develop and deliver secure applications, reduce risks, and confidently comply with industry and government regulations and requirements. 
+Veracode has developed advanced…</description>
+      <pubDate>Mon, 27 Mar 2023 18:25:46 -0400</pubDate>
+      <dc:creator>dgrazio@veracode.com (dgrazio)</dc:creator>
+      <guid isPermaLink="false">ver61771</guid>
+    </item>
+    <item>
+      <title>Breaking Barriers and Embracing Equity: Stories of Women in STEM</title>
+      <link>https://www.veracode.com/blog/research/breaking-barriers-and-embracing-equity-stories-women-stem</link>
+      <description>“Through the process of equity, we can reach equality,” states the description of this year’s International Women’s Day theme: Embrace Equity. Sharing stories of women who have broken barriers in STEM is a reminder of what can be achieved when equity is embraced. As Scientific American writes, “...the findings are clear: for groups that value innovation and new ideas, diversity helps.” Let’s take a moment to honor some brilliant individuals who have made it possible for more diverse voices to be heard in STEM industries – from one of the first women in STEM until now.  
+Elisa Leonida Zamfirescu 
+In 1912, before women in most countries could vote, Elisa Leonida Zamfirescu became one of the first women in the world to obtain a degree in engineering, inspiring generations of women who followed her. The World Record Academy quotes a newspaper from 1912 as follows: “In engineering, the future of women is great, Miss Elisa Leonida has passed the final exam with great success, obtaining the…</description>
+      <pubDate>Wed, 08 Mar 2023 04:08:04 -0500</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver61606</guid>
+    </item>
+    <item>
+      <title>Resolving CVE-2022-1471  with the SnakeYAML 2.0 Release</title>
+      <link>https://www.veracode.com/blog/research/resolving-cve-2022-1471-snakeyaml-20-release-0</link>
+      <description>In October of 2022, a critical flaw was found in the SnakeYAML package, which allowed an attacker to benefit from remote code execution by sending malicious YAML content and this content being deserialized by the constructor. Finally, in February 2023, the SnakeYAML 2.0 release was pushed that resolves this flaw, also referred to as CVE-2022-1471. Let’s break down how this version can help you resolve this critical flaw. 
+Exploring Deserialization 
+SnakeYAML is a popular Java library to parse YAML (YAML Ain’t Markup Language format). The library can parse all YAML 1.1 specifications [1], native types [2] and supports serializing and deserializing Java objects. The Remote Code Execution vulnerability is due to the library not restricting Java types when deserializing objects using `Constructor`.
+Java Serialization has the great promise of taking the state of a full object graph and saving it externally, then magically restoring its state when we deserialize. This is a big promise as…</description>
+      <pubDate>Fri, 03 Mar 2023 11:03:14 -0500</pubDate>
+      <dc:creator>Nova Trauben@veracode.com (Nova Trauben)</dc:creator>
+      <guid isPermaLink="false">ver61596</guid>
+    </item>
+    <item>
+      <title>Answering the Call: 3 Software Security Pillars Addressed by the National Cybersecurity Strategy</title>
+      <link>https://www.veracode.com/blog/security-news/answering-call-3-software-security-pillars-addressed-national-cybersecurity</link>
+      <description>Staying ahead of the cyberattack curve in a constantly evolving world requires a comprehensive strategy. Today's release of the Biden-Harris Administration's National Cybersecurity Strategy provides an extensive roadmap for impacting both public and private security efforts. In this blog post, we’ll take an in-depth look at three of the most software-related strategic objectives: software liability, open-source software usage, and cybersecurity workforce readiness. 
+Software Liability Overview 
+Software liability refers to the legal and financial responsibility of individuals or entities for any damages or losses caused by their software. This can include issues such as security vulnerabilities, bugs, or other defects that result in harm to users or their data.  
+The National Cybersecurity Strategy states: “Poor software security greatly increases systemic risk across the digital ecosystem... We must begin to shift liability onto those entities that fail to take reasonable precautions…</description>
+      <pubDate>Thu, 02 Mar 2023 13:39:02 -0500</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver61576</guid>
+    </item>
+    <item>
+      <title>SAST Tools: How to Integrate and Scale Security Workflows in the SDLC</title>
+      <link>https://www.veracode.com/blog/secure-development/sast-tools-how-integrate-and-scale-security-workflows-sdlc</link>
+      <description>Static Application Security Testing (SAST) tools present a significant opportunity for organizations looking to reduce application security risk. However, not all workflows or tools are created equal. Using the right SAST tools at the right times, you can seamlessly integrate and scale security workflows throughout the software development lifecycle (SDLC). In this post, we’ll walk through examples of how easily you can work with Veracode’s SAST tools for first-party and third-party code scanning when using Azure DevOps and Visual Studio – and the different plugins available. 
+Ticket Follow Up 
+Let’s start where all developers’ workdays begin: the ticketing system. In this scenario, it’s the Azure DevOps Workboard, and the idea is that you have run a SAST policy scan. A Veracode policy scan effectively tests at the integration or systems level. Through integration, the tool can automatically generate security bug tickets inside of Azure DevOps based on scan results.  
+
+From the ticket…</description>
+      <pubDate>Tue, 28 Feb 2023 12:25:03 -0500</pubDate>
+      <dc:creator>jmazo@veracode.com (jmazo)</dc:creator>
+      <guid isPermaLink="false">ver61556</guid>
+    </item>
+    <item>
+      <title>How to Leverage Veracode Container Security to Secure Cloud-native Application Development </title>
+      <link>https://www.veracode.com/blog/intro-appsec/how-leverage-veracode-container-security-secure-cloud-native-application</link>
+      <description>Cloud-native software development is a driving force because it empowers teams to build and deploy applications at speed and scale. Along with microservices, cloud infrastructure, and API’s, containers are a crucial part of this development process. Let’s look at the security implications of containers in cloud-native application development and how to manage the security challenges they pose. 
+What are containers?
+A container is known as a standard package of software. It bundles an application’s code together with the related configuration files and libraries, and with the dependencies required for the application to run. This allows you to deploy cloud-native applications seamlessly across public, hybrid, or private cloud environments. 
+For example, just as shipping industries use physical containers to isolate different cargos—for example, to transport in ships and trains regardless of the cargo inside—containers also work in this way as they help us ship self-contained units of…</description>
+      <pubDate>Mon, 06 Feb 2023 11:01:16 -0500</pubDate>
+      <dc:creator>Jenny Buckingham@veracode.com (Jenny Buckingham)</dc:creator>
+      <guid isPermaLink="false">ver61421</guid>
+    </item>
+    <item>
+      <title>4 Categories of Container Security Vulnerabilities (&amp; Best Practices to Reduce Risk)</title>
+      <link>https://www.veracode.com/blog/secure-development/4-categories-container-security-vulnerabilities-best-practices-reduce-risk</link>
+      <description>Containerization is becoming increasingly common due to portability, ability to isolate application dependencies, scalability, cost effectiveness, and ease of use. The ability to easily package and deploy code has changed the way that organizations work with applications. But like with Windows servers years ago, or AWS today, any time one specific technology gains a significant portion of the market share, it becomes a target for attackers. Here’s what you need to know about the security risks of vulnerable containers. 
+Some Background on Container Vulnerabilities 
+When containers were first released, an attacker would have to first discover that an organization was using containerization and then try to find a way to exploit those containers. Today, it’s a safe bet that containers are in use, and if an organization’s containers aren’t secured, they can present a quick way into a company’s infrastructure.  
+To minimize the risk of your company being breached, you can (and should)…</description>
+      <pubDate>Thu, 02 Feb 2023 14:16:00 -0500</pubDate>
+      <dc:creator>Sarah Zipkin@veracode.com (Sarah Zipkin)</dc:creator>
+      <guid isPermaLink="false">ver61411</guid>
+    </item>
+    <item>
+      <title>Quick Start Guide: Integrate Veracode in Your DevOps Pipeline</title>
+      <link>https://www.veracode.com/blog/intro-appsec/quick-start-guide-integrate-veracode-your-devops-pipeline</link>
+      <description>For today’s DevSecOps teams, the demands continue to intensify. Application portfolios and codebases continue to grow, while cyberattacks remain an ever-present danger. More than ever, it’s vital to ensure security gaps are identified and addressed with maximum speed and efficiency. In order to do this, you need to establish a continuous feedback loop on security threats, so you can realize optimized, sustained results – which is exactly how Veracode helps. Here we’ll outline how you can get started with Veracode in a matter of minutes, and we’ll detail all the ways we can help after your initial scans are complete. 
+How to Quickly Get Started with Veracode 
+Here's an overview of the process of getting started with Veracode in two environments: GitHub and Azure. For each, we’ll outline the process for doing scans using our Veracode Static Analysis (SAST) and Veracode Software Composition Analysis (SCA) solutions. These solutions offer the fastest way to get scanning coverage in your…</description>
+      <pubDate>Tue, 31 Jan 2023 13:33:18 -0500</pubDate>
+      <dc:creator>cpollock@veracode.com (cpollock)</dc:creator>
+      <guid isPermaLink="false">ver61396</guid>
+    </item>
+    <item>
+      <title>6 Reasons You Need to Run SCA Scans on Projects in VS Code</title>
+      <link>https://www.veracode.com/blog/secure-development/6-reasons-you-need-run-sca-scans-projects-vs-code</link>
+      <description>We love open-source software (OSS). Not only does it save time and effort, but it’s also incredibly rewarding to collaborate with other developers on major projects. Plus, it opens the door for innovation that otherwise wouldn’t be possible at this scale. However, with code comes responsibility, and so it’s imperative to understand the risk OSS libraries carry when we’re integrating them into projects. Running a Software Composition Analysis (SCA) scan will help highlight dependencies and any issues in the OSS libraries being used. Here's six reasons why scanning OSS dependencies while you code helps in the long run. 
+1. Save Yourself from Agitation Later  
+The longer you wait for security checks, the harder they will be to fix later. Plus, when you do the SCA scan on your own time, as opposed to delaying until a ticket comes in from another team, then you’re not tied to their completion dates.  
+2. Understand Risk in Your Projects and Potential OSS Libraries You Want to Pull In 
+By…</description>
+      <pubDate>Mon, 16 Jan 2023 18:06:02 -0500</pubDate>
+      <dc:creator>shinksmon@veracode.com (shinksmon)</dc:creator>
+      <guid isPermaLink="false">ver61246</guid>
+    </item>
+    <item>
+      <title>3 Key Takeaways from the State of Software Security  2023 Report</title>
+      <link>https://www.veracode.com/blog/research/3-key-takeaways-state-software-security-2023-report</link>
+      <description>It’s one of our favorite times of the year – the unveiling of our annual State of Software Security (SoSS) report. Software security issues can have devastating effects on organizations, damaging their financial stability and reputations. That’s why our research this year centered on a crucial question: what can be done to avoid introducing security flaws in the first place? We dug into 17 years of data and analyzed three-quarters of a million applications to provide security and development teams with concrete steps they can act on together to minimize risk, protect applications, and meet industry regulations. Plus, we turn some conventional wisdom about open source on its head. Let’s dive in. 
+1. 32 percent of apps contain security flaws at the first scan, and by the five-year mark, this jumps to 70 percent. 
+By the time they move into production, nearly one-third of all applications have security flaws, and applications grow by about 40 percent year on year irrespective of their…</description>
+      <pubDate>Wed, 11 Jan 2023 06:03:06 -0500</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver61256</guid>
+    </item>
+    <item>
+      <title>With Gratitude to Our Customers. We Couldn’t Do Any of This Without You.</title>
+      <link>https://www.veracode.com/blog/customer-news/gratitude-our-customers-we-couldnt-do-any-without-you</link>
+      <description>It’s the end of another year, and we want to take a quick moment to reflect on the debt of gratitude we owe our customers. Thanks to you, we’re all leagues closer to a world where software is developed secure from the start. You constantly astound us with your dedication to securing your apps for your customers, and we are grateful you’ve chosen us as your security partner. You value the competitive advantage of making secure software and have proven it by reaching new heights in 2022. Let’s dive into some of the stories from this year and celebrate what your progress, feedback, and successes have allowed us all to achieve.
+Scalable and reliable software security are unquestionably valuable, but determining how to achieve it within seamless developer workflows can present a challenge. Cloud-native electronic health records application developer Azalea Health incorporates secure coding best practices with Veracode. VP of Engineering Andrew McCall, told us that rather than treating…</description>
+      <pubDate>Mon, 19 Dec 2022 07:30:00 -0500</pubDate>
+      <dc:creator>Veracode@veracode.com (Veracode)</dc:creator>
+      <guid isPermaLink="false">ver61116</guid>
+    </item>
+    <item>
+      <title>What We’ve Learned About Reducing Open-source Risk Since Log4j</title>
+      <link>https://www.veracode.com/blog/security-news/what-weve-learned-about-reducing-open-source-risk-log4j</link>
+      <description>I share a birthday with the Log4j event. However, unlike this event, I’ve been around for more than one year. On December 9th, 2021, a Tweet exposed a zero-day vulnerability in Log4j, a widely-used piece of open-source software. The announcement made headlines everywhere, and cybersecurity was suddenly put in the spotlight. It was a wake-up call for many because, in an instant, software that had been considered secure was suddenly at tremendous risk. Looking back over the aftermath of the past year, here’s what Log4j has taught us about reducing open-source risk. 
+What Log4j Has Revealed About the Risk of Open-source Libraries 
+With a CVSS severity level of 10 out of 10, the urgent response to Log4j was warranted. Upon the announcement, we quickly discovered that 58 percent of enterprises were using the vulnerable version of Log4j, and Microsoft shared shortly after the announcement that state-backed hackers around the world had already tried to exploit the Log4j vulnerability. 
+How…</description>
+      <pubDate>Wed, 07 Dec 2022 13:15:44 -0500</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver61126</guid>
+    </item>
+    <item>
+      <title>Despite Security Scrutiny on Tech Industry, Nearly One-fourth of Applications Have High-severity Flaws</title>
+      <link>https://www.veracode.com/blog/research/despite-security-scrutiny-tech-industry-nearly-one-fourth-applications-have-high</link>
+      <description>The United States, United Kingdom and other governments around the globe are making strides to defend against software supply chain attacks and strengthen the cybersecurity resilience of their departments, partners, and stakeholders. Technology companies are following these developments and emerging government guidance closely, understanding that in a post-SolarWinds and Log4j world, their roles in securing the software they create – along with the applications they use to deliver new innovations – are rapidly evolving. 
+This heightened awareness has not fully translated into stronger security measures, however. Our recent State of Software Security v12 (SOSS) report found that, when compared to other industries, the technology sector has the second-highest proportion of applications with security flaws, as well as the highest proportion of applications with high-severity flaws.
+
+Given the nature of the industry, it could be argued that tech companies create far more applications –…</description>
+      <pubDate>Mon, 05 Dec 2022 11:55:00 -0500</pubDate>
+      <dc:creator>jqueenan@veracode.com (jqueenan)</dc:creator>
+      <guid isPermaLink="false">ver61111</guid>
+    </item>
+    <item>
+      <title>As the Holiday Season Begins, 73% of Retail and Hospitality Apps Have a Flaw</title>
+      <link>https://www.veracode.com/blog/research/holiday-season-begins-73-retail-and-hospitality-apps-have-flaw</link>
+      <description>After the pandemic upended the retail and hospitality industries, digital transformation became imperative to survival – the key to meeting ever-changing customer expectations and overcoming supply chain complexities. As the landscape continues to shift, 55 percent of retailers say they’re open to improving their innovation capabilities, while 51 percent want to adopt new business models. But as retail and hospitality companies deepen their digital capabilities, cyberattackers are looking for ways to exploit vulnerabilities in eCommerce systems, digital payment platforms, and other software systems.   
+Our latest State of Software Security (SOSS) Volume 12 found that 73% of all applications in the retail and hospitality sector have a security vulnerability. This is especially concerning as we enter the busy holiday season, a time of historically elevated threat levels.  
+Yet there is some cause for cheer: Our SOSS findings revealed that when compared to other industries, retail and…</description>
+      <pubDate>Mon, 21 Nov 2022 12:57:33 -0500</pubDate>
+      <dc:creator>jqueenan@veracode.com (jqueenan)</dc:creator>
+      <guid isPermaLink="false">ver60946</guid>
+    </item>
+    <item>
+      <title>Anatomy of a Stored Cross-site Scripting Vulnerability in Apache Spark</title>
+      <link>https://www.veracode.com/blog/secure-development/anatomy-stored-cross-site-scripting-vulnerability-apache-spark</link>
+      <description>One of the services that Veracode offers is a consultation with an Application Security Consultant – a seasoned software developer and application security expert. In the context of a consultation, my team works with the software engineers of Veracode’s customers to understand and, ideally, remediate security flaws found by the Veracode tool suite.
+There is a well-defined difference between a security flaw (a defect that can lead to a vulnerability) and a vulnerability (an exploitable condition within code that allows an attacker to attack it). While working with potentially dozens of different customer applications every week, we usually have a strong gut feeling for when a security flaw might constitute an exploitable vulnerability and should receive extra attention.
+During one of our consultations, a set of similar Cross-site Scripting (XSS) flaws was discovered by Veracode Static Analysis in what turned out to be 3rd party JavaScript files belonging to Apache Spark. After some…</description>
+      <pubDate>Fri, 18 Nov 2022 15:03:25 -0500</pubDate>
+      <dc:creator>Florian_Walter@veracode.com (Florian_Walter)</dc:creator>
+      <guid isPermaLink="false">ver60936</guid>
+    </item>
+    <item>
+      <title>4 Reasons Scan Results May Differ Over Time: Advice from an Application Security Consultant</title>
+      <link>https://www.veracode.com/blog/secure-development/4-reasons-scan-results-may-differ-over-time-advice-application-security</link>
+      <description>You didn’t change anything in your code, yet the scan is different this time. Here’s advice from an Application Security Consultant on why that may be. 
+Have you ever wondered why you scan code one day and get one result, and then scan the same code a month later and get different results – even though you never changed anything? As Application Security Consultants at Veracode, we often receive questions from developers about unanticipated differences in findings between one static scan and another. Typically, developers will make some changes in their application between scans, but it is common for changes that appear unrelated to developer activity to be encountered. In this article, we’ll explore four of the reasons why this may occur.  
+1. Changes in Seemingly Unrelated Code 
+Obviously, changes in code that remediate findings effectively will result in those findings no longer being reported. Changes that add new functionality may include security defects, and these new findings…</description>
+      <pubDate>Tue, 15 Nov 2022 13:53:58 -0500</pubDate>
+      <dc:creator>jjastrzebski@veracode.com (jjastrzebski)</dc:creator>
+      <guid isPermaLink="false">ver60876</guid>
+    </item>
+    <item>
+      <title>The Power of Manual Penetration Testing in Securing Your Attack Surface</title>
+      <link>https://www.veracode.com/blog/managing-appsec/power-manual-penetration-testing-securing-your-attack-surface</link>
+      <description>When it comes to protecting software, don’t count on automated testing to find all the vulnerabilities in your code. Here’s why manual penetration testing is more essential (and more accessible) than one might think. 
+Humans find vulnerable vectors automation can’t.  
+While it’s not breaking news that any mature DevSecOps programs should include automating application analysis into the software development lifecycle, there is no silver bullet for ensuring the security posture of the entire attack surface. Stopping attackers from gaining access to sensitive information requires a well-rounded program that covers the software development lifecycle from end to end - from static code testing, testing third-party libraries, to dynamic analysis and manual penetration testing. Organizations that want to keep their software as secure as possible can’t afford to leave any stone unturned.  
+Manual penetration testing or “pen testing” has long been the great revealer of both successes and…</description>
+      <pubDate>Mon, 07 Nov 2022 18:43:58 -0500</pubDate>
+      <dc:creator>Elisa_Velarde@veracode.com (Elisa_Velarde)</dc:creator>
+      <guid isPermaLink="false">ver60851</guid>
+    </item>
+    <item>
+      <title>How Government Agencies Can Secure Mission Critical Software in the Cloud</title>
+      <link>https://www.veracode.com/blog/intro-appsec/how-government-agencies-can-secure-mission-critical-software-cloud</link>
+      <description>Government agencies are instructed by Executive Order to improve the delivery of digital services to citizens while also safeguarding critical data and systems. Often, this leads to a difficult decision between speed of application production and software security. However, as recent events have shown, sacrificing security in the name of speed compromises the safety of citizens and government infrastructure. Here’s why the government is prioritizing software security and how agencies can reliably secure software development in the cloud and on-premises. 
+Why is the Government More Focused than Ever on Improving Software Supply Chain Security? 
+The following executive orders and memoranda make it clear that cybersecurity, and software security in particular, is a national priority. Let’s explore why they were created and what they require from you. 
+Executive Order on Improving the Nation’s Cybersecurity 
+In 2021, the Biden administration issued an executive order on cybersecurity that…</description>
+      <pubDate>Wed, 02 Nov 2022 12:48:33 -0400</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver60811</guid>
+    </item>
+    <item>
+      <title>What You Need to Know About OpenSSL-3.0.7</title>
+      <link>https://www.veracode.com/blog/research/what-you-need-know-about-openssl-307</link>
+      <description>
+
+
+
+
+
+
+
+OpenSSL released version 3.0.7 with security fixes for High Severity vulnerabilities CVE-2022-3786 &amp; CVE-2022-3602 discussed here. Here's how to know if you're affected and what to do if you are.
+Am I affected?
+At this moment it seems that OpenSSL versions between 3.0.0 and 3.0.6 and applications using the OpenSSL library within the affected versions are vulnerable.
+OpenSSL 3.x was released just about one year ago: OpenSSL 3.0 Has Been Released! - OpenSSL Blog; container images, distributions and software released before this date are unlikely to be affected.
+OpenSSL can be installed through a package manager that install it in well-known locations and configure it at system level, or it can be downloaded on the system as a compiled binary or even compiled locally from source code. These different approaches don’t allow to list all possible ways to detect the versions of OpenSSL installed on the system.
+LibreSSL is not affected by this vulnerability (oss-security - Re:…</description>
+      <pubDate>Tue, 01 Nov 2022 10:23:26 -0400</pubDate>
+      <dc:creator>The Veracode Research Team@veracode.com (The Veracode Research Team)</dc:creator>
+      <guid isPermaLink="false">ver60786</guid>
+    </item>
+    <item>
+      <title>Why Security is Central to Citizen Experience Part 3: A Helping Hand from the Private Sector</title>
+      <link>https://www.veracode.com/blog/intro-appsec/why-security-central-citizen-experience-part-3-helping-hand-private-sector</link>
+      <description>The final part of this series reveals how Veracode’s FedRAMP authorization is all about supporting the government and its citizens. (Part three in a three-part series.) 
+Building trust in government is both my passion and part of my character. Last year, when I found myself contemplating my next career move, I knew that I wanted to be at an innovative company devoted to rebuilding trust in federal agencies. 
+It didn’t take long for me to realize that Veracode and I were a perfect fit. Immediately I saw how the company’s mission and innovative application-security technology aligned with my values. I joined the Veracode team in May, bringing to my new job a wealth of private- and public-sector experience. I also arrived with a mental map for navigating government, a map that was updated during the Covid era. 
+Indeed, agencies are having to overcome new technological obstacles that emerged during the pandemic. The challenge to advance cybersecurity, for example, has strained the…</description>
+      <pubDate>Tue, 25 Oct 2022 12:41:33 -0400</pubDate>
+      <dc:creator>Torey_Vanek@veracode.com (Torey_Vanek)</dc:creator>
+      <guid isPermaLink="false">ver60701</guid>
+    </item>
+    <item>
+      <title>Why Security is Central to Citizen Experience Part 2: The Changing Cyber Landscape of Government</title>
+      <link>https://www.veracode.com/blog/intro-appsec/why-security-central-citizen-experience-part-2-changing-cyber-landscape</link>
+      <description>The second part of this series is about what’s driving the cybersecurity changes across government. (Part two in a three-part series.) 
+Throughout my career, I’ve seen a lot of change in the realm of cybersecurity. Whether in private- or public-sectors, from pre- to post-pandemic, I’ve witnessed the struggles of agencies coming to terms with digital transformation and cybersecurity.  
+What I’ve found is that federal agencies are expected to keep pace with their civilian counterparts while abiding by mandates to add an extra layer of security to digital operations. Factor in upheavals caused by the pandemic, and it's clear why the public sector has been feeling the immense pressure to quickly tighten its cybersecurity practices. 
+Global Pandemic 
+Prior to the pandemic, you came into the office, and your network access was granted simply because you were in the building. This all changed when agencies had to figure out how to work remotely with little to no planning. Agencies that were…</description>
+      <pubDate>Mon, 24 Oct 2022 11:17:45 -0400</pubDate>
+      <dc:creator>Torey_Vanek@veracode.com (Torey_Vanek)</dc:creator>
+      <guid isPermaLink="false">ver60696</guid>
+    </item>
+    <item>
+      <title>Why Mitigate Flaws to Manage Risk: Advice from an Application Security Consultant</title>
+      <link>https://www.veracode.com/blog/secure-development/why-mitigate-flaws-manage-risk-advice-application-security-consultant</link>
+      <description>Documenting flaws that you don't prioritize today will save you time should they become high-severity flaws in the future. Here's the best way to approach them.
+The topic of mitigations is a commonplace source of questions and discussion for our Application Security Consulting group. This is a complicated topic, and I hope the following helps to provide some understanding and guidance on how to think about the role and purpose mitigations play in the security posture of an application and in your security program. 
+What is a mitigation? 
+In the Veracode system, a mitigation is basically an annotation on a finding - or flaw, typically one detected through static analysis – which explains why the finding does not require code change in order to remediate the risk. In other words, it is an explanation of how the risk reported via the finding is already being addressed effectively.  
+It is important to differentiate findings that are mitigated from the idea of a false positive finding.…</description>
+      <pubDate>Fri, 21 Oct 2022 13:16:35 -0400</pubDate>
+      <dc:creator>jjastrzebski@veracode.com (jjastrzebski)</dc:creator>
+      <guid isPermaLink="false">ver60671</guid>
+    </item>
+    <item>
+      <title>Why Security is Central to Citizen Experience Part 1: Lessons from a Federal Executive</title>
+      <link>https://www.veracode.com/blog/intro-appsec/why-security-central-citizen-experience-part-1-lessons-federal-executive</link>
+      <description>The first part of this series is about why my return to the private sector is still motivated by American citizens. (Part one in a three-part series.) 
+Government agencies have critical missions that affect the entire American population. The thing is, their core missions typically aren’t technology; they’re everything from delivering food stamps and stable roads to social security. Veracode’s top mission is technology, and it allows the government agencies to fulfill their critical core missions. That’s why I made the move from the public sector to the private sector by joining the Veracode team. 
+How it All Started 
+My experience in government, the private sector, product development, and IT security makes me specifically tailored to fight malicious cyberthreats. 
+My career began by tracking legislation at Congressional Quarterly (CQ), and I got into product management before it was as prevalent as it is today. I often fell into the marketing and advertising departments and spent…</description>
+      <pubDate>Thu, 20 Oct 2022 11:15:29 -0400</pubDate>
+      <dc:creator>Torey_Vanek@veracode.com (Torey_Vanek)</dc:creator>
+      <guid isPermaLink="false">ver60656</guid>
+    </item>
+    <item>
+      <title>Despite Lowest Software Flaw Frequency, Manufacturing’s Fix Times Lag and Create Ransomware Risk</title>
+      <link>https://www.veracode.com/blog/research/despite-lowest-software-flaw-frequency-manufacturings-fix-times-lag-and-create</link>
+      <description>In 2021, manufacturing became cybercriminals’ most targeted industry as a surge in global ransomware attacks disrupted manufacturing operations and exacerbated supply chain woes. This put even more pressure on manufacturing organizations that were already feeling the heat. 
+Recognizing that ransomware attacks can stem back to software vulnerabilities, many manufacturers are exploring ways to strengthen their software security programs. Our recent State of Software Security report v12 (SOSS), which analyzed 20 million scans across half a million applications, identified several manufacturing-specific trends that may help focus these efforts.  
+First up, some good news: The manufacturing industry now boasts the lowest number of software security flaws across all sectors, dethroning financial services from last year’s top spot. However, the manufacturing sector is also tied for the lowest number of flaws that are fixed. This means that manufacturing companies have security flaws in…</description>
+      <pubDate>Wed, 19 Oct 2022 01:08:45 -0400</pubDate>
+      <dc:creator>jqueenan@veracode.com (jqueenan)</dc:creator>
+      <guid isPermaLink="false">ver60646</guid>
+    </item>
+    <item>
+      <title>How Azalea Health Ensures Customer Trust with Cloud-based Software Security</title>
+      <link>https://www.veracode.com/blog/intro-appsec/how-azalea-health-ensures-customer-trust-cloud-based-software-security</link>
+      <description>As head of the product department at Azalea Health, I need to understand what our market needs. Based on the conversations that we've had with hospitals and clinics, enterprise-grade security is something they desperately need but rightfully expect their EHR system to provide . That’s why it’s important for our organization to take the responsibility of securing health data off their shoulders.
+Because healthcare providers rely on Azalea software to manage patient health records and personal information, our security program starts when the software is being developed. We’ve always been diligent about software security, and we run penetration tests on a regular basis. However, after we moved our 100 percent cloud-delivered model to AWS in 2021, our focus on security intensified. We recognized the need to catch issues earlier in the development process—before they even got to our staging servers. For us, it was important to find a solution that integrates security into every stage of…</description>
+      <pubDate>Mon, 17 Oct 2022 14:44:11 -0400</pubDate>
+      <dc:creator>Nathan_Shepard@veracode.com (Nathan_Shepard)</dc:creator>
+      <guid isPermaLink="false">ver60651</guid>
+    </item>
+    <item>
+      <title>Choosing Secure Container Images: Secure Cloud-native Development Series</title>
+      <link>https://www.veracode.com/blog/secure-development/choosing-secure-container-images-secure-cloud-native-development-series</link>
+      <description>Build secure cloud-native applications by avoiding the top five security pitfalls we lay out in our Secure Cloud-native Development Series. This blog is the first part of the series, and it will teach you how to choose secure container images. 
+When it comes to building secure cloud-native applications, the baseline is choosing a secure container image. Docker defines a container as “a standard unit of software that packages up code and all its dependencies, so the application runs quickly and reliably from one computing environment to another.” The problem is, they’re often a pain point for many developers. Journey with us through real examples from the Age of Empires 2 API Project as you learn three ways to ease some pain and strengthen your security posture with container images: pinning, slimming, and updating. 
+1. Pinning 
+Rather than choosing the “latest” container image, you should be pinning to a specific version of the image. For example: ubuntu:20.04, or python:3.10.6-…</description>
+      <pubDate>Wed, 05 Oct 2022 10:56:24 -0400</pubDate>
+      <dc:creator>dsilveri@veracode.com (dsilveri)</dc:creator>
+      <guid isPermaLink="false">ver60496</guid>
+    </item>
+    <item>
+      <title>How to See Yourself in Cyber: Top Tips from Industry Leaders</title>
+      <link>https://www.veracode.com/blog/security-news/how-see-yourself-cyber-top-tips-industry-leaders-0</link>
+      <description>It’s 2022 and as we all know, the world is a very different place. However, one thing that has not changed is the importance of cybersecurity. In fact, it’s more important now than ever before, as the SolarWinds hack and Executive Order prove. That’s why for Cybersecurity Awareness Month this year, we asked cybersecurity pioneers and leaders to get their insights on staying cyber safe. Here are their thoughts on CISA’s 4 Things You Can Do to See Yourself in Cyber. 
+Enable Multi-Factor Authentication 
+“With the continued rise in cybercrime, there are a few simple steps every person should take to protect themselves, if they aren’t already. CISA’s first recommended step to stay 'cyber-safe' is to implement multi-factor authentication. It significantly lessens the likelihood of being hacked via unauthorized access and compromised credentials, which, according to Verizon’s 2021 Data Breach Investigations Report, were the gateway for 61% of data breaches. Enabling multi-factor…</description>
+      <pubDate>Tue, 04 Oct 2022 11:20:28 -0400</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver60531</guid>
+    </item>
+    <item>
+      <title>Secure Cloud-native Development: The Top Five Security Pitfalls and How to Avoid Them</title>
+      <link>https://www.veracode.com/blog/secure-development/secure-cloud-native-development-top-five-security-pitfalls-and-how-avoid</link>
+      <description>Build secure cloud-native applications by avoiding the top five security pitfalls we lay out in our Secure Cloud-native Development Series.
+The reason organizations are embracing cloud-native development is clear: AWS reports those who migrated saw an average of 20% infrastructure cost savings and 66% increase in administrator productivity. Moving your development process to the cloud offers these benefits and many others, but it also offers a whole new set of security challenges. This series is aimed at helping developers create secure infrastructure for modern, cloud-native applications. You’ll learn the top five security pitfalls you can encounter when building applications in the cloud and how to avoid them.
+Why take the time to learn about securing cloud-native development?
+As modern applications are integrated closely with cloud technologies (like containers and serverless), developers must now understand these technologies and how to implement them securely from the start. The…</description>
+      <pubDate>Mon, 03 Oct 2022 10:46:27 -0400</pubDate>
+      <dc:creator>dsilveri@veracode.com (dsilveri)</dc:creator>
+      <guid isPermaLink="false">ver60491</guid>
+    </item>
+    <item>
+      <title>How to Engage Developers to Build a Successful Application Security Program</title>
+      <link>https://www.veracode.com/blog/managing-appsec/how-engage-developers-build-successful-application-security-program</link>
+      <description>If you’re helping shape application security in an organization, whether as an external security consultant or vendor, or as part of an internal security team, it is critical to work effectively with developers.
+While a lot of individuals have an interest and stake in security, and many have a significant role to play, developers who write code and fix flaws determine whether application security initiatives succeed or fail. Fundamentally, developers are the ones who operationalize application security. The sooner and more effectively they address security issues, the more secure applications will be. 
+The problem is that security is not developers’ only area of responsibility. Developers have a lot of competing demands and are typically evaluated and incentivized based on speed of delivery and productivity—rather than security. 
+For those focused on security, it can often be a battle to engage effectively with developers and get the buy in and participation required. If you only…</description>
+      <pubDate>Wed, 28 Sep 2022 13:09:06 -0400</pubDate>
+      <dc:creator>cbertram@veracode.com (cbertram)</dc:creator>
+      <guid isPermaLink="false">ver60431</guid>
+    </item>
+    <item>
+      <title>6 Developer Personas Every Security Practitioner Needs to Understand</title>
+      <link>https://www.veracode.com/blog/managing-appsec/6-developer-personas-every-security-practitioner-needs-understand</link>
+      <description>When it comes to engaging developers for a successful application security program, it is helpful to understand the types of developers you are working with. While of course each developer is a unique individual, there are some common personas I have come across in my work with development teams. In fact, as a developer in prior jobs, I have embodied some of these traits myself. Let’s dive in.
+The Competitor
+This is a developer who feels they know more and do more than their peers, and they want everybody to know that this is the case. These individuals want to be acknowledged as a top contributor and expert, and they treat their work as an opportunity to demonstrate their capabilities. 
+I remember one team ran a scan using an open-source security tool. The scan uncovered around 500 vulnerabilities. The competitive developer took it upon themself to go off, work extra hours and weekends, and single handedly resolve each vulnerability. 
+To engage the competitor, you can try to rollout…</description>
+      <pubDate>Tue, 27 Sep 2022 13:24:27 -0400</pubDate>
+      <dc:creator>cbertram@veracode.com (cbertram)</dc:creator>
+      <guid isPermaLink="false">ver60436</guid>
+    </item>
+    <item>
+      <title>8 Ways Secure Coding Lets You Work on the Best Projects, Advance Your Career, and Do More of What You Love</title>
+      <link>https://www.veracode.com/blog/secure-development/8-ways-secure-coding-lets-you-work-best-projects-advance-your-career-and-do</link>
+      <description>As a developer, DevOps engineer, Infrastructure &amp; Operations lead, or similar, you are on the frontlines of application security. You are also on the frontlines of performance, functionality, stability, user experience…the list goes on. Often it seems like security is just one more requirement, one more box to check, one more obstacle between you, your deadline, and what you really care about. But I see it differently. Security probably is not the reason you love coding, but I bet the reason you love coding is made all the richer by embracing security. Or at least it can be. Hear me out.
+I have been fortunate enough to work in development and to work with developers for decades. Through that experience, I have come to recognize different developer archetypes and their motivations. There are the creators who thrive on creating something that never existed before the day they wrote it into existence. The often falsely labeled “lazy developers” who are efficiency experts and automate…</description>
+      <pubDate>Mon, 26 Sep 2022 12:43:57 -0400</pubDate>
+      <dc:creator>cbertram@veracode.com (cbertram)</dc:creator>
+      <guid isPermaLink="false">ver60426</guid>
+    </item>
+    <item>
+      <title>Healthcare Industry Leads the Way in Fixing Software Flaws</title>
+      <link>https://www.veracode.com/blog/research/healthcare-industry-leads-way-fixing-software-flaws</link>
+      <description>The healthcare industry is transforming patient care through software, from 24/7 digital patient portals, to AI-fueled medical research, and everything in between. As innovation reaches new heights, how does healthcare stack up against other sectors in terms of software security flaws and the ability to remediate them?
+Our latest State of Software Security Report found that 77 percent of applications in this sector have vulnerabilities – a slight uptick from last year’s 75 percent – with 21 percent considered high severity.
+Healthcare takes first place for fixing flaws at 27 percent. Developers in the space should be applauded for tackling complex authentication issues and insecure dependencies with success over the last 12 months.
+When clocking the time it takes to remediate flaws found by static analysis (SAST), dynamic analysis (DAST), and software composition analysis (SCA), healthcare organizations fall right in the middle of the pack. It’s also worth mentioning that healthcare…</description>
+      <pubDate>Thu, 22 Sep 2022 02:55:55 -0400</pubDate>
+      <dc:creator>jqueenan@veracode.com (jqueenan)</dc:creator>
+      <guid isPermaLink="false">ver60361</guid>
+    </item>
+    <item>
+      <title>Analysis and Remediation Guidance of CSRF Vulnerability in Csurf Express.js Middleware</title>
+      <link>https://www.veracode.com/blog/research/analysis-and-remediation-guidance-csrf-vulnerability-csurf-expressjs-middleware</link>
+      <description>Technical Summary
+On 28th of August fortbridge.co.uk reported a vulnerability in csurf middleware – expressjs supporting library that enables CSRF protection in expressjs.
+As of 13th of September csurf library has been deprecated with no plans to fix the vulnerabilities.
+There is no viable alternative for csurf middleware now.
+Am I Affected?
+All versions of csurf library are vulnerable if:
+csurf is setup to use double-submit cookies – csurf({cookie: true})
+and default value function is in use
+	 
+Setting up cookie signatures as described here: https://www.npmjs.com/package/csurf#cookie does not prevent the bypass
+Indicators of an Attack
+Reliable indicator of attampted exploitation would include either:
+request query variable _csrf with a value
+request body variable _csrf with a value
+	 
+This is assuming the default value function is in use as described here: https://www.npmjs.com/package/csurf#value
+If verbose access logs are enabled there’s another indicator that may be useful.  In…</description>
+      <pubDate>Mon, 19 Sep 2022 02:51:19 -0400</pubDate>
+      <dc:creator>mkrzeszowiec@veracode.com (mkrzeszowiec)</dc:creator>
+      <guid isPermaLink="false">ver60356</guid>
+    </item>
+    <item>
+      <title>7 Key Benefits of a Reliable Cloud Application Security Partner</title>
+      <link>https://www.veracode.com/blog/intro-appsec/7-key-benefits-reliable-cloud-application-security-partner</link>
+      <description>When you’re looking to secure your applications, you need to keep a few things in mind. You want to make sure that your software security vendor is a fully-Saas vendor you access in the cloud. That way you benefit from scalability, peer benchmarking, and more. Here’s what to look for in an application security testing solution that you can access in the cloud while supporting cloud-native development. Plus, you’ll learn why cloud-based trumps on-premises solutions. 
+The key components of a reliable cloud application security partner 
+When you’re evaluating the ever-changing landscape of different solutions for securing applications, it’s important to consider the following factors. 
+Scalability  
+When distinguishing between cloud and on-premises software security vendors, consider the growth of your program, both long-term and as required in the short term. Cloud vendors offer economy of scale as you grow, saving you the costs inherent in hardware for your data center over time. Can…</description>
+      <pubDate>Mon, 12 Sep 2022 02:45:54 -0400</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver60351</guid>
+    </item>
+    <item>
+      <title>3 Ways Software Engineers Can Save Time and Eliminate DevOps Waste</title>
+      <link>https://www.veracode.com/blog/secure-development/3-ways-software-engineers-can-save-time-and-eliminate-devops-waste</link>
+      <description>As software engineers, we are incredibly busy. We’re designing new features, writing tests and implementing code, debugging, opening pull requests, and performing code reviews. That’s not to mention all of the DevOps stuff that our teams have us doing nowadays, too. Oh yes, and then there are stand-ups, check-ins, one-on-ones, and all-hands. 
+The thing is: you don’t have time to waste. If there is wasted time in your workweek, it’s worth looking into how to recapture that time. 
+You may find yourself performing a task while asking at the same time, “Why am I spending my time doing this, of all things? Something is wrong here. I’ve got better things to do.” 
+In this post, we’re going to cover what some of those time-wasting and motivation-draining tasks are. We’ll consider how you (or your project or your team) got into that mess in the first place. Then, we’ll look at how a unified platform can help you recapture that wasted time. 
+Let’s dive in and not waste any more time, shall we…</description>
+      <pubDate>Thu, 08 Sep 2022 11:45:30 -0400</pubDate>
+      <dc:creator>Veracode@veracode.com (Veracode)</dc:creator>
+      <guid isPermaLink="false">ver60086</guid>
+    </item>
+    <item>
+      <title>Financial Services Organizations Have Fewer Security Flaws in Applications</title>
+      <link>https://www.veracode.com/blog/research/financial-services-organizations-have-fewer-security-flaws-applications</link>
+      <description>According to our most recent State of Software Security Report, the financial services industry has fewer security flaws in its applications than last year. Great news, right?  
+
+That said, the reduction in security flaws isn’t as significant as we would hope to see. The financial services industry has traditionally been recognized for having the least amount of security flaws. This year, however, the manufacturing industry has dethroned financial services with an average of 72 percent of applications containing a security flaw.  
+Financial services organizations also have more high-severity flaws, 18 percent, and a slower fix rate, 22 percent, than most industries.  
+  
+But take a look at the time it takes the financial services industry to remediate flaws found by static analysis (SAST), dynamic analysis (DAST), and software composition analysis (SCA). When security flaws are found, financial organizations move faster than most to make sure they’re remediated. In fact, when it comes…</description>
+      <pubDate>Mon, 22 Aug 2022 17:21:41 -0400</pubDate>
+      <dc:creator>Veracode@veracode.com (Veracode)</dc:creator>
+      <guid isPermaLink="false">ver60101</guid>
+    </item>
+    <item>
+      <title>The Evolution of Application Security in a Cloud-Native World: Q&amp;A with Chris Wysopal</title>
+      <link>https://www.veracode.com/blog/secure-development/evolution-application-security-cloud-native-world-qa-chris-wysopal</link>
+      <description>As technology explodes, so do the threats. Point solutions emerge as security players innovate in order to keep up. This creates the need for consolidation, as the fragmented solutions become too much to manage. We’re entering a consolidation phase now, the process of distilling, refining, and letting the cream rise to the top. We sat down with cybersecurity veteran and vigilante, Chris Wysopal, to get his perspective on emerging trends in cloud-native security. Let’s dive into the conversation.
+Natalie Tischler: Chris, it’s great to chat with you. I’m inspired by your story and how everything you were doing with L0pht over two decades ago is still what you’re doing today: creating a world where software is built securely from the start with clean code. But now we have the cloud. So tell me, what’s your take on the evolution of application security in a cloud-native world?
+Chris Wysopal: What we’re seeing with the move to the cloud today mimics the AppSec trends of 15 years ago.…</description>
+      <pubDate>Wed, 17 Aug 2022 17:33:25 -0400</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver60106</guid>
+    </item>
+    <item>
+      <title>Announcing the New Veracode® Velocity™ Partner Program</title>
+      <link>https://www.veracode.com/blog/security-news/announcing-new-veracoder-velocitytm-partner-program</link>
+      <description>Veracode is pleased to announce the launch of the new Veracode Velocity Partner Program. We’ve crafted a 3-step approach to align, enable, and engage with our partners so together we can make the world's software secure.
+What is the Veracode Velocity Partner Program?
+The Veracode Velocity Partner Program enables our valued Solution Providers to accelerate their application security revenues leveraging the Veracode Platform. Through a role-based strategy and approach, partners can engage and collaborate with Veracode to achieve our mutual goals and objectives. The knowledge, skills, insights, competencies, and best practices gained enhance our partners’ ability to deliver industry-leading security solutions and services.   
+This comprehensive program offers our partners tools, resources, and programs to help ensure success at every stage of the customer journey. The goal is to empower our partner teams so they can effectively sell, market, and support the Veracode Platform in our joint…</description>
+      <pubDate>Tue, 16 Aug 2022 17:46:29 -0400</pubDate>
+      <dc:creator>dgrazio@veracode.com (dgrazio)</dc:creator>
+      <guid isPermaLink="false">ver60111</guid>
+    </item>
+    <item>
+      <title>A Swift Kick in the Nuts and Bolts of Banking</title>
+      <link>https://www.veracode.com/blog/security-news/swift-kick-nuts-and-bolts-banking</link>
+      <description>The global financial services industry is undergoing a seismic shift and not enough people are truly aware of what this means. By November of this year, banks and other financial institutions must have in place a new process for payment systems that uses the ISO 20022 standard instead of SWIFT. This must be active by November and by 2025, all financial institutions will have to be compliant. This is a huge ask, made even greater by the increasing levels of instability, technological change, and cybercrime impacting the world’s nations. Banking is about to change, and that’s not something that banks anywhere like to hear. 
+As a platform for relaying electronic messages between financial institutions, the ISO 20022 standard uses Extensible Markup Language (XML) and Abstract Syntax Notation (ASN.1) protocols to communicate, making it more adaptable to various networks, delivering greater transparency and security, and having the capacity to work with non-Latin alphabets.
+But that doesn’t…</description>
+      <pubDate>Fri, 12 Aug 2022 18:55:38 -0400</pubDate>
+      <dc:creator>chartwell@veracode.com (chartwell)</dc:creator>
+      <guid isPermaLink="false">ver59481</guid>
+    </item>
+    <item>
+      <title>The Veracode Community Refresh: Everything You Need to Know </title>
+      <link>https://www.veracode.com/blog/customer-news/veracode-community-refresh-everything-you-need-know</link>
+      <description>You spoke and we listened. Our refreshed Veracode Community is packed with new features and enhancements for a better user experience.
+The new and improved Veracode Community is here! You can still get the great support you need, when and how you need it. But now we’ve added simplified navigation, easier onboarding, improved global search, and so much more. Let’s dive into the carefully crafted features from the Veracode Community Refresh.
+Why did we refresh the Veracode Community?
+We know that building high quality, high performing applications is difficult. We took significant time and energy to refresh the Veracode Community. Quality support, knowledge, tools, and connection are integral to seeing this vision through. And that is exactly what the Veracode Community provides – now more easily than ever.
+What’s new in the new Veracode Community?
+We’ve crafted a more welcoming place where everyone can come together to share experiences, learn, and find support on their own terms. We…</description>
+      <pubDate>Sun, 07 Aug 2022 17:53:27 -0400</pubDate>
+      <dc:creator>ntischler@veracode.com (ntischler)</dc:creator>
+      <guid isPermaLink="false">ver60116</guid>
+    </item>
+    <item>
+      <title>Veracode Achieves Public Sector Milestone with FedRAMP Authorization</title>
+      <link>https://www.veracode.com/blog/security-news/veracode-achieves-public-sector-milestone-fedramp-authorization</link>
+      <description>The software security landscape has drastically evolved over the past few years. Think back to the start of COVID-19. The sudden shift to virtual operations expediated digital transformations. Government agencies now have to release new digital products and services in tighter timeframes, causing public sector leadership to choose between speed of deployments or verifiably secure code. The data says it all... According to research conducted by the Enterprise Strategy Group (ESG), 85 percent of organizations push vulnerable code to production and 54 percent do so in order to meet critical deadlines. 
+This need for speed isn’t only driving government agencies and contractors to push vulnerable code to production – it’s changing the way applications are developed. Increased reliance on microservices and open-source libraries means that applications are assembled as much as they are written. This is made evident in version 12, our most recent, State of Software Security (SOSS)report by an…</description>
+      <pubDate>Wed, 20 Jul 2022 18:52:52 -0400</pubDate>
+      <dc:creator>nbyrd@veracode.com (nbyrd)</dc:creator>
+      <guid isPermaLink="false">ver59476</guid>
+    </item>
+    <item>
+      <title>Yet Another Perspective on Prototype Pollution</title>
+      <link>https://www.veracode.com/blog/secure-development/yet-another-perspective-prototype-pollution</link>
+      <description>JavaScript is a programming language based on prototypes instead of classes. When a new object is created, the features of the prototype object are inherited – this includes arrays, functions, and even class definitions. The new object can also act as a template for other inheriting objects, transferring its properties, and creating the prototype chain. This object-based inheritance provides the flexibility and efficiency that web developers favor, yet this behavior opens applications to vulnerabilities via object manipulation.
+JavaScript objects are easily manipulated via static methods as demonstrated in this blog post. So, when is a case of object manipulation considered to be prototype pollution?
+Consider the following example of a constructor named Shape:
+ 
+
+A new object instance of the Shape object is created using the keyword new. 
+
+The inheritance schema can be illustrated as such:
+ 
+
+The following shows the prototype chain where the __proto__ property of the objects are…</description>
+      <pubDate>Tue, 19 Jul 2022 18:47:22 -0400</pubDate>
+      <dc:creator>hshun@veracode.com (hshun)</dc:creator>
+      <guid isPermaLink="false">ver59471</guid>
+    </item>
+    <item>
+      <title>Three Ways to Align with the White House’s Cybersecurity Recommendations</title>
+      <link>https://www.veracode.com/blog/managing-appsec/three-ways-align-white-houses-cybersecurity-recommendations</link>
+      <description>The global pandemic and more recent geo-political events have brought an even greater focus on the threat of cyber attacks on individuals and businesses. 
+Even as global lockdowns and restrictions on movement have eased, many organizations have not adapted to remote or hybrid styles of work. The reality that most of the workforce now operates outside a perimeter that can be controlled creates greater opportunity for scammers, hackers and the potential for cyber attacks than ever before. New intelligence suggests that cyber attacks targeted the United States are being considered.  
+To educate companies, the White House provided a fact sheet that included a comprehensive list of security best practices for organizations seeking to rapidly secure their digital infrastructure. The White House statement recommended public and private organizations move with urgency to enhance their cyber security posture and protect critical infrastructures. 
+Specific recommendations include: 
+Mandate the…</description>
+      <pubDate>Fri, 15 Jul 2022 18:43:42 -0400</pubDate>
+      <dc:creator>broche@veracode.com (broche)</dc:creator>
+      <guid isPermaLink="false">ver59466</guid>
+    </item>
+    <item>
+      <title>How to Leverage Self-Service Peer Benchmarking to Manage and Measure Your Software Security Program</title>
+      <link>https://www.veracode.com/blog/managing-appsec/how-leverage-self-service-peer-benchmarking-manage-and-measure-your-software</link>
+      <description>It is not hard to set application security goals. Security teams want to reduce risk. Developers want to quickly meet the requirements of security policy and hit deadlines. Executives want growth within their risk tolerance. What is hard is defining an appropriate level of risk and measuring whether your AppSec program is efficient, effective, and returning expected outcomes based on your investments. While internal analytics can measure directional progress and performance, they do not offer the context to understand if the progress and performance is above, at, or below average. Peer benchmarking gives you that context.
+Veracode’s self-service peer benchmarking puts the power of our unparalleled data into your hands so you can measure against peer organizations to identify strengths and weaknesses, track KPIs, leverage security as a competitive advantage, and more. There are four essential elements necessary to deliver self-service peer benchmarking:
+A broad and diverse customer…</description>
+      <pubDate>Mon, 11 Jul 2022 18:36:57 -0400</pubDate>
+      <dc:creator>dmaguire@veracode.com (dmaguire)</dc:creator>
+      <guid isPermaLink="false">ver59461</guid>
+    </item>
+    <item>
+      <title>Unifying Security and Development</title>
+      <link>https://www.veracode.com/blog/intro-appsec/unifying-security-and-development</link>
+      <description>Most developers don’t learn about secure coding in the college IT programs. And once they join the workforce, they often don’t have the time to learn about secure coding. 
+The responsibility of training developers in secure coding best practices usually falls on security practitioners. Security practitioners are notoriously overworked, often lacking the bandwidth to train developers.  Organizations are thus turning to AppSec learning experiences built specifically for development teams. These learning experiences deliver the tools and skills needed to keep an AppSec program on track. 
+According to PeerSpot, the number one ranked solution in application security training software is Veracode Security Labs, which gives developers tools and hands-on training to tackle modern threats and adopt secure coding practices. PeerSpot members who use the platform share why it is deserving of its high ranking.
+Making the Choice for Veracode Security Labs
+Veracode Security Labs empowers developers…</description>
+      <pubDate>Fri, 08 Jul 2022 18:34:13 -0400</pubDate>
+      <dc:creator>creidy@veracode.com (creidy)</dc:creator>
+      <guid isPermaLink="false">ver59456</guid>
+    </item>
+    <item>
+      <title>Musings of a Former State CTO Part 4: Looking Forward</title>
+      <link>https://www.veracode.com/blog/intro-appsec/musings-former-state-cto-part-4-looking-forward</link>
+      <description>With more than 20 years of working in the public sector behind her, Claire Bailey boasts valuable insights for incoming CTOs. She led the State of Arkansas through a pivotal point in the cybersecurity evolution, becoming an expert in balancing efficiency, accessibility, and security. She views this field as one that holds endless untapped benefits for citizens which can change the way they experience being on the receiving end of public sector services.
+“Computers can help us do things,” says Claire. “So, let’s work together to use them to implement the services citizens need.”
+The CTO is there to guide the way, ensuring that those services are safe, secure, and private – every day, every hour, and every minute – to protect the public from risk.
+“You don’t get to choose what you do and don’t know once you assume that role,” says Claire. “There shouldn’t be any question anyone can ask you as a CTO that you don’t have at your fingertips. And if you don’t, then you should be looking for…</description>
+      <pubDate>Fri, 08 Jul 2022 18:30:31 -0400</pubDate>
+      <dc:creator>Veracode@veracode.com (Veracode)</dc:creator>
+      <guid isPermaLink="false">ver59451</guid>
+    </item>
+    <item>
+      <title>Musings of a Former State CTO Part 3: The Cybersecurity Evolution</title>
+      <link>https://www.veracode.com/blog/intro-appsec/musings-former-state-cto-part-3-cybersecurity-evolution</link>
+      <description>Claire Bailey had a front-row seat to the evolution of cybersecurity. Since the 1980s, when she started in the field, security challenges have grown in number and complexity. She learned that the best strategy for mitigating software vulnerabilities and strengthening cybersecurity has come to be summarized in two little words. “Shift left,” Claire says.
+“Shifting left” is the concept of taking a security task that traditionally occurs in the later stages of the software development process and performing it earlier. This concept is particularly timely given the fact sheet released by the Biden Administration which warns against the likely rise of potential cyberattacks. It recommends building application security into products from the ground up and using modern tools to consistently monitor for potential vulnerabilities.
+To that end, Claire recommends that CIOs and CTOs look toward the adoption of agile workforces and development processes, converging steps into smaller bites that…</description>
+      <pubDate>Thu, 23 Jun 2022 18:24:58 -0400</pubDate>
+      <dc:creator>Veracode@veracode.com (Veracode)</dc:creator>
+      <guid isPermaLink="false">ver59446</guid>
+    </item>
+    <item>
+      <title>What Are the Most Prevalent Flaws in Your Programming Language?</title>
+      <link>https://www.veracode.com/blog/secure-development/what-are-most-prevalent-flaws-your-programming-language</link>
+      <description>A few months ago, we released our 12th annual State of Software Security (SOSS) Report. In our announcement blog, we noted new application development trends (like increased use of microservices and open-source libraries), the positive impact that Veracode Security Labs has on time to remediate security flaws, and the increased use of multiple application security scan types. But what we have yet to dive into is the security flaws we found in different programming languages.
+Much like last year, we created an interactive heat map that lists out the most prevalent flaws by language along with an explanation of the flaw, supporting SOSS data, and tips for preventing the flaw.
+​
+It’s interesting to see that what might be a common flaw for one language, might not even be of concern for another. Take cross-site scripting (XSS), for example. It’s the most common flaw for PHP – at 77.2 percent – but it doesn’t make the top 10 for C++.
+For those of you familiar with last year’s heat map, you’…</description>
+      <pubDate>Tue, 21 Jun 2022 18:21:39 -0400</pubDate>
+      <dc:creator>hgoslin@veracode.com (hgoslin)</dc:creator>
+      <guid isPermaLink="false">ver59441</guid>
+    </item>
+    <item>
+      <title>Musings of a Former State CTO Part 2: Public Service Meets Cybersecurity</title>
+      <link>https://www.veracode.com/blog/intro-appsec/musings-former-state-cto-part-2-public-service-meets-cybersecurity</link>
+      <description>Claire Bailey has made a career of improving cybersecurity and the delivery of citizen services in the public sector. As Director of the Arkansas Department of Information Systems and the State Chief Technology Officer (CTO) starting in the early 2000s, Claire leveraged government systems to work for citizens. What’s more, she made it possible for government organizations to share data across multiple platforms – easily and securely.
+“The minute you have that appointment [to a position of leadership] is the minute you’re responsible for all citizen cybersecurity risks,” says Claire, Regional Vice President (RVP) of Governmental Affairs at Veracode. “You don’t get to say, ‘I’m sorry, I don’t know the answer to that,’ and move on. You’re there to get things done for the public you serve.”
+Getting things done requires diligence. To improve upon service and security, for example, begin by forging strong partnerships in the private sector. “Working with industry partners helps to maximize…</description>
+      <pubDate>Thu, 16 Jun 2022 18:12:23 -0400</pubDate>
+      <dc:creator>Veracode@veracode.com (Veracode)</dc:creator>
+      <guid isPermaLink="false">ver59436</guid>
+    </item>
+  </channel>
+</rss>

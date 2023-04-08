@@ -1,0 +1,263 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "channel": {
+            "title": "Darknet – Hacking Tools, Hacker News & Cyber Security",
+            "atom:link": {
+                "@href": "https://www.darknet.org.uk/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://www.darknet.org.uk",
+            "description": "Darknet is your best source for the latest hacking tools, hacker news, cyber security best practices, ethical hacking & pen-testing.",
+            "lastBuildDate": "Sat, 01 Apr 2023 15:05:23 +0000",
+            "language": "en-US",
+            "sy:updatePeriod": "\n\thourly\t",
+            "sy:updateFrequency": "\n\t1\t",
+            "generator": "https://wordpress.org/?v=6.2",
+            "image": {
+                "url": "https://www.darknet.org.uk/wp-content/uploads/2022/12/cropped-site_icon_new-32x32.png",
+                "title": "Darknet – Hacking Tools, Hacker News & Cyber Security",
+                "link": "https://www.darknet.org.uk",
+                "width": "32",
+                "height": "32"
+            },
+            "item": [
+                {
+                    "title": "Privacy Implications of Web 3.0 and Darknets",
+                    "link": "https://www.darknet.org.uk/2023/03/privacy-implications-of-web-3-0-and-darknets/",
+                    "comments": "https://www.darknet.org.uk/2023/03/privacy-implications-of-web-3-0-and-darknets/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 13:18:47 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "darknets"
+                        },
+                        {
+                            "#cdata-section": "web3.0"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5630"
+                    },
+                    "description": {
+                        "#cdata-section": "The evolution of the internet has been rapid over the years and has impacted the privacy implications of Web 3.0 and Darknets"
+                    },
+                    "wfw:commentRss": "https://www.darknet.org.uk/2023/03/privacy-implications-of-web-3-0-and-darknets/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "DataSurgeon – Extract Sensitive Information (PII) From Logs",
+                    "link": "https://www.darknet.org.uk/2023/03/datasurgeon-extract-sensitive-information-pii-from-logs/",
+                    "comments": "https://www.darknet.org.uk/2023/03/datasurgeon-extract-sensitive-information-pii-from-logs/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Mon, 20 Mar 2023 16:19:22 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Hacking Tools"
+                        },
+                        {
+                            "#cdata-section": "penetration-testing"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=32011"
+                    },
+                    "description": {
+                        "#cdata-section": "DataSurgeon (ds) is a versatile tool designed to Extract Sensitive Information (PII) From Logs, it's intended to be used for incident response, penetration testing, and CTF challenges."
+                    },
+                    "wfw:commentRss": "https://www.darknet.org.uk/2023/03/datasurgeon-extract-sensitive-information-pii-from-logs/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Pwnagotchi – Maximize Crackable WPA Key Material For Bettercap",
+                    "link": "https://www.darknet.org.uk/2023/02/pwnagotchi-maximize-crackable-wpa-key-material-for-bettercap/",
+                    "comments": "https://www.darknet.org.uk/2023/02/pwnagotchi-maximize-crackable-wpa-key-material-for-bettercap/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Sun, 12 Feb 2023 14:34:42 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Hacking Tools"
+                        },
+                        {
+                            "#cdata-section": "bettercap"
+                        },
+                        {
+                            "#cdata-section": "wifi-hacking"
+                        },
+                        {
+                            "#cdata-section": "wifi-security"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5432"
+                    },
+                    "description": {
+                        "#cdata-section": "Pwnagotchi is an A2C-based \"AI\" leveraging bettercap that learns from its surrounding WiFi environment to maximize crackable WPA key material it captures"
+                    },
+                    "wfw:commentRss": "https://www.darknet.org.uk/2023/02/pwnagotchi-maximize-crackable-wpa-key-material-for-bettercap/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "HardCIDR – Network CIDR and Range Discovery Tool",
+                    "link": "https://www.darknet.org.uk/2022/12/hardcidr-network-cidr-and-range-discovery-tool/",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Thu, 29 Dec 2022 07:36:08 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Networking Hacking Tools"
+                        },
+                        {
+                            "#cdata-section": "Network Hacking"
+                        },
+                        {
+                            "#cdata-section": "network-security"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5582"
+                    },
+                    "description": {
+                        "#cdata-section": "HardCIDR is a Linux Bash script to discover the netblocks, or ranges, (in CIDR notation) owned by the target organization during the intelligence gathering phase of a penetration test. "
+                    }
+                },
+                {
+                    "title": "Socialscan – Command-Line Tool To Check For Email And Social Media Username Usage",
+                    "link": "https://www.darknet.org.uk/2022/04/socialscan-command-line-tool-to-check-for-email-and-social-media-username-usage/",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Fri, 29 Apr 2022 17:32:59 +0000",
+                    "category": {
+                        "#cdata-section": "Hacking Tools"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5379"
+                    },
+                    "description": {
+                        "#cdata-section": "socialscan is an accurate command-line tool to check For email and social media username usage on online platforms, given an email address or username, socialscan returns whether it is available, taken or invalid on online platforms. Other similar tools check username availability by requesting the profile page of the username in question and based on [&#8230;]"
+                    }
+                },
+                {
+                    "title": "CFRipper – CloudFormation Security Scanning & Audit Tool",
+                    "link": "https://www.darknet.org.uk/2022/01/cfripper-cloudformation-security-scanning-audit-tool/",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Sun, 23 Jan 2022 17:15:41 +0000",
+                    "category": {
+                        "#cdata-section": "Security Software"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5329"
+                    },
+                    "description": {
+                        "#cdata-section": "CFRipper is a Python-based Library and CLI security analyzer that functions as an AWS CloudFormation security scanning and audit tool, it aims to prevent vulnerabilities from getting to production infrastructure through vulnerable CloudFormation scripts. You can use CFRipper to prevent deploying insecure AWS resources into your Cloud environment. You can write your own compliance checks [&#8230;]"
+                    }
+                },
+                {
+                    "title": "CredNinja – Test Credential Validity of Dumped Credentials or Hashes",
+                    "link": "https://www.darknet.org.uk/2022/01/credninja-test-credential-validity-of-dumped-credentials-or-hashes/",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Wed, 05 Jan 2022 09:55:56 +0000",
+                    "category": {
+                        "#cdata-section": "Hacking Tools"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5373"
+                    },
+                    "description": {
+                        "#cdata-section": "CredNinja is a tool to quickly test credential validity of dumped credentials (or hashes) across an entire network or domain very efficiently. At the core of it, you provide it with a list of credentials you have dumped (or hashes, it can pass-the-hash) and a list of systems on the domain (the author suggests scanning [&#8230;]"
+                    }
+                },
+                {
+                    "title": "assetfinder – Find Related Domains and Subdomains",
+                    "link": "https://www.darknet.org.uk/2021/12/assetfinder-find-related-domains-and-subdomains/",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Wed, 29 Dec 2021 17:05:47 +0000",
+                    "category": {
+                        "#cdata-section": "Hacking Tools"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5397"
+                    },
+                    "description": {
+                        "#cdata-section": "assetfinder is a Go-based tool to find related domains and subdomains that are potentially related to a given domain from a variety of sources including Facebook, ThreatCrowd, Virustotal and more. assetfinder uses a variety of sources including those in the infosec space and social networks which can give relevant info: crt.sh certspotter hackertarget threatcrowd wayback [&#8230;]"
+                    }
+                },
+                {
+                    "title": "Karkinos – Beginner Friendly Penetration Testing Tool",
+                    "link": "https://www.darknet.org.uk/2021/08/karkinos-beginner-friendly-penetration-testing-tool/",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Mon, 30 Aug 2021 18:53:57 +0000",
+                    "category": {
+                        "#cdata-section": "Hacking Tools"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5570"
+                    },
+                    "description": {
+                        "#cdata-section": "Karkinos is a light-weight Beginner Friendly Penetration Testing Tool, which is basically a &#8216;Swiss Army Knife&#8217; for pen-testing and/or hacking CTF&#8217;s. Karkinos Beginner Friendly Penetration Testing Tool Features Encoding/Decoding characters Encrypting/Decrypting text or files Reverse shell handling Cracking and generating hashes How to Install Karkinos Beginner Friendly Penetration Testing Tool Dependencies are: Any server capable [&#8230;]"
+                    }
+                },
+                {
+                    "title": "Aclpwn.Py – Exploit ACL Based Privilege Escalation Paths in Active Directory",
+                    "link": "https://www.darknet.org.uk/2021/07/aclpwn-py-exploit-acl-based-privilege-escalation-paths-in-active-directory/",
+                    "comments": "https://www.darknet.org.uk/2021/07/aclpwn-py-exploit-acl-based-privilege-escalation-paths-in-active-directory/#comments",
+                    "dc:creator": {
+                        "#cdata-section": "Darknet"
+                    },
+                    "pubDate": "Tue, 06 Jul 2021 16:16:57 +0000",
+                    "category": {
+                        "#cdata-section": "Hacking Tools"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.darknet.org.uk/?p=5560"
+                    },
+                    "description": {
+                        "#cdata-section": "Aclpwn.py is a tool that interacts with BloodHound to identify and exploit ACL based privilege escalation paths. It takes a starting and ending point and will use Neo4j pathfinding algorithms to find the most efficient ACL based privilege escalation path. Features of Aclpwn.Py Exploit ACL Based Privilege Escalation Paths in Active Directory Aclpwn.Py currently has [&#8230;]"
+                    },
+                    "wfw:commentRss": "https://www.darknet.org.uk/2021/07/aclpwn-py-exploit-acl-based-privilege-escalation-paths-in-active-directory/feed/",
+                    "slash:comments": "1"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,934 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8",
+        "@standalone": "no"
+    },
+    "rss": {
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@version": "2.0",
+        "channel": {
+            "title": "The Hacker News",
+            "link": "https://thehackernews.com",
+            "description": "Most trusted, widely-read independent cybersecurity news source for everyone; supported by hackers and IT professionals — Send TIPs to admin@thehackernews.com",
+            "language": "en-us",
+            "lastBuildDate": "Sat, 08 Apr 2023 07:40:55 +0530",
+            "sy:updatePeriod": "hourly",
+            "sy:updateFrequency": "1",
+            "atom:link": {
+                "@href": "https://feeds.feedburner.com/TheHackersNews",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "item": [
+                {
+                    "title": "Researchers Uncover Thriving Phishing Kit Market on Telegram Channels",
+                    "description": {
+                        "#cdata-section": "In yet another sign that Telegram is increasingly becoming a thriving hub for cybercrime, researchers have found that threat actors are using the messaging platform to peddle phishing kits and help set up phishing campaigns.\n\"To promote their 'goods,' phishers create Telegram channels through which they educate their audience about phishing and entertain subscribers with polls like, 'What type"
+                    },
+                    "link": "https://thehackernews.com/2023/04/researchers-uncover-thriving-phishing.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/researchers-uncover-thriving-phishing.html"
+                    },
+                    "pubDate": "Fri, 07 Apr 2023 18:02:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnoiAcWlv6vAeXXsqxYY1i-Aijs52OCn29vpk5uVGgJDenGIdY4jlmli5IAwwIaHW-ge3b9tnaSAqbs3gXs2ayPOmLhcfSH1k4inB9bkkJBafk2pMXWgIwhxZYXYr6jvn6g6KESE9KENRPuDKxaGNNSjdd_f7-XLsmZ5kQnkZubzWAFEfPLvu-WecT/s1600/telegram.png"
+                    }
+                },
+                {
+                    "title": "Microsoft Takes Legal Action to Disrupt Cybercriminals' Illegal Use of Cobalt Strike Tool",
+                    "description": {
+                        "#cdata-section": "Microsoft said it teamed up with Fortra and Health Information Sharing and Analysis Center (Health-ISAC) to tackle the abuse of Cobalt Strike by cybercriminals to distribute malware, including ransomware.\nTo that end, the tech giant's Digital Crimes Unit (DCU) revealed that it secured a court order in the U.S. to \"remove illegal, legacy copies of Cobalt Strike so they can no longer be used by"
+                    },
+                    "link": "https://thehackernews.com/2023/04/microsoft-takes-legal-action-to-disrupt.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/microsoft-takes-legal-action-to-disrupt.html"
+                    },
+                    "pubDate": "Fri, 07 Apr 2023 11:45:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIDzUPhjl4kN4rSlQwX-fqULBB6YOKIZVTPsEmi0r2BOixHV7n9X9cx-jp9ylrX_VBDgU_6kneVkWC0L7xgyLKhpHvVPl3o511tAgdg66mhqElwUxaFMtPLl7IeOpUtbc3w60Q1xIWn_CYIOyRQYZMQYlPTSGHAOIGUeNX8mbd6shPYIPOFsp2rbwR/s1600/Cobalt-Strike-main.png"
+                    }
+                },
+                {
+                    "title": "Are Source Code Leaks the New Threat Software vendors Should Care About?",
+                    "description": {
+                        "#cdata-section": "Less than a month ago, Twitter indirectly acknowledged that some of its source code had been leaked on the code-sharing platform GitHub by sending a copyright infringement notice to take down the incriminated repository. The latter is now inaccessible, but according to the media, it was accessible to the public for several months. A user going by the name FreeSpeechEnthousiast committed"
+                    },
+                    "link": "https://thehackernews.com/2023/04/are-source-code-leaks-new-threat.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/are-source-code-leaks-new-threat.html"
+                    },
+                    "pubDate": "Fri, 07 Apr 2023 11:44:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPn8IOmdcNypqxExymHrc1ulH5XHCquOmmiyr0M5TfClxLCQ8iev1pw7JnbXA2Sq_UhYAKZDJYrznkUfC96fXLlnPuHAIUWVFr2D_arNIZHvoKH5E51utDOXEMbfV8JHtzrwNRXM-9f9lqvMS6qIu556J9B9JEMPaD1Et8ajZJqtsjdQPyOhJcMh1k/s1600/source-code.png"
+                    }
+                },
+                {
+                    "title": "CISA Warns of Critical ICS Flaws in Hitachi, mySCADA, ICL, and Nexx Products",
+                    "description": {
+                        "#cdata-section": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published eight Industrial Control Systems (ICS) advisories warning of critical flaws affecting products from Hitachi Energy, mySCADA Technologies, Industrial Control Links, and Nexx.\nTopping the list is CVE-2022-3682 (CVSS score: 9.9), impacting Hitachi Energy's MicroSCADA System Data Manager SDM600 that could allow an"
+                    },
+                    "link": "https://thehackernews.com/2023/04/cisa-warns-of-critical-ics-flaws-in.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/cisa-warns-of-critical-ics-flaws-in.html"
+                    },
+                    "pubDate": "Fri, 07 Apr 2023 11:29:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirAmGZCGp7N7ScMGTpqwrXNSghgqLR5wSgxf_Y4OfbSe_KZuYJdZNSVWIrjbrO6CyTNEcJh9H-YDezS51IBaAyCO2omLiJ-pNOq87NwMpX6vyP33FTr4mjGPu5a3_SbHMjeUiSQSHPjO72md2-TofVDNR6VRE00_iMmwO4TiYrQsRB5CR4xo5NefxE/s1600/hacking-ics.png"
+                    }
+                },
+                {
+                    "title": "Supply Chain Attacks and Critical Infrastructure: How CISA Helps Secure a Nation's Crown Jewels",
+                    "description": {
+                        "#cdata-section": "Critical infrastructure attacks are a preferred target for cyber criminals. Here's why and what's being done to protect them.\nWhat is Critical Infrastructure and Why is It Attacked?\nCritical infrastructure is the physical and digital assets, systems and networks that are vital to national security, the economy, public health, or safety. It can be government- or privately-owned.\nAccording to Etay"
+                    },
+                    "link": "https://thehackernews.com/2023/04/supply-chain-attacks-and-critical.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/supply-chain-attacks-and-critical.html"
+                    },
+                    "pubDate": "Thu, 06 Apr 2023 17:16:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxeTKx459IOy4wtU_o-HuPSKnq_MljeDJjv_UZw2ycKiQDmLAkrQCGKr4EcwqnNjoz-nUe3XfL5wpUu1OJmV28xI1jEE1_un0xHCK-Q1cI3ixZng1WI7hfxf_UPDm-BzxdIJUKxTWuPDUR842TXzkSh9twEOWrDj5arPB_utL6lPc4eX6306hnmKyn/s1600/cisa.png"
+                    }
+                },
+                {
+                    "title": "FBI Cracks Down on Genesis Market: 119 Arrested in Cybercrime Operation",
+                    "description": {
+                        "#cdata-section": "A joint international law enforcement operation has dismantled Genesis Market, an illegal online marketplace that specialized in the sale of stolen credentials associated with email, bank accounts, and social media platforms.\nCoinciding with the infrastructure seizure, the major crackdown, which involved authorities from 17 countries, culminated in 119 arrests and 208 property searches in 13"
+                    },
+                    "link": "https://thehackernews.com/2023/04/fbi-cracks-down-on-genesis-market-119.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/fbi-cracks-down-on-genesis-market-119.html"
+                    },
+                    "pubDate": "Thu, 06 Apr 2023 14:31:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9LcSFkEFeC3xFVDTQvWqtCrj7ft3QaMjX37AcJY7EcyJY7EtChTCHYaJ81mPAv22vzCrKQpFSaDB2IS37TwWGtLUKS-1nx4c-YCO2quaW7aCnNr1f5B-d4ak5ULPNxx07nq3_B1zGoZW210cHOXj8Zwo9kvGYJK4RfA3UDA1Y1RMLvZaI7R8k6W4v/s1600/hacker.png"
+                    }
+                },
+                {
+                    "title": "Google Mandates Android Apps to Offer Easy Account Deletion In-App and Online",
+                    "description": {
+                        "#cdata-section": "Google is enacting a new data deletion policy for Android apps that allow account creation to also offer users with a setting to delete their accounts in an attempt to provide more transparency and control over their data.\n\"For apps that enable app account creation, developers will soon need to provide an option to initiate account and data deletion from within the app and online,\" Bethel"
+                    },
+                    "link": "https://thehackernews.com/2023/04/google-mandates-android-apps-to-offer.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/google-mandates-android-apps-to-offer.html"
+                    },
+                    "pubDate": "Thu, 06 Apr 2023 09:10:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUYWUKNdl7fUm5hnSMW8w99Oj-vUSLQamqPC229INA0J-Le85rur2VR-MkXT9j1I7l3STVg9ooDI-mSdMhKX3kf4GSD_FZq56C6LpO85lR-fxGCPHgxDRxJuWYQHvkRlwtJoK2ZOXJuZNXWihn3eE90Rgg5Y8_Qe0NpDQTBbOFDHyrPOZ-EBNMeWe9/s1600/android.png"
+                    }
+                },
+                {
+                    "title": "CryptoClippy: New Clipper Malware Targeting Portuguese Cryptocurrency Users",
+                    "description": {
+                        "#cdata-section": "Portuguese users are being targeted by a new malware codenamed CryptoClippy that's capable of stealing cryptocurrency as part of a malvertising campaign.\nThe activity leverages SEO poisoning techniques to entice users searching for \"WhatsApp web\" to rogue domains hosting the malware, Palo Alto Networks Unit 42 said in a new report published today. \nCryptoClippy, a C-based executable, is a type"
+                    },
+                    "link": "https://thehackernews.com/2023/04/cryptoclippy-new-clipper-malware.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/cryptoclippy-new-clipper-malware.html"
+                    },
+                    "pubDate": "Wed, 05 Apr 2023 19:47:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCrQnxfe52JDmUw9mTuh2vofvoQfbqFMt_L-MOHw8G-ffkn08GuNgmTlvtYAkug3MnjUHL-O0ZeYbAhe-G2mQD2PEiwieD8GyjzeLhGXFKmlkdbMrEWf13KVxx07nhW3eU6h2I9A_9U3Wdtcru76Wyz88WTg0Hj5sDWjv4nNz1msHTXWWO3pz0JqWE/s1600/clipper-malware.png"
+                    }
+                },
+                {
+                    "title": "Hackers Using Self-Extracting Archives Exploit for Stealthy Backdoor Attacks",
+                    "description": {
+                        "#cdata-section": "An unknown threat actor used a malicious self-extracting archive (SFX) file in an attempt to establish persistent backdoor access to a victim's environment, new findings from CrowdStrike show.\nSFX files are capable of extracting the data contained within them without the need for dedicated software to display the file contents. It achieves this by including a decompressor stub, a piece of code"
+                    },
+                    "link": "https://thehackernews.com/2023/04/hackers-using-self-extracting-archives.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/hackers-using-self-extracting-archives.html"
+                    },
+                    "pubDate": "Wed, 05 Apr 2023 18:06:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Z5-d_OfwxFWBpZcHz-k7LJUf7BsWf74IT3quXGNfe9i8kIB0iQ0VMTNTiQNlGqnzLiG4f3225e2bnxeDUu1jS876IePc1LH0wI-KcgDoUiYG5pOzdOnaGsi3qx8bEGM40eC7SjbpGp84FMBmEThOw4nrnVZeJIqRDkI4VmMRfP1FMN4ovBk-pK_0/s1600/hacking.png"
+                    }
+                },
+                {
+                    "title": "Google TAG Warns of North Korean-linked ARCHIPELAGO Cyberattacks",
+                    "description": {
+                        "#cdata-section": "A North Korean government-backed threat actor has been linked to attacks targeting government and military personnel, think tanks, policy makers, academics, and researchers in South Korea and the U.S.\nGoogle's Threat Analysis Group (TAG) is tracking the cluster under the name ARCHIPELAGO, which it said is a subset of another threat group tracked by Mandiant under the name APT43.\nThe tech giant"
+                    },
+                    "link": "https://thehackernews.com/2023/04/google-tag-warns-of-north-korean-linked.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/google-tag-warns-of-north-korean-linked.html"
+                    },
+                    "pubDate": "Wed, 05 Apr 2023 17:49:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWbgyQSGvNN6raC3WUXbIrA_ZrT6riBeAUjXbzh-5S3nx35kV4EkoWAcsVSH__BWUDAOBopvHDSdZVTkKfb8CDIISk3Aap4mGhuezkJ0Qbd5oONWobkgAUYLsmf6vga_ATkfrCCMAyorMX4Y9wo23O_pawv6dMr30E9mJaiWbtsU-O1KsjKYljJQPR/s1600/hackers.jpg"
+                    }
+                },
+                {
+                    "title": "Protect Your Company: Ransomware Prevention Made Easy",
+                    "description": {
+                        "#cdata-section": "Every year hundreds of millions of malware attacks occur worldwide, and every year businesses deal with the impact of viruses, worms, keyloggers, and ransomware. Malware is a pernicious threat and the biggest driver for businesses to look for cybersecurity solutions. \nNaturally, businesses want to find products that will stop malware in its tracks, and so they search for solutions to do that."
+                    },
+                    "link": "https://thehackernews.com/2023/04/protect-your-company-ransomware.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/protect-your-company-ransomware.html"
+                    },
+                    "pubDate": "Wed, 05 Apr 2023 17:19:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirkvUZgsAHZQyPya3GB8CA5fKvXRvarH29KrJnf7PZxfRYvnmGrlu4JncX-krxMejmlpWkgfhkzgUZvoz_dizfoOFeC4KViC_vnZtm8z0OQTcxtQjA0Oo58bwt-dmjaEHI-GA94t8QklgdM_-rDV9pJFHNHwKiOEcLqn-vXYTRQzaJ87GtlKL_hcJVtQ/s1600/peri.png"
+                    }
+                },
+                {
+                    "title": "Typhon Reborn Stealer Malware Resurfaces with Advanced Evasion Techniques",
+                    "description": {
+                        "#cdata-section": "The threat actor behind the information-stealing malware known as Typhon Reborn has resurfaced with an updated version (V2) that packs in improved capabilities to evade detection and resist analysis.\nThe new version is offered for sale on the criminal underground for $59 per month, $360 per year, or alternatively, for $540 for a lifetime subscription.\n\"The stealer can harvest and exfiltrate"
+                    },
+                    "link": "https://thehackernews.com/2023/04/typhon-reborn-stealer-malware.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/typhon-reborn-stealer-malware.html"
+                    },
+                    "pubDate": "Wed, 05 Apr 2023 14:05:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0sWhixeWqlBHYfIETF7knFsorRIFEpyLNA8cb1LSJZEnYAfrqDcKnMOWvKDpeebHpe_IMnUCegAejgIR4M_J4igLisa6MwL5pLDISYLz-aFI8fGuSj7JFSDz1ZawXj7tQ6g3IBBnb3hPYG43EH8Zz7go17oqdo5a6Wxd3Bn-05DQTU_JbNYDhfsVW/s1600/stealer-malware.png"
+                    }
+                },
+                {
+                    "title": "Sorting Through Haystacks to Find CTI Needles",
+                    "description": {
+                        "#cdata-section": "Clouded vision\nCTI systems are confronted with some major issues ranging from the size of the collection networks to their diversity, which ultimately influence the degree of confidence they can put on their signals. Are they fresh enough and sufficiently reliable to avoid any false positives or any poisoning? Do I risk acting on outdated data? This difference is major since a piece of"
+                    },
+                    "link": "https://thehackernews.com/2023/04/sorting-through-haystacks-to-find-cti.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/sorting-through-haystacks-to-find-cti.html"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 19:21:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4PL-_UQ1Yc-1UXUv0S1U28O7dIwzqEj8LwSIttv-d7ckg9awMv654L1i6CnSi0ZmRUheEpCM-O_pSqvPO5EvS-xXXTw1CIYdLukzyM4FNDTNxnt1igjOSM7QDwsgtb2EByl42YAkCAoJMnCX9m0FGa_G_7pIuu0TZ9xwFXzah7szOqkzzJGDe4vEh/s1600/network.png"
+                    }
+                },
+                {
+                    "title": "Rorschach Ransomware Emerges: Experts Warn of Advanced Evasion Strategies",
+                    "description": {
+                        "#cdata-section": "Cybersecurity researchers have taken the wraps off a previously undocumented ransomware strain called Rorschach that's both sophisticated and fast.\n\"What makes Rorschach stand out from other ransomware strains is its high level of customization and its technically unique features that have not been seen before in ransomware,\" Check Point Research said in a new report. \"In fact, Rorschach is one"
+                    },
+                    "link": "https://thehackernews.com/2023/04/rorschach-ransomware-emerges-experts.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/rorschach-ransomware-emerges-experts.html"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 18:46:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYxGRPmsBU7IsuIsPHE-uqeYlG06tzKlpiLc0U40ADe4mX29K06HTXnV0VVdfKRCUrWvnKwVhp8XSDO-EjE4cPkn3ppwl84qeoLRmZuDbr21RMJrSJC33QI9C58cQOfTO9wBaTQQAjuPIFayqMz-qcE2YVuwYRgRgpkofS5CbsJIM_2g_po5Irt2EV/s1600/ransomware.png"
+                    }
+                },
+                {
+                    "title": "New Rilide Malware Targeting Chromium-Based Browsers to Steal Cryptocurrency",
+                    "description": {
+                        "#cdata-section": "Chromium-based web browsers are the target of a new malware called Rilide that masquerades itself as a seemingly legitimate extension to harvest sensitive data and siphon cryptocurrency.\n\"Rilide malware is disguised as a legitimate Google Drive extension and enables threat actors to carry out a broad spectrum of malicious activities, including monitoring browsing history, taking screenshots, and"
+                    },
+                    "link": "https://thehackernews.com/2023/04/new-rilide-malware-targeting-chromium.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/new-rilide-malware-targeting-chromium.html"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 18:37:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid6TC1yW7nlcf5Nzo877tzuOP0MBy23HPXqVuyspKMbu0h-Upo1zYbDu7LBe4CLcKua0uPJ1GEpAZvKdWwgtFfIP6eeoZlycFJ4F3g3M7htYhP5vZnCDXCpXo_ZJi8yqWg8dDrAfQ0ess0hWIHZlRaGJDAdzmupohNOm0djEY1AU0OSg-Eyy3WDxXx/s1600/browser.png"
+                    }
+                },
+                {
+                    "title": "Arid Viper Hacking Group Using Upgraded Malware in Middle East Cyber Attacks",
+                    "description": {
+                        "#cdata-section": "The threat actor known as Arid Viper has been observed using refreshed variants of its malware toolkit in its attacks targeting Palestinian entities since September 2022.\nSymantec, which is tracking the group under its insect-themed moniker Mantis, said the adversary is \"going to great lengths to maintain a persistent presence on targeted networks.\"\nAlso known by the names APT-C-23 and Desert"
+                    },
+                    "link": "https://thehackernews.com/2023/04/arid-viper-hacking-group-using-upgraded.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/arid-viper-hacking-group-using-upgraded.html"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 15:38:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgaRzBIpkK5lbWBQqwlBTnXqQe5BrPSAQEpOyc7rOcspZ39UAzW_yGdoOuMponu9BSxnpAWP04Vh9FFqlZ2B1Or0WBqGjH4mi0Xvjm6-mK3Ws2GYNEv01gdP8NLTqpc0bYkpDlct-IEWr0M7gxrIGdBY6PeQ75NIFs-wODS0NKvsY5GU7P-ede9FI-/s1600/cyber.png"
+                    }
+                },
+                {
+                    "title": "Think Before You Share the Link: SaaS in the Real World",
+                    "description": {
+                        "#cdata-section": "Collaboration sits at the essence of SaaS applications. The word, or some form of it, appears in the top two headlines on Google Workspace’s homepage. It can be found six times on Microsoft 365’s homepage, three times on Box, and once on Workday. Visit nearly any SaaS site, and odds are ‘collaboration’ will appear as part of the app’s key selling point. \nBy sitting on the cloud, content within"
+                    },
+                    "link": "https://thehackernews.com/2023/04/think-before-you-share-link-saas-in.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/think-before-you-share-link-saas-in.html"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 15:24:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhM9Y4TT9RcXxA3FeUL-gIbxxfHsCgL2D7u6c4qJ0jVoPrQY8B7FYmx6pwQylRkJf_Wp2hz_ND3zJ_qwl9ObVgdjHiOHwjccuXu6R1gMjH76fmnUOsq5b4oKpqKcoCEelpCq2GxRkfLmQK1_5TnoOcDczv9qX1IytPhYDM1mQ6maRsLZ6ELXkmXBRr2/s1600/as.png"
+                    }
+                },
+                {
+                    "title": "Microsoft Tightens OneNote Security by Auto-Blocking 120 Risky File Extensions",
+                    "description": {
+                        "#cdata-section": "Microsoft has announced plans to automatically block embedded files with \"dangerous extensions\" in OneNote following reports that the note-taking service is being increasingly abused for malware delivery.\nUp until now, users were shown a dialog warning them that opening such attachments could harm their computer and data, but it was possible to dismiss the prompt and open the files.\nThat's going"
+                    },
+                    "link": "https://thehackernews.com/2023/04/microsoft-tightens-onenote-security-by.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/microsoft-tightens-onenote-security-by.html"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 10:00:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixg23QuyfP-RRV8yBHQeTuSWfbdTJaUGztno8qO2uIu85MFhLgJfttbHpIEoeSLBv5Tncv4VRI5XRvWX_lULPkxgCe6QAmxDh4FZx3kc4TnBowpYc809vJ3ExT6fjoqRdC7nIKl5KGwqOsMWf_15VMHWt6maNRdPN4X4ZdWVCyB_sQZGA90bSz0IgX/s1600/onenote.png"
+                    }
+                },
+                {
+                    "title": "Cryptocurrency Companies Targeted in Sophisticated 3CX Supply Chain Attack",
+                    "description": {
+                        "#cdata-section": "The adversary behind the supply chain attack targeting 3CX deployed a second-stage implant specifically singling out a small number of cryptocurrency companies.\nRussian cybersecurity firm Kaspersky, which has been internally tracking the versatile backdoor under the name Gopuram since 2020, said it observed an increase in the number of infections in March 2023 coinciding with the 3CX breach."
+                    },
+                    "link": "https://thehackernews.com/2023/04/cryptocurrency-companies-targeted-in.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/cryptocurrency-companies-targeted-in.html"
+                    },
+                    "pubDate": "Tue, 04 Apr 2023 09:24:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFT902WJjUFT2NIWQ1Ywri-LUSolAeVyhqtS3UjEvhKPmbtlOrfApAyImqUKMHK6545ozJPPB60_Nz4g0scSLXtlvLHIsjwQK7Pe9ZdNXxfkuFeSGJy4yun3SxM9fXfpBOcvXLQ6zkFfKDY8Hh9UHv6WHcrYCqrYb7rAc45duEqWW2KsVJ5nx8d0JW/s1600/crypto.png"
+                    }
+                },
+                {
+                    "title": "Western Digital Hit by Network Security Breach - Critical Services Disrupted!",
+                    "description": {
+                        "#cdata-section": "Data storage devices maker Western Digital on Monday disclosed a \"network security incident\" that involved unauthorized access to its systems.\nThe breach is said to have occurred on March 26, 2023, enabling an unnamed third party to gain access to a \"number of the company's systems.\"\nFollowing the discovery of the hack, Western Digital said it has initiated incident response efforts and enlisted"
+                    },
+                    "link": "https://thehackernews.com/2023/04/western-digital-hit-by-network-security.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/western-digital-hit-by-network-security.html"
+                    },
+                    "pubDate": "Mon, 03 Apr 2023 17:11:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxQhpM4cFqvnQ5gx6AHnVoNRVuYEtzVkVjfP0w7V2yetP89lNvfQFJFml1__55U8Sgqrjb1H5xVJSClt2EDx1vFBhdDTLQ8kjRQoBycxE7A8erFlQXFx2zvLrlpTt2vzZ6PqAsCEugL_8d_v9BP2lyhjqFZrORa_7R6Zvp5e6wsX_zWNIrnkfNERzN/s1600/wd.png"
+                    }
+                },
+                {
+                    "title": "Italian Watchdog Bans OpenAI's ChatGPT Over Data Protection Concerns",
+                    "description": {
+                        "#cdata-section": "The Italian data protection watchdog, Garante per la Protezione dei Dati Personali (aka Garante), has imposed a temporary ban of OpenAI's ChatGPT service in the country, citing data protection concerns.\nTo that end, it has ordered the company to stop processing users' data with immediate effect, stating it intends to investigate the company over whether it's unlawfully processing such data in"
+                    },
+                    "link": "https://thehackernews.com/2023/04/italian-watchdog-bans-openais-chatgpt.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/italian-watchdog-bans-openais-chatgpt.html"
+                    },
+                    "pubDate": "Mon, 03 Apr 2023 16:55:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha0tMEx24EbQ3ZPkZZPpY0aelXZ8EGCA3sONzgQEo-29Ksw65ATWQ7YEoYKkcYjW9VyIwUmDTMgIYy5N172UQw35y4N7ZurERAz1nx3XMh5_h7YJQMhzUTIV0GxYZ2y0mJds3TvAoaVQAGiL1_uFey_o3wIcPXHQXK5miwUfcJY9DgwKhoxl9sfKBV/s1600/openai.png"
+                    }
+                },
+                {
+                    "title": "\"It's The Service Accounts, Stupid\": Why Do PAM Deployments Take (almost) Forever To Complete?",
+                    "description": {
+                        "#cdata-section": "Privileged Access Management (PAM) solutions are regarded as the common practice to prevent identity threats to administrative accounts. In theory, the PAM concept makes absolute sense: place admin credentials in a vault, rotate their passwords, and closely monitor their sessions. However, the harsh reality is that the vast majority of PAM projects either become a years-long project, or even"
+                    },
+                    "link": "https://thehackernews.com/2023/04/its-service-accounts-stupid-why-do-pam.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/its-service-accounts-stupid-why-do-pam.html"
+                    },
+                    "pubDate": "Mon, 03 Apr 2023 16:50:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpVqD1KsL31AlGt2ryCfaxzEgMGxHY6lGe93_1WIEcS25QoXzHQu05wfpAZ_Nm_p2jTXszLo1BWalm5cYmxAaxrJNUv5TsjZuSiBbrmR62YdtVzF5nmQ9v7VKdBhr05LnEaUqoNoU5Z-HZk64pNH0o9KZxqVqYy1Bau0uYcipl2GlW0ZIXiOgF3hm_/s1600/pam.png"
+                    }
+                },
+                {
+                    "title": "Crypto-Stealing OpcJacker Malware Targets Users with Fake VPN Service",
+                    "description": {
+                        "#cdata-section": "A piece of new information-stealing malware called OpcJacker has been spotted in the wild since the second half of 2022 as part of a malvertising campaign. \n\"OpcJacker's main functions include keylogging, taking screenshots, stealing sensitive data from browsers, loading additional modules, and replacing cryptocurrency addresses in the clipboard for hijacking purposes,\" Trend Micro researchers"
+                    },
+                    "link": "https://thehackernews.com/2023/04/crypto-stealing-opcjacker-malware.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/crypto-stealing-opcjacker-malware.html"
+                    },
+                    "pubDate": "Mon, 03 Apr 2023 14:50:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVlEzdnHdjIyxwYArCNESt3C44YMoJ_oJqcxOvu4ejNKdNsSRXmgkE1WLOVaa6hmK1iNZ26NxhdIb8roo2CSAnIPJbfgxR100P-PsXcGZfxKup9w7-REBsW5Xq59t1h-J-qxM5GnLkSoqWKlXxebyamdHuifnFuqvnXf5stSh4H2Asp78Y7dfVipC0/s1600/secure-vpn.png"
+                    }
+                },
+                {
+                    "title": "Microsoft Fixes New Azure AD Vulnerability Impacting Bing Search and Major Apps",
+                    "description": {
+                        "#cdata-section": "Microsoft has patched a misconfiguration issue impacting the Azure Active Directory (AAD) identity and access management service that exposed several \"high-impact\" applications to unauthorized access.\n\"One of these apps is a content management system (CMS) that powers Bing.com and allowed us to not only modify search results, but also launch high-impact XSS attacks on Bing users,\" cloud security"
+                    },
+                    "link": "https://thehackernews.com/2023/04/microsoft-fixes-new-azure-ad.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/microsoft-fixes-new-azure-ad.html"
+                    },
+                    "pubDate": "Sat, 01 Apr 2023 14:03:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgde8cSrNHfpZvioZJ_-XzfDcXDogGEejsQ3gXxsLQpFQxKg8Hz_32u78iOVhdsD5c6snYIq3ponuzf69ZsEAdi8u8wRJs1rPCxXD39THYgbQkKb4Mh5-TONj6-g0rclQClo-eLZsuw2YrJ8YARwkNCnGrYqz536uTHkyUOgqWZAhTzJ9X-SNVjZDqp/s1600/bingbang.png"
+                    }
+                },
+                {
+                    "title": "Cacti, Realtek, and IBM Aspera Faspex Vulnerabilities Under Active Exploitation",
+                    "description": {
+                        "#cdata-section": "Critical security flaws in Cacti, Realtek, and IBM Aspera Faspex are being exploited by various threat actors in hacks targeting unpatched systems.\nThis entails the abuse of CVE-2022-46169 (CVSS score: 9.8) and CVE-2021-35394 (CVSS score: 9.8) to deliver MooBot and ShellBot (aka PerlBot), Fortinet FortiGuard Labs said in a report published this week.\nCVE-2022-46169 relates to a critical"
+                    },
+                    "link": "https://thehackernews.com/2023/04/cacti-realtek-and-ibm-aspera-faspex.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/cacti-realtek-and-ibm-aspera-faspex.html"
+                    },
+                    "pubDate": "Sat, 01 Apr 2023 10:21:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqpZyxBrsZW1F87DAT4zWmeD9LegkJFTCEc4grYjeghJ5PVZ82AzeB9vSdkso_uuz-Vuguljon1b65NeGnwDyukzUR_oXCNK9NjjXgBu3sm2w-rA9KzqC5ChI_jkIzMLp1UfEIbgRKkIGsHaXS_FTEnxyvENKoBRJfYm7xXftYAUmfBeY_VsauUATd/s1600/botnet.png"
+                    }
+                },
+                {
+                    "title": "Hackers Exploiting WordPress Elementor Pro Vulnerability: Millions of Sites at Risk!",
+                    "description": {
+                        "#cdata-section": "Unknown threat actors are actively exploiting a recently patched security vulnerability in the Elementor Pro website builder plugin for WordPress.\nThe flaw, described as a case of broken access control, impacts versions 3.11.6 and earlier. It was addressed by the plugin maintainers in version 3.11.7 released on March 22.\n\"Improved code security enforcement in WooCommerce components,\" the Tel"
+                    },
+                    "link": "https://thehackernews.com/2023/04/hackers-exploiting-wordpress-elementor.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/04/hackers-exploiting-wordpress-elementor.html"
+                    },
+                    "pubDate": "Sat, 01 Apr 2023 10:06:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidqiyMeUFfDEqJ5URZKog87Gx4nk8JZ-28Z6UxgjO7Begmg7G0WtFuTn_gajJ9U44LX25kkHt0QX_Vdc7onlwfRhW0MVQVWGp6ncDB45_2ZOUTwLVLKV6NmFzPyWfaSFPCWo4sPlAcj3-XNlg-GOZz6twwXl8gytgUhHOaquvsppVENovmI1FBBCg3/s1600/wordpress.png"
+                    }
+                },
+                {
+                    "title": "Winter Vivern APT Targets European Government Entities with Zimbra Vulnerability",
+                    "description": {
+                        "#cdata-section": "The advanced persistent threat (APT) actor known as Winter Vivern is now targeting officials in Europe and the U.S. as part of an ongoing cyber espionage campaign.\n\"TA473 since at least February 2023 has continuously leveraged an unpatched Zimbra vulnerability in publicly facing webmail portals that allows them to gain access to the email mailboxes of government entities in Europe,\" Proofpoint "
+                    },
+                    "link": "https://thehackernews.com/2023/03/winter-vivern-apt-targets-european.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/winter-vivern-apt-targets-european.html"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 19:37:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ-8SsPqmg0cIPehDkBNjonvcXIicReW-JnC36n-1HyhDZw0XQb_5yX6T53Fu4huj0XDMTH38qW3oqhe8SLgWTWL-1fVjcnMtKWhBNEZPlkjsQHDhXJpmwA0F6unmYayU3j4jYdNBGznOI5PQaW7Bvs_dRlV1Pz8u-B175a79UQILfZ-gWiExyY_nU/s1600/email-hack.png"
+                    }
+                },
+                {
+                    "title": "Cyber Police of Ukraine Busted Phishing Gang Responsible for $4.33 Million Scam",
+                    "description": {
+                        "#cdata-section": "The Cyber Police of Ukraine, in collaboration with law enforcement officials from Czechia, has arrested several members of a cybercriminal gang that set up phishing sites to target European users.\nTwo of the apprehended affiliates are believed to be organizers, with 10 others detained in other territories across the European Union.\nThe suspects are alleged to have created more than 100 phishing"
+                    },
+                    "link": "https://thehackernews.com/2023/03/cyber-police-of-ukraine-busted-phishing.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/cyber-police-of-ukraine-busted-phishing.html"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 17:31:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl_lZgMloqNY9H8hX0MgdNeCI_g7QSWGsnHOUg7PnAezv-QyPuAqMaQnPd1PiOLWWnNmpaKHRdC3lWyhohSzwJDyUh3f0sYcOSF4HpFeU9WIkkfpOVVynvdIhZyH17owPBVGZi9gO7d1tbrVFKUsBB6IgNJARCq0bdbQICotatO8AyMiwmaPdSatFF/s1600/cyber.png"
+                    }
+                },
+                {
+                    "title": "Deep Dive Into 6 Key Steps to Accelerate Your Incident Response",
+                    "description": {
+                        "#cdata-section": "Organizations rely on Incident response to ensure they are immediately aware of security incidents, allowing for quick action to minimize damage. They also aim to avoid follow on attacks or future related incidents.\nThe SANS Institute provides research and education on information security. In the upcoming webinar, we’ll outline, in detail, six components of a SANS incident response plan,"
+                    },
+                    "link": "https://thehackernews.com/2023/03/deep-dive-into-6-key-steps-to.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/deep-dive-into-6-key-steps-to.html"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 17:17:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirnEPjwmxBVx8evF8VdytN79xaOeri7hMsxgD2MOrhBtgm4EvJLi_aUacgWmNgI9CfcM_mes1dTw_sgpNkoe-zKwaduzlTCNsP9PGSRXshF7fYPBNgaezptHf67C0gqesNt47Izs5KEzIwzJREYX49PzKXBLbvm300tMtS1uELfZ8C9pENvgzz8bUG/s1600/cynet.png"
+                    }
+                },
+                {
+                    "title": "3CX Supply Chain Attack — Here's What We Know So Far",
+                    "description": {
+                        "#cdata-section": "Enterprise communications software maker 3CX on Thursday confirmed that multiple versions of its desktop app for Windows and macOS are affected by a supply chain attack.\nThe version numbers include 18.12.407 and 18.12.416 for Windows and 18.11.1213, 18.12.402, 18.12.407, and 18.12.416 for macOS. The issue has been assigned the CVE identifier CVE-2023-29059.\nThe company said it's engaging the"
+                    },
+                    "link": "https://thehackernews.com/2023/03/3cx-supply-chain-attack-heres-what-we.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/3cx-supply-chain-attack-heres-what-we.html"
+                    },
+                    "pubDate": "Fri, 31 Mar 2023 15:07:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh61NC2LeNHnL7VCXbTQpyj2j0kCZkVU82sxQqWGXf_mb1AzIScS8sUnH2Sd-q74EmFts7ONz4U76aL8bU_aRVHFLL99QN36AxQBcy2DzB_uYLp47t91a4SHwgLHalZkxp1fYLOkz8BXFhEax_OLFGT-xkmYELOPUh4X1SMUxBJTiebLPBVJh1CF1Gd/s1600/3cx.png"
+                    }
+                },
+                {
+                    "title": "Researchers Detail Severe \"Super FabriXss\" Vulnerability in Microsoft Azure SFX",
+                    "description": {
+                        "#cdata-section": "Details have emerged about a now-patched vulnerability in Azure Service Fabric Explorer (SFX) that could lead to unauthenticated remote code execution.\nTracked as CVE-2023-23383 (CVSS score: 8.2), the issue has been dubbed \"Super FabriXss\" by Orca Security, a nod to the FabriXss flaw (CVE-2022-35829, CVSS score: 6.2) that was fixed by Microsoft in October 2022.\n\"The Super FabriXss vulnerability"
+                    },
+                    "link": "https://thehackernews.com/2023/03/researchers-detail-severe-super.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/researchers-detail-severe-super.html"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 22:32:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibsQOnT-5p-ja3rQOeUv9oFSXIw7DnRHT_HFKVQ1v2573dPkCA6dlqolLsVXYM_QlPN2zBFQp9v053PsM1q3oLHIzC0r3mA4AmyQUL-PQfc-sJRB-rxWUJaAbsDnH8woc9zfzT4zpQoqGuyvtMlO8RMdgZNToIMNgFPb3U_eAPlAsq1LLdQCxr44Ps/s1600/msazure.png"
+                    }
+                },
+                {
+                    "title": "Chinese RedGolf Group Targeting Windows and Linux Systems with KEYPLUG Backdoor",
+                    "description": {
+                        "#cdata-section": "A Chinese state-sponsored threat activity group tracked as RedGolf has been attributed to the use of a custom Windows and Linux backdoor called KEYPLUG.\n\"RedGolf is a particularly prolific Chinese state-sponsored threat actor group that has likely been active for many years against a wide range of industries globally,\" Recorded Future told The Hacker News.\n\"The group has shown the ability to"
+                    },
+                    "link": "https://thehackernews.com/2023/03/chinese-redgolf-group-targeting-windows.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/chinese-redgolf-group-targeting-windows.html"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 21:28:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxj8oHauUkdzj2WSA16Qha0smAj_EM7gz8t7BNL4LVqUevmp7VcF9g0gPq6zSWCDngrxk-ZpIsmCSHx-0DIpijKUZ9fHQNxZn_nt35zZOlTX0bbpG6U9OFXKasHjpObVp7up0k969tHcbt2eR4lpGVgMY1eUaLA_h1RuFsIl4KEn0cIOpjC_vH1sFG/s1600/chinese-hacker.jpg"
+                    }
+                },
+                {
+                    "title": "New Wi-Fi Protocol Security Flaw Affecting Linux, Android and iOS Devices",
+                    "description": {
+                        "#cdata-section": "A group of academics from Northeastern University and KU Leuven has disclosed a fundamental design flaw in the IEEE 802.11 Wi-Fi protocol standard, impacting a wide range of devices running Linux, FreeBSD, Android, and iOS.\nSuccessful exploitation of the shortcoming could be abused to hijack TCP connections or intercept client and web traffic, researchers Domien Schepers, Aanjhan Ranganathan,"
+                    },
+                    "link": "https://thehackernews.com/2023/03/new-wi-fi-protocol-security-flaw.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/new-wi-fi-protocol-security-flaw.html"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 17:51:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirzH1Mbgznd5JkWU4XTQQiyKow69Kqjg70OlkzG37-8ygvdifznnH1uLbPnDx0WglC7Y0JNexGJVc9nh8ahiHlRh_q1RPXUmn-2UrvJMjrKV2MrQIOpdTXK2HdfF65zfCasupb7ycu7qbCvao6QhkMD4zIcUJVlEjM9mA6mziuVkLDLW4RyLoK0vE_/s1600/mac.png"
+                    }
+                },
+                {
+                    "title": "Cyberstorage: Leveraging the Multi-Cloud to Combat Data Exfiltration",
+                    "description": {
+                        "#cdata-section": "Multi-cloud data storage, once merely a byproduct of the great cloud migration, has now become a strategy for data management. \"Multi-cloud by design,\" and its companion the supercloud, is an ecosystem in which several cloud systems work together to provide many organizational benefits, including increased scale and overall resiliency.And now, even security teams who have long been the holdout"
+                    },
+                    "link": "https://thehackernews.com/2023/03/cyberstorage-leveraging-multi-cloud-to.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/cyberstorage-leveraging-multi-cloud-to.html"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 16:47:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCOlFhFhzXqio2F0kGdsvi9nXoUSfEp7P90Ng9WpHNgLHSvh3ivseeVlbvt-xwC-4GrBsni7ajx5B70IK7AD7fC_jQIjOjmmt1GCJVszR-CDSF2eYjGiazNkj0Aj3PyAHPR70VRVFdyF4xD9Guy5wiRwegwLlSFjV7ivPui-ZIaJecODyF_CV3XVyF/s1600/Cyberstorage.png"
+                    }
+                },
+                {
+                    "title": "AlienFox Malware Targets API Keys and Secrets from AWS, Google, and Microsoft Cloud Services",
+                    "description": {
+                        "#cdata-section": "A new \"comprehensive toolset\" called AlienFox is being distributed on Telegram as a way for threat actors to harvest credentials from API keys and secrets from popular cloud service providers.\n\"The spread of AlienFox represents an unreported trend towards attacking more minimal cloud services, unsuitable for crypto mining, in order to enable and expand subsequent campaigns,\" SentinelOne security"
+                    },
+                    "link": "https://thehackernews.com/2023/03/alienfox-malware-targets-api-keys-and.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/alienfox-malware-targets-api-keys-and.html"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 15:38:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixp3ladtIi_5SmWmmYPy3heJC6qI3MywYbFJQgKhiUnj7ki0ZvV-IbUeXUZqToWOKfVJXjrD96W7-Oi3jIvIDnilXS76LXe_XZXRvkVjl7pq3DTwBSA69VQm6GUi7zmOjAMBkjzN7_3vG5MRhtuJg5SI54TiV_5bz47jB4tmQWr8l5xbb6m6GykM5k/s1600/alienfox.png"
+                    }
+                },
+                {
+                    "title": "3CX Desktop App Supply Chain Attack Leaves Millions at Risk - Urgent Update on the Way!",
+                    "description": {
+                        "#cdata-section": "3CX said it's working on a software update for its desktop app after multiple cybersecurity vendors sounded the alarm on what appears to be an active supply chain attack that's using digitally signed and rigged installers of the popular voice and video conferencing software to target downstream customers.\n\"The trojanized 3CX desktop app is the first stage in a multi-stage attack chain that pulls"
+                    },
+                    "link": "https://thehackernews.com/2023/03/3cx-desktop-app-targeted-in-supply.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/3cx-desktop-app-targeted-in-supply.html"
+                    },
+                    "pubDate": "Thu, 30 Mar 2023 12:01:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCcARgOp5JtfJ9huSC9XAoiN9FTVcx0G9wUpnSkB58F5D6agJCYFev5X-10AP2FZTkUjjPNQmYenxp1wDnrJJj6tYPTHE_psykvoHwHoDSjIDSovN_apjiRSh5VUFX4JtP78Zkziyfhx0HSXWj7Yg4V7RTJGUdBxuqSc-h-OhY1a5nGVsxywPPW741/s1600/3cx-hack.png"
+                    }
+                },
+                {
+                    "title": "Spyware Vendors Caught Exploiting Zero-Day Vulnerabilities on Android and iOS Devices",
+                    "description": {
+                        "#cdata-section": "A number of zero-day vulnerabilities that were addressed last year were exploited by commercial spyware vendors to target Android and iOS devices, Google's Threat Analysis Group (TAG) has revealed.\nThe two distinct campaigns were both limited and highly targeted, taking advantage of the patch gap between the release of a fix and when it was actually deployed on the targeted devices. The scale of"
+                    },
+                    "link": "https://thehackernews.com/2023/03/spyware-vendors-caught-exploiting-zero.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/spyware-vendors-caught-exploiting-zero.html"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 19:22:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPNp0SkYNTlVWjFVObwGW-MHGnGT5EfEFFvLAXvoLJFNLuK4kXvrZBWQoYPCbWvpqd2IRoQ-ZWFcmFegr25XTfv7FhNX2ZOP_lTwzkL7xSr_WTK2vXLwsBr4SyKPw0yN1f70WSbzi4S1O7X6TMkJO7p78HEcBfEYBlF6HvTDZzqObqFyAPQPK5sRnB/s1600/zero-day.png"
+                    }
+                },
+                {
+                    "title": "Mélofée: Researchers Uncover New Linux Malware Linked to Chinese APT Groups",
+                    "description": {
+                        "#cdata-section": "An unknown Chinese state-sponsored hacking group has been linked to a novel piece of malware aimed at Linux servers.\nFrench cybersecurity firm ExaTrack, which found three samples of the previously documented malicious software that date back to early 2022, dubbed it Mélofée.\nThe newest of the three artifacts is designed to drop a kernel-mode rootkit that's based on an open source project"
+                    },
+                    "link": "https://thehackernews.com/2023/03/melofee-researchers-uncover-new-linux.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/melofee-researchers-uncover-new-linux.html"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 17:31:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8GstB6V-BxOqtVlvx7A12CU58S_rCg8AkUIBTqx1TmmK5fnbLJf7Ifzex5SzS2Q6QOsAiOcLmgnbnHiqtGAntYNAAPFPiuBcxKcRM_cERANFhREprTlP2WfV6yRC06LZgDERnouk6hwMqx23rL-W8wFqzChrkRY2TFa-p4a3MIO_hG7FDsEl1ATX2/s1600/panda.png"
+                    }
+                },
+                {
+                    "title": "How to Build a Research Lab for Reverse Engineering — 4 Ways",
+                    "description": {
+                        "#cdata-section": "Malware analysis is an essential part of security researcher's work. But working with malicious samples can be dangerous — it requires specialized tools to record their activity, and a secure environment to prevent unintended damage.\nHowever, manual lab setup and configuration can prove to be a laborious and time-consuming process.\nIn this article, we'll look at 4 ways to create a reverse"
+                    },
+                    "link": "https://thehackernews.com/2023/03/how-to-build-research-lab-for-reverse.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/how-to-build-research-lab-for-reverse.html"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 17:13:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL5ctM0Tf9k__GuYLi6umaspJRT5FDa5dOKq3J-Uyj5Fu_LHUp2tIOj1rgdaSo5YN-TUYvs9P1OeHBXjxY0DR2j_-Aki-jvN0MLJTLCbjyJ4Jg2Ii-37Rc3TAwTdu5sZMQS3Rql2n2n-8TqgYK-q4mDnGorTWb6uXD1Ks3q5CC7F8e-g3YkNVfEsgX/s1600/header.png"
+                    }
+                },
+                {
+                    "title": "Smart Mobility has a Blindspot When it Comes to API Security",
+                    "description": {
+                        "#cdata-section": "The emergence of smart mobility services and applications has led to a sharp increase in the use of APIs in the automotive industry. However, this increased reliance on APIs has also made them one of the most common attack vectors. According to Gartner, APIs account for 90% of the web application attack surface areas. \nWith no surprise, similar trends are emerging also in the smart mobility"
+                    },
+                    "link": "https://thehackernews.com/2023/03/smart-mobility-has-blindspot-when-it.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/smart-mobility-has-blindspot-when-it.html"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 17:13:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwC-kDpyJD61jNSUCAyN-PNFXYec0UGXUSvH1rldni1zps21G6EFeDrKsT81-6sdWhXBs8_4OlTCcMxWH146bwuRbRCcRS7rTgaE6PXSxhMU__OTSaNGuPfTXh4Yi4Wai_5kezaTyb-VjZbS5zfOQPjBBNN4Hh_TjTPcS6ccyd_64WafhDHMvNMkW/s1600/auto.png"
+                    }
+                },
+                {
+                    "title": "Trojanized TOR Browser Installers Spreading Crypto-Stealing Clipper Malware",
+                    "description": {
+                        "#cdata-section": "Trojanized installers for the TOR anonymity browser are being used to target users in Russia and Eastern Europe with clipper malware designed to siphon cryptocurrencies since September 2022.\n\"Clipboard injectors [...] can be silent for years, show no network activity or any other signs of presence until the disastrous day when they replace a crypto wallet address,\" Vitaly Kamluk, director of"
+                    },
+                    "link": "https://thehackernews.com/2023/03/trojanized-tor-browser-installers.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/trojanized-tor-browser-installers.html"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 14:47:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWZazQADNceveClK38v_wKe4CRHgAgrr4GzErli1Dq9gH03wIsA3zZhp859LdLl-WXtVsYLa6qDGahRHfg5U1PpbhgOFeffWAMLG8qy7Xoo7vgiZmmqEUKiYRtpTlNzlrdMhaG29yHOXkmiGxR0B2g4ZKQMFTfJh2nPTZcb0BUMCRMGwTE6rNUvSd9/s1600/tor.png"
+                    }
+                },
+                {
+                    "title": "North Korean APT43 Group Uses Cybercrime to Fund Espionage Operations",
+                    "description": {
+                        "#cdata-section": "A new North Korean nation-state cyber operator has been attributed to a series of campaigns orchestrated to gather strategic intelligence that aligns with Pyongyang's geopolitical interests since 2018.\nGoogle-owned Mandiant, which is tracking the activity cluster under the moniker APT43, said the group's motives are both espionage- and financially-motivated, leveraging techniques like credential"
+                    },
+                    "link": "https://thehackernews.com/2023/03/north-korean-apt43-group-uses.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/north-korean-apt43-group-uses.html"
+                    },
+                    "pubDate": "Wed, 29 Mar 2023 11:02:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQGU8Ig2hEkksEUO-VeQcLR1nFLV7kl4nzm7e-3EaLCX86Ut4Jzq0zvK2PxniOyIZoe5JnFiPJwdKcQyosScYk1occAwNwQ_Omymj6fnCb0HerJOyKmdylxPRN8RSLP9ZI4L-jZXPYPHsTzybT__F_-IiBEwjCGMLo1dCl2Hj3ywB-tCeob9NT7FrP/s1600/north-korean-hacker.png"
+                    }
+                },
+                {
+                    "title": "Microsoft Introduces GPT-4 AI-Powered Security Copilot Tool to Empower Defenders",
+                    "description": {
+                        "#cdata-section": "Microsoft on Tuesday unveiled Security Copilot in limited preview, marking its continued quest to embed AI-oriented features in an attempt to offer \"end-to-end defense at machine speed and scale.\"\nPowered by OpenAI's GPT-4 generative AI and its own security-specific model, it's billed as a security analysis tool that enables cybersecurity analysts to quickly respond to threats, process signals,"
+                    },
+                    "link": "https://thehackernews.com/2023/03/microsoft-introduces-gpt-4-ai-powered.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/microsoft-introduces-gpt-4-ai-powered.html"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 23:38:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhGBvGzC-e0vsGxz-qpoiDTo6acONbK447wJSTCSRDcA67IVVH6nrn5O8jydMHj09g-fba_foiroYcXBGSR70RJT0aJTvMGP8-jZkB2lf27ppZ9YdHIU0zrh3vuEdtNI4UhcYKATlDmRc7vUE6KR86mdOLxVHtEqmFcdf0Y3CXhL911W7EK_6WJ_3B/s1600/MS.png"
+                    }
+                },
+                {
+                    "title": "Pakistan-Origin SideCopy Linked to New Cyberattack on India's Ministry of Defence",
+                    "description": {
+                        "#cdata-section": "An advanced persistent threat (APT) group that has a track record of targeting India and Afghanistan has been linked to a new phishing campaign that delivers Action RAT.\nAccording to Cyble, which attributed the operation to SideCopy, the activity cluster is designed to target the Defence Research and Development Organization (DRDO), the research and development wing of India's Ministry of"
+                    },
+                    "link": "https://thehackernews.com/2023/03/pakistan-origin-sidecopy-linked-to-new.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/pakistan-origin-sidecopy-linked-to-new.html"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 18:01:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9JVo5ndAfxmwzzJZEpXnfQ84nTkRbbxZq6C0Fie5dYmvFibIOkMky8sV_w3j7qZZe-wJkO1aWQkuEYcPJ1gi8FzQ_6IOtr4AUA5JJkyGJiDdLLGS0c4LKm3r8d5CSpIxrvZPIdxsfnDGNU7ikBNw2iB8181UPv4yM-jw-n25bqdRBnUuqlOF8H-GH/s1600/hacking.png"
+                    }
+                },
+                {
+                    "title": "IcedID Malware Shifts Focus from Banking Fraud to Ransomware Delivery",
+                    "description": {
+                        "#cdata-section": "Multiple threat actors have been observed using two new variants of the IcedID malware in the wild with more limited functionality that removes functionality related to online banking fraud.\nIcedID, also known as BokBot, started off as a banking trojan in 2017. It's also capable of delivering additional malware, including ransomware.\n\"The well-known IcedID version consists of an initial loader"
+                    },
+                    "link": "https://thehackernews.com/2023/03/icedid-malware-shifts-focus-from.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/icedid-malware-shifts-focus-from.html"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 17:38:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgldCSeB7oObCEV7lBHH424uKRQEHQrwJDU3UQZRFn-_wnQaWR5aa7XLWw_0fic7u0hPYA5TUEctejKPpR74HbLLSq_tQNQfgVbT_V9OBrNn-MFVZsgXIM6xXm_s-X0LWt21-BVmTcmS3gBaUBtRvvP3lH3Lz3AxmQy7EYboKvT-mCxsRwaf_L6187F/s1600/malware.png"
+                    }
+                },
+                {
+                    "title": "Breaking the Mold: Pen Testing Solutions That Challenge the Status Quo",
+                    "description": {
+                        "#cdata-section": "Malicious actors are constantly adapting their tactics, techniques, and procedures (TTPs) to adapt to political, technological, and regulatory changes quickly. A few emerging threats that organizations of all sizes should be aware of include the following:\n\nIncreased use of Artificial Intelligence and Machine Learning: Malicious actors are increasingly leveraging AI and machine learning to"
+                    },
+                    "link": "https://thehackernews.com/2023/03/breaking-mold-pen-testing-solutions.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/breaking-mold-pen-testing-solutions.html"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 17:24:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVsGUbfvzd5ps82GdtfhZM1G1fq6a4Ze1O0k4RutPlJ8ETqXbdyTYxxieZkjdLqxiWJzBzIo6IlyZeN6ojhj4Rmr6XDIBFbFRshKk2fkA-oo2xSYZ7eh0tU05j165p09LUn8veYRCTuoyt8JC4mGBNOrlLRXZ7JzuYVZ9YYBgxtY7Fwc_b0rjaavQ7/s1600/map.png"
+                    }
+                },
+                {
+                    "title": "Stealthy DBatLoader Malware Loader Spreading Remcos RAT and Formbook in Europe",
+                    "description": {
+                        "#cdata-section": "A new phishing campaign has set its sights on European entities to distribute Remcos RAT and Formbook via a malware loader dubbed DBatLoader.\n\"The malware payload is distributed through WordPress websites that have authorized SSL certificates, which is a common tactic used by threat actors to evade detection engines,\" Zscaler researchers Meghraj Nandanwar and Satyam Singh said in a report"
+                    },
+                    "link": "https://thehackernews.com/2023/03/stealthy-dbatloader-malware-loader.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/stealthy-dbatloader-malware-loader.html"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 15:23:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm8--jYm81smp13Yjh425n7VrL4nPNOAJzU1W97-bIYw0k7dg-6G5mfNCExO5xvohyyzu-WA_gekHGZu99e9L3iuhKnsL517rhU2Vua9WLfPdn8UijwF4KrmJB2-tcE8hV_SlT1WkGtcyVqWWurvf0CRA2g_LF-1aIVxAuvxGm8jHdsXy4w4Xu5pHj/s1600/malware.png"
+                    }
+                },
+                {
+                    "title": "President Biden Signs Executive Order Restricting Use of Commercial Spyware",
+                    "description": {
+                        "#cdata-section": "U.S. President Joe Biden on Monday signed an executive order that restricts the use of commercial spyware by federal government agencies.\nThe order said the spyware ecosystem \"poses significant counterintelligence or security risks to the United States Government or significant risks of improper use by a foreign government or foreign person.\"\nIt also seeks to ensure that the government's use of"
+                    },
+                    "link": "https://thehackernews.com/2023/03/president-biden-signs-executive-order.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/president-biden-signs-executive-order.html"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 14:25:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBn1DnMx-fgBHtI0djmK5u-qIYjD7B94uAmuYZY7yMlkUcc6WRMZE6xeWoH5y7-ieURw93Vt2ynaNOCK0uHlis3w5U58XTzdhwzXL8eX9fpTiHwj3TV2-7FC4-vzREaMxobJicNS_V1OG5HwMJSCgpf3VtnIcVwFIWk1V6JDqG3mkelxcQEOQb-IxJ/s1600/biden.png"
+                    }
+                },
+                {
+                    "title": "Apple Issues Urgent Security Update for Older iOS and iPadOS Models",
+                    "description": {
+                        "#cdata-section": "Apple on Monday backported fixes for an actively exploited security flaw to older iPhone and iPad models.\nThe issue, tracked as CVE-2023-23529, concerns a type confusion bug in the WebKit browser engine that could lead to arbitrary code execution.\nIt was originally addressed by the tech giant with improved checks as part of updates released on February 13, 2023. An anonymous researcher has been"
+                    },
+                    "link": "https://thehackernews.com/2023/03/apple-issues-urgent-security-update-for.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/apple-issues-urgent-security-update-for.html"
+                    },
+                    "pubDate": "Tue, 28 Mar 2023 09:11:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_X2dyG8rhMdLnnK3bguUAhrOsllYnE1TWOMiXnT_I_jDElwW9uZxRE0JzszyLYDQOnOmq8zXqv4_yXWEHvmGcNIqVHlFnDiCFL585YTV6pue5XJ06N-gT4jGKQhcrQD7kVRlbdxSkDKbVjWkboiQl37duMEmVudAsSBT3D2OFNEOdGo-ApS9u_f07/s1600/iphone-hacking.png"
+                    }
+                },
+                {
+                    "title": "20-Year-Old BreachForums Founder Faces Up to 5 Years in Prison",
+                    "description": {
+                        "#cdata-section": "Conor Brian Fitzpatrick, the 20-year-old founder and the administrator of the now-defunct BreachForums has been formally charged in the U.S. with conspiracy to commit access device fraud.\nIf proven guilty, Fitzpatrick, who went by the online moniker \"pompompurin,\" faces a maximum penalty of up to five years in prison. He was arrested on March 15, 2023.\n\"Cybercrime victimizes and steals financial"
+                    },
+                    "link": "https://thehackernews.com/2023/03/20-year-old-breachforums-founder-faces.html",
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://thehackernews.com/2023/03/20-year-old-breachforums-founder-faces.html"
+                    },
+                    "pubDate": "Mon, 27 Mar 2023 20:48:00 +0530",
+                    "author": "info@thehackernews.com (The Hacker News)",
+                    "enclosure": {
+                        "@length": "12216320",
+                        "@type": "image/jpeg",
+                        "@url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgivsJlAuNxY0MVQQXgHw80xygfq6z_myNooWzVWZUrDtVtgmP4uoVdUjWRsj2Az9wwWhNvEYIFmLolaDyFtuGWTsgaSGbs1G9hTnKGd8Z50kSFVPC6flFEbmhvUSRHEp7qfgkKI0V6mEllBmGJipkCQEqIRYH9l7f-3TlagioyVzXWd8-L2AWrk7fU/s1600/hacker.png"
+                    }
+                }
+            ]
+        }
+    }
+}

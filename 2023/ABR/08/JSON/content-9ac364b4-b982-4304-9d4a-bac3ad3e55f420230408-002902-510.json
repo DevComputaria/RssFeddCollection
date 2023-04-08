@@ -1,0 +1,540 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:nyt": "http://www.nytimes.com/namespaces/rss/2.0",
+        "@version": "2.0",
+        "channel": {
+            "title": "NYT > World News",
+            "link": "https://www.nytimes.com/section/world",
+            "atom:link": {
+                "@href": "https://du-rss-dot-nyt-du-prd.appspot.com/svc/collection.xml?id=%2Fsvc%2Fcollections%2Fv1%2Fpublish%2Fhttps%3A%2F%2Fwww.nytimes.com%2Fsection%2Fworld%2Frss.xml",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "description": "",
+            "language": "en-us",
+            "copyright": "Copyright 2023 The New York Times Company",
+            "lastBuildDate": "Sat, 08 Apr 2023 03:29:01 +0000",
+            "pubDate": "Fri, 07 Apr 2023 23:49:54 +0000",
+            "image": {
+                "title": "NYT > World News",
+                "url": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png",
+                "link": "https://www.nytimes.com/section/world"
+            },
+            "item": [
+                {
+                    "title": "Israel Launches Retaliatory Attack on Lebanon and Gaza",
+                    "link": "https://www.nytimes.com/video/world/middleeast/100000008849579/israel-lebanon-gaza-strikes.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/video/world/middleeast/100000008849579/israel-lebanon-gaza-strikes.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/video/world/middleeast/100000008849579/israel-lebanon-gaza-strikes.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Rare fighting broke out along the Israel-Lebanon border as Passover and Ramadan coincided.",
+                    "dc:creator": "Christina Kelso and Caroline Kim",
+                    "pubDate": "Fri, 07 Apr 2023 23:28:06 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Gaza Strip"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Israel"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Lebanon"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Middle East"
+                        }
+                    ]
+                },
+                {
+                    "title": "New Leak of Classified Documents on Social Media Alarms Pentagon",
+                    "link": "https://www.nytimes.com/2023/04/07/us/politics/classified-documents-leak.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/us/politics/classified-documents-leak.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/us/politics/classified-documents-leak.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Secret documents that appear to detail American national security secrets on Ukraine, the Middle East and China have surfaced online.",
+                    "dc:creator": "Helene Cooper, Julian E. Barnes, Eric Schmitt and Thomas Gibbons-Neff",
+                    "pubDate": "Fri, 07 Apr 2023 23:49:54 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Classified Information and State Secrets"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Social Media"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Defense and Military Forces"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "United States Defense and Military Forces"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Russian Invasion of Ukraine (2022)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "International Relations"
+                        }
+                    ]
+                },
+                {
+                    "title": "Russia Formally Charges Detained WSJ Journalist Evan Gershkovich, State Media Reports",
+                    "link": "https://www.nytimes.com/2023/04/07/world/europe/evan-gershkovich-charged-espionage-russia.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/world/europe/evan-gershkovich-charged-espionage-russia.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/world/europe/evan-gershkovich-charged-espionage-russia.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Evan Gershkovich, a reporter for The Wall Street Journal, was detained last week. The Journal and U.S. officials have vehemently rejected the Russian authorities’ allegations against him.",
+                    "dc:creator": "Neil MacFarquhar",
+                    "pubDate": "Fri, 07 Apr 2023 20:53:20 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Freedom of the Press"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Political Prisoners"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Russia"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Gershkovich, Evan"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Wall Street Journal"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Espionage and Intelligence Services"
+                        }
+                    ]
+                },
+                {
+                    "title": "Arrest of Evan Gershkovich Makes Covering Russia Even Tougher",
+                    "link": "https://www.nytimes.com/2023/04/07/business/media/russia-journalists-evan-gershkovich.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/business/media/russia-journalists-evan-gershkovich.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/business/media/russia-journalists-evan-gershkovich.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The detention of the Wall Street Journal reporter Evan Gershkovich poses new obstacles for Western journalists seeking to report on Vladimir V. Putin’s rule.",
+                    "dc:creator": "Michael M. Grynbaum",
+                    "pubDate": "Fri, 07 Apr 2023 20:20:32 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "News and News Media"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "International Relations"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "United States International Relations"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Political Prisoners"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Freedom of Speech and Expression"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Russian Invasion of Ukraine (2022)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Freedom of the Press"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Committee to Protect Journalists"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Gershkovich, Evan"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Russia"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "USSR (Former Soviet Union)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Moscow (Russia)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Remnick, David"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Keller, Bill"
+                        }
+                    ]
+                },
+                {
+                    "title": "Pope Will Miss Good Friday Procession Because of Cold Weather",
+                    "link": "https://www.nytimes.com/2023/04/07/world/europe/pope-good-friday-procession-weather.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/world/europe/pope-good-friday-procession-weather.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/world/europe/pope-good-friday-procession-weather.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Francis was released from the hospital only last Saturday after a bout with bronchitis.",
+                    "dc:creator": "Gaia Pianigiani",
+                    "pubDate": "Fri, 07 Apr 2023 19:40:47 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Francis"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Cold and Cold Spells"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Easter and Holy Week"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Weather"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Popes"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Hospitals"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Bronchitis"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Italy"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Rome (Italy)"
+                        }
+                    ]
+                },
+                {
+                    "title": "E.P.A Lab Helps Plan the Fastest Road to an EV Future",
+                    "link": "https://www.nytimes.com/2023/04/07/climate/electric-cars-biden-climate.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/climate/electric-cars-biden-climate.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/climate/electric-cars-biden-climate.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Government scientists have spent a year analyzing electric vehicles to help the E.P.A. design new tailpipe rules to trigger an electric car revolution.",
+                    "dc:creator": "Coral Davenport",
+                    "pubDate": "Fri, 07 Apr 2023 18:10:20 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Global Warming"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Greenhouse Gas Emissions"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Automobiles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Electric and Hybrid Vehicles"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Organized Labor"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Factories and Manufacturing"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Inflation Reduction Act of 2022"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Fuel Emissions (Transportation)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Engineering and Engineers"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Environmental Protection Agency"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "Ford Motor Co"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Biden, Joseph R Jr"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Michigan"
+                        }
+                    ]
+                },
+                {
+                    "title": "In Dealing With China, U.S. and Europe Take Different Tacks",
+                    "link": "https://www.nytimes.com/2023/04/07/us/politics/china-us-europe.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/us/politics/china-us-europe.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/us/politics/china-us-europe.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The Biden administration says there is “convergence.” But trans-Atlantic leaders adopt different strategies on security and trade issues — including on Ukraine and Taiwan.",
+                    "dc:creator": "Edward Wong",
+                    "pubDate": "Fri, 07 Apr 2023 18:42:22 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "United States Politics and Government"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "International Relations"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "United States International Relations"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Russian Invasion of Ukraine (2022)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Embargoes and Sanctions"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Defense and Military Forces"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "European Commission"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "North Atlantic Treaty Organization"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Biden, Joseph R Jr"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Macron, Emmanuel (1977- )"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "McCarthy, Kevin (1965- )"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Putin, Vladimir V"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Tsai Ing-wen"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "von der Leyen, Ursula"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Xi Jinping"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Europe"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "China"
+                        }
+                    ]
+                },
+                {
+                    "title": "Custody of a Russian Girl Who Drew an Antiwar Picture Is Still Undecided",
+                    "link": "https://www.nytimes.com/2023/04/07/world/europe/custody-russian-girl-anti-war-ukraine-drawing.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/world/europe/custody-russian-girl-anti-war-ukraine-drawing.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/world/europe/custody-russian-girl-anti-war-ukraine-drawing.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The authorities are determining who will take custody of Maria, 13, whose single father has been sentenced for “discrediting” the Russian Army.",
+                    "dc:creator": "Valerie Hopkins",
+                    "pubDate": "Fri, 07 Apr 2023 17:31:29 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Russian Invasion of Ukraine (2022)"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_org",
+                            "#text": "International Criminal Court"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_per",
+                            "#text": "Lvova-Belova, Maria"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Russia"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "Minsk (Belarus)"
+                        }
+                    ]
+                },
+                {
+                    "title": "A Cobra Appeared Mid-Flight. The Pilot’s Quick Thinking Saved Lives.",
+                    "link": "https://www.nytimes.com/2023/04/07/world/africa/snake-plane-cobra-pilot.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/world/africa/snake-plane-cobra-pilot.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/world/africa/snake-plane-cobra-pilot.html",
+                        "@rel": "standout"
+                    },
+                    "description": "The pilot made an emergency landing after feeling a Cape Cobra slither under his shirt while flying across South Africa. “I had a moment of stunned silence,” he said.",
+                    "dc:creator": "Derrick Bryson Taylor",
+                    "pubDate": "Fri, 07 Apr 2023 18:54:45 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Snakes"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Pilots"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Airlines and Airplanes"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/nyt_geo",
+                            "#text": "South Africa"
+                        },
+                        {
+                            "@domain": "",
+                            "#text": "Cape Cobra"
+                        }
+                    ]
+                },
+                {
+                    "title": "The Response to Crime",
+                    "link": "https://www.nytimes.com/2023/04/07/briefing/legislators-response-to-crime.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.nytimes.com/2023/04/07/briefing/legislators-response-to-crime.html"
+                    },
+                    "atom:link": {
+                        "@href": "https://www.nytimes.com/2023/04/07/briefing/legislators-response-to-crime.html",
+                        "@rel": "standout"
+                    },
+                    "description": "Republican lawmakers are putting limits on progressive prosecutors.",
+                    "dc:creator": "Emily Bazelon",
+                    "pubDate": "Fri, 07 Apr 2023 10:26:05 +0000",
+                    "category": [
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "internal-storyline-no"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Law and Legislation"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "Elections"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "United States Politics and Government"
+                        },
+                        {
+                            "@domain": "http://www.nytimes.com/namespaces/keywords/des",
+                            "#text": "State Legislatures"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "utf-8"
+    } /* generator="Joomla! - Open Source Content Management" */,
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "channel": {
+            "title": "Security Announcements",
+            "description": {
+                "#cdata-section": ""
+            },
+            "link": "https://developer.joomla.org/security-centre.html",
+            "lastBuildDate": "Sat, 08 Apr 2023 03:31:09 +0000",
+            "generator": "Joomla! - Open Source Content Management",
+            "atom:link": {
+                "@rel": "self",
+                "@type": "application/rss+xml",
+                "@href": "https://developer.joomla.org/security-centre.feed?type=rss"
+            },
+            "language": "en-gb",
+            "managingEditor": "noreply@joomla.org (Joomla! Developer Network™)",
+            "item": [
+                {
+                    "title": "[20230201] - Core - Improper access check in webservice endpoints",
+                    "link": "https://developer.joomla.org/security-centre/894-20230201-core-improper-access-check-in-webservice-endpoints.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/894-20230201-core-improper-access-check-in-webservice-endpoints.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> Critical</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">High</span></li>\r\n<li><strong>Probability:</strong> High</li>\r\n<li><strong>Versions: </strong>4.0.0-4.2.7</li>\r\n<li><strong>Exploit type:</strong> Incorrect Access Control</li>\r\n<li><strong>Reported Date:</strong> 2023-02-13</li>\r\n<li><strong>Fixed Date:</strong> 2023-02-16</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23752\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2023-23752</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<div>\r\n<div>An improper access check allows unauthorized access to webservice endpoints.</div>\r\n</div>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 4.0.0-4.2.7</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 4.2.8</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong> Zewei Zhang from NSFOCUS TIANJI Lab</div>"
+                    },
+                    "author": "david.jardin@community.joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Thu, 16 Feb 2023 14:00:06 +0000"
+                },
+                {
+                    "title": "[20221101] - Core - RXSS through reflection of user input in com_media",
+                    "link": "https://developer.joomla.org/security-centre/887-20221101-core-rxss-through-reflection-of-user-input-in-com-media.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/887-20221101-core-rxss-through-reflection-of-user-input-in-com-media.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> Low</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>4.0.0-4.2.4</li>\r\n<li><strong>Exploit type:</strong> Reflexted XSS</li>\r\n<li><strong>Reported Date:</strong> 2022-10-28</li>\r\n<li><strong>Fixed Date:</strong> 2022-11-08</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27914\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2022-27914</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<div>\r\n<div>Inadequate filtering of potentially malicious user input leads to reflected XSS vulnerabilities in com_media..</div>\r\n</div>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 4.0.0-4.2.4</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 4.2.5</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong>https://github.com/Denitz</div>"
+                    },
+                    "author": "security@joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 08 Nov 2022 14:00:06 +0000"
+                },
+                {
+                    "title": "[20230101] - Core - CSRF within post-installation messages",
+                    "link": "https://developer.joomla.org/security-centre/890-20230101-core-csrf-within-post-installation-messages.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/890-20230101-core-csrf-within-post-installation-messages.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> Low</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>4.0.0-4.2.6</li>\r\n<li><strong>Exploit type:</strong> CSRF</li>\r\n<li><strong>Reported Date:</strong> 2022-12-24</li>\r\n<li><strong>Fixed Date:</strong> 2023-01-31</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23750\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2023-23750</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<div>A missing token check causes a CSRF vulnerability in the handling of post-installation messages.</div>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 4.0.0-4.2.6</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 4.2.7</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong><a href=\"https://www.linkedin.com/in/faizanwani20/\">Faizan Wani</a></div>"
+                    },
+                    "author": "tobias.zulauf@community.joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 08 Nov 2022 14:00:06 +0000"
+                },
+                {
+                    "title": "[20230102] - Core - Missing ACL checks for com_actionlogs",
+                    "link": "https://developer.joomla.org/security-centre/891-20230102-core-missing-acl-checks-for-com-actionlogs.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/891-20230102-core-missing-acl-checks-for-com-actionlogs.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> Low</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>4.0.0-4.2.6</li>\r\n<li><strong>Exploit type:</strong> Incorrect Access Control</li>\r\n<li><strong>Reported Date:</strong> 2023-01-01</li>\r\n<li><strong>Fixed Date:</strong> 2023-01-31</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23751\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2023-23751</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<div>\r\n<div>A missing ACL check allows non super-admin users to access com_actionlogs.</div>\r\n</div>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 4.0.0-4.2.6</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 4.2.7</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong><a href=\"https://www.linkedin.com/in/faizanwani20/\">Faizan Wani</a></div>"
+                    },
+                    "author": "tobias.zulauf@community.joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 08 Nov 2022 14:00:06 +0000"
+                },
+                {
+                    "title": "[20221002] - Core - RXSS through reflection of user input in headings",
+                    "link": "https://developer.joomla.org/security-centre/886-20221002-core-reflected-xss-in-various-components.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/886-20221002-core-reflected-xss-in-various-components.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> Low</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>4.0.0-4.2.3</li>\r\n<li><strong>Exploit type:</strong> Reflexted XSS</li>\r\n<li><strong>Reported Date:</strong> 2022-10-07</li>\r\n<li><strong>Fixed Date:</strong> 2022-10-25</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27913\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2022-27913</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<div>\r\n<div>Inadequate filtering of potentially malicious user input leads to reflected XSS vulnerabilities in various components.</div>\r\n</div>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 4.0.0-4.2.3</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 4.2.4</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong>Ajith Menon</div>"
+                    },
+                    "author": "security@joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 25 Oct 2022 14:00:06 +0000"
+                },
+                {
+                    "title": "[20221001] - Core - Disclosure of critical information in debug mode",
+                    "link": "https://developer.joomla.org/security-centre/885-20221001-core-disclosure-of-critical-information-in-debug-mode.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/885-20221001-core-disclosure-of-critical-information-in-debug-mode.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> Critical</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>4.0.0-4.2.3</li>\r\n<li><strong>Exploit type:</strong> Information Disclosure</li>\r\n<li><strong>Reported Date:</strong> 2022-10-13</li>\r\n<li><strong>Fixed Date:</strong> 2022-10-25</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27912\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2022-27912</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<div>\r\n<div>Joomla 4 sites with publicly enabled debug mode exposed data of previous requests.</div>\r\n</div>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 4.0.0-4.2.3</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 4.2.4</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong>Peter Martin</div>"
+                    },
+                    "author": "security@joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 25 Oct 2022 14:00:05 +0000"
+                },
+                {
+                    "title": "[20220801] - Core - Multiple Full Path Disclosures because of missing &#039;_JEXEC or die check&#039;",
+                    "link": "https://developer.joomla.org/security-centre/884-20220801-core-multiple-full-path-disclosures-because-of-missing-jexec-or-die-check.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/884-20220801-core-multiple-full-path-disclosures-because-of-missing-jexec-or-die-check.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> Low</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>4.2.0</li>\r\n<li><strong>Exploit type:</strong> Path Disclosure</li>\r\n<li><strong>Reported Date:</strong> 2022-08-27</li>\r\n<li><strong>Fixed Date:</strong> 2022-08-30</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27911\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2022-27911</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<div>\r\n<div>Multiple Full Path Disclosures because of missing '_JEXEC or die check' caused by the PSR12 changes done in 4.2.0. According to PROD2020/023 and in coordination with the JSST this has been patched in the public tracker vis <a href=\"https://github.com/joomla/joomla-cms/pull/38615\" target=\"_blank\" rel=\"noopener noreferrer\">#38615</a></div>\r\n</div>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 4.2.0</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 4.2.1</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong>SharkyKZ</div>"
+                    },
+                    "author": "security@joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Mon, 29 Aug 2022 16:00:05 +0000"
+                },
+                {
+                    "title": "[20220301] - Core - Zip Slip within the Tar extractor",
+                    "link": "https://developer.joomla.org/security-centre/870-20220301-core-zip-slip-within-the-tar-extractor.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/870-20220301-core-zip-slip-within-the-tar-extractor.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla! / Joomla! Framework</li>\r\n<li><strong>SubProject:</strong> CMS / archive</li>\r\n<li><strong>Impact:</strong> Moderate</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>\r\n<li><strong>Exploit type:</strong> Path Traversal</li>\r\n<li><strong>Reported Date:</strong> 2022-02-20</li>\r\n<li><strong>Fixed Date:</strong> 2022-03-29</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23793\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2022-23793</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<p>Extracting an specifilcy crafted tar package could write files outside of the intended path.</p>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 3.10.7 or 4.1.1</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong>Egidio Romano</div>"
+                    },
+                    "author": "security@joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 29 Mar 2022 16:00:05 +0000"
+                },
+                {
+                    "title": "[20220302] - Core - Path Disclosure within filesystem error messages",
+                    "link": "https://developer.joomla.org/security-centre/871-20220302-core-path-disclosure-within-filesystem-error-messages.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/871-20220302-core-path-disclosure-within-filesystem-error-messages.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla! / Joomla! Framework</li>\r\n<li><strong>SubProject:</strong> CMS / filesystem</li>\r\n<li><strong>Impact:</strong> Low</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>\r\n<li><strong>Exploit type:</strong> Path Disclosure</li>\r\n<li><strong>Reported Date:</strong> 2021-02-17</li>\r\n<li><strong>Fixed Date:</strong> 2022-03-29</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23794\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2022-23794</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<p>Uploading a file name of an excess length causes the error. This error brings up the screen with the path of the source code of the web application.</p>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 3.0.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 3.10.7 or 4.1.1</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong>DangKhai from Viettel Cyber Security</div>"
+                    },
+                    "author": "security@joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 29 Mar 2022 16:00:05 +0000"
+                },
+                {
+                    "title": "[20220303] - Core - User row are not bound to a authentication mechanism",
+                    "link": "https://developer.joomla.org/security-centre/872-20220303-core-user-row-are-not-bound-to-a-authentication-mechanism.html",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://developer.joomla.org/security-centre/872-20220303-core-user-row-are-not-bound-to-a-authentication-mechanism.html"
+                    },
+                    "description": {
+                        "#cdata-section": "<ul>\r\n<li><strong>Project:</strong> Joomla!</li>\r\n<li><strong>SubProject:</strong> CMS</li>\r\n<li><strong>Impact:</strong> High</li>\r\n<li><strong>Severity:</strong> <span class=\"label label-info\">Low</span></li>\r\n<li><strong>Probability:</strong> Low</li>\r\n<li><strong>Versions: </strong>2.5.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</li>\r\n<li><strong>Exploit type:</strong> Incorrect Access Control</li>\r\n<li><strong>Reported Date:</strong> 2020-09-23</li>\r\n<li><strong>Fixed Date:</strong> 2022-03-29</li>\r\n<li><strong>CVE Number:</strong> <a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23795\" target=\"_blank\" rel=\"noopener noreferrer\">CVE-2022-23795</a></li>\r\n</ul>\r\n<h3>Description</h3>\r\n<p>A user row was not bound to a specific authentication mechanism which could under very special circumstances allow an account takeover.</p>\r\n<h3>Affected Installs</h3>\r\n<p>Joomla! CMS versions 2.5.0 - 3.10.6 &amp; 4.0.0 - 4.1.0</p>\r\n<h3>Solution</h3>\r\n<p>Upgrade to version 3.10.7 or 4.1.1</p>\r\n<h3>Contact</h3>\r\n<p>The JSST at the <a title=\"Contact the JSST\" href=\"https://developer.joomla.org/security-centre.html\">Joomla! Security Centre</a>.</p>\r\n<div class=\"alert alert-info\"><strong>Reported By: </strong>Phil Taylor</div>"
+                    },
+                    "author": "security@joomla.org (Joomla! Security Strike Team)",
+                    "category": "Security Centre",
+                    "pubDate": "Tue, 29 Mar 2022 16:00:05 +0000"
+                }
+            ]
+        }
+    }
+}

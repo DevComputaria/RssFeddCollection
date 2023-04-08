@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="dsa-rdf.css" type="text/css"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">
+  <channel rdf:about="https://www.debian.org/security/dsa.rdf">
+    <title>Debian Security</title>
+    <link>http://security.debian.org/</link>
+    <description>
+Debian Security Advisories
+  </description>
+    <dc:date>2023-04-06T03:37:29+00:00</dc:date>
+    <items>
+      <rdf:Seq>
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5383" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5382" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5381" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5380" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5379" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5378" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5377" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5376" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5375" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5374" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5373" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5372" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5371" />
+        <rdf:li resource="https://www.debian.org/security/2023/dsa-5370" />
+      </rdf:Seq>
+    </items>
+  </channel>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5383">
+    <title>DSA-5383 ghostscript</title>
+    <link>https://www.debian.org/security/2023/dsa-5383</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-04-05</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5382">
+    <title>DSA-5382 cairosvg</title>
+    <link>https://www.debian.org/security/2023/dsa-5382</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-04-05</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5381">
+    <title>DSA-5381 tomcat9</title>
+    <link>https://www.debian.org/security/2023/dsa-5381</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-04-05</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5380">
+    <title>DSA-5380 xorg-server</title>
+    <link>https://www.debian.org/security/2023/dsa-5380</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-29</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5379">
+    <title>DSA-5379 dino-im</title>
+    <link>https://www.debian.org/security/2023/dsa-5379</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-27</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5378">
+    <title>DSA-5378 xen</title>
+    <link>https://www.debian.org/security/2023/dsa-5378</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-25</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5377">
+    <title>DSA-5377 chromium</title>
+    <link>https://www.debian.org/security/2023/dsa-5377</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-23</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5376">
+    <title>DSA-5376 apache2</title>
+    <link>https://www.debian.org/security/2023/dsa-5376</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-20</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5375">
+    <title>DSA-5375 thunderbird</title>
+    <link>https://www.debian.org/security/2023/dsa-5375</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-17</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5374">
+    <title>DSA-5374 firefox-esr</title>
+    <link>https://www.debian.org/security/2023/dsa-5374</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-15</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5373">
+    <title>DSA-5373 node-sqlite3</title>
+    <link>https://www.debian.org/security/2023/dsa-5373</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-14</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5372">
+    <title>DSA-5372 rails</title>
+    <link>https://www.debian.org/security/2023/dsa-5372</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-13</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5371">
+    <title>DSA-5371 chromium</title>
+    <link>https://www.debian.org/security/2023/dsa-5371</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-09</dc:date>
+  </item>
+  <item rdf:about="https://www.debian.org/security/2023/dsa-5370">
+    <title>DSA-5370 apr</title>
+    <link>https://www.debian.org/security/2023/dsa-5370</link>
+    <description>
+    security update
+  </description>
+    <dc:date>2023-03-07</dc:date>
+  </item>
+</rdf:RDF>

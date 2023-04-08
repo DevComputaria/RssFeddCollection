@@ -1,0 +1,138 @@
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:s="https://www.zdnet.com/search" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0">
+  <channel>
+    <image>
+      <url>https://www.linuxsecurity.com/images/linuxsecurity-xml.png</url>
+      <title>LinuxSecurity - Security Advisories</title>
+      <link>https://www.linuxsecurity.com/</link>
+      <width>143</width>
+      <height>144</height>
+    </image>
+    <webfeeds:analytics id="UA-336357-8" engine="GoogleAnalytics" />
+    <webfeeds:cover image="https://linuxsecurity.com/images/LinuxSecuri-KC52a-A06-01-1024x1024.png" />
+    <webfeeds:icon>https://linuxsecurity.com/images/linuxsecurity-xml.png</webfeeds:icon>
+    <webfeeds:related layout="card" target="browser" />
+    <webfeeds:accentColor>0095DA</webfeeds:accentColor>
+    <webfeeds:wordmark>https://linuxsecurity.com/images/LinuxSecurity_Wordmark_White.png</webfeeds:wordmark>
+    <webfeeds:logo>https://linuxsecurity.com/images/LinuxSecurity_Icon_30px.png</webfeeds:logo>
+    <dc:creator>LinuxSecurity Contributors</dc:creator>
+    <link>https://www.linuxsecurity.com/</link>
+    <title>LinuxSecurity - Security Advisories</title>
+    <description>The central voice for Linux and Open Source security news.</description>
+    <language>en-us</language>
+    <copyright>1999-2022 Guardian Digital, Inc. All rights reserved</copyright>
+    <pubDate>Fri, 7 Apr 2023 19:00:02 +0000</pubDate>
+    <lastBuildDate>Fri, 7 Apr 2023 19:00:02 +0000</lastBuildDate>
+    <generator>update-xml-feeds.pl (2.01)</generator>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <atom:link href="https://www.linuxsecurity.com/static-content/linuxsecurity_advisories.xml" rel="self" type="application/rss+xml" />
+    <ttl>2</ttl>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/oracle/oracle8-elsa-2023-1673-httpd-2-4-important-security-update-mz3fmvwxxmcq?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/oracle/oracle8-elsa-2023-1673-httpd-2-4-important-security-update-mz3fmvwxxmcq?rss</link>
+      <title>Oracle8: ELSA-2023-1673: httpd:2.4 Important Security Update</title>
+      <description>The following updated rpms for Oracle Linux 8 have been uploaded to the Unbreakable Linux Network: </description>
+      <pubDate>Fri, 07 Apr 2023 16:56:52 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>oracle8-elsa-2023-1673-httpd-2-4-important-security-update-mz3fmvwxxmcq</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>oracle</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros-large/oracle-large.png" />
+      <enclosure url="https://linuxsecurity.com/images/distros-large/oracle-large.png" length="12615" type="image/jpeg" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/red-hat/redhat-rhsa-2023-1670-01-important-httpd-and-mod-http2-security-update-mt0lpvlecfb5?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/red-hat/redhat-rhsa-2023-1670-01-important-httpd-and-mod-http2-security-update-mt0lpvlecfb5?rss</link>
+      <title>RedHat: RHSA-2023-1670:01 Important: httpd and mod_http2 security update</title>
+      <description>An update for httpd and mod_http2 is now available for Red Hat Enterprise Linux 9. Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score,</description>
+      <pubDate>Fri, 07 Apr 2023 16:42:03 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>redhat-rhsa-2023-1670-01-important-httpd-and-mod-http2-security-update-mt0lpvlecfb5</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>red-hat</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros-large/redhat-large.png" />
+      <enclosure url="https://linuxsecurity.com/images/distros-large/redhat-large.png" length="15937" type="image/jpeg" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2023-1009-1-bci-golang-security-update-whcdphjlttju?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2023-1009-1-bci-golang-security-update-whcdphjlttju?rss</link>
+      <title>SUSE: 2023:1009-1 bci/golang Security Update</title>
+      <description>The container bci/golang was updated. The following patches have been included in this update:</description>
+      <pubDate>Fri, 07 Apr 2023 07:11:27 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2023-1009-1-bci-golang-security-update-whcdphjlttju</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros-large/suse-large.png" />
+      <enclosure url="https://linuxsecurity.com/images/distros-large/suse-large.png" length="8456" type="image/jpeg" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2023-1008-1-bci-golang-security-update-g3mh91l9c6ot?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2023-1008-1-bci-golang-security-update-g3mh91l9c6ot?rss</link>
+      <title>SUSE: 2023:1008-1 bci/golang Security Update</title>
+      <description>The container bci/golang was updated. The following patches have been included in this update:</description>
+      <pubDate>Fri, 07 Apr 2023 07:11:22 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2023-1008-1-bci-golang-security-update-g3mh91l9c6ot</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros-large/suse-large.png" />
+      <enclosure url="https://linuxsecurity.com/images/distros-large/suse-large.png" length="8456" type="image/jpeg" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2023-1000-1-suse-sle15-security-update-3pkjoai2lhag?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2023-1000-1-suse-sle15-security-update-3pkjoai2lhag?rss</link>
+      <title>SUSE: 2023:1000-1 suse/sle15 Security Update</title>
+      <description>The container suse/sle15 was updated. The following patches have been included in this update:</description>
+      <pubDate>Fri, 07 Apr 2023 07:07:40 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2023-1000-1-suse-sle15-security-update-3pkjoai2lhag</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros-large/suse-large.png" />
+      <enclosure url="https://linuxsecurity.com/images/distros-large/suse-large.png" length="8456" type="image/jpeg" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+    <item>
+      <guid isPermaLink="true">https://www.linuxsecurity.com/advisories/suse/suse-2023-999-1-suse-sle15-security-update-viofn0fwxafn?rss</guid>
+      <link>https://www.linuxsecurity.com/advisories/suse/suse-2023-999-1-suse-sle15-security-update-viofn0fwxafn?rss</link>
+      <title>SUSE: 2023:999-1 suse/sle15 Security Update</title>
+      <description>The container suse/sle15 was updated. The following patches have been included in this update:</description>
+      <pubDate>Fri, 07 Apr 2023 07:06:12 +0000</pubDate>
+      <media:credit role="author">LinuxSecurity Advisories</media:credit>
+      <s:doctype>Text</s:doctype>
+      <dc:creator>LinuxSecurity Advisories</dc:creator>
+      <category>suse-2023-999-1-suse-sle15-security-update-viofn0fwxafn</category>
+      <category>Linux</category>
+      <category>Linux Security</category>
+      <category>Security</category>
+      <category>suse</category>
+      <media:thumbnail url="https://linuxsecurity.com/images/distros-large/suse-large.png" />
+      <enclosure url="https://linuxsecurity.com/images/distros-large/suse-large.png" length="8456" type="image/jpeg" />
+      <source url="https://www.linuxsecurity.com">LinuxSecurity.com</source>
+    </item>
+  </channel>
+</rss>
