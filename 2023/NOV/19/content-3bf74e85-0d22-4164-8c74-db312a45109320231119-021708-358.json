@@ -1,0 +1,476 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "channel": {
+            "title": "Help Net Security",
+            "atom:link": {
+                "@href": "https://www.helpnetsecurity.com/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://www.helpnetsecurity.com/",
+            "description": "Daily information security news with a focus on enterprise security.",
+            "lastBuildDate": "Fri, 17 Nov 2023 21:37:31 +0000",
+            "language": "en-US",
+            "sy:updatePeriod": "\n\thourly\t",
+            "sy:updateFrequency": "\n\t1\t",
+            "generator": "https://wordpress.org/?v=6.3.2",
+            "image": {
+                "url": "https://img.helpnetsecurity.com/wp-content/uploads/2019/09/09093400/cropped-hns2-32x32.png",
+                "title": "Help Net Security",
+                "link": "https://www.helpnetsecurity.com/",
+                "width": "32",
+                "height": "32"
+            },
+            "item": [
+                {
+                    "title": "Sigma Synthetic Fraud v4 uncovers multiplex synthetic-specific features",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/socure-sigma-synthetic-fraud-v4/",
+                    "dc:creator": {
+                        "#cdata-section": "Industry News"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 13:00:36 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Industry news"
+                        },
+                        {
+                            "#cdata-section": "Socure"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=283211"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Socure has launched Sigma Synthetic Fraud v4. The product uses advanced machine learning and diverse, third-party and network feedback data to uncover patterns linked to insidious synthetic identity fraud. The Deloitte Center for Financial Services expects synthetic identity fraud to generate at least $23 billion in losses by 2030. Synthetic identity fraud is a financial crime where a real person&#8217;s information is stolen and combined with other falsified personal information to create a fictitious identity, &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/socure-sigma-synthetic-fraud-v4/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/socure-sigma-synthetic-fraud-v4/\">Sigma Synthetic Fraud v4 uncovers multiplex synthetic-specific features</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "IronCore Labs Cloaked AI protects vector embeddings",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/ironcore-labs-cloaked-ai/",
+                    "dc:creator": {
+                        "#cdata-section": "Industry News"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 12:00:46 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Industry news"
+                        },
+                        {
+                            "#cdata-section": "IronCore Labs"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=283200"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>IronCore Labs launched Cloaked AI, an SDK that protects vector embeddings with data-in-use encryption. Large language models are shifting the paradigm for how AI products are built and where private data is stored. While private AI data used to be in the model, now it&#8217;s captured as embeddings and stored in vector databases. These databases store everything from internal proprietary documents to chat histories and medical diagnoses. &#8220;We&#8217;re thrilled to launch Cloaked AI and provide &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/ironcore-labs-cloaked-ai/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/ironcore-labs-cloaked-ai/\">IronCore Labs Cloaked AI protects vector embeddings</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Why cyber war readiness is critical for democracies",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/global-cyber-war-readiness/",
+                    "dc:creator": {
+                        "#cdata-section": "Zeljka Zorz"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 10:50:39 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Don't miss"
+                        },
+                        {
+                            "#cdata-section": "Features"
+                        },
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "conferences"
+                        },
+                        {
+                            "#cdata-section": "critical infrastructure"
+                        },
+                        {
+                            "#cdata-section": "cyber war"
+                        },
+                        {
+                            "#cdata-section": "cybersecurity"
+                        },
+                        {
+                            "#cdata-section": "cyberwarfare"
+                        },
+                        {
+                            "#cdata-section": "Forescout"
+                        },
+                        {
+                            "#cdata-section": "ICS/SCADA"
+                        },
+                        {
+                            "#cdata-section": "IRISSCON"
+                        },
+                        {
+                            "#cdata-section": "opinion"
+                        },
+                        {
+                            "#cdata-section": "Russian Federation"
+                        },
+                        {
+                            "#cdata-section": "Ukraine"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=283262"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Once the war in Ukraine ends, Russia&#8217;s offensive cyber capabilities will be directed towards other targets, Rik Ferguson, VP Security Intelligence for Forescout, predicted at IRISSCON on Thursday. Rik Ferguson on stage at IRISSCON 2023 The skills employed, the hacktivists and other threat actors are not going anywhere. Right now, Russia might be overwhelmingly interested in Ukraine, but their aims and goals remain global. &#8220;These skills will be turned in other directions and other targets &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/global-cyber-war-readiness/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/global-cyber-war-readiness/\">Why cyber war readiness is critical for democracies</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Internal audit leaders are wary of key tech investments",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/internal-audit-strategic-plans/",
+                    "dc:creator": {
+                        "#cdata-section": "Help Net Security"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 08:42:53 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "AuditBoard"
+                        },
+                        {
+                            "#cdata-section": "automation"
+                        },
+                        {
+                            "#cdata-section": "cyber risk"
+                        },
+                        {
+                            "#cdata-section": "cybersecurity"
+                        },
+                        {
+                            "#cdata-section": "data security"
+                        },
+                        {
+                            "#cdata-section": "digital transformation"
+                        },
+                        {
+                            "#cdata-section": "ESG"
+                        },
+                        {
+                            "#cdata-section": "Generative AI"
+                        },
+                        {
+                            "#cdata-section": "report"
+                        },
+                        {
+                            "#cdata-section": "survey"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=283172"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>As the digital transformation of business accelerates, risk and internal audit leaders shift their focus to managing technology-driven risk, according to AuditBoard. The report reveals a growing gap between risk and assurance teams’ capacity to manage risks effectively and the reality of today’s state of &#8220;permacrisis,&#8221; an extended period of instability and insecurity marked by one disruptive crisis following another. Key risks In a continuation of a trend identified by the 2023 survey, the top &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/internal-audit-strategic-plans/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/internal-audit-strategic-plans/\">Internal audit leaders are wary of key tech investments</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Wireshark 4.2.0 released, open-source packet analysis gets even better",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/wireshark-4-2-0-open-source-packet-analysis/",
+                    "dc:creator": {
+                        "#cdata-section": "Help Net Security"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 08:34:02 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "open source"
+                        },
+                        {
+                            "#cdata-section": "packet analysis"
+                        },
+                        {
+                            "#cdata-section": "software"
+                        },
+                        {
+                            "#cdata-section": "Wireshark"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=283183"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Wireshark, the popular network protocol analyzer, has reached version 4.2.0. Wireshark 4.2.0: Notable changes Wireshark supports dark mode on Windows. Packet list sorting has been improved. Wireshark and TShark are now better about generating valid UTF-8 output. A new display filter feature for filtering raw bytes has been added. Display filter autocomplete is smarter about not suggesting invalid syntax. Tools › MAC Address Blocks can lookup a MAC address in the IEEE OUI registry. The &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/wireshark-4-2-0-open-source-packet-analysis/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/wireshark-4-2-0-open-source-packet-analysis/\">Wireshark 4.2.0 released, open-source packet analysis gets even better</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "New infosec products of the week: November 17, 2023",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/new-infosec-products-of-the-week-november-17-2023/",
+                    "dc:creator": {
+                        "#cdata-section": "Help Net Security"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 06:30:37 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "Devo Technology"
+                        },
+                        {
+                            "#cdata-section": "Illumio"
+                        },
+                        {
+                            "#cdata-section": "Kasada"
+                        },
+                        {
+                            "#cdata-section": "Lacework"
+                        },
+                        {
+                            "#cdata-section": "OneSpan"
+                        },
+                        {
+                            "#cdata-section": "ThreatModeler"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=282391"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>Here’s a look at the most interesting products from the past week, featuring releases from Devo Technology, Illumio, Kasada, Lacework, OneSpan, and ThreatModeler. OneSpan DIGIPASS FX1 BIO protects against social engineering and account takeover attacks OneSpan introduced its latest innovation to the Digipass Authenticators product line, with DIGIPASS FX1 BIO. This physical passkey with fingerprint scan empowers organizations to embrace passwordless authentication while providing security against social engineering and account takeover attacks. This latest addition &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/new-infosec-products-of-the-week-november-17-2023/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/new-infosec-products-of-the-week-november-17-2023/\">New infosec products of the week: November 17, 2023</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Traditional cloud security isn’t up to the task",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/sensitive-data-cloud-risk/",
+                    "dc:creator": {
+                        "#cdata-section": "Help Net Security"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 06:00:18 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "cloud"
+                        },
+                        {
+                            "#cdata-section": "cloud security"
+                        },
+                        {
+                            "#cdata-section": "cybersecurity"
+                        },
+                        {
+                            "#cdata-section": "data"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "Illumio"
+                        },
+                        {
+                            "#cdata-section": "report"
+                        },
+                        {
+                            "#cdata-section": "strategy"
+                        },
+                        {
+                            "#cdata-section": "survey"
+                        },
+                        {
+                            "#cdata-section": "zero trust"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=282943"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>In the last year, 47% of all data breaches originated in the cloud, and more than 6 in 10 respondents believe cloud security is lacking and poses a severe risk to their business operations, according to Illumio. The average organization who suffered a cloud breach last year lost nearly $4.1 million, yet 26% are operating under the assumption that breaches are not inevitable, posing serious risks to the business and its customers. 97% believe Zero &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/sensitive-data-cloud-risk/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/sensitive-data-cloud-risk/\">Traditional cloud security isn&#8217;t up to the task</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "AI disinformation campaigns pose major threat to 2024 elections",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/2024-cybersecurity-strategies/",
+                    "dc:creator": {
+                        "#cdata-section": "Help Net Security"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 05:30:54 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "artificial intelligence"
+                        },
+                        {
+                            "#cdata-section": "cybersecurity"
+                        },
+                        {
+                            "#cdata-section": "data analysis"
+                        },
+                        {
+                            "#cdata-section": "digital transformation"
+                        },
+                        {
+                            "#cdata-section": "encryption"
+                        },
+                        {
+                            "#cdata-section": "framework"
+                        },
+                        {
+                            "#cdata-section": "IoT"
+                        },
+                        {
+                            "#cdata-section": "malware"
+                        },
+                        {
+                            "#cdata-section": "NTT"
+                        },
+                        {
+                            "#cdata-section": "NTT Research"
+                        },
+                        {
+                            "#cdata-section": "NTT Security"
+                        },
+                        {
+                            "#cdata-section": "phishing"
+                        },
+                        {
+                            "#cdata-section": "ransomware"
+                        },
+                        {
+                            "#cdata-section": "report"
+                        },
+                        {
+                            "#cdata-section": "strategy"
+                        },
+                        {
+                            "#cdata-section": "zero trust"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=282830"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>AI, post-quantum cryptography, zero trust, cryptography research, and election security will shape cybersecurity strategies in the present and for 2024, according to NTT. As the world emerged from the pandemic and continued to adapt to the rapid implementation of digital transformation, businesses witnessed the rise of sophisticated ransomware attacks, state-sponsored cyber espionage and the constant need to secure the ever-expanding IoT. AI&#8217;s impact on cybersecurity strategies in 2024 AI promises to impact both cybercriminal behavior &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/2024-cybersecurity-strategies/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/2024-cybersecurity-strategies/\">AI disinformation campaigns pose major threat to 2024 elections</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "Transforming cybersecurity from reactive to proactive with attack path analysis",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/attack-path-analysis-video/",
+                    "dc:creator": {
+                        "#cdata-section": "Help Net Security"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 05:00:51 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Don't miss"
+                        },
+                        {
+                            "#cdata-section": "Hot stuff"
+                        },
+                        {
+                            "#cdata-section": "Video"
+                        },
+                        {
+                            "#cdata-section": "attack"
+                        },
+                        {
+                            "#cdata-section": "cloud"
+                        },
+                        {
+                            "#cdata-section": "cybercriminals"
+                        },
+                        {
+                            "#cdata-section": "cybersecurity"
+                        },
+                        {
+                            "#cdata-section": "risk"
+                        },
+                        {
+                            "#cdata-section": "Skybox Security"
+                        },
+                        {
+                            "#cdata-section": "video"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=281909"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>An attack path is important to prioritize potential risks in cloud environments. The attack path offers the ability to look at cloud environments from the attacker&#8217;s perspective. With today’s general awareness and concerted effort toward cybersecurity, cybercriminals rarely find a single gaping loophole or a silver bullet through which an entire enterprise system is compromised. Instead, they often capitalize on a series of vulnerabilities that successively lead them to discover an exploitable path to confidential &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/attack-path-analysis-video/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/attack-path-analysis-video/\">Transforming cybersecurity from reactive to proactive with attack path analysis</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                },
+                {
+                    "title": "ChatGPT’s popularity triggers global generative AI investment surge",
+                    "link": "https://www.helpnetsecurity.com/2023/11/17/generative-ai-investment-surge/",
+                    "dc:creator": {
+                        "#cdata-section": "Help Net Security"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 04:30:51 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "artificial intelligence"
+                        },
+                        {
+                            "#cdata-section": "automation"
+                        },
+                        {
+                            "#cdata-section": "Generative AI"
+                        },
+                        {
+                            "#cdata-section": "IDC"
+                        },
+                        {
+                            "#cdata-section": "investment"
+                        },
+                        {
+                            "#cdata-section": "IT"
+                        },
+                        {
+                            "#cdata-section": "regulation"
+                        },
+                        {
+                            "#cdata-section": "report"
+                        },
+                        {
+                            "#cdata-section": "survey"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.helpnetsecurity.com/?p=282448"
+                    },
+                    "description": {
+                        "#cdata-section": "<p>While AI is not a new technology – companies have been investing heavily in predictive and interpretive AI for years – the announcement of the GPT-3.5 series from OpenAI in late 2022 captured the world&#8217;s attention and triggered a surge of investment in generative AI, according to IDC. As a result, IDC expects worldwide spending on AI solutions will grow to more than $500 billion in 2027. In turn, most organizations will experience a notable &#8230; <a href=\"https://www.helpnetsecurity.com/2023/11/17/generative-ai-investment-surge/\" rel=\"nofollow\">More <span class=\"meta-nav\">&#8594;</span></a></p>\n<p>The post <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com/2023/11/17/generative-ai-investment-surge/\">ChatGPT’s popularity triggers global generative AI investment surge</a> appeared first on <a rel=\"nofollow\" href=\"https://www.helpnetsecurity.com\">Help Net Security</a>.</p>\n"
+                    }
+                }
+            ]
+        }
+    }
+}
