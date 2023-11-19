@@ -1,0 +1,319 @@
+{
+    "rss": {
+        "@xmlns:a10": "http://www.w3.org/2005/Atom",
+        "@version": "2.0",
+        "channel": {
+            "title": "Cyber Security Advisories - MS-ISAC",
+            "link": "https://www.cisecurity.org/feed/advisories",
+            "description": "The latest MS-ISAC cyber security advisories. Feed provided by Center for Internet Security.",
+            "language": "en",
+            "image": {
+                "url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/img/uploads/2020/04/cropped-cis-512x512-1-32x32.png?h=32&w=32&rev=023ed3a07d874562a4ebce861c4525f0",
+                "title": "Cyber Security Advisories - MS-ISAC",
+                "link": "https://www.cisecurity.org/feed/advisories"
+            },
+            "item": [
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-fortinet-fortisiem-could-allow-for-remote-code-execution_2023-135",
+                    "title": "A Vulnerability in Fortinet FortiSIEM Could Allow for Remote Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Fortinet FortiSIEM, which could allow for remote code execution. Successful exploitation of this vulnerability could allow for remote code execution in the context of the affected service account. Depending on the privileges associated with the service account an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Service accounts that are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Fri, 17 Nov 2023 12:06:12 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2023-133",
+                    "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution. </p>\n<ul>\n<li>Adobe ColdFusion is a commercial rapid web-application development computing platform.</li>\n<li>Adobe RoboHelp Server is a server based help solution.</li>\n<li>Adobe Acrobat and Reader is a PDF reader app lets you view, comment, fill out, and sign PDF forms.</li>\n<li>Adobe InDesign is a desktop publishing and page layout designing software.</li>\n<li>Adobe Photoshop is a raster graphics editor.</li>\n<li>Adobe Bridge is a free digital asset management app.</li>\n<li>Adobe FrameMaker is a document processor designed for writing and editing large or complex documents, including structured documents.</li>\n<li>Adobe InCopy is a professional word processor.</li>\n<li>Adobe Animate is a multimedia authoring and computer animation program.</li>\n<li>Adobe Dimension is a 3D rendering and design software.</li>\n<li>Adobe Media Encoder is a video processing application.</li>\n<li>Adobe Audition is a digital audio program.</li>\n<li>Adobe Premiere Pro is a timeline-based and non-linear video editing software application.</li>\n<li>Adobe After Effects is a digital visual effects, motion graphics, and compositing application.</li>\n</ul>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 14 Nov 2023 15:31:33 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-november-14-2023_2023-132",
+                    "title": "Critical Patches Issued for Microsoft Products, November 14, 2023",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 14 Nov 2023 13:25:12 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-131",
+                    "title": "A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Google Chrome, which could allow for arbitrary code execution. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Mon, 13 Nov 2023 11:56:21 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-privilege-escalation_2023-130",
+                    "title": "Multiple Vulnerabilities in Google Android OS Could Allow for Privilege Escalation",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for privilege escalation. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for privilege escalation. Depending on the privileges associated with the exploited component, an attacker could then install programs; view, change, or delete data; or create new accounts with full rights.</p>",
+                    "pubDate": "Tue, 07 Nov 2023 09:12:31 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-atlassian-confluence-server-and-data-center-could-allow-for-data-destruction_2023-129",
+                    "title": "A Vulnerability in Atlassian Confluence Server and Data Center Could Allow for Data Destruction",
+                    "description": "<p>A vulnerability has been discovered in Atlassian Confluence Server and Data Center which could allow for data destruction. Confluence is a collaboration tool that brings people, knowledge, and ideas together in a shared workspace. Successful exploitation of this vulnerability could allow an attacker to destroy instance data.</p>",
+                    "pubDate": "Fri, 03 Nov 2023 18:46:16 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-128",
+                    "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Successful exploitation of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Thu, 02 Nov 2023 13:30:00 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2023-127",
+                    "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 25 Oct 2023 23:46:23 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-126",
+                    "title": "A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution. ChromeOS is a Linux-based operating system developed and designed by Google. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 25 Oct 2023 16:14:32 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2023-125",
+                    "title": "Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution.  </p>\n<ul>\n<li>Mozilla Firefox is a web browser used to access the Internet. </li>\n<li>Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations.</li>\n<li>Mozilla Thunderbird is an email client.  </li>\n</ul>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 24 Oct 2023 19:44:59 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-chromeos-could-allow-for-arbitrary-code-execution_2023-124",
+                    "title": "Multiple Vulnerabilities in ChromeOS Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in ChromeOS, the most severe of which could allow for arbitrary code execution. ChromeOS is a Linux-based operating system developed and designed by Google. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 18 Oct 2023 21:49:10 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/oracle-quarterly-critical-patches-issued-october-17-2023_2023-123",
+                    "title": "Oracle Quarterly Critical Patches Issued October 17, 2023",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Oracle products, which could allow for remote code execution.</p>",
+                    "pubDate": "Tue, 17 Oct 2023 18:41:00 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-ios-xe-software-web-ui-could-allow-for-privilege-escalation_2023-122",
+                    "title": "A Vulnerability in Cisco IOS XE Software Web UI Could Allow for Privilege Escalation",
+                    "description": "<p>A vulnerability in Cisco IOS XE Software Web UI that could allow for privilege escalation. Successful exploitation could allow an unauthenticated remote attacker to create an account on an affected system with privilege level 15 access, allowing them to use that account to gain control of the affected system. The Cisco IOS XE Software web UI is an embedded GUI-based system-management tool, that comes with the default image.</p>",
+                    "pubDate": "Mon, 16 Oct 2023 22:22:03 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-121",
+                    "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 10 Oct 2023 22:47:30 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2023-120",
+                    "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution. </p>\n<ul>\n<li>Adobe Bridge is a free digital asset management app.</li>\n<li>Adobe Commerce is an ecommerce platform.</li>\n<li>Adobe Photoshop is a raster graphics editor.<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Tue, 10 Oct 2023 17:38:20 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-october-10-2023_2023-119",
+                    "title": "Critical Patches Issued for Microsoft Products, October 10, 2023",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 10 Oct 2023 17:26:42 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-apple-products-could-allow-for-privilege-escalation_2023-118",
+                    "title": "A Vulnerability in Apple Products Could Allow for Privilege Escalation",
+                    "description": "<p>A vulnerability has been discovered in Apple products, which could allow for privilege escalation. Successful exploitation of this vulnerability could allow for privilege escalation in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Fri, 06 Oct 2023 20:22:47 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2023-117",
+                    "title": "Multiple Vulnerabilities in Google Android OS Could Allow for Remote Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution. Depending on the privileges associated with the exploited component, an attacker could then install programs; view, change, or delete data; or create new accounts with full rights.<br />\nOctober 9th – UPDATED OVERVIEW:<br />\nGoogle Android has released Android 14 with a new set of remote code execution vulnerabilities.</p>",
+                    "pubDate": "Thu, 05 Oct 2023 22:03:21 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-progress-ws_ftp-server-could-allow-for-remote-command-execution_2023-116",
+                    "title": "Multiple Vulnerabilities in Progress WS_FTP Server Could Allow for Remote Command Execution.",
+                    "description": "<p>Multiple vulnerabilities in Progress WS_FTP Server have been discovered, the most severe of which could allow for remote command execution. Progress WS_FTP Server is used is to securely store, share and transfer information between systems, applications, groups and individuals. Successful exploitation of the most severe of these vulnerabilities could allow for remote command execution in the context of the service account. Depending on the privileges associated with the service account, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Service accounts that are configured to have fewer user rights on the system could be less impacted than those that operate with administrative user rights.</p>",
+                    "pubDate": "Thu, 05 Oct 2023 16:28:42 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-atlassian-confluence-server-and-data-center-could-allow-for-privilege-escalation_2023-115",
+                    "title": "A Vulnerability in Atlassian Confluence Server and Data Center Could Allow for Privilege Escalation",
+                    "description": "<p>A vulnerability has been discovered in Atlassian Confluence Server and Data Center, which could allow for Privilege Escalation. Confluence is a collaboration tool that brings people, knowledge, and ideas together in a shared workspace. Successful exploitation of this vulnerability could allow an attacker to create unauthorized Confluence administrator accounts to access the instance. An attacker could then perform administrator actions in the context of the confluence instance.</p>",
+                    "pubDate": "Thu, 05 Oct 2023 14:29:39 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-emergency-responder-could-allow-for-arbitrary-code-execution_2023-114",
+                    "title": "A Vulnerability in Cisco Emergency Responder Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Cisco Emergency Responder that could allow for arbitrary code execution on a targeted host. Successful exploitation could allow an unauthenticated remote attacker to log in to the affected system using the root account and execute arbitrary commands. Cisco Emergency Responder is used to enhance the existing emergency 9-1-1 functionality offered by Cisco Unified Communications Manager. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Thu, 05 Oct 2023 14:26:13 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-exim-could-allow-for-arbitrary-code-execution_2023-113",
+                    "title": "A Vulnerability in EXIM Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in EXIM which could allow for arbitrary code execution. Exim is a mail transfer agent (MTA) for hosts that are running Unix or Unix-like operating systems. Successful exploitation of this vulnerability could allow for arbitrary code execution in the context of the service account. An unauthenticated attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+                    "pubDate": "Mon, 02 Oct 2023 07:43:03 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-112",
+                    "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Thu, 28 Sep 2023 07:55:32 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-cisco-catalyst-sd-wan-manager-could-allow-for-unauthorized-access_2023-111",
+                    "title": "Multiple Vulnerabilities in Cisco Catalyst SD-WAN Manager Could Allow for Unauthorized Access",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Cisco Catalyst SD-WAN Manager, the most severe of which could allow for unauthorized access on the targeted host. Cisco SD-WAN Manager is a centralized network management system. Successful exploitation of the most severe of these vulnerabilities could allow for unauthorized access. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 27 Sep 2023 15:52:23 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2023-110",
+                    "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Apple products, the most severe of which could allow for arbitrary code execution.</p>\n<ul>\n<li>macOS Sonoma is the current major release of macOS</li>\n<li>Safari is a web browser developed by Apple<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Wed, 27 Sep 2023 11:07:36 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2023-109",
+                    "title": "Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution.  </p>\n<ul>\n<li>Mozilla Firefox is a web browser used to access the Internet. </li>\n<li>Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations.</li>\n<li>Mozilla Thunderbird is an email client.<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Wed, 27 Sep 2023 08:29:46 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2023-108",
+                    "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Apple Products, the most severe of which could allow for arbitrary code execution.</p>\n<ul>\n<li>iOS is a mobile operating system for mobile devices, including the iPhone, iPad, and iPod touch.</li>\n<li>iPadOS is the successor to iOS 12 and is a mobile operating system for iPads.</li>\n<li>macOS Ventura is the 19th and current major release of macOS</li>\n<li>macOS Monterey is the 18th major release of macOS</li>\n<li>watchOS is the mobile operating system for Apple Watch and is based on the iOS operating system.</li>\n<li>Safari is a web browser developed by Apple<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Thu, 21 Sep 2023 20:36:18 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-drupal-could-allow-for-privilege-escalation_2023-107",
+                    "title": "A Vulnerability in Drupal Could Allow for Privilege Escalation",
+                    "description": "<p>A vulnerability has been discovered in Drupal that could allow for privilege escalation. Drupal is an open source content management platform supporting a variety of websites ranging from personal weblogs to large community-driven websites. Successful exploitation of this vulnerability may cause sensitive information to be cached and made available to anonymous users, leading to privilege escalation.</p>",
+                    "pubDate": "Thu, 21 Sep 2023 20:36:06 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/updated-ms-isac-cybersecurity-advisory---multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution-patch-now---tlp-clear_2023-100",
+                    "title": "UPDATED – MS-ISAC CYBERSECURITY ADVISORY - Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution PATCH: NOW - TLP: CLEAR",
+                    "description": "<p>Additional systems were found to be affected by vulnerabilities, the most severe of which could allow for arbitrary code execution.</p>",
+                    "pubDate": "Thu, 21 Sep 2023 20:35:50 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-mozilla-products-could-allow-for-arbitrary-code-execution_2023-106",
+                    "title": "A Vulnerability in Mozilla Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Mozilla products, which could allow for arbitrary code execution. </p>\n<ul>\n<li>Mozilla Firefox is a web browser used to access the Internet. </li>\n<li>Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations.</li>\n<li>Mozilla Thunderbird is an email client. </li>\n</ul>\n<p>Successful exploitation of this vulnerability could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 13 Sep 2023 17:58:01 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2023-105",
+                    "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution. </p>\n<ul>\n<li>Adobe Acrobat is used to view, create, print, and manage PDF files</li>\n<li>Adobe Reader is used to view, create, print, and manage PDF files</li>\n<li>Adobe Experience Manager is a comprehensive content management solution for building websites, mobile apps and forms</li>\n<li>Adobe Connect is a suite of software for remote training, web conferencing, presentation, and desktop sharing<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Tue, 12 Sep 2023 15:04:28 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-september-12-2023_2023-104",
+                    "title": "Critical Patches Issued for Microsoft Products, September 12, 2023",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 12 Sep 2023 14:45:46 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-103",
+                    "title": "A Vulnerability in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Google Chrome which could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 12 Sep 2023 10:42:00 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-notepad-could-allow-for-arbitrary-code-execution_2023-102",
+                    "title": "Multiple Vulnerabilities in Notepad++ Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Notepad++, the most severe of which could result in arbitrary code execution. Notepad++ is a free and open-source text and source code editor for use with Microsoft Windows. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 12 Sep 2023 09:04:58 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-adaptive-security-appliance-asa-software-and-cisco-firepower-threat-defense-ftd-software-could-allow-for-unauthorized-access_2023-101",
+                    "title": "A Vulnerability in Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) Software Could Allow for Unauthorized Access",
+                    "description": "<p>A vulnerability has been discovered in Cisco Adaptive Security Appliance (ASA) Software and Cisco Firepower Threat Defense (FTD) software that could allow for unauthorized access. Cisco Adaptive Security Appliance (ASA) Software is the core operating system for the Cisco ASA Family. It delivers enterprise-class firewall capabilities for ASA devices in an array of form factors for any distributed network environment. Cisco Firepower Threat Defense (FTD) Software is an integrative software image combining CISCO ASA and Firepower feature into one hardware and software inclusive system to assist in flagging specific network traffic patterns, create alerts and better control your network. An attacker could exploit this vulnerability by specifying a default connection profile/tunnel group while conducting a brute force attack or while establishing a clientless SSL VPN session using valid credentials. Utilizing the brute force attack to obtain valid credentials, an attacker could use this to establish unauthorized VPN sessions and then install ransomware.</p>",
+                    "pubDate": "Mon, 11 Sep 2023 13:53:21 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-cisco-broadworks-application-delivery-platform-and-xtended-services-platform-could-allow-for-arbitrary-code-execution_2023-099",
+                    "title": "A Vulnerability in Cisco BroadWorks Application Delivery Platform and Xtended Services Platform Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Cisco BroadWorks Application Delivery Platform and Xtended Services Platform which could allow for arbitrary code execution. Cisco BroadWorks Application Delivery Platform and Xtended Services Platform is an enterprise-grade calling and collaboration platform that integrates with Cisco Webex to meet the full range of enterprise communications and collaboration needs. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 06 Sep 2023 15:42:51 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-098",
+                    "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 05 Sep 2023 16:35:55 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-vmware-aria-operations-for-networks-could-allow-for-remote-code-execution_2023-097",
+                    "title": "Multiple Vulnerabilities in VMware Aria Operations for Networks Could Allow for Remote Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered within VMware Aria Operations for Networks, the most severe of which could allow for remote code execution. VMware Aria Operations for Networks is a network monitoring tool that collects and analyzes metrics, APIs, configurations, metadata, integrations, telemetry netflow, sFlow, and IPFIX flow traffic, which traverses the infrastructure. Successful exploitation of these vulnerabilities could allow for remote code execution in the context of the administrator account. An attacker could then install programs; view, change, or delete data; or create new accounts with full user rights.</p>",
+                    "pubDate": "Wed, 30 Aug 2023 19:05:53 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2023-096",
+                    "title": "Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution.  </p>\n<ul>\n<li>Mozilla Firefox is a web browser used to access the Internet. </li>\n<li>Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations.</li>\n<li>Mozilla Thunderbird is an email client.<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Tue, 29 Aug 2023 17:16:20 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-chromeos-could-allow-for-arbitrary-code-execution_2023-095",
+                    "title": "Multiple Vulnerabilities in ChromeOS Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in ChromeOS, the most severe of which could allow for arbitrary code execution. ChromeOS is a Linux-based operating system developed and designed by Google. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Mon, 28 Aug 2023 09:58:28 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-094",
+                    "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 23 Aug 2023 02:53:00 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-junos-os-could-allow-for-remote-code-execution_2023-093",
+                    "title": "Multiple Vulnerabilities in Junos OS Could Allow for Remote Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Junos OS, which. when chained together. could allow for remote code execution. Junos OS is an operating system that runs across all Juniper routing, switching, and security infrastructure. Successful chain exploitation of these vulnerabilities could allow for remote code execution in the context of the affected service account. Depending on the privileges associated with the service account an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Service accounts that are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Sat, 19 Aug 2023 03:36:48 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-chrome-could-allow-for-arbitrary-code-execution_2023-092",
+                    "title": "Multiple Vulnerabilities in Google Chrome Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Chrome, the most severe of which could allow for arbitrary code execution. Google Chrome is a web browser used to access the internet. Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 16 Aug 2023 04:01:17 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-adobe-products-could-allow-for-arbitrary-code-execution_2023-091",
+                    "title": "Multiple Vulnerabilities in Adobe Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Adobe products, the most severe of which could allow for arbitrary code execution. </p>\n<ul>\n<li>Adobe Acrobat is used to view, create, print, and manage PDF files.</li>\n<li>Adobe Reader is used to view, create, print, and manage PDF files</li>\n<li>Adobe Commerce is an offering that provides companies with a flexible and scalable end-to-end plate form to manage commerce experiences of their customers.<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Wed, 09 Aug 2023 07:02:36 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/critical-patches-issued-for-microsoft-products-august-08-2023_2023-090",
+                    "title": "Critical Patches Issued for Microsoft Products, August 08, 2023",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Microsoft products, the most severe of which could allow for remote code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Tue, 08 Aug 2023 15:30:54 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-google-android-os-could-allow-for-remote-code-execution_2023-089",
+                    "title": "Multiple Vulnerabilities in Google Android OS Could Allow for Remote Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Google Android OS, the most severe of which could allow for remote code execution. Android is an operating system developed by Google for mobile devices, including, but not limited to, smartphones, tablets, and watches. Successful exploitation of the most severe of these vulnerabilities could allow for remote code execution. Depending on the privileges associated with the exploited component, an attacker could then install programs; view, change, or delete data; or create new accounts with full rights.</p>",
+                    "pubDate": "Mon, 07 Aug 2023 15:50:09 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-mozilla-products-could-allow-for-arbitrary-code-execution_2023-088",
+                    "title": "Multiple Vulnerabilities in Mozilla Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple vulnerabilities have been discovered in Mozilla products, the most severe of which could allow for arbitrary code execution.  </p>\n<ul>\n<li>Mozilla Firefox is a web browser used to access the Internet. </li>\n<li>Mozilla Firefox ESR is a version of the web browser intended to be deployed in large organizations.</li>\n<li>Mozilla Thunderbird is an email client. </li>\n</ul>\n<p>Successful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution. Depending on the privileges associated with the user an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</p>",
+                    "pubDate": "Wed, 02 Aug 2023 13:53:31 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-ivanti-endpoint-manager-mobile-could-allow-for-arbitrary-code-execution_2023-087",
+                    "title": "A Vulnerability in Ivanti Endpoint Manager Mobile Could Allow for Arbitrary Code Execution",
+                    "description": "<p>A vulnerability has been discovered in Ivanti Endpoint Manager (EPMM), formerly known as MobileIron Core; which could allow for arbitrary code execution. Ivanti Endpoint Manager Mobile is a mobile management software engine that enables IT to set policies for mobile devices, applications and content. If successfully exploited, an attacker could perform arbitrary file writes to the EPMM server.</p>",
+                    "pubDate": "Fri, 28 Jul 2023 22:53:04 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-apple-products-could-allow-for-arbitrary-code-execution_2023-086",
+                    "title": "Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution",
+                    "description": "<p>Multiple Vulnerabilities in Apple Products Could Allow for Arbitrary Code Execution<br />\nOVERVIEW:<br />\nMultiple vulnerabilities have been discovered in Apple Products, the most severe of which could allow for arbitrary code execution.</p>\n<ul>\n<li>Safari is a web browser developed by Apple.</li>\n<li>iOS is a mobile operating system for mobile devices, including the iPhone, iPad, and iPod touch.</li>\n<li>iPadOS is the successor to iOS 12 and is a mobile operating system for iPads.</li>\n<li>macOS Ventura is the 19th and current major release of macOS</li>\n<li>macOS Monterey is the 18th and release of macOS.</li>\n<li>macOS Big Sur is the 17th release of macOS.</li>\n<li>tvOS is the operating system for the Apple TV based on Mac OS X.</li>\n<li>watchOS is the mobile operating system for Apple Watch and is based on the iOS operating system.<br />\nSuccessful exploitation of the most severe of these vulnerabilities could allow for arbitrary code execution in the context of the logged on user. Depending on the privileges associated with the user, an attacker could then install programs; view, change, or delete data; or create new accounts with full user rights. Users whose accounts are configured to have fewer user rights on the system could be less impacted than those who operate with administrative user rights.</li>\n</ul>",
+                    "pubDate": "Tue, 25 Jul 2023 15:22:11 Z"
+                },
+                {
+                    "link": "https://www.cisecurity.org/advisory/a-vulnerability-in-ivanti-endpoint-manager-mobile-could-allow-for-unauthorized-access-to-api-paths_2023-085",
+                    "title": "A Vulnerability in Ivanti Endpoint Manager Mobile Could Allow for Unauthorized Access to API Paths",
+                    "description": "<p>A vulnerability has been discovered in Ivanti Endpoint Manager Mobile which could allow for unauthorized access to specific API paths. Ivanti Endpoint Manager Mobile is a mobile management software engine that enables IT to set policies for mobile devices, applications and content. If successfully exploited, an attacker could gain unauthorized access to the database, potentially accessing users’ personally identifiable information such as names and phone numbers. Additionally, the attacker can potentially make configuration changes to the server, including creating an administrative account that can make further changes to a vulnerable system.</p>",
+                    "pubDate": "Tue, 25 Jul 2023 03:07:48 Z"
+                }
+            ]
+        }
+    }
+}

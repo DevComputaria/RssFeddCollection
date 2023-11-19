@@ -1,0 +1,839 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "channel": {
+            "title": "Graham Cluley",
+            "atom:link": {
+                "@href": "https://grahamcluley.com/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://grahamcluley.com",
+            "description": "Cybersecurity keynote speaker, news and opinion",
+            "lastBuildDate": "Wed, 15 Nov 2023 22:02:56 +0000",
+            "language": "en-GB",
+            "sy:updatePeriod": "\n\thourly\t",
+            "sy:updateFrequency": "\n\t1\t",
+            "generator": "https://wordpress.org/?v=6.4.1",
+            "image": {
+                "url": "https://grahamcluley.com/wp-content/uploads/2022/12/cropped-android-chrome-512x512-2-32x32.png",
+                "title": "Graham Cluley",
+                "link": "https://grahamcluley.com",
+                "width": "32",
+                "height": "32"
+            },
+            "item": [
+                {
+                    "title": "Smashing Security podcast #348: Hacking for chimp change, and AI chatbot birthday",
+                    "link": "https://grahamcluley.com/smashing-security-podcast-348/",
+                    "comments": "https://grahamcluley.com/smashing-security-podcast-348/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 00:01:35 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Podcast"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability"
+                        },
+                        {
+                            "#cdata-section": "cryptocurrency"
+                        },
+                        {
+                            "#cdata-section": "Smashing Security"
+                        },
+                        {
+                            "#cdata-section": "vulnerability"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338512"
+                    },
+                    "description": {
+                        "#cdata-section": "Who's more incompetent - the cryptocurrency exchanges or some of the people who hack them?  Plus a closer look at the reliability of AI chatbots.\r\n\r\nAll this and more is discussed in the latest edition of the \"Smashing Security\" podcast by cybersecurity veterans Graham Cluley and Carole Theriault."
+                    },
+                    "wfw:commentRss": "https://grahamcluley.com/smashing-security-podcast-348/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "World’s biggest bank hit by ransomware, forced to trade via USB stick",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/worlds-biggest-bank-hit-by-ransomware-forced-to-trade-via-usb-stick/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/worlds-biggest-bank-hit-by-ransomware-forced-to-trade-via-usb-stick/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 13:06:45 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Ransomware"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability"
+                        },
+                        {
+                            "#cdata-section": "Banking"
+                        },
+                        {
+                            "#cdata-section": "citrix"
+                        },
+                        {
+                            "#cdata-section": "ransomware"
+                        },
+                        {
+                            "#cdata-section": "vulnerability"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338502"
+                    },
+                    "description": {
+                        "#cdata-section": "The US trading arm of the Industrial and Commercial Bank of China (ICBC) has been hit by a ransomware attack that reportedly forced it to handle trades via messengers carrying USB thumb drives across Manhattan.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/worlds-biggest-bank-hit-by-ransomware-forced-to-trade-via-usb-stick/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "CherryBlos, the malware that steals cryptocurrency via your photos – what you need to know",
+                    "link": "https://www.tripwire.com/state-of-security/cherryblos-malware-steals-cryptocurrency-your-photos-what-you-need-know",
+                    "comments": "https://www.tripwire.com/state-of-security/cherryblos-malware-steals-cryptocurrency-your-photos-what-you-need-know#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 10:30:44 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Android"
+                        },
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Phishing"
+                        },
+                        {
+                            "#cdata-section": "cryptocurrency"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338506"
+                    },
+                    "description": {
+                        "#cdata-section": ""
+                    },
+                    "wfw:commentRss": "https://www.tripwire.com/state-of-security/cherryblos-malware-steals-cryptocurrency-your-photos-what-you-need-know/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Smashing Security podcast #347: Trolls, military data, and the hitman and her",
+                    "link": "https://grahamcluley.com/smashing-security-podcast-347/",
+                    "comments": "https://grahamcluley.com/smashing-security-podcast-347/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 00:01:57 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Law & order"
+                        },
+                        {
+                            "#cdata-section": "Podcast"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "military"
+                        },
+                        {
+                            "#cdata-section": "Smashing Security"
+                        },
+                        {
+                            "#cdata-section": "TikTok"
+                        },
+                        {
+                            "#cdata-section": "troll"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338493"
+                    },
+                    "description": {
+                        "#cdata-section": "A woman's attempt to hire an assassin online backfires badly, it's scary just how cheap it is to buy information about US military personnel, and trolls and tattoos don't mix.\r\n\r\nAll this and much much more is discussed in the latest edition of the \"Smashing Security\" podcast by cybersecurity veterans Graham Cluley and Carole Theriault, joined this week by The Cyberwire's Dave Bittner.\r\n\r\nPlus don’t miss our featured interview with Jason Meller of Kolide."
+                    },
+                    "wfw:commentRss": "https://grahamcluley.com/smashing-security-podcast-347/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Women sue plastic surgery after hack saw their naked photos posted online",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/women-sue-plastic-surgery-after-hack-saw-their-naked-photos-posted-online/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/women-sue-plastic-surgery-after-hack-saw-their-naked-photos-posted-online/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 19:38:10 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "Ransomware"
+                        },
+                        {
+                            "#cdata-section": "cosmetic surgery"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "extortion"
+                        },
+                        {
+                            "#cdata-section": "ransomware"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338489"
+                    },
+                    "description": {
+                        "#cdata-section": "Photos of naked patients and medical records have been posted online by extortionists who hacked a Las Vegas plastic surgery, driving victims to file a lawsuit claiming not enough care was taken to protect their private information.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/women-sue-plastic-surgery-after-hack-saw-their-naked-photos-posted-online/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Making iPhones and iPads crash with a Flipper Zero",
+                    "link": "https://grahamcluley.com/making-iphones-and-ipads-crash-with-a-flipper-zero/",
+                    "comments": "https://grahamcluley.com/making-iphones-and-ipads-crash-with-a-flipper-zero/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 11:32:41 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Denial of Service"
+                        },
+                        {
+                            "#cdata-section": "iOS"
+                        },
+                        {
+                            "#cdata-section": "Vulnerability"
+                        },
+                        {
+                            "#cdata-section": "Flipper Zero"
+                        },
+                        {
+                            "#cdata-section": "ios"
+                        },
+                        {
+                            "#cdata-section": "iPad"
+                        },
+                        {
+                            "#cdata-section": "iPhone"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338483"
+                    },
+                    "description": {
+                        "#cdata-section": "Want to crash someone's iPhone or iPad?  Turns out it's not that tricky, if you have a Flipper Zero."
+                    },
+                    "wfw:commentRss": "https://grahamcluley.com/making-iphones-and-ipads-crash-with-a-flipper-zero/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Cancer treatments cancelled after Canadian hospitals hit by ransomware attack",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/cancer-treatments-cancelled-after-canadian-hospitals-hit-by-ransomware-attack/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/cancer-treatments-cancelled-after-canadian-hospitals-hit-by-ransomware-attack/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 10:17:45 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Ransomware"
+                        },
+                        {
+                            "#cdata-section": "Canada"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "hospital"
+                        },
+                        {
+                            "#cdata-section": "ransomware"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338479"
+                    },
+                    "description": {
+                        "#cdata-section": "A ransomware attack impacting five hospitals in southwestern Ontario, Canada, has seen hackers gain access to a database containing 5.6 million patient visits, and the social insurance numbers of over 1400 employees.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/cancer-treatments-cancelled-after-canadian-hospitals-hit-by-ransomware-attack/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Google hopes to better fight malicious apps with real-time scanning on Android devices",
+                    "link": "https://www.tripwire.com/state-of-security/google-hopes-better-fight-malicious-apps-real-time-scanning-android-devices",
+                    "comments": "https://www.tripwire.com/state-of-security/google-hopes-better-fight-malicious-apps-real-time-scanning-android-devices#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 11:02:10 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Android"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Google"
+                        },
+                        {
+                            "#cdata-section": "Google Play"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338475"
+                    },
+                    "description": {
+                        "#cdata-section": "Google has added a new real-time app scanning capability to Google Play Protect in order to help it better protect against malicious apps installed from outside the official app store.\r\n\r\nRead more in my article on the Tripwire State of Security blog."
+                    },
+                    "wfw:commentRss": "https://www.tripwire.com/state-of-security/google-hopes-better-fight-malicious-apps-real-time-scanning-android-devices/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Securing the future of Industry 4.0: WALLIX white paper reveals key strategies – get your copy today!",
+                    "link": "https://grahamcluley.com/feed-sponsor-wallix/",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Fri, 03 Nov 2023 11:13:11 +0000",
+                    "category": {
+                        "#cdata-section": "Feed only"
+                    },
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=13338317"
+                    },
+                    "description": {
+                        "#cdata-section": "Graham Cluley Security News is sponsored this week by the folks at WALLIX. Thanks to the great team there for their support! In the rapidly evolving landscape of Industry 4.0, marked by rapid innovation and unparalleled connectivity, safeguarding your critical assets is non-negotiable. As industries like Manufacturing, Utilities, Energy, and Transportation undergo profound digital transformations, &#8230; <a href=\"https://grahamcluley.com/feed-sponsor-wallix/\" class=\"more-link\">Continue reading<span class=\"screen-reader-text\"> \"Securing the future of Industry 4.0: WALLIX white paper reveals key strategies &#8211; get your copy today!\"</span></a>"
+                    }
+                },
+                {
+                    "title": "Smashing Security podcast #346: How hackers are breaching Booking.com, and the untrustworthy reviews",
+                    "link": "https://grahamcluley.com/smashing-security-podcast-346/",
+                    "comments": "https://grahamcluley.com/smashing-security-podcast-346/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 02 Nov 2023 00:01:15 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Phishing"
+                        },
+                        {
+                            "#cdata-section": "Podcast"
+                        },
+                        {
+                            "#cdata-section": "AI"
+                        },
+                        {
+                            "#cdata-section": "booking.com"
+                        },
+                        {
+                            "#cdata-section": "phishing"
+                        },
+                        {
+                            "#cdata-section": "reviews"
+                        },
+                        {
+                            "#cdata-section": "Smashing Security"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338463"
+                    },
+                    "description": {
+                        "#cdata-section": "Workers wonder if their colleagues are actually AI, and we take a deeper look into the curious scams going on via Booking.com.\r\n\r\nAll this and more is discussed in the latest edition of the \"Smashing Security\" podcast by cybersecurity veterans Graham Cluley and Carole Theriault."
+                    },
+                    "wfw:commentRss": "https://grahamcluley.com/smashing-security-podcast-346/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "India’s biggest data breach? Hacking gang claims to have stolen 815 million people’s personal information",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/indias-biggest-data-breach-hacking-gang-claims-to-have-stolen-815-million-peoples-personal-information/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/indias-biggest-data-breach-hacking-gang-claims-to-have-stolen-815-million-peoples-personal-information/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Tue, 31 Oct 2023 18:59:17 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "biometrics"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "india"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338459"
+                    },
+                    "description": {
+                        "#cdata-section": "The personal information of more than 815 million people in India has reportedly been leaked online.\r\n\r\nAccording to local media reports, hackers have offered for sale the personally identifiable information (PII) - including that found on Aadhaar identity cards - belonging to hundreds of millions of Indian residents.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/indias-biggest-data-breach-hacking-gang-claims-to-have-stolen-815-million-peoples-personal-information/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Have you accidentally hired a North Korean IT worker who’s spying on your company?",
+                    "link": "https://grahamcluley.com/have-you-accidentally-hired-a-north-korean-it-worker-whos-spying-on-your-company/",
+                    "comments": "https://grahamcluley.com/have-you-accidentally-hired-a-north-korean-it-worker-whos-spying-on-your-company/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Fri, 27 Oct 2023 12:03:49 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "Security threats"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "espionage"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "North Korea"
+                        },
+                        {
+                            "#cdata-section": "Recruitment"
+                        },
+                        {
+                            "#cdata-section": "South Korea"
+                        },
+                        {
+                            "#cdata-section": "United States"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338453"
+                    },
+                    "description": {
+                        "#cdata-section": "South Korea and the United States's FBI are warning organisations that they might have inadvertently recruited a North Korean spy to work in their IT department."
+                    },
+                    "wfw:commentRss": "https://grahamcluley.com/have-you-accidentally-hired-a-north-korean-it-worker-whos-spying-on-your-company/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Phony Corsair job vacancy targets LinkedIn users with DarkGate malware",
+                    "link": "https://www.tripwire.com/state-of-security/phony-job-vacancy-targets-linkedin-users-darkgate-malware",
+                    "comments": "https://www.tripwire.com/state-of-security/phony-job-vacancy-targets-linkedin-users-darkgate-malware#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 26 Oct 2023 18:24:21 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Facebook"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "LinkedIn"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "linkedin"
+                        },
+                        {
+                            "#cdata-section": "Vietnam"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338448"
+                    },
+                    "description": {
+                        "#cdata-section": "A Vietnamese cybercrime gang is being blamed for a malware campaign that has seen bogus adverts posted on LinkedIn, pretending to be related to jobs at computer memory and gaming accessories firm Corsair.\r\n\r\nRead more in my article on the Tripwire State of Security blog."
+                    },
+                    "wfw:commentRss": "https://www.tripwire.com/state-of-security/phony-job-vacancy-targets-linkedin-users-darkgate-malware/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Ambulances diverted after New York hospitals hit by cyber attack",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/ambulances-diverted-after-new-york-hospitals-hit-by-cyber-attack/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/ambulances-diverted-after-new-york-hospitals-hit-by-cyber-attack/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 26 Oct 2023 09:49:38 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Ransomware"
+                        },
+                        {
+                            "#cdata-section": "hospital"
+                        },
+                        {
+                            "#cdata-section": "ransomware"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338444"
+                    },
+                    "description": {
+                        "#cdata-section": "It's all too easy sometimes to imagine that a cyber attack is confined to the digital world, and that - although disruptive - it may not have serious consequences in real life.\r\n\r\nMaybe the attack which happened last week in New York will make you think differently.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/ambulances-diverted-after-new-york-hospitals-hit-by-cyber-attack/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "ASVEL basketball club slam dunked by NoEscape ransomware gang, data stolen",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/asvel-basketball-club-slam-dunked-by-noescape-ransomware-gang-data-stolen/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/asvel-basketball-club-slam-dunked-by-noescape-ransomware-gang-data-stolen/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 26 Oct 2023 09:44:25 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Malware"
+                        },
+                        {
+                            "#cdata-section": "Ransomware"
+                        },
+                        {
+                            "#cdata-section": "basketball"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "ransomware"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338440"
+                    },
+                    "description": {
+                        "#cdata-section": "A high profile French basketball team has fallen victim to the NoEscape ransomware-as-a-service group, who claim to have stolen 32 GB of data including sensitive personal information about the club's star players.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/asvel-basketball-club-slam-dunked-by-noescape-ransomware-gang-data-stolen/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Smashing Security podcast #345: Cyber sloppiness, and why does Google really want to hide your IP address?",
+                    "link": "https://grahamcluley.com/smashing-security-podcast-345/",
+                    "comments": "https://grahamcluley.com/smashing-security-podcast-345/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 26 Oct 2023 06:42:23 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Google"
+                        },
+                        {
+                            "#cdata-section": "Google Chrome"
+                        },
+                        {
+                            "#cdata-section": "Law & order"
+                        },
+                        {
+                            "#cdata-section": "Podcast"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "Security threats"
+                        },
+                        {
+                            "#cdata-section": "23andMe"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "DNA"
+                        },
+                        {
+                            "#cdata-section": "password"
+                        },
+                        {
+                            "#cdata-section": "Philippines"
+                        },
+                        {
+                            "#cdata-section": "Smashing Security"
+                        },
+                        {
+                            "#cdata-section": "Tracking"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338435"
+                    },
+                    "description": {
+                        "#cdata-section": "Ahoy! There's trouble in the South China Seas as Filipino organisations fail to secure their systems, we take a close look at Google IP protection, and we take a look at just how so much genetic profile data leaked out of 23andMe.\r\n\r\nAll this and much much more is discussed in the latest edition of the \"Smashing Security\" podcast by cybersecurity veterans Graham Cluley and Carole Theriault, joined this week by Mark Stockley."
+                    },
+                    "wfw:commentRss": "https://grahamcluley.com/smashing-security-podcast-345/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "How it feels to be a victim of deepfake pornography",
+                    "link": "https://grahamcluley.com/how-it-feels-to-be-a-victim-of-deepfake-pornography/",
+                    "comments": "https://grahamcluley.com/how-it-feels-to-be-a-victim-of-deepfake-pornography/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Wed, 25 Oct 2023 15:33:47 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Law & order"
+                        },
+                        {
+                            "#cdata-section": "Video"
+                        },
+                        {
+                            "#cdata-section": "AI"
+                        },
+                        {
+                            "#cdata-section": "deepfake"
+                        },
+                        {
+                            "#cdata-section": "porn"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338428"
+                    },
+                    "description": {
+                        "#cdata-section": "Helen Mort is an award-winning poet and author.\r\n\r\nShe's also an unwitting victim of deepfake pornography.  She didn't know until someone directed her towards sexually-explicit deepfake images on a porn site.  Images which had her own face edited onto another woman's body."
+                    },
+                    "wfw:commentRss": "https://grahamcluley.com/how-it-feels-to-be-a-victim-of-deepfake-pornography/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Spanish police make 34 arrests, dismantling cybercriminal gang that stole 4 million people’s data",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/spanish-police-make-34-arrests-dismantling-cybercriminal-gang-that-stole-4-million-peoples-data/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/spanish-police-make-34-arrests-dismantling-cybercriminal-gang-that-stole-4-million-peoples-data/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Tue, 24 Oct 2023 20:07:08 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Law & order"
+                        },
+                        {
+                            "#cdata-section": "Phishing"
+                        },
+                        {
+                            "#cdata-section": "phishing"
+                        },
+                        {
+                            "#cdata-section": "Spain"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338416"
+                    },
+                    "description": {
+                        "#cdata-section": "Spanish police have arrested 34 suspected members of a criminal gang that are alleged to have run a variety of scams to steal data from over four million people.\r\n\r\nLaw enforcement agents across the country took part in 16 searches that not only seized electronic equipment and computer databases, four expensive vehicles, and $80,000 Euros but also confiscated a baseball bat, a katana, and two firearms.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/spanish-police-make-34-arrests-dismantling-cybercriminal-gang-that-stole-4-million-peoples-data/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Millions of new 23andMe genetic data profiles leak on cybercrime forum",
+                    "link": "https://www.bitdefender.com/blog/hotforsecurity/millions-of-new-23andme-genetic-data-profiles-leak-on-cybercrime-forum/",
+                    "comments": "https://www.bitdefender.com/blog/hotforsecurity/millions-of-new-23andme-genetic-data-profiles-leak-on-cybercrime-forum/#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 19 Oct 2023 16:03:11 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "23andMe"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "DNA"
+                        },
+                        {
+                            "#cdata-section": "Royalty"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338405"
+                    },
+                    "description": {
+                        "#cdata-section": "Golem, the hacker who leaked the data of one million Ashkenazi Jews from the 23andMe ancestry service earlier this month has now released 4.1 million more genetic data profiles.\r\n\r\nThe hacker claims they've included details of \"the wealthiest people living in the US and Western Europe,\" including the British Royal family.\r\n\r\nRead more in my article on the Hot for Security blog."
+                    },
+                    "wfw:commentRss": "https://www.bitdefender.com/blog/hotforsecurity/millions-of-new-23andme-genetic-data-profiles-leak-on-cybercrime-forum/feed/",
+                    "slash:comments": "0"
+                },
+                {
+                    "title": "Ex-Navy IT manager jailed for selling people’s data on the dark web",
+                    "link": "https://www.tripwire.com/state-of-security/ex-navy-it-manager-jailed-selling-peoples-data-dark-web",
+                    "comments": "https://www.tripwire.com/state-of-security/ex-navy-it-manager-jailed-selling-peoples-data-dark-web#respond",
+                    "dc:creator": {
+                        "#cdata-section": "Graham Cluley"
+                    },
+                    "pubDate": "Thu, 19 Oct 2023 13:30:41 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Data loss"
+                        },
+                        {
+                            "#cdata-section": "Guest blog"
+                        },
+                        {
+                            "#cdata-section": "Law & order"
+                        },
+                        {
+                            "#cdata-section": "Privacy"
+                        },
+                        {
+                            "#cdata-section": "data breach"
+                        },
+                        {
+                            "#cdata-section": "US Navy"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://grahamcluley.com/?p=14338401"
+                    },
+                    "description": {
+                        "#cdata-section": "A former US Navy IT manager has been sentenced to five years and five months in prison after illegally hacking a database containing personally identifiable information (PII) and selling it on the dark web.\r\n\r\nRead more in my article on the Tripwire State of Security blog."
+                    },
+                    "wfw:commentRss": "https://www.tripwire.com/state-of-security/ex-navy-it-manager-jailed-selling-peoples-data-dark-web/feed/",
+                    "slash:comments": "0"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,2244 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@version": "2.0",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "channel": {
+            "title": {
+                "#cdata-section": "Dark Reading"
+            },
+            "description": {
+                "#cdata-section": "Dark Reading: Connecting the Information and Security Community"
+            },
+            "link": "https://www.darkreading.com",
+            "image": {
+                "url": "https://beta.darkreading.com/images/DR-logo-284x42.jpeg",
+                "title": "Dark Reading",
+                "link": "https://www.darkreading.com"
+            },
+            "generator": "Informa Tech",
+            "lastBuildDate": "Sun, 19 Nov 2023 05:18:07 GMT",
+            "atom:link": {
+                "@href": "https://www.darkreading.com/rss.xml",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "copyright": {
+                "#cdata-section": "Copyright (C) 2000-2021 Dark Reading - All rights reserved."
+            },
+            "language": {
+                "#cdata-section": "en-us"
+            },
+            "item": [
+                {
+                    "title": {
+                        "#cdata-section": "Hackers Weaponize SEC Disclosure Rules Against Corporate Targets"
+                    },
+                    "description": {
+                        "#cdata-section": "Ransomware group BlackCat/ALPHV files SEC complaint against its latest victim, putting an audacious new twist on cyber extortion tactics."
+                    },
+                    "link": "https://www.darkreading.com/risk/alphv-ransomware-group-files-sec-complaint-against-own-victim",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/risk/alphv-ransomware-group-files-sec-complaint-against-own-victim"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 22:35:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt5e2aa8be1725a20a/6557d41d33f592040ac6ae1f/SEC-Louisa_Svensson-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "VicOne and Block Harbor Deliver Integrated Workflow-Based Cybersecurity System"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/iot/vicone-and-block-harbor-deliver-integrated-workflow-based-cybersecurity-system-for-automotive-oems-and-tier-1-suppliers",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/iot/vicone-and-block-harbor-deliver-integrated-workflow-based-cybersecurity-system-for-automotive-oems-and-tier-1-suppliers"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "CompTIA Advises Retailers to Check their Cybersecurity Preparedness Ahead of the Holiday Shopping Season"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/comptia-advises-retailers-to-check-their-cybersecurity-preparedness-ahead-of-the-holiday-shopping-season",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/comptia-advises-retailers-to-check-their-cybersecurity-preparedness-ahead-of-the-holiday-shopping-season"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 21:56:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "British Library Confirms Ransomware Attack Caused Outages"
+                    },
+                    "description": {
+                        "#cdata-section": "The library said that it expects many of its services to be restored in the forthcoming weeks."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/british-library-confirms-ransomware-attack-caused-outages",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/british-library-confirms-ransomware-attack-caused-outages"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 21:49:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt9566dac32b868e9f/6557da3a4d16c4040acbe644/britishlibrary_Peter_Cripps_alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dark Reading Staff, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt99a085317510bed4/64c2d09eb4efdc3baa62182f/285801_DR23_Graphics_Website_Author_Logo_0.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Scattered Spider Casino Hackers Evade Arrest in Plain Sight"
+                    },
+                    "description": {
+                        "#cdata-section": "The feds seem to know all about the hacking group brazenly breaking into corporate networks; so why are enterprise teams left on their own to stop their cybercrimes? "
+                    },
+                    "link": "https://www.darkreading.com/threat-intelligence/scattered-spider-casino-hackers-evade-arrest-plain-sight",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/threat-intelligence/scattered-spider-casino-hackers-evade-arrest-plain-sight"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 20:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta0caa8a4e96dd51c/6557c178572feb040ab65621/spiders_Design_Pics_Inc_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Becky Bracken, Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Shadowy Hack-for-Hire Group Behind Sprawling Web of Global Cyberattacks"
+                    },
+                    "description": {
+                        "#cdata-section": "For several years operators at New Delhi-based Appin hacked into, spied on, and stole data from targets around the world for clients that included private investigators, government agencies, law enforcement, and others."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/hack-for-hire-group-sprawling-web-global-cyberattacks",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/hack-for-hire-group-sprawling-web-global-cyberattacks"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 19:13:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8427835fc1b42cd4/655791df06b2c5040a5c4fad/india_ADragan_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jai Vijayan, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Actions to Take to Defeat Initial Access Brokers"
+                    },
+                    "description": {
+                        "#cdata-section": "Initial access brokers (IAB) are often difficult to track. This Tech Tip spells out some countermeasures enterprises need to defend against stolen credentials."
+                    },
+                    "link": "https://www.darkreading.com/dr-tech/actions-to-take-to-defeat-initial-access-brokers",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-tech/actions-to-take-to-defeat-initial-access-brokers"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 17:06:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2576d302a91bd263/6556929fc54b0f040a70969b/darksale-polesnoy-alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Pat Barnett, Principal Consultant, Secureworks Incident Response Team",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2087b8bea7467c4d/624de7ab11a23e1330a87564/Pat_Barnett-sq.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Hands Off the Security Budget! Find Efficiencies to Reduce Risk"
+                    },
+                    "description": {
+                        "#cdata-section": "Security budgets will benefit from new priorities, streamlined responses rather than wholesale cost-cutting in light of cyberattacks and increased regulatory requirements. "
+                    },
+                    "link": "https://www.darkreading.com/risk/hands-off-the-security-budget-find-efficiencies-reduce-risk",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/risk/hands-off-the-security-budget-find-efficiencies-reduce-risk"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt85827250e17e023a/640a5e9620a9fc104e2b0931/Budget_Tuomas_Lehtinen_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "George Gerchow, Chief Security Officer & Senior VP of IT, Sumo Logic",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt9d7b20bae56bfb95/6557707abfab2d040a2287c9/George_Gerchow_Headshot_2023.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Detection & Response That Scales: A 4-Pronged Approach"
+                    },
+                    "description": {
+                        "#cdata-section": "Building a resilient incident response team requires more than a simple combination of tools and on-call rotations."
+                    },
+                    "link": "https://www.darkreading.com/endpoint/detection-response-that-scales-4-pronged-approach",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/endpoint/detection-response-that-scales-4-pronged-approach"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 14:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta47d93a18ed6e99b/61bbb9a7a2f30629e20b9470/Security_vska_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nathan Eddy, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "IT Pros Worry That Generative AI Will Be a Major Driver of Cybersecurity Threats"
+                    },
+                    "description": {
+                        "#cdata-section": "Organizations are concerned about generative AI technologies as being a major driver of cybersecurity threats in 2024."
+                    },
+                    "link": "https://www.darkreading.com/edge-threat-monitor/it-pros-worry-generative-ai-will-be-a-major-driver-of-cybersecurity-threats",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/edge-threat-monitor/it-pros-worry-generative-ai-will-be-a-major-driver-of-cybersecurity-threats"
+                    },
+                    "pubDate": "Fri, 17 Nov 2023 01:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt226765ab695bbc09/65576a71e12bf3040a534c75/gen-ai-threats-report-fastly.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Edge Editors, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbeb30fde8ec73a32/60d4432c2446e93b5b5a0e0c/Edge-Editors.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Dangerous Apache ActiveMQ Exploit Allows Stealthy EDR Bypass"
+                    },
+                    "description": {
+                        "#cdata-section": "There's no time to waste: For organizations on the fence about patching the critical bug in ActiveMQ, the new proof-of-concept exploit should push them towards action."
+                    },
+                    "link": "https://www.darkreading.com/application-security/dangerous-apache-activemq-exploit-edr-bypass",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/application-security/dangerous-apache-activemq-exploit-edr-bypass"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 22:45:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltcc6a2cbdf238780f/6345d3e7340204287e046a05/bandaids-Kristoffer_Tripplaar-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Tara Seals, Managing Editor, News, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "'CacheWarp' AMD VM Bug Opens the Door to Privilege Escalation"
+                    },
+                    "description": {
+                        "#cdata-section": "Academics in Germany figured out how to reverse time in AMD virtualization environments, then reap the spoils."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/cachewarp-amd-vm-bug-opens-door-to-privilege-escalation",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/cachewarp-amd-vm-bug-opens-door-to-privilege-escalation"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 21:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt38e88f37d9408193/65566da5ce81e8040a03c17f/AMD_HQ-michelmond-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Consumer Software Security Assessment: Should We Follow NHTSA's Lead?"
+                    },
+                    "description": {
+                        "#cdata-section": "Vehicles are required to meet basic safety standards. Having similar requirements for software would give consumers greater control over their privacy and security."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/consumer-software-security-assessment-should-we-follow-nhtsas-lead",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/consumer-software-security-assessment-should-we-follow-nhtsas-lead"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 18:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt82b378f856312bfc/639cdaa98a1a6731fc18e320/bug_hunt_ronstik_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Richard Caralli, Senior Cybersecurity Advisory, Axio",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt50297e70192e6690/6554fde2a2a0e8040a8e0f78/WriterDefault2_Dorota_Szymczyk_Alamy.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Unpatched Critical Vulnerabilities Open AI Models to Takeover"
+                    },
+                    "description": {
+                        "#cdata-section": "The security holes can allow server takeover, information theft, model poisoning, and more."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/unpatched-critical-vulnerabilities-ai-models-takeover",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/unpatched-critical-vulnerabilities-ai-models-takeover"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 17:47:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt5203a487c1725f09/64e361e839ccde4ac33c7719/AI_Sonja_Novak_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Robert Lemos, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "'Randstorm' Bug: Millions of Crypto Wallets Open to Theft"
+                    },
+                    "description": {
+                        "#cdata-section": "The security vulnerability in a component of a widely used JavaScript implementation of Bitcoin makes passwords guessable via brute-force attacks."
+                    },
+                    "link": "https://www.darkreading.com/application-security/randstorm-bug-crypto-wallets-theft",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/application-security/randstorm-bug-crypto-wallets-theft"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 17:40:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt07d416d9d7512ffa/655544ac4599ef040ae0a957/crypto_stockphoto-graf_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jai Vijayan, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Cybersecurity Investment Involves More Than Just Technology"
+                    },
+                    "description": {
+                        "#cdata-section": "Organizations are also looking at threat intelligence, risk assessment, cyber insurance, and third-party risk management."
+                    },
+                    "link": "https://www.darkreading.com/tech-trends/cybersecurity-investment-more-than-technology",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/tech-trends/cybersecurity-investment-more-than-technology"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 17:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt5a6545a77dfe0068/65571fdc60a882040a0a1c8a/tech-investment-report-s-rm.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dark Reading Staff, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt99a085317510bed4/64c2d09eb4efdc3baa62182f/285801_DR23_Graphics_Website_Author_Logo_0.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "APTs Swarm Zimbra Zero-Day to Steal Government Info Worldwide"
+                    },
+                    "description": {
+                        "#cdata-section": "At least four separate campaigns against CVE-2023-37580 in the popular Zimbra Collaboration Suite aimed to siphon up reams of sensitive mail data."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/apts-swarm-zimbra-zero-day-to-steal-government-info-worldwide"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 16:45:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta0e5bc8949585280/64aedde0dfeeafdba0a556db/cyberattacker_IgorStevanovic-AlamyStockPhoto.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Tara Seals, Managing Editor, News, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Despite Hype, the Password-Free Workplace Is Still a Long Way Off"
+                    },
+                    "description": {
+                        "#cdata-section": "More than half of organizations are nowhere near ditching passwords, even as cyberattackers continue to have a field day with workers' poor credential choices."
+                    },
+                    "link": "https://www.darkreading.com/endpoint/password-free-workplace-long-way-off",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/endpoint/password-free-workplace-long-way-off"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 16:15:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd711fc4211828882/654a88cefd840c040a237eb0/Passwords-1800_designer491_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Elizabeth Montalbano, Contributor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "FBI Warns: 5 Weeks In, Gaza Email Scams Still Thriving"
+                    },
+                    "description": {
+                        "#cdata-section": "Cybercriminals are playing both sides with simple disaster scams, and it's working."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/fbi-warns-five-weeks-in-gaza-email-scams-still-thriving",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/fbi-warns-five-weeks-in-gaza-email-scams-still-thriving"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 15:15:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt504888f3e253135a/655544e2b69315040a1c3098/Israel_Palestine-issam_elhafti-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "3 Ways Behavioral Economics Obstructs Cybersecurity"
+                    },
+                    "description": {
+                        "#cdata-section": "People are not robots; their decisions are based on emotion as much as data. Often, this can lead them to make mistakes with serious security implications for the business. "
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/3-ways-behavioral-economics-obstructs-cybersecurity",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/3-ways-behavioral-economics-obstructs-cybersecurity"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte0b79f979c8b480a/6554da9b81b7f5040af816e1/Decision_Igor_Stevanovic_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Keavy Murphy, Senior Director of Security, Starburst Data",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt4d72b51526cc2d80/65525713babd3b040a53ce98/Keavy.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "ALTR Closes $25M Series C Financing"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/application-security/altr-closes-25m-series-c-financing",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/application-security/altr-closes-25m-series-c-financing"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Egress and KnowBe4 Extend Partnership to Offer AI-based Adaptive Email Security and Training"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/perimeter/egress-and-knowbe4-extend-partnership-to-offer-ai-based-adaptive-email-security-and-training",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/perimeter/egress-and-knowbe4-extend-partnership-to-offer-ai-based-adaptive-email-security-and-training"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Rackspace Ransomware Costs Soar to Nearly $12M"
+                    },
+                    "description": {
+                        "#cdata-section": "Rackspace's 2022 ransomware attack costs only continue to mount, with lawsuits in the offing — and show the long-tail costs of a cyberattack. "
+                    },
+                    "link": "https://www.darkreading.com/operations/rackspace-ransomware-costs-soar-12-million",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/operations/rackspace-ransomware-costs-soar-12-million"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 21:44:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltefd78b61487c98db/655529204e4b23040a0f685a/rackspace_SOPA_images_limited_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Becky Bracken, Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "'AlphaLock' Hackers Launch 'Pen-Testing Training' Group"
+                    },
+                    "description": {
+                        "#cdata-section": "With a two-pronged approach, the group trains its hackers in penetration testing, only to set them free to build a marketplace for pen-testing services."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/alphalock-hacker-organization-launches-pen-testing-training-group",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/alphalock-hacker-organization-launches-pen-testing-training-group"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 21:25:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf351c09508b11ac6/64d15ab9ff3cdbb730ea66a0/hacker_Pira25_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dark Reading Staff, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt99a085317510bed4/64c2d09eb4efdc3baa62182f/285801_DR23_Graphics_Website_Author_Logo_0.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "EU Tightens Cybersecurity Requirements for Critical Infrastructure and Services"
+                    },
+                    "description": {
+                        "#cdata-section": "Organizations in \"essential\" sectors have until October 2024 to comply with the Network and Information Systems Directive 2022 (NIS2)."
+                    },
+                    "link": "https://www.darkreading.com/edge/eu-tightens-cybersecurity-requirements-for-critical-infrastructure-and-services",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/edge/eu-tightens-cybersecurity-requirements-for-critical-infrastructure-and-services"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 20:58:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte1eb07c817e5a4c1/6553bc0b470c80040a6c39cf/sewageplant-Imagebroker-alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Steve Durbin, CEO, Information Security Forum",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt664c292a414a1de5/62b3802897f4640d72f8d376/Steve_Durbin_CEO_ISF.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Cyber Resilience Requires Maturity, Persistence & Board Engagement"
+                    },
+                    "description": {
+                        "#cdata-section": "Women in Cyber Security Middle East highlight a requirement for resilience in the face of increased business and cyber challenges."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/cyber-resilience-maturity-persistence-board-engagement",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/cyber-resilience-maturity-persistence-board-engagement"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 16:54:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte1a9fb11681c4d5b/6554c777cec61b040adda54a/Reem_Abeer_Dan_Raywood.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dan Raywood, Senior Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Qatar & Rwanda Partner to Boost Cybersecurity in Africa"
+                    },
+                    "description": {
+                        "#cdata-section": "The two countries will work on AI security guardrails, public key infrastructure, smart city cyber, and more."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/qatar-rwanda-partner-cybersecurity-africa",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/qatar-rwanda-partner-cybersecurity-africa"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 16:10:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1bfbe4b0c1639d85/65547eb0b401f5040aa0efd7/qatar_rwanda_flags_Borka_Kiss_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dan Raywood, Senior Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "After Critical Bug Disclosures, TETRA Emergency Comms Code Goes Public"
+                    },
+                    "description": {
+                        "#cdata-section": "After the encryption algorithm used by public safety, military, and governments globally was found to allow eavesdropping, standard maintainers are making TETRA open source. "
+                    },
+                    "link": "https://www.darkreading.com/ics-ot/critical-bug-tetra-emergency-comms-code-public",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/ics-ot/critical-bug-tetra-emergency-comms-code-public"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 16:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte60d28551bd13a00/6553eb824a8027040a5e9566/radio_xPACIFICA_alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Kristina Beek, Associate Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt4ead82f13825ae0f/64cbf0c27c232de7de51f04b/KristinaB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Oil Giant Aramco Drills Down on Saudi ICS Security"
+                    },
+                    "description": {
+                        "#cdata-section": "Saudi Arabia's national oil and gas company is investing in an operational technology security training academy for organizations across the Kingdom. "
+                    },
+                    "link": "https://www.darkreading.com/dr-global/oil-giant-aramco-drills-down-on-saudi-ics-security",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/oil-giant-aramco-drills-down-on-saudi-ics-security"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 15:45:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2acb6eabe73ba313/6554bb846cb59c040a2438bd/green_ICS_logos_Pitinan_Piyavatin_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nicholas Fearn, Tech Journalist",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt51431b2e420443e1/6543e6048e305c040a69a105/Nicholas_Fearn.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Defending Against Attacks on Vulnerable IoT Devices"
+                    },
+                    "description": {
+                        "#cdata-section": "Organizations must approach cybersecurity as if they are defending themselves in a cyberwar."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/defending-against-attacks-on-vulnerable-iot-devices",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/defending-against-attacks-on-vulnerable-iot-devices"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltb4487922db3a7f79/65524f36d000d5040a25ead1/IoT-1800_JIRAROJ_PRADITCHAROENKUL_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Bud Broomhead, CEO, Viakoo",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltb0a0d5f190e0fff7/6271af9055cf3509358f51b7/Bud-Broomhead-Viakoo.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Combining Agentless and Agent-Based Cloud Security in CNAPPs"
+                    },
+                    "description": {
+                        "#cdata-section": "Combining both approaches using a cloud-native application protection platform helps organizations make their cybersecurity holistic by tapping into richer automation and prioritization features."
+                    },
+                    "link": "https://www.darkreading.com/microsoft/combining-agentless-and-agent-based-cloud-security-in-cnapps",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/microsoft/combining-agentless-and-agent-based-cloud-security-in-cnapps"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 13:30:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte6ba1b6b1741e7f9/6554c93dbabd3b040a53d34d/cloud_security_Bob-Venezia-Alamy-Stock-Photo.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Microsoft Security, Microsoft",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8fe4479bc32f84b4/6321f5362769d078008692a9/MS-Security_logo.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Danish Energy Attacks Portend Targeting More Critical Infrastructure"
+                    },
+                    "description": {
+                        "#cdata-section": "Targeted attacks against two dozen related companies is just the latest evidence that hackers want a piece of energy."
+                    },
+                    "link": "https://www.darkreading.com/ics-ot/danish-energy-attacks-portend-targeting-more-critical-infrastructure",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/ics-ot/danish-energy-attacks-portend-targeting-more-critical-infrastructure"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:28:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc49b59e2f60d3f4f/6553dc1460a882040a0a169f/Denmark_flag-Holmes_Garden_Photos-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Microsoft Zero-Days Allow Defender Bypass, Privilege Escalation"
+                    },
+                    "description": {
+                        "#cdata-section": "Another two bugs in this month's set of fixes for 63 CVEs were publicly disclosed previously but have not been exploited yet."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-zero-days-allow-defender-bypass-privilege-escalation",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/microsoft-zero-days-allow-defender-bypass-privilege-escalation"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:25:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd1da9f74fc71e58e/6553e727472195040a22651d/update_NicoElNino_shuttersrtock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jai Vijayan, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Illumio Delivers Zero-Trust Segmentation Platform With the Addition of CloudSecure"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/cloud/illumio-delivers-the-most-complete-zero-trust-segmentation-platform-with-the-addition-of-cloudsecure",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/cloud/illumio-delivers-the-most-complete-zero-trust-segmentation-platform-with-the-addition-of-cloudsecure"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Netskope Delivers the Next Gen SASE Branch, Powered by Borderless SD-WAN"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/perimeter/netskope-delivers-the-next-gen-sase-branch-powered-by-borderless-sd-wan",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/perimeter/netskope-delivers-the-next-gen-sase-branch-powered-by-borderless-sd-wan"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Beyond Identity Releases New Assessment to Guide Companies Toward Zero Trust"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/remote-workforce/beyond-identity-releases-new-assessment-to-guide-companies-toward-zero-trust-",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/remote-workforce/beyond-identity-releases-new-assessment-to-guide-companies-toward-zero-trust-"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Cycode Introduces Complete Approach to Application Security Posture Management (ASPM)"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/application-security/cycode-introduces-complete-approach-to-application-security-posture-management-aspm-",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/application-security/cycode-introduces-complete-approach-to-application-security-posture-management-aspm-"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Malwarebytes Labs Reveals 50% Uptick in Credit Card Skimming in Advance of the Holiday Shopping Season"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/malwarebytes-labs-reveals-50-uptick-in-credit-card-skimming-in-advance-of-the-holiday-shopping-season",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/malwarebytes-labs-reveals-50-uptick-in-credit-card-skimming-in-advance-of-the-holiday-shopping-season"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "DirectDefense Launches ThreatAdvisor 3.0 to Streamline Security Operations With SOAR Technology"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/operations/directdefense-launches-threatadvisor-3-0-to-streamline-security-operations-with-soar-technology",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/operations/directdefense-launches-threatadvisor-3-0-to-streamline-security-operations-with-soar-technology"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Software Vulnerabilities Are on the Decline, According to New Synopsys Research"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/software-vulnerabilities-are-on-the-decline-according-to-new-synopsys-research",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/software-vulnerabilities-are-on-the-decline-according-to-new-synopsys-research"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Stream Security Expands into CloudSecOps Market With Launch of Real-Time Cloud Security Solution"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/cloud/stream-security-expands-into-cloudsecops-market-with-launch-of-real-time-cloud-security-solution",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/cloud/stream-security-expands-into-cloudsecops-market-with-launch-of-real-time-cloud-security-solution"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "LastPass Launches Enhanced User Interface for Mobile Vault"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/remote-workforce/lastpass-launches-enhanced-user-interface-for-mobile-vault",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/remote-workforce/lastpass-launches-enhanced-user-interface-for-mobile-vault"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 22:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Google Goes After Scammers Abusing Its Bard AI Chatbot"
+                    },
+                    "description": {
+                        "#cdata-section": "A pair of lawsuits are part of a wider strategy to establish guardrails preventing AI-powered scams, frauds, and harassment, Google's general counsel says. "
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/google-scammers-abusing-bard-ai-chatbot",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/google-scammers-abusing-bard-ai-chatbot"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 21:35:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd12961d343b60cbf/6553d790e5343c040a2c915f/bard_Cynthia_Lee_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Becky Bracken, Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Zero-Days in Edge Devices Become China's Cyber Warfare Tactic of Choice"
+                    },
+                    "description": {
+                        "#cdata-section": "While China is already among the world's most formidable threat actors, a focus on exploiting public-facing appliances makes its state-sponsored APTs more dangerous than ever."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-in-edge-devices-china-cyber-warfare-tactic",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/zero-days-in-edge-devices-china-cyber-warfare-tactic"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 20:23:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt7b0b1c27d52b4578/62b4ba5e9b1d980db353fdce/chinaiptheft_Pixels_Hunter_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jeffrey Schwartz, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta28fcad87ff558b7/627c0108726e3315b16b464c/Jeff_Schwartz_headshot-sq.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "21 Vulnerabilities Discovered in Crucial IT-OT Connective Routers"
+                    },
+                    "description": {
+                        "#cdata-section": "In this Black Hat Europe preview, devices bridging critical machinery with the wider Internet are exposed and subject to numerous supply chain-induced bugs."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/21-vulnerabilities-discovered-crucial-it-ot-connective-routers",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/21-vulnerabilities-discovered-crucial-it-ot-connective-routers"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 19:14:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt22304de8cf7c0214/6553948a996a61040a5e28a2/Industrial_plant-Kevin_Brine-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "HARmor Cleans, Sanitizes, Encrypts HAR Files"
+                    },
+                    "description": {
+                        "#cdata-section": "Okta's breach highlights the importance of sanitizing the data logged in HAR files before sharing them. "
+                    },
+                    "link": "https://www.darkreading.com/dr-tech/harmor-cleans-sanitizes-encrypts-har-files",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-tech/harmor-cleans-sanitizes-encrypts-har-files"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 17:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt9016ce75b66c8982/6553ee776cb59c040a243721/sanitize-f01photos-alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Fahmida Y. Rashid, Managing Editor, Features, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt93784ffee79538e7/60d4371522d24e38a3806ecf/fahmida.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Royal Ransom Demands Exceed $275M, Rebrand in Offing"
+                    },
+                    "description": {
+                        "#cdata-section": "The swift-moving ransomware crew continues to evolve quickly and has already attacked more than 350 victims since it was first detected just over a year ago."
+                    },
+                    "link": "https://www.darkreading.com/threat-intelligence/royal-ransom-demands-exceed-275m-rebrand",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/threat-intelligence/royal-ransom-demands-exceed-275m-rebrand"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 15:48:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltcec7bc24746fd1d8/6533070d5358a6df9f0b0f9a/crown-Steve_Vidler-Alamy_(1).jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Elizabeth Montalbano, Contributor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbfd004d139d42d70/6303bca6236c2476a257760e/ElizabethMontalbano.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Steps CISOs Should Take Before, During & After a Cyberattack"
+                    },
+                    "description": {
+                        "#cdata-section": "By creating a plan of action, organizations can better respond to attacks."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/steps-cisos-should-take-before-during-after-cyberattack",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/steps-cisos-should-take-before-during-after-cyberattack"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt77242c35320a63be/63a0c5578a1a6731fc18e6fd/Cyberattack_Wavebreakmedia_Ltd_IFE-210813_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Taylor Lehmann, Director, Office of the CISO, Google Cloud",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd5f713bc1060bcde/655132ccca59a9040ac78223/Taylor_Lehmann_Headshot_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Molerats Group Wields Custom Cybertool to Steal Secrets in the Middle East"
+                    },
+                    "description": {
+                        "#cdata-section": "The so-called TA402 group continues to focus on cyber espionage against government agencies with the \"IronWInd\" malware."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/molerats-group-wields-custom-cyber-tool-to-steal-secrets-in-middle-east",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/molerats-group-wields-custom-cyber-tool-to-steal-secrets-in-middle-east"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 14:53:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte19509bc59d800cc/654c03668f1d38040adc6e09/Israel_Palestine-Daniren-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Robert Lemos, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Make Changes to Be Ready for the New SEC Cybersecurity Disclosure Rule"
+                    },
+                    "description": {
+                        "#cdata-section": "Mandiant/Google Cloud's Jill C. Tyson and Dark Reading's Terry Sweeney on how companies can better plan and prepare for the Securities and Exchange Commission's new cybersecurity disclosure rule. "
+                    },
+                    "link": "https://www.darkreading.com/edge/make-changes-ready-sec-cybersecurity-disclosure-rule",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/edge/make-changes-ready-sec-cybersecurity-disclosure-rule"
+                    },
+                    "pubDate": "Tue, 14 Nov 2023 14:00:00 +0000",
+                    "dc:creator": "Edge Editors, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbeb30fde8ec73a32/60d4432c2446e93b5b5a0e0c/Edge-Editors.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "'Hunters International' Cyberattackers Take Over Hive Ransomware"
+                    },
+                    "description": {
+                        "#cdata-section": "Hunters International appears to have acquired Hive ransomware from its original operators and may be seeking to cash in on the malware's reputation."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/hunters-international-cyberattackers-hive-ransomware",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/hunters-international-cyberattackers-hive-ransomware"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 21:58:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3cdde0a93697b735/655289c8470c80040a6c3764/ransomware_Jne_Valokuvaus_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jai Vijayan, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Australian Ports Resume Operation After Crippling Cyber Disruption"
+                    },
+                    "description": {
+                        "#cdata-section": "Details of a major cyberattack against Australia's shipping industry remain few and far between, but the economic impact is clear."
+                    },
+                    "link": "https://www.darkreading.com/ics-ot/australian-ports-resume-operation-after-crippling-cyber-disruption",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/ics-ot/australian-ports-resume-operation-after-crippling-cyber-disruption"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 21:30:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc716f2dbd246402c/65527d2b0d9812040ab5d977/Shipping_containers-William_Caram-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Q&A: Generative AI Comes to the Middle East, Driving Security Changes"
+                    },
+                    "description": {
+                        "#cdata-section": "The influx of generative AI could cause security leaders to learn new skills and defensive tactics."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/q-a-generative-ai-middle-east-security",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/q-a-generative-ai-middle-east-security"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 19:12:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte2cd163543f0a1db/655222c4b80165040aa55ffe/middle_east_purple_KamilSD_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dan Raywood, Senior Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Ducktail Malware Targets the Fashion Industry"
+                    },
+                    "description": {
+                        "#cdata-section": "Threat actors distributed an archive containing images of new products by major clothing companies, along with a malicious executable disguised with a PDF icon."
+                    },
+                    "link": "https://www.darkreading.com/threat-intelligence/ducktail-malware-targets-fashion-industry",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/threat-intelligence/ducktail-malware-targets-fashion-industry"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 19:09:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt981b4246f98612fd/64ee4ce7aa76fa716bec3e20/duck-Daniel_Ladd-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nathan Eddy, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "A Closer Look at State and Local Government Cybersecurity Priorities"
+                    },
+                    "description": {
+                        "#cdata-section": "Complexity impedes the universal and consistent application of security policies, which is an obstacle to adequately securing government environments."
+                    },
+                    "link": "https://www.darkreading.com/edge/a-closer-look-at-state-and-local-government-cybersecurity-priorities",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/edge/a-closer-look-at-state-and-local-government-cybersecurity-priorities"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 18:55:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt053ddfc10b24fc7a/654af59dcba5ce0407c39a9e/coloradost-NetPhotos-alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Joshua Goldfarb, Global Solutions Architect — Security, F5",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte566b6aacec0a3ec/60d4347890ef0d39a2f3f97e/Joshua-Goldfarb2.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Azerbaijan Agencies Sign Cyber-Partner Deals"
+                    },
+                    "description": {
+                        "#cdata-section": "The country has signed fresh deals to boost cyber intelligence and preparedness capabilities."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/azerbaijan-agencies-cyber-partner-deals",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/azerbaijan-agencies-cyber-partner-deals"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 18:25:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt156a3fcc4f0a615c/65521adb731bd2040b997e7a/azerbaijan_flag_binary_Christophe_Coat_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dark Reading Staff, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt99a085317510bed4/64c2d09eb4efdc3baa62182f/285801_DR23_Graphics_Website_Author_Logo_0.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "SEC Suit Ushers in New Era of Cyber Enforcement"
+                    },
+                    "description": {
+                        "#cdata-section": "A federal push to enforce cybersecurity requirements is holding public companies and government contractors accountable as a matter of law and for national security. "
+                    },
+                    "link": "https://www.darkreading.com/risk/sec-suit-ushers-in-new-era-of-cyber-enforcement",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/risk/sec-suit-ushers-in-new-era-of-cyber-enforcement"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt5441d7a10a2dd48e/64f10b2025a6d8475a56c990/SEC_Maxim_Ermolenko_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Eric Noonan, Chief Executive Officer & Co-Founder, CyberSheath",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltba106013e555c4d1/655129e34a8027040a5e901a/CyberHealthTeamHeadshots-51_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "SaaS Vendor Risk Assessment in 3 Steps"
+                    },
+                    "description": {
+                        "#cdata-section": "SaaS applications are the new supply chain and, practically speaking, SaaS is the modern vendor. Here are three straightforward steps to manage this new vendor risk."
+                    },
+                    "link": "https://www.darkreading.com/risk/saas-vendor-risk-assessment-in-3-steps",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/risk/saas-vendor-risk-assessment-in-3-steps"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 08:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Security Is a Process, Not a Tool"
+                    },
+                    "description": {
+                        "#cdata-section": "Process failures are the root cause of most serious cybersecurity incidents. We need to treat security as a process issue, not try to solve it with a collection of tools."
+                    },
+                    "link": "https://www.darkreading.com/risk/security-is-a-process-not-a-tool",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/risk/security-is-a-process-not-a-tool"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 08:00:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Intel Faces 'Downfall' Bug Lawsuit"
+                    },
+                    "description": {
+                        "#cdata-section": "A class action suit claims Intel knowingly sold billions of faulty chips for years. The outcome could help define where poor vulnerability remediation becomes outright negligence."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/intel-downfall-lawsuit-10k-plaintiff-ignoring-chip-bug",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/intel-downfall-lawsuit-10k-plaintiff-ignoring-chip-bug"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 22:12:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt01c21e09e5c0478d/654e8b8fe1294a040a23498c/Intel_chip-Adam_Ján_Figeľ-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "State of Maine Becomes Latest MOVEit Victim to Surface"
+                    },
+                    "description": {
+                        "#cdata-section": "The state said 1.3 million individuals have been affected by this breach, which includes Social Security numbers and taxpayer information."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/state-maine-latest-moveit-victim",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/state-maine-latest-moveit-victim"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 19:12:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta7d5d495bb412d1f/654e62203a41ba040aa78436/Maineflag_Valerio_Rosati_alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Kristina Beek, Associate Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt4ead82f13825ae0f/64cbf0c27c232de7de51f04b/KristinaB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "'CitrixBleed' Linked to Ransomware Hit on China's State-Owned Bank"
+                    },
+                    "description": {
+                        "#cdata-section": "Meanwhile, CISA joins the call to patch CVE-2023-4966 immediately amid reports of mass-exploit activity; at least 5,000 orgs remain exposed."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/ransomware-hit-china-owned-bank-citrixbleed-flaw",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/ransomware-hit-china-owned-bank-citrixbleed-flaw"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 18:59:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt03d32c7f31a8f5ca/654e68d5ca59a9040ac780e8/citrix_monticello_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jai Vijayan, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "'Shields Ready' Critical Infrastructure Initiative Addresses Inevitable Cyberattacks"
+                    },
+                    "description": {
+                        "#cdata-section": "A cyberattack is coming, disasters are certain, and the US government wants critical infrastructure firms ready to handle any disruption. Welcome to Shields Ready."
+                    },
+                    "link": "https://www.darkreading.com/ics-ot/shields-ready-initiative-inevitable-cyberattacks",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/ics-ot/shields-ready-initiative-inevitable-cyberattacks"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 18:23:10 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt7cb5bd776136638f/648b5c99ea0cf07c3d7283a7/critical_infrastructure-Lyroky_-alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Robert Lemos, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "ChatGPT: OpenAI Attributes Regular Outages to DDoS Attacks"
+                    },
+                    "description": {
+                        "#cdata-section": "ChatGPT and the associated APIs have been affected by regular outages, citing DDoS attacks as the reason — the Anonymous Sudan group claimed responsibility."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/chatgpt-openai-attributes-regular-outages-ddos-attacks",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/chatgpt-openai-attributes-regular-outages-ddos-attacks"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 18:18:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltdf14941589c199a9/63c8397b59da50523de43ee4/chatGPT_Greg_guy_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nathan Eddy, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf8b5a94afa71c53a/628e3799daa31875dc0c9fc0/NathanEddyHeadshot.PNG",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Leaky DICOM Medical Standard Exposes Millions of Patient Records"
+                    },
+                    "description": {
+                        "#cdata-section": "A 30-year-old, rarely updated protocol for medical devices has exposed reams of highly personal data, thanks to a lack of proper security throughout owner environments."
+                    },
+                    "link": "https://www.darkreading.com/risk/leaky-dicom-medical-protocol-exposes-millions-patient-records",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/risk/leaky-dicom-medical-protocol-exposes-millions-patient-records"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 18:05:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltadf3f5f32e7e4115/654bb643c51279040a12bf5b/doctor_tablet_Panther_Media_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dan Raywood, Senior Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Microsoft: Iran's Cyberattacks on Israel Exaggerated & Fabricated"
+                    },
+                    "description": {
+                        "#cdata-section": "Despite claims to the contrary, Iranian cyberattackers have been less strategic and more opportunistic over the last month as the Israel-Hamas war continues."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/microsoft-iran-cyberattacks-israel-exaggerated-fabricated",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/microsoft-iran-cyberattacks-israel-exaggerated-fabricated"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 16:20:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt887cc7d1c96087fa/654e2ae23186fd040a71e748/cctv_camera_Zefrog_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dan Raywood, Senior Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Navigating Tech Risks in Modern M&A Waters"
+                    },
+                    "description": {
+                        "#cdata-section": "Executives must rise to the challenge and take immediate action to grasp the intricacies of data, technology, and infrastructure within M&A."
+                    },
+                    "link": "https://www.darkreading.com/risk/navigating-tech-risks-modern-m-a-waters",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/risk/navigating-tech-risks-modern-m-a-waters"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc03509270d60315b/654d453bde5ed4040a2c40d4/Merger_Kritchanut_Onmang_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jeffrey Wells, Partner, Sigma7",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt5fbca78f324f75ce/64d13e357c232da90151f2a6/Jeffrey_headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "'BlazeStealer' Python Malware Allows Complete Takeover of Developer Machines"
+                    },
+                    "description": {
+                        "#cdata-section": "Checkmarx researchers warn that BlazeStealer can exfiltrate information, steal passwords, disable PCs, and take over webcams."
+                    },
+                    "link": "https://www.darkreading.com/application-security/-blazestealer-python-malware-complete-takeover-developer",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/application-security/-blazestealer-python-malware-complete-takeover-developer"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 23:15:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf34e8fb49828a01d/647a4b3565658f7bbb22a892/python-Ernie_Janes-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jeffrey Schwartz, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta28fcad87ff558b7/627c0108726e3315b16b464c/Jeff_Schwartz_headshot-sq.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "MOVEit Hackers Pivot to SysAid Zero-Day in Ransomware Attacks"
+                    },
+                    "description": {
+                        "#cdata-section": "The Cl0p ransomware group is actively exploiting a SysAid zero-day flaw after running rampant through enterprise systems using MOVEit file transfer bug. "
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/moveit-hackers-sysaid-zero-day-ransomware",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/moveit-hackers-sysaid-zero-day-ransomware"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 23:03:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf5521ab38e782cc8/654d47c9271934040a5ed001/emergency_response_plan_designer491_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Becky Bracken, Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Treasury Markets Disrupted by ICBC Ransomware Attack"
+                    },
+                    "description": {
+                        "#cdata-section": "The attack on the world's largest bank has far-reaching repercussions; US Treasury states that it is in contact with financial regulators as it monitors the breach."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/treasury-markets-disrupted-from-icbc-ransomware-attack",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/treasury-markets-disrupted-from-icbc-ransomware-attack"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 22:21:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc168f18d31283f66/654d492981c291040aeb7080/ICBC_William_Barton_ALAMY.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dark Reading Staff, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt99a085317510bed4/64c2d09eb4efdc3baa62182f/285801_DR23_Graphics_Website_Author_Logo_0.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "What We Can Learn From Major Cloud Cyberattacks"
+                    },
+                    "description": {
+                        "#cdata-section": "Analysis of six major cloud incidents shows how some common mistakes can lead to serious consequences."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/what-we-can-learn-from-major-cloud-cyberattacks",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/what-we-can-learn-from-major-cloud-cyberattacks"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 22:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta06620693ffbe0f1/65451f94c9a677040ac894ab/dark_clouds_klod_alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dan Raywood, Senior Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "When Good Security Awareness Programs Go Wrong"
+                    },
+                    "description": {
+                        "#cdata-section": "Avoid making these mistakes when crafting a security awareness strategy at your organization."
+                    },
+                    "link": "https://www.darkreading.com/edge-articles/when-good-security-awareness-programs-go-wrong",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/edge-articles/when-good-security-awareness-programs-go-wrong"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 19:07:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltb93cb2375c2f03dc/654c3ef36bc98b040aca5799/make-mistake-Antonio-Guillem-Fernández-alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Joan Goodchild, Senior Editor",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta9c9e2cc21e6b8d1/60b1e9b3ea3fca5648ef4cfa/Joan-Goodchild.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "How to Outsmart Malware Attacks That Can Fool Antivirus Protection"
+                    },
+                    "description": {
+                        "#cdata-section": "One of the main challenges for Android users is protecting themselves malicious applications that can damage devices or perform other harmful actions."
+                    },
+                    "link": "https://www.darkreading.com/endpoint/how-to-outsmart-malware-attacks-that-can-fool-antivirus-protection",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/endpoint/how-to-outsmart-malware-attacks-that-can-fool-antivirus-protection"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 18:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt68e9c0a27696cada/654be5ee507a480407844689/Android-1800_Marc_Bruxelle_RF_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Zia Muhammad, Ph.D. Scholar, North Dakota State University",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc8cde2c8dded6aa7/6480971acaebfabf9e233a60/Zia_Muhammad_Picture.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "First Wave of Vulnerability-Fixing AIs Available for Developers"
+                    },
+                    "description": {
+                        "#cdata-section": "GitHub joins a handful of startups and established firms in the market, but all the products are essentially \"caveat developer\" — let the developer beware."
+                    },
+                    "link": "https://www.darkreading.com/emerging-tech/first-wave-vulnerability-fixing-ai-available-developers",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/emerging-tech/first-wave-vulnerability-fixing-ai-available-developers"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 17:47:49 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt52a81871fadb062d/614b43d49e7b876ba649ad2e/software-developer-Wright-Studio-shutterstock_367839584.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Robert Lemos, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Imperial Kitten APT Claws at Israeli Industry with Multiyear Spy Effort"
+                    },
+                    "description": {
+                        "#cdata-section": "The Iran-linked group uses redirected websites to compromise victims and exfiltrate data in a campaign that has lasted over 2022 and 2023."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/imperial-kitten-israeli-industry-multiyear-spy-effort",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/imperial-kitten-israeli-industry-multiyear-spy-effort"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 16:50:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt734117dfacda3757/654d0b7c089e56040af62315/cat.kitten-Fresh_Start_Images-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dark Reading Staff, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt99a085317510bed4/64c2d09eb4efdc3baa62182f/285801_DR23_Graphics_Website_Author_Logo_0.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Worldwide Hacktivists Take Sides Over Gaza, With Little to Show for It"
+                    },
+                    "description": {
+                        "#cdata-section": "Keyboard warriors are claiming to contribute to the Gaza war with OT attacks. You should be skeptical."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/worldwide-hacktivists-take-sides-over-gaza-with-little-show",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/worldwide-hacktivists-take-sides-over-gaza-with-little-show"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 15:50:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blte19509bc59d800cc/654c03668f1d38040adc6e09/Israel_Palestine-Daniren-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "There's Only One Way to Solve the Cybersecurity Skills Gap"
+                    },
+                    "description": {
+                        "#cdata-section": "The cybersecurity skills gap is making businesses more vulnerable, but it won't be fixed by upskilling high-potential recruits alone."
+                    },
+                    "link": "https://www.darkreading.com/operations/there-s-only-one-way-to-solve-the-cybersecurity-skills-gap",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/operations/there-s-only-one-way-to-solve-the-cybersecurity-skills-gap"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt9d95fdc20b8e4437/654bf4affd840c040a238195/Skills-gap-1800_designer491_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jamal Elmellas , Chief Operating Officer, Focus on Security",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt7fea41690d86edde/63d43224ba840d40d879bcfc/JamalElmellas2022-square.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Sandworm Cyberattackers Down Ukrainian Power Grid During Missile Strikes"
+                    },
+                    "description": {
+                        "#cdata-section": "A premier Russian APT used living-off-the-land techniques in a major OT hit, raising tough questions about whether or not we can defend against the attack vector."
+                    },
+                    "link": "https://www.darkreading.com/ics-ot/sandworm-cyberattackers-ukrainian-power-grid-missile-strikes",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/ics-ot/sandworm-cyberattackers-ukrainian-power-grid-missile-strikes"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 08:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt0125cbd2847bb23e/6282691cbcee916ef6429d1d/Ukraine-Russia_Daniren_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Evasive Jupyter Infostealer Campaign Showcases Dangerous Variant"
+                    },
+                    "description": {
+                        "#cdata-section": "The attacks are another manifestation of the concerning rise in information stealers for harvesting data and enabling persistent access to enterprise networks."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/evasive-jupyter-infostealer-campaign-dangerous-variant",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/evasive-jupyter-infostealer-campaign-dangerous-variant"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 22:55:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1713da39ec6a5e1c/654c07af5c2244040a2713a0/infostealer_Bits_And_Splits_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jai Vijayan, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Ransomware Mastermind Uncovered After Oversharing on Dark Web"
+                    },
+                    "description": {
+                        "#cdata-section": "Meet \"farnetwork,\" one of the most prolific RaaS operators around, who spilled too many details during an affiliate \"job interview.\""
+                    },
+                    "link": "https://www.darkreading.com/threat-intelligence/ransomware-mastermind-uncovered-oversharing-dark-web",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/threat-intelligence/ransomware-mastermind-uncovered-oversharing-dark-web"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 20:54:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltff2908c639893432/654bf0958f1d38040adc6de3/ransomware_the_lightwriter_alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Becky Bracken, Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "MGM and Caesars Attacks Highlight Social Engineering Risks"
+                    },
+                    "description": {
+                        "#cdata-section": "Relying on passwords to secure user accounts is a gamble that never pays off."
+                    },
+                    "link": "https://www.darkreading.com/endpoint/mgm-and-caesars-attacks-highlight-social-engineering-risks",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/endpoint/mgm-and-caesars-attacks-highlight-social-engineering-risks"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 18:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd711fc4211828882/654a88cefd840c040a237eb0/Passwords-1800_designer491_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Andrew Shikiar, Executive Director & Chief Marketing Officer, FIDO Alliance",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blta4132f2e14e5fe35/6544f9b2c9a677040ac89422/Andrew_Shikiar_headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "CISOs Beware: SEC's SolarWinds Action Shows They're Scapegoating Us"
+                    },
+                    "description": {
+                        "#cdata-section": "In a rapidly evolving cybersecurity landscape, CISOs must take proactive measures to safeguard their careers and mitigate risks associated with their roles."
+                    },
+                    "link": "https://www.darkreading.com/operations/cisos-beware-secs-solarwinds-action-shows-theyre-scapegoating-us",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/operations/cisos-beware-secs-solarwinds-action-shows-theyre-scapegoating-us"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt97e92b66b35495ec/654a84d3be70c20407a2eaa2/Scapegoat-1800_Zoonar_GmbH_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "David Lindner, Chief Information Security Officer, Contrast Security",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt6ea1b7355118a2b8/63b71e27abf4731037d1396f/Lindner.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Software Complexity Bedevils Mainframe Security"
+                    },
+                    "description": {
+                        "#cdata-section": "The high-performance and resilient platforms satisfy critical roles, but software complexity and the graying of the specialist workforce are creating security challenges."
+                    },
+                    "link": "https://www.darkreading.com/dr-tech/software-complexity-bedevils-mainframe-security",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-tech/software-complexity-bedevils-mainframe-security"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 01:19:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt6a679b36312d618d/654ae1cdc51279040a12bd53/mainframes-Dino_Fracchia-alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Robert Lemos, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt58481326324d6911/60b1e9a55d34de550780a990/Robert-Lemos.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Risk Ledger Secures £6.25M to Prevent Cyberattacks on the Supply Chains of Nation's Largest Enterprises"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/dr-global/risk-ledger-secures-6-25m-to-prevent-cyberattacks-on-the-supply-chains-of-nation-s-largest-enterprises",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/risk-ledger-secures-6-25m-to-prevent-cyberattacks-on-the-supply-chains-of-nation-s-largest-enterprises"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 22:30:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Myrror Security Emerges From Stealth With $6M Seed Round to Prevent Attacks on the Software Development Process"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/application-security/myrror-security-emerges-from-stealth-with-6m-seed-round-to-prevent-attacks-on-the-software-development-process",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/application-security/myrror-security-emerges-from-stealth-with-6m-seed-round-to-prevent-attacks-on-the-software-development-process"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 22:02:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Securing Remote Workers Through Zero Trust"
+                    },
+                    "description": {
+                        "#cdata-section": "Dark Reading's special report looks at how enterprises are turning to zero trust to harden the security of their remote workforce. The challenges are steep."
+                    },
+                    "link": "https://www.darkreading.com/edge-articles/securing-remote-workers-through-zero-trust",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/edge-articles/securing-remote-workers-through-zero-trust"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 22:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt52e99ff646f31551/654b240ac51279040a12bd60/zero-trust-remote-workforce-threat-insights.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "George V. Hulme, Contributor",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1294f16114f9d036/60d43215e1461d39eb814e70/Hulme-IWK-125x125.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Malwarebytes Launches ThreatDown to Empower Resource Constrained IT Organizations"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/threat-intelligence/malwarebytes-launches-threatdown-to-empower-resource-constrained-it-organizations",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/threat-intelligence/malwarebytes-launches-threatdown-to-empower-resource-constrained-it-organizations"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 21:45:00 +0000"
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Marina Bay Sands Becomes Latest Hospitality Cyber Victim"
+                    },
+                    "description": {
+                        "#cdata-section": "Unknown attackers have accessed PII for hundreds of thousands of loyalty customers at the high-end Singapore establishment."
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/marina-bay-sands-hospitality-cyber-victim",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/marina-bay-sands-hospitality-cyber-victim"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 21:18:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt1cd39bad7472f31c/654aa3bb9fae23040acd4df1/marinabaysands-Felix_Choo-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Tara Seals, Managing Editor, News, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "CVSS 4.0 Offers Significantly More Patching Context"
+                    },
+                    "description": {
+                        "#cdata-section": "The latest vulnerability severity scoring system addresses gaps in the previous version; here's how to get the most out of it."
+                    },
+                    "link": "https://www.darkreading.com/operations/mileage-orgs-will-get-from-cvss-4-0-will-vary",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/operations/mileage-orgs-will-get-from-cvss-4-0-will-vary"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 20:40:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt31ea1204da5feefe/654a91a3507a4804078443d2/vulnerability_LightField_Studios_shutterstock.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Jai Vijayan, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt02d79fb9a44a4258/60b1e9dd2a25046b35110696/Jai-Vijayan.jpeg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "North Korea's BlueNoroff APT Debuts 'Dumbed Down' macOS Malware"
+                    },
+                    "description": {
+                        "#cdata-section": "Kim Jong-Un's hackers are scraping the bottom of the barrel, using script kiddie-grade malware to steal devalued digital assets."
+                    },
+                    "link": "https://www.darkreading.com/threat-intelligence/north-korea-bluenoroff-apt-dumbed-down-macos-malware",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/threat-intelligence/north-korea-bluenoroff-apt-dumbed-down-macos-malware"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 20:11:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3272a352f58bc0cc/654a7ac5741b28040a1ddce2/Crypto_DPRK-Ink_Drop-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Atlassian Bug Escalated to 10, All Unpatched Instances Vulnerable"
+                    },
+                    "description": {
+                        "#cdata-section": "Active ransomware attacks against vulnerable Atlassian Confluence Data Center and Servers ratchets up risk to enterprises, now reflected in the bug's revised CVSS score of 10. "
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/atlassian-bug-escalated-10-unpatched-instances-vulnerable",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/atlassian-bug-escalated-10-unpatched-instances-vulnerable"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 18:45:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt46c5bafd27ddc79c/654a7712348247040ad21d9b/atlassian_Igor_Golovnov_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Becky Bracken, Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Crafting an AI Policy That Safeguards Data Without Stifling Productivity"
+                    },
+                    "description": {
+                        "#cdata-section": "Companies must recognize AI's utility, while setting clear boundaries to curtail unsafe utilization."
+                    },
+                    "link": "https://www.darkreading.com/vulnerabilities-threats/crafting-ai-policy-that-safeguards-data-without-stifling-productivity",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/vulnerabilities-threats/crafting-ai-policy-that-safeguards-data-without-stifling-productivity"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 18:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt5203a487c1725f09/64e361e839ccde4ac33c7719/AI_Sonja_Novak_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Ryan Davis, CISO, NS1, an IBM Company",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltfb7e884bdded1928/654568979de223040a7099f2/Ryan_Davis_Color_Full.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Iran-Linked Agrius APT Group Targets Israeli Education, Tech Sectors"
+                    },
+                    "description": {
+                        "#cdata-section": "The attackers also use custom wipers to cover their tracks and bypass EDR."
+                    },
+                    "link": "https://www.darkreading.com/dr-global/iran-linked-agrius-apt-group-israeli-education-tech-sectors",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/dr-global/iran-linked-agrius-apt-group-israeli-education-tech-sectors"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 17:22:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt826863d8d34dfabf/654a641ecba5ce0407c39a10/israel_iran_wall_Zoonar_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Dan Raywood, Senior Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltc28007d0f8e926c8/643eca8732dfd37d9e9c750d/Dan_Raywoord_Headshot.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Identity Alone Won't Save Us: The TSA Paradigm and MGM's Hack"
+                    },
+                    "description": {
+                        "#cdata-section": "To combat sophisticated threats, we need to improve how we approach authorization and access controls."
+                    },
+                    "link": "https://www.darkreading.com/operations/identity-alone-wont-save-us-tsa-paradigm-mgm-hack",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/operations/identity-alone-wont-save-us-tsa-paradigm-mgm-hack"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 15:00:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt918cd73c70b8fd1e/654939f51786ba040a85a438/MGM_LH_Images_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Paul Martini, Co-Founder, CEO, and Co-Chair, iboss",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltf58e9b56a16354a2/6356a2be398c0e01578a3e22/Paul_Martini_headshot.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Steps to Follow to Comply With the SEC Cybersecurity Disclosure Rule"
+                    },
+                    "description": {
+                        "#cdata-section": "Mandiant/Google Cloud's Jill C. Tyson offers up timelines, checklists, and other guidance around enterprisewide readiness to ensure compliance with the new rule."
+                    },
+                    "link": "https://www.darkreading.com/edge/steps-to-follow-to-comply-with-the-sec-cybersecurity-disclosure-rule",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/edge/steps-to-follow-to-comply-with-the-sec-cybersecurity-disclosure-rule"
+                    },
+                    "pubDate": "Mon, 06 Nov 2023 23:00:00 +0000",
+                    "dc:creator": "Edge Editors, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltbeb30fde8ec73a32/60d4432c2446e93b5b5a0e0c/Edge-Editors.png",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Kinsing Cyberattackers Debut 'Looney Tunables' Cloud Exploits"
+                    },
+                    "description": {
+                        "#cdata-section": "Admins need to patch immediately, as the prolific cybercrime group pivots from cryptomining to going after cloud secrets and credentials."
+                    },
+                    "link": "https://www.darkreading.com/cloud/kinsing-cyberattackers-debut-looney-tunables-cloud-exploits",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/cloud/kinsing-cyberattackers-debut-looney-tunables-cloud-exploits"
+                    },
+                    "pubDate": "Mon, 06 Nov 2023 22:57:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt63dfb00c5273811f/64b17cba535ecdadd3d7b1c4/StormCloud-AllCanadaPhotos-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Tara Seals, Managing Editor, News, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltea67136f81f32eca/626a9eb4726e3315b16b3c64/Tara-Seals-Headshot2.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Gootloader Aims Malicious, Custom Bot Army at Enterprise Networks"
+                    },
+                    "description": {
+                        "#cdata-section": "Previously limited to initial access brokering, the Gootloader group has pivoted to a nasty post-compromise \"GootBot\" attack, each implant with its own C2. "
+                    },
+                    "link": "https://www.darkreading.com/attacks-breaches/gootloader-malicious-custom-bot-army-enterprise-networks",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/attacks-breaches/gootloader-malicious-custom-bot-army-enterprise-networks"
+                    },
+                    "pubDate": "Mon, 06 Nov 2023 21:39:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt2195465e728f86b9/65495796b0745a040aabd6ef/bots_Brian_Light_Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Becky Bracken, Editor, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt8e7bd143d726930b/627271268681151716941064/BeckyB.jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Virtual Kidnapping: AI Tools Are Enabling IRL Extortion Scams"
+                    },
+                    "description": {
+                        "#cdata-section": "With AI and publicly available data, cybercriminals have the resources they need to fake a real-life kidnapping and make you believe it."
+                    },
+                    "link": "https://www.darkreading.com/black-hat/virtual-kidnapping-ai-tools-enabling-irl-extortion-scams",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/black-hat/virtual-kidnapping-ai-tools-enabling-irl-extortion-scams"
+                    },
+                    "pubDate": "Mon, 06 Nov 2023 21:35:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/bltd8ce9142e0ecb27a/6544218f2c4283040aa29b4a/Kidnapping-Orange_Stock_Photo_Production_Inc-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Novel Google Cloud RAT Uses Calendar Events for C2"
+                    },
+                    "description": {
+                        "#cdata-section": "Cybercriminals are abusing legitimate functions within cloud services, and providers can't totally stop them, especially when it comes to innovative approaches like this."
+                    },
+                    "link": "https://www.darkreading.com/cloud/google-cloud-rat-calendar-events-command-and-control",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/cloud/google-cloud-rat-calendar-events-command-and-control"
+                    },
+                    "pubDate": "Mon, 06 Nov 2023 21:23:00 +0000",
+                    "media:content": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt186f4071048323c9/654942c2fd840c040a237c7e/Google_Calendar-imageBROKER.com-GmbH&Co.-KG-Alamy.jpg",
+                        "@type": "image/*"
+                    },
+                    "dc:creator": "Nate Nelson, Contributing Writer, Dark Reading",
+                    "enclosure": {
+                        "@url": "https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt91e5f91ce3f0cdd9/63d0288ac98dbe55ece1d0a9/Nate-Nelson_(1).jpg",
+                        "@type": "image/*",
+                        "@length": "0"
+                    }
+                },
+                {
+                    "title": {
+                        "#cdata-section": "Aqua Security Introduces Industry-First Kubernetes Vulnerability Scanning With Trivy KBOM"
+                    },
+                    "description": {
+                        "#cdata-section": " "
+                    },
+                    "link": "https://www.darkreading.com/cloud/aqua-security-introduces-industry-first-kubernetes-vulnerability-scanning-with-trivy-kbom",
+                    "guid": {
+                        "@isPermaLink": "true",
+                        "#text": "https://www.darkreading.com/cloud/aqua-security-introduces-industry-first-kubernetes-vulnerability-scanning-with-trivy-kbom"
+                    },
+                    "pubDate": "Mon, 06 Nov 2023 19:59:00 +0000"
+                }
+            ]
+        }
+    }
+}

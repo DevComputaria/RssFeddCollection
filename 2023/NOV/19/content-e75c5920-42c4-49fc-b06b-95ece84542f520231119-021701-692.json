@@ -1,0 +1,202 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "utf-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "channel": {
+            "title": "BleepingComputer",
+            "link": "https://www.bleepingcomputer.com/",
+            "description": "BleepingComputer - All Stories",
+            "pubDate": "Sun, 19 Nov 2023 00:13:45 EST",
+            "generator": "https://www.bleepingcomputer.com/",
+            "language": "en",
+            "atom:link": {
+                "@href": "https://www.bleepingcomputer.com/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "item": [
+                {
+                    "title": "Windows 10 to let admins control how optional updates are deployed",
+                    "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-to-let-admins-control-how-optional-updates-are-deployed/",
+                    "pubDate": "Sat, 18 Nov 2023 12:12:14 -0500",
+                    "dc:creator": "Sergiu Gatlan",
+                    "category": {
+                        "#cdata-section": "Microsoft"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/microsoft/windows-10-to-let-admins-control-how-optional-updates-are-deployed/",
+                    "description": {
+                        "#cdata-section": "Microsoft announced a new policy that allows admins to control how optional updates are deployed on Windows 10 enterprise endpoints on their networks. [...]"
+                    }
+                },
+                {
+                    "title": "FCC adopts new rules to protect consumers from SIM-swapping attacks",
+                    "link": "https://www.bleepingcomputer.com/news/security/fcc-adopts-new-rules-to-protect-consumers-from-sim-swapping-attacks/",
+                    "pubDate": "Sat, 18 Nov 2023 11:10:09 -0500",
+                    "dc:creator": "Sergiu Gatlan",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/fcc-adopts-new-rules-to-protect-consumers-from-sim-swapping-attacks/",
+                    "description": {
+                        "#cdata-section": "The Federal Communications Commission (FCC) has revealed new rules to shield consumers from criminals who hijack their phone numbers in SIM swapping attacks and port-out fraud. [...]"
+                    }
+                },
+                {
+                    "title": "Exploit for CrushFTP RCE chain released, patch now",
+                    "link": "https://www.bleepingcomputer.com/news/security/exploit-for-crushftp-rce-chain-released-patch-now/",
+                    "pubDate": "Sat, 18 Nov 2023 10:06:12 -0500",
+                    "dc:creator": "Bill Toulas",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/exploit-for-crushftp-rce-chain-released-patch-now/",
+                    "description": {
+                        "#cdata-section": "A proof-of-concept exploit was publicly released for a critical remote code execution vulnerability in the CrushFTP enterprise suite, allowing unauthenticated attackers to access files on the server, execute code, and obtain plain-text passwords. [...]"
+                    }
+                },
+                {
+                    "title": "Google shares plans for blocking third-party cookies in Chrome",
+                    "link": "https://www.bleepingcomputer.com/news/google/google-shares-plans-for-blocking-third-party-cookies-in-chrome/",
+                    "pubDate": "Sat, 18 Nov 2023 09:18:27 -0500",
+                    "dc:creator": "Mayank Parmar",
+                    "category": [
+                        {
+                            "#cdata-section": "Google"
+                        },
+                        {
+                            "#cdata-section": "Software"
+                        }
+                    ],
+                    "guid": "https://www.bleepingcomputer.com/news/google/google-shares-plans-for-blocking-third-party-cookies-in-chrome/",
+                    "description": {
+                        "#cdata-section": "Google has officially announced plans to gradually eliminate third-party cookies, a key aspect of its Privacy Sandbox initiative. [...]"
+                    }
+                },
+                {
+                    "title": "The Week in Ransomware - November 17th 2023 - Citrix in the Crosshairs",
+                    "link": "https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-november-17th-2023-citrix-in-the-crosshairs/",
+                    "pubDate": "Fri, 17 Nov 2023 18:26:29 -0500",
+                    "dc:creator": "Lawrence Abrams",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/the-week-in-ransomware-november-17th-2023-citrix-in-the-crosshairs/",
+                    "description": {
+                        "#cdata-section": "Ransomware gangs target exposed Citrix Netscaler devices using a publicly available exploit to breach large organizations, steal data, and encrypt files. [...]"
+                    }
+                },
+                {
+                    "title": "Bloomberg Crypto X account snafu leads to Discord phishing attack",
+                    "link": "https://www.bleepingcomputer.com/news/security/bloomberg-crypto-x-account-snafu-leads-to-discord-phishing-attack/",
+                    "pubDate": "Fri, 17 Nov 2023 18:01:50 -0500",
+                    "dc:creator": "Sergiu Gatlan",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/bloomberg-crypto-x-account-snafu-leads-to-discord-phishing-attack/",
+                    "description": {
+                        "#cdata-section": "The official Twitter account for Bloomberg Crypto was used earlier today to redirect users to a deceptive website that stole Discord credentials in a phishing attack. [...]"
+                    }
+                },
+                {
+                    "title": "Yamaha Motor confirms ransomware attack on Philippines subsidiary",
+                    "link": "https://www.bleepingcomputer.com/news/security/yamaha-motor-confirms-ransomware-attack-on-philippines-subsidiary/",
+                    "pubDate": "Fri, 17 Nov 2023 11:45:27 -0500",
+                    "dc:creator": "Sergiu Gatlan",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/yamaha-motor-confirms-ransomware-attack-on-philippines-subsidiary/",
+                    "description": {
+                        "#cdata-section": "Yamaha Motor's Philippines motorcycle manufacturing subsidiary was hit by a ransomware attack last month, resulting in the theft and leak of some employees' personal information. [...]"
+                    }
+                },
+                {
+                    "title": "Google: Hackers exploited Zimbra zero-day in attacks on govt orgs",
+                    "link": "https://www.bleepingcomputer.com/news/security/google-hackers-exploited-zimbra-zero-day-in-attacks-on-govt-orgs/",
+                    "pubDate": "Fri, 17 Nov 2023 11:04:06 -0500",
+                    "dc:creator": "Bill Toulas",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/google-hackers-exploited-zimbra-zero-day-in-attacks-on-govt-orgs/",
+                    "description": {
+                        "#cdata-section": "Hackers leveraged a medium-severity security issue now identified as CVE-2023-37580 since June 29, nearly a month before the vendor addressed it in version 8.8.15 Patch 41of the software on July 25. [...]"
+                    }
+                },
+                {
+                    "title": "CISA warns of actively exploited Windows, Sophos, and Oracle bugs",
+                    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-windows-sophos-and-oracle-bugs/",
+                    "pubDate": "Fri, 17 Nov 2023 09:08:58 -0500",
+                    "dc:creator": "Bill Toulas",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-windows-sophos-and-oracle-bugs/",
+                    "description": {
+                        "#cdata-section": "The U.S. Cybersecurity & Infrastructure Security Agency has added to its catalog of known exploited vulnerabilities (KEV) three security issues that affect Microsoft devices, a Sophos product, and an enterprise solution from Oracle. [...]"
+                    }
+                },
+                {
+                    "title": "British Library: Ongoing outage caused by ransomware attack",
+                    "link": "https://www.bleepingcomputer.com/news/security/british-library-ongoing-outage-caused-by-ransomware-attack/",
+                    "pubDate": "Fri, 17 Nov 2023 08:37:26 -0500",
+                    "dc:creator": "Sergiu Gatlan",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/british-library-ongoing-outage-caused-by-ransomware-attack/",
+                    "description": {
+                        "#cdata-section": "The British Library confirmed that a ransomware attack is behind a major outage that is still affecting services across several locations. [...]"
+                    }
+                },
+                {
+                    "title": "Long Beach, California turns off IT systems after cyberattack",
+                    "link": "https://www.bleepingcomputer.com/news/security/long-beach-california-turns-off-it-systems-after-cyberattack/",
+                    "pubDate": "Thu, 16 Nov 2023 17:23:30 -0500",
+                    "dc:creator": "Lawrence Abrams",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/long-beach-california-turns-off-it-systems-after-cyberattack/",
+                    "description": {
+                        "#cdata-section": "The City of Long Beach in California is warning that they suffered a cyberattack on Tuesday that has led them to shut down portions of their IT network to prevent the attack's spread. [...]"
+                    }
+                },
+                {
+                    "title": "FBI shares tactics of notorious Scattered Spider hacker collective",
+                    "link": "https://www.bleepingcomputer.com/news/security/fbi-shares-tactics-of-notorious-scattered-spider-hacker-collective/",
+                    "pubDate": "Thu, 16 Nov 2023 16:55:02 -0500",
+                    "dc:creator": "Bill Toulas",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/fbi-shares-tactics-of-notorious-scattered-spider-hacker-collective/",
+                    "description": {
+                        "#cdata-section": "The Federal Bureau of Investigation and the Cybersecurity and Infrastructure Security Agency released an advisory about the evasive threat actor tracked as Scattered Spider, a loosely knit hacking collective that now collaborates with the ALPHV/BlackCat Russian ransomware operation.. [...]"
+                    }
+                },
+                {
+                    "title": "MySQL servers targeted by 'Ddostf' DDoS-as-a-Service botnet",
+                    "link": "https://www.bleepingcomputer.com/news/security/mysql-servers-targeted-by-ddostf-ddos-as-a-service-botnet/",
+                    "pubDate": "Thu, 16 Nov 2023 15:11:49 -0500",
+                    "dc:creator": "Bill Toulas",
+                    "category": {
+                        "#cdata-section": "Security"
+                    },
+                    "guid": "https://www.bleepingcomputer.com/news/security/mysql-servers-targeted-by-ddostf-ddos-as-a-service-botnet/",
+                    "description": {
+                        "#cdata-section": "MySQL servers are being targeted by the 'Ddostf' malware botnet to enslave them for a DDoS-as-a-Service platform whose firepower is rented to other cybercriminals. [...]"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,822 @@
+{
+    "?xml": {
+        "@version": "1.0",
+        "@encoding": "UTF-8"
+    },
+    "rss": {
+        "@version": "2.0",
+        "@xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+        "@xmlns:wfw": "http://wellformedweb.org/CommentAPI/",
+        "@xmlns:dc": "http://purl.org/dc/elements/1.1/",
+        "@xmlns:atom": "http://www.w3.org/2005/Atom",
+        "@xmlns:sy": "http://purl.org/rss/1.0/modules/syndication/",
+        "@xmlns:slash": "http://purl.org/rss/1.0/modules/slash/",
+        "@xmlns:media": "http://search.yahoo.com/mrss/",
+        "channel": {
+            "title": "Kaspersky official blog",
+            "atom:link": {
+                "@href": "https://www.kaspersky.co.uk/blog/feed/",
+                "@rel": "self",
+                "@type": "application/rss+xml"
+            },
+            "link": "https://www.kaspersky.co.uk/blog",
+            "description": "The Official Blog from Kaspersky covers information to help protect you against viruses, spyware, hackers, spam & other forms of malware.",
+            "lastBuildDate": "Thu, 16 Nov 2023 19:30:09 +0000",
+            "language": "en-US",
+            "sy:updatePeriod": "\n\thourly\t",
+            "sy:updateFrequency": "\n\t1\t",
+            "generator": "https://wordpress.org/?v=6.3.2",
+            "image": {
+                "url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2019/06/04134110/cropped-k-favicon-new-150x150.png",
+                "title": "Kaspersky official blog",
+                "link": "https://www.kaspersky.co.uk/blog",
+                "width": "32",
+                "height": "32"
+            },
+            "item": [
+                {
+                    "title": "Transatlantic Cable podcast, episode 324 | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/transatlantic-cable-podcast-324/26937/",
+                    "dc:creator": {
+                        "#cdata-section": "David Buxton"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 19:26:36 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "podcast"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/transatlantic-cable-podcast-323-2/26937/"
+                    },
+                    "description": {
+                        "#cdata-section": "Episode 324 of the Kaspersky podcast looks at Meta and Google in the docks, more on deepfakes &amp; port operator pulls internet after a cyberattack."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>The latest episode of the Transatlantic Cable podcast kicks off with Meta will now require political advertisers to mark when they use deepfakes. From there, the team discuss how META and Google are being sued for &#8220;spying&#8221; in Irish courts.</p>\n<p>To wrap up the team discuss two final stories – the first around the Royal ransomware gang siphoning off over $200M in ransom payments and the second on the recent cyber-attack against DP World – a port operator in Australia.</p>\n<p>If you liked what you heard, please consider subscribing.</p>\n<ul>\n<li><a href=\"https://www.bbc.co.uk/news/technology-67366311\" target=\"_blank\" rel=\"nofollow noopener\">Meta requires political advertisers to mark when deepfakes used</a></li>\n<li><a href=\"https://www.theregister.com/2023/11/11/meta_youtube_criminal_charges/\" target=\"_blank\" rel=\"nofollow noopener\">Meta, YouTube face criminal spying complaints in Ireland</a></li>\n<li><a href=\"https://www.bleepingcomputer.com/news/security/fbi-royal-ransomware-asked-350-victims-to-pay-275-million/\" target=\"_blank\" rel=\"nofollow noopener\">Royal ransomware asked 350 victims to pay $275 million</a></li>\n<li><a href=\"https://www.theguardian.com/australia-news/2023/nov/13/australian-port-operator-hit-by-cyber-attack-says-cargo-may-be-stranded-for-days\">Port operator gradually restarting operations around Australia after cyber-attack</a></li>\n</ul>\n<p><iframe src=\"//html5-player.libsyn.com/embed/episode/id/28671208/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\"  width=\"100%\" height=\"90px\"></iframe></p>\n<div class=\"podcast-subscribe\"><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-itunes\" class=\"itunes\" href=\"https://itunes.apple.com/us/podcast/talk-security/id909407206\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-apple.png\" /></a><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-spotify\" class=\"spotify\" href=\"https://open.spotify.com/show/1VGCKlOoQ9C24dJiCHGTK5\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-spotify.png\" /></a><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-googleplay\" class=\"google\" href=\"https://play.google.com/music/m/Iyc2gocjmpw44j4aafwzvd4uwee?t=Transatlantic_Cable_Podcast\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-google.png\" /></a><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-rss\" class=\"rss\" href=\"http://talksecurity.kaspersky-podcasts.libsynpro.com/rss\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-rss.png\" /></a></div>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"ksc-trial-generic\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/25225056/transatlantic-cable-podcast-300-featured.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/25225056/transatlantic-cable-podcast-300-featured-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/25225056/transatlantic-cable-podcast-300-featured-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/25225056/transatlantic-cable-podcast-300-featured-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "WhatsApp spyware modifications in Telegram | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/whatsapp-mods-canesspy/26932/",
+                    "dc:creator": {
+                        "#cdata-section": "Kaspersky Team"
+                    },
+                    "pubDate": "Thu, 16 Nov 2023 14:22:47 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Threats"
+                        },
+                        {
+                            "#cdata-section": "android"
+                        },
+                        {
+                            "#cdata-section": "messengers"
+                        },
+                        {
+                            "#cdata-section": "privacy"
+                        },
+                        {
+                            "#cdata-section": "security"
+                        },
+                        {
+                            "#cdata-section": "spyware"
+                        },
+                        {
+                            "#cdata-section": "surveillance"
+                        },
+                        {
+                            "#cdata-section": "telegram"
+                        },
+                        {
+                            "#cdata-section": "threats"
+                        },
+                        {
+                            "#cdata-section": "trojans"
+                        },
+                        {
+                            "#cdata-section": "WhatsApp"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/?p=26932"
+                    },
+                    "description": {
+                        "#cdata-section": "Spyware-infected WhatsApp modifications being distributed through Telegram channels and WhatsApp mod sites."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>Over the past decade, messaging apps such as WhatsApp and Telegram have become an integral part of life for almost every internet user. Billions of people use them to chat with loved ones, share funny pictures and videos with friends, communicate with coworkers, catch up on the news, and so on. Just try to imagine modern life without messengers. Hard, isn&#8217;t it? Unfortunately, these indispensable apps sometimes contain hidden threats.</p>\n<h2>WhatsApp and Telegram mods: the whats and whys</h2>\n<p>\nSome people think that the official WhatsApp and Telegram apps lack functionality — be that additional options to customize the interface or something more specific; for example, the ability to hide chats, automatically translate messages, or view messages deleted by chat partners. And the list of &#8220;missing&#8221; features is a very long one.</p>\n<p>Third-party developers create <em>modifications</em>, or <em>mods</em> of standard WhatsApp and Telegram apps to satisfy even the most peculiar user needs, and there are a great many such mods.</p>\n<p>The problem with installing any of them is that the user must entrust their correspondence not only to the original messenger developers but also to the mod developers, who can easily hide malicious modules in them; mod distributors can also add something of their own.</p>\n<p>In the case of WhatsApp, the situation with mods is further complicated by its owners. They don&#8217;t approve of modifications and so hinder their distribution. From time to time, WhatsApp&#8217;s owners <a href=\"https://techcrunch.com/2015/01/21/whatsapp-cracks-down-on-third-party-apps-temporarily-bans-their-users-from-its-service/\" target=\"_blank\" rel=\"nofollow noopener\">try to prohibit folks from using mods</a> — albeit unsuccessfully thus far. Meanwhile they have had some success in barring alternative clients for WhatsApp from the official stores like Google Play and App Store.</p>\n<p>As a consequence, users of WhatsApp mods are accustomed to downloading them from just about anywhere. APK files are boldly downloaded, settings are switched to <a href=\"https://www.kaspersky.com/blog/android-most-dangerous-features/49418/\" target=\"_blank\" rel=\"noopener\">allow installation from unknown sources</a>, and mods are then run on phones. And cybercriminals exploit this carelessness by embedding malware in the mods.</p>\n<p>Our experts <a href=\"https://securelist.com/spyware-whatsapp-mod/110984/\" target=\"_blank\" rel=\"nofollow noopener\">recently found</a> several such infected mods, which we&#8217;ll take a look at in this post.</p>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"kisa-generic-3\" />\n<h2>Infected WhatsApp mods on Telegram</h2>\n<p>\nThe WhatsApp mods that caught our experts&#8217; attention hadn&#8217;t previously shown any malicious activity. Now, however, they contain a spy module, which <a href=\"https://app.appsflyer.com/com.kms.free?pid=smm&c=ww_kdailyplaceholder\" target=\"_blank\">our security solutions</a> detect as Trojan-Spy.AndroidOS.CanesSpy.</p>\n<p>After installation on the victim&#8217;s smartphone, an infected WhatsApp mod waits for the phone to be turned on or put on charge before launching the spy module. It contacts one of the C2 servers from the respective list and uploads various information about the device to it, such as phone number, IMEI, cellular network code, and so on. What&#8217;s more, the spy Trojan sends information about the victim&#8217;s contacts and accounts to the server every five minutes, all the while waiting for commands.</p>\n<p>Leaving service commands aside, the spy module&#8217;s capabilities are essentially reduced to two functions:</p>\n<ul>\n<li>Search the device and send its operators files contained in the smartphone&#8217;s memory (to be precise, in its non-system part, or &#8220;external storage&#8221; in Android terminology)</li>\n<li>Record sound from the built-in microphone and, as before, send the recordings to C2</li>\n</ul>\n<p>As for how the spyware was distributed, infected WhatsApp modifications were found in several Arab and Azerbaijani Telegram channels under the names of popular mods: GBWhatsApp, WhatsApp Plus, and AZE PLUS — a WhatsApp Plus version with the interface translated into Azerbaijani.</p>\n<div id=\"attachment_49659\" style=\"width: 2184px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16140106/whatsapp-mod-canesspy-1.jpg\"><img aria-describedby=\"caption-attachment-49659\" decoding=\"async\" fetchpriority=\"high\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16140106/whatsapp-mod-canesspy-1.jpg\" alt=\"Infected WhatsApp mods in Telegram channels\" width=\"2174\" height=\"1400\" class=\"size-full wp-image-49659\"></a><p id=\"caption-attachment-49659\" class=\"wp-caption-text\">WhatsApp mods infected with spyware were distributed mostly in Azerbaijani and Arabic Telegram channels</p></div>\n<p>In addition, our experts discovered APK files infected with the spy module on WhatsApp mod download websites.</p>\n<p>In October, our security solutions detected and prevented more than 340,000 attacks by this spyware in more than 100 countries. Note that we&#8217;re talking about attacks intercepted by our solutions. The total number (accounting for phones on which our solutions aren&#8217;t installed) is likely much higher.</p>\n<p>Although the geographic spread of the threat is extensive, the largest number of infection attempts — by a wide margin — was registered in Azerbaijan, followed by several Arab countries: Yemen, Saudi Arabia, and Egypt; as well as Turkey.</p>\n<div id=\"attachment_49658\" style=\"width: 1510px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16141943/whatsapp-mod-canesspy-2-EN.jpg\"><img aria-describedby=\"caption-attachment-49658\" decoding=\"async\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16141943/whatsapp-mod-canesspy-2-EN.jpg\" alt=\"Geography of infection attempts by Trojan-Spy.AndroidOS.CanesSpy\" width=\"1500\" height=\"1393\" class=\"size-full wp-image-49658\"></a><p id=\"caption-attachment-49658\" class=\"wp-caption-text\">Top-20 countries where WhatsApp spy mods were distributed</p></div>\n<h2>How to protect yourself against messenger spyware</h2>\n<p>\nThis isn&#8217;t the first case in 2023 of malicious modules being found in modified messenger apps. A few months ago we wrote about a <a href=\"https://www.kaspersky.com/blog/telegram-signal-malware-in-google-play/48937/\" target=\"_blank\" rel=\"noopener\">string of infected mods for Telegram, WhatsApp, and even the secure messenger Signal</a>. So there&#8217;s every reason to remain vigilant:</p>\n<ul>\n<li>Use only the official WhatsApp and Telegram apps. As we&#8217;ve seen, messenger mods are prone to malware.</li>\n<li>Install apps only from official stores: Apple App Store, Google Play, Huawei AppGallery, and the like. These aren&#8217;t immune to malware, but still way safer than third-party websites, which often have no security measures in place at all.</li>\n<li>Before installing any app, first study its page in the store and make sure it&#8217;s not fake — bad actors often create clones of popular apps.</li>\n<li>Read user reviews of the app, paying special attention to negative ones. There you&#8217;ll probably find out if it demonstrates suspicious activity.</li>\n<li>Be sure to install <a href=\"https://app.appsflyer.com/com.kms.free?pid=smm&c=ww_kdailyplaceholder\" target=\"_blank\">reliable protection</a> on all your devices. This will detect malicious code inside a seemingly harmless app, and warn you in time.</li>\n<li>Remember that in the free version of our <a href=\"https://app.appsflyer.com/com.kms.free?pid=smm&c=ww_kdailyplaceholder\" target=\"_blank\">Kaspersky Security & VPN</a> app, you have to run the scan manually.</li>\n<li>If you use the premium version of our protection for Android — which comes included in the <a href=\"https://www.kaspersky.co.uk/standard?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kstand___\" target=\"_blank\">Kaspersky Standard</a>, <a href=\"https://www.kaspersky.co.uk/plus?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kplus___\" target=\"_blank\">Kaspersky Plus</a>, and <a href=\"https://www.kaspersky.co.uk/premium?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kprem___\" target=\"_blank\">Kaspersky Premium</a> subscriptions — you can sit back and relax: scanning for threats takes place automatically.</li>\n</ul>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"premium-generic\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16141956/whatsapp-mods-canesspy-feature.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16141956/whatsapp-mods-canesspy-feature-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16141956/whatsapp-mods-canesspy-feature-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/16141956/whatsapp-mods-canesspy-feature-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "What is a zero-click exploit? | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/what-is-zero-click-exploit/26918/",
+                    "dc:creator": {
+                        "#cdata-section": "Alanna Titterington"
+                    },
+                    "pubDate": "Wed, 15 Nov 2023 16:34:45 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Business"
+                        },
+                        {
+                            "#cdata-section": "Enterprise"
+                        },
+                        {
+                            "#cdata-section": "Threats"
+                        },
+                        {
+                            "#cdata-section": "cyberattacks"
+                        },
+                        {
+                            "#cdata-section": "exploits"
+                        },
+                        {
+                            "#cdata-section": "security"
+                        },
+                        {
+                            "#cdata-section": "spyware"
+                        },
+                        {
+                            "#cdata-section": "threats"
+                        },
+                        {
+                            "#cdata-section": "tracking"
+                        },
+                        {
+                            "#cdata-section": "updates"
+                        },
+                        {
+                            "#cdata-section": "vulnerabilities"
+                        },
+                        {
+                            "#cdata-section": "zero-click"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/what-is-zero-click-exploit/26918/"
+                    },
+                    "description": {
+                        "#cdata-section": "Zero-click exploits are attacks that don’t require any active user actions. We explain why they’re dangerous and how to defend against them."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>Some people believe that if you don&#8217;t click on dangerous links, open suspicious files, or install programs from untrusted sources, you don&#8217;t have to worry about malware infections. Unfortunately, this isn&#8217;t entirely true. There are so-called <em>zero-click</em> <a href=\"https://encyclopedia.kaspersky.com/glossary/exploit/\" target=\"_blank\" rel=\"noopener\">exploits</a> that don&#8217;t require any actions of the targeted user.</p>\n<p>Creating zero-click exploits requires both serious expertise and significant resources. The vulnerabilities needed for zero-clicks to work are, to say the least, not easily discovered — information about such security issues can cost hundreds of thousands, if not millions of dollars on the black market.</p>\n<p>However, this does not mean that attacks using zero-click exploits are rare. Information about vulnerabilities (including those suitable for creating zero-click exploits) is often published by researchers on the Internet, sometimes along with proof-of-concept code. That is, after some time, any cybercriminal who follows infosec news will be able to use this vulnerability in their malware. Yes, software developers try to fix such vulnerabilities ASAP, but as we know, not everyone promptly installs updates.</p>\n<p>Also, we should not forget about vulnerabilities in IoT devices, servers, and other connected systems such as network attach storage (NAS). All this equipment operates without constant human control, and therefore exploits designed to attack them do not rely on any user action. Either way, it&#8217;s worth at least knowing about zero-click attacks; even better — to take some measures to protect your company against them.</p>\n<h2>Examples of zero-click attacks</h2>\n<p>Using real-life examples of zero-click attacks, let&#8217;s see how they work in practice, and what methods the creators of these exploits use to achieve their goals.</p>\n<h3>The Operation Triangulation espionage campaign</h3>\n<p>Not long ago, employees of our company were attacked by an unknown group using, among other things, a zero-click exploit. After discovering it, we named this espionage campaign <a href=\"https://www.kaspersky.com/blog/triangulation-attack-on-ios/48353/\" target=\"_blank\" rel=\"noopener\">Operation Triangulation</a>. Using Apple&#8217;s iMessage service, the attackers sent a message to the victim&#8217;s iPhone with a special attachment containing an exploit. Thanks to a previously unknown vulnerability in iOS, this exploit, without any user input, triggered the execution of malicious code that connected to a C2 server and gradually loaded additional malicious payload. It first elevated privileges using additional exploits and then launched a full-blown APT platform.</p>\n<p>To get around the iPhone&#8217;s internal security mechanisms, the platform operated exclusively in the device&#8217;s RAM. It allowed the attackers to collect information about the owner and launch additional plugins downloaded from С2 servers. The infection was only detected thanks to our network event monitoring and analyzing system.</p>\n<p>Of course, Apple quickly fixed this vulnerability, but it is <a href=\"https://googleprojectzero.blogspot.com/2021/12/a-deep-dive-into-nso-zero-click.html\" target=\"_blank\" rel=\"nofollow noopener\">not the first</a> exploitation of a bug in iMessage that allows attackers to infect an iPhone using an invisible malware. Since attackers are actively researching this service, there is no guarantee that they will not find some alternative method and use it (possibly even for mass attacks).</p>\n<h3>Intellexa Predator spyware and a zero-click vulnerability in Safari</h3>\n<p>Another fairly recent example: Apple recently <a href=\"https://www.theregister.com/2023/09/22/apple_emergency_patches/\" target=\"_blank\" rel=\"nofollow noopener\">released an important update</a> for iOS, macOS, and some other software products, fixing several serious vulnerabilities. A vulnerability in the WebKit (a browser engine used by Apple Safari browser) was <a href=\"https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/\" target=\"_blank\" rel=\"nofollow noopener\">exploited</a> by a zero-click exploit, part of Intellexa Predator spyware.</p>\n<p>First, the attackers waited for the moment when the victim accessed a website whose connection didn&#8217;t use encryption (that is, HTTP rather than HTTPS). After that, they conducted a man-in-the-middle (<a href=\"https://encyclopedia.kaspersky.com/glossary/man-in-the-middle-attack/\" target=\"_blank\" rel=\"noopener\">MITM</a>) attack by redirecting the victim to an infected site. Then, the aforementioned vulnerability in the Safari browser was exploited — it allowed the attackers to execute arbitrary code on the iPhone without any action from the victim. Subsequently, the criminals used additional vulnerabilities to install spyware on the compromised iPhone.</p>\n<p>Researchers also discovered a similar exploit chain that the creators of Predator <a href=\"https://blog.google/threat-analysis-group/0-days-exploited-by-commercial-surveillance-vendor-in-egypt/\">used to infect Android smartphones</a>. In this case, the zero-click attack was executed in the Chrome browser.</p>\n<p>Earlier this year, we reported other vulnerabilities of this kind in both <a href=\"https://www.kaspersky.com/blog/ios-macos-vulnerabilities-april-2023/47938/\" target=\"_blank\" rel=\"noopener\">Apple Safari</a> and <a href=\"https://www.kaspersky.com/blog/chrome-vulnerability-april-2023/47946/\" target=\"_blank\" rel=\"noopener\">Google Chrome</a>. All of them enable the creation of malicious web pages that, in turn, infect with malware the smartphones or computers of users who visit them — again without any additional actions on the part of the victims.</p>\n<h2>How to defend against zero-click attacks</h2>\n<p>Since the primary danger of zero-clicks lies in the fact that their creators don&#8217;t require any active action at all by the victim, the usual principles of online hygiene aren&#8217;t very helpful here. However, there are still some things you can do to protect devices:</p>\n<ul>\n<li>Keep software <a href=\"https://www.kaspersky.com/blog/patching-priorities/48867/\" target=\"_blank\" rel=\"noopener\">up to date</a> — especially the operating system and <em>all</em> browsers installed on it.</li>\n<li>If you have any reason to be concerned about attacks using high-level commercial spyware (such as NSO Pegasus), see our dedicated post with recommendations on <a href=\"https://www.kaspersky.com/blog/how-to-protect-from-pegasus-spyware/43453/\" target=\"_blank\" rel=\"noopener\">how to defend against them</a>.</li>\n<li>For iPhone users, it&#8217;s good to use <a href=\"https://www.kaspersky.com/blog/apple-lockdown-mode/45061/\" target=\"_blank\" rel=\"noopener\">Lockdown Mode</a>. This mode <a href=\"https://techcrunch.com/2023/04/18/apple-lockdown-mode-iphone-nso-pegasus/\" target=\"_blank\" rel=\"nofollow noopener\">helps</a> partially protect against serious attacks, but should by no means be considered a panacea.</li>\n<li>Supply all corporate devices with <a href=\"https://www.kaspersky.co.uk/small-to-medium-business-security?icid=gb_kdailyplacehold_acq_ona_smm__onl_b2b_kasperskydaily_wpplaceholder_______\" target=\"_blank\">a reliable protective solution</a> that will take care of security during periods when new vulnerabilities are already being exploited, but the corresponding patches haven&#8217;t yet been released.</li>\n<li>This also applies to iOS. Yes, due to Apple&#8217;s policy, there are no full-fledged antivirus solutions for this operating system. However, <a href=\"https://www.kaspersky.co.uk/small-to-medium-business-security?icid=gb_kdailyplacehold_acq_ona_smm__onl_b2b_kasperskydaily_wpplaceholder_______\" target=\"_blank\">Kaspersky Endpoint Security for Business</a> includes an application that does at least block dangerous web pages, thereby reducing the likelihood of vulnerabilities being exploited in the browser.</li>\n</ul>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"kesb-trial\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/15163454/what-is-zero-click-exploit-featured.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/15163454/what-is-zero-click-exploit-featured-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/15163454/what-is-zero-click-exploit-featured-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/15163454/what-is-zero-click-exploit-featured-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "Kaspersky multi-layered protection for your online finances | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/kaspersky-protection-for-financial-security/26911/",
+                    "dc:creator": {
+                        "#cdata-section": "Kaspersky Team"
+                    },
+                    "pubDate": "Mon, 13 Nov 2023 12:14:37 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Products"
+                        },
+                        {
+                            "#cdata-section": "Tips"
+                        },
+                        {
+                            "#cdata-section": "android"
+                        },
+                        {
+                            "#cdata-section": "bank cards"
+                        },
+                        {
+                            "#cdata-section": "banking security"
+                        },
+                        {
+                            "#cdata-section": "banking trojans"
+                        },
+                        {
+                            "#cdata-section": "cryptocurrencies"
+                        },
+                        {
+                            "#cdata-section": "finance"
+                        },
+                        {
+                            "#cdata-section": "fraud"
+                        },
+                        {
+                            "#cdata-section": "hacking"
+                        },
+                        {
+                            "#cdata-section": "Kaspersky Password Manager"
+                        },
+                        {
+                            "#cdata-section": "online shopping"
+                        },
+                        {
+                            "#cdata-section": "passwords"
+                        },
+                        {
+                            "#cdata-section": "phishing"
+                        },
+                        {
+                            "#cdata-section": "products"
+                        },
+                        {
+                            "#cdata-section": "safe money"
+                        },
+                        {
+                            "#cdata-section": "scam"
+                        },
+                        {
+                            "#cdata-section": "stealers"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/kaspersky-protection-for-financial-security/26911/"
+                    },
+                    "description": {
+                        "#cdata-section": "What Kaspersky technologies and products are designed for multi-layered protection of your online finances, and what threats they can protect against."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>Much of our financial life has long since shifted from the physical world to the digital. Banking apps, digital wallets, online payments, and cryptocurrencies are all 21<sup>st</sup>-century innovations that make financial transactions faster and more accessible than ever before, opening up all kinds of hitherto unimaginable opportunities.</p>\n<p>But this convenience has a downside: our digital finances are vulnerable to digital crimes. Then again, that&#8217;s only true if you neglect protecting your online finances from cybercriminals. This post takes a look at how Kaspersky technologies and products secure your digital money, and thus your financial well-being.</p>\n<h2>1. Password Manager</h2>\n<p>The backbone of all account security — and financial services are no exception — is, of course, your password. The weaker it is, the greater the chances of a successful hack on your account in some online store or payment system where you enter card details.</p>\n<p>It&#8217;s just as dangerous to use the same password for different online services. If you do, then if there&#8217;s a password leak on one of them (all too common, sadly), your accounts with other services will be compromised as well. Hackers are well aware that many people use the same character combinations on multiple sites, so they often use leaked passwords to try to log in to other resources, a technique known as <a href=\"https://encyclopedia.kaspersky.com/glossary/credential-stuffing/\" target=\"_blank\" rel=\"noopener\">credential stuffing</a>. And naturally, their focus tends to be on money-related services.</p>\n<p>Using <a href=\"https://www.kaspersky.co.uk/password-manager?icid=gb_kdailyplacehold_acq_ona_smm__onl_b2c_kasperskydaily_wpplaceholder____kpm___\" target=\"_blank\">Kaspersky Password Manager</a> radically improves password security and to keep your financial accounts safe. Our app generates unique, maximum-security passwords for every service you use, stores them safely so there&#8217;s no need to remember them, and even <a href=\"https://www.kaspersky.com/blog/make-your-passwords-stronger-with-kaspersky-password-manager/40269/\" target=\"_blank\" rel=\"noopener\">warns you about leaks</a>. Incidentally, the latest update of Kaspersky Password Manager has added the ability to generate <a href=\"https://www.kaspersky.com/blog/kaspersky-password-manager-authenticator/48841/\" target=\"_blank\" rel=\"noopener\">one-time codes for two-factor authentication</a>. And you get it for free with <a href=\"https://www.kaspersky.co.uk/plus?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kplus___\" target=\"_blank\">Kaspersky Plus</a> and <a href=\"https://www.kaspersky.co.uk/premium?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kprem___\" target=\"_blank\">Kaspersky Premium</a> subscriptions.</p>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"kpm-download\" />\n<h2>2. Safe Money</h2>\n<p>Safe Money was designed specifically for enabling secure financial transactions and online purchases. To protect important payment data entered on the websites of banks, payment systems, and online stores — including bank card numbers and passwords — our solution prompts you to open such sites in our <a href=\"https://support.kaspersky.com/help/Kaspersky/Win21.15/en-US/110417.htm\" target=\"_blank\" rel=\"noopener\">Protected Browser</a>.</p>\n<p>In this special mode, your confidential data is protected to the max. And if a site seems fishy in any way at all, Protected Browser warns you with a notification and a change of the frame color from safe green to yellow.</p>\n<p>With Safe Money, you can do online shopping and banking safely in the knowledge that both your money and personal data are fully protected. This feature is included in all our paid subscriptions:<a href=\"https://www.kaspersky.co.uk/standard?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kstand___\" target=\"_blank\">Kaspersky Standard</a>, <a href=\"https://www.kaspersky.co.uk/plus?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kplus___\" target=\"_blank\">Kaspersky Plus</a>, and <a href=\"https://www.kaspersky.co.uk/premium?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kprem___\" target=\"_blank\">Kaspersky Premium</a>.</p>\n<h2>3. File Anti-Virus</h2>\n<p>Of course, one of the central components of our multi-layered financial protection is good old Anti-Virus. This is what protects your money from the most dangerous threat: malware, in particular, so-called <a href=\"https://encyclopedia.kaspersky.com/glossary/trojan-psw-psw-password-stealing-ware/\" target=\"_blank\" rel=\"noopener\">stealers</a>, which, after infecting the target device, look for passwords and private keys to cryptocurrency wallets stored on it, then send them straight to the cyberthieves.</p>\n<p>Another common threat directly related to finances that File Anti-Virus guards against is banking Trojans. These are viruses that overlay a banking app&#8217;s interface with its own and can&#8217;t only steal passwords but also intercept one-time confirmation codes, as well as substitute details and amounts of transfers and payments, allowing the cybercriminals to siphon off money.</p>\n<p>These two threats alone are reason enough for you to install <a href=\"https://www.kaspersky.co.uk/premium?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kprem___\" target=\"_blank\">reliable protection</a> on all devices you use for financial transactions. There are plenty of other dangers that Anti-Virus also protects against, such as ransomware Trojans and spyware to name just a couple.</p>\n<h2>4. Safe Browsing</h2>\n<p>Note that it might not be your computer or smartphone that&#8217;s infected with malware, but the server you&#8217;re interacting with. The first threat to worry about in this scenario would be <a href=\"https://www.kaspersky.com/blog/illicit-code-on-legitimate-sites/48509/\" target=\"_blank\" rel=\"noopener\">online skimmers</a> — malware that scammers install on hacked online stores in order to harvest customers&#8217; bank card details.</p>\n<p>Web skimmers have become very popular with cybercriminals of late — every year, tens of thousands of online stores are found to be infected with malware of this kind. Often, the owners of compromised stores are either unaware of the infection or take no action to neutralize a threat, so a web skimmer might remain active on an infected site for months. In practical terms, this means that even if you personally have been careful and your devices are all clean, you can still fall victim to cybercriminals simply by interacting with an infected website.</p>\n<p>Fortunately, we also have a solution to protect you from web skimmers and other threats: <a href=\"https://support.kaspersky.com/help/Kaspersky/Win21.13/en-US/85992.htm\" target=\"_blank\" rel=\"noopener\">Safe Browsing</a> scans the pages loaded by your browser for malicious code and, if detected, warns you that the site is unsafe.</p>\n<h2>5. Anti-Phishing and Fraud Prevention</h2>\n<p>There&#8217;s no way we can skip over fake and fraudulent websites, which affect a huge number of internet users every year. These can be cloned sites mimicking banks, payment systems, crypto exchanges, or other financial services that trick visitors out of their credentials and then hijack their accounts.</p>\n<p>They can also be online scams promising large payouts in exchange for a small commission, fake online stores with tempting prices that never deliver your purchase, or other types of online fraud.</p>\n<p>The problem is that sites of this kind usually don&#8217;t directly contain any malicious code. To effectively protect against such threats, our experts work day and night to keep our database of phishing and fraudulent sites up to date. As a result, our solutions give you a heads-up in good time whenever danger is near.</p>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"premium-generic\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/13121446/kaspersky-protection-for-financial-security-featured.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/13121446/kaspersky-protection-for-financial-security-featured-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/13121446/kaspersky-protection-for-financial-security-featured-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/13121446/kaspersky-protection-for-financial-security-featured-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "How to lock your screen quickly and easily on Windows and macOS | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/four-ways-to-lock-your-screen-on-windows-and-macos/26908/",
+                    "dc:creator": {
+                        "#cdata-section": "Alanna Titterington"
+                    },
+                    "pubDate": "Fri, 10 Nov 2023 13:13:06 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Business"
+                        },
+                        {
+                            "#cdata-section": "Enterprise"
+                        },
+                        {
+                            "#cdata-section": "SMB"
+                        },
+                        {
+                            "#cdata-section": "#tips"
+                        },
+                        {
+                            "#cdata-section": "MacOS"
+                        },
+                        {
+                            "#cdata-section": "screen lock"
+                        },
+                        {
+                            "#cdata-section": "tips"
+                        },
+                        {
+                            "#cdata-section": "windows"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/?p=26908"
+                    },
+                    "description": {
+                        "#cdata-section": "A few screen-lock methods to quickly and conveniently protect valuable information on your computer against prying eyes."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>Not every company employee feels the need to lock the screen when leaving their work computer unattended. However, doing so is in fact a rather important aspect of corporate information security: if physically inside the office, an attacker can use an unguarded, unlocked computer to get valuable information or install malware. Therefore, one of the basic rules that employees need to be taught is to always lock their computer when they leave their desk.</p>\n<p>Probably the best-known way to lock the screen is through the menu. To do this on Windows the user needs to open the Start Menu by clicking the Windows Logo icon, then click the User icon, followed by Lock. Alternatively, they can press <strong>Ctrl + Alt + Del</strong> and click Lock on the screen that opens – or simply press <strong>Enter</strong> after the <strong>Ctrl + Alt + Del</strong>.</p>\n<p>Similarly, on macOS the user needs to click the Apple icon in the upper left corner of the screen and select Lock Screen from the menu.</p>\n<p>Not the most complicated of actions, but they do involve a certain amount of mouse moving and clicking. And judging by the number of people who don&#8217;t bother to lock their machines, many seem to find it too much of a chore. The good news is that there are plenty of alternative ways to lock your computer. So, if you lost all hope on convincing your colleagues to use the basic option, suggest them to try more simpler and faster ones.</p>\n<h2>Method 1: use a keyboard shortcut</h2>\n<p>It&#8217;s possible to lock your computer literally in a second using a couple of keys — and you don&#8217;t even have to configure anything. The Windows and macOS shortcuts are both set by default.</p>\n<ul>\n<li>On Windows (10 or 11), just press <strong>Windows + L</strong>.</li>\n<li>On macOS, the combo you need is <strong>Control + Command + Q</strong>.</li>\n</ul>\n<h2>Method 2: use the power button</h2>\n<p>There&#8217;s an even easier method on modern Macs: resting your finger on the Touch ID sensor locks the screen instantly (Apple keyboards without Touch ID have a special Lock key instead). So no more searching the keyboard for the right shortcut — this one &#8220;button&#8221; is all you need.</p>\n<p>Sadly for Windows users, there&#8217;s no equivalent. But the computer can be configured so that pressing the power button puts it to sleep and locks it at the same time. To do this, in the <em>Power and sleep settings</em>, go to <a href=\"https://support.microsoft.com/windows/2941d165-7d0a-a5e8-c5ad-8c972e8e6eff\" target=\"_blank\" rel=\"nofollow noopener\"><em>Choose what the power buttons do</em> in the Additional power settings</a>, find <em>When I press the power button</em> and select <em>Sleep</em>. Also, in the <a href=\"https://support.microsoft.com/windows/7b34d4cf-794f-f6bd-ddcc-e73cdf1a6fbf\" target=\"_blank\" rel=\"nofollow noopener\"><em>Sign-in options</em></a>, find <em>Require sign-in</em> and select <em>Always</em>.</p>\n<h2>Method 3: just move the pointer</h2>\n<p>macOS has a feature called Hot Corners. Its purpose is very simple: moving the pointer to one of the four corners of the screen triggers a predefined action. Such action can be screen locking. <a href=\"https://support.apple.com/guide/mac-help/mchlp3000/\" target=\"_blank\" rel=\"nofollow noopener\">Set-up takes just a couple of minutes</a>, after which you&#8217;re able to lock the screen with one move of the pointer to the chosen corner.</p>\n<p>Windows has no Hot Corners feature out-of-the-box. However, there is a tool called WinXCorners that lets you add it to the system and <a href=\"https://www.makeuseof.com/windows-11-macos-hot-corners/\" target=\"_blank\" rel=\"nofollow noopener\">use a corner, for example, to lock the screen</a>.</p>\n<p>If you&#8217;d rather not install anything, Windows offers a close alternative: you can place on your desktop a shortcut which, when double-clicked, locks the computer. Simply create a new shortcut, and in the <em> Type the location of the item</em> box, enter the following:</p>\n<p><code>%windir%System32rundll32.exe user32.dll,LockWorkStation</code></p>\n<h2>Method 4: use Dynamic Lock</h2>\n<p>Finally, the best option for the ultra-forgetful: Dynamic Lock in Windows 10 and 11 (Bluetooth required). This feature automatically locks your computer when you and your paired device move out of Bluetooth range. Here&#8217;s how to <a href=\"https://support.microsoft.com/windows/d0a5f536-74ac-0859-820a-4140dac9fcaf\" target=\"_blank\" rel=\"nofollow noopener\">set it up</a>.</p>\n<p>Although macOS has no such native feature, you can download the <a href=\"https://nearlock.me/\" target=\"_blank\" rel=\"nofollow noopener\">Near Lock</a> app, which does exactly the same job. It even lets you use not only your iPhone, but also your Apple Watch to automatically lock your Mac. The latter is perhaps the safer option: you may not always take your phone with you everywhere you go in the office, while (perhaps) there&#8217;s more chance of your keeping your watch on your wrist.</p>\n<p>And of course, you should always configure all your devices to auto-lock after a certain period of inactivity.</p>\n<h2>More knowledge, more security</h2>\n<p>To arm your company&#8217;s employees with more valuable, basic knowledge and useful skills related to cybersecurity, training is the way to go. For example, this can be organized with our <a href=\"https://k-asap.com/en/?icid=gb_kdailyplacehold_acq_ona_smm__onl_b2b_kasperskydaily_wpplaceholder____kasap___\" target=\"_blank\">Kaspersky Automated Security Awareness Platform</a>.</p>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"kasap\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/10125845/how-to-lock-windows-macos-feature-1.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/10125845/how-to-lock-windows-macos-feature-1-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/10125845/how-to-lock-windows-macos-feature-1-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/10125845/how-to-lock-windows-macos-feature-1-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "Transatlantic Cable podcast, episode 323 | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/transatlantic-cable-podcast-323/26907/",
+                    "dc:creator": {
+                        "#cdata-section": "David Buxton"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 15:03:12 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "News"
+                        },
+                        {
+                            "#cdata-section": "podcast"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/transatlantic-cable-podcast-323/26907/"
+                    },
+                    "description": {
+                        "#cdata-section": "Episode 323 of the Kaspersky podcast looks at BAYC, AI, CCTV concerns &amp; what does AI and Perfect Dark have in common?"
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>The latest episode of the Transatlantic Cable podcast kicks off with news that fans of the Bored Ape Yacht Club reported severe eye burn from a recent event held in Hong Kong. From there the team discuss how to store your bitcoin passwords on VHS cassettes and how AI could potentially be used for ill-gotten gains on the stock market.</p>\n<p>The team close by discussing how a small town in America has connected all their CCTV cameras into one giant surveillance tool – and it has some privacy advocates concerned.</p>\n<p>If you liked what you heard, please consider subscribing.</p>\n<ul>\n<li><a href=\"https://www.coindesk.com/business/2023/11/06/apefest-attendees-report-severe-eye-burn-bayc-says-less-than-1-have-symptoms/\" target=\"_blank\" rel=\"noopener\">ApeFest Attendees Report Severe Eye Burn</a></li>\n<li><a href=\"https://www.404media.co/no-one-will-find-my-bitcoin-in-this-copy-of-perfect-dark-for-the-n64/\" target=\"_blank\" rel=\"noopener\">No One Will Find My Bitcoin In This Copy of Perfect Dark for the N64</a></li>\n<li><a href=\"https://www.bbc.co.uk/news/technology-67302788\" target=\"_blank\" rel=\"noopener\">AI bot capable of insider trading and lying</a></li>\n<li><a href=\"https://www.404media.co/fusus-ai-cameras-took-over-town-america/\" target=\"_blank\" rel=\"noopener\">AI Cameras Took Over One Small American Town</a></li>\n</ul>\n<p><iframe loading=\"lazy\" src=\"//html5-player.libsyn.com/embed/episode/id/28564953/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/\" frameborder=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\"  width=\"100%\" height=\"90px\"></iframe></p>\n<div class=\"podcast-subscribe\"><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-itunes\" class=\"itunes\" href=\"https://itunes.apple.com/us/podcast/talk-security/id909407206\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-apple.png\" /></a><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-spotify\" class=\"spotify\" href=\"https://open.spotify.com/show/1VGCKlOoQ9C24dJiCHGTK5\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-spotify.png\" /></a><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-googleplay\" class=\"google\" href=\"https://play.google.com/music/m/Iyc2gocjmpw44j4aafwzvd4uwee?t=Transatlantic_Cable_Podcast\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-google.png\" /></a><a data-omniture-download-button-type=\"TrialBuilds\" data-omniture-product-name=\"podcast-rss\" class=\"rss\" href=\"http://talksecurity.kaspersky-podcasts.libsynpro.com/rss\" target=\"_blank\"><img decoding=\"async\" src=\"https://www.kaspersky.co.uk/blog/wp-content/plugins/kaspersky-embeds/img/button-subscribe-rss.png\" /></a></div>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"ksc-trial-generic\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/20212412/transatlantic-cable-podcast-299-featured.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/20212412/transatlantic-cable-podcast-299-featured-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/20212412/transatlantic-cable-podcast-299-featured-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/05/20212412/transatlantic-cable-podcast-299-featured-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "Google Play malware clocks up more than 600 million downloads in 2023 | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/malware-in-google-play-2023/26904/",
+                    "dc:creator": {
+                        "#cdata-section": "Alanna Titterington"
+                    },
+                    "pubDate": "Thu, 09 Nov 2023 14:36:58 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Threats"
+                        },
+                        {
+                            "#cdata-section": "advertising"
+                        },
+                        {
+                            "#cdata-section": "Adware"
+                        },
+                        {
+                            "#cdata-section": "android"
+                        },
+                        {
+                            "#cdata-section": "Google Play"
+                        },
+                        {
+                            "#cdata-section": "paid subscriptions"
+                        },
+                        {
+                            "#cdata-section": "privacy"
+                        },
+                        {
+                            "#cdata-section": "spyware"
+                        },
+                        {
+                            "#cdata-section": "surveillance"
+                        },
+                        {
+                            "#cdata-section": "threats"
+                        },
+                        {
+                            "#cdata-section": "trojans"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/malware-in-google-play-2023/26904/"
+                    },
+                    "description": {
+                        "#cdata-section": "he most high-profile cases of malicious apps detected on Google Play in 2023, how they’ve harmed users, and how to guard against this threat."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>Users tend to think it&#8217;s safe to install apps from Google Play. After all, it&#8217;s the most official of all official stores for Android, and all apps there are thoroughly vetted by Google moderators, right?</p>\n<p>Bear in mind, however, that Google Play is home to <a href=\"https://www.businessofapps.com/guide/app-stores-list/\" target=\"_blank\" rel=\"nofollow noopener\">more than three million unique apps</a>, most of which get updated regularly, and to vet all of them thoroughly — that is, <em>really </em>thoroughly — is beyond the resources of even one of the world&#8217;s largest corporations.</p>\n<p>Well aware of this, makers of malicious apps have developed a number of techniques to sneak their creations onto Google Play. In this post, we take a look at the most headline-grabbing cases of 2023 regarding malicious apps on the official Android store, with total downloads in excess of — wait for it — 600 million. Let&#8217;s go!&#8230;\n</p>\n<h2>50,000 downloads: infected iRecorder app eavesdrops on users</h2>\n<p>\nLet&#8217;s start with the fairly minor, but quite interesting and highly illustrative case of iRecorder. This unremarkable screen-recording app for Android smartphones was uploaded to Google Play in September 2021.</p>\n<p>But then, in August 2022, its developers added some malicious functionality: code from the remote access Trojan AhMyth, which caused the smartphones of all users who had installed the app to record sound from the microphone every 15 minutes and send it to the server of the app creators. By the time <a href=\"https://arstechnica.com/information-technology/2023/05/app-with-50000-google-play-installs-sent-attackers-mic-recordings-every-15-minutes/\" target=\"_blank\" rel=\"nofollow noopener\">researchers discovered the malware</a> in May 2023, the iRecorder app had been downloaded more than 50,000 times.</p>\n<p>This example demonstrates one of the ways in which malicious apps creep into Google Play. First, cybercriminals upload an innocuous app to the store that&#8217;s guaranteed to sail through all moderation checks. Then, when the app has built an audience and some kind of reputation (which can take months or even years), it&#8217;s augmented with malicious functionality in its next update uploaded to Google Play.\n</p>\n<h2>620,000 downloads: Fleckpe subscription Trojan</h2>\n<p>\nAlso in May 2023, our experts <a href=\"https://securelist.com/fleckpe-a-new-family-of-trojan-subscribers-on-google-play/109643/\" target=\"_blank\" rel=\"noopener\">found several apps on Google Play</a> infected with the Fleckpe subscription Trojan. By that time, they&#8217;d already chalked up 620,000 installs. Interestingly, these apps were uploaded by different developers. And this is another common tactic: cybercriminals create numerous developer accounts in the store so that even if some get blocked by the moderators they can just upload a similar app to another account.</p>\n<div id=\"attachment_49584\" style=\"width: 939px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144514/malware-in-google-play-2023-01.jpg\"><img aria-describedby=\"caption-attachment-49584\" decoding=\"async\" loading=\"lazy\" class=\"size-full wp-image-49584\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144514/malware-in-google-play-2023-01.jpg\" alt=\"Apps on Google Play infected with the Fleckpe subscription Trojan\" width=\"929\" height=\"1428\"></a><p id=\"caption-attachment-49584\" class=\"wp-caption-text\">Apps on Google Play infected with the Fleckpe subscription Trojan</p></div>\n<p>When the infected app was run, the main malicious payload was downloaded to the victim&#8217;s smartphone, after which the Trojan connected to the command-and-control server and transferred country and cellular operator information. Based on this information, the server provided instructions on how to proceed. Fleckpe then opened web pages with paid subscriptions in a browser window invisible to the user, and by intercepting confirmation codes from incoming notifications subscribed the user to needless services paid for through the cellular operator account.\n</p>\n<h2>1.5 million downloads: Chinese spyware</h2>\n<p>\nIn July 2023, Google Play was <a href=\"https://thehackernews.com/2023/07/two-spyware-apps-on-google-play-with-15.html\" target=\"_blank\" rel=\"nofollow noopener\">found to be hosting</a> two file managers — one with one million downloads, the other with half a million. Despite the developers&#8217; assurances that the apps don&#8217;t collect any data, researchers found that both transmitted a lot of user information to servers in China, including contacts, real-time geolocation, data about the smartphone model and cellular network, photos, audio and video files, and more.</p>\n<div id=\"attachment_49583\" style=\"width: 1544px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144525/malware-in-google-play-2023-02.jpg\"><img aria-describedby=\"caption-attachment-49583\" decoding=\"async\" loading=\"lazy\" class=\"size-full wp-image-49583\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144525/malware-in-google-play-2023-02.jpg\" alt=\"File managers on Google Play infected with spyware\" width=\"1534\" height=\"640\"></a><p id=\"caption-attachment-49583\" class=\"wp-caption-text\">File managers on Google Play with Chinese spyware inside. <a href=\"https://thehackernews.com/2023/07/two-spyware-apps-on-google-play-with-15.html\" target=\"_blank\" rel=\"nofollow noopener\">Source</a></p></div>\n<p>To avoid being uninstalled by the user, the infected apps hid their desktop icons — another common tactic used by mobile malware creators.\n</p>\n<h2>2.5 million downloads: background adware</h2>\n<p>\nIn a recent case of malware detection on Google Play in August 2023, researchers <a href=\"https://www.bleepingcomputer.com/news/security/google-play-apps-with-25m-installs-load-ads-when-screens-off/\" target=\"_blank\" rel=\"nofollow noopener\">found</a> as many as 43 apps — including, among others, TV/DMB Player, Music Downloader, News, and Calendar — that secretly loaded ads when the user&#8217;s smartphone screen was off.</p>\n<div id=\"attachment_49581\" style=\"width: 314px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144538/malware-in-google-play-2023-03.png\"><img aria-describedby=\"caption-attachment-49581\" decoding=\"async\" loading=\"lazy\" class=\"size-full wp-image-49581\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144538/malware-in-google-play-2023-03.png\" alt=\"Apps on Google Play displayed ads in secret\" width=\"304\" height=\"313\"></a><p id=\"caption-attachment-49581\" class=\"wp-caption-text\">Some of the apps with hidden adware. <a href=\"https://www.bleepingcomputer.com/news/security/google-play-apps-with-25m-installs-load-ads-when-screens-off/\" target=\"_blank\" rel=\"nofollow noopener\">Source</a></p></div>\n<p>So as to be able to carry out their business in the background, the apps requested the user to add them to the list of power-saving exclusions. Naturally, affected users experienced reduced battery life. These apps had a combined total of 2.5 million downloads, and the target audience was primarily Korean.\n</p>\n<h2>20 million downloads: scammy apps promise rewards</h2>\n<p>\nA study published in early 2023 revealed <a href=\"https://www.phonearena.com/news/avoid-these-scammy-play-store-apps_id145237\" target=\"_blank\" rel=\"nofollow noopener\">several shady apps</a> on Google Play with more than 20 million downloads between them. Positioning themselves primarily as health trackers, they promised users cash rewards for walking and other activities, as well as for viewing ads or installing other apps.</p>\n<div id=\"attachment_49585\" style=\"width: 2380px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144552/malware-in-google-play-2023-04.png\"><img aria-describedby=\"caption-attachment-49585\" decoding=\"async\" loading=\"lazy\" class=\"size-full wp-image-49585\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144552/malware-in-google-play-2023-04.png\" alt=\"Scam apps on Google Play promising payouts for walking and viewing ads\" width=\"2370\" height=\"911\"></a><p id=\"caption-attachment-49585\" class=\"wp-caption-text\">Apps on Google Play promising rewards for walking and viewing ads. <a href=\"https://www.phonearena.com/news/avoid-these-scammy-play-store-apps_id145237\" target=\"_blank\" rel=\"nofollow noopener\">Source</a></p></div>\n<p>More precisely, the user was awarded points for these actions, which could then supposedly be converted into real money. The only trouble was that to get a reward, you had to amass such a huge number of points that it was effectively impossible.\n</p>\n<h2>35 million downloads: Minecraft clones with adware inside</h2>\n<p>\nGoogle Play also became home to malicious games this year, with the main culprit (and <a href=\"https://www.kaspersky.com/blog/minecraft-mod-adware-google-play-revisited/40202/\" target=\"_blank\" rel=\"noopener\">not for the first time</a>) being Minecraft — still one of the most popular titles in the world. In April 2023, <a href=\"https://www.bleepingcomputer.com/news/security/android-minecraft-clones-with-35m-downloads-infect-users-with-adware/\" target=\"_blank\" rel=\"nofollow noopener\">38 Minecraft clones were detected</a> in the official Android store, with a total of 35 million downloads. Hidden inside these apps was adware called, appropriately enough, HiddenAds.</p>\n<div id=\"attachment_49582\" style=\"width: 1702px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144613/malware-in-google-play-2023-05.jpg\"><img aria-describedby=\"caption-attachment-49582\" decoding=\"async\" loading=\"lazy\" class=\"size-full wp-image-49582\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144613/malware-in-google-play-2023-05.jpg\" alt=\"Adware-infected Minecraft clone on Google Play\" width=\"1692\" height=\"853\"></a><p id=\"caption-attachment-49582\" class=\"wp-caption-text\">Block Box Master Diamond — the most popular of the Minecraft clones infected by HiddenAds. <a href=\"https://www.bleepingcomputer.com/news/security/android-minecraft-clones-with-35m-downloads-infect-users-with-adware/\" target=\"_blank\" rel=\"nofollow noopener\">Source</a></p></div>\n<p>When the infected apps were launched, they &#8220;displayed&#8221; hidden ads without the user&#8217;s knowledge. That didn&#8217;t pose a serious threat per se, but such behavior could have affect device performance and battery life.</p>\n<p>And those infected apps could always be followed up later by a far less harmless monetization scheme. This is another standard tactic of Android malware app creators: they readily switch between different types of malicious activity depending on what&#8217;s profitable at any given moment.\n</p>\n<h2>100 million downloads: data harvesting and click fraud</h2>\n<p>\nAlso in April 2023, <a href=\"https://thehackernews.com/2023/04/goldoson-android-malware-infects-over.html\" target=\"_blank\" rel=\"nofollow noopener\">another 60 apps</a> were found on Google Play infected with adware that researchers dubbed Goldoson. These apps collectively had more than 100 million downloads on Google Play and a further eight million on the popular Korean <a href=\"https://www.onestorecorp.com/en/about/osc/\" target=\"_blank\" rel=\"nofollow noopener\">ONE store</a>.</p>\n<p>This malware also &#8220;showed&#8221; hidden ads by opening web pages within the app in the background. In addition, the malicious apps collected user data — including information about installed apps, geolocation, addresses of devices connected to the smartphone via Wi-Fi and Bluetooth, and more.</p>\n<p>Goldoson seems to have gotten into all these apps along with an infected library used by many legitimate developers that were simply unaware that it contained malicious functionality. And this isn&#8217;t an uncommon occurrence: often malware creators don&#8217;t develop and publish apps on Google Play themselves, but instead create infected libraries of this kind that end up in the store along with other developers&#8217; apps.\n</p>\n<h2>451 million downloads: mini-game ads and data harvesting</h2>\n<p>\nWe close with the biggest case of the year: in May 2023, a team of researchers <a href=\"https://www.bleepingcomputer.com/news/security/android-apps-with-spyware-installed-421-million-times-from-google-play/\" target=\"_blank\" rel=\"nofollow noopener\">found</a> a whopping 101 ineligible apps on Google Play, with combined downloads of 421 million. Lurking inside each and every one of them was a SpinOk code library.</p>\n<p>Shortly after that, another team of researchers discovered <a href=\"https://www.tomsguide.com/news/android-apps-with-30-million-downloads-contain-spinok-android-malware-delete-these-now\" target=\"_blank\" rel=\"nofollow noopener\">92 more apps</a> on Google Play with the same SpinOk library, with a slightly more modest number of downloads — 30 million. In all almost 200 apps containing SpinOK code were found, with a total of 451 million downloads from Google Play between them. This is another case where dangerous code was delivered into applications from a third-party library.</p>\n<div id=\"attachment_49586\" style=\"width: 1660px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144630/malware-in-google-play-2023-06.jpg\"><img aria-describedby=\"caption-attachment-49586\" decoding=\"async\" loading=\"lazy\" class=\"size-full wp-image-49586\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144630/malware-in-google-play-2023-06.jpg\" alt=\"Mini-games advertised by SpinOk\" width=\"1650\" height=\"1129\"></a><p id=\"caption-attachment-49586\" class=\"wp-caption-text\">Mini-games promising &#8220;rewards&#8221; that showed users applications containing SpinOk code. <a href=\"https://www.bleepingcomputer.com/news/security/android-apps-with-spyware-installed-421-million-times-from-google-play/\" target=\"_blank\" rel=\"nofollow noopener\">Source</a></p></div>\n<p>On the surface, the infected apps&#8217; task was to display intrusive mini-games promising cash rewards. But that wasn&#8217;t all: the SpinOK library had the ability to collect and send user data and files to its developers&#8217; command-and-control server in the background.\n</p>\n<h2>How to guard against malware on Google Play</h2>\n<p>\nOf course, we haven&#8217;t covered all the cases of malicious apps getting onto Google Play in 2023 — only the most eye-catching. The main takeaway from this post is this: malware on Google Play is far more common than any of us would like to think — infected apps have a combined download total in excess of half a billion!</p>\n<p>Nevertheless, official stores remain by far the safest sources. Downloading apps elsewhere is far more dangerous, for which reason we <a href=\"https://www.kaspersky.com/blog/unknown-apps-android/41656/\" target=\"_blank\" rel=\"noopener\">strongly advise against it</a>. But you must exercise caution in official stores as well:\n</p>\n<ul>\n<li>Every time you download a new app, carefully check its page in the store to make sure it&#8217;s genuine. Pay particular attention to the name of the developer. It&#8217;s not unusual for cybercriminals to clone popular apps and place them on Google Play under similar names, icons, and descriptions to lure users.</li>\n<li>Don&#8217;t be guided by the app&#8217;s overall rating, since this is easy to inflate. Rave reviews are also no trouble to fake. Instead, focus on negative reviews with low ratings — that&#8217;s where you can usually find a description of all the problems with the app.</li>\n<li>Make sure to install a <a href=\"https://app.appsflyer.com/com.kms.free?pid=smm&c=ww_kdailyplaceholder\" target=\"_blank\">reliable protection</a> on all your Android devices, which gives an advance warning if a Trojan tries to sneak onto your smartphone or tablet.</li>\n<li>In the free version of our <a href=\"https://app.appsflyer.com/com.kms.free?pid=smm&c=ww_kdailyplaceholder\" target=\"_blank\">Kaspersky Security & VPN</a> application, remember to manually run a device scan from time to time, and be sure to perform an antivirus scan <em>after</em> installing any new app and <em>before</em> launching it for the first time.</li>\n<li>In the paid version of our protection suite — which, incidentally, is included in a subscription to <a href=\"https://www.kaspersky.co.uk/standard?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kstand___\" target=\"_blank\">Kaspersky Standard</a>, <a href=\"https://www.kaspersky.co.uk/plus?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kplus___\" target=\"_blank\">Kaspersky Plus</a> or <a href=\"https://www.kaspersky.co.uk/premium?icid=gb_bb2022-kdplacehd_acq_ona_smm__onl_b2c_kdaily_lnk_sm-team___kprem___\" target=\"_blank\">Kaspersky Premium</a> — scanning is performed automatically, keeping you safe from infected apps.</li>\n</ul>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"premium-generic\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144650/malware-in-google-play-2023-featured.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144650/malware-in-google-play-2023-featured-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144650/malware-in-google-play-2023-featured-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/09144650/malware-in-google-play-2023-featured-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "10 most dangerous mistakes when setting up a corporate network | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/10-key-cybersecurity-mistakes/26893/",
+                    "dc:creator": {
+                        "#cdata-section": "Stan Kaminsky"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 18:49:29 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Business"
+                        },
+                        {
+                            "#cdata-section": "Enterprise"
+                        },
+                        {
+                            "#cdata-section": "#tips"
+                        },
+                        {
+                            "#cdata-section": "hackers"
+                        },
+                        {
+                            "#cdata-section": "MFA"
+                        },
+                        {
+                            "#cdata-section": "passwords"
+                        },
+                        {
+                            "#cdata-section": "patches"
+                        },
+                        {
+                            "#cdata-section": "privileges"
+                        },
+                        {
+                            "#cdata-section": "settings"
+                        },
+                        {
+                            "#cdata-section": "SIEM"
+                        },
+                        {
+                            "#cdata-section": "strategy"
+                        },
+                        {
+                            "#cdata-section": "updates"
+                        },
+                        {
+                            "#cdata-section": "vulnerabilities"
+                        },
+                        {
+                            "#cdata-section": "windows"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/10-key-cybersecurity-mistakes/26893/"
+                    },
+                    "description": {
+                        "#cdata-section": "We discuss what processes and settings could make you the next victim of a cyberattack — and how to prevent problems."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>Errors in configuring IT infrastructure are a regular occurrence at large organizations — even given the most mature and competent IT and cybersecurity departments. This is evident from the weekly news of hacks on major, well-established companies, as well as the results of security audits — although these are rarely made public. The problem has also been acknowledged by U.S. regulators such as CISA and the NSA. In their new paper with recommendations prepared by both their &#8220;red&#8221; and &#8220;blue&#8221; teams after numerous audits and incident responses, they note that configuration errors highlight systemic weaknesses in large organizations — including companies with mature information security. However, the document asserts that network security teams can neutralize or mitigate these weaknesses with sufficient funding, training, and staffing. Let&#8217;s take a look at the mistakes that experts consider the most dangerous.</p>\n<h2>1 Default application configuration</h2>\n<p>Any device or application — be it a printer, mail or file server, or video conferencing system — typically has a login mechanism with default access credentials that people can forget to disable. The default settings of these devices may be very simple (e.g., admin1234, or just 1234) and thus not very secure, but often no one changes them. A typical example is a printer that has privileged network access for easy printing, along with a web-based control panel with default login credentials. Another common occurrence is Windows servers with enabled older versions of SMB or other retro protocols. Default settings and templates of Active Directory Certificate Services are also very dangerous, allowing unprivileged users to get a server certificate, elevate privileges to administrative levels, or authenticate themselves by <a href=\"https://securelist.com/anomaly-detection-in-certificate-based-tgt-requests/110242/\" target=\"_blank\" rel=\"noopener\">obtaining a Kerberos TGT</a>.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Implement a mandatory procedure before starting to operate any IT system: disable default accounts (such as &#8220;admin&#8221; or &#8220;guest&#8221;) or at least change their passwords.</li>\n<li>Enforce the use of <a href=\"https://www.kaspersky.com/blog/strong-password-day/25519/\" target=\"_blank\" rel=\"noopener\">strong passwords</a> of 15 or more random characters.</li>\n<li>Apply secure settings on devices or services, following the manufacturer&#8217;s instructions for hardening and/or relevant general guidelines — such as <a href=\"https://public.cyber.mil/stigs/\" target=\"_blank\" rel=\"nofollow noopener\">DISA STIG</a>.</li>\n<li>Implement secure ADCS configuration: disable web enrollment if possible, disable NTLM on ADCS servers, and disable <a href=\"https://learn.microsoft.com/en-us/troubleshoot/windows-server/windows-security/disable-subject-alternative-name-upn-mapping\" target=\"_blank\" rel=\"nofollow noopener\">subject alternative name (SAN) for UPN mapping</a>.</li>\n<li>Review default permissions in ADCS templates, remove the CT_FLAG_ENROLLEE_SUPPLIES_SUBJECT flag from templates, and remove FullControl, WriteDacl, and Write properties from low-privilege users.</li>\n<li>Enable supervisor validation of any requested certificates.</li>\n</ul>\n<h2>2 Incorrect management of user and admin privileges</h2>\n<p>In any large network, you&#8217;ll often find excessive privileges granted to regular users (originally assigned for some temporary purpose and then never revoked), extended privileges for service accounts (applications and services), and highest privileges for administrators (who often work in this privileged mode all the time). Attackers deliberately seek out and exploit these accounts, for they make it faster and easier to take over the network.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Enforce the <a href=\"https://www.kaspersky.com/blog/zero-trust-security/36423/\" target=\"_blank\" rel=\"noopener\">principle of least privilege</a>.</li>\n<li>Implement an <a href=\"https://www.kaspersky.com/blog/how-to-benefit-from-identity-security/48399/\" target=\"_blank\" rel=\"noopener\">identity management system</a> that includes logging the issuance and use of permissions. This makes it easier to detect unauthorized use of access rights.</li>\n<li>Use this system to minimize the number of administrative accounts, and reduce the overall number of accounts (by merging them properly).</li>\n<li>Regularly audit accounts, disable inactive ones, and remove excessive privileges.</li>\n<li>Restrict privileged accounts from performing mundane activities such as browsing the web and accessing email.</li>\n<li>Grant elevated privileges only for the duration of required tasks — even to administrators.</li>\n<li>Whenever possible, run services and daemons with limited privileges and access rights.</li>\n</ul>\n<h2>3 Insufficient internal network monitoring</h2>\n<p>Many organizations only monitor traffic coming from external hosts and selected servers, while internal network monitoring is limited to endpoint events. This makes it difficult to detect attacks and investigate incidents in a timely manner.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Analyze the normal daily activity of applications and services to be able to identify anomalies in access and usage. For example, administrators should regularly review access and permission lists for key services and remove suspicious or outdated accounts.</li>\n<li>Analyze the organization&#8217;s daily network traffic to be able to identify anomalies within it.</li>\n<li>Implement a SIEM system to collect and analyze telemetry from various sources, including <a href=\"https://www.kaspersky.co.uk/enterprise-security/endpoint-detection-response-edr?icid=gb_kdailyplacehold_acq_ona_smm__onl_b2b_kasperskydaily_wpplaceholder_______\" target=\"_blank\">EDR</a> and IDS systems, network logs, and others.</li>\n</ul>\n<h2>4 Lack of network segmentation</h2>\n<p>Networks with different purposes and levels of importance often lack isolation from one another. Common issues include complete interconnection of networks containing classified and unclassified information, as well as IT and OT networks. In most cases, either segmentation is completely non-existent, or it&#8217;s implemented but some engineers decide it&#8217;s too inconvenient and create tunnels between networks at will (or even connect isolated networks to the internet). As a result, IT and information security department heads think that the networks are segmented when in fact they&#8217;re not.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Implement network segmentation if not already in place. This can involve both physical and logical (VLAN) segmentation. It&#8217;s important to ensure that infrastructure network devices have up-to-date and properly configured access control lists (ACLs) to prevent unauthorized devices from connecting to administrative, industrial, and confidential networks. We also recommend using demilitarized zones (DMZs) to reduce the accessibility of internal IT systems from the internet.</li>\n<li>Implement next-generation firewalls (NGFW) capable of <a href=\"https://en.wikipedia.org/wiki/Stateful_firewall\" target=\"_blank\" rel=\"nofollow noopener\">stateful</a> inspection and deep packet inspection, taking into account the originating application. The firewall should reject traffic differing from the standard traffic allowed within the network. Application-based traffic filtering isn&#8217;t solely based on network ports, and significantly reduces attackers&#8217; opportunities to maliciously exploit network protocols.</li>\n</ul>\n<h2>5 Poor patch management culture</h2>\n<p>A systematic problem is the slow and incomplete application of patches and updates to hardware and software systems. The situation is exacerbated by the fact that many organizations, for various reasons, continue to <a href=\"https://www.kaspersky.com/blog/legacy-it-update-troubles-and-mitigations/48692/\" target=\"_blank\" rel=\"noopener\">operate hopelessly outdated systems</a> (such as Windows XP, SAP R/3, and so on) that haven&#8217;t received any updates in a long time.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Systematize the patch management process, prioritizing remediation of known exploitable vulnerabilities and critical vulnerabilities.</li>\n<li>Automate updates as much as possible using software vendors&#8217; auto-update systems, or — even better — by having a centralized <a href=\"https://www.kaspersky.co.uk/small-to-medium-business-security?icid=gb_kdailyplacehold_acq_ona_smm__onl_b2b_kasperskydaily_wpplaceholder_______\" target=\"_blank\">patch management system</a>.</li>\n<li>Update not only software but also hardware firmware and computer BIOS/UEFI.</li>\n<li>Analyze <a href=\"https://www.kaspersky.com/blog/legacy-it-update-troubles-and-mitigations/48692/\" target=\"_blank\" rel=\"noopener\">outdated systems used in the business</a> and, if possible, plan for their retirement. If this isn&#8217;t possible, implement compensatory measures such as network isolation for legacy systems.</li>\n</ul>\n<h2>6 Possibility of bypassing access control</h2>\n<p>Environment and application settings often allow attacks like &#8220;pass-the-hash&#8221; and &#8220;kerberoasting&#8221; to access target resources without knowing the password.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Minimize the use of identical credentials across different systems to prevent attackers spreading through the network. Monitor non-standard and unsuccessful login attempts.</li>\n<li>Implement patch management (see point 5).</li>\n<li>Implement measures against PtH attacks: apply the <a href=\"https://learn.microsoft.com/en-us/security-updates/SecurityAdvisories/2016/2871997\" target=\"_blank\" rel=\"noopener\">KB2871997</a> updates, impose UAC restrictions on local accounts after network login, and prohibit domain users from joining the local administrators&#8217; group on computers.</li>\n<li>Restrict direct communication among regular computers. They need to interact through servers.</li>\n<li>Use privileged accounts only on systems that require these privileges. Consider using dedicated computers for privileged administrator access.</li>\n</ul>\n<h2>7 Weak or misconfigured multi-factor authentication methods</h2>\n<p>A common mistake is configuring access where authentication is performed only by a smart card, but hashes for long-unused passwords are still considered valid. If hash expiration policies are not configured, attackers can operate from old accounts using the techniques mentioned in point 6.</p>\n<p>Another common issue is MFA methods vulnerable to phishing, such as SMS codes. Attackers can obtain codes through various means — from social engineering and MFA bombing to <a href=\"https://www.kaspersky.com/blog/ss7-attack-intercepts-sms/16877/\" target=\"_blank\" rel=\"noopener\">SS7 telecom network attacks</a> or illegitimate SIM card duplication.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Disable outdated authentication methods like NTLM.</li>\n<li>Use group policies or Windows Hello for Business settings to regularly randomize hashes for accounts accessed through smart cards.</li>\n<li>Consider transitioning to open authentication standards based on cloud infrastructures.</li>\n<li>Switch to <a href=\"https://www.kaspersky.com/blog/2fa-practical-guide/24219/\" target=\"_blank\" rel=\"noopener\">MFA systems that are resistant to phishing</a>.</li>\n</ul>\n<h2>8 Insufficient restriction of access to network folders and services</h2>\n<p>In corporate networks, it&#8217;s common to find network folders that can be accessed without authentication, or administrative repositories accessible to regular users. These often contain files with admin passwords or other sensitive information in plaintext.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>All repositories and services should only allow access to authenticated and authorized users.</li>\n<li>Critical resources should be configured according to the principle of least privilege.</li>\n<li>Files and folders should have strict settings limiting unauthorized manipulations — especially folders containing confidential information such as keys.</li>\n<li>Ensure that attackers can&#8217;t modify access control lists (ACLs) at will, which would essentially override all the above measures.</li>\n<li>In Windows group policies, disable &#8220;anonymous enumeration of SAM accounts and share&#8221;.</li>\n</ul>\n<h2>9 Poor quality passwords and password policies</h2>\n<p>Many organizations allow users to have short and simple passwords. As a result, up to 80% of employee passwords can be quickly cracked using tools like Hashcat.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Set <a href=\"https://www.kaspersky.com/blog/strong-password-day/25519/\" target=\"_blank\" rel=\"noopener\">recommended complexity criteria</a> for all passwords.</li>\n<li>Evaluate whether users can <a href=\"https://www.kaspersky.com/blog/how-secure-is-your-password-manager/47034/\" target=\"_blank\" rel=\"noopener\">use password managers</a>, and which ones.</li>\n<li>Prohibit the use of identical local administrator passwords on different computers.</li>\n<li>Implement high-complexity criteria for administrative passwords and passphrases on certificates/private keys.</li>\n<li>Implement a process and automated system to search for passwords stored in plaintext or an easily extractable format (saved passwords in browsers).</li>\n</ul>\n<h2>10 Lack of restrictions on code execution</h2>\n<p>Few organizations enable the &#8220;list of allowed applications&#8221; mode — where only approved applications can be run on company computers. Allowing the execution of untrusted files enables attackers to deploy various malware, escalate privileges using vulnerable drivers, and so on.</p>\n<p><strong>Recommended security measures:</strong></p>\n<ul>\n<li>Enable settings that prevent the execution of applications from untrusted sources.</li>\n<li>Better yet, <a href=\"https://www.kaspersky.com/blog/wonders-of-whitelisting/6367/\" target=\"_blank\" rel=\"noopener\">use allowlisting (also known as default deny)</a>, permitting the running of applications only from a fixed list of approved ones. Ensure that the tool implementing this policy checks digital signatures and other key file attributes rather than just focusing on names.</li>\n<li>Block known vulnerable applications (especially drivers) from running.</li>\n<li>Limit the ability to run scripting languages (such as PowerShell), check logs for the execution of approved scripts, and disallow the execution of scripting languages not used in the company&#8217;s IT systems.</li>\n<li>Regularly review host and perimeter security systems to ensure they&#8217;re effectively filtering spam and blocking malware from being run.</li>\n</ul>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"mdr\" /><input type=\"hidden\" class=\"placeholder_for_banner\" data-cat_id=\"mdr\" value=\"23624\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08184939/10-key-cybersecurity-mistakes-featured-1.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08184939/10-key-cybersecurity-mistakes-featured-1-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08184939/10-key-cybersecurity-mistakes-featured-1-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08184939/10-key-cybersecurity-mistakes-featured-1-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "Myths and reality of our Cyber Immune OS | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/cyber-immunity-technology-myths/26889/",
+                    "dc:creator": {
+                        "#cdata-section": "Dmitry Lukiyan"
+                    },
+                    "pubDate": "Wed, 08 Nov 2023 17:19:55 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Business"
+                        },
+                        {
+                            "#cdata-section": "Enterprise"
+                        },
+                        {
+                            "#cdata-section": "cyber immunity"
+                        },
+                        {
+                            "#cdata-section": "cyberimmunity"
+                        },
+                        {
+                            "#cdata-section": "KasperskyOS"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/cyber-immunity-technology-myths/26889/"
+                    },
+                    "description": {
+                        "#cdata-section": "We debunk some of the false claims hindering the implementation of Cyber Immune products based on our KasperskyOS."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>Ever since we started working on our own operating system, we&#8217;ve encountered numerous myths that significantly hinder the adoption of new technologies. Fortunately, it&#8217;s not so difficult to provide compelling evidence that these myths are just that: myths. In this post, we address some of the most common misconceptions.\n</p>\n<h2>Myth 1: current operating systems can already handle all the latest challenges</h2>\n<p>\nWe&#8217;ve been hearing people say &#8220;we don&#8217;t need another OS&#8221; for more than 20 years. However, for all this time, mainstream operating systems have continued to suffer from the same three problems:\n</p>\n<ul>\n<li>Cyberthreats: in 2022, Kaspersky&#8217;s security systems detected over <a href=\"https://www.kaspersky.com/about/press-releases/2022_cybercriminals-attack-users-with-400000-new-malicious-files-daily---that-is-5-more-than-in-2021\" target=\"_blank\" rel=\"nofollow noopener\">400,000 new malicious files</a> Windows remains the primary target (accounting for 85% of threats), but the number of threats for Linux and Android is steadily increasing (with a 20% and 10% rise, respectively, last year).</li>\n<li>Instability: the infamous Windows blue screen of death still haunts our workdays. If anyone thinks things are different with Linux, they&#8217;re mistaken — it also has a screen of death, only it&#8217;s black (and it&#8217;s known as kernel panic).</li>\n<li>Mutual incompatibility: every year, we&#8217;re surrounded by more and more smart devices. <a href=\"https://iotbusinessnews.com/2022/05/19/70343-state-of-iot-2022-number-of-connected-iot-devices-growing-18-to-14-4-billion-globally/\" target=\"_blank\" rel=\"nofollow noopener\">According to analysts</a>, by 2025, the number of connected devices worldwide will reach 27 billion. Sometimes, devices produced by one and the same company may run on different operating systems. Consequently, software developers often have to put tremendous effort into adapting the same applications for different OS environments.</li>\n</ul>\n<p>\nHere at Kaspersky we found the solution to these problems by creating KasperskyOS. It&#8217;s based on the microkernel concept, the <a href=\"https://en.wikipedia.org/wiki/Multiple_Independent_Levels_of_Security\" target=\"_blank\" rel=\"nofollow noopener\">MILS architectural approach</a>, and <a href=\"https://en.wikipedia.org/wiki/FLASK\" target=\"_blank\" rel=\"nofollow noopener\">FLASK</a> architecture.</p>\n<div id=\"attachment_49495\" style=\"width: 725px\" class=\"wp-caption aligncenter\"><img aria-describedby=\"caption-attachment-49495\" decoding=\"async\" loading=\"lazy\" class=\"size-full wp-image-49495\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08171931/cyberimmunity-technology-myths-infographics.jpg\" alt=\"Average daily number of malicious files detected by Kaspersky security solutions from 2019 to 2022\" width=\"715\" height=\"428\"><p id=\"caption-attachment-49495\" class=\"wp-caption-text\">Average daily number of malicious files detected by Kaspersky security solutions from 2019 to 2022</p></div>\n<h2>Myth 2: the cybersecurity advantages of microkernels haven&#8217;t been proven</h2>\n<p>\nIt&#8217;s not easy to compare which architecture is better — microkernel or monolithic kernel. However, there have been many <a href=\"https://trustworthy.systems/publications/full_text/Biggs_LH_18.pdf\" target=\"_blank\" rel=\"nofollow noopener\">serious studies</a> dedicated to this. From these, it&#8217;s become evident that:\n</p>\n<ul>\n<li>Approximately 95% of critical vulnerabilities in Linux and exploits targeting this system wouldn&#8217;t be critical in microkernel operating systems.</li>\n<li>Approximately 55% of these critical vulnerabilities could have been mitigated through microkernel verification.</li>\n<li>Approximately 30% could simply have been prevented entirely by implementing a microkernel architecture.</li>\n</ul>\n<div id=\"attachment_49572\" style=\"width: 2650px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08171945/cyberimmunity-technology-myths-game-scaled-1-scaled-scaled.jpg\"><img aria-describedby=\"caption-attachment-49572\" decoding=\"async\" loading=\"lazy\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08171945/cyberimmunity-technology-myths-game-scaled-1-scaled-scaled.jpg\" alt=\"3D shooter running on KasperskyOS.\" width=\"2640\" height=\"1528\" class=\"size-full wp-image-49572\"></a><p id=\"caption-attachment-49572\" class=\"wp-caption-text\">3D shooter running on KasperskyOS.</p></div>\n<h2>Myth 3: microkernel OS is slow</h2>\n<p>\nThe performance of an operating system during processes requiring connections to remote desktops is an important concern. Therefore, we paid particular attention to it. And thanks to multicore and codec support, we managed to achieve a level of performance comparable to Linux.</p>\n<p>Games are some of the most performance-demanding applications, so as part of our testing we set ourselves the task of running a recently released game that uses GPU heavily on KasperskyOS. This doesn&#8217;t mean we&#8217;re going to start developing games or consoles. But this experiment did let us clearly demonstrate to our partners which will develop devices on KasperskyOS the system&#8217;s real capabilities of performing tasks related to design and 3D modeling.\n</p>\n<h2>Myth 4: Linux containers can perform the same tasks that KasperskyOS can using MILS.</h2>\n<p>\nIf we look closely at the architecture of our Cyber Immune gateway (one of the first KasperskyOS-based devices to hit the market), we find there around 200 security domains. If we tried to build the same thing on Docker containers in Linux, it would require more than 5GB of RAM. Such a gateway implemented in the form of 200 containers on low-spec hardware with a single-core processor would work extremely slowly. The fundamental difference lies in the approaches: in Linux containers, we essentially take a complete system and trim off what we don&#8217;t need, whereas in KasperskyOS, we build it from the ground up with only the necessary components. This significantly optimizes resource consumption.</p>\n<div id=\"attachment_49496\" style=\"width: 1489px\" class=\"wp-caption aligncenter\"><a href=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08172005/cyberimmunity-technology-myths-architecture.jpg\"><img aria-describedby=\"caption-attachment-49496\" decoding=\"async\" loading=\"lazy\" src=\"https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08172005/cyberimmunity-technology-myths-architecture.jpg\" alt=\"Architecture of the Cyber Immune gateway\" width=\"1479\" height=\"876\" class=\"size-full wp-image-49496\"></a><p id=\"caption-attachment-49496\" class=\"wp-caption-text\">Architecture of the Cyber Immune gateway</p></div>\n<h2>Myth 5: you can&#8217;t build dynamic systems with FLASK</h2>\n<p>\nThe FLASK concept provides control over security domains using security policies. There is a common belief that this approach makes it impossible to expand OS functionality through applications. However, the evolution of specific products based on KasperskyOS clearly demonstrates the opposite:\n</p>\n<ul>\n<li>In 2021, we proved with our IoT gateway the possibility of creating KasperskyOS-based Cyber Immune solutions with fixed functionality.</li>\n<li>In 2022, using a thin client as an example, we demonstrated the ability to create Cyber Immune solutions with support for a graphical user interface. Moreover, the partner with which we implemented this project added their own applications to KasperskyOS&#8217;s thin client functionality without any hitches.</li>\n<li>We&#8217;re currently in the third evolutionary stage — where external developers can create certain types of applications for KasperskyOS. To facilitate this, we&#8217;re developing our own application distribution system. The first Cyber Immune platform capable of accepting such applications will be the gateway — since it must be able to connect to a wide range of different devices.</li>\n</ul>\n<p>\nHowever, we&#8217;re not stopping there; we&#8217;re now working to transition to the next stage, where on the basis of KasperskyOS it will be possible to create full-fledged Cyber Immune platforms and systems with a large number of applications. Mobile devices are an example of such systems.\n</p>\n<h2>Myth 6: development is narrowly specialized</h2>\n<p>\nIt might seem that development of a new operating system requires developers to completely retrain. But that&#8217;s not the case. KasperskyOS is already bringing together developers from entirely different paradigms who use the tools they&#8217;re familiar with.</p>\n<p>Web applications are being developed for gateways and thin clients utilize the Qt framework, popular in the Linux community. For controllers, there&#8217;s nothing preventing the creation of console applications familiar to almost every programmer from their student days.</p>\n<p>Furthermore, together with colleagues working on developing an automotive gateway, we offer the option to use standard frameworks from the automotive industry, such as AUTOSAR Adaptive. We&#8217;re actively working on providing Flutter technology capabilities in our OS, which will ensure compatibility with Android applications.\n</p>\n<h2>Myth 7: the difficulty of porting to different hardware platforms</h2>\n<p>\nSome developers fear that developing new operating systems is pointless because drivers are only written for mainstream OS (Linux, Android, Windows). Therefore, any new OS will only work with a limited range of hardware. Understanding this, we launched a research project with the goal of creating technology that enables Linux drivers to run on KasperskyOS with minimal modifications — Linux Compat.</p>\n<p>The idea is simple: in KasperskyOS, you can run a piece of code in the secure domain like in a container. We add a thin software layer to this container so the Linux driver thinks it&#8217;s operating in its familiar Linux environment. Thanks to this technology, we&#8217;ve ported around 300,000 lines of Linux code to KasperskyOS — changing less than 5%. 300,000 lines of code is 8–10 years of work for an experienced developer (when it comes to driver development). Now for some concrete numbers. For example, accelerometer and gyroscope drivers in Linux contain about 7000 lines of code. To run this code using our technology on KasperskyOS, only 20 lines needed to be modified. And the NFC driver, used to support equipment with which mobile devices interact with payment terminals, contains about 1200 lines of code; with our technology, this driver ran without any changes at all.</p>\n<p>In my opinion, we&#8217;ve developed a technology that will allow us to upscale in the future. And right now we&#8217;re choosing the product on which we can fully test this technology.</p>\n<p>Everybody needs to choose for themselves whether they want to be mired in myth or in the new Cyber Immune reality. You can learn more on our <a href=\"https://os.kaspersky.com/?icid=gb_kdailyplacehold_acq_ona_smm__onl_b2b_kasperskydaily_wpplaceholder_______&utm_source=kdaily&utm_medium=blog&utm_campaign=uk_wpplaceholder_nv0092&utm_content=link&utm_term=uk_kdaily_organic_h7rnv4hz92huira\" target=\"_blank\">KasperskyOS website</a> and in <a href=\"https://os.kaspersky.com/blog/\" target=\"_blank\" rel=\"noopener\">blog on Cyber Immunity</a>. </p>\n<p>Let&#8217;s debunk myths together: reality is way more interesting!</p>\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08172018/cyberimmunity-technology-myths-featured.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08172018/cyberimmunity-technology-myths-featured-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08172018/cyberimmunity-technology-myths-featured-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/08172018/cyberimmunity-technology-myths-featured-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                },
+                {
+                    "title": "Malware, fake specs, and other problems with cheap Android devices | Kaspersky official blog",
+                    "link": "https://www.kaspersky.co.uk/blog/how-to-avoid-threats-from-budget-android-devices/26884/",
+                    "dc:creator": {
+                        "#cdata-section": "Stan Kaminsky"
+                    },
+                    "pubDate": "Tue, 07 Nov 2023 08:42:20 +0000",
+                    "category": [
+                        {
+                            "#cdata-section": "Threats"
+                        },
+                        {
+                            "#cdata-section": "Tips"
+                        },
+                        {
+                            "#cdata-section": "android"
+                        },
+                        {
+                            "#cdata-section": "Cybersecurity"
+                        },
+                        {
+                            "#cdata-section": "fake"
+                        },
+                        {
+                            "#cdata-section": "IoT"
+                        },
+                        {
+                            "#cdata-section": "privacy"
+                        },
+                        {
+                            "#cdata-section": "smart home"
+                        },
+                        {
+                            "#cdata-section": "Smart TV"
+                        },
+                        {
+                            "#cdata-section": "threats"
+                        },
+                        {
+                            "#cdata-section": "viruses"
+                        }
+                    ],
+                    "guid": {
+                        "@isPermaLink": "false",
+                        "#text": "https://www.kaspersky.co.uk/blog/how-to-avoid-threats-from-budget-android-devices/26884/"
+                    },
+                    "description": {
+                        "#cdata-section": "How to safely buy an inexpensive Android device and not get hit with viruses or counterfeits."
+                    },
+                    "content:encoded": {
+                        "#cdata-section": "<p>The temptation to save money when buying expensive devices is, well, tempting — gadgets from little-known brands can offer the same spec at a fraction of the price of more popular makes, while having an Android set-top box or Android TV can cut costs on a range of subscriptions.</p>\n<p>Unfortunately, cheap devices — much like a free lunch — often come with a catch, so it&#8217;s important to do your research before buying.</p>\n<h2>Malicious surprise</h2>\n<p>The most unwanted &#8220;gift&#8221; sometimes found in cheap, no-name Android devices is pre-installed malware. It&#8217;s not entirely clear whether bad actors install it directly at the factory, whether it happens on the way to the store, or whether manufacturers carelessly use trojanized third-party firmware, but as soon as you open the box and activate the new device, the malware springs into action. This type of infection is extremely dangerous.</p>\n<ul>\n<li><strong>The Trojan is difficult to detect and almost impossible to remove.</strong> It&#8217;s integrated right in the device&#8217;s firmware and has system privileges. Special know-how and software are needed to find and remove it, but even then there&#8217;s no guarantee that the malware will be gone for good and won&#8217;t reactivate.</li>\n<li><strong>Attackers have</strong> <strong>full access to the device and data.</strong> Without needing either permissions or requests, they can steal information, intercept authentication codes, install additional programs, and so on.</li>\n</ul>\n<p>Cybercriminals make money from such pre-infected devices in various ways, all of which cause harm to the buyer.</p>\n<ul>\n<li><strong>Ad fraud.</strong> The device displays ads — often stealthily in an invisible window. As part of the fraud, additional software may be installed on the device, which simulates the actions of a user interested in a particular ad. For the device owner, this results in slow operation and clutters the memory of their new smartphone or set-top box.</li>\n<li><strong>Data theft and account hijacking.</strong> Cybercriminals have no problem intercepting passwords, messages, bank card numbers, authentication codes, geolocation data, or any other useful information passing through the infected device. Some of this is used for &#8220;marketing&#8221; (that is, targeted advertising), and some is used for other fraudulent schemes.</li>\n<li><strong>Running proxies.</strong> Cybercriminals can enable a proxy server on the infected device, through which outsiders can access the internet pretending to be the victim, and hiding their tracks and real IP addresses. As a result, the device owner can suffer serious internet slowdown, end up on various denylists, and even attract the attention of law enforcement agencies.</li>\n<li><strong>Creating online accounts, such as on WhatsApp or Gmail.</strong> These accounts are then used for spamming, and the device owner may face anti-spam restrictions and blocks imposed by these services on the device or the entire home network.</li>\n</ul>\n<p>Alas, the above scenarios are in no way rare. In the most recent case this year, <a href=\"https://www.wired.com/story/android-tv-streaming-boxes-china-backdoor/\" target=\"_blank\" rel=\"nofollow noopener\">around 200 models of Android devices were found</a> infected with the Badbox fraud scheme. These were mostly cheap TV set-top boxes under various brands sold online or in electronics hypermarkets, but there were also tablets and smartphones, including gadgets purchased for schools. Experts detected the Triada Trojan on all of them. This Android malware was <a href=\"https://www.kaspersky.com/blog/triada-trojan/11481/\" target=\"_blank\" rel=\"noopener\">first discovered by Kaspersky analysts back in 2016</a>, and even then it was described as one of the most sophisticated on the Android platform. It goes without saying that its developers have not been sitting on their hands all these years. Badbox uses infected devices for ad fraud and running proxies.</p>\n<p>Last year, the Lemon Group was found to be engaged in ad fraud — <a href=\"https://www.trendmicro.com/en_us/research/23/e/lemon-group-cybercriminal-businesses-built-on-preinfected-devices.html\" target=\"_blank\" rel=\"nofollow noopener\">50 different brands of Android devices were infected with the Guerrilla Trojan</a>. In 2019, <a href=\"https://security.googleblog.com/2019/06/pha-family-highlights-triada.html\" target=\"_blank\" rel=\"nofollow noopener\">Google highlighted a similar case</a>, but without mentioning specific manufacturers or the number of infected device models involved. Meanwhile, the largest incident of this kind <a href=\"https://thehackernews.com/2016/11/hacking-android-smartphone.html\" target=\"_blank\" rel=\"nofollow noopener\">occurred in 2016</a> and affected up to 700 million smartphones, which were used for data theft and ad fraud.</p>\n<p>Interesting fact: Trojan functionality even managed to get inside <a href=\"https://securityaffairs.com/121887/mobile-2/push-button-mobile-phones-malware.html\" target=\"_blank\" rel=\"nofollow noopener\">dumb phones</a>. Threat actors &#8220;trained&#8221; them to send texts on command from a central server (for example, to subscribe to paid services) and to forward incoming texts to their own servers, which made it possible to use the numbers of push-button phones to register for services that require confirmation by text.</p>\n<h2>Fake specs</h2>\n<p>The second problem with cheap Android devices from unknown manufacturers is the discrepancy between the stated specification and the actual &#8220;filling&#8221;. Sometimes this arises due to a hardware design error. For example, a <a href=\"https://www.reddit.com/r/AndroidTV/comments/112vu3b/review_heres_why_you_shouldnt_buy_the_mecool_km2/\" target=\"_blank\" rel=\"nofollow noopener\">high-speed Wi-Fi adapter may be connected to a slow USB 2.0 bus</a> making the declared data transfer speed physically unattainable; or, due to a firmware bug, the promised HDR video mode doesn&#8217;t work.</p>\n<p>And sometimes it&#8217;s a case of an obvious fake, such as when a device promising 4GB of RAM and 4K resolution <a href=\"https://www.youtube.com/watch?v=1vpepaQ-VQQ&amp;t=415s\" target=\"_blank\" rel=\"nofollow noopener\">in reality works with only 2GB and offers not even HD but 720p image quality</a>.</p>\n<h2>Support issues and security threats</h2>\n<p>Even if a third-tier Android device is not infected with malware out of the box, the security risks are greater than for well-known brands. <a href=\"https://www.kaspersky.com/blog/five-regular-checks-for-android/36440/\" target=\"_blank\" rel=\"noopener\">Android always needs updating</a>, and Google fixes vulnerabilities and releases patches every month, but these apply only to pure Android (<a href=\"https://source.android.com/\" target=\"_blank\" rel=\"nofollow noopener\">AOSP</a>) and Google Pixel devices. For all other versions of the operating system, updates are the responsibility of the manufacturer of the specific device, and many are slow to update the firmware — if at all. Therefore, even on a new gadget you might find the outdated Android 10, and after just a couple of years of use all the software installed on it will belong in a museum.</p>\n<h2>How to combine economy and security</h2>\n<p>We&#8217;re not advising users to buy only expensive gadgets — not everyone wants or can do this. But when opting for a budget device, it pays to take extra precautions:</p>\n<ul>\n<li>Choose brands that have been around for a while and are sold actively in many countries — even if they&#8217;re not so well-known.</li>\n<li>If you&#8217;ve never heard of a particular manufacturer, don&#8217;t spend your time online reading about a specific model of set-top box, TV, or phone — but about the company itself.</li>\n<li>Study the company&#8217;s website and check that the support section has contact details, service information, and — most importantly — firmware updates with download instructions.</li>\n<li>Read buyer reviews on specialized forums — not on marketplaces or store websites. Pay special attention to the correlation between the stated and real specification, availability of updates, and odd or suspicious device behavior.</li>\n<li>If you have an opportunity to see the device live in action in a store, do so. There, go to the settings and see if there&#8217;s an option to install updates. And also check how old the installed Android is. Anything below version 12 can be considered outdated.</li>\n<li>Compare the price of the device you fancy with well-known Chinese brands such as Huawei or Xiaomi. Lesser-known but high-quality devices with similar specs might be as little as half the price of &#8220;renowned&#8221; Chinese brands — but a severalfold difference is suspicious.</li>\n<li>As soon as you buy the device, familiarize yourself with its settings, update the firmware to the latest version, then uninstall or <a href=\"https://www.androidpolice.com/disable-android-apps-phone-tablet/\" target=\"_blank\" rel=\"nofollow noopener\">disable through the settings</a> all apps that seem surplus to requirements.</li>\n<li>For devices that allow app installs, install <a href=\"https://app.appsflyer.com/com.kms.free?pid=smm&c=ww_kdailyplaceholder\" target=\"_blank\">full Android protection</a><strong> </strong>immediately after purchase and activation.</li>\n</ul>\n<input type=\"hidden\" class=\"category_for_banner\" value=\"premium-generic\" />\n"
+                    },
+                    "media:content": [
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/07084348/how-to-avoid-threats-from-budget-android-devices-featured.jpg",
+                            "@width": "1460",
+                            "@height": "960",
+                            "media:keywords": "full"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/07084348/how-to-avoid-threats-from-budget-android-devices-featured-1024x673.jpg",
+                            "@width": "1024",
+                            "@height": "673",
+                            "media:keywords": "large"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/07084348/how-to-avoid-threats-from-budget-android-devices-featured-300x197.jpg",
+                            "@width": "300",
+                            "@height": "197",
+                            "media:keywords": "medium"
+                        },
+                        {
+                            "@xmlns:media": "http://search.yahoo.com/mrss/",
+                            "@url": "https://media.kasperskydaily.com/wp-content/uploads/sites/86/2023/11/07084348/how-to-avoid-threats-from-budget-android-devices-featured-150x150.jpg",
+                            "@width": "150",
+                            "@height": "150",
+                            "media:keywords": "thumbnail"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
