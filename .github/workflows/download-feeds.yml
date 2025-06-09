@@ -1,0 +1,34 @@
+name: Download Feeds
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download all feeds
+        run: |
+          set -e
+          OUTPUT_DIR="rss_downloads"
+          mkdir -p "$OUTPUT_DIR"
+          while read -r url; do
+            timestamp=$(date '+%Y%m%d-%H%M%S')
+            sanitized=$(echo "$url" | sed 's/[^A-Za-z0-9]/_/g' | cut -c1-50)
+            curl -L "$url" -o "$OUTPUT_DIR/${sanitized}-${timestamp}.xml"
+          done < <(grep -Eo 'https?://[^ ]+' feed_list.yaml)
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rss_downloads
+          git commit -m "chore: update RSS feeds" || exit 0
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
