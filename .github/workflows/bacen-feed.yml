@@ -1,0 +1,34 @@
+name: Update Bacen Feed
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Download Bacen feed
+        run: |
+          set -e
+          URL="https://www.bcb.gov.br/api/feed/app/normativos/normativos?ano=2021"
+          OUTPUT_DIR="2021"
+          mkdir -p "$OUTPUT_DIR"
+          timestamp=$(date '+%Y%m%d-%H%M%S')
+          output_file="$OUTPUT_DIR/feed-$timestamp.xml"
+          curl -L "$URL" -o "$output_file"
+          echo "FEED_FILE=$output_file" >> "$GITHUB_ENV"
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$FEED_FILE"
+          git commit -m "chore: update Bacen feed" || exit 0
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
