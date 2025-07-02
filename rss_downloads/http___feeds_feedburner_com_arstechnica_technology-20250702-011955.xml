@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT &#8211; Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Tue, 01 Jul 2025 20:09:53 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT &#8211; Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Drug cartel hacked FBI official’s phone to track and kill informants, report says</title>
+                <link>https://arstechnica.com/security/2025/06/mexican-drug-cartel-hacked-fbi-officials-phone-to-track-informant-report-says/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/mexican-drug-cartel-hacked-fbi-officials-phone-to-track-informant-report-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 30 Jun 2025 19:57:49 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cartel]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[mexico]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/mexican-drug-cartel-hacked-fbi-officials-phone-to-track-informant-report-says/</guid>
+
+                                    <description>
+                        <![CDATA[Official was connected to FBI probe of cartel kingpin Joaquín “El Chapo” Guzmán.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Sinaloa drug cartel in Mexico hacked the phone of an FBI official investigating kingpin Joaquín “El Chapo” Guzmán as part of a surveillance campaign “to intimidate and/or kill potential sources or cooperating witnesses,” according to a recently published report by the Justice Department.</p>
+<p>The <a href="https://oig.justice.gov/sites/default/files/reports/25-065_t.pdf">report</a>, which cited an “individual connected to the cartel,” said a hacker hired by its top brass “offered a menu of services related to exploiting mobile phones and other electronic devices.” The hired hacker observed “'people of interest' for the cartel, including the FBI Assistant Legal Attache, and then was able to use the [attache's] mobile phone number to obtain calls made and received, as well as geolocation data, associated with the [attache's] phone."</p>
+<p>“According to the FBI, the hacker also used Mexico City's camera system to follow the [attache] through the city and identify people the [attache] met with,” the heavily redacted report stated. “According to the case agent, the cartel used that information to intimidate and, in some instances, kill potential sources or cooperating witnesses.”</p><p><a href="https://arstechnica.com/security/2025/06/mexican-drug-cartel-hacked-fbi-officials-phone-to-track-informant-report-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/mexican-drug-cartel-hacked-fbi-officials-phone-to-track-informant-report-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>45</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Joaquin-El-Chapo-Guzman-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Joaquin-El-Chapo-Guzman-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>Bloomberg's Best Photos 2014: Drug trafficker Joaquin "El Chapo" Guzman is escorted to a helicopter by Mexican security forces at Mexico's International Airport in Mexico city, Mexico, on Feb. 22, 2014. Photographer: Susana Gonzalez/Bloomberg via Getty Images</media:text></media:content>
+            </item>
+                    <item>
+                <title>Actively exploited vulnerability gives extraordinary control over server fleets</title>
+                <link>https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 22:52:42 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AMI MegaRAC]]></category>
+		<category><![CDATA[baseboard management controllers]]></category>
+		<category><![CDATA[bmcs]]></category>
+		<category><![CDATA[exploits]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/</guid>
+
+                                    <description>
+                        <![CDATA[AMI MegaRAC used in servers from AMD, ARM, Fujitsu, Gigabyte, and Qualcomm.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers are exploiting a maximum-severity vulnerability that has the potential to give them complete control over thousands of servers, many of which handle mission-critical tasks inside data centers, the US Cybersecurity and Infrastructure Security Agency is warning.</p>
+<p>The vulnerability, carrying a severity rating of 10 out of a possible 10, resides in the AMI MegaRAC, a widely used firmware package that allows large fleets of servers to be remotely accessed and managed even when power is unavailable or the operating system isn't functioning. These motherboard-attached microcontrollers, known as baseboard management controllers (BMCs), give extraordinary control over servers inside data centers.</p>
+<p>Administrators use BMCs to reinstall operating systems, install or modify apps, and make configuration changes to large numbers of servers without physically being on premises and, in many cases, without the servers being turned on. Successful compromise of a single BMC can be used to pivot into internal networks and compromise all other BMCs.</p><p><a href="https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/active-exploitation-of-ami-management-tool-imperils-thousands-of-servers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>46</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Anthropic summons the spirit of Flash games for the AI age</title>
+                <link>https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 20:33:20 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Anthropic Claude]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Flash games]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[newgrounds]]></category>
+		<category><![CDATA[Simon Willison]]></category>
+		<category><![CDATA[vibe coding]]></category>
+		<category><![CDATA[vibecoding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/</guid>
+
+                                    <description>
+                        <![CDATA[AI chatbot codes browser-based apps from plain English with classic web vibes.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, Anthropic <a href="https://www.anthropic.com/news/claude-powered-artifacts">announced</a> a new feature that expands its Artifacts document management system into the basis of a personal AI app gallery resembling something from the <a href="https://arstechnica.com/information-technology/2020/07/the-rise-and-fall-of-adobe-flash/">Flash game era</a> of the early 2000s—though these apps run on modern web code rather than Adobe's defunct plugin.</p>
+<p>Using plain English dialogue, users can build and share interactive applications <a href="https://claude.ai/artifacts">directly within</a> Claude's chatbot interface using a new API capability that lets artifacts interact with Claude itself. Claude is an AI assistant similar to <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>.</p>
+<p>Claude has been capable of building web apps for some time, but Anthropic has put renewed focus on the feature that many have overlooked. "I'm amused that Anthropic turned 'we added a window.claude.complete() function to Artifacts' into what looks like a major new product launch," <a href="https://simonwillison.net/2025/Jun/25/ai-powered-apps-with-claude/">wrote</a> independent AI researcher Simon Willison in a blog post, "but I can't say it's bad marketing for them to do that!"</p><p><a href="https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/anthropic-summons-the-spirit-of-flash-games-for-the-ai-age/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>23</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/digital_arcade_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/digital_arcade_1-500x500.jpg" width="500" height="500" />
+<media:credit>Nataliia Nesterenko via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>VMware perpetual license holder receives audit letter from Broadcom</title>
+                <link>https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Jun 2025 20:17:54 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/</guid>
+
+                                    <description>
+                        <![CDATA["Our management thought it was a bluff..."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>After sending <a href="https://arstechnica.com/gadgets/2025/05/broadcom-sends-cease-and-desist-letters-to-subscription-less-vmware-users/">cease-and-desist letters to VMware users</a> whose support contracts had expired and who subsequently declined to subscribe to one of Broadcom’s VMware bundles, Broadcom has started the process of conducting audits on former VMware customers.</p>
+<p>Broadcom stopped selling <a href="https://arstechnica.com/information-technology/2023/12/broadcom-ends-vmware-perpetual-license-sales-testing-customers-and-partners/">VMware perpetual licenses</a> in November 2023 in favor of pushing a small number of VMware SKUs that feature multiple VMware offerings. Since Broadcom is forcefully bundling VMware products, the costs associated with running VMware have <a href="https://arstechnica.com/information-technology/2024/12/company-claims-1000-percent-price-hike-drove-it-from-vmware-to-open-source-rival/">skyrocketed</a>, with customers frequently citing <a href="https://arstechnica.com/information-technology/2024/10/a-year-after-broadcoms-vmware-buy-customers-eye-exit-strategies/">300 percent price hikes</a> and some firms claiming even larger increases. As a result, some VMware users have opted to keep using VMware perpetual licenses, even though Broadcom refuses to renew <a href="https://arstechnica.com/information-technology/2024/10/broadcom-tried-to-jack-vmware-prices-by-1050-percent-att-claims/">most</a> of those clients’ support services.</p>
+<p>This year, Broadcom started sending such VMware users cease-and-desist letters [<a href="https://cdn.arstechnica.net/wp-content/uploads/2025/05/2025.05.07-12.26.01-SNAGIT-0038.pdf">PDF</a>], telling organizations to stop using any maintenance releases/updates, minor releases, major releases/upgrades extensions, enhancements, patches, bug fixes, or security patches (except for zero-day security patches) that VMware issued since the user’s support contract ended.</p><p><a href="https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/06/vmware-perpetual-license-holder-receives-audit-letter-from-broadcom/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>161</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2177158675-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/GettyImages-2177158675-500x500.jpg" width="500" height="500" />
+<media:credit>Sheldon Cooper/SOPA Images/LightRocket via Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Anthropic destroyed millions of print books to build its AI models</title>
+                <link>https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 25 Jun 2025 20:00:03 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI companies]]></category>
+		<category><![CDATA[AI development]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI law]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI training]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[book scanning]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[fair use]]></category>
+		<category><![CDATA[google books]]></category>
+		<category><![CDATA[Internet Archive]]></category>
+		<category><![CDATA[legal rulings]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[scanning]]></category>
+		<category><![CDATA[training data]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/</guid>
+
+                                    <description>
+                        <![CDATA[Company hired Google's book-scanning chief to cut up and digitize "all the books in the world."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Monday, court documents revealed that AI company Anthropic spent millions of dollars physically scanning print books to build <a href="https://arstechnica.com/ai/2025/05/anthropic-calls-new-claude-4-worlds-best-ai-coding-model/">Claude</a>, an AI assistant similar to <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>. In the process, the company cut millions of print books from their bindings, scanned them into digital files, and threw away the originals solely for the purpose of training AI—details buried in a copyright ruling on fair use whose broader fair use implications we <a href="https://arstechnica.com/tech-policy/2025/06/key-fair-use-ruling-clarifies-when-books-can-be-used-for-ai-training/">reported</a> yesterday.</p>
+<p>The <a href="https://s3.documentcloud.org/documents/25982181/authors-v-anthropic-ruling.pdf">32-page legal decision</a> tells the story of how, in February 2024, the company hired Tom Turvey, the former head of partnerships for the <a href="https://en.wikipedia.org/wiki/Google_Books">Google Books</a> book-scanning project, and tasked him with obtaining "all the books in the world." The strategic hire appears to have been designed to replicate Google's legally successful book digitization approach—the same scanning operation that survived copyright challenges and <a href="https://www.authorsalliance.org/2023/02/24/fair-use-week-2023-looking-back-at-google-books-eight-years-later/">established</a> key fair use precedents.</p>
+<p>While destructive scanning is a <a href="https://en.wikipedia.org/wiki/Book_scanning">common practice</a> among some book digitizing operations, Anthropic's approach was somewhat unusual due to its documented massive scale. By contrast, the Google Books project largely used a <a href="https://www.npr.org/sections/library/2009/04/the_granting_of_patent_7508978.html/">patented</a> <a href="https://libraries.colorado.edu/2024/10/15/university-libraries-digitizes-thousands-books-google-books-project">non-destructive</a> camera process to scan millions of books borrowed from libraries and later returned. For Anthropic, the faster speed and lower cost of the destructive process appears to have trumped any need for preserving the physical books themselves, hinting at the need for a cheap and easy solution in a highly competitive industry.</p><p><a href="https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/anthropic-destroyed-millions-of-print-books-to-build-its-ai-models/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>235</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/manybooks-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/manybooks-500x500.jpg" width="500" height="500" />
+<media:credit>Alexander Spatari via Google Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Ubuntu disables Intel GPU security mitigations, promises 20% performance boost</title>
+                <link>https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 25 Jun 2025 19:39:19 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[intel gpu]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/</guid>
+
+                                    <description>
+                        <![CDATA[Overtime defenses for Spectre-based attacks have taken their toll.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ubuntu users could see up to a 20 percent boost in graphics performance on Intel-based systems under a change that will turn off security mitigations for blunting a class of attacks known as Spectre.</p>
+<p>Spectre, you may recall, <a href="https://arstechnica.com/gadgets/2018/01/meltdown-and-spectre-every-modern-processor-has-unfixable-security-flaws/">came to public notice</a> in 2018. Spectre attacks are based on the observation that performance enhancements built into modern CPUs open a <a href="https://en.wikipedia.org/wiki/Side-channel_attack">side channel</a> that can leak secrets a CPU is processing. The performance enhancement, known as <a href="https://en.wikipedia.org/wiki/Speculative_execution">speculative execution</a>, predicts future instructions a CPU might receive and then performs the corresponding tasks before they are even called. If the instructions never come, the CPU discards the work it performed. When the prediction is correct, the CPU has already completed the task.</p>
+<p>By using code that forces a CPU to execute carefully selected instructions, Spectre attacks can extract confidential data that the CPU would have accessed had it carried out the ghost instructions. Over the past seven years, researchers have uncovered multiple attack variants based on the architectural flaws, which are unfixable. CPU manufacturers have responded by creating patches in both micro code and binary code that restrict speculative execution operations in certain scenarios. These restrictions, of course, usually degrade CPU performance.</p><p><a href="https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/ubuntu-disables-intel-gpu-security-mitigations-promises-20-performance-boost/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/graphics-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/graphics-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>The résumé is dying, and AI is holding the smoking gun</title>
+                <link>https://arstechnica.com/ai/2025/06/the-resume-is-dying-and-ai-is-holding-the-smoking-gun/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/the-resume-is-dying-and-ai-is-holding-the-smoking-gun/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 24 Jun 2025 17:25:41 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI law]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[ai search]]></category>
+		<category><![CDATA[AI work]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/the-resume-is-dying-and-ai-is-holding-the-smoking-gun/</guid>
+
+                                    <description>
+                        <![CDATA[As thousands of applications flood job posts, 'hiring slop' is kicking off an AI arms race.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Employers are drowning in AI-generated job applications, with LinkedIn now processing 11,000 submissions per minute—a 45 percent surge from last year, according to new data <a href="https://www.nytimes.com/2025/06/21/business/dealbook/ai-job-applications.html">reported</a> by The New York Times.</p>
+<p>Due to AI, the traditional hiring process has become overwhelmed with automated noise. It's the résumé equivalent of AI slop—call it "hiring slop," perhaps—that currently haunts <a href="https://arstechnica.com/gadgets/2025/02/reddit-mods-are-fighting-to-keep-ai-slop-off-subreddits-they-could-use-help/">social media</a> and <a href="https://arstechnica.com/gadgets/2025/05/open-source-project-curl-is-sick-of-users-submitting-ai-slop-vulnerabilities/">the web</a> with sensational pictures and misleading information. The flood of <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>-crafted résumés and bot-submitted applications has created an arms race between job seekers and employers, with both sides deploying increasingly sophisticated AI tools in a bot-versus-bot standoff that is quickly spiraling out of control.</p>
+<p>The Times illustrates the scale of the problem with the story of an HR consultant named Katie Tanner, who was so inundated with over 1,200 applications for a single remote role that she had to remove the post entirely and was still sorting through the applications three months later.</p><p><a href="https://arstechnica.com/ai/2025/06/the-resume-is-dying-and-ai-is-holding-the-smoking-gun/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/the-resume-is-dying-and-ai-is-holding-the-smoking-gun/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>292</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/buried_in_papers_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/buried_in_papers_2-500x500-1750774580.jpg" width="500" height="500" />
+<media:credit>sturti via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Canadian telecom hacked by suspected China state group</title>
+                <link>https://arstechnica.com/security/2025/06/suspected-china-state-hackers-exploited-patched-flaw-to-breach-canadian-telecom/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/suspected-china-state-hackers-exploited-patched-flaw-to-breach-canadian-telecom/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 23 Jun 2025 19:21:42 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[salt]]></category>
+		<category><![CDATA[telecommunications]]></category>
+		<category><![CDATA[Typhoon]]></category>
+		<category><![CDATA[vulnerabilities patches]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/suspected-china-state-hackers-exploited-patched-flaw-to-breach-canadian-telecom/</guid>
+
+                                    <description>
+                        <![CDATA[Maximum-security Cisco vulnerability was patched Oct. 2023 and exploited Feb. 2025.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers suspected of working on behalf of the Chinese government exploited a maximum-severity vulnerability, which had received a patch 16 months earlier, to compromise a telecommunications provider in Canada, officials from that country and the US said Monday.</p>
+<p>“The Cyber Centre is aware of malicious cyber activities currently targeting Canadian telecommunications companies,” officials for the center, the Canadian government’s primary cybersecurity agency, said in a <a href="https://www.cyber.gc.ca/en/guidance/cyber-threat-bulletin-prc-cyber-actors-target-telecommunications-companies-global-cyberespionage-campaign">statement</a>. “The responsible actors are almost certainly PRC state-sponsored actors, specifically Salt Typhoon.” The FBI issued its own nearly <a href="https://www.ic3.gov/CSA/2025/250620.pdf">identical statement</a>.</p>
+<h2>A major security lapse</h2>
+<p>Salt Typhoon is the name researchers and government officials use to track one of several discreet groups known to hack nations all over the world on behalf of the People's Republic of China. In <a href="https://arstechnica.com/security/2023/10/actively-exploited-cisco-0-day-with-maximum-10-severity-gives-full-network-control/">October 2023</a>, researchers disclosed that hackers had backdoored more than 10,000 Cisco devices by exploiting CVE-2023-20198, a vulnerability with a maximum severity rating of 10.</p><p><a href="https://arstechnica.com/security/2025/06/suspected-china-state-hackers-exploited-patched-flaw-to-breach-canadian-telecom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/suspected-china-state-hackers-exploited-patched-flaw-to-breach-canadian-telecom/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>53</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/09/china-inside-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/09/china-inside-500x500.jpg" width="500" height="500" />
+<media:credit>Steve McDowell / Agefotostock</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Record DDoS pummels site with once-unimaginable 7.3Tbps of junk traffic</title>
+                <link>https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-unimaginable-7-3tbps-of-junk-traffic/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-unimaginable-7-3tbps-of-junk-traffic/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 20 Jun 2025 19:04:22 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[distributed denial of service attack]]></category>
+		<category><![CDATA[DOS attack]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-unimaginable-7-3tbps-of-junk-traffic/</guid>
+
+                                    <description>
+                        <![CDATA[Attacker rained down the equivalent of 9,300 full-length HD movies in just 45 seconds.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Large-scale attacks designed to bring down Internet services by sending them more traffic than they can process keep getting bigger, with the largest one yet, measured at 7.3 terabits per second, being reported Friday by Internet security and performance provider Cloudflare.</p>
+<p>The 7.3Tbps attack amounted to 37.4 terabytes of junk traffic that hit the target in just 45 seconds. That's an almost incomprehensible amount of data, equivalent to more than 9,300 full-length HD movies or 7,500 hours of HD streaming content in well under a minute.</p>
+<h2>Indiscriminate target bombing</h2>
+<p>Cloudflare <a href="https://blog.cloudflare.com/defending-the-internet-how-cloudflare-blocked-a-monumental-7-3-tbps-ddos/">said</a> the attackers “carpet bombed” an average of nearly 22,000 destination ports of a single IP address belonging to the target, identified only as a Cloudflare customer. A total of 34,500 ports were targeted, indicating the thoroughness and well-engineered nature of the attack.</p><p><a href="https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-unimaginable-7-3tbps-of-junk-traffic/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/record-ddos-pummels-site-with-once-unimaginable-7-3tbps-of-junk-traffic/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>128</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/06/server-ddos-storm-surge.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/06/server-ddos-storm-surge-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson / Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Israel-tied Predatory Sparrow hackers are waging cyberwar on Iran’s financial system</title>
+                <link>https://arstechnica.com/information-technology/2025/06/israel-tied-predatory-sparrow-hackers-are-waging-cyberwar-on-irans-financial-system/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/06/israel-tied-predatory-sparrow-hackers-are-waging-cyberwar-on-irans-financial-system/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Andy Greenberg, WIRED.com]]>
+                </dc:creator>
+                <pubDate>Thu, 19 Jun 2025 14:40:45 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[crypto exchange]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[Iran]]></category>
+		<category><![CDATA[Israel]]></category>
+		<category><![CDATA[nation state hacking]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/06/israel-tied-predatory-sparrow-hackers-are-waging-cyberwar-on-irans-financial-system/</guid>
+
+                                    <description>
+                        <![CDATA[The hacker group has destroyed more than $90 million held at an Iranian crypto exchange.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Israel-linked hacker group known as <a href="https://www.wired.com/story/predatory-sparrow-cyberattack-timeline/">Predatory Sparrow</a> has carried out some of the most disruptive and destructive cyberattacks in history, twice disabling thousands of gas station payment systems across Iran and once even setting a steel mill in the country on fire. Now, in the midst of a new war unfolding between the two countries, they appear to be bent on burning Iran's financial system.</p>
+<p>Predatory Sparrow, which often goes by its Farsi name, Gonjeshke Darande, in an effort to appear as a homegrown hacktivist organization, announced in a post on on its X account Wednesday that it had targeted the Iranian crypto exchange Nobitex, accusing the exchange of enabling sanctions violations and terrorist financing on behalf of the Iranian regime. According to cryptocurrency tracing firm Elliptic, the hackers <a href="https://www.elliptic.co/blog/iranian-crypto-exchange-nobitex-hacked-pro-israel-group" target="_blank" rel="nofollow noopener" data-offer-url="https://www.elliptic.co/blog/iranian-crypto-exchange-nobitex-hacked-pro-israel-group" data-event-click='{"pattern":"ExternalLink"}' data-event-boundary="click" data-in-view='{"pattern":"ExternalLink"}' data-include-experiments="true">destroyed more than $90 million</a> in Nobitex holdings, a rare instance of hackers burning crypto assets rather than stealing them.</p>
+<p>“These cyberattacks are the result of Nobitex being a key regime tool for financing terrorism and violating sanctions,” the hackers posted to X. “Associating with regime terror financing and sanction violation infrastructure puts your assets at risk.”</p><p><a href="https://arstechnica.com/information-technology/2025/06/israel-tied-predatory-sparrow-hackers-are-waging-cyberwar-on-irans-financial-system/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/06/israel-tied-predatory-sparrow-hackers-are-waging-cyberwar-on-irans-financial-system/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>190</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-485391176-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/GettyImages-485391176-500x500.jpg" width="500" height="500" />
+<media:credit>Simon Dawson/Bloomberg via Getty Images</media:credit><media:text>Customers use an ATM outside a Bank Sepah bank branch in Tehran, Iran, on August 26, 2015. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Address bar shows hp.com. Browser displays scammers’ malicious text anyway.</title>
+                <link>https://arstechnica.com/security/2025/06/tech-support-scammers-inject-malicious-phone-numbers-into-big-name-websites/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/tech-support-scammers-inject-malicious-phone-numbers-into-big-name-websites/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 18 Jun 2025 21:10:45 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[google ads]]></category>
+		<category><![CDATA[tech support scams]]></category>
+		<category><![CDATA[websites]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/tech-support-scammers-inject-malicious-phone-numbers-into-big-name-websites/</guid>
+
+                                    <description>
+                        <![CDATA[Microsoft, Apple, Bank of America, and many more sites all targeted.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Tech support scammers have devised a method to inject their fake phone numbers into webpages when a target's web browser visits official sites for Apple, PayPal, Netflix, and other companies.</p>
+<p>The ruse, outlined in a <a href="https://www.malwarebytes.com/blog/news/2025/06/scammers-hijack-websites-of-bank-of-america-netflix-microsoft-and-more-to-insert-fake-phone-number">post on Wednesday</a> from security firm Malwarebytes, threatens to trick users into calling the malicious numbers even when they think they're taking measures to prevent falling for such scams. One of the more common pieces of security advice is to carefully scrutinize the address bar of a browser to ensure it's pointing to an organization’s official website. The ongoing scam is able to bypass such checks.</p>
+<p><!--adbreak--></p><p><a href="https://arstechnica.com/security/2025/06/tech-support-scammers-inject-malicious-phone-numbers-into-big-name-websites/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/tech-support-scammers-inject-malicious-phone-numbers-into-big-name-websites/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>118</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-1152x627.jpg" type="image/jpeg" medium="image" width="1152" height="627">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-500x500.jpg" width="500" height="500" />
+</media:content>
+            </item>
+                    <item>
+                <title>Scientists once hoarded pre-nuclear steel; now we’re hoarding pre-AI content</title>
+                <link>https://arstechnica.com/ai/2025/06/why-one-man-is-archiving-human-made-content-from-before-the-ai-explosion/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/why-one-man-is-archiving-human-made-content-from-before-the-ai-explosion/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 18 Jun 2025 11:15:46 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI criticism]]></category>
+		<category><![CDATA[AI writing]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[cultural singularity]]></category>
+		<category><![CDATA[data science]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[open source]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/why-one-man-is-archiving-human-made-content-from-before-the-ai-explosion/</guid>
+
+                                    <description>
+                        <![CDATA[Newly announced catalog collects pre-2022 sources untouched by ChatGPT and AI contamination.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Former Cloudflare executive <a href="https://en.wikipedia.org/wiki/John_Graham-Cumming">John Graham-Cumming</a> recently announced that he launched a <a href="https://lowbackgroundsteel.ai/">website</a>, lowbackgroundsteel.ai, that treats pre-AI, human-created content like a precious commodity—a time capsule of organic creative expression from a time before machines joined the conversation. "The idea is to point to sources of text, images and video that were created prior to the explosion of AI-generated content," Graham-Cumming <a href="https://blog.jgc.org/2025/06/low-background-steel-content-without-ai.html">wrote</a> on his blog last week. The reason? To preserve what made non-AI media uniquely human.</p>
+<p>The archive name comes from a scientific phenomenon from the Cold War era. After nuclear weapons testing began in 1945, atmospheric radiation contaminated new steel production worldwide. For decades, scientists needing radiation-free metal for sensitive instruments had to salvage steel from pre-war shipwrecks. Scientists called this steel <a href="https://en.wikipedia.org/wiki/Low-background_steel">"low-background steel."</a> Graham-Cumming sees a parallel with today's web, where AI-generated content increasingly mingles with human-created material and contaminates it.</p>
+<p>With the advent of generative AI models like ChatGPT and Stable Diffusion in 2022, it has become far more difficult for researchers to ensure that media found on the Internet was created by humans without using AI tools. ChatGPT in particular triggered an avalanche of AI-generated text across the web, forcing at least one research project to shut down entirely.</p><p><a href="https://arstechnica.com/ai/2025/06/why-one-man-is-archiving-human-made-content-from-before-the-ai-explosion/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/why-one-man-is-archiving-human-made-content-from-before-the-ai-explosion/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>75</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/wheeler3-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/12/wheeler3-500x500.jpg" width="500" height="500" />
+<media:credit>National Nuclear Security Administration/Public domain</media:credit><media:text>Nuclear blasts contaminated steel worldwide, leading some scientists to seek out material from the pre-nuclear age.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Cybersecurity takes a big hit in new Trump executive order</title>
+                <link>https://arstechnica.com/security/2025/06/cybersecurity-take-a-big-hit-in-new-trump-executive-order/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/cybersecurity-take-a-big-hit-in-new-trump-executive-order/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 17 Jun 2025 21:33:01 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[BGP]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[executive orders]]></category>
+		<category><![CDATA[post]]></category>
+		<category><![CDATA[quantum computing]]></category>
+		<category><![CDATA[Trump]]></category>
+		<category><![CDATA[White House]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/cybersecurity-take-a-big-hit-in-new-trump-executive-order/</guid>
+
+                                    <description>
+                        <![CDATA[Provisions on secure software, quantum–resistant crypto, and more are scrapped.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Cybersecurity practitioners are voicing concerns over a recent executive order issued by the White House that guts requirements for: securing software the government uses, punishing people who compromise sensitive networks, preparing new encryption schemes that will withstand attacks from quantum computers, and other existing controls.</p>
+<p>The <a href="https://www.whitehouse.gov/presidential-actions/2025/06/sustaining-select-efforts-to-strengthen-the-nations-cybersecurity-and-amending-executive-order-13694-and-executive-order-14144/">executive order</a> (EO), issued on June 6, reverses several key cybersecurity orders put in place by President Joe Biden, some as recently as a few days before his term ended in January. A <a href="https://www.whitehouse.gov/presidential-actions/2025/06/sustaining-select-efforts-to-strengthen-the-nations-cybersecurity-and-amending-executive-order-13694-and-executive-order-14144/">statement</a> that accompanied Donald Trump's EO said the Biden directives "attempted to sneak problematic and distracting issues into cybersecurity policy" and amounted to "political football."</p>
+<h2>Pro-business, anti-regulation</h2>
+<p>Specific orders Trump dropped or relaxed included ones mandating (1) federal agencies and contractors adopt products with quantum-safe encryption as they become available in the marketplace, (2) a stringent Secure Software Development Framework (SSDF) for software and services used by federal agencies and contractors, (3) the adoption of phishing-resistant regimens such as the <a href="https://arstechnica.com/civis/threads/lapsus-and-solar-winds-hackers-both-use-the-same-old-trick-to-bypass-mfa.1483319/">WebAuthn standard</a> for logging into networks used by contractors and agencies, (4) the implementation new tools for securing Internet routing through the Border Gateway Protocol, and (5) the encouragement of digital forms of identity.</p><p><a href="https://arstechnica.com/security/2025/06/cybersecurity-take-a-big-hit-in-new-trump-executive-order/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/cybersecurity-take-a-big-hit-in-new-trump-executive-order/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>98</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/getty-white-house-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2021/07/getty-white-house-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images | Erik Pronske Photography</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI weighs “nuclear option” of antitrust complaint against Microsoft</title>
+                <link>https://arstechnica.com/ai/2025/06/openai-weighs-nuclear-option-of-antitrust-complaint-against-microsoft/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/openai-weighs-nuclear-option-of-antitrust-complaint-against-microsoft/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 17 Jun 2025 16:26:28 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI partnerships]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[antitrust]]></category>
+		<category><![CDATA[big tech]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[corporate restructuring]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google cloud]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Microsoft Copilot]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/openai-weighs-nuclear-option-of-antitrust-complaint-against-microsoft/</guid>
+
+                                    <description>
+                        <![CDATA[WSJ report says OpenAI mulling federal complaint as Microsoft stalls restructuring plan.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>OpenAI executives have discussed filing an antitrust complaint with US regulators against Microsoft, the company's largest investor, The Wall Street Journal <a href="https://www.wsj.com/tech/ai/openai-and-microsoft-tensions-are-reaching-a-boiling-point-4981c44f">reported</a> Monday, marking a dramatic escalation in tensions between the two long-term AI partners. OpenAI, which develops <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a>, has reportedly considered seeking a federal regulatory review of the terms of its contract with Microsoft for potential antitrust law violations, according to people familiar with the matter.</p>
+<p>The potential antitrust complaint would likely argue that Microsoft is using its dominant position in cloud services and contractual leverage to suppress competition, according to insiders who described it as a "nuclear option," the WSJ reports.</p>
+<p>The move could unravel one of the most important business partnerships in the AI industry—a relationship that started with a $1 billion investment by Microsoft in 2019 and has <a href="https://arstechnica.com/information-technology/2023/01/openai-and-microsoft-reaffirm-shared-quest-for-powerful-ai-with-new-investment/">grown</a> to include <a href="https://arstechnica.com/tech-policy/2024/01/regulators-arent-convinced-that-microsoft-and-openai-operate-independently/">billions more</a> in funding, along with Microsoft's exclusive rights to host OpenAI models on its Azure cloud platform.</p><p><a href="https://arstechnica.com/ai/2025/06/openai-weighs-nuclear-option-of-antitrust-complaint-against-microsoft/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/openai-weighs-nuclear-option-of-antitrust-complaint-against-microsoft/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/openai_microsoft_3-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/openai_microsoft_3-500x500.jpg" width="500" height="500" />
+<media:credit>Benj Edwards / OpenAI / Microsoft</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Vandals cut fiber-optic lines, causing outage for Spectrum Internet subscribers</title>
+                <link>https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 16 Jun 2025 20:15:18 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[copper]]></category>
+		<category><![CDATA[fiber]]></category>
+		<category><![CDATA[spectrum]]></category>
+		<category><![CDATA[theft]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/</guid>
+
+                                    <description>
+                        <![CDATA[The soaring price of copper makes networks tempting targets for thieves.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Subscribers in Southern California of Spectrum’s Internet service experienced outages over the weekend following what company officials said was an attempted theft of copper lines located in Van Nuys, a suburb located 20 miles from downtown Los Angeles.</p>
+<p>The people behind the incident thought they were targeting copper lines, the officials wrote in a statement Sunday. Instead, they cut into fiber optic cables. The cuts caused service disruptions for subscribers in Van Nuys and surrounding areas. Spectrum has since restored service and is offering a $25,000 reward for information leading to the apprehension of the people responsible. Spectrum will also credit affected customers one day of service on their next bill.</p>
+<h2>An industry-wide problem</h2>
+<p>“Criminal acts of network vandalism have become an issue affecting the entire telecommunications industry, not just Spectrum, largely due to the increase in the price of precious metals,” the officials wrote in a statement issued Sunday. “These acts of vandalism are not only a crime, but also affect our customers, local businesses and potentially emergency services. Spectrum’s fiber lines do not include any copper.”</p><p><a href="https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/vandals-cut-fiber-optic-lines-causing-outage-for-spectrum-internet-subscribers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>105</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/charter-spectrum-van-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/charter-spectrum-van-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images | Tony Webster</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Coming to Apple OSes: A seamless, secure way to import and export passkeys</title>
+                <link>https://arstechnica.com/security/2025/06/apple-previews-new-import-export-feature-to-make-passkeys-more-interoperable/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/apple-previews-new-import-export-feature-to-make-passkeys-more-interoperable/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 12 Jun 2025 20:26:28 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iPadOS]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[wwdc 2025]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/apple-previews-new-import-export-feature-to-make-passkeys-more-interoperable/</guid>
+
+                                    <description>
+                        <![CDATA[Apple OSes will soon transfer passkeys seamlessly and securely across platforms.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple this week provided a glimpse into a feature that solves one of the biggest drawbacks of passkeys, the industry-wide standard for website and app authentication that isn't susceptible to credential phishing and other attacks targeting passwords.</p>
+<p>The import/export feature, which Apple <a href="https://developer.apple.com/videos/play/wwdc2025/279/?time=1152">demonstrated</a> at this week’s Worldwide Developers Conference, will be available in the next major releases of iOS, macOS, iPadOS, and visionOS. It aims to solve one of the biggest shortcomings of passkeys as they have existed to date. Passkeys created on one operating system or credential manager are largely bound to those environments. A passkey created on a Mac, for instance, can sync easily enough with other Apple devices connected to the same iCloud account. Transferring them to a Windows device or even a dedicated credential manager installed on the same Apple device has been impossible.</p>
+<h2>Growing pains</h2>
+<p>That limitation has led to criticisms that passkeys are a power play by large companies to lock users into specific product ecosystems. Users have also rightly worried that the lack of transferability increases the risk of getting locked out of important accounts if a device storing passkeys is lost, stolen, or destroyed.</p><p><a href="https://arstechnica.com/security/2025/06/apple-previews-new-import-export-feature-to-make-passkeys-more-interoperable/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/apple-previews-new-import-export-feature-to-make-passkeys-more-interoperable/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>85</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/passkey-1000x648.jpg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/12/passkey-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hollywood studios target AI image generator in copyright lawsuit</title>
+                <link>https://arstechnica.com/ai/2025/06/in-landmark-suit-disney-and-universal-sue-midjourney-for-ai-character-theft/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/in-landmark-suit-disney-and-universal-sue-midjourney-for-ai-character-theft/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 11 Jun 2025 18:58:22 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI image generator]]></category>
+		<category><![CDATA[AI image generators]]></category>
+		<category><![CDATA[AI law]]></category>
+		<category><![CDATA[AI lawsuits]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[Darth Vader]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[entertainment industry]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[Hollywood]]></category>
+		<category><![CDATA[image synthesis]]></category>
+		<category><![CDATA[intellectual property]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[MidJourney]]></category>
+		<category><![CDATA[Star Wars]]></category>
+		<category><![CDATA[universal]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/in-landmark-suit-disney-and-universal-sue-midjourney-for-ai-character-theft/</guid>
+
+                                    <description>
+                        <![CDATA[Multiple-studio complaint cites AI image outputs as evidence of "bottomless pit of plagiarism."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, Disney and <span data-schema="smart-brevity">NBCUniversal</span> filed a lawsuit against AI image-synthesis company <a href="https://arstechnica.com/ai/2025/04/midjourney-introduces-first-new-image-generation-model-in-over-a-year/">Midjourney</a>, accusing the company of copyright infringement for allowing users to create images of characters like Darth Vader and Shrek, <a href="https://www.hollywoodreporter.com/business/business-news/disney-universal-midjourney-1236262563/">reports</a> The Hollywood Reporter. The complaint, filed in US District Court in Los Angeles, marks the first major legal action by Hollywood studios against a generative AI company.</p>
+<p>Midjourney is a subscription image-synthesis service and community that allows its users to submit written descriptions called prompts to an AI model that generates new images based on them. It has been <a href="https://arstechnica.com/information-technology/2022/09/artist-finds-private-medical-record-photos-in-popular-ai-training-data-set/">well-known for years</a> that AI image-synthesis models such as the ones that power Midjourney have been trained on copyrighted artworks without rights holder permission.</p>
+<p>The lawsuit describes San Francisco-based Midjourney as a "bottomless pit of plagiarism" that enables users to generate what the studios call "AI slop"—personalized images of copyrighted characters. Disney Enterprises, Marvel, Lucasfilm, 20th Century, Universal City Studios Productions, and DreamWorks Animation joined forces in the legal filing.</p><p><a href="https://arstechnica.com/ai/2025/06/in-landmark-suit-disney-and-universal-sue-midjourney-for-ai-character-theft/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/in-landmark-suit-disney-and-universal-sue-midjourney-for-ai-character-theft/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>134</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/disney_statue-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/disney_statue-500x500.jpg" width="500" height="500" />
+<media:credit>Atlantide Phototravel via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>With the launch of o3-pro, let’s talk about what AI “reasoning” actually does</title>
+                <link>https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 11 Jun 2025 16:58:43 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI models]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[o1-pro]]></category>
+		<category><![CDATA[o3-pro]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/</guid>
+
+                                    <description>
+                        <![CDATA[New studies reveal pattern-matching reality behind the AI industry's reasoning claims.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, OpenAI <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes">announced</a> that o3-pro, a new version of its most capable simulated reasoning model, is now available to ChatGPT Pro and Team users, replacing o1-pro in the model picker. The company also reduced API pricing for o3-pro by 87 percent compared to o1-pro while cutting o3 prices by 80 percent. While "reasoning" is useful for some analytical tasks, new studies have posed fundamental questions about what the word actually means when applied to these AI systems.</p>
+<p>We'll take a deeper look at "reasoning" in a minute, but first, let's examine what's new. While OpenAI <a href="https://arstechnica.com/ai/2025/04/openai-releases-new-simulated-reasoning-models-with-full-tool-access/">originally launched</a> o3 (non-pro) in April, the o3-pro model focuses on mathematics, science, and coding while adding new capabilities like web search, file analysis, image analysis, and Python execution. Since these tool integrations slow response times (longer than the already slow o1-pro), OpenAI recommends using the model for complex problems where accuracy matters more than speed. However, they do not necessarily <a href="https://techcrunch.com/2025/04/18/openais-new-reasoning-ai-models-hallucinate-more/">confabulate less</a> than "non-reasoning" AI models (they still introduce factual errors), which is a significant caveat when seeking accurate results.</p>
+<p>Beyond the reported performance improvements, OpenAI announced a substantial price reduction for developers. O3-pro costs $20 per million input tokens and $80 per million output tokens in the API, making it 87 percent cheaper than o1-pro. The company also reduced the price of the standard o3 model by 80 percent.</p><p><a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>276</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/gear_brain-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/gear_brain-500x500.jpg" width="500" height="500" />
+<media:credit>Nuthawut Somsuk via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Found in the wild: 2 Secure Boot exploits. Microsoft is patching only 1 of them.</title>
+                <link>https://arstechnica.com/security/2025/06/unearthed-in-the-wild-2-secure-boot-exploits-microsoft-patches-only-1-of-them/</link>
+                                    <comments>https://arstechnica.com/security/2025/06/unearthed-in-the-wild-2-secure-boot-exploits-microsoft-patches-only-1-of-them/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 10 Jun 2025 19:00:34 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[boot]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[secure]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/06/unearthed-in-the-wild-2-secure-boot-exploits-microsoft-patches-only-1-of-them/</guid>
+
+                                    <description>
+                        <![CDATA[The publicly available exploits provide a near-universal way to bypass key protections.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers have unearthed two publicly available exploits that completely evade protections offered by Secure Boot, the industry-wide mechanism for ensuring devices load only secure operating system images during the boot-up process. Microsoft is taking action to block one exploit and allowing the other one to remain a viable threat.</p>
+<p>As part of Tuesday's monthly security update routine, Microsoft <a href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2025-3052">patched</a> CVE-2025-3052, a Secure Boot bypass vulnerability affecting more than 50 device makers. More than a dozen modules that allow devices from these manufacturers to run on Linux allow an attacker with physical access to turn off Secure Boot and, from there, go on to install malware that runs before the operating system loads. Such “<a href="https://en.wikipedia.org/wiki/Evil_maid_attack">evil maid</a>” attacks are precisely the threat Secure Boot is designed to prevent. The vulnerability can also be exploited remotely to make infections stealthier and more powerful if an attacker has already gained administrative control of a machine.</p>
+<h2>A single point of failure</h2>
+<p>The underlying cause of the vulnerability is a critical vulnerability in a tool used to flash firmware images on the motherboards of devices sold by DT Research, a manufacturer of rugged mobile devices. It has <a href="https://www.virustotal.com/gui/file/a11996aaf7f32aa09f78db608106e25a47970bfeeec76d49af743eee71b55f06/">been available</a> on VirusTotal since last year and was digitally signed in 2022, an indication it has been available through other channels since at least that earlier date.</p><p><a href="https://arstechnica.com/security/2025/06/unearthed-in-the-wild-2-secure-boot-exploits-microsoft-patches-only-1-of-them/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/06/unearthed-in-the-wild-2-secure-boot-exploits-microsoft-patches-only-1-of-them/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>41</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI signs surprise deal with Google Cloud despite fierce AI rivalry</title>
+                <link>https://arstechnica.com/ai/2025/06/openai-signs-surprise-deal-with-google-cloud-despite-fierce-ai-rivalry/</link>
+                                    <comments>https://arstechnica.com/ai/2025/06/openai-signs-surprise-deal-with-google-cloud-despite-fierce-ai-rivalry/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 10 Jun 2025 18:27:48 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI development]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI investment]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[CoreWeave]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[deepmind]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google cloud]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[SoftBank]]></category>
+		<category><![CDATA[tensor processing units]]></category>
+		<category><![CDATA[TPUs]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/06/openai-signs-surprise-deal-with-google-cloud-despite-fierce-ai-rivalry/</guid>
+
+                                    <description>
+                        <![CDATA[Report: Deal marks shift from exclusive Microsoft partnership as AI compute needs soar.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>OpenAI has struck a deal to use Google's cloud computing infrastructure for AI despite the two companies' fierce competition in the space, <a href="https://www.reuters.com/business/retail-consumer/openai-taps-google-unprecedented-cloud-deal-despite-ai-rivalry-sources-say-2025-06-10/">reports</a> Reuters. The agreement, finalized in May after months of negotiations, marks a shift in OpenAI's strategy to diversify its computing resources beyond Microsoft Azure, which had been its exclusive cloud provider until January.</p>
+<p>Microsoft's long-standing partnership with OpenAI <a href="https://arstechnica.com/information-technology/2023/01/openai-and-microsoft-reaffirm-shared-quest-for-powerful-ai-with-new-investment/">dates back to 2019</a>, with significant expansions of investment from the computer giant in 2021 and 2023. In October, The Information <a href="https://www.theinformation.com/articles/openai-eases-away-from-microsoft-data-centers">reported</a> that the ChatGPT maker had begun to seek data center deals elsewhere, citing the need for more AI data center servers faster than Microsoft could supply them.</p>
+<p>Under the new deal, Google Cloud will provide additional computing capacity to help OpenAI train and run its AI models. For OpenAI, the partnership addresses growing demands for computing power as the company's annual revenue <a href="https://www.reuters.com/business/media-telecom/openais-annualized-revenue-hits-10-billion-up-55-billion-december-2024-2025-06-09/">reached $10 billion</a> as of June, according to sources familiar with the matter who spoke to Reuters.</p><p><a href="https://arstechnica.com/ai/2025/06/openai-signs-surprise-deal-with-google-cloud-despite-fierce-ai-rivalry/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/06/openai-signs-surprise-deal-with-google-cloud-despite-fierce-ai-rivalry/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>34</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-2164461639-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-2164461639-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
