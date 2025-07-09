@@ -17,37 +17,27 @@ jobs:
         run: |
           set -e
           YEAR=$(date '+%Y')
-          # Format: DDMMAAAAhm (DayMonthYearHourMinute)
           DATETIME_FOLDER=$(date '+%d%m%Y%H%M')
-          BASE_DIR="feed_arquivos" # New base directory
-
-          # Create base directory
-          mkdir -p "$BASE_DIR"
-          echo "Conteúdo da raiz ANTES da criação da pasta do ano:"
-          ls -la
-          pwd
-
-          # Create year directory inside the base directory
+          BASE_DIR="feed_arquivos"
           YEAR_DIR="$BASE_DIR/$YEAR"
-          mkdir -p "$YEAR_DIR"
-          echo "Conteúdo de $BASE_DIR APÓS criação de $YEAR_DIR:"
-          ls -la "$BASE_DIR"
-
-          # Define the final output directory
           OUTPUT_DIR="$YEAR_DIR/$DATETIME_FOLDER"
+
           mkdir -p "$OUTPUT_DIR"
-          echo "Conteúdo de $YEAR_DIR APÓS criação de $DATETIME_FOLDER:"
-          ls -la "$YEAR_DIR"
-          echo "Tentando criar arquivos em: $OUTPUT_DIR"
+          echo "Criado: $OUTPUT_DIR"
+
+          cat feed_list.yaml || (echo "Arquivo feed_list.yaml não encontrado" && exit 1)
 
           while read -r url; do
-            # Using a simpler timestamp for the file name, or it could be removed if not needed
             file_timestamp=$(date '+%H%M%S')
             sanitized=$(echo "$url" | sed 's/[^A-Za-z0-9]/_/g' | cut -c1-50)
-            curl -L "$url" -o "$OUTPUT_DIR/${sanitized}-${file_timestamp}.xml"
+            output_file="$OUTPUT_DIR/${sanitized}-${file_timestamp}.xml"
+            curl -L --fail --silent "$url" -o "$output_file" && echo "Download OK: $url" || echo "Falha no download: $url"
           done < <(grep -Eo 'https?://[^ ]+' feed_list.yaml)
-          echo "Arquivos baixados em $OUTPUT_DIR:"
-          ls -la "$OUTPUT_DIR"
+
+          touch "$OUTPUT_DIR/.gitkeep"
+
+          echo "Conteúdo criado:"
+          find "$BASE_DIR"
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
