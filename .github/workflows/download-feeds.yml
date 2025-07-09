@@ -17,23 +17,28 @@ jobs:
         run: |
           set -e
           YEAR=$(date '+%Y')
-          DATETIME=$(date '+%Y-%m-%d_%H-%M-%S')
-          BASE_OUTPUT_DIR="rss_downloads"
-          YEAR_DIR="$BASE_OUTPUT_DIR/$YEAR"
-          OUTPUT_DIR="$YEAR_DIR/$DATETIME"
+          # Format: DDMMAAAAhm (DayMonthYearHourMinute)
+          DATETIME_FOLDER=$(date '+%d%m%Y%H%M')
 
+          # Create year directory directly in the root
+          mkdir -p "$YEAR"
+
+          # Define the final output directory
+          OUTPUT_DIR="$YEAR/$DATETIME_FOLDER"
           mkdir -p "$OUTPUT_DIR"
 
           while read -r url; do
-            timestamp=$(date '+%Y%m%d-%H%M%S') # This timestamp is for the individual file, can be kept or removed if not needed
+            # Using a simpler timestamp for the file name, or it could be removed if not needed
+            file_timestamp=$(date '+%H%M%S')
             sanitized=$(echo "$url" | sed 's/[^A-Za-z0-9]/_/g' | cut -c1-50)
-            curl -L "$url" -o "$OUTPUT_DIR/${sanitized}-${timestamp}.xml"
+            curl -L "$url" -o "$OUTPUT_DIR/${sanitized}-${file_timestamp}.xml"
           done < <(grep -Eo 'https?://[^ ]+' feed_list.yaml)
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rss_downloads
+          # Add the year directory, as it's now at the root
+          git add $YEAR
           git commit -m "chore: update RSS feeds" || exit 0
           git push
         env:
