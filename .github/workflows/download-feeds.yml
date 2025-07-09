@@ -19,13 +19,26 @@ jobs:
           YEAR=$(date '+%Y')
           # Format: DDMMAAAAhm (DayMonthYearHourMinute)
           DATETIME_FOLDER=$(date '+%d%m%Y%H%M')
+          BASE_DIR="feed_arquivos" # New base directory
 
-          # Create year directory directly in the root
-          mkdir -p "$YEAR"
+          # Create base directory
+          mkdir -p "$BASE_DIR"
+          echo "Conteúdo da raiz ANTES da criação da pasta do ano:"
+          ls -la
+          pwd
+
+          # Create year directory inside the base directory
+          YEAR_DIR="$BASE_DIR/$YEAR"
+          mkdir -p "$YEAR_DIR"
+          echo "Conteúdo de $BASE_DIR APÓS criação de $YEAR_DIR:"
+          ls -la "$BASE_DIR"
 
           # Define the final output directory
-          OUTPUT_DIR="$YEAR/$DATETIME_FOLDER"
+          OUTPUT_DIR="$YEAR_DIR/$DATETIME_FOLDER"
           mkdir -p "$OUTPUT_DIR"
+          echo "Conteúdo de $YEAR_DIR APÓS criação de $DATETIME_FOLDER:"
+          ls -la "$YEAR_DIR"
+          echo "Tentando criar arquivos em: $OUTPUT_DIR"
 
           while read -r url; do
             # Using a simpler timestamp for the file name, or it could be removed if not needed
@@ -33,12 +46,14 @@ jobs:
             sanitized=$(echo "$url" | sed 's/[^A-Za-z0-9]/_/g' | cut -c1-50)
             curl -L "$url" -o "$OUTPUT_DIR/${sanitized}-${file_timestamp}.xml"
           done < <(grep -Eo 'https?://[^ ]+' feed_list.yaml)
+          echo "Arquivos baixados em $OUTPUT_DIR:"
+          ls -la "$OUTPUT_DIR"
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Add the year directory, as it's now at the root
-          git add $YEAR
+          # Add the base directory
+          git add $BASE_DIR
           git commit -m "chore: update RSS feeds" || exit 0
           git push
         env:
