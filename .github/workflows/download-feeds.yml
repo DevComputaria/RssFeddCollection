@@ -42,9 +42,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Add the base directory
-          git add $BASE_DIR
-          git commit -m "chore: update RSS feeds" || exit 0
-          git push
+
+          git add -A "$BASE_DIR"
+          git status
+
+          git commit -m "chore: update RSS feeds" || echo "Nada para comitar."
+          git push || echo "Nada para enviar."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
