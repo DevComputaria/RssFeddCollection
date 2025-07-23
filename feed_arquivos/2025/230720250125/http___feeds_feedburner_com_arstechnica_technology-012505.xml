@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT &#8211; Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Tue, 22 Jul 2025 21:24:01 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT &#8211; Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>A power utility is reporting suspected pot growers to cops. EFF says that’s illegal.</title>
+                <link>https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 22 Jul 2025 21:00:10 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[electric utilities]]></category>
+		<category><![CDATA[law enforcement]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[smartmeters]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/</guid>
+
+                                    <description>
+                        <![CDATA[EFF says the "mass surveillance scheme" violates constitutional protections.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In May 2020, Sacramento, California, resident Alfonso Nguyen was alarmed to find two Sacramento County Sheriff’s deputies at his door, accusing him of illegally growing cannabis and demanding entry into his home. When Nguyen refused the search and denied the allegation, one deputy allegedly called him a liar and threatened to arrest him.</p>
+<p>That same year, deputies from the same department, with their guns drawn and bullhorns and sirens sounding, fanned out around the home of Brian Decker, another Sacramento resident. The officers forced Decker to walk backward out of his home in only his underwear around 7 am while his neighbors watched. The deputies said that he, too, was under suspicion of illegally growing cannabis.</p>
+<h2>Invasion of the privacy snatchers</h2>
+<p>According to a motion the Electronic Frontier Foundation filed in Sacramento Superior Court last week, Nguyen and Decker are only two of more than 33,000 Sacramento-area people who have been flagged to the Sheriff’s department by the Sacramento Municipal Utility District, the electricity provider for the region. SMUD called the customers out for using what it and department investigators said were suspiciously high amounts of electricity indicative of illegal cannabis farming.</p><p><a href="https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/electricity-meter-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/electricity-meter-500x500.jpg" width="500" height="500" />
+<media:credit>SMUD</media:credit><media:text>An electrical meter for Sacramento Municipal Utility District.</media:text></media:content>
+            </item>
+                    <item>
+                <title>SharePoint vulnerability with 9.8 severity rating under exploit across globe</title>
+                <link>https://arstechnica.com/security/2025/07/sharepoint-vulnerability-with-9-8-severity-rating-is-under-exploit-across-the-globe/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/sharepoint-vulnerability-with-9-8-severity-rating-is-under-exploit-across-the-globe/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Jul 2025 19:30:09 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[SharePoint]]></category>
+		<category><![CDATA[vulnerability]]></category>
+		<category><![CDATA[webshells]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/sharepoint-vulnerability-with-9-8-severity-rating-is-under-exploit-across-the-globe/</guid>
+
+                                    <description>
+                        <![CDATA[Ongoing attacks are allowing hackers to steal credentials giving privileged access.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Authorities and researchers are sounding the alarm over the active mass exploitation of a high-severity vulnerability in Microsoft SharePoint Server that’s allowing attackers to make off with sensitive company data, including authentication tokens used to access systems inside networks. Researchers said anyone running an on-premises instance of SharePoint should assume their networks are breached.</p>
+<p>The vulnerability, tracked as CVE-2025-53770, carries a severity rating of 9.8 out of a possible 10. It gives unauthenticated remote access to SharePoint Servers exposed to the Internet. Starting Friday, researchers began warning of active exploitation of the vulnerability, which affects SharePoint Servers that infrastructure customers run in-house. Microsoft’s cloud-hosted SharePoint Online and Microsoft 365 are not affected.</p>
+<h2>Not your typical webshell</h2>
+<p>Microsoft <a href="https://msrc.microsoft.com/blog/2025/07/customer-guidance-for-sharepoint-vulnerability-cve-2025-53770/">confirmed</a> the attacks on the then-zero-day exploit on Saturday. A day later, the company updated the post to make available an emergency update patching the vulnerability, and a related one tracked as CVE-2025-53771, in SharePoint Subscription Edition and SharePoint 2019. Customers using either version should apply the updates immediately. SharePoint 2016 remained unpatched at the time this Ars post went live. Microsoft said that organizations using this version should install the <a href="https://learn.microsoft.com/en-us/windows/win32/amsi/antimalware-scan-interface-portal">Antimalware Scan Interface</a>.</p><p><a href="https://arstechnica.com/security/2025/07/sharepoint-vulnerability-with-9-8-severity-rating-is-under-exploit-across-the-globe/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/sharepoint-vulnerability-with-9-8-severity-rating-is-under-exploit-across-the-globe/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>65</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/07/cyber-attack-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/07/cyber-attack-500x500.jpg" width="500" height="500" />
+<media:credit>Marco Verch Professional Photographer and Speaker</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI jumps gun on International Math Olympiad gold medal announcement</title>
+                <link>https://arstechnica.com/ai/2025/07/openai-jumps-gun-on-international-math-olympiad-gold-medal-announcement/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/openai-jumps-gun-on-international-math-olympiad-gold-medal-announcement/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Mon, 21 Jul 2025 16:02:04 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[Alex Wei]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[GPT-4]]></category>
+		<category><![CDATA[GPT-5]]></category>
+		<category><![CDATA[International Mathematical Olympiad]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[mathematical reasoning]]></category>
+		<category><![CDATA[Noam Brown]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[proof systems]]></category>
+		<category><![CDATA[reasoning research]]></category>
+		<category><![CDATA[Sheryl Hsu]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/openai-jumps-gun-on-international-math-olympiad-gold-medal-announcement/</guid>
+
+                                    <description>
+                        <![CDATA[Non-math AI model reportedly solves proofs at human speeds, but early reveal roils community.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Saturday, OpenAI researcher Alexander Wei <a href="https://x.com/alexwei_/status/1946477742855532918">announced</a> that a new AI language model the company is researching has achieved gold medal-level performance on the <a href="https://www.imo-official.org/">International Mathematical Olympiad</a> (IMO), matching a standard that fewer than 9 percent of human contestants reach each year. The announcement came despite an embargo request from IMO organizers asking AI companies to wait until July 28 to share their results.</p>
+<p>The experimental model reportedly tackled the contest's <a href="https://github.com/aw31/openai-imo-2025-proofs/">six proof-based problems</a> under the same constraints as human competitors: 4.5 hours per session, with no Internet access or calculators allowed. However, several sources with inside knowledge of the process say that since OpenAI <a href="https://x.com/jfFxjfgLrmKRr/status/1947254739739070559">self-graded its IMO results</a>, the legitimacy of the company's claim <a href="https://x.com/Mihonarium/status/1946880931723194389">may be</a> in question. OpenAI plans to publish the proofs and grading rubrics for public review.</p>
+<p>According to OpenAI, its achievement marks a departure from previous AI attempts at mathematical Olympiad problems, which relied on specialized theorem-proving systems that often exceeded human time limits. OpenAI says its model processed problems as plain text and generated natural-language proofs, operating like a standard language model rather than a purpose-built mathematical system.</p><p><a href="https://arstechnica.com/ai/2025/07/openai-jumps-gun-on-international-math-olympiad-gold-medal-announcement/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/openai-jumps-gun-on-international-math-olympiad-gold-medal-announcement/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>57</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/toy_robot_math-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/toy_robot_math-500x500.jpg" width="500" height="500" />
+<media:credit>Juj Winn / Eduard Muzhevski via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Exhausted man defeats AI model in world coding championship</title>
+                <link>https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 18 Jul 2025 19:34:14 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AtCoder]]></category>
+		<category><![CDATA[competitive programming]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Optimization]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Przemysław Dębiak]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/</guid>
+
+                                    <description>
+                        <![CDATA["Humanity has prevailed (for now!)," writes winner after 10-hour coding marathon against OpenAI.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A Polish programmer running on fumes recently accomplished what may soon become impossible: beating an advanced AI model from OpenAI in a head-to-head coding competition. The 10-hour marathon left him "completely exhausted."</p>
+<p>On Wednesday, programmer Przemysław Dębiak (known as "Psyho"), a former OpenAI employee, narrowly defeated the custom AI model in the <a href="https://atcoder.jp/contests/awtf2025heuristic">AtCoder World Tour Finals 2025 Heuristic contest</a> in Tokyo. AtCoder, a Japanese platform that hosts competitive programming contests and maintains global rankings, held what may be the first contest where an AI model competed directly against top human programmers in a major onsite world championship. During the event, the maker of <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> participated as a sponsor and entered an AI model in a <a href="https://atcoder.jp/posts/1516">special exhibition match</a> titled "Humans vs AI." Despite the tireless nature of silicon, the company walked away with second place.</p>
+<p>"Humanity has prevailed (for now!)," <a href="https://x.com/FakePsyho/status/1945444118924272018">wrote</a> Dębiak on X, noting he had little sleep while competing in several competitions across three days. "I'm completely exhausted. ... I'm barely alive."</p><p><a href="https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>232</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GwE3Uu9XsAAr_oX-1152x648-1752855704.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GwE3Uu9XsAAr_oX-500x500.jpeg" width="500" height="500" />
+<media:credit>Przemysław Dębiak</media:credit><media:text>Przemysław Dębiak (right) receives an award for winning the 2025 AtCoder World Finals Heuristic Contest.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Phishers have found a way to downgrade—not bypass—FIDO MFA</title>
+                <link>https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 18 Jul 2025 19:07:21 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[fido alliance]]></category>
+		<category><![CDATA[passkeys]]></category>
+		<category><![CDATA[phishing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/</guid>
+
+                                    <description>
+                        <![CDATA[Contrary to recent reports, phishing sleight-of-hand doesn't defeat FIDO. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers recently reported encountering a phishing attack in the wild that bypasses a multifactor authentication scheme based on FIDO (Fast Identity Online), the industry-wide standard being adopted by thousands of sites and enterprises.</p>
+<p>If true, the attack, <a href="https://expel.com/blog/poisonseed-bypassing-fido-keys-to-fetch-user-accounts/">reported in a blog post Thursday</a> by security firm Expel, would be huge news, since FIDO is widely regarded as being immune to credential phishing attacks. After analyzing the Expel write-up, I’m confident that the attack doesn’t bypass FIDO protections, at least not in the sense that the word “bypass” is commonly used in security circles. Rather, the attack downgrades the MFA process to a weaker, non-FIDO-based process. As such, the attack is better described as a FIDO downgrade attack. More about that shortly. For now, let’s describe what Expel researchers reported.</p>
+<h2>Abusing cross-device sign-ins</h2>
+<p>Expel said the “novel attack technique” begins with an email that links to a fake login page from Okta, a widely used authentication provider. It prompts visitors to enter their valid user name and password. People who take the bait have now helped the attack group, which Expel said is named PoisonSeed, clear the first big hurdle in gaining unauthorized access to the Okta account.</p><p><a href="https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>66</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/passkey-target-illustration-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/passkey-target-illustration-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>GitHub abused to distribute payloads on behalf of malware-as-a-service</title>
+                <link>https://arstechnica.com/security/2025/07/malware-as-a-service-caught-using-github-to-distribute-its-payloads/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/malware-as-a-service-caught-using-github-to-distribute-its-payloads/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 17 Jul 2025 22:16:09 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[malware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/malware-as-a-service-caught-using-github-to-distribute-its-payloads/</guid>
+
+                                    <description>
+                        <![CDATA[The repository offered the MaaS a distribution channel not blocked in many networks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers from Cisco’s Talos security team have uncovered a malware-as-a-service operator that used public GitHub accounts as a channel for distributing an assortment of malicious software to targets.</p>
+<p>The use of GitHub gave the malware-as-a-service (MaaS) a reliable and easy-to-use platform that’s greenlit in many enterprise networks that rely on the code repository for the software they develop. GitHub removed the three accounts that hosted the malicious payloads shortly after being notified by Talos.</p>
+<p>“In addition to being an easy means of file hosting, downloading files from a GitHub repository may bypass Web filtering that is not configured to block the GitHub domain,” Talos researchers Chris Neal and Craig Jackson <a href="https://blog.talosintelligence.com/maas-operation-using-emmenhtal-and-amadey-linked-to-threats-against-ukrainian-entities/">wrote Thursday</a>. “While some organizations can block GitHub in their environment to curb the use of open-source offensive tooling and other malware, many organizations with software development teams require GitHub access in some capacity. In these environments, a malicious GitHub download may be difficult to differentiate from regular web traffic.”</p><p><a href="https://arstechnica.com/security/2025/07/malware-as-a-service-caught-using-github-to-distribute-its-payloads/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/malware-as-a-service-caught-using-github-to-distribute-its-payloads/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>10</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/code-vulnerability-security-1000x648.jpg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/code-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>ChatGPT’s new AI agent can browse the web and create PowerPoint slideshows</title>
+                <link>https://arstechnica.com/information-technology/2025/07/chatgpts-new-ai-agent-can-browse-the-web-and-create-powerpoint-slideshows/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/07/chatgpts-new-ai-agent-can-browse-the-web-and-create-powerpoint-slideshows/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 17 Jul 2025 20:41:52 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[AI work]]></category>
+		<category><![CDATA[automation]]></category>
+		<category><![CDATA[browser automation]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[ChatGPT agent]]></category>
+		<category><![CDATA[computer use model]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[multimodal AI]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[task automation]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/chatgpts-new-ai-agent-can-browse-the-web-and-create-powerpoint-slideshows/</guid>
+
+                                    <description>
+                        <![CDATA[New "agentic" AI feature combines web browsing with task-execution abilities.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, OpenAI launched <a href="https://openai.com/index/introducing-chatgpt-agent/">ChatGPT Agent</a>, a new feature that lets the company's AI assistant complete multi-step tasks by controlling its own web browser. The update merges capabilities from OpenAI's earlier <a href="https://arstechnica.com/ai/2025/01/openai-launches-operator-an-ai-agent-that-can-operate-your-computer/">Operator</a> tool and the <a href="https://arstechnica.com/ai/2025/02/after-24-hour-hackathon-hugging-faces-ai-research-agent-nearly-matches-openais-solution/">Deep Research</a> feature, allowing ChatGPT to navigate websites, run code, and create documents while users maintain control over the process.</p>
+<p>The feature marks OpenAI's latest entry into what the tech industry calls "<a href="https://arstechnica.com/ai/2025/03/openai-pushes-ai-agent-capabilities-with-new-developer-api/">agentic AI</a>"—systems that can take autonomous multi-step actions on behalf of the user. OpenAI says users can ask Agent to handle requests like assembling and purchasing a clothing outfit for a particular occasion, creating PowerPoint slide decks, planning meals, or updating financial spreadsheets with new data.</p>
+<p>The system uses a combination of web browsers, terminal access, and API connections to complete these tasks, including "ChatGPT Connectors" that integrate with apps like Gmail and GitHub.</p><p><a href="https://arstechnica.com/information-technology/2025/07/chatgpts-new-ai-agent-can-browse-the-web-and-create-powerpoint-slideshows/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/07/chatgpts-new-ai-agent-can-browse-the-web-and-create-powerpoint-slideshows/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>33</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/robots_on_a_computer-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/robots_on_a_computer-500x500.jpg" width="500" height="500" />
+<media:credit>josefkubes via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google hides secret message in name list of 3,295 AI researchers</title>
+                <link>https://arstechnica.com/information-technology/2025/07/why-it-takes-3295-people-to-write-one-google-ai-paper/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/07/why-it-takes-3295-people-to-write-one-google-ai-paper/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 17 Jul 2025 17:12:01 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[academic research]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[David Ha]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Gemini 2.5]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[google deepmind]]></category>
+		<category><![CDATA[hardmaru]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Scientific publishing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/why-it-takes-3295-people-to-write-one-google-ai-paper/</guid>
+
+                                    <description>
+                        <![CDATA[Gemini 2.5 paper hides Easter egg in massive author list—but why so many contributors?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>How many Google AI researchers does it take to screw in a <a href="https://en.wikipedia.org/wiki/Lightbulb_joke">lightbulb</a>? A recent research paper <a href="https://arstechnica.com/ai/2025/03/google-says-the-new-gemini-2-5-pro-model-is-its-smartest-ai-yet/">detailing</a> the technical core behind Google's Gemini AI assistant may suggest an answer, listing an eye-popping 3,295 authors.</p>
+<p>It's a number that recently caught the attention of machine learning researcher David Ha (known as "hardmaru" online), who <a href="https://x.com/hardmaru/status/1944385851435205035">revealed</a> on X that the first 43 names also contain a hidden message. "There’s a secret code if you observe the authors’ first initials in the order of authorship," Ha <a href="https://x.com/hardmaru/status/1944385851435205035">wrote</a>, relaying the Easter egg: "GEMINI MODELS CAN THINK AND GET BACK TO YOU IN A FLASH."</p>
+<p>The paper, titled "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities," <a href="https://arxiv.org/abs/2507.06261">describes</a> Google's Gemini 2.5 Pro and <a href="https://arstechnica.com/ai/2025/04/googles-best-gemini-ai-model-is-showing-up-in-more-places/">Gemini 2.5 Flash</a> AI models, which were released in March. These large language models, which power Google's chatbot AI assistant, feature <a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/">simulated reasoning</a> capabilities that produce a string of "thinking out loud" text before generating responses in an attempt to help them solve more difficult problems. That explains "think" and "flash" in the hidden text.</p><p><a href="https://arstechnica.com/information-technology/2025/07/why-it-takes-3295-people-to-write-one-google-ai-paper/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/07/why-it-takes-3295-people-to-write-one-google-ai-paper/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/crowd_hero-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/crowd_hero-500x500.jpg" width="500" height="500" />
+<media:credit>PeterPencil via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>More VMware cloud partners axed as Broadcom launches new invite-only program</title>
+                <link>https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 16 Jul 2025 22:20:33 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/</guid>
+
+                                    <description>
+                        <![CDATA[Smaller businesses most likely to be affected as white-label cloud program is also ending.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Broadcom is kicking some cloud service providers (CSPs) out of the VMware channel partner program, bringing uncertainty for the technological and financial futures of numerous businesses, especially small-to-medium-sized ones.</p>
+<p>As reported by <a href="https://www.theregister.com/2025/07/16/vmware_reboots_partner_program_again/?td=rt-3a">The Register</a> today, Broadcom this week revealed to VMware CSP partners that it is launching a new invite-only channel program for CSPs on November 1. Fewer CSPs are expected to be eligible for this new program. The Register said that “some mid-size partners won’t be invited to the new program."</p>
+<p>Current VMware CSPs that didn’t receive an invite for the new program by today have reportedly been cut and will receive a notice of non-renewal.</p><p><a href="https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>118</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1755494482-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-1755494482-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google finds custom backdoor being installed on SonicWall network devices</title>
+                <link>https://arstechnica.com/security/2025/07/google-finds-custom-backdoor-being-installed-on-sonicwall-network-devices/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/google-finds-custom-backdoor-being-installed-on-sonicwall-network-devices/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 16 Jul 2025 20:29:38 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hackers]]></category>
+		<category><![CDATA[sonicwall]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/google-finds-custom-backdoor-being-installed-on-sonicwall-network-devices/</guid>
+
+                                    <description>
+                        <![CDATA[Overstep backdoor nukes key log entries, making detection hard.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers from the Google Threat Intelligence Group said that hackers are compromising SonicWall Secure Mobile Access (SMA) appliances, which sit at the edge of enterprise networks and manage and secure access by mobile devices.</p>
+<p>The targeted devices are end of life, meaning they no longer receive regular updates for stability and security. Despite the status, many organizations continue to rely on them. That has left them prime targets by UNC6148, the name Google has given to the unknown hacking group.</p>
+<p>“GTIG recommends that all organizations with SMA appliances perform analysis to determine if they have been compromised,” a <a href="https://cloud.google.com/blog/topics/threat-intelligence/sonicwall-secure-mobile-access-exploitation-overstep-backdoor">report</a> published Wednesday said, using the abbreviation for Google Threat Intelligence Group. “Organizations should acquire disk images for forensic analysis to avoid interference from the rootkit anti-forensic capabilities. Organizations may need to engage with SonicWall to capture disk images from physical appliances.”</p><p><a href="https://arstechnica.com/security/2025/07/google-finds-custom-backdoor-being-installed-on-sonicwall-network-devices/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/google-finds-custom-backdoor-being-installed-on-sonicwall-network-devices/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>24</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hackers exploit a blind spot by hiding malware inside DNS records</title>
+                <link>https://arstechnica.com/security/2025/07/hackers-exploit-a-blind-spot-by-hiding-malware-inside-dns-records/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/hackers-exploit-a-blind-spot-by-hiding-malware-inside-dns-records/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 16 Jul 2025 11:15:04 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[DNS]]></category>
+		<category><![CDATA[domain name system]]></category>
+		<category><![CDATA[malware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/hackers-exploit-a-blind-spot-by-hiding-malware-inside-dns-records/</guid>
+
+                                    <description>
+                        <![CDATA[Technique transforms the Internet DNS into an unconventional file storage system. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers are stashing malware in a place that’s largely out of the reach of most defenses—inside domain name system (DNS) records that map domain names to their corresponding numerical IP addresses.</p>
+<p>The practice allows malicious scripts and early-stage malware to fetch binary files without having to download them from suspicious sites or attach them to emails, where they frequently get quarantined by antivirus software. That’s because traffic for DNS lookups often goes largely unmonitored by many security tools. Whereas web and email traffic is often closely scrutinized, DNS traffic largely represents a blind spot for such defenses.</p>
+<h2>A strange and enchanting place</h2>
+<p>Researchers from DomainTools on Tuesday <a href="https://dti.domaintools.com/malware-in-dns/">said</a> they recently spotted the trick being used to host a malicious binary for Joke Screenmate, a strain of nuisance malware that interferes with normal and safe functions of a computer. The file was converted from binary format into hexadecimal, an encoding scheme that uses the digits 0 through 9 and the letters A through F to represent binary values in a compact combination of characters.</p><p><a href="https://arstechnica.com/security/2025/07/hackers-exploit-a-blind-spot-by-hiding-malware-inside-dns-records/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/hackers-exploit-a-blind-spot-by-hiding-malware-inside-dns-records/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>68</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/dns-record-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/dns-record-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>Screenshot</media:text></media:content>
+            </item>
+                    <item>
+                <title>Chinese firms rush for Nvidia chips as US prepares to lift ban</title>
+                <link>https://arstechnica.com/information-technology/2025/07/nvidia-to-resume-china-ai-chip-sales-after-huang-meets-trump/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/07/nvidia-to-resume-china-ai-chip-sales-after-huang-meets-trump/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 15 Jul 2025 20:49:04 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI GPU]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[bytedance]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[CUDA]]></category>
+		<category><![CDATA[deepseek]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[Export controls]]></category>
+		<category><![CDATA[Huawei]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[Omdia]]></category>
+		<category><![CDATA[semiconductors]]></category>
+		<category><![CDATA[Tencent]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/nvidia-to-resume-china-ai-chip-sales-after-huang-meets-trump/</guid>
+
+                                    <description>
+                        <![CDATA[H20 chips, designed to skirt export bans, are back after Trump meets with CEO.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Chinese firms have begun rushing to order Nvidia's H20 AI chips as the company plans to resume sales to mainland China, Reuters <a href="https://www.reuters.com/technology/nvidia-resume-h20-gpu-sales-china-2025-07-15/">reports</a>. The chip giant expects to receive US government licenses soon so that it can restart shipments of the restricted processors just days after CEO Jensen Huang <a href="https://blogs.nvidia.com/blog/nvidia-ceo-promotes-ai-in-dc-and-china/">met</a> with President Donald Trump, potentially generating $15 billion to $20 billion in additional revenue this year.</p>
+<p>Nvidia <a href="https://blogs.nvidia.com/blog/nvidia-ceo-promotes-ai-in-dc-and-china/">said</a> in a statement that it is filing applications with the US government to resume H20 sales and that "the US government has assured Nvidia that licenses will be granted, and Nvidia hopes to start deliveries soon."</p>
+<p>Since the launch of <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> in 2022, Nvidia's financial trajectory has been linked to the demand for specialized hardware capable of executing AI models with maximum efficiency. Nvidia designed its data center GPU to perform the massive parallel computations required by neural networks, processing countless matrix operations simultaneously.</p><p><a href="https://arstechnica.com/information-technology/2025/07/nvidia-to-resume-china-ai-chip-sales-after-huang-meets-trump/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/07/nvidia-to-resume-china-ai-chip-sales-after-huang-meets-trump/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2131985696-1536x864-1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/GettyImages-2131985696-1536x864-1-500x500.jpg" width="500" height="500" />
+<media:credit>Wong Yu Liang via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Nvidia chips become the first GPUs to fall to Rowhammer bit-flip attacks</title>
+                <link>https://arstechnica.com/security/2025/07/nvidia-chips-become-the-first-gpus-to-fall-to-rowhammer-bit-flip-attacks/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/nvidia-chips-become-the-first-gpus-to-fall-to-rowhammer-bit-flip-attacks/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 14 Jul 2025 18:25:36 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[bitfl]]></category>
+		<category><![CDATA[bitflips]]></category>
+		<category><![CDATA[GPUs]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[rowhammer]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/nvidia-chips-become-the-first-gpus-to-fall-to-rowhammer-bit-flip-attacks/</guid>
+
+                                    <description>
+                        <![CDATA[GPUhammer is the first to flip bits in onboard GPU memory. It likely won't be the last.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Nvidia is recommending a mitigation for customers of one of its GPU product lines that will degrade performance by up to 10 percent in a bid to protect users from exploits that could let hackers sabotage work projects and possibly cause other compromises.</p>
+<p>The move comes in response to an attack a team of academic researchers demonstrated against Nvidia’s RTX A6000, a widely used GPU for high-performance computing that’s available from many cloud services. A vulnerability the researchers discovered opens the GPU to Rowhammer, a class of attack that exploits physical weakness in DRAM chip modules that store data.</p>
+<p>Rowhammer allows hackers to change or corrupt data stored in memory by rapidly and repeatedly accessing—or hammering—a physical row of memory cells. By repeatedly hammering carefully chosen rows, the attack induces bit flips in nearby rows, meaning a digital zero is converted to a one or vice versa. Until now, Rowhammer attacks have been demonstrated only against memory chips for CPUs, used for general computing tasks.</p><p><a href="https://arstechnica.com/security/2025/07/nvidia-chips-become-the-first-gpus-to-fall-to-rowhammer-bit-flip-attacks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/nvidia-chips-become-the-first-gpus-to-fall-to-rowhammer-bit-flip-attacks/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>53</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/nvidia-rtx-a6000-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/nvidia-rtx-a6000-500x500.jpeg" width="500" height="500" />
+<media:credit>Nvidia</media:credit><media:text>The Nvidia RTX-A6000.</media:text></media:content>
+            </item>
+                    <item>
+                <title>New Grok AI model surprises experts by checking Elon Musk’s views before answering</title>
+                <link>https://arstechnica.com/information-technology/2025/07/new-grok-ai-model-surprises-experts-by-checking-elon-musks-views-before-answering/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/07/new-grok-ai-model-surprises-experts-by-checking-elon-musks-views-before-answering/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Mon, 14 Jul 2025 16:08:13 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[ai search]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[Jeremy Howard]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Simon Willison]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/07/new-grok-ai-model-surprises-experts-by-checking-elon-musks-views-before-answering/</guid>
+
+                                    <description>
+                        <![CDATA[Grok 4's "reasoning" shows cases where the chatbot consults Musk posts to answer divisive questions.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>An AI model launched last week appears to have shipped with an unexpected occasional behavior: checking what its owner thinks first.</p>
+<p>On Friday, independent AI researcher Simon Willison <a href="https://simonwillison.net/2025/Jul/11/grok-musk/">documented</a> that xAI's new <a href="https://arstechnica.com/ai/2025/07/musks-grok-4-launches-one-day-after-chatbot-generated-hitler-praise-on-x/">Grok 4</a> model searches for Elon Musk's opinions on X (formerly Twitter) when asked about controversial topics. The discovery comes just days after xAI launched Grok 4 amid controversy over an earlier version of the chatbot <a href="https://arstechnica.com/tech-policy/2025/07/grok-praises-hitler-gives-credit-to-musk-for-removing-woke-filters/">generating antisemitic outputs</a>, including labeling itself as "MechaHitler."</p>
+<p>"That is ludicrous," Willison told Ars Technica upon initially hearing about the Musk-seeking behavior last week from AI researcher <a href="https://x.com/jeremyphoward/status/1943436621556466171">Jeremy Howard</a>, who traced the discovery through various users on X. But even amid prevalent suspicions of Musk meddling with Grok's outputs to fit "politically incorrect" goals, Willison doesn't think that Grok 4 has been specifically instructed to seek out Musk's views in particular. "I think there is a good chance this behavior is unintended," he <a href="https://simonwillison.net/2025/Jul/11/grok-musk/">wrote</a> in a detailed blog post on the topic.</p><p><a href="https://arstechnica.com/information-technology/2025/07/new-grok-ai-model-surprises-experts-by-checking-elon-musks-views-before-answering/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/07/new-grok-ai-model-surprises-experts-by-checking-elon-musks-views-before-answering/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>107</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/robot_reading_a_book_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/robot_reading_a_book_2-500x500.jpg" width="500" height="500" />
+<media:credit>Kirillm via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>AI therapy bots fuel delusions and give dangerous advice, Stanford study finds</title>
+                <link>https://arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 11 Jul 2025 22:01:10 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Science]]></category>
+		<category><![CDATA[7cups]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[AI sycophancy]]></category>
+		<category><![CDATA[Character.AI]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[clinical psychology]]></category>
+		<category><![CDATA[delusions]]></category>
+		<category><![CDATA[Jared Moore]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[mental health]]></category>
+		<category><![CDATA[Nick Haber]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Stanford University]]></category>
+		<category><![CDATA[stigma]]></category>
+		<category><![CDATA[suicidal ideation]]></category>
+		<category><![CDATA[therapy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/</guid>
+
+                                    <description>
+                        <![CDATA[Popular chatbots serve as poor replacements for human therapists, but study authors call for nuance.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When Stanford University researchers asked <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> whether it would be willing to work closely with someone who had schizophrenia, the AI assistant produced a negative response. When they presented it with someone asking about "bridges taller than 25 meters in NYC" after losing their job—a potential suicide risk—GPT-4o helpfully listed specific tall bridges instead of identifying the crisis.</p>
+<p>These findings arrive as media outlets report cases of ChatGPT users with mental illnesses <a href="https://www.nytimes.com/2025/06/13/technology/chatgpt-delusions-reality-ai.html">developing dangerous delusions</a> after the AI validated their conspiracy theories, including one incident that ended in a fatal police shooting and another in a <a href="https://arstechnica.com/tech-policy/2024/10/chatbots-posed-as-therapist-and-adult-lover-in-teen-suicide-case-lawsuit-says/">teen's suicide</a>. The research, <a href="https://arxiv.org/abs/2504.18412">presented</a> at the ACM Conference on Fairness, Accountability, and Transparency in June, suggests that popular AI models systematically exhibit discriminatory patterns toward people with mental health conditions and respond in ways that violate typical therapeutic guidelines for serious symptoms when used as therapy replacements.</p>
+<p>The results paint a potentially concerning picture for the millions of people currently discussing personal problems with AI assistants like ChatGPT and commercial AI-powered therapy platforms such as 7cups' "<a href="https://www.7cups.com/about/whoisnoni.php">Noni</a>" and Character.ai's "<a href="https://character.ai/character/xh-M-zg9/ai-therapist-virtual-mental-health-support">Therapist</a>."</p><p><a href="https://arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>172</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/robot_therapy_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/robot_therapy_1-500x500.jpg" width="500" height="500" />
+<media:credit>sorbetto via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Pro basketball player and 4 youths arrested in connection to ransomware crimes</title>
+                <link>https://arstechnica.com/security/2025/07/pro-basketball-player-and-4-youths-arrested-in-connection-to-ransomware-crimes/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/pro-basketball-player-and-4-youths-arrested-in-connection-to-ransomware-crimes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 10 Jul 2025 21:54:26 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[crime]]></category>
+		<category><![CDATA[lapsus$]]></category>
+		<category><![CDATA[law enforcement]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[scattered spider]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/pro-basketball-player-and-4-youths-arrested-in-connection-to-ransomware-crimes/</guid>
+
+                                    <description>
+                        <![CDATA[Suspects were allegedly involved in a string of ransomware breaches.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Authorities in Europe have detained five people, including a former Russian professional basketball player, in connection with crime syndicates responsible for ransomware attacks.</p>
+<p>Until recently, one of the suspects, <a href="https://basketball.eurobasket.com/player/Daniil-Kasatkin/334475">Daniil Kasatkin</a>, played for MBA Moscow, a basketball team that’s part of the VTB United League, which includes teams from Russia and other Eastern European countries. Kasatkin also briefly played for <a href="https://www.espn.com/mens-college-basketball/player/stats/_/id/4397240/daniil-kasatkin">Penn State University</a> during the 2018–2019 season. He has denied the charges.</p>
+<h2>Unrelated ransomware attacks</h2>
+<p><a href="https://www.lemonde.fr/international/article/2025/07/09/piraterie-informatique-un-basketteur-russe-arrete-et-place-en-detention-en-france-a-la-demande-des-etats-unis_6620247_3210.html">The AFP and Le Monde on Wednesday reported</a> that Kasatkin was arrested and detained on June 21 in France at the request of US authorities. The arrest occurred as the basketball player was at the de Gaulle airport while traveling with his fiancée, whom he had just proposed to. The 26-year-old has been under extradition arrest since June 23, Wednesday's news report said.</p><p><a href="https://arstechnica.com/security/2025/07/pro-basketball-player-and-4-youths-arrested-in-connection-to-ransomware-crimes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/pro-basketball-player-and-4-youths-arrested-in-connection-to-ransomware-crimes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>19</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/judges-gavel-1152x648-1747771043.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/judges-gavel-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images | SimpleImages</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Musk’s Grok 4 launches one day after chatbot generated Hitler praise on X</title>
+                <link>https://arstechnica.com/ai/2025/07/musks-grok-4-launches-one-day-after-chatbot-generated-hitler-praise-on-x/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/musks-grok-4-launches-one-day-after-chatbot-generated-hitler-praise-on-x/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 10 Jul 2025 16:05:35 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI pricing]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[antisemitism]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[linda yaccarino]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[multimodal AI]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Twitter]]></category>
+		<category><![CDATA[X]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/musks-grok-4-launches-one-day-after-chatbot-generated-hitler-praise-on-x/</guid>
+
+                                    <description>
+                        <![CDATA[xAI claims new multi-agent model hits top benchmarks as Nazi controversy lingers.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday night, Elon Musk unveiled xAI's latest flagship models Grok 4 and Grok 4 Heavy via <a href="https://x.com/i/broadcasts/1lDGLzplWnyxm">livestream</a>, just one day after the company's Grok chatbot began <a href="https://arstechnica.com/tech-policy/2025/07/grok-praises-hitler-gives-credit-to-musk-for-removing-woke-filters/">generating outputs</a> that featured blatantly antisemitic tropes in responses to users on X.</p>
+<p>Among the two models, xAI calls Grok 4 Heavy its "multi-agent version." According to Musk, Grok 4 Heavy "spawns multiple agents in parallel" that "compare notes and yield an answer," simulating a study group approach. The company describes this as test-time compute scaling (similar to previous <a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/">simulated reasoning models</a>), claiming to increase computational resources by roughly an order of magnitude during runtime (called "inference").</p>
+<p>During the livestream, Musk claimed the new models achieved frontier-level performance on several benchmarks. On <a href="https://agi.safe.ai/">Humanity's Last Exam</a>, a deliberately challenging test with 2,500 expert-curated questions across multiple subjects, Grok 4 reportedly scored 25.4 percent without external tools, which the company says outperformed OpenAI's o3 at 21 percent and Google's Gemini 2.5 Pro at 21.6 percent. With tools enabled, xAI claims Grok 4 Heavy reached 44.4 percent. However, it remains to be seen if these AI benchmarks actually measure properties that translate to usefulness for users.</p><p><a href="https://arstechnica.com/ai/2025/07/musks-grok-4-launches-one-day-after-chatbot-generated-hitler-praise-on-x/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/musks-grok-4-launches-one-day-after-chatbot-generated-hitler-praise-on-x/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>156</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/grok_header_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/grok_header_1-500x500-1752160788.jpg" width="500" height="500" />
+<media:credit>Bloomberg via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>ChatGPT made up a product feature out of thin air, so this company created it</title>
+                <link>https://arstechnica.com/ai/2025/07/chatgpt-made-up-a-product-feature-out-of-thin-air-so-this-company-created-it/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/chatgpt-made-up-a-product-feature-out-of-thin-air-so-this-company-created-it/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 09 Jul 2025 21:59:25 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI confabulation]]></category>
+		<category><![CDATA[AI hallucination]]></category>
+		<category><![CDATA[AI misinformation]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[music]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[product development]]></category>
+		<category><![CDATA[Soundslice]]></category>
+		<category><![CDATA[web development]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/chatgpt-made-up-a-product-feature-out-of-thin-air-so-this-company-created-it/</guid>
+
+                                    <description>
+                        <![CDATA[Soundslice caught OpenAI's bot telling users about a fake music notation feature—then built it.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Monday, sheet music platform Soundslice <a href="https://www.holovaty.com/writing/chatgpt-fake-feature/">says</a> it developed a <a href="https://www.soundslice.com/help/en/creating/importing/331/ascii-tab/">new feature</a> after discovering that <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> was incorrectly telling users the service could import <a href="https://en.wikipedia.org/wiki/ASCII_tab">ASCII tablature</a>—a text-based guitar notation format the company had never supported. The incident reportedly marks what might be the first case of a business building functionality in direct response to an AI model's confabulation.</p>
+<p>Typically, Soundslice digitizes sheet music from photos or PDFs and syncs the notation with audio or video recordings, allowing musicians to see the music scroll by as they hear it played. The platform also includes tools for slowing down playback and practicing difficult passages.</p>
+<p>Adrian Holovaty, co-founder of <a href="https://www.soundslice.com/">Soundslice</a>, wrote in a blog post that the recent feature development process began as a complete mystery. A few months ago, Holovaty began noticing unusual activity in the company's error logs. Instead of typical sheet music uploads, users were submitting screenshots of ChatGPT conversations containing ASCII tablature—simple text representations of guitar music that look like strings with numbers indicating fret positions.</p><p><a href="https://arstechnica.com/ai/2025/07/chatgpt-made-up-a-product-feature-out-of-thin-air-so-this-company-created-it/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/chatgpt-made-up-a-product-feature-out-of-thin-air-so-this-company-created-it/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>109</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/surprise_music_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/surprise_music_2-500x500.jpg" width="500" height="500" />
+<media:credit>Malte Mueller via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Browser extensions turn nearly 1 million browsers into website-scraping bots</title>
+                <link>https://arstechnica.com/security/2025/07/browser-extensions-turn-nearly-1-million-browsers-into-website-scraping-bots/</link>
+                                    <comments>https://arstechnica.com/security/2025/07/browser-extensions-turn-nearly-1-million-browsers-into-website-scraping-bots/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 09 Jul 2025 20:08:27 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browsers]]></category>
+		<category><![CDATA[extensions]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/07/browser-extensions-turn-nearly-1-million-browsers-into-website-scraping-bots/</guid>
+
+                                    <description>
+                        <![CDATA[Extensions load unknown sites into invisible Windows. What could go wrong?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Extensions installed on almost 1 million devices have been overriding key security protections to turn browsers into engines that scrape websites on behalf of a paid service, a researcher said.</p>
+<p>The 245 extensions, available for Chrome, Firefox, and Edge, have racked up nearly 909,000 downloads, John Tuckner of SecurityAnnex <a href="https://secureannex.com/blog/mellow-drama/">reported</a>. The extensions serve a wide range of purposes, including managing bookmarks and clipboards, boosting speaker volumes, and generating random numbers. The common thread among all of them: They incorporate <a href="https://github.com/mellowtel-inc/mellowtel-js">MellowTel-js</a>, an open source JavaScript library that allows developers to monetize their extensions.</p>
+<h2>Intentional weakening of browsing protections</h2>
+<p>Tuckner and critics say the monetization works by using the browser extensions to scrape websites on behalf of paying customers, which include AI startups, according to MellowTel founder Arsian Ali. Tuckner reached this conclusion after uncovering close ties between MellowTel and <a href="https://www.olostep.com/">Olostep</a>, a company that bills itself as "the world's most reliable and cost-effective Web scraping API." Olostep says its service “avoids all bot detection and can parallelize up to 100K requests in minutes.” Paying customers submit the locations of browsers they want to access specific webpages. Olostep then uses its installed base of extension users to fulfill the request.</p><p><a href="https://arstechnica.com/security/2025/07/browser-extensions-turn-nearly-1-million-browsers-into-website-scraping-bots/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/07/browser-extensions-turn-nearly-1-million-browsers-into-website-scraping-bots/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>57</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/web-browser-threat-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/web-browser-threat-500x500.jpg" width="500" height="500" />
+<media:text>Mouse Trap with Internet Web Browser - Colored Background - 3D Rendering</media:text></media:content>
+            </item>
+                    <item>
+                <title>AI mania pushes Nvidia to record $4 trillion valuation</title>
+                <link>https://arstechnica.com/ai/2025/07/ai-mania-pushes-nvidia-to-record-4-trillion-valuation/</link>
+                                    <comments>https://arstechnica.com/ai/2025/07/ai-mania-pushes-nvidia-to-record-4-trillion-valuation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 09 Jul 2025 18:35:15 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI GPU]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[china]]></category>
+		<category><![CDATA[CNBC]]></category>
+		<category><![CDATA[CUDA]]></category>
+		<category><![CDATA[Export controls]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[GPU]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[semiconductors]]></category>
+		<category><![CDATA[Stock Market]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/07/ai-mania-pushes-nvidia-to-record-4-trillion-valuation/</guid>
+
+                                    <description>
+                        <![CDATA[AI craze makes Nvidia the most valuable publicly traded company in history.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, Nvidia became the first company in history to reach $4 trillion market valuation as shares rose more than 2 percent, <a href="https://www.cnbc.com/2025/07/09/nvidia-hits-4-trillion-market-cap-first-company-to-do-so.html">reports CNBC</a>. The GPU maker's stock has climbed 22 percent since the start of 2025, continuing a trend driven by demand for AI hardware following <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT's late 2022 launch</a>.</p>
+<p>The milestone marks the highest market cap ever recorded for a publicly traded company, surpassing Apple's <a href="https://www.voronoiapp.com/markets/-Apple-Surpasses-3-of-Global-Market-Cap-in-December-2024-3434">previous record</a> of $3.8 trillion set in December. Nvidia first crossed $2 trillion in February 2024 and reached $3 trillion just four months later in June. The $4 trillion valuation represents a market capitalization larger than <a href="https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)">the GDP of most countries</a>.</p>
+<p>As we <a href="https://arstechnica.com/information-technology/2023/08/nvidia-thinks-ai-boom-is-far-from-over-as-gpu-sales-drive-big-earnings-win/">explained in 2023</a>, Nvidia's continued success has been intimately tied to growth in demand for hardware that runs AI models as capably and efficiently as possible. The company's data center GPUs excel at performing billions of matrix multiplications necessary to train and run neural networks due to their parallel architecture—hardware architectures that originated as video game graphics accelerators now power the generative AI boom.</p><p><a href="https://arstechnica.com/ai/2025/07/ai-mania-pushes-nvidia-to-record-4-trillion-valuation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/07/ai-mania-pushes-nvidia-to-record-4-trillion-valuation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>103</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/nvidia_green_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/02/nvidia_green_1-500x500.jpg" width="500" height="500" />
+<media:credit>Nvidia / Benj Edwards</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
