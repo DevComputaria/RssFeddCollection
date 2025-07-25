@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-07-23T11:21:44Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[How Solid Protocol Restores Digital Agency]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/how-solid-protocol-restores-digital-agency.html" />
+
+		<id>https://www.schneier.com/?p=70503</id>
+		<updated>2025-07-23T11:21:44Z</updated>
+		<published>2025-07-24T11:04:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="data breaches" /><category scheme="https://www.schneier.com/" term="data privacy" /><category scheme="https://www.schneier.com/" term="identification" /><category scheme="https://www.schneier.com/" term="privacy" />
+		<summary type="html"><![CDATA[<p>The current state of digital identity is a mess. Your personal information is scattered across hundreds of locations: social media companies, IoT companies, government agencies, websites you have accounts on, and data brokers you&#8217;ve never heard of. These entities collect, store, and trade your data, often without your knowledge or consent. It&#8217;s both redundant and inconsistent. You have hundreds, maybe thousands, of fragmented digital profiles that often contain contradictory or logically impossible information. Each serves its own purpose, yet there is no central override and control to serve you&#8212;as the identity owner...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/how-solid-protocol-restores-digital-agency.html"><![CDATA[<p>The current state of digital identity is a mess. Your personal information is scattered across hundreds of locations: social media companies, IoT companies, government agencies, websites you have accounts on, and data brokers you&#8217;ve never heard of. These entities collect, store, and trade your data, often without your knowledge or consent. It&#8217;s both redundant and inconsistent. You have hundreds, maybe thousands, of fragmented digital profiles that often contain contradictory or logically impossible information. Each serves its own purpose, yet there is no central override and control to serve you&#8212;as the identity owner.</p>
+<p>We&#8217;re used to the massive security failures resulting from all of this data under the control of so many different entities. Years of privacy breaches have resulted in a multitude of laws&#8212;in US states, in the EU, elsewhere&#8212;and calls for even more stringent protections. But while these laws attempt to protect data confidentiality, there is nothing to protect data integrity.</p>
+<p>In this context, data integrity refers to its accuracy, consistency, and reliability…throughout its lifecycle. It means ensuring that data is not only accurately recorded but also remains logically consistent across systems, is up-to-date, and can be verified as authentic. When data lacks integrity, it can contain contradictions, errors, or outdated information&#8212;problems that can have serious real-world consequences.</p>
+<p>Without data integrity, someone could classify you as a teenager while simultaneously attributing to you three teenage children: a biological impossibility. What&#8217;s worse, you have no visibility into the data profiles assigned to your identity, no mechanism to correct errors, and no authoritative way to update your information across all platforms where it resides.</p>
+<p>Integrity breaches don&#8217;t get the same attention that confidentiality breaches do, but the picture isn&#8217;t pretty. A 2017 write-up in <em>The Atlantic</em> found error rates <a href="https://www.theatlantic.com/technology/archive/2017/06/online-data-brokers/529281/">exceeding 50%</a> in some categories of personal information. A 2019 audit of data brokers found at least 40% of data broker sourced user attributes are &#8220;<a href="https://www.lix.polytechnique.fr/~goga/papers/databrokers-measurement_finalCameraReady.pdf">not at all</a>&#8221; accurate. In 2022, the Consumer Financial Protection Bureau <a href="https://web.archive.org/web/20250228230511/https://www.consumerfinance.gov/about-us/newsroom/cfpb-takes-action-to-address-junk-data-in-credit-reports/">documented</a> <a href="https://web.archive.org/web/20250221180714/https://files.consumerfinance.gov/f/documents/cfpb_fair-credit-reporting-facially-false-data_advisory-opinion_2022-10.pdf">thousands</a> of cases where consumers were denied housing, employment, or financial services based on logically impossible data combinations in their profiles. Similarly, the National Consumer Law Center report called &#8220;<a href="https://www.nclc.org/wp-content/uploads/2023/09/202309_Report_Digital-Denials.pdf">Digital Denials</a>&#8221; showed inaccuracies in tenant screening data that blocked people from housing.</p>
+<p>And integrity breaches can have significant effects on our lives. In one 2024 British case, two companies <a href="https://www.theguardian.com/money/2024/oct/14/they-are-ruining-my-life-how-the-shadowy-world-of-debt-collection-can-wreck-your-finances">blamed each other</a> for the faulty debt information that caused catastrophic financial consequences for an innocent victim. <a href="https://www.congress.gov/117/meeting/house/111301/documents/HHRG-117-JU08-20210311-SD011.pdf">Breonna Taylor was killed in 2020</a> during a police raid on her apartment in Louisville, Kentucky, when officers executed a &#8220;no-knock&#8221; warrant on the wrong house based on bad data. They had faulty intelligence connecting her address to a suspect who actually lived elsewhere.</p>
+<p>In some instances, we have rights to view our data, and in others, rights to correct it, but these sorts of solutions have only limited value. When journalist Julia Angwin attempted to correct her information across major data brokers for her book <a href="https://juliaangwin.com/books/"><em>Dragnet Nation</em></a><em>,</em> she found that even after submitting corrections through official channels, a significant number of errors reappeared within six months.</p>
+<p>In some instances, we have the right to delete our data, but&#8212;again&#8212;this only has limited value. Some data processing is legally required, and some is necessary for services we truly want and need.</p>
+<p>Our focus needs to shift from the binary choice of either concealing our data entirely or surrendering all control over it. Instead, we need solutions that prioritize integrity in ways that balance privacy with the benefits of data sharing.</p>
+<p>It&#8217;s not as if we haven&#8217;t made progress in better ways to manage online identity. Over the years, numerous trustworthy systems have been developed that could solve many of these problems. For example, imagine digital verification that works like a locked mobile phone&#8212;it works when you&#8217;re the one who can unlock and use it, but not if someone else grabs it from you. Or consider a storage device that holds all your credentials, like your driver&#8217;s license, professional certifications, and healthcare information, and lets you selectively share one without giving away everything at once. Imagine being able to share just a single cell in a table or a specific field in a file. These technologies already exist, and they could let you securely prove specific facts about yourself without surrendering control of your whole identity. This isn&#8217;t just theoretically better than traditional usernames and passwords; the technologies represent a fundamental shift in how we think about digital trust and verification.</p>
+<p>Standards to do all these things emerged during the Web 2.0 era. We mostly haven&#8217;t used them because platform companies have been more interested in building barriers around user data and identity. They&#8217;ve used control of user identity as a key to market dominance and monetization. They&#8217;ve treated data as a corporate asset, and resisted open standards that would democratize data ownership and access. Closed, proprietary systems have better served their purposes.</p>
+<p>There is another way. The Solid protocol, invented by Sir Tim Berners-Lee, represents a radical reimagining of how data operates online. Solid stands for &#8220;SOcial LInked Data.&#8221; At its core, it decouples data from applications by storing personal information in user-controlled &#8220;data wallets&#8221;: secure, personal data stores that users can host anywhere they choose. Applications can access specific data within these wallets, but users maintain ownership and control.</p>
+<p>Solid is more than distributed data storage. This architecture inverts the current data ownership model. Instead of companies owning user data, users maintain a single source of truth for their personal information. It integrates and extends all those established identity standards and technologies mentioned earlier, and forms a comprehensive stack that places personal identity at the architectural center.</p>
+<p>This identity-first paradigm means that every digital interaction begins with the authenticated individual who maintains control over their data. Applications become interchangeable views into user-owned data, rather than data silos themselves. This enables unprecedented interoperability, as services can securely access precisely the information they need while respecting user-defined boundaries.</p>
+<p>Solid ensures that user intentions are transparently expressed and reliably enforced across the entire ecosystem. Instead of each application implementing its own custom authorization logic and access controls, Solid establishes a standardized declarative approach where permissions are explicitly defined through control lists or policies attached to resources. Users can specify who has access to what data with granular precision, using simple statements like &#8220;Alice can read this document&#8221; or &#8220;Bob can write to this folder.&#8221; These permission rules remain consistent, regardless of which application is accessing the data, eliminating the fragmentation and unpredictability of traditional authorization systems.</p>
+<p>This architectural shift decouples applications from data infrastructure. Unlike Web 2.0 platforms like Facebook, which require massive back-end systems to store, process, and monetize user data, Solid applications can be lightweight and focused solely on functionality. Developers no longer need to build and maintain extensive data storage systems, surveillance infrastructure, or analytics pipelines. Instead, they can build specialized tools that request access to specific data in users&#8217; wallets, with the heavy lifting of data storage and access control handled by the protocol itself.</p>
+<p>Let&#8217;s take healthcare as an example. The current system forces patients to spread pieces of their medical history across countless proprietary databases controlled by insurance companies, hospital networks, and electronic health record vendors. Patients frustratingly become a patchwork rather than a person, because they often can&#8217;t access their own complete medical history, let alone correct mistakes. Meanwhile, those third-party databases suffer regular breaches. The Solid protocol enables a fundamentally different approach. Patients maintain their own comprehensive medical record, with data cryptographically signed by trusted providers, in their own data wallet. When visiting a new healthcare provider, patients can arrive with their complete, verifiable medical history rather than starting from zero or waiting for bureaucratic record transfers.</p>
+<p>When a patient needs to see a specialist, they can grant temporary, specific access to relevant portions of their medical history. For example, a patient referred to a cardiologist could share only cardiac-related records and essential background information. Or, on the flip side, the patient can share new and rich sources of related data to the specialist, like health and nutrition data. The specialist, in turn, can add their findings and treatment recommendations directly to the patient&#8217;s wallet, with a cryptographic signature verifying medical credentials. This process eliminates dangerous information gaps while ensuring that patients maintain an appropriate role in who sees what about them and why.</p>
+<p>When a patient&#8212;doctor relationship ends, the patient retains all records generated during that relationship&#8212;unlike today&#8217;s system where changing providers often means losing access to one&#8217;s historical records. The departing doctor&#8217;s signed contributions remain verifiable parts of the medical history, but they no longer have direct access to the patient&#8217;s wallet without explicit permission.</p>
+<p>For insurance claims, patients can provide temporary, auditable access to specific information needed for processing&#8212;no more and no less. Insurance companies receive verified data directly relevant to claims but should not be expected to have uncontrolled hidden comprehensive profiles or retain information longer than safe under privacy regulations. This approach dramatically reduces unauthorized data use, risk of breaches (privacy and integrity), and administrative costs.</p>
+<p>Perhaps most transformatively, this architecture enables patients to selectively participate in medical research while maintaining privacy. They could contribute anonymized or personalized data to studies matching their interests or conditions, with granular control over what information is shared and for how long. Researchers could gain access to larger, more diverse datasets while participants would maintain control over their information&#8212;creating a proper ethical model for advancing medical knowledge.</p>
+<p>The implications extend far beyond healthcare. In financial services, customers could maintain verified transaction histories and creditworthiness credentials independently of credit bureaus. In education, students could collect verified credentials and portfolios that they truly own rather than relying on institutions&#8217; siloed records. In employment, workers could maintain portable professional histories with verified credentials from past employers. In each case, Solid enables individuals to be the masters of their own data while allowing verification and selective sharing.</p>
+<p>The economics of Web 2.0 pushed us toward centralized platforms and surveillance capitalism, but there has always been a better way. Solid brings different pieces together into a cohesive whole that enables the identity-first architecture we should have had all along. The protocol doesn&#8217;t just solve technical problems; it corrects the fundamental misalignment of incentives that has made the modern web increasingly hostile to both users and developers.</p>
+<p>As we look to a future of increased digitization across all sectors of society, the need for this architectural shift becomes even more apparent. Individuals should be able to maintain and present their own verified digital identity and history, rather than being at the mercy of siloed institutional databases. The Solid protocol makes this future technically possible.</p>
+<p><em>This essay was written with Davi Ottenheimer, and originally appeared on <a href="https://www.inrupt.com/blog/return-to-identity-first-architecture-how-solid-protocol-restores-digital-agency">The Inrupt Blog</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/how-solid-protocol-restores-digital-agency.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/how-solid-protocol-restores-digital-agency.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Google Sues the Badbox Botnet Operators]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/google-sues-the-badbox-botnet-operators.html" />
+
+		<id>https://www.schneier.com/?p=70499</id>
+		<updated>2025-07-22T16:17:31Z</updated>
+		<published>2025-07-23T11:04:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="botnets" /><category scheme="https://www.schneier.com/" term="courts" /><category scheme="https://www.schneier.com/" term="Google" /><category scheme="https://www.schneier.com/" term="malware" />
+		<summary type="html"><![CDATA[<p>It will be interesting to watch what will come of this <a href="https://www.securityweek.com/google-sues-operators-of-10-million-device-badbox-2-0-botnet/">private lawsuit</a>:</p>
+<blockquote><p>Google on Thursday announced filing a lawsuit against the operators of the Badbox 2.0 botnet, which has ensnared more than 10 million devices running Android open source software.</p>
+<p>These devices lack Google&#8217;s security protections, and the perpetrators pre-installed the Badbox 2.0 malware on them, to create a backdoor and abuse them for large-scale fraud and other illicit schemes.</p></blockquote>
+<p>This reminds me of Meta&#8217;s lawauit against Pegasus over its hack-for-hire software (which I wrote about ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/google-sues-the-badbox-botnet-operators.html"><![CDATA[<p>It will be interesting to watch what will come of this <a href="https://www.securityweek.com/google-sues-operators-of-10-million-device-badbox-2-0-botnet/">private lawsuit</a>:</p>
+<blockquote><p>Google on Thursday announced filing a lawsuit against the operators of the Badbox 2.0 botnet, which has ensnared more than 10 million devices running Android open source software.</p>
+<p>These devices lack Google&#8217;s security protections, and the perpetrators pre-installed the Badbox 2.0 malware on them, to create a backdoor and abuse them for large-scale fraud and other illicit schemes.</p></blockquote>
+<p>This reminds me of Meta&#8217;s lawauit against Pegasus over its hack-for-hire software (which I wrote about <a href="https://www.schneier.com/wp-content/uploads/2022/03/Platforms-Encryption-and-the-CFAA-1.pdf">here</a>.) It&#8217;s a private company stepping into a regulatory void left by governments.</p>
+<p>Slashdot <a href="https://yro.slashdot.org/story/25/07/18/2212220/google-sues-operators-of-10-million-device-badbox-20-botnet">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/google-sues-the-badbox-botnet-operators.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/google-sues-the-badbox-botnet-operators.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[“Encryption Backdoors and the Fourth Amendment”]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/encryption-backdoors-and-the-fourth-amendment.html" />
+
+		<id>https://www.schneier.com/?p=70494</id>
+		<updated>2025-07-21T16:19:32Z</updated>
+		<published>2025-07-22T11:05:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="laws" /><category scheme="https://www.schneier.com/" term="NSA" />
+		<summary type="html"><![CDATA[<p>Law journal <a href="https://scholarship.law.marquette.edu/mulr/vol108/iss2/5/">article</a> that looks at the <a href="https://www.schneier.com/blog/archives/2007/11/the_strange_sto.html">Dual_EC_PRNG backdoor</a> from a US constitutional perspective:</p>
+<blockquote><p><b>Abstract</b>: The National Security Agency (NSA) reportedly paid and pressured technology companies to trick their customers into using vulnerable encryption products. This Article examines whether any of three theories removed the Fourth Amendment’s requirement that this be reasonable. The first is that a challenge to the encryption backdoor might fail for want of a search or seizure. The Article rejects this both because the Amendment reaches some vulnerabilities apart from the searches and seizures they enable and because the creation of this vulnerability was itself a search or seizure. The second is that the role of the technology companies might have brought this backdoor within the private-search doctrine. The Article criticizes the doctrine­ particularly its origins in Burdeau v. McDowell­and argues that if it ever should apply, it should not here. The last is that the customers might have waived their Fourth Amendment rights under the third-party doctrine. The Article rejects this both because the customers were not on notice of the backdoor and because historical understandings of the Amendment would not have tolerated it. The Article concludes that none of these theories removed the Amendment’s reasonableness requirement...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/encryption-backdoors-and-the-fourth-amendment.html"><![CDATA[<p>Law journal <a href="https://scholarship.law.marquette.edu/mulr/vol108/iss2/5/">article</a> that looks at the <a href="https://www.schneier.com/blog/archives/2007/11/the_strange_sto.html">Dual_EC_PRNG backdoor</a> from a US constitutional perspective:</p>
+<blockquote><p><b>Abstract</b>: The National Security Agency (NSA) reportedly paid and pressured technology companies to trick their customers into using vulnerable encryption products. This Article examines whether any of three theories removed the Fourth Amendment’s requirement that this be reasonable. The first is that a challenge to the encryption backdoor might fail for want of a search or seizure. The Article rejects this both because the Amendment reaches some vulnerabilities apart from the searches and seizures they enable and because the creation of this vulnerability was itself a search or seizure. The second is that the role of the technology companies might have brought this backdoor within the private-search doctrine. The Article criticizes the doctrine­ particularly its origins in Burdeau v. McDowell­and argues that if it ever should apply, it should not here. The last is that the customers might have waived their Fourth Amendment rights under the third-party doctrine. The Article rejects this both because the customers were not on notice of the backdoor and because historical understandings of the Amendment would not have tolerated it. The Article concludes that none of these theories removed the Amendment’s reasonableness requirement.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/encryption-backdoors-and-the-fourth-amendment.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/encryption-backdoors-and-the-fourth-amendment.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Another Supply Chain Vulnerability]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/another-supply-chain-vulnerability.html" />
+
+		<id>https://www.schneier.com/?p=70490</id>
+		<updated>2025-07-19T20:07:08Z</updated>
+		<published>2025-07-21T11:04:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="risks" /><category scheme="https://www.schneier.com/" term="supply chain" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>ProPublica is <a href="https://www.propublica.org/article/microsoft-digital-escorts-pentagon-defense-department-china-hackers">reporting</a>:</p>
+<blockquote><p>Microsoft is using engineers in China to help maintain the Defense Department&#8217;s computer systems&#8212;with minimal supervision by U.S. personnel&#8212;leaving some of the nation&#8217;s most sensitive data vulnerable to hacking from its leading cyber adversary, a ProPublica investigation has found.</p>
+<p>The arrangement, which was critical to Microsoft winning the federal government&#8217;s cloud computing business a decade ago, relies on U.S. citizens with security clearances to oversee the work and serve as a barrier against espionage and sabotage...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/another-supply-chain-vulnerability.html"><![CDATA[<p>ProPublica is <a href="https://www.propublica.org/article/microsoft-digital-escorts-pentagon-defense-department-china-hackers">reporting</a>:</p>
+<blockquote><p>Microsoft is using engineers in China to help maintain the Defense Department&#8217;s computer systems&#8212;with minimal supervision by U.S. personnel&#8212;leaving some of the nation&#8217;s most sensitive data vulnerable to hacking from its leading cyber adversary, a ProPublica investigation has found.</p>
+<p>The arrangement, which was critical to Microsoft winning the federal government&#8217;s cloud computing business a decade ago, relies on U.S. citizens with security clearances to oversee the work and serve as a barrier against espionage and sabotage.</p>
+<p>But these workers, known as &#8220;digital escorts,&#8221; often lack the technical expertise to police foreign engineers with far more advanced skills, ProPublica found. Some are former military personnel with little coding experience who are paid barely more than minimum wage for the work.</p></blockquote>
+<p>This sounds bad, but it&#8217;s the way the digital world works. Everything we do is international, deeply international. Making anything US-only is hard, and often infeasible.</p>
+<p>EDITED TO ADD: Microsoft has <a href="https://www.reuters.com/world/us/microsoft-stop-using-engineers-china-tech-support-us-military-hegseth-orders-2025-07-18/">stopped</a> the practice.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/another-supply-chain-vulnerability.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/another-supply-chain-vulnerability.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: The Giant Squid Nebula]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/friday-squid-blogging-the-giant-squid-nebula.html" />
+
+		<id>https://www.schneier.com/?p=70465</id>
+		<updated>2025-07-14T18:59:28Z</updated>
+		<published>2025-07-18T21:06:43Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Beautiful <a href="https://apod.nasa.gov/apod/ap250705.html">photo</a>.</p>
+<blockquote><p><a href="https://app.astrobin.com/i/hmtykv">Difficult to capture</a>, this mysterious, squid-shaped interstellar cloud spans nearly three full moons in planet Earth&#8217;s sky. <a href="https://ui.adsabs.harvard.edu/abs/2012RMxAA..48..223A/abstract">Discovered in 2011 by</a> French astro-imager <a href="http://outters.fr/wp/?page_id=50">Nicolas Outters</a>, the Squid Nebula&#8217;s <a href="https://apod.nasa.gov/apod/ap230416.html">bipolar shape</a> is distinguished here by the telltale blue <a href="https://en.wikipedia.org/wiki/Nebulium">emission from</a> doubly ionized oxygen atoms. Though apparently <a href="https://apod.nasa.gov/apod/ap230817.html">surrounded by</a> the reddish hydrogen emission region Sh2-129, the true distance and nature of the Squid Nebula have been difficult to determine. Still, one <a href="https://ui.adsabs.harvard.edu/abs/2014A%26A...570A.105C/abstract">investigation</a> suggests Ou4 really does lie within Sh2-129 some 2,300 light-years away. Consistent with that scenario, the cosmic squid would represent a spectacular outflow of material driven by a ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/friday-squid-blogging-the-giant-squid-nebula.html"><![CDATA[<p>Beautiful <a href="https://apod.nasa.gov/apod/ap250705.html">photo</a>.</p>
+<blockquote><p><a href="https://app.astrobin.com/i/hmtykv">Difficult to capture</a>, this mysterious, squid-shaped interstellar cloud spans nearly three full moons in planet Earth&#8217;s sky. <a href="https://ui.adsabs.harvard.edu/abs/2012RMxAA..48..223A/abstract">Discovered in 2011 by</a> French astro-imager <a href="http://outters.fr/wp/?page_id=50">Nicolas Outters</a>, the Squid Nebula&#8217;s <a href="https://apod.nasa.gov/apod/ap230416.html">bipolar shape</a> is distinguished here by the telltale blue <a href="https://en.wikipedia.org/wiki/Nebulium">emission from</a> doubly ionized oxygen atoms. Though apparently <a href="https://apod.nasa.gov/apod/ap230817.html">surrounded by</a> the reddish hydrogen emission region Sh2-129, the true distance and nature of the Squid Nebula have been difficult to determine. Still, one <a href="https://ui.adsabs.harvard.edu/abs/2014A%26A...570A.105C/abstract">investigation</a> suggests Ou4 really does lie within Sh2-129 some 2,300 light-years away. Consistent with that scenario, the cosmic squid would represent a spectacular outflow of material driven by a <a href="http://www.atlasoftheuniverse.com/orbits.html">triple system</a> of hot, massive stars, cataloged as <a href="https://in-the-sky.org/data/object.php?id=TYC3965-880-1#google_vignette">HR8119</a>, seen near the center of the nebula. If so, this truly giant squid nebula would physically be over 50 <a href="https://science.nasa.gov/exoplanets/what-is-a-light-year/">light-years</a> across.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/friday-squid-blogging-the-giant-squid-nebula.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/friday-squid-blogging-the-giant-squid-nebula.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[New Mobile Phone Forensics Tool]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/new-mobile-phone-forensics-tool.html" />
+
+		<id>https://www.schneier.com/?p=70482</id>
+		<updated>2025-07-17T16:12:29Z</updated>
+		<published>2025-07-18T11:07:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="forensics" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="smartphones" />
+		<summary type="html"><![CDATA[<p>The Chinese have a new tool called <a href="https://www.lookout.com/threat-intelligence/article/massistant-chinese-mobile-forensics">Massistant</a>.</p>
+<blockquote>
+<ul>
+<li>Massistant is the presumed successor to Chinese forensics tool, &#8220;MFSocket&#8221;, reported in 2019 and attributed to publicly traded cybersecurity company, Meiya Pico.
+<li>The forensics tool works in tandem with a corresponding desktop software.
+<li>Massistant gains access to device GPS location data, SMS messages, images, audio, contacts and phone services.
+<li>Meiya Pico maintains partnerships with domestic and international law enforcement partners, both as a surveillance hardware and software provider, as well as through training programs for law enforcement personnel...</li></li></li></li></ul></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/new-mobile-phone-forensics-tool.html"><![CDATA[<p>The Chinese have a new tool called <a href="https://www.lookout.com/threat-intelligence/article/massistant-chinese-mobile-forensics">Massistant</a>.</p>
+<blockquote>
+<ul>
+<li>Massistant is the presumed successor to Chinese forensics tool, &#8220;MFSocket&#8221;, reported in 2019 and attributed to publicly traded cybersecurity company, Meiya Pico.
+<li>The forensics tool works in tandem with a corresponding desktop software.
+<li>Massistant gains access to device GPS location data, SMS messages, images, audio, contacts and phone services.
+<li>Meiya Pico maintains partnerships with domestic and international law enforcement partners, both as a surveillance hardware and software provider, as well as through training programs for law enforcement personnel.</ul>
+</blockquote>
+<p>From a <a ref="https://techcrunch.com/2025/07/16/chinese-authorities-are-using-a-new-tool-to-hack-seized-phones-and-extract-data/">news article</a>:</p>
+<blockquote><p>The good news, per Balaam, is that Massistant leaves evidence of its compromise on the seized device, meaning users can potentially identify and delete the malware, either because the hacking tool appears as an app, or can be found and deleted using more sophisticated tools such as the <a href="https://developer.android.com/tools/adb">Android Debug Bridge</a>, a command line tool that lets a user connect to a device through their computer.</p>
+<p>The bad news is that at the time of installing Massistant, the damage is done, and authorities already have the person&#8217;s data.</p></blockquote>
+<p>Slashdot <a href="https://yro.slashdot.org/story/25/07/16/2042245/chinese-authorities-are-using-a-new-tool-to-hack-seized-phones-and-extract-data">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/new-mobile-phone-forensics-tool.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/new-mobile-phone-forensics-tool.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Security Vulnerabilities in ICEBlock]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/security-vulnerabilities-in-iceblock.html" />
+
+		<id>https://www.schneier.com/?p=70479</id>
+		<updated>2025-07-17T04:19:36Z</updated>
+		<published>2025-07-17T11:06:51Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="anonymity" /><category scheme="https://www.schneier.com/" term="iOS" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>The ICEBlock tool has <a href="https://www.theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version">vulnerabilities</a>:</p>
+<blockquote><p>The developer of ICEBlock, an iOS app for anonymously reporting sightings of US Immigration and Customs Enforcement (ICE) officials, promises that it &#8220;ensures user privacy by storing no personal data.&#8221; But that claim has come under scrutiny. ICEBlock creator Joshua Aaron has been accused of making false promises regarding user anonymity and privacy, being &#8220;misguided&#8221; about the privacy offered by iOS, and of being an Apple fanboy. The issue isn&#8217;t what ICEBlock stores. It&#8217;s about what it could accidentally reveal through its tight integration with iOS...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/security-vulnerabilities-in-iceblock.html"><![CDATA[<p>The ICEBlock tool has <a href="https://www.theverge.com/cyber-security/707116/iceblock-data-privacy-security-android-version">vulnerabilities</a>:</p>
+<blockquote><p>The developer of ICEBlock, an iOS app for anonymously reporting sightings of US Immigration and Customs Enforcement (ICE) officials, promises that it &#8220;ensures user privacy by storing no personal data.&#8221; But that claim has come under scrutiny. ICEBlock creator Joshua Aaron has been accused of making false promises regarding user anonymity and privacy, being &#8220;misguided&#8221; about the privacy offered by iOS, and of being an Apple fanboy. The issue isn&#8217;t what ICEBlock stores. It&#8217;s about what it could accidentally reveal through its tight integration with iOS.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/security-vulnerabilities-in-iceblock.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/security-vulnerabilities-in-iceblock.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hacking Trains]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/hacking-trains.html" />
+
+		<id>https://www.schneier.com/?p=70476</id>
+		<updated>2025-07-16T16:57:16Z</updated>
+		<published>2025-07-16T16:57:16Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="infrastructure" /><category scheme="https://www.schneier.com/" term="transportation" />
+		<summary type="html"><![CDATA[<p>Seems like an old system <a href="https://gizmodo.com/hackers-can-tamper-with-train-breaks-using-just-a-radio-feds-warn-2000629522">system</a> that predates any care about security:</p>
+<blockquote><p>The flaw has to do with the protocol used in a train system known as the End-of-Train and Head-of-Train. A Flashing Rear End Device (FRED), also known as an End-of-Train (EOT) device, is attached to the back of a train and sends data via radio signals to a corresponding device in the locomotive called the Head-of-Train (HOT). Commands can also be sent to the FRED to apply the brakes at the rear of the train.</p>
+<p>These devices were first installed in the 1980s as a replacement for caboose cars, and unfortunately, they lack encryption and authentication protocols. Instead, the current system uses data packets sent between the front and back of a train that include a simple BCH checksum to detect errors or interference. But now, the CISA is warning that someone using a software-defined radio could potentially send fake data packets and interfere with train operations...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/hacking-trains.html"><![CDATA[<p>Seems like an old system <a href="https://gizmodo.com/hackers-can-tamper-with-train-breaks-using-just-a-radio-feds-warn-2000629522">system</a> that predates any care about security:</p>
+<blockquote><p>The flaw has to do with the protocol used in a train system known as the End-of-Train and Head-of-Train. A Flashing Rear End Device (FRED), also known as an End-of-Train (EOT) device, is attached to the back of a train and sends data via radio signals to a corresponding device in the locomotive called the Head-of-Train (HOT). Commands can also be sent to the FRED to apply the brakes at the rear of the train.</p>
+<p>These devices were first installed in the 1980s as a replacement for caboose cars, and unfortunately, they lack encryption and authentication protocols. Instead, the current system uses data packets sent between the front and back of a train that include a simple BCH checksum to detect errors or interference. But now, the CISA is warning that someone using a software-defined radio could potentially send fake data packets and interfere with train operations.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/hacking-trains.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/hacking-trains.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Report from the Cambridge Cybercrime Conference]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/report-from-the-cambridge-cybercrime-conference.html" />
+
+		<id>https://www.schneier.com/?p=70463</id>
+		<updated>2025-07-14T18:46:05Z</updated>
+		<published>2025-07-14T18:46:05Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="conferences" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="reports" />
+		<summary type="html"><![CDATA[<p>The <a href="https://www.cambridgecybercrime.uk/conference2025.html">Cambridge Cybercrime Conference</a> was held on 23 June. Summaries of the presentations are <a href="https://www.lightbluetouchpaper.org/2025/06/25/cambridge-cybercrime-conference-2025-liveblog/">here</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/report-from-the-cambridge-cybercrime-conference.html"><![CDATA[<p>The <a href="https://www.cambridgecybercrime.uk/conference2025.html">Cambridge Cybercrime Conference</a> was held on 23 June. Summaries of the presentations are <a href="https://www.lightbluetouchpaper.org/2025/06/25/cambridge-cybercrime-conference-2025-liveblog/">here</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/report-from-the-cambridge-cybercrime-conference.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/report-from-the-cambridge-cybercrime-conference.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Squid Dominated the Oceans in the Late Cretaceous]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/squid-dominated-the-oceans-in-the-late-cretaceous.html" />
+
+		<id>https://www.schneier.com/?p=70436</id>
+		<updated>2025-07-10T04:28:29Z</updated>
+		<published>2025-07-11T21:04:17Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>New <a href="https://www.courthousenews.com/3d-imaging-reveals-that-ancient-squids-dominated-oceans/">research</a>:</p>
+<blockquote><p>One reason the early years of squids has been such a mystery is because squids&#8217; lack of hard shells made their fossils hard to come by. Undeterred, the team instead focused on finding ancient squid beaks&#8212;hard mouthparts with high fossilization potential that could help the team figure out how squids evolved.</p>
+<p>With that in mind, the team developed an advanced fossil discovery technique that completely digitized rocks with all their embedded fossils in complete 3D form. Upon using that technique on Late Cretaceous rocks from Japan, the team identified 1,000 fossilized cephalopod beaks hidden inside the rocks, which included 263 squid specimens and 40 previously unknown squid species...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/07/squid-dominated-the-oceans-in-the-late-cretaceous.html"><![CDATA[<p>New <a href="https://www.courthousenews.com/3d-imaging-reveals-that-ancient-squids-dominated-oceans/">research</a>:</p>
+<blockquote><p>One reason the early years of squids has been such a mystery is because squids&#8217; lack of hard shells made their fossils hard to come by. Undeterred, the team instead focused on finding ancient squid beaks&#8212;hard mouthparts with high fossilization potential that could help the team figure out how squids evolved.</p>
+<p>With that in mind, the team developed an advanced fossil discovery technique that completely digitized rocks with all their embedded fossils in complete 3D form. Upon using that technique on Late Cretaceous rocks from Japan, the team identified 1,000 fossilized cephalopod beaks hidden inside the rocks, which included 263 squid specimens and 40 previously unknown squid species.</p>
+<p>The team said the number of squid fossils they found vastly outnumbered the number of bony fishes and ammonites, which are extinct shelled relatives of squids that are considered among the most successful swimmers of the Mesozoic era. </p></blockquote>
+<p>&#8220;Forty previously unknown squid species.&#8221; Wow.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/07/squid-dominated-the-oceans-in-the-late-cretaceous.html#comments" thr:count="22" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/07/squid-dominated-the-oceans-in-the-late-cretaceous.html/feed/atom/" thr:count="22" />
+			<thr:total>22</thr:total>
+			</entry>
+	</feed>
