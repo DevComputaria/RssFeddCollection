@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-08-14T16:31:52Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Jim Sanborn Is Auctioning Off the Solution to Part Four of the Kryptos Sculpture]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/jim-sanborn-is-auctioning-off-the-solution-to-part-four-of-the-kryptos-sculpture.html" />
+
+		<id>https://www.schneier.com/?p=70604</id>
+		<updated>2025-08-14T16:31:52Z</updated>
+		<published>2025-08-21T11:02:28Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="CIA" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="history of cryptography" />
+		<summary type="html"><![CDATA[<p>Well, <a href="https://www.nytimes.com/2025/08/14/science/kryptos-sculpture-cia-solution-auction.html?smid=nytcore-ios-share&#038;referringSource=articleShare">this</a> is interesting:</p>
+<blockquote><p>The auction, which will include other items related to cryptology, will be held Nov. 20. RR Auction, the company arranging the sale, estimates a winning bid between $300,000 and $500,000.</p>
+<p>Along with the original handwritten plain text of K4 and other papers related to the coding, Mr. Sanborn will also be providing a 12-by-18-inch copper plate that has three lines of alphabetic characters cut through with a jigsaw, which he calls &#8220;my proof-of-concept piece&#8221; and which he kept on a table for inspiration during the two years he and helpers hand-cut the letters for the project. The process was grueling, exacting and nerve wracking. &#8220;You could not make any mistake with 1,800 letters,&#8221; he said. &#8220;It could not be repaired.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/jim-sanborn-is-auctioning-off-the-solution-to-part-four-of-the-kryptos-sculpture.html"><![CDATA[<p>Well, <a href="https://www.nytimes.com/2025/08/14/science/kryptos-sculpture-cia-solution-auction.html?smid=nytcore-ios-share&#038;referringSource=articleShare">this</a> is interesting:</p>
+<blockquote><p>The auction, which will include other items related to cryptology, will be held Nov. 20. RR Auction, the company arranging the sale, estimates a winning bid between $300,000 and $500,000.</p>
+<p>Along with the original handwritten plain text of K4 and other papers related to the coding, Mr. Sanborn will also be providing a 12-by-18-inch copper plate that has three lines of alphabetic characters cut through with a jigsaw, which he calls &#8220;my proof-of-concept piece&#8221; and which he kept on a table for inspiration during the two years he and helpers hand-cut the letters for the project. The process was grueling, exacting and nerve wracking. &#8220;You could not make any mistake with 1,800 letters,&#8221; he said. &#8220;It could not be repaired.&#8221;</p>
+<p>Mr. Sanborn&#8217;s ideal winning bidder is someone who will hold on to that secret. He also hopes that person is willing to take over the system of verifying possible solutions and reviewing those unending emails, possibly through an automated system.</p></blockquote>
+<p><a href="https://www.rrauction.com/jim-sanborn-kryptos-k4-solution-auction/">Here&#8217;s</a> the auction listing.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/jim-sanborn-is-auctioning-off-the-solution-to-part-four-of-the-kryptos-sculpture.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/jim-sanborn-is-auctioning-off-the-solution-to-part-four-of-the-kryptos-sculpture.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Subverting AIOps Systems Through Poisoned Input Data]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/subverting-aiops-systems-through-poisoned-input-data.html" />
+
+		<id>https://www.schneier.com/?p=70601</id>
+		<updated>2025-08-14T16:23:28Z</updated>
+		<published>2025-08-20T11:02:27Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="integrity" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>In this input integrity attack against an AI system, researchers were able to <a href="https://www.theregister.com/2025/08/12/ai_models_can_be_tricked">fool</a> AIOps tools:</p>
+<blockquote><p>AIOps refers to the use of LLM-based agents to gather and analyze application telemetry, including system logs, performance metrics, traces, and alerts, to detect problems and then suggest or carry out corrective actions. The likes of <a href="https://www.theregister.com/2025/06/10/cisco_live_cloud_control_news/">Cisco</a> have deployed AIops in a conversational interface that admins can use to prompt for information about system performance. Some AIOps tools can respond to such queries by automatically implementing fixes, or suggesting scripts that can address issues...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/subverting-aiops-systems-through-poisoned-input-data.html"><![CDATA[<p>In this input integrity attack against an AI system, researchers were able to <a href="https://www.theregister.com/2025/08/12/ai_models_can_be_tricked">fool</a> AIOps tools:</p>
+<blockquote><p>AIOps refers to the use of LLM-based agents to gather and analyze application telemetry, including system logs, performance metrics, traces, and alerts, to detect problems and then suggest or carry out corrective actions. The likes of <a href="https://www.theregister.com/2025/06/10/cisco_live_cloud_control_news/">Cisco</a> have deployed AIops in a conversational interface that admins can use to prompt for information about system performance. Some AIOps tools can respond to such queries by automatically implementing fixes, or suggesting scripts that can address issues.</p>
+<p>These agents, however, can be tricked by bogus analytics data into taking harmful remedial actions, including downgrading an installed package to a vulnerable version.</p></blockquote>
+<p>The paper: &#8220;<a href="https://arxiv.org/abs/2508.06394">When AIOps Become &#8220;AI Oops&#8221;: Subverting LLM-driven IT Operations via Telemetry Manipulation</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> AI for IT Operations (AIOps) is transforming how organizations manage complex software systems by automating anomaly detection, incident diagnosis, and remediation. Modern AIOps solutions increasingly rely on autonomous LLM-based agents to interpret telemetry data and take corrective actions with minimal human intervention, promising faster response times and operational cost savings.</p>
+<p>In this work, we perform the first security analysis of AIOps solutions, showing that, once again, AI-driven automation comes with a profound security cost. We demonstrate that adversaries can manipulate system telemetry to mislead AIOps agents into taking actions that compromise the integrity of the infrastructure they manage. We introduce techniques to reliably inject telemetry data using error-inducing requests that influence agent behavior through a form of adversarial reward-hacking; plausible but incorrect system error interpretations that steer the agent&#8217;s decision-making. Our attack methodology, AIOpsDoom, is fully automated&#8212;combining reconnaissance, fuzzing, and LLM-driven adversarial input generation&#8212;and operates without any prior knowledge of the target system.</p>
+<p>To counter this threat, we propose AIOpsShield, a defense mechanism that sanitizes telemetry data by exploiting its structured nature and the minimal role of user-generated content. Our experiments show that AIOpsShield reliably blocks telemetry-based attacks without affecting normal agent performance.</p>
+<p>Ultimately, this work exposes AIOps as an emerging attack vector for system compromise and underscores the urgent need for security-aware AIOps design.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/subverting-aiops-systems-through-poisoned-input-data.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/subverting-aiops-systems-through-poisoned-input-data.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Zero-Day Exploit in WinRAR File]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/zero-day-exploit-in-winrar-file.html" />
+
+		<id>https://www.schneier.com/?p=70599</id>
+		<updated>2025-08-14T16:20:00Z</updated>
+		<published>2025-08-19T11:07:28Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="exploits" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="Russia" /><category scheme="https://www.schneier.com/" term="zero-day" />
+		<summary type="html"><![CDATA[<p>A zero-day vulnerability in WinRAR is <a href="https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/">being exploited</a> by at least two Russian criminal groups:</p>
+<blockquote><p>The vulnerability seemed to have super Windows powers. It abused <a href="https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/c54dec26-1551-4d3a-a0ea-4fa40f848eb3">alternate data streams</a>, a Windows feature that allows different ways of representing the same file path. The exploit abused that feature to trigger a previously unknown path traversal flaw that caused WinRAR to plant malicious executables in attacker-chosen file paths %TEMP% and %LOCALAPPDATA%, which Windows normally makes off-limits because of their ability to execute code.</p></blockquote>
+<p>More details in the article...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/zero-day-exploit-in-winrar-file.html"><![CDATA[<p>A zero-day vulnerability in WinRAR is <a href="https://arstechnica.com/security/2025/08/high-severity-winrar-0-day-exploited-for-weeks-by-2-groups/">being exploited</a> by at least two Russian criminal groups:</p>
+<blockquote><p>The vulnerability seemed to have super Windows powers. It abused <a href="https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-fscc/c54dec26-1551-4d3a-a0ea-4fa40f848eb3">alternate data streams</a>, a Windows feature that allows different ways of representing the same file path. The exploit abused that feature to trigger a previously unknown path traversal flaw that caused WinRAR to plant malicious executables in attacker-chosen file paths %TEMP% and %LOCALAPPDATA%, which Windows normally makes off-limits because of their ability to execute code.</p></blockquote>
+<p>More details in the article.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/zero-day-exploit-in-winrar-file.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/zero-day-exploit-in-winrar-file.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Eavesdropping on Phone Conversations Through Vibrations]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/eavesdropping-on-phone-conversations-through-vibrations.html" />
+
+		<id>https://www.schneier.com/?p=70596</id>
+		<updated>2025-08-14T16:16:54Z</updated>
+		<published>2025-08-18T11:02:55Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cell phones" /><category scheme="https://www.schneier.com/" term="eavesdropping" />
+		<summary type="html"><![CDATA[<p>Researchers have managed to <a href="https://dl.acm.org/doi/abs/10.1145/3734477.3734708">eavesdrop</a> <a href="https://www.psu.edu/news/engineering/story/conversations-remotely-detected-cellphone-vibrations-researchers-report">on</a> cell phone voice conversations by using radar to detect vibrations. It&#8217;s more a proof of concept than anything else. The radar detector is only ten feet away, the setup is stylized, and accuracy is poor. But it&#8217;s a start.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/eavesdropping-on-phone-conversations-through-vibrations.html"><![CDATA[<p>Researchers have managed to <a href="https://dl.acm.org/doi/abs/10.1145/3734477.3734708">eavesdrop</a> <a href="https://www.psu.edu/news/engineering/story/conversations-remotely-detected-cellphone-vibrations-researchers-report">on</a> cell phone voice conversations by using radar to detect vibrations. It&#8217;s more a proof of concept than anything else. The radar detector is only ten feet away, the setup is stylized, and accuracy is poor. But it&#8217;s a start.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/eavesdropping-on-phone-conversations-through-vibrations.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/eavesdropping-on-phone-conversations-through-vibrations.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid-Shaped UFO Spotted Over Texas]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-squid-shaped-ufo-spotted-over-texas.html" />
+
+		<id>https://www.schneier.com/?p=70572</id>
+		<updated>2025-08-11T16:02:20Z</updated>
+		<published>2025-08-15T21:07:23Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p><a href="https://www.hindustantimes.com/world-news/us-news/dallas-texas-viral-video-of-squid-shaped-ufo-sparks-debate-the-government-is-101754207106756.html">Here&#8217;s</a> the story. The <a href="https://x.com/DramaAlert/status/1951719327025295456">commenters</a> on X (formerly Twitter) are unimpressed.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-squid-shaped-ufo-spotted-over-texas.html"><![CDATA[<p><a href="https://www.hindustantimes.com/world-news/us-news/dallas-texas-viral-video-of-squid-shaped-ufo-sparks-debate-the-government-is-101754207106756.html">Here&#8217;s</a> the story. The <a href="https://x.com/DramaAlert/status/1951719327025295456">commenters</a> on X (formerly Twitter) are unimpressed.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-squid-shaped-ufo-spotted-over-texas.html#comments" thr:count="31" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-squid-shaped-ufo-spotted-over-texas.html/feed/atom/" thr:count="31" />
+			<thr:total>31</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Trojans Embedded in .svg Files]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/trojans-embedded-in-svg-files.html" />
+
+		<id>https://www.schneier.com/?p=70594</id>
+		<updated>2025-08-14T16:12:47Z</updated>
+		<published>2025-08-15T11:07:51Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="pornography" />
+		<summary type="html"><![CDATA[<p>Porn sites are <a href="https://arstechnica.com/security/2025/08/adult-sites-use-malicious-svg-files-to-rack-up-likes-on-facebook/">hiding code</a> in .svg files:</p>
+<blockquote><p>Unpacking the attack took work because much of the JavaScript in the .svg images was heavily obscured using a custom version of &#8220;JSFuck,&#8221; a technique that uses only a handful of character types to encode JavaScript into a camouflaged wall of text.</p>
+<p>Once decoded, the script causes the browser to download a chain of additional obfuscated JavaScript. The final payload, a known malicious script called Trojan.JS.Likejack, induces the browser to like a specified Facebook post as long as a user has their account open...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/trojans-embedded-in-svg-files.html"><![CDATA[<p>Porn sites are <a href="https://arstechnica.com/security/2025/08/adult-sites-use-malicious-svg-files-to-rack-up-likes-on-facebook/">hiding code</a> in .svg files:</p>
+<blockquote><p>Unpacking the attack took work because much of the JavaScript in the .svg images was heavily obscured using a custom version of &#8220;JSFuck,&#8221; a technique that uses only a handful of character types to encode JavaScript into a camouflaged wall of text.</p>
+<p>Once decoded, the script causes the browser to download a chain of additional obfuscated JavaScript. The final payload, a known malicious script called Trojan.JS.Likejack, induces the browser to like a specified Facebook post as long as a user has their account open.</p>
+<p>&#8220;This Trojan, also written in Javascript, silently clicks a &#8216;Like&#8217; button for a Facebook page without the user&#8217;s knowledge or consent, in this case the adult posts we found above,&#8221; Malwarebytes researcher Pieter Arntz wrote. &#8220;The user will have to be logged in on Facebook for this to work, but we know many people keep Facebook open for easy access.&#8221;</p></blockquote>
+<p>This isn&#8217;t a new trick. We&#8217;ve seen Trojaned .svg files before.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/trojans-embedded-in-svg-files.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/trojans-embedded-in-svg-files.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[LLM Coding Integrity Breach]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/llm-coding-integrity-breach.html" />
+
+		<id>https://www.schneier.com/?p=70587</id>
+		<updated>2025-08-14T05:13:09Z</updated>
+		<published>2025-08-14T11:08:52Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="integrity" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><a href="https://sketch.dev/blog/our-first-outage-from-llm-written-code">Here&#8217;s</a> an interesting story about a failure being introduced by LLM-written code. Specifically, the LLM was doing some code refactoring, and when it moved a chunk of code from one file to another it changed a &#8220;break&#8221; to a &#8220;continue.&#8221; That turned an error logging statement into an infinite loop, which crashed the system.</p>
+<p>This is an <a href="https://www.computer.org/csdl/magazine/sp/2025/03/11038984/27COaJtjDOM">integrity failure</a>. Specifically, it&#8217;s a failure of processing integrity. And while we can think of particular patches that alleviate this exact failure, the larger problem is much harder to solve.</p>
+<p>Davi Ottenheimer ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/llm-coding-integrity-breach.html"><![CDATA[<p><a href="https://sketch.dev/blog/our-first-outage-from-llm-written-code">Here&#8217;s</a> an interesting story about a failure being introduced by LLM-written code. Specifically, the LLM was doing some code refactoring, and when it moved a chunk of code from one file to another it changed a &#8220;break&#8221; to a &#8220;continue.&#8221; That turned an error logging statement into an infinite loop, which crashed the system.</p>
+<p>This is an <a href="https://www.computer.org/csdl/magazine/sp/2025/03/11038984/27COaJtjDOM">integrity failure</a>. Specifically, it&#8217;s a failure of processing integrity. And while we can think of particular patches that alleviate this exact failure, the larger problem is much harder to solve.</p>
+<p>Davi Ottenheimer <a href="https://www.flyingpenguin.com/?p=71603">comments</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/llm-coding-integrity-breach.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/llm-coding-integrity-breach.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Applications in Cybersecurity]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/ai-applications-in-cybersecurity.html" />
+
+		<id>https://www.schneier.com/?p=70585</id>
+		<updated>2025-08-13T16:28:35Z</updated>
+		<published>2025-08-13T16:28:35Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="videos" />
+		<summary type="html"><![CDATA[<p>There is a really great series of online events highlighting cool uses of AI in cybersecurity, titled Prompt&#124;&#124;GTFO. Videos from the <a href="https://www.youtube.com/playlist?list=PLXz1MhBqAGJx3HHWtw-qIhHH7JvGpcimw">first</a> <a href="https://www.youtube.com/playlist?list=PLXz1MhBqAGJwNk8RkjfJ03G8E1N3OAKtV">three</a> <a href="https://www.youtube.com/playlist?list=PLXz1MhBqAGJzZBwp9ivB58N4XZtcBkbpP">events</a> are online. And <a href="https://forms.gle/5Q4EbV3FGUhKrUFJA">here&#8217;s</a> where to register to attend, or participate, in the fourth.</p>
+<p>Some really great stuff here.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/ai-applications-in-cybersecurity.html"><![CDATA[<p>There is a really great series of online events highlighting cool uses of AI in cybersecurity, titled Prompt||GTFO. Videos from the <a href="https://www.youtube.com/playlist?list=PLXz1MhBqAGJx3HHWtw-qIhHH7JvGpcimw">first</a> <a href="https://www.youtube.com/playlist?list=PLXz1MhBqAGJwNk8RkjfJ03G8E1N3OAKtV">three</a> <a href="https://www.youtube.com/playlist?list=PLXz1MhBqAGJzZBwp9ivB58N4XZtcBkbpP">events</a> are online. And <a href="https://forms.gle/5Q4EbV3FGUhKrUFJA">here&#8217;s</a> where to register to attend, or participate, in the fourth.</p>
+<p>Some really great stuff here.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/ai-applications-in-cybersecurity.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/ai-applications-in-cybersecurity.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[SIGINT During World War II]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/sigint-during-world-war-ii.html" />
+
+		<id>https://www.schneier.com/?p=70567</id>
+		<updated>2025-08-07T17:33:01Z</updated>
+		<published>2025-08-13T11:08:00Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="GCHQ" /><category scheme="https://www.schneier.com/" term="history of cryptography" /><category scheme="https://www.schneier.com/" term="history of security" /><category scheme="https://www.schneier.com/" term="intelligence" /><category scheme="https://www.schneier.com/" term="NSA" /><category scheme="https://www.schneier.com/" term="reports" /><category scheme="https://www.schneier.com/" term="war" />
+		<summary type="html"><![CDATA[<p>The NSA and GCHQ have jointly published a history of World War II SIGINT: &#8220;<a href="https://media.defense.gov/2025/Jul/25/2003761271/-1/-1/0/SECRET_MESSENGERS.PDF">Secret Messengers: Disseminating SIGINT in the Second World War</a>.&#8221; This is the story of the British SLUs (Special Liaison Units) and the American SSOs (Special Security Officers).</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/sigint-during-world-war-ii.html"><![CDATA[<p>The NSA and GCHQ have jointly published a history of World War II SIGINT: &#8220;<a href="https://media.defense.gov/2025/Jul/25/2003761271/-1/-1/0/SECRET_MESSENGERS.PDF">Secret Messengers: Disseminating SIGINT in the Second World War</a>.&#8221; This is the story of the British SLUs (Special Liaison Units) and the American SSOs (Special Security Officers).</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/sigint-during-world-war-ii.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/sigint-during-world-war-ii.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The “Incriminating Video” Scam]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/the-incriminating-video-scam.html" />
+
+		<id>https://www.schneier.com/?p=70564</id>
+		<updated>2025-08-07T17:14:41Z</updated>
+		<published>2025-08-12T11:01:38Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="phishing" /><category scheme="https://www.schneier.com/" term="scams" /><category scheme="https://www.schneier.com/" term="social engineering" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>A few years ago, scammers invented a new phishing email. They would claim to have hacked your computer, turned your webcam on, and videoed you watching porn or having sex. BuzzFeed has an <a href="https://www.buzzfeed.com/poojashah1/new-email-scam-house-address-sc">article</a> talking about a &#8220;shockingly realistic&#8221; variant, which includes photos of you and your house&#8212;more specific information.</p>
+<p>The article contains &#8220;steps you can take to figure out if it&#8217;s a scam,&#8221; but omits the first and most fundamental piece of advice: If the hacker had incriminating video about you, they would show you a clip. Just a taste, not the worst bits so you had to worry about how bad it could be, but something. If the hacker doesn&#8217;t show you any video, they don&#8217;t have any video. Everything else is window dressing...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/the-incriminating-video-scam.html"><![CDATA[<p>A few years ago, scammers invented a new phishing email. They would claim to have hacked your computer, turned your webcam on, and videoed you watching porn or having sex. BuzzFeed has an <a href="https://www.buzzfeed.com/poojashah1/new-email-scam-house-address-sc">article</a> talking about a &#8220;shockingly realistic&#8221; variant, which includes photos of you and your house&#8212;more specific information.</p>
+<p>The article contains &#8220;steps you can take to figure out if it&#8217;s a scam,&#8221; but omits the first and most fundamental piece of advice: If the hacker had incriminating video about you, they would show you a clip. Just a taste, not the worst bits so you had to worry about how bad it could be, but something. If the hacker doesn&#8217;t show you any video, they don&#8217;t have any video. Everything else is window dressing.</p>
+<p>I remember when this scam was first invented. I calmed several people who were legitimately worried with that one fact.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/the-incriminating-video-scam.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/the-incriminating-video-scam.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+	</feed>
