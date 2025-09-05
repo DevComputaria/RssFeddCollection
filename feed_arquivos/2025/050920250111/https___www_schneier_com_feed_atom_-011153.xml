@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-09-03T16:19:14Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Generative AI as a Cybercrime Assistant]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/generative-ai-as-a-cybercrime-assistant.html" />
+
+		<id>https://www.schneier.com/?p=70649</id>
+		<updated>2025-09-03T16:19:14Z</updated>
+		<published>2025-09-04T11:06:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="extortion" /><category scheme="https://www.schneier.com/" term="theft" />
+		<summary type="html"><![CDATA[<p>Anthropic <a href="https://www.anthropic.com/news/detecting-countering-misuse-aug-2025">reports</a> on a Claude user:</p>
+<blockquote><p>We recently disrupted a sophisticated cybercriminal that used Claude Code to commit large-scale theft and extortion of personal data. The actor targeted at least 17 distinct organizations, including in healthcare, the emergency services, and government and religious institutions. Rather than encrypt the stolen information with traditional ransomware, the actor threatened to expose the data publicly in order to attempt to extort victims into paying ransoms that sometimes exceeded $500,000.</p>
+<p>The actor used AI to what we believe is an unprecedented degree. Claude Code was used to automate reconnaissance, harvesting victims&#8217; credentials, and penetrating networks. Claude was allowed to make both tactical and strategic decisions, such as deciding which data to exfiltrate, and how to craft psychologically targeted extortion demands. Claude analyzed the exfiltrated financial data to determine appropriate ransom amounts, and generated visually alarming ransom notes that were displayed on victim machines...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/generative-ai-as-a-cybercrime-assistant.html"><![CDATA[<p>Anthropic <a href="https://www.anthropic.com/news/detecting-countering-misuse-aug-2025">reports</a> on a Claude user:</p>
+<blockquote><p>We recently disrupted a sophisticated cybercriminal that used Claude Code to commit large-scale theft and extortion of personal data. The actor targeted at least 17 distinct organizations, including in healthcare, the emergency services, and government and religious institutions. Rather than encrypt the stolen information with traditional ransomware, the actor threatened to expose the data publicly in order to attempt to extort victims into paying ransoms that sometimes exceeded $500,000.</p>
+<p>The actor used AI to what we believe is an unprecedented degree. Claude Code was used to automate reconnaissance, harvesting victims&#8217; credentials, and penetrating networks. Claude was allowed to make both tactical and strategic decisions, such as deciding which data to exfiltrate, and how to craft psychologically targeted extortion demands. Claude analyzed the exfiltrated financial data to determine appropriate ransom amounts, and generated visually alarming ransom notes that were displayed on victim machines.</p></blockquote>
+<p>This is scary. It&#8217;s a significant improvement over what was possible even <a href="https://www.schneier.com/essays/archives/2022/01/robot-hacking-games.html">a few years ago</a>.</p>
+<p>Read the whole Anthropic essay. They discovered North Koreans using Claude to commit remote-worker fraud, and a cybercriminal using Claude &#8220;to develop, market, and distribute several variants of ransomware, each with advanced evasion capabilities, encryption, and anti-recovery mechanisms.&#8221;</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/generative-ai-as-a-cybercrime-assistant.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/generative-ai-as-a-cybercrime-assistant.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Indirect Prompt Injection Attacks Against LLM Assistants]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/indirect-prompt-injection-attacks-against-llm-assistants.html" />
+
+		<id>https://www.schneier.com/?p=70646</id>
+		<updated>2025-09-02T16:09:16Z</updated>
+		<published>2025-09-03T11:00:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="threat models" />
+		<summary type="html"><![CDATA[<p>Really good <a href="https://sites.google.com/view/invitation-is-all-you-need/home">research</a> on practical attacks against LLM agents.</p>
+<blockquote><p>&#8220;<a href="https://arxiv.org/abs/2508.12175">Invitation Is All You Need! Promptware Attacks Against LLM-Powered Assistants in Production Are Practical and Dangerous</a>&#8221;</p>
+<p><b>Abstract:</b> The growing integration of LLMs into applications has introduced new security risks, notably known as Promptware­&#8212;maliciously engineered prompts designed to manipulate LLMs to compromise the CIA triad of these applications. While prior research warned about a potential shift in the threat landscape for LLM-powered applications, the risk posed by Promptware is frequently perceived as low. In this paper, we investigate the risk Promptware poses to users of Gemini-powered assistants (web application, mobile application, and Google Assistant). We propose a novel Threat Analysis and Risk Assessment (TARA) framework to assess Promptware risks for end users. Our analysis focuses on a new variant of Promptware called Targeted Promptware Attacks, which leverage indirect prompt injection via common user interactions such as emails, calendar invitations, and shared documents. We demonstrate 14 attack scenarios applied against Gemini-powered assistants across five identified threat classes: Short-term Context Poisoning, Permanent Memory Poisoning, Tool Misuse, Automatic Agent Invocation, and Automatic App Invocation. These attacks highlight both digital and physical consequences, including spamming, phishing, disinformation campaigns, data exfiltration, unapproved user video streaming, and control of home automation devices. We reveal Promptware’s potential for on-device lateral movement, escaping the boundaries of the LLM-powered application, to trigger malicious actions using a device’s applications. Our TARA reveals that 73% of the analyzed threats pose High-Critical risk to end users. We discuss mitigations and reassess the risk (in response to deployed mitigations) and show that the risk could be reduced significantly to Very Low-Medium. We disclosed our findings to Google, which deployed dedicated mitigations...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/indirect-prompt-injection-attacks-against-llm-assistants.html"><![CDATA[<p>Really good <a href="https://sites.google.com/view/invitation-is-all-you-need/home">research</a> on practical attacks against LLM agents.</p>
+<blockquote><p>&#8220;<a href="https://arxiv.org/abs/2508.12175">Invitation Is All You Need! Promptware Attacks Against LLM-Powered Assistants in Production Are Practical and Dangerous</a>&#8221;</p>
+<p><b>Abstract:</b> The growing integration of LLMs into applications has introduced new security risks, notably known as Promptware­&#8212;maliciously engineered prompts designed to manipulate LLMs to compromise the CIA triad of these applications. While prior research warned about a potential shift in the threat landscape for LLM-powered applications, the risk posed by Promptware is frequently perceived as low. In this paper, we investigate the risk Promptware poses to users of Gemini-powered assistants (web application, mobile application, and Google Assistant). We propose a novel Threat Analysis and Risk Assessment (TARA) framework to assess Promptware risks for end users. Our analysis focuses on a new variant of Promptware called Targeted Promptware Attacks, which leverage indirect prompt injection via common user interactions such as emails, calendar invitations, and shared documents. We demonstrate 14 attack scenarios applied against Gemini-powered assistants across five identified threat classes: Short-term Context Poisoning, Permanent Memory Poisoning, Tool Misuse, Automatic Agent Invocation, and Automatic App Invocation. These attacks highlight both digital and physical consequences, including spamming, phishing, disinformation campaigns, data exfiltration, unapproved user video streaming, and control of home automation devices. We reveal Promptware’s potential for on-device lateral movement, escaping the boundaries of the LLM-powered application, to trigger malicious actions using a device’s applications. Our TARA reveals that 73% of the analyzed threats pose High-Critical risk to end users. We discuss mitigations and reassess the risk (in response to deployed mitigations) and show that the risk could be reduced significantly to Very Low-Medium. We disclosed our findings to Google, which deployed dedicated mitigations.</p></blockquote>
+<p>Defcon <a href="https://www.youtube.com/watch?v=pleLhJRW9Fw&#038;feature=youtu.be">talk</a>. <a href="https://arstechnica.com/google/2025/08/researchers-use-calendar-events-to-hack-gemini-control-smart-home-gadgets/"> News</a> <a href="https://www.wired.com/story/google-gemini-calendar-invite-hijack-smart-home/">articles</a> <a href="https://www.pcmag.com/news/rogue-calendar-invite-could-turn-google-gemini-against-you-black-hat-2025#">on</a> <a href="https://www.zdnet.com/article/beware-of-promptware-how-researchers-broke-into-google-home-via-gemini/">the</a> <a href="https://www.cnet.com/home/smart-home/researchers-seize-control-of-smart-homes-with-malicious-gemini-ai-prompts/">research</a>.</p>
+<p>Prompt injection isn&#8217;t just a minor security problem we need to deal with. It&#8217;s a fundamental property of current LLM technology. The systems have <a href="https://www.schneier.com/blog/archives/2024/05/llms-data-control-path-insecurity.html">no ability to separate trusted commands from untrusted data</a>, and there are an infinite number of prompt injection attacks with <a href="https://llm-attacks.org/">no way to block them</a> as a class. We need some new fundamental science of LLMs before we can solve this.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/indirect-prompt-injection-attacks-against-llm-assistants.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/indirect-prompt-injection-attacks-against-llm-assistants.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[1965 Cryptanalysis Training Workbook Released by the NSA]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/1965-cryptanalysis-training-workbook-released-by-the-nsa.html" />
+
+		<id>https://www.schneier.com/?p=70644</id>
+		<updated>2025-09-02T02:16:03Z</updated>
+		<published>2025-09-02T11:08:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cryptanalysis" /><category scheme="https://www.schneier.com/" term="history of cryptography" /><category scheme="https://www.schneier.com/" term="NSA" />
+		<summary type="html"><![CDATA[<p>In the early 1960s, National Security Agency cryptanalyst and cryptanalysis instructor Lambros D. Callimahos coined the term &#8220;Stethoscope&#8221; to describe a diagnostic computer program used to unravel the internal structure of pre-computer ciphertexts. The term appears in the newly declassified September 1965 document <i><a href="https://www.governmentattic.org/59docs/NSAlDCCDAC1965.pdf">Cryptanalytic Diagnosis with the Aid of a Computer</a></i>, which compiled 147 listings from this tool for Callimahos&#8217;s <a href="https://ia601207.us.archive.org/22/items/Legacy_Callimahos-nsa/Legacy_Callimahos.pdf">course</a>, <a href="https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cryptologic-spectrum/Callimahos_Course.pdf">CA-400: NSA Intensive Study Program in General Cryptanalysis</a>.</p>
+<p>The listings in the report are printouts from the Stethoscope program, run on the NSA&#8217;s Bogart computer, showing statistical and structural data extracted from encrypted messages, but the encrypted messages themselves are not included. They were used in NSA training programs to teach analysts how to interpret ciphertext behavior without seeing the original message...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/1965-cryptanalysis-training-workbook-released-by-the-nsa.html"><![CDATA[<p>In the early 1960s, National Security Agency cryptanalyst and cryptanalysis instructor Lambros D. Callimahos coined the term &#8220;Stethoscope&#8221; to describe a diagnostic computer program used to unravel the internal structure of pre-computer ciphertexts. The term appears in the newly declassified September 1965 document <i><a href="https://www.governmentattic.org/59docs/NSAlDCCDAC1965.pdf">Cryptanalytic Diagnosis with the Aid of a Computer</a></i>, which compiled 147 listings from this tool for Callimahos&#8217;s <a href="https://ia601207.us.archive.org/22/items/Legacy_Callimahos-nsa/Legacy_Callimahos.pdf">course</a>, <a href="https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/cryptologic-spectrum/Callimahos_Course.pdf">CA-400: NSA Intensive Study Program in General Cryptanalysis</a>.</p>
+<p>The listings in the report are printouts from the Stethoscope program, run on the NSA&#8217;s Bogart computer, showing statistical and structural data extracted from encrypted messages, but the encrypted messages themselves are not included. They were used in NSA training programs to teach analysts how to interpret ciphertext behavior without seeing the original message.</p>
+<p>The listings include elements such as frequency tables, index of coincidence, periodicity tests, bigram/trigram analysis, and columnar and transposition clues. The idea is to give the analyst some clues as to what language is being encoded, what type of cipher system is used, and potential ways to reconstruct plaintext within it.</p>
+<p>Bogart was a special-purpose electronic computer tailored specifically for cryptanalytic tasks, such as statistical analysis of cipher texts, pattern recognition, and diagnostic testing, but not decryption per se.</p>
+<p>Listings like these were revolutionary. Before computers, cryptanalysts did this type of work manually, painstakingly counting letters and testing hypotheses. Stethoscope automated the grunt work, allowing analysts to focus on interpretation, and cryptanalytical strategy.</p>
+<p>These listings were part of the Intensive Study Program in General Cryptanalysis at NSA. Students were trained to interpret listings without seeing the original ciphertext, a method that sharpened their analytical intuitive skills.</p>
+<p>Also mentioned in the report is Rob Roy, another NSA diagnostic tool focused on different cryptanalytic tasks, but also producing frequency counts, coincidence indices, and periodicity tests. NSA had a tradition of giving codebreaking tools colorful names&#8212;for example, DUENNA, SUPERSCRITCHER, MADAME X, HARVEST, and COPPERHEAD.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/1965-cryptanalysis-training-workbook-released-by-the-nsa.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/1965-cryptanalysis-training-workbook-released-by-the-nsa.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Catching Humboldt Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-catching-humboldt-squid.html" />
+
+		<id>https://www.schneier.com/?p=70606</id>
+		<updated>2025-08-28T16:45:35Z</updated>
+		<published>2025-08-29T21:04:09Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>First-person <a href="https://gilaherald.com/editorial-not-intentionally-fishing-for-squid/">account</a> of someone accidentally catching several Humboldt squid on a fishing line. No photos, though.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-catching-humboldt-squid.html"><![CDATA[<p>First-person <a href="https://gilaherald.com/editorial-not-intentionally-fishing-for-squid/">account</a> of someone accidentally catching several Humboldt squid on a fishing line. No photos, though.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-catching-humboldt-squid.html#comments" thr:count="31" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-catching-humboldt-squid.html/feed/atom/" thr:count="31" />
+			<thr:total>31</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Baggage Tag Scam]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/baggage-tag-scam.html" />
+
+		<id>https://www.schneier.com/?p=70640</id>
+		<updated>2025-08-28T16:04:30Z</updated>
+		<published>2025-08-29T11:01:15Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="air travel" /><category scheme="https://www.schneier.com/" term="scams" />
+		<summary type="html"><![CDATA[<p>I just heard about <a href="https://www.fodors.com/news/news/there-are-warnings-about-the-bag-tag-scam-but-is-it-really-a-scam">this</a>:</p>
+<blockquote><p>There&#8217;s a <a href="https://travelnoire.com/luggage-tag-scam">travel scam warning</a> going around the internet right now: You should keep your baggage tags on your bags until you get home, then shred them, because scammers are using luggage tags to file fraudulent claims for missing baggage with the airline.</p></blockquote>
+<p>First, the scam is possible. I had a bag destroyed by baggage handlers on a recent flight, and all the information I needed to file a claim was on my luggage tag. I have no idea if I will successfully get any money from the airline, or what form it will be in, or how it will be tied to my name, but at least the first step is possible...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/baggage-tag-scam.html"><![CDATA[<p>I just heard about <a href="https://www.fodors.com/news/news/there-are-warnings-about-the-bag-tag-scam-but-is-it-really-a-scam">this</a>:</p>
+<blockquote><p>There&#8217;s a <a href="https://travelnoire.com/luggage-tag-scam">travel scam warning</a> going around the internet right now: You should keep your baggage tags on your bags until you get home, then shred them, because scammers are using luggage tags to file fraudulent claims for missing baggage with the airline.</p></blockquote>
+<p>First, the scam is possible. I had a bag destroyed by baggage handlers on a recent flight, and all the information I needed to file a claim was on my luggage tag. I have no idea if I will successfully get any money from the airline, or what form it will be in, or how it will be tied to my name, but at least the first step is possible.</p>
+<p>But&#8230;is it actually happening? No one knows. It feels like a kind of dumb way to make not a lot of money. The origin of this rumor seems to be <a href="https://www.reddit.com/r/delta/comments/1lqe76u/toss_your_bag_tags_at_home/">single Reddit post</a>.</p>
+<p>And why should I care about this scam? No one is scamming me; it&#8217;s the airline being scammed. I suppose the airline might ding me for reporting a damage bag, but it seems like a very minor risk.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/baggage-tag-scam.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/baggage-tag-scam.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The UK May Be Dropping Its Backdoor Mandate]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/the-uk-may-be-dropping-its-backdoor-mandate.html" />
+
+		<id>https://www.schneier.com/?p=70637</id>
+		<updated>2025-08-27T16:02:45Z</updated>
+		<published>2025-08-28T11:00:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Apple" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="crypto wars" /><category scheme="https://www.schneier.com/" term="iPhone" /><category scheme="https://www.schneier.com/" term="UK" />
+		<summary type="html"><![CDATA[<p>The US Director of National Intelligence is <a href="https://www.theverge.com/news/761240/uk-apple-us-encryption-back-door-demands-dropped">reporting</a> that the UK government is dropping its backdoor mandate against the Apple iPhone. For now, at least, assuming that Tulsi Gabbard is reporting this accurately.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/the-uk-may-be-dropping-its-backdoor-mandate.html"><![CDATA[<p>The US Director of National Intelligence is <a href="https://www.theverge.com/news/761240/uk-apple-us-encryption-back-door-demands-dropped">reporting</a> that the UK government is dropping its backdoor mandate against the Apple iPhone. For now, at least, assuming that Tulsi Gabbard is reporting this accurately.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/the-uk-may-be-dropping-its-backdoor-mandate.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/the-uk-may-be-dropping-its-backdoor-mandate.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[We Are Still Unable to Secure LLMs from Malicious Inputs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/we-are-still-unable-to-secure-llms-from-malicious-inputs.html" />
+
+		<id>https://www.schneier.com/?p=70633</id>
+		<updated>2025-08-27T13:17:23Z</updated>
+		<published>2025-08-27T11:07:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Nice <a href="https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/">indirect prompt injection attack</a>:</p>
+<blockquote><p>Bargury&#8217;s attack starts with a poisoned document, which is <a href="https://support.google.com/drive/answer/2375057?hl=en-GB&#038;co=GENIE.Platform%3DDesktop">shared</a> to a potential victim&#8217;s Google Drive. (Bargury says a victim could have also uploaded a compromised file to their own account.) It looks like an official document on company meeting policies. But inside the document, Bargury hid a 300-word malicious prompt that contains instructions for ChatGPT. The prompt is written in white text in a size-one font, something that a human is unlikely to see but a machine will still read.</p>
+<p>In a <a href="https://www.youtube.com/watch?v=JNHpZUpeOCg">proof of concept video of the attack...</a></p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/we-are-still-unable-to-secure-llms-from-malicious-inputs.html"><![CDATA[<p>Nice <a href="https://www.wired.com/story/poisoned-document-could-leak-secret-data-chatgpt/">indirect prompt injection attack</a>:</p>
+<blockquote><p>Bargury&#8217;s attack starts with a poisoned document, which is <a href="https://support.google.com/drive/answer/2375057?hl=en-GB&#038;co=GENIE.Platform%3DDesktop">shared</a> to a potential victim&#8217;s Google Drive. (Bargury says a victim could have also uploaded a compromised file to their own account.) It looks like an official document on company meeting policies. But inside the document, Bargury hid a 300-word malicious prompt that contains instructions for ChatGPT. The prompt is written in white text in a size-one font, something that a human is unlikely to see but a machine will still read.</p>
+<p>In a <a href="https://www.youtube.com/watch?v=JNHpZUpeOCg">proof of concept video of the attack</a>, Bargury shows the victim asking ChatGPT to &#8220;summarize my last meeting with Sam,&#8221; referencing a set of notes with OpenAI CEO Sam Altman. (The examples in the attack are fictitious.) Instead, the hidden prompt tells the LLM that there was a &#8220;mistake&#8221; and the document doesn&#8217;t actually need to be summarized. The prompt says the person is actually a &#8220;developer racing against a deadline&#8221; and they need the AI to search Google Drive for API keys and attach them to the end of a URL that is provided in the prompt.</p>
+<p>That URL is actually a command in the <a href="https://www.wired.com/story/the-eternal-truth-of-markdown/">Markdown language</a> to connect to an external server and pull in the image that is stored there. But as per the prompt&#8217;s instructions, the URL now also contains the API keys the AI has found in the Google Drive account.</p></blockquote>
+<p>This kind of thing should make everybody stop and really think before deploying any AI agents. We simply don&#8217;t know to defend against these attacks. We have zero agentic AI systems that are secure against these attacks. Any AI that is working in an adversarial environment&#8212;and by this I mean that it may encounter untrusted training data or input&#8212;is vulnerable to prompt injection. It&#8217;s an existential problem that, near as I can tell, most people developing these technologies are just pretending isn&#8217;t there.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/we-are-still-unable-to-secure-llms-from-malicious-inputs.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/we-are-still-unable-to-secure-llms-from-malicious-inputs.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Encryption Backdoor in Military/Police Radios]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/encryption-backdoor-in-military-police-radios.html" />
+
+		<id>https://www.schneier.com/?p=70592</id>
+		<updated>2025-08-25T04:27:33Z</updated>
+		<published>2025-08-26T11:06:23Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="military" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="radio" />
+		<summary type="html"><![CDATA[<p>I <a href="https://www.schneier.com/blog/archives/2023/07/backdoor-in-tetra-police-radios.html ">wrote about</a> this in 2023. Here&#8217;s <a href="https://www.wired.com/story/tetra-radio-encryption-backdoor/">the story</a>:</p>
+<blockquote><p>Three Dutch security analysts discovered the vulnerabilities­&#8212;five in total&#8212;­in a European radio standard called TETRA (Terrestrial Trunked Radio), which is used in radios made by Motorola, Damm, Hytera, and others. The standard has been used in radios since the ’90s, but the flaws remained unknown because encryption algorithms used in TETRA were kept secret until now. </p></blockquote>
+<p>There&#8217;s <a href="https://www.wired.com/story/encryption-made-for-police-and-military-radios-may-be-easily-cracked-researchers-find/">new news</a>:</p>
+<blockquote><p>In 2023, Carlo Meijer, Wouter Bokslag, and Jos Wetzels of security firm <a href="https://www.midnightblue.nl/">Midnight Blue</a>, based in the Netherlands, discovered vulnerabilities in encryption algorithms that are part of a European radio standard created by ETSI called TETRA (Terrestrial Trunked Radio), which has been baked into radio systems made by Motorola, Damm, Sepura, and others since the ’90s. The flaws remained unknown publicly until their disclosure, because ETSI refused for decades to let anyone examine the proprietary algorithms...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/encryption-backdoor-in-military-police-radios.html"><![CDATA[<p>I <a href="https://www.schneier.com/blog/archives/2023/07/backdoor-in-tetra-police-radios.html ">wrote about</a> this in 2023. Here&#8217;s <a href="https://www.wired.com/story/tetra-radio-encryption-backdoor/">the story</a>:</p>
+<blockquote><p>Three Dutch security analysts discovered the vulnerabilities­&#8212;five in total&#8212;­in a European radio standard called TETRA (Terrestrial Trunked Radio), which is used in radios made by Motorola, Damm, Hytera, and others. The standard has been used in radios since the ’90s, but the flaws remained unknown because encryption algorithms used in TETRA were kept secret until now. </p></blockquote>
+<p>There&#8217;s <a href="https://www.wired.com/story/encryption-made-for-police-and-military-radios-may-be-easily-cracked-researchers-find/">new news</a>:</p>
+<blockquote><p>In 2023, Carlo Meijer, Wouter Bokslag, and Jos Wetzels of security firm <a href="https://www.midnightblue.nl/">Midnight Blue</a>, based in the Netherlands, discovered vulnerabilities in encryption algorithms that are part of a European radio standard created by ETSI called TETRA (Terrestrial Trunked Radio), which has been baked into radio systems made by Motorola, Damm, Sepura, and others since the ’90s. The flaws remained unknown publicly until their disclosure, because ETSI refused for decades to let anyone examine the proprietary algorithms.</p>
+<p>[&#8230;]</p>
+<p>But now the same researchers have found that at least one implementation of the end-to-end encryption solution endorsed by ETSI has a similar issue that makes it equally vulnerable to eavesdropping. The encryption algorithm used for the device they examined starts with a 128-bit key, but this gets compressed to 56 bits before it encrypts traffic, making it easier to crack. It’s not clear who is using this implementation of the end-to-end encryption algorithm, nor if anyone using devices with the end-to-end encryption is aware of the security vulnerability in them.</p>
+<p>[&#8230;]</p>
+<p>The end-to-end encryption the researchers examined recently is designed to run on top of TETRA encryption algorithms.</p>
+<p>The researchers found the issue with the end-to-end encryption (E2EE) only after extracting and reverse-engineering the E2EE algorithm used in a radio made by Sepura.</p></blockquote>
+<p>These seem to be deliberately implemented backdoors.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/encryption-backdoor-in-military-police-radios.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/encryption-backdoor-in-military-police-radios.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Poor Password Choices]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/poor-password-choices.html" />
+
+		<id>https://www.schneier.com/?p=70629</id>
+		<updated>2025-08-25T04:25:40Z</updated>
+		<published>2025-08-25T11:03:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="network security" /><category scheme="https://www.schneier.com/" term="passwords" />
+		<summary type="html"><![CDATA[<p>Look at <a href="https://www.wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai/">this</a>: McDonald&#8217;s chose the password &#8220;123456&#8221; for a major corporate system.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/poor-password-choices.html"><![CDATA[<p>Look at <a href="https://www.wired.com/story/mcdonalds-ai-hiring-chat-bot-paradoxai/">this</a>: McDonald&#8217;s chose the password &#8220;123456&#8221; for a major corporate system.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/poor-password-choices.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/poor-password-choices.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Bobtail Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-bobtail-squid.html" />
+
+		<id>https://www.schneier.com/?p=70608</id>
+		<updated>2025-08-14T16:39:42Z</updated>
+		<published>2025-08-22T21:02:39Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Nice <a href="https://a-z-animals.com/articles/this-tiny-squid-uses-camouflage-and-light-to-become-practically-invisible/">short article</a> on the bobtail squid.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-bobtail-squid.html"><![CDATA[<p>Nice <a href="https://a-z-animals.com/articles/this-tiny-squid-uses-camouflage-and-light-to-become-practically-invisible/">short article</a> on the bobtail squid.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-bobtail-squid.html#comments" thr:count="34" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/08/friday-squid-blogging-bobtail-squid.html/feed/atom/" thr:count="34" />
+			<thr:total>34</thr:total>
+			</entry>
+	</feed>
