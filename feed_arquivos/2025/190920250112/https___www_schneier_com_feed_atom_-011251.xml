@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-09-17T15:58:11Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Time-of-Check Time-of-Use Attacks Against LLMs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html" />
+
+		<id>https://www.schneier.com/?p=70832</id>
+		<updated>2025-09-17T15:58:11Z</updated>
+		<published>2025-09-18T11:06:38Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>This is a nice piece of research: &#8220;<a href="https://arxiv.org/abs/2508.17155">Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents</a>&#8220;.:</p>
+<blockquote><p><b>Abstract:</b> Large Language Model (LLM)-enabled agents are rapidly emerging across a wide range of applications, but their deployment introduces vulnerabilities with security implications. While prior work has examined prompt-based attacks (e.g., prompt injection) and data-oriented threats (e.g., data exfiltration), time-of-check to time-of-use (TOCTOU) remain largely unexplored in this context. TOCTOU arises when an agent validates external state (e.g., a file or API response) that is later modified before use, enabling practical attacks such as malicious configuration swaps or payload injection. In this work, we present the first study of TOCTOU vulnerabilities in LLM-enabled agents. We introduce TOCTOU-Bench, a benchmark with 66 realistic user tasks designed to evaluate this class of vulnerabilities. As countermeasures, we adapt detection and mitigation techniques from systems security to this setting and propose prompt rewriting, state integrity monitoring, and tool-fusing. Our study highlights challenges unique to agentic workflows, where we achieve up to 25% detection accuracy using automated detection methods, a 3% decrease in vulnerable plan generation, and a 95% reduction in the attack window. When combining all three approaches, we reduce the TOCTOU vulnerabilities from an executed trajectory from 12% to 8%. Our findings open a new research direction at the intersection of AI safety and systems security...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html"><![CDATA[<p>This is a nice piece of research: &#8220;<a href="https://arxiv.org/abs/2508.17155">Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents</a>&#8220;.:</p>
+<blockquote><p><b>Abstract:</b> Large Language Model (LLM)-enabled agents are rapidly emerging across a wide range of applications, but their deployment introduces vulnerabilities with security implications. While prior work has examined prompt-based attacks (e.g., prompt injection) and data-oriented threats (e.g., data exfiltration), time-of-check to time-of-use (TOCTOU) remain largely unexplored in this context. TOCTOU arises when an agent validates external state (e.g., a file or API response) that is later modified before use, enabling practical attacks such as malicious configuration swaps or payload injection. In this work, we present the first study of TOCTOU vulnerabilities in LLM-enabled agents. We introduce TOCTOU-Bench, a benchmark with 66 realistic user tasks designed to evaluate this class of vulnerabilities. As countermeasures, we adapt detection and mitigation techniques from systems security to this setting and propose prompt rewriting, state integrity monitoring, and tool-fusing. Our study highlights challenges unique to agentic workflows, where we achieve up to 25% detection accuracy using automated detection methods, a 3% decrease in vulnerable plan generation, and a 95% reduction in the attack window. When combining all three approaches, we reduce the TOCTOU vulnerabilities from an executed trajectory from 12% to 8%. Our findings open a new research direction at the intersection of AI safety and systems security.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hacking Electronic Safes]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html" />
+
+		<id>https://www.schneier.com/?p=70818</id>
+		<updated>2025-09-16T16:10:41Z</updated>
+		<published>2025-09-17T11:05:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="disclosure" /><category scheme="https://www.schneier.com/" term="locks" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="safes" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Vulnerabilities in <a href="https://www.wired.com/story/securam-prologic-safe-lock-backdoor-exploits/">electronic safes</a> that use Securam Prologic locks:</p>
+<blockquote><p>While both their techniques represent glaring security vulnerabilities, Omo says it&#8217;s the one that exploits a feature intended as a legitimate unlock method for locksmiths that&#8217;s the more widespread and dangerous. &#8220;This attack is something where, if you had a safe with this kind of lock, I could literally pull up the code right now with no specialized hardware, nothing,&#8221; Omo says. &#8220;All of a sudden, based on our testing, it seems like people can get into almost any Securam Prologic lock in the world.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html"><![CDATA[<p>Vulnerabilities in <a href="https://www.wired.com/story/securam-prologic-safe-lock-backdoor-exploits/">electronic safes</a> that use Securam Prologic locks:</p>
+<blockquote><p>While both their techniques represent glaring security vulnerabilities, Omo says it&#8217;s the one that exploits a feature intended as a legitimate unlock method for locksmiths that&#8217;s the more widespread and dangerous. &#8220;This attack is something where, if you had a safe with this kind of lock, I could literally pull up the code right now with no specialized hardware, nothing,&#8221; Omo says. &#8220;All of a sudden, based on our testing, it seems like people can get into almost any Securam Prologic lock in the world.&#8221;</p>
+<p>[&#8230;]</p>
+<p>Omo and Rowley say they informed Securam about both their safe-opening techniques in spring of last year, but have until now kept their existence secret because of legal threats from the company. &#8220;We will refer this matter to our counsel for trade libel if you choose the route of public announcement or disclosure,&#8221; a Securam representative wrote to the two researchers ahead of last year&#8217;s Defcon, where they first planned to present their research.</p>
+<p>Only after obtaining pro bono legal representation from the Electronic Frontier Foundation&#8217;s Coders&#8217; Rights Project did the pair decide to follow through with their plan to speak about Securam&#8217;s vulnerabilities at Defcon. Omo and Rowley say they&#8217;re even now being careful not to disclose enough technical detail to help others replicate their techniques, while still trying to offer a warning to safe owners about two different vulnerabilities that exist in many of their devices.</p></blockquote>
+<p>The company says that it plans on updating its locks by the end of the year, but have no plans to patch any locks already sold.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Microsoft Still Uses RC4]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/microsoft-still-uses-rc4.html" />
+
+		<id>https://www.schneier.com/?p=70791</id>
+		<updated>2025-09-15T16:08:53Z</updated>
+		<published>2025-09-16T11:06:44Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="algorithms" /><category scheme="https://www.schneier.com/" term="Microsoft" /><category scheme="https://www.schneier.com/" term="ransomware" /><category scheme="https://www.schneier.com/" term="RC4" />
+		<summary type="html"><![CDATA[<p>Senator Ron Wyden has <a href="https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_ftc_on_microsoft_kerberoasting_ransomwarepdf.pdf">asked</a> the Federal Trade Commission to <a href="https://cybersecuritynews.com/microsofts-use-of-outdated-rc4-encryption/">investigate</a> Microsoft over its continued use of the RC4 encryption algorithm. The letter talks about a hacker technique called <a href="https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/kerberoasting/">Kerberoasting</a>, that exploits the Kerberos authentication system.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/microsoft-still-uses-rc4.html"><![CDATA[<p>Senator Ron Wyden has <a href="https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_ftc_on_microsoft_kerberoasting_ransomwarepdf.pdf">asked</a> the Federal Trade Commission to <a href="https://cybersecuritynews.com/microsofts-use-of-outdated-rc4-encryption/">investigate</a> Microsoft over its continued use of the RC4 encryption algorithm. The letter talks about a hacker technique called <a href="https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/kerberoasting/">Kerberoasting</a>, that exploits the Kerberos authentication system.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/microsoft-still-uses-rc4.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/microsoft-still-uses-rc4.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Lawsuit About WhatsApp Security]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/lawsuit-about-whatsapp-security.html" />
+
+		<id>https://www.schneier.com/?p=70758</id>
+		<updated>2025-09-15T00:48:50Z</updated>
+		<published>2025-09-15T11:05:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Facebook" /><category scheme="https://www.schneier.com/" term="vulnerabilities" /><category scheme="https://www.schneier.com/" term="WhatsApp" /><category scheme="https://www.schneier.com/" term="whistleblowers" />
+		<summary type="html"><![CDATA[<p>Attaullah Baig, WhatsApp&#8217;s former head of security, has filed a <a href="https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/">whistleblower</a> lawsuit alleging that Facebook deliberately failed to fix a bunch of security flaws, in violation of its 2019 settlement agreement with the Federal Trade Commission.</p>
+<blockquote><p>The lawsuit, alleging violations of the whistleblower protection provision of the Sarbanes-Oxley Act passed in 2002, said that in 2022, roughly 100,000 WhatsApp users had their accounts hacked every day. By last year, the complaint alleged, as many as 400,000 WhatsApp users were getting locked out of their accounts each day as a result of such account takeovers...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/lawsuit-about-whatsapp-security.html"><![CDATA[<p>Attaullah Baig, WhatsApp&#8217;s former head of security, has filed a <a href="https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/">whistleblower</a> lawsuit alleging that Facebook deliberately failed to fix a bunch of security flaws, in violation of its 2019 settlement agreement with the Federal Trade Commission.</p>
+<blockquote><p>The lawsuit, alleging violations of the whistleblower protection provision of the Sarbanes-Oxley Act passed in 2002, said that in 2022, roughly 100,000 WhatsApp users had their accounts hacked every day. By last year, the complaint alleged, as many as 400,000 WhatsApp users were getting locked out of their accounts each day as a result of such account takeovers.</p>
+<p>Baig also allegedly notified superiors that data scraping on the platform was a problem because WhatsApp failed to implement protections that are standard on other messaging platforms, such as Signal and Apple Messages. As a result, the former WhatsApp head estimated that pictures and names of some 400 million user profiles were improperly copied every day, often for use in account impersonation scams.</p></blockquote>
+<p><a href="https://www.nytimes.com/2025/09/08/technology/whatsapp-whistleblower-lawsuit.html">More</a> <a href="https://www.theguardian.com/technology/2025/sep/08/meta-user-data-lawsuit-whatsapp">news</a> <a href="https://www.techpolicy.press/breaking-down-the-whatsapp-whistleblower-lawsuit/">coverage</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/lawsuit-about-whatsapp-security.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/lawsuit-about-whatsapp-security.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>B. Schneier</name>
+							<uri>https://www.schneier.com/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/upcoming-speaking-engagements-48.html" />
+
+		<id>https://www.schneier.com/?p=70755</id>
+		<updated>2025-09-16T05:08:09Z</updated>
+		<published>2025-09-14T16:02:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking and signing books at the Cambridge Public Library on October 22, 2025 at 6 PM ET. The event is sponsored by Harvard Bookstore.</li>
+<li>I’m giving a virtual talk about my book <em>Rewiring Democracy</em> at 1 PM ET on October 23, 2025. The event is hosted by Data &#38; Society. More details to come.</li>
+<li>I’m speaking at the <a href="https://www.coe.int/en/web/world-forum-democracy">World Forum for Democracy</a> in Strasbourg, France, November 5-7, 2025.</li>
+<li>I’m speaking and signing books at the University of Toronto Bookstore in Toronto, Ontario, Canada on November 14, 2025. Details to come...</li></ul>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/upcoming-speaking-engagements-48.html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking and signing books at the Cambridge Public Library on October 22, 2025 at 6 PM ET. The event is sponsored by Harvard Bookstore.</li>
+<li>I’m giving a virtual talk about my book <em>Rewiring Democracy</em> at 1 PM ET on October 23, 2025. The event is hosted by Data &amp; Society. More details to come.</li>
+<li>I’m speaking at the <a href="https://www.coe.int/en/web/world-forum-democracy">World Forum for Democracy</a> in Strasbourg, France, November 5-7, 2025.</li>
+<li>I’m speaking and signing books at the University of Toronto Bookstore in Toronto, Ontario, Canada on November 14, 2025. Details to come.</li>
+<li>I’m speaking with Crystal Lee at the MIT Museum in Cambridge, Massachusetts, USA, on December 1, 2025. Details to come.</li>
+<li>I’m speaking and signing books at the Chicago Public Library in Chicago, Illinois, USA, on February 5, 2026. Details to come.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/upcoming-speaking-engagements-48.html#comments" thr:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/upcoming-speaking-engagements-48.html/feed/atom/" thr:count="1" />
+			<thr:total>1</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Assessing the Quality of Dried Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/assessing-the-quality-of-dried-squid.html" />
+
+		<id>https://www.schneier.com/?p=70721</id>
+		<updated>2025-09-09T16:06:19Z</updated>
+		<published>2025-09-12T21:05:12Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0889157525010439">Research</a>:</p>
+<blockquote><p>Nondestructive detection of multiple dried squid qualities by hyperspectral imaging combined with 1D-KAN-CNN</p>
+<p><b>Abstract:</b> Given that dried squid is a highly regarded marine product in Oriental countries, the global food industry requires a swift and noninvasive quality assessment of this product. The current study therefore uses visible­near-infrared (VIS-NIR) hyperspectral imaging and deep learning (DL) methodologies. We acquired and preprocessed VIS-NIR (400­1000 nm) hyperspectral reflectance images of 93 dried squid samples. Important wavelengths were selected using competitive adaptive reweighted sampling, principal component analysis, and the successive projections algorithm. Based on a Kolmogorov-Arnold network (KAN), we introduce a one-dimensional, KAN convolutional neural network (1D-KAN-CNN) for nondestructive measurements of fat, protein, and total volatile basic nitrogen&#8230;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/assessing-the-quality-of-dried-squid.html"><![CDATA[<p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0889157525010439">Research</a>:</p>
+<blockquote><p>Nondestructive detection of multiple dried squid qualities by hyperspectral imaging combined with 1D-KAN-CNN</p>
+<p><b>Abstract:</b> Given that dried squid is a highly regarded marine product in Oriental countries, the global food industry requires a swift and noninvasive quality assessment of this product. The current study therefore uses visible­near-infrared (VIS-NIR) hyperspectral imaging and deep learning (DL) methodologies. We acquired and preprocessed VIS-NIR (400­1000 nm) hyperspectral reflectance images of 93 dried squid samples. Important wavelengths were selected using competitive adaptive reweighted sampling, principal component analysis, and the successive projections algorithm. Based on a Kolmogorov-Arnold network (KAN), we introduce a one-dimensional, KAN convolutional neural network (1D-KAN-CNN) for nondestructive measurements of fat, protein, and total volatile basic nitrogen&#8230;.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/assessing-the-quality-of-dried-squid.html#comments" thr:count="27" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/assessing-the-quality-of-dried-squid.html/feed/atom/" thr:count="27" />
+			<thr:total>27</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[A Cyberattack Victim Notification Framework]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/a-cyberattack-victim-notification-framework.html" />
+
+		<id>https://www.schneier.com/?p=70741</id>
+		<updated>2025-09-12T03:37:20Z</updated>
+		<published>2025-09-12T21:04:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="disclosure" />
+		<summary type="html"><![CDATA[<p>Interesting <a href="https://securityandtechnology.org/virtual-library/report/improving-private-sector-cyber-victim-notification-and-support/">analysis</a>:</p>
+<blockquote><p>When cyber incidents occur, victims should be notified in a timely manner so they have the opportunity to assess and remediate any harm. However, providing notifications has proven a challenge across industry.</p>
+<p>When making notifications, companies often do not know the true identity of victims and may only have a single email address through which to provide the notification. Victims often do not trust these notifications, as cyber criminals often use the pretext of an account compromise as a phishing lure.</p>
+<p>[&#8230;]</p>
+<p>This report explores the challenges associated with developing the native-notification concept and lays out a roadmap for overcoming them. It also examines other opportunities for more narrow changes that could both increase the likelihood that victims will both receive and trust notifications and be able to access support resources...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/a-cyberattack-victim-notification-framework.html"><![CDATA[<p>Interesting <a href="https://securityandtechnology.org/virtual-library/report/improving-private-sector-cyber-victim-notification-and-support/">analysis</a>:</p>
+<blockquote><p>When cyber incidents occur, victims should be notified in a timely manner so they have the opportunity to assess and remediate any harm. However, providing notifications has proven a challenge across industry.</p>
+<p>When making notifications, companies often do not know the true identity of victims and may only have a single email address through which to provide the notification. Victims often do not trust these notifications, as cyber criminals often use the pretext of an account compromise as a phishing lure.</p>
+<p>[&#8230;]</p>
+<p>This report explores the challenges associated with developing the native-notification concept and lays out a roadmap for overcoming them. It also examines other opportunities for more narrow changes that could both increase the likelihood that victims will both receive and trust notifications and be able to access support resources.</p>
+<p>The report concludes with three main recommendations for cloud service providers (CSPs) and other stakeholders:</p>
+<ol>
+<li>Improve existing notification processes and develop best practices for industry.
+<li>Support the development of &#8220;middleware&#8221; necessary to share notifications with victims privately, securely, and across multiple platforms including through native notifications.
+<li>Improve support for victims following notification.</ol>
+<p>While further work remains to be done to develop and evaluate the CSRB&#8217;s proposed native notification capability, much progress can be made by implementing better notification and support practices by cloud service providers and other stakeholders in the near term.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/a-cyberattack-victim-notification-framework.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/a-cyberattack-victim-notification-framework.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[New Cryptanalysis of the Fiat-Shamir Protocol]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/new-cryptanalysis-of-the-fiat-shamir-protocol.html" />
+
+		<id>https://www.schneier.com/?p=70685</id>
+		<updated>2025-09-08T16:23:50Z</updated>
+		<published>2025-09-09T11:02:00Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cryptanalysis" /><category scheme="https://www.schneier.com/" term="hashes" /><category scheme="https://www.schneier.com/" term="protocols" />
+		<summary type="html"><![CDATA[<p>A couple of months ago, a <a href="https://eprint.iacr.org/2025/118">new paper</a> demonstrated some new attacks against the Fiat-Shamir transformation. <i>Quanta</i> published a <a href="https://www.quantamagazine.org/computer-scientists-figure-out-how-to-prove-lies-20250709/">good article</a> that explains the results.</p>
+<p>This is a pretty exciting paper from a theoretical perspective, but I don&#8217;t see it leading to any practical real-world cryptanalysis. The fact that there are some weird circumstances that result in Fiat-Shamir insecurities isn&#8217;t new&#8212;many dozens of papers have been published about it since 1986. What this new result does is extend this known problem to slightly less weird (but still highly contrived) situations. But it&#8217;s a completely different matter to extend these sorts of attacks to &#8220;natural&#8221; situations...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/new-cryptanalysis-of-the-fiat-shamir-protocol.html"><![CDATA[<p>A couple of months ago, a <a href="https://eprint.iacr.org/2025/118">new paper</a> demonstrated some new attacks against the Fiat-Shamir transformation. <i>Quanta</i> published a <a href="https://www.quantamagazine.org/computer-scientists-figure-out-how-to-prove-lies-20250709/">good article</a> that explains the results.</p>
+<p>This is a pretty exciting paper from a theoretical perspective, but I don&#8217;t see it leading to any practical real-world cryptanalysis. The fact that there are some weird circumstances that result in Fiat-Shamir insecurities isn&#8217;t new&#8212;many dozens of papers have been published about it since 1986. What this new result does is extend this known problem to slightly less weird (but still highly contrived) situations. But it&#8217;s a completely different matter to extend these sorts of attacks to &#8220;natural&#8221; situations.</p>
+<p>What this result does, though, is make it impossible to provide general proofs of security for Fiat-Shamir. It is the most interesting result in this research area, and demonstrates that we are still far away from fully understanding what is the exact security guarantee provided by the Fiat-Shamir transform.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/new-cryptanalysis-of-the-fiat-shamir-protocol.html#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/new-cryptanalysis-of-the-fiat-shamir-protocol.html/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Signed Copies of Rewiring Democracy]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/signed-copies-of-rewiring-democracy.html" />
+
+		<id>https://www.schneier.com/?p=70681</id>
+		<updated>2025-09-09T16:04:45Z</updated>
+		<published>2025-09-08T18:37:54Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="books" /><category scheme="https://www.schneier.com/" term="Rewiring Democracy" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>When I <a href="https://www.schneier.com/blog/archives/2025/09/my-latest-book-rewiring-democracy.html">announced</a> my latest book last week, I forgot to mention that you can pre-order a signed copy <a href="https://www.schneier.com/product/rewiring-democracy-hardcover/">here</a>. I will ship the books the week of 10/20, when it is published.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/signed-copies-of-rewiring-democracy.html"><![CDATA[<p>When I <a href="https://www.schneier.com/blog/archives/2025/09/my-latest-book-rewiring-democracy.html">announced</a> my latest book last week, I forgot to mention that you can pre-order a signed copy <a href="https://www.schneier.com/product/rewiring-democracy-hardcover/">here</a>. I will ship the books the week of 10/20, when it is published.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/signed-copies-of-rewiring-democracy.html#comments" thr:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/signed-copies-of-rewiring-democracy.html/feed/atom/" thr:count="1" />
+			<thr:total>1</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI in Government]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/ai-in-government.html" />
+
+		<id>https://www.schneier.com/?p=70667</id>
+		<updated>2025-09-06T05:33:01Z</updated>
+		<published>2025-09-08T11:05:31Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Just a few months after Elon Musk&#8217;s retreat from his unofficial role leading the Department of Government Efficiency (DOGE), we have a clearer picture of his vision of government powered by artificial intelligence, and it has a lot more to do with consolidating power than benefitting the public. Even so, we must not lose sight of the fact that a different administration could wield the same technology to advance a more positive future for AI in government.</p>
+<p>To most on the American left, the DOGE end game is a dystopic vision of a government run by machines that benefits an elite few at the expense of the people. It includes AI ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/ai-in-government.html"><![CDATA[<p>Just a few months after Elon Musk&#8217;s retreat from his unofficial role leading the Department of Government Efficiency (DOGE), we have a clearer picture of his vision of government powered by artificial intelligence, and it has a lot more to do with consolidating power than benefitting the public. Even so, we must not lose sight of the fact that a different administration could wield the same technology to advance a more positive future for AI in government.</p>
+<p>To most on the American left, the DOGE end game is a dystopic vision of a government run by machines that benefits an elite few at the expense of the people. It includes AI <a href="https://www.washingtonpost.com/business/2025/07/26/doge-ai-tool-cut-regulations-trump/">rewriting</a> government rules on a massive scale, salary-free bots <a href="https://www.theatlantic.com/technology/archive/2025/03/gsa-chat-doge-ai/681987/">replacing</a> human functions and nonpartisan civil service <a href="https://www.wired.com/story/white-house-elon-musk-xai-grok/">forced</a> to adopt an alarmingly <a href="https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content">racist and antisemitic</a> Grok AI chatbot built by Musk <a href="https://www.nytimes.com/2025/09/02/technology/elon-musk-grok-conservative-chatbot.html">in his own image</a>. And yet despite Musk&#8217;s proclamations about driving efficiency, little cost savings have materialized and few successful examples of automation have been realized.</p>
+<p>From the <a href="https://www.whitehouse.gov/presidential-actions/2025/01/establishing-and-implementing-the-presidents-department-of-government-efficiency/">beginning</a> of the second Trump administration, DOGE was a replacement of the US Digital Service. That organization, founded during the Obama administration to empower agencies across the executive government with technical support, was substituted for one reportedly charged with <a href="https://www.theguardian.com/us-news/2025/feb/10/who-is-russell-vought-trump-office-of-management-and-budget">traumatizing</a> their staff and slashing their resources. The problem in this particular dystopia is not the machines and their superhuman capabilities (or lack thereof) but rather the aims of the people behind them.</p>
+<p>One of the biggest impacts of the Trump administration and DOGE&#8217;s efforts has been to politically polarize the discourse around AI. Despite the administration <a href="https://www.whitehouse.gov/presidential-actions/2025/07/preventing-woke-ai-in-the-federal-government/">railing against</a> &#8220;woke AI&#8221;&#8216; and the supposed liberal bias of Big Tech, some surveys suggest the American left is now measurably more <a href="https://jasonjones.ninja/social-science-dashboard-inator/jjjp-ai-daily-dashboard/ai-polarization.html">resistant</a> to developing the technology and pessimistic about its likely <a href="https://www.nbcnews.com/politics/nbc-news-polls/poll-americans-form-views-ai-divided-role-school-everyday-life-rcna212782">impacts</a> on their future than their right-leaning counterparts. This follows a familiar pattern of US politics, of course, and yet it points to a potential political realignment with massive consequences.</p>
+<p>People are morally and strategically justified in pushing the Democratic Party to reduce its <a href="https://jacobin.com/2022/02/dems-gop-super-pacs-pelosi-bloomberg-warren">dependency</a> on funding from billionaires and corporations, particularly in the tech sector. But this movement should decouple the technologies championed by Big Tech from those corporate interests. Optimism about the potential beneficial uses of AI need not imply support for the Big Tech companies that currently dominate AI development. To view the technology as inseparable from the corporations is to risk unilateral disarmament as AI shifts power balances throughout democracy. AI can be a legitimate tool for building the power of workers, operating government and advancing the public interest, and it can be that even while it is exploited as a mechanism for oligarchs to enrich themselves and advance their interests.</p>
+<p>A constructive version of DOGE could have redirected the Digital Service to coordinate and advance the <a href="https://www.cio.gov/policies-and-priorities/Executive-Order-13960-AI-Use-Case-Inventories-Reference/">thousands of AI use cases</a> already being explored across the US government. Following the example of countries like <a href="https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592">Canada</a>, each instance could have been required to make a detailed public disclosure as to how they would follow a unified set of principles for responsible use that preserves civil rights while advancing government efficiency.</p>
+<p>Applied to different ends, AI could have produced celebrated success stories rather than national <a href="https://www.washingtonpost.com/opinions/2025/03/21/doge-government-efficiency-federal-workers/">embarrassments</a>.</p>
+<p>A different administration might have made AI translation services widely available in government services to eliminate language barriers to US citizens, residents and visitors, instead of <a href="https://www.vorys.com/publication-what-president-trumps-english-only-executive-orders-mean-for-employers-nationwide">revoking</a> some of the modest translation requirements previously in place. AI could have been used to accelerate eligibility decisions for Social Security disability benefits by performing preliminary document reviews, significantly reducing the infamous backlog of 30,000 Americans who die annually awaiting review. Instead, the deaths of people awaiting benefits may now <a href="https://www.sanders.senate.gov/wp-content/uploads/SSA-DOGE-Impact-Report.pdf">double</a> due to cuts by DOGE. The technology could have helped speed up the ministerial work of federal immigration judges, helping them whittle down a backlog of millions of waiting cases. Rather, the judicial systems must face this backlog amid <a href="https://www.npr.org/2025/07/15/nx-s1-5467710/immigration-judges-are-being-fired-despite-backlog-of-immigration-cases">firings</a> of immigration judges, despite the backlog.</p>
+<p>To reach these constructive outcomes, much needs to change. Electing leaders committed to leveraging AI more responsibly in government would help, but the solution has much more to do with principles and values than it does technology. As historian Melvin Kranzberg <a href="https://www.jstor.org/stable/3105385?seq=1&amp;cid=pdf-reference#references_tab_contents">said</a>, technology is never neutral: its effects depend on the contexts it is used in and the aims it is applied towards. In other words, the positive or negative valence of technology depends on the choices of the people who wield it.</p>
+<p>The Trump administration&#8217;s plan to use AI to advance their regulatory rollback is a case in point. DOGE has <a href="https://www.washingtonpost.com/business/2025/07/26/doge-ai-tool-cut-regulations-trump/">introduced</a> an &#8220;AI Deregulation Decision Tool&#8221; that it intends to use through automated decision-making to eliminate about half of a catalog of nearly 200,000 federal rules . This follows similar proposals to use AI for large-scale revisions of the administrative code in <a href="https://www.axios.com/local/columbus/2024/04/29/artificial-intelligence-ai-ohio-state-administrative-code-husted">Ohio</a>, <a href="https://statescoop.com/virginia-agentic-gen-ai-pilot-regulations/#:~:text=The%20initiative%2C%20which%20will%20make,transparency%20to%20reduce%20regulatory%20burden">Virginia</a> and <a href="https://www.husted.senate.gov/press-releases/husted-introduces-bill-leveraging-ai-to-increase-efficiency-within-federal-code/">the US Congress</a>.</p>
+<p>This kind of legal revision could be pursued in a nonpartisan and nonideological way, at least in theory. It could be tasked with removing outdated rules from centuries past, streamlining redundant provisions and modernizing and aligning legal language. Such a nonpartisan, nonideological statutory revision has been performed in <a href="https://en.wikipedia.org/wiki/Statute_Law_Revision_Act_2007">Ireland</a>&#8212;by people, not AI&#8212;and other jurisdictions. AI is well suited to that kind of linguistic analysis at a massive scale and at a furious pace.</p>
+<p>But we should never rest on assurances that AI will be deployed in this kind of objective fashion. The proponents of the Ohio, Virginia, congressional and DOGE efforts are explicitly ideological in their aims. They see &#8220;AI as a force for <a href="https://www.wsj.com/opinion/ai-can-be-a-force-for-deregulation-technology-government-ohio-federal-365ed0d4">deregulation</a>,&#8221; as one US senator who is a proponent put it, unleashing corporations from rules that they say constrain economic growth. In this setting, AI has no hope to be an objective analyst independently performing a functional role; it is an agent of human proponents with a partisan agenda.</p>
+<p>The moral of this story is that we can achieve positive outcomes for workers and the public interest as AI transforms governance, but it requires two things: electing leaders who legitimately represent and act on behalf of the public interest and increasing transparency in how the government deploys technology.</p>
+<p>Agencies need to implement technologies under ethical frameworks, enforced by independent inspectors and backed by law. Public scrutiny helps bind present and future governments to their application in the public interest and to ward against corruption.</p>
+<p>These are not new ideas and are the very guardrails that Trump, Musk and DOGE have steamrolled over the past six months. <a href="https://www.axios.com/2025/05/21/musk-doge-supreme-court-transparency-lawsuit">Transparency</a> and <a href="https://cyberscoop.com/lawmakers-fear-elon-musk-doge-not-adhering-to-privacy-rules/">privacy</a> requirements were avoided or ignored, independent agency inspectors general were <a href="https://campaignlegal.org/update/significance-firing-inspectors-general-explained">fired</a> and the budget dictates of Congress were <a href="https://www.cbpp.org/research/federal-budget/trump-rescission-proposal-builds-on-illegal-impoundments-would-undermine">disrupted</a>. For months, it has not even been clear <a href="https://www.lawfaremedia.org/article/the-witaod-chronicles">who is in charge</a> of and accountable for DOGE&#8217;s actions. Under these conditions, the public should be similarly distrustful of any executive&#8217;s use of AI.</p>
+<p>We think everyone should be skeptical of today&#8217;s AI ecosystem and the influential elites that are steering it towards their own interests. But we should also recognize that technology is separable from the humans who develop it, wield it and profit from it, and that positive uses of AI are both possible and achievable.</p>
+<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.techpolicy.press/doges-flops-shouldnt-spell-doom-for-ai-in-government/">Tech Policy Press</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/ai-in-government.html#comments" thr:count="31" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/ai-in-government.html/feed/atom/" thr:count="31" />
+			<thr:total>31</thr:total>
+			</entry>
+	</feed>
