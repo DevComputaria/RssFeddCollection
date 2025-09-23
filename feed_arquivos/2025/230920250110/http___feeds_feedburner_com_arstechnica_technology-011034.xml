@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT &#8211; Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Mon, 22 Sep 2025 18:05:31 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT &#8211; Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Here’s how potent Atomic credential stealer is finding its way onto Macs</title>
+                <link>https://arstechnica.com/security/2025/09/potent-atomic-credential-stealer-can-bypass-gatekeeper/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/potent-atomic-credential-stealer-can-bypass-gatekeeper/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 22 Sep 2025 17:54:33 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[amos]]></category>
+		<category><![CDATA[atomic]]></category>
+		<category><![CDATA[credential stealer]]></category>
+		<category><![CDATA[MacOS]]></category>
+		<category><![CDATA[malvertising]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/potent-atomic-credential-stealer-can-bypass-gatekeeper/</guid>
+
+                                    <description>
+                        <![CDATA[LastPass warns it's one of the latest to see its well-known brand impersonated.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Ads prominently displayed on search engines are impersonating a wide range of online services in a bid to infect Macs with a potent credential stealer, security companies have warned. The latest reported target is users of the LastPass password manager.</p>
+<p>Late <a href="https://blog.lastpass.com/posts/attack-targeting-macs-via-github-pages">last week</a>, LastPass said it detected a widespread campaign that used search engine optimization to display ads for LastPass macOS apps at the top of search results returned by search engines, including Google and Bing. The ads led to one of two fraudulent GitHub sites targeting LastPass, both of which have been taken down. The pages provided links promising to install LastPass on MacBooks. In fact, they installed a macOS credential stealer known as Atomic Stealer, or alternatively, Amos Stealer.</p>
+<h2>Dozens targeted</h2>
+<p>“We are writing this blog post to raise awareness of the campaign and protect our customers while we continue to actively pursue takedown and disruption efforts, and to also share indicators of compromise (IoCs) to help other security teams detect cyber threats,” LastPass said in the post.</p><p><a href="https://arstechnica.com/security/2025/09/potent-atomic-credential-stealer-can-bypass-gatekeeper/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/potent-atomic-credential-stealer-can-bypass-gatekeeper/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/04/malware-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Two of the Kremlin’s most active hack groups are collaborating, ESET says</title>
+                <link>https://arstechnica.com/security/2025/09/two-of-the-kremlins-most-active-hack-groups-are-collaborating-eset-says/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/two-of-the-kremlins-most-active-hack-groups-are-collaborating-eset-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 19 Sep 2025 19:35:38 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[advanced persistent threat]]></category>
+		<category><![CDATA[APT]]></category>
+		<category><![CDATA[gamaredon]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[turla]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/two-of-the-kremlins-most-active-hack-groups-are-collaborating-eset-says/</guid>
+
+                                    <description>
+                        <![CDATA[Turla is getting a helping hand from Gamaredon. Both are units of Russia's FSB.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Two of the Kremlin’s most active hacking units recently were spotted collaborating in malware attacks that compromise high-value devices located in Ukraine, security researchers said Friday.</p>
+<p>One of the groups is Turla, which is easily one of the world’s most sophisticated advanced persistent threats (well-organized and well-funded hacking groups, many backed by nation states, that target specific adversaries for years at a time). Researchers from multiple security firms largely agree that Turla was behind breaches of <span style="font-weight: 400;"> the </span><a href="https://www.nytimes.com/2010/08/26/technology/26cyber.html"><span style="font-weight: 400;">US Department of Defense in 2008</span></a><span style="font-weight: 400;">, and more recently, the </span><a href="https://web.archive.org/web/20180302201850/https://uk.reuters.com/article/us-germany-cyber/german-government-hack-was-part-of-worldwide-campaign-sources-idUKKCN1GE2H5"><span style="font-weight: 400;">German Foreign Office</span></a><span style="font-weight: 400;"> and France's military. The group has also been known for </span><a href="http://arstechnica.com/security/2014/12/powerful-highly-stealthy-linux-trojan-may-have-infected-victims-for-years/"><span style="font-weight: 400;">unleashing stealthy Linux malware</span></a><span style="font-weight: 400;"> and using </span><a href="https://arstechnica.com/information-technology/2015/09/how-highly-advanced-hackers-abused-satellites-to-stay-under-the-radar/"><span style="font-weight: 400;">satellite-based Internet links</span></a><span style="font-weight: 400;"> to maintain the stealth of its operations</span>. The group conducts narrowly targeted attacks on high-value targets and keeps a low profile.</p>
+<p>Gamaredon, meanwhile, is a separate APT known for conducting much wider-scale operations, often targeting organizations in Ukraine. Whereas Turla takes pains to fly under the radar, Gamaredon doesn’t seem to care about being detected and linked to the Russian government. Its malware generally aims to collect as much information from targets as possible over a short period of time. Both Turla and Gamaredon are widely assessed to be units of Russia’s Russian Federal Security Service (FSB), the country’s chief security agency and successor of the Soviet Union’s KGB.</p><p><a href="https://arstechnica.com/security/2025/09/two-of-the-kremlins-most-active-hack-groups-are-collaborating-eset-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/two-of-the-kremlins-most-active-hack-groups-are-collaborating-eset-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>10</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/russia-cyber-hack-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/04/russia-cyber-hack-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Two UK teens charged in connection to Scattered Spider ransomware attacks</title>
+                <link>https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 19 Sep 2025 00:00:37 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[criminal courts]]></category>
+		<category><![CDATA[Cyberattacks]]></category>
+		<category><![CDATA[ransomware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/</guid>
+
+                                    <description>
+                        <![CDATA[Ransomware group is one of the world's most prolific.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Federal prosecutors charged a UK teenager with conspiracy to commit computer fraud and other crimes in connection with the network intrusions of 47 US companies that generated more than $115 million in ransomware payments over a three-year span.</p>
+<p>A <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/09/thalha-jubaircomplaint.pdf">criminal complaint unsealed on Thursday</a> (PDF) said that Thalha Jubair, 19, of London, was part of Scattered Spider, the name of an English-language-speaking group that has breached the networks of scores of companies worldwide. After obtaining data, the group demanded that the victims pay hefty ransoms or see their confidential data published or sold.</p>
+<h2>Bitcoin paid by victims recovered</h2>
+<p>The unsealing of the document, filed in US District Court of the District of New Jersey, came the same day Jubair and another alleged Scattered Spider member—Owen Flowers, 18, from Walsall, West Midlands—were charged by UK prosecutors in connection with last year’s cyberattack on <a href="https://techcrunch.com/2024/09/06/transport-for-london-outages-drag-into-weekend-after-cyberattack/">Transport for London</a>. The agency, which oversees London’s public transit system, faced a monthslong recovery effort as a result of the breach.</p><p><a href="https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>44</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2021/06/ransomware-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2021/06/ransomware-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>New attack on ChatGPT research agent pilfers secrets from Gmail inboxes</title>
+                <link>https://arstechnica.com/information-technology/2025/09/new-attack-on-chatgpt-research-agent-pilfers-secrets-from-gmail-inboxes/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/09/new-attack-on-chatgpt-research-agent-pilfers-secrets-from-gmail-inboxes/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Sep 2025 16:29:22 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[prompt injections]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/09/new-attack-on-chatgpt-research-agent-pilfers-secrets-from-gmail-inboxes/</guid>
+
+                                    <description>
+                        <![CDATA[Unlike most prompt injections, ShadowLeak executes on OpenAI's cloud-based infrastructure.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The face-palm-worthy prompt injections against AI assistants continue. Today’s installment hits OpenAI’s Deep Research agent. Researchers recently devised an attack that plucked confidential information out of a user’s Gmail inbox and sent it to an attacker-controlled web server, with no interaction required on the part of the victim and no sign of exfiltration.</p>
+<p>Deep Research is a ChatGPT-integrated AI agent that OpenAI <a href="https://openai.com/index/introducing-deep-research/">introduced</a> earlier this year. As its name is meant to convey, Deep Research performs complex, multi-step research on the Internet by tapping into a large array of resources, including a user’s email inbox, documents, and other resources. It can also autonomously browse websites and click on links.</p>
+<p>A user can prompt the agent to search through the past month’s emails, cross-reference them with information found on the web, and use them to compile a detailed report on a given topic. OpenAI says that it “accomplishes in tens of minutes what would take a human many hours.”</p><p><a href="https://arstechnica.com/information-technology/2025/09/new-attack-on-chatgpt-research-agent-pilfers-secrets-from-gmail-inboxes/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/09/new-attack-on-chatgpt-research-agent-pilfers-secrets-from-gmail-inboxes/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>32</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>How weak passwords and other failings led to catastrophic breach of Ascension</title>
+                <link>https://arstechnica.com/security/2025/09/how-weak-passwords-and-other-failings-led-to-catastrophic-breach-of-ascension/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/how-weak-passwords-and-other-failings-led-to-catastrophic-breach-of-ascension/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 18 Sep 2025 14:31:22 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Active Directory]]></category>
+		<category><![CDATA[kerberoasting]]></category>
+		<category><![CDATA[Kerberos]]></category>
+		<category><![CDATA[network breaches]]></category>
+		<category><![CDATA[ransomware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/how-weak-passwords-and-other-failings-led-to-catastrophic-breach-of-ascension/</guid>
+
+                                    <description>
+                        <![CDATA[A deep-dive into Active Directory and how "Kerberoasting" breaks it wide open.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last week, a prominent US senator called on the Federal Trade Commission to investigate Microsoft for cybersecurity negligence over the role it played last year in health giant Ascension's ransomware breach, which caused life-threatening disruptions at 140 hospitals and put the medical records of 5.6 million patients into the hands of the attackers. Lost in the focus on Microsoft was something as, or more, urgent: never-before-revealed details that now invite scrutiny of Ascension’s own security failings.</p>
+<p>In a letter sent last week to FTC Chairman Andrew Ferguson, Sen. Ron Wyden (D-Ore.) said an investigation by his office determined that the hack began in February 2024 with the infection of a contractor's laptop after they downloaded malware from a link returned by Microsoft’s Bing search engine. The attackers then pivoted from the contractor device to Ascension’s most valuable network asset: the Windows Active Directory, a tool administrators use to create and delete user accounts and manage system privileges to them. Obtaining control of the Active Directory is tantamount to obtaining a master key that will open any door in a restricted building.</p>
+<p>Wyden blasted Microsoft for its continued support of its three-decades-old implementation of the <a href="https://en.wikipedia.org/wiki/Kerberos_(protocol)">Kerberos</a> authentication protocol that uses an insecure cipher and, as the senator noted, exposes customers to precisely the type of breach Ascension suffered. Although modern versions of Active Directory by default will use a more secure authentication mechanism, it will by default fall back to the weaker one in the event a device on the network—including one that has been infected with malware—sends an authentication request that uses it. That enabled the attackers to perform <a href="https://www.sentinelone.com/cybersecurity-101/threat-intelligence/what-is-kerberoasting-attack/">Kerberoasting</a>, a form of attack that Wyden said the attackers used to pivot from the contractor laptop directly to the crown jewel of Ascension’s network security.</p><p><a href="https://arstechnica.com/security/2025/09/how-weak-passwords-and-other-failings-led-to-catastrophic-breach-of-ascension/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/how-weak-passwords-and-other-failings-led-to-catastrophic-breach-of-ascension/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/active-directory-kerberos-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/active-directory-kerberos-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>White House officials reportedly frustrated by Anthropic’s law enforcement AI limits</title>
+                <link>https://arstechnica.com/ai/2025/09/white-house-officials-reportedly-frustrated-by-anthropics-law-enforcement-ai-limits/</link>
+                                    <comments>https://arstechnica.com/ai/2025/09/white-house-officials-reportedly-frustrated-by-anthropics-law-enforcement-ai-limits/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 17 Sep 2025 22:03:11 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI law]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[Amazon Web Services]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Dario Amodei]]></category>
+		<category><![CDATA[Department of Defense]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[government contracting]]></category>
+		<category><![CDATA[ice]]></category>
+		<category><![CDATA[law enforcement]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[national security]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Secret Service]]></category>
+		<category><![CDATA[surveillance]]></category>
+		<category><![CDATA[trump administration]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/09/white-house-officials-reportedly-frustrated-by-anthropics-law-enforcement-ai-limits/</guid>
+
+                                    <description>
+                        <![CDATA[Officials say Claude chatbot usage policies block FBI, Secret Service contractors' work.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Anthropic's AI models could potentially help spies analyze classified documents, but the company draws the line at domestic surveillance. That restriction is reportedly making the Trump administration angry.</p>
+<p>On Tuesday, Semafor <a href="https://www.semafor.com/article/09/17/2025/anthropic-irks-white-house-with-limits-on-models-uswhite-house-with-limits-on-models-use">reported</a> that Anthropic faces growing hostility from the Trump administration over the AI company's restrictions on law enforcement uses of its Claude models. Two senior White House officials told the outlet that federal contractors working with agencies like the FBI and Secret Service have run into roadblocks when attempting to use Claude for surveillance tasks.</p>
+<p>The friction stems from Anthropic's <a href="https://www.anthropic.com/legal/aup">usage policies</a> that prohibit domestic surveillance applications. The officials, who spoke to Semafor anonymously, said they worry that Anthropic enforces its policies selectively based on politics and uses vague terminology that allows for a broad interpretation of its rules.</p><p><a href="https://arstechnica.com/ai/2025/09/white-house-officials-reportedly-frustrated-by-anthropics-law-enforcement-ai-limits/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/09/white-house-officials-reportedly-frustrated-by-anthropics-law-enforcement-ai-limits/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>82</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/dario_amodei_header-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/dario_amodei_header-500x500.jpg" width="500" height="500" />
+<media:credit>Bloomberg via Getty Images</media:credit><media:text>Dario Amodei, co-founder and chief executive officer of Anthropic, during the Bloomberg Technology Summit in San Francisco on May 9, 2024.</media:text></media:content>
+            </item>
+                    <item>
+                <title>ChatGPT may soon require ID verification from adults, CEO says</title>
+                <link>https://arstechnica.com/ai/2025/09/chatgpt-may-soon-require-id-verification-from-adults-ceo-says/</link>
+                                    <comments>https://arstechnica.com/ai/2025/09/chatgpt-may-soon-require-id-verification-from-adults-ceo-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 16 Sep 2025 20:09:22 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[age verification]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI in education]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[parental controls]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[teen safety]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/09/chatgpt-may-soon-require-id-verification-from-adults-ceo-says/</guid>
+
+                                    <description>
+                        <![CDATA[Chatbot will "default to the under-18 experience" when age is uncertain after teen suicide lawsuit.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, OpenAI <a href="https://openai.com/index/building-towards-age-prediction/">announced plans</a> to develop an automated age-prediction system that will determine whether ChatGPT users are over or under 18, automatically directing younger users to a restricted version of the AI chatbot. The company also confirmed that <a href="https://arstechnica.com/ai/2025/09/openai-announces-parental-controls-for-chatgpt-after-teen-suicide-lawsuit/">parental controls</a> will launch by the end of September.</p>
+<p>In a companion blog post, OpenAI CEO Sam Altman <a href="https://openai.com/index/teen-safety-freedom-and-privacy/">acknowledged</a> the company is explicitly "prioritizing safety ahead of privacy and freedom for teens," even though it means that adults may eventually need to verify their age to use a more unrestricted version of the service.</p>
+<p>"In some cases or countries we may also ask for an ID," Altman wrote. "We know this is a privacy compromise for adults but believe it is a worthy tradeoff." Altman admitted that "not everyone will agree with how we are resolving that conflict" between user privacy and teen safety.</p><p><a href="https://arstechnica.com/ai/2025/09/chatgpt-may-soon-require-id-verification-from-adults-ceo-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/09/chatgpt-may-soon-require-id-verification-from-adults-ceo-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>71</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/teen_using_smartphone-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/teen_using_smartphone-500x500.jpg" width="500" height="500" />
+<media:credit>Javier Zayaz via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Millions turn to AI chatbots for spiritual guidance and confession</title>
+                <link>https://arstechnica.com/ai/2025/09/millions-turn-to-ai-chatbots-for-spiritual-guidance-and-confession/</link>
+                                    <comments>https://arstechnica.com/ai/2025/09/millions-turn-to-ai-chatbots-for-spiritual-guidance-and-confession/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 16 Sep 2025 11:15:32 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI sycophancy]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/09/millions-turn-to-ai-chatbots-for-spiritual-guidance-and-confession/</guid>
+
+                                    <description>
+                        <![CDATA[Bible Chat hits 30 million downloads as users seek algorithmic absolution.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Sunday, The New York Times <a href="https://www.nytimes.com/2025/09/14/us/chatbot-god.html">reported</a> that tens of millions of people are confessing secrets to AI chatbots trained on religious texts, with apps like <a href="https://thebiblechat.com/">Bible Chat</a> reaching over 30 million downloads and Catholic app <a href="https://hallow.com/">Hallow</a> briefly topping Netflix, Instagram, and TikTok in Apple's App Store. In China, people are using DeepSeek to try to decode their fortunes. In her report, Lauren Jackson examined "faith tech" apps that cost users up to $70 annually, with some platforms claiming to channel divine communication directly.</p>
+<p>Some of the apps address what creators describe as an accessibility problem. "You don't want to disturb your pastor at three in the morning," Krista Rogers, a 61-year-old Ohio resident, told the Times about using the <a href="https://www.youversion.com/the-bible-app/">YouVersion Bible app</a> and ChatGPT for spiritual questions.</p>
+<p>The report also examines platforms that go beyond simple scriptural guidance. While a service like <a href="https://www.chatwithgod.ai/">ChatwithGod</a> operates as a "spiritual advisor," its conversational nature is convincing enough that users often question whether they are speaking directly with a divine being. As its chief executive told the Times, the most frequent question from users is, "Is this actually God I am talking to?"</p><p><a href="https://arstechnica.com/ai/2025/09/millions-turn-to-ai-chatbots-for-spiritual-guidance-and-confession/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/09/millions-turn-to-ai-chatbots-for-spiritual-guidance-and-confession/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>249</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/robot_church-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/robot_church-500x500.jpg" width="500" height="500" />
+<media:credit>gremlin via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Modder injects AI dialogue into 2002’s Animal Crossing using memory hack</title>
+                <link>https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/</link>
+                                    <comments>https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 12 Sep 2025 21:36:48 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[AI integration]]></category>
+		<category><![CDATA[Animal Crossing]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Dolphin emulator]]></category>
+		<category><![CDATA[emulation]]></category>
+		<category><![CDATA[game hacking]]></category>
+		<category><![CDATA[game modding]]></category>
+		<category><![CDATA[GameCube]]></category>
+		<category><![CDATA[gaming]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[retrogaming]]></category>
+		<category><![CDATA[retrotech]]></category>
+		<category><![CDATA[Tom Nook]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/</guid>
+
+                                    <description>
+                        <![CDATA[Unofficial mod lets classic Nintendo GameCube title use AI chatbots with amusing results.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When software engineer Joshua Fonseca recently <a href="https://joshfonseca.com/blogs/animal-crossing-llm">connected</a> the GameCube simulation classic <em>Animal Crossing</em> to a modern AI language model like the kind that powers ChatGPT, he decided to shake things up. By programming the AI to roleplay as villagers growing aware of their debt situation, and giving them a shared memory to track conversations, Fonseca orchestrated a scenario where the residents began to organize against their raccoon landlord.</p>
+<p>In <em>Animal Crossing</em>, Tom Nook runs the town shop and provides home loans (paid out in bells, the in-game currency) that keep players perpetually in debt, which is a core mechanic of the game.</p>
+<p>"Predictably, it escalated into an anti-Tom Nook movement," Fonseca <a href="https://joshfonseca.com/blogs/animal-crossing-llm">wrote</a> in a detailed post documenting his hack that bridges a 2002 game to cloud-based AI without modifying any game code. While Fonseca frames the uprising as a type of emergent phenomenon in his post and a YouTube video, <a href="https://simonwillison.net/2025/Sep/10/animal-crossing-llm/">examination of the source code</a> by AI researcher Simon Willison shows that Fonseca specifically instructed the villagers to behave this way and even <a href="https://github.com/vuciv/animal-crossing-llm-mod/blob/cc9b6b571da1be062d979d50aa86e2ac1dce7a44/dialogue_prompt.py#L165-L184">escalate</a> the unrest over time.</p><p><a href="https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gaming/2025/09/animal-crossing-mod-uses-ai-to-orchestrate-anti-tom-nook-villager-revolt/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>30</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/the_real_tom_nook_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/the_real_tom_nook_2-500x500.jpg" width="500" height="500" />
+<media:credit>NunyaCarley via Getty Images / Benj Edwards</media:credit><media:text>Artist's impression of the "real" Tom Nook cornered up in a tree.</media:text></media:content>
+            </item>
+                    <item>
+                <title>OpenAI and Microsoft sign preliminary deal to revise partnership terms</title>
+                <link>https://arstechnica.com/ai/2025/09/openai-and-microsoft-sign-preliminary-deal-to-revise-partnership-terms/</link>
+                                    <comments>https://arstechnica.com/ai/2025/09/openai-and-microsoft-sign-preliminary-deal-to-revise-partnership-terms/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 11 Sep 2025 22:27:53 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI development]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI law]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Bret Taylor]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[Satya Nadella]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/09/openai-and-microsoft-sign-preliminary-deal-to-revise-partnership-terms/</guid>
+
+                                    <description>
+                        <![CDATA[Companies work to finalize terms as OpenAI pursues for-profit restructuring.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, OpenAI and Microsoft <a href="https://blogs.microsoft.com/blog/2025/09/11/a-joint-statement-from-microsoft-and-openai/">announced</a> they have signed a non-binding agreement to revise their partnership, marking the latest development in a relationship that has grown increasingly complex as both companies compete for customers in the AI market and seek new partnerships for growing infrastructure needs.</p>
+<p>"Microsoft and OpenAI have signed a non-binding memorandum of understanding (MOU) for the next phase of our partnership," the companies wrote in a joint statement. "We are actively working to finalize contractual terms in a definitive agreement. Together, we remain focused on delivering the best AI tools for everyone, grounded in our shared commitment to safety."</p>
+<p>The announcement comes as OpenAI seeks to restructure from a nonprofit to a for-profit entity, a transition that requires Microsoft's approval, as the company is OpenAI's largest investor, with more than $13 billion committed since 2019.</p><p><a href="https://arstechnica.com/ai/2025/09/openai-and-microsoft-sign-preliminary-deal-to-revise-partnership-terms/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/09/openai-and-microsoft-sign-preliminary-deal-to-revise-partnership-terms/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>37</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/openai_microsoft_3-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/07/openai_microsoft_3-500x500.jpg" width="500" height="500" />
+<media:credit>Benj Edwards / OpenAI / Microsoft</media:credit></media:content>
+            </item>
+                    <item>
+                <title>35 percent of VMware workloads expected to migrate elsewhere by 2028</title>
+                <link>https://arstechnica.com/information-technology/2025/09/35-percent-of-vmware-workloads-expected-to-migrate-elsewhere-by-2028/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/09/35-percent-of-vmware-workloads-expected-to-migrate-elsewhere-by-2028/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 11 Sep 2025 17:56:35 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/09/35-percent-of-vmware-workloads-expected-to-migrate-elsewhere-by-2028/</guid>
+
+                                    <description>
+                        <![CDATA[“We are all addicted to hypervisors, and that needs to change."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>VMware will lose a significant chunk of business over the next three years, according to Gartner research VP Julia Palmer.</p>
+<p>Of course, some organizations have already <a href="https://arstechnica.com/information-technology/2025/01/a-long-costly-road-ahead-for-customers-abandoning-broadcoms-vmware/">abandoned VMware</a> or are <a href="https://arstechnica.com/information-technology/2024/10/a-year-after-broadcoms-vmware-buy-customers-eye-exit-strategies/">plotting partial or total migrations</a>. Broadcom acquired the virtualization business in November 2023 and made sweeping changes that <a href="https://arstechnica.com/information-technology/2025/05/vmware-cloud-partners-demand-firm-regulatory-action-on-broadcom/">alienated many customers</a>. The biggest concerns have been higher costs driven by a <a href="https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/">shift from perpetual licenses</a> to subscriptions and the bundling of products into fewer, more expensive SKUs and a <a href="https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/">reduction in the number of channel partners</a> that are allowed to resell VMware technologies. The new VMware business model favors large organizations, forcing many small- to medium-sized businesses to explore alternatives.</p>
+<p>However, the wave of departures that Palmer spoke of today at Gartner’s IT Symposium in Gold Coast, Australia, comes from customers who use VMware technology through hyperscalers, like Amazon Web Services (AWS), as reported by <a href="https://www.theregister.com/2025/09/11/gartner_vmware_migration_advice/">The Register</a>. Soon after its acquisition, Broadcom made it so that hyperscalers are unable to resell VMware subscriptions to customers using hyperscaler cloud services that rely on VMware. Because of this change, 35 percent of VMware workloads will migrate elsewhere by 2028, Palmer predicted, noting that hyperscalers will push their customers to the public cloud.</p><p><a href="https://arstechnica.com/information-technology/2025/09/35-percent-of-vmware-workloads-expected-to-migrate-elsewhere-by-2028/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/09/35-percent-of-vmware-workloads-expected-to-migrate-elsewhere-by-2028/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>93</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-117737142-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-117737142-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Senator blasts Microsoft for making default Windows vulnerable to “Kerberoasting”</title>
+                <link>https://arstechnica.com/security/2025/09/senator-blasts-microsoft-for-making-default-windows-vulnerable-to-kerberoasting/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/senator-blasts-microsoft-for-making-default-windows-vulnerable-to-kerberoasting/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 10 Sep 2025 19:38:13 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Active Directory]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[rc4]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/senator-blasts-microsoft-for-making-default-windows-vulnerable-to-kerberoasting/</guid>
+
+                                    <description>
+                        <![CDATA[Wyden says default use of RC4 cipher led to last year's breach of health giant Ascension.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A prominent US senator has called on the Federal Trade Commission to investigate Microsoft for “gross cybersecurity negligence,” citing the company’s continued use of an obsolete and vulnerable form of encryption that Windows supports by default.</p>
+<p>In a <a href="https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_ftc_on_microsoft_kerberoasting_ransomwarepdf.pdf">letter</a> to FTC Chairman Andrew Ferguson, Sen. Ron Wyden (D–Ore.) said an investigation his office conducted into the 2024 ransomware breach of the <a href="https://arstechnica.com/information-technology/2024/12/health-care-giant-ascension-says-5-6-million-patients-affected-in-cyberattack/">health care giant Ascension</a> found that the default support of the RC4 encryption cipher was a direct cause. The breach led to the theft of medical records of 5.6 million patients.</p>
+<p>It's the <a href="https://arstechnica.com/security/2023/07/us-senator-blasts-microsoft-for-negligent-cybersecurity-practices/">second time</a> in as many years that Wyden has used the word “negligence” to describe Microsoft's security practices.</p><p><a href="https://arstechnica.com/security/2025/09/senator-blasts-microsoft-for-making-default-windows-vulnerable-to-kerberoasting/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/senator-blasts-microsoft-for-making-default-windows-vulnerable-to-kerberoasting/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>119</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>The Microsoft logo.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Developers joke about “coding like cavemen” as AI service suffers major outage</title>
+                <link>https://arstechnica.com/ai/2025/09/developers-joke-about-coding-like-cavemen-as-ai-service-suffers-major-outage/</link>
+                                    <comments>https://arstechnica.com/ai/2025/09/developers-joke-about-coding-like-cavemen-as-ai-service-suffers-major-outage/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 10 Sep 2025 18:08:49 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[AI work]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[cloud infrastructure]]></category>
+		<category><![CDATA[Developer Tools]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[outages]]></category>
+		<category><![CDATA[service reliability]]></category>
+		<category><![CDATA[software development]]></category>
+		<category><![CDATA[terminal tools]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/09/developers-joke-about-coding-like-cavemen-as-ai-service-suffers-major-outage/</guid>
+
+                                    <description>
+                        <![CDATA[Anthropic outage takes down AI tools some developers rely on to create software.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday afternoon, Anthropic <a href="https://status.anthropic.com/incidents/k6gkm2b8cjk9">experienced</a> a brief but complete service outage that took down its AI infrastructure, leaving developers unable to access Claude.ai, the API, Claude Code, or the management console for around half an hour. The outage affected all three of Anthropic's main services simultaneously, with the company posting at 12:28 pm Eastern that "APIs, Console, and Claude.ai are down. Services will be restored as soon as possible." As of press time, the services appear to be restored.</p>
+<p>The disruption, though lasting only about 30 minutes, quickly took the top spot on tech link-sharing site Hacker News for a short time and inspired immediate reactions from developers who have become increasingly reliant on AI coding tools for their daily work. "Everyone will just have to learn how to do it like we did in the old days, and blindly copy and paste from Stack Overflow," <a href="https://news.ycombinator.com/item?id=45200522">joked</a> one Hacker News commenter. Another user <a href="https://news.ycombinator.com/item?id=45200398">recalled</a> a joke from a previous AI outage: "Nooooo I'm going to have to use my brain again and write 100% of my code like a caveman from December 2024."</p>
+<p>The most recent outage came at an inopportune time, affecting developers across the US who have integrated Claude into their workflows. One Hacker News user <a href="https://news.ycombinator.com/item?id=45200333">observed</a>: "It's like every other day, the moment US working hours start, AI (in my case I mostly use Anthropic, others may be better) starts dying or at least getting intermittent errors. In EU working hours there's rarely any outages." Another user also <a href="https://news.ycombinator.com/item?id=45200449">noted</a> this pattern, saying that "early morning here in the UK everything is fine, as soon as most of the US is up and at it, then it slowly turns to treacle."</p><p><a href="https://arstechnica.com/ai/2025/09/developers-joke-about-coding-like-cavemen-as-ai-service-suffers-major-outage/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/09/developers-joke-about-coding-like-cavemen-as-ai-service-suffers-major-outage/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>97</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1488311999-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/05/GettyImages-1488311999-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>This is fine.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Microsoft ends OpenAI exclusivity in Office, adds rival Anthropic</title>
+                <link>https://arstechnica.com/ai/2025/09/report-microsoft-taps-rival-anthropics-ai-for-office-after-it-beats-openai-at-some-tasks/</link>
+                                    <comments>https://arstechnica.com/ai/2025/09/report-microsoft-taps-rival-anthropics-ai-for-office-after-it-beats-openai-at-some-tasks/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 10 Sep 2025 15:41:42 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[Amazon Web Services]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[Dario Amodei]]></category>
+		<category><![CDATA[GPT-5]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Microsoft Copilot]]></category>
+		<category><![CDATA[multimodal AI]]></category>
+		<category><![CDATA[Office 365]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/09/report-microsoft-taps-rival-anthropics-ai-for-office-after-it-beats-openai-at-some-tasks/</guid>
+
+                                    <description>
+                        <![CDATA[Microsoft will end OpenAI's exclusive hold on its productivity suite, adding second AI supplier.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft's Office 365 suite will soon incorporate AI models from Anthropic alongside existing OpenAI technology, <a href="https://www.theinformation.com/articles/microsoft-buy-ai-anthropic-shift-openai">The Information reported</a>, ending years of exclusive reliance on OpenAI for generative AI features across Word, Excel, PowerPoint, and Outlook.</p>
+<p>The shift reportedly follows internal testing that revealed Anthropic's Claude Sonnet 4 model excels at specific Office tasks where OpenAI's models fall short, particularly in visual design and spreadsheet automation, according to sources familiar with the project cited by The Information, who stressed the move is not a negotiating tactic.</p>
+<p>Anthropic did not immediately respond to Ars Technica's request for comment.</p><p><a href="https://arstechnica.com/ai/2025/09/report-microsoft-taps-rival-anthropics-ai-for-office-after-it-beats-openai-at-some-tasks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/09/report-microsoft-taps-rival-anthropics-ai-for-office-after-it-beats-openai-at-some-tasks/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/11/copilot_logo3-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/11/copilot_logo3-500x500.jpg" width="500" height="500" />
+<media:credit>Microsoft</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Claude’s new AI file-creation feature ships with security risks built in</title>
+                <link>https://arstechnica.com/information-technology/2025/09/anthropics-new-claude-feature-can-leak-data-users-told-to-monitor-chats-closely/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/09/anthropics-new-claude-feature-can-leak-data-users-told-to-monitor-chats-closely/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 09 Sep 2025 20:55:34 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI prompt injections]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[corporate security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[data security]]></category>
+		<category><![CDATA[enterprise software]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<category><![CDATA[prompt injections]]></category>
+		<category><![CDATA[sandbox security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/09/anthropics-new-claude-feature-can-leak-data-users-told-to-monitor-chats-closely/</guid>
+
+                                    <description>
+                        <![CDATA[Expert calls security advice "unfairly outsourcing the problem to Anthropic's users."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, Anthropic <a href="https://www.anthropic.com/news/create-files">launched</a> a new file-creation feature for its Claude AI assistant that enables users to generate Excel spreadsheets, PowerPoint presentations, and other documents directly within conversations on the web interface and in the Claude desktop app. While the feature may be handy for Claude users, the company's support documentation also <a href="https://support.anthropic.com/en/articles/12111783-create-and-edit-files-with-claude">warns</a> that it "may put your data at risk" and details how the AI assistant can be manipulated to transmit user data to external servers.</p>
+<p>The feature, awkwardly named "Upgraded file-creation and analysis," is basically Anthropic's version of ChatGPT's <a href="https://arstechnica.com/information-technology/2023/03/chatgpt-gets-eyes-and-ears-with-plugins-that-can-interface-ai-with-the-world/">Code Interpreter</a> and an upgraded version of Anthropic's <a href="https://www.anthropic.com/news/analysis-tool">"analysis" tool</a>. It's currently available as a preview for Max, Team, and Enterprise plan users, with Pro users scheduled to receive access "in the coming weeks," according to the announcement.</p>
+<p>The security issue comes from the fact that the new feature gives Claude access to a sandbox computing environment, which enables it to download packages and run code to create files. "This feature gives Claude Internet access to create and analyze files, which may put your data at risk," Anthropic writes in its blog announcement. "Monitor chats closely when using this feature."</p><p><a href="https://arstechnica.com/information-technology/2025/09/anthropics-new-claude-feature-can-leak-data-users-told-to-monitor-chats-closely/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/09/anthropics-new-claude-feature-can-leak-data-users-told-to-monitor-chats-closely/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>50</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/pipe_leak_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/pipe_leak_1-500x500.jpg" width="500" height="500" />
+<media:credit>Wirestock via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>SAP warns of high-severity vulnerabilities in multiple products</title>
+                <link>https://arstechnica.com/security/2025/09/as-hackers-exploit-one-high-severity-sap-flaw-company-warns-of-3-more/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/as-hackers-exploit-one-high-severity-sap-flaw-company-warns-of-3-more/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 09 Sep 2025 19:55:22 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[patches]]></category>
+		<category><![CDATA[SAP]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/as-hackers-exploit-one-high-severity-sap-flaw-company-warns-of-3-more/</guid>
+
+                                    <description>
+                        <![CDATA[Users of SAP's S/4HANA and NetWeaver products are at risk and should patch soon.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As hackers exploit a high-severity vulnerability in SAP’s flagship Enterprise Resource Planning software product, the software maker is warning users of more than two dozen newly detected vulnerabilities in its other widely used products, including a security flaw with a maximum-severity rating of 10.</p>
+<p>SAP on Tuesday <a href="https://support.sap.com/en/my-support/knowledge-base/security-notes-news/september-2025.html">said</a> the highest-severity vulnerability—with a rating of 10 out of a possible 10—was found in NetWeaver, a platform that serves as the technical foundation for many of the company’s other enterprise applications. The vulnerability, tracked as CVE-2025-42944, makes it possible for unauthenticated attackers to execute commands by submitting malicious payloads to an open port.</p>
+<p>The maximum-severity threat stems from a deserialization vulnerability. Serialization is a coding process that translates data structures and object states into formats that can be stored or transmitted and then reconstructed later. Deserialization is the process in reverse.</p><p><a href="https://arstechnica.com/security/2025/09/as-hackers-exploit-one-high-severity-sap-flaw-company-warns-of-3-more/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/as-hackers-exploit-one-high-severity-sap-flaw-company-warns-of-3-more/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>18</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/05/caution-tape-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Why accessibility might be AI’s biggest breakthrough</title>
+                <link>https://arstechnica.com/information-technology/2025/09/study-finds-neurodiverse-workers-more-satisfied-with-ai-assistants/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/09/study-finds-neurodiverse-workers-more-satisfied-with-ai-assistants/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 09 Sep 2025 11:08:44 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[accessibility]]></category>
+		<category><![CDATA[ADHD]]></category>
+		<category><![CDATA[AI accessibility]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI evaluation]]></category>
+		<category><![CDATA[AI study]]></category>
+		<category><![CDATA[Department for Business and Trade]]></category>
+		<category><![CDATA[disability]]></category>
+		<category><![CDATA[dyslexia]]></category>
+		<category><![CDATA[M365 Copilot]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[neurodiversity]]></category>
+		<category><![CDATA[uk government]]></category>
+		<category><![CDATA[workplace accommodation]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/09/study-finds-neurodiverse-workers-more-satisfied-with-ai-assistants/</guid>
+
+                                    <description>
+                        <![CDATA[UK study findings may challenge assumptions about who benefits most from AI tools.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>While tech companies market AI as a productivity tool for everyone, a UK government study reveals an unexpected result: Neurodiverse employees may be benefiting far more from chatbots than their neurotypical colleagues.</p>
+<p>The UK's Department for Business and Trade recently <a href="https://assets.publishing.service.gov.uk/media/68adbe409e1cebdd2c96a19d/dbt-microsoft-365-copilot-evaluation.pdf">released</a> evaluation results from its Microsoft 365 Copilot trial showing that while overall satisfaction was 72 percent, neurodiverse employees reported statistically higher satisfaction (at a 90 percent confidence level) and were more likely to recommend the tool (at a 95 percent confidence level) than other respondents.</p>
+<p>"It's leveled the playing field," one participant with ADHD told researchers during follow-up interviews. One user with dyslexia said that the tool "empowered" them to perform tasks with confidence they previously lacked, particularly in report writing. Another dyslexic participant drew direct comparisons to existing accessibility software, noting that Copilot "does a hell of a lot more" than traditional assistive technology while being "embedded in your applications" rather than requiring separate programs.</p><p><a href="https://arstechnica.com/information-technology/2025/09/study-finds-neurodiverse-workers-more-satisfied-with-ai-assistants/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/09/study-finds-neurodiverse-workers-more-satisfied-with-ai-assistants/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>81</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/aaGettyImages-862457080-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/aaGettyImages-862457080-500x500.jpg" width="500" height="500" />
+<media:credit>Chris Madden via Getty Images</media:credit><media:text>Group of People with differing personalities</media:text></media:content>
+            </item>
+                    <item>
+                <title>Software packages with more than 2 billion weekly downloads hit in supply-chain attack</title>
+                <link>https://arstechnica.com/security/2025/09/software-packages-with-more-than-2-billion-weekly-downloads-hit-in-supply-chain-attack/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/software-packages-with-more-than-2-billion-weekly-downloads-hit-in-supply-chain-attack/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 09 Sep 2025 00:37:04 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[npm]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[supply chain]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/software-packages-with-more-than-2-billion-weekly-downloads-hit-in-supply-chain-attack/</guid>
+
+                                    <description>
+                        <![CDATA[Incident hitting npm users is likely the biggest supply-chain attack ever.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers planted malicious code in open source software packages with more than 2 billion weekly updates in what is likely to be the world’s biggest supply-chain attack ever.</p>
+<p>The attack, which compromised nearly two dozen packages hosted on the npm repository, came to public notice on Monday in <a href="https://infosec.exchange/@derekheld/115169311485030806">social</a> <a href="https://infosec.exchange/@GossiTheDog@cyberplace.social/115169391665497997">media</a> posts. Around the same time, Josh Junon, a maintainer or co-maintainer of the affected packages, <a href="https://bsky.app/profile/bad-at-computer.bsky.social/post/3lydioq5swk2y">said</a> he had been “pwned” after falling for an email that claimed his account on the platform would be closed unless he logged in to a site and updated his two-factor authentication credentials.</p>
+<h2>Defeating 2FA the easy way</h2>
+<p>“Sorry everyone, I should have paid more attention,” Junon, who uses the moniker Qix, wrote. “Not like me; have had a stressful week. Will work to get this cleaned up.”</p><p><a href="https://arstechnica.com/security/2025/09/software-packages-with-more-than-2-billion-weekly-downloads-hit-in-supply-chain-attack/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/software-packages-with-more-than-2-billion-weekly-downloads-hit-in-supply-chain-attack/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>105</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Former WhatsApp security boss in lawsuit likens Meta’s culture to a “cult”</title>
+                <link>https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/</link>
+                                    <comments>https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 08 Sep 2025 20:26:02 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[lawsuits]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[whatsapp]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/</guid>
+
+                                    <description>
+                        <![CDATA[Meta allegedly prioritized user growth over security, lawsuit said.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the past year, Meta has blanketed TV screens around the world with commercials touting the privacy of Whatsapp, its encrypted messenger with a monthly user base of 3 billion people.</p>
+<p>“It’s private,” one <a href="link">ad</a> campaign featuring the former cast of the <em>Modern Family</em> TV show says. “On Whatsapp, no one can see or hear your personal messages … not even us,” a different series of ads declares.</p>
+<h2>“Serious risks to user data”</h2>
+<p>On Monday, the former head of security for the Meta-owed messaging app filed a federal whistleblower lawsuit that tells a far different narrative. The suit, filed in US District Court for the District of Northern California, recites a litany of purported security and privacy flaws that Meta not only didn’t fix after becoming aware of them, but also kept secret, allegedly in violation of a <a href="https://arstechnica.com/tech-policy/2019/07/ftc-fines-facebook-5-billion-imposes-new-privacy-oversight/">$5 billion settlement</a> then-Whatsapp parent company Facebook reached with the Federal Trade Commission. The complaint was filed by Attaullah Baig, who became head of WhatsApp security in 2021.</p><p><a href="https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-whatsapp-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/09/getty-whatsapp-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images | NurPhoto </media:credit></media:content>
+            </item>
+                    <item>
+                <title>AI will consume all of IT by 2030—but not all IT jobs, Gartner says</title>
+                <link>https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Mon, 08 Sep 2025 17:17:49 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI and jobs]]></category>
+		<category><![CDATA[it jobs]]></category>
+		<category><![CDATA[job losses]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/</guid>
+
+                                    <description>
+                        <![CDATA[AI still threatens entry-level IT jobs. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In five years, you won’t be able to spell IT without AI, Gartner predicted today.</p>
+<p>VP analysts Alicia Mullery and Daryl Plummer delivered the sentiment at their keynote address at Gartner’s IT Symposium in Gold Coast, Australia, as reported by <a href="https://www.theregister.com/2025/09/08/ai_impact_it_departments/">The Register</a>. Gartner believes that by 2030, all work performed by an IT department will involve the use of AI. That’s a progression from the 81 percent of IT work that’s done today without any use of AI, per Mullery.</p>
+<p>By 2030, not only will all IT work rely on AI, but much of it will be performed by bots without the help of humans, Gartner’s analysts said. They predicted that in five years, 25 percent of IT work will be totally performed by bots, while 75 percent of IT workloads will be performed by humans with the help of AI.</p><p><a href="https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>141</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2211086356-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/GettyImages-2211086356-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
