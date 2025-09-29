@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-09-24T17:13:47Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Jigging for Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-jigging-for-squid.html" />
+
+		<id>https://www.schneier.com/?p=70875</id>
+		<updated>2025-09-24T17:13:47Z</updated>
+		<published>2025-09-26T21:03:03Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>A nice <a href="https://provincetownindependent.org/visual/2025/09/17/a-latecomer-joins-the-squid-seekers-2/">story</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-jigging-for-squid.html"><![CDATA[<p>A nice <a href="https://provincetownindependent.org/visual/2025/09/17/a-latecomer-joins-the-squid-seekers-2/">story</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-jigging-for-squid.html#comments" thr:count="26" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-jigging-for-squid.html/feed/atom/" thr:count="26" />
+			<thr:total>26</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Digital Threat Modeling Under Authoritarianism]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html" />
+
+		<id>https://www.schneier.com/?p=70871</id>
+		<updated>2025-09-24T05:09:41Z</updated>
+		<published>2025-09-26T11:04:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="computer security" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="threat models" />
+		<summary type="html"><![CDATA[<p>Today&#8217;s world requires us to make complex and nuanced decisions about our digital security. Evaluating when to use a secure messaging app like Signal or WhatsApp, which passwords to store on your smartphone, or what to share on social media requires us to assess risks and make judgments accordingly. Arriving at any conclusion is an exercise in threat modeling.</p>
+<p>In security, <a href="https://shostack.org/resources/threat-modeling">threat modeling</a> is the process of determining what security measures make sense in your particular situation. It&#8217;s a way to think about potential risks, possible defenses, and the costs of both. It&#8217;s how experts avoid being distracted by irrelevant risks or overburdened by undue costs...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html"><![CDATA[<p>Today&#8217;s world requires us to make complex and nuanced decisions about our digital security. Evaluating when to use a secure messaging app like Signal or WhatsApp, which passwords to store on your smartphone, or what to share on social media requires us to assess risks and make judgments accordingly. Arriving at any conclusion is an exercise in threat modeling.</p>
+<p>In security, <a href="https://shostack.org/resources/threat-modeling">threat modeling</a> is the process of determining what security measures make sense in your particular situation. It&#8217;s a way to think about potential risks, possible defenses, and the costs of both. It&#8217;s how experts avoid being distracted by irrelevant risks or overburdened by undue costs.</p>
+<p>We threat model all the time. We might decide to walk down one street instead of another, or use an internet VPN when browsing dubious sites. Perhaps we understand the risks in detail, but more likely we are <a href="https://www.schneier.com/blog/archives/2009/08/risk_intuition.html">relying on intuition</a> or some trusted authority. But in the U.S. and elsewhere, the average person&#8217;s threat model is changing&#8212;specifically involving how we protect our personal information. Previously, most concern centered on corporate surveillance; companies like Google and Facebook engaging in digital surveillance to maximize their profit. Increasingly, however, many people are worried about government surveillance and how the government could <a href="https://oversight.house.gov/wp-content/uploads/2025/06/Schneier-Written-Testimony.pdf">weaponize personal data</a>.</p>
+<p>Since the beginning of this year, the Trump administration&#8217;s actions in this area have <a href="https://oversight.house.gov/wp-content/uploads/2025/06/Schneier-Written-Testimony.pdf">raised alarm bells</a>: The Department of Government Efficiency (DOGE) <a href="https://www.epi.org/publication/trump-is-enabling-musk-and-doge-to-flout-conflicts-of-interest-what-is-the-potential-cost-to-u-s-families/">took</a> <a href="https://ash.harvard.edu/resources/understanding-doge-and-your-data/">data</a> from federal agencies, Palantir combined disparate streams of government <a href="https://www.brookings.edu/articles/privacy-under-siege-doges-one-big-beautiful-database/">data into a single system</a>, and Immigration and Customs Enforcement (ICE) <a href="https://epic.org/documents/epic-v-ice-location-and-social-media-surveillance/">used social media posts</a> as a reason to deny someone entry into the U.S.</p>
+<p>These threats, and others posed by a techno-authoritarian regime, are vastly different from those presented by a corporate monopolistic regime&#8212;and different yet again in a society where both are working together. Contending with these new threats requires a different approach to personal digital devices, cloud services, social media, and data in general.</p>
+<h3>What Data Does the Government Already Have?</h3>
+<p>For years, most public attention has centered on the risks of tech companies gathering behavioral data. This is an enormous amount of data, generally <a href="https://www.publift.com/blog/what-is-behavioral-targeting">used to predict</a> and influence consumers&#8217; future behavior&#8212;rather than as a means of uncovering our past. Although commercial data is highly intimate&#8212;such as knowledge of your precise location over the course of a year, or the contents of every Facebook post you have ever created&#8212;it&#8217;s not the same thing as tax returns, police records, unemployment insurance applications, or medical history.</p>
+<p>The U.S. government holds extensive data about everyone living inside its borders, some of it very sensitive&#8212;and there&#8217;s not much that can be done about it. This information consists largely of facts that people are legally obligated to tell the government. The IRS has a lot of very sensitive data about personal finances. The Treasury Department has data about any money received from the government. The Office of Personnel Management has an enormous amount of detailed information about government employees&#8212;including the very personal form required to get a security clearance. The Census Bureau possesses vast data about everyone living in the U.S., including, for example, a database of real estate ownership in the country. The Department of Defense and the Bureau of Veterans Affairs have data about present and former members of the military, the Department of Homeland Security has travel information, and various agencies possess health records. And so on.</p>
+<p>It is safe to assume that the government has&#8212;or will soon have&#8212;access to all of this government data. This sounds like a tautology, but in the past, the U.S. government largely followed the <a href="https://www.superlawyers.com/resources/civil-rights/how-can-the-government-use-the-information-it-has-about-me/">many laws limiting</a> how those databases were used, especially regarding how they were shared, combined, and correlated. Under the second Trump administration, this no longer seems to be the case.</p>
+<h3>Augmenting Government Data with Corporate Data</h3>
+<p>The mechanisms of corporate surveillance haven&#8217;t gone away. Compute technology is constantly spying on its users&#8212;and that data is being used to influence us. Companies like Google and Meta are vast surveillance machines, and they use that data to fuel advertising. A smartphone is a portable surveillance device, constantly recording things like location and communication. Cars, and many other Internet of Things devices, do the same. Credit card companies, health insurers, internet retailers, and social media sites all have detailed data about you&#8212;and there is a vast industry that buys and sells this intimate data.</p>
+<p>This isn&#8217;t news. What&#8217;s different in a techno-authoritarian regime is that this data is also shared with the government, either as a paid service or as demanded by local law. <a href="https://www.theverge.com/news/709836/ring-police-video-sharing-police-axon-partnership">Amazon shares Ring doorbell data</a> with the police. <a href="https://www.aclu.org/news/privacy-technology/flock-pushback">Flock, a company</a> that collects license plate data from cars around the country, shares data with the police as well. And just as <a href="https://www.cisecurity.org/insights/blog/the-chinese-communist-party-ccp-a-quest-for-data-control">Chinese corporations share</a> user data with the government and companies like <a href="https://www.theguardian.com/world/2013/jun/06/nsa-phone-records-verizon-court-order">Verizon shared</a> calling records with the National Security Agency (NSA) after the Sept. 11 terrorist attacks, an authoritarian government will use this data as well.</p>
+<h3>Personal Targeting Using Data</h3>
+<p>The government has vast capabilities for targeted surveillance, both technically and legally. If a high-level figure is targeted by name, it is almost certain that the government can access their data. The government will use its investigatory powers to the fullest: It will go through government data, <a href="https://www.mcafee.com/learn/what-is-pegasus-spyware/">remotely hack</a> phones and computers, spy on communications, and <a href="https://www.theguardian.com/us-news/2025/aug/22/fbi-raids-john-bolton-house">raid a home</a>. It will compel third parties, like banks, cell providers, email providers, cloud storage services, and social media companies, to turn over data. To the extent those companies keep backups, the government will even be able to obtain deleted data.</p>
+<p>This data can be used for prosecution&#8212;possibly selectively. This has been made evident in recent weeks, as the Trump administration <a href="https://www.yahoo.com/news/articles/trump-accuses-feds-lisa-cook-174317254.html">personally targeted</a> perceived enemies for &#8220;mortgage fraud.&#8221; This was a clear example of weaponization of data. Given all the data the government requires people to divulge, there will be <a href="https://www.oxfordreference.com/display/10.1093/acref/9780191843730.001.0001/q-oro-ed5-00008828">something there to prosecute</a>.</p>
+<p>Although alarming, this sort of targeted attack doesn&#8217;t scale. As vast as the government&#8217;s information is and as powerful as its capabilities are, they are not infinite. They can be deployed against only a limited number of people. And most people will never be that high on the priorities list.</p>
+<h3>The Risks of Mass Surveillance</h3>
+<p>Mass surveillance is surveillance without specific targets. For most people, this is where the primary risks lie. Even if we&#8217;re not targeted by name, personal data could raise red flags, drawing unwanted scrutiny.</p>
+<p>The risks here are twofold. First, mass surveillance could be <a href="https://www.commondreams.org/news/alistair-kitchen">used to single</a> <a href="https://bsky.app/profile/alistairkitchen.bsky.social/post/3lrjsdecc5c2x">out people to harass</a> or arrest: when they cross the border, show up at immigration hearings, attend a protest, are stopped by the police for speeding, or just as they&#8217;re living their normal lives. Second, mass surveillance could be used to threaten or blackmail. In the first case, the government is using that database to find a plausible excuse for its actions. In the second, it is looking for an actual infraction that it could selectively prosecute&#8212;or not.</p>
+<p>Mitigating these risks is difficult, because it would require not interacting with either the government or corporations in everyday life&#8212;and living in the woods without any electronics isn&#8217;t realistic for most of us. Additionally, this strategy protects only future information; it does nothing to protect the information generated in the past. That said, going back and scrubbing social media accounts and cloud storage does have some value. Whether it&#8217;s right for you depends on your personal situation.</p>
+<h3>Opportunistic Use of Data</h3>
+<p>Beyond data given to third parties&#8212;either corporations or the government&#8212;there is also data users keep in their possession.This data may be stored on personal devices such as computers and phones or, more likely today, in some cloud service and accessible from those devices. Here, the risks are different: Some authority could confiscate your device and look through it.</p>
+<p>This is not just speculative. There are <a href="https://www.wired.com/story/phone-searches-at-the-us-border-hit-a-record-high/">many stories</a> of ICE agents <a href="https://www.theguardian.com/us-news/2025/apr/12/amir-makled-phone-search-border-immigration">examining people&#8217;s phones and computers</a> when they attempt to enter the U.S.: their emails, contact lists, documents, photos, browser history, and social media posts.</p>
+<p>There are several different defenses you can deploy, presented from least to most extreme. First, you can scrub devices of potentially incriminating information, either as a matter of course or before entering a higher-risk situation. Second, you could consider deleting&#8212;even temporarily&#8212;social media and other apps so that someone with access to a device doesn&#8217;t get access to those accounts&#8212;this includes your contacts list. If a phone is swept up in a government raid, your contacts become their next targets.</p>
+<p>Third, you could choose not to carry your device with you at all, opting instead for a burner phone without contacts, email access, and accounts, or go electronics-free entirely. This may sound extreme&#8212;and <a href="https://boingboing.net/2025/09/04/travel-under-trump-2-0-dont-cross-a-u-s-border-without-a-perfect-burner-phone.html">getting it right is hard</a>&#8212;but I know many people today who have stripped-down computers and sanitized phones for international travel. At the same time, there are also <a href="https://www.wired.com/story/phone-searches-at-the-us-border-hit-a-record-high/">stories of people being denied entry</a> to the U.S. because they are carrying what is obviously a burner phone&#8212;or no phone at all.</p>
+<h3>Encryption Isn&#8217;t a Magic Bullet&#8212;But Use It Anyway</h3>
+<p>Encryption protects your data while it&#8217;s not being used, and your devices when they&#8217;re turned off. This doesn&#8217;t help if a border agent forces you to turn on your phone and computer. And it doesn&#8217;t protect metadata, which needs to be unencrypted for the system to function. This metadata can be extremely valuable. For example, Signal, WhatsApp, and iMessage all encrypt the contents of your text messages&#8212;the data&#8212;but information about who you are texting and when must remain unencrypted.</p>
+<p>Also, if the NSA wants access to someone&#8217;s phone, it can get it. Encryption is no help against that sort of sophisticated targeted attack. But, again, most of us aren&#8217;t that important and even the NSA can target only so many people. What encryption safeguards against is mass surveillance.</p>
+<p>I recommend Signal for text messages above all other apps. But if you are in a country where having Signal on a device is in itself incriminating, then use WhatsApp. Signal is better, but everyone has WhatsApp installed on their phones, so it doesn&#8217;t raise the same suspicion. Also, it&#8217;s a no-brainer to turn on your computer&#8217;s built-in encryption: BitLocker for Windows and FileVault for Macs.</p>
+<p>On the subject of data and metadata, it&#8217;s worth noting that data poisoning doesn&#8217;t help nearly as much as you might think. That is, it doesn&#8217;t do much good to add hundreds of random strangers to an address book or bogus internet searches to a browser history to hide the real ones. Modern analysis tools can see through all of that.</p>
+<h3>Shifting Risks of Decentralization</h3>
+<p>This notion of individual targeting, and the inability of the government to do that at scale, starts to fail as the authoritarian system becomes more decentralized. After all, if repression comes from the top, it affects only senior government officials and people who people in power personally dislike. If it comes from the bottom, it affects everybody. But decentralization looks much like the events playing out with ICE harassing, detaining, and disappearing people&#8212;everyone has to fear it.</p>
+<p>This can go much further. Imagine there is a government official assigned to your neighborhood, or your block, or your apartment building. It&#8217;s worth that person&#8217;s time to scrutinize everybody&#8217;s social media posts, email, and chat logs. For anyone in that situation, limiting what you do online is the only defense.</p>
+<h3>Being Innocent Won&#8217;t Protect You</h3>
+<p>This is vital to understand. Surveillance systems and sorting algorithms make mistakes. This is apparent in the fact that we are routinely served advertisements for products that don&#8217;t interest us at all. Those mistakes are relatively harmless&#8212;who cares about a poorly targeted ad?&#8212;but a similar mistake at an immigration hearing can get someone deported.</p>
+<p>An authoritarian government doesn&#8217;t care. Mistakes are a feature and not a bug of authoritarian surveillance. If ICE targets only people it can go after legally, then everyone knows whether or not they need to fear ICE. If ICE occasionally makes mistakes by <a href="https://www.theatlantic.com/politics/archive/2025/09/george-retes-ice-detained-us-citizen/684152/">arresting Americans</a> and deporting innocents, then everyone has to fear it. This is by design.</p>
+<h3>Effective Opposition Requires Being Online</h3>
+<p>For most people, phones are an essential part of daily life. If you leave yours at home when you attend a protest, you won&#8217;t be able to film police violence. Or coordinate with your friends and figure out where to meet. Or use a navigation app to get to the protest in the first place.</p>
+<p>Threat modeling is all about trade-offs. Understanding yours depends not only on the technology and its capabilities but also on your personal goals. Are you trying to keep your head down and survive&#8212;or get out? Are you wanting to protest legally? Are you doing more, maybe throwing sand into the gears of an authoritarian government, or even engaging in active resistance? The more you are doing, the more technology you need&#8212;and the more technology will be used against you. There are no simple answers, only choices.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/digital-threat-modeling-under-authoritarianism.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Malicious-Looking URL Creation Service]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/malicious-looking-url-creation-service.html" />
+
+		<id>https://www.schneier.com/?p=70859</id>
+		<updated>2025-09-23T18:23:15Z</updated>
+		<published>2025-09-25T11:02:27Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="phishing" /><category scheme="https://www.schneier.com/" term="spoofing" />
+		<summary type="html"><![CDATA[<p><a href="https://phishyurl.com/">This site</a> turns your URL into something sketchy-looking.</p>
+<p>For example, <tt>www.schneier.com</tt> becomes<br />
+<tt>https://cheap-bitcoin.online/firewall-snatcher/cipher-injector/phishing_sniffer_tool.html?form=inject&#38;host=spoof&#38;id=bb1bc121&#38;parameter=inject&#38;payload=%28function%28%29%7B+return+%27+hi+%27.trim%28%29%3B+%7D%29%28%29%3B&#38;port=spoof</tt>.</p>
+<p>Found on <a href="https://boingboing.net/2025/09/19/a-url-shortener-that-creates-suspicious-looking-urls.html">Boing Boing</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/malicious-looking-url-creation-service.html"><![CDATA[<p><a href="https://phishyurl.com/">This site</a> turns your URL into something sketchy-looking.</p>
+<p>For example, <tt>www.schneier.com</tt> becomes<br />
+<tt>https://cheap-bitcoin.online/firewall-snatcher/cipher-injector/phishing_sniffer_tool.html?form=inject&host=spoof&id=bb1bc121&parameter=inject&payload=%28function%28%29%7B+return+%27+hi+%27.trim%28%29%3B+%7D%29%28%29%3B&port=spoof</tt>.</p>
+<p>Found on <a href="https://boingboing.net/2025/09/19/a-url-shortener-that-creates-suspicious-looking-urls.html">Boing Boing</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/malicious-looking-url-creation-service.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/malicious-looking-url-creation-service.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[US Disrupts Massive Cell Phone Array in New York]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/us-disrupts-massive-cell-phone-array-in-new-york.html" />
+
+		<id>https://www.schneier.com/?p=70863</id>
+		<updated>2025-09-24T01:13:05Z</updated>
+		<published>2025-09-24T11:09:19Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cell phones" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="denial of service" /><category scheme="https://www.schneier.com/" term="infrastructure" /><category scheme="https://www.schneier.com/" term="telecom" />
+		<summary type="html"><![CDATA[<p>This is a <a href="https://www.bbc.com/news/articles/cn4w0d8zz22o">weird story</a>:</p>
+<blockquote><p>The US Secret Service disrupted a network of telecommunications devices that could have shut down cellular systems as leaders gather for the United Nations General Assembly in New York City.</p>
+<p>The agency said on Tuesday that last month it found more than 300 SIM servers and 100,000 SIM cards that could have been used for telecom attacks within the area encompassing parts of New York, New Jersey and Connecticut.</p>
+<p>&#8220;This network had the power to disable cell phone towers and essentially shut down the cellular network in New York City,&#8221; said special agent in charge Matt McCool...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/us-disrupts-massive-cell-phone-array-in-new-york.html"><![CDATA[<p>This is a <a href="https://www.bbc.com/news/articles/cn4w0d8zz22o">weird story</a>:</p>
+<blockquote><p>The US Secret Service disrupted a network of telecommunications devices that could have shut down cellular systems as leaders gather for the United Nations General Assembly in New York City.</p>
+<p>The agency said on Tuesday that last month it found more than 300 SIM servers and 100,000 SIM cards that could have been used for telecom attacks within the area encompassing parts of New York, New Jersey and Connecticut.</p>
+<p>&#8220;This network had the power to disable cell phone towers and essentially shut down the cellular network in New York City,&#8221; said special agent in charge Matt McCool.</p>
+<p>The devices were discovered within 35 miles (56km) of the UN, where leaders are meeting this week.</p>
+<p>McCool said the &#8220;well-organised and well-funded&#8221; scheme involved &#8220;nation-state threat actors and individuals that are known to federal law enforcement.&#8221;</p>
+<p>The unidentified nation-state actors were sending encrypted messages to organised crime groups, cartels and terrorist organisations, he added.</p>
+<p>The equipment was capable of texting the entire population of the US within 12 minutes, officials say. It could also have disabled mobile phone towers and launched distributed denial of service attacks that might have blocked emergency dispatch communications.</p>
+<p>The devices were seized from SIM farms at abandoned apartment buildings across more than five sites. Officials did not specify the locations.</p></blockquote>
+<p>Wait; seriously? &#8220;Special agent in charge Matt McCool&#8221;? If I wanted to pick a fake-sounding name, I couldn&#8217;t do better than that.</p>
+<p><i>Wired</i> has <a href="https://www.wired.com/story/sim-farm-new-york-threatened-us-infrastructure-feds-say/">some more</a> information and a lot more speculation:</p>
+<blockquote><p>The phenomenon of SIM farms, even at the scale found in this instance around New York, is far from new. Cybercriminals have long used the massive collections of centrally operated SIM cards for everything from spam to swatting to fake account creation and fraudulent engagement with social media or advertising campaigns.</p>
+<p>[&#8230;]</p>
+<p>SIM farms allow &#8220;bulk messaging at a speed and volume that would be impossible for an individual user,&#8221; one telecoms industry source, who asked not to be named due to the sensitivity of the Secret Service’s investigation, told WIRED. &#8220;The technology behind these farms makes them highly flexible&#8212;SIMs can be rotated to bypass detection systems, traffic can be geographically masked, and accounts can be made to look like they’re coming from genuine users.&#8221;</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/us-disrupts-massive-cell-phone-array-in-new-york.html#comments" thr:count="21" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/us-disrupts-massive-cell-phone-array-in-new-york.html/feed/atom/" thr:count="21" />
+			<thr:total>21</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Apple’s New Memory Integrity Enforcement]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/apples-new-memory-integrity-enforcement.html" />
+
+		<id>https://www.schneier.com/?p=70843</id>
+		<updated>2025-09-18T16:13:18Z</updated>
+		<published>2025-09-23T11:07:17Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Apple" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="hardware" /><category scheme="https://www.schneier.com/" term="integrity" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Apple has introduced a new hardware/software security feature in the iPhone 17: &#8220;<a href="https://security.apple.com/blog/memory-integrity-enforcement/">Memory Integrity Enforcement</a>,&#8221; targeting the memory safety vulnerabilities that spyware products like Pegasus tend to use to get unauthorized system access. From <a href="https://www.wired.com/story/apple-iphone-17-memory-integrity-enforcement/"><i>Wired</i></a>:</p>
+<blockquote><p>In recent years, a movement has been steadily growing across the global tech industry to address a ubiquitous and insidious type of bugs known as memory-safety vulnerabilities. A computer&#8217;s memory is a shared resource among all programs, and memory safety issues crop up when software can pull data that should be off limits from a computer&#8217;s memory or manipulate data in memory that shouldn&#8217;t be accessible to the program. When developers&#8212;­even experienced and security-conscious developers&#8212;­write software in ubiquitous, historic programming languages, like C and C++, it&#8217;s easy to make mistakes that lead to memory safety vulnerabilities. That&#8217;s why proactive tools like ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/apples-new-memory-integrity-enforcement.html"><![CDATA[<p>Apple has introduced a new hardware/software security feature in the iPhone 17: &#8220;<a href="https://security.apple.com/blog/memory-integrity-enforcement/">Memory Integrity Enforcement</a>,&#8221; targeting the memory safety vulnerabilities that spyware products like Pegasus tend to use to get unauthorized system access. From <a href="https://www.wired.com/story/apple-iphone-17-memory-integrity-enforcement/"><i>Wired</i></a>:</p>
+<blockquote><p>In recent years, a movement has been steadily growing across the global tech industry to address a ubiquitous and insidious type of bugs known as memory-safety vulnerabilities. A computer&#8217;s memory is a shared resource among all programs, and memory safety issues crop up when software can pull data that should be off limits from a computer&#8217;s memory or manipulate data in memory that shouldn&#8217;t be accessible to the program. When developers&#8212;­even experienced and security-conscious developers&#8212;­write software in ubiquitous, historic programming languages, like C and C++, it&#8217;s easy to make mistakes that lead to memory safety vulnerabilities. That&#8217;s why proactive tools like <a href="https://www.wired.com/story/rust-secure-programming-language-memory-safe/">special programming languages</a> have been proliferating with the goal of making it structurally impossible for software to contain these vulnerabilities, rather than attempting to avoid introducing them or catch all of them.</p>
+<p>[&#8230;]</p>
+<p>With memory-unsafe programming languages underlying so much of the world&#8217;s collective code base, Apple&#8217;s Security Engineering and Architecture team felt that putting memory safety mechanisms at the heart of Apple&#8217;s chips could be a deus ex machina for a seemingly intractable problem. The group built on a specification known as <a href="https://www.usenix.org/system/files/login/articles/login_summer19_03_serebryany.pdf">Memory Tagging Extension</a> (MTE) released in 2019 by the chipmaker Arm. The idea was to essentially password protect every memory allocation in hardware so that future requests to access that region of memory are only granted by the system if the request includes the right secret.</p>
+<p>Arm developed MTE as a tool to help developers find and fix memory corruption bugs. If the system receives a memory access request without passing the secret check, the app will crash and the system will log the sequence of events for developers to review. Apple&#8217;s engineers wondered whether MTE could run all the time rather than just being used as a debugging tool, and the group worked with Arm to release a version of the specification for this purpose in 2022 called <a href="https://developer.arm.com/documentation/109697/0100/Feature-descriptions/The-Armv8-9-architecture-extension?lang=en#md454-the-armv89-architecture-extension__FEAT_MTE4">Enhanced Memory Tagging Extension</a>.</p>
+<p>To make all of this a constant, real-time defense against exploitation of memory safety vulnerabilities, Apple spent years architecting the protection deeply within its chips so the feature could be on all the time for users without sacrificing overall processor and memory performance. In other words, you can see how generating and attaching secrets to every memory allocation and then demanding that programs manage and produce these secrets for every memory request could dent performance. But Apple says that it has been able to thread the needle.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/apples-new-memory-integrity-enforcement.html#comments" thr:count="22" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/apples-new-memory-integrity-enforcement.html/feed/atom/" thr:count="22" />
+			<thr:total>22</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Details About Chinese Surveillance and Propaganda Companies]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/details-about-chinese-surveillance-and-propaganda-companies.html" />
+
+		<id>https://www.schneier.com/?p=70839</id>
+		<updated>2025-09-18T16:06:55Z</updated>
+		<published>2025-09-22T11:03:31Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="censorship" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="leaks" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="propaganda" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>Details from <a href="https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/">leaked documents</a>:</p>
+<blockquote><p>While people often look at China’s Great Firewall as a single, all-powerful government system unique to China, the actual process of developing and maintaining it works the same way as surveillance technology in the West. Geedge collaborates with academic institutions on research and development, adapts its business strategy to fit different clients’ needs, and even repurposes leftover infrastructure from its competitors.</p>
+<p>[&#8230;]</p>
+<p>The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/details-about-chinese-surveillance-and-propaganda-companies.html"><![CDATA[<p>Details from <a href="https://www.wired.com/story/made-in-china-how-chinas-surveillance-industry-actually-works/">leaked documents</a>:</p>
+<blockquote><p>While people often look at China’s Great Firewall as a single, all-powerful government system unique to China, the actual process of developing and maintaining it works the same way as surveillance technology in the West. Geedge collaborates with academic institutions on research and development, adapts its business strategy to fit different clients’ needs, and even repurposes leftover infrastructure from its competitors.</p>
+<p>[&#8230;]</p>
+<p>The parallels with the West are hard to miss. A number of American surveillance and propaganda firms also started as academic projects before they were spun out into startups and grew by chasing government contracts. The difference is that in China, these companies operate with far less transparency. Their work comes to light only when a trove of documents slips onto the internet.</p>
+<p>[&#8230;]</p>
+<p>It is tempting to think of the Great Firewall or Chinese propaganda as the outcome of a top-down master plan that only the Chinese Communist Party could pull off. But these leaks suggest a more complicated reality. Censorship and propaganda efforts must be marketed, financed, and maintained. They are shaped by the logic of corporate quarterly financial targets and competitive bids as much as by ideology­&#8212;except the customers are governments, and the products can control or shape entire societies.</p></blockquote>
+<p><a href="https://gfw.report/blog/geedge_and_mesa_leak/en/">More information</a> about one of the two leaks.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/details-about-chinese-surveillance-and-propaganda-companies.html#comments" thr:count="20" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/details-about-chinese-surveillance-and-propaganda-companies.html/feed/atom/" thr:count="20" />
+			<thr:total>20</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Giant Squid vs. Blue Whale]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-giant-squid-vs-blue-whale.html" />
+
+		<id>https://www.schneier.com/?p=70848</id>
+		<updated>2025-09-19T21:06:15Z</updated>
+		<published>2025-09-19T21:06:15Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>A <a href="https://a-z-animals.com/animals/comparison/giant-squid-vs-blue-whale-compared/">comparison</a> aimed at kids.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-giant-squid-vs-blue-whale.html"><![CDATA[<p>A <a href="https://a-z-animals.com/animals/comparison/giant-squid-vs-blue-whale-compared/">comparison</a> aimed at kids.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-giant-squid-vs-blue-whale.html#comments" thr:count="36" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/friday-squid-blogging-giant-squid-vs-blue-whale.html/feed/atom/" thr:count="36" />
+			<thr:total>36</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Surveying the Global Spyware Market]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/surveying-the-global-spyware-market.html" />
+
+		<id>https://www.schneier.com/?p=70837</id>
+		<updated>2025-09-18T16:03:25Z</updated>
+		<published>2025-09-19T11:01:02Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="reports" /><category scheme="https://www.schneier.com/" term="spyware" />
+		<summary type="html"><![CDATA[<p>The Atlantic Council has published its second annual report: &#8220;<a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/mythical-beasts-diving-into-the-depths-of-the-global-spyware-market/">Mythical Beasts: Diving into the depths of the global spyware market</a>.&#8221;</p>
+<p>Too much good detail to summarize, but here are two items:</p>
+<blockquote><p>First, the authors found that the number of US-based investors in spyware has notably increased in the past year, when compared with the sample size of the spyware market captured in the first Mythical Beasts project. In the first edition, the United States was the second-largest investor in the spyware market, following Israel. In that edition, twelve investors were observed to be domiciled within the United States&#8212;­whereas in this second edition, twenty new US-based investors were observed investing in the spyware industry in 2024. This indicates a significant increase of US-based investments in spyware in 2024, catapulting the United States to being the largest investor in this sample of the spyware market. This is significant in scale, as US-based investment from 2023 to 2024 largely outpaced that of other major investing countries observed in the first dataset, including Italy, Israel, and the United Kingdom. It is also significant in the disparity it points to ­the visible enforcement gap between the flow of US dollars and US policy initiatives. Despite numerous US policy actions, such as the addition of spyware vendors on the ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/surveying-the-global-spyware-market.html"><![CDATA[<p>The Atlantic Council has published its second annual report: &#8220;<a href="https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/mythical-beasts-diving-into-the-depths-of-the-global-spyware-market/">Mythical Beasts: Diving into the depths of the global spyware market</a>.&#8221;</p>
+<p>Too much good detail to summarize, but here are two items:</p>
+<blockquote><p>First, the authors found that the number of US-based investors in spyware has notably increased in the past year, when compared with the sample size of the spyware market captured in the first Mythical Beasts project. In the first edition, the United States was the second-largest investor in the spyware market, following Israel. In that edition, twelve investors were observed to be domiciled within the United States&#8212;­whereas in this second edition, twenty new US-based investors were observed investing in the spyware industry in 2024. This indicates a significant increase of US-based investments in spyware in 2024, catapulting the United States to being the largest investor in this sample of the spyware market. This is significant in scale, as US-based investment from 2023 to 2024 largely outpaced that of other major investing countries observed in the first dataset, including Italy, Israel, and the United Kingdom. It is also significant in the disparity it points to ­the visible enforcement gap between the flow of US dollars and US policy initiatives. Despite numerous US policy actions, such as the addition of spyware vendors on the <a href="https://www.commerce.gov/news/press-releases/2021/11/commerce-adds-nso-group-and-other-foreign-companies-entity-list">Entity List</a>, and the broader global leadership role that the United States has played through imposing sanctions and diplomatic engagement, US investments continue to <a href="https://www.calcalistech.com/ctechnews/article/r1er11mi61e">fund the very entities</a> that US policymakers are making an effort to combat.</p>
+<p>Second, the authors elaborated on the central role that resellers and brokers play in the spyware market, while being a notably under-researched set of actors. These entities act as intermediaries, obscuring the connections between vendors, suppliers, and buyers. Oftentimes, intermediaries connect vendors to new regional markets. Their presence in the dataset is almost assuredly underrepresented given <a href="https://www.atlanticcouncil.org/in-depth-research-reports/report/crash-exploit-and-burn/">the opaque nature of brokers and resellers</a>, making corporate structures and jurisdictional arbitrage more complex and challenging to disentangle. While their uptick in the second edition of the Mythical Beasts project may be the result of a wider, more extensive data-collection effort, there is less reporting on resellers and brokers, and these entities are not systematically understood. As observed in the first report, the activities of these suppliers and brokers represent a critical information gap for advocates of a more effective policy rooted in national security and human rights. These discoveries help bring into sharper focus the state of the spyware market and the wider cyber-proliferation space, and reaffirm the need to research and surface these actors that otherwise undermine the transparency and accountability efforts by state and non-state actors as they relate to the spyware market.</p></blockquote>
+<p>Really good work. Read the whole thing.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/surveying-the-global-spyware-market.html#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/surveying-the-global-spyware-market.html/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Time-of-Check Time-of-Use Attacks Against LLMs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html" />
+
+		<id>https://www.schneier.com/?p=70832</id>
+		<updated>2025-09-17T15:58:11Z</updated>
+		<published>2025-09-18T11:06:38Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>This is a nice piece of research: &#8220;<a href="https://arxiv.org/abs/2508.17155">Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents</a>&#8220;.:</p>
+<blockquote><p><b>Abstract:</b> Large Language Model (LLM)-enabled agents are rapidly emerging across a wide range of applications, but their deployment introduces vulnerabilities with security implications. While prior work has examined prompt-based attacks (e.g., prompt injection) and data-oriented threats (e.g., data exfiltration), time-of-check to time-of-use (TOCTOU) remain largely unexplored in this context. TOCTOU arises when an agent validates external state (e.g., a file or API response) that is later modified before use, enabling practical attacks such as malicious configuration swaps or payload injection. In this work, we present the first study of TOCTOU vulnerabilities in LLM-enabled agents. We introduce TOCTOU-Bench, a benchmark with 66 realistic user tasks designed to evaluate this class of vulnerabilities. As countermeasures, we adapt detection and mitigation techniques from systems security to this setting and propose prompt rewriting, state integrity monitoring, and tool-fusing. Our study highlights challenges unique to agentic workflows, where we achieve up to 25% detection accuracy using automated detection methods, a 3% decrease in vulnerable plan generation, and a 95% reduction in the attack window. When combining all three approaches, we reduce the TOCTOU vulnerabilities from an executed trajectory from 12% to 8%. Our findings open a new research direction at the intersection of AI safety and systems security...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html"><![CDATA[<p>This is a nice piece of research: &#8220;<a href="https://arxiv.org/abs/2508.17155">Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents</a>&#8220;.:</p>
+<blockquote><p><b>Abstract:</b> Large Language Model (LLM)-enabled agents are rapidly emerging across a wide range of applications, but their deployment introduces vulnerabilities with security implications. While prior work has examined prompt-based attacks (e.g., prompt injection) and data-oriented threats (e.g., data exfiltration), time-of-check to time-of-use (TOCTOU) remain largely unexplored in this context. TOCTOU arises when an agent validates external state (e.g., a file or API response) that is later modified before use, enabling practical attacks such as malicious configuration swaps or payload injection. In this work, we present the first study of TOCTOU vulnerabilities in LLM-enabled agents. We introduce TOCTOU-Bench, a benchmark with 66 realistic user tasks designed to evaluate this class of vulnerabilities. As countermeasures, we adapt detection and mitigation techniques from systems security to this setting and propose prompt rewriting, state integrity monitoring, and tool-fusing. Our study highlights challenges unique to agentic workflows, where we achieve up to 25% detection accuracy using automated detection methods, a 3% decrease in vulnerable plan generation, and a 95% reduction in the attack window. When combining all three approaches, we reduce the TOCTOU vulnerabilities from an executed trajectory from 12% to 8%. Our findings open a new research direction at the intersection of AI safety and systems security.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/time-of-check-time-of-use-attacks-against-llms.html/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hacking Electronic Safes]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html" />
+
+		<id>https://www.schneier.com/?p=70818</id>
+		<updated>2025-09-16T16:10:41Z</updated>
+		<published>2025-09-17T11:05:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="disclosure" /><category scheme="https://www.schneier.com/" term="locks" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="safes" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Vulnerabilities in <a href="https://www.wired.com/story/securam-prologic-safe-lock-backdoor-exploits/">electronic safes</a> that use Securam Prologic locks:</p>
+<blockquote><p>While both their techniques represent glaring security vulnerabilities, Omo says it&#8217;s the one that exploits a feature intended as a legitimate unlock method for locksmiths that&#8217;s the more widespread and dangerous. &#8220;This attack is something where, if you had a safe with this kind of lock, I could literally pull up the code right now with no specialized hardware, nothing,&#8221; Omo says. &#8220;All of a sudden, based on our testing, it seems like people can get into almost any Securam Prologic lock in the world.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html"><![CDATA[<p>Vulnerabilities in <a href="https://www.wired.com/story/securam-prologic-safe-lock-backdoor-exploits/">electronic safes</a> that use Securam Prologic locks:</p>
+<blockquote><p>While both their techniques represent glaring security vulnerabilities, Omo says it&#8217;s the one that exploits a feature intended as a legitimate unlock method for locksmiths that&#8217;s the more widespread and dangerous. &#8220;This attack is something where, if you had a safe with this kind of lock, I could literally pull up the code right now with no specialized hardware, nothing,&#8221; Omo says. &#8220;All of a sudden, based on our testing, it seems like people can get into almost any Securam Prologic lock in the world.&#8221;</p>
+<p>[&#8230;]</p>
+<p>Omo and Rowley say they informed Securam about both their safe-opening techniques in spring of last year, but have until now kept their existence secret because of legal threats from the company. &#8220;We will refer this matter to our counsel for trade libel if you choose the route of public announcement or disclosure,&#8221; a Securam representative wrote to the two researchers ahead of last year&#8217;s Defcon, where they first planned to present their research.</p>
+<p>Only after obtaining pro bono legal representation from the Electronic Frontier Foundation&#8217;s Coders&#8217; Rights Project did the pair decide to follow through with their plan to speak about Securam&#8217;s vulnerabilities at Defcon. Omo and Rowley say they&#8217;re even now being careful not to disclose enough technical detail to help others replicate their techniques, while still trying to offer a warning to safe owners about two different vulnerabilities that exist in many of their devices.</p></blockquote>
+<p>The company says that it plans on updating its locks by the end of the year, but have no plans to patch any locks already sold.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html#comments" thr:count="20" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/09/hacking-electronic-safes.html/feed/atom/" thr:count="20" />
+			<thr:total>20</thr:total>
+			</entry>
+	</feed>
