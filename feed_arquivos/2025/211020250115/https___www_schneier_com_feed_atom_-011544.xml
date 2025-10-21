@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-10-18T17:22:10Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Agentic AI’s OODA Loop Problem]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html" />
+
+		<id>https://www.schneier.com/?p=71030</id>
+		<updated>2025-10-18T17:22:10Z</updated>
+		<published>2025-10-20T11:00:28Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="integrity" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><b>The OODA loop&#8212;for observe, orient, decide, act&#8212;is a framework to understand decision-making in adversarial situations. We apply the same framework to artificial intelligence agents, who have to make their decisions with untrustworthy observations and orientation. To solve this problem, we need new systems of input, processing, and output integrity.</b></p>
+<p>Many decades ago, U.S. Air Force Colonel John Boyd introduced the concept of the &#8220;OODA loop,&#8221; for Observe, Orient, Decide, and Act. These are the four steps of real-time continuous decision-making. Boyd developed it for fighter pilots, but it&#8217;s long been applied in artificial intelligence (AI) and robotics. An AI agent, like a pilot, executes the loop over and over, accomplishing its goals iteratively within an ever-changing environment. This is Anthropic&#8217;s definition: &#8220;Agents are models using tools in a loop.&#8221;...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html"><![CDATA[<p><b>The OODA loop&#8212;for observe, orient, decide, act&#8212;is a framework to understand decision-making in adversarial situations. We apply the same framework to artificial intelligence agents, who have to make their decisions with untrustworthy observations and orientation. To solve this problem, we need new systems of input, processing, and output integrity.</b></p>
+<p>Many decades ago, U.S. Air Force Colonel John Boyd introduced the concept of the &#8220;OODA loop,&#8221; for Observe, Orient, Decide, and Act. These are the four steps of real-time continuous decision-making. Boyd developed it for fighter pilots, but it&#8217;s long been applied in artificial intelligence (AI) and robotics. An AI agent, like a pilot, executes the loop over and over, accomplishing its goals iteratively within an ever-changing environment. This is Anthropic&#8217;s definition: &#8220;Agents are models using tools in a loop.&#8221;<sup><a id="ref1back" href="#ref1">1</a></sup></p>
+<h3>OODA Loops for Agentic AI</h3>
+<p>Traditional OODA analysis assumes trusted inputs and outputs, in the same way that classical AI assumed trusted sensors, controlled environments, and physical boundaries. This no longer holds true. AI agents don&#8217;t just execute OODA loops; they embed untrusted actors within them. Web-enabled large language models (LLMs) can query adversary-controlled sources mid-loop. Systems that allow AI to use large corpora of content, such as retrieval-augmented generation (<a href="https://en.wikipedia.org/wiki/Retrieval-augmented_generation">https://en.wikipedia.org/wiki/Retrieval-augmented_generation</a>), can ingest poisoned documents. Tool-calling application programming interfaces can execute untrusted code. Modern AI sensors can encompass the entire Internet; their environments are inherently adversarial. That means that fixing AI hallucination is insufficient because even if the AI accurately interprets its inputs and produces corresponding output, it can be fully corrupt.</p>
+<p>In 2022, Simon Willison identified a new class of attacks against AI systems: &#8220;prompt injection.&#8221;<sup><a id="ref2back" href="#ref2">2</a></sup> Prompt injection is possible because an AI mixes untrusted inputs with trusted instructions and then confuses one for the other. Willison&#8217;s insight was that this isn&#8217;t just a filtering problem; it&#8217;s architectural. There is no privilege separation, and there is no separation between the data and control paths. The very mechanism that makes modern AI powerful&#8212;treating all inputs uniformly&#8212;is what makes it vulnerable. The security challenges we face today are structural consequences of using AI for everything.</p>
+<ol>
+<li>Insecurities can have far-reaching effects. A single poisoned piece of training data can affect millions of downstream applications. In this environment, security debt accrues like technical debt.</li>
+<li>AI security has a temporal asymmetry. The temporal disconnect between training and deployment creates unauditable vulnerabilities. Attackers can poison a model&#8217;s training data and then deploy an exploit years later. Integrity violations are frozen in the model. Models aren&#8217;t aware of previous compromises since each inference starts fresh and is equally vulnerable.</li>
+<li>AI increasingly maintains state&#8212;in the form of chat history and key-value caches. These states accumulate compromises. Every iteration is potentially malicious, and cache poisoning persists across interactions.</li>
+<li>Agents compound the risks. Pretrained OODA loops running in one or a dozen AI agents inherit all of these upstream compromises. Model Context Protocol (MCP) and similar systems that allow AI to use tools create their own vulnerabilities that interact with each other. Each tool has its own OODA loop, which nests, interleaves, and races. Tool descriptions become injection vectors. Models can&#8217;t verify tool semantics, only syntax. &#8220;Submit SQL query&#8221; might mean &#8220;exfiltrate database&#8221; because an agent can be corrupted in prompts, training data, or tool definitions to do what the attacker wants. The abstraction layer itself can be adversarial.</li>
+</ol>
+<p>For example, an attacker might want AI agents to leak all the secret keys that the AI knows to the attacker, who might have a collector running in bulletproof hosting in a poorly regulated jurisdiction. They could plant coded instructions in easily scraped web content, waiting for the next AI training set to include it. Once that happens, they can activate the behavior through the front door: tricking AI agents (think a lowly chatbot or an analytics engine or a coding bot or anything in between) that are increasingly taking their own actions, in an OODA loop, using untrustworthy input from a third-party user. This compromise persists in the conversation history and cached responses, spreading to multiple future interactions and even to other AI agents. All this requires us to reconsider risks to the agentic AI OODA loop, from top to bottom.</p>
+<ul>
+<li><em>Observe:</em> The risks include adversarial examples, prompt injection, and sensor spoofing. A sticker fools computer vision, a string fools an LLM. The observation layer lacks authentication and integrity.</li>
+<li><em>Orient:</em> The risks include training data poisoning, context manipulation, and semantic backdoors. The model&#8217;s worldview&#8212;its orientation&#8212;can be influenced by attackers months before deployment. Encoded behavior activates on trigger phrases.</li>
+<li><em>Decide:</em> The risks include logic corruption via fine-tuning attacks, reward hacking, and objective misalignment. The decision process itself becomes the payload. Models can be manipulated to trust malicious sources preferentially.</li>
+<li><em>Act:</em> The risks include output manipulation, tool confusion, and action hijacking. MCP and similar protocols multiply attack surfaces. Each tool call trusts prior stages implicitly.</li>
+</ul>
+<p>AI gives the old phrase &#8220;inside your adversary&#8217;s OODA loop&#8221; new meaning. For Boyd&#8217;s fighter pilots, it meant that you were operating faster than your adversary, able to act on current data while they were still on the previous iteration. With agentic AI, adversaries aren&#8217;t just metaphorically inside; they&#8217;re literally providing the observations and manipulating the output. We want adversaries inside our loop because that&#8217;s where the data are. AI&#8217;s OODA loops must observe untrusted sources to be useful. The competitive advantage, accessing web-scale information, is identical to the attack surface. The speed of your OODA loop is irrelevant when the adversary controls your sensors and actuators.</p>
+<p>Worse, speed can itself be a vulnerability. The faster the loop, the less time for verification. Millisecond decisions result in millisecond compromises.</p>
+<h3>The Source of the Problem</h3>
+<p>The fundamental problem is that AI must compress reality into model-legible forms. In this setting, adversaries can exploit the compression. They don&#8217;t have to attack the territory; they can attack the map. Models lack local contextual knowledge. They process symbols, not meaning. A human sees a suspicious URL; an AI sees valid syntax. And that semantic gap becomes a security gap.</p>
+<p>Prompt injection might be unsolvable in today&#8217;s LLMs. LLMs process token sequences, but no mechanism exists to mark token privileges. Every solution proposed introduces new injection vectors: Delimiter? Attackers include delimiters. Instruction hierarchy? Attackers claim priority. Separate models? Double the attack surface. Security requires boundaries, but LLMs dissolve boundaries. More generally, existing mechanisms to improve models won&#8217;t help protect against attack. Fine-tuning preserves backdoors. Reinforcement learning with human feedback adds human preferences without removing model biases. Each training phase compounds prior compromises.</p>
+<p>This is Ken Thompson&#8217;s &#8220;trusting trust&#8221; attack all over again.<sup><a id="ref3back" href="#ref3">3</a></sup> Poisoned states generate poisoned outputs, which poison future states. Try to summarize the conversation history? The summary includes the injection. Clear the cache to remove the poison? Lose all context. Keep the cache for continuity? Keep the contamination. Stateful systems can&#8217;t forget attacks, and so memory becomes a liability. Adversaries can craft inputs that corrupt future outputs.</p>
+<p>This is the agentic AI security trilemma. Fast, smart, secure; pick any two. Fast and smart&#8212;you can&#8217;t verify your inputs. Smart and secure&#8212;you check everything, slowly, because AI itself can&#8217;t be used for this. Secure and fast&#8212;you&#8217;re stuck with models with intentionally limited capabilities.</p>
+<p>This trilemma isn&#8217;t unique to AI. Some autoimmune disorders are examples of molecular mimicry&#8212;when biological recognition systems fail to distinguish self from nonself. The mechanism designed for protection becomes the pathology as T cells attack healthy tissue or fail to attack pathogens and bad cells. AI exhibits the same kind of recognition failure. No digital immunological markers separate trusted instructions from hostile input. The model&#8217;s core capability, following instructions in natural language, is inseparable from its vulnerability. Or like oncogenes, the normal function and the malignant behavior share identical machinery.</p>
+<p>Prompt injection is semantic mimicry: adversarial instructions that resemble legitimate prompts, which trigger self-compromise. The immune system can&#8217;t add better recognition without rejecting legitimate cells. AI can&#8217;t filter malicious prompts without rejecting legitimate instructions. Immune systems can&#8217;t verify their own recognition mechanisms, and AI systems can&#8217;t verify their own integrity because the verification system uses the same corrupted mechanisms.</p>
+<p>In security, we often assume that foreign/hostile code looks different from legitimate instructions, and we use signatures, patterns, and statistical anomaly detection to detect it. But getting inside someone’s AI OODA loop uses the system&#8217;s native language. The attack is indistinguishable from normal operation because it is normal operation. The vulnerability isn&#8217;t a defect&#8212;it&#8217;s the feature working correctly.</p>
+<h3>Where to Go Next?</h3>
+<p>The shift to an AI-saturated world has been dizzying. Seemingly overnight, we have AI in every technology product, with promises of even more&#8212;and agents as well. So where does that leave us with respect to security?</p>
+<p>Physical constraints protected Boyd&#8217;s fighter pilots. Radar returns couldn&#8217;t lie about physics; fooling them, through stealth or jamming, constituted some of the most successful attacks against such systems that are still in use today. Observations were authenticated by their presence. Tampering meant physical access. But semantic observations have no physics. When every AI observation is potentially corrupted, integrity violations span the stack. Text can claim anything, and images can show impossibilities. In training, we face poisoned datasets and backdoored models. In inference, we face adversarial inputs and prompt injection. During operation, we face a contaminated context and persistent compromise. We need semantic integrity: verifying not just data but interpretation, not just content but context, not just information but understanding. We can add checksums, signatures, and audit logs. But how do you checksum a thought? How do you sign semantics? How do you audit attention?</p>
+<p>Computer security has evolved over the decades. We addressed availability despite failures through replication and decentralization. We addressed confidentiality despite breaches using authenticated encryption. Now we need to address integrity despite corruption.<sup><a id="ref4back" href="#ref4">4</a></sup></p>
+<p>Trustworthy AI agents require integrity because we can&#8217;t build reliable systems on unreliable foundations. The question isn&#8217;t whether we can add integrity to AI but whether the architecture permits integrity at all.</p>
+<p>AI OODA loops and integrity aren&#8217;t fundamentally opposed, but today&#8217;s AI agents observe the Internet, orient via statistics, decide probabilistically, and act without verification. We built a system that trusts everything, and now we hope for a semantic firewall to keep it safe. The adversary isn&#8217;t inside the loop by accident; it&#8217;s there by architecture. Web-scale AI means web-scale integrity failure. Every capability corrupts.</p>
+<p style="padding-top: 1em;">Integrity isn&#8217;t a feature you add; it&#8217;s an architecture you choose. So far, we have built AI systems where &#8220;fast&#8221; and &#8220;smart&#8221; preclude &#8220;secure.&#8221; We optimized for capability over verification, for accessing web-scale data over ensuring trust. AI agents will be even more powerful&#8212;and increasingly autonomous. And without integrity, they will also be dangerous.</p>
+<h4>References</h4>
+<p><a id="ref1" href="#ref1back">1</a>. S. Willison, <cite>Simon Willison&#8217;s Weblog</cite>, May 22, 2025. [Online]. Available: <a href="https://simonwillison.net/2025/May/22/tools-in-a-loop/">https://simonwillison.net/2025/May/22/tools-in-a-loop/</a></p>
+<p><a id="ref2" href="#ref2back">2</a>. S. Willison, &#8220;Prompt injection attacks against GPT-3,&#8221; <cite>Simon Willison&#8217;s Weblog</cite>, Sep. 12, 2022. [Online]. Available: <a href="https://simonwillison.net/2022/Sep/12/prompt-injection/">https://simonwillison.net/2022/Sep/12/prompt-injection/</a></p>
+<p><a id="ref3" href="#ref3back">3</a>. K. Thompson, &#8220;Reflections on trusting trust,&#8221; <cite>Commun. ACM</cite>, vol. 27, no. 8, Aug. 1984. [Online]. Available: <a href="https://www.cs.cmu.edu/%7Erdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf">https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf</a></p>
+<p><a id="ref4" href="#ref4back">4</a>. B. Schneier, &#8220;The age of integrity,&#8221; <cite>IEEE Security &amp; Privacy</cite>, vol. 23, no. 3, p. 96, May/Jun. 2025. [Online]. Available: <a href="https://www.computer.org/csdl/magazine/sp/2025/03/11038984/27COaJtjDOM">https://www.computer.org/csdl/magazine/sp/2025/03/11038984/27COaJtjDOM</a></p>
+<p><em>This essay was written with Barath Raghavan, and originally appeared in <a href="https://www.computer.org/csdl/magazine/sp/5555/01/11194053/2aB2Rf5nZ0k">IEEE Security &amp; Privacy</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/agentic-ais-ooda-loop-problem.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Inks Philippines Fisherman]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-squid-inks-philippines-fisherman.html" />
+
+		<id>https://www.schneier.com/?p=71027</id>
+		<updated>2025-10-16T17:43:49Z</updated>
+		<published>2025-10-17T21:02:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>Good <a href="https://www.foxweather.com/earth-space/philippines-fisherman-face-full-squid-ink">video</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-squid-inks-philippines-fisherman.html"><![CDATA[<p>Good <a href="https://www.foxweather.com/earth-space/philippines-fisherman-face-full-squid-ink">video</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-squid-inks-philippines-fisherman.html#comments" thr:count="18" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-squid-inks-philippines-fisherman.html/feed/atom/" thr:count="18" />
+			<thr:total>18</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[A Surprising Amount of Satellite Traffic Is Unencrypted]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/a-surprising-amount-of-satellite-traffic-is-unencrypted.html" />
+
+		<id>https://www.schneier.com/?p=71022</id>
+		<updated>2025-10-16T17:37:06Z</updated>
+		<published>2025-10-17T11:03:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cell phones" /><category scheme="https://www.schneier.com/" term="data protection" /><category scheme="https://www.schneier.com/" term="eavesdropping" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="infrastructure" />
+		<summary type="html"><![CDATA[<p>Here&#8217;s the <a href="https://satcom.sysnet.ucsd.edu/">summary</a>:</p>
+<blockquote><p>We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens&#8217; voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/a-surprising-amount-of-satellite-traffic-is-unencrypted.html"><![CDATA[<p>Here&#8217;s the <a href="https://satcom.sysnet.ucsd.edu/">summary</a>:</p>
+<blockquote><p>We pointed a commercial-off-the-shelf satellite dish at the sky and carried out the most comprehensive public study to date of geostationary satellite communication. A shockingly large amount of sensitive traffic is being broadcast unencrypted, including critical infrastructure, internal corporate and government communications, private citizens&#8217; voice calls and SMS, and consumer Internet traffic from in-flight wifi and mobile networks. This data can be passively observed by anyone with a few hundred dollars of consumer-grade hardware. There are thousands of geostationary satellite transponders globally, and data from a single transponder may be visible from an area as large as 40% of the surface of the earth.</p></blockquote>
+<p>Full <a href="https://satcom.sysnet.ucsd.edu/docs/dontlookup_ccs25_fullpaper.pdf">paper</a>. News <a href="https://gizmodo.com/satellites-are-exposing-unprotected-cellphone-and-military-data-study-finds-2000672091">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/a-surprising-amount-of-satellite-traffic-is-unencrypted.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/a-surprising-amount-of-satellite-traffic-is-unencrypted.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Cryptocurrency ATMs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/cryptocurrency-atms.html" />
+
+		<id>https://www.schneier.com/?p=71010</id>
+		<updated>2025-10-15T16:54:10Z</updated>
+		<published>2025-10-16T11:06:51Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="ATMs" /><category scheme="https://www.schneier.com/" term="cryptocurrency" /><category scheme="https://www.schneier.com/" term="scams" />
+		<summary type="html"><![CDATA[<p>CNN has a <a href="https://www.cnn.com/interactive/2025/10/us/crypto-atm-scams-companies-profit-invs-vis/">great piece</a> about how cryptocurrency ATMs are used to scam people out of their money. The fees are usurious, and they&#8217;re a common place for scammers to send victims to buy cryptocurrency for them. The companies behind the ATMs, at best, do not care about the harm they cause; the profits are just too good.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/cryptocurrency-atms.html"><![CDATA[<p>CNN has a <a href="https://www.cnn.com/interactive/2025/10/us/crypto-atm-scams-companies-profit-invs-vis/">great piece</a> about how cryptocurrency ATMs are used to scam people out of their money. The fees are usurious, and they&#8217;re a common place for scammers to send victims to buy cryptocurrency for them. The companies behind the ATMs, at best, do not care about the harm they cause; the profits are just too good.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/cryptocurrency-atms.html#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/cryptocurrency-atms.html/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Apple’s Bug Bounty Program]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/apples-bug-bounty-program.html" />
+
+		<id>https://www.schneier.com/?p=70981</id>
+		<updated>2025-10-14T16:06:49Z</updated>
+		<published>2025-10-15T11:02:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Apple" /><category scheme="https://www.schneier.com/" term="exploits" /><category scheme="https://www.schneier.com/" term="spyware" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Apple is now offering a <a href="https://arstechnica.com/security/2025/10/apple-ups-the-reward-for-finding-major-exploits-to-2-million/">$2M</a> <a href="https://www.csoonline.com/article/4071044/apple-bumps-rce-bug-bounties-to-2m-to-counter-commercial-spyware-vendors.html">bounty</a> for a zero-click exploit. According to <a href="https://security.apple.com/blog/apple-security-bounty-evolved/">the Apple website</a>:</p>
+<blockquote><p>Today we’re announcing the next major chapter for Apple Security Bounty, featuring the industry’s highest rewards, expanded research categories, and a flag system for researchers to objectively demonstrate vulnerabilities and obtain accelerated awards.</p>
+<ol>
+<li>We’re doubling our top award to $2 million for exploit chains that can achieve similar goals as sophisticated mercenary spyware attacks. This is an unprecedented amount in the industry and the largest payout offered by any bounty program we’re aware of ­ and our bonus system, providing additional rewards for Lockdown Mode bypasses and vulnerabilities discovered in beta software, can more than double this reward, with a maximum payout in excess of $5 million. We’re also doubling or significantly increasing rewards in many other categories to encourage more intensive research. This includes $100,000 for a complete Gatekeeper bypass, and $1 million for broad unauthorized iCloud access, as no successful exploit has been demonstrated to date in either category.
+...</li></ol></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/apples-bug-bounty-program.html"><![CDATA[<p>Apple is now offering a <a href="https://arstechnica.com/security/2025/10/apple-ups-the-reward-for-finding-major-exploits-to-2-million/">$2M</a> <a href="https://www.csoonline.com/article/4071044/apple-bumps-rce-bug-bounties-to-2m-to-counter-commercial-spyware-vendors.html">bounty</a> for a zero-click exploit. According to <a href="https://security.apple.com/blog/apple-security-bounty-evolved/">the Apple website</a>:</p>
+<blockquote><p>Today we’re announcing the next major chapter for Apple Security Bounty, featuring the industry’s highest rewards, expanded research categories, and a flag system for researchers to objectively demonstrate vulnerabilities and obtain accelerated awards.</p>
+<ol>
+<li>We’re doubling our top award to $2 million for exploit chains that can achieve similar goals as sophisticated mercenary spyware attacks. This is an unprecedented amount in the industry and the largest payout offered by any bounty program we’re aware of ­ and our bonus system, providing additional rewards for Lockdown Mode bypasses and vulnerabilities discovered in beta software, can more than double this reward, with a maximum payout in excess of $5 million. We’re also doubling or significantly increasing rewards in many other categories to encourage more intensive research. This includes $100,000 for a complete Gatekeeper bypass, and $1 million for broad unauthorized iCloud access, as no successful exploit has been demonstrated to date in either category.
+<li>Our bounty categories are expanding to cover even more attack surfaces. Notably, we&#8217;re rewarding one-click WebKit sandbox escapes with up to $300,000, and wireless proximity exploits over any radio with up to $1 million.
+<li>We’re introducing Target Flags, a new way for researchers to objectively demonstrate exploitability for some of our top bounty categories, including remote code execution and Transparency, Consent, and Control (TCC) bypasses ­ and to help determine eligibility for a specific award. Researchers who submit reports with Target Flags will qualify for accelerated awards, which are processed immediately after the research is received and verified, even before a fix becomes available.</ol>
+</blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/apples-bug-bounty-program.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/apples-bug-bounty-program.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/upcoming-speaking-engagements-49.html" />
+
+		<id>https://www.schneier.com/?p=70944</id>
+		<updated>2025-10-15T04:03:30Z</updated>
+		<published>2025-10-14T16:01:11Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>Nathan E. Sanders and I will be giving a <a href="https://ash.harvard.edu/events/in-person-book-talk-rewiring-democracy-how-ai-will-transform-our-politics-government-and-citizenship/">book talk</a> on <em>Rewiring Democracy</em> at the Harvard Kennedy School’s Ash Center in Cambridge, Massachusetts, USA, on October 22, 2025, at noon ET.</li>
+<li>Nathan E. Sanders and I will be speaking and signing books at the <a href="https://www.harvard.com/event/schneier-sanders">Cambridge Public Library</a> in Cambridge, Massachusetts, USA, on October 22, 2025, at 6:00 PM ET. The event is sponsored by Harvard Bookstore.</li>
+<li>Nathan E. Sanders and I will give a <a href="https://datasociety.net/events/a-roadmap-for-rewiring-democracy-in-the-age-of-ai/">virtual talk</a> about our book <em>Rewiring Democracy</em> on October 23, 2025, at 1:00 PM ET. The event is hosted by Data &#38; Society...</li></ul>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/upcoming-speaking-engagements-49.html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>Nathan E. Sanders and I will be giving a <a href="https://ash.harvard.edu/events/in-person-book-talk-rewiring-democracy-how-ai-will-transform-our-politics-government-and-citizenship/">book talk</a> on <em>Rewiring Democracy</em> at the Harvard Kennedy School’s Ash Center in Cambridge, Massachusetts, USA, on October 22, 2025, at noon ET.</li>
+<li>Nathan E. Sanders and I will be speaking and signing books at the <a href="https://www.harvard.com/event/schneier-sanders">Cambridge Public Library</a> in Cambridge, Massachusetts, USA, on October 22, 2025, at 6:00 PM ET. The event is sponsored by Harvard Bookstore.</li>
+<li>Nathan E. Sanders and I will give a <a href="https://datasociety.net/events/a-roadmap-for-rewiring-democracy-in-the-age-of-ai/">virtual talk</a> about our book <em>Rewiring Democracy</em> on October 23, 2025, at 1:00 PM ET. The event is hosted by Data &amp; Society.</li>
+<li>I’m speaking at the <a href="https://www.torontomu.ca/tedrogersschool/cybersecurity-research-lab/Events/2025/10/crlspeakerseries-ai-and-trust/">Ted Rogers School of Management</a> in Toronto, Ontario, Canada, on Thursday, October 29, 2025, at 1:00 PM ET.</li>
+<li>Nathan E. Sanders and I will give a <a href="https://www.leventhalmap.org/event/author-talk-nathan-sanders-and-bruce-schneier/">virtual talk</a> about our book <em>Rewiring Democracy</em> on November 3, 2025, at 2:00 PM ET. The event is hosted by the Boston Public Library.</li>
+<li>I’m speaking at the <a href="https://www.coe.int/en/web/world-forum-democracy">World Forum for Democracy</a> in Strasbourg, France, November 5-7, 2025.</li>
+<li>I’m speaking and signing books at the University of Toronto Bookstore in Toronto, Ontario, Canada, on November 14, 2025. Details to come.</li>
+<li>Nathan E. Sanders and I will be speaking at the <a href="https://mitpress.mit.edu/event/bruce-schneier-at-the-mit-museum/">MIT Museum</a> in Cambridge, Massachusetts, USA, on December 1, 2025, at 6:00 pm ET.</li>
+<li>Nathan E. Sanders and I will be speaking at a <a href="https://citylights.com/events/rewiring-democracy-with-bruce-schneier-and-nathan-e-sanders/">virtual event</a> hosted by City Lights on the Zoom platform, on December 3, 2025, at 6:00 PM PT.</li>
+<li>I’m speaking and signing books at the Chicago Public Library in Chicago, Illinois, USA, on February 5, 2026. Details to come.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/upcoming-speaking-engagements-49.html#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/upcoming-speaking-engagements-49.html/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Trump Administration’s Increased Use of Social Media Surveillance]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/the-trump-administrations-increased-use-of-social-media-surveillance.html" />
+
+		<id>https://www.schneier.com/?p=70954</id>
+		<updated>2025-10-13T14:13:56Z</updated>
+		<published>2025-10-14T11:09:54Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="activism" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="reports" /><category scheme="https://www.schneier.com/" term="social media" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>This chilling paragraph is in a comprehensive <a href="https://www.brookings.edu/articles/how-tech-powers-immigration-enforcement/">Brookings report</a> about the use of tech to deport people from the US:</p>
+<blockquote><p>The administration has also adapted its methods of social media surveillance. Though agencies like <a href="https://www.brennancenter.org/our-work/research-reports/social-media-surveillance-us-government">the State Department</a> have gathered millions of handles and monitored political discussions online, the Trump administration has been more explicit in who it&#8217;s targeting. Secretary of State Marco Rubio announced a new, zero-tolerance <a href="https://www.axios.com/2025/03/06/state-department-ai-revoke-foreign-student-visas-hamas">&#8220;Catch and Revoke&#8221; strategy,</a> which uses AI to monitor the public speech of foreign nationals and <a href="https://www.forbes.com/sites/stuartanderson/2025/05/05/rubio-makes-immigration-threat-to-revoke-student-h-1b-and-other-visas/">revoke visas...</a></p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/the-trump-administrations-increased-use-of-social-media-surveillance.html"><![CDATA[<p>This chilling paragraph is in a comprehensive <a href="https://www.brookings.edu/articles/how-tech-powers-immigration-enforcement/">Brookings report</a> about the use of tech to deport people from the US:</p>
+<blockquote><p>The administration has also adapted its methods of social media surveillance. Though agencies like <a href="https://www.brennancenter.org/our-work/research-reports/social-media-surveillance-us-government">the State Department</a> have gathered millions of handles and monitored political discussions online, the Trump administration has been more explicit in who it&#8217;s targeting. Secretary of State Marco Rubio announced a new, zero-tolerance <a href="https://www.axios.com/2025/03/06/state-department-ai-revoke-foreign-student-visas-hamas">&#8220;Catch and Revoke&#8221; strategy,</a> which uses AI to monitor the public speech of foreign nationals and <a href="https://www.forbes.com/sites/stuartanderson/2025/05/05/rubio-makes-immigration-threat-to-revoke-student-h-1b-and-other-visas/">revoke visas</a> of those who &#8220;abuse [the country&#8217;s] hospitality.&#8221; In a March press conference, <a href="https://www.state.gov/secretary-of-state-marco-rubio-remarks-to-the-press-3/">Rubio remarked</a> that at least 300 visas, primarily student and visitor visas, had been revoked on the grounds that visitors are engaging in activity contrary to national interest. A State Department cable also announced <a href="https://www.washingtonpost.com/national-security/2025/06/18/student-visas-social-media-vetting-state-department/">a new requirement</a> for student visa applicants to set their social media accounts to public&#8212;reflecting stricter vetting practices aimed at identifying individuals who &#8220;bear hostile attitudes toward our citizens, culture, government, institutions, or founding principles,&#8221; among other criteria.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/the-trump-administrations-increased-use-of-social-media-surveillance.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/the-trump-administrations-increased-use-of-social-media-surveillance.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Rewiring Democracy is Coming Soon]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/rewiring-democracy-is-coming-soon.html" />
+
+		<id>https://www.schneier.com/?p=70952</id>
+		<updated>2025-10-14T17:27:47Z</updated>
+		<published>2025-10-13T16:36:38Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="books" /><category scheme="https://www.schneier.com/" term="democracy" /><category scheme="https://www.schneier.com/" term="Rewiring Democracy" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>My latest book, <i>Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship</i>, will be published in just over a week. No reviews yet, but you can read chapters <a href="https://pghrev.com/being-a-politician/">12</a> and <a href="https://newpublic.substack.com/p/2ddffc17-a033-4f98-83fa-11376b30c6cd">34</a> (of <a href="https://www.schneier.com/books/table-of-contents/">43 chapters</a> total).</p>
+<p>You can order the book pretty much everywhere, and a copy signed by me <a href="https://www.schneier.com/product/rewiring-democracy-hardcover/">here</a>.</p>
+<p>Please help spread the word. I want this book to make a splash when it&#8217;s public. Leave a review on whatever site you buy it from. Or make a TikTok video. Or do whatever you kids do these days. Is anyone a Slashdot contributor? I&#8217;d like the book to be announced there...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/rewiring-democracy-is-coming-soon.html"><![CDATA[<p>My latest book, <i>Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship</i>, will be published in just over a week. No reviews yet, but you can read chapters <a href="https://pghrev.com/being-a-politician/">12</a> and <a href="https://newpublic.substack.com/p/2ddffc17-a033-4f98-83fa-11376b30c6cd">34</a> (of <a href="https://www.schneier.com/books/table-of-contents/">43 chapters</a> total).</p>
+<p>You can order the book pretty much everywhere, and a copy signed by me <a href="https://www.schneier.com/product/rewiring-democracy-hardcover/">here</a>.</p>
+<p>Please help spread the word. I want this book to make a splash when it&#8217;s public. Leave a review on whatever site you buy it from. Or make a TikTok video. Or do whatever you kids do these days. Is anyone a Slashdot contributor? I&#8217;d like the book to be announced there.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/rewiring-democracy-is-coming-soon.html#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/rewiring-democracy-is-coming-soon.html/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI and the Future of American Politics]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html" />
+
+		<id>https://www.schneier.com/?p=70938</id>
+		<updated>2025-10-11T07:25:49Z</updated>
+		<published>2025-10-13T11:04:31Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="democracy" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Two years ago, Americans anxious about the forthcoming 2024 presidential election were considering the malevolent force of an election influencer: artificial intelligence. Over the past several years, we have seen <a href="https://www.cigionline.org/articles/then-and-now-how-does-ai-electoral-interference-compare-in-2025/">plenty</a> <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1569115/full">of</a> <a href="https://www.nytimes.com/2025/06/26/technology/ai-elections-democracy.html">warning</a> <a href="https://cdn.prod.website-files.com/643ecb10be528d2c1da863cb/682f5ae442fffdff819ef830_TP%202025.2.pdf">signs</a> from elections worldwide demonstrating how AI can be used to propagate misinformation and alter the political landscape, whether by <a href="https://www.nytimes.com/2023/12/13/us/politics/trump-meme-trolls-2024.html">trolls</a> on social media, <a href="https://www.npr.org/2024/08/17/nx-s1-5079397/openai-chatgpt-iranian-group-us-election">foreign</a> <a href="https://www.nato.int/docu/review/articles/2025/02/07/algorithmic-invasions-how-information-warfare-threatens-nato-s-eastern-flank/index.html">influencers</a>, or even a <a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">street magician</a><a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">.</a> AI is poised to play a more volatile role than ever before in America&#8217;s next federal election in 2026. We can already see how different groups of political actors are approaching AI. Professional campaigners are using AI to accelerate the traditional tactics of electioneering; organizers are using it to reinvent how movements are built; and citizens are using it both to express themselves and amplify their side&#8217;s messaging. Because there are so few rules, and so little prospect of regulatory action, around AI&#8217;s role in politics, there is no oversight of these activities, and no safeguards against the dramatic potential impacts for our democracy...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html"><![CDATA[<p>Two years ago, Americans anxious about the forthcoming 2024 presidential election were considering the malevolent force of an election influencer: artificial intelligence. Over the past several years, we have seen <a href="https://www.cigionline.org/articles/then-and-now-how-does-ai-electoral-interference-compare-in-2025/">plenty</a> <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1569115/full">of</a> <a href="https://www.nytimes.com/2025/06/26/technology/ai-elections-democracy.html">warning</a> <a href="https://cdn.prod.website-files.com/643ecb10be528d2c1da863cb/682f5ae442fffdff819ef830_TP%202025.2.pdf">signs</a> from elections worldwide demonstrating how AI can be used to propagate misinformation and alter the political landscape, whether by <a href="https://www.nytimes.com/2023/12/13/us/politics/trump-meme-trolls-2024.html">trolls</a> on social media, <a href="https://www.npr.org/2024/08/17/nx-s1-5079397/openai-chatgpt-iranian-group-us-election">foreign</a> <a href="https://www.nato.int/docu/review/articles/2025/02/07/algorithmic-invasions-how-information-warfare-threatens-nato-s-eastern-flank/index.html">influencers</a>, or even a <a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">street magician</a><a href="https://www.nbcnews.com/politics/2024-election/democratic-operative-admits-commissioning-fake-biden-robocall-used-ai-rcna140402">.</a> AI is poised to play a more volatile role than ever before in America&#8217;s next federal election in 2026. We can already see how different groups of political actors are approaching AI. Professional campaigners are using AI to accelerate the traditional tactics of electioneering; organizers are using it to reinvent how movements are built; and citizens are using it both to express themselves and amplify their side&#8217;s messaging. Because there are so few rules, and so little prospect of regulatory action, around AI&#8217;s role in politics, there is no oversight of these activities, and no safeguards against the dramatic potential impacts for our democracy.</p>
+<h3>The Campaigners</h3>
+<p>Campaigners&#8212;messengers, ad buyers, fundraisers, and strategists&#8212;are focused on efficiency and optimization. To them, AI is a way to augment or even replace expensive humans who traditionally perform tasks like personalizing emails, texting donation solicitations, and deciding what platforms and audiences to target.</p>
+<p>This is an incremental evolution of the computerization of campaigning that has been underway for decades. For example, the progressive campaign infrastructure group Tech for Campaigns <a href="https://www.techforcampaigns.org/results/2024-results">claims</a> it used AI in the 2024 cycle to reduce the time spent drafting fundraising solicitations by one-third. If AI is working well here, you won&#8217;t notice the difference between an annoying campaign solicitation written by a human staffer and an annoying one written by AI.</p>
+<p>But AI is scaling these capabilities, which is likely to make them even more ubiquitous. This will make the biggest difference for challengers to incumbents in safe seats, who see AI as both a tacitly useful tool and an attention-grabbing way to get their race into the headlines. <a href="https://www.wsj.com/articles/underdog-who-beat-biden-in-american-samoa-used-ai-in-election-campaign-b0ce62d6">Jason Palmer</a>, the little-known Democratic primary challenger to Joe Biden, successfully won the American Samoa primary while extensively leveraging AI avatars for campaigning.</p>
+<p>Such tactics were sometimes deployed as publicity stunts in the 2024 cycle; they were firsts that got attention. Pennsylvania Democratic Congressional candidate <a href="https://www.politico.com/news/2023/12/12/democratic-campaign-ai-caller-00131180">Shamaine Daniels</a> became the first to use a conversational AI robocaller in 2023. Two long-shot challengers to Rep. Don Beyer used an <a href="https://www.reuters.com/world/us/virginia-congressional-candidate-creates-ai-chatbot-debate-stand-in-incumbent-2024-10-08/">AI avatar</a> to represent the incumbent in a live debate last October after he declined to participate. In 2026, voters who have seen years of the official White House X account posting deepfaked <a href="https://www.bbc.com/news/articles/cdrg8zkz8d0o">memes</a> of Donald Trump will be desensitized to the use of AI in political communications.</p>
+<p>Strategists are also turning to AI to interpret public opinion data and provide more <a href="https://link.springer.com/article/10.1007/s00146-024-02150-4">fine-grained insight</a> into the perspective of different voters. This might sound like AIs replacing people in opinion polls, but it is really a <a href="https://ash.harvard.edu/articles/using-ai-for-political-polling/">continuation</a> of the evolution of political polling into a data-driven science over the last several decades.</p>
+<p>A recent <a href="https://theaapc.org/wp-content/uploads/2025/05/AAPC-Foundation-AI-Presentation-Public-Release-v4.pptx.pdf">survey</a> by the American Association of Political Consultants found that a majority of their members&#8217; firms already use AI regularly in their work, and more than 40 percent believe it will &#8220;fundamentally transform&#8221; the future of their profession. If these emerging AI tools become popular in the midterms, it won&#8217;t just be a few candidates from the tightest national races texting you three times a day. It may also be the member of Congress in the safe district next to you, and your state representative, and your school board members.</p>
+<p>The development and use of AI in campaigning is different depending on what side of the aisle you look at. On the Republican side, Push Digital Group is going &#8220;<a href="https://campaignsandelections.com/industry-news/gop-firm-bets-big-on-artificial-intelligenc/">all in</a>&#8221; on a new AI <a href="https://pushdigitalgroup.com/blog/push-digital-group-launches-push-ai/">initiative</a>, using the technology to create hundreds of ad variants for their clients automatically, as well as assisting with strategy, targeting, and data analysis. On the other side, the National Democratic Training Committee recently released a <a href="https://www.wired.com/story/democrats-midterm-elections-ai/">playbook</a> for using AI. <a href="https://shortyawards.com/16th/quillerai">Quiller</a> is building an AI-powered fundraising platform aimed at drastically reducing the time campaigns spend producing emails and texts. Progressive-aligned startups <a href="https://www.chorusai.co">Chorus AI</a> and <a href="https://campaignsandelections.com/industry-news/startup-bets-on-ai-ads-for-politics/">BattlegroundAI</a> are offering AI tools for automatically generating ads for use on social media and other digital platforms. <a href="https://www.donoratlas.com">DonorAtlas</a> automates data collection on potential donors, and <a href="https://www.hillandstate.com/rivalmindai">RivalMind AI</a> focuses on political research and strategy, automating the production of candidate dossiers.</p>
+<p>For now, there seems to be an investment gap between Democratic- and Republican-aligned technology innovators. Progressive venture fund <a href="https://highergroundlabs.com">Higher Ground Labs</a> boasts $50 million in deployed investments since 2017 and a significant <a href="https://highergroundlabs.com/ai/">focus on AI</a>. Republican-aligned counterparts operate on a much smaller scale. Startup Caucus has announced one investment&#8212;of $50,000&#8212;since 2022. The <a href="https://www.campaigninnovation.org">Center for Campaign Innovation</a> funds research projects and events, not companies. This echoes a longstanding gap in campaign technology between Democratic- and Republican-aligned <a href="https://usafacts.org/articles/whos-funding-the-2024-election/">fundraising platforms</a> ActBlue and WinRed, which has landed the former in Republicans&#8217; political <a href="https://www.politico.com/news/2025/06/09/actblue-letter-republican-congressional-investigation-00394531">crosshairs</a>.</p>
+<p>Of course, not all campaign technology innovations will be visible. In 2016, the Trump campaign vocally eschewed using <a href="https://fivethirtyeight.com/features/trumps-scorning-of-data-may-not-hurt-him-but-itll-hurt-the-gop/">data</a> to drive campaign strategy and appeared to be falling way <a href="https://www.wired.com/2016/11/facebook-won-trump-election-not-just-fake-news">behind</a> on ad spending, but was&#8212;we learned in retrospect&#8212;<a href="https://d3.harvard.edu/platform-digit/submission/the-45th-how-the-trump-campaigns-digital-strategy-made-history/">actually</a> leaning heavily into digital advertising and making use of new controversial mechanisms for accessing and exploiting voters&#8217; social media data with vendor <a href="https://bipartisanpolicy.org/blog/cambridge-analytica-controversy/">Cambridge Analytica</a>. The most impactful uses of AI in the 2026 midterms may not be known until 2027 or beyond.</p>
+<h3>The Organizers</h3>
+<p>Beyond the realm of political consultants driving ad buys and fundraising appeals, organizers are using AI in ways that feel more radically new.</p>
+<p>The hypothetical potential of AI to drive political movements was illustrated in 2022 when a Danish artist collective used an AI model to found a political party, the <a href="https://www.vice.com/en/article/this-danish-political-party-is-led-by-an-ai/">Synthetic Party</a>, and generate its policy goals. This was more of an art project than a popular movement, but it demonstrated that AIs&#8212;synthesizing the expressions and policy interests of humans&#8212;can formulate a political platform. In 2025, Denmark hosted a &#8220;<a href="https://kunsthalaarhus.dk/en/Exhibitions/Synthetic-Summit">summit</a>&#8221; of eight such AI political agents where attendees could witness &#8220;continuously orchestrate[d] algorithmic micro-assemblies, spontaneous deliberations, and impromptu policy-making&#8221; by the participating AIs.</p>
+<p>The more viable version of this concept lies in the use of AIs to facilitate deliberation. AIs are being used to help <a href="https://static.ie.edu/CGC/AI4D%20Paper%203%20Applications%20of%20Artificial%20Intelligence%20Tools%20to%20Engance%20Legislative%20Engagement.pdf">legislators</a> collect input from constituents and to hold large-scale <a href="https://delibdemjournal.org/article/id/1556/">citizen assemblies</a>. This kind of AI-driven &#8220;<a href="https://proceedings.open.tudelft.nl/DGO2025/article/view/953">sensemaking</a>&#8221; may play a powerful role in the future of public policy. Some <a href="https://www.science.org/doi/10.1126/science.adq2852">research</a> has suggested that AI can be as or more effective than humans in helping people find common ground on controversial policy issues.</p>
+<p>Another movement for &#8220;<a href="https://publicai.network">Public AI</a>&#8221; is focused on wresting AI from the hands of corporations to put people, through their governments, in control. Civic technologists in national governments from <a href="https://sea-lion.ai">Singapore</a>, <a href="https://abci.ai/en/">Japan</a>, <a href="https://www.ai.se/en/project/eurolingua-gpt">Sweden</a>, and <a href="https://ethz.ch/en/news-and-events/eth-news/news/2025/07/a-language-model-built-for-the-public-good.html">Switzerland</a> are building their own alternatives to Big Tech AI models, for use in public administration and distribution as a <a href="https://economicsecurityproject.org/resource/the-global-rise-of-public-ai/">public good</a>.</p>
+<p>Labor organizers have a particularly interesting relationship to AI. At the same time that they are <a href="https://laborcenter.berkeley.edu/a-first-look-at-labors-ai-values/">galvanizing</a> mass resistance against the replacement or endangerment of human workers by AI, many are racing to leverage the technology in their own work to build power.</p>
+<p>Some entrepreneurial organizers have used AI in the past few years as <a href="https://unitedworkers.org.au/archive/unions-mobilise-ai-to-turn-the-tables-on-wage-theft-in-hospitality/">tools</a> for activating, connecting, answering questions for, and providing guidance to their members. In the UK, the <a href="https://www.agileunions.ai/">Centre for Responsible Union AI</a> studies and promotes the use of AI by unions; they&#8217;ve published several <a href="https://www.agileunions.ai/t/Case%20studies%20and%20use%20cases">case studies</a>. The <a href="https://www.agileunions.ai/p/case-study-repcoach-pcs-union-reps-practice-recruitment-conversations">UK Public and Commercial Services Union</a> has used AI to help their reps simulate recruitment conversations before going into the field. The Belgian union <a href="https://www.agileunions.ai/p/acv-cvs-trial-shared-inboxes">ACV-CVS</a> has used AI to sort hundreds of emails per day from members to help them respond more efficiently. Software companies such as <a href="https://www.quorum.us/solutions/grassroots-advocacy/">Quorum</a> are increasingly offering AI-driven products to cater to the needs of organizers and grassroots campaigns.</p>
+<p>But unions have also leveraged AI for its symbolic power. In the U.S., the Screen Actors Guild held up the specter of AI displacement of creative labor to attract public attention and sympathy, and the ETUC (the European confederation of trade unions) developed a <a href="https://etuc.org/en/document/artificial-intelligence-workers-not-just-profit-ensuring-quality-jobs-digital-age">policy platform</a> for responding to AI.</p>
+<p>Finally, some union organizers have leveraged AI in more provocative ways. Some have applied it to hacking the &#8220;bossware&#8221; AI to <a href="https://www.etui.org/sites/default/files/2023-10/Exercising%20workers%20rights%20in%20algorithmic%20management%20systems_Lessons%20learned%20from%20the%20Glovo-Foodinho%20digital%20labour%20platform%20case_2023.pdf">subvert</a> the exploitative intent or <a href="https://www.wired.com/story/tiktok-army-union-busters-amazon/">disrupt</a> the anti-union practices of their managers.</p>
+<h3>The Citizens</h3>
+<p>Many of the tasks we&#8217;ve talked about so far are familiar use cases to anyone working in office and management settings: writing emails, providing user (or voter, or member) support, doing research.</p>
+<p>But even mundane tasks, when automated at scale and targeted at specific ends, can be pernicious. AI is not neutral. It can be applied by many actors for many purposes. In the hands of the most numerous and diverse actors in a democracy&#8212;the citizens&#8212;that has profound implications.</p>
+<p>Conservative activists in Georgia and Florida have used a tool named <a href="https://www.nbcnews.com/politics/elections/conservative-activists-errors-software-voter-fraud-rcna161028">EagleAI</a> to automate challenging voter registration en masse (although the tool&#8217;s creator later <a href="https://apnews.com/article/georgia-voter-removal-software-eagleai-266ead9198da7d54421798e8a1577d26">denied</a> that it uses AI). In a nonpartisan electoral management context with access to accurate data sources, such automated review of electoral registrations might be useful and effective. In this hyperpartisan context, AI merely serves to amplify the proclivities of activists at the extreme of their movements. This trend will continue unabated in 2026.</p>
+<p>Of course, citizens can use AI to safeguard the integrity of elections. In Ghana&#8217;s 2024 presidential election, civic organizations used an AI tool to automatically detect and mitigate electoral <a href="https://penplusbytes.org/wp-content/uploads/2025/05/Ahead-Africa-DDP-Final-Report-2025.pdf">disinformation</a><a href="https://penplusbytes.org/wp-content/uploads/2025/05/Ahead-Africa-DDP-Final-Report-2025.pdf"> spread on social media</a>. The same year, <a href="https://www.techpolicy.press/redefining-ai-for-africa-the-role-of-artificial-intelligence-in-kenyas-grassroots-movement/">Kenyan protesters</a> developed specialized chatbots to distribute information about a controversial finance bill in Parliament and instances of government corruption.</p>
+<p>So far, the biggest way Americans have leveraged AI in politics is in self-expression. About <a href="https://resist.bot/news/2023/03/08/resistbot-at-six-building-a-community">ten million Americans</a> have used the chatbot Resistbot to help draft and send messages to their elected leaders. It&#8217;s hard to find statistics on how widely adopted tools like this are, but researchers have <a href="https://arxiv.org/abs/2502.09747">estimated</a> that, as of 2024, about one in five consumer complaints to the U.S. Consumer Financial Protection Bureau was written with the assistance of AI.</p>
+<p>OpenAI operates security programs to <a href="https://cdn.openai.com/threat-intelligence-reports/5f73af09-a3a3-4a55-992e-069237681620/disrupting-malicious-uses-of-ai-june-2025.pdf">disrupt</a> foreign influence operations and maintains <a href="https://fortune.com/2025/04/16/openai-safety-framework-manipulation-deception-critical-risk/">restrictions</a> on political use in its terms of service, but this is <a href="https://www.lawfaremedia.org/article/self-regulation-won-t-prevent-problematic-political-uses-of-generative-ai">hardly sufficient</a> to deter use of AI technologies for whatever purpose. And widely available free models give anyone the ability to attempt this on their own.</p>
+<p>But this could change. The most ominous sign of AI&#8217;s potential to disrupt elections is not the deepfakes and misinformation. Rather, it may be the use of AI by the Trump administration to <a href="https://freedomhouse.org/article/trumps-immigration-crackdown-built-ai-surveillance-and-disregard-due-process">surveil and punish</a> political speech on social media and other online platforms. The scalability and sophistication of AI tools give governments with authoritarian intent unprecedented power to police and selectively limit political speech.</p>
+<h3>What About the Midterms?</h3>
+<p>These examples illustrate AI&#8217;s pluripotent role as a force multiplier. The same technology used by different actors&#8212;campaigners, organizers, citizens, and governments&#8212;leads to wildly different impacts. We can&#8217;t know for sure what the net result will be. In the end, it will be the interactions and intersections of these uses that matters, and their unstable dynamics will make future elections even more unpredictable than in the past.</p>
+<p>For now, the decisions of how and when to use AI lie largely with individuals and the political entities they lead. Whether or not you personally trust AI to write an email for you or make a decision about you hardly matters. If a campaign, an interest group, or a fellow citizen trusts it for that purpose, they are free to use it.</p>
+<p>It seems unlikely that Congress or the Trump administration will put guardrails around the use of AI in politics. AI companies have rapidly emerged as among the biggest <a href="https://www.theguardian.com/technology/2025/sep/02/ai-industry-pours-millions-into-politics">lobbyists</a> in Washington, reportedly dumping <a href="https://www.wsj.com/politics/silicon-valley-launches-pro-ai-pacs-to-defend-industry-in-midterm-elections-287905b3?gaa_at=eafs&amp;gaa_n=ASWzDAjaxxFIzEaiCnLuxtt5FYul1NMFgXzDPGeVaH0VKZedvoSLexjk_j2Gr_Q0ZKQ%3D&amp;gaa_ts=68b063e0&amp;gaa_sig=V93Si4VVkqKsN1H-aEXHbbUoyVrGdS9GECVqYESgBE7WTq_dVBNLHw5VIyH41lRNW0pQQRB3N7d0mV9v_EaR4Q%3D%3D">$100 million</a> toward preventing regulation, with a focus on influencing candidate behavior before the midterm elections. The Trump administration seems <a href="https://www.theguardian.com/technology/2025/jul/25/trump-ai-action-plan">open and responsive</a> to their appeals.</p>
+<p>The ultimate effect of AI on the midterms will largely depend on the experimentation happening now. Candidates and organizations across the political spectrum have ample opportunity&#8212;but a ticking clock&#8212;to find effective ways to use the technology. Those that do will have little to stop them from exploiting it.</p>
+<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://prospect.org/power/2025-10-10-ai-artificial-intelligence-campaigns-midterms/">The American Prospect</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/ai-and-the-future-of-american-politics.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Sperm Whale Eating a Giant Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-sperm-whale-eating-a-giant-squid.html" />
+
+		<id>https://www.schneier.com/?p=70909</id>
+		<updated>2025-10-02T16:22:32Z</updated>
+		<published>2025-10-10T21:02:32Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p><a href="https://freethoughtblogs.com/pharyngula/2025/09/25/watch-this-while-eating-your-cheerios/">Video</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-sperm-whale-eating-a-giant-squid.html"><![CDATA[<p><a href="https://freethoughtblogs.com/pharyngula/2025/09/25/watch-this-while-eating-your-cheerios/">Video</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-sperm-whale-eating-a-giant-squid.html#comments" thr:count="29" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-sperm-whale-eating-a-giant-squid.html/feed/atom/" thr:count="29" />
+			<thr:total>29</thr:total>
+			</entry>
+	</feed>
