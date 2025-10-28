@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT &#8211; Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Fri, 24 Oct 2025 21:53:20 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT &#8211; Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>A single point of failure triggered the Amazon outage affecting millions</title>
+                <link>https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 24 Oct 2025 21:53:20 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[EC2]]></category>
+		<category><![CDATA[race conditions]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/</guid>
+
+                                    <description>
+                        <![CDATA[A DNS manager in a single region of Amazon's sprawling network touched off a 16-hour debacle.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The outage that hit Amazon Web Services and took out vital services worldwide was the result of a single failure that cascaded from system to system within Amazon’s sprawling network, according to a post-mortem from company engineers.</p>
+<p>The series of failures lasted for 15 hours and 32 minutes, Amazon <a href="https://aws.amazon.com/message/101925/">said</a>. Network intelligence company Ookla <a href="https://www.ookla.com/articles/aws-outage-q4-2025">said</a> its DownDetector service received more than 17 million reports of disrupted services offered by 3,500 organizations. The three biggest countries where reports originated were the US, the UK, and Germany. Snapchat, AWS, and Roblox were the most reported services affected. Ookla said the event was “among the largest internet outages on record for Downdetector.”</p>
+<h2>It’s <em>always</em> DNS</h2>
+<p>Amazon said the root cause of the outage was a software bug in software running the DynamoDB DNS management system. The system monitors the stability of load balancers by, among other things, periodically creating new DNS configurations for endpoints within the AWS network. A race condition is an error that makes a process dependent on the timing or sequence events that are variable and outside the developers’ control. The result can be unexpected behavior and potentially harmful failures.</p><p><a href="https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/10/a-single-point-of-failure-triggered-the-amazon-outage-affecting-millions/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>162</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/network-outage.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/network-outage-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Cache poisoning vulnerabilities found in 2 DNS resolving apps</title>
+                <link>https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Oct 2025 22:35:41 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/</guid>
+
+                                    <description>
+                        <![CDATA[At least one CVE could weaken defenses put in place following 2008 disclosure.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The makers of BIND, the Internet’s most widely used software for resolving domain names, are warning of two vulnerabilities that allow attackers to poison entire caches of results and send users to malicious destinations that are indistinguishable from the real ones.</p>
+<p>The vulnerabilities, tracked as <a href="https://kb.isc.org/docs/cve-2025-40778">CVE-2025-40778</a> and <a href="https://kb.isc.org/docs/cve-2025-40780">CVE-2025-40780</a>, stem from a logic error and a weakness in generating pseudo-random numbers, respectively. They each carry a severity rating of 8.6. Separately, makers of the Domain Name System resolver software Unbound <a href="https://www.nlnetlabs.nl/downloads/unbound/CVE-2025-11411.txt">warned</a> of similar vulnerabilities that were reported by the same researchers. The unbound vulnerability severity score is 5.6</p>
+<h2>Revisiting Kaminsky’s cache poisoning attack</h2>
+<p>The vulnerabilities can be exploited to cause DNS resolvers located inside thousands of organizations to replace valid results for domain lookups with corrupted ones. The corrupted results would replace the IP addresses controlled by the domain name operator (for instance, 3.15.119.63 for arstechnica.com) with malicious ones controlled by the attacker. Patches for all three vulnerabilities became available on Wednesday.</p><p><a href="https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>34</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-1152x627.jpg" type="image/jpeg" medium="image" width="1152" height="627">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/browser-security-threat-500x500.jpg" width="500" height="500" />
+</media:content>
+            </item>
+                    <item>
+                <title>NSO permanently barred from targeting WhatsApp users with Pegasus spyware</title>
+                <link>https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 20 Oct 2025 22:18:22 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[espionage]]></category>
+		<category><![CDATA[NSO]]></category>
+		<category><![CDATA[pegasus]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/</guid>
+
+                                    <description>
+                        <![CDATA[Ruling holds that defeating end-to-end encryption in WhatsApp harms Meta's business.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A federal judge has ordered spyware maker <a href="https://www.nsogroup.com/">NSO</a> to stop using its Pegasus app to target or infect users of WhatsApp.</p>
+<p>The <a href="https://storage.courtlistener.com/recap/gov.uscourts.cand.350613/gov.uscourts.cand.350613.802.0.pdf">ruling</a>, issued Friday by Phyllis J. Hamilton of the US District Court of the District of Northern California, grants a permanent injunction sought by WhatsApp owner Meta in a case it brought against NSO <a href="https://arstechnica.com/information-technology/2019/10/whatsapp-suit-says-israeli-spyware-maker-exploited-its-app-to-infect-1400-users/">in 2019</a>. The lawsuit alleged that Meta caught NSO trying to surreptitiously infect about 1,400 mobile phones—many belonging to attorneys, journalists, human-rights activists, political dissidents, diplomats, and senior foreign government officials—with Pegasus. As part of the campaign, NSO created fake WhatsApp accounts and targeted Meta infrastructure. The suit sought monetary awards and an injunction against the practice.</p>
+<h2>Setting a precedent</h2>
+<p>Friday’s ruling ordered NSO to permanently cease targeting WhatsApp users, attempting to infect their devices, or intercepting WhatsApp messages, which are end-to-end encrypted using the open source <a href="https://arstechnica.com/security/2025/10/why-signals-post-quantum-makeover-is-an-amazing-engineering-achievement/">Signal Protocol</a>. Hamilton also ruled that NSO must delete any data it obtained when targeting the WhatsApp users.</p><p><a href="https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/nso-permanently-barred-from-targeting-whatsapp-users-with-pegasus-spyware/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>108</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/whatsapp-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/whatsapp-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Nation-state hackers deliver malware from “bulletproof” blockchains</title>
+                <link>https://arstechnica.com/security/2025/10/hackers-bullet-proof-hosts-deliver-malware-from-blockchains/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/hackers-bullet-proof-hosts-deliver-malware-from-blockchains/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 16 Oct 2025 20:40:49 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[blockchain]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[malware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/hackers-bullet-proof-hosts-deliver-malware-from-blockchains/</guid>
+
+                                    <description>
+                        <![CDATA[Malicious payloads stored on Ethereum and BNB blockchains are immune to takedowns.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hacking groups—at least one of which works on behalf of the North Korean government—have found a new and inexpensive way to distribute malware from “bulletproof” hosts: stashing them on public cryptocurrency blockchains.</p>
+<p>In a <a href="https://cloud.google.com/blog/topics/threat-intelligence/dprk-adopts-etherhiding/">Thursday post</a>, members of the Google Threat Intelligence Group said the technique provides the hackers with their own “bulletproof” host, a term that describes cloud platforms that are largely immune from takedowns by law enforcement and pressure from security researchers. More traditionally, these hosts are located in countries without treaties agreeing to enforce criminal laws from the US and other nations. These services often charge hefty sums and cater to criminals spreading malware or peddling child sexual abuse material and wares sold in crime-based flea markets.</p>
+<h2>Next-gen, DIY hosting that can’t be tampered with</h2>
+<p>Since February, Google researchers have observed two groups turning to a newer technique to infect targets with credential stealers and other forms of malware. The method, known as EtherHiding, embeds the malware in smart contracts, which are essentially apps that reside on blockchains for Ethereum and other cryptocurrencies. Two or more parties then enter into an agreement spelled out in the contract. When certain conditions are met, the apps enforce the contract terms in a way that, at least theoretically, is immutable and independent of any central authority.</p><p><a href="https://arstechnica.com/security/2025/10/hackers-bullet-proof-hosts-deliver-malware-from-blockchains/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/hackers-bullet-proof-hosts-deliver-malware-from-blockchains/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>107</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-1000x648.jpg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Ars Live recap: Is the AI bubble about to pop? Ed Zitron weighs in.</title>
+                <link>https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 16 Oct 2025 20:25:08 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI criticism]]></category>
+		<category><![CDATA[AI economics]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[Benj Edwards]]></category>
+		<category><![CDATA[bubble]]></category>
+		<category><![CDATA[Cerebras]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[Ed Zitron]]></category>
+		<category><![CDATA[financial losses]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[GPU]]></category>
+		<category><![CDATA[grok]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[Power consumption]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[stargate]]></category>
+		<category><![CDATA[venture capital]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/</guid>
+
+                                    <description>
+                        <![CDATA[Despite connection hiccups, we covered OpenAI's finances, nuclear power, and Sam Altman.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday of last week, Ars Technica <a href="https://arstechnica.com/ai/2025/10/ars-live-is-the-ai-bubble-about-to-pop-ed-zitron-is-on-with-ars-at-330pm-edt-today/">hosted</a> a live conversation with Ed Zitron, host of the <a href="https://podcasts.apple.com/us/podcast/better-offline/id1730587238">Better Offline</a> podcast and one of tech’s most vocal AI critics, to discuss whether the generative AI industry is experiencing a bubble and when it might burst. My Internet connection had other plans, though, dropping out multiple times and forcing Ars Technica’s Lee Hutchinson to jump in as an excellent emergency backup host.</p>
+<p>During the times my connection cooperated, Zitron and I covered OpenAI’s financial issues, lofty infrastructure promises, and why the AI hype machine keeps rolling despite some arguably shaky economics underneath. Lee’s probing questions about per-user costs revealed a potential flaw in AI subscription models: Companies can’t predict whether a user will cost them $2 or $10,000 per month.</p>
+<p>You can <a href="https://www.youtube.com/watch?v=1nEph7-Viyc">watch a recording</a> of the event on YouTube or in the window below.</p><p><a href="https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>150</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ai_bubble_hero2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ai_bubble_hero2-500x500.jpg" width="500" height="500" />
+<media:credit>Wong Yu Liang via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Thousands of customers imperiled after nation-state ransacks F5’s network</title>
+                <link>https://arstechnica.com/security/2025/10/breach-of-f5-requires-emergency-action-from-big-ip-users-feds-warn/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/breach-of-f5-requires-emergency-action-from-big-ip-users-feds-warn/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 15 Oct 2025 20:05:39 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[big-ip]]></category>
+		<category><![CDATA[breach]]></category>
+		<category><![CDATA[f5]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/breach-of-f5-requires-emergency-action-from-big-ip-users-feds-warn/</guid>
+
+                                    <description>
+                        <![CDATA[Risks to BIG-IP users include supply-chain attacks, credential loss, and vulnerability exploits.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Thousands of networks—many of them operated by the US government and Fortune 500 companies—face an “imminent threat” of being breached by a nation-state hacking group following the breach of a major maker of software, the federal government warned Wednesday.</p>
+<p>F5, a Seattle-based maker of networking software, <a href="https://my.f5.com/manage/s/article/K000154696">disclosed the breach</a> on Wednesday. F5 said a “sophisticated” threat group working for an undisclosed nation-state government had surreptitiously and persistently dwelled in its network over a “long-term.” Security researchers who have responded to similar intrusions in the past took the language to mean the hackers were inside the F5 network <a href="https://cyberplace.social/@GossiTheDog/115378445416288653">for years</a>.</p>
+<h2>Unprecedented</h2>
+<p>During that time, F5 said, the hackers took control of the network segment the company uses to create and distribute updates for BIG IP, a line of server appliances that F5 <a href="https://www.f5.com/c/emea-2020/event/f5-myforum">says</a> is used by 48 of the world’s top 50 corporations. Wednesday’s disclosure went on to say the threat group downloaded proprietary BIG-IP source code information about vulnerabilities that had been privately discovered but not yet patched. The hackers also obtained configuration settings that some customers used inside their networks.</p><p><a href="https://arstechnica.com/security/2025/10/breach-of-f5-requires-emergency-action-from-big-ip-users-feds-warn/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/breach-of-f5-requires-emergency-action-from-big-ip-users-feds-warn/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>101</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1202018501-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-1202018501-500x500.jpg" width="500" height="500" />
+<media:credit>Sundry Photography</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Anthropic’s Claude Haiku 4.5 matches May’s frontier model at fraction of cost</title>
+                <link>https://arstechnica.com/ai/2025/10/anthropics-claude-haiku-4-5-matches-mays-frontier-model-at-fraction-of-cost/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/anthropics-claude-haiku-4-5-matches-mays-frontier-model-at-fraction-of-cost/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 15 Oct 2025 18:53:00 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI models]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[Amazon Bedrock]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[Claude Haiku]]></category>
+		<category><![CDATA[Claude Sonnet]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[google cloud]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Vertex AI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/anthropics-claude-haiku-4-5-matches-mays-frontier-model-at-fraction-of-cost/</guid>
+
+                                    <description>
+                        <![CDATA[Tiny, fast model hits coding scores similar to GPT-5 and Sonnet 4.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, Anthropic <a href="https://www.anthropic.com/news/claude-haiku-4-5">released</a> Claude Haiku 4.5, a small AI language model that reportedly delivers performance similar to what its frontier model <a href="https://arstechnica.com/ai/2025/05/anthropic-calls-new-claude-4-worlds-best-ai-coding-model/">Claude Sonnet 4</a> achieved five months ago but at one-third the cost and more than twice the speed. The new model is available now to all Claude app, web, and API users.</p>
+<p>If the benchmarks for Haiku 4.5 reported by Anthropic hold up to independent testing, the fact that the company can match some capabilities of its cutting-edge coding model from only five months ago (and GPT-5 in coding) while providing a dramatic speed increase and cost cut is notable.</p>
+<p>As a recap, Anthropic ships the Claude family in three model sizes: Haiku (small), Sonnet (medium), and Opus (large). The larger models are based on larger neural networks and typically include deeper contextual knowledge but are slower and more expensive to run. Due to a technique called <a href="https://arstechnica.com/ai/2025/03/ai-firms-follow-deepseeks-lead-create-cheaper-models-with-distillation/">distillation</a>, companies like Anthropic have been able to craft smaller AI models that match the capability of larger, older models at functional tasks like coding, although it typically comes at the cost of omitting stored knowledge.</p><p><a href="https://arstechnica.com/ai/2025/10/anthropics-claude-haiku-4-5-matches-mays-frontier-model-at-fraction-of-cost/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/anthropics-claude-haiku-4-5-matches-mays-frontier-model-at-fraction-of-cost/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>40</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/haiku45_hero.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/haiku45_hero-500x500.jpg" width="500" height="500" />
+</media:content>
+            </item>
+                    <item>
+                <title>ChatGPT erotica coming soon with age verification, CEO says</title>
+                <link>https://arstechnica.com/ai/2025/10/chatgpt-will-soon-allow-erotic-chats-for-verified-adults-only/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/chatgpt-will-soon-allow-erotic-chats-for-verified-adults-only/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 15 Oct 2025 15:14:52 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[age verification]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI censorship]]></category>
+		<category><![CDATA[AI companionship]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI paternalism]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[mental health]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[xAI]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/chatgpt-will-soon-allow-erotic-chats-for-verified-adults-only/</guid>
+
+                                    <description>
+                        <![CDATA[Sam Altman claims new tools can detect mental distress while relaxing limits for adults.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, OpenAI CEO Sam Altman <a href="https://x.com/sama/status/1978129344598827128">announced</a> that the company will allow verified adult users to have erotic conversations with ChatGPT starting in December. The change represents a shift in how OpenAI approaches content restrictions, which the company had <a href="https://arstechnica.com/ai/2025/02/chatgpt-can-now-write-erotica-as-openai-eases-up-on-ai-paternalism/">loosened</a> in February but then dramatically <a href="https://arstechnica.com/ai/2025/09/openai-announces-parental-controls-for-chatgpt-after-teen-suicide-lawsuit/">tightened</a> after an <a href="https://arstechnica.com/tech-policy/2025/08/chatgpt-helped-teen-plan-suicide-after-safeguards-failed-openai-admits/">August lawsuit</a> from parents of a teen who died by suicide after allegedly receiving encouragement from ChatGPT.</p>
+<p>“In December, as we roll out age-gating more fully and as part of our ‘treat adult users like adults’ principle, we will allow even more, like erotica for verified adults,” Altman wrote in his post on X (formerly Twitter). The announcement follows OpenAI’s recent hint that it would allow developers to create “mature” ChatGPT applications once the company implements appropriate age verification and controls.</p>
+<p>Altman explained that OpenAI had made ChatGPT “pretty restrictive to make sure we were being careful with mental health issues” but acknowledged this approach made the chatbot “less useful/enjoyable to many users who had no mental health problems.” The CEO said the company now has new tools to better detect when users are experiencing mental distress, allowing OpenAI to relax restrictions in most cases.</p><p><a href="https://arstechnica.com/ai/2025/10/chatgpt-will-soon-allow-erotic-chats-for-verified-adults-only/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/chatgpt-will-soon-allow-erotic-chats-for-verified-adults-only/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>180</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/openai-math-apples-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/openai-math-apples-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Feds seize $15 billion from alleged forced labor scam built on “human suffering”</title>
+                <link>https://arstechnica.com/tech-policy/2025/10/feds-seize-15-billion-from-alleged-forced-labor-scam-built-on-human-suffering/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/10/feds-seize-15-billion-from-alleged-forced-labor-scam-built-on-human-suffering/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 14 Oct 2025 21:01:50 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[federal indictments]]></category>
+		<category><![CDATA[online scams]]></category>
+		<category><![CDATA[pig butchering]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/10/feds-seize-15-billion-from-alleged-forced-labor-scam-built-on-human-suffering/</guid>
+
+                                    <description>
+                        <![CDATA[Scams like this one net billions from well-educated victims.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Federal prosecutors have seized $15 billion from the alleged kingpin of an operation that used imprisoned laborers to trick unsuspecting people into making investments in phony funds, often after spending months faking romantic relationships with the victims.</p>
+<p>Such “<a href="https://en.wikipedia.org/wiki/Pig_butchering_scam">pig butchering</a>” scams have operated for years. They typically work when members of the operation initiate conversations with people on social media and then spend months messaging them. Often, the scammers pose as <a href="https://www.propublica.org/article/whats-a-pig-butchering-scam-heres-how-to-avoid-falling-victim-to-one">attractive individuals</a> who feign romantic interest for the victim.</p>
+<h2>Forced labor, phone farms, and human suffering</h2>
+<p>Eventually, conversations turn to phony investment funds with the end goal of convincing the victim to transfer <a href="https://www.scmp.com/news/hong-kong/law-and-crime/article/3282345/hong-kong-fraudsters-use-deepfake-tech-swindle-love-struck-men-out-hk360-million">large amounts of bitcoin</a>. In many cases, the scammers are trafficked and held against their will in compounds surrounded by fences and barbed wire.</p><p><a href="https://arstechnica.com/tech-policy/2025/10/feds-seize-15-billion-from-alleged-forced-labor-scam-built-on-human-suffering/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/10/feds-seize-15-billion-from-alleged-forced-labor-scam-built-on-human-suffering/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>74</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bitcoin-romance-pig-butchering-scam-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bitcoin-romance-pig-butchering-scam-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Nvidia sells tiny new computer that puts big AI on your desktop</title>
+                <link>https://arstechnica.com/ai/2025/10/nvidia-sells-tiny-new-computer-that-puts-big-ai-on-your-desktop/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/nvidia-sells-tiny-new-computer-that-puts-big-ai-on-your-desktop/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 14 Oct 2025 16:58:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Acer]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI GPU]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[ai supercomputer]]></category>
+		<category><![CDATA[ASUS]]></category>
+		<category><![CDATA[desktop computing]]></category>
+		<category><![CDATA[DGX Spark]]></category>
+		<category><![CDATA[Elon Musk]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Grace Blackwell]]></category>
+		<category><![CDATA[HP]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[msi]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Project DIGITS]]></category>
+		<category><![CDATA[spacex]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/nvidia-sells-tiny-new-computer-that-puts-big-ai-on-your-desktop/</guid>
+
+                                    <description>
+                        <![CDATA[The 1 petaflop DGX Spark system runs AI models with 200 billion parameters locally for $4K.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, Nvidia <a href="https://nvidianews.nvidia.com/news/nvidia-dgx-spark-arrives-for-worlds-ai-developers">announced</a> it will begin taking orders for the DGX Spark, a $4,000 desktop AI computer that wraps one petaflop of computing performance and 128GB of unified memory into a form factor small enough to sit on a desk. Its biggest selling point is likely its large integrated memory that can run larger AI models than consumer GPUs.</p>
+<p>Nvidia will begin taking orders for the DGX Spark on Wednesday, October 15, <a href="https://www.nvidia.com/en-us/products/workstations/dgx-spark/">through its website</a>, with systems also available from manufacturing partners and select US retail stores.</p>
+<p>The DGX Spark, which Nvidia <a href="https://arstechnica.com/ai/2025/01/nvidias-first-desktop-pc-can-run-local-ai-models-for-3000/">previewed as “Project DIGITS”</a> in January and <a href="https://arstechnica.com/ai/2025/03/nvidia-announces-dgx-desktop-personal-ai-supercomputers/">formally named</a> in May, represents Nvidia’s attempt to create a new category of desktop computer workstation specifically for AI development.</p><p><a href="https://arstechnica.com/ai/2025/10/nvidia-sells-tiny-new-computer-that-puts-big-ai-on-your-desktop/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/nvidia-sells-tiny-new-computer-that-puts-big-ai-on-your-desktop/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>125</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/dgx_spark-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/dgx_spark-500x500.jpg" width="500" height="500" />
+<media:credit>Nvidia</media:credit><media:text>The Nvidia DGX Spark is the tiny gold box sitting on the desk to the left of the monitor.</media:text></media:content>
+            </item>
+                    <item>
+                <title>OpenAI wants to stop ChatGPT from validating users’ political views</title>
+                <link>https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 14 Oct 2025 13:51:00 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI bias]]></category>
+		<category><![CDATA[AI criticism]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI objectivity]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[Alignment research]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[cultural bias]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[political bias]]></category>
+		<category><![CDATA[rlhf]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/</guid>
+
+                                    <description>
+                        <![CDATA[New paper reveals reducing "bias" means making ChatGPT stop mirroring users' political language.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>“ChatGPT shouldn’t have political bias in any direction.”</p>
+<p>That’s OpenAI’s stated goal in a new research paper <a href="https://openai.com/index/defining-and-evaluating-political-bias-in-llms/">released</a> Thursday about measuring and reducing political bias in its AI models. The company says that “people use ChatGPT as a tool to learn and explore ideas” and argues “that only works if they trust ChatGPT to be objective.”</p>
+<p>But a closer reading of OpenAI’s paper reveals something different from what the company’s framing of objectivity suggests. The company never actually defines what it means by “bias.” And its evaluation axes show that it’s focused on stopping ChatGPT from several behaviors: acting like it has personal political opinions, amplifying users’ emotional political language, and providing one-sided coverage of contested topics.</p><p><a href="https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>103</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/political_fracture_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/political_fracture_1-500x500.jpg" width="500" height="500" />
+<media:credit>akinbostanci via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hackers can steal 2FA codes and private messages from Android phones</title>
+                <link>https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 13 Oct 2025 21:36:35 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[pixnapping]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[side channel]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/</guid>
+
+                                    <description>
+                        <![CDATA[Malicious app required to make "Pixnapping" attack work requires no permissions.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Android devices are vulnerable to a new attack that can covertly steal two-factor authentication codes, location timelines, and other private data in less than 30 seconds.</p>
+<p>The new attack, named Pixnapping by the team of academic researchers who devised it, requires a victim to first install a malicious app on an Android phone or tablet. The app, which requires no system permissions, can then effectively read data that any other installed app displays on the screen. Pixnapping has been demonstrated on Google Pixel phones and the Samsung Galaxy S25 phone and likely could be modified to work on other models with additional work. Google released mitigations last month, but the researchers said a modified version of the attack works even when the update is installed.</p>
+<h2>Like taking a screenshot</h2>
+<p>Pixnapping attacks begin with the malicious app invoking Android programming interfaces that cause the authenticator or other targeted apps to send sensitive information to the device screen. The malicious app then runs graphical operations on individual pixels of interest to the attacker. Pixnapping then exploits a <a href="https://en.wikipedia.org/wiki/Side-channel_attack">side channel</a> that allows the malicious app to map the pixels at those coordinates to letters, numbers, or shapes.</p><p><a href="https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>128</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/008-family-galaxy-s25ultra-titaniumsilverblue-s25plus-navy-s25-icyblue-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/01/008-family-galaxy-s25ultra-titaniumsilverblue-s25plus-navy-s25-icyblue-500x500.jpg" width="500" height="500" />
+<media:credit>Samsung</media:credit><media:text>Samsung's S25 phones.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Why Signal’s post-quantum makeover is an amazing engineering achievement</title>
+                <link>https://arstechnica.com/security/2025/10/why-signals-post-quantum-makeover-is-an-amazing-engineering-achievement/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/why-signals-post-quantum-makeover-is-an-amazing-engineering-achievement/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 13 Oct 2025 16:15:53 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[diffie-hellman elliptic curve]]></category>
+		<category><![CDATA[ML-KEM]]></category>
+		<category><![CDATA[Module-Lattice-Based Key-Encapsulation Mechanism]]></category>
+		<category><![CDATA[post-quantum encryption]]></category>
+		<category><![CDATA[signal messenger]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/why-signals-post-quantum-makeover-is-an-amazing-engineering-achievement/</guid>
+
+                                    <description>
+                        <![CDATA[New design sets a high standard for post-quantum readiness.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The encryption protecting communications against criminal and nation-state snooping is under threat. As private industry and governments get closer to building useful quantum computers, the algorithms protecting Bitcoin wallets, encrypted web visits, and other sensitive secrets will be useless. No one doubts the day will come, but as the now-common joke in cryptography circles observes, experts have been forecasting this cryptocalypse will arrive in the next 15 to 30 years for the past 30 years.</p>
+<p>The uncertainty has created something of an existential dilemma: Should network architects spend the billions of dollars required to wean themselves off quantum-vulnerable algorithms now, or should they prioritize their limited security budgets fighting more immediate threats such as ransomware and espionage attacks? Given the expense and no clear deadline, it’s little wonder that <a href="https://radar.cloudflare.com/adoption-and-usage" target="_blank" rel="noopener">less than half</a> of all TLS connections made inside the Cloudflare network and only <a href="https://trustfour.com" target="_blank" rel="noopener">18 percent</a> of Fortune 500 networks support quantum-resistant TLS connections. It’s all but certain that many fewer organizations still are supporting quantum-ready encryption in less prominent protocols.</p>
+<h2>Triumph of the cypherpunks</h2>
+<p>One exception to the industry-wide lethargy is the engineering team that designs the Signal Protocol, the open source engine that powers the world’s most robust and resilient form of end-to-end encryption for multiple private chat apps, most notably the <a href="https://signal.org/download/">Signal Messenger</a>. Eleven days ago, the nonprofit entity that develops the protocol, Signal Messenger LLC, published a 5,900-word write-up describing its latest updates that bring Signal a significant step toward being fully quantum-resistant.</p><p><a href="https://arstechnica.com/security/2025/10/why-signals-post-quantum-makeover-is-an-amazing-engineering-achievement/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/why-signals-post-quantum-makeover-is-an-amazing-engineering-achievement/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>161</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/signal-quantum-security-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/signal-quantum-security-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Microsoft warns of new “Payroll Pirate” scam stealing employees’ direct deposits</title>
+                <link>https://arstechnica.com/security/2025/10/payroll-pirate-phishing-scam-that-takes-over-workday-accounts-steals-paychecks/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/payroll-pirate-phishing-scam-that-takes-over-workday-accounts-steals-paychecks/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 10 Oct 2025 18:07:04 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[mfa]]></category>
+		<category><![CDATA[multi factor authentication]]></category>
+		<category><![CDATA[phishing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/payroll-pirate-phishing-scam-that-takes-over-workday-accounts-steals-paychecks/</guid>
+
+                                    <description>
+                        <![CDATA[Among other things, the scammers bypass multi-factor authentication.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft is warning of an active scam that diverts employees’ paycheck payments to attacker-controlled accounts after first taking over their profiles on Workday or other cloud-based HR services.</p>
+<p>Payroll Pirate, as Microsoft says the campaign has been dubbed, gains access to victims’ HR portals by sending them phishing emails that trick the recipients into providing their credentials for logging in to the cloud account. The scammers are able to recover multi-factor authentication codes by using <a href="https://arstechnica.com/security/2025/05/phishing-attacks-that-defeat-mfa-are-easier-than-ever-so-what-are-we-to-do/">adversary-in-the-middle</a> tactics, which work by sitting between the victims and the site they think they’re logging in to, which is, in fact, a fake site operated by the attackers.</p>
+<h2>Not all MFA is created equal</h2>
+<p>The attackers then enter the intercepted credentials, including the MFA code, into the real site. This tactic, which has grown increasingly common in recent years, underscores the importance of adopting FIDO-compliant forms of MFA, which are immune to such attacks.</p><p><a href="https://arstechnica.com/security/2025/10/payroll-pirate-phishing-scam-that-takes-over-workday-accounts-steals-paychecks/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/payroll-pirate-phishing-scam-that-takes-over-workday-accounts-steals-paychecks/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>53</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/phishing.jpeg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/phishing-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>AI models can acquire backdoors from surprisingly few malicious documents</title>
+                <link>https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 22:03:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[AI vulnerabilities]]></category>
+		<category><![CDATA[alan turing institute]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[backdoor attacks]]></category>
+		<category><![CDATA[data poisoning]]></category>
+		<category><![CDATA[fine tuning]]></category>
+		<category><![CDATA[LLM security]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[model safety]]></category>
+		<category><![CDATA[pretraining]]></category>
+		<category><![CDATA[training data]]></category>
+		<category><![CDATA[UK AI Security Institute]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/</guid>
+
+                                    <description>
+                        <![CDATA[Anthropic study suggests "poison" training attacks don't scale with model size.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Scraping the open web for AI training data can have its drawbacks. On Thursday, researchers from Anthropic, the UK AI Security Institute, and the Alan Turing Institute <a href="https://arxiv.org/abs/2510.07192">released</a> a preprint research paper suggesting that large language models like the ones that power ChatGPT, Gemini, and Claude can develop backdoor vulnerabilities from as few as 250 corrupted documents inserted into their training data.</p>
+<p>That means someone tucking certain documents away inside training data could potentially manipulate how the LLM responds to prompts, although the finding comes with significant caveats.</p>
+<p>The research involved training AI language models ranging from 600 million to 13 billion parameters on datasets scaled appropriately for their size. Despite larger models processing over 20 times more total training data, all models learned the same backdoor behavior after encountering roughly the same small number of malicious examples.</p><p><a href="https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/ai-models-can-acquire-backdoors-from-surprisingly-few-malicious-documents/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>76</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/anthopic_research_backdoor_logo-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/anthopic_research_backdoor_logo-500x500.jpg" width="500" height="500" />
+<media:credit>Anthopic</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Discord says hackers stole government IDs of 70,000 users</title>
+                <link>https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 09 Oct 2025 18:24:13 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[age verification]]></category>
+		<category><![CDATA[discord]]></category>
+		<category><![CDATA[id]]></category>
+		<category><![CDATA[privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/</guid>
+
+                                    <description>
+                        <![CDATA[As more sites require IDs for user age verification, expect more such breaches to come.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Discord says that hackers made off with images of 70,000 users’ government IDs that they were required to provide in order to use the site.</p>
+<p>Like an increasing number of sites, Discord requires certain users to provide a photo or scan of their driver’s license or other government ID that shows they meet the minimum age requirements in their country. In some cases, Discord allows users to prove their age by providing a selfie that shows their faces (it’s not clear how a face proves someone’s age, but there you go). The social media site imposes these requirements on users who are reported by other users to be under the minimum age for the country they’re connecting from.</p>
+<h2>“A substantial risk for identity theft”</h2>
+<p>On Wednesday, Discord <a href="https://discord.com/press-releases/update-on-security-incident-involving-third-party-customer-service">said</a> that ID images of roughly 70,000 users “may have had government-ID photos exposed” in a recent breach of a third-party service Discord entrusted to manage the data. The affected users had communicated with Discord’s Customer Support or Trust &amp; Safety teams and subsequently submitted the IDs in reviews of age-related appeals.</p><p><a href="https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/discord-says-hackers-stole-government-ids-of-70000-users/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>81</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Bank of England warns AI stock bubble rivals 2000 dotcom peak</title>
+                <link>https://arstechnica.com/ai/2025/10/bank-of-england-warns-ai-stock-bubble-rivals-2000-dotcom-peak/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/bank-of-england-warns-ai-stock-bubble-rivals-2000-dotcom-peak/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 08 Oct 2025 21:18:30 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI stocks]]></category>
+		<category><![CDATA[alphabet]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[andrew bailey]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[bank of england]]></category>
+		<category><![CDATA[Donald Trump]]></category>
+		<category><![CDATA[dotcom bubble]]></category>
+		<category><![CDATA[Federal Reserve]]></category>
+		<category><![CDATA[financial stability]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Lisa Cook]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Mark Zuckerberg]]></category>
+		<category><![CDATA[market correction]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[UK economy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/bank-of-england-warns-ai-stock-bubble-rivals-2000-dotcom-peak/</guid>
+
+                                    <description>
+                        <![CDATA[Central bank says market concentration hasn't been this extreme in 50 years.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>AI bubble <a href="https://arstechnica.com/ai/2025/10/ars-live-is-the-ai-bubble-about-to-pop-a-live-chat-with-ed-zitron/">talk</a> is in the air, and among the chorus of voices warning of an AI-fueled market bubble (which includes OpenAI CEO <a href="https://arstechnica.com/information-technology/2025/08/sam-altman-calls-ai-a-bubble-while-seeking-500b-valuation-for-openai/">Sam Altman</a> and Amazon’s <a href="https://www.cnbc.com/2025/10/03/jeff-bezos-ai-in-an-industrial-bubble-but-society-to-benefit.html">Jeff Bezos</a>) is the Bank of England, which <a href="https://www.bankofengland.co.uk/financial-policy-committee-record/2025/october-2025">warned</a> on Wednesday that global financial markets could face a sharp correction if investor sentiment turns negative on AI.</p>
+<p>The UK central bank said US stock valuations resemble those seen near the peak of the <a href="https://en.wikipedia.org/wiki/Dot-com_bubble">dotcom bubble</a> on some measures, with AI-focused companies making up an unprecedented portion of market value.</p>
+<p>In its <a href="https://www.bankofengland.co.uk/financial-policy-committee-record/2025/october-2025">quarterly report</a> derived from a meeting of its Financial Policy Committee that took place last week, BoE wrote that “the risk of a sharp market correction has increased.” Reuters <a href="https://www.reuters.com/sustainability/boards-policy-regulation/markets-face-sharp-correction-if-mood-sours-ai-or-fed-freedom-bank-england-says-2025-10-08/">notes</a> that it’s the BoE’s strongest warning to date about potential AI-driven market declines. The committee, chaired by Governor Andrew Bailey, said spillover risks to Britain’s financial system from such a shock were “material.”</p><p><a href="https://arstechnica.com/ai/2025/10/bank-of-england-warns-ai-stock-bubble-rivals-2000-dotcom-peak/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/bank-of-england-warns-ai-stock-bubble-rivals-2000-dotcom-peak/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>181</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bank_of_england-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/bank_of_england-500x500.jpg" width="500" height="500" />
+<media:credit>Scott E Barbour via Getty Images</media:credit><media:text>The Bank of England building in London.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Salesforce says it won’t pay extortion demand in 1 billion records breach</title>
+                <link>https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 08 Oct 2025 20:02:46 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Data breaches]]></category>
+		<category><![CDATA[extortion]]></category>
+		<category><![CDATA[ransomware]]></category>
+		<category><![CDATA[Salesforce]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/</guid>
+
+                                    <description>
+                        <![CDATA[Scattered LAPSUS$ Hunters gave Salesforce until Friday to pay or else.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Salesforce says it’s refusing to pay an extortion demand made by a crime syndicate that claims to have stolen roughly 1 billion records from dozens of Salesforce customers.</p>
+<p>The threat group making the demands began their campaign in May, when they made voice calls to organizations storing data on the Salesforce platform, Google-owned Mandiant <a href="https://cloud.google.com/blog/topics/threat-intelligence/voice-phishing-data-extortion">said</a> in June. The English-speaking callers would provide a pretense that necessitated the target connect an attacker-controlled app to their Salesforce portal. Amazingly—but not surprisingly—many of the people who received the calls complied.</p>
+<h2>It’s becoming a real mess</h2>
+<p>The threat group behind the campaign is calling itself Scattered LAPSUS$ Hunters, a mashup of three prolific data-extortion actors: Scattered Spider, LAPSuS$, and ShinyHunters. Mandiant, meanwhile, tracks the group as UNC6040, because the researchers so far have been unable to positively identify the connections.</p><p><a href="https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/salesforce-says-it-wont-pay-extortion-demand-in-1-billion-records-breach/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>59</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-597257986-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-597257986-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Synology caves, walks back some drive restrictions on upcoming NAS models</title>
+                <link>https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Lee Hutchinson]]>
+                </dc:creator>
+                <pubDate>Wed, 08 Oct 2025 16:49:27 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[dsm]]></category>
+		<category><![CDATA[Enterprise Storage]]></category>
+		<category><![CDATA[hard disk drive]]></category>
+		<category><![CDATA[hard drive]]></category>
+		<category><![CDATA[hdd]]></category>
+		<category><![CDATA[NAS]]></category>
+		<category><![CDATA[network attached storage]]></category>
+		<category><![CDATA[Storage]]></category>
+		<category><![CDATA[Synology]]></category>
+		<category><![CDATA[synology dsm]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/</guid>
+
+                                    <description>
+                        <![CDATA[Policy change affects at least 2025 model Plus, Value, and J-series DiskStations.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>If you were considering the purchase of a Synology NAS but were leery of the unreasonably high cost of populating it with special Synology-branded hard disk drives, you can breathe a little easier today. In <a href="https://www.synology.com/en-us/company/news/article/dsm73/Synology%C2%AE%20Releases%20DiskStation%20Manager%207.3%2C%20Bringing%20Efficient%20Data%20Tiering%2C%20Enhanced%20Security%2C%20and%20AI-Powered%20Collaboration">a press release dated October 8</a>, Synology noted that with the release of its latest Disk Station Manager (DSM) update, some of its 2025 model-year products—specifically, the Plus, Value, and J-series DiskStation NAS devices—would “support the installation and storage pool creation of non-validated third-party drives.”</p>
+<p>This unexpected move comes just a few months after Synology <a href="https://arstechnica.com/gadgets/2025/04/synology-confirms-need-for-synology-branded-drives-in-newer-plus-series-nas/">aggressively expanded its “verified drive” policy down-market</a> to the entire Plus line of DiskStations. Prior to today, the network-attached storage vendor had shown no signs of swerving from the decision, painting it as a pro-consumer move intended to enhance reliability. “Extensive internal testing has shown that drives that follow a rigorous validation process when paired with Synology systems are at less risk of drive failure and ongoing compatibility issues,” Synology previously claimed in an email to Ars.</p>
+<h2>What is a “verified” or “validated” drive?</h2>
+<p>Synology first released its own brand of hard disk drives <a href="https://www.blackvoid.club/synology-hdd-compatibility-policy-explained/">back in 2021</a> and began requiring their use in a small but soon-to-increase number of its higher-end NAS products. Although the drives were rebadged offerings from other manufacturers—there are very few hard disk drive OEMs, and Synology isn’t one of them—the company claimed that its branded disks <a href="https://www.synology.com/en-us/products/drives/hdd/enterprise-hat">underwent significant additional validation and testing</a> that, when coupled with customized firmware, yielded reliability and performance improvements over off-the-shelf components.</p><p><a href="https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/10/synology-caves-walks-back-some-drive-restrictions-on-upcoming-nas-models/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>148</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2213358286-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/GettyImages-2213358286-500x500.jpg" width="500" height="500" />
+<media:credit>SOPA Images / Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Ars Live: Is the AI bubble about to pop? Ed Zitron is on with Ars at 3:30pm EDT today</title>
+                <link>https://arstechnica.com/ai/2025/10/ars-live-is-the-ai-bubble-about-to-pop-a-live-chat-with-ed-zitron/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/ars-live-is-the-ai-bubble-about-to-pop-a-live-chat-with-ed-zitron/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 07 Oct 2025 19:15:26 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI bubble]]></category>
+		<category><![CDATA[AI criticism]]></category>
+		<category><![CDATA[ars live]]></category>
+		<category><![CDATA[Ars Live Conversations]]></category>
+		<category><![CDATA[Benj Edwards]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[Ed Zitron]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/ars-live-is-the-ai-bubble-about-to-pop-a-live-chat-with-ed-zitron/</guid>
+
+                                    <description>
+                        <![CDATA[Our discussion happens today, October 7, at 3:30pm US Eastern time.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As generative AI has taken off since ChatGPT’s debut, inspiring hundreds of billions of dollars in investments and infrastructure developments, the top question on many people’s minds has been: Is generative AI a bubble, and if so, when will it pop?</p>
+<p>To help us potentially answer that question, I’ll be hosting a live conversation with prominent AI critic Ed Zitron on <a href="https://www.youtube.com/live/1nEph7-Viyc">October 7 at 3:30 pm ET</a> as part of the Ars Live series. As Ars Technica’s <a href="https://arstechnica.com/author/benjedwards/">senior AI reporter</a>, I’ve been tracking both the explosive growth of this industry and the mounting skepticism about its sustainability.</p>
+<p>You can <a href="https://www.youtube.com/@arstechnica">watch the discussion live</a> on YouTube when the time comes.</p><p><a href="https://arstechnica.com/ai/2025/10/ars-live-is-the-ai-bubble-about-to-pop-a-live-chat-with-ed-zitron/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/ars-live-is-the-ai-bubble-about-to-pop-a-live-chat-with-ed-zitron/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>179</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ai_bubble_hero2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ai_bubble_hero2-500x500.jpg" width="500" height="500" />
+<media:credit>Wong Yu Liang via Getty Images</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
