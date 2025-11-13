@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-11-07T17:41:44Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[On Hacking Back]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html" />
+
+		<id>https://www.schneier.com/?p=71128</id>
+		<updated>2025-11-01T16:07:25Z</updated>
+		<published>2025-11-12T12:01:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="hackback" /><category scheme="https://www.schneier.com/" term="laws" />
+		<summary type="html"><![CDATA[<p>Former DoJ attorney John Carlin <a href="https://www.aspendigital.org/blog/so-you-want-to-hack-back/">writes</a> about hackback, which he defines thus: &#8220;A hack back is a type of cyber response that incorporates a counterattack designed to proactively engage with, disable, or collect evidence about an attacker. Although hack backs can take on various forms, they are&#8212;­by definition­&#8212;not passive defensive measures.&#8221;</p>
+<p>His conclusion:</p>
+<blockquote><p>As the law currently stands, specific forms of purely defense measures are authorized so long as they affect only the victim’s system or data.</p>
+<p>At the other end of the spectrum, offensive measures that involve accessing or otherwise causing damage or loss to the hacker’s systems are likely prohibited, absent government oversight or authorization. And even then parties should proceed with caution in light of the heightened risks of misattribution, collateral damage, and retaliation...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html"><![CDATA[<p>Former DoJ attorney John Carlin <a href="https://www.aspendigital.org/blog/so-you-want-to-hack-back/">writes</a> about hackback, which he defines thus: &#8220;A hack back is a type of cyber response that incorporates a counterattack designed to proactively engage with, disable, or collect evidence about an attacker. Although hack backs can take on various forms, they are&#8212;­by definition­&#8212;not passive defensive measures.&#8221;</p>
+<p>His conclusion:</p>
+<blockquote><p>As the law currently stands, specific forms of purely defense measures are authorized so long as they affect only the victim’s system or data.</p>
+<p>At the other end of the spectrum, offensive measures that involve accessing or otherwise causing damage or loss to the hacker’s systems are likely prohibited, absent government oversight or authorization. And even then parties should proceed with caution in light of the heightened risks of misattribution, collateral damage, and retaliation.</p>
+<p>As for the broad range of other hack back tactics that fall in the middle of active defense and offensive measures, private parties should continue to engage in these tactics only with government oversight or authorization. These measures exist within a legal gray area and would likely benefit from amendments to the CFAA and CISA that clarify and carve out the parameters of authorization for specific self-defense measures. But in the absence of amendments or clarification on the scope of those laws, private actors can seek governmental authorization through an array of channels, whether they be partnering with law enforcement or seeking authorization to engage in more offensive tactics from the courts in connection with private litigation.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Prompt Injection in AI Browsers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html" />
+
+		<id>https://www.schneier.com/?p=71125</id>
+		<updated>2025-11-01T16:01:46Z</updated>
+		<published>2025-11-11T12:08:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="browsers" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><a href="https://www.bleepingcomputer.com/news/security/commetjacking-attack-tricks-comet-browser-into-stealing-emails/">This</a> is why AIs are not ready to be personal assistants:</p>
+<blockquote><p>A new attack called &#8216;CometJacking&#8217; exploits URL parameters to pass to Perplexity&#8217;s Comet AI browser hidden instructions that allow access to sensitive data from connected services, like email and calendar.</p>
+<p>In a realistic scenario, no credentials or user interaction are required and a threat actor can leverage the attack by simply exposing a maliciously crafted URL to targeted users.</p>
+<p>[&#8230;]</p>
+<p>CometJacking is a prompt-injection attack where the query string processed by the Comet AI browser contains malicious instructions added using the &#8216;collection&#8217; parameter of the URL...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html"><![CDATA[<p><a href="https://www.bleepingcomputer.com/news/security/commetjacking-attack-tricks-comet-browser-into-stealing-emails/">This</a> is why AIs are not ready to be personal assistants:</p>
+<blockquote><p>A new attack called &#8216;CometJacking&#8217; exploits URL parameters to pass to Perplexity&#8217;s Comet AI browser hidden instructions that allow access to sensitive data from connected services, like email and calendar.</p>
+<p>In a realistic scenario, no credentials or user interaction are required and a threat actor can leverage the attack by simply exposing a maliciously crafted URL to targeted users.</p>
+<p>[&#8230;]</p>
+<p>CometJacking is a prompt-injection attack where the query string processed by the Comet AI browser contains malicious instructions added using the &#8216;collection&#8217; parameter of the URL.</p>
+<p>LayerX researchers say that the prompt tells the agent to consult its memory and connected services instead of searching the web. As the AI tool is connected to various services, an attacker leveraging the CometJacking method could exfiltrate available data.</p>
+<p>In their tests, the connected services and accessible data include Google Calendar invites and Gmail messages and the malicious prompt included instructions to encode the sensitive data in base64 and then exfiltrate them to an external endpoint.</p>
+<p>According to the researchers, Comet followed the instructions and delivered the information to an external system controlled by the attacker, evading Perplexity&#8217;s checks.</p></blockquote>
+<p>I wrote <a href="https://www.schneier.com/blog/archives/2025/09/indirect-prompt-injection-attacks-against-llm-assistants.html">previously</a>:</p>
+<blockquote><p>Prompt injection isn&#8217;t just a minor security problem we need to deal with. It&#8217;s a fundamental property of current LLM technology. The systems have <a href="https://www.schneier.com/blog/archives/2024/05/llms-data-control-path-insecurity.html">no ability to separate trusted commands from untrusted data</a>, and there are an infinite number of prompt injection attacks with <a href="https://llm-attacks.org/">no way to block them</a> as a class. We need some new fundamental science of LLMs before we can solve this.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[New Attacks Against Secure Enclaves]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/new-attacks-against-secure-enclaves.html" />
+
+		<id>https://www.schneier.com/?p=71121</id>
+		<updated>2025-11-01T15:58:24Z</updated>
+		<published>2025-11-10T12:04:55Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cloud computing" /><category scheme="https://www.schneier.com/" term="data protection" /><category scheme="https://www.schneier.com/" term="hardware" /><category scheme="https://www.schneier.com/" term="physical security" />
+		<summary type="html"><![CDATA[<p>Encryption can protect data at rest and data in transit, but does nothing for data in use. What we have are secure enclaves. I&#8217;ve <a href="https://www.schneier.com/academic/archives/2023/12/decoupling-for-security.html">written about</a> this before:</p>
+<blockquote><p>Almost all cloud services have to perform some computation on our data. Even the simplest storage provider has code to copy bytes from an internal storage system and deliver them to the user. End-to-end encryption is sufficient in such a narrow context. But often we want our cloud providers to be able to perform computation on our raw data: search, analysis, AI model training or fine-tuning, and more. Without expensive, esoteric techniques, such as secure multiparty computation protocols or homomorphic encryption techniques that can perform calculations on encrypted data, cloud servers require access to the unencrypted data to do anything useful...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/new-attacks-against-secure-enclaves.html"><![CDATA[<p>Encryption can protect data at rest and data in transit, but does nothing for data in use. What we have are secure enclaves. I&#8217;ve <a href="https://www.schneier.com/academic/archives/2023/12/decoupling-for-security.html">written about</a> this before:</p>
+<blockquote><p>Almost all cloud services have to perform some computation on our data. Even the simplest storage provider has code to copy bytes from an internal storage system and deliver them to the user. End-to-end encryption is sufficient in such a narrow context. But often we want our cloud providers to be able to perform computation on our raw data: search, analysis, AI model training or fine-tuning, and more. Without expensive, esoteric techniques, such as secure multiparty computation protocols or homomorphic encryption techniques that can perform calculations on encrypted data, cloud servers require access to the unencrypted data to do anything useful.</p>
+<p>Fortunately, the last few years have seen the advent of general-purpose, hardware-enabled secure computation. This is powered by special functionality on processors known as trusted execution environments (TEEs) or secure enclaves. TEEs decouple who runs the chip (a cloud provider, such as Microsoft Azure) from who secures the chip (a processor vendor, such as Intel) and from who controls the data being used in the computation (the customer or user). A TEE can keep the cloud provider from seeing what is being computed. The results of a computation are sent via a secure tunnel out of the enclave or encrypted and stored. A TEE can also generate a signed attestation that it actually ran the code that the customer wanted to run.</p></blockquote>
+<p>Secure enclaves are critical in our modern cloud-based computing architectures. And, of course, they have <a href="https://arstechnica.com/security/2025/10/new-physical-attacks-are-quickly-diluting-secure-enclave-defenses-from-nvidia-amd-and-intel/">vulnerabilities</a>:</p>
+<blockquote><p>The most recent attack, released Tuesday, is known as TEE.fail. It defeats the latest TEE protections from all three chipmakers. The low-cost, low-complexity attack works by placing a small piece of hardware between a single physical memory chip and the motherboard slot it plugs into. It also requires the attacker to compromise the operating system kernel. Once this three-minute attack is completed, Confidential Compute, SEV-SNP, and TDX/SDX can no longer be trusted. Unlike the Battering RAM and Wiretap attacks from <a href="https://arstechnica.com/security/2025/09/intel-and-amd-trusted-enclaves-the-backbone-of-network-security-fall-to-physical-attacks/">last month</a>&#8212;which worked only against CPUs using DDR4 memory&#8212;TEE.fail works against DDR5, allowing them to work against the latest TEEs.</p></blockquote>
+<p>Yes, these attacks require physical access. But that&#8217;s exactly the threat model secure enclaves are supposed to secure against.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/new-attacks-against-secure-enclaves.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/new-attacks-against-secure-enclaves.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Game: The Challenge, Season Two]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-squid-game-the-challenge-season-two.html" />
+
+		<id>https://www.schneier.com/?p=71143</id>
+		<updated>2025-11-07T17:41:44Z</updated>
+		<published>2025-11-07T22:01:03Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>The second season of the Netflix reality competition show <i>Squid Game: The Challenge</i> has dropped. (Too many links to pick a few&#8212;search for it.)</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-squid-game-the-challenge-season-two.html"><![CDATA[<p>The second season of the Netflix reality competition show <i>Squid Game: The Challenge</i> has dropped. (Too many links to pick a few&#8212;search for it.)</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-squid-game-the-challenge-season-two.html#comments" thr:count="49" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-squid-game-the-challenge-season-two.html/feed/atom/" thr:count="49" />
+			<thr:total>49</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Faking Receipts with AI]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/faking-receipts-with-ai.html" />
+
+		<id>https://www.schneier.com/?p=71119</id>
+		<updated>2025-11-01T15:54:34Z</updated>
+		<published>2025-11-07T12:01:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="forgery" /><category scheme="https://www.schneier.com/" term="fraud" />
+		<summary type="html"><![CDATA[<p>Over the past few decades, it&#8217;s become easier and easier to create fake receipts. Decades ago, it required special paper and printers&#8212;I remember a company in the UK advertising its services to people trying to cover up their affairs. Then, receipts became computerized, and faking them required some artistic skills to make the page look realistic.</p>
+<p>Now, AI can <a href="https://arstechnica.com/ai/2025/10/ai-generated-receipts-make-submitting-fake-expenses-easier/">do it all</a>:</p>
+<blockquote><p>Several receipts shown to the FT by expense management platforms demonstrated the realistic nature of the images, which included wrinkles in paper, detailed itemization that matched real-life menus, and signatures...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/faking-receipts-with-ai.html"><![CDATA[<p>Over the past few decades, it&#8217;s become easier and easier to create fake receipts. Decades ago, it required special paper and printers&#8212;I remember a company in the UK advertising its services to people trying to cover up their affairs. Then, receipts became computerized, and faking them required some artistic skills to make the page look realistic.</p>
+<p>Now, AI can <a href="https://arstechnica.com/ai/2025/10/ai-generated-receipts-make-submitting-fake-expenses-easier/">do it all</a>:</p>
+<blockquote><p>Several receipts shown to the FT by expense management platforms demonstrated the realistic nature of the images, which included wrinkles in paper, detailed itemization that matched real-life menus, and signatures.</p>
+<p>[&#8230;]</p>
+<p>The rise in these more realistic copies has led companies to turn to AI to help detect fake receipts, as most are too convincing to be found by human reviewers.</p>
+<p>The software works by scanning receipts to check the metadata of the image to discover whether an AI platform created it. However, this can be easily removed by users taking a photo or a screenshot of the picture.</p>
+<p>To combat this, it also considers other contextual information by examining details such as repetition in server names and times and broader information about the employee&#8217;s trip.</p></blockquote>
+<p>Yet another AI-powered security arms race.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/faking-receipts-with-ai.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/faking-receipts-with-ai.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Rigged Poker Games]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/rigged-poker-games.html" />
+
+		<id>https://www.schneier.com/?p=71116</id>
+		<updated>2025-11-01T15:51:31Z</updated>
+		<published>2025-11-06T12:02:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cheating" /><category scheme="https://www.schneier.com/" term="gambling" /><category scheme="https://www.schneier.com/" term="hacking" />
+		<summary type="html"><![CDATA[<p>The Department of Justice has <a href="https://www.wsj.com/sports/nba-illegal-gambling-poker-games-3e7988e4?st=ArwBJd&#038;reflink=article_copyURL_share&#038;utm_source=substack&#038;utm_medium=email">indicted</a> thirty-one people over the high-tech rigging of high-stakes poker games.</p>
+<blockquote><p>In a typical legitimate poker game, a dealer uses a shuffling machine to shuffle the cards randomly before dealing them to all the players in a particular order.  As set forth in the indictment, the rigged games used altered shuffling machines that contained hidden technology allowing the machines to read all the cards in the deck.  Because the cards were always dealt in a particular order to the players at the table, the machines could determine which player would have the winning hand. This information was transmitted to an off-site member of the conspiracy, who then transmitted that information via cellphone back to a member of the conspiracy who was playing at the table, referred to as the &#8220;Quarterback&#8221; or &#8220;Driver.&#8221;  The Quarterback then secretly signaled this information (usually by prearranged signals like touching certain chips or other items on the table) to other co-conspirators playing at the table, who were also participants in the scheme.  Collectively, the Quarterback and other players in on the scheme (i.e., the cheating team) used this information to win poker games against unwitting victims, who sometimes lost tens or hundreds of thousands of dollars at a time. The defendants used other cheating technology as well, such as a chip tray analyzer (essentially, a poker chip tray that also secretly read all cards using hidden cameras), an x-ray table that could read cards face down on the table, and special contact lenses or eyeglasses that could read pre-marked cards. ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/rigged-poker-games.html"><![CDATA[<p>The Department of Justice has <a href="https://www.wsj.com/sports/nba-illegal-gambling-poker-games-3e7988e4?st=ArwBJd&#038;reflink=article_copyURL_share&#038;utm_source=substack&#038;utm_medium=email">indicted</a> thirty-one people over the high-tech rigging of high-stakes poker games.</p>
+<blockquote><p>In a typical legitimate poker game, a dealer uses a shuffling machine to shuffle the cards randomly before dealing them to all the players in a particular order.  As set forth in the indictment, the rigged games used altered shuffling machines that contained hidden technology allowing the machines to read all the cards in the deck.  Because the cards were always dealt in a particular order to the players at the table, the machines could determine which player would have the winning hand. This information was transmitted to an off-site member of the conspiracy, who then transmitted that information via cellphone back to a member of the conspiracy who was playing at the table, referred to as the &#8220;Quarterback&#8221; or &#8220;Driver.&#8221;  The Quarterback then secretly signaled this information (usually by prearranged signals like touching certain chips or other items on the table) to other co-conspirators playing at the table, who were also participants in the scheme.  Collectively, the Quarterback and other players in on the scheme (i.e., the cheating team) used this information to win poker games against unwitting victims, who sometimes lost tens or hundreds of thousands of dollars at a time. The defendants used other cheating technology as well, such as a chip tray analyzer (essentially, a poker chip tray that also secretly read all cards using hidden cameras), an x-ray table that could read cards face down on the table, and special contact lenses or eyeglasses that could read pre-marked cards. </p></blockquote>
+<p><a href="https://www.nytimes.com/2025/10/24/nyregion/nba-mafia-rigged-poker-games.html">News</a> <a href="https://www.wired.com/story/card-shuffler-hack/">articles</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/rigged-poker-games.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/rigged-poker-games.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Scientists Need a Positive Vision for AI]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/scientists-need-a-positive-vision-for-ai.html" />
+
+		<id>https://www.schneier.com/?p=71112</id>
+		<updated>2025-10-30T05:23:40Z</updated>
+		<published>2025-11-05T12:04:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>For many in the research community, it&#8217;s gotten harder to be optimistic about the impacts of <a href="https://spectrum.ieee.org/topic/artificial-intelligence/">artificial intelligence</a>.</p>
+<p>As authoritarianism is rising around the world, AI-generated &#8220;slop&#8221; is overwhelming legitimate media, while AI-generated <a href="https://spectrum.ieee.org/tag/deepfakes">deepfakes</a> are spreading <a href="https://spectrum.ieee.org/tag/misinformation">misinformation</a> and parroting extremist messages. AI is making warfare more precise and deadly amidst intransigent conflicts. AI companies are exploiting people in the global South who work as data labelers, and profiting from content creators worldwide by using their work without license or compensation. The industry is also affecting an already-roiling climate with its ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/scientists-need-a-positive-vision-for-ai.html"><![CDATA[<p>For many in the research community, it&#8217;s gotten harder to be optimistic about the impacts of <a href="https://spectrum.ieee.org/topic/artificial-intelligence/">artificial intelligence</a>.</p>
+<p>As authoritarianism is rising around the world, AI-generated &#8220;slop&#8221; is overwhelming legitimate media, while AI-generated <a href="https://spectrum.ieee.org/tag/deepfakes">deepfakes</a> are spreading <a href="https://spectrum.ieee.org/tag/misinformation">misinformation</a> and parroting extremist messages. AI is making warfare more precise and deadly amidst intransigent conflicts. AI companies are exploiting people in the global South who work as data labelers, and profiting from content creators worldwide by using their work without license or compensation. The industry is also affecting an already-roiling climate with its <a href="https://spectrum.ieee.org/ai-energy-use">enormous energy demands</a>.</p>
+<p>Meanwhile, particularly in the <a href="https://spectrum.ieee.org/tag/united-states">United States</a>, public investment in science seems to be <a href="https://www.aau.edu/newsroom/leading-research-universities-report/white-house-proposes-steep-cuts-science-and-education">redirected</a> and <a href="https://www.aip.org/fyi/trump-plan-highlights-ai-for-science">concentrated</a> on AI at the expense of other disciplines. And <a href="https://spectrum.ieee.org/tag/big-tech">Big Tech</a> companies are consolidating their control over the AI ecosystem. In these ways and others, AI seems to be making everything worse.</p>
+<p>This is not the whole story. We should not resign ourselves to AI being harmful to humanity. None of us should accept this as inevitable, especially those in a position to influence science, government, and society. Scientists and engineers can push AI towards a beneficial path. Here&#8217;s how.</p>
+<h3>The Academy&#8217;s View of AI</h3>
+<p>A <a href="https://www.pewresearch.org/internet/2025/04/03/how-the-us-public-and-ai-experts-view-artificial-intelligence/">Pew study</a> in April found that 56 percent of AI experts (authors and presenters of AI-related conference papers) predict that AI will have positive effects on society. But that optimism doesn&#8217;t extend to the scientific community at large. A 2023 <a href="https://sci-ops.org/survey/artificial-intelligence-survey-x/scientists-perceptions-and-personal-use/">survey</a> of 232 scientists by the Center for Science, Technology and <a href="https://spectrum.ieee.org/tag/environmental-policy">Environmental Policy</a> Studies at Arizona State University found more concern than excitement about the use of <a href="https://spectrum.ieee.org/tag/generative-ai">generative AI</a> in daily life&#8212;by nearly a three to one ratio.</p>
+<p>We have encountered this sentiment repeatedly. Our careers of diverse applied work have brought us in contact with many research communities: privacy, <a href="https://spectrum.ieee.org/tag/cybersecurity">cybersecurity</a>, physical sciences, <a href="https://spectrum.ieee.org/tag/drug-discovery">drug discovery</a>, <a href="https://spectrum.ieee.org/tag/public-health">public health</a>, public interest technology, and democratic innovation. In all of these fields, we&#8217;ve found strong negative sentiment about the impacts of AI. The feeling is so palpable that we&#8217;ve often been asked to represent the voice of the AI optimist, even though we spend most of our time writing about the need to reform the structures of AI development.</p>
+<p>We understand why these audiences see AI as a destructive force, but this negativity engenders a different concern: that those with the potential to guide the development of AI and steer its influence on society will view it as a lost cause and sit out that process.</p>
+<h3>Elements of a Positive Vision for AI</h3>
+<p><a href="https://www.islandinstitute.org/working-waterfront/hope-a-framework-for-climate-action/">Many</a> <a href="https://time.com/7178677/climate-scientist-optimist-refuse-to-give-up-hope/">have</a> <a href="https://www.nature.com/articles/s41467-018-05977-w">a</a><a href="https://www.nature.com/articles/s41467-018-05977-w">rgu</a><a href="https://www.nature.com/articles/s41467-018-05977-w">ed</a> <a href="https://behavioralscientist.org/we-need-to-change-the-way-we-talk-about-climate-change/">that</a> <a href="https://www.forbes.com/sites/avivahwittenbergcox/2023/04/17/the-power-of-climate-optimists-flip-the-narrative-change-the-future/">turn</a><a href="https://www.forbes.com/sites/avivahwittenbergcox/2023/04/17/the-power-of-climate-optimists-flip-the-narrative-change-the-future/">ing</a> the <a href="https://climate.mit.edu/podcasts/making-case-climate-optimism">tide</a> of climate action requires clearly articulating a path towards positive outcomes. In the same way, while scientists and technologists should anticipate, warn against, and help mitigate the potential harms of AI, they should also highlight the ways the technology can be harnessed for good, galvanizing public action towards those ends.</p>
+<p>There are myriad ways to leverage and reshape AI to improve peoples&#8217; lives, distribute rather than concentrate power, and even strengthen democratic processes. Many examples have arisen from the scientific community and deserve to be celebrated.</p>
+<p>Some examples: AI is eliminating communication barriers across languages, including under-resourced contexts like <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5230744">marginalized sign languages</a> and <a href="https://ojs.bilpub.com/index.php/card/article/view/517">indigenous African languages</a>. It is helping policymakers incorporate the viewpoints of many constituents through AI-assisted <a href="https://www.science.org/doi/abs/10.1126/science.adq2852">deliberations</a> and <a href="https://static.ie.edu/CGC/AI4D%20Paper%203%20Applications%20of%20Artificial%20Intelligence%20Tools%20to%20Engance%20Legislative%20Engagement.pdf">legislative engagement</a>. <a href="https://spectrum.ieee.org/tag/large-language-models">Large language models</a> can scale individual dialogs to <a href="https://osf.io/mqcwj_v1/">a</a><a href="https://osf.io/mqcwj_v1/">ddress</a><a href="https://osf.io/mqcwj_v1/"> climate</a><a href="https://osf.io/mqcwj_v1/">&#8211;</a><a href="https://osf.io/mqcwj_v1/">change skepticism</a>, spreading accurate information at a critical moment. National labs are building AI <a href="https://www.anl.gov/cels/auroragpt-foundation-models-for-science">foundation models</a> to accelerate scientific research. And throughout the fields of medicine and biology, <a href="https://spectrum.ieee.org/tag/machine-learning">machine learning</a> is solving scientific problems like the prediction of protein structure in aid of drug discovery, which was recognized with a <a href="https://www.nobelprize.org/prizes/chemistry/2024/press-release/">Nobel Prize</a> in 2024.</p>
+<p>While each of these applications is nascent and surely imperfect, they all demonstrate that AI can be wielded to advance the public interest. Scientists should embrace, champion, and expand on such efforts.</p>
+<h3>A Call to Action for Scientists</h3>
+<p>In our new book, <em><a href="https://mitpress.mit.edu/9780262049948/rewiring-democracy/">Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship</a></em>, we describe four key actions for policymakers committed to steering AI toward the public good.</p>
+<p>These apply to scientists as well. Researchers should work to <strong>reform</strong> the AI industry to be more ethical, equitable, and trustworthy. We must collectively <a href="https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence">develop</a> <a href="https://www.pnas.org/doi/10.1073/pnas.2407886121">ethical</a> <a href="https://link.springer.com/article/10.1007/s43681-024-00493-8">norms</a> for research that advance and applies AI, and should use and draw attention to AI developers who adhere to those norms.</p>
+<p>Second, we should <strong>resist</strong> harmful uses of AI by documenting the negative applications of AI and casting a light on inappropriate uses.</p>
+<p>Third, we should <strong>responsibly use</strong> AI to make society and peoples&#8217; lives better, exploiting its capabilities to help the communities they serve.</p>
+<p>And finally, we must advocate for the <strong>renovation</strong> of institutions to prepare them for the impacts of AI; universities, professional societies, and democratic organizations are all vulnerable to disruption.</p>
+<p>Scientists have a special privilege and responsibility: We are close to the technology itself and therefore well positioned to influence its trajectory. We must work to create an AI-infused world that we want to live in. Technology, as the historian <a href="https://www.jstor.org/stable/3105385">Melvin Kranzberg observed</a>, &#8220;is neither good nor bad; nor is it neutral.&#8221; Whether the AI we build is detrimental or beneficial to society depends on the choices we make today. But we cannot create a positive future without a vision of what it looks like.</p>
+<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://spectrum.ieee.org/responsible-ai">IEEE Spectrum</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/scientists-need-a-positive-vision-for-ai.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/scientists-need-a-positive-vision-for-ai.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Cybercriminals Targeting Payroll Sites]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/cybercriminals-targeting-payroll-sites.html" />
+
+		<id>https://www.schneier.com/?p=71056</id>
+		<updated>2025-10-28T19:18:13Z</updated>
+		<published>2025-11-04T12:05:54Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="banking" /><category scheme="https://www.schneier.com/" term="credentials" /><category scheme="https://www.schneier.com/" term="scams" /><category scheme="https://www.schneier.com/" term="social engineering" />
+		<summary type="html"><![CDATA[<p>Microsoft is <a href="https://thehackernews.com/2025/10/microsoft-warns-of-payroll-pirates.html?_m=3n%2e009a%2e3796%2ebx0ao08q8s%2e2u1l">warning</a> of a scam involving online payroll systems. Criminals use social engineering to steal people&#8217;s credentials, and then divert direct deposits into accounts that they control. Sometimes they do other things to make it harder for the victim to realize what is happening.</p>
+<p>I feel like this kind of thing is happening everywhere, with everything. As we move more of our personal and professional lives online, we enable criminals to subvert the very systems we rely on.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/cybercriminals-targeting-payroll-sites.html"><![CDATA[<p>Microsoft is <a href="https://thehackernews.com/2025/10/microsoft-warns-of-payroll-pirates.html?_m=3n%2e009a%2e3796%2ebx0ao08q8s%2e2u1l">warning</a> of a scam involving online payroll systems. Criminals use social engineering to steal people&#8217;s credentials, and then divert direct deposits into accounts that they control. Sometimes they do other things to make it harder for the victim to realize what is happening.</p>
+<p>I feel like this kind of thing is happening everywhere, with everything. As we move more of our personal and professional lives online, we enable criminals to subvert the very systems we rely on.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/cybercriminals-targeting-payroll-sites.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/cybercriminals-targeting-payroll-sites.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Summarization Optimization]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/ai-summarization-optimization.html" />
+
+		<id>https://www.schneier.com/?p=71086</id>
+		<updated>2025-10-26T06:04:28Z</updated>
+		<published>2025-11-03T12:05:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>These days, the most important meeting attendee isn’t a person: It’s the AI notetaker.</p>
+<p>This system assigns action items and determines the importance of what is said. If it becomes necessary to revisit the facts of the meeting, its summary is treated as impartial evidence.</p>
+<p>But clever meeting attendees can manipulate this system’s record by speaking more to what the underlying AI weights for summarization and importance than to their colleagues. As a result, you can expect some meeting attendees to use language more likely to be captured in summaries, timing their interventions strategically, repeating key points, and employing formulaic phrasing that AI models are more likely to pick up on. Welcome to the world of AI summarization optimization (AISO)...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/ai-summarization-optimization.html"><![CDATA[<p>These days, the most important meeting attendee isn’t a person: It’s the AI notetaker.</p>
+<p>This system assigns action items and determines the importance of what is said. If it becomes necessary to revisit the facts of the meeting, its summary is treated as impartial evidence.</p>
+<p>But clever meeting attendees can manipulate this system’s record by speaking more to what the underlying AI weights for summarization and importance than to their colleagues. As a result, you can expect some meeting attendees to use language more likely to be captured in summaries, timing their interventions strategically, repeating key points, and employing formulaic phrasing that AI models are more likely to pick up on. Welcome to the world of AI summarization optimization (AISO).</p>
+<h3 id="optimizing-for-algorithmic-manipulation" class="wp-block-heading">Optimizing for algorithmic manipulation</h3>
+<p>AI summarization optimization has a well-known precursor: SEO.</p>
+<p>Search-engine optimization is as old as the World Wide Web. The idea is straightforward: Search engines scour the internet digesting every possible page, with the goal of serving the best results to every possible query. The objective for a content creator, company, or cause is to optimize for the algorithm search engines have developed to determine their webpage rankings for those queries. That requires writing for two audiences at once: human readers and the search-engine crawlers indexing content. Techniques to do this effectively are passed around like trade secrets, and a <a href="https://www.grandviewresearch.com/industry-analysis/seo-software-market-report#:~:text=The%20global%20SEO%20software%20market%20size%20was,and%20heightened%20competition%20in%20the%20digital%20landscape.">$75 billion</a> industry offers SEO services to organizations of all sizes.</p>
+<p>More recently, researchers have documented techniques for influencing AI responses, including <a href="https://www.schneier.com/blog/archives/2024/04/the-rise-of-large.html%22%3Elarge-language%20model%20optimization">large-language model optimization</a> (LLMO) and <a href="https://arxiv.org/abs/2311.09735">generative engine optimization</a> (GEO). Tricks include content optimization&#8212;adding citations and statistics&#8212;and adversarial approaches: using specially crafted text sequences. These techniques often target sources that LLMs heavily reference, such as Reddit, which is claimed to be <a href="https://www.visualcapitalist.com/ranked-the-most-cited-websites-by-ai-models/">cited in 40%</a> of AI-generated responses. The effectiveness and real-world applicability of these methods remains limited and largely experimental, although there is substantial evidence that countries such as Russia are <a href="https://www.atlanticcouncil.org/blogs/new-atlanticist/exposing-pravda-how-pro-kremlin-forces-are-poisoning-ai-models-and-rewriting-wikipedia/">actively</a> <a href="https://thebulletin.org/2025/03/russian-networks-flood-the-internet-with-propaganda-aiming-to-corrupt-ai-chatbots/">pursuing</a> <a href="https://www.washingtonpost.com/technology/2025/04/17/llm-poisoning-grooming-chatbots-russia/">this</a>.</p>
+<p>AI summarization optimization follows the same logic on a smaller scale. Human participants in a meeting may want a certain fact highlighted in the record, or their perspective to be reflected as the authoritative one. Rather than persuading colleagues directly, they adapt their speech for the notetaker that will later define the “official” summary. For example:</p>
+<ul class="wp-block-list">
+<li>“The main factor in last quarter’s delay was supply chain disruption.”</li>
+<li>“The key outcome was overwhelmingly positive client feedback.”</li>
+<li>“Our takeaway here is in alignment moving forward.”</li>
+<li>“What matters here is the efficiency gains, not the temporary cost overrun.”</li>
+</ul>
+<p>The techniques are subtle. They employ high-signal phrases such as “key takeaway” and “action item,” keep statements short and clear, and repeat them when possible. They also use contrastive framing (“this, not that”), and speak early in the meeting or at transition points.</p>
+<p>Once spoken words are transcribed, they enter the model’s input. Cue phrases&#8212;and even transcription errors&#8212;can steer what makes it into the summary. In many tools, the output format itself is also a signal: Summarizers often offer sections such as “Key Takeaways” or “Action Items,” so language that mirrors those headings is more likely to be included. In effect, well-chosen phrases function as implicit markers that guide the AI toward inclusion.</p>
+<p>Research confirms this. Early AI summarization research <a href="https://arxiv.org/abs/1509.00685">showed</a> <a href="https://arxiv.org/abs/1912.08777">that</a> models trained to reconstruct summary-style sentences systematically overweigh such content. Models over-rely on <a href="https://arxiv.org/abs/1912.11602">early-position</a> <a href="https://arxiv.org/pdf/1909.04028.pdf">content</a> in news. And models often overweigh statements at the <a href="https://arxiv.org/abs/2310.10570">start or end</a> of a transcript, underweighting the middle. Recent work further confirms vulnerability to phrasing-based manipulation: models <a href="https://arxiv.org/abs/2312.14197">cannot reliably</a> distinguish embedded instructions from ordinary content, especially when phrasing mimics salient cues.</p>
+<h3 id="how-to-combat-aiso" class="wp-block-heading">How to combat AISO</h3>
+<p>If AISO becomes common, three forms of defense will emerge. First, meeting participants will exert social pressure on one another. When researchers secretly deployed AI bots in Reddit’s r/changemyview community, users and moderators responded with <a href="https://retractionwatch.com/2025/04/28/experiment-using-ai-generated-posts-on-reddit-draws-fire-for-ethics-concerns/">strong backlash</a> calling it “<a href="https://www.science.org/content/article/unethical-ai-research-reddit-under-fire">psychological manipulation</a>.” Anyone using obvious AI-gaming phrases may face similar disapproval.</p>
+<p>Second, organizations will start governing meeting behavior using AI: risk assessments and access restrictions before the meetings even start, detection of AISO techniques in meetings, and validation and auditing after the meetings.</p>
+<p>Third, AI summarizers will have their own technical countermeasures. For example, the AI security company CloudSEK <a href="https://www.cloudsek.com/blog/trusted-my-summarizer-now-my-fridge-is-encrypted----how-threat-actors-could-weaponize-ai-summarizers-with-css-based-clickfix-attacks">recommends</a> content sanitization to strip suspicious inputs, prompt filtering to detect meta-instructions and excessive repetition, context window balancing to weight repeated content less heavily, and user warnings showing content provenance.</p>
+<p>Broader defenses could draw from security and AI safety research: <a href="https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html">preprocessing content</a> to detect dangerous patterns, <a href="https://github.com/usefulmove/ConsensusLLM">consensus approaches</a> requiring consistency thresholds, <a href="https://arxiv.org/abs/2410.02584">self-reflection techniques</a> to detect manipulative content, and <a href="https://arxiv.org/html/2407.19098v1">human oversight protocols</a> for critical decisions. Meeting-specific systems could implement additional defenses: <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2020/04/MeetingNet_EMNLP_full.pdf">tagging inputs by provenance</a>, <a href="https://aclanthology.org/2022.aacl-short.6.pdf">weighting content</a> by speaker role or centrality with sentence-level importance scoring, and discounting high-signal phrases while favoring consensus over fervor.</p>
+<h3 id="reshaping-human-behavior" class="wp-block-heading">Reshaping human behavior</h3>
+<p>AI summarization optimization is a small, subtle shift, but it illustrates how the adoption of AI is reshaping human behavior in unexpected ways. The potential implications are quietly profound.</p>
+<p>Meetings&#8212;humanity’s most fundamental collaborative ritual&#8212;are being silently reengineered by those who understand the algorithm’s preferences. The articulate are gaining an invisible advantage over the wise. Adversarial thinking is becoming routine, embedded in the most ordinary workplace rituals, and, as AI becomes embedded in organizational life, strategic interactions with AI notetakers and summarizers may soon be a necessary executive skill for navigating corporate culture.</p>
+<p>AI summarization optimization illustrates how quickly humans adapt communication strategies to new technologies. As AI becomes more embedded in workplace communication, recognizing these emerging patterns may prove increasingly important.</p>
+<p><em>This essay was written with Gadi Evron, and originally appeared in <a href="https://www.csoonline.com/article/4077438/manipulating-the-meeting-notetaker-the-rise-of-ai-summarization-optimization.html">CSO</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/ai-summarization-optimization.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/ai-summarization-optimization.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Giant Squid at the Smithsonian]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-giant-squid-at-the-smithsonian.html" />
+
+		<id>https://www.schneier.com/?p=71065</id>
+		<updated>2025-10-20T19:27:31Z</updated>
+		<published>2025-10-31T21:06:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>I can&#8217;t believe that I haven&#8217;t yet posted <a href="https://naturalhistory.si.edu/explore/giant-squid">this picture</a> of a giant squid at the Smithsonian.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-giant-squid-at-the-smithsonian.html"><![CDATA[<p>I can&#8217;t believe that I haven&#8217;t yet posted <a href="https://naturalhistory.si.edu/explore/giant-squid">this picture</a> of a giant squid at the Smithsonian.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-giant-squid-at-the-smithsonian.html#comments" thr:count="52" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-giant-squid-at-the-smithsonian.html/feed/atom/" thr:count="52" />
+			<thr:total>52</thr:total>
+			</entry>
+	</feed>
