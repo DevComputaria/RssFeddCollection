@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT &#8211; Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Wed, 19 Nov 2025 22:03:46 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT &#8211; Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Massive Cloudflare outage was triggered by file that suddenly doubled in size</title>
+                <link>https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Jon Brodkin]]>
+                </dc:creator>
+                <pubDate>Wed, 19 Nov 2025 21:25:24 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[cloudflare]]></category>
+		<category><![CDATA[Matthew Prince]]></category>
+		<category><![CDATA[outage]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/</guid>
+
+                                    <description>
+                        <![CDATA["I worry this is the big botnet flexing," CEO said. But outage was self-inflicted.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When a Cloudflare outage <a href="https://arstechnica.com/tech-policy/2025/11/widespread-cloudflare-outage-blamed-on-mysterious-traffic-spike/">disrupted large numbers</a> of websites and online services yesterday, the company initially thought it was hit by a “hyper-scale” DDoS (distributed denial-of-service) attack.</p>
+<p>“I worry this is the big botnet flexing,” Cloudflare co-founder and CEO Matthew Prince wrote in an internal chat room yesterday, while he and others discussed whether Cloudflare was being hit by attacks from the prolific <a href="https://techcommunity.microsoft.com/blog/azureinfrastructureblog/defending-the-cloud-azure-neutralized-a-record-breaking-15-tbps-ddos-attack/4470422">Aisuru botnet</a>. But upon further investigation, Cloudflare staff realized the problem had an internal cause: an important file had unexpectedly doubled in size and propagated across the network.</p>
+<p>This caused trouble for software that needs to read the file to maintain the Cloudflare <a href="https://www.cloudflare.com/application-services/products/bot-management/">bot management system</a> that uses a machine learning model to protect against security threats. Cloudflare’s core CDN, security services, and several other services were affected.</p><p><a href="https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2025/11/cloudflare-broke-much-of-the-internet-with-a-corrupted-bot-management-file/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/cloudflare-error-1152x648-1763584433.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/cloudflare-error-500x500-1763584488.jpg" width="500" height="500" />
+<media:credit>Getty Images | NurPhoto </media:credit><media:text>An error message seen during the Cloudflare outage on November 18, 2025. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Critics scoff after Microsoft warns AI feature can infect machines and pilfer data</title>
+                <link>https://arstechnica.com/security/2025/11/critics-scoff-after-microsoft-warns-ai-feature-can-infect-machines-and-pilfer-data/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/critics-scoff-after-microsoft-warns-ai-feature-can-infect-machines-and-pilfer-data/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 19 Nov 2025 20:25:46 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[Data breaches]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<category><![CDATA[Windows]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/critics-scoff-after-microsoft-warns-ai-feature-can-infect-machines-and-pilfer-data/</guid>
+
+                                    <description>
+                        <![CDATA[Integration of Copilot Actions into Windows is off by default, but for how long?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft’s warning on Tuesday that an experimental AI agent integrated into Windows can infect devices and pilfer sensitive user data has set off a familiar response from security-minded critics: Why is Big Tech so intent on pushing new features before their dangerous behaviors can be fully understood and contained?</p>
+<p>As <a href="https://arstechnica.com/gadgets/2025/11/new-windows-11-ai-agents-can-work-in-the-background-but-create-new-security-risks/">reported Tuesday</a>, Microsoft introduced Copilot Actions, a new set of “experimental agentic features” that, when enabled, perform “everyday tasks like organizing files, scheduling meetings, or sending emails,” and provide “an active digital collaborator that can carry out complex tasks for you to enhance efficiency and productivity.”</p>
+<h2>Hallucinations and prompt injections apply</h2>
+<p>The fanfare, however, came with a <a href="https://support.microsoft.com/en-us/windows/experimental-agentic-features-a25ede8a-e4c2-4841-85a8-44839191dfb3">significant caveat</a>. Microsoft recommended users enable Copilot Actions only “if you understand the security implications outlined.”</p><p><a href="https://arstechnica.com/security/2025/11/critics-scoff-after-microsoft-warns-ai-feature-can-infect-machines-and-pilfer-data/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/critics-scoff-after-microsoft-warns-ai-feature-can-infect-machines-and-pilfer-data/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/microsoft-copilot-windows-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/microsoft-copilot-windows-500x500-1763511853.jpg" width="500" height="500" />
+<media:credit>Photographer: Chona Kasinger/Bloomberg via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Tech giants pour billions into Anthropic as circular AI investments roll on</title>
+                <link>https://arstechnica.com/ai/2025/11/tech-giants-pour-billions-into-anthropic-as-circular-ai-investments-roll-on/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/tech-giants-pour-billions-into-anthropic-as-circular-ai-investments-roll-on/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 18 Nov 2025 20:37:04 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI bubble]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[enterprise AI]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[Satya Nadella]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/tech-giants-pour-billions-into-anthropic-as-circular-ai-investments-roll-on/</guid>
+
+                                    <description>
+                        <![CDATA[ChatGPT competitor secures billions from Microsoft and Nvidia in deal to use cloud services and chips.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, Microsoft and Nvidia <a href="https://blogs.microsoft.com/blog/2025/11/18/microsoft-nvidia-and-anthropic-announce-strategic-partnerships/">announced</a> plans to invest in Anthropic under a new partnership that includes a $30 billion commitment by the Claude maker to use Microsoft’s cloud services. Nvidia will commit up to $10 billion to Anthropic and Microsoft up to $5 billion, with both companies investing in Anthropic’s next funding round.</p>
+<p>The deal brings together two companies that have backed OpenAI and connects them more closely to one of the ChatGPT maker’s main competitors. Microsoft CEO Satya Nadella <a href="https://www.youtube.com/watch?v=bl7vHnOgEg0&amp;t=4s">said</a> in a video that OpenAI “remains a critical partner,” while adding that the companies will increasingly be customers of each other.</p>
+<p>“We will use Anthropic models, they will use our infrastructure, and we’ll go to market together,” Nadella said.</p><p><a href="https://arstechnica.com/ai/2025/11/tech-giants-pour-billions-into-anthropic-as-circular-ai-investments-roll-on/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/tech-giants-pour-billions-into-anthropic-as-circular-ai-investments-roll-on/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>91</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/triple_people-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/triple_people-500x500-1763494661.jpg" width="500" height="500" />
+<media:credit>https://www.youtube.com/watch?v=bl7vHnOgEg0&amp;t=4s</media:credit><media:text>A still image of Dario Amodei of Anthropic (L), Satya Nadella of Microsoft (Center), and Jensen Huang of Nvidia (R) taken from an announcement video.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Bonkers Bitcoin heist: 5-star hotels, cash-filled envelopes, vanishing funds</title>
+                <link>https://arstechnica.com/information-technology/2025/11/bonkers-bitcoin-heist-5-star-hotels-cash-filled-envelopes-vanishing-funds/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/11/bonkers-bitcoin-heist-5-star-hotels-cash-filled-envelopes-vanishing-funds/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Joel Khalili]]>
+                </dc:creator>
+                <pubDate>Tue, 18 Nov 2025 18:37:23 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/11/bonkers-bitcoin-heist-5-star-hotels-cash-filled-envelopes-vanishing-funds/</guid>
+
+                                    <description>
+                        <![CDATA[Bitcoin mining hardware exec falls for sophisticated crypto scam to tune of $200k]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>As Kent Halliburton stood in a bathroom at the Rosewood Hotel in central Amsterdam, thousands of miles from home, running his fingers through an envelope filled with 10,000 euros in crisp banknotes, he started to wonder what he had gotten himself into.</p>
+<p>Halliburton is the cofounder and CEO of Sazmining, a company that operates <a href="https://www.wired.com/story/the-worlds-biggest-bitcoin-mine-is-rattling-this-texas-oil-town/">bitcoin mining hardware</a> on behalf of clients—a model known as “mining-as-a-service.” Halliburton is based in Peru, but Sazmining runs mining hardware out of third-party data centers across Norway, Paraguay, Ethiopia, and the United States.</p>
+<p>As Halliburton tells it, he had flown to Amsterdam the previous day, August 5, to meet Even and Maxim, two representatives of a wealthy Monaco-based family. The family office had offered to purchase hundreds of bitcoin mining rigs from Sazmining—around $4 million worth—which the company would install at a facility currently under construction in Ethiopia. Before finalizing the deal, the family office had asked to meet Halliburton in person.</p><p><a href="https://arstechnica.com/information-technology/2025/11/bonkers-bitcoin-heist-5-star-hotels-cash-filled-envelopes-vanishing-funds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/11/bonkers-bitcoin-heist-5-star-hotels-cash-filled-envelopes-vanishing-funds/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>58</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-1321675861-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-1321675861-500x500.jpg" width="500" height="500" />
+<media:credit>Koron</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google CEO: If an AI bubble pops, no one is getting out clean</title>
+                <link>https://arstechnica.com/ai/2025/11/googles-sundar-pichai-warns-of-irrationality-in-trillion-dollar-ai-investment-boom/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/googles-sundar-pichai-warns-of-irrationality-in-trillion-dollar-ai-investment-boom/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 18 Nov 2025 16:32:58 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI energy]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI investment]]></category>
+		<category><![CDATA[AI regulation]]></category>
+		<category><![CDATA[alphabet]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[deepmind]]></category>
+		<category><![CDATA[dotcom bubble]]></category>
+		<category><![CDATA[Ed Zitron]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Jamie Dimon]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Sundar Pichai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/googles-sundar-pichai-warns-of-irrationality-in-trillion-dollar-ai-investment-boom/</guid>
+
+                                    <description>
+                        <![CDATA[Sundar Pichai says no company is immune if AI bubble bursts, echoing dotcom fears.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, Alphabet CEO Sundar Pichai <a href="https://www.bbc.com/news/articles/cwy7vrd8k4eo">warned</a> of “irrationality” in the AI market, telling the BBC in an interview, “I think no company is going to be immune, including us.” His comments arrive as scrutiny over the state of the AI market has reached new heights, with Alphabet shares doubling in value over seven months to reach a $3.5 trillion market capitalization.</p>
+<p>Speaking exclusively to the BBC at Google’s California headquarters, Pichai acknowledged that while AI investment growth is at an “extraordinary moment,” the industry can “overshoot” in investment cycles, as we’re seeing now. He drew comparisons to the late 1990s Internet boom, which saw early Internet company valuations surge before collapsing in 2000, leading to bankruptcies and job losses.</p>
+<p>“We can look back at the Internet right now. There was clearly a lot of excess investment, but none of us would question whether the Internet was profound,” Pichai said. “I expect AI to be the same. So I think it’s both rational and there are elements of irrationality through a moment like this.”</p><p><a href="https://arstechnica.com/ai/2025/11/googles-sundar-pichai-warns-of-irrationality-in-trillion-dollar-ai-investment-boom/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/googles-sundar-pichai-warns-of-irrationality-in-trillion-dollar-ai-investment-boom/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>241</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Sundar-IO-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/Sundar-IO-500x500.jpg" width="500" height="500" />
+<media:credit>Ryan Whitwam</media:credit><media:text>Google CEO Sundar Pichai.</media:text></media:content>
+            </item>
+                    <item>
+                <title>5 plead guilty to laptop farm and ID theft scheme to land North Koreans US IT jobs</title>
+                <link>https://arstechnica.com/security/2025/11/5-plead-guilty-to-laptop-farm-and-id-theft-scheme-to-land-north-koreans-us-it-jobs/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/5-plead-guilty-to-laptop-farm-and-id-theft-scheme-to-land-north-koreans-us-it-jobs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 17 Nov 2025 22:20:38 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[apt38]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[it jobs]]></category>
+		<category><![CDATA[North Korea]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/5-plead-guilty-to-laptop-farm-and-id-theft-scheme-to-land-north-koreans-us-it-jobs/</guid>
+
+                                    <description>
+                        <![CDATA[Fleets of laptops run from US residences gave appearance workers were in the US.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Five men have pleaded guilty to running laptop farms and providing other assistance to North Koreans to obtain remote IT work at US companies in violation of US law, federal prosecutors said.</p>
+<p>The pleas come amid a rash of similar schemes orchestrated by hacking and threat groups backed by the North Korean government. The campaigns, which ramped up nearly five years ago, aim to steal millions of dollars in job revenue and cryptocurrencies to fund North Korean weapons programs. Another motive is to seed cyber attacks for espionage. In one such incident, a North Korean man who fraudulently obtained a job at US security company KnowBe4 <a href="https://arstechnica.com/tech-policy/2024/07/us-security-firm-unwittingly-hired-apparent-nation-state-hacker-from-north-korea/">installed malware</a> immediately upon beginning his employment.</p>
+<p>On Friday, the US Justice Department <a href="https://www.justice.gov/opa/pr/justice-department-announces-nationwide-actions-combat-illicit-north-korean-government">said</a> that five men pleaded guilty to assisting North Koreans in obtaining jobs in a scheme orchestrated by <a href="https://attack.mitre.org/groups/G0082/">APT38</a>, also tracked under the name Lazarus. APT38 has targeted the US and other countries for more than a decade with a stream of attack campaigns that have grown ever bolder and more advanced. All five pleaded guilty to wire fraud, and one to aggravated identity theft, for a range of actions.</p><p><a href="https://arstechnica.com/security/2025/11/5-plead-guilty-to-laptop-farm-and-id-theft-scheme-to-land-north-koreans-us-it-jobs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/5-plead-guilty-to-laptop-farm-and-id-theft-scheme-to-land-north-koreans-us-it-jobs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>43</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/north-korea-hacking-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/north-korea-hacking-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Oracle hit hard in Wall Street’s tech sell-off over its huge AI bet</title>
+                <link>https://arstechnica.com/information-technology/2025/11/oracle-hit-hard-in-wall-streets-tech-sell-off-over-its-huge-ai-bet/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/11/oracle-hit-hard-in-wall-streets-tech-sell-off-over-its-huge-ai-bet/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Tabby Kinder and George Steer in New York and Rafe Rosner-Uddin in San Francisco]]>
+                </dc:creator>
+                <pubDate>Mon, 17 Nov 2025 16:41:05 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Larry Ellison]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/11/oracle-hit-hard-in-wall-streets-tech-sell-off-over-its-huge-ai-bet/</guid>
+
+                                    <description>
+                        <![CDATA[Company falls more than rivals over its borrowing and reliance on OpenAI contracts.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Oracle has been hit harder than Big Tech rivals in the recent sell-off of tech stocks and bonds, as its vast borrowing to fund a pivot to artificial intelligence unnerved Wall Street.</p>
+<p>The US software group founded by Larry Ellison has made a dramatic entrance to the AI race, committing to spend hundreds of billions of dollars in the next few years on chips and data centers—largely as part of deals to supply computing capacity to OpenAI, the maker of ChatGPT.</p>
+<p>The speed and scale of its moves have unsettled some investors at a time when markets are keenly focused on the spending of so-called hyperscalers—big tech companies building vast data centers.</p><p><a href="https://arstechnica.com/information-technology/2025/11/oracle-hit-hard-in-wall-streets-tech-sell-off-over-its-huge-ai-bet/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/11/oracle-hit-hard-in-wall-streets-tech-sell-off-over-its-huge-ai-bet/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>172</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/ftcms-be6a4489-97ce-470a-a1da-64bd738029c8-1152x648.jpeg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/ftcms-be6a4489-97ce-470a-a1da-64bd738029c8-500x500.jpeg" width="500" height="500" />
+<media:credit>FT montage/Bloomberg/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Forget AGI—Sam Altman celebrates ChatGPT finally following em dash formatting rules</title>
+                <link>https://arstechnica.com/ai/2025/11/forget-agi-sam-altman-celebrates-chatgpt-finally-following-em-dash-formatting-rules/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/forget-agi-sam-altman-celebrates-chatgpt-finally-following-em-dash-formatting-rules/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 14 Nov 2025 18:45:34 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI writing]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[custom instructions]]></category>
+		<category><![CDATA[GPT-5.1]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/forget-agi-sam-altman-celebrates-chatgpt-finally-following-em-dash-formatting-rules/</guid>
+
+                                    <description>
+                        <![CDATA[Ongoing struggles with AI model instruction-following show that true human-level AI still a ways off.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Em dashes have become what many believe to be a <a href="https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing#Overuse_of_em_dashes">telltale sign of AI-generated text</a> over the past few years. The punctuation mark appears frequently in outputs from ChatGPT and other AI chatbots, sometimes to the point where readers believe they can identify AI writing by its overuse alone—although people can overuse it, too.</p>
+<p>On Thursday evening, OpenAI CEO Sam Altman <a href="https://x.com/sama/status/1989193813043069219?s=20">posted</a> on X that ChatGPT has started following custom instructions to avoid using em dashes. “Small-but-happy win: If you tell ChatGPT not to use em-dashes in your custom instructions, it finally does what it’s supposed to do!” he wrote.</p>
+<p>The post, which came two days after the release of OpenAI’s new <a href="https://arstechnica.com/ai/2025/11/openai-walks-a-tricky-tightrope-with-gpt-5-1s-eight-new-personalities/">GPT-5.1</a> AI model, received mixed reactions from users who have <a href="https://community.openai.com/t/cannot-get-responses-to-not-include-dashes-and-em-dashes/1023216/7">struggled</a> for years with getting the chatbot to follow specific formatting preferences. And this “small win” raises a very big question: If the world’s most valuable AI company has struggled with controlling something as simple as punctuation use after years of trying, perhaps <a href="https://arstechnica.com/ai/2025/07/agi-may-be-impossible-to-define-and-thats-a-multibillion-dollar-problem/">what people call</a> artificial general intelligence (AGI) is farther off than some in the industry <a href="https://arstechnica.com/ai/2025/01/anthropic-chief-says-ai-could-surpass-almost-all-humans-at-almost-everything-shortly-after-2027/">claim</a>.</p><p><a href="https://arstechnica.com/ai/2025/11/forget-agi-sam-altman-celebrates-chatgpt-finally-following-em-dash-formatting-rules/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/forget-agi-sam-altman-celebrates-chatgpt-finally-following-em-dash-formatting-rules/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>160</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/man_wrestling_with_robot_hand_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/man_wrestling_with_robot_hand_2-500x500.jpg" width="500" height="500" />
+<media:credit>Yurii Karvatskyi via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Researchers question Anthropic claim that AI-assisted attack was 90% autonomous</title>
+                <link>https://arstechnica.com/security/2025/11/researchers-question-anthropic-claim-that-ai-assisted-attack-was-90-autonomous/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/researchers-question-anthropic-claim-that-ai-assisted-attack-was-90-autonomous/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 14 Nov 2025 12:20:48 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Cyberattacks]]></category>
+		<category><![CDATA[espionage]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/researchers-question-anthropic-claim-that-ai-assisted-attack-was-90-autonomous/</guid>
+
+                                    <description>
+                        <![CDATA[The results of AI-assisted hacking aren't as impressive as many might have us believe.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers from Anthropic said they recently observed the “first reported AI-orchestrated cyber espionage campaign” after detecting China-state hackers using the company’s Claude AI tool in a campaign aimed at dozens of targets. Outside researchers are much more measured in describing the significance of the discovery.</p>
+<p>Anthropic published the reports on Thursday <a href="https://assets.anthropic.com/m/ec212e6566a0d47/original/Disrupting-the-first-reported-AI-orchestrated-cyber-espionage-campaign.pdf">here</a> and <a href="https://www.anthropic.com/news/disrupting-AI-espionage">here</a>. In September, the reports said, Anthropic discovered a “highly sophisticated espionage campaign,” carried out by a Chinese state-sponsored group, that used <a href="https://www.claude.com/product/claude-code">Claude Code</a> to automate up to 90 percent of the work. Human intervention was required “only sporadically (perhaps 4-6 critical decision points per hacking campaign).” Anthropic said the hackers had employed AI agentic capabilities to an “unprecedented” extent.</p>
+<p>“This campaign has substantial implications for cybersecurity in the age of AI ‘agents’—systems that can be run autonomously for long periods of time and that complete complex tasks largely independent of human intervention,” Anthropic said. “Agents are valuable for everyday work and productivity—but in the wrong hands, they can substantially increase the viability of large-scale cyberattacks.”</p><p><a href="https://arstechnica.com/security/2025/11/researchers-question-anthropic-claim-that-ai-assisted-attack-was-90-autonomous/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/researchers-question-anthropic-claim-that-ai-assisted-attack-was-90-autonomous/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>83</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ai_bubble_hero2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/10/ai_bubble_hero2-500x500.jpg" width="500" height="500" />
+<media:credit>Wong Yu Liang via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI walks a tricky tightrope with GPT-5.1’s eight new personalities</title>
+                <link>https://arstechnica.com/ai/2025/11/openai-walks-a-tricky-tightrope-with-gpt-5-1s-eight-new-personalities/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/openai-walks-a-tricky-tightrope-with-gpt-5-1s-eight-new-personalities/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Nov 2025 22:54:47 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI model]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[GPT-5]]></category>
+		<category><![CDATA[GPT-5.1]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[multimodal AI]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR model]]></category>
+		<category><![CDATA[sycophancy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/openai-walks-a-tricky-tightrope-with-gpt-5-1s-eight-new-personalities/</guid>
+
+                                    <description>
+                        <![CDATA[New controls attempt to please critics on both sides with a balance between bland and habit-forming.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, OpenAI <a href="https://openai.com/index/gpt-5-1/">released</a> GPT-5.1 Instant and GPT-5.1 Thinking, two updated versions of its flagship AI models now available in ChatGPT. The company is wrapping the models in the language of anthropomorphism, claiming that they’re warmer, more conversational, and better at following instructions.</p>
+<p>The release follows complaints earlier this year that its previous models were excessively cheerful and <a href="https://arstechnica.com/information-technology/2025/04/annoyed-chatgpt-users-complain-about-bots-relentlessly-positive-tone/">sycophantic</a>, along with an opposing controversy among users over how OpenAI <a href="https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/">modified</a> the default GPT-5 output style after <a href="https://apnews.com/article/openai-chatgpt-lawsuit-suicide-56e63e5538602ea39116f1904bf7cdc3">several suicide lawsuits</a>.</p>
+<p>The company now faces <a href="https://arstechnica.com/tech-policy/2025/11/openai-fights-order-to-hand-over-20-million-private-chatgpt-conversations/">intense scrutiny</a> from lawyers and regulators that could threaten its future operations. In that kind of environment, it’s difficult to just release a new AI model, throw out a few stats, and move on like the company could even a year ago. But here are the basics: The new GPT-5.1 Instant model will serve as ChatGPT’s faster default option for most tasks, while GPT-5.1 Thinking is a <a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/">simulated reasoning model</a> that attempts to handle more complex problem-solving tasks.</p><p><a href="https://arstechnica.com/ai/2025/11/openai-walks-a-tricky-tightrope-with-gpt-5-1s-eight-new-personalities/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/openai-walks-a-tricky-tightrope-with-gpt-5-1s-eight-new-personalities/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>85</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/aaGettyImages-862457080-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/aaGettyImages-862457080-500x500.jpg" width="500" height="500" />
+<media:credit>Chris Madden via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Meta’s star AI scientist Yann LeCun plans to leave for own startup</title>
+                <link>https://arstechnica.com/ai/2025/11/metas-star-ai-scientist-yann-lecun-plans-to-leave-for-own-startup/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/metas-star-ai-scientist-yann-lecun-plans-to-leave-for-own-startup/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Nov 2025 17:14:16 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI strategy]]></category>
+		<category><![CDATA[Alexandr Wang]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[convolutional neural networks]]></category>
+		<category><![CDATA[deep learning]]></category>
+		<category><![CDATA[FAIR]]></category>
+		<category><![CDATA[Fundamental AI Research]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Mark Zuckerberg]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[New York University]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Scale AI]]></category>
+		<category><![CDATA[startups]]></category>
+		<category><![CDATA[Turing award]]></category>
+		<category><![CDATA[world models]]></category>
+		<category><![CDATA[Yann LeCun]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/metas-star-ai-scientist-yann-lecun-plans-to-leave-for-own-startup/</guid>
+
+                                    <description>
+                        <![CDATA[AI pioneer reportedly frustrated with Meta's shift from research to rapid product releases.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Meta’s chief AI scientist and Turing Award winner <a href="https://en.wikipedia.org/wiki/Yann_LeCun">Yann LeCun</a> plans to leave the company to launch his own startup focused on a different type of AI called “world models,” the Financial Times <a href="https://www.ft.com/content/c586eb77-a16e-4363-ab0b-e877898b70de">reported</a>. The French-US scientist has reportedly told associates he will depart in the coming months and is already in early talks to raise funds for the new venture. The departure comes as CEO Mark Zuckerberg <a href="https://www.nytimes.com/2025/08/19/technology/mark-zuckerberg-meta-ai.html">radically overhauled</a> Meta’s AI operations after deciding the company had fallen behind rivals such as OpenAI and Google.</p>
+<p><a href="https://www.nvidia.com/en-us/glossary/world-models/">World models</a> are hypothetical AI systems that some AI engineers expect to develop an internal “understanding” of the physical world by learning from video and spatial data rather than text alone. Unlike current large language models (such as the kind that power ChatGPT) that predict the next segment of data in a sequence, world models would ideally simulate cause-and-effect scenarios, understand physics, and enable machines to reason and plan more like animals do. LeCun has said this architecture could take a decade to fully develop.</p>
+<p>While some AI experts believe that Transformer-based AI models—such as <a href="https://aiguide.substack.com/p/llms-and-world-models-part-1">large language models</a>, <a href="https://runwayml.com/research/introducing-general-world-models">video synthesis models</a>, and <a href="https://arstechnica.com/ai/2025/08/deepmind-reveals-genie-3-world-model-that-creates-real-time-interactive-simulations/">interactive world synthesis models</a>—have emergently modeled physics or absorbed the structural rules of the physical world from training data examples, the evidence so far generally points to <a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/">sophisticated pattern-matching</a> rather than a base understanding of how the physical world actually works.</p><p><a href="https://arstechnica.com/ai/2025/11/metas-star-ai-scientist-yann-lecun-plans-to-leave-for-own-startup/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/metas-star-ai-scientist-yann-lecun-plans-to-leave-for-own-startup/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1691376215-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/11/GettyImages-1691376215-500x500.jpg" width="500" height="500" />
+<media:credit>Photo by Kevin Dietsch/Getty Images</media:credit><media:text>Yann LeCun, Vice President and Chief AI Scientist for Meta Platforms, as seen in September 2023.</media:text></media:content>
+            </item>
+                    <item>
+                <title>ClickFix may be the biggest security threat your family has never heard of</title>
+                <link>https://arstechnica.com/security/2025/11/clickfix-may-be-the-biggest-security-threat-your-family-has-never-heard-of/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/clickfix-may-be-the-biggest-security-threat-your-family-has-never-heard-of/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 11 Nov 2025 12:30:51 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[clickfix]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[scams]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/clickfix-may-be-the-biggest-security-threat-your-family-has-never-heard-of/</guid>
+
+                                    <description>
+                        <![CDATA[Relatively new technique can bypass many endpoint protections.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the past year, scammers have ramped up a new way to infect the computers of unsuspecting people. The increasingly common method, which many potential targets have yet to learn of, is quick, bypasses most endpoint protections, and works against both macOS and Windows users.</p>
+<p>ClickFix often starts with an email sent from a hotel that the target has a pending registration with and references the correct registration information. In other cases, ClickFix attacks begin with a WhatsApp message. In still other cases, the user receives the URL at the top of Google results for a search query. Once the mark accesses the malicious site referenced, it presents a CAPTCHA challenge or other pretext requiring user confirmation. The user receives an instruction to copy a string of text, open a terminal window, paste it in, and press Enter.</p>
+<h2>One line is all it takes</h2>
+<p>Once entered, the string of text causes the PC or Mac to surreptitiously visit a scammer-controlled server and download malware. Then, the machine automatically installs it—all with no indication to the target. With that, users are infected, usually with credential-stealing malware. Security firms say ClickFix campaigns have run rampant. The lack of awareness of the technique, combined with the links also coming from known addresses or in search results, and the ability to bypass some endpoint protections are all factors driving the growth.</p><p><a href="https://arstechnica.com/security/2025/11/clickfix-may-be-the-biggest-security-threat-your-family-has-never-heard-of/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/clickfix-may-be-the-biggest-security-threat-your-family-has-never-heard-of/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>177</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-1000x648.jpg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Researchers isolate memorization from problem-solving in AI neural networks</title>
+                <link>https://arstechnica.com/ai/2025/11/study-finds-ai-models-store-memories-and-logic-in-different-neural-regions/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/study-finds-ai-models-store-memories-and-logic-in-different-neural-regions/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Mon, 10 Nov 2025 23:06:42 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI architecture]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI memorization]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[Allen Institute for AI]]></category>
+		<category><![CDATA[computational neuroscience]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[generalization]]></category>
+		<category><![CDATA[Goodfire]]></category>
+		<category><![CDATA[gradient descent]]></category>
+		<category><![CDATA[K-FAC]]></category>
+		<category><![CDATA[loss curvature]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[mechanistic interpretability]]></category>
+		<category><![CDATA[model editing]]></category>
+		<category><![CDATA[neural networks]]></category>
+		<category><![CDATA[OLMo]]></category>
+		<category><![CDATA[overfitting]]></category>
+		<category><![CDATA[transformer models]]></category>
+		<category><![CDATA[weight matrices]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/study-finds-ai-models-store-memories-and-logic-in-different-neural-regions/</guid>
+
+                                    <description>
+                        <![CDATA[Basic arithmetic ability lives in the memorization pathways, not logic circuits.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>When engineers build AI language models like GPT-5 from training data, at least two major processing features emerge: memorization (reciting exact text they’ve seen before, like famous quotes or passages from books) and what you might call “reasoning” (solving new problems using general principles). New research from AI startup <a href="https://www.goodfire.ai/">Goodfire.ai</a> provides the first potentially clear evidence that these different functions actually work through completely separate neural pathways in the model’s architecture.</p>
+<p>The researchers discovered that this separation proves remarkably clean. In a preprint paper <a href="https://arxiv.org/abs/2510.24256">released</a> in late October, they described that when they removed the memorization pathways, models lost 97 percent of their ability to recite training data verbatim but kept nearly all their “logical reasoning” ability intact.</p>
+<p>For example, at layer 22 in Allen Institute for AI’s <a href="https://allenai.org/olmo">OLMo-7B</a> language model, the researchers ranked all the weight components (the mathematical values that process information) from high to low based on a measure called “curvature” (which we’ll explain more below). When they examined these ranked components, the bottom 50 percent of weight components showed 23 percent higher activation on memorized data, while the top 10 percent showed 26 percent higher activation on general, non-memorized text.</p><p><a href="https://arstechnica.com/ai/2025/11/study-finds-ai-models-store-memories-and-logic-in-different-neural-regions/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/study-finds-ai-models-store-memories-and-logic-in-different-neural-regions/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/surprised_robot_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/07/surprised_robot_2-500x500.jpg" width="500" height="500" />
+<media:credit>Benj Edwards / Kirillm via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Researchers surprised that with AI, toxicity is harder to fake than intelligence</title>
+                <link>https://arstechnica.com/information-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 07 Nov 2025 20:15:33 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI detection]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI sycophancy]]></category>
+		<category><![CDATA[Apertus]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[computational Turing test]]></category>
+		<category><![CDATA[deepseek]]></category>
+		<category><![CDATA[Duke University]]></category>
+		<category><![CDATA[emotional AI]]></category>
+		<category><![CDATA[gemma]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[LLaMA]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Mistral]]></category>
+		<category><![CDATA[NYU]]></category>
+		<category><![CDATA[Qwen]]></category>
+		<category><![CDATA[social media]]></category>
+		<category><![CDATA[University of Amsterdam]]></category>
+		<category><![CDATA[University of Zurich]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/</guid>
+
+                                    <description>
+                        <![CDATA[New "computational Turing test" reportedly catches AI pretending to be human with 80% accuracy.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The next time you encounter an unusually polite reply on social media, you might want to check twice. It could be an AI model trying (and failing) to blend in with the crowd.</p>
+<p>On Wednesday, researchers from the University of Zurich, University of Amsterdam, Duke University, and New York University <a href="https://arxiv.org/abs/2511.04195">released</a> a study revealing that AI models remain easily distinguishable from humans in social media conversations, with overly friendly emotional tone serving as the most persistent giveaway. The research, which tested nine open-weight models across Twitter/X, Bluesky, and Reddit, found that classifiers developed by the researchers detected AI-generated replies with 70 to 80 percent accuracy.</p>
+<p>The study introduces what the authors call a “computational Turing test” to assess how closely AI models approximate human language. Instead of relying on subjective human judgment about whether text sounds authentic, the framework uses automated classifiers and linguistic analysis to identify specific features that distinguish machine-generated from human-authored content.</p><p><a href="https://arstechnica.com/information-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>122</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/frowny_bagboy-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/frowny_bagboy-500x500.jpg" width="500" height="500" />
+<media:credit>RichVintage via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Wipers from Russia’s most cut-throat hackers rain destruction on Ukraine</title>
+                <link>https://arstechnica.com/security/2025/11/wipers-from-russias-most-cut-throat-hackers-rain-destruction-on-ukraine/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/wipers-from-russias-most-cut-throat-hackers-rain-destruction-on-ukraine/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 06 Nov 2025 22:17:21 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[russia]]></category>
+		<category><![CDATA[sandworm]]></category>
+		<category><![CDATA[Ukraine]]></category>
+		<category><![CDATA[war]]></category>
+		<category><![CDATA[wipers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/wipers-from-russias-most-cut-throat-hackers-rain-destruction-on-ukraine/</guid>
+
+                                    <description>
+                        <![CDATA[Sandworm and other Russian-state hackers unleash data-destroying payloads on their neighbors.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>One of the world’s most ruthless and advanced hacking groups, the Russian state-controlled Sandworm, launched a series of destructive cyberattacks in the country’s ongoing war against neighboring Ukraine, researchers reported Thursday.</p>
+<p>In April, the group targeted a Ukrainian university with two wipers, a form of malware that aims to permanently destroy sensitive data and often the infrastructure storing it. One wiper, tracked under the name Sting, targeted fleets of Windows computers by scheduling a task named DavaniGulyashaSdeshka, a phrase derived from Russian slang that loosely translates to “eat some goulash,” researchers from ESET <a href="https://web-assets.esetstatic.com/wls/en/papers/threat-reports/eset-apt-activity-report-q2-2025-q3-2025.pdf">said</a>. The other wiper is tracked as Zerlot.</p>
+<h2>A not-so-common target</h2>
+<p>Then, in June and September, Sandworm unleashed multiple wiper variants against a host of Ukrainian critical infrastructure targets, including organizations active in government, energy, and logistics. The targets have long been in the crosshairs of Russian hackers. There was, however, a fourth, less common target—organizations in Ukraine’s grain industry.</p><p><a href="https://arstechnica.com/security/2025/11/wipers-from-russias-most-cut-throat-hackers-rain-destruction-on-ukraine/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/wipers-from-russias-most-cut-throat-hackers-rain-destruction-on-ukraine/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>42</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/russia-state-hacking.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/russia-state-hacking-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google says project on famous crab-covered island is about cables, not combat</title>
+                <link>https://arstechnica.com/ai/2025/11/google-plans-secret-ai-military-outpost-on-tiny-island-overrun-by-crabs/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/google-plans-secret-ai-military-outpost-on-tiny-island-overrun-by-crabs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 06 Nov 2025 17:24:51 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[australia]]></category>
+		<category><![CDATA[Christmas Island]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[crabs]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[defense]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Military]]></category>
+		<category><![CDATA[red crabs]]></category>
+		<category><![CDATA[SubCom]]></category>
+		<category><![CDATA[subsea cables]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/google-plans-secret-ai-military-outpost-on-tiny-island-overrun-by-crabs/</guid>
+
+                                    <description>
+                        <![CDATA[Tech giant denies building secret AI data center, says focus is subsea infrastructure.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, Reuters <a href="https://www.reuters.com/world/asia-pacific/google-planning-powerful-ai-data-centre-tiny-australian-indian-ocean-outpost-2025-11-06/">reported</a> that Google is planning to build a large AI data center on <a href="https://en.wikipedia.org/wiki/Christmas_Island">Christmas Island</a>, a 52-square-mile Australian territory in the Indian Ocean, following a cloud computing deal with Australia’s military. The report positions the facility as advanced AI infrastructure at a location military strategists consider critical for monitoring Chinese naval activity. However, Google has denied these claims, telling Ars Technica the project is actually about subsea cables, not AI data centers.</p>
+<p>“We are not constructing ‘a large artificial intelligence data centre’ on Christmas Island,” a Google spokesperson told Ars. “This is a continuation of our Australia Connect work to deliver subsea cable infrastructure, and we look forward to sharing more soon.”</p>
+<p>Despite the denial, Reuters has not retracted its story and says it has reviewed documents about Google’s data center plans on the island. What Google has publicly confirmed is that in November 2024, the company <a href="https://cloud.google.com/blog/products/infrastructure/bosun-australia-connect-initiative-for-indo-pacific-connectivity?e=48754805">announced</a> the Australia Connect initiative, which focuses on subsea cable infrastructure to improve digital connectivity across the Indo-Pacific region.</p><p><a href="https://arstechnica.com/ai/2025/11/google-plans-secret-ai-military-outpost-on-tiny-island-overrun-by-crabs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/google-plans-secret-ai-military-outpost-on-tiny-island-overrun-by-crabs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>82</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/crabs_hero-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/crabs_hero-500x500.jpg" width="500" height="500" />
+<media:credit>Parks Australia via Getty Images</media:credit><media:text>In this handout image provided by Parks Australia, thousands of red crabs are seen walking in a drain on November 23, 2021 in Christmas Island.</media:text></media:content>
+            </item>
+                    <item>
+                <title>5 AI-developed malware families analyzed by Google fail to work and are easily detected</title>
+                <link>https://arstechnica.com/security/2025/11/ai-generated-malware-poses-little-real-world-threat-contrary-to-hype/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/ai-generated-malware-poses-little-real-world-threat-contrary-to-hype/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 05 Nov 2025 23:00:46 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[guardrails]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[ransomware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/ai-generated-malware-poses-little-real-world-threat-contrary-to-hype/</guid>
+
+                                    <description>
+                        <![CDATA[You wouldn't know it from the hype, but the results fail to impress.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google on Wednesday revealed five recent malware samples that were built using generative AI. The end results of each one were far below par with professional malware development, a finding that shows that vibe coding of malicious wares lags behind more traditional forms of development and, thus, still has a long way to go before it poses a real-world threat.</p>
+<p>One of the samples, for instance, tracked under the name PromptLock, was part of an <a href="https://arxiv.org/abs/2508.20444v1">academic study</a> analyzing how effective the use of large language models can be “to autonomously plan, adapt, and execute the ransomware attack lifecycle.” The researchers, however, reported the malware had “clear limitations: it omits persistence, lateral movement, and advanced evasion tactics” and served as little more than a demonstration of the feasibility of AI for such purposes. Prior to the paper’s release, security firm ESET said it had discovered the sample and <a href="https://www.eset.com/us/about/newsroom/research/eset-discovers-promptlock-the-first-ai-powered-ransomware/">hailed</a> it as “the first AI-powered ransomware.”</p>
+<h2>Don’t believe the hype</h2>
+<p>Like the other four samples Google analyzed—FruitShell, PromptFlux, PromptSteal, and QuietVault—PromptLock was easy to detect, even by less-sophisticated endpoint protections that rely on static signatures. All samples also employed previously seen methods in malware samples, making them easy to counteract. They also had no operational impact, meaning they didn’t require defenders to adopt new defenses.</p><p><a href="https://arstechnica.com/security/2025/11/ai-generated-malware-poses-little-real-world-threat-contrary-to-hype/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/ai-generated-malware-poses-little-real-world-threat-contrary-to-hype/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>31</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-1000x648.jpg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/malware-threat-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI signs massive AI compute deal with Amazon</title>
+                <link>https://arstechnica.com/ai/2025/11/openai-signs-massive-ai-compute-deal-with-amazon/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/openai-signs-massive-ai-compute-deal-with-amazon/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Mon, 03 Nov 2025 17:23:11 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[AWS]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[oracle]]></category>
+		<category><![CDATA[sam altman]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/openai-signs-massive-ai-compute-deal-with-amazon/</guid>
+
+                                    <description>
+                        <![CDATA[Deal will provide access to hundreds of thousands of Nvidia chips that power ChatGPT.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Monday, OpenAI <a href="https://openai.com/index/aws-and-openai-partnership/">announced</a> it has signed a seven-year, $38 billion deal to buy cloud services from Amazon Web Services to power products like <a href="https://arstechnica.com/information-technology/2023/11/chatgpt-was-the-spark-that-lit-the-fire-under-generative-ai-one-year-ago-today/">ChatGPT</a> and <a href="https://arstechnica.com/ai/2025/10/openais-sora-2-lets-users-insert-themselves-into-ai-videos-with-sound/">Sora</a>. It’s the company’s first big computing deal after a fundamental restructuring last week that gave OpenAI more operational and financial freedom from Microsoft.</p>
+<p>The agreement gives OpenAI access to hundreds of thousands of Nvidia graphics processors to train and run its AI models. “Scaling frontier AI requires massive, reliable compute,” OpenAI CEO Sam Altman said in a statement. “Our partnership with AWS strengthens the broad compute ecosystem that will power this next era and bring advanced AI to everyone.”</p>
+<p>OpenAI will reportedly use Amazon Web Services immediately, with all planned capacity set to come online by the end of 2026 and room to expand further in 2027 and beyond. Amazon plans to roll out hundreds of thousands of chips, including Nvidia’s <a href="https://arstechnica.com/information-technology/2024/03/nvidia-unveils-blackwell-b200-the-worlds-most-powerful-chip-designed-for-ai/">GB200</a> and <a href="https://arstechnica.com/ai/2025/03/nvidia-announces-dgx-desktop-personal-ai-supercomputers/">GB300</a> AI accelerators, in data clusters built to power ChatGPT’s responses, generate AI videos, and train OpenAI’s next wave of models.</p><p><a href="https://arstechnica.com/ai/2025/11/openai-signs-massive-ai-compute-deal-with-amazon/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/openai-signs-massive-ai-compute-deal-with-amazon/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>107</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/08/hiding_hero_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/08/hiding_hero_1-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Two Windows vulnerabilities, one a 0-day, are under active exploitation</title>
+                <link>https://arstechnica.com/security/2025/10/two-windows-vulnerabilities-one-a-0-day-are-under-active-exploitation/</link>
+                                    <comments>https://arstechnica.com/security/2025/10/two-windows-vulnerabilities-one-a-0-day-are-under-active-exploitation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 31 Oct 2025 21:03:56 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[microsoft windows vulnerabilities]]></category>
+		<category><![CDATA[zero-day]]></category>
+		<category><![CDATA[zero-day vulnerability]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/10/two-windows-vulnerabilities-one-a-0-day-are-under-active-exploitation/</guid>
+
+                                    <description>
+                        <![CDATA[Both vulnerabilities are being exploited in wide-scale operations.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Two Windows vulnerabilities—one a zero-day that has been known to attackers since 2017 and the other a critical flaw that Microsoft initially tried and failed to patch recently—are under active exploitation in widespread attacks targeting a swath of the Internet, researchers say.</p>
+<p>The zero-day went undiscovered until <a href="https://www.trendmicro.com/en_us/research/25/c/windows-shortcut-zero-day-exploit.html">March</a>, when security firm Trend Micro said it had been under active exploitation since 2017, by as many as 11 separate advanced persistent threats (APTs). These APT groups, often with ties to nation-states, relentlessly attack specific individuals or groups of interest. Trend Micro went on to say that the groups were exploiting the vulnerability, then tracked as ZDI-CAN-25373, to install various known post-exploitation payloads on infrastructure located in nearly 60 countries, with the US, Canada, Russia, and Korea being the most common.</p>
+<h2>A large-scale, coordinated operation</h2>
+<p>Seven months later, Microsoft still hasn’t patched the vulnerability, which stems from a bug in the <a href="https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-shllink/16cb4ca1-9339-4d0c-a68d-bf1d6cc0f943">Windows Shortcut</a> binary format. The Windows component makes opening apps or accessing files easier and faster by allowing a single binary file to invoke them without having to navigate to their locations. In recent months, the ZDI-CAN-25373 tracking designation has been changed to CVE-2025-9491.</p><p><a href="https://arstechnica.com/security/2025/10/two-windows-vulnerabilities-one-a-0-day-are-under-active-exploitation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/10/two-windows-vulnerabilities-one-a-0-day-are-under-active-exploitation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>86</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/10/windows-malware-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/10/windows-malware-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>ChatGPT maker reportedly eyes $1 trillion IPO despite major quarterly losses</title>
+                <link>https://arstechnica.com/ai/2025/10/is-openai-worth-1-trillion-potential-ipo-may-reveal-the-answer/</link>
+                                    <comments>https://arstechnica.com/ai/2025/10/is-openai-worth-1-trillion-potential-ipo-may-reveal-the-answer/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 30 Oct 2025 18:24:32 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[CoreWeave]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[IPO]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[SoftBank]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/10/is-openai-worth-1-trillion-potential-ipo-may-reveal-the-answer/</guid>
+
+                                    <description>
+                        <![CDATA[It could be "one of the biggest IPOs of all time," according to Reuters.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, OpenAI CEO Sam Altman <a href="https://www.reuters.com/business/openai-lays-groundwork-juggernaut-ipo-up-1-trillion-valuation-2025-10-29/">told Reuters</a> during a livestream that going public “is the most likely path for us, given the capital needs that we’ll have.” Now sources familiar with the matter say the ChatGPT maker is preparing for an initial public offering that could value the company at up to $1 trillion, with filings possible as early as the second half of 2026. However, news of the potential IPO comes as the company faces mounting losses that <a href="https://www.theregister.com/2025/10/29/microsoft_earnings_q1_26_openai_loss/">may have reached</a> as much as $11.5 billion in the most recent quarter, according to one estimate.</p>
+<p>Going public could give OpenAI more efficient access to capital and enable larger acquisitions using public stock, helping finance Altman’s <a href="https://arstechnica.com/information-technology/2025/08/sam-altman-calls-ai-a-bubble-while-seeking-500b-valuation-for-openai/">plans</a> to spend trillions of dollars on AI infrastructure, according to people familiar with the company’s thinking who spoke with Reuters. Chief Financial Officer Sarah Friar has reportedly told some associates the company targets a 2027 IPO listing, while some financial advisors predict 2026 could be possible.</p>
+<p>Three people with knowledge of the plans told Reuters that OpenAI has discussed raising $60 billion at the low end in preliminary talks. That figure refers to how much money the company would raise by selling shares to investors, not the total worth of the company. If OpenAI sold that amount of stock while keeping most shares private, the entire company could be valued at $1 trillion or more. The final figures and timing will likely change based on business growth and market conditions.</p><p><a href="https://arstechnica.com/ai/2025/10/is-openai-worth-1-trillion-potential-ipo-may-reveal-the-answer/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/10/is-openai-worth-1-trillion-potential-ipo-may-reveal-the-answer/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>175</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/openai_treasurechest_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/openai_treasurechest_1-500x500.jpg" width="500" height="500" />
+<media:credit>Benj Edwards / Peter M. Fisher via Getty Images</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
