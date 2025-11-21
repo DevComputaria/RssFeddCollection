@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2025-11-18T17:10:11Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Scam USPS and E-Z Pass Texts and Websites]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/scam-usps-and-e-z-pass-texts-and-websites.html" />
+
+		<id>https://www.schneier.com/?p=71200</id>
+		<updated>2025-11-18T17:10:11Z</updated>
+		<published>2025-11-20T12:07:38Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="Google" /><category scheme="https://www.schneier.com/" term="phishing" /><category scheme="https://www.schneier.com/" term="scams" />
+		<summary type="html"><![CDATA[<p>Google has filed a complaint in court that <a href="https://arstechnica.com/tech-policy/2025/11/google-vows-to-stop-scam-e-z-pass-and-usps-texts-plaguing-americans/">details the scam</a>:</p>
+<blockquote><p>In a complaint filed Wednesday, the tech giant accused &#8220;a cybercriminal group in China&#8221; of selling &#8220;phishing for dummies&#8221; kits. The kits help unsavvy fraudsters easily “execute a large-scale phishing campaign,” tricking hordes of unsuspecting people into “disclosing sensitive information like passwords, credit card numbers, or banking information, often by impersonating well-known brands, government agencies, or even people the victim knows.”</p>
+<p>These branded &#8220;Lighthouse&#8221; kits offer two versions of software, depending on whether bad actors want to launch SMS and e-commerce scams. &#8220;Members may subscribe to weekly, monthly, seasonal, annual, or permanent licenses,&#8221; Google alleged. Kits include &#8220;hundreds of templates for fake websites, domain set-up tools for those fake websites, and other features designed to dupe victims into believing they are entering sensitive information on a legitimate website.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/scam-usps-and-e-z-pass-texts-and-websites.html"><![CDATA[<p>Google has filed a complaint in court that <a href="https://arstechnica.com/tech-policy/2025/11/google-vows-to-stop-scam-e-z-pass-and-usps-texts-plaguing-americans/">details the scam</a>:</p>
+<blockquote><p>In a complaint filed Wednesday, the tech giant accused &#8220;a cybercriminal group in China&#8221; of selling &#8220;phishing for dummies&#8221; kits. The kits help unsavvy fraudsters easily “execute a large-scale phishing campaign,” tricking hordes of unsuspecting people into “disclosing sensitive information like passwords, credit card numbers, or banking information, often by impersonating well-known brands, government agencies, or even people the victim knows.”</p>
+<p>These branded &#8220;Lighthouse&#8221; kits offer two versions of software, depending on whether bad actors want to launch SMS and e-commerce scams. &#8220;Members may subscribe to weekly, monthly, seasonal, annual, or permanent licenses,&#8221; Google alleged. Kits include &#8220;hundreds of templates for fake websites, domain set-up tools for those fake websites, and other features designed to dupe victims into believing they are entering sensitive information on a legitimate website.&#8221;</p>
+<p>Google’s filing said the scams often begin with a text claiming that a toll fee is overdue or a small fee must be paid to redeliver a package. Other times they appear as ads&#8212;­sometimes even Google ads, until Google detected and suspended accounts&#8212;­luring victims by mimicking popular brands. Anyone who clicks will be redirected to a website to input sensitive information; the sites often claim to accept payments from trusted wallets like Google Pay.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/scam-usps-and-e-z-pass-texts-and-websites.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/scam-usps-and-e-z-pass-texts-and-websites.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Legal Restrictions on Vulnerability Disclosure]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/legal-restrictions-on-vulnerability-disclosure.html" />
+
+		<id>https://www.schneier.com/?p=71198</id>
+		<updated>2025-11-18T17:07:05Z</updated>
+		<published>2025-11-19T12:04:50Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="courts" /><category scheme="https://www.schneier.com/" term="disclosure" /><category scheme="https://www.schneier.com/" term="video" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Kendra Albert gave an <a href="https://www.youtube.com/watch?v=lUe3uUvIyT0">excellent talk</a> at USENIX Security this year, pointing out that the legal agreements surrounding vulnerability disclosure muzzle researchers while allowing companies to not fix the vulnerabilities&#8212;exactly the opposite of what the responsible disclosure movement of the early 2000s was supposed to prevent. This is the talk.</p>
+<blockquote><p>Thirty years ago, a debate raged over whether vulnerability disclosure was good for computer security. On one side, full disclosure advocates argued that software bugs weren&#8217;t getting fixed and wouldn&#8217;t get fixed if companies that made insecure software wasn&#8217;t called out publicly. On the other side, companies argued that full disclosure led to exploitation of unpatched vulnerabilities, especially if they were hard to fix. After blog posts, public debates, and countless mailing list flame wars, there emerged a compromise solution: coordinated vulnerability disclosure, where vulnerabilities were disclosed after a period of confidentiality where vendors can attempt to fix things. Although full disclosure fell out of fashion, disclosure won and security through obscurity lost. We&#8217;ve lived happily ever after since...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/legal-restrictions-on-vulnerability-disclosure.html"><![CDATA[<p>Kendra Albert gave an <a href="https://www.youtube.com/watch?v=lUe3uUvIyT0">excellent talk</a> at USENIX Security this year, pointing out that the legal agreements surrounding vulnerability disclosure muzzle researchers while allowing companies to not fix the vulnerabilities&#8212;exactly the opposite of what the responsible disclosure movement of the early 2000s was supposed to prevent. This is the talk.</p>
+<blockquote><p>Thirty years ago, a debate raged over whether vulnerability disclosure was good for computer security. On one side, full disclosure advocates argued that software bugs weren&#8217;t getting fixed and wouldn&#8217;t get fixed if companies that made insecure software wasn&#8217;t called out publicly. On the other side, companies argued that full disclosure led to exploitation of unpatched vulnerabilities, especially if they were hard to fix. After blog posts, public debates, and countless mailing list flame wars, there emerged a compromise solution: coordinated vulnerability disclosure, where vulnerabilities were disclosed after a period of confidentiality where vendors can attempt to fix things. Although full disclosure fell out of fashion, disclosure won and security through obscurity lost. We&#8217;ve lived happily ever after since.</p>
+<p>Or have we? The move towards paid bug bounties and the rise of platforms that manage bug bounty programs for security teams has changed the reality of disclosure significantly. In certain cases, these programs require agreement to contractual restrictions. Under the status quo, that means that software companies sometimes funnel vulnerabilities into bug bounty management platforms and then condition submission on confidentiality agreements that can prohibit researchers from ever sharing their findings.</p>
+<p>In this talk, I&#8217;ll explain how confidentiality requirements for managed bug bounty programs restrict the ability of those who attempt to report vulnerabilities to share their findings publicly, compromising the bargain at the center of the CVD process. I&#8217;ll discuss what contract law can tell us about how and when these restrictions are enforceable, and more importantly, when they aren&#8217;t, providing advice to hackers around how to understand their legal rights when submitting. Finally, I&#8217;ll call upon platforms and companies to adapt their practices to be more in line with the original bargain of coordinated vulnerability disclosure, including by banning agreements that require non-disclosure.</p></blockquote>
+<p>And <a href="https://www.schneier.com/essays/archives/2007/01/schneier_full_disclo.html">this</a> is me from 2007, talking about &#8220;responsible disclosure&#8221;:</p>
+<blockquote><p>This was a good idea&#8212;and these days it&#8217;s normal procedure&#8212;but one that was possible only because full disclosure was the norm. And it remains a good idea only as long as full disclosure is the threat.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/legal-restrictions-on-vulnerability-disclosure.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/legal-restrictions-on-vulnerability-disclosure.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI and Voter Engagement]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/ai-and-voter-engagement.html" />
+
+		<id>https://www.schneier.com/?p=71151</id>
+		<updated>2025-11-12T11:46:28Z</updated>
+		<published>2025-11-18T12:01:44Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="democracy" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="voting" />
+		<summary type="html"><![CDATA[<p>Social media has been a familiar, even mundane, part of life for nearly two decades. It can be easy to forget it was not always that way.</p>
+<p>In 2008, social media was just emerging into the mainstream. <a href="https://thefulcrum.us/media-technology/news-literacy-project">Facebook</a> reached <a href="https://www.cnet.com/culture/facebook-hits-100-million-users/">100 million users</a> that summer. And a singular candidate was integrating social media into his political campaign: Barack Obama. His campaign&#8217;s use of social media was so bracingly innovative, so impactful, that it was viewed by journalist <a href="https://www.technologyreview.com/2008/08/19/219185/how-obama-really-did-it-2/">David Talbot</a> and others as the strategy that enabled the first term Senator to win the White House...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/ai-and-voter-engagement.html"><![CDATA[<p>Social media has been a familiar, even mundane, part of life for nearly two decades. It can be easy to forget it was not always that way.</p>
+<p>In 2008, social media was just emerging into the mainstream. <a href="https://thefulcrum.us/media-technology/news-literacy-project">Facebook</a> reached <a href="https://www.cnet.com/culture/facebook-hits-100-million-users/">100 million users</a> that summer. And a singular candidate was integrating social media into his political campaign: Barack Obama. His campaign&#8217;s use of social media was so bracingly innovative, so impactful, that it was viewed by journalist <a href="https://www.technologyreview.com/2008/08/19/219185/how-obama-really-did-it-2/">David Talbot</a> and others as the strategy that enabled the first term Senator to win the White House.</p>
+<p>Over the past few years, a new technology has become mainstream: <a href="https://thefulcrum.us/the-new-world-of-ai">AI</a>. But still, no candidate has unlocked AI&#8217;s potential to revolutionize political campaigns. Americans have three more years to wait before casting their ballots in another Presidential election, but we can look at the 2026 midterms and examples from around the globe for signs of how that breakthrough might occur.</p>
+<h3>How Obama Did It</h3>
+<p>Rereading the contemporaneous reflections of the <em>New York Times&#8217;</em> late media critic, <a href="https://www.nytimes.com/2008/11/10/business/media/10carr.html">David Carr</a>, on Obama&#8217;s campaign reminds us of just how new social media felt in 2008. Carr positions it within a now-familiar lineage of revolutionary communications technologies from newspapers to radio to television to the internet.</p>
+<p>The Obama campaign and administration demonstrated that social media was different from those earlier communications technologies, including the pre-social internet. Yes, <a href="https://www.pewresearch.org/internet/2009/04/15/the-internets-role-in-campaign-2008/">increasing numbers</a> of voters were getting their news from the internet, and content about the then-Senator sometimes made a splash by going <a href="https://time.com/archive/6681494/obamas-viral-marketing-campaign/">viral</a>. But those were still broadcast communications: one voice reaching many. Obama found ways to connect voters to each other.</p>
+<p>In describing what social media revolutionized in campaigning, Carr quotes campaign vendor Blue State Digital&#8217;s Thomas Gensemer: &#8220;People will continue to expect a conversation, a two-way relationship that is a give and take.&#8221;</p>
+<p>The Obama team made some earnest efforts to realize this vision. His transition team launched <a href="http://change.gov">change.gov</a>, the website where the campaign collected a &#8220;Citizen&#8217;s Briefing Book&#8221; of public comment. Later, his administration built <a href="https://obamawhitehouse.archives.gov/blog/2015/07/23/look-back-we-people-petitions-2010-today">We the People</a>, an online petitioning platform.</p>
+<p>But the lasting legacy of Obama&#8217;s 2008 campaign, as political scientists Hahrie Han and Elizabeth McKenna chronicled, was pioneering online &#8220;<a href="https://www.bostonreview.net/articles/learning-from-obamas-campaign/">relational organizing</a>.&#8221; This technique enlisted individuals as organizers to activate their friends in a self-perpetuating web of relationships.</p>
+<p>Perhaps because of the Obama campaign&#8217;s close association with the method, relational organizing has been touted repeatedly as the linchpin of Democratic campaigns: in <a href="https://www.wired.com/story/relational-organizing-apps-2020-campaign/">2020</a>, <a href="https://www.cbsnews.com/news/harris-trump-2024-election-ground-game/">2024</a>, and <a href="https://thedemocraticstrategist.org/2025/03/can-relational-organizing-save-the-democratic-party/">today</a>. But <a href="https://www.turnoutnation.org/thereport">research</a> by non-partisan groups like <a href="https://www.turnoutnation.org/thereport">Turnout Nation</a> and right-aligned groups like the <a href="https://www.campaigninnovation.org/research/measuring-the-power-of-personal-connection-a-relational-organizing-field-test">Center for Campaign Innovation</a> has also empirically validated the effectiveness of the technique for inspiring voter turnout within connected groups.</p>
+<p>The Facebook of 2008 worked well for relational organizing. It gave users tools to connect and promote ideas to the people they know: college classmates, neighbors, friends from work or church. But the nature of social networking has changed since then.</p>
+<p>For the past decade, according to <a href="https://www.pewresearch.org/internet/2024/01/31/americans-social-media-use/">Pew Research</a>, Facebook use has stalled and lagged behind YouTube, while Reddit and TikTok have surged. These platforms are less useful for relational organizing, at least in the traditional sense. YouTube is organized more like broadcast television, where content creators produce content disseminated on their own channels in a largely one-way communication to their fans. Reddit gathers users worldwide in forums (subreddits) organized primarily on topical interest. The endless feed of TikTok&#8217;s &#8220;For You&#8221; page disseminates engaging content with little ideological or social commonality. None of these platforms shares the essential feature of Facebook c. 2008: an organizational structure that emphasizes direct connection to people that users have direct social influence over.</p>
+<h3>AI and Relational Organizing</h3>
+<p>Ideas and messages might spread virally through modern social channels, but they are not where you convince your friends to show up at a campaign rally. Today&#8217;s platforms are spaces for <a href="https://theharvardpoliticalreview.com/political-hobbyism-young-volunteers/">political hobbyism</a>, where you express your political feelings and see others express theirs.</p>
+<p>Relational organizing works when one person&#8217;s action inspires others to do this same. That&#8217;s inherently a chain of human-to-human connection. If my AI assistant inspires your AI assistant, no human notices and one&#8217;s vote changes. But key steps in the human chain can be assisted by AI. Tell your phone&#8217;s AI assistant to <a href="https://www.washingtonpost.com/technology/2025/03/26/best-ai-email-assistant/">craft a personal message</a> to one friend&#8212;or a hundred&#8212;and it can do it.</p>
+<p>So if a campaign hits you at the right time with the right message, they might persuade you to task your AI assistant to ask your friends to donate or volunteer. The result can be something more than a form letter; it could be automatically drafted based on the entirety of your email or text correspondence with that friend. It could include references to your discussions of recent events, or past campaigns, or shared personal experiences. It could sound as authentic as if you&#8217;d written it from the heart, but scaled to everyone in your address book.</p>
+<p><a href="https://www.pnas.org/doi/10.1073/pnas.2412815122">Research</a> suggests that AI can generate and perform written political messaging about as well as humans. AI will surely play a <a href="https://prospect.org/power/2025-10-10-ai-artificial-intelligence-campaigns-midterms/">tactical role</a> in the 2026 midterm campaigns, and some candidates may even use it for relational organizing in this way.</p>
+<h3>(Artificial) Identity Politics</h3>
+<p>For AI to be truly transformative of politics, it must change the way campaigns work. And we are starting to see that in the US.</p>
+<p>The earliest uses of AI in American political campaigns are, to be polite, uninspiring. Candidates viewed them as just <a href="https://www.nytimes.com/2023/03/28/us/politics/artificial-intelligence-2024-campaigns.html">another tool</a> to optimize an endless stream of email and text message appeals, to ramp up political <a href="https://www.politico.com/live-updates/2025/09/29/congress/trump-ai-video-deepfake-schumer-jeffries-00586048">vitriol</a>, to <a href="https://www.politico.com/news/2024/10/30/data-voters-political-violence-00186132">harvest data</a> on voters and donors, or merely as a <a href="https://www.theverge.com/2023/1/27/23574000/first-ai-chatgpt-written-speech-congress-floor-jake-auchincloss">stunt</a>.</p>
+<p>Of course, we have seen the rampant production and spread of AI-powered deepfakes and <a href="https://thefulcrum.us/media-technology/news-literacy-project">misinformation</a>. This is already impacting the key 2026 Senate races, which are likely to attract <a href="https://www.opensecrets.org/elections-overview/most-expensive-races">hundreds of millions</a> of dollars in financing. <a href="https://www.charlotteobserver.com/opinion/article311852771.html">Roy Cooper</a>, Democratic candidate for US Senate from North Carolina, and <a href="https://www.yahoo.com/news/articles/us-senate-candidate-el-sayed-034045043.html?guccounter=1&amp;guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&amp;guce_referrer_sig=AQAAALAUtriqW9v5IScANZLgCTf0zNOLsydt31He4PT4kt0k9RenTEqSTrC9cIdtQRGFvZQ8zHeMs-97cUvacWcG_e4X9h2MdbCfNN_2-K8z3D1PMtBbTc8Wir-A8QHlALBo-vd2Kq9wDDvHrMraYXDiitdW2DB3Ysr8vPIyCpqF1ts3">Abdul El-Sayed</a>, Democratic candidate for Senate from Michigan, were both targeted by viral deepfake attacks in recent months. This may <a href="https://www.nbcnews.com/tech/internet/truth-social-trump-embraced-ai-media-attack-foes-boost-image-rcna234978">reflect</a> a growing trend in Donald Trump&#8217;s Republican party in the use of AI-generated imagery to build up GOP candidates and assail the opposition.</p>
+<p>And yet, in the global elections of 2024, AI was used more <a href="https://restofworld.org/2025/global-elections-ai-use/">memetically</a> than deceptively. So far, conservative and far right parties seem to have adopted this most aggressively. The ongoing rise of Germany&#8217;s far-right populist AfD party has been credited to its use of AI to generate <a href="https://www.politico.eu/article/germany-far-right-harness-artificial-intelligence-win-election/">nostalgic and evocative</a> (and, to many, offensive) campaign images, videos, and music and, seemingly as a result, they have <a href="https://www.kas.de/documents/d/guest/ki-und-wahlen-1">dominated TikTok</a>. Because most social platforms&#8217; algorithms are tuned to reward media that generates an emotional response, this counts as a double use of AI: to generate content and to manipulate its distribution.</p>
+<p>AI can also be used to generate politically useful, though artificial, identities. These identities can fulfill different roles than humans in campaigning and <a href="https://thefulcrum.us/corruption/corruption-perception-index-2023-2667125422">governance</a> because they have differentiated traits. They can&#8217;t be imprisoned for speaking out against the state, can be positioned (legitimately or not) as unsusceptible to bribery, and can be forced to show up when humans will not.</p>
+<p>In <a href="https://www.theguardian.com/world/article/2024/aug/27/venezuela-journalists-nicolas-maduro-artificial-intelligence-media-election">Venezuela</a>, journalists have turned to AI avatars&#8212;artificial newsreaders&#8212;to report anonymously on issues that would otherwise elicit government retaliation. Albania recently &#8220;<a href="https://www.bbc.com/news/articles/cm2znzgwj3xo">appointed</a>&#8221; an AI to a ministerial post responsible for procurement, claiming that it would be less vulnerable to bribery than a human. In Virginia, both in <a href="https://www.reuters.com/world/us/virginia-congressional-candidate-creates-ai-chatbot-debate-stand-in-incumbent-2024-10-08/">2024</a> and again <a href="https://www.governing.com/politics/a-fake-debate-in-virginia-raises-real-questions-about-ai-in-politics">this year</a>, candidates have used AI avatars as artificial stand-ins for opponents that refused to debate them.</p>
+<p>And yet, none of these examples, whether positive or negative, pursue the promise of the Obama campaign: to make voter engagement a &#8220;two-way conversation&#8221; on a massive scale.</p>
+<p>The closest so far to fulfilling that vision anywhere in the world may be Japan&#8217;s new political party, <a href="https://team-mir.ai">Team Mirai</a>. It started in 2024, when an independent Tokyo gubernatorial candidate, <a href="https://futurepolis.substack.com/p/meet-your-ai-politician-of-the-future">Anno Takahiro</a>, used an AI avatar on YouTube to respond to 8,600 constituent questions over a seventeen-day continuous livestream. He collated hundreds of comments on his campaign manifesto into a revised policy platform. While he didn&#8217;t win his race, he shot up to a <a href="https://en.wikipedia.org/wiki/2024_Tokyo_gubernatorial_election#Results">fifth place</a> finish among a record 56 candidates.</p>
+<p>Anno was RECENTLY <a href="https://mainichi.jp/english/articles/20250720/p2a/00m/0na/011000c">elected</a> to the upper house of the federal legislature as the founder of a new party with a <a href="https://note.com/annotakahiro24/n/nd648962bd411">100 day plan</a> to bring his vision of a &#8220;public listening AI&#8221; to the whole country. In the early stages of that plan, they&#8217;ve invested their share of Japan&#8217;s 32 billion yen in <a href="https://www.nippon.com/en/japan-data/h02362/">party grants</a>&#8212;public subsidies for political parties&#8212;to hire engineers building digital civic infrastructure for Japan. They&#8217;ve already created platforms to provide <a href="https://marumie.team-mir.ai/o/team-mirai">transparency</a> for party expenditures, and to use AI to make <a href="https://gikai.team-mir.ai/">legislation</a> in the Diet easy, and are meeting with engineers from US-based Jigsaw Labs (a Google company) to <a href="https://note.com/team_mirai_jp/n/n0bbbcc21c752">learn from international examples</a> of how AI can be used to power participatory democracy.</p>
+<p>Team Mirai has yet to prove that it can get a second member elected to the Japanese Diet, let alone to win substantial power, but they&#8217;re innovating and demonstrating new ways of using AI to give people a way to participate in politics that we believe is likely to spread.</p>
+<h3>Organizing with AI</h3>
+<p>AI could be used in the US in similar ways. Following American federalism&#8217;s longstanding model of &#8220;laboratories of democracy,&#8221; we expect the most aggressive campaign innovation to happen at the state and local level.</p>
+<p>D.C. Mayor Muriel Bowser is <a href="https://www.govtech.com/artificial-intelligence/washington-d-c-will-pilot-ai-at-public-listening-session">partnering</a> with MIT and Stanford labs to use the AI-based tool <a href="http://deliberation.io">deliberation.io</a> to capture wide scale public feedback in city policymaking about AI. Her administration <a href="https://octo.dc.gov/release/bowser-administration-announces-first-its-kind-ai-pilot-program-new-platform-mit-governance">said</a> that using AI in this process allows &#8220;the District to better solicit public input to ensure a broad range of perspectives, identify common ground, and cultivate solutions that align with the public interest.&#8221;</p>
+<p>It remains to be seen how central this will become to Bowser&#8217;s <a href="https://www.nbcwashington.com/news/politics/bowser-future-legacy-chuck-todd/3992167/">expected</a> re-election campaign in 2026, but the technology has legitimate potential to be a prominent part of a broader program to rebuild trust in government. This is a trail blazed by Taiwan a decade ago. The <a href="https://www.theguardian.com/world/article/2024/aug/17/audrey-tang-toxic-social-media-fake-news-taiwan-trans-government-internet">vTaiwan</a> initiative showed how digital tools like <a href="https://pol.is/home">Pol.is</a>, which uses <a href="https://compdemocracy.org/Analysis/">machine learning</a> to make sense of real time constituent feedback, can scale participation in democratic processes and radically improve trust in government. Similar AI listening processes have been used in <a href="https://www.pbs.org/newshour/show/how-a-kentucky-community-is-using-ai-to-help-people-find-common-ground">Kentucky</a>, <a href="https://about.make.org/articles-en/citizens-convention-on-end-of-life-with-make-org-the-esec-offers-an-innovative-ai-platform-to-enable-the-general-public-and-parliamentarians-to-take-greater-ownership-of-the-debates-held-by-citizens">France</a>, and <a href="https://compdemocracy.org/Case-studies/2018-germany-aufstehen/">Germany</a>.</p>
+<p>Even if campaigns like Bowser&#8217;s don&#8217;t adopt this kind of AI-facilitated listening and dialog, expect it to be an increasingly prominent part of American public debate. Through a partnership with Jigsaw, Scott Rasmussen&#8217;s Napolitan Institute will use AI to elicit and synthesize the views of at least five Americans from every Congressional district in a project called &#8220;<a href="https://www.forbes.com/sites/richardnieva/2025/08/14/inside-googles-plan-to-use-ai-to-survey-americans-on-their-political-views/">We the People</a>.&#8221; Timed to coincide with the country&#8217;s 250th anniversary in 2026, expect the results to be promoted during the heat of the midterm campaign and to stoke interest in this kind of AI-assisted political sensemaking.</p>
+<p>In the year where we celebrate the American republic&#8217;s semiquincentennial and continue a decade-long debate about whether or not Donald Trump and the Republican party remade in his image is fighting for the interests of the working class, representation will be on the ballot in 2026. Midterm election candidates will look for any way they can get an edge. For all the risks it poses to democracy, AI presents a real opportunity, too, for politicians to engage voters en masse while factoring their input into their platform and message. Technology isn&#8217;t going to turn an uninspiring candidate into Barack Obama, but it gives any aspirant to office the capability to try to realize the promise that swept him into office.</p>
+<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://thefulcrum.us/media-technology/artificial-intelligence-in-politics">The Fulcrum</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/ai-and-voter-engagement.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/ai-and-voter-engagement.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[More Prompt&#124;&#124;GTFO]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/more-promptgtfo.html" />
+
+		<id>https://www.schneier.com/?p=71147</id>
+		<updated>2025-11-11T17:07:46Z</updated>
+		<published>2025-11-17T12:05:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="videos" />
+		<summary type="html"><![CDATA[<p>The next three in <a href="https://www.schneier.com/blog/archives/2025/08/ai-applications-in-cybersecurity.html">this series</a> on online events highlighting interesting uses of AI in cybersecurity are online: <a href="https://youtube.com/playlist?list=PLXz1MhBqAGJwkLpTxQFpe4hu4sBCuUGuN&#038;si=cETRhpsER5rN-rOo">#4</a>, <a href="https://youtube.com/playlist?list=PLXz1MhBqAGJw-pySlsaAyuMv1OQKsbVtR&#038;si=QvqqsmJbsbCetVWi">#5</a>, and <a href="https://youtube.com/playlist?list=PLXz1MhBqAGJw9nmtpC7USh-s9Ku6KiFCf&#038;si=FRNSy7ZMAvzu6x2F">#6</a>. Well worth watching.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/more-promptgtfo.html"><![CDATA[<p>The next three in <a href="https://www.schneier.com/blog/archives/2025/08/ai-applications-in-cybersecurity.html">this series</a> on online events highlighting interesting uses of AI in cybersecurity are online: <a href="https://youtube.com/playlist?list=PLXz1MhBqAGJwkLpTxQFpe4hu4sBCuUGuN&#038;si=cETRhpsER5rN-rOo">#4</a>, <a href="https://youtube.com/playlist?list=PLXz1MhBqAGJw-pySlsaAyuMv1OQKsbVtR&#038;si=QvqqsmJbsbCetVWi">#5</a>, and <a href="https://youtube.com/playlist?list=PLXz1MhBqAGJw9nmtpC7USh-s9Ku6KiFCf&#038;si=FRNSy7ZMAvzu6x2F">#6</a>. Well worth watching.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/more-promptgtfo.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/more-promptgtfo.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Pilot Whales Eat a Lot of Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-pilot-whales-eat-a-lot-of-squid.html" />
+
+		<id>https://www.schneier.com/?p=71166</id>
+		<updated>2025-11-14T23:33:12Z</updated>
+		<published>2025-11-14T23:33:12Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Short-finned pilot wales (<i>Globicephala macrorhynchus</i>) eat <a href="https://gizmodo.com/scientists-wanted-to-know-how-many-squid-pilot-whales-eat-each-day-what-they-found-was-astounding-2000685522">at lot</a> of squid:</p>
+<blockquote><p>To figure out a short-finned pilot whale&#8217;s caloric intake, Gough says, the team had to combine data from a variety of sources, including movement data from short-lasting tags, daily feeding rates from satellite tags, body measurements collected via aerial drones, and sifting through the stomachs of unfortunate whales that ended up stranded on land.</p>
+<p>Once the team pulled all this data together, they estimated that a typical whale will eat between 82 and 202 squid a day. To meet their energy needs, a whale will have to consume an average of 140 squid a day. Annually, that&#8217;s about 74,000 squid per whale. For all the whales in the area, that amounts to about 88,000 tons of squid eaten every year...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-pilot-whales-eat-a-lot-of-squid.html"><![CDATA[<p>Short-finned pilot wales (<i>Globicephala macrorhynchus</i>) eat <a href="https://gizmodo.com/scientists-wanted-to-know-how-many-squid-pilot-whales-eat-each-day-what-they-found-was-astounding-2000685522">at lot</a> of squid:</p>
+<blockquote><p>To figure out a short-finned pilot whale&#8217;s caloric intake, Gough says, the team had to combine data from a variety of sources, including movement data from short-lasting tags, daily feeding rates from satellite tags, body measurements collected via aerial drones, and sifting through the stomachs of unfortunate whales that ended up stranded on land.</p>
+<p>Once the team pulled all this data together, they estimated that a typical whale will eat between 82 and 202 squid a day. To meet their energy needs, a whale will have to consume an average of 140 squid a day. Annually, that&#8217;s about 74,000 squid per whale. For all the whales in the area, that amounts to about 88,000 tons of squid eaten every year.</p></blockquote>
+<p>Research <a href="https://journals.biologists.com/jeb/article-abstract/228/21/jeb249821/369712/Daily-energetic-expenditure-and-energy-consumption">paper</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-pilot-whales-eat-a-lot-of-squid.html#comments" thr:count="38" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/friday-squid-blogging-pilot-whales-eat-a-lot-of-squid.html/feed/atom/" thr:count="38" />
+			<thr:total>38</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/upcoming-speaking-engagements-50.html" />
+
+		<id>https://www.schneier.com/?p=71157</id>
+		<updated>2025-11-14T09:24:38Z</updated>
+		<published>2025-11-14T17:08:57Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>My coauthor Nathan E. Sanders and I are speaking at the Rayburn House Office Building in Washington, DC at noon ET on November 17, 2025. The event is hosted by the POPVOX Foundation and the topic is “<a href="https://www.popvox.org/events/ai-and-congress">AI and Congress: Practical Steps to Govern and Prepare</a>.”</li>
+<li>I’m speaking on “Integrity and Trustworthy AI” at <a href="https://events.vtools.ieee.org/m/462883">North Hennepin Community College</a> in Brooklyn Park, Minnesota, USA, on Friday, November 21, 2025, at 2:00 PM CT. The event is cohosted by the college and The Twin Cities IEEE Computer Society...</li></ul>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/upcoming-speaking-engagements-50.html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>My coauthor Nathan E. Sanders and I are speaking at the Rayburn House Office Building in Washington, DC at noon ET on November 17, 2025. The event is hosted by the POPVOX Foundation and the topic is “<a href="https://www.popvox.org/events/ai-and-congress">AI and Congress: Practical Steps to Govern and Prepare</a>.”</li>
+<li>I’m speaking on “Integrity and Trustworthy AI” at <a href="https://events.vtools.ieee.org/m/462883">North Hennepin Community College</a> in Brooklyn Park, Minnesota, USA, on Friday, November 21, 2025, at 2:00 PM CT. The event is cohosted by the college and The Twin Cities IEEE Computer Society.</li>
+<li>Nathan E. Sanders and I will be speaking at the <a href="https://mitpress.mit.edu/event/bruce-schneier-at-the-mit-museum/">MIT Museum</a> in Cambridge, Massachusetts, USA, on December 1, 2025, at 6:00 pm ET.</li>
+<li>Nathan E. Sanders and I will be speaking at a <a href="https://citylights.com/events/rewiring-democracy-with-bruce-schneier-and-nathan-e-sanders/">virtual event</a> hosted by City Lights on the Zoom platform, on December 3, 2025, at 6:00 PM PT.</li>
+<li>I’m speaking and signing books at the Chicago Public Library in Chicago, Illinois, USA, on February 5, 2026. Details to come.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/upcoming-speaking-engagements-50.html#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/upcoming-speaking-engagements-50.html/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Role of Humans in an AI-Powered World]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/the-role-of-humans-in-an-ai-powered-world.html" />
+
+		<id>https://www.schneier.com/?p=71136</id>
+		<updated>2025-11-03T08:13:48Z</updated>
+		<published>2025-11-14T12:00:33Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>As AI capabilities grow, we must delineate the roles that should remain exclusively human. The line seems to be between fact-based decisions and judgment-based decisions.</p>
+<p>For example, in a medical context, if an AI was demonstrably better at reading a test result and diagnosing cancer than a human, you would take the AI in a second. You want the more accurate tool. But justice is harder because justice is inherently a human quality in a way that &#8220;Is this tumor cancerous?&#8221; is not. That&#8217;s a fact-based question. &#8220;What&#8217;s the right thing to do here?&#8221; is a human-based question...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/the-role-of-humans-in-an-ai-powered-world.html"><![CDATA[<p>As AI capabilities grow, we must delineate the roles that should remain exclusively human. The line seems to be between fact-based decisions and judgment-based decisions.</p>
+<p>For example, in a medical context, if an AI was demonstrably better at reading a test result and diagnosing cancer than a human, you would take the AI in a second. You want the more accurate tool. But justice is harder because justice is inherently a human quality in a way that &#8220;Is this tumor cancerous?&#8221; is not. That&#8217;s a fact-based question. &#8220;What&#8217;s the right thing to do here?&#8221; is a human-based question.</p>
+<p>Chess provides a useful analogy for this evolution. For most of history, humans were best. Then, in the 1990s, Deep Blue beat the best human. For a while after that, a good human paired with a good computer could beat either one alone. But a few years ago, that changed again, and now the best computer simply wins. There will be an intermediate period for many applications where the human-AI combination is optimal, but eventually, for fact-based tasks, the best AI will likely surpass both.</p>
+<p>The enduring role for humans lies in making judgments, especially when values come into conflict. What is the proper immigration policy? There is no single &#8220;right&#8221; answer; it&#8217;s a matter of feelings, values, and what we as a society hold dear. A lot of societal governance is about resolving conflicts between people&#8217;s rights&#8212;my right to play my music versus your right to have quiet. There&#8217;s no factual answer there. We can imagine machines will help; perhaps once we humans figure out the rules, the machines can do the implementing and kick the hard cases back to us. But the fundamental value judgments will likely remain our domain.</p>
+<p><em>This essay originally appeared in <a href="https://www.ivy.com/insights/how-to-define-the-enduring-role-of-humans-in-an-aipowered-world-1-1">IVY</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/the-role-of-humans-in-an-ai-powered-world.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/the-role-of-humans-in-an-ai-powered-world.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Book Review: The Business of Secrets]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/book-review-the-business-of-secrets.html" />
+
+		<id>https://www.schneier.com/?p=71134</id>
+		<updated>2025-11-15T09:49:00Z</updated>
+		<published>2025-11-13T12:09:39Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="business of security" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="history of cryptography" />
+		<summary type="html"><![CDATA[<p><strong><cite>The Business of Secrets: Adventures in Selling Encryption Around the World</cite> by Fred Kinch (May 24, 2024)</strong></p>
+<p>From the vantage point of today, it&#8217;s surreal reading about the commercial cryptography business in the 1970s. Nobody knew anything. The manufacturers didn&#8217;t know whether the cryptography they sold was any good. The customers didn&#8217;t know whether the crypto they bought was any good. Everyone pretended to know, thought they knew, or knew better than to even try to know.</p>
+<p><cite>The Business of Secrets</cite> is the self-published memoirs of Fred Kinch. He was founder and vice president of&#8212;mostly sales&#8212;at a US cryptographic hardware company called Datotek, from company&#8217;s founding in 1969 until 1982. It&#8217;s mostly a disjointed collection of stories about the difficulties of selling to governments worldwide, along with descriptions of the highs and (mostly) lows of foreign airlines, foreign hotels, and foreign travel in general. But it&#8217;s also about encryption...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/book-review-the-business-of-secrets.html"><![CDATA[<p><strong><cite>The Business of Secrets: Adventures in Selling Encryption Around the World</cite> by Fred Kinch (May 24, 2024)</strong></p>
+<p>From the vantage point of today, it&#8217;s surreal reading about the commercial cryptography business in the 1970s. Nobody knew anything. The manufacturers didn&#8217;t know whether the cryptography they sold was any good. The customers didn&#8217;t know whether the crypto they bought was any good. Everyone pretended to know, thought they knew, or knew better than to even try to know.</p>
+<p><cite>The Business of Secrets</cite> is the self-published memoirs of Fred Kinch. He was founder and vice president of&#8212;mostly sales&#8212;at a US cryptographic hardware company called Datotek, from company&#8217;s founding in 1969 until 1982. It&#8217;s mostly a disjointed collection of stories about the difficulties of selling to governments worldwide, along with descriptions of the highs and (mostly) lows of foreign airlines, foreign hotels, and foreign travel in general. But it&#8217;s also about encryption.</p>
+<p>Datotek sold cryptographic equipment in the era after rotor machines and before modern academic cryptography. The company initially marketed computer-file encryption, but pivoted to link encryption&#8212;low-speed data, voice, fax&#8212;because that&#8217;s what the market wanted.</p>
+<p>These were the years where the NSA hired anyone promising in the field, and routinely classified&#8212;and thereby blocked&#8212;publication of academic mathematics papers of those they didn&#8217;t hire. They controlled the fielding of strong cryptography by aggressively using the International Traffic in Arms regulation. Kinch talks about the difficulties in getting an expert license for Datotek&#8217;s products; he didn&#8217;t know that the only reason he ever got that license was because the NSA was able to break his company&#8217;s stuff. He had no idea that his largest competitor, the Swiss company Crypto AG, was owned and controlled by the CIA and its West German equivalent. &#8220;Wouldn&#8217;t that have made our life easier if we had known that back in the 1970s?&#8221; Yes, it would. But no one knew.</p>
+<p>Glimmers of the clandestine world peek out of the book. Countries like France ask detailed tech questions, borrow or buy a couple of units for &#8220;evaluation,&#8221; and then disappear again. Did they break the encryption? Did they just want to see what their adversaries were using? No one at Datotek knew.</p>
+<p>Kinch &#8220;carried the key generator logic diagrams and schematics&#8221; with him&#8212;even today, it&#8217;s good practice not to rely on their secrecy for security&#8212;but the details seem laughably insecure: four linear shift registers of 29, 23, 13, and 7 bits, variable stepping, and a small nonlinear final transformation. The NSA probably used this as a challenge to its new hires. But Datotek didn&#8217;t know that, at the time.</p>
+<p>Kinch writes: &#8220;The strength of the cryptography had to be accepted on trust and only on trust.&#8221; Yes, but it&#8217;s so, so weird to read about it in practice. Kinch demonstrated the security of his telephone encryptors by hooking a pair of them up and having people listen to the encrypted voice. It&#8217;s rather like demonstrating the safety of a food additive by showing that someone doesn&#8217;t immediately fall over dead after eating it. (In one absolutely bizarre anecdote, an Argentine sergeant with a &#8220;hearing defect&#8221; could understand the scrambled analog voice. Datotek fixed its security, but only offered the upgrade to the Argentines, because no one else complained. As I said, no one knew anything.)</p>
+<p>In his postscript, he writes that even if the NSA could break Datotek&#8217;s products, they were &#8220;vastly superior to what [his customers] had used previously.&#8221; Given that the previous devices were electromechanical rotor machines, and that his primary competition was a CIA-run operation, he&#8217;s probably right. But even today, we know nothing about any other country&#8217;s cryptanalytic capabilities during those decades.</p>
+<p>A lot of this book has a &#8220;you had to be there&#8221; vibe. And it&#8217;s mostly tone-deaf. There is no real acknowledgment of the human-rights-abusing countries on Datotek&#8217;s customer list, and how their products might have assisted those governments. But it&#8217;s a fascinating artifact of an era before commercial cryptography went mainstream, before academic cryptography became approved for US classified data, before those of us outside the triple fences of the NSA understood the mathematics of cryptography.</p>
+<p><em>This book review originally appeared in <a href="https://www.afio.com/book-reviews/">AFIO</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/book-review-the-business-of-secrets.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/book-review-the-business-of-secrets.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[On Hacking Back]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html" />
+
+		<id>https://www.schneier.com/?p=71128</id>
+		<updated>2025-11-01T16:07:25Z</updated>
+		<published>2025-11-12T12:01:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="hackback" /><category scheme="https://www.schneier.com/" term="laws" />
+		<summary type="html"><![CDATA[<p>Former DoJ attorney John Carlin <a href="https://www.aspendigital.org/blog/so-you-want-to-hack-back/">writes</a> about hackback, which he defines thus: &#8220;A hack back is a type of cyber response that incorporates a counterattack designed to proactively engage with, disable, or collect evidence about an attacker. Although hack backs can take on various forms, they are&#8212;­by definition­&#8212;not passive defensive measures.&#8221;</p>
+<p>His conclusion:</p>
+<blockquote><p>As the law currently stands, specific forms of purely defense measures are authorized so long as they affect only the victim’s system or data.</p>
+<p>At the other end of the spectrum, offensive measures that involve accessing or otherwise causing damage or loss to the hacker’s systems are likely prohibited, absent government oversight or authorization. And even then parties should proceed with caution in light of the heightened risks of misattribution, collateral damage, and retaliation...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html"><![CDATA[<p>Former DoJ attorney John Carlin <a href="https://www.aspendigital.org/blog/so-you-want-to-hack-back/">writes</a> about hackback, which he defines thus: &#8220;A hack back is a type of cyber response that incorporates a counterattack designed to proactively engage with, disable, or collect evidence about an attacker. Although hack backs can take on various forms, they are&#8212;­by definition­&#8212;not passive defensive measures.&#8221;</p>
+<p>His conclusion:</p>
+<blockquote><p>As the law currently stands, specific forms of purely defense measures are authorized so long as they affect only the victim’s system or data.</p>
+<p>At the other end of the spectrum, offensive measures that involve accessing or otherwise causing damage or loss to the hacker’s systems are likely prohibited, absent government oversight or authorization. And even then parties should proceed with caution in light of the heightened risks of misattribution, collateral damage, and retaliation.</p>
+<p>As for the broad range of other hack back tactics that fall in the middle of active defense and offensive measures, private parties should continue to engage in these tactics only with government oversight or authorization. These measures exist within a legal gray area and would likely benefit from amendments to the CFAA and CISA that clarify and carve out the parameters of authorization for specific self-defense measures. But in the absence of amendments or clarification on the scope of those laws, private actors can seek governmental authorization through an array of channels, whether they be partnering with law enforcement or seeking authorization to engage in more offensive tactics from the courts in connection with private litigation.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/on-hacking-back.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Prompt Injection in AI Browsers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html" />
+
+		<id>https://www.schneier.com/?p=71125</id>
+		<updated>2025-11-01T16:01:46Z</updated>
+		<published>2025-11-11T12:08:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="browsers" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><a href="https://www.bleepingcomputer.com/news/security/commetjacking-attack-tricks-comet-browser-into-stealing-emails/">This</a> is why AIs are not ready to be personal assistants:</p>
+<blockquote><p>A new attack called &#8216;CometJacking&#8217; exploits URL parameters to pass to Perplexity&#8217;s Comet AI browser hidden instructions that allow access to sensitive data from connected services, like email and calendar.</p>
+<p>In a realistic scenario, no credentials or user interaction are required and a threat actor can leverage the attack by simply exposing a maliciously crafted URL to targeted users.</p>
+<p>[&#8230;]</p>
+<p>CometJacking is a prompt-injection attack where the query string processed by the Comet AI browser contains malicious instructions added using the &#8216;collection&#8217; parameter of the URL...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html"><![CDATA[<p><a href="https://www.bleepingcomputer.com/news/security/commetjacking-attack-tricks-comet-browser-into-stealing-emails/">This</a> is why AIs are not ready to be personal assistants:</p>
+<blockquote><p>A new attack called &#8216;CometJacking&#8217; exploits URL parameters to pass to Perplexity&#8217;s Comet AI browser hidden instructions that allow access to sensitive data from connected services, like email and calendar.</p>
+<p>In a realistic scenario, no credentials or user interaction are required and a threat actor can leverage the attack by simply exposing a maliciously crafted URL to targeted users.</p>
+<p>[&#8230;]</p>
+<p>CometJacking is a prompt-injection attack where the query string processed by the Comet AI browser contains malicious instructions added using the &#8216;collection&#8217; parameter of the URL.</p>
+<p>LayerX researchers say that the prompt tells the agent to consult its memory and connected services instead of searching the web. As the AI tool is connected to various services, an attacker leveraging the CometJacking method could exfiltrate available data.</p>
+<p>In their tests, the connected services and accessible data include Google Calendar invites and Gmail messages and the malicious prompt included instructions to encode the sensitive data in base64 and then exfiltrate them to an external endpoint.</p>
+<p>According to the researchers, Comet followed the instructions and delivered the information to an external system controlled by the attacker, evading Perplexity&#8217;s checks.</p></blockquote>
+<p>I wrote <a href="https://www.schneier.com/blog/archives/2025/09/indirect-prompt-injection-attacks-against-llm-assistants.html">previously</a>:</p>
+<blockquote><p>Prompt injection isn&#8217;t just a minor security problem we need to deal with. It&#8217;s a fundamental property of current LLM technology. The systems have <a href="https://www.schneier.com/blog/archives/2024/05/llms-data-control-path-insecurity.html">no ability to separate trusted commands from untrusted data</a>, and there are an infinite number of prompt injection attacks with <a href="https://llm-attacks.org/">no way to block them</a> as a class. We need some new fundamental science of LLMs before we can solve this.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2025/11/prompt-injection-in-ai-browsers.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+	</feed>
