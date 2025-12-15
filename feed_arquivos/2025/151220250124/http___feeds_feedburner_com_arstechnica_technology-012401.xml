@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT &#8211; Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Sat, 13 Dec 2025 01:12:31 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT &#8211; Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>OpenAI built an AI coding agent and uses it to improve the agent itself</title>
+                <link>https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 12 Dec 2025 22:16:42 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[AI work]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[Codex]]></category>
+		<category><![CDATA[Dario Amodei]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[GitHub Copilot]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[GPT-5]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Mistral]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[Simon Willison]]></category>
+		<category><![CDATA[software development]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/</guid>
+
+                                    <description>
+                        <![CDATA["The vast majority of Codex is built by Codex," OpenAI told us about its new AI coding agent.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>With the <a href="https://arstechnica.com/ai/2025/09/developers-joke-about-coding-like-cavemen-as-ai-service-suffers-major-outage/">popularity</a> of AI coding tools rising among some software developers, their adoption has begun to touch every aspect of the process, including the improvement of AI coding tools themselves.</p>
+<p>In interviews with Ars Technica this week, OpenAI employees revealed the extent to which the company now relies on its own AI coding agent, <a href="https://arstechnica.com/ai/2025/05/openai-introduces-codex-its-first-full-fledged-ai-agent-for-coding/">Codex</a>, to build and improve the development tool. “I think the vast majority of Codex is built by Codex, so it’s almost entirely just being used to improve itself,” said Alexander Embiricos, product lead for Codex at OpenAI, in a conversation on Tuesday.</p>
+<p>Codex, which OpenAI <a href="https://openai.com/index/introducing-codex/">launched</a> in its modern incarnation as a research preview in May 2025, operates as a cloud-based software engineering agent that can handle tasks like writing features, fixing bugs, and proposing pull requests. The tool runs in sandboxed environments linked to a user’s code repository and can execute multiple tasks in parallel. OpenAI offers Codex through ChatGPT’s web interface, a command-line interface (CLI), and IDE extensions for VS Code, <a href="https://arstechnica.com/ai/2025/04/cursor-ai-support-bot-invents-fake-policy-and-triggers-user-uproar/">Cursor</a>, and <a href="https://windsurf.com/">Windsurf</a>.</p><p><a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>100</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/AI_codehead_header-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/AI_codehead_header-500x500.jpg" width="500" height="500" />
+<media:credit>Mininyx Doodle via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI releases GPT-5.2 after “code red” Google threat alert</title>
+                <link>https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 11 Dec 2025 21:27:18 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Gemini 3]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[GPT-5]]></category>
+		<category><![CDATA[GPT-5.2]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/</guid>
+
+                                    <description>
+                        <![CDATA[Company claims new AI model tops Gemini and matches humans on 70% of work tasks.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, OpenAI <a href="https://openai.com/index/introducing-gpt-5-2/">released</a> GPT-5.2, its newest family of AI models for ChatGPT, in three versions called Instant, Thinking, and Pro. The release follows CEO Sam Altman’s internal <a href="https://arstechnica.com/ai/2025/12/openai-ceo-declares-code-red-as-gemini-gains-200-million-users-in-3-months/">“code red” memo</a> earlier this month, which directed company resources toward improving ChatGPT in response to competitive pressure from <a href="https://arstechnica.com/google/2025/11/google-unveils-gemini-3-ai-model-and-ai-first-ide-called-antigravity/">Google’s Gemini 3</a> AI model.</p>
+<p>“We designed 5.2 to unlock even more economic value for people,” Fidji Simo, OpenAI’s chief product officer, said during a press briefing with journalists on Thursday. “It’s better at creating spreadsheets, building presentations, writing code, perceiving images, understanding long context, using tools and then linking complex, multi-step projects.”</p>
+<p>As with previous versions of GPT-5, the three model tiers serve different purposes: Instant handles faster tasks like writing and translation; Thinking spits out <a href="https://arstechnica.com/ai/2025/06/with-the-launch-of-o3-pro-lets-talk-about-what-ai-reasoning-actually-does/">simulated reasoning</a> “thinking” text in an attempt to tackle more complex work like coding and math; and Pro spits out even more simulated reasoning text with the goal of delivering the highest-accuracy performance for difficult problems.</p><p><a href="https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/12/openai-releases-gpt-5-2-after-code-red-google-threat-alert/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>84</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/openai_tectonic_shift_3-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/09/openai_tectonic_shift_3-500x500.jpg" width="500" height="500" />
+<media:credit>Benj Edwards / OpenAI</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Disney invests $1 billion in OpenAI, licenses 200 characters for AI video app Sora</title>
+                <link>https://arstechnica.com/ai/2025/12/disney-invests-1-billion-in-openai-licenses-200-characters-for-ai-video-app-sora/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/disney-invests-1-billion-in-openai-licenses-200-characters-for-ai-video-app-sora/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 11 Dec 2025 16:43:30 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI law]]></category>
+		<category><![CDATA[Ai video]]></category>
+		<category><![CDATA[Ai video generator]]></category>
+		<category><![CDATA[Bob Iger]]></category>
+		<category><![CDATA[copyright]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[Hollywood]]></category>
+		<category><![CDATA[image synthesis]]></category>
+		<category><![CDATA[intellectual property]]></category>
+		<category><![CDATA[licensing]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Marvel]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[Pixar]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[Sora]]></category>
+		<category><![CDATA[Star Wars]]></category>
+		<category><![CDATA[video synthesis]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/disney-invests-1-billion-in-openai-licenses-200-characters-for-ai-video-app-sora/</guid>
+
+                                    <description>
+                        <![CDATA[Three-year deal lets users create AI videos of Mickey Mouse, Darth Vader, and more.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, The Walt Disney Company <a href="https://openai.com/index/disney-sora-agreement/">announced</a> a $1 billion investment in OpenAI and a three-year licensing agreement that will allow users of OpenAI’s Sora video generator to create short clips featuring more than 200 Disney, Marvel, Pixar, and Star Wars characters. It’s the first major content licensing partnership between a Hollywood studio related to the most recent version of OpenAI’s AI video platform, which <a href="https://www.cnbc.com/2025/10/10/how-sora-2-by-openai-is-challenging-hollywood.html">drew criticism</a> from some parts of the entertainment industry when it <a href="https://arstechnica.com/ai/2025/10/openais-sora-2-lets-users-insert-themselves-into-ai-videos-with-sound/">launched</a> in late September.</p>
+<p>“Technological innovation has continually shaped the evolution of entertainment, bringing with it new ways to create and share great stories with the world,” said Disney CEO Robert A. Iger in the announcement. “The rapid advancement of artificial intelligence marks an important moment for our industry, and through this collaboration with OpenAI we will thoughtfully and responsibly extend the reach of our storytelling through generative AI, while respecting and protecting creators and their works.”</p>
+<p>The deal creates interesting bedfellows between a company that basically <a href="https://en.wikipedia.org/wiki/Copyright_Term_Extension_Act">defined</a> modern US copyright policy through congressional lobbying back in the 1990s and one that has <a href="https://arstechnica.com/information-technology/2024/01/openai-says-its-impossible-to-create-useful-ai-models-without-copyrighted-material/">argued in a submission to the UK House of Lords</a> that useful AI models cannot be created without copyrighted material.</p><p><a href="https://arstechnica.com/ai/2025/12/disney-invests-1-billion-in-openai-licenses-200-characters-for-ai-video-app-sora/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/disney-invests-1-billion-in-openai-licenses-200-characters-for-ai-video-app-sora/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>104</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/disney_1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/disney_1-500x500.jpg" width="500" height="500" />
+<media:credit>China News Service via Getty Images</media:credit><media:text>A visitor examines a sculpture at "Mickey: The True Original &amp; Ever Curious" exhibition on July 26, 2022, in Beijing, China.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Oracle shares slide on $15B increase in data center spending</title>
+                <link>https://arstechnica.com/information-technology/2025/12/oracle-shares-slide-on-15b-increase-in-data-center-spending/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/12/oracle-shares-slide-on-15b-increase-in-data-center-spending/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Rafe Rosner-Uddin]]>
+                </dc:creator>
+                <pubDate>Thu, 11 Dec 2025 14:39:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Larry Ellison]]></category>
+		<category><![CDATA[oracle]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/12/oracle-shares-slide-on-15b-increase-in-data-center-spending/</guid>
+
+                                    <description>
+                        <![CDATA[Company raises its capital expenditure forecast as it doubles down on AI infrastructure bet.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Oracle stock dropped after it reported disappointing revenues on Wednesday alongside a $15 billion increase in its planned spending on data centers this year to serve artificial intelligence groups.</p>
+<p>Shares in Larry Ellison’s database company fell 11 percent in pre-market trading on Thursday after it reported revenues of $16.1 billion in the last quarter, up 14 percent from the previous year, but below analysts’ estimates.</p>
+<p>Oracle raised its forecast for capital expenditure this financial year by more than 40 percent to $50 billion. The outlay, largely directed to building data centers, climbed to $12 billion in the quarter, above expectations of $8.4 billion.</p><p><a href="https://arstechnica.com/information-technology/2025/12/oracle-shares-slide-on-15b-increase-in-data-center-spending/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/12/oracle-shares-slide-on-15b-increase-in-data-center-spending/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>76</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1867844462-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1867844462-500x500.jpg" width="500" height="500" />
+<media:credit>Mesut Dogan</media:credit></media:content>
+            </item>
+                    <item>
+                <title>A new open-weights AI coding model is closing in on proprietary options</title>
+                <link>https://arstechnica.com/ai/2025/12/mistral-bets-big-on-vibe-coding-with-new-autonomous-software-engineering-agent/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/mistral-bets-big-on-vibe-coding-with-new-autonomous-software-engineering-agent/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 10 Dec 2025 20:38:58 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[Andrej Karpathy]]></category>
+		<category><![CDATA[ASML]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Mistral AI]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[open weights]]></category>
+		<category><![CDATA[software engineering]]></category>
+		<category><![CDATA[SWE-bench]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/mistral-bets-big-on-vibe-coding-with-new-autonomous-software-engineering-agent/</guid>
+
+                                    <description>
+                        <![CDATA[Devstral 2 model scores 72% on industry benchmark, nearing proprietary rivals.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Tuesday, French AI startup Mistral AI <a href="https://mistral.ai/news/devstral-2-vibe-cli">released</a> Devstral 2, a 123 billion parameter open-weights coding model designed to work as part of an autonomous software engineering agent. The model achieves a 72.2 percent score on <a href="https://www.swebench.com/">SWE-bench Verified</a>, a benchmark that attempts to test whether AI systems can solve real GitHub issues, putting it among the top-performing open-weights models.</p>
+<p>Perhaps more notably, Mistral didn’t just release an AI model, it released a new development app called Mistral Vibe. It’s a command line interface (CLI) similar to <a href="https://arstechnica.com/ai/2025/10/claude-code-gets-a-web-version-but-its-the-new-sandboxing-that-really-matters/">Claude Code</a>, <a href="https://arstechnica.com/ai/2025/05/openai-introduces-codex-its-first-full-fledged-ai-agent-for-coding/">OpenAI Codex</a>, and <a href="https://arstechnica.com/ai/2025/06/google-is-bringing-vibe-coding-to-your-terminal-with-gemini-cli/">Gemini CLI</a> that lets developers interact with the Devstral models directly in their terminal. The tool can scan file structures and Git status to maintain context across an entire project, make changes across multiple files, and execute shell commands autonomously. Mistral released the CLI under the Apache 2.0 license.</p>
+<p>It’s always wise to take AI benchmarks with a large grain of salt, but we’ve heard from employees of the big AI companies that they pay very close attention to how well models do on SWE-bench Verified, which presents AI models with 500 real software engineering problems pulled from GitHub issues in popular Python repositories. The AI must read the issue description, navigate the codebase, and generate a working patch that passes unit tests. While some AI researchers have <a href="https://epoch.ai/blog/what-skills-does-swe-bench-verified-evaluate">noted</a> that around 90 percent of the tasks in the benchmark test relatively simple bug fixes that experienced engineers could complete in under an hour, it’s one of the few standardized ways to compare coding models.</p><p><a href="https://arstechnica.com/ai/2025/12/mistral-bets-big-on-vibe-coding-with-new-autonomous-software-engineering-agent/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/mistral-bets-big-on-vibe-coding-with-new-autonomous-software-engineering-agent/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>75</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/mistral_header_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/mistral_header_2-500x500.jpg" width="500" height="500" />
+<media:credit>Mistral / Benj Edwards</media:credit><media:text>The Mistral logo.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Operation Bluebird wants to relaunch “Twitter,” says Musk abandoned the name and logo</title>
+                <link>https://arstechnica.com/information-technology/2025/12/can-twitter-fly-again-startup-wants-to-pry-iconic-trademark-from-musks-x/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/12/can-twitter-fly-again-startup-wants-to-pry-iconic-trademark-from-musks-x/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Cyrus Farivar]]>
+                </dc:creator>
+                <pubDate>Wed, 10 Dec 2025 12:32:21 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[abandonment]]></category>
+		<category><![CDATA[musk]]></category>
+		<category><![CDATA[operation bluebird]]></category>
+		<category><![CDATA[trademark]]></category>
+		<category><![CDATA[Twitter]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/12/can-twitter-fly-again-startup-wants-to-pry-iconic-trademark-from-musks-x/</guid>
+
+                                    <description>
+                        <![CDATA[“Abandonment” offers rare chance to reclaim one of tech’s most recognized brands.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A Virginia startup calling itself “Operation Bluebird” announced this week that it has <a href="https://www.documentcloud.org/documents/26364751-ttabvue-92090266-can-1/">filed a formal petition</a> with the US Patent and Trademark Office, asking the federal agency to cancel X Corporation’s trademarks of the words “Twitter” and “tweet” since X has allegedly abandoned them.</p>
+<p>“The TWITTER and TWEET brands have been eradicated from X Corp.’s products, services, and marketing, effectively abandoning the storied brand, with no intention to resume use of the mark,” the petition states. “The TWITTER bird was grounded.”</p>
+<p>If successful, two leaders of the group tell Ars, Operation Bluebird would launch a social network under the name <a href="http://twitter.new/">Twitter.new</a>, possibly as early as late next year. (Twitter.new has created a working prototype and is already inviting users to reserve handles.)</p><p><a href="https://arstechnica.com/information-technology/2025/12/can-twitter-fly-again-startup-wants-to-pry-iconic-trademark-from-musks-x/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/12/can-twitter-fly-again-startup-wants-to-pry-iconic-trademark-from-musks-x/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>166</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/03/getty-twitter-logo-1152x648-1765369763.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/03/getty-twitter-logo-500x500-1765369744.jpg" width="500" height="500" />
+<media:credit>Getty Images | Anadolu Agency </media:credit></media:content>
+            </item>
+                    <item>
+                <title>Meta offers EU users ad-light option in push to end investigation</title>
+                <link>https://arstechnica.com/information-technology/2025/12/meta-offers-eu-users-ad-light-option-in-push-to-end-investigation/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/12/meta-offers-eu-users-ad-light-option-in-push-to-end-investigation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Barbara Moens]]>
+                </dc:creator>
+                <pubDate>Mon, 08 Dec 2025 14:57:11 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[EU]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[pay or consent]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/12/meta-offers-eu-users-ad-light-option-in-push-to-end-investigation/</guid>
+
+                                    <description>
+                        <![CDATA[Facebook agrees to change "pay or consent" model after talks with European Commission.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Meta has agreed to make changes to its “pay or consent” business model in the EU, seeking to agree to a deal that avoids further regulatory fines at a time when the bloc’s digital rule book is drawing anger from US authorities.</p>
+<p>On Tuesday, the European Commission announced that the social media giant had offered users an alternative choice of Facebook and Instagram services that would show them fewer personalized advertisements.</p>
+<p>The offer follows an EU investigation into Meta’s policy of requiring users either to consent to data tracking or pay for an ad-free service. The Financial Times reported on optimism that an agreement could be reached between the parties in October.</p><p><a href="https://arstechnica.com/information-technology/2025/12/meta-offers-eu-users-ad-light-option-in-push-to-end-investigation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/12/meta-offers-eu-users-ad-light-option-in-push-to-end-investigation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>98</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1359152239-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/GettyImages-1359152239-500x500.jpg" width="500" height="500" />
+<media:credit>	Derick Hudson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>In comedy of errors, men accused of wiping gov databases turned to an AI tool</title>
+                <link>https://arstechnica.com/information-technology/2025/12/previously-convicted-contractors-wiped-gov-databases-after-being-fired-feds-say/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/12/previously-convicted-contractors-wiped-gov-databases-after-being-fired-feds-say/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 04 Dec 2025 21:51:36 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[contractors]]></category>
+		<category><![CDATA[courts]]></category>
+		<category><![CDATA[data theft]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/12/previously-convicted-contractors-wiped-gov-databases-after-being-fired-feds-say/</guid>
+
+                                    <description>
+                        <![CDATA[Defendants were convicted of similar crimes a decade ago. How were they cleared again?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Two sibling contractors convicted a decade ago for hacking into US State Department systems have once again been charged, this time for a comically hamfisted attempt to steal and destroy government records just minutes after being fired from their contractor jobs.</p>
+<p>The Department of Justice on Thursday <a href="https://www.justice.gov/opa/pr/two-virginia-men-arrested-conspiring-destroy-government-databases">said</a> that Muneeb Akhter and Sohaib Akhter, both 34, of Alexandria, Virginia, deleted databases and documents maintained and belonging to three government agencies. The brothers were federal contractors working for an undisclosed company in Washington, DC, that provides software and services to 45 US agencies. Prosecutors said the men coordinated the crimes and began carrying them out just minutes after being fired.</p>
+<h2>Using AI to cover up an alleged crime—what could go wrong?</h2>
+<p>On February 18 at roughly 4:55 pm, the men were fired from the company, according to an <a href="https://storage.courtlistener.com/recap/gov.uscourts.vaed.585302/gov.uscourts.vaed.585302.1.0_1.pdf">indictment</a> unsealed on Thursday. Five minutes later, they allegedly began trying to access their employer’s system and access federal government databases. By then, access to one of the brothers’ accounts had already been terminated. The other brother, however, allegedly accessed a government agency’s database stored on the employer’s server and issued commands to prevent other users from connecting or making changes to the database. Then, prosecutors said, he issued a command to delete 96 databases, many of which contained sensitive investigative files and records related to Freedom of Information Act matters.</p><p><a href="https://arstechnica.com/information-technology/2025/12/previously-convicted-contractors-wiped-gov-databases-after-being-fired-feds-say/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/12/previously-convicted-contractors-wiped-gov-databases-after-being-fired-feds-say/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>98</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/data-theft-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/data-theft-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>Hand recovering folder with the  word "confidential" from a file cabinet.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Admins and defenders gird themselves against maximum-severity server vuln</title>
+                <link>https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/</link>
+                                    <comments>https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 23:16:03 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[react server components]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/</guid>
+
+                                    <description>
+                        <![CDATA[Open source React executes malicious code with malformed HTML—no authentication needed.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Security defenders are girding themselves in response to the disclosure of a maximum-severity vulnerability disclosed Wednesday in React Server, an open-source package that’s widely used by websites and in cloud environments.</p>
+<p>The vulnerability is easy to exploit and allows hackers to execute malicious code on servers that run it. Exploit code is now <a href="https://github.com/ejpir/CVE-2025-55182-poc/tree/main">publicly available</a>.</p>
+<p>React is embedded into web apps running on servers so that remote devices render JavaScript and content more quickly and with fewer resources required. React is used by an estimated <a href="https://www.wiz.io/blog/critical-vulnerability-in-react-cve-2025-55182">6 percent</a> of all websites and 39 percent of cloud environments. When end users reload a page, React allows servers to re-render only parts that have changed, a feature that drastically speeds up performance and lowers the computing resources required by the server.</p><p><a href="https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>83</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Microsoft drops AI sales targets in half after salespeople miss their quotas</title>
+                <link>https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 18:24:06 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI adoption]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI spending]]></category>
+		<category><![CDATA[azure]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[copilot]]></category>
+		<category><![CDATA[enterprise AI]]></category>
+		<category><![CDATA[foundry]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Microsoft Copilot]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/</guid>
+
+                                    <description>
+                        <![CDATA[Report: Microsoft declared "the era of AI agents" in May, but enterprise customers aren't buying.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Microsoft has lowered sales growth targets for its AI agent products after many salespeople missed their quotas in the fiscal year ending in June, according to a <a href="https://www.theinformation.com/articles/microsoft-lowers-ai-software-sales-quotas-customers-resist-newer-products">report</a> Wednesday from The Information. The adjustment is reportedly unusual for Microsoft, and it comes after the company missed a number of ambitious sales goals for its AI offerings.</p>
+<p>AI agents are specialized implementations of AI language models designed to perform multistep tasks autonomously rather than simply responding to single prompts. So-called “agentic” features have been <a href="https://arstechnica.com/gadgets/2025/10/microsofts-vision-for-ai-pcs-looks-a-lot-like-another-crack-at-cortana/">central</a> to Microsoft’s 2025 sales pitch: At its Build conference in May, the company <a href="https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/">declared</a> that it has entered “the era of AI agents.”</p>
+<p>The company has promised customers that agents could automate complex tasks, such as generating dashboards from sales data or writing customer reports. At its Ignite conference in November, Microsoft <a href="https://www.microsoft.com/en-us/microsoft-365/blog/2025/11/18/microsoft-ignite-2025-copilot-and-agents-built-to-power-the-frontier-firm/">announced</a> new features like Word, Excel, and PowerPoint agents in Microsoft 365 Copilot, along with tools for building and deploying agents through Azure AI Foundry and Copilot Studio. But as the year draws to a close, that promise has proven harder to deliver than the company expected.</p><p><a href="https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>143</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/dartboard_missed-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/dartboard_missed-500x500.jpg" width="500" height="500" />
+<media:credit>Wong Yu Liang via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Fraudulent gambling network may actually be something more nefarious</title>
+                <link>https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/</link>
+                                    <comments>https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 03 Dec 2025 17:23:26 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[espionage]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[fraud]]></category>
+		<category><![CDATA[hacking]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/</guid>
+
+                                    <description>
+                        <![CDATA[Researchers say there's more to the network, which has operated for 14 years.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A sprawling infrastructure that has been bilking unsuspecting people through fraudulent gambling websites for 14 years is likely a dual operation run by a nation-state-sponsored group that is targeting government and private-industry organizations in the US and Europe, researchers said Wednesday.</p>
+<p>Researchers have previously tracked smaller pieces of the enormous infrastructure. Last month, security firm Sucuri <a href="https://blog.sucuri.net/2025/11/slot-gacor-the-rise-of-online-casino-spam.html">reported</a> that the operation seeks out and compromises poorly configured websites running the WordPress CMS. Imperva in January <a href="https://www.imperva.com/blog/how-hackers-use-php-backdoors-and-gsocket-to-facilitate-illegal-gambling-in-indonesia/">said</a> the attackers also scan for and exploit web apps built with the PHP programming language that have existing webshells or vulnerabilities. Once the weaknesses are exploited, the attackers install a GSocket, a backdoor that the attackers use to compromise servers and host gambling web content on them.</p>
+<p>All of the gambling sites target Indonesian-speaking visitors. Because Indonesian law prohibits gambling, many people in that country are drawn to illicit services. Most of the 236,433 attacker-owned domains hosting the gambling sites are hosted on Cloudflare. Most of the 1,481 hijacked subdomains were hosted on Amazon Web Services, Azure, and GitHub.</p><p><a href="https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/12/fraudulent-gambling-network-may-be-a-nation-state-spying-operation/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>19</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/warning-alert-screen-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/03/warning-alert-screen-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI CEO declares “code red” as Gemini gains 200 million users in 3 months</title>
+                <link>https://arstechnica.com/ai/2025/12/openai-ceo-declares-code-red-as-gemini-gains-200-million-users-in-3-months/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/openai-ceo-declares-code-red-as-gemini-gains-200-million-users-in-3-months/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 02 Dec 2025 22:42:09 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI competition]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[Gemini 3]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[GPT-5]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Marc Benioff]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[simulated reasoning]]></category>
+		<category><![CDATA[SR model]]></category>
+		<category><![CDATA[Sundar Pichai]]></category>
+		<category><![CDATA[vibemark]]></category>
+		<category><![CDATA[vibemarking]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/openai-ceo-declares-code-red-as-gemini-gains-200-million-users-in-3-months/</guid>
+
+                                    <description>
+                        <![CDATA[Three years after Google sounded alarm bells over ChatGPT, the tables have turned.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The shoe is most certainly on the other foot. On Monday, OpenAI CEO Sam Altman reportedly declared a “code red” at the company to improve ChatGPT, delaying advertising plans and other products in the process,  The Information <a href="https://www.theinformation.com/articles/openai-ceo-declares-code-red-combat-threats-chatgpt-delays-ads-effort">reported</a> based on a leaked internal memo. The move follows Google’s <a href="https://arstechnica.com/google/2025/11/google-unveils-gemini-3-ai-model-and-ai-first-ide-called-antigravity/">release</a> of its Gemini 3 model last month, which has outperformed ChatGPT on some industry benchmark tests and sparked high-profile praise on social media.</p>
+<p>In the memo, Altman wrote, “We are at a critical time for ChatGPT.” The company will push back work on advertising integration, AI agents for health and shopping, and a personal assistant feature called <a href="https://arstechnica.com/ai/2025/09/chatgpt-pulse-delivers-morning-updates-based-on-your-chat-history/">Pulse</a>. Altman encouraged temporary team transfers and established daily calls for employees responsible for enhancing the chatbot.</p>
+<p>The directive creates an odd symmetry with events from December 2022, when Google management <a href="https://arstechnica.com/information-technology/2023/01/fearing-chatgpt-google-enlists-founders-brin-and-page-in-ai-fight/">declared</a> its own “code red” internal emergency after ChatGPT <a href="https://arstechnica.com/information-technology/2022/12/openai-invites-everyone-to-test-new-ai-powered-chatbot-with-amusing-results/">launched</a> and rapidly gained in popularity. At the time, Google CEO Sundar Pichai <a href="https://www.businessinsider.com/google-management-issues-code-red-over-chatgpt-report-2022-12">reassigned</a> teams across the company to develop AI prototypes and products to compete with OpenAI’s chatbot. Now, three years later, the AI industry is in a very different place.</p><p><a href="https://arstechnica.com/ai/2025/12/openai-ceo-declares-code-red-as-gemini-gains-200-million-users-in-3-months/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/openai-ceo-declares-code-red-as-gemini-gains-200-million-users-in-3-months/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>208</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/aaltman_crop-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/aaltman_crop-500x500.jpg" width="500" height="500" />
+<media:credit>Anadolu via Getty Images</media:credit><media:text>OpenAI CEO Sam Altman delivers a speech with video at the SK AI Summit 2025 at COEX in Seoul, South Korea on November 3, 2025.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Syntax hacking: Researchers discover sentence structure can bypass AI safety rules</title>
+                <link>https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/</link>
+                                    <comments>https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 02 Dec 2025 12:15:55 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[AI study]]></category>
+		<category><![CDATA[Chantal Shaib]]></category>
+		<category><![CDATA[GPT-4o]]></category>
+		<category><![CDATA[jailbreaking]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[MIT]]></category>
+		<category><![CDATA[Northeastern University]]></category>
+		<category><![CDATA[OLMo]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[prompt injections]]></category>
+		<category><![CDATA[spurious correlations]]></category>
+		<category><![CDATA[Vinith M. Suriyakumar]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/</guid>
+
+                                    <description>
+                        <![CDATA[New research offers clues about why some prompt injection attacks may succeed.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers from MIT, Northeastern University, and Meta recently <a href="https://arxiv.org/abs/2509.21155v2">released</a> a paper suggesting that large language models (LLMs) similar to those that power ChatGPT may sometimes prioritize sentence structure over meaning when answering questions. The findings reveal a weakness in how these models process instructions that may shed light on why some <a href="https://arstechnica.com/information-technology/2022/09/twitter-pranksters-derail-gpt-3-bot-with-newly-discovered-prompt-injection-hack/">prompt injection</a> or <a href="https://arstechnica.com/information-technology/2023/10/sob-story-about-dead-grandma-tricks-microsoft-ai-into-solving-captcha/">jailbreaking</a> approaches work, though the researchers caution their analysis of some production models remains speculative since training data details of prominent commercial AI models are not publicly available.</p>
+<p>The team, led by Chantal Shaib and Vinith M. Suriyakumar, tested this by asking models questions with preserved grammatical patterns but nonsensical words. For example, when prompted with “Quickly sit Paris clouded?” (mimicking the structure of “Where is Paris located?”), models still answered “France.”</p>
+<p>This suggests models absorb both meaning and syntactic patterns, but can overrely on structural shortcuts when they strongly correlate with specific domains in training data, which sometimes allows patterns to override semantic understanding in edge cases. The team plans to present these findings at <a href="https://neurips.cc/">NeurIPS</a> later this month.</p><p><a href="https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/12/syntax-hacking-researchers-discover-sentence-structure-can-bypass-ai-safety-rules/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>74</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/BOOK_PAGES_FLYING-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/12/BOOK_PAGES_FLYING-500x500.jpg" width="500" height="500" />
+<media:credit>EasternLightcraft via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>HP plans to save millions by laying off thousands, ramping up AI use</title>
+                <link>https://arstechnica.com/information-technology/2025/11/hp-plans-to-save-millions-by-laying-off-thousands-ramping-up-ai-use/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/11/hp-plans-to-save-millions-by-laying-off-thousands-ramping-up-ai-use/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Wed, 26 Nov 2025 17:19:35 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI layoffs]]></category>
+		<category><![CDATA[HP]]></category>
+		<category><![CDATA[layoffs]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/11/hp-plans-to-save-millions-by-laying-off-thousands-ramping-up-ai-use/</guid>
+
+                                    <description>
+                        <![CDATA[Product development, internal operations among teams expected to be hit hardest. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>HP Inc. said that it will lay off 4,000 to 6,000 employees in favor of AI deployments, claiming it will help save $1 billion in annualized gross run rate by the end of its fiscal 2028.</p>
+<p>HP expects to complete the layoffs by the end of that fiscal year. The reductions will largely hit product development, internal operations, and customer support, HP CEO Enrique Lores <a href="https://www.fool.com/earnings/call-transcripts/2025/11/25/hp-hpq-q4-2025-earnings-call-transcript/">said</a> during an earnings call on Tuesday.</p>
+<p>Using AI, HP will “accelerate product innovation, improve customer satisfaction, and boost productivity,” Lores said.</p><p><a href="https://arstechnica.com/information-technology/2025/11/hp-plans-to-save-millions-by-laying-off-thousands-ramping-up-ai-use/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/11/hp-plans-to-save-millions-by-laying-off-thousands-ramping-up-ai-use/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>160</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-987512596-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-987512596-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Crypto hoarders dump tokens as shares tumble</title>
+                <link>https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nikou Asgari in London and Jill R Shah in New York]]>
+                </dc:creator>
+                <pubDate>Wed, 26 Nov 2025 15:37:47 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[crypto]]></category>
+		<category><![CDATA[ether]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/</guid>
+
+                                    <description>
+                        <![CDATA[Several companies are selling crypto stockpiles in effort to fund share buybacks, shore up stock prices.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Crypto-hoarding companies are ditching their holdings in a bid to prop up their sinking share prices, as the craze for “digital asset treasury” businesses unravels in the face of a $1 trillion cryptocurrency rout.</p>
+<p>Shares in Michael Saylor-led Strategy, the world’s biggest corporate bitcoin holder, have tumbled 50 percent over the past three months, dragging down scores of copycat companies.</p>
+<p>About $77 billion has been wiped from the stock market value of these companies, which raise debt and equity to fund purchases of crypto, since their peak of $176 billion in July, according to industry data publication The Block.</p><p><a href="https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/11/crypto-hoarders-dump-tokens-as-shares-tumble/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>175</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-1368998806-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-1368998806-500x500.jpg" width="500" height="500" />
+<media:credit>Olemedia</media:credit></media:content>
+            </item>
+                    <item>
+                <title>UK government will buy tech to boost AI sector in $130M growth push</title>
+                <link>https://arstechnica.com/information-technology/2025/11/uk-government-will-buy-tech-to-boost-ai-sector-in-130m-growth-push/</link>
+                                    <comments>https://arstechnica.com/information-technology/2025/11/uk-government-will-buy-tech-to-boost-ai-sector-in-130m-growth-push/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Chris Smyth and Melissa Heikkilä]]>
+                </dc:creator>
+                <pubDate>Mon, 24 Nov 2025 14:17:29 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Financial Times]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2025/11/uk-government-will-buy-tech-to-boost-ai-sector-in-130m-growth-push/</guid>
+
+                                    <description>
+                        <![CDATA[Plan will offer guaranteed payments for British startups making AI hardware]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The UK government will promise to buy emerging chip technology from British companies in a 100 million pound ($130 million) bid to boost growth by supporting the artificial intelligence sector.</p>
+<p>Liz Kendall, the science secretary, said the government would offer guaranteed payments to British startups producing AI hardware that can help sectors such as life sciences and financial services.</p>
+<p>Under a “first customer” promise modeled on the way the government bought COVID vaccines, Kendall’s department will commit in advance to buying AI inference chips that meet set performance standards.</p><p><a href="https://arstechnica.com/information-technology/2025/11/uk-government-will-buy-tech-to-boost-ai-sector-in-130m-growth-push/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2025/11/uk-government-will-buy-tech-to-boost-ai-sector-in-130m-growth-push/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2247290617-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-2247290617-500x500.jpg" width="500" height="500" />
+<media:credit>Leon Neal / Staff</media:credit><media:text>LONDON, ENGLAND - NOVEMBER 18: Secretary of State for Work and Pensions Liz Kendall leaves Downing Street following the weekly cabinet meeting on November 18, 2025 in London, England. (Photo by Leon Neal/Getty Images)</media:text></media:content>
+            </item>
+                    <item>
+                <title>Oops. Cryptographers cancel election results after losing decryption key.</title>
+                <link>https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Sat, 22 Nov 2025 00:16:25 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[election systems]]></category>
+		<category><![CDATA[encryption keys]]></category>
+		<category><![CDATA[iacr]]></category>
+		<category><![CDATA[international associate for cryptological research]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/</guid>
+
+                                    <description>
+                        <![CDATA[Voting system required three keys. One of them has been "irretrievably lost."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>One of the world’s premier security organizations has canceled the results of its annual leadership election after an official lost an encryption key needed to unlock results stored in a verifiable and privacy-preserving voting system.</p>
+<p>The International Association of Cryptologic Research (IACR) <a href="https://www.iacr.org/news/item/27138">said Friday</a> that the votes were submitted and tallied using <a href="https://vote.heliosvoting.org/about">Helios</a>, an open source voting system that uses peer-reviewed cryptography to cast and count votes in a verifiable, confidential, and privacy-preserving way. Helios encrypts each vote in a way that assures each ballot is secret. Other cryptography used by Helios allows each voter to confirm their ballot was counted fairly.</p>
+<h2>An “honest but unfortunate human mistake”</h2>
+<p>Per the association’s bylaws, three members of the election committee act as independent trustees. To prevent two of them from colluding to cook the results, each trustee holds a third of the cryptographic key material needed to decrypt results.</p><p><a href="https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/cryptography-group-cancels-election-results-after-official-loses-secret-key/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>181</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/crypto-key.jpeg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/03/crypto-key-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>How to know if your Asus router is one of thousands hacked by China-state hackers</title>
+                <link>https://arstechnica.com/security/2025/11/thousands-of-hacked-asus-routers-are-under-control-of-suspected-china-state-hackers/</link>
+                                    <comments>https://arstechnica.com/security/2025/11/thousands-of-hacked-asus-routers-are-under-control-of-suspected-china-state-hackers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 21 Nov 2025 22:05:20 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ASUS]]></category>
+		<category><![CDATA[consumer routers]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[state sponsored hacking]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2025/11/thousands-of-hacked-asus-routers-are-under-control-of-suspected-china-state-hackers/</guid>
+
+                                    <description>
+                        <![CDATA[So far, the hackers are laying low, likely for later use.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Thousands of Asus routers have been hacked and are under the control of a suspected China-state group that has yet to reveal its intentions for the mass compromise, researchers said.</p>
+<p>The hacking spree is either primarily or exclusively targeting seven models of Asus routers, all of which are no longer supported by the manufacturer, meaning they no longer receive security patches, researchers from SecurityScorecard <a href="https://securityscorecard.com/wp-content/uploads/2025/11/STRIKE_Asus_WrtHug-Report_V6.pdf">said</a>. So far, it’s unclear what the attackers do after gaining control of the devices. SecurityScorecard has named the operation WrtHug.</p>
+<h2>Staying off the radar</h2>
+<p>SecurityScorecard said it suspects the compromised devices are being used similarly to those found in ORB (operational relay box) networks, which hackers primarily use to conduct espionage to conceal their identity.</p><p><a href="https://arstechnica.com/security/2025/11/thousands-of-hacked-asus-routers-are-under-control-of-suspected-china-state-hackers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2025/11/thousands-of-hacked-asus-routers-are-under-control-of-suspected-china-state-hackers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>99</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/asus-router-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/05/asus-router-500x500.jpg" width="500" height="500" />
+<media:credit>Olly Curtis/MacFormat Magazine/Future via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google tells employees it must double capacity every 6 months to meet AI demand</title>
+                <link>https://arstechnica.com/ai/2025/11/google-tells-employees-it-must-double-capacity-every-6-months-to-meet-ai-demand/</link>
+                                    <comments>https://arstechnica.com/ai/2025/11/google-tells-employees-it-must-double-capacity-every-6-months-to-meet-ai-demand/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 21 Nov 2025 21:47:44 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI compute]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI GPU]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[alphabet]]></category>
+		<category><![CDATA[Amin Vahdat]]></category>
+		<category><![CDATA[API]]></category>
+		<category><![CDATA[capital expenditures]]></category>
+		<category><![CDATA[cloud computing]]></category>
+		<category><![CDATA[datacenters]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Sundar Pichai]]></category>
+		<category><![CDATA[Tensor Processing Unit]]></category>
+		<category><![CDATA[TPU]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2025/11/google-tells-employees-it-must-double-capacity-every-6-months-to-meet-ai-demand/</guid>
+
+                                    <description>
+                        <![CDATA[Google's AI infrastructure chief tells staff it needs thousandfold capacity increase in 5 years.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>While AI bubble talk <a href="https://arstechnica.com/ai/2025/11/were-in-an-llm-bubble-hugging-face-ceo-says-but-not-an-ai-one/">fills the air</a> these days, with fears of overinvestment that could <a href="https://arstechnica.com/ai/2025/10/ars-live-recap-is-the-ai-bubble-about-to-pop-ed-zitron-weighs-in/">pop</a> at any time, something of a contradiction is brewing on the ground: Companies like Google and OpenAI can barely build infrastructure fast enough to fill their AI needs.</p>
+<p>During an all-hands meeting earlier this month, Google’s AI infrastructure head Amin Vahdat told employees that the company must double its serving capacity every six months to meet demand for artificial intelligence services, <a href="https://www.cnbc.com/2025/11/21/google-must-double-ai-serving-capacity-every-6-months-to-meet-demand.html">reports</a> CNBC. The comments show a rare look at what Google executives are telling its own employees internally. Vahdat, a vice president at Google Cloud, presented slides to its employees showing the company needs to scale “the next 1000x in 4-5 years.”</p>
+<p>While a thousandfold increase in compute capacity sounds ambitious by itself, Vahdat noted some key constraints: Google needs to be able to deliver this increase in capability, compute, and storage networking “for essentially the same cost and increasingly, the same power, the same energy level,” he told employees during the meeting. “It won’t be easy but through collaboration and co-design, we’re going to get there.”</p><p><a href="https://arstechnica.com/ai/2025/11/google-tells-employees-it-must-double-capacity-every-6-months-to-meet-ai-demand/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2025/11/google-tells-employees-it-must-double-capacity-every-6-months-to-meet-ai-demand/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>302</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2019/03/DLS_013-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2019/03/DLS_013-500x500.jpg" width="500" height="500" />
+<media:credit>Google</media:credit><media:text>The internet is a series of tubes—at least, the cooling pipes in Google's Oregon data center are. </media:text></media:content>
+            </item>
+                    <item>
+                <title>HP and Dell disable HEVC support built into their laptops’ CPUs</title>
+                <link>https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</link>
+                                    <comments>https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 20 Nov 2025 23:02:01 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[dell]]></category>
+		<category><![CDATA[HP]]></category>
+		<category><![CDATA[laptops]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/</guid>
+
+                                    <description>
+                        <![CDATA[HEVC licensing gets more expensive in January. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Some Dell and HP laptop owners have <a href="https://community.intel.com/t5/Graphics/Intel-Arc-140v-HEVC-Hardware-Decoding-Not-Working-In-Browser/td-p/1717931">been befuddled</a> by their machines’ inability to play <a href="https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding">HEVC/H.265</a> content in web browsers, despite their machines’ processors having integrated decoding support.</p>
+<p>Laptops with sixth-generation Intel Core and later processors have <a href="https://www.intel.com/content/www/us/en/support/articles/000037112/graphics.html">built-in hardware support</a> for HEVC decoding and encoding. AMD has made laptop chips supporting the codec <a href="https://ir.amd.com/news-events/press-releases/detail/616/amd-unveils-6th-generation-a-series-processor-bringing-unprecedented-hd-streaming-online-gaming-and-innovative-computing-experiences-to-notebooks-and-all-in-ones">since 2015</a>. However, both Dell and HP have disabled this feature on some of their popular business notebooks.</p>
+<p>HP discloses this in the data sheets for its affected laptops, which include the HP ProBook 460 G11 [<a href="https://cdn.arstechnica.net/wp-content/uploads/2025/11/ProBook-460-G11.pdf">PDF</a>], ProBook 465 G11 [<a href="https://cdn.arstechnica.net/wp-content/uploads/2025/11/ProBook-465-G11.pdf">PDF</a>], and EliteBook 665 G11 [<a href="https://cdn.arstechnica.net/wp-content/uploads/2025/11/EliteBook-665-G11.pdf">PDF]</a>.</p><p><a href="https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2025/11/hp-and-dell-disable-hevc-support-built-into-their-laptops-cpus/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>247</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-1293225672-1152x648-1763676677.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/11/GettyImages-1293225672-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
