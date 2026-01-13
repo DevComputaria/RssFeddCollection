@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>VMware Security Blog</title>
+	<atom:link href="https://blogs.vmware.com/security/feed" rel="self" type="application/rss+xml" />
+	<link>https://blogs.vmware.com/security/</link>
+	<description></description>
+	<lastBuildDate>Thu, 11 Dec 2025 15:09:28 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.8.3</generator>
+<site xmlns="com-wordpress:feed-additions:1">240671509</site>	<item>
+		<title>Game changer: How AI simplifies implementation of Zero Trust security objectives</title>
+		<link>https://blogs.vmware.com/security/2025/12/game-changer-how-ai-simplifies-implementation-of-zero-trust-security-objectives.html</link>
+		
+		<dc:creator><![CDATA[Umesh Mahajan]]></dc:creator>
+		<pubDate>Wed, 10 Dec 2025 21:21:52 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[Workload Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84610</guid>
+
+					<description><![CDATA[<div><img width="300" height="200" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" fetchpriority="high" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png 1200w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=300,200 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=768,512 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=1024,683 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=600,400 600w" sizes="(max-width: 300px) 100vw, 300px" /></div>
+<p>This article was originally published May 2025 in: AI can transform Zero Trust security implementation and management from a complex manual and multi-year task into an highly-automated, rapidly-deployable solution for modern enterprises. As enterprises increasingly move workloads to private cloud for reasons such as performance, compliance and to leverage AI on-premise, security leaders face a &#8230; <a href="https://blogs.vmware.com/security/2025/12/game-changer-how-ai-simplifies-implementation-of-zero-trust-security-objectives.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/12/game-changer-how-ai-simplifies-implementation-of-zero-trust-security-objectives.html">Game changer: How AI simplifies implementation of Zero Trust security objectives</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="200" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png 1200w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=300,200 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=768,512 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=1024,683 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/Brain_concept_1200x800-2.png?resize=600,400 600w" sizes="(max-width: 300px) 100vw, 300px" /></div><p><em>This article was originally published May 2025 in:</em></p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/cso-logo_4b725c.png"><img decoding="async" class="alignnone wp-image-84623" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/cso-logo_4b725c.png?w=723" alt="" width="72" height="31" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/cso-logo_4b725c.png 723w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/cso-logo_4b725c.png?resize=300,129 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/12/cso-logo_4b725c.png?resize=600,257 600w" sizes="(max-width: 72px) 100vw, 72px" /></a></p>
+<p style="text-align: center;"><em>AI can transform Zero Trust security implementation and management from a complex manual and multi-year task into an highly-automated, rapidly-deployable solution for modern enterprises.</em></p>
+<p>As enterprises increasingly move workloads to private cloud for reasons such as performance, compliance and to leverage AI on-premise, security leaders face a critical challenge: implementing Zero Trust architecture at scale.</p>
+<p>While Zero Trust has become the gold standard for enterprise security, operationalizing it manually presents significant obstacles that AI can help overcome.</p>
+<p>Unlike perimeter-focused security models, Zero Trust for private cloud assumes no implicit trust and requires continuous verification of every transaction.</p>
+<p>A practical deployment of Zero Trust for applications requires a comprehensive understanding of the complex connections and dependencies between each asset in a constantly changing environment — and that’s just the starting point. Traditional tools have been engineered for perimeter security and have significant gaps in procuring data to understand these complex interactions of private cloud applications. Simply engaging in this first step with traditional tools is extremely cumbersome and costly.</p>
+<p>But does that mean the solution is to focus on protecting critical apps with Zero Trust?</p>
+<p>Actually, no, according to Ranga Rajagopalan, CTO of the Application Networking and Security Division at Broadcom.</p>
+<p>“You may think, oh that’s good enough,” Rajagopalan said. “I’ll protect my critical apps through Zero Trust and not worry about non-critical apps. But that ‘partial Zero Trust’ approach won’t work. Modern attackers identify less-secure environments and systems, enter through them and then move laterally toward high value assets. True Zero Trust demands that every application, every asset has the same level of cyber defense.”</p>
+<p>Zero Trust implementation in private cloud faces three primary challenges that often derail enterprise initiatives.</p>
+<p><strong>Vendor complexity:</strong> Organizations typically require multiple specialized tools—firewalls, microsegmentation solutions, network detection and response systems—from different vendors. This fragmented approach creates operational complexity with multiple APIs, operating systems, and management consoles that must be integrated and maintained.</p>
+<p><strong>High costs:</strong> The high-volume app-to-app traffic in private cloud environments demands significant processing power from security tools. Traditional solutions become prohibitively expensive when scaled to handle comprehensive application-level traffic analysis.</p>
+<p><strong>Data quality:</strong> Effective Zero Trust requires comprehensive, contextual data for high-fidelity threat detection. Operating in silos without integrated visibility across networking, computing, and storage systems severely limits detection capabilities.</p>
+<p>AI addresses these challenges by automating the complex, manual processes that make Zero Trust implementation daunting. AI can discover applications automatically, map communication patterns, detect anomalies, and generate security policies. AI is more effective when it has access to comprehensive data sets with contexts.</p>
+<p><strong>Understanding ‘tribal’ knowledge</strong></p>
+<p>The technology excels at understanding unique application behaviors that typically exist as undocumented tribal knowledge within organizations. By ingesting information about applications and performing automated forensics, AI can create appropriate security rules that are always validated and approved by humans prior to activation and enforcement.</p>
+<p>This automation reduces the inter-team dependencies that often create deployment bottlenecks. Instead of requiring extensive coordination between security, networking, and application teams, AI handles the bulk of the heavy lifting of assessing the environment, creating policies and verifying their behavior for correctness.</p>
+<p>VMware vDefend exemplifies how AI can transform Zero Trust implementation in private cloud environments. The platform unifies multiple security functions into a single, integrated stack that&#8217;s natively integrated with private cloud infrastructure.</p>
+<p>vDefend&#8217;s AI capabilities enable rapid deployment and operationalization of Zero Trust for applications, reducing implementation timelines from months to days or weeks.</p>
+<p>The solution can scale to multi-terabit environments through software upgrades without additional licensing costs, addressing the economic barriers that often limit Zero Trust scope in private cloud.</p>
+<p>Additionally, the platform&#8217;s integration with private cloud infrastructure enables organizations to protect their entire application environment rather than just critical systems, closing the security gaps that attackers exploit.</p>
+<p>Finally, by combining AI automation with self-service capabilities, vDefend allows development and operations teams to deploy new applications with security policies already in place, eliminating the traditional gap between compute deployment and security implementation that creates vulnerability windows.</p>
+<p>As enterprises continue their digital transformation journey, AI-powered Zero Trust solutions represent the most practical path to comprehensive security. AI transforms an otherwise complex, resource-intensive, multi-year initiative into a rapidly deployable and operationally scalable security strategy that can keep pace with an ever-evolving threat landscape.</p>
+<p><a href="https://www.vmware.com/products/cloud-infrastructure/vdefend-distributed-firewall">Learn more</a> about how VMware vDefend can simplify and accelerate affordable Zero Trust implementation and management in private cloud.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><p>The post <a href="https://blogs.vmware.com/security/2025/12/game-changer-how-ai-simplifies-implementation-of-zero-trust-security-objectives.html">Game changer: How AI simplifies implementation of Zero Trust security objectives</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84610</post-id>	</item>
+		<item>
+		<title>vDefend DFW 1-2-3-4: Deploy Zero Trust Micro-segmentation in a Few Weeks to Rapidly Secure VCF Workloads</title>
+		<link>https://blogs.vmware.com/security/2025/11/vdefend-dfw-1-2-3-4-vcf.html</link>
+		
+		<dc:creator><![CDATA[Kausum Kumar]]></dc:creator>
+		<pubDate>Tue, 25 Nov 2025 00:36:28 +0000</pubDate>
+				<category><![CDATA[Micro-segmentation]]></category>
+		<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[VCF Security]]></category>
+		<category><![CDATA[Workload Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84550</guid>
+
+					<description><![CDATA[<div><img width="300" height="160" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg 1080w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=300,160 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=768,409 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=1024,545 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=600,319 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>When deploying Zero Trust to quickly address security gaps and improve segmentation posture in a brownfield or greenfield environment, customers need a prescriptive, multi-stage segmentation workflow designed to progressively secure east-west traffic in the VMware Cloud Foundation (VCF) private cloud. vDefend delivers Distributed Firewall (DFW) 1-2-3-4* — an automated workflow that helps security administrators systematically &#8230; <a href="https://blogs.vmware.com/security/2025/11/vdefend-dfw-1-2-3-4-vcf.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/11/vdefend-dfw-1-2-3-4-vcf.html">vDefend DFW 1-2-3-4: Deploy Zero Trust Micro-segmentation in a Few Weeks to Rapidly Secure VCF Workloads</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="160" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg 1080w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=300,160 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=768,409 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=1024,545 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Getty-2148364678_brighter-1.jpg?resize=600,319 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p><span style="font-weight: 400;">When deploying Zero Trust to quickly address security gaps and improve segmentation posture in a brownfield or greenfield environment, customers need a prescriptive, multi-stage segmentation workflow designed to progressively secure east-west traffic in the VMware Cloud Foundation (VCF) private cloud. vDefend delivers Distributed Firewall (DFW) 1-2-3-4* — an automated workflow that helps security administrators systematically strengthen their private cloud security posture. Customers can now simplify and fast-track the path to Zero Trust with a structured sequence of segmentation phases — from protecting critical infrastructure services to securing traffic between zones, and ultimately achieving application-level micro-segmentation. Additionally, over time, security policies can become bloated and inefficient. The new Firewall Rule Analysis feature efficiently manages this by analyzing DFW rules, so organizations can ensure their security policies are lean and effective.</span></p>
+<h2><span style="font-weight: 400;">Why Comprehensive Segmentation is the Need of the Hour</span></h2>
+<p><span style="font-weight: 400;">In today’s ransomware threat landscape, protecting only the perimeter has proven to be insufficient. Traditional security solutions, such as perimeter firewalls, protect only north-south traffic. Given that east-west (lateral) application traffic is approximately four times the volume of north-south traffic, it is critical and urgent to deploy lateral security to extend defenses beyond the perimeter. </span></p>
+<p><span style="font-weight: 400;">As a result, large portions of the private cloud workloads remain vulnerable, enabling attackers to compromise underprotected workloads and laterally move to compromise high-value assets—the &#8220;crown jewels&#8221;. In 2025, cyber attacks caused substantial business downtime in days and weeks across various industries (including automobile, retail, and manufacturing), leading to financial losses in hundreds of millions.</span></p>
+<p><span style="font-weight: 400;">Additionally, attackers are adopting AI/GenAI technologies to identify weaknesses in enterprise environments. These </span><a href="https://news.broadcom.com/explore/vmware-explore-2025-ai-security-load-balancing"><span style="font-weight: 400;">AI-driven attacks</span></a><span style="font-weight: 400;"> are not only faster, but in many cases, autonomous. Now more than ever, organizations need segmentation to get deployed faster. However, many organizations jump to app-level micro-segmentation and then face deployment challenges due to the lack of visibility into application communications and time-consuming coordination between infrastructure and app team silos. What they need is a guided zero-trust journey to quickly deploy comprehensive segmentation for all their workloads. </span></p>
+<p><span style="font-weight: 400;">vDefend is purpose-built to auto-discover application communications, provide guidance on security rules, and verify policy correctness in a non-disruptive manner. The result: 360-degree segmentation with built-in automated workflows that include both macro- and micro-segmentation and continuous monitoring, all in a prescriptive manner.</span></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84598" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png?w=1024" alt="" width="1024" height="617" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png 3132w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png?resize=300,181 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png?resize=768,463 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png?resize=1024,617 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png?resize=1536,926 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png?resize=2048,1235 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-linechart_v2.png?resize=600,362 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-table-v2.jpg"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84608" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-table-v2.jpg?w=1024" alt="" width="1024" height="301" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-table-v2.jpg 1437w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-table-v2.jpg?resize=300,88 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-table-v2.jpg?resize=768,226 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-table-v2.jpg?resize=1024,301 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/macro-micro-table-v2.jpg?resize=600,177 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">vDefend DFW 1-2-3-4</span></h2>
+<p><span style="font-weight: 400;">A practical Zero Trust deployment in a datacenter requires detailed visibility into workload communication, accurate zone and application mapping, and coordination across multiple IT teams. vDefend makes this process intuitive and data-driven, with real-time segmentation assessment of an organization’s security posture. DFW 1-2-3-4 provides a single, unified workflow guide through segmentation planning, auto-tagging and grouping, continuous monitoring pre- and post-deployment of DFW rules, and alerting on changes to enforcement. This new capability leverages an analytics engine that discovers communication patterns, identifies unprotected traffic, and recommends segmentation rules. </span></p>
+<p><span style="font-weight: 400;">Customers can:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Speed up micro-segmentation deployment without guesswork</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Improve efficiency through automated multi-stage segmentation workflow</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Secure VCF workloads quickly and easily </span></li>
+</ul>
+<h2><span style="font-weight: 400;">4 Stage Prescriptive Segmentation Deployment Journey</span></h2>
+<p><span style="font-weight: 400;">DFW provides a 4 stage prescriptive deployment process that follows lateral traffic patterns to quickly secure each of them, with guidance built-in that mirrors lateral traffic components and policy categories inside the vDefend DFW table.</span></p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/chart_v3.gif"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84601" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/chart_v3.gif?w=1024" alt="" width="1024" height="576" /></a></p>
+<h2><span style="font-weight: 400;">Stage 1: Security Segmentation Assessment &amp; Report</span></h2>
+<p><span style="font-weight: 400;">Administrators can activate DFW 1-2-3-4, visualize host clusters, and generate a Security Segmentation Report that highlights their current security posture and identifies opportunities for improvement. Learn more about this assessment in this </span><a href="https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html"><span style="font-weight: 400;">blog</span></a><span style="font-weight: 400;">. </span></p>
+<p><span style="font-weight: 400;">As each phase is completed, customers can generate a Security Segmentation Report to assess their current segmentation score. The score recalibrates automatically whenever your environment changes, providing continuous feedback and helping customers track progress over time. This visibility helps teams demonstrate measurable progress toward Zero Trust objectives &#8211; and communicate outcomes clearly to executives and auditors.</span></p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png"><img loading="lazy" decoding="async" class="wp-image-84556 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png?w=1024" alt="" width="964" height="581" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png 3535w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png?resize=300,181 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png?resize=768,462 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png?resize=1024,616 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png?resize=1536,925 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png?resize=2048,1233 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage1_topribbon.png?resize=600,361 600w" sizes="auto, (max-width: 964px) 100vw, 964px" /></a></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Stage 2: Infrastructure (Shared) Services Segmentation</span></h2>
+<p><span style="font-weight: 400;">Start with the foundational layer of your datacenter &#8211; shared services such as DNS, NTP, Syslog, SNMP, DHCP, and LDAP/LDAPs. DFW 1-2-3-4 automatically discovers infrastructure services to identify service endpoints and allows the user to validate and automatically create protection rules to these services. </span><span style="font-weight: 400;">Alternatively, users can feed their known infrastructure service endpoints via CSV file for the system to add infrastructure services</span><span style="font-weight: 400;">. This step delivers quick security gains with minimal disruption—the ideal “low-hanging fruit” for teams beginning their Zero Trust journey. Locking down these services, especially DNS servers, allows the user to remove the most common Command &amp; Control (C&amp;C) and exfiltration paths for malicious actors.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png"><img loading="lazy" decoding="async" class="alignnone wp-image-84589" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png?w=1024" alt="" width="1075" height="545" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png 4198w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png?resize=300,152 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png?resize=768,389 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png?resize=1024,519 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png?resize=1536,779 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png?resize=2048,1038 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-2_new_fewdays.png?resize=600,304 600w" sizes="auto, (max-width: 1075px) 100vw, 1075px" /></a></p>
+<p>&nbsp;</p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/image6.png"><img loading="lazy" decoding="async" class="wp-image-84558 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/image6.png?w=1024" alt="" width="844" height="474" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/image6.png 1279w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/image6.png?resize=300,169 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/image6.png?resize=768,432 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/image6.png?resize=1024,576 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/image6.png?resize=600,337 600w" sizes="auto, (max-width: 844px) 100vw, 844px" /></a></p>
+<h3></h3>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Stage 3: Environment (Zone) Segmentation</span></h2>
+<p><span style="font-weight: 400;">Once infrastructure (shared) services are protected, users can proceed to defining environment (zone) boundaries &#8211; for example, Development and Production. Users can import this metadata using a CSV file. The system supports CSV files that are exported from a CMDB system (such as from ServiceNow) or even from vCenter, or users can create a CSV file from a simple spreadsheet template provided by DFW 1-2-3-4. The platform assigns security tags for these workloads, validates relationships, and provides default environment-level rules through the DFW, while Zone Segmentation for existing workloads using traditional firewalls requires complicated Network and IP Address.</span></p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png"><img loading="lazy" decoding="async" class="size-large wp-image-84559 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png?w=1024" alt="" width="1024" height="519" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png 4198w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png?resize=300,152 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png?resize=768,389 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png?resize=1024,519 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png?resize=1536,779 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png?resize=2048,1038 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage_3_control.png?resize=600,304 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><span style="font-weight: 400;">Users can monitor traffic leakage between zones and ask the system for either the list of traffic or a set of recommended rules that can then be granted exceptions. DFW 1-2-3-4 continuously monitors for these leakages and alerts the users to take action on newly discovered leakages. This phase ensures that environments remain isolated, minimizing cross-environment exposure and tightening your organization&#8217;s overall security posture.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-3_v3.gif"><img loading="lazy" decoding="async" class="alignnone  wp-image-84632" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-3_v3.gif?w=853" alt="" width="997" height="561" /></a></p>
+<h2><span style="font-weight: 400;">Stage 4: Application Micro-segmentation</span></h2>
+<p><span style="font-weight: 400;">Zero Trust for datacenter traffic requires defining controls for each application. In this stage, there are three steps: a. defining application boundaries used to convert them into tags and groups; b. defining application ring-fencing controls that control over which ports and protocols communication is allowed; c. defining micro-segmentation by defining controls within each application across tiers (web front end, application server and database). This fine-grained segmentation not only enforces least privilege but also strengthens resilience against east-west threats.</span></p>
+<h3><span style="font-weight: 400;">Stage 4a: Workload to Application Mapping</span><span style="font-weight: 400;"> </span></h3>
+<p><span style="font-weight: 400;">Users can upload into the system via a CSV file, VM-to-application mapping. DFW 1-2-3-4 will then auto-tag and create these application groups. These application groups can then be subsequently used for monitoring and defining DFW rules.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png"><img loading="lazy" decoding="async" class="alignnone wp-image-84580" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png?w=1024" alt="" width="980" height="505" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png 4134w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png?resize=300,154 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png?resize=768,395 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png?resize=1024,527 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png?resize=1536,791 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png?resize=2048,1054 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/stage-4a_v2-1.png?resize=600,309 600w" sizes="auto, (max-width: 980px) 100vw, 980px" /></a></p>
+<p>&nbsp;</p>
+<h3><span style="font-weight: 400;">Stage 4b: Defining Application Ring-fencing Controls</span></h3>
+<p><span style="font-weight: 400;">DFW 1-2-3-4 can now monitor these tagged applications, and the system recommends application-specific firewall controls that allow communications only between permitted entities while locking down the applications.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png"><img loading="lazy" decoding="async" class="alignnone wp-image-84565" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png?w=1024" alt="" width="981" height="497" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png 4198w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png?resize=300,152 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png?resize=768,389 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png?resize=1024,519 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png?resize=1536,779 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png?resize=2048,1038 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4b_topribbon.png?resize=600,304 600w" sizes="auto, (max-width: 981px) 100vw, 981px" /></a></p>
+<p>&nbsp;</p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg"><img loading="lazy" decoding="async" class="wp-image-84564 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg?w=1024" alt="" width="872" height="545" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg 5760w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg?resize=300,188 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg?resize=768,480 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg?resize=1024,640 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg?resize=1536,960 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg?resize=2048,1280 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage4_ringfencing_hi_res_bright2.jpg?resize=600,375 600w" sizes="auto, (max-width: 872px) 100vw, 872px" /></a></p>
+<h3></h3>
+<h3><span style="font-weight: 400;">Stage 4c: Continuous Monitoring of Application Traffic and Fine-Tuning Micro-segmentation Controls for Application Tiers</span></h3>
+<p><span style="font-weight: 400;">DFW 1-2-3-4 continues to monitor each application, both before and after rule publishing. The system continues to track application flow metrics and security posture for rules in real-time. Users can fine-tune rules for application tiers to progressively harden their micro-segmentation posture.</span></p>
+<p>&nbsp;</p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg"><img loading="lazy" decoding="async" class="wp-image-84567 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg?w=1024" alt="" width="877" height="354" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg 4106w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg?resize=300,121 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg?resize=768,310 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg?resize=1024,413 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg?resize=1536,620 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg?resize=2048,827 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stage-4c-bright.jpg?resize=600,242 600w" sizes="auto, (max-width: 877px) 100vw, 877px" /></a></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Mission Accomplished – Macro/Micro-Segmentation in Record Time</span></h2>
+<p><span style="font-weight: 400;">With DFW 1-2-3-4 multi-stage security journey, a typical Zero Trust deployment can be rolled out in as little as a few weeks &#8211; comprehensively, systematically, and most of all, with confidence. Starting with an initial low-scoring assessment, the post-deployment high score validates the improvement to the organization’s security posture. </span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png"><img loading="lazy" decoding="async" class="alignnone wp-image-84572" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png?w=1024" alt="" width="961" height="645" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png 4501w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png?resize=300,201 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png?resize=768,515 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png?resize=1024,687 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png?resize=1536,1031 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png?resize=2048,1374 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Security_Journey_report_beforeafter.png?resize=600,403 600w" sizes="auto, (max-width: 961px) 100vw, 961px" /></a></p>
+<h2></h2>
+<h2><span style="font-weight: 400;">Optimizing Firewall Rules with Rule Impact Analysis </span></h2>
+<p><span style="font-weight: 400;">With a large number of apps being segmented, this can result in a significant number of security policies that are difficult to manage. Unlike traditional IP-address-centric firewall rules, vDefend simplifies and scales security policies with tag-based groups and policies, rather than IP-based rules. Still, over time, security policies can become suboptimal. That’s where Firewall Rule Analysis comes in. This powerful feature analyzes DFW rules, ensuring security policies are efficient.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png"><img loading="lazy" decoding="async" class="alignnone wp-image-84573" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png?w=1024" alt="" width="943" height="314" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png 2922w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png?resize=300,100 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png?resize=768,256 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png?resize=1024,341 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png?resize=1536,511 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png?resize=2048,682 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/FW_rule_analysis_crop.png?resize=600,200 600w" sizes="auto, (max-width: 943px) 100vw, 943px" /></a></p>
+<p><span style="font-weight: 400;">vDefend’s Firewall Rule Analysis identifies and flags seven critical rule optimization opportunities: duplicate rules, redundant rules, rule consolidation opportunities, rule contradictions, shadow rules, overly permissive rules, and ineffective rules. This calibrated analysis helps eliminate rule bloating and fix potential security misconfigurations. Forget laborious manual scripts or the need for separate, third-party tools for DFW rule analysis within your VCF private cloud. vDefend offers faster, far more comprehensive detection for both firewall misconfigurations and firewall rule optimization opportunities at no additional cost. </span></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">*DFW 1-2-3-4 and Firewall Rule Analysis are features of Security Intelligence, available through Security Services Platform (SSP) release 5.1. </span></p>
+<h2><span style="font-weight: 400;">Additional Resources:</span></h2>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">SSP capabilities: read this </span><a href="https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html"><span style="font-weight: 400;">blog</span></a><span style="font-weight: 400;">. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">vDefend DFW 1-2-3-4 overview: </span><span style="font-weight: 400;">Watch this </span><a href="https://youtu.be/8GgpG4n76nQ?si=ACoUQlIR8WrppueV"><span style="font-weight: 400;">video</span></a>.<span style="font-weight: 400;">   </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">vDefend Firewall Rule Analysis overview: watch this </span><a href="https://www.youtube.com/watch?v=4RskhRGjmeA&amp;list=PLdYldEmmLm2mhuuzkcQx20B07Y_r67NeK&amp;index=1"><span style="font-weight: 400;">video</span></a><span style="font-weight: 400;">. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Join the new </span><a href="https://go-vmware.broadcom.com/vDefend-Webinar-Series"><span style="font-weight: 400;">vDefend’s Edge Webinar Series</span></a><span style="font-weight: 400;"> for a deeper understanding of these and other vDefend capabilities.</span></li>
+</ul><p>The post <a href="https://blogs.vmware.com/security/2025/11/vdefend-dfw-1-2-3-4-vcf.html">vDefend DFW 1-2-3-4: Deploy Zero Trust Micro-segmentation in a Few Weeks to Rapidly Secure VCF Workloads</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84550</post-id>	</item>
+		<item>
+		<title>Stacking Your Defenses: Integrating Advanced Threat Prevention and SIEM</title>
+		<link>https://blogs.vmware.com/security/2025/11/stacking-defenses-atp-siem.html</link>
+		
+		<dc:creator><![CDATA[Stefano Ortolani and Aditya Gokhale]]></dc:creator>
+		<pubDate>Wed, 12 Nov 2025 17:32:07 +0000</pubDate>
+				<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[SIEM]]></category>
+		<category><![CDATA[Threat Intelligence]]></category>
+		<category><![CDATA[VCF Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84521</guid>
+
+					<description><![CDATA[<div><img width="300" height="225" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg 843w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?resize=300,225 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?resize=768,576 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?resize=600,450 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>In today&#8217;s rapidly evolving threat landscape, effective security operations hinge on two critical pillars: automation and context aggregation. As organizations grapple with increasingly sophisticated attacks, the ability to seamlessly integrate diverse security solutions becomes paramount. This challenge is easily resolved through the successful integration of VMware vDefend Advanced Threat Prevention (ATP) with Security Information and &#8230; <a href="https://blogs.vmware.com/security/2025/11/stacking-defenses-atp-siem.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/11/stacking-defenses-atp-siem.html">Stacking Your Defenses: Integrating Advanced Threat Prevention and SIEM</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="225" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg 843w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?resize=300,225 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?resize=768,576 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/soc_distant_ef29a0.jpg?resize=600,450 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p><span style="font-weight: 400;">In today&#8217;s rapidly evolving threat landscape, effective security operations hinge on two critical pillars: automation and context aggregation. As organizations grapple with increasingly sophisticated attacks, the ability to seamlessly integrate diverse security solutions becomes paramount. This challenge is easily resolved through the successful integration of VMware vDefend Advanced Threat Prevention (ATP) with Security Information and Event Management (SIEM) systems. </span></p>
+<h2><span style="font-weight: 400;">ATP and SIEM &#8211; Better Together</span></h2>
+<p><span style="font-weight: 400;">ATP natively supports exporting security-related event logs via the SIEM’s REST API. While syslog is often chosen as the protocol to transmit events due to its nearly universal support, REST API logging allows far more comprehensive data formats, i.e., JSON, enabling ATP to send complex, structured security events with full context. This allows ATP to send the entire spectrum of security events, including both detection (IDS events, network anomalies, file and process analyses) as well as campaigns, which are higher-level detection objects correlated by vDefend Network Detection and Response.</span></p>
+<p><span style="font-weight: 400;">Since each exported detection event is also paired with a link pointing back to ATP, the following showcases how to effectively respond and remediate using </span><a href="https://blogs.vmware.com/security/2024/11/intelligent-assist-for-vdefend.html"><span style="font-weight: 400;">Intelligent Assist</span></a><span style="font-weight: 400;"> for VMware vDefend, an interactive chatbot powered by a Large Language Model (LLM) deeply integrated into vDefend user interface. This co-pilot explains detection events in plain English, helping security teams comprehend the full impact of threats while accelerating the remediation process.</span></p>
+<p><span style="font-weight: 400;">As a result, this integration allows ATP data to be seamlessly incorporated into current Security Operations Center (SOC) operations, providing customers with enhanced visibility into East-West network traffic. </span></p>
+<p><span style="font-weight: 400;">Next, let’s explore the configuration steps, the types of security events exported by ATP, and ultimately, how this combined approach provides security specialists, CISOs, and CTOs with a unified, comprehensive view for enhanced threat detection and response.</span></p>
+<h2><span style="font-weight: 400;">Configuration</span></h2>
+<p><span style="font-weight: 400;">As detailed in the technical documentation available </span><a href="https://techdocs.broadcom.com/us/en/vmware-security-load-balancing/vdefend/vdefend-atp/4-2/getting-started-with-nsx-network-detection-and-response/getting-started-with-nsx-network-detection-and-response/about-siem-integration/configure-siem-integration.html"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">, configuring the SIEM integration is a straightforward process that involves adding a new “SIEM Configuration” (located in the “Server Configuration” administration section), which requires specifying the endpoint URL and type (see Figure 1). In some cases, for example, when integrating with the Splunk HTTP Event Collector, it might also be necessary to specify the authorization token, which can be done by adding an Authorization header in the related field.</span></p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image1.png"><img loading="lazy" decoding="async" class="wp-image-84523 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image1.png?w=1024" alt="" width="904" height="645" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image1.png 1364w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image1.png?resize=300,214 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image1.png?resize=768,548 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image1.png?resize=1024,730 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image1.png?resize=600,428 600w" sizes="auto, (max-width: 904px) 100vw, 904px" /></a></p>
+<p style="text-align: center;"><em>Figure 1: <span style="font-weight: 400;">Configuration dialog to configure SIEM integration</span></em></p>
+<p><span style="font-weight: 400;">Note that the integration natively supports ARIA Operations for Log as a SIEM server; in that case, the endpoint type should be left to “Default” and the endpoint URL set to the vRLI IP address suffixed with the pathname “/api/v2/event”. In this case, no additional headers are required. However, it is important to notice that the proxy configuration (available in the same “Server Configurations” section) does not apply to the SIEM configuration, meaning that any usage of cloud-based connectors like Exabeam would require Internet connectivity.</span></p>
+<p><span style="font-weight: 400;">In general, ATP supports custom endpoint configurations, making it easy to connect with other leading SIEM solutions such as Microsoft SIEM, ELK stack, SIEMplicity, Splunk, and Google Chronicle. By leveraging custom endpoints and configurable headers, organizations can tailor the integration to their specific SIEM environment, ensuring compatibility and efficient data flow. This flexibility empowers security specialists, CISOs, and CTOs to consolidate security data into a single pane of glass, streamlining operations and improving overall threat detection and response capabilities.</span></p>
+<p><span style="font-weight: 400;">The next section will showcase what security events are exported, and how SOC analysts can best leverage the provided value.</span></p>
+<h2><span style="font-weight: 400;">Security Events</span></h2>
+<p><span style="font-weight: 400;">ATP exports two primary types of security events to provide comprehensive visibility into your threat landscape: detection events and campaign events. </span></p>
+<h3><span style="font-weight: 400;">Detection Events</span></h3>
+<p><span style="font-weight: 400;">Detection events include alerts generated by several vDefend components: Security Intelligence for network anomalies, Malware Prevention System for file and process detections, and IDS/IPS for IDS signature hits. When aggregated by vDefend Network Detection and Response, all these detection events share the same underlying alert schema, and as such, some properties can easily be leveraged to further sift through the logs, pivot through the data, or just build dashboards as well as custom alerting logic.</span></p>
+<p><span style="font-weight: 400;">Table 1 details all the fields included in the JSON document exported via the REST API each time a detection event is generated by ATP.</span></p>
+<table>
+<tbody>
+<tr>
+<td width="149">
+<p style="text-align: left;"><strong>Field</strong></p>
+</td>
+<td style="text-align: left;" width="204"><strong>Example(s)</strong></td>
+<td style="text-align: left;" width="269"><strong>Description</strong></td>
+</tr>
+<tr>
+<td width="149">
+<p style="text-align: left;">notification_type</p>
+</td>
+<td width="204">DETECTION</td>
+<td width="269">The type of security event</td>
+</tr>
+<tr>
+<td width="149">url</td>
+<td width="204">&#8211;</td>
+<td width="269">Link to the details in vDefend ATP</td>
+</tr>
+<tr>
+<td width="149">uuid</td>
+<td width="204">&#8211;</td>
+<td width="269">Unique identifier of the detection event</td>
+</tr>
+<tr>
+<td width="149">start_time</td>
+<td width="204">2017-07-21T17:32:28Z</td>
+<td width="269">Start of the event</td>
+</tr>
+<tr>
+<td width="149">end_time</td>
+<td width="204">2017-07-21T17:32:28Z</td>
+<td width="269">End of the event</td>
+</tr>
+<tr>
+<td width="149">impact</td>
+<td width="204">80</td>
+<td width="269">0-100 badness of detection</td>
+</tr>
+<tr>
+<td width="149">mitre_tactic_name</td>
+<td width="204">Command and Control</td>
+<td width="269">Name of MITRE tactic (if any)</td>
+</tr>
+<tr>
+<td width="149">mitre_tactic_id</td>
+<td width="204">TA0011</td>
+<td width="269">Identifier of MITRE tactic (if any)</td>
+</tr>
+<tr>
+<td width="149">mitre_technique_name</td>
+<td width="204">Remote Access Software</td>
+<td width="269">Name of MITRE technique (if any)</td>
+</tr>
+<tr>
+<td width="149">mitre_technique_id</td>
+<td width="204">T1219</td>
+<td width="269">Identifier of MITRE technique (if any)</td>
+</tr>
+<tr>
+<td width="149">threat_name</td>
+<td width="204">Winlocker</td>
+<td width="269">Name of threat detected</td>
+</tr>
+<tr>
+<td width="149">threat_uuid</td>
+<td width="204">&#8211;</td>
+<td width="269">Unique identifier of the threat</td>
+</tr>
+<tr>
+<td width="149">detection_type</td>
+<td width="204">IDS, NETWORK_ANOMALY, FILE, FILE_TRANSFER, PROCESS</td>
+<td width="269">The type of detection event</td>
+</tr>
+<tr>
+<td width="149">detector_name</td>
+<td width="204">http_bots:828</td>
+<td width="269">Name of detector (if any)</td>
+</tr>
+<tr>
+<td width="149">detector_uuid</td>
+<td width="204">&#8211;</td>
+<td width="269">Identifier of the detector (if any)</td>
+</tr>
+<tr>
+<td width="149">action</td>
+<td width="204">BLOCK, LOG</td>
+<td width="269">Action taken</td>
+</tr>
+<tr>
+<td width="149">notification_format</td>
+<td width="204">1.0</td>
+<td width="269">&#8211;</td>
+</tr>
+<tr>
+<td width="149">campaign_uuid</td>
+<td width="204">&#8211;</td>
+<td width="269">Identifier of the campaign (if any)</td>
+</tr>
+<tr>
+<td width="149">cve</td>
+<td width="204">CVE-2022-25237</td>
+<td width="269">Detected CVE (if any)</td>
+</tr>
+<tr>
+<td width="149">ids_signature_id</td>
+<td width="204">2036817</td>
+<td width="269">The IDS signature ID (if any)</td>
+</tr>
+<tr>
+<td width="149">ids_signature_rev</td>
+<td width="204">1</td>
+<td width="269">The IDS signature revision (if any)</td>
+</tr>
+<tr>
+<td width="149">description</td>
+<td width="204">IDS Signature Match</td>
+<td width="269">Human-readable description</td>
+</tr>
+<tr>
+<td width="149">src_ip</td>
+<td width="204">192.168.1.10</td>
+<td width="269">IP address of the source, if any</td>
+</tr>
+<tr>
+<td width="149">src_vm_uuid</td>
+<td width="204">&#8211;</td>
+<td width="269">VM or bare metal uuid of the source (client) in case of network detection</p>
+<p>vm or bare metal uuid of the endpoint in case of endpoint detection</td>
+</tr>
+<tr>
+<td width="149">src_vm_name</td>
+<td width="204">My VM 2</td>
+<td width="269">Name of the source workload, if any</td>
+</tr>
+<tr>
+<td width="149">dst_ip</td>
+<td width="204">192.168.1.10</td>
+<td width="269">IP address of the destination, if any</td>
+</tr>
+<tr>
+<td width="149">dst_vm_uuid</td>
+<td width="204">&#8211;</td>
+<td width="269">VM or bare metal uuid of the destination, if any</td>
+</tr>
+<tr>
+<td width="149">dst_vm_name</td>
+<td width="204">My VM 3</td>
+<td width="269">Name of the destination workload (vm name of the vm uuid), if any</td>
+</tr>
+<tr>
+<td width="149">transport_protocol</td>
+<td width="204">TCP, UDP, SCTP, GRE, ESP</td>
+<td width="269">Transport protocol</td>
+</tr>
+<tr>
+<td width="149">src_port</td>
+<td width="204">12345</td>
+<td width="269">TCP/UDP source port number</td>
+</tr>
+<tr>
+<td width="149">dst_port</td>
+<td width="204">80</td>
+<td width="269">TCP/UDP destination port number</td>
+</tr>
+<tr>
+<td width="149">is_src_target</td>
+<td width="204">TRUE</td>
+<td width="269">Whether the source is the target</td>
+</tr>
+<tr>
+<td width="149">application_protocol</td>
+<td width="204">http</td>
+<td width="269">Application-level network protocol, if any</td>
+</tr>
+<tr>
+<td width="149">http_host</td>
+<td width="204">www.example.com</td>
+<td width="269">Hostname from HTTP Host header, if any</td>
+</tr>
+<tr>
+<td width="149">file_detection_context</td>
+<td width="204">FILE_CREATED</td>
+<td width="269">In what context file was detected</td>
+</tr>
+<tr>
+<td width="149">file_action</td>
+<td width="204">DELETED, DETECTED</td>
+<td width="269">Action taken on file on workload</td>
+</tr>
+<tr>
+<td width="149">file_name</td>
+<td width="204">malware.exe</td>
+<td width="269">Name of the detected file</td>
+</tr>
+<tr>
+<td width="149">file_sha256_hash</td>
+<td width="204">&#8211;</td>
+<td width="269">SHA256 of the detected file</td>
+</tr>
+<tr>
+<td width="149">file_sha1_hash</td>
+<td width="204">&#8211;</td>
+<td width="269">SHA1 of the detected file</td>
+</tr>
+<tr>
+<td width="149">file_category</td>
+<td width="204">EXECUTABLE, DOCUMENT, SCRIPT, ARCHIVE, DATA, MEDIA, OTHER</td>
+<td width="269">Category of the detected file</td>
+</tr>
+<tr>
+<td width="149">file_magic</td>
+<td width="204">PDF document</td>
+<td width="269">&#8220;magic&#8221; file type of the detected file</td>
+</tr>
+<tr>
+<td width="149">file_mime_type</td>
+<td width="204">application/pdf</td>
+<td width="269">mime type of detected file</td>
+</tr>
+<tr>
+<td width="149">src_ip_is_private</td>
+<td width="204">TRUE</td>
+<td width="269">Whether the source IP is private</td>
+</tr>
+<tr>
+<td width="149">dst_ip_is_private</td>
+<td width="204">TRUE</td>
+<td width="269">Whether the destination IP is private</td>
+</tr>
+<tr>
+<td width="149">original_signature_id</td>
+<td width="204">12345</td>
+<td width="269">Original ID of the custom IDS signature</td>
+</tr>
+<tr>
+<td width="149">signature_name</td>
+<td width="204">(Initial Access) Detect CVE-2014-6332</td>
+<td width="269">Name of the IDS signature</td>
+</tr>
+<tr>
+<td width="149">process_name</td>
+<td width="204">wscript.exe</td>
+<td width="269">Name of detected process</td>
+</tr>
+<tr>
+<td width="149">process_command_line</td>
+<td width="204">PowerShell.exe -NonInteractive -EncodedCommand aGVsbG8gd29ybGQhCg==</td>
+<td width="269">Command line of the detected process</td>
+</tr>
+<tr>
+<td width="149">process_executable_path</td>
+<td width="204">C:\Windows\System32\powershell.exe</td>
+<td width="269">Path to the executable</td>
+</tr>
+<tr>
+<td width="149">process_executable_sha256_hash</td>
+<td width="204">&#8211;</td>
+<td width="269">Hash of the executable</td>
+</tr>
+<tr>
+<td width="149">buffer_application_names</td>
+<td width="204">[&#8220;vbscript&#8221;]</td>
+<td width="269">Sequence of applications that executed buffers in this process</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><em><span style="font-weight: 400;">Table 1: Fields used by a security event representing a detection event (note: examples of opaque types such as hashes or UUIDs are omitted for the sake of clarity).</span></em></p>
+<p><span style="font-weight: 400;">Besides the usual time attributes (“start_time” and “end_time”), it is possible to filter detection events by “impact”, for instance, by considering only those detection events with HIGH or CRITICAL impact, i.e., with impact values greater than 70. If the integration aims to populate a custom dashboard, a SOC analyst might be designed to group events by MITRE tactic and technique. The fields “mitre_tactic_id” and “mitre_technique_id” can be used to quickly highlight the detection events related to a specific attack phase of the ATT&amp;CK framework.</span></p>
+<p><span style="font-weight: 400;">The field “is_src_target” is something unique to vDefend Network Detection and Response, and it highlights the workload that was affected by a given detection. Consider for example, the case of an attempted CVE exploit: the workload of interest is the destination of the network connection, meaning that in this instance the field “is_src_target” would be set to false. </span></p>
+<p><span style="font-weight: 400;">The</span><a href="https://thedfirreport.com/2025/02/24/confluence-exploit-leads-to-lockbit-ransomware/"><span style="font-weight: 400;"> report</span></a><span style="font-weight: 400;"> describes this scenario: an attacker exploited a critical remote code execution vulnerability in Confluence installed on a Windows server. The workload of interest in this case is the Windows server, and the field “is_src_target” would be set to false. A different case is the detection of a workload compromised by malware, which is attempting to establish a C2 channel to an external and malicious server; in this case, the field “is_src_target” is set to true to reflect that the workload “of concern” is the source of the network connection. This scenario can be seen in the </span><a href="https://thedfirreport.com/2024/08/26/blacksuit-ransomware/"><span style="font-weight: 400;">report</span></a><span style="font-weight: 400;"> where a Cobalt Strike beacon was executed on a breached workstation. The beacon then connected to IP addresses managed by CloudFlare, which acted as a proxy server between the victim network and the C2 server. In this case, the field “is_src_target” would be set to true. The fields “threat_name” and “url” provide instead a quick and effective ways to extract details about the actual threat; while the former is self-explanatory, the latter allows the SOC analyst to directly open ATP user interface loaded with the details of the detection event.</span></p>
+<p><span style="font-weight: 400;">The field “detection_type” is used to discriminate between all types of detection events. The possible values are:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">IDS for IDS signature hits as detected by the IDS/IPS.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">NETWORK_ANOMALY for NTA anomalies identified by Security Intelligence.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">FILE and FILE_TRANSFER for analyzed files detected either on a workload or on the wire by the Malware Prevention System.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">PROCESS for (potentially file-less) process executions detected on a workload by the Malware Prevention System. </span></li>
+</ul>
+<p><span style="font-weight: 400;">Detection events of type “IDS” will store inside “ids_signature_id” the signature identifier responsible for the alert. In case of a signature designed to detect a specific CVE exploitation, the CVE ID will also be stored inside the “cve” field. The field “signature_name” will detail the name of the IDS signature, and in case of a custom IDS signature, the field “original_signature_id” provides the identifier of the IDS signature from which the custom IDS signature is derived.</span></p>
+<p><span style="font-weight: 400;">Network anomalies can be found by looking for detection events of type “NETWORK_ANOMALY”. In this context, the field “threat_name” represents the name of the NTA detector responsible for the alert. Given the behavioral nature of the detection, focusing on a specific MITRE tactic and technique is an effective way to quickly identify alerts of interest; for example, to identify attempted data exfiltrations, it is possible to filter network anomalies where the “mitre_tactic_name” is “Exfiltration”. For example, the threat actor in the report described </span><a href="https://thedfirreport.com/2024/09/30/nitrogen-campaign-drops-sliver-and-ends-with-blackcat-ransomware"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">, used Restic to exfiltrate data from a file server. “mitre_tactic_name” would be set to “Exfiltration” for this step of the campaign.</span></p>
+<p><span style="font-weight: 400;">File detections (detection event type “FILE” and “FILE_TRANSFER”) can either originate from a given workload (because of a new file being created, see “file_action”) or from a given file transfer as intercepted by the Gateway Firewall. In either case, “file_sha1_hash” and “file_sha256_hash” can be quickly used to search for the file artifacts on other external services such as VirusTotal, while “file_magic” and “file_mime_type” allow for filtering by the type of file (“file_mime_type” being much more fine-grained than “file_magic”). This </span><a href="https://thedfirreport.com/2024/12/02/the-curious-case-of-an-egg-cellent-resume/"><span style="font-weight: 400;">report</span></a><span style="font-weight: 400;"> describes a lateral movement technique with the help of RDP, where a threat actor dropped on disk and executed malware samples, executable network tools, and scripts to steal credentials. In all the cases, hashes of the dropped files will be stored in “file_sha1_hash” and “file_sha256_hash”.</span></p>
+<p><span style="font-weight: 400;">The last type of detection events is the “PROCESS” type. In this context, the aggregated information comprises the execution path of the process (“process_executable_path”) and the command line (“​​process_command_line”); this is essential to focus on specific executables only when used for non standard purposes; for example an analyst might want to filter on those events where the process is PowerShell, i.e., the executable path is “C:\Windows\System32\WindowsPowerShell\v1. 0\powershell.exe” but only when it is used to execute obfuscated commands (the string ‘-EncodedCommand’ is part of the “process_command_line” field). In the attack described </span><a href="https://thedfirreport.com/2025/09/29/from-a-single-click-how-lunar-spider-enabled-a-near-two-month-intrusion/"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">, where Brute Ratel was used for remote access, the threat actor used Brute Ratel to retrieve credentials to access Veeam Backup &amp; Replication (a backup application) via a PowerShell command &#8220;powershell -nop -exec bypass -EncodedCommand &lt;base64&gt;&#8221; where the Base64-encoded string contained code to download and execute Veeam-Get-Creds.ps1.</span></p>
+<p><span style="font-weight: 400;">In conclusion, regardless of the task at hand, a SOC analyst can effectively surface the desired security events by leveraging the right attributes.</span></p>
+<h2><span style="font-weight: 400;">Campaign Events</span></h2>
+<p><span style="font-weight: 400;">Campaigns are higher-level detection objects that correlate different detection events together to represent the different steps undertaken by a potential attacker. Each time a new campaign is created (by correlating existing detection events) or updated (by adding new detection events to an existing campaign), ATP emits a new security event of type “CAMPAIGN”. Table 2 lists all the fields that are part of the security event. </span></p>
+<p><span style="font-weight: 400;">Since campaigns may evolve over time as new detection events are correlated, each security event has a ‘detections_added’ field containing the UUIDs of the detection events newly correlated to the campaign, as identified by the ‘uuid’ field. There is also a possibility that two groups of detection events belonging to two different campaigns might eventually be merged. Consider for example a set of detection events detailing a workload reaching out to an external C2 server, and another set of data exfiltration anomaly events referencing apparently unrelated workloads: these two different activities might be merged by vDefend Network Detection and Response component after Security Intelligence identifies an intermediate lateral propagation event between the two workloads; the field ‘campaigns_merged’ will contain the UUIDs of the campaigns being merged.</span></p>
+<p><span style="font-weight: 400;">Table 2 contains all the fields used by a “CAMPAIGN” security event.</span></p>
+<table style="height: 889px;" width="821">
+<tbody>
+<tr>
+<td width="197"><strong>Field</strong></td>
+<td width="168"><strong>Example(s)</strong></td>
+<td width="240"><strong>Description</strong></td>
+</tr>
+<tr>
+<td width="197">notification_type</td>
+<td width="168">CAMPAIGN</td>
+<td width="240">Type of security event</td>
+</tr>
+<tr>
+<td width="197">url</td>
+<td width="168">&#8211;</td>
+<td width="240">Link to the details in vDefend ATP</td>
+</tr>
+<tr>
+<td width="197">uuid</td>
+<td width="168">&#8211;</td>
+<td width="240">Unique identifier of the campaign</td>
+</tr>
+<tr>
+<td width="197">name</td>
+<td width="168">Foobot C&amp;C Wave-0efb99a1</td>
+<td width="240">Name of campaign</td>
+</tr>
+<tr>
+<td width="197">start_time</td>
+<td width="168">2017-07-21T17:32:28Z</td>
+<td width="240">Start of the campaign</td>
+</tr>
+<tr>
+<td width="197">end_time</td>
+<td width="168">2017-07-21T17:32:28Z</td>
+<td width="240">End of the campaign</td>
+</tr>
+<tr>
+<td width="197">impact</td>
+<td width="168">80</td>
+<td width="240">0-100 badness of campaign</td>
+</tr>
+<tr>
+<td width="197">notification_format</td>
+<td width="168">1.0</td>
+<td width="240">&#8211;</td>
+</tr>
+<tr>
+<td width="197">num_affected_workloads</td>
+<td width="168">18</td>
+<td width="240">Total number of workloads affected</td>
+</tr>
+<tr>
+<td width="197">num_threats</td>
+<td width="168">3</td>
+<td width="240">Total number of threats detected</td>
+</tr>
+<tr>
+<td width="197">num_detection_events</td>
+<td width="168">123</td>
+<td width="240">Total number of detection events</td>
+</tr>
+<tr>
+<td width="197">campaign_notification_type</td>
+<td width="168">CAMPAIGN_CREATED, CAMPAIGN_UPDATED</td>
+<td width="240">Whether this is a new campaign</td>
+</tr>
+<tr>
+<td width="197">mitre_tactic_ids</td>
+<td width="168">[&#8220;TA0008&#8243;,&#8221;TA0011&#8221;]</td>
+<td width="240">Sequence of identifiers of MITRE Attack tactics detected</td>
+</tr>
+<tr>
+<td width="197">mitre_tactic_names</td>
+<td width="168">[&#8220;Lateral Movement&#8221;,&#8221;Command and Control&#8221;]</td>
+<td width="240">Sequence of names of MITRE Attack tactics detected</td>
+</tr>
+<tr>
+<td width="197">detections_added</td>
+<td width="168">&#8211;</td>
+<td width="240">Sequence of detection events that were added to this campaign</td>
+</tr>
+<tr>
+<td width="197">campaigns_merged</td>
+<td width="168">&#8211;</td>
+<td width="240">Sequence of other campaigns that were merged into this campaign</td>
+</tr>
+<tr>
+<td width="197">correlation_rule_uuid</td>
+<td width="168">&#8211;</td>
+<td width="240">Unique identifier of the rule that correlated this campaign</td>
+</tr>
+<tr>
+<td width="197">correlation_rule_name</td>
+<td width="168">IDS Command&amp;Control Wave Rule</td>
+<td width="240">Human-readable name of the campaign correlation rule</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><em><span style="font-weight: 400;">Table 2: Fields used by a security event representing a campaign event (note: examples of opaque types such as hashes or UUIDs are omitted for the sake of clarity).</span></em></p>
+<h2><span style="font-weight: 400;">Response and Remediation</span></h2>
+<p><span style="font-weight: 400;">Both campaign and detection events enable SOC analysts to gather more contextual details by opening the link contained in the ‘url’ field, which points back to the ATP user interface. This allows leveraging the whole extent of functionalities provided by ATP, especially for remediating a security incident using bespoke network policies. In particular, </span><a href="https://blogs.vmware.com/security/2024/11/intelligent-assist-for-vdefend.html"><span style="font-weight: 400;">Intelligent Assist for VMware vDefend</span></a><span style="font-weight: 400;"> is an interactive chatbot powered by a Large Language Model (LLM) that enables the automatic generation of security policies.</span></p>
+<p><span style="font-weight: 400;">Figure 2 shows a possible conversation between a SOC analyst and Intelligent Assist. Based on the details of the security event (threat type, affected workloads, etc), Intelligent Assist first explains the security event, and then assembles a potential remediation plan. Since any remediation can potentially impact legitimate traffic, Intelligent Assist further asks the risk tolerance for the response, and presents a choice between a targeted or a more comprehensive response. Once a selection is made, based on the type of detection event, Intelligent Assist will propose a selection of Intrusion Detection and Prevention System (IDS) or Distributed Firewall (DFW) policies; the affected workloads will only comprise those detailed in the security event; one last click creates (in disabled state) the proposed policies.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png"><img loading="lazy" decoding="async" class="alignnone wp-image-84522" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png?w=1024" alt="" width="843" height="568" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png 1999w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png?resize=300,202 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png?resize=768,518 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png?resize=1024,690 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png?resize=1536,1035 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/11/Stacking_image2.png?resize=600,404 600w" sizes="auto, (max-width: 843px) 100vw, 843px" /></a></p>
+<p style="text-align: center;"><em><span style="font-weight: 400;">Figure 2: Intelligent Assist for vDefend proposing a security policy to drop (prevent) further detection events matching a specific IDS signature.</span></em></p>
+<h1><span style="font-weight: 400;">Conclusion</span></h1>
+<p><span style="font-weight: 400;">The integration of ATP with SIEM solutions provides a unified and comprehensive view of the threat landscape, significantly enhancing an organization&#8217;s ability to detect and respond to sophisticated attacks. By leveraging ATP&#8217;s rich, contextualized security events, including IDS, network anomalies, file and process analyses, and correlated campaigns, security specialists, CISOs, and CTOs gain unparalleled visibility into both North-South and East-West network traffic.</span></p>
+<p><span style="font-weight: 400;">This is possible through the unique traffic interception capabilities offered by ATP, which can collect traffic from the edge, virtualized workloads, and bare metal endpoints via the NDR sensor. This detailed insight, combined with the power of SIEM for centralized logging and analysis, streamlines security operations and empowers proactive threat hunting.</span></p>
+<p><span style="font-weight: 400;">Ultimately, the seamless integration of ATP with existing SIEM platforms is not merely a technical advantage but a strategic imperative. It addresses the critical need for automation and context aggregation in modern security operations, enabling organizations to move beyond reactive incident response to a more resilient and anticipatory security posture. This combined approach ensures that security teams are equipped with the necessary tools and information to effectively combat the evolving threat landscape, thereby protecting critical assets and maintaining operational continuity.</span></p>
+<p><span style="font-weight: 400;">For more information about ATP and SIEM integration, go </span><a href="https://techdocs.broadcom.com/us/en/vmware-security-load-balancing/vdefend/vdefend-atp/4-2/getting-started-with-nsx-network-detection-and-response/getting-started-with-nsx-network-detection-and-response/about-siem-integration/configure-siem-integration.html"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.</span></p><p>The post <a href="https://blogs.vmware.com/security/2025/11/stacking-defenses-atp-siem.html">Stacking Your Defenses: Integrating Advanced Threat Prevention and SIEM</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84521</post-id>	</item>
+		<item>
+		<title>Unleash Zero Trust: Secure Private Cloud and Agentic AI Workloads with VMware vDefend Innovations</title>
+		<link>https://blogs.vmware.com/security/2025/08/unleash-zero-trust-vdefend.html</link>
+		
+		<dc:creator><![CDATA[Prashant Gandhi]]></dc:creator>
+		<pubDate>Tue, 26 Aug 2025 13:00:22 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[Workload Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84454</guid>
+
+					<description><![CDATA[<div><img width="300" height="150" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg 1170w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=300,150 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=768,384 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=1024,512 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=600,300 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>Announcing Micro-Segmentation Quick Start Wizard, NDR Sensor for datacenter-wide threat visibility, Fileless Malware Defense, and a tech preview of Lateral Security for Agentic AI In a world where cyber threats evolve by the nanosecond and AI/GenAI is reshaping every industry, security can feel like a game of endless catch-up. But what if you could not &#8230; <a href="https://blogs.vmware.com/security/2025/08/unleash-zero-trust-vdefend.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/08/unleash-zero-trust-vdefend.html">Unleash Zero Trust: Secure Private Cloud and Agentic AI Workloads with VMware vDefend Innovations</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="150" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg 1170w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=300,150 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=768,384 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=1024,512 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Getty-2169010954.jpg?resize=600,300 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p style="text-align: center;"><i><span style="font-weight: 400;">Announcing Micro-Segmentation Quick Start Wizard, NDR Sensor for datacenter-wide threat visibility, Fileless Malware Defense, and a tech preview of Lateral Security for Agentic AI</span></i></p>
+<p><span style="font-weight: 400;">In a world where cyber threats evolve by the nanosecond and AI/GenAI is reshaping every industry, security can feel like a game of endless catch-up. But what if you could not only keep pace but truly get ahead? At VMware Explore 2025, we&#8217;re unveiling innovations in VMware vDefend – an advanced service for VMware Cloud Foundation (VCF) – that don&#8217;t just react to threats but fundamentally change how you build, operate, and secure your enterprise private cloud, including your most critical AI workloads.</span></p>
+<p><span style="font-weight: 400;">Key highlights from VMware Explore 2025 showcase our latest vDefend Innovations for protecting workloads on the VCF private cloud.</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>Accelerate Zero Trust:</b><span style="font-weight: 400;"> New built-in automation-driven workflows for multi-stage segmentation and firewall rule analysis features streamline lateral security, making your journey to Zero Trust private cloud faster and more efficient than ever.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Extended Threat Detection:</b><span style="font-weight: 400;"> Introducing a standalone NDR sensor to provide comprehensive datacenter-wide threat visibility across all types of network traffic  – workloads (virtual, container, and bare-metal) and network devices.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Fileless Malware Defense:</b><span style="font-weight: 400;"> vDefend introduces advanced capabilities for fileless malware detection, directly targeting stealthy in-memory attacks, including PowerShell, VBScript, and JScript-based attacks.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>vDefend and AI: </b>
+<ul>
+<li style="font-weight: 400;" aria-level="2"><b>GenAI Assistant for Firewall Operations –</b> <span style="font-weight: 400;">Introducing the tech preview of the Gen AI assistant for vDefend Firewall operations to simplify operations and speed up issue resolution by providing insights into dynamic security events like real-time policy violations or blocked applications</span></li>
+<li style="font-weight: 400;" aria-level="2"><b>Lateral Security for AI Workloads:</b><span style="font-weight: 400;"> Introducing tech preview of zero-trust lateral security for Agentic AI workloads running on VMware Cloud Foundation (VCF) Private AI Foundation (PAIF) </span></li>
+</ul>
+</li>
+</ul>
+<h2>Accelerate the Zero Trust Journey with VMware vDefend</h2>
+<p><span style="font-weight: 400;">In this section, we are describing vDefend enhancements that streamline and speed up the zero-trust journey for VCF private cloud workloads.</span></p>
+<h3 style="text-align: center;"><em>Fast-track Segmentation of Private Cloud Workloads</em></h3>
+<p><span style="font-weight: 400;">Customers face two key challenges during zero trust roll-out in brownfield environments: (1) assess current segmentation posture and identify gaps, and (2) quickly address security gaps to improve segmentation posture.</span></p>
+<p><span style="font-weight: 400;">We addressed the first challenge earlier this year with </span><a href="https://blogs.vmware.com/security/2025/03/vdefend-microsegmentation.html"><span style="font-weight: 400;">Security Segmentation Score and Assessment Report</span></a><span style="font-weight: 400;">, which provided a real-time assessment of private cloud segmentation posture and lists recommendations to significantly improve the posture. With today’s announcement, we are addressing the 2nd challenge through a prescriptive, multi-stage segmentation workflow designed to progressively secure private cloud (east-west) traffic. This includes: shared services (infrastructure) protection in Stage-1, and granular, application-level protection in Stage-2. This structured and automation-driven approach removes the guesswork and speeds up micro-segmentation across all VMware Cloud Foundation (VCF) private cloud workloads (critical and non-critical).</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/ExplorePR-Umesh-August-2025_stages_formatting.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84460" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/ExplorePR-Umesh-August-2025_stages_formatting.png?w=1024" alt="" width="1024" height="452" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/ExplorePR-Umesh-August-2025_stages_formatting.png 1028w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/ExplorePR-Umesh-August-2025_stages_formatting.png?resize=300,132 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/ExplorePR-Umesh-August-2025_stages_formatting.png?resize=768,339 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/ExplorePR-Umesh-August-2025_stages_formatting.png?resize=1024,452 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/ExplorePR-Umesh-August-2025_stages_formatting.png?resize=600,265 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><span style="font-weight: 400;">The workflows guide you through securing workloads in progressive layers. </span></p>
+<p><b>Stage-1 Protection</b><span style="font-weight: 400;">: It begins with fortifying foundational services and shared infrastructure, such as DNS, DHCP, Active Directory, etc., which form the backbone of your private cloud. </span></p>
+<p><b>Stage-2 Protection</b><span style="font-weight: 400;">: Then, it guides you through reducing your attack surface layer by layer, establishing robust zone-level protection and intelligent segmentation between zones. </span></p>
+<p><b>Stage-3 Protection</b><span style="font-weight: 400;">: Finally, it helps you automate sophisticated application-level protection, securing traffic within and between your applications. </span></p>
+<p><span style="font-weight: 400;">The cornerstone of this approach is a tag-based declarative policy model and an AI/ML-driven rule recommendation engine. Alongside this, continuous monitoring detects changes and recommends updated rules to maintain a strong security posture over time. To simplify implementation, the platform also supports importing your data center hierarchy, tagging, and automatically creating and assigning groups for policy enforcement. </span></p>
+<p><span style="font-weight: 400;">Net-net, customers can significantly improve their segmentation posture in a few weeks.*</span></p>
+<h3 style="text-align: center;"><i>Simplify and Optimize with Firewall Rule Analysis</i></h3>
+<p><span style="font-weight: 400;">With a large number of apps being segmented, this can result in a significant number of security policies that are difficult to manage. Unlike traditional IP-address-centric firewall rules, vDefend already simplifies and scales security policies with: </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tag-based declarative policy model</span></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://blogs.vmware.com/security/2024/06/vmware-vdefend-lateral-security-new-innovations.html"><span style="font-weight: 400;">Recently enhanced</span></a><span style="font-weight: 400;"> policy scale (firewall rules: 120K → 200K, Tag groups: 10K → 115K)</span></li>
+</ul>
+<p><span style="font-weight: 400;">Still, over time, security policies can become suboptimal and bloated. That&#8217;s where Firewall Rule Analysis comes in. This powerful feature analyzes Distributed Firewall (DFW) rules, ensuring security policies are lean and efficient.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Rule-Analysis.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84466" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Rule-Analysis.png?w=1024" alt="" width="1024" height="335" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Rule-Analysis.png 1322w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Rule-Analysis.png?resize=300,98 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Rule-Analysis.png?resize=768,252 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Rule-Analysis.png?resize=1024,335 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Rule-Analysis.png?resize=600,197 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><span style="font-weight: 400;">vDefend’s Firewall Rule Analysis identifies and flags seven critical rule optimization opportunities: duplicate rules, redundant rules, rule consolidation opportunities, rule contradictions, shadow rules, overly permissive rules, and ineffective rules. This calibrated analysis helps eliminate rule bloating and fix potential security misconfigurations. Forget laborious manual scripts or the need for separate, third-party tools for DFW rule analysis within your VCF private cloud; vDefend offers faster and far more comprehensive detections for both firewall misconfigurations and firewall rule optimization opportunities at no additional cost. Unlike general-purpose third-party tools that may require complex integrations and lack the deep context of your VCF environment (e.g., identify rules based on VM tags), vDefend&#8217;s firewall rule optimization is purpose-built to analyze published DFW rules directly, ensuring unparalleled accuracy and efficiency. Plus, with the ability to schedule automated reporting or perform on-demand analysis via UI, API, and downloadable CSV reports, firewall admins have full visibility and control over their rule sets.</span></p>
+<p><span style="font-weight: 400;">In summary, vDefend’s built-in tools to fast-track segmentation and to optimize firewall rules are designed to empower firewall teams to confidently accelerate the Zero Trust journey, making robust lateral security a reality in a short period of time rather than a multi-year aspirational goal.</span></p>
+<h2>Enhancements in vDefend’s Advanced Threat Prevention (ATP)</h2>
+<p><span style="font-weight: 400;">This section highlights vDefend ATP enhancements for threat detection and prevention.</span></p>
+<h3 style="text-align: center;"><i>Introducing NDR Sensor for Extended Threat Visibility and Detection</i></h3>
+<p><span style="font-weight: 400;">vDefend’s Network Detection and Response (NDR) has enabled the detection of sophisticated threat campaigns for VCF workloads. Because of vDefend’s integration with VCF, the NDR operates on multiple sources of alerts (from IDS/IPS, Malware prevention, and Network Traffic Analysis), delivering very high-fidelity threat detection. The vDefend NDR also curates events and only sends high-severity threats and correlated campaigns to the corporate SIEM, hence reducing SIEM cost and alert fatigue.</span></p>
+<p><span style="font-weight: 400;">Many customers would like to extend this advanced NDR’s scope to </span><span style="font-weight: 400;">datacenter-wide </span><span style="font-weight: 400;">traffic. Hence,  we are introducing the NDR Sensor for VMware vDefend. It can be deployed into existing monitoring (Tap/SPAN) fabrics to collect traffic from other network &amp; client devices, for analyzing datacenter-wide threat campaigns.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/NDR_sensor_diagram_800x498.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84470" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/NDR_sensor_diagram_800x498.png?w=800" alt="" width="800" height="498" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/NDR_sensor_diagram_800x498.png 800w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/NDR_sensor_diagram_800x498.png?resize=300,187 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/NDR_sensor_diagram_800x498.png?resize=768,478 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/NDR_sensor_diagram_800x498.png?resize=600,374 600w" sizes="auto, (max-width: 800px) 100vw, 800px" /></a></p>
+<p>&nbsp;</p>
+<h3 style="text-align: center;"><i>Detect Stealthy In-memory Attacks with Fileless Malware Detection</i></h3>
+<p><span style="font-weight: 400;">One of the most insidious and challenging threats today is fileless malware, which operates entirely in memory, leaving no traditional footprint on the disk. It often exploits legitimate tools like PowerShell, VBScript, and JScript to evade traditional security controls. Real-world attacks have seen PowerShell abused for credential dumping, VBScript leveraged for malicious downloaders, and JScript used in sophisticated phishing campaigns—all without dropping a single file to disk. </span></p>
+<p><span style="font-weight: 400;">By integrating directly with the Antimalware Scan Interface (AMSI) for Windows workloads, vDefend ATP now inspects and intercepts these malicious scripts before execution, stopping Living-off-the-Land (LotL) tactics in their tracks. This in-memory detection capability not only detects attacks that bypass conventional file-based defenses but also delivers rich telemetry, execution context, and forensic artifacts to security operations teams, enabling faster investigation and response. With this enhancement, vDefend helps customers close a major blind spot exploited by today’s cyber adversaries and protect critical workloads. </span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Fileless_Malware.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84462" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Fileless_Malware.png?w=901" alt="" width="901" height="341" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Fileless_Malware.png 901w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Fileless_Malware.png?resize=300,114 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Fileless_Malware.png?resize=768,291 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/Fileless_Malware.png?resize=600,227 600w" sizes="auto, (max-width: 901px) 100vw, 901px" /></a></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84468" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png?w=1024" alt="" width="1024" height="634" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png 2062w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png?resize=300,186 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png?resize=768,476 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png?resize=1024,634 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png?resize=1536,951 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png?resize=2048,1268 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/fileless-2.png?resize=600,372 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84478" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png?w=1024" alt="" width="1024" height="579" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png 2172w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png?resize=300,170 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png?resize=768,434 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png?resize=1024,579 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png?resize=1536,868 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png?resize=2048,1158 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/08/malware_prevention_image_blog_082625.png?resize=600,339 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<h2>AI/GenAI and VMware vDefend</h2>
+<p><span style="font-weight: 400;">AI is critical in security, and hence it has always been an integral component of vDefend. </span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">AI/ML has been extensively leveraged in vDefend. This includes application visibility, segmentation scoring, and rule recommendations.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">GenAI-based Intelligent Assist (IA) for Threat Defense was recently introduced to help security analysts simplify and speed up threat investigation. It can explain threats and threat campaigns as well as suggest mitigation options.</span></li>
+</ul>
+<p><span style="font-weight: 400;">vDefend’s AI/ML and IA get the </span><span style="font-weight: 400;">complete data</span><span style="font-weight: 400;">, </span><span style="font-weight: 400;">rich context,</span><span style="font-weight: 400;"> and </span><span style="font-weight: 400;">the broadest scope</span><span style="font-weight: 400;"> for private cloud due to (1) vDefend’s integration with VCF and (2) vDefend’s multi-function code base (involving visibility, comprehensive segmentation with distributed firewall, IDS/IPS, NDR/NTA, and Malware Prevention). This enables IA chatbot to deliver highly calibrated insights.</span></p>
+<p><span style="font-weight: 400;">We are furthering vDefend’s AI journey with the following tech previews:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">GenAI assistant for firewall to simplify vDefend Firewall operations and speed up issue resolution. Customers will be able to derive valuable insights from the security infrastructure’s dynamic operational state.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Zero-trust lateral security for AI and Agentic AI workloads. AI workloads are creating a new attack surface, and hence protecting them day-1 is becoming a necessity. vDefend Firewall’s 20 Tbps performance and built-in integration with VKS &amp; Kubernetes are critical capabilities for security AI and agentic AI workloads.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Attackers are heavily utilizing AI/GenAI technologies to infiltrate IT environments. VMware vDefend’s focus is to leverage AI/GenAI to deliver better security and empower security professionals to effectively combat the evolving cyber landscape.</span></p>
+<p><span style="font-weight: 400;">For a deeper dive on the above tech previews, please check out our dedicated blog <a href="https://news.broadcom.com/explore/vmware-explore-2025-ai-security-load-balancing">Security and Load Balancing Innovations in the Age of GenAI and Agentic AI</a>. </span></p>
+<h2>vDefend at VMware Explore 2025</h2>
+<p><span style="font-weight: 400;">We invite you to experience vDefend&#8217;s latest advancements firsthand by joining our </span><a href="https://blogs.vmware.com/security/2025/07/vdefend-at-explore-2025.html"><span style="font-weight: 400;">breakout sessions</span></a><span style="font-weight: 400;"> at VMware Explore and discover how vDefend is redefining what&#8217;s possible in enterprise private cloud security. Your journey to a more secure, resilient, and AI-ready future starts now.</span></p>
+<p>&nbsp;</p>
+<h4><i><span style="font-weight: 400;">Editorial Note: The information included in this blog is for informational purposes only and may not be incorporated into any contract. There is no commitment or obligation to deliver any items presented herein.</span></i></h4>
+<p>&nbsp;</p><p>The post <a href="https://blogs.vmware.com/security/2025/08/unleash-zero-trust-vdefend.html">Unleash Zero Trust: Secure Private Cloud and Agentic AI Workloads with VMware vDefend Innovations</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84454</post-id>	</item>
+		<item>
+		<title>VMware vDefend Sessions at Explore 2025</title>
+		<link>https://blogs.vmware.com/security/2025/07/vdefend-at-explore-2025.html</link>
+		
+		<dc:creator><![CDATA[Bhanu Vemula]]></dc:creator>
+		<pubDate>Tue, 15 Jul 2025 16:30:10 +0000</pubDate>
+				<category><![CDATA[Artificial Intelligence]]></category>
+		<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[VCF Security]]></category>
+		<category><![CDATA[Workload Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84419</guid>
+
+					<description><![CDATA[<div><img width="300" height="150" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png 965w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?resize=300,150 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?resize=768,384 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?resize=600,300 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>VMware Explore 2025 is right around the corner! The agenda is bursting at the seams, and the catalog&#8217;s session scheduler is now available. Taking place in Las Vegas again this year from August 25 to 28, 2025, Explore 2025 will provide attendees with insights into cutting-edge technology purpose-built for private cloud environments. This year throws &#8230; <a href="https://blogs.vmware.com/security/2025/07/vdefend-at-explore-2025.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/07/vdefend-at-explore-2025.html">VMware vDefend Sessions at Explore 2025</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="150" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png 965w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?resize=300,150 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?resize=768,384 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/vmw-explore-banner-dark-bg.png?resize=600,300 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p>VMware Explore 2025 is right around the corner! The agenda is bursting at the seams, and the catalog&#8217;s session scheduler is now available.</p>
+<p>Taking place in Las Vegas again this year from August 25 to 28, 2025, Explore 2025 will provide attendees with insights into cutting-edge technology purpose-built for private cloud environments. This year throws a spotlight on new VMware Cloud Foundation (VCF) 9.0 innovations, including integrated advanced security capabilities from VMware vDefend.  vDefend is a leading software-defined, hypervisor-integrated, lateral security solution purpose-built to comprehensively protect every VCF workload.</p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/explore_theater_LV_2024.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84431" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/explore_theater_LV_2024.png?w=732" alt="" width="732" height="539" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/explore_theater_LV_2024.png 732w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/explore_theater_LV_2024.png?resize=300,221 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/explore_theater_LV_2024.png?resize=600,442 600w" sizes="auto, (max-width: 732px) 100vw, 732px" /></a></p>
+<p>Join the excitement and learn new techniques for building robust digital defenses against advanced threats, such as ransomware. Discover how vDefend accelerates security deployment, delivers multi-layered lateral security to support an organization&#8217;s zero-trust strategy, boosts operational efficiency through AI-assisted technology, and more.</p>
+<p>Check out these vDefend sessions below, and mark your calendars!</p>
+<h2>Featured Executive Session</h2>
+<h3><strong>Ransomware Protection and App Delivery for the Cloud and AI Era [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1756">NSLB1756LV</a>]</strong></h3>
+<p>Organizations are increasingly demanding a cloud operating model enhanced with AI/GenAI for the rapid operationalization of lateral security and application delivery. VMware vDefend and VMware Avi Load Balancer offer plug-and-play integrations with VCF, providing comprehensive application and threat visibility, zero-trust security, and web application security to combat ransomware. These solutions leverage AI/GenAI to boost operational efficiency and productivity. Join us to hear about our latest innovations and strategic direction in multi-terabit performance and scale, extending “as code” and “as self-service” to VCF virtual private cloud (VPC), as well as use cases for Private AI and agentic workloads.</p>
+<p>Speaker:</p>
+<p>Umesh Mahajan, VP &amp; GM, Application Networking and Security, Broadcom</p>
+<h2>Breakout Sessions</h2>
+<div class="catalog-result-title session-title rf-simple-flex-frame">
+<div class="catalog-result-title-text">
+<h3 class="title-text"><strong>Generative AI: Addressing Security and Resiliency Concerns [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=2051">NSLP2051LV</a>]</strong></h3>
+</div>
+<div class="catalog-result-options session-options">
+<p><span style="font-size: 1rem;">Generative AI applications are taking the application world by storm. From streamlining day-to-day operations to accelerating developer productivity, the use cases for Generative AI can be extremely diverse. However, all these applications have characteristics in common—from huge data storage and processing needs, to model governance workflows, to large language models (LLMs), and more. The bottom line is that these demanding applications have very unique technical and data requirements. This panel discussion with senior technology and industry luminaries will cover how customers are addressing technical, legal, and organizational challenges related to security and application resiliency needs.</span></p>
+<p><span style="font-size: 1rem;">Speakers:</span></p>
+</div>
+</div>
+<div class="catalog-result-title session-title rf-simple-flex-frame">
+<div></div>
+</div>
+<div class="rf-attribute speakers-component" data-test="speakers-component">
+<div class="session-details speaker-details" data-test="session-participants-area">
+<p data-test="participant-info-1714675657298001rRNB_1736468explore2025lv">Ranga Rajagopalan, CTO &#8211; ANS Division, Broadcom</p>
+<p data-test="participant-info-1718656326862001jBdS_1736468explore2025lv">Prashant Gandhi, Head of Products &#8211; ANS Division, Broadcom</p>
+<p data-test="participant-info-1718656326862001jBdS_1736468explore2025lv">Mark Fournier, CIO/CTO, US Senate Federal Credit Union</p>
+</div>
+</div>
+<h3><strong>Accelerating Firewall and Load Balancer Operations and Troubleshooting with GenAI innovations [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1864">INVB1864LV</a>]</strong></h3>
+<p>In this session, we will provide a tech preview of how new innovations in GenAI can help accelerate the day-to-day operations and troubleshooting of firewalls and load balancers in the data center. By utilizing a chat-style interface with natural language queries, security and load balancing administrators can get immediate answers to AI-generated explanations of firewall and load balancer alerts, AI-generated operational insights based on current firewall and load balancer configurations, and AI-generated code samples for automating firewall and load balancer configurations.</p>
+<p>Speaker:</p>
+<p>Ranga Rajagopalan, CTO &#8211; ANS Division, Broadcom</p>
+<p>Catherine Fan, Technology Product Manager, Broadcom</p>
+<h3><strong>Building Secure Private AI Deep Dive [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1432">INVB1432LV</a>]</strong></h3>
+<p>Discover how to securely build and scale private AI infrastructure using vDefend and VMware® Private AI with NVIDIA. This session will guide you through designing a robust private AI architecture with built-in data protection, workload isolation, and automated policy enforcement. Learn how vDefend enhances AI model security with segmentation and real-time threat detection, while Private AI with NVIDIA provides the platform to deploy and manage AI workloads with full control. Ideal for architects and security teams, this session delivers practical insights to operationalize AI securely in a private cloud environment.</p>
+<p>Speaker:</p>
+<p>Chris McCain, Director, Broadcom</p>
+<p>Alex Fanous, Staff Cloud Architect, Broadcom</p>
+<h3><strong>Demystifying VMware vDefend Distributed Security Within VMware Cloud Foundation [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1076">NSLB1076LV</a>] People’s Choice Award Winner</strong></h3>
+<p>Join this award-winning session to learn how vDefend Distributed Firewall, Distributed Intrusion Detection System, and Distributed Intrusion Protection System provide security services in the kernel through the processing of rules and signatures intrinsically within the virtual networking infrastructure. We will show the inner workings of the distributed services from an architectural standpoint, the best implementation techniques, and troubleshooting tools for examining the effectiveness of the strategy deployed. We will also cover the use of AI to simplify the configuration of the centrally managed protection mechanisms and greatly reduce the time and effort needed to put a tight security policy in place.</p>
+<p>Speakers:</p>
+<p>Chris McCain, Director, Broadcom</p>
+<p>Tim Burkard, Staff Technical Learning Engineer, Broadcom</p>
+<h3><strong>Elevate Threat Investigation Workflows with the GenAI Intelligent Assist [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1596">NSLB1596LV</a>]</strong></h3>
+<p>Security operators are tasked with investigating and responding to security incidents. With limited information and assistance, key tasks such as triaging, contextualizing, and responding to incidents in a timely manner can place a burden on resources and result in suboptimal outcomes. The Intelligent Assist for vDefend is designed to address these challenges by leveraging GenAI. This demo-based session will cover how Intelligent Assist for vDefend enables explainability and remediation of threat detection events.</p>
+<p>Speaker:</p>
+<p>Bopaiah Puliyanda, Senior Manager, Product Management, Broadcom</p>
+<h3><strong>From Zero to Hero: VMware vDefend Advanced Threat Prevention Deployment Best Practices [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1869">NSLB1869LV</a>]</strong></h3>
+<p>Recovering from ransomware or just getting started to build your defenses? In this session, we will share battle-tested best practices on how to successfully deploy VMware® vDefend Advanced Threat Prevention to buydown risk and defend your applications and data against attacks.</p>
+<p>Speaker:</p>
+<p>Stijn Vanveerdeghem, Senior Manager, Technology Product Management, Broadcom</p>
+<h3><strong>Ready to See What Happens When Zero Trust Just Clicks? [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1193">NSLB1193LV</a>]</strong></h3>
+<p>Supercharge your Zero Trust VCF strategy by combining vDefend with Symantec® Zero Trust Network Access protection—designed to deliver seamless, powerful network security with the most user-friendly experience possible, even on personal and unmanaged devices. With more than 80% of organizations embracing bring-your-own-device policies and 68% reporting productivity gains, security cannot afford to slow anyone down. Don’t miss this high-energy walkthrough, real-world examples, and a live demo showing how vDefend and Symantec software solutions are transforming secure access for today’s hybrid enterprise, making it ideal for VCF private cloud environments.</p>
+<p>Speakers:</p>
+<p>Stanislav Elenkrich, Lead Product Manager SSE, Broadcom</p>
+<p>Srini Nimmagadda, Director, Technology Product Manager, Broadcom</p>
+<h3><strong>Safeguard Your Containers and VMs with VMware vDefend in VMware Cloud Foundation [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1552">NSLB1552LV</a>]</strong></h3>
+<p>VCF is the ultimate platform for containers and virtual machines, incorporating an upstream-conformant Kubernetes runtime: VMware vSphere Kubernetes Service (VKS). Organizations can operate modern applications alongside traditional virtual machines on the same infrastructure. Seamlessly securing such non-homogeneous workloads should not become a challenge that requires different solutions and expertise. This session will showcase how vDefend and Antrea work together to streamline the security delivery and protect containers and VMs.</p>
+<p>Speaker:</p>
+<p>Madhukar Krishnarao, Sr. Product Manager, Broadcom</p>
+<h3><strong>Security Reference Design for VMware Cloud Foundation [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1836">NSLB1836LV</a>]</strong></h3>
+<p>Join this session to learn how to design security for VMware Cloud Foundation® (VCF) management and workload domains. This session will include best practices for securing VCF management domain, as well as the workloads running in the VCF workload domain. We will cover Infrastructure segmentation, app-level ring-fencing/micro-segmentation, and ransomware prevention and threat visibility design.</p>
+<p>Speaker:</p>
+<p>Pooja Patel, Director, Broadcom</p>
+<h3><strong>Unified Security Policy Orchestrator for Self-Service with Governance [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1440">INVB1440LV</a>]</strong></h3>
+<p>Application operations teams know what network connectivity they need for their application services, and prefer a self-service model. However, the information risk assessment and network security teams need compliance and governance. How can this policy be updated with compliance checks? Introducing SPaC (Security Posture and Compliance) —a unified security orchestrator—that addresses all these requirements and turns an application service owner&#8217;s policy into a security-compliant policy model that can be programmed in not just vDefend firewalls, but also can be extended to other firewall vendors and network security devices.</p>
+<p>Speakers:</p>
+<p>Kausum Kumar, Senior Manager, Technical Product Management, Broadcom</p>
+<p>Ranga Rajagopalan, CTO &#8211; ANS Division, Broadcom</p>
+<h3><strong>VMware vDefend Distributed Firewall Operational Overview [<a href="https://event.vmware.com/flow/vmware/explore2025lv/content/page/catalog?search=1623">NSLB1623LV</a>]</strong></h3>
+<p>This session is intended for all practitioners who want to delve into the details of vDefend Distributed Firewall from Day 0 to Day 365. Learn how operators can rapidly adopt and secure their networks and applications via macro- and microsegmentation. We will cover how to quickly tag and group workloads, add new rules, or continuously update existing rule sets, and how vDefend functionalities provide continuous assessment of segmentation posture along with blast radius analysis.</p>
+<p>Speakers:</p>
+<p>Kausum Kumar, Senior Manager, Technical Product Management, Broadcom</p>
+<p>Catherine Fan, Technology Product Manager, Broadcom</p>
+<h2>Explore 2025 &#8211; A Can&#8217;t Miss Event</h2>
+<p><span style="font-weight: 400;">Whether you’re pursuing certifications, digging into VCF and Private AI, or </span><span style="font-weight: 400;">participating in hackathons or Hands on Labs, you’ll find resources to drive meaningful progress within your organization. And i</span>f you still need to register, start <a href="https://www.vmware.com/explore/us">here</a>!</p>
+<p>All the sessions above, plus Meet the Expert Roundtables and Tutorials, can be found in the vDefend curated agenda <a href="https://myevents.vmware.com/widget/vmware/explore2025lv/1750180943753001Rzwd">here.</a> You will find all the Application Networking and Security sessions <a href="https://myevents.vmware.com/widget/vmware/explore2025lv/1752692760067001TSNp">here</a>. The catalog scheduler is now open for registered attendees, so mark your schedules today!</p>
+<p>See you in Las Vegas!</p><p>The post <a href="https://blogs.vmware.com/security/2025/07/vdefend-at-explore-2025.html">VMware vDefend Sessions at Explore 2025</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84419</post-id>	</item>
+		<item>
+		<title>Dubai Airports Secures Critical Infrastructure with VMware vDefend</title>
+		<link>https://blogs.vmware.com/security/2025/07/dubai-airports-with-vdefend.html</link>
+		
+		<dc:creator><![CDATA[Bhanu Vemula]]></dc:creator>
+		<pubDate>Wed, 02 Jul 2025 16:41:45 +0000</pubDate>
+				<category><![CDATA[Misc]]></category>
+		<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[Workload Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84408</guid>
+
+					<description><![CDATA[<div><img width="300" height="200" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg 800w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?resize=300,200 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?resize=768,512 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?resize=600,400 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>Dubai Airports, responsible for managing both Dubai International (DXB) and Dubai World Central – Al Maktoum International (DWC), stands as a testament to the United Arab Emirates’ remarkable progress in establishing itself as a major international travel destination. DXB, a global aviation hub, retained its position as the world’s busiest international airport for the 11th &#8230; <a href="https://blogs.vmware.com/security/2025/07/dubai-airports-with-vdefend.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/07/dubai-airports-with-vdefend.html">Dubai Airports Secures Critical Infrastructure with VMware vDefend</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="200" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg 800w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?resize=300,200 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?resize=768,512 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/07/dxb-2.jpg?resize=600,400 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p>Dubai Airports, responsible for managing both Dubai International (DXB) and Dubai World Central – Al Maktoum International (DWC), stands as a testament to the United Arab Emirates’ remarkable progress in establishing itself as a major international travel destination. DXB, a global aviation hub, retained its position as the world’s busiest international airport for the 11<sup>th</sup> consecutive year, serving 92.3 million passengers annually in 2024.</p>
+<p>With such immense passenger volumes, as well as 2.2 million tons of cargo annually, a plane landing or taking off every 71 seconds and a 100,000-strong workforce, the operational demands at DXB necessitate a robust and resilient digital infrastructure.</p>
+<p>To maintain uptime, reliability, operational efficiency and most importantly guest safety, Dubai Airports relies on VMware Cloud Foundation as the bedrock of its private cloud, with VMware vDefend providing integrated advanced security.</p>
+<p>“It’s a huge responsibility to make sure everything is running securely. It&#8217;s not just about ensuring the comfort and well-being of guests and employees, we need to make sure our systems are protected from cyber threats too,” said Biju Hameed Kayal, head of infrastructure operations, Dubai Airports.</p>
+<p><strong>Changing cybersecurity landscape requires a Zero Trust approach</strong></p>
+<p>Given the ever-increasing volume of cyberattacks – 764 were <a href="https://sysdream.com/blog/dive-into-thre-cyber-threat-landscape-in-the-aviation-industry-2023/#:~:text=year%202023%20highlights%3A-,764%20cyber%20attacks%20recorded%20in%20the%20aviation%20sector%20in%202023,by%20ransomware%20attacks%20(52%20attacks)">recorded</a> in the aviation sector in 2023 – coupled with the constant evolution of threats, ensuring the security of Dubai Airports requires a proactive and vigilant approach. Dubai Airports has adopted a Zero Trust model, which assumes that nothing inside or outside the organization’s network is inherently trustworthy.</p>
+<p>“The cybersecurity landscape has changed recently, driven by geopolitical situations and the evolution of threats. Critical infrastructure is now a prime target. Given our scale of operations, staying ahead of these threats is crucial. Increased technology adoption within the airports also introduces new security risks that we must proactively address,” he said.</p>
+<p><strong>Private cloud secured with VMware vDefend</strong></p>
+<p>Dubai Airports embarked on its virtualization journey in 2009, progressively virtualizing compute, storage and then network functions. This culminated in an advanced software-defined data center. However, Dubai Airports’ stringent security demands needed a further layer of security enhancements.</p>
+<p>“We quickly recognized we needed to enhance our micro-segmentation strategy: it primarily focused on north-south traffic and needed additional visibility into east-west traffic. VMware vDefend proved to be the right solution. It not only enhances our east-west visibility but also offers the capabilities to regulate and enforce security policies governing the interactions between our internal assets and services,” he said.</p>
+<p>More recently, the team at Dubai Airports have taken advantage of VMware vDefend Firewall with Advanced Threat Prevention, using features such as the Distributed Intrusion Detection/Prevention System (IDS/IPS), which detects malicious traffic patterns in the distributed east-west traffic.</p>
+<p>“With IDS/IPS, we&#8217;ve got a high level of intelligence for both threat detection and control. We want to ensure robust prevention and protection while maintaining comprehensive visibility into our network traffic,” he added.</p>
+<p><strong>Accelerated time to value </strong></p>
+<p>Given their prior experience of VMware Cloud Foundation, the team at Dubai Airports was already familiar with the capabilities of the VMware solution stack, which meant the training requirements to use VMware vDefend were minimal and hence time-to-value accelerated.</p>
+<p>“We were already comfortable with the VMware Cloud Foundation toolsets and architecture when we adopted VMware vDefend, so it&#8217;s simply been a matter of layering existing skills and adding new ones. Our organic approach to integrating virtualization and security has fostered a deeper understanding of how the entire stack contributes to achieving our security goals. It also eliminates the challenges associated with managing disparate point solutions and ensuring their interoperability,” Biju said</p>
+<p>Dubai Airports is committed to increasing the maturity of their security strategy as they strive to maintain uptime, reliability, operational efficiency, and passenger safety across the airports.</p>
+<p>“We are eager to explore the broader capabilities of vDefend to further enhance our security posture and cement our position as the busiest and safest airports in the world,” Biju said.</p>
+<p>Learn more about Dubai Airports’ story <a href="https://www.vmware.com/resources/customers/dubai-airports-elevates-its-private-cloud-with-vmware-cloud-foundation-and-vdefend">here. </a></p><p>The post <a href="https://blogs.vmware.com/security/2025/07/dubai-airports-with-vdefend.html">Dubai Airports Secures Critical Infrastructure with VMware vDefend</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84408</post-id>	</item>
+		<item>
+		<title>vDefend is now a part of VMUG Advantage</title>
+		<link>https://blogs.vmware.com/security/2025/06/vdefend-part-of-vmug-advantage.html</link>
+		
+		<dc:creator><![CDATA[Bhanu Vemula]]></dc:creator>
+		<pubDate>Wed, 25 Jun 2025 22:29:13 +0000</pubDate>
+				<category><![CDATA[Misc]]></category>
+		<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[VCF Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84392</guid>
+
+					<description><![CDATA[<div><img width="300" height="165" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png 1240w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=300,165 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=768,423 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=1024,564 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=600,330 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>A home lab is an engineer&#8217;s paradise &#8211; offering a safe space to experiment, troubleshoot, and master new technologies at their own pace. VMware by Broadcom supports this method of hands-on learning, and now, with VMUG Advantage, membership benefits now include access to the VMware vDefend license. This new benefit allows Advantage members who pass &#8230; <a href="https://blogs.vmware.com/security/2025/06/vdefend-part-of-vmug-advantage.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/06/vdefend-part-of-vmug-advantage.html">vDefend is now a part of VMUG Advantage</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="165" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png 1240w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=300,165 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=768,423 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=1024,564 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/vmug_advantage.png?resize=600,330 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p>A home lab is an engineer&#8217;s paradise &#8211; offering a safe space to experiment, troubleshoot, and master new technologies at their own pace. VMware by Broadcom supports this method of hands-on learning, and now, with VMUG Advantage, membership benefits now include access to the VMware vDefend license.</p>
+<p>This new benefit allows Advantage members who pass the <a href="https://www.broadcom.com/support/education/vmware/certification/vcp-vcf-administrator"><strong>Broadcom Education – VCP-VCF Administrator</strong></a> certification exam to receive free personal-use vDefend licenses for up to three years*—no prior vDefend experience required. Whether you’re just starting out or looking to expand your skills, this is a great opportunity to explore application security right in your own home lab.</p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/VMUG-Advantage-free-ANS-personal-use-licenses-1.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84401" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/VMUG-Advantage-free-ANS-personal-use-licenses-1.png?w=1024" alt="" width="1024" height="328" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/VMUG-Advantage-free-ANS-personal-use-licenses-1.png 1163w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/VMUG-Advantage-free-ANS-personal-use-licenses-1.png?resize=300,96 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/VMUG-Advantage-free-ANS-personal-use-licenses-1.png?resize=768,246 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/VMUG-Advantage-free-ANS-personal-use-licenses-1.png?resize=1024,328 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/VMUG-Advantage-free-ANS-personal-use-licenses-1.png?resize=600,192 600w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></p>
+<p style="text-align: left;">*<em>Upon completing the certification exam, VMUG Advantage members receive a one-year license. For the second and third years, they must complete a brief refresher VCF-VCP exam each year to earn additional one-year licenses, totaling three one-year licenses. </em></p>
+<p>&nbsp;</p>
+<p>Once you’re armed with the VMUG Advantage license, you can get hands-on with vDefend capabilities in your home lab.  The license is good for 128 Core Units, in addition to VCF licenses.  This is more than enough to build out your home lab scenario.</p>
+<p>Step 1:  To learn more about becoming a VMUG Advantage member, get started at:</p>
+<ul>
+<li><a href="https://www.vmug.com/membership/vmug-advantage-membership/" target="_blank" rel="noopener">VMUG Advantage Membership</a></li>
+</ul>
+<p>Step 2:  Sign up for and pass the VCF-VCP exam.</p>
+<ul>
+<li><a href="https://www.broadcom.com/support/education/vmware/certification" target="_blank" rel="noopener">VMware Certification</a></li>
+</ul>
+<p>Step 3:  Armed with your VCF and vDefend licenses, you can get your lab up and running. Check out these resources:</p>
+<ul>
+<li><a href="https://techdocs.broadcom.com/us/en/vmware-security-load-balancing/vdefend.html" target="_blank" rel="noopener">vDefend Tech Docs</a></li>
+<li><a href="https://community.broadcom.com/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=d617ff32-eff2-ba15-eca8-0a820b779bb9&amp;forceDialog=0" target="_blank" rel="noopener">Secure VCF Management Workload Domain with VMware vDefend &#8211; White Paper</a></li>
+<li><a href="https://techdocs.broadcom.com/us/en/vmware-cis/vcf/vvs/1-0/lateral-security-for-vmware-cloud-foundation-with-vmware-vdefend.html" target="_blank" rel="noopener">VMware Validated Solution &#8211; Lateral Security for VMware Cloud Foundation with VMware vDefend</a></li>
+<li><a href="https://community.broadcom.com/HigherLogic/System/DownloadDocumentFile.ashx?DocumentFileKey=d3492467-60b6-2568-d964-81c586f8f167&amp;forceDialog=1" target="_blank" rel="noopener">Beginner&#8217;s Guide to Automation with vDefend Firewall</a></li>
+<li><a href="https://higherlogicdownload.s3.amazonaws.com/BROADCOM/672a764a-2341-6404-d90c-66eb7856c912_file.pdf?X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLWVhc3QtMSJHMEUCIBnpNuki3bwWqYUCUH4CwtfvxCRTtz5ldh9KZ0UVwvLWAiEAqK6ovEprzgrEKJ34RzXbwGEOBh86rdZSpUntKDKoDswqugUIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwzODAzMzczNDA3MDYiDFEh6Ll4mtza8%2BmgByqOBe1X8ipK26gvbhQgKs5IW3mOqoOHZDaUS2TXb4nbRCEiwnjYOGYr8V1Lk4R7ZaLMvXfVh3pDmvMAYkrlXNVa1r3%2F5sDCfhe65uE227%2BXnjbDPV6cnfonh4rCyyU4V9qKDMVPC%2BmypnSLFmqIODfbGV92dZkiDusA9HwAXKBNcv216%2BCVnYFCtRPSd7sOIipk2KN61P5d33Bf4DluJ3T00NjbkYlRnJ3gEmCGzLMJNwzJc1FfkSlLDHyhljRHPyf%2BV4QCfbzid6dkS7dzL83QS3vugI%2FGhfroHIWs430AAQppHLTCIUsZj7GW0y7mjH7PRYpTM57%2FiqbwC83qln40wxnFPK7qTCLq7B%2FKGbQ17wHSNlGOzFgJwMghguMyGv5uZp%2Bcys58BZtYadRvlJ9fTu9TgRQbb4%2BoHhCtNoFMoFL1ztE8xQ%2BDkEjjCUGpieSu9is2fJGOwVQjU834YC6mWB%2B0CFApa2nlGdEaij2czLk%2FyrusZd3hT%2F6%2BW8qBs63%2ByzPztp40IRZxLBLTsxU4B1GWS5VRGx5gQeNbCxJTAqZFLFHk35qvqaVhsUJF%2BWQ49AxAcFlnZ3bm84IrvJftxqlepXK9wdSNUwkDxXI5jbUmzoFoCxm1kngj%2FzHGOnBgMLghC393BCegh302K8Y6KVKt6p4rMVPt%2BSQBh6zGitFU4IrinuNZ%2BsGC8Ir3v9dlNjTd%2BXX%2FrQTfg11BElpl1nvJ28RwNUGkj%2BsVGPqSr9aozYaqS0Yql81vsiNHO%2BOniPsdtHemR%2FzHfKNtn%2FdRNkClMT7T4n4EgBuV%2BrJzioauRRHzRy8QKTep28myXvgdI8kUViN8abN8P9id0bJWNE7SRRzjTDe4jSXDg%2Bx4LzC9gJrABjqxAffpAg7LoW14KdY04Ei%2B11IfelQqpNNJ6OsqOKWGnGluCl2rRXzxk9oOoDdr2rt%2BUdtAqQObFzKxy1cQbJl%2Be%2BFYqQL%2B1UmaDI2041sNxhvqVor7fjT039BpB71MqwGp34ULjU4HjBAhcw9HSgsldVBB3YknPcd8%2F7nwdR1gw3D1QpsTbutX3Jo0vhFggd6VXDM9Bg%2ByheSWFAatrdbk5FHfB3fwF4C8gAw696%2F92LlONg%3D%3D&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=ASIAVRDO7IERIOQKFESC%2F20250421%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250421T173454Z&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=67dd3d91512c4e76b096ffe6c6f846386d622e083bf6240630ff1e5629b0cd72" target="_blank" rel="noopener">SE Labs &#8211; Breach Response Detection Test of VMware vDefend ATP</a></li>
+</ul>
+<p>Step 4:  Watch these webinars for some additional insights.</p>
+<ul>
+<li><a href="https://go-vmware.broadcom.com/vDefend-Webinar-Series" target="_blank" rel="noopener">vDefend Webinar Series</a></li>
+</ul>
+<p>Step 5: Now that you’re an expert, consider obtaining your VMware Certified Professional: VMware Private Cloud Security certification to complement your VCF certification.</p>
+<ul>
+<li><a href="https://www.broadcom.com/support/education/vmware/certification/vcp-pcs" target="_blank" rel="noopener">VMware Certified Professional:  Private Cloud Security Administrator</a></li>
+</ul>
+<p>Now, deploy vDefend to protect your VCF workloads! Check out more cool stuff.</p>
+<ul>
+<li><a href="https://youtube.com/playlist?list=PLdYldEmmLm2mhuuzkcQx20B07Y_r67NeK&amp;si=cE4ZI2dPk2eUZXg-" target="_blank" rel="noopener">vDefend How-to Videos</a></li>
+</ul>
+<p>&nbsp;</p>
+<h3>Join us at VMware Explore 2025 in Las Vegas</h3>
+<p>VMUG Advantage membership offers many perks, including discounts to events such as VMware Explore 2025! With your VMUG Advantage membership, you’ll receive $100 discount off VMware Explore <a href="https://www.vmware.com/explore/us" target="_blank" rel="noopener">registration</a>.</p><p>The post <a href="https://blogs.vmware.com/security/2025/06/vdefend-part-of-vmug-advantage.html">vDefend is now a part of VMUG Advantage</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84392</post-id>	</item>
+		<item>
+		<title>VMware vDefend Integrations with VMware Cloud Foundation 9.0: Accelerating Lateral Security for All VCF Applications</title>
+		<link>https://blogs.vmware.com/security/2025/06/announcing-vdefend-for-vcf-9.html</link>
+		
+		<dc:creator><![CDATA[Prashant Gandhi]]></dc:creator>
+		<pubDate>Tue, 17 Jun 2025 15:45:26 +0000</pubDate>
+				<category><![CDATA[Announcements]]></category>
+		<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[VCF Security]]></category>
+		<category><![CDATA[Workload Security]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84329</guid>
+
+					<description><![CDATA[<div><img width="300" height="169" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg 6500w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=300,169 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=768,432 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=1024,576 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=1536,864 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=2048,1152 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=600,337 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>New enhancements include VPC-Aware Lateral Security, Self-Service Micro-segmentation, Streamlined vDefend Migration to VCF, and Global Centralized IDS/IPS Policy Management for Accelerated Threat Response and Enforcement  The modern enterprise is rapidly adopting a private cloud strategy for its environments. A recent research study involving 1,800 senior leaders revealed that their organizations are prioritizing private cloud to &#8230; <a href="https://blogs.vmware.com/security/2025/06/announcing-vdefend-for-vcf-9.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/06/announcing-vdefend-for-vcf-9.html">VMware vDefend Integrations with VMware Cloud Foundation 9.0: Accelerating Lateral Security for All VCF Applications</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="169" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg 6500w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=300,169 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=768,432 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=1024,576 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=1536,864 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=2048,1152 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Getty-1389992855.jpeg?resize=600,337 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p style="text-align: center;"><i><span style="font-weight: 400;">New enhancements include VPC-Aware Lateral Security, Self-Service Micro-segmentation, Streamlined vDefend Migration to VCF</span></i><span style="font-weight: 400;">, and Global Centralized IDS/IPS Policy Management for Accelerated Threat Response and Enforcement</span><i><span style="font-weight: 400;"> </span></i></p>
+<p><span style="font-weight: 400;">The modern enterprise is rapidly adopting a private cloud strategy for its environments. A </span><a href="https://www.vmware.com/docs/private-cloud-outlook-2025?_gl=1*15bvn7r*_ga*MTE0NDU3NTUwNS4xNzI2MjU5MjY4*_ga_8VJHMNGE3E*czE3NDk2NTc5OTIkbzIxMSRnMSR0MTc0OTY1ODA5MiRqNjAkbDAkaDA.#_gl=1*1auajbj*_gcl_ag*Mi4xLmswQUFBQUFEaTNTdlY0ZVpDTGg5cEZhRjhRM1J4aGRjb2NBJGkxNzQ5NDkzMDU2" target="_blank" rel="noopener"><span style="font-weight: 400;">recent research study</span></a><span style="font-weight: 400;"> involving 1,800 senior leaders revealed that their organizations are prioritizing private cloud to address challenges stemming from cost concerns, the need for predictability, AI workload requirements, lateral security, and compliance. </span></p>
+<p><span style="font-weight: 400;">With digital enterprises doubling down on private cloud strategies, IT and security teams face the challenge of securing workloads as quickly and efficiently as possible. With most ransomware breaches involving lateral propagation of threats to hunt for high-value assets, security strategies are evolving to protect both critical and non-critical workloads across all private cloud deployments. vDefend is a leading software-defined, hypervisor-integrated, lateral security solution purpose-built to comprehensively protect every VMware Cloud Foundation (VCF) workload. vDefend brings robust, integrated network security controls directly into the VCF fabric. The solution enables micro-segmentation and threat defense to be rapidly adopted, managed, and scaled, ultimately accelerating an organization’s zero-trust implementation strategies. </span></p>
+<h3><span style="font-weight: 400;">We are excited to announce new vDefend innovations for VCF 9.0:</span></h3>
+<ul>
+<li aria-level="1"><b>VPC-Aware Lateral Security</b><span style="font-weight: 400;">: Users can now implement vDefend at the Virtual Private Cloud (VPC) level, applying lateral security policies that are isolated and managed per tenant. This capability adds precise control and delegated administration to enable multi-tenant environments.</span></li>
+</ul>
+<ul>
+<li aria-level="1"><b>Self-Service Micro-segmentation</b><span style="font-weight: 400;">: Infrastructure teams create centralized firewall policies for walled-garden zones for application deployments. With the new vDefend 9.0 release, application owners can be delegated to create fine-grained policies within these zones. Policies can be automated via APIs in DevOps CI/CD pipelines.</span></li>
+</ul>
+<ul>
+<li aria-level="1"><b>VCF Import Integration</b><span style="font-weight: 400;">: Existing vDefend deployments outside of VCF can be imported into the VCF 9.0 environment, preserving policies and reducing transition effort. This method simplifies and accelerates their migration to a full-stack VCF platform.</span></li>
+</ul>
+<ul>
+<li aria-level="1"><b>Global IPS/IDS Policy Management</b><span style="font-weight: 400;">: Centralized management of intrusion prevention and detection policies across multiple sites ensures consistent enforcement and a faster response to threats, regardless of where workloads reside.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>IDS/IPS Signature Portal:</b><span style="font-weight: 400;"> Enables real-time research of IDS/IPS signature changes without requiring login to the vDefend console. This streamlines operations, enhances threat coverage awareness, and incident response across the organization. </span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Geo-IP Filtering: </b><span style="font-weight: 400;">vDefend Gateway Firewall can now uniquely manage and secure traffic by allowing or blocking connections to a specific geographic location directly at the T0 gateway firewall, enabling precise control over global traffic flows.</span></li>
+</ul>
+<p><span style="font-weight: 400;">vDefend implementation with VCF 9.0 makes advanced security easier to adopt, tenant-aware, and centrally managed, turning security from a barrier into a built-in capability.</span></p>
+<h3><b>VPC-Aware Lateral Security</b></h3>
+<p><span style="font-weight: 400;">Multi-tenancy is foundational for enterprises, but achieving complete isolation across both the data and control planes has been a persistent challenge. The introduction of VPCs brought significant improvements by enabling both data and control plane separation for networking and security, allowing for more granular application-level isolation, often managed by the DevOps team. </span></p>
+<p><span style="font-weight: 400;">With the VMware Cloud Foundation (VCF) 9.0 release, vDefend extends lateral security capabilities to deliver true per-VPC network isolation with microsegmentation, allowing only trusted application traffic. This enhancement enables delegated administration, ensuring that each VPC admin can only view and manage configurations within their own VPC. Teams can now work in parallel with full self-service and complete isolation, making secure multi-tenancy in private clouds a reality.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-1.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84373" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-1.png?w=790" alt="" width="790" height="562" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-1.png 790w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-1.png?resize=300,213 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-1.png?resize=768,546 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-1.png?resize=600,427 600w" sizes="auto, (max-width: 790px) 100vw, 790px" /></a></p>
+<h3><b>Self-Service Micro-segmentation</b></h3>
+<p><span style="font-weight: 400;">vDefend Firewall empowers both infrastructure administrators and VPC owners. Infrastructure administrators can establish secure Virtual Private Clouds (VPCs), minimizing east-west communication. Simultaneously, VPC owners gain the flexibility to configure detailed rules for their applications, ensuring functionality without compromising central security policies. This approach promotes security self-service for end-users while upholding the organization&#8217;s overall security posture.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-2.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84374" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-2.png?w=801" alt="" width="801" height="480" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-2.png 801w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-2.png?resize=300,180 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-2.png?resize=768,460 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-2.png?resize=600,360 600w" sizes="auto, (max-width: 801px) 100vw, 801px" /></a></p>
+<h3><b>Seamless Migration with VCF Import</b></h3>
+<p><span style="font-weight: 400;">Existing vDefend deployments outside of VCF can be easily imported into the VCF 9.0 environment with their current vDefend Firewall policies intact, which reduces the overhead associated with transition. This streamlined migration process enables customers to transition to a full-stack VCF platform efficiently, reducing overhead and eliminating the need to start from scratch.</span></p>
+<h3><b>Simplified, Centralized IDS/IPS Policy Management Across Multi-instance VCF with Air-Gap support </b></h3>
+<p><span style="font-weight: 400;">Large, multi-instance (federated) VCF environments require a consistent, organization-wide IDS/IPS security policy and signature management with efficient and easy operations. Customers can now deliver global IDS/IPS security policies across distributed VCF deployments with centralized policy management capabilities. </span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-3_v2.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84376" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-3_v2.png?w=995" alt="" width="995" height="539" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-3_v2.png 995w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-3_v2.png?resize=300,163 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-3_v2.png?resize=768,416 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-3_v2.png?resize=410,222 410w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/image-3_v2.png?resize=600,325 600w" sizes="auto, (max-width: 995px) 100vw, 995px" /></a></p>
+<p><span style="font-weight: 400;">In addition, multiple IDS/IPS signature bundle assignments enable users to apply specific signature bundles where needed across their VCF deployments. For air-gapped environments, delivery of IDS/IPS signature bundles to Local Managers is supported even when internet connectivity and compliance restrictions are in place. </span></p>
+<p><span style="font-weight: 400;">Together, these capabilities offer consistent, centralized threat prevention policy management across multi-instance VCF deployments. All IDS/IPS events are visible within a single management console.</span></p>
+<h3><b>Real-Time Visibility With New IDS/IPS Signature Portal</b></h3>
+<p><span style="font-weight: 400;">Keeping security defenses current is non-negotiable; enterprises rely on frequent signature updates to stay ahead of emerging threats. While vDefend already makes it easy to download and review the latest IDS/IPS signature bundles through the vDefend console, security analysts often need deeper insight, such as identifying what’s new in each bundle, tracking version history, searching for coverage against specific CVEs (Common Vulnerabilities and Exposures), or looking for coverage against specific attack patterns such as Command and Control communications. </span></p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-4.png"><img loading="lazy" decoding="async" class="size-large wp-image-84377 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-4.png?w=832" alt="" width="832" height="586" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-4.png 832w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-4.png?resize=300,211 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-4.png?resize=768,541 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/blog-image-4.png?resize=600,423 600w" sizes="auto, (max-width: 832px) 100vw, 832px" /></a></p>
+<p><span style="font-weight: 400;">With the new IDS/IPS Signature </span><a href="https://appd.securityti.vmware.com/#/app/ids-signatures/login"><span style="font-weight: 400;">Portal</span></a><span style="font-weight: 400;">, we’re introducing a powerful tool that allows operators to research signature updates in real time, without needing to log into the vDefend console. With easy web-based access, the portal lets teams research signatures, search for specific threat coverage, compare versions, and export signature lists. This capability not only streamlines initial planning and deployment but also facilitates easier collaboration and quicker action among teams, ultimately enhancing threat coverage awareness and incident response across the organization.</span></p>
+<p>&nbsp;</p>
+<h3><b>Precision Control of Traffic Flows with Country-based Geo-fencing of Traffic</b></h3>
+<p><span style="font-weight: 400;">Infrastructure administrators can now allow or block incoming and outgoing traffic based on specific geographic locations in vDefend Gateway Firewall. This new capability provides precise, targeted control of traffic, enhancing security posture and ensuring compliance.</span></p>
+<p style="text-align: center;"><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Blog-image-5_v2.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84382" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Blog-image-5_v2.png?w=798" alt="" width="798" height="496" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Blog-image-5_v2.png 798w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Blog-image-5_v2.png?resize=300,186 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Blog-image-5_v2.png?resize=768,477 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Blog-image-5_v2.png?resize=600,373 600w" sizes="auto, (max-width: 798px) 100vw, 798px" /></a></p>
+<p>&nbsp;</p>
+<h2><b>Join Us at VMware Explore 2025</b><span style="font-weight: 400;"> </span></h2>
+<p><span style="font-weight: 400;">Mark your calendars for August 25-28, 2025! We will be sharing all the details of these new innovations at VMware Explore 2025 in Las Vegas. You can find all the exciting event details, including new registration pricing packages </span><a href="https://www.vmware.com/explore/us?utm_source=google&amp;utm_medium=ppc&amp;utm_campaign=vmware_explore&amp;gad_source=1&amp;gad_campaignid=22496493334&amp;gbraid=0AAAAADi3SvV4eZCLh9pFaF8Q3RxhdcocA&amp;gclid=CjwKCAjwo4rCBhAbEiwAxhJlCbF0rCiDoS92i_PY59amGNhTQ0M9EY8xAdth1LEh8A9L5AJvKe0BWxoCP-oQAvD_BwE" target="_blank" rel="noopener"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">.</span></p><p>The post <a href="https://blogs.vmware.com/security/2025/06/announcing-vdefend-for-vcf-9.html">VMware vDefend Integrations with VMware Cloud Foundation 9.0: Accelerating Lateral Security for All VCF Applications</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84329</post-id>	</item>
+		<item>
+		<title>Accelerating Micro-segmentation Adoption with Security Segmentation Assessment</title>
+		<link>https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html</link>
+		
+		<dc:creator><![CDATA[Meghana Badrinath]]></dc:creator>
+		<pubDate>Thu, 12 Jun 2025 21:59:53 +0000</pubDate>
+				<category><![CDATA[Network Security]]></category>
+		<category><![CDATA[Workload Security]]></category>
+		<category><![CDATA[Cloud]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[firewall]]></category>
+		<category><![CDATA[infrastructure protection]]></category>
+		<category><![CDATA[micro-segmentation]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84345</guid>
+
+					<description><![CDATA[<div><img width="300" height="225" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg 12000w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=300,225 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=768,576 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=1024,768 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=1536,1152 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=2048,1536 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=600,450 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>Security Segmentation Assessment is a new feature in Security Services Platform (SSP) 5.0 that enhances Security Intelligence by delivering a comprehensive, data-driven view of the organization&#8217;s current security posture. It not only highlights segmentation gaps but also provides actionable recommendations to harden your environment against modern threats. This capability is available with both VMware vDefend &#8230; <a href="https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html">Accelerating Micro-segmentation Adoption with Security Segmentation Assessment</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="225" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg 12000w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=300,225 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=768,576 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=1024,768 1024w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=1536,1152 1536w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=2048,1536 2048w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/29306992_xl.jpg?resize=600,450 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><p>Security Segmentation Assessment is a new feature in Security Services Platform (SSP) 5.0 that enhances Security Intelligence by delivering a comprehensive, data-driven view of the organization&#8217;s current security posture. It not only highlights segmentation gaps but also provides actionable recommendations to harden your environment against modern threats.</p>
+<p>This capability is available with both VMware vDefend Firewall and VMware vDefend Advanced Threat Prevention license SKUs.</p>
+<h2>USE CASE</h2>
+<p><span style="font-weight: 400;">Traditional perimeter firewalls are no longer sufficient to defend against sophisticated threats, such as ransomware. Once inside the network, attackers often exploit open ports and insecure protocols to move laterally—unchecked by perimeter controls that lack visibility into East-West traffic, which now constitutes over </span><b>90% of datacenter communication</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Modern applications are distributed, dynamic, and multi-tiered—making them difficult to protect using legacy approaches. </span><b>Security Segmentation Assessment</b><span style="font-weight: 400;"> accelerates the deployment of the </span><b>vDefend Distributed Firewall (DFW)</b><span style="font-weight: 400;"> by identifying where segmentation is missing and where risks remain.</span></p>
+<p><span style="font-weight: 400;">It delivers:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A </span><b>Segmentation Score</b><span style="font-weight: 400;"> based on observed flows and firewall configurations, offering a clear snapshot of how well your infrastructure and applications are protected.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A </span><b>Segmentation Report</b><span style="font-weight: 400;"> that surfaces high-risk workloads, communication chains, and potential blast radii.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tailored guidance for implementing DFW to close gaps, enforce least privilege, and move toward a </span><b>zero-trust security model</b><span style="font-weight: 400;">.</span></li>
+</ul>
+<p><span style="font-weight: 400;">When used in conjunction with </span><b>Security Intelligence recommendations and auto-publishing</b><span style="font-weight: 400;">, organizations can fast-track their journey to effective micro-segmentation.</span></p>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Sec_segment_assess_blog_eb7135.png"><img loading="lazy" decoding="async" class="alignnone size-large wp-image-84349" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Sec_segment_assess_blog_eb7135.png?w=989" alt="" width="989" height="341" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Sec_segment_assess_blog_eb7135.png 989w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Sec_segment_assess_blog_eb7135.png?resize=300,103 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Sec_segment_assess_blog_eb7135.png?resize=768,265 768w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/Sec_segment_assess_blog_eb7135.png?resize=600,207 600w" sizes="auto, (max-width: 989px) 100vw, 989px" /></a></p>
+<h2><b>SOLUTION</b></h2>
+<p><b>Micro-segmentation</b><span style="font-weight: 400;"> is a phased journey—culminating in a security model where all unidentified traffic is dropped by default. Reaching this goal typically involves:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Identifying and grouping workloads by application</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Defining inter-application isolation</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Mapping the required ports and protocols</span></li>
+</ul>
+<p><b>Security Segmentation Assessment</b><span style="font-weight: 400;"> adapts to your current stage in this journey by offering two scoring modes:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><b>Strict Mode</b><span style="font-weight: 400;"> – For environments where segmentation is complete and all essential firewall rules are in place.</span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Relaxed Mode</b><span style="font-weight: 400;"> – For environments still in transition, where applications and rules are being actively defined.</span></li>
+</ul>
+<p><span style="font-weight: 400;">The <strong>Segmentation Score</strong> is determined by various factors:</span></p>
+<ul>
+<li><b>Distributed Firewall In Operation </b><span style="font-weight: 400;">–</span> <span style="font-weight: 400;"><span style="font-weight: 400;"><span style="font-weight: 400;">Reflects the operational state of DFW and Malicious IP blocking in the environment under consideration.</span></span></span></li>
+<li><b>Infrastructure Protection </b><span style="font-weight: 400;">–</span> <span style="font-weight: 400;">Quantifies the percentage of Infrastructure Traffic (DHCP, DNS, LDAP/Secure LDAP, NTP) that is protected by a non-default DFW rule. </span><i><i><span style="font-weight: 400;">(A default rule is defined as a rule with Src=Any, Dst=Any, Service=Any and Action=Allow).</span></i></i></li>
+<li><b>Environment Protection </b><span style="font-weight: 400;">–</span> <span style="font-weight: 400;">Quantifies the percentage of workloads in the environment that are covered by at least one rule configured under the Environment Category in DFW.<br />
+</span><span style="font-weight: 400;"><span style="font-weight: 400;">Zone segmentation rules are typically configured under this category. This section of the score is to ensure that all workloads are assigned to an appropriate zone, and zone protection rules are in place to isolate or allow communication between them.</span></span></li>
+<li><b>Application Protection </b><span style="font-weight: 400;">–</span> <span style="font-weight: 400;"><span style="font-weight: 400;">Quantifies the percentage of application workloads that are covered by at least one rule configured under the Application Category in DFW and percentage of Application Traffic that is protected by a non-default DFW rule. </span></span><span style="font-weight: 400;">More importantly, it rewards the DFW consumer for dropping all unidentified traffic both at the application level and datacenter level. </span><b><b><i>The distribution of weightage within the Application Protection section is determined by the mode selected during score computation.<br />
+</i></b></b></li>
+<li><b></b><b>Workloads without Obsolete OS &amp; Risky Protocols </b><span style="font-weight: 400;">–</span> <span style="font-weight: 400;">Quantifies the percentage of workloads in the environment that are neither running Obsolete OS nor Risky Protocols. </span><span style="font-weight: 400;"><br />
+</span></li>
+</ul>
+<p><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/sec_segment_assess_report_blog_3aa300.png"><img loading="lazy" decoding="async" class="size-large wp-image-84350 aligncenter" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/sec_segment_assess_report_blog_3aa300.png?w=679" alt="" width="679" height="485" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/sec_segment_assess_report_blog_3aa300.png 679w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/sec_segment_assess_report_blog_3aa300.png?resize=300,214 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/sec_segment_assess_report_blog_3aa300.png?resize=600,429 600w" sizes="auto, (max-width: 679px) 100vw, 679px" /></a></p>
+<p><span style="font-weight: 400;">The </span><b>Segmentation Report</b><span style="font-weight: 400;"> delivers:</span></p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A detailed breakdown of the </span><b>Segmentation Score</b><span style="font-weight: 400;">, analyzing up to 30 days of flow data and firewall policies to assess protection levels across all workloads. It is recommended to at least run the report over an interval of 7 days to derive accurate analysis and recommendations. </span></li>
+<li style="font-weight: 400;" aria-level="1"><b>Visibility into vulnerabilities</b><span style="font-weight: 400;"> caused by risky protocols, outdated operating systems, or exposure to public IP addresses.</span></li>
+</ul>
+<p><b>Actionable insights</b><span style="font-weight: 400;"> that complement existing Security Intelligence recommendations, allowing for rapid iteration and continuous posture improvement.</span><span style="font-weight: 400;"><br />
+</span></p>
+<div style="width: 1920px;" class="wp-video"><!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<video class="wp-video-shortcode" id="video-84345-1" width="1920" height="1080" preload="metadata" controls="controls"><source type="video/mp4" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/POV-Report-with-VO-v2.mp4?_=1" /><a href="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/POV-Report-with-VO-v2.mp4">https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/06/POV-Report-with-VO-v2.mp4</a></video></div>
+<p>&nbsp;</p>
+<h2>Summary</h2>
+<p><b>Security Segmentation Assessment</b><span style="font-weight: 400;"> empowers organizations to proactively strengthen their lateral security posture. By integrating seamlessly with </span><b>vDefend Distributed Firewall</b><span style="font-weight: 400;"> and VMware Cloud Foundation, it provides the intelligence and automation needed to defend against ransomware and other advanced threats—while accelerating the path to a </span><b>zero-trust architecture</b><span style="font-weight: 400;">.</span></p>
+<p>&nbsp;</p><p>The post <a href="https://blogs.vmware.com/security/2025/06/accelerating-micro-segmentation.html">Accelerating Micro-segmentation Adoption with Security Segmentation Assessment</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84345</post-id>	</item>
+		<item>
+		<title>VMware and Pwn2Own 2025 &#8211; Berlin</title>
+		<link>https://blogs.vmware.com/security/2025/05/vmware-and-pwn2own-2025-berlin.html</link>
+		
+		<dc:creator><![CDATA[Praveen Singh and Monty Ijzerman]]></dc:creator>
+		<pubDate>Tue, 20 May 2025 09:52:42 +0000</pubDate>
+				<category><![CDATA[VMware Security Response Center]]></category>
+		<guid isPermaLink="false">https://blogs.vmware.com/security/?p=84332</guid>
+
+					<description><![CDATA[<div><img width="300" height="169" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png 611w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png?resize=300,169 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png?resize=600,339 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div>
+<p>Update July 15, 2025 Today, Broadcom has released the following new VMware security advisory: VMSA-2025-0013 – VMware ESXi, Workstation, Fusion, and Tools updates address multiple vulnerabilities (CVE-2025-41236, CVE-2025-41237, CVE-2025-41238, CVE-2025-41239) The advisory documents the remediation of the Critical, Important, and Moderate severity vulnerabilities demonstrated at the Pwn2Own 2025 hacking contest. Customers should review the security &#8230; <a href="https://blogs.vmware.com/security/2025/05/vmware-and-pwn2own-2025-berlin.html">Continued</a></p>
+<p>The post <a href="https://blogs.vmware.com/security/2025/05/vmware-and-pwn2own-2025-berlin.html">VMware and Pwn2Own 2025 &#8211; Berlin</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div><img width="300" height="169" src="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png?w=300" class="attachment-medium size-medium wp-post-image" alt="" style="margin-bottom: 10px;" decoding="async" loading="lazy" srcset="https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png 611w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png?resize=300,169 300w, https://blogs.vmware.com/security/wp-content/uploads/sites/26/2025/05/Screenshot-2025-05-20-at-3.19.18 PM.png?resize=600,339 600w" sizes="auto, (max-width: 300px) 100vw, 300px" /></div><h2><strong>Update July 15, 2025</strong></h2>
+<p>Today, Broadcom has released the following new VMware security advisory:</p>
+<p><strong><a href="https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/35877">VMSA-2025-0013</a> – VMware ESXi, Workstation, Fusion, and Tools updates address multiple vulnerabilities (CVE-2025-41236, CVE-2025-41237, CVE-2025-41238, CVE-2025-41239)<br />
+</strong></p>
+<p>The advisory documents the remediation of the Critical, Important, and Moderate severity vulnerabilities demonstrated at the <a href="https://www.zerodayinitiative.com/blog/2025/2/24/announcing-pwn2own-berlin-2025">Pwn2Own 2025</a> hacking contest. Customers should review the security advisory and direct any questions to <a href="https://support.broadcom.com/web/ecx/software-contact-support" name="&amp;lpos=apps_scodevmw : 45">VMware Support</a>.</p>
+<h2><strong>Original Post</strong></h2>
+<p>Greetings from the Broadcom PSIRT Team &#8211; VCF Division.</p>
+<p>Pwn2Own 2025 has been wrapped-up and we have witnessed successful exploitation of some of the very well-known products. Broadcom VMware products have been a part of Pwn2Own since 2016. Similar to last year, VMware ESXi – Type 1 and VMware Workstation – Type 2 Hypervisors were the targets in the virtualization category with a prize money of $180,000 and $80,000 respectively.</p>
+<p>We have seen three successful attempts on our products in this year&#8217;s contest.</p>
+<p>On day 2 &#8211; May 16, 2025, Nguyen Hoang Thach of STARLabs SG successfully exploited VMware ESXi. This is the first time VMware ESXi was exploited in Pwn2Own hacking event.</p>
+<p>On Day 3 &#8211; May 17, 2025, Corentin BAYET of Reverse Tactics successfully exploited ESXi by chaining two vulnerabilities. One of vulnerabilities used in the exploit was a collision as it was already known. Later that day, Thomas Bouzerar and Etienne Helluy-Lafont from Synacktiv managed to successfully exploit Workstation.</p>
+<p>We are actively working on the remediation and we plan to publish a VMware Security Advisory to provide information on updates for the affected products.</p>
+<p>We would like to thank Zero Day Initiative (ZDI) for allowing us to participate. In addition, we would like to thank teams from STAR Labs SG, Reverse Tactics, and Synacktiv for working with us to address the reported issues.</p>
+<p>If you want to be informed on VMware Security Advisories (VMSAs), please sign up <a href="https://www.broadcom.com/support/vmware-security-advisories">here</a> for new and updated information.</p><p>The post <a href="https://blogs.vmware.com/security/2025/05/vmware-and-pwn2own-2025-berlin.html">VMware and Pwn2Own 2025 &#8211; Berlin</a> appeared first on <a href="https://blogs.vmware.com/security">VMware Security Blog</a>.</p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">84332</post-id>	</item>
+	</channel>
+</rss>
