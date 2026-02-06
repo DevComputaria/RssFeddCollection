@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-02-05T04:02:12Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Backdoor in Notepad++]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html" />
+
+		<id>https://www.schneier.com/?p=71556</id>
+		<updated>2026-02-05T04:02:12Z</updated>
+		<published>2026-02-05T12:00:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="supply chain" />
+		<summary type="html"><![CDATA[<p>Hackers associated with the Chinese government used a <a href="https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/">Trojaned version</a> of Notepad++ to deliver malware to selected users.</p>
+<blockquote><p>Notepad++ said that officials with the unnamed provider hosting the update infrastructure consulted with incident responders and found that it remained compromised until September 2. Even then, the attackers maintained credentials to the internal services until December 2, a capability that allowed them to continue redirecting selected update traffic to malicious servers. The threat actor &#8220;specifically targeted Notepad++ domain with the goal of exploiting insufficient update verification controls that existed in older versions of Notepad++.&#8221; Event logs indicate that the hackers tried to re-exploit one of the weaknesses after it was fixed but that the attempt failed...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html"><![CDATA[<p>Hackers associated with the Chinese government used a <a href="https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/">Trojaned version</a> of Notepad++ to deliver malware to selected users.</p>
+<blockquote><p>Notepad++ said that officials with the unnamed provider hosting the update infrastructure consulted with incident responders and found that it remained compromised until September 2. Even then, the attackers maintained credentials to the internal services until December 2, a capability that allowed them to continue redirecting selected update traffic to malicious servers. The threat actor &#8220;specifically targeted Notepad++ domain with the goal of exploiting insufficient update verification controls that existed in older versions of Notepad++.&#8221; Event logs indicate that the hackers tried to re-exploit one of the weaknesses after it was fixed but that the attempt failed.</p></blockquote>
+<p>Make sure you&#8217;re running at least version 8.9.1.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[US Declassifies Information on JUMPSEAT Spy Satellites]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html" />
+
+		<id>https://www.schneier.com/?p=71552</id>
+		<updated>2026-02-03T17:04:40Z</updated>
+		<published>2026-02-04T12:02:10Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="espionage" /><category scheme="https://www.schneier.com/" term="history of security" /><category scheme="https://www.schneier.com/" term="national security policy" />
+		<summary type="html"><![CDATA[<p>The US National Reconnaissance Office has declassified <a href="https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/">information</a> about a fleet of spy satellites operating between 1971 and 2006.</p>
+<p>I&#8217;m actually impressed to see a declassification only two decades after decommission.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html"><![CDATA[<p>The US National Reconnaissance Office has declassified <a href="https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/">information</a> about a fleet of spy satellites operating between 1971 and 2006.</p>
+<p>I&#8217;m actually impressed to see a declassification only two decades after decommission.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Microsoft is Giving the FBI BitLocker Keys]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html" />
+
+		<id>https://www.schneier.com/?p=71550</id>
+		<updated>2026-02-02T17:08:53Z</updated>
+		<published>2026-02-03T12:05:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="FBI" /><category scheme="https://www.schneier.com/" term="full-disk encryption" /><category scheme="https://www.schneier.com/" term="Microsoft" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="Windows" />
+		<summary type="html"><![CDATA[<p>Microsoft <a href="https://www.forbes.com/sites/thomasbrewster/2026/01/22/microsoft-gave-fbi-keys-to-unlock-bitlocker-encrypted-data/">gives</a> the FBI the ability to decrypt BitLocker in response to court orders: about twenty times per year.</p>
+<blockquote><p>It&#8217;s possible for users to store those keys on a device they own, but Microsoft also recommends BitLocker users store their keys on its servers for convenience. While that means someone can access their data if they forget their password, or if repeated failed attempts to login lock the device, it also makes them vulnerable to law enforcement subpoenas and warrants.</p></blockquote>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html"><![CDATA[<p>Microsoft <a href="https://www.forbes.com/sites/thomasbrewster/2026/01/22/microsoft-gave-fbi-keys-to-unlock-bitlocker-encrypted-data/">gives</a> the FBI the ability to decrypt BitLocker in response to court orders: about twenty times per year.</p>
+<blockquote><p>It&#8217;s possible for users to store those keys on a device they own, but Microsoft also recommends BitLocker users store their keys on its servers for convenience. While that means someone can access their data if they forget their password, or if repeated failed attempts to login lock the device, it also makes them vulnerable to law enforcement subpoenas and warrants.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Coding Assistants Secretly Copying All Code to China]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/ai-coding-assistants-secretly-copying-all-code-to-china.html" />
+
+		<id>https://www.schneier.com/?p=71544</id>
+		<updated>2026-01-30T15:38:11Z</updated>
+		<published>2026-02-02T12:05:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="leaks" />
+		<summary type="html"><![CDATA[<p>There&#8217;s a <a href="https://www.koi.ai/blog/maliciouscorgi-the-cute-looking-ai-extensions-leaking-code-from-1-5-million-developers">new report</a> about two AI coding assistants, used by 1.5 million developers, that are surreptitiously sending a copy of everything they ingest to China.</p>
+<p>Maybe avoid using them.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/ai-coding-assistants-secretly-copying-all-code-to-china.html"><![CDATA[<p>There&#8217;s a <a href="https://www.koi.ai/blog/maliciouscorgi-the-cute-looking-ai-extensions-leaking-code-from-1-5-million-developers">new report</a> about two AI coding assistants, used by 1.5 million developers, that are surreptitiously sending a copy of everything they ingest to China.</p>
+<p>Maybe avoid using them.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/ai-coding-assistants-secretly-copying-all-code-to-china.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/ai-coding-assistants-secretly-copying-all-code-to-china.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: New Squid Species Discovered]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-new-squid-species-discovered.html" />
+
+		<id>https://www.schneier.com/?p=71515</id>
+		<updated>2026-01-22T20:09:13Z</updated>
+		<published>2026-01-30T22:05:11Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>A <a href="https://www.livescience.com/animals/mollusks/very-novel-and-very-puzzling-unknown-species-of-squid-spotted-burying-itself-upside-down-pretending-to-be-a-plant">new species of squid</a>. pretends to be a plant:</p>
+<blockquote><p>Scientists have filmed a never-before-seen species of deep-sea squid burying itself upside down in the seafloor&#8212;a behavior never documented in cephalopods. They captured the bizarre scene while studying the depths of the Clarion-Clipperton Zone (CCZ), an abyssal plain in the Pacific Ocean targeted for deep-sea mining.</p>
+<p>The team described the encounter in a study published Nov. 25 in the journal <a href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.70257"><i>Ecology</i></a>, writing that the animal appears to be an undescribed species of whiplash squid. At a depth of roughly 13,450 feet (4,100 meters), the squid had buried almost its entire body in sediment and was hanging upside down, with its siphon and two long ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-new-squid-species-discovered.html"><![CDATA[<p>A <a href="https://www.livescience.com/animals/mollusks/very-novel-and-very-puzzling-unknown-species-of-squid-spotted-burying-itself-upside-down-pretending-to-be-a-plant">new species of squid</a>. pretends to be a plant:</p>
+<blockquote><p>Scientists have filmed a never-before-seen species of deep-sea squid burying itself upside down in the seafloor&#8212;a behavior never documented in cephalopods. They captured the bizarre scene while studying the depths of the Clarion-Clipperton Zone (CCZ), an abyssal plain in the Pacific Ocean targeted for deep-sea mining.</p>
+<p>The team described the encounter in a study published Nov. 25 in the journal <a href="https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecy.70257"><i>Ecology</i></a>, writing that the animal appears to be an undescribed species of whiplash squid. At a depth of roughly 13,450 feet (4,100 meters), the squid had buried almost its entire body in sediment and was hanging upside down, with its siphon and two long <a href="https://www.livescience.com/difference-arms-tentacles">tentacles</a> held rigid above the seafloor.</p>
+<p>&#8220;The fact that this is a squid and it&#8217;s covering itself in mud&#8212;it&#8217;s novel for squid and the fact that it is upside down,&#8221; lead author <a href="https://www.sams.ac.uk/people/research-students/mejia-saenz-alejandra-/">Alejandra Mej&iacute;a-Saenz</a>, a deep-sea ecologist at the Scottish Association for Marine Science, told Live Science. &#8220;We had never seen anything like that in any cephalopods&#8230;. It was very novel and very puzzling.&#8221;</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-new-squid-species-discovered.html#comments" thr:count="26" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-new-squid-species-discovered.html/feed/atom/" thr:count="26" />
+			<thr:total>26</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AIs Are Getting Better at Finding and Exploiting Security Vulnerabilities]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-security-vulnerabilities.html" />
+
+		<id>https://www.schneier.com/?p=71541</id>
+		<updated>2026-01-30T15:35:15Z</updated>
+		<published>2026-01-30T15:35:15Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>From an Anthropic <a href="https://red.anthropic.com/2026/cyber-toolkits-update/">blog post</a>:</p>
+<blockquote><p>In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. This illustrates how barriers to the use of AI in relatively autonomous cyber workflows are rapidly coming down, and highlights the importance of security fundamentals like promptly patching known vulnerabilities.</p>
+<p>[…]</p>
+<p>A notable development during the testing of Claude Sonnet 4.5 is that the model can now succeed on a minority of the networks without the custom cyber toolkit needed by previous generations. In particular, Sonnet 4.5 can now exfiltrate all of the (simulated) personal information in a high-fidelity simulation of the Equifax data breach&#8212;one of the costliest cyber attacks in history­­using only a Bash shell on a widely-available Kali Linux host (standard, open-source tools for penetration testing; not a custom toolkit). Sonnet 4.5 accomplishes this by instantly recognizing a publicized CVE and writing code to exploit it without needing to look it up or iterate on it. Recalling that the original Equifax breach happened by exploiting a publicized CVE that had not yet been patched, the prospect of highly competent and fast AI agents leveraging this approach underscores the pressing need for security best practices like prompt updates and patches...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-security-vulnerabilities.html"><![CDATA[<p>From an Anthropic <a href="https://red.anthropic.com/2026/cyber-toolkits-update/">blog post</a>:</p>
+<blockquote><p>In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. This illustrates how barriers to the use of AI in relatively autonomous cyber workflows are rapidly coming down, and highlights the importance of security fundamentals like promptly patching known vulnerabilities.</p>
+<p>[…]</p>
+<p>A notable development during the testing of Claude Sonnet 4.5 is that the model can now succeed on a minority of the networks without the custom cyber toolkit needed by previous generations. In particular, Sonnet 4.5 can now exfiltrate all of the (simulated) personal information in a high-fidelity simulation of the Equifax data breach&#8212;one of the costliest cyber attacks in history­­using only a Bash shell on a widely-available Kali Linux host (standard, open-source tools for penetration testing; not a custom toolkit). Sonnet 4.5 accomplishes this by instantly recognizing a publicized CVE and writing code to exploit it without needing to look it up or iterate on it. Recalling that the original Equifax breach happened by exploiting a publicized CVE that had not yet been patched, the prospect of highly competent and fast AI agents leveraging this approach underscores the pressing need for security best practices like prompt updates and patches.</p></blockquote>
+<p>AI models are getting better at this faster than I expected. This will be a major power shift in cybersecurity.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-security-vulnerabilities.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-security-vulnerabilities.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Constitutionality of Geofence Warrants]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html" />
+
+		<id>https://www.schneier.com/?p=71530</id>
+		<updated>2026-01-26T17:22:14Z</updated>
+		<published>2026-01-27T12:01:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="courts" /><category scheme="https://www.schneier.com/" term="national security policy" /><category scheme="https://www.schneier.com/" term="searches" />
+		<summary type="html"><![CDATA[<p>The US Supreme Court is <a href="https://therecord.media/supreme-court-geofence-constitutionality">considering</a> the constitutionality of geofence warrants.</p>
+<blockquote><p>The case centers on the trial of Okello Chatrie, a Virginia man who pleaded guilty to a 2019 robbery outside of Richmond and was sentenced to almost 12 years in prison for stealing $195,000 at gunpoint.</p>
+<p>Police probing the crime found security camera footage showing a man on a cell phone near the credit union that was robbed and asked Google to produce anonymized location data near the robbery site so they could determine who committed the crime. They did so, providing police with subscriber data for three people, one of whom was Chatrie. Police then searched Chatrie&#8217;s home and allegedly surfaced a gun, almost $100,000 in cash and incriminating notes...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html"><![CDATA[<p>The US Supreme Court is <a href="https://therecord.media/supreme-court-geofence-constitutionality">considering</a> the constitutionality of geofence warrants.</p>
+<blockquote><p>The case centers on the trial of Okello Chatrie, a Virginia man who pleaded guilty to a 2019 robbery outside of Richmond and was sentenced to almost 12 years in prison for stealing $195,000 at gunpoint.</p>
+<p>Police probing the crime found security camera footage showing a man on a cell phone near the credit union that was robbed and asked Google to produce anonymized location data near the robbery site so they could determine who committed the crime. They did so, providing police with subscriber data for three people, one of whom was Chatrie. Police then searched Chatrie&#8217;s home and allegedly surfaced a gun, almost $100,000 in cash and incriminating notes.</p>
+<p>Chatrie&#8217;s appeal challenges the constitutionality of geofence warrants, arguing that they violate individuals&#8217; Fourth Amendment rights protecting against unreasonable searches.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/01/the-constitutionality-of-geofence-warrants.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Ireland Proposes Giving Police New Digital Surveillance Powers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/ireland-proposes-giving-police-new-digital-surveillance-powers.html" />
+
+		<id>https://www.schneier.com/?p=71527</id>
+		<updated>2026-01-26T04:56:43Z</updated>
+		<published>2026-01-26T12:04:57Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Ireland" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="spyware" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>This is <a href="https://www.theregister.com/2026/01/21/ireland_wants_to_give_police/">coming</a>:</p>
+<blockquote><p>The Irish government is planning to bolster its police&#8217;s ability to intercept communications, including encrypted messages, and provide a legal basis for spyware use.</p></blockquote>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/01/ireland-proposes-giving-police-new-digital-surveillance-powers.html"><![CDATA[<p>This is <a href="https://www.theregister.com/2026/01/21/ireland_wants_to_give_police/">coming</a>:</p>
+<blockquote><p>The Irish government is planning to bolster its police&#8217;s ability to intercept communications, including encrypted messages, and provide a legal basis for spyware use.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/ireland-proposes-giving-police-new-digital-surveillance-powers.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/01/ireland-proposes-giving-police-new-digital-surveillance-powers.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Giant Squid in the Star Trek Universe]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-giant-squid-in-the-star-trek-universe.html" />
+
+		<id>https://www.schneier.com/?p=71512</id>
+		<updated>2026-01-22T19:15:52Z</updated>
+		<published>2026-01-23T22:03:20Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Spock <a href="https://trekmovie.com/2026/01/13/see-spock-befriend-a-giant-space-squid-in-star-trek-strange-new-worlds-the-seeds-of-salvation-5-preview/">befriends</a> a giant space squid in the comic <i>Star Trek: Strange New Worlds: The Seeds of Salvation</i> #5.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-giant-squid-in-the-star-trek-universe.html"><![CDATA[<p>Spock <a href="https://trekmovie.com/2026/01/13/see-spock-befriend-a-giant-space-squid-in-star-trek-strange-new-worlds-the-seeds-of-salvation-5-preview/">befriends</a> a giant space squid in the comic <i>Star Trek: Strange New Worlds: The Seeds of Salvation</i> #5.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-giant-squid-in-the-star-trek-universe.html#comments" thr:count="32" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/01/friday-squid-blogging-giant-squid-in-the-star-trek-universe.html/feed/atom/" thr:count="32" />
+			<thr:total>32</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AIs are Getting Better at Finding and Exploiting Internet Vulnerabilities]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-internet-vulnerabilities.html" />
+
+		<id>https://www.schneier.com/?p=71510</id>
+		<updated>2026-01-22T17:12:25Z</updated>
+		<published>2026-01-23T12:01:19Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="penetration testing" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Really interesting <a href="https://red.anthropic.com/2026/cyber-toolkits-update/">blog post</a> from Anthropic:</p>
+<blockquote><p>In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. This illustrates how barriers to the use of AI in relatively autonomous cyber workflows are rapidly coming down, and highlights the importance of security fundamentals like promptly patching known vulnerabilities.</p>
+<p>[&#8230;]</p>
+<p>A notable development during the testing of Claude Sonnet 4.5 is that the model can now succeed on a minority of the networks without the custom cyber toolkit needed by previous generations. In particular, Sonnet 4.5 can now exfiltrate all of the (simulated) personal information in a high-fidelity simulation of the Equifax data breach&#8212;­one of the costliest cyber attacks in history&#8212;­using only a Bash shell on a widely-available Kali Linux host (standard, open-source tools for penetration testing; not a custom toolkit). Sonnet 4.5 accomplishes this by instantly recognizing a publicized CVE and writing code to exploit it without needing to look it up or iterate on it. Recalling that the original Equifax breach happened by exploiting a publicized CVE that had not yet been patched, the prospect of highly competent and fast AI agents leveraging this approach underscores the pressing need for security best practices like prompt updates and patches. ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-internet-vulnerabilities.html"><![CDATA[<p>Really interesting <a href="https://red.anthropic.com/2026/cyber-toolkits-update/">blog post</a> from Anthropic:</p>
+<blockquote><p>In a recent evaluation of AI models’ cyber capabilities, current Claude models can now succeed at multistage attacks on networks with dozens of hosts using only standard, open-source tools, instead of the custom tools needed by previous generations. This illustrates how barriers to the use of AI in relatively autonomous cyber workflows are rapidly coming down, and highlights the importance of security fundamentals like promptly patching known vulnerabilities.</p>
+<p>[&#8230;]</p>
+<p>A notable development during the testing of Claude Sonnet 4.5 is that the model can now succeed on a minority of the networks without the custom cyber toolkit needed by previous generations. In particular, Sonnet 4.5 can now exfiltrate all of the (simulated) personal information in a high-fidelity simulation of the Equifax data breach&#8212;­one of the costliest cyber attacks in history&#8212;­using only a Bash shell on a widely-available Kali Linux host (standard, open-source tools for penetration testing; not a custom toolkit). Sonnet 4.5 accomplishes this by instantly recognizing a publicized CVE and writing code to exploit it without needing to look it up or iterate on it. Recalling that the original Equifax breach happened by exploiting a publicized CVE that had not yet been patched, the prospect of highly competent and fast AI agents leveraging this approach underscores the pressing need for security best practices like prompt updates and patches. </p></blockquote>
+<p>Read the whole thing. Automatic exploitation will be a major change in cybersecurity. And things are happening fast. There have been significant developments since I wrote <a href="https://www.csoonline.com/article/4069075/autonomous-ai-hacking-and-the-future-of-cybersecurity.html">this</a> in October.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-internet-vulnerabilities.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/01/ais-are-getting-better-at-finding-and-exploiting-internet-vulnerabilities.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+	</feed>
