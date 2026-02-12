@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-02-11T18:24:30Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Rewiring Democracy Ebook is on Sale]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/rewiring-democracy-ebook-is-on-sale.html" />
+
+		<id>https://www.schneier.com/?p=71593</id>
+		<updated>2026-02-11T18:24:30Z</updated>
+		<published>2026-02-11T14:48:14Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="books" /><category scheme="https://www.schneier.com/" term="ebooks" /><category scheme="https://www.schneier.com/" term="Rewiring Democracy" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>I just noticed that the ebook version of <a href="https://www.schneier.com/books/rewiring-democracy/"><i>Rewriring Democracy</i> is on sale for $5 on <a href="https://www.amazon.com/gp/product/B0DTNZ2H86">Amazon</a>, <a href="https://books.apple.com/us/book/rewiring-democracy/id6740839808">Apple Books</a>, <a href="https://www.barnesandnoble.com/w/rewiring-democracy-bruce-schneier/1146990469?ean=9780262384407">Barnes &#38; Noble</a>, <a href="https://www.booksamillion.com/p/Rewiring-Democracy/Bruce-Schneier/Q247907742">Books A Million</a>, <a href="https://play.google.com/store/books/details?id=QcNAEQAAQBAJ">Google Play</a>, <a href="https://www.kobo.com/us/en/ebook/rewiring-democracy">Kobo</a>, and presumably everywhere else in the US. I have no idea how long this will last.</p>
+<p>Also, Amazon has a <a href="https://www.amazon.com/Rewiring-Democracy-Transform-Government-Citizenship/dp/0262049945">coupon</a> that brings the hardcover price down to $20. You&#8217;ll see the discount at checkout.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/rewiring-democracy-ebook-is-on-sale.html"><![CDATA[<p>I just noticed that the ebook version of <a href="https://www.schneier.com/books/rewiring-democracy/"><i>Rewriring Democracy</i> is on sale for $5 on <a href="https://www.amazon.com/gp/product/B0DTNZ2H86">Amazon</a>, <a
+href="https://books.apple.com/us/book/rewiring-democracy/id6740839808">Apple Books</a>, <a
+href="https://www.barnesandnoble.com/w/rewiring-democracy-bruce-schneier/1146990469?ean=9780262384407">Barnes &amp; Noble</a>, <a
+href="https://www.booksamillion.com/p/Rewiring-Democracy/Bruce-Schneier/Q247907742">Books A Million</a>, <a
+href="https://play.google.com/store/books/details?id=QcNAEQAAQBAJ">Google Play</a>, <a href="https://www.kobo.com/us/en/ebook/rewiring-democracy">Kobo</a>, and presumably everywhere else in the US. I have no idea how long this will last.</p>
+<p>Also, Amazon has a <a href="https://www.amazon.com/Rewiring-Democracy-Transform-Government-Citizenship/dp/0262049945">coupon</a> that brings the hardcover price down to $20. You&#8217;ll see the discount at checkout.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/rewiring-democracy-ebook-is-on-sale.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/rewiring-democracy-ebook-is-on-sale.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Prompt Injection Via Road Signs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/prompt-injection-via-road-signs.html" />
+
+		<id>https://www.schneier.com/?p=71577</id>
+		<updated>2026-02-09T18:07:43Z</updated>
+		<published>2026-02-11T12:03:22Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="hacking" />
+		<summary type="html"><![CDATA[<p>Interesting research: &#8220;<a href="https://arxiv.org/pdf/2510.00181">CHAI: Command Hijacking Against Embodied AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> Embodied Artificial Intelligence (AI) promises to handle edge cases in robotic vehicle systems where data is scarce by using common-sense reasoning grounded in perception and action to generalize beyond training distributions and adapt to novel real-world situations. These capabilities, however, also create new security risks. In this paper, we introduce CHAI (Command Hijacking against embodied AI), a new class of prompt-based attacks that exploit the multimodal language interpretation abilities of Large Visual-Language Models (LVLMs). CHAI embeds deceptive natural language instructions, such as misleading signs, in visual input, systematically searches the token space, builds a dictionary of prompts, and guides an attacker model to generate Visual Attack Prompts. We evaluate CHAI on four LVLM agents; drone emergency landing, autonomous driving, and aerial object tracking, and on a real robotic vehicle. Our experiments show that CHAI consistently outperforms state-of-the-art attacks. By exploiting the semantic and multimodal reasoning strengths of next-generation embodied AI systems, CHAI underscores the urgent need for defenses that extend beyond traditional adversarial robustness...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/prompt-injection-via-road-signs.html"><![CDATA[<p>Interesting research: &#8220;<a href="https://arxiv.org/pdf/2510.00181">CHAI: Command Hijacking Against Embodied AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> Embodied Artificial Intelligence (AI) promises to handle edge cases in robotic vehicle systems where data is scarce by using common-sense reasoning grounded in perception and action to generalize beyond training distributions and adapt to novel real-world situations. These capabilities, however, also create new security risks. In this paper, we introduce CHAI (Command Hijacking against embodied AI), a new class of prompt-based attacks that exploit the multimodal language interpretation abilities of Large Visual-Language Models (LVLMs). CHAI embeds deceptive natural language instructions, such as misleading signs, in visual input, systematically searches the token space, builds a dictionary of prompts, and guides an attacker model to generate Visual Attack Prompts. We evaluate CHAI on four LVLM agents; drone emergency landing, autonomous driving, and aerial object tracking, and on a real robotic vehicle. Our experiments show that CHAI consistently outperforms state-of-the-art attacks. By exploiting the semantic and multimodal reasoning strengths of next-generation embodied AI systems, CHAI underscores the urgent need for defenses that extend beyond traditional adversarial robustness.</p></blockquote>
+<p>News <a href="https://www.theregister.com/2026/01/30/road_sign_hijack_ai/">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/prompt-injection-via-road-signs.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/prompt-injection-via-road-signs.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI-Generated Text and the Detection Arms Race]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/the-ai-generated-text-arms-race.html" />
+
+		<id>https://www.schneier.com/?p=71563</id>
+		<updated>2026-02-11T05:51:18Z</updated>
+		<published>2026-02-10T12:03:50Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>In 2023, the science fiction literary magazine <cite>Clarkesworld</cite> <a href="https://www.npr.org/2023/02/24/1159286436/ai-chatbot-chatgpt-magazine-&#60;cite&#62;Clarkesworld&#60;/cite&#62;-artificial-intelligence">stopped accepting</a> new submissions because so many were generated by artificial intelligence. Near as the editors could tell, many submitters pasted the magazine’s detailed story guidelines into an AI and sent in the results. And they weren’t alone. Other fiction magazines have also <a href="https://www.theverge.com/2023/2/25/23613752/ai-generated-short-stories-literary-magazines-&#60;cite&#62;Clarkesworld&#60;/cite&#62;-science-fiction">reported a high number</a> of AI-generated submissions.</p>
+<p>This is only one example of a ubiquitous trend. A legacy system relied on the difficulty of writing and cognition to limit volume. Generative AI overwhelms the system because the humans on the receiving end can’t keep up...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/the-ai-generated-text-arms-race.html"><![CDATA[<p>In 2023, the science fiction literary magazine <cite>Clarkesworld</cite> <a href="https://www.npr.org/2023/02/24/1159286436/ai-chatbot-chatgpt-magazine-&lt;cite&gt;Clarkesworld&lt;/cite&gt;-artificial-intelligence">stopped accepting</a> new submissions because so many were generated by artificial intelligence. Near as the editors could tell, many submitters pasted the magazine’s detailed story guidelines into an AI and sent in the results. And they weren’t alone. Other fiction magazines have also <a href="https://www.theverge.com/2023/2/25/23613752/ai-generated-short-stories-literary-magazines-&lt;cite&gt;Clarkesworld&lt;/cite&gt;-science-fiction">reported a high number</a> of AI-generated submissions.</p>
+<p>This is only one example of a ubiquitous trend. A legacy system relied on the difficulty of writing and cognition to limit volume. Generative AI overwhelms the system because the humans on the receiving end can’t keep up.</p>
+<p>This is happening everywhere. Newspapers are being inundated by AI-generated <a href="https://www.nytimes.com/2025/11/04/science/letters-to-the-editor-ai-chatbots.html">letters to the editor</a>, as are <a href="https://www.marketplace.org/episode/2025/11/24/ai-generated-letters-to-the-editor-are-flooding-academic-publications">academic journals</a>. Lawmakers are inundated with AI-generated <a href="https://government.cornell.edu/news/lawmakers-struggle-differentiate-ai-and-human-emails">constituent comments</a>. Courts around the world are flooded with AI-generated <a href="https://www.law.com/international-edition/2025/11/25/courts-being-flooded-by-wordy-ai-generated-documents-report-finds/">filings</a>, particularly by people representing themselves. AI conferences are <a href="https://futurism.com/artificial-intelligence/ai-research-papers-slop">flooded</a> with AI-generated research papers. Social media <a href="https://www.app.com/story/news/2025/12/07/how-to-deal-with-fake-ai-stories-popping-up-on-facebook-social-media/87629867007/">is</a> <a href="https://www.nytimes.com/2025/12/08/technology/ai-slop-sora-social-media.html">flooded</a> with <a href="https://www.cyberlink.com/blog/photo-marketing-business/3828/best-ai-social-media-post-generator">AI posts</a>. In <a href="https://time.com/7338205/rage-against-ai-generated-music/">music</a>, <a href="https://github.com/orgs/community/discussions/159749">open source software</a>, <a href="https://www.newyorker.com/magazine/2025/07/07/the-end-of-the-english-paper">education</a>, <a href="https://bsky.app/profile/eliothiggins.bsky.social/post/3m5yh2gjlj22b">investigative journalism</a> and <a href="https://www.nytimes.com/2025/06/21/business/dealbook/ai-job-applications.html">hiring</a>, it’s the same story.</p>
+<p>Like <cite>Clarkesworld</cite>’s initial response, some of these institutions shut down their submissions processes. Others have met the offensive of AI inputs with some defensive response, often involving a counteracting use of AI. Academic <a href="https://doi.org/10.1038/d41586-025-03506-6">peer reviewers</a> increasingly use AI to evaluate papers that may have been generated by AI. Social media platforms turn to <a href="https://www.integrityinstitute.org/blog/how-generative-ai-makes-content-moderation-both-harder-and-easier">AI moderators</a>. Court systems use AI to <a href="https://restofworld.org/2025/brazil-ai-courts-lawsuits/">triage and process</a> litigation volumes supercharged by AI. Employers turn to <a href="https://www.forbes.com/sites/mariagraciasantillanalinares/2025/12/16/job-applicant-fraud-is-rising-this-startup-is-using-ai-to-stop-it/">AI tools</a> to review candidate applications. Educators use AI not just to <a href="https://www.cnn.com/2024/04/06/tech/teachers-grading-ai">grade papers</a> and <a href="https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html">administer exams</a>, but as a <a href="https://wacclearinghouse.org/repository/collections/textgened/rhetorical-engagements/using-llms-as-peer-reviewers-for-revising-essays/">feedback</a> tool for students.</p>
+<p>These are all arms races: rapid, adversarial iteration to apply a common technology to opposing purposes. Many of these arms races have clearly deleterious effects. Society suffers if the courts are clogged with frivolous, AI-manufactured cases. There is also harm if the established measures of academic performance – publications and citations – accrue to those researchers most willing to fraudulently submit AI-written letters and papers rather than to those whose ideas have the most impact. The fear is that, in the end, fraudulent behavior enabled by AI will undermine systems and institutions that society relies on.</p>
+<h3>Upsides of AI</h3>
+<p>Yet some of these AI arms races have surprising hidden upsides, and the hope is that at least some institutions will be able to change in ways that make them stronger.</p>
+<p>Science seems likely to become stronger thanks to AI, yet it faces a problem when the AI makes mistakes. Consider the example of <a href="https://theconversation.com/a-weird-phrase-is-plaguing-scientific-papers-and-we-traced-it-back-to-a-glitch-in-ai-training-data-254463">nonsensical</a>, AI-generated phrasing filtering into scientific papers.</p>
+<p>A scientist using an AI to assist in writing an academic paper can be a good thing, if used carefully and with disclosure. AI is increasingly a <a href="https://www.nature.com/articles/s43588-025-00890-x">primary tool</a> in scientific research: for reviewing literature, programming and for coding and analyzing data. And for many, it has become a crucial support for expression and scientific communication. Pre-AI, better-funded researchers could hire humans to help them write their academic papers. For many authors whose primary language is not English, hiring this kind of assistance has been an expensive <a href="https://doi.org/10.1098/rspb.2023.2840">necessity</a>. AI provides it to everyone.</p>
+<p>In fiction, fraudulently submitted AI-generated works cause harm, both to the human authors now subject to increased competition and to those readers who may feel defrauded after unknowingly reading the work of a machine. But some outlets may welcome AI-assisted submissions with appropriate disclosure and under particular guidelines, and leverage AI to evaluate them against criteria like originality, fit and quality.</p>
+<p>Others may refuse AI-generated work, but this will come at a cost. It’s unlikely that any human editor or technology can sustain an ability to differentiate human from machine writing. Instead, outlets that wish to exclusively publish humans will need to limit submissions to a set of authors they trust to not use AI. If these policies are transparent, readers can pick the format they prefer and read happily from either or both types of outlets.</p>
+<p>We also don’t see any problem if a job seeker uses AI to polish their resumes or write better cover letters: The wealthy and privileged have long had access to human assistance for those things. But it crosses the line when AIs are used to <a href="https://www.cbsnews.com/news/fake-job-seekers-flooding-market-artificial-intelligence/">lie</a> about identity and experience, or to <a href="https://www.theatlantic.com/technology/2025/10/ai-cheating-job-interviews-fraud/684568/">cheat</a> on job interviews.</p>
+<p>Similarly, a democracy requires that its citizens be able to express their opinions to their representatives, or to each other through a medium like the newspaper. The rich and powerful have long been able to hire writers to turn their ideas into persuasive prose, and AIs providing that assistance to more people is a good thing, in our view. Here, AI mistakes and bias can be harmful. Citizens may be using AI for more than just a time-saving shortcut; it may be augmenting their knowledge and capabilities, generating statements about historical, legal or policy factors they can’t reasonably be expected to independently check.</p>
+<h3>Fraud booster</h3>
+<p>What we don’t want is for lobbyists to use AIs in astroturf campaigns, writing multiple letters and passing them off as individual opinions. This, too, is an <a href="https://www.washingtonpost.com/politics/2021/05/14/millions-fake-commenters-asked-fcc-end-net-neutrality-astroturfing-is-business-model/">older problem</a> that AIs are making worse.</p>
+<p>What differentiates the positive from the negative here is not any inherent aspect of the technology, it’s the power dynamic. The same technology that reduces the effort required for a citizen to share their lived experience with their legislator also enables corporate interests to misrepresent the public at scale. The former is a power-equalizing application of AI that enhances participatory democracy; the latter is a power-concentrating application that threatens it.</p>
+<p>In general, we believe writing and cognitive assistance, long available to the rich and powerful, should be available to everyone. The problem comes when AIs make fraud easier. Any response needs to balance embracing that newfound democratization of access with preventing fraud.</p>
+<p>There’s no way to turn this technology off. Highly capable AIs are widely available and can run on a laptop. Ethical guidelines and clear professional boundaries can help – for those acting in good faith. But there won’t ever be a way to totally stop academic writers, job seekers or citizens from using these tools, either as legitimate assistance or to commit fraud. This means more comments, more letters, more applications, more submissions.</p>
+<p>The problem is that whoever is on the receiving end of this AI-fueled deluge can’t deal with the increased volume. What can help is developing assistive AI tools that benefit institutions and society, while also limiting fraud. And that may mean embracing the use of AI assistance in these adversarial systems, even though the defensive AI will never achieve supremacy.</p>
+<h3>Balancing harms with benefits</h3>
+<p>The science fiction community has been wrestling with AI since 2023. <cite>Clarkesworld</cite> eventually reopened submissions, <a href="https://www.postalley.org/2024/06/04/the-big-sort-how-will-ai-affect-submissions-to-magazines/">claiming</a> that it has an adequate way of separating human- and AI-written stories. No one knows how long, or how well, that will continue to work.</p>
+<p>The arms race continues. There is no simple way to tell whether the potential benefits of AI will outweigh the harms, now or in the future. But as a society, we can influence the balance of harms it wreaks and opportunities it presents as we muddle our way through the changing technological landscape.</p>
+<p><a href="https://theconversation.com/ai-generated-text-is-overwhelming-institutions-setting-off-a-no-win-arms-race-with-ai-detectors-274720"><em>This essay was written with Nathan E. Sanders, and originally appeared in The Conversation.</em></a></p>
+<p>EDITED TO ADD: This essay has been translated into <a href="https://www.elconfidencial.com/tecnologia/novaceno/2026-02-07/ia-derriba-sociedad-educacion-legal-medios_4298791/">Spanish</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/the-ai-generated-text-arms-race.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/the-ai-generated-text-arms-race.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[LLMs are Getting a Lot Better and Faster at Finding and Exploiting Zero-Days]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html" />
+
+		<id>https://www.schneier.com/?p=71569</id>
+		<updated>2026-02-06T20:49:33Z</updated>
+		<published>2026-02-09T12:04:29Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="zero-day" />
+		<summary type="html"><![CDATA[<p>This is <a href="https://red.anthropic.com/2026/zero-days/">amazing</a>:</p>
+<blockquote><p>Opus 4.6 is notably better at finding high-severity vulnerabilities than previous models and a sign of how quickly things are moving. Security teams have been automating vulnerability discovery for years, investing heavily in fuzzing infrastructure and custom harnesses to find bugs at scale. But what stood out in early testing is how quickly Opus 4.6 found vulnerabilities out of the box without task-specific tooling, custom scaffolding, or specialized prompting. Even more interesting is how it found them. Fuzzers work by throwing massive amounts of random inputs at code to see what breaks. Opus 4.6 reads and reasons about code the way a human researcher would­&#8212;looking at past fixes to find similar bugs that weren&#8217;t addressed, spotting patterns that tend to cause problems, or understanding a piece of logic well enough to know exactly what input would break it. When we pointed Opus 4.6 at some of the most well-tested codebases (projects that have had fuzzers running against them for years, ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html"><![CDATA[<p>This is <a href="https://red.anthropic.com/2026/zero-days/">amazing</a>:</p>
+<blockquote><p>Opus 4.6 is notably better at finding high-severity vulnerabilities than previous models and a sign of how quickly things are moving. Security teams have been automating vulnerability discovery for years, investing heavily in fuzzing infrastructure and custom harnesses to find bugs at scale. But what stood out in early testing is how quickly Opus 4.6 found vulnerabilities out of the box without task-specific tooling, custom scaffolding, or specialized prompting. Even more interesting is how it found them. Fuzzers work by throwing massive amounts of random inputs at code to see what breaks. Opus 4.6 reads and reasons about code the way a human researcher would­&#8212;looking at past fixes to find similar bugs that weren&#8217;t addressed, spotting patterns that tend to cause problems, or understanding a piece of logic well enough to know exactly what input would break it. When we pointed Opus 4.6 at some of the most well-tested codebases (projects that have had fuzzers running against them for years, <a href="https://google.github.io/oss-fuzz/research/llms/target_generation/">accumulating millions of hours of CPU time</a>), Opus 4.6 found high-severity vulnerabilities, some that had gone undetected for decades.</p></blockquote>
+<p>The details of how Claude Opus 4.6 found these zero-days is the interesting part&#8212;read the whole blog post.</p>
+<p>News <a href="https://gizmodo.com/anthropic-launches-new-model-that-spots-zero-days-makes-wall-street-traders-lose-their-minds-2000718648">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/llms-are-getting-a-lot-better-and-faster-at-finding-and-exploiting-zero-days.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Fishing Tips]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-tips.html" />
+
+		<id>https://www.schneier.com/?p=71521</id>
+		<updated>2026-01-22T20:12:46Z</updated>
+		<published>2026-02-06T22:01:05Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>This is a <a href="https://www.youtube.com/watch?v=pNq_W2CkACU">video</a> of advice for squid fishing in Puget Sound.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-tips.html"><![CDATA[<p>This is a <a href="https://www.youtube.com/watch?v=pNq_W2CkACU">video</a> of advice for squid fishing in Puget Sound.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-tips.html#comments" thr:count="36" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-tips.html/feed/atom/" thr:count="36" />
+			<thr:total>36</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[I Am in the Epstein Files]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/i-am-in-the-epstein-files.html" />
+
+		<id>https://www.schneier.com/?p=71567</id>
+		<updated>2026-02-07T14:44:35Z</updated>
+		<published>2026-02-06T20:43:52Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="email" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p><a href="https://www.jmail.world/thread/EFTA02451032?view=inbox">Once</a>. Someone named &#8220;Vincenzo lozzo&#8221; wrote to Epstein in email, in 2016: &#8220;I wouldn&#8217;t pay too much attention to this, Schneier has a long tradition of dramatizing and misunderstanding things.&#8221; The topic of the email is DDoS attacks, and it is unclear what I am dramatizing and misunderstanding.</p>
+<p>Rabbi Schneier is also mentioned, also incidentally, also <a href="https://www.jmail.world/thread/EFTA02442876?view=inbox">once</a>. As far as either of us know, we are not related.</p>
+<p>EDITED TO ADD (2/7): There is <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00817090.pdf">more context</a> on the Justice.gov website version.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/i-am-in-the-epstein-files.html"><![CDATA[<p><a href="https://www.jmail.world/thread/EFTA02451032?view=inbox">Once</a>. Someone named &#8220;Vincenzo lozzo&#8221; wrote to Epstein in email, in 2016: &#8220;I wouldn&#8217;t pay too much attention to this, Schneier has a long tradition of dramatizing and misunderstanding things.&#8221; The topic of the email is DDoS attacks, and it is unclear what I am dramatizing and misunderstanding.</p>
+<p>Rabbi Schneier is also mentioned, also incidentally, also <a href="https://www.jmail.world/thread/EFTA02442876?view=inbox">once</a>. As far as either of us know, we are not related.</p>
+<p>EDITED TO ADD (2/7): There is <a href="https://www.justice.gov/epstein/files/DataSet%209/EFTA00817090.pdf">more context</a> on the Justice.gov website version.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/i-am-in-the-epstein-files.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/i-am-in-the-epstein-files.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[iPhone Lockdown Mode Protects Washington Post Reporter]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/iphone-lockdown-mode-protects-washington-post-reporter.html" />
+
+		<id>https://www.schneier.com/?p=71560</id>
+		<updated>2026-02-05T17:03:50Z</updated>
+		<published>2026-02-06T12:00:36Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="courts" /><category scheme="https://www.schneier.com/" term="FBI" /><category scheme="https://www.schneier.com/" term="iPhone" /><category scheme="https://www.schneier.com/" term="privacy" />
+		<summary type="html"><![CDATA[<p>404Media is <a href="https://www.404media.co/fbi-couldnt-get-into-wapo-reporters-iphone-because-it-had-lockdown-mode-enabled/">reporting</a> that the FBI could not access a reporter&#8217;s iPhone because it had Lockdown Mode enabled:</p>
+<blockquote><p>The court record shows what devices and data the FBI was able to ultimately access, and which devices it could not, after raiding the home of the reporter, Hannah Natanson, in January as part of an investigation into leaks of classified information. It also provides rare insight into the apparent effectiveness of Lockdown Mode, or at least how effective it might be before the FBI may try other techniques to access the device.</p>
+<p>&#8220;Because the iPhone was in Lockdown mode, CART could not extract that device,&#8221; the court record reads, referring to the FBI&#8217;s Computer Analysis Response Team, a unit focused on performing forensic analyses of seized devices. The document is written by the government, and is opposing the return of Natanson&#8217;s devices...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/iphone-lockdown-mode-protects-washington-post-reporter.html"><![CDATA[<p>404Media is <a href="https://www.404media.co/fbi-couldnt-get-into-wapo-reporters-iphone-because-it-had-lockdown-mode-enabled/">reporting</a> that the FBI could not access a reporter&#8217;s iPhone because it had Lockdown Mode enabled:</p>
+<blockquote><p>The court record shows what devices and data the FBI was able to ultimately access, and which devices it could not, after raiding the home of the reporter, Hannah Natanson, in January as part of an investigation into leaks of classified information. It also provides rare insight into the apparent effectiveness of Lockdown Mode, or at least how effective it might be before the FBI may try other techniques to access the device.</p>
+<p>&#8220;Because the iPhone was in Lockdown mode, CART could not extract that device,&#8221; the court record reads, referring to the FBI&#8217;s Computer Analysis Response Team, a unit focused on performing forensic analyses of seized devices. The document is written by the government, and is opposing the return of Natanson&#8217;s devices.</p>
+<p>The FBI raided Natanson&#8217;s home as part of its investigation into government contractor Aurelio Perez-Lugones, who is charged with, among other things, retention of national defense information. The government believes Perez-Lugones was a source of Natanson&#8217;s, and provided her with various pieces of classified information. While executing a search warrant for his mobile phone, investigators reviewed Signal messages between Pere-Lugones and the reporter, the Department of Justice previously said. </p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/iphone-lockdown-mode-protects-washington-post-reporter.html#comments" thr:count="20" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/iphone-lockdown-mode-protects-washington-post-reporter.html/feed/atom/" thr:count="20" />
+			<thr:total>20</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Backdoor in Notepad++]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html" />
+
+		<id>https://www.schneier.com/?p=71556</id>
+		<updated>2026-02-05T04:02:12Z</updated>
+		<published>2026-02-05T12:00:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="supply chain" />
+		<summary type="html"><![CDATA[<p>Hackers associated with the Chinese government used a <a href="https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/">Trojaned version</a> of Notepad++ to deliver malware to selected users.</p>
+<blockquote><p>Notepad++ said that officials with the unnamed provider hosting the update infrastructure consulted with incident responders and found that it remained compromised until September 2. Even then, the attackers maintained credentials to the internal services until December 2, a capability that allowed them to continue redirecting selected update traffic to malicious servers. The threat actor &#8220;specifically targeted Notepad++ domain with the goal of exploiting insufficient update verification controls that existed in older versions of Notepad++.&#8221; Event logs indicate that the hackers tried to re-exploit one of the weaknesses after it was fixed but that the attempt failed...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html"><![CDATA[<p>Hackers associated with the Chinese government used a <a href="https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/">Trojaned version</a> of Notepad++ to deliver malware to selected users.</p>
+<blockquote><p>Notepad++ said that officials with the unnamed provider hosting the update infrastructure consulted with incident responders and found that it remained compromised until September 2. Even then, the attackers maintained credentials to the internal services until December 2, a capability that allowed them to continue redirecting selected update traffic to malicious servers. The threat actor &#8220;specifically targeted Notepad++ domain with the goal of exploiting insufficient update verification controls that existed in older versions of Notepad++.&#8221; Event logs indicate that the hackers tried to re-exploit one of the weaknesses after it was fixed but that the attempt failed.</p></blockquote>
+<p>Make sure you&#8217;re running at least version 8.9.1.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/backdoor-in-notepad.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[US Declassifies Information on JUMPSEAT Spy Satellites]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html" />
+
+		<id>https://www.schneier.com/?p=71552</id>
+		<updated>2026-02-03T17:04:40Z</updated>
+		<published>2026-02-04T12:02:10Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="espionage" /><category scheme="https://www.schneier.com/" term="history of security" /><category scheme="https://www.schneier.com/" term="national security policy" />
+		<summary type="html"><![CDATA[<p>The US National Reconnaissance Office has declassified <a href="https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/">information</a> about a fleet of spy satellites operating between 1971 and 2006.</p>
+<p>I&#8217;m actually impressed to see a declassification only two decades after decommission.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html"><![CDATA[<p>The US National Reconnaissance Office has declassified <a href="https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/">information</a> about a fleet of spy satellites operating between 1971 and 2006.</p>
+<p>I&#8217;m actually impressed to see a declassification only two decades after decommission.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/us-declassifies-information-on-jumpseat-spy-satellites.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Microsoft is Giving the FBI BitLocker Keys]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html" />
+
+		<id>https://www.schneier.com/?p=71550</id>
+		<updated>2026-02-02T17:08:53Z</updated>
+		<published>2026-02-03T12:05:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="FBI" /><category scheme="https://www.schneier.com/" term="full-disk encryption" /><category scheme="https://www.schneier.com/" term="Microsoft" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="Windows" />
+		<summary type="html"><![CDATA[<p>Microsoft <a href="https://www.forbes.com/sites/thomasbrewster/2026/01/22/microsoft-gave-fbi-keys-to-unlock-bitlocker-encrypted-data/">gives</a> the FBI the ability to decrypt BitLocker in response to court orders: about twenty times per year.</p>
+<blockquote><p>It&#8217;s possible for users to store those keys on a device they own, but Microsoft also recommends BitLocker users store their keys on its servers for convenience. While that means someone can access their data if they forget their password, or if repeated failed attempts to login lock the device, it also makes them vulnerable to law enforcement subpoenas and warrants.</p></blockquote>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html"><![CDATA[<p>Microsoft <a href="https://www.forbes.com/sites/thomasbrewster/2026/01/22/microsoft-gave-fbi-keys-to-unlock-bitlocker-encrypted-data/">gives</a> the FBI the ability to decrypt BitLocker in response to court orders: about twenty times per year.</p>
+<blockquote><p>It&#8217;s possible for users to store those keys on a device they own, but Microsoft also recommends BitLocker users store their keys on its servers for convenience. While that means someone can access their data if they forget their password, or if repeated failed attempts to login lock the device, it also makes them vulnerable to law enforcement subpoenas and warrants.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/microsoft-is-giving-the-fbi-bitlocker-keys.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+	</feed>
