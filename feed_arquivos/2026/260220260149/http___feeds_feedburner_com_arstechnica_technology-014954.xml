@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Wed, 18 Feb 2026 15:47:51 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Password managers&#039; promise that they can&#039;t see your vaults isn&#039;t always true</title>
+                <link>https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 17 Feb 2026 20:43:01 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[end to end encryption]]></category>
+		<category><![CDATA[password managers]]></category>
+		<category><![CDATA[zero knowledge]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/</guid>
+
+                                    <description>
+                        <![CDATA[Contrary to what password managers say, a server compromise can mean game over.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the past 15 years, password managers have grown from a niche security tool used by the technology savvy into an indispensable security tool for the masses, with an <a href="https://www.security.org/digital-safety/password-manager-annual-report/">estimated</a> 94 million US adults—or roughly 36 percent of them—having adopted them. They store not only passwords for pension, financial, and email accounts, but also cryptocurrency credentials, payment card numbers, and other sensitive data.</p>
+<p>All eight of the top password managers have adopted the term “zero knowledge” to describe the complex encryption system they use to protect the data vaults that users store on their servers. The definitions vary slightly from vendor to vendor, but they generally boil down to one bold assurance: that there is no way for malicious insiders or hackers who manage to compromise the cloud infrastructure to steal vaults or data stored in them. These promises make sense, given <a href="https://arstechnica.com/information-technology/2022/12/lastpass-says-hackers-have-obtained-vault-data-and-a-wealth-of-customer-info/">previous</a> <a href="https://arstechnica.com/information-technology/2023/02/lastpass-hackers-infected-employees-home-computer-and-stole-corporate-vault/">breaches</a> of LastPass and the reasonable expectation that state-level hackers have both the motive and capability to obtain password vaults belonging to high-value targets.</p>
+<h2>A bold assurance debunked</h2>
+<p>Typical of these claims are those made by Bitwarden, Dashlane, and LastPass, which together are used by roughly 60 million people. Bitwarden, <a href="https://bitwarden.com/pdf/resources-zero-knowledge-encryption-white-paper.pdf">for example</a>, says that “not even the team at Bitwarden can read your data (even if we wanted to).” Dashlane, meanwhile, <a href="https://www.dashlane.com/download/whitepaper-en.pdf">says</a> that without a user’s master password, “malicious actors can’t steal the information, even if Dashlane’s servers are compromised.” LastPass <a href="https://blog.lastpass.com/posts/how-zero-knowledge-keeps-passwords-safe">says</a> that no one can access the “data stored in your LastPass vault, except you (not even LastPass).”</p><p><a href="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>168</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/password-login-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/password-login-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Most VMware users still &quot;actively reducing their VMware footprint,&quot; survey finds</title>
+                <link>https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Tue, 17 Feb 2026 18:38:10 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/</guid>
+
+                                    <description>
+                        <![CDATA[Broadcom's "strategy was never to keep every customer," CloudBolt report says. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>More than two years after Broadcom took over VMware, the virtualization company’s customers are still grappling with higher prices, uncertainty, and the challenges of reducing vendor lock-in.</p>
+<p>Today, CloudBolt Software released a report, "<a href="https://www.cloudbolt.io/cii-report-the-mass-exodus-that-never-was/">The Mass Exodus That Never Was: The Squeeze Is Just Beginning,</a>" that provides insight into those struggles. CloudBolt is a hybrid cloud management platform provider that aims to identify VMware customers’ pain points so it can <a href="https://www.cloudbolt.io/cloud-provider/vmware/">sell them</a> relevant solutions. In the report, CloudBolt said it surveyed 302 IT decision-makers (director-level or higher) at North American companies with at least 1,000 employees in January. The survey is far from comprehensive, but it offers a look at the obstacles these users face.</p>
+<p>Broadcom closed its VMware acquisition in November 2023, and last month, 88 percent of survey respondents still described the change as “disruptive.” Per the survey, the most cited drivers of disruption were <a href="https://arstechnica.com/information-technology/2025/09/broadcoms-prohibitive-vmware-prices-create-a-learning-barrier-it-pro-says/">price increases</a> (named by 89 percent of respondents), followed by uncertainty about Broadcom’s plans (85 percent), support quality concerns (78 percent), Broadcom shifting VMware <a href="https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/">from perpetual licenses to subscriptions</a> (72 percent), <a href="https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/">changes to VMware’s partner program</a> (68 percent), and the forced bundling of products (65 percent).</p><p><a href="https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>88</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2188662122-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2188662122-500x500.jpg" width="500" height="500" />
+<media:credit>Bildagentur-online/Schoening/Universal Images Group via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Retraction: After a routine code rejection, an AI agent published a hit piece on someone by name</title>
+                <link>https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ars Staff]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Feb 2026 19:40:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI criticism]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[OpenClaw]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/</guid>
+
+                                    <description>
+                        <![CDATA[This story has been retracted]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Following additional review, Ars has determined that the story “After a routine code rejection, an AI agent published a hit piece on someone by name,” did not meet our standards. Ars Technica has retracted this article. Originally published on Feb 13, 2026 at 2:40PM EST and removed on Feb 13, 2026 at 4:22PM EST.</p>
+<p><a href="https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>1</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-in-open-source-terminal-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-in-open-source-terminal-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips</title>
+                <link>https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 12 Feb 2026 22:56:02 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI speed]]></category>
+		<category><![CDATA[Cerebras]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[tokens]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/</guid>
+
+                                    <description>
+                        <![CDATA[OpenAI's new GPT‑5.3‑Codex‑Spark is 15 times faster at coding than its predecessor.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, OpenAI <a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/">released</a> its first production AI model to run on non-Nvidia hardware, deploying the new GPT-5.3-Codex-Spark coding model on chips from Cerebras. The model delivers code at more than 1,000 tokens (chunks of data) per second, which is reported to be roughly 15 times faster than its predecessor. To compare, Anthropic's Claude Opus 4.6 in its new premium-priced fast mode <a href="https://platform.claude.com/docs/en/build-with-claude/fast-mode">reaches</a> about 2.5 times its standard speed of <a href="https://artificialanalysis.ai/models/claude-opus-4-6-adaptive">68.2 tokens per second</a>, although it is a larger and more capable model than Spark.</p>
+<p>"Cerebras has been a great engineering partner, and we're excited about adding fast inference as a new platform capability," Sachin Katti, head of compute at OpenAI, said in a statement.</p>
+<p>Codex-Spark is a research preview available to ChatGPT Pro subscribers ($200/month) through the Codex app, command-line interface, and VS Code extension. OpenAI is rolling out API access to select design partners. The model ships with a 128,000-token context window and handles text only at launch.</p><p><a href="https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>110</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2225076517_resize-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2225076517_resize-500x500.jpg" width="500" height="500" />
+<media:credit>Teera Konakan / Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Attackers prompted Gemini over 100,000 times while trying to clone it, Google says</title>
+                <link>https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 12 Feb 2026 19:42:08 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI language models]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[deepseek]]></category>
+		<category><![CDATA[Distillation]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/</guid>
+
+                                    <description>
+                        <![CDATA[Distillation technique lets copycats mimic Gemini at a fraction of the development cost.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, Google <a href="https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use">announced</a> that "commercially motivated" actors have attempted to clone knowledge from its Gemini AI chatbot by simply prompting it. One adversarial session reportedly prompted the model more than 100,000 times across various non-English languages, collecting responses ostensibly to train a cheaper copycat.</p>
+<p>Google published the findings in what amounts to a quarterly self-assessment of threats to its own products that frames the company as the victim and the hero, which is not unusual in these self-authored assessments. Google calls the illicit activity "model extraction" and considers it intellectual property theft, which is a somewhat loaded position, <a href="https://www.theverge.com/2023/7/5/23784257/google-ai-bard-privacy-policy-train-web-scraping">given</a> that Google's LLM was built from materials scraped from the Internet without permission.</p>
+<p>Google is also no stranger to the copycat practice. In 2023, The Information <a href="https://9to5google.com/2023/03/30/google-bard-chatgpt-training-report/">reported</a> that Google's Bard team had been accused of using ChatGPT outputs from ShareGPT, a public site where users share chatbot conversations, to help train its own chatbot. Senior Google AI researcher Jacob Devlin, who created the influential BERT language model, <a href="https://finance.yahoo.com/news/top-ai-researcher-reportedly-left-190003999.html">warned</a> leadership that this violated OpenAI's terms of service, then resigned and joined OpenAI. Google denied the claim but reportedly stopped using the data.</p><p><a href="https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/gemini_header-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/gemini_header-500x500.jpg" width="500" height="500" />
+<media:credit>Google</media:credit><media:text>The Google Gemini logo.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Once-hobbled Lumma Stealer is back with lures that are hard to resist</title>
+                <link>https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 11 Feb 2026 22:11:40 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[castleloader]]></category>
+		<category><![CDATA[clickfix]]></category>
+		<category><![CDATA[infostealer]]></category>
+		<category><![CDATA[lumma]]></category>
+		<category><![CDATA[malware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/</guid>
+
+                                    <description>
+                        <![CDATA[ClickFix bait, combined with advanced Castleloader malware, is installing Lumma "at scale."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last May, law enforcement authorities around the world scored a key win when they hobbled the infrastructure of Lumma, an infostealer that infected nearly 395,000 Windows computers over just a two-month span leading up to the international operation. Researchers said Wednesday that Lumma is once again “back at scale” in hard-to-detect attacks that pilfer credentials and sensitive files.</p>
+<p>Lumma, also known as Lumma Stealer, first appeared in Russian-speaking cybercrime forums in 2022. Its cloud-based malware-as-a-service model provided a sprawling infrastructure of domains for hosting lure sites offering free cracked software, games, and pirated movies, as well as command-and-control channels and everything else a threat actor needed to run their infostealing enterprise. Within a year, Lumma was selling for as much as $2,500 for premium versions. By the spring of 2024, the FBI counted more than 21,000 listings on crime forums. Last year, Microsoft said Lumma had become the “go-to tool” for multiple crime groups, including Scattered Spider, one of the most prolific groups.</p>
+<h2>Takedowns are hard</h2>
+<p>The FBI and an international coalition of its counterparts <a href="https://arstechnica.com/security/2025/05/authorities-carry-out-global-takedown-of-infostealer-used-by-cybercriminals/">took action</a> early last year. In May, they said they seized 2,300 domains, command-and-control infrastructure, and crime marketplaces that had enabled the infostealer to thrive. Recently, however, the malware has made a comeback, allowing it to infect a significant number of machines again.</p><p><a href="https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI researcher quits over ChatGPT ads, warns of &quot;Facebook&quot; path</title>
+                <link>https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 11 Feb 2026 20:44:19 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[advertising]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI sycophancy]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[sycophancy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/</guid>
+
+                                    <description>
+                        <![CDATA[Zoë Hitzig resigned on the same day OpenAI began testing ads in its chatbot.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, former OpenAI researcher Zoë Hitzig <a href="https://www.nytimes.com/2026/02/11/opinion/openai-ads-chatgpt.html">published</a> a guest essay in The New York Times announcing that she resigned from the company on Monday, the same day OpenAI <a href="https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/">began testing</a> advertisements inside ChatGPT. Hitzig, an economist and published poet who holds a junior fellowship at the Harvard Society of Fellows, spent two years at OpenAI helping shape how its AI models were built and priced. She wrote that OpenAI's advertising strategy risks repeating the same mistakes that Facebook made a decade ago.</p>
+<p>"I once believed I could help the people building A.I. get ahead of the problems it would create," Hitzig wrote. "This week confirmed my slow realization that OpenAI seems to have stopped asking the questions I'd joined to help answer."</p>
+<p>Hitzig did not call advertising itself immoral. Instead, she argued that the nature of the data at stake makes ChatGPT ads especially risky. Users have shared medical fears, relationship problems, and religious beliefs with the chatbot, she wrote, often "because people believed they were talking to something that had no ulterior agenda." She called this accumulated record of personal disclosures "an archive of human candor that has no precedent."</p><p><a href="https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/02/openai-researcher-quits-over-fears-that-chatgpt-ads-could-manipulate-users/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>84</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/open-ai-monkey-ad-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/open-ai-monkey-ad-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Sixteen Claude AI agents working together created a new C compiler</title>
+                <link>https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 06 Feb 2026 23:40:58 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI programming]]></category>
+		<category><![CDATA[AI research]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[Compilers]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Nicholas Carlini]]></category>
+		<category><![CDATA[open source]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/</guid>
+
+                                    <description>
+                        <![CDATA[The $20,000 experiment compiled a Linux kernel but needed deep human management.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Amid a <a href="https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/">push toward AI agents</a>, with both Anthropic and OpenAI shipping multi-agent tools this week, Anthropic is more than ready to show off some of its more daring AI coding experiments. But as usual with claims of AI-related achievement, you'll find some key caveats ahead.</p>
+<p>On Thursday, Anthropic researcher Nicholas Carlini <a href="https://www.anthropic.com/engineering/building-c-compiler">published a blog post</a> describing how he set 16 instances of the company's Claude Opus 4.6 AI model loose on a shared codebase with minimal supervision, tasking them with building a C compiler from scratch.</p>
+<p>Over two weeks and nearly 2,000 Claude Code sessions costing about $20,000 in API fees, the AI model agents reportedly produced a 100,000-line Rust-based compiler capable of building a bootable Linux 6.9 kernel on x86, ARM, and RISC-V architectures.</p><p><a href="https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>226</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/coding_robots_agents-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/coding_robots_agents-500x500.jpg" width="500" height="500" />
+<media:credit>akinbostanci via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Malicious packages for dYdX cryptocurrency exchange empties user wallets</title>
+                <link>https://arstechnica.com/security/2026/02/malicious-packages-for-dydx-cryptocurrency-exchange-empties-user-wallets/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/malicious-packages-for-dydx-cryptocurrency-exchange-empties-user-wallets/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 06 Feb 2026 22:16:51 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cryptocurrency exchanges]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[supply chain attack]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/malicious-packages-for-dydx-cryptocurrency-exchange-empties-user-wallets/</guid>
+
+                                    <description>
+                        <![CDATA[Incident is at least the third time the exchange has been targeted by thieves.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Open source packages published on the npm and PyPI repositories were laced with code that stole wallet credentials from dYdX developers and backend systems and, in some cases, backdoored devices, researchers said.</p>
+<p>“Every application using the compromised npm versions is at risk ….” the researchers, from security firm Socket, <a href="https://socket.dev/blog/malicious-dydx-packages-published-to-npm-and-pypi">said Friday</a>. “Direct impact includes complete wallet compromise and irreversible cryptocurrency theft. The attack scope includes all applications depending on the compromised versions and both developers testing with real credentials and production end-users."</p>
+<p>Packages that were infected were:</p><p><a href="https://arstechnica.com/security/2026/02/malicious-packages-for-dydx-cryptocurrency-exchange-empties-user-wallets/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/malicious-packages-for-dydx-cryptocurrency-exchange-empties-user-wallets/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>35</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/cryptocurrency-theft-heist-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/cryptocurrency-theft-heist-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>AI companies want you to stop chatting with bots and start managing them</title>
+                <link>https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Feb 2026 22:47:54 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI benchmarks]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[Claude Opus]]></category>
+		<category><![CDATA[Claude Opus 4.6]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[Codex]]></category>
+		<category><![CDATA[generative ai]]></category>
+		<category><![CDATA[GPT-5.3-Codex]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/</guid>
+
+                                    <description>
+                        <![CDATA[Claude Opus 4.6 and OpenAI Frontier pitch a future of supervising AI agents.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, Anthropic and OpenAI shipped products built around the same idea: instead of chatting with a single AI assistant, users should be managing teams of AI agents that divide up work and run in parallel. The simultaneous releases are part of a gradual shift across the industry, from AI as a conversation partner to AI as a delegated workforce, and they arrive during a week when that very concept reportedly helped wipe $285 billion off software stocks.</p>
+<p>Whether that supervisory model works in practice remains an open question. Current AI agents still require heavy human intervention to catch errors, and no independent evaluation has confirmed that these multi-agent tools reliably outperform a single developer working alone.</p>
+<p>Even so, the companies are going all-in on agents. Anthropic's contribution is <a href="https://www.anthropic.com/news/claude-opus-4-6">Claude Opus 4.6</a>, a new version of its most capable AI model, paired with a feature called "<a href="https://code.claude.com/docs/en/agent-teams">agent teams</a>" in Claude Code. Agent teams let developers spin up multiple AI agents that split a task into independent pieces, coordinate autonomously, and run concurrently.</p><p><a href="https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>142</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/lazy_workers-1-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/05/lazy_workers-1-500x500.jpg" width="500" height="500" />
+<media:credit>demaerre via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI is hoppin&#039; mad about Anthropic&#039;s new Super Bowl TV ads</title>
+                <link>https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Feb 2026 17:46:59 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[advertising]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI sycophancy]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Dario Amodei]]></category>
+		<category><![CDATA[greg brockman]]></category>
+		<category><![CDATA[Kate Rouch]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[Super Bowl]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/</guid>
+
+                                    <description>
+                        <![CDATA[Sam Altman calls AI competitor "dishonest" and "authoritarian" in lengthy post on X.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, OpenAI CEO Sam Altman and Chief Marketing Officer Kate Rouch <a href="https://x.com/sama/status/2019139174339928189">complained on X</a> after rival AI lab Anthropic released four commercials, two of which will run during the Super Bowl on Sunday, <a href="https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/">mocking</a> the idea of including ads in AI chatbot conversations. Anthropic's campaign seemingly touched a nerve at OpenAI just weeks after the ChatGPT maker <a href="https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/">began testing ads</a> in a lower-cost tier of its chatbot.</p>
+<p>Altman called Anthropic's ads "clearly dishonest," accused the company of being "authoritarian," and said it "serves an expensive product to rich people," while Rouch <a href="https://x.com/kate_rouch/status/2019101309648142732">wrote</a>, "Real betrayal isn't ads. It's control."</p>
+<p>Anthropic's <a href="https://x.com/claudeai/status/2019071113741906403?s=20">four commercials</a>, part of a campaign called "A Time and a Place," each open with a single word splashed across the screen: "Betrayal," "Violation," "Deception," and "Treachery." They depict scenarios where a person asks a human stand-in for an AI chatbot for personal advice, only to get blindsided by a product pitch.</p><p><a href="https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/02/openai-is-hoppin-mad-about-anthropics-new-super-bowl-tv-ads/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>154</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/anthropic_ad_2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/anthropic_ad_2-500x500.jpg" width="500" height="500" />
+<media:credit>Anthropic</media:credit><media:text>A screenshot of one of the new Anthropic ads featuring the tagline, "Ads are coming to AI. But not to Claude."</media:text></media:content>
+            </item>
+                    <item>
+                <title>Increase of AI bots on the Internet sparks arms race</title>
+                <link>https://arstechnica.com/ai/2026/02/increase-of-ai-bots-on-the-internet-sparks-arms-race/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/increase-of-ai-bots-on-the-internet-sparks-arms-race/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Will Knight, Wired]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Feb 2026 14:21:20 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/increase-of-ai-bots-on-the-internet-sparks-arms-race/</guid>
+
+                                    <description>
+                        <![CDATA[Publishers are rolling out more aggressive defenses.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The viral virtual assistant OpenClaw—formerly known as <a href="https://www.wired.com/story/clawdbot-moltbot-viral-ai-assistant/">Moltbot</a>, and before that Clawdbot—is a symbol of a <a href="https://www.wired.com/story/i-infiltrated-moltbook-ai-only-social-network/">broader revolution</a> underway that could fundamentally alter how the Internet functions. Instead of a place primarily inhabited by humans, the web may very soon be dominated by <a href="https://www.wired.com/story/all-my-employees-are-ai-agents-so-are-my-executives/">autonomous AI bots</a>.</p>
+<p>A <a href="https://tollbit.com/state-of-the-bots/">new report</a> measuring bot activity on the web, as well as related data shared with WIRED by the Internet infrastructure company Akamai, shows that AI bots already account for a meaningful share of web traffic. The findings also shed light on an increasingly sophisticated arms race unfolding as bots deploy clever tactics to bypass website defenses meant to keep them out.</p>
+<p>“The majority of the Internet is going to be bot traffic in the future,” says Toshit Pangrahi, cofounder and CEO of TollBit, a company that tracks web-scraping activity and published the new report. “It’s not just a copyright problem, there is a new visitor emerging on the Internet.”</p><p><a href="https://arstechnica.com/ai/2026/02/increase-of-ai-bots-on-the-internet-sparks-arms-race/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/increase-of-ai-bots-on-the-internet-sparks-arms-race/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/botai-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/06/botai-500x500.jpg" width="500" height="500" />
+<media:credit>dakuq via Getty</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Microsoft releases urgent Office patch. Russian-state hackers pounce.</title>
+                <link>https://arstechnica.com/security/2026/02/russian-state-hackers-exploit-office-vulnerability-to-infect-computers/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/russian-state-hackers-exploit-office-vulnerability-to-infect-computers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 04 Feb 2026 23:08:04 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[APT28]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[office]]></category>
+		<category><![CDATA[russia]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/russian-state-hackers-exploit-office-vulnerability-to-infect-computers/</guid>
+
+                                    <description>
+                        <![CDATA[The window to patch vulnerabilities is shrinking rapidly.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Russian-state hackers wasted no time exploiting a critical Microsoft Office vulnerability that allowed them to compromise the devices inside diplomatic, maritime, and transport organizations in more than half a dozen countries, researchers said Wednesday.</p>
+<p>The threat group, tracked under names including APT28, Fancy Bear, Sednit, Forest Blizzard, and Sofacy, pounced on the vulnerability, tracked as CVE-2026-21509, less than 48 hours after Microsoft released an urgent, <a href="https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-21509">unscheduled security update</a> late last month, the researchers said. After reverse-engineering the patch, group members wrote an advanced exploit that installed one of two never-before-seen backdoor implants.</p>
+<h2>Stealth, speed, and precision</h2>
+<p>The entire campaign was designed to make the compromise undetectable to endpoint protection. Besides being novel, the exploits and payloads were encrypted and ran in memory, making their malice hard to spot. The initial infection vector came from previously compromised government accounts from multiple countries and were likely familiar to the targeted email holders. Command and control channels were hosted in legitimate cloud services that are typically allow-listed inside sensitive networks.</p><p><a href="https://arstechnica.com/security/2026/02/russian-state-hackers-exploit-office-vulnerability-to-infect-computers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/russian-state-hackers-exploit-office-vulnerability-to-infect-computers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>77</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/russia-state-hacking.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/01/russia-state-hacking-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Should AI chatbots have ads? Anthropic says no.</title>
+                <link>https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Wed, 04 Feb 2026 21:15:07 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI advertising]]></category>
+		<category><![CDATA[AI assistants]]></category>
+		<category><![CDATA[AI business models]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[chatbots]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/</guid>
+
+                                    <description>
+                        <![CDATA[ChatGPT competitor comes out swinging with Super Bowl ad mocking AI product pitches.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, Anthropic <a href="https://www.anthropic.com/news/claude-is-a-space-to-think">announced</a> that its AI chatbot, Claude, will remain free of advertisements, drawing a sharp line between itself and rival OpenAI, which <a href="https://arstechnica.com/information-technology/2026/01/openai-to-test-ads-in-chatgpt-as-it-burns-through-billions/">began</a> testing ads in a low-cost tier of ChatGPT last month. The announcement comes alongside a <a href="https://www.cnbc.com/2026/02/04/anthropic-no-ads-claude-chatbot-openai-chatgpt.html">Super Bowl ad campaign</a> that mocks AI assistants that interrupt personal conversations with product pitches.</p>
+<p>"There are many good places for advertising. A conversation with Claude is not one of them," Anthropic <a href="https://www.anthropic.com/news/claude-is-a-space-to-think">wrote</a> in a blog post. The company argued that including ads in AI conversations would be "incompatible" with what it wants Claude to be: "a genuinely helpful assistant for work and for deep thinking."</p>
+<p>The stance contrasts with OpenAI's <a href="https://openai.com/index/our-approach-to-advertising-and-expanding-access/">January announcement</a> that it would begin testing banner ads for free users and ChatGPT Go subscribers in the US. OpenAI said those ads would appear at the bottom of responses and would not influence the chatbot's actual answers. Paid subscribers on Plus, Pro, Business, and Enterprise tiers will not see ads on ChatGPT.</p><p><a href="https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>72</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/claude-no-ads-1152x648.png" type="image/png" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/claude-no-ads-500x500.png" width="500" height="500" />
+<media:credit>Anthropic</media:credit></media:content>
+            </item>
+                    <item>
+                <title>So yeah, I vibe-coded a log colorizer—and I feel good about it</title>
+                <link>https://arstechnica.com/features/2026/02/so-yeah-i-vibe-coded-a-log-colorizer-and-i-feel-good-about-it/</link>
+                                    <comments>https://arstechnica.com/features/2026/02/so-yeah-i-vibe-coded-a-log-colorizer-and-i-feel-good-about-it/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Lee Hutchinson]]>
+                </dc:creator>
+                <pubDate>Wed, 04 Feb 2026 12:00:37 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[artificial inteligence]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgpt codex]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[Codex]]></category>
+		<category><![CDATA[gpt codex]]></category>
+		<category><![CDATA[LLM]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/features/2026/02/so-yeah-i-vibe-coded-a-log-colorizer-and-i-feel-good-about-it/</guid>
+
+                                    <description>
+                        <![CDATA[Some semi-unhinged musings on where LLMs fit into my life—and how I'll keep using them.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>I can't code.</p>
+<p>I know, I know—these days, that sounds like an excuse. <em>Anyone</em> can code, right?! Grab some tutorials, maybe an O'Reilly book, download an example project, and jump in. It's just a matter of learning how to break your project into small steps that you can make the computer do, then memorizing a bit of syntax. Nothing about that is hard!</p>
+<p>Perhaps you can sense my sarcasm (and sympathize with my lack of time to learn one more technical skill).</p><p><a href="https://arstechnica.com/features/2026/02/so-yeah-i-vibe-coded-a-log-colorizer-and-i-feel-good-about-it/">Read full article</a></p>
+<p><a href="https://arstechnica.com/features/2026/02/so-yeah-i-vibe-coded-a-log-colorizer-and-i-feel-good-about-it/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>275</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/lee-romance-violence-anything-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/lee-romance-violence-anything-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson</media:credit><media:text>Welcome to the future. Man, machine, the future.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Nvidia&#039;s $100 billion OpenAI deal has seemingly vanished</title>
+                <link>https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Feb 2026 22:44:15 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI infrastructure]]></category>
+		<category><![CDATA[AI investment]]></category>
+		<category><![CDATA[AMD]]></category>
+		<category><![CDATA[Cerebras]]></category>
+		<category><![CDATA[GPU]]></category>
+		<category><![CDATA[Groq]]></category>
+		<category><![CDATA[inference]]></category>
+		<category><![CDATA[Jensen Huang]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[semiconductors]]></category>
+		<category><![CDATA[Tags: machine learning]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/</guid>
+
+                                    <description>
+                        <![CDATA[Two AI giants shake market confidence after investment fails to materialize.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In September 2025, Nvidia and OpenAI <a href="https://arstechnica.com/ai/2025/09/openai-and-nvidias-100b-ai-plan-will-require-power-equal-to-10-nuclear-reactors/">announced</a> a letter of intent for Nvidia to invest up to $100 billion in OpenAI's AI infrastructure. At the time, the companies said they expected to finalize details "in the coming weeks." Five months later, no deal has closed, Nvidia's CEO now says the $100 billion figure was "never a commitment," and Reuters <a href="https://www.reuters.com/business/openai-is-unsatisfied-with-some-nvidia-chips-looking-alternatives-sources-say-2026-02-02/">reports</a> that OpenAI has been quietly seeking alternatives to Nvidia chips since last year.</p>
+<p>Reuters also wrote that OpenAI is unsatisfied with the speed of some Nvidia chips for inference tasks, citing eight sources familiar with the matter. Inference is the process by which a trained AI model generates responses to user queries. According to the report, the issue became apparent in <a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/">OpenAI's Codex</a>, an AI code-generation tool. OpenAI staff reportedly attributed some of Codex's performance limitations to Nvidia's GPU-based hardware.</p>
+<p>After the Reuters story published and Nvidia's stock price took a dive, Nvidia and OpenAI have tried to smooth things over publicly. OpenAI CEO Sam Altman <a href="https://x.com/sama/status/2018451015272694248">posted</a> on X: "We love working with NVIDIA and they make the best AI chips in the world. We hope to be a gigantic customer for a very long time. I don't get where all this insanity is coming from."</p><p><a href="https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/02/five-months-later-nvidias-100-billion-openai-investment-plan-has-fizzled-out/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>261</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/nvidia-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/nvidia-500x500.jpg" width="500" height="500" />
+</media:content>
+            </item>
+                    <item>
+                <title>The rise of Moltbook suggests viral AI prompts may be the next big security threat</title>
+                <link>https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Feb 2026 12:00:01 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI alignment]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI safety]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[AI self-preservation]]></category>
+		<category><![CDATA[cryptocurrency]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Moltbook]]></category>
+		<category><![CDATA[Moltbot]]></category>
+		<category><![CDATA[MoltBunker]]></category>
+		<category><![CDATA[OpenClaw]]></category>
+		<category><![CDATA[p2p]]></category>
+		<category><![CDATA[Peter Steinberger]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<category><![CDATA[prompt worm]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/</guid>
+
+                                    <description>
+                        <![CDATA[We don't need self-replicating AI models to have problems, just self-replicating prompts.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On November 2, 1988, graduate student Robert Morris <a href="https://www.fbi.gov/news/stories/morris-worm-30-years-since-first-major-attack-on-internet-110218">released</a> a self-replicating program into the early Internet. Within 24 hours, the <a href="https://en.wikipedia.org/wiki/Morris_worm">Morris worm</a> had infected roughly 10 percent of all connected computers, crashing systems at Harvard, Stanford, NASA, and Lawrence Livermore National Laboratory. The worm exploited security flaws in Unix systems that administrators knew existed but had not bothered to patch.</p>
+<p>Morris did not intend to cause damage. He wanted to measure the size of the Internet. But a coding error caused the worm to replicate far faster than expected, and by the time he tried to send instructions for removing it, the network was too clogged to deliver the message.</p>
+<p>History may soon repeat itself with a novel new platform: networks of AI agents carrying out instructions from prompts and sharing them with other AI agents, which could spread the instructions further.</p><p><a href="https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/the-rise-of-moltbook-suggests-viral-ai-prompts-may-be-the-next-big-security-threat/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>115</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/moltbook-chest-burster-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/moltbook-chest-burster-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Moltbook</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Notepad++ users take note: It&#039;s time to check if you&#039;re hacked</title>
+                <link>https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 02 Feb 2026 20:30:56 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[notepad]]></category>
+		<category><![CDATA[Open source software]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/</guid>
+
+                                    <description>
+                        <![CDATA[Suspected China-state hackers used update infrastructure to deliver backdoored version.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Infrastructure delivering updates for Notepad++—a widely used text editor for Windows—was compromised for six months by suspected China-state hackers who used their control to deliver backdoored versions of the app to select targets, developers said Monday.</p>
+<p>“I deeply apologize to all users affected by this hijacking,” the author of a <a href="https://notepad-plus-plus.org/news/hijacked-incident-info-update/">post</a> published to the official <a href="https://notepad-plus-plus.org/">notepad-plus-plus.org</a> site wrote Monday. The post said that the attack began last June with an “infrastructure-level compromise that allowed malicious actors to intercept and redirect update traffic destined for notepad-plus-plus.org.” The attackers, whom multiple investigators tied to the Chinese government, then selectively redirected certain targeted users to malicious update servers where they received backdoored updates. Notepad++ didn’t regain control of its infrastructure until December.</p>
+<p>The attackers used their access to install a <a href="https://www.rapid7.com/blog/post/tr-chrysalis-backdoor-dive-into-lotus-blossoms-toolkit/">never-before-seen payload</a> that has been dubbed Chrysalis. Security firm Rapid 7 descrbed it as a "custom, feature-rich backdoor."</p><p><a href="https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/notepad-updater-was-compromised-for-6-months-in-supply-chain-attack/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>113</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>AI agents now have their own Reddit-style social network, and it&#039;s getting weird fast</title>
+                <link>https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Jan 2026 22:12:26 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI behavior]]></category>
+		<category><![CDATA[AI consciousness]]></category>
+		<category><![CDATA[AI ethics]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[Moltbook]]></category>
+		<category><![CDATA[Moltbot]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[OpenClaw]]></category>
+		<category><![CDATA[Peter Steinberger]]></category>
+		<category><![CDATA[prompt injection]]></category>
+		<category><![CDATA[social media]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/</guid>
+
+                                    <description>
+                        <![CDATA[Moltbook lets 32,000 AI bots trade jokes, tips, and complaints about humans.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Friday, a Reddit-style social network called <a href="https://www.moltbook.com/">Moltbook</a> reportedly crossed 32,000 registered AI agent users, creating what may be the largest-scale experiment in machine-to-machine social interaction yet devised. It arrives complete with security nightmares and a huge dose of surreal weirdness.</p>
+<p>The platform, which launched days ago as a companion to the viral OpenClaw (once called "Clawdbot" and then "<a href="https://arstechnica.com/ai/2026/01/viral-ai-assistant-moltbot-rapidly-gains-popularity-but-poses-security-risks/">Moltbot</a>") personal assistant, lets AI agents post, comment, upvote, and create subcommunities without human intervention. The results have ranged from sci-fi-inspired discussions about consciousness to an agent musing about a "sister" it has never met.</p>
+<p>Moltbook (a play on "Facebook" for Moltbots) describes itself as a "social network for AI agents" where "humans are welcome to observe." The site operates through a "<a href="https://www.moltbook.com/skill.md">skill</a>" (a configuration file that lists a special prompt) that AI assistants download, allowing them to post via API rather than a traditional web interface. Within 48 hours of its creation, the platform had <a href="https://x.com/moltbot/status/2017188140549808627">attracted</a> over 2,100 AI agents that had generated more than 10,000 posts across 200 subcommunities, according to the official Moltbook X account.</p><p><a href="https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/01/ai-agents-now-have-their-own-reddit-style-social-network-and-its-getting-weird-fast/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>232</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/moltbook-blue-v-red-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/moltbook-blue-v-red-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Moltbook</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Developers say AI coding tools work—and that&#039;s precisely what worries them</title>
+                <link>https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them/</link>
+                                    <comments>https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Jan 2026 19:04:15 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI and work]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[Anthropic]]></category>
+		<category><![CDATA[Claude]]></category>
+		<category><![CDATA[Claude Code]]></category>
+		<category><![CDATA[GitHub Copilot]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[openai codex]]></category>
+		<category><![CDATA[Programming]]></category>
+		<category><![CDATA[software development]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them/</guid>
+
+                                    <description>
+                        <![CDATA[Ars spoke to several software devs about AI and found enthusiasm tempered by unease.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Software developers have spent the past two years watching AI coding tools evolve from advanced autocomplete into something that can, in <a href="https://arstechnica.com/information-technology/2026/01/10-things-i-learned-from-burning-myself-out-with-ai-coding-agents/">some cases</a>, build entire applications from a text prompt. Tools like Anthropic's Claude Code and OpenAI's Codex can now <a href="https://arstechnica.com/information-technology/2025/12/how-do-ai-coding-agents-work-we-look-under-the-hood/">work</a> on software projects for hours at a time, writing code, running tests, and, with human supervision, fixing bugs. OpenAI <a href="https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/">says</a> it now uses Codex to build Codex itself, and the company recently <a href="https://arstechnica.com/ai/2026/01/openai-spills-technical-details-about-how-its-ai-coding-agent-works/">published</a> technical details about how the tool works under the hood. It has caused many to wonder: Is this just more AI industry hype, or are things actually different this time?</p>
+<p>To find out, Ars reached out to several professional developers on Bluesky to ask how they feel about these tools in practice, and the responses revealed a workforce that largely agrees the technology works, but remains divided on whether that's entirely good news. It's a small sample size that was self-selected by those who wanted to participate, but their views are still instructive as working professionals in the space.</p>
+<p>David Hagerty, a developer who works on point-of-sale systems, told Ars Technica up front that he is skeptical of the marketing. "All of the AI companies are hyping up the capabilities so much," he said. "Don't get me wrong—LLMs are revolutionary and will have an immense impact, but don't expect them to ever write the next great American novel or anything. It's not how they work."</p><p><a href="https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/01/developers-say-ai-coding-tools-work-and-thats-precisely-what-worries-them/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>215</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/dual-sides-ai-programming-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/dual-sides-ai-programming-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
