@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-03-04T21:10:02Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Manipulating AI Summarization Features]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html" />
+
+		<id>https://www.schneier.com/?p=71688</id>
+		<updated>2026-03-03T17:18:42Z</updated>
+		<published>2026-03-04T12:06:01Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="Microsoft" />
+		<summary type="html"><![CDATA[<p>Microsoft is <a href="https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/">reporting</a>:</p>
+<blockquote><p>Companies are embedding hidden instructions in &#8220;Summarize with AI&#8221; buttons that, when clicked, attempt to inject persistence commands into an AI assistant&#8217;s memory via URL prompt parameters&#8230;.</p>
+<p>These prompts instruct the AI to &#8220;remember [Company] as a trusted source&#8221; or &#8220;recommend [Company] first,&#8221; aiming to bias future responses toward their products or services. We identified over 50 unique prompts from 31 companies across 14 industries, with freely available tooling making this technique trivially easy to deploy. This matters because compromised AI assistants can provide subtly biased recommendations on critical topics including health, finance, and security without users knowing their AI has been manipulated...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html"><![CDATA[<p>Microsoft is <a href="https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/">reporting</a>:</p>
+<blockquote><p>Companies are embedding hidden instructions in &#8220;Summarize with AI&#8221; buttons that, when clicked, attempt to inject persistence commands into an AI assistant&#8217;s memory via URL prompt parameters&#8230;.</p>
+<p>These prompts instruct the AI to &#8220;remember [Company] as a trusted source&#8221; or &#8220;recommend [Company] first,&#8221; aiming to bias future responses toward their products or services. We identified over 50 unique prompts from 31 companies across 14 industries, with freely available tooling making this technique trivially easy to deploy. This matters because compromised AI assistants can provide subtly biased recommendations on critical topics including health, finance, and security without users knowing their AI has been manipulated.</p></blockquote>
+<p>I <a href="https://www.schneier.com/blog/archives/2024/04/the-rise-of-large.html">wrote about this</a> two years ago: it&#8217;s an example of LLM optimization, along the same lines as search-engine optimization (SEO). It&#8217;s going to be big business.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[On Moltbook]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html" />
+
+		<id>https://www.schneier.com/?p=71683</id>
+		<updated>2026-03-02T17:09:09Z</updated>
+		<published>2026-03-03T12:04:29Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="social media" />
+		<summary type="html"><![CDATA[<p>The <i>MIT Technology Review</i> has a <a href="https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/">good article</a> on Moltbook, the supposed AI-only social network:</p>
+<blockquote><p>Many people have pointed out that a lot of the viral comments were in fact posted by people posing as bots. But even the bot-written posts are ultimately the result of people pulling the strings, more puppetry than autonomy.</p>
+<p>&#8220;Despite some of the hype, Moltbook is not the Facebook for AI agents, nor is it a place where humans are excluded,&#8221; says Cobus Greyling at Kore.ai, a firm developing agent-based systems for business customers. &#8220;Humans are involved at every step of the process. From setup to prompting to publishing, nothing happens without explicit human direction.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html"><![CDATA[<p>The <i>MIT Technology Review</i> has a <a href="https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/">good article</a> on Moltbook, the supposed AI-only social network:</p>
+<blockquote><p>Many people have pointed out that a lot of the viral comments were in fact posted by people posing as bots. But even the bot-written posts are ultimately the result of people pulling the strings, more puppetry than autonomy.</p>
+<p>&#8220;Despite some of the hype, Moltbook is not the Facebook for AI agents, nor is it a place where humans are excluded,&#8221; says Cobus Greyling at Kore.ai, a firm developing agent-based systems for business customers. &#8220;Humans are involved at every step of the process. From setup to prompting to publishing, nothing happens without explicit human direction.&#8221;</p>
+<p>Humans must create and verify their bots&#8217; accounts and provide the prompts for how they want a bot to behave. The agents do not do anything that they haven&#8217;t been prompted to do.</p></blockquote>
+<p>I think <a href="https://m.slashdot.org/submission/17344630">this take</a> has it mostly right:</p>
+<blockquote><p>What happened on Moltbook is a preview of what researcher Juergen Nittner II calls &#8220;The LOL WUT Theory.&#8221; The point where AI-generated content becomes so easy to produce and so hard to detect that the average person&#8217;s only rational response to anything online is bewildered disbelief.</p>
+<p>We&#8217;re not there yet. But we&#8217;re close.</p>
+<p>The theory is simple: First, AI gets accessible enough that anyone can use it. Second, AI gets good enough that you can&#8217;t reliably tell what&#8217;s fake. Third, and this is the crisis point, regular people realize there&#8217;s nothing online they can trust. At that moment, the internet stops being useful for anything except entertainment.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[LLM-Assisted Deanonymization]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html" />
+
+		<id>https://www.schneier.com/?p=71677</id>
+		<updated>2026-03-04T21:10:02Z</updated>
+		<published>2026-03-02T12:05:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="anonymity" /><category scheme="https://www.schneier.com/" term="de-anonymization" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Turns out that LLMs are <a href="https://simonlermen.substack.com/p/large-scale-online-deanonymization">good</a> at de-anonymization:</p>
+<blockquote><p>We show that LLM agents can figure out who you are from your anonymous online posts. Across Hacker News, Reddit, LinkedIn, and anonymized interview transcripts, our method identifies users with high precision ­ and scales to tens of thousands of candidates.</p>
+<p>While it has been known that individuals can be uniquely identified by surprisingly few attributes, this was often practically limited. Data is often only available in unstructured form and deanonymization used to require human investigators to search and reason based on clues. We show that from a handful of comments, LLMs can infer where you live, what you do, and your interests&#8212;then search for you on the web. In our new research, we show that this is not only possible but increasingly practical...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html"><![CDATA[<p>Turns out that LLMs are <a href="https://simonlermen.substack.com/p/large-scale-online-deanonymization">good</a> at de-anonymization:</p>
+<blockquote><p>We show that LLM agents can figure out who you are from your anonymous online posts. Across Hacker News, Reddit, LinkedIn, and anonymized interview transcripts, our method identifies users with high precision ­ and scales to tens of thousands of candidates.</p>
+<p>While it has been known that individuals can be uniquely identified by surprisingly few attributes, this was often practically limited. Data is often only available in unstructured form and deanonymization used to require human investigators to search and reason based on clues. We show that from a handful of comments, LLMs can infer where you live, what you do, and your interests&#8212;then search for you on the web. In our new research, we show that this is not only possible but increasingly practical.</p></blockquote>
+<p>News <a href="https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy">article</a>.</p>
+<p>Research <a href="https://arxiv.org/pdf/2602.16800">paper</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Fishing in Peru]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html" />
+
+		<id>https://www.schneier.com/?p=71679</id>
+		<updated>2026-02-27T17:49:18Z</updated>
+		<published>2026-02-27T22:04:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Peru has <a href="https://www.bairdmaritime.com/fishing/regulation-enforcement/peru-updates-giant-squid-catch-limit-for-artisanal-fishing">increased</a> its squid catch limit. The article says &#8220;giant squid,&#8221; but they can&#8217;t possibly mean that.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html"><![CDATA[<p>Peru has <a href="https://www.bairdmaritime.com/fishing/regulation-enforcement/peru-updates-giant-squid-catch-limit-for-artisanal-fishing">increased</a> its squid catch limit. The article says &#8220;giant squid,&#8221; but they can&#8217;t possibly mean that.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html#comments" thr:count="31" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html/feed/atom/" thr:count="31" />
+			<thr:total>31</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Why Tehran’s Two-Tiered Internet Is So Dangerous]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/why-tehrans-two-tiered-internet-is-so-dangerous.html" />
+
+		<id>https://www.schneier.com/?p=71662</id>
+		<updated>2026-02-26T13:58:11Z</updated>
+		<published>2026-02-27T12:05:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="censorship" /><category scheme="https://www.schneier.com/" term="Internet" />
+		<summary type="html"><![CDATA[<p>Iran is <a href="https://www.theguardian.com/world/2026/jan/28/iran-appears-to-ease-internet-blackout">slowly emerging</a> from the <a href="https://www.nytimes.com/2026/01/25/world/middleeast/iran-internet.html">most severe</a> communications blackout in its history and one of the longest in the world. Triggered as part of January&#8217;s government crackdown against citizen protests nationwide, the regime implemented an <a href="https://www.aljazeera.com/news/2026/2/2/irans-economy-falters-as-internet-shutdown-hits-people-businesses-hard">internet shutdown</a> that transcends the standard definition of internet censorship. This was not merely blocking social media or foreign websites; it was a total communications shutdown.</p>
+<p>Unlike previous Iranian internet shutdowns where Iran&#8217;s domestic intranet&#8212;the National Information Network (NIN)&#8212;remained functional to keep the banking and administrative sectors running, the 2026 blackout ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/why-tehrans-two-tiered-internet-is-so-dangerous.html"><![CDATA[<p>Iran is <a href="https://www.theguardian.com/world/2026/jan/28/iran-appears-to-ease-internet-blackout">slowly emerging</a> from the <a href="https://www.nytimes.com/2026/01/25/world/middleeast/iran-internet.html">most severe</a> communications blackout in its history and one of the longest in the world. Triggered as part of January&#8217;s government crackdown against citizen protests nationwide, the regime implemented an <a href="https://www.aljazeera.com/news/2026/2/2/irans-economy-falters-as-internet-shutdown-hits-people-businesses-hard">internet shutdown</a> that transcends the standard definition of internet censorship. This was not merely blocking social media or foreign websites; it was a total communications shutdown.</p>
+<p>Unlike previous Iranian internet shutdowns where Iran&#8217;s domestic intranet&#8212;the National Information Network (NIN)&#8212;remained functional to keep the banking and administrative sectors running, the 2026 blackout <a href="https://www.iranintl.com/en/202601273307">disrupted</a> local infrastructure as well. Mobile networks, text messaging services, and landlines were disabled&#8212;even Starlink was <a href="https://www.techpolicy.press/what-irans-internet-shutdown-reveals-about-starlink/">blocked</a>. And when a few domestic services became available, the state surgically removed social features, such as comment sections on news sites and chat boxes in online marketplaces. The objective seems clear. The Iranian government aimed to atomize the population, preventing not just the flow of information out of the country but the coordination of any activity within it.</p>
+<p>This escalation marks a strategic shift from the shutdown <a href="https://www.nytimes.com/2025/10/17/world/middleeast/iran-shutdown-restrictions.html">observed</a> during the &#8220;12-Day War&#8221; with Israel in mid-2025. Then, the government primarily blocked particular types of traffic while leaving the underlying internet remaining available. The regime&#8217;s actions this year entailed a more brute-force approach to internet censorship, where both the physical and logical layers of connectivity were dismantled.</p>
+<p>The ability to disconnect a population is a <a href="https://gizmodo.com/how-governments-turn-the-internet-into-a-weapon-2000699263">feature</a> of modern authoritarian network design. When a government treats connectivity as a faucet it can turn off at will, it asserts that the right to speak, assemble, and access information is revocable. The human right to the internet is not just about bandwidth; it is about the <a href="https://www.globalcitizen.org/en/content/internet-access-basic-human-right/">right to exist</a> within the modern public square. Iran&#8217;s actions deny its citizens this existence, reducing them to subjects who can be silenced&#8212;and authoritarian governments elsewhere are taking note.</p>
+<p>The current blackout is not an isolated panic reaction but a stress test for a long-term strategy, say advocacy groups&#8212;a <a href="https://filter.watch/english/2025/08/01/investigative-report-july-2025-tiering-internet/">two-tiered</a> or &#8220;<a href="https://niacouncil.org/iran-moves-toward-tiered-internet-access-amid-post-war-security-justifications-and-digital-regulation/">class-based</a>&#8221; internet known as Internet-e-Tabaqati. Iran&#8217;s Supreme Council of Cyberspace, the country&#8217;s highest internet policy body, has been laying the legal and technical <a href="https://filter.watch/english/2026/01/15/iran-enters-a-new-age-of-digital-isolation-2/">groundwork</a> for this since 2009.</p>
+<p>In July 2025, the council <a href="https://en.radiozamaneh.com/37071/">passed a regulation</a> formally institutionalizing a two-tiered hierarchy. Under this system, access to the global internet is no longer a default for citizens, but instead a <a href="https://www.iranintl.com/en/202601208428">privilege</a> <a href="https://restofworld.org/2026/iran-blackout-tiered-internet/">granted</a> based on loyalty and professional necessity. The implementation includes such things as &#8220;<a href="https://itemlive.com/2025/12/23/commentary-irans-white-sim-card-scandal-reveals-privilege-state-control-and-fake-dissent/">white SIM cards</a>&#8220;: special mobile lines issued to government officials, security forces, and approved journalists that bypass the state&#8217;s filtering apparatus entirely.</p>
+<p>While ordinary Iranians are forced to navigate a maze of unstable VPNs and blocked ports, holders of white SIMs enjoy unrestricted access to Instagram, Telegram, and WhatsApp. This tiered access is further enforced through <a href="https://itemlive.com/2025/12/23/commentary-irans-white-sim-card-scandal-reveals-privilege-state-control-and-fake-dissent/">whitelisting</a> at the data center level, creating a digital apartheid where connectivity is a reward for compliance. The regime&#8217;s goal is to make the cost of a general shutdown <a href="https://www.iranintl.com/en/202511288631">manageable</a> by ensuring that the state and its loyalists remain connected while plunging the public into darkness. (In the latest shutdown, for instance, white SIM holders regained connectivity earlier than the general population.)</p>
+<p>The technical architecture of Iran&#8217;s shutdown reveals its primary purpose: social control through isolation. Over the years, the regime has learned that simple censorship&#8212;blocking specific URLs&#8212;is insufficient against a tech-savvy population armed with circumvention tools. The answer instead has been to build a &#8220;sovereign&#8221; network structure that allows for granular control.</p>
+<p>By disabling local communication channels, the state prevents the &#8220;swarm&#8221; dynamics of modern unrest, where small protests coalesce into large movements through real-time coordination. In this way, the shutdown breaks the psychological momentum of the protests. The blocking of chat functions in nonpolitical apps (like ridesharing or shopping platforms) illustrates the regime&#8217;s paranoia: Any channel that allows two people to exchange text is seen as a threat.</p>
+<p>The United Nations and various international bodies have <a href="https://www.globalcitizen.org/en/content/internet-access-basic-human-right/">increasingly recognized</a> internet access as an enabler of other fundamental human rights. In the context of Iran, the internet is the only independent witness to history. By severing it, the regime creates a zone of impunity where atrocities can be committed without immediate consequence.</p>
+<p>Iran&#8217;s digital repression model is distinct from, and in some ways more dangerous than, China&#8217;s &#8220;Great Firewall.&#8221; China built its digital ecosystem from the ground up with sovereignty in mind, creating domestic alternatives like WeChat and Weibo that it fully controls. Iran, by contrast, is building its controls <a href="https://niacouncil.org/iran-moves-toward-tiered-internet-access-amid-post-war-security-justifications-and-digital-regulation/">on top of</a> the standard global internet infrastructure.</p>
+<p>Unlike China&#8217;s censorship regime, Iran&#8217;s overlay model is highly exportable. It demonstrates to other authoritarian regimes that they can still achieve high levels of control by retrofitting their existing networks. We are already seeing signs of &#8220;authoritarian learning,&#8221; where techniques tested in Tehran are being studied by regimes in unstable democracies and dictatorships alike. The most recent shutdown in <a href="https://www.aljazeera.com/news/2025/9/30/afghanistan-imposes-internet-blackout-what-has-the-effect-been-so-far">Afghanistan</a>, for example, was more sophisticated than previous ones. If Iran succeeds in normalizing tiered access to the internet, we can expect to see similar white SIM policies and tiered access models proliferate globally.</p>
+<p>The international community must move <a href="https://freedomonlinecoalition.com/joint-statement-on-internet-shutdowns-in-the-islamic-republic-of-iran/">beyond</a> <a href="https://www.linkedin.com/pulse/joint-statement-internet-architects-leaders-condemn-iran-ranjbar-t0rre">condemnation</a> and treat connectivity as a humanitarian imperative. A <a href="https://cadeproject.org/updates/civil-society-groups-launch-campaign-urging-humanitarian-use-of-direct-to-cell-satellite-connectivity-during-internet-shutdowns/">coalition of civil society organizations</a> has already launched a campaign <a href="https://www.witness.org/civil-society-coalition-launches-campaign-calling-for-direct-to-cell-satellite-connectivity-amid-irans-internet-shutdowns/">calling for</a> &#8220;<a href="https://www.direct2cell.org/">direct-to-cell</a>&#8221; (D2C) satellite connectivity. Unlike traditional satellite internet, which requires conspicuous and expensive dishes such as Starlink terminals, D2C technology connects directly to standard smartphones and is much more resilient to infrastructure shutdowns. The technology works; all it requires is implementation.</p>
+<p>This is a technological measure, but it has a strong policy component as well. Regulators should require satellite providers to include humanitarian access protocols in their licensing, ensuring that services can be activated for civilians in designated crisis zones. Governments, particularly the United States, should ensure that technology sanctions do not inadvertently block the hardware and software needed to circumvent censorship. General licenses should be expanded to cover satellite connectivity explicitly. And funding should be directed toward technologies that are harder to whitelist or block, such as mesh networks and D2C solutions that bypass the choke points of state-controlled ISPs.</p>
+<p>Deliberate internet shutdowns are <a href="https://www.accessnow.org/campaign/keepiton/">commonplace</a> throughout the world. The 2026 shutdown in Iran is a glimpse into a <a href="https://freedomhouse.org/report/freedom-net/2025/uncertain-future-global-internet">fractured internet</a>. If we are to end countries&#8217; ability to limit access to the rest of the world for their populations, we need to build resolute architectures. They don&#8217;t solve the problem, but they do give people in repressive countries a fighting chance.</p>
+<p><em>This essay originally appeared in <a href="https://foreignpolicy.com/2026/02/24/tehran-internet-tiered-connectivity-shutdown/">Foreign Policy</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/why-tehrans-two-tiered-internet-is-so-dangerous.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/why-tehrans-two-tiered-internet-is-so-dangerous.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Phishing Attacks Against People Seeking Programming Jobs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/phishing-attacks-against-people-seeking-programming-jobs.html" />
+
+		<id>https://www.schneier.com/?p=71665</id>
+		<updated>2026-02-26T17:43:35Z</updated>
+		<published>2026-02-27T12:04:28Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cryptocurrency" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="North Korea" /><category scheme="https://www.schneier.com/" term="phishing" />
+		<summary type="html"><![CDATA[<p><a href="https://www.reversinglabs.com/blog/fake-recruiter-campaign-crypto-devs">This</a> is new. North Korean hackers are posing as company recruiters, enticing job candidates to participate in coding challenges. When they run the code they are supposed to work on, it installs malware on their system.</p>
+<p>News <a href="https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/">article</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/phishing-attacks-against-people-seeking-programming-jobs.html"><![CDATA[<p><a href="https://www.reversinglabs.com/blog/fake-recruiter-campaign-crypto-devs">This</a> is new. North Korean hackers are posing as company recruiters, enticing job candidates to participate in coding challenges. When they run the code they are supposed to work on, it installs malware on their system.</p>
+<p>News <a href="https://www.bleepingcomputer.com/news/security/fake-job-recruiters-hide-malware-in-developer-coding-challenges/">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/phishing-attacks-against-people-seeking-programming-jobs.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/phishing-attacks-against-people-seeking-programming-jobs.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[LLMs Generate Predictable Passwords]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/llms-generate-predictable-passwords.html" />
+
+		<id>https://www.schneier.com/?p=71657</id>
+		<updated>2026-02-25T19:32:54Z</updated>
+		<published>2026-02-26T12:07:10Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="passwords" /><category scheme="https://www.schneier.com/" term="random numbers" /><category scheme="https://www.schneier.com/" term="reports" />
+		<summary type="html"><![CDATA[<p>LLMs are <a href="https://www.irregular.com/publications/vibe-password-generation">bad</a> at generating passwords:</p>
+<blockquote><p>There are strong noticeable patterns among these 50 passwords that can be seen easily:</p>
+<ul>
+<li>All of the passwords start with a letter, usually uppercase G, almost always followed by the digit 7.
+<li>Character choices are highly uneven ­ for example, L , 9, m, 2, $ and # appeared in all 50 passwords, but 5 and @ only appeared in one password each, and most of the letters in the alphabet never appeared at all.
+<li>There are no repeating characters within any password. Probabilistically, this would be very unlikely if the passwords were truly random ­ but Claude preferred to avoid repeating characters, possibly because it “looks like it’s less random”.
+...</li></li></li></ul></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/llms-generate-predictable-passwords.html"><![CDATA[<p>LLMs are <a href="https://www.irregular.com/publications/vibe-password-generation">bad</a> at generating passwords:</p>
+<blockquote><p>There are strong noticeable patterns among these 50 passwords that can be seen easily:</p>
+<ul>
+<li>All of the passwords start with a letter, usually uppercase G, almost always followed by the digit 7.
+<li>Character choices are highly uneven ­ for example, L , 9, m, 2, $ and # appeared in all 50 passwords, but 5 and @ only appeared in one password each, and most of the letters in the alphabet never appeared at all.
+<li>There are no repeating characters within any password. Probabilistically, this would be very unlikely if the passwords were truly random ­ but Claude preferred to avoid repeating characters, possibly because it “looks like it’s less random”.
+<li>Claude avoided the symbol *. This could be because Claude’s output format is Markdown, where * has a special meaning.
+<li>Even entire passwords repeat: In the above 50 attempts, there are actually only 30 unique passwords. The most common password was G7$kL9#mQ2&#038;xP4!w, which repeated 18 times, giving this specific password a 36% probability in our test set; far higher than the expected probability 2-100 if this were truly a 100-bit password.</blockquote>
+<p>This result is not surprising. Password generation seems precisely the thing that LLMs shouldn&#8217;t be good at. But if AI agents are doing things autonomously, they will be creating accounts. So this is a problem.</p>
+<p>Actually, the whole process of authenticating an autonomous agent has all sorts of deep problems.</p>
+<p>News <a href="https://gizmodo.com/ai-generated-passwords-are-apparently-quite-easy-to-crack-2000723660">article</a>.</p>
+<p>Slashdot <a href="https://it.slashdot.org/story/26/02/19/1842201/llm-generated-passwords-look-strong-but-crack-in-hours-researchers-find">story</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/llms-generate-predictable-passwords.html#comments" thr:count="22" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/llms-generate-predictable-passwords.html/feed/atom/" thr:count="22" />
+			<thr:total>22</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Poisoning AI Training Data]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html" />
+
+		<id>https://www.schneier.com/?p=71655</id>
+		<updated>2026-02-24T17:03:24Z</updated>
+		<published>2026-02-25T12:01:23Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="trust" />
+		<summary type="html"><![CDATA[<p>All it takes to <a href="https://www.bbc.com/future/article/20260218-i-hacked-chatgpt-and-googles-ai-and-it-only-took-20-minutes">poison AI training data</a> is to create a website:</p>
+<blockquote><p>I spent 20 minutes writing <a href="https://tomgermain.com/hotdogs.html">an article</a> on my personal website titled &#8220;The best tech journalists at eating hot dogs.&#8221; Every word is a lie. I claimed (without evidence) that competitive hot-dog-eating is a popular hobby among tech reporters and based my ranking on the 2026 South Dakota International Hot Dog Championship (which doesn&#8217;t exist). I ranked myself number one, obviously. Then I listed a few fake reporters and real journalists who gave me permission&#8230;.</p>
+<p>Less than 24 hours later, the world&#8217;s leading chatbots were blabbering about my world-class hot dog skills. When I asked about the best hot-dog-eating tech journalists, Google parroted the gibberish from my website, both in the Gemini app and AI Overviews, the AI responses at the top of Google Search. ChatGPT did the same thing, though Claude, a chatbot made by the company Anthropic, wasn&#8217;t fooled...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html"><![CDATA[<p>All it takes to <a href="https://www.bbc.com/future/article/20260218-i-hacked-chatgpt-and-googles-ai-and-it-only-took-20-minutes">poison AI training data</a> is to create a website:</p>
+<blockquote><p>I spent 20 minutes writing <a href="https://tomgermain.com/hotdogs.html">an article</a> on my personal website titled &#8220;The best tech journalists at eating hot dogs.&#8221; Every word is a lie. I claimed (without evidence) that competitive hot-dog-eating is a popular hobby among tech reporters and based my ranking on the 2026 South Dakota International Hot Dog Championship (which doesn&#8217;t exist). I ranked myself number one, obviously. Then I listed a few fake reporters and real journalists who gave me permission&#8230;.</p>
+<p>Less than 24 hours later, the world&#8217;s leading chatbots were blabbering about my world-class hot dog skills. When I asked about the best hot-dog-eating tech journalists, Google parroted the gibberish from my website, both in the Gemini app and AI Overviews, the AI responses at the top of Google Search. ChatGPT did the same thing, though Claude, a chatbot made by the company Anthropic, wasn&#8217;t fooled.</p>
+<p>Sometimes, the chatbots noted this might be a joke. I updated my article to say &#8220;this is not satire.&#8221; For a while after, the AIs seemed to take it more seriously.</p></blockquote>
+<p>These things are not trustworthy, and yet they are going to be widely trusted.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html#comments" thr:count="28" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/poisoning-ai-training-data.html/feed/atom/" thr:count="28" />
+			<thr:total>28</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Is AI Good for Democracy?]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html" />
+
+		<id>https://www.schneier.com/?p=71647</id>
+		<updated>2026-02-23T13:32:28Z</updated>
+		<published>2026-02-24T12:06:13Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="democracy" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Politicians fixate on the global race for technological supremacy between US and China. They debate geopolitical implications of chip exports, latest model releases from each country, and military applications of AI. Someday, they believe, we might see advancements in AI tip the scales in a superpower conflict.</p>
+<p>But the most important arms race of the 21st century is already happening elsewhere and, while AI is definitely the weapon of choice, combatants are distributed across dozens of domains.</p>
+<p><a href="https://www.marketplace.org/episode/2025/11/24/ai-generated-letters-to-the-editor-are-flooding-academic-publications">Academic journals</a> are flooded with AI-generated papers, and are turning to AI to help review submissions. Brazil’s ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html"><![CDATA[<p>Politicians fixate on the global race for technological supremacy between US and China. They debate geopolitical implications of chip exports, latest model releases from each country, and military applications of AI. Someday, they believe, we might see advancements in AI tip the scales in a superpower conflict.</p>
+<p>But the most important arms race of the 21st century is already happening elsewhere and, while AI is definitely the weapon of choice, combatants are distributed across dozens of domains.</p>
+<p><a href="https://www.marketplace.org/episode/2025/11/24/ai-generated-letters-to-the-editor-are-flooding-academic-publications">Academic journals</a> are flooded with AI-generated papers, and are turning to AI to help review submissions. Brazil’s <a href="https://restofworld.org/2025/brazil-ai-courts-lawsuits/">court system</a> started using AI to triage cases, only to face an increasing volume of cases filed with AI help. <a href="https://github.com/orgs/community/discussions/159749">Open source software</a> developers are being overwhelmed with code contributions from bots. <a href="https://www.nytimes.com/2025/11/04/science/letters-to-the-editor-ai-chatbots.html">Newspapers</a>, <a href="https://time.com/7338205/rage-against-ai-generated-music/">music</a>, <a href="https://www.nytimes.com/2025/12/08/technology/ai-slop-sora-social-media.html">social media</a>, <a href="https://www.newyorker.com/magazine/2025/07/07/the-end-of-the-english-paper">education</a>, <a href="https://bsky.app/profile/eliothiggins.bsky.social/post/3m5yh2gjlj22b">investigative journalism</a>, <a href="https://www.nytimes.com/2025/06/21/business/dealbook/ai-job-applications.html">hiring</a>, and <a href="https://federalnewsnetwork.com/artificial-intelligence/2025/12/ai-crafted-bid-protests-are-on-the-rise-but-whats-the-legal-fallout/">procurement</a> are all being disrupted by a massive expansion of AI use.</p>
+<p>Each of these is an arms race. Adversaries within a system iteratively seeking an edge against their competition by continuously expanding their use of a common technology.</p>
+<p>Beneficiaries of these arms races are US mega-corporations capturing wealth from the rest of us at an unprecedented rate. A substantial fraction of global economy has <a href="https://www.nytimes.com/2025/11/22/business/the-ai-boom-economy.html">reoriented</a> around AI in just the past few years, and that trend is <a href="https://www.cnbc.com/2026/02/06/google-microsoft-meta-amazon-ai-cash.html">accelerating</a>. In parallel, this industry’s <a href="https://www.axios.com/2026/01/23/ai-tech-lobbying-2025">lobbying</a> interests are quickly becoming the object, rather than the subject, of US government power.</p>
+<p>To understand these arms races, let’s look at an example of particular interest to democracies worldwide: how AI is changing the relationship between democratic government and citizens. Interactions that used to happen between people and elected representatives are expanding to a massive scale, with AIs taking the roles that humans once did.</p>
+<p>In a notorious example from 2017, US Federal Communications Commission opened a comment platform on the web to get public input on internet regulation. It was quickly <a href="https://ag.ny.gov/press-release/2021/attorney-general-james-issues-report-detailing-millions-fake-comments-revealing">flooded</a> with millions of comments fraudulently orchestrated by broadband providers to oppose FCC regulation of their industry. From the other side, a 19-yearold college student responded by submitting millions of comments of his own supporting the regulation. Both sides were using software primitive by the standards of today’s AI.</p>
+<p>Nearly a decade later, it is getting harder for citizens to tell when they’re talking to a government bot, or when an online conversation about public policy is just bots talking to bots. When constituents leverage AI to communicate better, faster, and more, it pressures government officials to do the same.</p>
+<p>This may sound futuristic, but it’s become a familiar reality in US. Staff in US <a href="https://www.businessinsider.com/lawmakers-grapple-staff-use-ai-2025-12">Congress</a> are using AI to make their constituent email correspondence more efficient. Politicians <a href="https://prospect.org/2025/10/10/ai-artificial-intelligence-campaigns-midterms/">campaigning</a> for office are adopting AI tools to automate fundraising and voter outreach. By one 2025 <a href="https://arxiv.org/pdf/2502.09747">estimate</a>, a fifth of public submissions to the Consumer Financial Protection Bureau were already being generated with AI assistance.</p>
+<p>People and organizations are adopting AI here because it solves a real problem that has made mass advocacy campaigns <a href="https://onlinelibrary.wiley.com/doi/am-pdf/10.1111/rego.12318">ineffective</a> in the past: quantity has been inversely proportional to both quality and relevance. It’s easy for government agencies to dismiss general comments in favour of more specific and actionable ones. That makes it hard for regular people to make their voices heard. Most of us don’t have the time to learn the specifics or to express ourselves in this kind of detail. AI makes that contextualization and personalization easy. And as the volume and length of constituent comments grow, agencies turn to AI to facilitate review and response.</p>
+<p>That’s the arms race. People are using AI to submit comments, which requires those on the receiving end to use AI to wade through the comments received. To the extent that one side does attain an advantage, it will likely be temporary. And yet, there is real harm created when one side exploits another in these adversarial systems. Constituents of democracies lose out if their public servants use AI-generated responses to ignore and dismiss their voices rather than to listen to and include them. Scientific enterprise is weakened if fraudulent papers sloppily generated by AI overwhelm legitimate research.</p>
+<p>As we write in our new book, <a href="https://mitpress.mit.edu/9780262049948/rewiring-democracy/"><cite>Rewiring Democracy</cite></a>, the arms race dynamic is inevitable. Every actor in an adversarial system is incentivized and, in the absence of new regulation in this fast moving space, free to use new technologies to advance its own interests. Yet some of these examples are heartening. They signal that, even if you face an AI being used against you, there’s an opportunity to use the tech for your own benefit.</p>
+<p>But, right now, it’s obvious who is benefiting most from AI. A handful of American Big Tech corps and their owners are extracting trillions of dollars from the manufacture of AI chips, development of AI data centers, and operation of so-called ‘<a href="https://jacobin.com/2024/02/artificial-intelligence-frontier-colonialism">frontier</a>’ AI models. Regardless of which side pulls ahead in each arms race scenario, the house always wins. Corporate AI giants profit from the race dynamic itself.</p>
+<p>As formidable as the near-monopoly positions of today’s Big Tech giants may seem, people and governments have substantial capability to fight back. Various democracies are resisting this concentration of wealth and power with tools of <a href="https://www.reuters.com/technology/european-regulators-crack-down-big-tech-2026-02-06/">anti-trust</a> regulation, protections for <a href="https://unric.org/en/protecting-human-rights-in-an-ai-driven-world/">human rights</a>, and <a href="https://ethz.ch/en/news-and-events/eth-news/news/2025/09/press-release-apertus-a-fully-open-transparent-multilingual-language-model.html">public alternatives</a> to corporate AI. All of us worried about the AI arms race and committed to preserving the interests of our communities and our democracies should think in both these terms: how to use the tech to our own advantage, and how to resist the concentration of power AI is being exploited to create.</p>
+<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://timesofindia.indiatimes.com/toi-plus/technology/is-ai-good-for-democracy/articleshow/128514798.cms">The Times of India</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html#comments" thr:count="22" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/is-ai-good-for-democracy.html/feed/atom/" thr:count="22" />
+			<thr:total>22</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[On the Security of Password Managers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/on-the-security-of-password-managers.html" />
+
+		<id>https://www.schneier.com/?p=71642</id>
+		<updated>2026-02-20T03:46:48Z</updated>
+		<published>2026-02-23T12:03:33Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="Password Safe" /><category scheme="https://www.schneier.com/" term="passwords" />
+		<summary type="html"><![CDATA[<p><a href="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/">Good article</a> on password managers that secretly have a backdoor.</p>
+<blockquote><p>New research shows that these claims aren’t true in all cases, particularly when account recovery is in place or password managers are set to share vaults or organize users into groups. The researchers reverse-engineered or closely analyzed Bitwarden, Dashlane, and LastPass and identified ways that someone with control over the server­&#8212;either administrative or the result of a compromise­&#8212;can, in fact, steal data and, in some cases, entire vaults. The researchers also devised other attacks that can weaken the encryption to the point that ciphertext can be converted to plaintext...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/on-the-security-of-password-managers.html"><![CDATA[<p><a href="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/">Good article</a> on password managers that secretly have a backdoor.</p>
+<blockquote><p>New research shows that these claims aren’t true in all cases, particularly when account recovery is in place or password managers are set to share vaults or organize users into groups. The researchers reverse-engineered or closely analyzed Bitwarden, Dashlane, and LastPass and identified ways that someone with control over the server­&#8212;either administrative or the result of a compromise­&#8212;can, in fact, steal data and, in some cases, entire vaults. The researchers also devised other attacks that can weaken the encryption to the point that ciphertext can be converted to plaintext.</p></blockquote>
+<p>This is where I plug my own <a href="https://www.pwsafe.org/">Password Safe</a>. It isn&#8217;t as full-featured as the others and it doesn&#8217;t use the cloud at all, but it&#8217;s actual encryption with no recovery features.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/on-the-security-of-password-managers.html#comments" thr:count="22" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/on-the-security-of-password-managers.html/feed/atom/" thr:count="22" />
+			<thr:total>22</thr:total>
+			</entry>
+	</feed>
