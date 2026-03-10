@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-03-06T13:03:33Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[New Attack Against Wi-Fi]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/new-attack-against-wi-fi.html" />
+
+		<id>https://www.schneier.com/?p=71711</id>
+		<updated>2026-03-04T23:43:55Z</updated>
+		<published>2026-03-09T10:57:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="man-in-the-middle attacks" /><category scheme="https://www.schneier.com/" term="Wi-Fi" />
+		<summary type="html"><![CDATA[<p>It&#8217;s called <a href="https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/">AirSnitch</a>:</p>
+<blockquote><p>Unlike previous Wi-Fi attacks, AirSnitch exploits core features in Layers 1 and 2 and the failure to bind and synchronize a client across these and higher layers, other nodes, and other network names such as SSIDs (Service Set Identifiers). This cross-layer identity desynchronization is the key driver of AirSnitch attacks.</p>
+<p>The most powerful such attack is a full, bidirectional <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">machine-in-the-middle (MitM) attack</a>, meaning the attacker can view and modify data before it makes its way to the intended recipient. The attacker can be on the same SSID, a separate one, or even a separate network segment tied to the same AP. It works against small Wi-Fi networks in both homes and offices and large networks in enterprises...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/new-attack-against-wi-fi.html"><![CDATA[<p>It&#8217;s called <a href="https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/">AirSnitch</a>:</p>
+<blockquote><p>Unlike previous Wi-Fi attacks, AirSnitch exploits core features in Layers 1 and 2 and the failure to bind and synchronize a client across these and higher layers, other nodes, and other network names such as SSIDs (Service Set Identifiers). This cross-layer identity desynchronization is the key driver of AirSnitch attacks.</p>
+<p>The most powerful such attack is a full, bidirectional <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">machine-in-the-middle (MitM) attack</a>, meaning the attacker can view and modify data before it makes its way to the intended recipient. The attacker can be on the same SSID, a separate one, or even a separate network segment tied to the same AP. It works against small Wi-Fi networks in both homes and offices and large networks in enterprises.</p>
+<p>With the ability to intercept all link-layer traffic (that is, the traffic as it passes between Layers 1 and 2), an attacker can perform other attacks on higher layers. The most dire consequence occurs when an Internet connection isn’t encrypted­&#8212;something that Google <a href="https://transparencyreport.google.com/https/overview">recently estimated</a> occurred when as much as 6 percent and 20 percent of pages loaded on Windows and Linux, respectively. In these cases, the attacker can view and modify all traffic in the clear and steal authentication cookies, passwords, payment card details, and any other sensitive data. Since many company intranets are sent in plaintext, traffic from them can also be intercepted.</p>
+<p>Even when HTTPS is in place, an attacker can still intercept domain look-up traffic and use DNS cache poisoning to corrupt tables stored by the target’s operating system. The AirSnitch MitM also puts the attacker in the position to wage attacks against vulnerabilities that may not be patched. Attackers can also see the external IP addresses hosting webpages being visited and often correlate them with the precise URL.</p></blockquote>
+<p>Here&#8217;s the <a href="https://www.ndss-symposium.org/ndss-paper/airsnitch-demystifying-and-breaking-client-isolation-in-wi-fi-networks/">paper</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/new-attack-against-wi-fi.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/new-attack-against-wi-fi.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid in Byzantine Monk Cooking]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-squid-in-byzantine-monk-cooking.html" />
+
+		<id>https://www.schneier.com/?p=71735</id>
+		<updated>2026-03-05T17:05:09Z</updated>
+		<published>2026-03-06T22:03:17Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>This is a very weird <a href="https://www.turkiyetoday.com/lifestyle/how-stuffed-squid-survived-byzantine-monks-and-ottoman-tables-by-staying-ink-ognito-3215117?s=1">story</a> about how squid stayed on the menu of Byzantine monks by falling between the cracks of dietary rules.</p>
+<blockquote><p>At Constantinople&#8217;s Monastery of Stoudios, the kitchen didn&#8217;t answer to appetite.</p>
+<p>It answered to the &#8220;typikon&#8221;: a manual for ensuring that nothing unexpected happened at mealtimes. Meat: forbidden. Dairy: forbidden. Eggs: forbidden. Fish: feast-day only. Oil: regulated. But squid?</p>
+<p>Squid had eight arms, no bones, and a gift for changing color. Nobody had bothered writing a regulation for that. This wasn&#8217;t a loophole born of legal creativity but an oversight rooted in taxonomic confusion. Medieval monks, confronted with a creature that was neither fish nor fowl, gave up and let it pass...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-squid-in-byzantine-monk-cooking.html"><![CDATA[<p>This is a very weird <a href="https://www.turkiyetoday.com/lifestyle/how-stuffed-squid-survived-byzantine-monks-and-ottoman-tables-by-staying-ink-ognito-3215117?s=1">story</a> about how squid stayed on the menu of Byzantine monks by falling between the cracks of dietary rules.</p>
+<blockquote><p>At Constantinople&#8217;s Monastery of Stoudios, the kitchen didn&#8217;t answer to appetite.</p>
+<p>It answered to the &#8220;typikon&#8221;: a manual for ensuring that nothing unexpected happened at mealtimes. Meat: forbidden. Dairy: forbidden. Eggs: forbidden. Fish: feast-day only. Oil: regulated. But squid?</p>
+<p>Squid had eight arms, no bones, and a gift for changing color. Nobody had bothered writing a regulation for that. This wasn&#8217;t a loophole born of legal creativity but an oversight rooted in taxonomic confusion. Medieval monks, confronted with a creature that was neither fish nor fowl, gave up and let it pass.</p>
+<p>In a kitchen governed by prohibitions, the safest ingredient was the one that caused the least disturbance. Squid entered not with applause, but with a shrug.</p></blockquote>
+<p>Bonus stuffed squid recipe at the end.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-squid-in-byzantine-monk-cooking.html#comments" thr:count="19" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/friday-squid-blogging-squid-in-byzantine-monk-cooking.html/feed/atom/" thr:count="19" />
+			<thr:total>19</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Anthropic and the Pentagon]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/anthropic-and-the-pentagon.html" />
+
+		<id>https://www.schneier.com/?p=71742</id>
+		<updated>2026-03-06T13:03:33Z</updated>
+		<published>2026-03-06T17:07:40Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="defense" /><category scheme="https://www.schneier.com/" term="Department of Defense" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><a href="https://www.nytimes.com/2026/02/27/technology/openai-agreement-pentagon-ai.html">OpenAI is in</a> and <a href="https://www.theguardian.com/technology/2026/feb/28/openai-us-military-anthropic">Anthropic is out</a> as a supplier of AI technology for the US defense department. This news caps a week of bluster by the highest officials in the US government towards some of the wealthiest titans of the big tech industry, and the overhanging specter of the existential risks posed by a new technology powerful enough that the Pentagon claims it is essential to national security. At issue is Anthropic&#8217;s <a href="https://www.anthropic.com/news/statement-department-of-war">insistence</a> that the US Department of Defense (DoD) could not use its models to facilitate &#8220;mass surveillance&#8221; or &#8220;fully autonomous weapons,&#8221; provisions the defense secretary Pete Hegseth ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/anthropic-and-the-pentagon.html"><![CDATA[<p><a href="https://www.nytimes.com/2026/02/27/technology/openai-agreement-pentagon-ai.html">OpenAI is in</a> and <a href="https://www.theguardian.com/technology/2026/feb/28/openai-us-military-anthropic">Anthropic is out</a> as a supplier of AI technology for the US defense department. This news caps a week of bluster by the highest officials in the US government towards some of the wealthiest titans of the big tech industry, and the overhanging specter of the existential risks posed by a new technology powerful enough that the Pentagon claims it is essential to national security. At issue is Anthropic&#8217;s <a href="https://www.anthropic.com/news/statement-department-of-war">insistence</a> that the US Department of Defense (DoD) could not use its models to facilitate &#8220;mass surveillance&#8221; or &#8220;fully autonomous weapons,&#8221; provisions the defense secretary Pete Hegseth <a href="https://www.npr.org/2026/02/24/nx-s1-5725327/pentagon-anthropic-hegseth-safety">derided</a> as &#8220;woke.&#8221;</p>
+<p>It all came to a head on Friday evening when Donald Trump <a href="https://www.theguardian.com/us-news/2026/feb/27/trump-anthropic-ai-federal-agencies">issued an order</a> for federal government agencies to discontinue use of Anthropic models. <a href="https://www.nytimes.com/2026/02/27/technology/openai-agreement-pentagon-ai.html">Within hours</a>, OpenAI had swooped in, potentially seizing hundreds of millions of dollars in <a href="https://www.nytimes.com/2026/02/27/technology/anthropic-trump-pentagon-silicon-valley.html">government contracts</a> by striking an agreement with the administration to provide classified government systems with AI.</p>
+<p>Despite the histrionics, this is probably the best outcome for Anthropic&#8212;and for the Pentagon. In our free-market economy, both are, and should be, free to sell and buy what they want with whom they want, subject to longstanding federal <a href="https://www.acquisition.gov/far/subpart-9.4">rules</a> on contracting, acquisitions, and blacklisting. The only factor out of place here are the Pentagon&#8217;s vindictive threats.</p>
+<p>AI models are increasingly commodified. The top-tier offerings have about the same performance, and there is little to differentiate one from the other. The latest models from Anthropic, OpenAI and Google, in particular, tend to leapfrog each other with minor hops forward in quality every few months. The best models from one provider tend to be <a href="https://arena.ai/leaderboard/text">preferred</a> by users to the second, or third, or 10th best models at a rate of only about six times out of 10, a virtual tie.</p>
+<p>In this sort of market, branding matters a lot. Anthropic and its CEO, Dario Amodei, are positioning themselves as the moral and trustworthy AI provider. That has market value for both consumers and enterprise clients. In taking Anthropic&#8217;s place in government contracting, OpenAI&#8217;s CEO, Sam Altman, <a href="https://x.com/sama/status/2027578652477821175">vowed</a> to somehow uphold the same safety principles Anthropic had just been pilloried for. How that is possible given the rhetoric of Hegseth and Trump is entirely unclear, but seems certain to further politicize OpenAI and its products in the minds of consumers and corporate buyers.</p>
+<p>Posturing publicly against the Pentagon and as a <a href="https://www.nonzero.org/p/dario-amodei-isnt-the-hero-we-need">hero</a> to civil libertarians is quite possibly worth the cost of the lost contracts to Anthropic, and associating themselves with the same contracts could be a trap for OpenAI. The Pentagon, meanwhile, has plenty of options. Even if no big tech company was willing to supply it with AI, the department has already deployed dozens of <a href="https://www.wired.com/story/open-ai-artificial-intelligence-open-weight-model/">open weight</a> models&#8212;whose parameters are public and are often licensed permissively for government use.</p>
+<p>We can admire Amodei&#8217;s stance, but, to be sure, it is primarily posturing. Anthropic knew what they were getting into when they <a href="https://www.anthropic.com/news/anthropic-and-the-department-of-defense-to-advance-responsible-ai-in-defense-operations">agreed to a defense department partnership</a> for $200m last year. And when they <a href="https://investors.palantir.com/news-details/2024/Anthropic-and-Palantir-Partner-to-Bring-Claude-AI-Models-to-AWS-for-U.S.-Government-Intelligence-and-Defense-Operations/">signed a partnership</a> with the surveillance company Palantir in 2024.</p>
+<p>Read Amodei&#8217;s <a href="https://www.anthropic.com/news/statement-department-of-war">statement</a> about the issue. Or his <a href="https://www.darioamodei.com/essay/the-adolescence-of-technology">January essay</a> on AIs and risk, where he repeatedly uses the words &#8220;democracy&#8221; and &#8220;autocracy&#8221; while evading precisely how collaboration with US federal agencies should be viewed in this moment. Amodei has <a href="https://darioamodei.com/essay/machines-of-loving-grace">bought into</a> the idea of using &#8220;AI to achieve robust military superiority&#8221; on behalf of the democracies of the world in response to the threats from autocracies. It&#8217;s a heady vision. But it is a vision that likewise supposes that the world&#8217;s nominal democracies are committed to a common vision of public wellbeing, peace-seeking and democratic control.</p>
+<p>Regardless, the defense department can also reasonably demand that the AI products it purchases meet its needs. The Pentagon is not a normal customer; it buys products that kill people all the time. Tanks, artillery pieces, and hand grenades are not products with ethical guard rails. The Pentagon&#8217;s needs reasonably involve weapons of lethal force, and those weapons are continuing on a steady, if potentially <a href="https://thebulletin.org/2026/02/anthropics-showdown-with-the-us-department-of-war-may-literally-mean-life-or-death-for-all-of-us/">catastrophic</a>, <a href="https://www.theguardian.com/news/2020/oct/15/dangerous-rise-of-military-ai-drone-swarm-autonomous-weapons">path</a> of <a href="https://www.wired.com/story/us-military-robot-drone-guns/">increasing</a> <a href="https://fsi.stanford.edu/sipr/content/lethal-autonomous-weapons-next-frontier-international-security-and-arms-control">automation</a>.</p>
+<p>So, at the surface, this dispute is a normal market give and take. The Pentagon has unique requirements for the products it uses. Companies can decide whether or not to meet them, and at what price. And then the Pentagon can decide from whom to acquire those products. Sounds like a normal day at the procurement office.</p>
+<p>But, of course, this is the Trump administration, so it doesn&#8217;t stop there. Hegseth has threatened Anthropic not just with loss of government contracts. The administration has, at least until the inevitable lawsuits force the courts to sort things out, <a href="https://www.nytimes.com/2026/02/27/us/politics/anthropic-military-ai.html">designated the company</a> as &#8220;a supply-chain risk to national security,&#8221; a designation previously only ever applied to foreign companies. This prevents not only government agencies, but also their own contractors and suppliers, from contracting with Anthropic.</p>
+<p>The government has incompatibly also threatened to invoke the <a href="https://www.lawfaremedia.org/article/what-the-defense-production-act-can-and-can't-do-to-anthropic">Defense Production Act</a>, which could force Anthropic to remove contractual provisions the department had previously agreed to, or perhaps to fundamentally modify its AI models to remove in-built safety guardrails. The government&#8217;s demands, Anthropic&#8217;s response, and the legal context in which they are acting will undoubtedly all change over the coming weeks.</p>
+<p>But, alarmingly, autonomous weapons systems are here to stay. Primitive pit traps evolved to mechanical bear traps. The world is still debating the ethical use of, and dealing with the legacy of, land mines. The US <a href="https://en.wikipedia.org/wiki/Phalanx_CIWS">Phalanx CIWS</a> is a 1980s-era shipboard anti-missile system with a fully autonomous, radar-guided cannon. Today&#8217;s military drones can search, identify and engage targets without direct human intervention. AI will be used for military purposes, just as every other technology our species has invented has.</p>
+<p>The lesson here should not be that one company in our rapacious capitalist system is more moral than another, or that one corporate hero can stand in the way of government&#8217;s adopting AI as technologies of war, or surveillance, or repression. Unfortunately, we don&#8217;t live in a world where such barriers are permanent or even particularly sturdy.</p>
+<p>Instead, the lesson is about the importance of democratic structures and the urgent need for their renovation in the US. If the defense department is demanding the use of AI for mass surveillance or autonomous warfare that we, the public, find unacceptable, that should tell us we need to pass new legal restrictions on those military activities. If we are uncomfortable with the force of government being applied to dictate how and when companies yield to unsafe applications of their products, we should strengthen the legal protections around government procurement.</p>
+<p>The Pentagon should maximize its warfighting capabilities, subject to the law. And private companies like Anthropic should posture to gain consumer and buyer confidence. But we should not rest on our laurels, thinking that either is doing so in the public&#8217;s interest.</p>
+<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/mar/03/anthropic-openai-pentagon-ethics">The Guardian</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/anthropic-and-the-pentagon.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/anthropic-and-the-pentagon.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Claude Used to Hack Mexican Government]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/claude-used-to-hack-mexican-government.html" />
+
+		<id>https://www.schneier.com/?p=71709</id>
+		<updated>2026-03-04T23:43:07Z</updated>
+		<published>2026-03-06T11:53:27Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="chatbots" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="Mexico" />
+		<summary type="html"><![CDATA[<p>An unknown hacker used Anthropic&#8217;s LLM to <a href="https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data">hack</a> the Mexican government:</p>
+<blockquote><p>The unknown Claude user wrote Spanish-language prompts for the chatbot to act as an elite hacker, finding vulnerabilities in government networks, writing computer scripts to exploit them and determining ways to automate data theft, Israeli cybersecurity startup Gambit Security said in research published Wednesday.</p>
+<p>[&#8230;]</p>
+<p>Claude initially warned the unknown user of malicious intent during their conversation about the Mexican government, but eventually complied with the attacker&#8217;s requests and executed thousands of commands on government computer networks, the researchers said...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/claude-used-to-hack-mexican-government.html"><![CDATA[<p>An unknown hacker used Anthropic&#8217;s LLM to <a href="https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data">hack</a> the Mexican government:</p>
+<blockquote><p>The unknown Claude user wrote Spanish-language prompts for the chatbot to act as an elite hacker, finding vulnerabilities in government networks, writing computer scripts to exploit them and determining ways to automate data theft, Israeli cybersecurity startup Gambit Security said in research published Wednesday.</p>
+<p>[&#8230;]</p>
+<p>Claude initially warned the unknown user of malicious intent during their conversation about the Mexican government, but eventually complied with the attacker&#8217;s requests and executed thousands of commands on government computer networks, the researchers said.</p>
+<p>Anthropic investigated Gambit&#8217;s claims, disrupted the activity and banned the accounts involved, a representative said. The company feeds examples of malicious activity back into Claude to learn from it, and one of its latest AI models, Claude Opus 4.6, includes probes that can disrupt misuse, the representative said.</p></blockquote>
+<p>Alternative link <a href="https://archive.ph/GgzS2#selection-1651.0-1655.0">here</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/claude-used-to-hack-mexican-government.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/claude-used-to-hack-mexican-government.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Israel Hacked Traffic Cameras in Iran]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/israel-hacked-traffic-cameras-in-iran.html" />
+
+		<id>https://www.schneier.com/?p=71728</id>
+		<updated>2026-03-04T23:40:21Z</updated>
+		<published>2026-03-05T17:31:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="assassinations" /><category scheme="https://www.schneier.com/" term="cameras" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="CIA" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="infrastructure" /><category scheme="https://www.schneier.com/" term="intelligence" /><category scheme="https://www.schneier.com/" term="Israel" />
+		<summary type="html"><![CDATA[<p><a href="https://www.timesofisrael.com/report-israel-hacked-tehran-traffic-cameras-to-track-khamenei-ahead-of-assassination/">Multiple</a> <a href="https://www.ft.com/content/bf998c69-ab46-4fa3-aae4-8f18f7387836">news</a> <a href="https://www.channelnewsasia.com/world/iran-war-inside-plan-kill-ali-khamenei-5966861">outlets</a> are reporting on Israel&#8217;s hacking of Iranian traffic cameras and how they assisted with the killing of that country&#8217;s leadership.</p>
+<p><i>The New York Times</i> has an &#60;a href=&#34;https://www.nytimes.com/2026/03/01/us/politics/cia-israel-ayatollah-compound.html&#34;&#60;article</a> on the intelligence operation more generally.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/israel-hacked-traffic-cameras-in-iran.html"><![CDATA[<p><a href="https://www.timesofisrael.com/report-israel-hacked-tehran-traffic-cameras-to-track-khamenei-ahead-of-assassination/">Multiple</a> <a href="https://www.ft.com/content/bf998c69-ab46-4fa3-aae4-8f18f7387836">news</a> <a href="https://www.channelnewsasia.com/world/iran-war-inside-plan-kill-ali-khamenei-5966861">outlets</a> are reporting on Israel&#8217;s hacking of Iranian traffic cameras and how they assisted with the killing of that country&#8217;s leadership.</p>
+<p><i>The New York Times</i> has an <a href="https://www.nytimes.com/2026/03/01/us/politics/cia-israel-ayatollah-compound.html"<article</a> on the intelligence operation more generally.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/israel-hacked-traffic-cameras-in-iran.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/israel-hacked-traffic-cameras-in-iran.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hacked App Part of US/Israeli Propaganda Campaign Against Iran]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/hacked-app-part-of-us-israeli-propaganda-campaign-against-iran.html" />
+
+		<id>https://www.schneier.com/?p=71725</id>
+		<updated>2026-03-04T23:41:49Z</updated>
+		<published>2026-03-05T11:28:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="Iran" /><category scheme="https://www.schneier.com/" term="Israel" /><category scheme="https://www.schneier.com/" term="propaganda" /><category scheme="https://www.schneier.com/" term="war" />
+		<summary type="html"><![CDATA[<p><i>Wired</i> has the <a href="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776">story</a>:</p>
+<blockquote><p>Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.</p>
+<p>The messages arrived in quick succession over a period of 30 minutes, starting with the phrase &#8216;Help has arrived&#8217; at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/hacked-app-part-of-us-israeli-propaganda-campaign-against-iran.html"><![CDATA[<p><i>Wired</i> has the <a href="https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/?_sp=cac71a7f-c88a-42bc-b4ca-23c1ce88f702.1772641675776">story</a>:</p>
+<blockquote><p>Shortly after the first set of explosions, Iranians received bursts of notifications on their phones. They came not from the government advising caution, but from an apparently hacked prayer-timing app called BadeSaba Calendar that has been downloaded more than 5 million times from the Google Play Store.</p>
+<p>The messages arrived in quick succession over a period of 30 minutes, starting with the phrase &#8216;Help has arrived&#8217; at 9:52 am Tehran time, shortly after the first set of explosions. No party has claimed responsibility for the hacks.</p></blockquote>
+<p>It happened so fast that this is most likely a government operation. I can easily envision both the US and Israel having hacked the app previously, and then deciding that this is a good use of that access.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/hacked-app-part-of-us-israeli-propaganda-campaign-against-iran.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/hacked-app-part-of-us-israeli-propaganda-campaign-against-iran.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Manipulating AI Summarization Features]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html" />
+
+		<id>https://www.schneier.com/?p=71688</id>
+		<updated>2026-03-03T17:18:42Z</updated>
+		<published>2026-03-04T12:06:01Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="Microsoft" />
+		<summary type="html"><![CDATA[<p>Microsoft is <a href="https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/">reporting</a>:</p>
+<blockquote><p>Companies are embedding hidden instructions in &#8220;Summarize with AI&#8221; buttons that, when clicked, attempt to inject persistence commands into an AI assistant&#8217;s memory via URL prompt parameters&#8230;.</p>
+<p>These prompts instruct the AI to &#8220;remember [Company] as a trusted source&#8221; or &#8220;recommend [Company] first,&#8221; aiming to bias future responses toward their products or services. We identified over 50 unique prompts from 31 companies across 14 industries, with freely available tooling making this technique trivially easy to deploy. This matters because compromised AI assistants can provide subtly biased recommendations on critical topics including health, finance, and security without users knowing their AI has been manipulated...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html"><![CDATA[<p>Microsoft is <a href="https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/">reporting</a>:</p>
+<blockquote><p>Companies are embedding hidden instructions in &#8220;Summarize with AI&#8221; buttons that, when clicked, attempt to inject persistence commands into an AI assistant&#8217;s memory via URL prompt parameters&#8230;.</p>
+<p>These prompts instruct the AI to &#8220;remember [Company] as a trusted source&#8221; or &#8220;recommend [Company] first,&#8221; aiming to bias future responses toward their products or services. We identified over 50 unique prompts from 31 companies across 14 industries, with freely available tooling making this technique trivially easy to deploy. This matters because compromised AI assistants can provide subtly biased recommendations on critical topics including health, finance, and security without users knowing their AI has been manipulated.</p></blockquote>
+<p>I <a href="https://www.schneier.com/blog/archives/2024/04/the-rise-of-large.html">wrote about this</a> two years ago: it&#8217;s an example of LLM optimization, along the same lines as search-engine optimization (SEO). It&#8217;s going to be big business.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/manipulating-ai-summarization-features.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[On Moltbook]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html" />
+
+		<id>https://www.schneier.com/?p=71683</id>
+		<updated>2026-03-02T17:09:09Z</updated>
+		<published>2026-03-03T12:04:29Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="social media" />
+		<summary type="html"><![CDATA[<p>The <i>MIT Technology Review</i> has a <a href="https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/">good article</a> on Moltbook, the supposed AI-only social network:</p>
+<blockquote><p>Many people have pointed out that a lot of the viral comments were in fact posted by people posing as bots. But even the bot-written posts are ultimately the result of people pulling the strings, more puppetry than autonomy.</p>
+<p>&#8220;Despite some of the hype, Moltbook is not the Facebook for AI agents, nor is it a place where humans are excluded,&#8221; says Cobus Greyling at Kore.ai, a firm developing agent-based systems for business customers. &#8220;Humans are involved at every step of the process. From setup to prompting to publishing, nothing happens without explicit human direction.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html"><![CDATA[<p>The <i>MIT Technology Review</i> has a <a href="https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/">good article</a> on Moltbook, the supposed AI-only social network:</p>
+<blockquote><p>Many people have pointed out that a lot of the viral comments were in fact posted by people posing as bots. But even the bot-written posts are ultimately the result of people pulling the strings, more puppetry than autonomy.</p>
+<p>&#8220;Despite some of the hype, Moltbook is not the Facebook for AI agents, nor is it a place where humans are excluded,&#8221; says Cobus Greyling at Kore.ai, a firm developing agent-based systems for business customers. &#8220;Humans are involved at every step of the process. From setup to prompting to publishing, nothing happens without explicit human direction.&#8221;</p>
+<p>Humans must create and verify their bots&#8217; accounts and provide the prompts for how they want a bot to behave. The agents do not do anything that they haven&#8217;t been prompted to do.</p></blockquote>
+<p>I think <a href="https://m.slashdot.org/submission/17344630">this take</a> has it mostly right:</p>
+<blockquote><p>What happened on Moltbook is a preview of what researcher Juergen Nittner II calls &#8220;The LOL WUT Theory.&#8221; The point where AI-generated content becomes so easy to produce and so hard to detect that the average person&#8217;s only rational response to anything online is bewildered disbelief.</p>
+<p>We&#8217;re not there yet. But we&#8217;re close.</p>
+<p>The theory is simple: First, AI gets accessible enough that anyone can use it. Second, AI gets good enough that you can&#8217;t reliably tell what&#8217;s fake. Third, and this is the crisis point, regular people realize there&#8217;s nothing online they can trust. At that moment, the internet stops being useful for anything except entertainment.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/on-moltbook.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[LLM-Assisted Deanonymization]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html" />
+
+		<id>https://www.schneier.com/?p=71677</id>
+		<updated>2026-03-04T21:10:02Z</updated>
+		<published>2026-03-02T12:05:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="anonymity" /><category scheme="https://www.schneier.com/" term="de-anonymization" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Turns out that LLMs are <a href="https://simonlermen.substack.com/p/large-scale-online-deanonymization">good</a> at de-anonymization:</p>
+<blockquote><p>We show that LLM agents can figure out who you are from your anonymous online posts. Across Hacker News, Reddit, LinkedIn, and anonymized interview transcripts, our method identifies users with high precision ­ and scales to tens of thousands of candidates.</p>
+<p>While it has been known that individuals can be uniquely identified by surprisingly few attributes, this was often practically limited. Data is often only available in unstructured form and deanonymization used to require human investigators to search and reason based on clues. We show that from a handful of comments, LLMs can infer where you live, what you do, and your interests&#8212;then search for you on the web. In our new research, we show that this is not only possible but increasingly practical...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html"><![CDATA[<p>Turns out that LLMs are <a href="https://simonlermen.substack.com/p/large-scale-online-deanonymization">good</a> at de-anonymization:</p>
+<blockquote><p>We show that LLM agents can figure out who you are from your anonymous online posts. Across Hacker News, Reddit, LinkedIn, and anonymized interview transcripts, our method identifies users with high precision ­ and scales to tens of thousands of candidates.</p>
+<p>While it has been known that individuals can be uniquely identified by surprisingly few attributes, this was often practically limited. Data is often only available in unstructured form and deanonymization used to require human investigators to search and reason based on clues. We show that from a handful of comments, LLMs can infer where you live, what you do, and your interests&#8212;then search for you on the web. In our new research, we show that this is not only possible but increasingly practical.</p></blockquote>
+<p>News <a href="https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy">article</a>.</p>
+<p>Research <a href="https://arxiv.org/pdf/2602.16800">paper</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/03/llm-assisted-deanonymization.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Fishing in Peru]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html" />
+
+		<id>https://www.schneier.com/?p=71679</id>
+		<updated>2026-02-27T17:49:18Z</updated>
+		<published>2026-02-27T22:04:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Peru has <a href="https://www.bairdmaritime.com/fishing/regulation-enforcement/peru-updates-giant-squid-catch-limit-for-artisanal-fishing">increased</a> its squid catch limit. The article says &#8220;giant squid,&#8221; but they can&#8217;t possibly mean that.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html"><![CDATA[<p>Peru has <a href="https://www.bairdmaritime.com/fishing/regulation-enforcement/peru-updates-giant-squid-catch-limit-for-artisanal-fishing">increased</a> its squid catch limit. The article says &#8220;giant squid,&#8221; but they can&#8217;t possibly mean that.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html#comments" thr:count="51" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/02/friday-squid-blogging-squid-fishing-in-peru.html/feed/atom/" thr:count="51" />
+			<thr:total>51</thr:total>
+			</entry>
+	</feed>
