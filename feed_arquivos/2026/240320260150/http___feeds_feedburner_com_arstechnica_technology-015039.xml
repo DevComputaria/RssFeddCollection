@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Fri, 20 Mar 2026 20:50:46 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>Widely used Trivy scanner compromised in ongoing supply-chain attack</title>
+                <link>https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 20 Mar 2026 20:50:46 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[GitHub]]></category>
+		<category><![CDATA[info stealers]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+		<category><![CDATA[trivy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/</guid>
+
+                                    <description>
+                        <![CDATA[Admins: Sorry to say, but it's likely a rotate-your-secrets kind of weekend.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers have compromised virtually all versions of Aqua Security’s widely used Trivy vulnerability scanner in an ongoing supply chain attack that could have wide-ranging consequences for developers and the organizations that use them.</p>
+<p>Trivy maintainer Itay Shakury <a href="https://github.com/aquasecurity/trivy/discussions/10425">confirmed</a> the compromise on Friday, following rumors and a <a href="https://web.archive.org/web/20260307200451/https://github.com/aquasecurity/trivy/discussions/10265#discussioncomment-16214191%20MO">thread</a>, since deleted by the attackers, discussing the incident. The attack began in the early hours of Thursday. When it was done, the threat actor had used stolen credentials to force-push all but one of the trivy-action tags and seven setup-trivy tags to use malicious dependencies.</p>
+<h2>Assume your pipelines are compromised</h2>
+<p>A <a href="https://www.git-tower.com/blog/force-push-in-git">forced</a> <a href="https://www.git-tower.com/learn/git/faq/git-force-push/">push</a> is a git command that overrides a default safety mechanism that protects against overwriting existing commits. Trivy is a vulnerability scanner that developers use to detect vulnerabilities and inadvertently hardcoded authentication secrets in pipelines for developing and deploying software updates. The scanner has 33,200 stars on GitHub, a high rating that indicates it’s used widely.</p><p><a href="https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>30</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-1000x648.jpg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2020/10/malware-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Cloud service providers ask EU regulator to reinstate VMware partner program</title>
+                <link>https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 19 Mar 2026 21:29:53 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[acquisitions]]></category>
+		<category><![CDATA[antitrust]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[europe]]></category>
+		<category><![CDATA[mergers]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/</guid>
+
+                                    <description>
+                        <![CDATA[Broadcom says the group is misrepresenting market "realities." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>A trade association of cloud service providers (CSPs) filed an antitrust complaint today with the European Union’s European Commission (EC) over Broadcom's shuttering of VMware’s CSP partner program this year.</p>
+<p>Since Broadcom bought VMware, it has drastically cut the number of channel partners VMware works with, a shift that began with the elimination of <a href="https://arstechnica.com/information-technology/2024/01/broadcom-killing-vmware-partner-program-could-disrupt-thousands-of-businesses/">VMware’s partner program</a>. Broadcom replaced the program with an <a href="https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/">invite-only alternative</a> that favors larger partners working with enterprise-size clients <a href="https://arstechnica.com/information-technology/2025/06/broadcom-ends-business-with-vmwares-lowest-tier-channel-partners/">rather than small-to-medium-size businesses</a>.</p>
+<p>There are even fewer CSP partners working with VMware today. Broadcom introduced a requirement that CSP partners operate at least 3,500 cores, rendering hundreds of CSPs ineligible for partnership. Before Broadcom bought VMware, the virtualization company had over 4,000 CSP partners, per a February 2024 report from <a href="https://www.theregister.com/2024/02/13/broadcom_ends_free_esxi_vsphere/">The Register</a>. Today, VMware reportedly has 19 CSP partners in the US and about nine in the United Kingdom, <a href="https://www.theregister.com/2026/03/19/cispe_eu_complaint_vmware_vcsp_closure/">The Register</a> reported.</p><p><a href="https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/03/cloud-service-providers-ask-eu-regulator-to-reinstate-vmware-partner-program/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>43</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2238913761-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2238913761-500x500-1773952643.jpg" width="500" height="500" />
+<media:credit>Michael Nguyen/NurPhoto via Getty Images</media:credit><media:text>The Broadcom office building with the company logo is in Regensburg, Bavaria, Upper Palatinate, Germany, on October 4, 2025. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Federal cyber experts called Microsoft&#039;s cloud a &quot;pile of shit,&quot; approved it anyway</title>
+                <link>https://arstechnica.com/information-technology/2026/03/federal-cyber-experts-called-microsofts-cloud-a-pile-of-shit-approved-it-anyway/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/03/federal-cyber-experts-called-microsofts-cloud-a-pile-of-shit-approved-it-anyway/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Renee Dudley, with research by Doris Burke, ProPublica.org]]>
+                </dc:creator>
+                <pubDate>Wed, 18 Mar 2026 17:36:40 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Propublica]]></category>
+		<category><![CDATA[syndication]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/03/federal-cyber-experts-called-microsofts-cloud-a-pile-of-shit-approved-it-anyway/</guid>
+
+                                    <description>
+                        <![CDATA[One Microsoft product was approved despite years of concerns about its security.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>In late 2024, the federal government’s cybersecurity evaluators rendered a troubling verdict on one of Microsoft’s biggest cloud computing offerings.</p>
+<p>The tech giant’s “lack of proper detailed security documentation” left reviewers with a “lack of confidence in assessing the system’s overall security posture,” according to an internal government report reviewed by ProPublica.</p>
+<p>Or, as one member of the team put it: “The package is a pile of shit.”</p><p><a href="https://arstechnica.com/information-technology/2026/03/federal-cyber-experts-called-microsofts-cloud-a-pile-of-shit-approved-it-anyway/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/03/federal-cyber-experts-called-microsofts-cloud-a-pile-of-shit-approved-it-anyway/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>95</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/09/microsoft-logo-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Researchers disclose vulnerabilities in IP KVMs from four manufacturers</title>
+                <link>https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 17 Mar 2026 17:07:12 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[ip kvms]]></category>
+		<category><![CDATA[networks]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/</guid>
+
+                                    <description>
+                        <![CDATA[Internet-exposed devices that give BIOS-level access? What could possibly go wrong?]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers are warning about the risks posed by a low-cost device that can give insiders and hackers unusually broad powers in compromising networks.</p>
+<p>The devices, which typically sell for $30 to $100, are known as IP KVMs. Administrators often use them to remotely access machines on networks. The devices, not much bigger than a deck of cards, allow the machines to be accessed at the BIOS/UEFI level, the firmware that runs before the loading of the operating system.</p>
+<p>This provides power and convenience to admins, but in the wrong hands, the capabilities can often torpedo what might otherwise be a secure network. Risks are posed when the devices—which are exposed to the Internet—are deployed with weak security configurations or surreptitiously connected to by insiders. Firmware vulnerabilities also leave them open to remote takeover.</p><p><a href="https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/researchers-disclose-vulnerabilities-in-ip-kvms-from-4-manufacturers/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>28</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Supply-chain attack using invisible code hits GitHub and other repositories</title>
+                <link>https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Mar 2026 20:18:08 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[public use areas]]></category>
+		<category><![CDATA[supply chain attacks]]></category>
+		<category><![CDATA[Unicode]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/</guid>
+
+                                    <description>
+                        <![CDATA[Unicode that's invisible to the human eye was largely abandoned—until attackers took notice.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers say they’ve discovered a supply-chain attack flooding repositories with malicious packages that contain invisible code, a technique that’s flummoxing traditional defenses designed to detect such threats.</p>
+<p>The researchers, from firm Aikido Security, <a href="https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode">said Friday</a> that they found 151 malicious packages that were uploaded to GitHub from March 3 to March 9. Such supply-chain attacks have been common for <a href="https://arstechnica.com/information-technology/2018/10/two-new-supply-chain-attacks-come-to-light-in-less-than-a-week/">nearly</a> a <a href="https://arstechnica.com/information-technology/2018/11/hacker-backdoors-widely-used-open-source-software-to-steal-bitcoin/">decade</a>. They usually work by uploading malicious packages with code and names that closely resemble those of widely used code libraries, with the objective of tricking developers into mistakenly incorporating the former into their software. In some cases, these malicious packages are downloaded thousands of times.</p>
+<h2>Defenses see nothing. Decoders see executable code</h2>
+<p>The packages Aikido found this month have adopted a newer technique: selective use of code that isn’t visible when loaded into virtually all editors, terminals, and code review interfaces. While most of the code appears in normal, readable form, malicious functions and payloads—the usual telltale signs of malice—are rendered in unicode characters that are invisible to the human eye. The tactic, which Aikido said it <a href="https://www.aikido.dev/blog/youre-invited-delivering-malware-via-google-calendar-invites-and-puas">first spotted</a> last year, makes manual code reviews and other traditional defenses nearly useless. Other repositories hit in these attacks include NPM and Open VSX.</p><p><a href="https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>78</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/hidden-eye-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/hidden-eye-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>The who, what, and why of the attack that has shut down Stryker&#039;s Windows network</title>
+                <link>https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 12 Mar 2026 22:18:11 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[hacktivism]]></category>
+		<category><![CDATA[medical devices]]></category>
+		<category><![CDATA[wipers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/</guid>
+
+                                    <description>
+                        <![CDATA[Company says it doesn't know how long it will take to restore its Microsoft environment.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Within hours of the US and Israel launching airstrikes on Iran two weeks ago, security professionals warned organizations around the world to be on heightened watch for destructive retaliatory hacks. On Wednesday, the predictions appeared to come true as Stryker, a multinational maker of medical devices, confirmed a cyberattack that took down much of its infrastructure, and a hacking group long known to be aligned with the Iranian government claimed responsibility.</p>
+<h2>Where things stand</h2>
+<h3><strong>When and how did the attack come about?</strong></h3>
+<p>The first indications were social media posts and a report from a news organization in Ireland. Messages posted by purported Stryker employees or their family members on <a href="https://www.reddit.com/r/cybersecurity/comments/1rqopq0/stryker_hit_by_handala_intune_managed_devices/">social</a> <a href="https://www.facebook.com/pat.a.bowen/posts/pfbid0Nv4dFBM9MLjRaFN9k6m9HvpkcuaQ8wPHp3oMX4Mtumob4W6129gVk22JupDdGdMil">media</a> said workers’ phones and computers had been wiped. A <a href="https://www.irishexaminer.com/news/munster/arid-41808308.html">report</a> the Irish Examiner published Wednesday morning, citing multiple anonymous sources, made the same claims and said some employees witnessed login pages on wiped devices displaying the logo of Handala Hack, a group that researchers who have followed it for years say is aligned with the Iranian government.</p>
+<h3><strong>What is the status now?</strong></h3>
+<p>Stryker <a href="https://www.stryker.com/us/en/about/news/2026/a-message-to-our-customers-03-2026.html">said Thursday</a> that it’s in the midst of responding to a “global network disruption to our Microsoft environment as a result of a cyber attack.” The update went on to say responders have no indication that ransomware or malware—the usual causes for such outages—were involved. The responders believe the incident is now contained and limited to the internal Microsoft environment.</p><p><a href="https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/whats-known-about-wiper-attack-on-stryker-a-major-supplier-of-lifesaving-devices/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>79</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/data-wiper-malware-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/01/data-wiper-malware-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>14,000 routers are infected by malware that&#039;s highly resistant to takedowns</title>
+                <link>https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 11 Mar 2026 21:27:16 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[ASUS]]></category>
+		<category><![CDATA[botnets]]></category>
+		<category><![CDATA[distributed hash tables]]></category>
+		<category><![CDATA[malware]]></category>
+		<category><![CDATA[routers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/</guid>
+
+                                    <description>
+                        <![CDATA[Most of the devices are made by Asus and are located in the US.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers say they have uncovered a takedown-resistant botnet of 14,000 routers and other network devices—primarily made by Asus—that have been conscripted into a proxy network that anonymously carries traffic used for cybercrime.</p>
+<p>The malware—dubbed KadNap—takes hold by exploiting vulnerabilities that have gone unpatched by their owners, Chris Formosa, a researcher at security firm Lumen’s Black Lotus Labs, told Ars. The high concentration of Asus routers is likely due to botnet operators acquiring a reliable exploit for vulnerabilities affecting those models. He said it’s unlikely that the attackers are using any zero-days in the operation.</p>
+<h2>A botnet that stands out among others</h2>
+<p>The number of infected routers averages about 14,000 per day, up from 10,000 last August, when Black Lotus discovered the botnet. Compromised devices are overwhelmingly located in the US, with smaller populations in Taiwan, Hong Kong, and Russia. One of the most salient features of KadNap is a sophisticated peer-to-peer design based on <a href="https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf">Kademlia</a>, a network structure that uses distributed hash tables to conceal the IP addresses of command-and-control servers. The design makes the botnet resistant to detection and takedowns through traditional methods.</p><p><a href="https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/14000-routers-are-infected-by-malware-thats-highly-resistant-to-takedowns/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>36</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2019/04/GettyImages-926536690-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2019/04/GettyImages-926536690-500x500.jpg" width="500" height="500" />
+<media:credit>BeeBright/Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Feds take notice of iOS vulnerabilities exploited under mysterious circumstances</title>
+                <link>https://arstechnica.com/security/2026/03/cisa-adds-3-ios-flaws-to-its-catalog-of-known-exploited-vulnerabilities/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/cisa-adds-3-ios-flaws-to-its-catalog-of-known-exploited-vulnerabilities/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 06 Mar 2026 19:41:33 +0000</pubDate>
+                		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iPhones]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/cisa-adds-3-ios-flaws-to-its-catalog-of-known-exploited-vulnerabilities/</guid>
+
+                                    <description>
+                        <![CDATA[The long, strange trip of a large assembly of advanced iOS exploits.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Cybersecurity and Infrastructure Security Agency has ordered federal agencies to patch three critical iOS vulnerabilities that were exploited over a 10-month span in hacking campaigns conducted by three distinct groups.</p>
+<p>The hacking campaigns came to light on Thursday in a <a href="https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit">report</a> published by Google. All three campaigns used Coruna, the name of an advanced hacking kit that amassed 23 separate iOS exploits into five potent exploit chains. While some of the vulnerabilities had been exploited as zero-days in earlier, unrelated campaigns, all had been patched by the time Google observed them being exploited by Coruna. When used against older iOS versions, the kit nonetheless posed a formidable threat given the high caliber of the exploit code and the wide range of capabilities.</p>
+<h2>The case of the promiscuous 2nd-hand zero-days</h2>
+<p>“The core technical value of this exploit kit lies in its comprehensive collection of iOS exploits,” Google researchers wrote. “The exploits feature extensive documentation, including docstrings and comments authored in native English. The most advanced ones are using non-public exploitation techniques and mitigation bypasses.”</p><p><a href="https://arstechnica.com/security/2026/03/cisa-adds-3-ios-flaws-to-its-catalog-of-known-exploited-vulnerabilities/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/cisa-adds-3-ios-flaws-to-its-catalog-of-known-exploited-vulnerabilities/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>37</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/iphone-14-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/iphone-14-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Amazon appears to be down, with over 20,000 reported problems</title>
+                <link>https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/</link>
+                                    <comments>https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Mar 2026 21:06:05 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[outage]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/</guid>
+
+                                    <description>
+                        <![CDATA[Problems viewing products and checking out. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Based on over 20,000 reports, Amazon appears to be experiencing an outage.</p>
+<p>According to <a href="https://downdetector.com/status/amazon/">Downdetector</a>, reports of problems started increasing at 1:41 pm ET today. By 2:26 pm, ET, Downdetector received 18,320 reports of problems with Amazon’s website. The number of complaints peaked at 3:32 pm ET at 20,804. There have also been a smaller number of complaints about Amazon Prime Video and Amazon Web Services.</p>
+<p>As of this writing, Amazon <a href="https://health.aws.amazon.com/health/status">hasn’t confirmed</a> any specific problems. However, an Amazon support account on X <a href="https://x.com/AmazonHelp/status/2029648717263810675?s=20">said</a> at 3:02 pm ET today that “some customers may be experiencing issues” and that Amazon is working “to resolve the issue.”</p><p><a href="https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/">Read full article</a></p>
+<p><a href="https://arstechnica.com/gadgets/2026/03/amazon-appears-to-be-down-with-over-20000-reported-problems/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>135</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-535059003-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-535059003-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>An Amazon corporate office building in Sunnyvale, California.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Trump gets data center companies to pledge to pay for power generation</title>
+                <link>https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/</link>
+                                    <comments>https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[John Timmer]]>
+                </dc:creator>
+                <pubDate>Thu, 05 Mar 2026 18:41:28 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[coal]]></category>
+		<category><![CDATA[data centers]]></category>
+		<category><![CDATA[Energy]]></category>
+		<category><![CDATA[natural gas]]></category>
+		<category><![CDATA[nuclear]]></category>
+		<category><![CDATA[renewables]]></category>
+		<category><![CDATA[trump administration]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/</guid>
+
+                                    <description>
+                        <![CDATA[With no enforcement and questionable economics, it may not make a difference.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Wednesday, the Trump administration <a href="https://www.whitehouse.gov/fact-sheets/2026/03/fact-sheet-president-donald-j-trump-advances-energy-affordability-with-the-ratepayer-protection-pledge/">announced</a> that a large collection of tech companies had signed on to what it's calling the Ratepayer Protection Pledge. By agreeing, the initial signatories—Amazon, Google, Meta, Microsoft, OpenAI, Oracle, and xAI—are saying they will pay for the new generation and transmission capacities needed for any additional data centers they build. But the agreement has no enforcement mechanism, and it will likely run into issues with hardware supplies. It also ignores basic economics.</p>
+<p>Other than that, it seems like a great idea.</p>
+<h2>What's being agreed to</h2>
+<p>The <a href="https://www.whitehouse.gov/articles/2026/03/ratepayer-protection-pledge/">agreement</a> is quite simple, laying out five points. The key ones are the first three: that the companies building data centers pledge to pay for new generating capacity, either building it themselves or paying for it as part of a new or expanded power plant. They'll also pay for any transmission infrastructure needed to connect their data centers and the new supply to the grid and will cover these costs whether or not the power ultimately gets used by their facilities.</p><p><a href="https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/">Read full article</a></p>
+<p><a href="https://arstechnica.com/tech-policy/2026/03/leading-ai-datacenter-companies-sign-pledge-to-buy-their-own-power/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>82</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2258665361-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-2258665361-500x500.jpg" width="500" height="500" />
+<media:credit>Houston Chronicle/Hearst Newspapers</media:credit><media:text>Meeting increased demand with natural gas has been complicated by growing exports, such as the ones made at this facility in Texas.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Downdetector, Speedtest sold to IT service-provider Accenture in $1.2B deal</title>
+                <link>https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Mar 2026 22:20:06 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Accenture]]></category>
+		<category><![CDATA[acquisition]]></category>
+		<category><![CDATA[mergers]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/</guid>
+
+                                    <description>
+                        <![CDATA[Accenture plans to buy Ookla, which also includes RootMetrics and Ekahau. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>IT consultant and services provider Accenture has agreed to buy <a href="https://www.speedtest.net/">Speedtest</a> and <a href="https://downdetector.com/">Downdetector</a> owner Ookla from Ziff Davis for $1.2 billion in cash.</p>
+<p>Accenture plans to integrate Ookla’s data products into its own offerings that are targeted at helping communications service providers, hyperscalers, government entities, and other types of customers “optimize … mission-critical Wi-Fi and 5G networks,” Accenture’s announcement today said.</p>
+<p>Ookla's platform also includes Ekahau, which offers tools for troubleshooting and designing wireless networks, and RootMetrics, which monitors mobile network performance.</p><p><a href="https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/03/downdetector-speedtest-sold-to-it-service-provider-accenture-in-1-2b-deal/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>116</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1795499144-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/GettyImages-1795499144-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit><media:text>Paris, France - November 15, 2023: Facade of the French headquarters of Accenture. </media:text></media:content>
+            </item>
+                    <item>
+                <title>LLMs can unmask pseudonymous users at scale with surprising accuracy</title>
+                <link>https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/</link>
+                                    <comments>https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 03 Mar 2026 12:30:24 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[deanonymization]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/</guid>
+
+                                    <description>
+                        <![CDATA[Pseudonymity has never been perfect for preserving privacy. Soon it may be pointless.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Burner accounts on social media sites can increasingly be analyzed to identify the pseudonymous users who post to them using AI in research that has far-reaching consequences for privacy on the Internet, researchers said.</p>
+<p>The finding, from a recently published <a href="https://arxiv.org/pdf/2602.16800">research paper</a>, is based on results of experiments correlating specific individuals with accounts or posts across more than one social media platform. The success rate was far greater than existing classical deanonymization work that relied on humans assembling structured data sets suitable for algorithmic matching or manual work by skilled investigators. Recall—that is, how many users were successfully deanonymized—was as high as 68 percent. Precision—meaning the rate of guesses that correctly identify the user—was up to 90 percent.</p>
+<h2>I know what you posted last year</h2>
+<p>The findings have the potential to upend pseudonymity, an imperfect but often sufficient privacy measure used by many people to post queries and participate in sometimes sensitive public discussions while making it hard for others to positively identify the speakers. The ability to cheaply and quickly identify the people behind such obscured accounts opens them up to doxxing, stalking, and the assembly of detailed marketing profiles that track where speakers live, what they do for a living, and other personal information. This pseudonymity measure no longer holds.</p><p><a href="https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>219</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/unmask-deanymize-privacy-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/03/unmask-deanymize-privacy-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Google quantum-proofs HTTPS by squeezing 15kB of data into 700-byte space</title>
+                <link>https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Sat, 28 Feb 2026 01:26:41 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[certificate transparency]]></category>
+		<category><![CDATA[HTTPS]]></category>
+		<category><![CDATA[merkle trees]]></category>
+		<category><![CDATA[shor's algorithm]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/</guid>
+
+                                    <description>
+                        <![CDATA[Merkle Tree Certificate support is already in Chrome. Soon, it will be everywhere.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Google on Friday unveiled its plan for its Chrome browser to secure HTTPS certificates against quantum computer attacks without breaking the Internet.</p>
+<p>The objective is a tall order. The quantum-resistant cryptographic data needed to transparently publish TLS certificates is roughly 40 times bigger than the classical cryptographic material used today. A typical <a href="https://en.wikipedia.org/wiki/X.509">X.509 certificate</a> chain used today comprises six elliptic curve signatures and two EC public keys,  each of them only 64 bytes. This material can be cracked through the quantum-enabled <a href="https://en.wikipedia.org/wiki/Shor's_algorithm">Shor’s algorithm</a>. The full chain is roughly 4 kilobytes. All this data must be transmitted when a browser connects to a site.</p>
+<h2>The bigger they come, the slower they move</h2>
+<p>“The bigger you make the certificate, the slower the handshake and the more people you leave behind,” said Bas Westerbaan, principal research engineer at Cloudflare, which is partnering with Google on the transition. “Our problem is we don’t want to leave people behind in this transition.” Speaking to Ars, he said that people will likely disable the new encryption if it slows their browsing. He added that the massive size increase can also degrade “middle boxes,” which sit between browsers and the final site.</p><p><a href="https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>94</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-500x500-1772240635.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>New AirSnitch attack bypasses Wi-Fi encryption in homes, offices, and enterprises</title>
+                <link>https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 26 Feb 2026 15:45:18 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[Networking]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[wi-fi]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/</guid>
+
+                                    <description>
+                        <![CDATA[That guest network you set up for your neighbors may not be as secure as you think.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>It’s hard to overstate the role that Wi-Fi plays in virtually every facet of life. The organization that shepherds the wireless protocol <a href="https://www.wi-fi.org/beacon/the-beacon/powering-connected-world-wi-fi-momentum-2025">says</a> that more than 48 billion Wi-Fi-enabled devices have shipped since it debuted in the late 1990s. One <a href="https://thenetworkinstallers.com/blog/wifi-statistics/">estimate</a> pegs the number of individual users at 6 billion, roughly 70 percent of the world’s population.</p>
+<p>Despite the dependence and the immeasurable amount of sensitive data flowing through Wi-Fi transmissions, the history of the protocol has been <a href="https://arstechnica.com/gadgets/2019/03/802-eleventy-who-goes-there-wpa3-wi-fi-security-and-what-came-before-it/">littered</a> with security landmines stemming both from the inherited confidentiality weaknesses of its networking predecessor, Ethernet (it was once possible for anyone on a network to <a href="https://blackhat.com/html/bh-usa-03/bh-usa-03-speakers.html">read and modify</a> the traffic sent to anyone else), and the ability for anyone nearby to receive the radio signals Wi-Fi relies on.</p>
+<h2>Ghost in the machine</h2>
+<p>In the early days, public Wi-Fi networks often resembled the Wild West, where <a href="https://en.wikipedia.org/wiki/ARP_spoofing">ARP spoofing</a> attacks that allowed renegade users to read other users' traffic were common. The solution was to build cryptographic protections that prevented nearby parties—whether an authorized user on the network or someone near the AP (access point)—from reading or tampering with the traffic of any other user.</p><p><a href="https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>166</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/wi-fi-1152x648-1751309982.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/wi-fi-500x500-1751309971.jpg" width="500" height="500" />
+<media:credit>Getty Image | BlackJack3D</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Password managers&#039; promise that they can&#039;t see your vaults isn&#039;t always true</title>
+                <link>https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 17 Feb 2026 20:43:01 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Features]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[end to end encryption]]></category>
+		<category><![CDATA[password managers]]></category>
+		<category><![CDATA[zero knowledge]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/</guid>
+
+                                    <description>
+                        <![CDATA[Contrary to what password managers say, a server compromise can mean game over.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Over the past 15 years, password managers have grown from a niche security tool used by the technology savvy into an indispensable security tool for the masses, with an <a href="https://www.security.org/digital-safety/password-manager-annual-report/">estimated</a> 94 million US adults—or roughly 36 percent of them—having adopted them. They store not only passwords for pension, financial, and email accounts, but also cryptocurrency credentials, payment card numbers, and other sensitive data.</p>
+<p>All eight of the top password managers have adopted the term “zero knowledge” to describe the complex encryption system they use to protect the data vaults that users store on their servers. The definitions vary slightly from vendor to vendor, but they generally boil down to one bold assurance: that there is no way for malicious insiders or hackers who manage to compromise the cloud infrastructure to steal vaults or data stored in them. These promises make sense, given <a href="https://arstechnica.com/information-technology/2022/12/lastpass-says-hackers-have-obtained-vault-data-and-a-wealth-of-customer-info/">previous</a> <a href="https://arstechnica.com/information-technology/2023/02/lastpass-hackers-infected-employees-home-computer-and-stole-corporate-vault/">breaches</a> of LastPass and the reasonable expectation that state-level hackers have both the motive and capability to obtain password vaults belonging to high-value targets.</p>
+<h2>A bold assurance debunked</h2>
+<p>Typical of these claims are those made by Bitwarden, Dashlane, and LastPass, which together are used by roughly 60 million people. Bitwarden, <a href="https://bitwarden.com/pdf/resources-zero-knowledge-encryption-white-paper.pdf">for example</a>, says that “not even the team at Bitwarden can read your data (even if we wanted to).” Dashlane, meanwhile, <a href="https://www.dashlane.com/download/whitepaper-en.pdf">says</a> that without a user’s master password, “malicious actors can’t steal the information, even if Dashlane’s servers are compromised.” LastPass <a href="https://blog.lastpass.com/posts/how-zero-knowledge-keeps-passwords-safe">says</a> that no one can access the “data stored in your LastPass vault, except you (not even LastPass).”</p><p><a href="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/password-managers-promise-that-they-cant-see-your-vaults-isnt-always-true/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>168</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/password-login-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2022/07/password-login-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Most VMware users still &quot;actively reducing their VMware footprint,&quot; survey finds</title>
+                <link>https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Tue, 17 Feb 2026 18:38:10 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/</guid>
+
+                                    <description>
+                        <![CDATA[Broadcom's "strategy was never to keep every customer," CloudBolt report says. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>More than two years after Broadcom took over VMware, the virtualization company’s customers are still grappling with higher prices, uncertainty, and the challenges of reducing vendor lock-in.</p>
+<p>Today, CloudBolt Software released a report, "<a href="https://www.cloudbolt.io/cii-report-the-mass-exodus-that-never-was/">The Mass Exodus That Never Was: The Squeeze Is Just Beginning,</a>" that provides insight into those struggles. CloudBolt is a hybrid cloud management platform provider that aims to identify VMware customers’ pain points so it can <a href="https://www.cloudbolt.io/cloud-provider/vmware/">sell them</a> relevant solutions. In the report, CloudBolt said it surveyed 302 IT decision-makers (director-level or higher) at North American companies with at least 1,000 employees in January. The survey is far from comprehensive, but it offers a look at the obstacles these users face.</p>
+<p>Broadcom closed its VMware acquisition in November 2023, and last month, 88 percent of survey respondents still described the change as “disruptive.” Per the survey, the most cited drivers of disruption were <a href="https://arstechnica.com/information-technology/2025/09/broadcoms-prohibitive-vmware-prices-create-a-learning-barrier-it-pro-says/">price increases</a> (named by 89 percent of respondents), followed by uncertainty about Broadcom’s plans (85 percent), support quality concerns (78 percent), Broadcom shifting VMware <a href="https://arstechnica.com/information-technology/2025/07/some-vmware-perpetual-license-owners-are-unable-to-download-security-patches/">from perpetual licenses to subscriptions</a> (72 percent), <a href="https://arstechnica.com/information-technology/2025/07/more-vmware-cloud-partners-axed-as-broadcom-launches-new-invite-only-program/">changes to VMware’s partner program</a> (68 percent), and the forced bundling of products (65 percent).</p><p><a href="https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/02/most-vmware-users-still-actively-reducing-their-vmware-footprint-survey-finds/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>88</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2188662122-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2188662122-500x500.jpg" width="500" height="500" />
+<media:credit>Bildagentur-online/Schoening/Universal Images Group via Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Retraction: After a routine code rejection, an AI agent published a hit piece on someone by name</title>
+                <link>https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Ars Staff]]>
+                </dc:creator>
+                <pubDate>Fri, 13 Feb 2026 19:40:21 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI criticism]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[OpenClaw]]></category>
+		<category><![CDATA[vibe coding]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/</guid>
+
+                                    <description>
+                        <![CDATA[This story has been retracted]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Following additional review, Ars has determined that the story “After a routine code rejection, an AI agent published a hit piece on someone by name,” did not meet our standards. Ars Technica has retracted this article. Originally published on Feb 13, 2026 at 2:40PM EST and removed on Feb 13, 2026 at 4:22PM EST.</p>
+<p><a href="https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/after-a-routine-code-rejection-an-ai-agent-published-a-hit-piece-on-someone-by-name/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>1</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-in-open-source-terminal-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-in-open-source-terminal-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson | Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI sidesteps Nvidia with unusually fast coding model on plate-sized chips</title>
+                <link>https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 12 Feb 2026 22:56:02 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[AI chips]]></category>
+		<category><![CDATA[AI coding]]></category>
+		<category><![CDATA[AI development tools]]></category>
+		<category><![CDATA[AI speed]]></category>
+		<category><![CDATA[Cerebras]]></category>
+		<category><![CDATA[code agents]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[NVIDIA]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[sam altman]]></category>
+		<category><![CDATA[tokens]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/</guid>
+
+                                    <description>
+                        <![CDATA[OpenAI's new GPT‑5.3‑Codex‑Spark is 15 times faster at coding than its predecessor.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, OpenAI <a href="https://openai.com/index/introducing-gpt-5-3-codex-spark/">released</a> its first production AI model to run on non-Nvidia hardware, deploying the new GPT-5.3-Codex-Spark coding model on chips from Cerebras. The model delivers code at more than 1,000 tokens (chunks of data) per second, which is reported to be roughly 15 times faster than its predecessor. To compare, Anthropic's Claude Opus 4.6 in its new premium-priced fast mode <a href="https://platform.claude.com/docs/en/build-with-claude/fast-mode">reaches</a> about 2.5 times its standard speed of <a href="https://artificialanalysis.ai/models/claude-opus-4-6-adaptive">68.2 tokens per second</a>, although it is a larger and more capable model than Spark.</p>
+<p>"Cerebras has been a great engineering partner, and we're excited about adding fast inference as a new platform capability," Sachin Katti, head of compute at OpenAI, said in a statement.</p>
+<p>Codex-Spark is a research preview available to ChatGPT Pro subscribers ($200/month) through the Codex app, command-line interface, and VS Code extension. OpenAI is rolling out API access to select design partners. The model ships with a 128,000-token context window and handles text only at launch.</p><p><a href="https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/openai-sidesteps-nvidia-with-unusually-fast-coding-model-on-plate-sized-chips/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>110</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2225076517_resize-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/GettyImages-2225076517_resize-500x500.jpg" width="500" height="500" />
+<media:credit>Teera Konakan / Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Attackers prompted Gemini over 100,000 times while trying to clone it, Google says</title>
+                <link>https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/</link>
+                                    <comments>https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Benj Edwards]]>
+                </dc:creator>
+                <pubDate>Thu, 12 Feb 2026 19:42:08 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[AI language models]]></category>
+		<category><![CDATA[AI security]]></category>
+		<category><![CDATA[ChatGPT]]></category>
+		<category><![CDATA[chatgtp]]></category>
+		<category><![CDATA[deepseek]]></category>
+		<category><![CDATA[Distillation]]></category>
+		<category><![CDATA[gemini]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[Google Gemini]]></category>
+		<category><![CDATA[large language models]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[machine learning]]></category>
+		<category><![CDATA[openai]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/</guid>
+
+                                    <description>
+                        <![CDATA[Distillation technique lets copycats mimic Gemini at a fraction of the development cost.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>On Thursday, Google <a href="https://cloud.google.com/blog/topics/threat-intelligence/distillation-experimentation-integration-ai-adversarial-use">announced</a> that "commercially motivated" actors have attempted to clone knowledge from its Gemini AI chatbot by simply prompting it. One adversarial session reportedly prompted the model more than 100,000 times across various non-English languages, collecting responses ostensibly to train a cheaper copycat.</p>
+<p>Google published the findings in what amounts to a quarterly self-assessment of threats to its own products that frames the company as the victim and the hero, which is not unusual in these self-authored assessments. Google calls the illicit activity "model extraction" and considers it intellectual property theft, which is a somewhat loaded position, <a href="https://www.theverge.com/2023/7/5/23784257/google-ai-bard-privacy-policy-train-web-scraping">given</a> that Google's LLM was built from materials scraped from the Internet without permission.</p>
+<p>Google is also no stranger to the copycat practice. In 2023, The Information <a href="https://9to5google.com/2023/03/30/google-bard-chatgpt-training-report/">reported</a> that Google's Bard team had been accused of using ChatGPT outputs from ShareGPT, a public site where users share chatbot conversations, to help train its own chatbot. Senior Google AI researcher Jacob Devlin, who created the influential BERT language model, <a href="https://finance.yahoo.com/news/top-ai-researcher-reportedly-left-190003999.html">warned</a> leadership that this violated OpenAI's terms of service, then resigned and joined OpenAI. Google denied the claim but reportedly stopped using the data.</p><p><a href="https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/ai/2026/02/attackers-prompted-gemini-over-100000-times-while-trying-to-clone-it-google-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>52</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/gemini_header-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/12/gemini_header-500x500.jpg" width="500" height="500" />
+<media:credit>Google</media:credit><media:text>The Google Gemini logo.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Once-hobbled Lumma Stealer is back with lures that are hard to resist</title>
+                <link>https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/</link>
+                                    <comments>https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 11 Feb 2026 22:11:40 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[castleloader]]></category>
+		<category><![CDATA[clickfix]]></category>
+		<category><![CDATA[infostealer]]></category>
+		<category><![CDATA[lumma]]></category>
+		<category><![CDATA[malware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/</guid>
+
+                                    <description>
+                        <![CDATA[ClickFix bait, combined with advanced Castleloader malware, is installing Lumma "at scale."]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Last May, law enforcement authorities around the world scored a key win when they hobbled the infrastructure of Lumma, an infostealer that infected nearly 395,000 Windows computers over just a two-month span leading up to the international operation. Researchers said Wednesday that Lumma is once again “back at scale” in hard-to-detect attacks that pilfer credentials and sensitive files.</p>
+<p>Lumma, also known as Lumma Stealer, first appeared in Russian-speaking cybercrime forums in 2022. Its cloud-based malware-as-a-service model provided a sprawling infrastructure of domains for hosting lure sites offering free cracked software, games, and pirated movies, as well as command-and-control channels and everything else a threat actor needed to run their infostealing enterprise. Within a year, Lumma was selling for as much as $2,500 for premium versions. By the spring of 2024, the FBI counted more than 21,000 listings on crime forums. Last year, Microsoft said Lumma had become the “go-to tool” for multiple crime groups, including Scattered Spider, one of the most prolific groups.</p>
+<h2>Takedowns are hard</h2>
+<p>The FBI and an international coalition of its counterparts <a href="https://arstechnica.com/security/2025/05/authorities-carry-out-global-takedown-of-infostealer-used-by-cybercriminals/">took action</a> early last year. In May, they said they seized 2,300 domains, command-and-control infrastructure, and crime marketplaces that had enabled the infostealer to thrive. Recently, however, the malware has made a comeback, allowing it to infect a significant number of machines again.</p><p><a href="https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/02/once-hobbled-lumma-stealer-is-back-with-lures-that-are-hard-to-resist/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
