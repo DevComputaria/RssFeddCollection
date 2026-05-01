@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-04-30T10:22:04Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Fast16 Malware]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html" />
+
+		<id>https://www.schneier.com/?p=72003</id>
+		<updated>2026-04-30T10:22:04Z</updated>
+		<published>2026-04-30T10:22:02Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="Iran" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="reverse engineering" />
+		<summary type="html"><![CDATA[<p>Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was <a href="https://www.wired.com/story/fast16-malware-stuxnet-precursor-iran-nuclear-attack/?_sp=72d58355-e351-43ad-ba73-bc2b546a30a0.1777128353268">deployed</a> against Iran years before Stuxnet:</p>
+<blockquote><p>&#8220;&#8230;the Fast16 malware was designed to carry out the most subtle form of sabotage ever seen in an in-the-wild malware tool: By automatically spreading across networks and then silently manipulating computation processes in certain software applications that perform high-precision mathematical calculations and simulate physical phenomena, Fast16 can alter the results of those programs to cause failures that range from faulty research results to catastrophic damage to real-world equipment.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html"><![CDATA[<p>Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was <a href="https://www.wired.com/story/fast16-malware-stuxnet-precursor-iran-nuclear-attack/?_sp=72d58355-e351-43ad-ba73-bc2b546a30a0.1777128353268">deployed</a> against Iran years before Stuxnet:</p>
+<blockquote><p>&#8220;&#8230;the Fast16 malware was designed to carry out the most subtle form of sabotage ever seen in an in-the-wild malware tool: By automatically spreading across networks and then silently manipulating computation processes in certain software applications that perform high-precision mathematical calculations and simulate physical phenomena, Fast16 can alter the results of those programs to cause failures that range from faulty research results to catastrophic damage to real-world equipment.&#8221;</p></blockquote>
+<p>Another news <a href="https://www.securityweek.com/pre-stuxnet-sabotage-malware-fast16-linked-to-us-iran-cyber-tensions/">article</a>.</p>
+<p>Lots of interesting details at the links.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Claude Mythos Has Found 271 Zero-Days in Firefox]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html" />
+
+		<id>https://www.schneier.com/?p=71995</id>
+		<updated>2026-04-29T10:12:18Z</updated>
+		<published>2026-04-29T10:12:17Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="Firefox" /><category scheme="https://www.schneier.com/" term="zero-day" />
+		<summary type="html"><![CDATA[<p>That&#8217;s <a href="https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/">a lot</a>. No, it&#8217;s an extraordinary number:</p>
+<blockquote><p>Since February, the Firefox team has been working around the clock using frontier AI models to find and fix latent security vulnerabilities in the browser. We wrote previously about our collaboration with Anthropic to scan Firefox with Opus 4.6, which led to fixes for 22 security-sensitive bugs in Firefox 148.</p>
+<p>As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week&#8217;s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html"><![CDATA[<p>That&#8217;s <a href="https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/">a lot</a>. No, it&#8217;s an extraordinary number:</p>
+<blockquote><p>Since February, the Firefox team has been working around the clock using frontier AI models to find and fix latent security vulnerabilities in the browser. We wrote previously about our collaboration with Anthropic to scan Firefox with Opus 4.6, which led to fixes for 22 security-sensitive bugs in Firefox 148.</p>
+<p>As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week&#8217;s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation.</p>
+<p>As these capabilities reach the hands of more defenders, many other teams are now experiencing the same vertigo we did when the findings first came into focus. For a hardened target, just one such bug would have been red-alert in 2025, and so many at once makes you stop to wonder whether it&#8217;s even possible to keep up.</p>
+<p>Our experience is a hopeful one for teams who shake off the vertigo and get to work. You may need to reprioritize everything else to bring relentless and single-minded focus to the task, but there is light at the end of the tunnel. We are extremely proud of how our team rose to meet this challenge, and others will too. Our work isn&#8217;t finished, but we&#8217;ve turned the corner and can glimpse a future much better than just keeping up. <strong>Defenders finally have a chance to win, decisively.</strong></p></blockquote>
+<p>They&#8217;re right. Assuming the defenders can patch, and push those patches out to users quickly, this technology favors the defenders.</p>
+<p>News <a href="https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html#comments" thr:count="26" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html/feed/atom/" thr:count="26" />
+			<thr:total>26</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[What Anthropic’s Mythos Means for the Future of Cybersecurity]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html" />
+
+		<id>https://www.schneier.com/?p=71990</id>
+		<updated>2026-04-28T11:06:47Z</updated>
+		<published>2026-04-28T11:06:44Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Two weeks ago, Anthropic <a href="https://red.anthropic.com/2026/mythos-preview/">announced</a> that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, <a href="https://spectrum.ieee.org/tag/anthropic">Anthropic</a> is not releasing the model to the general public, but instead to a ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html"><![CDATA[<p>Two weeks ago, Anthropic <a href="https://red.anthropic.com/2026/mythos-preview/">announced</a> that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, <a href="https://spectrum.ieee.org/tag/anthropic">Anthropic</a> is not releasing the model to the general public, but instead to a <a href="https://www.anthropic.com/glasswing">limited number</a> of companies.</p>
+<p>The news rocked the internet security community. There were few details in Anthropic&#8217;s announcement, <a href="https://srinstitute.utoronto.ca/news/the-mythos-question-who-decides-when-ai-is-too-dangerous">angering</a> many observers. Some speculate that Anthropic <a href="https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/">doesn&#8217;t have</a> the <a href="https://spectrum.ieee.org/tag/gpus">GPUs</a> to run the thing, and that cybersecurity was the excuse to limit its release. Others argue Anthropic is holding to its AI safety mission. <a href="https://www.nytimes.com/2026/04/07/opinion/anthropic-ai-claude-mythos.html">There&#8217;s</a> <a href="https://www.axios.com/2026/04/08/anthropic-mythos-model-ai-cyberattack-warning">hype</a> and <a href="https://www.artificialintelligencemadesimple.com/p/anthropics-claude-mythos-launch-is">counter</a><a href="https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier">hype</a>, <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">reality</a> and marketing. It&#8217;s a lot to sort out, even if you&#8217;re an expert.</p>
+<p>We see Mythos as a real but incremental step, one in a long line of incremental steps. But even incremental steps can be important when we look at the big picture.</p>
+<h3>How AI Is Changing Cybersecurity</h3>
+<p>We&#8217;ve <a href="https://spectrum.ieee.org/online-privacy">written about</a> shifting baseline syndrome, a phenomenon that leads people&#8212;the public and experts alike&#8212;to discount massive long-term changes that are hidden in incremental steps. It has happened with online privacy, and it&#8217;s happening with AI. Even if the vulnerabilities found by Mythos could have been found using AI models from last month or last year, they couldn&#8217;t have been found by AI models from five years ago.</p>
+<p>The Mythos announcement reminds us that AI has come a long way in just a few years: The baseline really has shifted. Finding vulnerabilities in source code is the type of task that today&#8217;s large language models excel at. Regardless of whether it happened last year or will happen next year, it&#8217;s been clear for a <a href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/">while</a> this kind of capability was coming soon. The question is how we <a href="https://labs.cloudsecurityalliance.org/mythos-ciso/">adapt to it</a>.</p>
+<p>We don&#8217;t believe that an AI that can hack autonomously will create permanent asymmetry between offense and defense; it&#8217;s likely to be more <a href="https://danielmiessler.com/blog/will-ai-help-moreattackers-defenders">nuanced</a> than that. Some vulnerabilities can be found, verified, and patched automatically. Some vulnerabilities will be hard to find but easy to verify and patch&#8212;consider generic cloud-hosted web applications built on standard software stacks, where updates can be deployed quickly. Still others will be easy to find (even without powerful AI) and relatively easy to verify, but harder or impossible to patch, such as IoT appliances and industrial equipment that are rarely updated or can&#8217;t be easily modified.</p>
+<p>Then there are systems whose vulnerabilities will be easy to find in code but difficult to verify in practice. For example, complex distributed systems and cloud platforms can be composed of thousands of interacting services running in parallel, making it difficult to distinguish real vulnerabilities from false positives and to reliably reproduce them.</p>
+<p>So we must separate the patchable from the unpatchable, and the easy to verify from the hard to verify. This taxonomy also provides us guidance for how to protect such systems in an era of powerful AI vulnerability-finding tools.</p>
+<p>Unpatchable or hard to verify systems should be protected by wrapping them in more restrictive, tightly controlled layers. You want your fridge or thermostat or industrial control system behind a restrictive and constantly updated firewall, not freely talking to the internet.</p>
+<p>Distributed systems that are fundamentally interconnected should be traceable and should follow the principle of least privilege, where each component has only the access it needs. These are bog-standard security ideas that we might have been tempted to throw out in the era of AI, but they&#8217;re still as relevant as ever.</p>
+<h3>Rethinking Software Security Practices</h3>
+<p>This also raises the salience of best practices in software engineering. Automated, thorough, and continuous testing was always important. Now we can take this practice a step further and use defensive <a href="https://spectrum.ieee.org/tag/agentic-ai">AI agents</a> to <a href="https://www.secwest.net/ai-triage">test exploits</a> against a real stack, over and over, until the false positives have been weeded out and the real vulnerabilities and fixes are confirmed. This kind of <a href="https://www.csoonline.com/article/4069075/autonomous-ai-hacking-and-the-future-of-cybersecurity.html">VulnOps</a> is likely to become a standard part of the development process.</p>
+<p>Documentation becomes more valuable, as it can guide an AI agent on a bug-finding mission just as it does developers. And following standard practices and using standard tools and libraries allows AI and engineers alike to recognize patterns more effectively, even in a world of individual and ephemeral <a href="https://www.csoonline.com/article/4152133/cybersecurity-in-the-age-of-instant-software.html">instant software</a>&#8212;code that can be generated and deployed on demand.</p>
+<p>Will this favor <a href="https://www.schneier.com/essays/archives/2018/03/artificial_intellige.html">offense or defense</a>? The defense eventually, probably, especially in systems that are easy to patch and verify. Fortunately, that includes our phones, web browsers, and major internet services. But today&#8217;s cars, electrical transformers, fridges, and lampposts are connected to the internet. Legacy banking and airline systems are networked.</p>
+<p>Not all of those are going to get patched as fast as needed, and we may see a few years of constant hacks until we arrive at a new normal: where verification is paramount and software is patched continuously.</p>
+<p><em>This essay was written with Barath Raghavan, and originally appeared in <a href="https://spectrum.ieee.org/ai-cybersecurity-mythos">IEEE Spectrum</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Medieval Encrypted Letter Decoded]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html" />
+
+		<id>https://www.schneier.com/?p=71986</id>
+		<updated>2026-04-27T11:05:17Z</updated>
+		<published>2026-04-27T11:04:41Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="history of cryptography" />
+		<summary type="html"><![CDATA[<p>Sent by a Spanish diplomat. Apparently people have been <a href="https://www.medievalists.net/2026/04/secret-letter-detailing-late-medieval-britain-fully-decoded/">working on it</a> since it was rediscovered in 1860.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html"><![CDATA[<p>Sent by a Spanish diplomat. Apparently people have been <a href="https://www.medievalists.net/2026/04/secret-letter-detailing-late-medieval-britain-fully-decoded/">working on it</a> since it was rediscovered in 1860.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: How Squid Survived Extinction Events]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html" />
+
+		<id>https://www.schneier.com/?p=71981</id>
+		<updated>2026-04-24T21:03:53Z</updated>
+		<published>2026-04-24T21:03:23Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Science <a href="https://www.sciencedaily.com/releases/2026/03/260331001100.htm">news</a>:</p>
+<blockquote><p>Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed&#8212;until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html"><![CDATA[<p>Science <a href="https://www.sciencedaily.com/releases/2026/03/260331001100.htm">news</a>:</p>
+<blockquote><p>Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed&#8212;until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. </p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html#comments" thr:count="38" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html/feed/atom/" thr:count="38" />
+			<thr:total>38</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hiding Bluetooth Trackers in Mail]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html" />
+
+		<id>https://www.schneier.com/?p=71983</id>
+		<updated>2026-04-24T11:01:04Z</updated>
+		<published>2026-04-24T11:01:03Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Bluetooth" /><category scheme="https://www.schneier.com/" term="tracking" />
+		<summary type="html"><![CDATA[<p>It was used to <a href="https://www.tomshardware.com/tech-industry/cyber-security/bluetooth-tracker-hidden-in-a-postcard-and-mailed-to-a-warship-exposed-its-location-a-eur5-gadget-put-a-eur500-million-dutch-ship-at-risk-for-24-hours">track</a> a Dutch naval ship:</p>
+<blockquote><p>Dutch journalist Just Vervaart, working for regional media network Omroep Gelderland, followed the directions posted on the Dutch government website and mailed a postcard with a hidden tracker inside. Because of this, they were able to track the ship for about a day, watching it sail from Heraklion, Crete, before it turned towards Cyprus. While it only showed the location of that one vessel, knowing that it was part of a carrier strike group sailing in the Mediterranean could potentially put the entire fleet at risk...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html"><![CDATA[<p>It was used to <a href="https://www.tomshardware.com/tech-industry/cyber-security/bluetooth-tracker-hidden-in-a-postcard-and-mailed-to-a-warship-exposed-its-location-a-eur5-gadget-put-a-eur500-million-dutch-ship-at-risk-for-24-hours">track</a> a Dutch naval ship:</p>
+<blockquote><p>Dutch journalist Just Vervaart, working for regional media network Omroep Gelderland, followed the directions posted on the Dutch government website and mailed a postcard with a hidden tracker inside. Because of this, they were able to track the ship for about a day, watching it sail from Heraklion, Crete, before it turned towards Cyprus. While it only showed the location of that one vessel, knowing that it was part of a carrier strike group sailing in the Mediterranean could potentially put the entire fleet at risk.</p>
+<p>[&#8230;]</p>
+<p>Navy officials reported that the tracker was discovered within 24 hours of the ship&#8217;s arrival, during mail sorting, and was eventually disabled. Because of this incident, the Dutch authorities now ban electronic greeting cards, which, unlike packages, weren&#8217;t x-rayed before being brought on the ship.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/hiding-bluetooth-trackers-in-mail.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[FBI Extracts Deleted Signal Messages from iPhone Notification Database]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html" />
+
+		<id>https://www.schneier.com/?p=71971</id>
+		<updated>2026-04-24T14:35:57Z</updated>
+		<published>2026-04-23T11:05:42Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="databases" /><category scheme="https://www.schneier.com/" term="FBI" /><category scheme="https://www.schneier.com/" term="iPhone" /><category scheme="https://www.schneier.com/" term="Signal" /><category scheme="https://www.schneier.com/" term="terrorism" />
+		<summary type="html"><![CDATA[<p>404 Media <a href="https://www.404media.co/fbi-extracts-suspects-deleted-signal-messages-saved-in-iphone-notification-database-2/">reports</a> (alternate <a href="https://archive.ph/bSQhD">site</a>):</p>
+<blockquote><p>The FBI was able to forensically extract copies of incoming Signal messages from a defendant’s iPhone, even after the app was deleted, because copies of the content were saved in the device’s push notification database&#8230;.</p>
+<p>The news shows how forensic extraction&#8212;­when someone has physical access to a device and is able to run specialized software on it&#8212;­can yield sensitive data derived from secure messaging apps in unexpected places. Signal already has a setting that blocks message content from displaying in push notifications; the case highlights why such a feature might be important for some users to turn on...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html"><![CDATA[<p>404 Media <a href="https://www.404media.co/fbi-extracts-suspects-deleted-signal-messages-saved-in-iphone-notification-database-2/">reports</a> (alternate <a href="https://archive.ph/bSQhD">site</a>):</p>
+<blockquote><p>The FBI was able to forensically extract copies of incoming Signal messages from a defendant’s iPhone, even after the app was deleted, because copies of the content were saved in the device’s push notification database&#8230;.</p>
+<p>The news shows how forensic extraction&#8212;­when someone has physical access to a device and is able to run specialized software on it&#8212;­can yield sensitive data derived from secure messaging apps in unexpected places. Signal already has a setting that blocks message content from displaying in push notifications; the case highlights why such a feature might be important for some users to turn on.</p>
+<p>&#8220;We learned that specifically on iPhones, if one’s settings in the Signal app allow for message notifications and previews to show up on the lock screen, [then] the iPhone will internally store those notifications/message previews in the internal memory of the device,&#8221; a supporter of the defendants who was taking notes during the trial told 404 Media.</p></blockquote>
+<p>EDITED TO ADD (4/24): Apple has <a href="https://mjtsai.com/blog/2026/04/22/ios-26-4-2-and-ipados-26-4-2/">patched</a> this vulnerability.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html#comments" thr:count="28" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/fbi-extracts-deleted-signal-messages-from-iphone-notification-database.html/feed/atom/" thr:count="28" />
+			<thr:total>28</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[ICE Uses Graphite Spyware]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html" />
+
+		<id>https://www.schneier.com/?p=71969</id>
+		<updated>2026-04-22T11:02:29Z</updated>
+		<published>2026-04-22T11:02:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="homeland security" /><category scheme="https://www.schneier.com/" term="Israel" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="spyware" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>ICE has <a href="https://www.npr.org/2026/04/07/nx-s1-5776799/ice-spyware-privacy">admitted</a> that it uses spyware from the Israeli company Graphite.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html"><![CDATA[<p>ICE has <a href="https://www.npr.org/2026/04/07/nx-s1-5776799/ice-spyware-privacy">admitted</a> that it uses spyware from the Israeli company Graphite.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html#comments" thr:count="20" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/ice-uses-graphite-spyware.html/feed/atom/" thr:count="20" />
+			<thr:total>20</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Mexican Surveillance Company]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/mexican-surveillance-company.html" />
+
+		<id>https://www.schneier.com/?p=71967</id>
+		<updated>2026-04-21T11:05:58Z</updated>
+		<published>2026-04-21T11:04:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Mexico" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p><a href="https://restofworld.org/2026/mexico-seguritech-government-surveillance-profile/">Grupo Seguritech</a> is a Mexican surveillance company that is expanding into the US.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/mexican-surveillance-company.html"><![CDATA[<p><a href="https://restofworld.org/2026/mexico-seguritech-government-surveillance-profile/">Grupo Seguritech</a> is a Mexican surveillance company that is expanding into the US.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/mexican-surveillance-company.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/mexican-surveillance-company.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Is “Satoshi Nakamoto” Really Adam Back?]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html" />
+
+		<id>https://www.schneier.com/?p=71964</id>
+		<updated>2026-04-20T11:07:28Z</updated>
+		<published>2026-04-20T11:07:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="bitcoin" /><category scheme="https://www.schneier.com/" term="cryptocurrency" /><category scheme="https://www.schneier.com/" term="pseudonymity" />
+		<summary type="html"><![CDATA[<p>The <i>New York Times</i> has a <a href="https://www.nytimes.com/2026/04/08/business/bitcoin-satoshi-nakamoto-identity-adam-back.html">long article</a> where the author lays out an impressive array of circumstantial evidence that the inventor of Bitcoin is the cypherpunk Adam Back.</p>
+<p>I don&#8217;t know. The article is convincing, but it&#8217;s written to be convincing.</p>
+<p>I can&#8217;t remember if I ever met Adam. I was a member of the Cypherpunks mailing list for a while, but I was never really an active participant. I spent more time on the Usenet newsgroup sci.crypt. I knew a bunch of the Cypherpunks, though, from various conferences around the world at the time. I really have no opinion about who Satoshi Nakamoto really is...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html"><![CDATA[<p>The <i>New York Times</i> has a <a href="https://www.nytimes.com/2026/04/08/business/bitcoin-satoshi-nakamoto-identity-adam-back.html">long article</a> where the author lays out an impressive array of circumstantial evidence that the inventor of Bitcoin is the cypherpunk Adam Back.</p>
+<p>I don&#8217;t know. The article is convincing, but it&#8217;s written to be convincing.</p>
+<p>I can&#8217;t remember if I ever met Adam. I was a member of the Cypherpunks mailing list for a while, but I was never really an active participant. I spent more time on the Usenet newsgroup sci.crypt. I knew a bunch of the Cypherpunks, though, from various conferences around the world at the time. I really have no opinion about who Satoshi Nakamoto really is.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html#comments" thr:count="24" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/is-satoshi-nakamoto-really-adam-back.html/feed/atom/" thr:count="24" />
+			<thr:total>24</thr:total>
+			</entry>
+	</feed>
