@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-05-07T11:07:29Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Smart Glasses for the Authorities]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html" />
+
+		<id>https://www.schneier.com/?p=71993</id>
+		<updated>2026-05-07T11:07:29Z</updated>
+		<published>2026-05-07T11:07:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="biometrics" /><category scheme="https://www.schneier.com/" term="DHS" /><category scheme="https://www.schneier.com/" term="face recognition" />
+		<summary type="html"><![CDATA[<p>ICE is <a href="https://www.kenklippenstein.com/p/exclusive-ice-glasses">developing</a> its own version of smart glasses, with facial recognition tied to various databases.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html"><![CDATA[<p>ICE is <a href="https://www.kenklippenstein.com/p/exclusive-ice-glasses">developing</a> its own version of smart glasses, with facial recognition tied to various databases.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/05/smart-glasses-for-the-authorities.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Rowhammer Attack Against NVIDIA Chips]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html" />
+
+		<id>https://www.schneier.com/?p=72006</id>
+		<updated>2026-05-06T10:37:46Z</updated>
+		<published>2026-05-06T10:36:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="hardware" />
+		<summary type="html"><![CDATA[<p>A new <a href="https://en.wikipedia.org/wiki/Row_hammer">rowhammer</a> attack gives <a href="https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/">complete control</a> of NVIDIA CPUs.</p>
+<blockquote><p>On Thursday, two research teams, working independently of each other, demonstrated attacks against two cards from Nvidia’s Ampere generation that take GPU rowhammering into new&#8212;­and potentially much more consequential&#8212;­territory: GDDR bitflips that give adversaries full control of CPU memory, resulting in full system compromise of the host machine. For the attack to work, <a href="https://en.wikipedia.org/wiki/Input-output_memory_management_unit">IOMMU</a> memory management must be disabled, as is the default in BIOS settings.</p>
+<p>“Our work shows that Rowhammer, which is well-studied on CPUs, is a serious threat on GPUs as well,” said Andrew Kwong, co-author of one of the papers. &#8220;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html"><![CDATA[<p>A new <a href="https://en.wikipedia.org/wiki/Row_hammer">rowhammer</a> attack gives <a href="https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/">complete control</a> of NVIDIA CPUs.</p>
+<blockquote><p>On Thursday, two research teams, working independently of each other, demonstrated attacks against two cards from Nvidia’s Ampere generation that take GPU rowhammering into new&#8212;­and potentially much more consequential&#8212;­territory: GDDR bitflips that give adversaries full control of CPU memory, resulting in full system compromise of the host machine. For the attack to work, <a href="https://en.wikipedia.org/wiki/Input-output_memory_management_unit">IOMMU</a> memory management must be disabled, as is the default in BIOS settings.</p>
+<p>“Our work shows that Rowhammer, which is well-studied on CPUs, is a serious threat on GPUs as well,” said Andrew Kwong, co-author of one of the papers. &#8220;<a href="https://gddr.fail/files/gddr.pdf">GDDRHammer: Greatly Disturbing DRAM Rows­Cross-Component Rowhammer Attacks from Modern GPUs</a>.&#8221; &#8220;With our work, we… show how an attacker can induce bit flips on the GPU to gain arbitrary read/write access to all of the CPU’s memory, resulting in complete compromise of the machine.&#8221;</p>
+<p>Update Friday, April 3: On Friday, researchers unveiled a third Rowhammer attack that also demonstrates Rowhammer attacks on the RTX A6000 that achieves privilege escalation to a root shell. Unlike the previous two, the researchers said, it works even when IOMMU is enabled.</p></blockquote>
+<p>The second paper is <a href="https://gddr.fail/files/GeForge.pdf">GeForge: Hammering GDDR Memory to Forge GPU Page Tables for Fun and Profit</a>:</p>
+<blockquote><p>&#8230;does largely the same thing, except that instead of exploiting the last-level page table, as GDDRHammer does, it manipulates the last-level page directory. It was able to induce 1,171 bitflips against the RTX 3060 and 202 bitflips against the RTX 6000.</p>
+<p>GeForge, too, uses novel hammering patterns and memory massaging to corrupt GPU page table mappings in GDDR6 memory to acquire read and write access to the GPU memory space. From there, it acquires the same privileges over host CPU memory. The GeForge proof-of-concept exploit against the RTX 3060 concludes by opening a root shell window that allows the attacker to issue commands that run unfettered privileges on the host machine. The researchers said that both GDDRHammer and GeForge could do the same thing against the RTC 6000.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/05/rowhammer-attack-against-nvidia-chips.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[DarkSword Malware]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/darksword-malware.html" />
+
+		<id>https://www.schneier.com/?p=72012</id>
+		<updated>2026-05-05T10:42:57Z</updated>
+		<published>2026-05-05T10:42:03Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Apple" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="exploits" /><category scheme="https://www.schneier.com/" term="iOS" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="vulnerabilities" /><category scheme="https://www.schneier.com/" term="zero-day" />
+		<summary type="html"><![CDATA[<p>DarkSword is a sophisticated piece of <a href="https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain">malware</a>&#8212;probably government designed&#8212;that targets iOS.</p>
+<blockquote><p>Google Threat Intelligence Group (GTIG) has identified a new iOS full-chain exploit that leveraged multiple zero-day vulnerabilities to fully compromise devices. Based on toolmarks in recovered payloads, we believe the exploit chain to be called DarkSword. Since at least November 2025, GTIG has observed multiple commercial surveillance vendors and suspected state-sponsored actors utilizing DarkSword in distinct campaigns. These threat actors have deployed the exploit chain against targets in Saudi Arabia, Turkey, Malaysia, and Ukraine...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/05/darksword-malware.html"><![CDATA[<p>DarkSword is a sophisticated piece of <a href="https://cloud.google.com/blog/topics/threat-intelligence/darksword-ios-exploit-chain">malware</a>&#8212;probably government designed&#8212;that targets iOS.</p>
+<blockquote><p>Google Threat Intelligence Group (GTIG) has identified a new iOS full-chain exploit that leveraged multiple zero-day vulnerabilities to fully compromise devices. Based on toolmarks in recovered payloads, we believe the exploit chain to be called DarkSword. Since at least November 2025, GTIG has observed multiple commercial surveillance vendors and suspected state-sponsored actors utilizing DarkSword in distinct campaigns. These threat actors have deployed the exploit chain against targets in Saudi Arabia, Turkey, Malaysia, and Ukraine.</p>
+<p>DarkSword supports iOS versions 18.4 through 18.7 and utilizes six different vulnerabilities to deploy final-stage payloads. GTIG has identified three distinct malware families deployed following a successful DarkSword compromise: GHOSTBLADE, GHOSTKNIFE, and GHOSTSABER. The proliferation of this single exploit chain across disparate threat actors mirrors the previously discovered <a href="https://cloud.google.com/blog/topics/threat-intelligence/coruna-powerful-ios-exploit-kit">Coruna iOS exploit kit</a>. Notably, UNC6353, a suspected Russian espionage group previously observed using Coruna, has recently incorporated DarkSword into their watering hole campaigns.</p></blockquote>
+<p>A week after it was identified, a version of it <a href="https://techcrunch.com/2026/03/23/someone-has-publicly-leaked-an-exploit-kit-that-can-hack-millions-of-iphones/">leaked</a> onto the internet, where it is being used more broadly.</p>
+<p>This news is a month old. Your devices are safe, assuming you patch regularly.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/darksword-malware.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/05/darksword-malware.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hacking Polymarket]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html" />
+
+		<id>https://www.schneier.com/?p=71998</id>
+		<updated>2026-05-04T09:46:33Z</updated>
+		<published>2026-05-04T09:46:31Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="assassinations" /><category scheme="https://www.schneier.com/" term="cheating" /><category scheme="https://www.schneier.com/" term="gambling" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="insiders" />
+		<summary type="html"><![CDATA[<p>Polymarket is a platform where people can bet on real-world events, political and otherwise. Leaving the ethical considerations of this aside (for one, it facilitates <a href="https://en.wikipedia.org/wiki/Assassination_market">assassination</a>), one of the issues with making this work is the verification of these real-world events. Polymarket gamblers have <a href="https://www.theguardian.com/world/2026/mar/18/polymarket-gamblers-threaten-israeli-journalist-missile-strike-wager">threatened</a> a journalist because his story was being used to verify an event. And now, gamblers are taking <a href="https://www.engadget.com/big-tech/someone-allegedly-used-a-hairdryer-to-rig-polymarket-weather-bets-155312411.html">hair dryers</a> to weather sensors to rig weather bets.</p>
+<p>There&#8217;s also <a href="https://www.bbc.com/news/articles/c20832yg5p2o">insider trading</a>: a <a href="https://www.bbc.com/news/articles/cge0grppe3po">lot of it</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html"><![CDATA[<p>Polymarket is a platform where people can bet on real-world events, political and otherwise. Leaving the ethical considerations of this aside (for one, it facilitates <a href="https://en.wikipedia.org/wiki/Assassination_market">assassination</a>), one of the issues with making this work is the verification of these real-world events. Polymarket gamblers have <a href="https://www.theguardian.com/world/2026/mar/18/polymarket-gamblers-threaten-israeli-journalist-missile-strike-wager">threatened</a> a journalist because his story was being used to verify an event. And now, gamblers are taking <a href="https://www.engadget.com/big-tech/someone-allegedly-used-a-hairdryer-to-rig-polymarket-weather-bets-155312411.html">hair dryers</a> to weather sensors to rig weather bets.</p>
+<p>There&#8217;s also <a href="https://www.bbc.com/news/articles/c20832yg5p2o">insider trading</a>: a <a href="https://www.bbc.com/news/articles/cge0grppe3po">lot of it</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/05/hacking-polymarket.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[A Ransomware Negotiator Was Working for a Ransomware Gang]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html" />
+
+		<id>https://www.schneier.com/?p=72001</id>
+		<updated>2026-05-01T11:18:55Z</updated>
+		<published>2026-05-01T11:18:43Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="ransomware" />
+		<summary type="html"><![CDATA[<p>Someone <a href="https://gizmodo.com/a-ransomware-negotiator-pleads-guilty-to-being-a-double-agent-2000749234">pleaded guilty</a> to secretly working for a ransomware gang as he negotiated ransomware payments for clients.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html"><![CDATA[<p>Someone <a href="https://gizmodo.com/a-ransomware-negotiator-pleads-guilty-to-being-a-double-agent-2000749234">pleaded guilty</a> to secretly working for a ransomware gang as he negotiated ransomware payments for clients.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/05/a-ransomware-negotiator-was-working-for-a-ransomware-gang.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Fast16 Malware]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html" />
+
+		<id>https://www.schneier.com/?p=72003</id>
+		<updated>2026-04-30T10:22:04Z</updated>
+		<published>2026-04-30T10:22:02Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="Iran" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="reverse engineering" />
+		<summary type="html"><![CDATA[<p>Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was <a href="https://www.wired.com/story/fast16-malware-stuxnet-precursor-iran-nuclear-attack/?_sp=72d58355-e351-43ad-ba73-bc2b546a30a0.1777128353268">deployed</a> against Iran years before Stuxnet:</p>
+<blockquote><p>&#8220;&#8230;the Fast16 malware was designed to carry out the most subtle form of sabotage ever seen in an in-the-wild malware tool: By automatically spreading across networks and then silently manipulating computation processes in certain software applications that perform high-precision mathematical calculations and simulate physical phenomena, Fast16 can alter the results of those programs to cause failures that range from faulty research results to catastrophic damage to real-world equipment.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html"><![CDATA[<p>Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was <a href="https://www.wired.com/story/fast16-malware-stuxnet-precursor-iran-nuclear-attack/?_sp=72d58355-e351-43ad-ba73-bc2b546a30a0.1777128353268">deployed</a> against Iran years before Stuxnet:</p>
+<blockquote><p>&#8220;&#8230;the Fast16 malware was designed to carry out the most subtle form of sabotage ever seen in an in-the-wild malware tool: By automatically spreading across networks and then silently manipulating computation processes in certain software applications that perform high-precision mathematical calculations and simulate physical phenomena, Fast16 can alter the results of those programs to cause failures that range from faulty research results to catastrophic damage to real-world equipment.&#8221;</p></blockquote>
+<p>Another news <a href="https://www.securityweek.com/pre-stuxnet-sabotage-malware-fast16-linked-to-us-iran-cyber-tensions/">article</a>.</p>
+<p>Lots of interesting details at the links.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/fast16-malware.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Claude Mythos Has Found 271 Zero-Days in Firefox]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html" />
+
+		<id>https://www.schneier.com/?p=71995</id>
+		<updated>2026-04-29T10:12:18Z</updated>
+		<published>2026-04-29T10:12:17Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="Firefox" /><category scheme="https://www.schneier.com/" term="zero-day" />
+		<summary type="html"><![CDATA[<p>That&#8217;s <a href="https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/">a lot</a>. No, it&#8217;s an extraordinary number:</p>
+<blockquote><p>Since February, the Firefox team has been working around the clock using frontier AI models to find and fix latent security vulnerabilities in the browser. We wrote previously about our collaboration with Anthropic to scan Firefox with Opus 4.6, which led to fixes for 22 security-sensitive bugs in Firefox 148.</p>
+<p>As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week&#8217;s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html"><![CDATA[<p>That&#8217;s <a href="https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/">a lot</a>. No, it&#8217;s an extraordinary number:</p>
+<blockquote><p>Since February, the Firefox team has been working around the clock using frontier AI models to find and fix latent security vulnerabilities in the browser. We wrote previously about our collaboration with Anthropic to scan Firefox with Opus 4.6, which led to fixes for 22 security-sensitive bugs in Firefox 148.</p>
+<p>As part of our continued collaboration with Anthropic, we had the opportunity to apply an early version of Claude Mythos Preview to Firefox. This week&#8217;s release of Firefox 150 includes fixes for 271 vulnerabilities identified during this initial evaluation.</p>
+<p>As these capabilities reach the hands of more defenders, many other teams are now experiencing the same vertigo we did when the findings first came into focus. For a hardened target, just one such bug would have been red-alert in 2025, and so many at once makes you stop to wonder whether it&#8217;s even possible to keep up.</p>
+<p>Our experience is a hopeful one for teams who shake off the vertigo and get to work. You may need to reprioritize everything else to bring relentless and single-minded focus to the task, but there is light at the end of the tunnel. We are extremely proud of how our team rose to meet this challenge, and others will too. Our work isn&#8217;t finished, but we&#8217;ve turned the corner and can glimpse a future much better than just keeping up. <strong>Defenders finally have a chance to win, decisively.</strong></p></blockquote>
+<p>They&#8217;re right. Assuming the defenders can patch, and push those patches out to users quickly, this technology favors the defenders.</p>
+<p>News <a href="https://arstechnica.com/ai/2026/04/mozilla-anthropics-mythos-found-271-zero-day-vulnerabilities-in-firefox-150/">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html#comments" thr:count="27" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/claude-mythos-has-found-271-zero-days-in-firefox.html/feed/atom/" thr:count="27" />
+			<thr:total>27</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[What Anthropic’s Mythos Means for the Future of Cybersecurity]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html" />
+
+		<id>https://www.schneier.com/?p=71990</id>
+		<updated>2026-04-28T11:06:47Z</updated>
+		<published>2026-04-28T11:06:44Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Two weeks ago, Anthropic <a href="https://red.anthropic.com/2026/mythos-preview/">announced</a> that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, <a href="https://spectrum.ieee.org/tag/anthropic">Anthropic</a> is not releasing the model to the general public, but instead to a ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html"><![CDATA[<p>Two weeks ago, Anthropic <a href="https://red.anthropic.com/2026/mythos-preview/">announced</a> that its new model, Claude Mythos Preview, can autonomously find and weaponize software vulnerabilities, turning them into working exploits without expert guidance. These were vulnerabilities in key software like operating systems and internet infrastructure that thousands of software developers working on those systems failed to find. This capability will have major security implications, compromising the devices and services we use every day. As a result, <a href="https://spectrum.ieee.org/tag/anthropic">Anthropic</a> is not releasing the model to the general public, but instead to a <a href="https://www.anthropic.com/glasswing">limited number</a> of companies.</p>
+<p>The news rocked the internet security community. There were few details in Anthropic&#8217;s announcement, <a href="https://srinstitute.utoronto.ca/news/the-mythos-question-who-decides-when-ai-is-too-dangerous">angering</a> many observers. Some speculate that Anthropic <a href="https://kingy.ai/ai/too-dangerous-to-release-or-just-too-expensive-the-real-reason-anthropic-is-hiding-its-most-powerful-ai/">doesn&#8217;t have</a> the <a href="https://spectrum.ieee.org/tag/gpus">GPUs</a> to run the thing, and that cybersecurity was the excuse to limit its release. Others argue Anthropic is holding to its AI safety mission. <a href="https://www.nytimes.com/2026/04/07/opinion/anthropic-ai-claude-mythos.html">There&#8217;s</a> <a href="https://www.axios.com/2026/04/08/anthropic-mythos-model-ai-cyberattack-warning">hype</a> and <a href="https://www.artificialintelligencemadesimple.com/p/anthropics-claude-mythos-launch-is">counter</a><a href="https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier">hype</a>, <a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">reality</a> and marketing. It&#8217;s a lot to sort out, even if you&#8217;re an expert.</p>
+<p>We see Mythos as a real but incremental step, one in a long line of incremental steps. But even incremental steps can be important when we look at the big picture.</p>
+<h3>How AI Is Changing Cybersecurity</h3>
+<p>We&#8217;ve <a href="https://spectrum.ieee.org/online-privacy">written about</a> shifting baseline syndrome, a phenomenon that leads people&#8212;the public and experts alike&#8212;to discount massive long-term changes that are hidden in incremental steps. It has happened with online privacy, and it&#8217;s happening with AI. Even if the vulnerabilities found by Mythos could have been found using AI models from last month or last year, they couldn&#8217;t have been found by AI models from five years ago.</p>
+<p>The Mythos announcement reminds us that AI has come a long way in just a few years: The baseline really has shifted. Finding vulnerabilities in source code is the type of task that today&#8217;s large language models excel at. Regardless of whether it happened last year or will happen next year, it&#8217;s been clear for a <a href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/">while</a> this kind of capability was coming soon. The question is how we <a href="https://labs.cloudsecurityalliance.org/mythos-ciso/">adapt to it</a>.</p>
+<p>We don&#8217;t believe that an AI that can hack autonomously will create permanent asymmetry between offense and defense; it&#8217;s likely to be more <a href="https://danielmiessler.com/blog/will-ai-help-moreattackers-defenders">nuanced</a> than that. Some vulnerabilities can be found, verified, and patched automatically. Some vulnerabilities will be hard to find but easy to verify and patch&#8212;consider generic cloud-hosted web applications built on standard software stacks, where updates can be deployed quickly. Still others will be easy to find (even without powerful AI) and relatively easy to verify, but harder or impossible to patch, such as IoT appliances and industrial equipment that are rarely updated or can&#8217;t be easily modified.</p>
+<p>Then there are systems whose vulnerabilities will be easy to find in code but difficult to verify in practice. For example, complex distributed systems and cloud platforms can be composed of thousands of interacting services running in parallel, making it difficult to distinguish real vulnerabilities from false positives and to reliably reproduce them.</p>
+<p>So we must separate the patchable from the unpatchable, and the easy to verify from the hard to verify. This taxonomy also provides us guidance for how to protect such systems in an era of powerful AI vulnerability-finding tools.</p>
+<p>Unpatchable or hard to verify systems should be protected by wrapping them in more restrictive, tightly controlled layers. You want your fridge or thermostat or industrial control system behind a restrictive and constantly updated firewall, not freely talking to the internet.</p>
+<p>Distributed systems that are fundamentally interconnected should be traceable and should follow the principle of least privilege, where each component has only the access it needs. These are bog-standard security ideas that we might have been tempted to throw out in the era of AI, but they&#8217;re still as relevant as ever.</p>
+<h3>Rethinking Software Security Practices</h3>
+<p>This also raises the salience of best practices in software engineering. Automated, thorough, and continuous testing was always important. Now we can take this practice a step further and use defensive <a href="https://spectrum.ieee.org/tag/agentic-ai">AI agents</a> to <a href="https://www.secwest.net/ai-triage">test exploits</a> against a real stack, over and over, until the false positives have been weeded out and the real vulnerabilities and fixes are confirmed. This kind of <a href="https://www.csoonline.com/article/4069075/autonomous-ai-hacking-and-the-future-of-cybersecurity.html">VulnOps</a> is likely to become a standard part of the development process.</p>
+<p>Documentation becomes more valuable, as it can guide an AI agent on a bug-finding mission just as it does developers. And following standard practices and using standard tools and libraries allows AI and engineers alike to recognize patterns more effectively, even in a world of individual and ephemeral <a href="https://www.csoonline.com/article/4152133/cybersecurity-in-the-age-of-instant-software.html">instant software</a>&#8212;code that can be generated and deployed on demand.</p>
+<p>Will this favor <a href="https://www.schneier.com/essays/archives/2018/03/artificial_intellige.html">offense or defense</a>? The defense eventually, probably, especially in systems that are easy to patch and verify. Fortunately, that includes our phones, web browsers, and major internet services. But today&#8217;s cars, electrical transformers, fridges, and lampposts are connected to the internet. Legacy banking and airline systems are networked.</p>
+<p>Not all of those are going to get patched as fast as needed, and we may see a few years of constant hacks until we arrive at a new normal: where verification is paramount and software is patched continuously.</p>
+<p><em>This essay was written with Barath Raghavan, and originally appeared in <a href="https://spectrum.ieee.org/ai-cybersecurity-mythos">IEEE Spectrum</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/what-anthropics-mythos-means-for-the-future-of-cybersecurity.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Medieval Encrypted Letter Decoded]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html" />
+
+		<id>https://www.schneier.com/?p=71986</id>
+		<updated>2026-04-27T11:05:17Z</updated>
+		<published>2026-04-27T11:04:41Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="history of cryptography" />
+		<summary type="html"><![CDATA[<p>Sent by a Spanish diplomat. Apparently people have been <a href="https://www.medievalists.net/2026/04/secret-letter-detailing-late-medieval-britain-fully-decoded/">working on it</a> since it was rediscovered in 1860.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html"><![CDATA[<p>Sent by a Spanish diplomat. Apparently people have been <a href="https://www.medievalists.net/2026/04/secret-letter-detailing-late-medieval-britain-fully-decoded/">working on it</a> since it was rediscovered in 1860.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/medieval-encrypted-letter-decoded.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: How Squid Survived Extinction Events]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html" />
+
+		<id>https://www.schneier.com/?p=71981</id>
+		<updated>2026-04-24T21:03:53Z</updated>
+		<published>2026-04-24T21:03:23Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Science <a href="https://www.sciencedaily.com/releases/2026/03/260331001100.htm">news</a>:</p>
+<blockquote><p>Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed&#8212;until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. ...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html"><![CDATA[<p>Science <a href="https://www.sciencedaily.com/releases/2026/03/260331001100.htm">news</a>:</p>
+<blockquote><p>Scientists have finally cracked a long-standing mystery about squid and cuttlefish evolution by analyzing newly sequenced genomes alongside global datasets. The research reveals that these bizarre, intelligent creatures likely originated deep in the ocean over 100 million years ago, surviving mass extinction events by retreating into oxygen-rich deep-sea refuges. For millions of years, their evolution barely changed&#8212;until a dramatic post-extinction boom sparked rapid diversification as they moved into new shallow-water habitats. </p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html#comments" thr:count="64" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/04/friday-squid-blogging-how-squid-survived-extinction-events.html/feed/atom/" thr:count="64" />
+			<thr:total>64</thr:total>
+			</entry>
+	</feed>
