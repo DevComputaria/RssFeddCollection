@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-06-10T11:09:00Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[NSO Group Hacking WhatsApp Despite Court Order]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html" />
+
+		<id>https://www.schneier.com/?p=72158</id>
+		<updated>2026-06-10T11:09:00Z</updated>
+		<published>2026-06-10T11:08:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="courts" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="phishing" /><category scheme="https://www.schneier.com/" term="spyware" /><category scheme="https://www.schneier.com/" term="WhatsApp" />
+		<summary type="html"><![CDATA[<p>WhatsApp has <a href="https://www.securityweek.com/whatsapp-catches-spyware-firm-nso-defying-no-hacking-court-order/">caught</a> the NSO Group phishing its users, in violation of a court order.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html"><![CDATA[<p>WhatsApp has <a href="https://www.securityweek.com/whatsapp-catches-spyware-firm-nso-defying-no-hacking-court-order/">caught</a> the NSO Group phishing its users, in violation of a court order.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[GPS As a Key Distribution Platform]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html" />
+
+		<id>https://www.schneier.com/?p=72156</id>
+		<updated>2026-06-09T15:06:49Z</updated>
+		<published>2026-06-09T15:06:49Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="GPS" /><category scheme="https://www.schneier.com/" term="keys" /><category scheme="https://www.schneier.com/" term="military" />
+		<summary type="html"><![CDATA[<p><a href="https://www.404media.co/the-u-s-military-quietly-turned-gps-into-a-global-numbers-station-evidence-suggests/">This</a> is interesting:</p>
+<blockquote><p>The U.S. military has likely been quietly broadcasting codes for its global encryption network using public GPS for nearly 20 years, turning each satellite into a hidden &#8220;numbers station,&#8221; according to Steven Murdoch&#8230;</p>
+<p>That means every device that uses GPS has been receiving hidden government information for years, and nobody outside the military knew it until now.</p>
+<p>[&#8230;]</p>
+<p>Murdoch discovered that this particular sentinel was transmitted by all 31 operational satellites within a window of a few hours on May 26, 2011, potentially heralding the activation of a new operational system. He confirmed that this timeline coincided with the rollout of the military&#8217;s Over-the-Air Distribution (OTAD) and the Over-the-Air Rekeying (OTAR) by cross-referencing declassified documents, including a 2015 presentation about the dates of the operation...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html"><![CDATA[<p><a href="https://www.404media.co/the-u-s-military-quietly-turned-gps-into-a-global-numbers-station-evidence-suggests/">This</a> is interesting:</p>
+<blockquote><p>The U.S. military has likely been quietly broadcasting codes for its global encryption network using public GPS for nearly 20 years, turning each satellite into a hidden &#8220;numbers station,&#8221; according to Steven Murdoch&#8230;</p>
+<p>That means every device that uses GPS has been receiving hidden government information for years, and nobody outside the military knew it until now.</p>
+<p>[&#8230;]</p>
+<p>Murdoch discovered that this particular sentinel was transmitted by all 31 operational satellites within a window of a few hours on May 26, 2011, potentially heralding the activation of a new operational system. He confirmed that this timeline coincided with the rollout of the military&#8217;s Over-the-Air Distribution (OTAD) and the Over-the-Air Rekeying (OTAR) by cross-referencing declassified documents, including a 2015 presentation about the dates of the operation.</p>
+<p>&#8220;There was a perfect match between the timeline and that presentation and the change points that were automatically identified from the data,&#8221; Murdoch said. &#8220;That was the smoking gun that made me think: This is what it&#8217;s for.&#8221;</p>
+<p>These automated systems replaced the cumbersome manual distribution of cryptographic keying material, allowing military GPS receivers around the world to be rekeyed remotely through satellite broadcasts rather than through onsite procedures.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Critical Zcash Vulnerability Found and Fixed]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html" />
+
+		<id>https://www.schneier.com/?p=72153</id>
+		<updated>2026-06-08T17:06:53Z</updated>
+		<published>2026-06-08T17:06:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="blockchain" /><category scheme="https://www.schneier.com/" term="cryptocurrency" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>If you&#8217;re a user&#8212;owner?&#8212;of this cryptocurrency, <a href="https://securityaffairs.com/193224/hacking/claude-opus-found-a-four-year-old-hole-in-zcashs-privacy-layer-nobody-knows-if-someone-already-used-it.html">this</a> is important:</p>
+<blockquote><p>On May 29, the security researcher Taylor Hornby found a critical vulnerability in Zcash Orchard privacy pool using Claude Opus 4.8. The Zcash team hired Hornby specifically to look for this kind of issue. He found one fast enough to be embarrassing.</p>
+<p>The Orchard pool is the newest and most advanced shielded transaction system in the cryptocurrency Zcash. Introduced in 2022, it allows users to send and receive ZEC while keeping transaction details private. It uses zero-knowledge proofs to validate transactions without revealing amounts or participants. The bug: a specific check that was supposed to validate transaction inputs wasn&#8217;t actually enforcing the rules it appeared to enforce. An attacker could have exploited the flaw to feed false inputs into that check and generate ZEC from nothing, with the zero-knowledge proof system blessing the fraudulent transaction as valid...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html"><![CDATA[<p>If you&#8217;re a user&#8212;owner?&#8212;of this cryptocurrency, <a href="https://securityaffairs.com/193224/hacking/claude-opus-found-a-four-year-old-hole-in-zcashs-privacy-layer-nobody-knows-if-someone-already-used-it.html">this</a> is important:</p>
+<blockquote><p>On May 29, the security researcher Taylor Hornby found a critical vulnerability in Zcash Orchard privacy pool using <https://securityaffairs.com/tag/claude-opus>Claude Opus 4.8. The Zcash team hired Hornby specifically to look for this kind of issue. He found one fast enough to be embarrassing.</p>
+<p>The Orchard pool is the newest and most advanced shielded transaction system in the cryptocurrency Zcash. Introduced in 2022, it allows users to send and receive ZEC while keeping transaction details private. It uses zero-knowledge proofs to validate transactions without revealing amounts or participants. The bug: a specific check that was supposed to validate transaction inputs wasn&#8217;t actually enforcing the rules it appeared to enforce. An attacker could have exploited the flaw to feed false inputs into that check and generate ZEC from nothing, with the zero-knowledge proof system blessing the fraudulent transaction as valid.</p></blockquote>
+<p>It&#8217;s fixed; that&#8217;s the good news. The bad news is that there&#8217;s no way of knowing if anyone exploited the vulnerability to steal money. And this fragility is the fundamental problem that makes blockchain such a bad idea.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/critical-zcash-vulnerability-found-and-fixed.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Anthropic’s Project Glasswing Update]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html" />
+
+		<id>https://www.schneier.com/?p=72149</id>
+		<updated>2026-06-08T11:02:11Z</updated>
+		<published>2026-06-08T11:01:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>In April, Anthropic initated <a href="https://www.anthropic.com/glasswing">Project Glasswing</a>. The idea was to let companies use their new model to find and fix vulnerabilities in their own software. It was a fantastic PR move, and so many press outlets have uncritically parroted Anthropic&#8217;s claims that it&#8217;s now common wisdom that Mythos is better at finding software vulnerabilities than other models. Which is just <a href="https://www.theguardian.com/commentisfree/2026/may/08/how-dangerous-is-anthropics-mythos-ai">not</a> <a href="https://spectrum.ieee.org/ai-cybersecurity-mythos">true</a>.</p>
+<p>In any case, Anthropic has <a href="https://www.anthropic.com/research/glasswing-initial-update">published</a> a Project Glasswing status report. It&#8217;s finding <a href="https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/">a lot</a> of vulnerabilities in software&#8212;yay! Some of them are even dangerous. But almost none of them has been patched. It&#8217;s ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html"><![CDATA[<p>In April, Anthropic initated <a href="https://www.anthropic.com/glasswing">Project Glasswing</a>. The idea was to let companies use their new model to find and fix vulnerabilities in their own software. It was a fantastic PR move, and so many press outlets have uncritically parroted Anthropic&#8217;s claims that it&#8217;s now common wisdom that Mythos is better at finding software vulnerabilities than other models. Which is just <a href="https://www.theguardian.com/commentisfree/2026/may/08/how-dangerous-is-anthropics-mythos-ai">not</a> <a href="https://spectrum.ieee.org/ai-cybersecurity-mythos">true</a>.</p>
+<p>In any case, Anthropic has <a href="https://www.anthropic.com/research/glasswing-initial-update">published</a> a Project Glasswing status report. It&#8217;s finding <a href="https://www.securityweek.com/anthropic-mythos-detected-23000-potential-vulnerabilities-across-1000-oss-projects/">a lot</a> of vulnerabilities in software&#8212;yay! Some of them are even dangerous. But almost none of them has been patched. It&#8217;s <a href="https://www.flyingpenguin.com/mythos-grading-mythos-got-patches-yet/">weird</a>. There&#8217;s something fishy about the data that I don&#8217;t understand. That Anthropic refuses to release details&#8212;that it just says &#8220;trust us&#8221;&#8212;is a <a href="https://www.schneier.com/blog/archives/2026/04/mythos-and-cybersecurity.html">big problem</a> here.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/anthropics-project-glasswing-update.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Worm]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/ai-worm.html" />
+
+		<id>https://www.schneier.com/?p=72147</id>
+		<updated>2026-06-05T13:21:23Z</updated>
+		<published>2026-06-05T13:21:23Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="science fiction" />
+		<summary type="html"><![CDATA[<p>Researchers have <a href="https://cleverhans.io/worm">prototyped</a> an AI-powered <a href="https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html">internet worm</a>.</p>
+<p>The coolest thing about the prototype is that it carries its own LLM with it, and runs it on computers that have been broken into.</p>
+<p>This is the closest to John Brunner&#8217;s original <a href="https://en.wikipedia.org/wiki/The_Shockwave_Rider">1975 conception</a> of a computer worm that I&#8217;ve seen.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/ai-worm.html"><![CDATA[<p>Researchers have <a href="https://cleverhans.io/worm">prototyped</a> an AI-powered <a href="https://www.nytimes.com/2026/06/02/technology/scientists-find-way-to-supercharge-dangerous-computer-worms-with-ai.html">internet worm</a>.</p>
+<p>The coolest thing about the prototype is that it carries its own LLM with it, and runs it on computers that have been broken into.</p>
+<p>This is the closest to John Brunner&#8217;s original <a href="https://en.wikipedia.org/wiki/The_Shockwave_Rider">1975 conception</a> of a computer worm that I&#8217;ve seen.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/ai-worm.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/ai-worm.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hacking Meta’s AI Chatbot]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html" />
+
+		<id>https://www.schneier.com/?p=72140</id>
+		<updated>2026-06-04T11:04:32Z</updated>
+		<published>2026-06-04T11:04:09Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="chatbots" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="Meta" />
+		<summary type="html"><![CDATA[<p>Hackers are <a href="https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/">convincing</a> Meta&#8217;s AI support chatbot to let them take over other peoples&#8217; accounts:</p>
+<blockquote><p>A <a href="https://x.com/DarkWebInformer/status/2061253599758315527">video</a> posted on X showed the step-by-step process to hack someone&#8217;s Instagram account. The hacker allegedly used a VPN to spoof the targets&#8217; presumed location to avoid triggering Instagram&#8217;s automated account protections. Then, the hacker opened a chat with Meta AI Support Assistant and asked the bot to add a new email address to the target&#8217;s account. The chatbot can be seen sending a verification code to the email address provided by the hacker; the hacker then shares the verification code with the chatbot, which prompts the chatbot to show a button to &#8220;Reset Password.&#8221; The hacker enters a new password and takes over the victim&#8217;s account...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html"><![CDATA[<p>Hackers are <a href="https://techcrunch.com/2026/06/01/hackers-hijacked-instagram-accounts-by-tricking-meta-ai-support-chatbot-into-granting-access/">convincing</a> Meta&#8217;s AI support chatbot to let them take over other peoples&#8217; accounts:</p>
+<blockquote><p>A <a href="https://x.com/DarkWebInformer/status/2061253599758315527">video</a> posted on X showed the step-by-step process to hack someone&#8217;s Instagram account. The hacker allegedly used a VPN to spoof the targets&#8217; presumed location to avoid triggering Instagram&#8217;s automated account protections. Then, the hacker opened a chat with Meta AI Support Assistant and asked the bot to add a new email address to the target&#8217;s account. The chatbot can be seen sending a verification code to the email address provided by the hacker; the hacker then shares the verification code with the chatbot, which prompts the chatbot to show a button to &#8220;Reset Password.&#8221; The hacker enters a new password and takes over the victim&#8217;s account.</p>
+<p>[&#8230;]</p>
+<p>On Monday, Instagram spokesperson Andy Stone said in <a href="https://x.com/andymstone/status/2061489833441145103">a reply</a> to Wong&#8217;s post and others that the issue was now fixed. It&#8217;s unclear how many Instagram users had their accounts improperly accessed. </p></blockquote>
+<p>It&#8217;s not that easy. Probably this particular tactic is now blocked. But there are others, many others, and they cannot be blocked as a class. The real problem is that LLM chatbots are not trustworthy enough for this application.</p>
+<p>Another news <a href="https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/hacking-metas-ai-chatbot.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Used to Decrypt Medieval Ciphers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html" />
+
+		<id>https://www.schneier.com/?p=72135</id>
+		<updated>2026-06-03T11:04:52Z</updated>
+		<published>2026-06-03T11:04:40Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="history of cryptography" /><category scheme="https://www.schneier.com/" term="machine learning" />
+		<summary type="html"><![CDATA[<p>Researchers are using machine learning algorithms to <a href="https://www.bbc.com/future/article/20260527-plots-love-letters-and-diplomacy-the-medieval-secrets-being-revealed-by-ai">decrypt</a> historical pencil-and-paper ciphers.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html"><![CDATA[<p>Researchers are using machine learning algorithms to <a href="https://www.bbc.com/future/article/20260527-plots-love-letters-and-diplomacy-the-medieval-secrets-being-revealed-by-ai">decrypt</a> historical pencil-and-paper ciphers.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Intersection of Encryption and AI]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html" />
+
+		<id>https://www.schneier.com/?p=72128</id>
+		<updated>2026-06-02T11:06:45Z</updated>
+		<published>2026-06-02T11:06:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="Applied Cryptography" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="cybersecurity" />
+		<summary type="html"><![CDATA[<p><em>As part of their 20th Anniversary celebration, <a href="https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue"><cite>Dark Reading</cite></a> asked five cybersecurity industry leaders who wrote blogs or columns for them over the years to select their favorite piece and share their reflections on the topic today. This is my section.</em></p>
+<p>Renowned technologist and author Bruce Schneier contributed a column on June 20, 2010, warning about <a href="https://www.darkreading.com/cyber-risk/the-failure-of-cryptography-to-secure-modern-networks">cryptography&#8217;s inability to secure modern networks</a>, a point he says he has been trying to argue since 2000.</p>
+<p>&#8220;For a while now, I&#8217;ve pointed out that cryptography is singularly ill-suited to solve the major network security problems of today: denial-of-service attacks, website defacement, theft of credit card numbers, identity theft, viruses and worms, DNS attacks, network penetration, and so on...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html"><![CDATA[<p><em>As part of their 20th Anniversary celebration, <a href="https://www.darkreading.com/cyberattacks-data-breaches/cybersecurity-pioneers-ponder-past-prologue"><cite>Dark Reading</cite></a> asked five cybersecurity industry leaders who wrote blogs or columns for them over the years to select their favorite piece and share their reflections on the topic today. This is my section.</em></p>
+<p>Renowned technologist and author Bruce Schneier contributed a column on June 20, 2010, warning about <a href="https://www.darkreading.com/cyber-risk/the-failure-of-cryptography-to-secure-modern-networks">cryptography&#8217;s inability to secure modern networks</a>, a point he says he has been trying to argue since 2000.</p>
+<p>&#8220;For a while now, I&#8217;ve pointed out that cryptography is singularly ill-suited to solve the major network security problems of today: denial-of-service attacks, website defacement, theft of credit card numbers, identity theft, viruses and worms, DNS attacks, network penetration, and so on.</p>
+<p>&#8220;Recently, I talked to a former NSA employee at a conference. He told me that back in the 1990s, he had a copy of my book <a href="https://www.schneier.com/books/applied-cryptography"><cite>Applied Cryptography</cite></a> by his desk, as did many other cryptographers working at Ft. Meade. People were allowed to refer to it, but they were not allowed to cite it.</p>
+<p>&#8220;The 1990s were an important decade for cryptography. This was before the internet went mass market, when cryptography was just emerging from a niche academic discipline to a mainstream engineering one. There wasn&#8217;t much that programmers could read. The NSA used my book for the same reason it became a bestseller: because it collected all the academic cryptography of the time in one place and made it understandable to people who weren&#8217;t mathematicians. They feared it for exactly the same reason.</p>
+<p>&#8220;I&#8217;ve been thinking about that conversation as I revisit a 2010 essay I wrote for Dark Reading, &#8216;<a href="https://www.darkreading.com/cyber-risk/the-failure-of-cryptography-to-secure-modern-networks">The Failure of Cryptography to Secure Modern Networks</a>.&#8217; Cryptography has inherent mathematical properties that greatly favor the defender. Adding a single bit to the length of a key adds only a slight amount of work for the defender but doubles the amount of work the attacker has to do. Doubling the key length doubles the amount of work the defender has to do (if that&#8212;I&#8217;m being approximate here) but increases the attacker&#8217;s workload exponentially. For many years, we have exploited that mathematical imbalance.</p>
+<p>&#8220;Computer security is much more balanced. There&#8217;ll be a new attack, and a new defense, and a new attack, and a new defense. It&#8217;s an arms race between attacker and defender. And it&#8217;s a very fast arms race. New vulnerabilities are discovered all the time. The balance can tip from defender to attacker overnight, and back again the night after. Computer security defenses are inherently very fragile.</p>
+<p>&#8220;That isn&#8217;t a new idea. I said much the same thing in the preface to my 2000 book, <cite>Secrets and Lies</cite>:</p>
+<p>&#8220;&#8216;Cryptography is a branch of mathematics. And like all mathematics, it involves numbers, equations, and logic. Security, real security that you or I might find useful in our lives, involves people: things people know, relationships between people, people and how they relate to machines. Digital security involves computers: complex, unstable, buggy computers.&#8217;</p>
+<p>&#8220;I especially like how I phrased it in 2016: &#8216;Cryptography is harder than it looks, primarily because it looks like math. Both algorithms and protocols can be precisely defined and analyzed. This isn&#8217;t easy, and there&#8217;s a lot of insecure crypto out there, but we cryptographers have gotten pretty good at getting this part right. However, math has no agency; it can&#8217;t actually secure anything. For cryptography to work, it needs to be written in software, embedded in a larger software system, managed by an operating system, run on hardware, connected to a network, and configured and operated by users. Each of these steps brings with it difficulties and vulnerabilities.&#8217;</p>
+<p>&#8220;It&#8217;s a lesson we have all learned over the decades. Cryptography is still necessary for cybersecurity&#8212;although I wouldn&#8217;t have used that word back then&#8212;but is not sufficient. There are particular attack and forms of mass surveillance that cryptography prevents. But as computers have infused throughout our lives, and networks have connected all those computers, those aspects of cybersecurity have become increasingly important, and vulnerable.</p>
+<p>&#8220;Today, the cybersecurity world is changing yet again, this time due to the capabilities of artificial intelligence. AI isn&#8217;t advancing cryptography, but it&#8217;s changing cybersecurity. AI has demonstrated a superhuman ability to find vulnerabilities in software and to write exploits. A similar ability to write patches is probably coming. This has profound implications for both attackers and defenders, and it is unclear who will win the <a href="https://www.csoonline.com/article/4152133/cybersecurity-in-the-age-of-instant-software.html">particular arms race</a> in a world of what I call instant software.&#8221;</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/the-intersection-of-encryption-and-ai.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Microsoft Threatening Security Researcher]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html" />
+
+		<id>https://www.schneier.com/?p=72125</id>
+		<updated>2026-06-02T11:00:43Z</updated>
+		<published>2026-06-02T11:00:42Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="exploits" /><category scheme="https://www.schneier.com/" term="Microsoft" /><category scheme="https://www.schneier.com/" term="zero-day" />
+		<summary type="html"><![CDATA[<p>An anonymous security researcher called &#8220;Nightmare Eclipse&#8221; has been <a href="https://deadeclipse666.blogspot.com/">publishing</a> a series of significant security exploits against Microsoft Windows&#8212;including one that <a href="https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/">breaks</a> BitLocker. Microsoft has <a href="https://www.microsoft.com/en-us/msrc/blog/2026/05/a-shared-responsibility-protecting-customers-through-coordinated-vulnerability-disclosure ">threatened</a> legal action against the researcher. Lots of recriminations are being <a href="https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/">traded</a> back and forth.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html"><![CDATA[<p>An anonymous security researcher called &#8220;Nightmare Eclipse&#8221; has been <a href="https://deadeclipse666.blogspot.com/">publishing</a> a series of significant security exploits against Microsoft Windows&#8212;including one that <a href="https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/">breaks</a> BitLocker. Microsoft has <a href="https://www.microsoft.com/en-us/msrc/blog/2026/05/a-shared-responsibility-protecting-customers-through-coordinated-vulnerability-disclosure ">threatened</a> legal action against the researcher. Lots of recriminations are being <a href="https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/">traded</a> back and forth.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Vulnerability Disclosure in the Age of AI]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html" />
+
+		<id>https://www.schneier.com/?p=72122</id>
+		<updated>2026-06-01T16:49:39Z</updated>
+		<published>2026-06-01T16:49:39Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="disclosure" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>New article: &#8220;<a href="https://cyberdefensereview.army.mil/Portals/6/Documents/2026-vol11-iss2/CDR_V11_N2_Hathaway.pdf">Responsible Disclosure in the Age of AI: A Call for Urgent Action</a>,&#8221; by Melissa Hathaway.</p>
+<blockquote><p><b>Abstract:</b> Artificial intelligence is fundamentally reshaping the balance between vulnerability discovery and remediation. Frontier AI models are now capable of autonomously identifying exploitable software vulnerabilities at unprecedented speed and scale. This development exposes decades of accumulated technical debt created by a software industry that prioritized rapid deployment over secure-by-design engineering practices. Drawing on the evolution of software assurance, vulnerability disclosure frameworks, and U.S. cyber policy, this perspective argues that the current moment represents a strategic inflection point for governments, industry, and critical infrastructure operators. The author examines the growing tension between offensive and defensive equities in cyberspace, the emergence of AI-enabled vulnerability discovery capabilities in both the U.S. and China, and the increasing risks posed by unsupported legacy systems and AI-assisted code generation practices. Responsible disclosure can no longer remain a reactive or fragmented process, but must become a coordinated national and international resilience effort involving governments, software vendors, infrastructure operators, and emergency response organizations. The article concludes with an urgent call for accelerated remediation, large-scale patch management coordination, and sustained investment in automated vulnerability repair capabilities before adversaries exploit this rapidly narrowing window of opportunity...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html"><![CDATA[<p>New article: &#8220;<a href="https://cyberdefensereview.army.mil/Portals/6/Documents/2026-vol11-iss2/CDR_V11_N2_Hathaway.pdf">Responsible Disclosure in the Age of AI: A Call for Urgent Action</a>,&#8221; by Melissa Hathaway.</p>
+<blockquote><p><b>Abstract:</b> Artificial intelligence is fundamentally reshaping the balance between vulnerability discovery and remediation. Frontier AI models are now capable of autonomously identifying exploitable software vulnerabilities at unprecedented speed and scale. This development exposes decades of accumulated technical debt created by a software industry that prioritized rapid deployment over secure-by-design engineering practices. Drawing on the evolution of software assurance, vulnerability disclosure frameworks, and U.S. cyber policy, this perspective argues that the current moment represents a strategic inflection point for governments, industry, and critical infrastructure operators. The author examines the growing tension between offensive and defensive equities in cyberspace, the emergence of AI-enabled vulnerability discovery capabilities in both the U.S. and China, and the increasing risks posed by unsupported legacy systems and AI-assisted code generation practices. Responsible disclosure can no longer remain a reactive or fragmented process, but must become a coordinated national and international resilience effort involving governments, software vendors, infrastructure operators, and emergency response organizations. The article concludes with an urgent call for accelerated remediation, large-scale patch management coordination, and sustained investment in automated vulnerability repair capabilities before adversaries exploit this rapidly narrowing window of opportunity.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+	</feed>
