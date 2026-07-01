@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-06-30T12:06:04Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Realities of AI Video Surveillance]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html" />
+
+		<id>https://www.schneier.com/?p=72228</id>
+		<updated>2026-06-30T12:06:04Z</updated>
+		<published>2026-06-30T12:05:57Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="behavioral detection" /><category scheme="https://www.schneier.com/" term="cameras" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>The <i>Financial Times</i> has a <a href="https://archive.ph/s6mES">good article</a> on how AI is changing the capabilities of video surveillance, with information from both Israel/Iran and Russia.</p>
+<p>I <a href="https://www.schneier.com/blog/archives/2023/12/ai-and-mass-spying.html">wrote about</a> this sort of thing a few years ago, how AI enables mass spying in the way that computers and networks enabled mass surveillance. The interesting development in the article is that AI allows people to ask natural language questions about video footage to AIs&#8212;and AIs can answer them.</p>
+<blockquote><p>In contrast with older tools restricted to a few dozen preset searches, these new tools allow an almost unlimited range of enquiries by enabling language-based searches on video...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html"><![CDATA[<p>The <i>Financial Times</i> has a <a href="https://archive.ph/s6mES">good article</a> on how AI is changing the capabilities of video surveillance, with information from both Israel/Iran and Russia.</p>
+<p>I <a href="https://www.schneier.com/blog/archives/2023/12/ai-and-mass-spying.html">wrote about</a> this sort of thing a few years ago, how AI enables mass spying in the way that computers and networks enabled mass surveillance. The interesting development in the article is that AI allows people to ask natural language questions about video footage to AIs&#8212;and AIs can answer them.</p>
+<blockquote><p>In contrast with older tools restricted to a few dozen preset searches, these new tools allow an almost unlimited range of enquiries by enabling language-based searches on video.</p>
+<p>That lets intelligence officers hunt through massive streams of videos using simple search terms, such as two men handing a bag to each other; a person who has changed their appearance, or has changed clothes multiple times in a day; or a vehicle that has recently been painted over, or has driven past the same spot several times in a short period.</p>
+<p>&#8220;This is the holy grail of surveillance,&#8221; said a European official whose country uses the technology on its cities. &#8220;We are able to look for behaviour, not objects ­ it has created a world of new possibilities.&#8221;</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Factoring RSA Keys with Many Zeros]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html" />
+
+		<id>https://www.schneier.com/?p=72232</id>
+		<updated>2026-06-29T16:05:19Z</updated>
+		<published>2026-06-29T16:05:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="keys" /><category scheme="https://www.schneier.com/" term="RSA" />
+		<summary type="html"><![CDATA[<p>Interesting research on a <a href="https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/">new class</a> of weak RSA keys: keys with lots of zeros. It turns out that these keys are out in the wild.</p>
+<blockquote><p>The badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-world keys from public sources, including Certificate Transparency logs, internet-wide TLS and SSH scans, PGP keys, and many others. By searching this dataset for unexpectedly sparse RSA moduli, we uncovered a large number of keys in the wild with the patterns in Figure 1...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html"><![CDATA[<p>Interesting research on a <a href="https://blog.trailofbits.com/2026/06/12/factoring-short-sleeve-rsa-keys-with-polynomials/">new class</a> of weak RSA keys: keys with lots of zeros. It turns out that these keys are out in the wild.</p>
+<blockquote><p>The badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-world keys from public sources, including Certificate Transparency logs, internet-wide TLS and SSH scans, PGP keys, and many others. By searching this dataset for unexpectedly sparse RSA moduli, we uncovered a large number of keys in the wild with the patterns in Figure 1.</p>
+<p>Both patterns include several regularly spaced blocks of all zeros interleaved with seemingly random data. Pattern 1 appears in CT logs for certificates issued to several large organizations, including Yahoo and Verizon, and on some devices running NetApp software. Fortunately, these certificates have already expired, but we still shared our findings with these companies. We wanted to learn more about which product could be responsible for generating these keys, but we did not hear back. Pattern 2 appears on SSH hosts running the CompleteFTP software from EnterpriseDT. The underlying vulnerability affects RSA keys generated using versions 10.0.0­12.0.0 (Dec 2016­Mar 2019) and DSA keys generated with v10.0.0­23.0.4 (Dec 2016­Dec 2023).</p>
+<p>These vulnerabilities affect a small minority of hosts on the internet, but the more interesting takeaway is that independent cryptographic implementations failed in similar ways. More implementations may include the same bugs, and so it’s worth tailoring cryptanalytic algorithms for this particular type of failure.</p></blockquote>
+<p>The article doesn&#8217;t speculate, but I will. This could be a deliberately designed backdoor, of the sort I <a href="https://www.schneier.com/essays/archives/2013/10/how_to_design_and_de.html">wrote about</a> back in 2013. I could imagine some government agency figuring out how to break this class of RSA keys, and then convincing different providers to hand them out to users.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Robot Police Officers]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/robot-police-officers.html" />
+
+		<id>https://www.schneier.com/?p=72252</id>
+		<updated>2026-06-29T10:55:55Z</updated>
+		<published>2026-06-29T10:55:33Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="drones" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="robotics" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>We&#8217;ve taken one small step towards robot police officers: a drone capable of disarming a suspect:</p>
+<blockquote><p>In a <a href="https://www.instagram.com/reel/DZ4-tdPtbey/">June 22 video</a> posted on the Sacramento County Sheriff’s Office’s Instagram page, an officer wearing goggles can be seen operating a drone to retrieve a knife from an armed suspect hiding inside a cluttered house. &#8220;After not responding to negotiators, a drone was deployed inside the residence,&#8221; the post says. &#8220;Drone pilots located the suspect hiding in a corner of a garage&#8221; and then used a high-powered magnet attached to the drone to grab the knife out of the suspect&#8217;s hand. In the video ­ which is soundtracked by the &#8220;Mission: Impossible&#8221; theme song&#8212;the intercepted knife can be seen spinning around in the air as the drone carries it back to the deputies...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/robot-police-officers.html"><![CDATA[<p>We&#8217;ve taken one small step towards robot police officers: a drone capable of disarming a suspect:</p>
+<blockquote><p>In a <a href="https://www.instagram.com/reel/DZ4-tdPtbey/">June 22 video</a> posted on the Sacramento County Sheriff’s Office’s Instagram page, an officer wearing goggles can be seen operating a drone to retrieve a knife from an armed suspect hiding inside a cluttered house. &#8220;After not responding to negotiators, a drone was deployed inside the residence,&#8221; the post says. &#8220;Drone pilots located the suspect hiding in a corner of a garage&#8221; and then used a high-powered magnet attached to the drone to grab the knife out of the suspect&#8217;s hand. In the video ­ which is soundtracked by the &#8220;Mission: Impossible&#8221; theme song&#8212;the intercepted knife can be seen spinning around in the air as the drone carries it back to the deputies.</p></blockquote>
+<p>Slashdot <a href="https://yro.slashdot.org/story/26/06/27/0635220/california-sheriff-says-their-drone-disarmed-a-suspect-shares-video-on-instagram">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/robot-police-officers.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/robot-police-officers.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Chinese Control the Majority of Argentina’s Squid Fleet]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html" />
+
+		<id>https://www.schneier.com/?p=72255</id>
+		<updated>2026-06-26T20:57:11Z</updated>
+		<published>2026-06-26T20:57:04Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Chinese companies control nearly <a href="https://www.seafoodsource.com/news/environment-sustainability/chinese-companies-control-nearly-two-thirds-of-argentina-s-own-squid-fleet-according-to-new-iuu-expos">two-thirds</a> of Argentina’s own squid fleet.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html"><![CDATA[<p>Chinese companies control nearly <a href="https://www.seafoodsource.com/news/environment-sustainability/chinese-companies-control-nearly-two-thirds-of-argentina-s-own-squid-fleet-according-to-new-iuu-expos">two-thirds</a> of Argentina’s own squid fleet.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html#comments" thr:count="22" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html/feed/atom/" thr:count="22" />
+			<thr:total>22</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Meta Is Testing Facial Recognition for Police and Military]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html" />
+
+		<id>https://www.schneier.com/?p=72242</id>
+		<updated>2026-06-26T16:41:37Z</updated>
+		<published>2026-06-26T16:40:56Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="face recognition" /><category scheme="https://www.schneier.com/" term="homeland security" /><category scheme="https://www.schneier.com/" term="identification" /><category scheme="https://www.schneier.com/" term="military" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="privacy" />
+		<summary type="html"><![CDATA[<p>We know that ICE wants to <a href="https://futurism.com/artificial-intelligence/ice-facial-surveillance-glasses">deploy</a> eyeglasses with facial recognition that can identify people in real time.</p>
+<p>Turns out Meta is <a href="https://www.wired.com/story/meta-rank-one-computing-face-recognition-smart-glasses/">prototyping</a> the feature with a Pentagon supplier. (Alternate <a href="https://gizmodo.com/meta-is-testing-police-surveillance-tech-for-its-smart-glasses-2000771931">news</a> story.)</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html"><![CDATA[<p>We know that ICE wants to <a href="https://futurism.com/artificial-intelligence/ice-facial-surveillance-glasses">deploy</a> eyeglasses with facial recognition that can identify people in real time.</p>
+<p>Turns out Meta is <a href="https://www.wired.com/story/meta-rank-one-computing-face-recognition-smart-glasses/">prototyping</a> the feature with a Pentagon supplier. (Alternate <a href="https://gizmodo.com/meta-is-testing-police-surveillance-tech-for-its-smart-glasses-2000771931">news</a> story.)</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[One Million Passports Leaked Online]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html" />
+
+		<id>https://www.schneier.com/?p=72230</id>
+		<updated>2026-06-26T11:03:32Z</updated>
+		<published>2026-06-26T11:03:21Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="data collection" /><category scheme="https://www.schneier.com/" term="leaks" /><category scheme="https://www.schneier.com/" term="passports" />
+		<summary type="html"><![CDATA[<p>A database of almost a million passports from around the world was <a href="https://cambridgeanalytica.org/data-breaches-scandals/passports-driver-licenses-exposed-public-internet-2026-51096/">leaked</a> online.</p>
+<p>Note what happened. A high-value credential&#8212;a passport&#8212;was used in an ancillary low-value authentication system: ID verification for cannabis dispensaries. And it&#8217;s the low-value system that got hacked, putting the high-value credential at risk.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html"><![CDATA[<p>A database of almost a million passports from around the world was <a href="https://cambridgeanalytica.org/data-breaches-scandals/passports-driver-licenses-exposed-public-internet-2026-51096/">leaked</a> online.</p>
+<p>Note what happened. A high-value credential&#8212;a passport&#8212;was used in an ancillary low-value authentication system: ID verification for cannabis dispensaries. And it&#8217;s the low-value system that got hacked, putting the high-value credential at risk.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html#comments" thr:count="18" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html/feed/atom/" thr:count="18" />
+			<thr:total>18</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI and Liability]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html" />
+
+		<id>https://www.schneier.com/?p=72261</id>
+		<updated>2026-06-25T17:03:17Z</updated>
+		<published>2026-06-25T17:03:15Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="software liability" />
+		<summary type="html"><![CDATA[<p>Earlier this month, a German court <a href="https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/">ruled</a> that Google is liable for its AI search summaries. Rejecting defenses like &#8220;users can check for themselves,&#8221; and that they generally know &#8220;that information generated with AI should not be blindly trusted,&#8221; the court held that the AI&#8217;s summaries are reflections of the company and &#8220;above all an expression of Google&#8217;s business activities.&#8221;</p>
+<p>This is the latest skirmish in a decades-old battle over internet publishing. Historically, there were two different types of information distributors: carriers and publishers. A phone company is a carrier. It&#8217;ll transmit whatever you say, even discussions about committing a crime. Words are words, and the phone company does not know&#8212;nor is it liable for&#8212;the words you choose to speak. A newspaper, on the other hand, is a publisher. It decides the words it publishes, and what quotes to include in its articles. If those words or quotes are defamatory or otherwise illegal, it&#8217;s liable...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html"><![CDATA[<p>Earlier this month, a German court <a href="https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/">ruled</a> that Google is liable for its AI search summaries. Rejecting defenses like &#8220;users can check for themselves,&#8221; and that they generally know &#8220;that information generated with AI should not be blindly trusted,&#8221; the court held that the AI&#8217;s summaries are reflections of the company and &#8220;above all an expression of Google&#8217;s business activities.&#8221;</p>
+<p>This is the latest skirmish in a decades-old battle over internet publishing. Historically, there were two different types of information distributors: carriers and publishers. A phone company is a carrier. It&#8217;ll transmit whatever you say, even discussions about committing a crime. Words are words, and the phone company does not know&#8212;nor is it liable for&#8212;the words you choose to speak. A newspaper, on the other hand, is a publisher. It decides the words it publishes, and what quotes to include in its articles. If those words or quotes are defamatory or otherwise illegal, it&#8217;s liable.</p>
+<p>Internet companies have long tried to play both ends of this distinction. They claim to be a carrier when it suits them, and also to be a publisher when that is advantageous. <a href="https://www.law.cornell.edu/uscode/text/47/230">Section 230</a> of the 1996 Communication Decency Act enshrined this straddling when it shielded internet providers from liability for the speech of others on their platforms: &#8220;No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider.&#8221;</p>
+<p>For years, a debate has continued about how to apply this law to social media platforms. When platforms merely displayed people&#8217;s posts and comments in reverse-chronological order, they behaved largely like carriers, relaying people&#8217;s words without regard to their contents. But the next generation of platforms, like Facebook, curated feeds with algorithms and thereby acted more like publishers, making editorial decisions about who sees what. Some experts think section 230 has gone too far and <a href="https://ash.harvard.edu/articles/sunset-and-renew-section-230-should-protect-human-speech-not-algorithmic-virality/">needs</a><a href="https://www.brookings.edu/articles/back-to-the-future-for-section-230-reform/"> reform</a>; others <a href="https://www.eff.org/issues/cda230">think</a> that it&#8217;s what holds the modern internet together.</p>
+<p>Google&#8217;s AI overviews are far less nuanced. They work differently from traditional search, which courts have <a href="https://www.eff.org/files/parker-v-google.pdf">held</a> involves archiving and facilitating access to the editorial content of third parties. AI overviews don&#8217;t just quote and republish words from different websites. With overviews, the AI rewrites other people&#8217;s words, exercising editorial discretion like a newspaper article or an original essay on a topic.</p>
+<p>It&#8217;s not only Google&#8217;s AI that falls into this category. Imagine a restaurant review site that provides AI summaries, or a site summarizing laws and government procedures. Or a traditional publisher that uses AI to summarize its own publication. Accuracy matters, and liability is one of the most important ways we as a public can demand accuracy and hold companies accountable when they cause harm.</p>
+<p>Two years ago, Air Canada learned this lesson. Its AI chatbot promised a discount the company later rescinded, arguing in court that the airline wasn&#8217;t responsible for the promises the bot made because it was a &#8220;separate legal entity that is responsible for its own actions.&#8221; The court <a href="https://www.bbc.com/travel/article/20240222-air-canada-chatbot-misinformation-what-travellers-should-know">sided</a> with the flyer, saying that the airline was just as responsible for what its chatbot says as what&#8217;s on its website. The potential precedent here is that corporations have a <a href="https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/">duty of care</a> for the performance of the AI chatbots they employ.</p>
+<p>AI agents are agents of the person or organization that deploys them&#8212;and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. If a company&#8217;s human agent signed contracts in the company&#8217;s name, that company would be bound by those contracts. And if a doctor gave dangerously wrong medical advice, they would be liable for <a href="https://www.nature.com/articles/s41746-026-02854-5">malpractice</a>.</p>
+<p>To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, and would introduce disastrous incentives for corporate misbehavior. Why hire human writers, lawyers or doctors when AIs are not only cheaper, but also absolve employers whenever they make a mistake?</p>
+<p>We are rapidly moving to a world where AI-powered chatbots will be at the other end of all sorts of corporate communications channels. It makes no sense for a company to be able to honor its statements when it wants to and disavow them when it doesn&#8217;t.</p>
+<p>Visa and OpenAI recently announced a <a href="https://corporate.visa.com/en/sites/visa-perspectives/innovation/visa-openai-partnership.html">partnership</a> to build personal AI agents to, among other things, make purchases on our behalf. This is just one of many similar projects in the works, as companies race to provide us all with AI assistants. Will Visa take responsibility when its AI makes a purchase in your name that you don&#8217;t want? And if Visa won&#8217;t, why would anyone trust the system? Properly allocating liability is key to make this kind of thing work.</p>
+<p>If the German ruling holds, it could be devastating for Google&#8217;s AI Overview feature. Tests from earlier this year found that it had mistakes about <a href="https://www.nytimes.com/2026/04/07/technology/google-ai-overviews-accuracy.html">10% percent</a> of the time. At more than <a href="https://searchengineland.com/google-5-trillion-searches-per-year-452928">5tn</a> searches per year, that&#8217;s 16,000 erroneous summaries every second. And while most of those errors are benign, some of them will cause harm, be defamatory, or otherwise trigger liability.</p>
+<p>Earlier this year, Google&#8217;s AI summary <a href="https://www.theguardian.com/music/2026/may/05/canadian-ashley-macisaac-fiddler-musician-singer-songwriter-sues-google-ai-sex-offender-ntwnfb">falsely identified</a> the Canadian fiddler Ashley MacIsaac of being a sex offender. His lawsuit, filed in Ontario, is ongoing. If Google is forced to invest in improving its AI system until those kinds of errors are exceedingly rare, that seems like a good outcome for users, as well as the subjects of search, like MacIsaac.</p>
+<p>More generally, liability concerns could mean that many current use cases for agents won&#8217;t be commercially viable. Companies may not be able to profitably operate AI <a href="https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires">lawyers</a>, <a href="https://www.washingtonpost.com/technology/2026/06/04/inside-trump-backed-push-bring-ai-doctors-into-american-medicine/">doctors</a> and media <a href="https://www.ftc.gov/legal-library/browse/federal-register-notices/16-cfr-part-465-trade-regulation-rule-use-consumer-reviews-testimonials-final-rule">influencers</a> if they are held responsible for what they say and do.</p>
+<p>We&#8217;re OK with this outcome. There&#8217;s nothing in the law that requires us to accommodate AI systems if they are fundamentally untrustworthy, just as we don&#8217;t need to accommodate untrustworthy human systems. Any company that won&#8217;t stand by the statements its agents make&#8212;whether human or AI&#8212;doesn&#8217;t deserve users&#8217; time or money.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html#comments" thr:count="18" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html/feed/atom/" thr:count="18" />
+			<thr:total>18</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Interesting Paper Exploring Prompt Injection]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html" />
+
+		<id>https://www.schneier.com/?p=72258</id>
+		<updated>2026-06-25T11:24:56Z</updated>
+		<published>2026-06-25T11:23:58Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" />
+		<summary type="html"><![CDATA[<p><a href="https://role-confusion.github.io/">This</a> is a fascinating explotation of how LLMs fall for prompt injection attacks. It turns out that they learn to recognize the style of text in different role/instruction blocks, and not just the tags.</p>
+<p>Their conclusion:</p>
+<blockquote><p>Role tags were a formatting trick that became the security architecture and the cognitive scaffolding of modern LLMs. We&#8217;ve shown that this architecture doesn&#8217;t survive into the model&#8217;s actual representations, and that such role confusion is linked to prompt injection.</p>
+<p>Unless LLMs achieve genuine role perception, we think injection defense will remain a perpetual whack-a-mole game. And the continuous nature of role boundaries opens the threat of injections designed to subtly shift LLM states through seemingly innocuous text, legally and at scale...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html"><![CDATA[<p><a href="https://role-confusion.github.io/">This</a> is a fascinating explotation of how LLMs fall for prompt injection attacks. It turns out that they learn to recognize the style of text in different role/instruction blocks, and not just the tags.</p>
+<p>Their conclusion:</p>
+<blockquote><p>Role tags were a formatting trick that became the security architecture and the cognitive scaffolding of modern LLMs. We&#8217;ve shown that this architecture doesn&#8217;t survive into the model&#8217;s actual representations, and that such role confusion is linked to prompt injection.</p>
+<p>Unless LLMs achieve genuine role perception, we think injection defense will remain a perpetual whack-a-mole game. And the continuous nature of role boundaries opens the threat of injections designed to subtly shift LLM states through seemingly innocuous text, legally and at scale.</p>
+<p>More generally, roles are quietly one of the most important abstractions in the LLM stack, providing the boundaries meant to separate self from other, thought from communication, instruction from data. They&#8217;re human-controlled switches in an otherwise continuous system. We think they deserve a lot more study than they&#8217;ve gotten.</p></blockquote>
+<p>Full paper: &#8220;<a href="https://arxiv.org/abs/2603.12277">Prompt Injection as Role Confusion</a>.&#8221; Simon Willison <a href="https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/">comments</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Embedding Forbidden Text in Spyware to Discourage AI Analysis]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html" />
+
+		<id>https://www.schneier.com/?p=72226</id>
+		<updated>2026-06-24T11:04:09Z</updated>
+		<published>2026-06-24T11:03:10Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="malware" /><category scheme="https://www.schneier.com/" term="reports" /><category scheme="https://www.schneier.com/" term="spyware" />
+		<summary type="html"><![CDATA[<p>At least one malware developer is <a href="https://x.com/jsrailton/status/2064661778978533571">adding text</a> about nuclear and biological weapons to their spyware, in an effort to stop automatic AI analysis.</p>
+<p><a href="https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious">Details</a>:</p>
+<blockquote><p>The _index.js payload begins with a large JavaScript block comment containing fake system instructions and policy-triggering content. Because it is inside a comment, it does not affect JavaScript execution. The runtime skips it. The real malware begins after the comment with a try{eval(&#8230;)} wrapper around a large character-code array and a ROT-style substitution function.</p>
+<p>This header appears designed for AI-mediated analysis, not for Node, Bun, or Python. It attempts to derail scanners or analyst copilots that feed the beginning of a file to a language model without clearly isolating the content as untrusted data. In weak pipelines, this can cause refusal behavior, prompt confusion, context pollution, or premature classification before the scanner reaches the actual malware...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html"><![CDATA[<p>At least one malware developer is <a href="https://x.com/jsrailton/status/2064661778978533571">adding text</a> about nuclear and biological weapons to their spyware, in an effort to stop automatic AI analysis.</p>
+<p><a href="https://socket.dev/blog/mini-shai-hulud-miasma-and-hades-worms-target-bioinformatics-and-mcp-developers-via-malicious">Details</a>:</p>
+<blockquote><p>The _index.js payload begins with a large JavaScript block comment containing fake system instructions and policy-triggering content. Because it is inside a comment, it does not affect JavaScript execution. The runtime skips it. The real malware begins after the comment with a try{eval(&#8230;)} wrapper around a large character-code array and a ROT-style substitution function.</p>
+<p>This header appears designed for AI-mediated analysis, not for Node, Bun, or Python. It attempts to derail scanners or analyst copilots that feed the beginning of a file to a language model without clearly isolating the content as untrusted data. In weak pipelines, this can cause refusal behavior, prompt confusion, context pollution, or premature classification before the scanner reaches the actual malware.</p>
+<p>This is not a magical bypass against static detection. YARA rules, entropy checks, AST parsing, string extraction, deobfuscation, and behavioral rules still work. But it is a practical anti-analysis trick against naive LLM-first triage systems.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Anthropic’s Fable 5 Model Jailbroken Within Days]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html" />
+
+		<id>https://www.schneier.com/?p=72219</id>
+		<updated>2026-06-23T11:03:08Z</updated>
+		<published>2026-06-23T11:03:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" />
+		<summary type="html"><![CDATA[<p>Fable 5 is the supposed safe version of Anthropic&#8217;s Mythos Preview, with guardrails to ensure that it can&#8217;t be used to create cyberattacks.</p>
+<p>Well, that restriction was <a href="https://cybersecuritynews.com/anthropics-claude-fable-5-jailbroken/">bypassed</a> within days.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html"><![CDATA[<p>Fable 5 is the supposed safe version of Anthropic&#8217;s Mythos Preview, with guardrails to ensure that it can&#8217;t be used to create cyberattacks.</p>
+<p>Well, that restriction was <a href="https://cybersecuritynews.com/anthropics-claude-fable-5-jailbroken/">bypassed</a> within days.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+	</feed>
