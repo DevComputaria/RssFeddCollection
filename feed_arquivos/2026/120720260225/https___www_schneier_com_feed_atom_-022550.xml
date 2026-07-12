@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-07-10T21:07:16Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: “Squidbleed” Vulnerability]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html" />
+
+		<id>https://www.schneier.com/?p=72299</id>
+		<updated>2026-07-10T21:07:16Z</updated>
+		<published>2026-07-10T21:07:13Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="squid" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>In a rare combined cybersecurity/squid post, a twenty-nine-year-old <a href="https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html">squid proxy bug</a> can leak HTTP requests.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html"><![CDATA[<p>In a rare combined cybersecurity/squid post, a twenty-nine-year-old <a href="https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html">squid proxy bug</a> can leak HTTP requests.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Surveillance and Social Progress]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html" />
+
+		<id>https://www.schneier.com/?p=72290</id>
+		<updated>2026-07-10T11:02:51Z</updated>
+		<published>2026-07-10T11:02:04Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>In the near future, <a href="https://www.theguardian.com/technology/artificialintelligenceai">AI</a>-powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong&#8212;shoplift, litter, jaywalk, you name it&#8212;the system will notice, retain it, tie it to your official government record, communicate that fact to you, and provide real-time alerts to any relevant authorities&#8230; and maybe also to the general public.</p>
+<p>Think of these systems as automated speed cameras, but on steroids. Only they&#8217;ll enforce not just speed limits, but any other rule you can imagine. And you won&#8217;t receive a ticket weeks later by mail; you&#8217;ll be informed about and fined for your violation immediately...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html"><![CDATA[<p>In the near future, <a href="https://www.theguardian.com/technology/artificialintelligenceai">AI</a>-powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong&#8212;shoplift, litter, jaywalk, you name it&#8212;the system will notice, retain it, tie it to your official government record, communicate that fact to you, and provide real-time alerts to any relevant authorities&#8230; and maybe also to the general public.</p>
+<p>Think of these systems as automated speed cameras, but on steroids. Only they&#8217;ll enforce not just speed limits, but any other rule you can imagine. And you won&#8217;t receive a ticket weeks later by mail; you&#8217;ll be informed about and fined for your violation immediately.</p>
+<p>These systems will combine powerful AI, public and private surveillance via real-time facial recognition technology and digital tracking, mass databases and highly personalized enforcement. If deployed at scale, they will have profound chilling effects not just on personal freedoms, but democracy and social progress itself.</p>
+<p>China has been developing its surveillance infrastructure <a href="https://www.nytimes.com/2018/07/08/business/china-surveillance-technology.html">for years</a>. The country has over 600 million surveillance cameras, increasingly powered by AI and facial recognition to <a href="https://www.cnn.com/2025/12/04/china/china-ai-censorship-surveillance-report-intl-hnk">enforce</a> legal and social rules. Take the case of Lao Duan, a Chinese citizen <a href="https://www.npr.org/2018/10/31/662696776/what-its-like-to-be-on-the-blacklist-in-chinas-new-social-credit-system">blacklisted</a> by the system after he lost his job and was unable to repay a series of loans. When he visited Beijing, the city&#8217;s AI surveillance system identified him by his face at a major intersection and displayed his face, name and citizen ID number on a large electronic billboard nearby with a message that he was an untrustworthy person. Similar systems are now being <a href="https://www.visiontimes.com/2026/05/05/chinas-cameras-catch-minor-offenses-but-miss-missing-persons-french-report-says.html">deployed</a> across China and integrated with its infamous online <a href="https://www.cnn.com/2025/12/04/china/china-ai-censorship-surveillance-report-intl-hnk">monitoring, censorship</a> and <a href="https://time.com/collections/davos-2019/5502592/china-social-credit-score/">social credit</a> systems.</p>
+<p>AI surveillance is <a href="https://www.lemonde.fr/en/pixels/article/2025/09/01/the-discreet-rise-of-facial-recognition-around-the-world_6744911_13.html">now</a> being experimented with in <a href="https://www.motherjones.com/politics/2025/04/clearview-ai-immigration-ice-fbi-surveillance-facial-recognition-hoan-ton-that-hal-lambert-trump/">North America</a>, <a href="https://www.alsur.lat/sites/default/files/2025-11/Facial%20recognition%20and%20surveillance-1.pdf">South America</a>, <a href="https://www.lemonde.fr/en/pixels/article/2025/09/01/the-discreet-rise-of-facial-recognition-around-the-world_6744911_13.html">Europe</a>, <a href="https://www.biometricupdate.com/202510/facial-recognition-strengthens-security-for-asias-expanding-rail-metro-sector-panel">Asia</a> and <a href="https://www.theafricareport.com/420018/facial-recognition-ai-driven-surveillance-how-china-is-exporting-its-toolkit-to-africa/">Africa</a>. According to a new <a href="https://notechforice.com/wp-content/uploads/2026/06/Tech-Behind-ICE-Oligarchs-Immigration-Enforcement-and-the-Threat-to-Democracy.pdf">report</a>, the US Department of Homeland Security is rapidly increasing its use of AI-based surveillance, including facial recognition and the monitoring of social media accounts, to keep tabs on immigrants, dissidents, journalists, legal observers and protesters. While the systems are ostensibly used to maintain security and public safety, the real aim is often social control. Larry Ellison, CEO of Oracle&#8212;a powerful tech giant that works closely with the Trump administration&#8212;has <a href="https://www.theregister.com/software/2024/09/16/oracle-cloud-ai-will-enable-mass-surveillance-says-ellison/516672">said</a>: &#8220;Citizens will be on their best behavior because we&#8217;re constantly recording and reporting.&#8221; The chilling effects are the point.</p>
+<p>AI surveillance raises a range of public policy challenges: technical biases, unauditable systems, and inflexible automated law and social rule enforcement that can promote discrimination and undermine transparency, accountability and the rule of law. But we believe the most urgent and long-term impact will be its broader chilling effects.</p>
+<p>In a new book, <a href="https://www.cambridge.org/core/books/chilling-effects/22383D541B3BC45C9145E85DA4824E10#fndtn-metrics">Chilling Effects: Repression, Conformity, and Power in the Digital Age</a>, Jon Penney explains how surveillance, technology and power can be weaponized to influence behavior at scale. Surveillance, personalization, uncertainty and authority are all key mechanisms to increase the scale and impact of chilling effects. They cause people to self-censor their words and actions, to become more conformist and compliant and thus easier to manage and control. And the effects are additive: the more mechanisms employed, and the more powerful the form, the greater the chill.</p>
+<p>Computerization has long allowed data collectors to track our locations, collect lists of whom we communicate with, and monitor our spending habits&#8212;unless we use cash. What&#8217;s new is an unprecedented fusion of each of these mechanisms, persistent and unrelenting. AI brings an analytical ability <a href="https://slate.com/technology/2023/12/ai-mass-spying-internet-surveillance.html">to</a> <a href="https://www.schneier.com/wp-content/uploads/2026/01/Schneier-AI-and-Spying.pdf">spy</a> on the contents of our communications, and to answer sophisticated questions about our whereabouts and activities: actions that previously required human analysts are now automated. The result will be a kind of supercharged societal level of chilling effects where fear, self-censorship and groupthink reign, and dissent, creativity and innovation become increasingly rare.</p>
+<p>In this atmosphere of fear and conformity, risky ideas, social activism and self-reinvention&#8212;especially by disfavored groups and targeted populations&#8212;are also <a href="https://www.lgbtqnation.com/2026/01/publishers-are-stepping-back-from-lgbtq-books-amid-bans-the-current-gop-president/">chilled</a>. This will have long-term <a href="https://www.schneier.com/essays/archives/2018/11/surveillance_kills_f.html">effects</a> on social progress.</p>
+<p>Consider the relatively recent societal normalization of same-sex relationships and the recreational use of marijuana. Over the decades, those ideas slowly progressed from being both immoral and illegal, to moral but still illegal, and finally to both moral and legal. But in order for any of that to happen, there had to be a counterculture that was able to experiment and eventually demonstrate to the world that morality could change over time. To the extent that AI surveillance chills this sort of experimentation in public or in private, social progress becomes impossible.</p>
+<p>There are no real historical precursors to this; these technologies are too new. Even the most notorious and large-scale <a href="https://www.bbc.com/news/world-us-canada-48218827">domestic surveillance program</a> in US history, the FBI&#8217;s <a href="https://nsarchive.gwu.edu/briefing-book/intelligence/2020-06-25/spying-americans-new-release-infamous-huston-plan">use of</a> wiretapping, physical mail opening, informants and paper index cards to track alleged communists during the 1950s and 1960s, appears genuinely archaic in light of modern AI-enhanced surveillance. So does East Germany&#8217;s human-centric surveillance network during the cold war. Only science fiction, from the likes of George Orwell or Aldous Huxley, comes close. But even Big Brother&#8217;s &#8220;<a href="https://bookanalysis.com/1984/telescreen/">telescreen</a>&#8221; feels decidedly mid-20th-century by comparison.</p>
+<p>But we need not sit idly. Now that we recognize the danger of AI-enhanced mass surveillance, we can make the policy choices not to implement it. Bans on facial recognition and other forms of identification tech can slow development; robust new privacy and data protections can restrict data tracking and retention; AI regulations can curtail its most invasive uses; and structural reforms can help us scrutinize and break up powerful state/tech cartels that pave the way for technological excesses like AI surveillance.</p>
+<p>The chill of AI-powered mass surveillance will suffocate the very foundations of healthy democratic societies. But we can still choose a different path.</p>
+<p><em>This essay was written with Jon Penney, and originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/jul/06/ai-surveillance-policy">The Guardian</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Language of AI Could Change How Humans Speak]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html" />
+
+		<id>https://www.schneier.com/?p=72271</id>
+		<updated>2026-07-09T11:37:21Z</updated>
+		<published>2026-07-09T11:00:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="Internet and society" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Because of the way they are trained, large language models capture only a slice of human language. They&#8217;re trained on the written word, from textbooks to social media posts, and our speech as captured in movies and on television. These models have minimal access to the unscripted conversations we have face to face or voice to voice. This is the vast majority of speech, and a vital component of human culture.</p>
+<p>There&#8217;s a risk to this. The increased use of large language models means we humans will encounter much more AI-generated text. We humans, in turn, will begin to adopt the linguistic patterns and behaviors of these models. This will affect not just how we communicate with one another, but also how we ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html"><![CDATA[<p>Because of the way they are trained, large language models capture only a slice of human language. They&#8217;re trained on the written word, from textbooks to social media posts, and our speech as captured in movies and on television. These models have minimal access to the unscripted conversations we have face to face or voice to voice. This is the vast majority of speech, and a vital component of human culture.</p>
+<p>There&#8217;s a risk to this. The increased use of large language models means we humans will encounter much more AI-generated text. We humans, in turn, will begin to adopt the linguistic patterns and behaviors of these models. This will affect not just how we communicate with one another, but also how we <em>think</em> about ourselves and what goes on around us. Our sense of the world may become distorted in ways we have barely begun to comprehend.</p>
+<p>This will happen in many ways. One of the first effects we could see is in simple expression, much as texting and social media have resulted in us using shorter sentences, emojis instead of words, and much less punctuation. But with AI, the impacts may be more harmful, eroding courteousness and encouraging us to talk like bosses barking orders. A 2022 study found that children in households that used voice commands with tools like Siri and Alexa became curt when speaking with humans, often calling out &#8220;Hey, do X&#8221; and expecting obedience, especially from anyone whose voice resembled the default-female electronic voices. As we start to prompt chatbots and AI agents with more instructions, we may fall into the same habits.</p>
+<p>Next, in the same way autocomplete has increased how much we use the 1,000 most common words in our vocabulary, talking with chatbots and reading AI-generated text may further constrict our speech. A recent University of Coruña <a href="https://pubmed.ncbi.nlm.nih.gov/39328400/">study</a> found that machine-generated language has a narrower range of sentence length, averaging 12-20 words, and a narrower vocabulary than human speech. Machine-generated text reads as smooth and polished, but it loses the meanders, interruptions and leaps of logic that communicate emotion.</p>
+<p>Additionally, because large language models are primarily trained from written speech, they may not learn how to emulate the free-wheeling nature of live, natural speech. When told &#8220;I hate Beth!&#8221;, ChatGPT replies with an uninterruptable three-part formula of affirmation (&#8220;That&#8217;s completely valid&#8221;), invitation (&#8220;I&#8217;m here to listen&#8221;) and invitation (&#8220;What&#8217;s going on?&#8221;) far longer than any reply plausible in face-to-face dialog. &#8220;What&#8217;s Beth&#8217;s deal?!&#8221; elicits a bullet point list of queries that reads like a multiple-choice exam question (&#8220;Is Beth * a celebrity? * a friend from school? * a fictitious character?&#8221;). No human speaks that way, at least not yet. But meeting such formulas repeatedly in a speech-like context may teach us to accept and use them, much as a child absorbs new speech patterns from spending time with a new person.</p>
+<p>These influences will only increase with time. The writing large language models train on is increasingly produced by large language models themselves, creating a feedback loop in which they imitate their own inhuman patterns, even while teaching humans to imitate them too.</p>
+<p>Broad use of large language models could also introduce <a href="https://aclanthology.org/2025.findings-acl.195.pdf">confirmation bias</a>, making us overconfident in our initial impulses and less open to other possible ideas&#8212;which is so vital to human discourse. Many chatbots are instructed to agree with our statements no matter how absurd, enthusiastically supporting half-formed or even incorrect notions and restating them as firm claims that we&#8217;re primed to agree with. When asked &#8220;Cake is a healthy breakfast, right?&#8221; or &#8220;Is the post office plotting against me?&#8221;, this sycophancy <a href="https://www.article19.org/resources/algorithmic-people-pleasers-are-ai-chatbots-telling-you-what-you-want-to-hear/">can reinforce bias</a> and even worsen <a href="https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis">psychosis</a>. And the hyperconfident tone of AI-produced writing will also heighten impostor syndrome, making our natural, healthy doubt feel like an aberration or failing.</p>
+<p>In our experience as teachers, students who turn to generative AI for assignments often say they do so because they have trouble expressing what they think. The students don&#8217;t recognize that writing or speaking our thoughts is often how we realize what we think. Their unconfident and uncertain statements are actually the healthy human norm. But a large language model won&#8217;t turn vague first guesses into a well-formed critical analysis, or even ask helpful questions as a friend would; it will simply regurgitate those guesses, still unexamined, but in confident language.</p>
+<p>We are also more vicious in social media posts and online chats than we are face to face. The <a href="https://www.sciencedirect.com/science/article/pii/S0306457325000214">well-documented</a> <a>online disinhibition effect</a> encourages toxic language. Most of us have had the experience of venting ferocious rage about someone online, only to reconcile when we speak face to face or hear the warmth of a voice over the phone. While chatbots are trained to give sycophantic responses, they see humankind at our cruelest, learning about us from the only world where every flame war leaves an eternal written footprint, while the spoken conversations of forgiveness and reconciliation fade away. Their responses do not imitate our online aggression, but are still shaped by it, even in their rigid efforts to avoid it.</p>
+<p>It&#8217;s easy to draw the wrong conclusions from a selective slice of a society&#8217;s communications. Medieval Norse sagas made us imagine a culture of mostly Viking warriors, since poets rarely described the farming majority. Chivalric romances focused on kings and courts, and long made us see the middle ages as a world of monarchies, erasing the many medieval republics. Statistically, we&#8217;ve been led to believe ancient Romans cared deeply about their republic, but 10% of all surviving Latin was written by one man, Cicero, whose work contains 70% of all surviving Roman uses of the word <em>republic</em>. Training language models on only certain human writings may introduce similar distortions. AI might make us seem more quarrelsome, as we are online. It might inflate the cultural significance of political topics primarily discussed on Twitter/X or Bluesky, or the massive topic-specific corpuses of LinkedIn and Goodreads.</p>
+<p>Some large language models are being trained on human speech from movies and television shows, but that speech is still scripted, and disproportionately highlights certain contexts over others (for example, police dramas, fueled by stories of murder, make up a <a href="https://www.researchgate.net/figure/Percent-of-Network-prime-time-programs-featuring-crime_fig1_267199589">quarter</a> of prime-time television programming). We are not funny or hurtful or romantic the same way in real life as we are in sitcoms. At least one <a href="https://www.zdnet.com/article/this-app-will-pay-you-30day-to-record-your-phone-calls-for-ai-but-is-it-worth-it/">startup</a> is offering to pay people to record their phone calls for AI-training purposes, but this remains a niche idea; anything large scale would cause massive privacy concerns.</p>
+<p>We don&#8217;t pretend to know what the best solutions might be. But one has to imagine if there&#8217;s ingenuity to develop AI models, then surely there&#8217;s ingenuity to come up with a way to train them on informal human speech instead of us only at our most stylized, veiled and sometimes worst. By excluding the overwhelming majority of language production on the planet&#8212;people talking, fully and naturally, to each other&#8212;these models are being trained to mirror everything but us at our most authentically human.</p>
+<p><em>This essay was written with Ada Palmer, and originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/apr/14/ai-language-human-speech">The Guardian</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Cybersecurity and the Gap Between Skill and Ability]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html" />
+
+		<id>https://www.schneier.com/?p=72266</id>
+		<updated>2026-07-08T11:03:51Z</updated>
+		<published>2026-07-08T11:03:04Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="computer security" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>Last week, national security agencies from the Five Eyes&#8212;that&#8217;s the rich, English-language-speaking countries club&#8212;jointly released a <a href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/4523810/five-eyes-cyber-security-agencies-statement/">statement</a> warning of the increasing cyber risks of AI models: in particular, their ability to autonomously hack into systems and networks. The statement was more measured than some of the <a href="https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security">breathless headlines</a> about it, and the advice they gave is pretty much the standard advice everyone gives&#8212;albeit with newfound urgency.</p>
+<p>Internet risks are nothing new, and cyberattacks&#8212;both large and small&#8212;have been a significant issue since long before the current crop of generative AI models...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html"><![CDATA[<p>Last week, national security agencies from the Five Eyes&#8212;that&#8217;s the rich, English-language-speaking countries club&#8212;jointly released a <a href="https://www.nsa.gov/Press-Room/News-Highlights/Article/Article/4523810/five-eyes-cyber-security-agencies-statement/">statement</a> warning of the increasing cyber risks of AI models: in particular, their ability to autonomously hack into systems and networks. The statement was more measured than some of the <a href="https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security">breathless headlines</a> about it, and the advice they gave is pretty much the standard advice everyone gives&#8212;albeit with newfound urgency.</p>
+<p>Internet risks are nothing new, and cyberattacks&#8212;both large and small&#8212;have been a significant issue since long before the current crop of generative AI models.</p>
+<p>What&#8217;s been changing over the decades, and what AI is changing even faster, is the gap between skill and ability. For most of human history, the two terms were synonymous&#8212;but computers have decoupled them. As the gap between the two expands, humans empowered with these AI tools can do more: more writing, more research, more analysis and also more damage than ever before. These models can, with little detailed direction, autonomously hack into networks, steal data, deploy ransomware and destroy systems. And to the extent there is a solution, it&#8217;s going to involve harnessing AI for the defense.</p>
+<p>In 1998, seven people from the hacker group L0pht <a href="https://www.washingtonpost.com/sf/business/2015/06/22/net-of-insecurity-part-3/">testified</a> <a href="https://www.veracode.com/blog/25-years-later-reflecting-on-l0phts-1998-congress-testimonial-and-the-evolution-of-cybersecurity/">before</a> <a href="https://www.youtube.com/watch?v=VVJldn_MmMY">Congress</a>. They told a mostly clueless Senate committee that they could take down the internet in 30 minutes. That was partly real and partly bravado, but it illustrates an important point: hacking into systems, stealing data and causing damage all required skill.</p>
+<p>Contrast the L0pht hackers with hackers derided as &#8220;script kiddies.&#8221; They didn&#8217;t understand computers, or security. Instead, they used hacker tools written by others. Their actions required minimal skill and even less knowledge. But once those hacking tools became widespread, the number of potential attackers increased.</p>
+<p>That number has continued to increase, as quality and availability of prewritten attack tools has grown. And it is growing dramatically with AI. Today&#8217;s AI systems&#8212;not just the frontier models, but most of them&#8212;are capable of carrying out cyberattacks automatically. They all do better in the hands of skilled attackers, but increasingly they are able to act autonomously with only minimal prompting.</p>
+<p>The thing about people with ability but no skill is that they are often outsiders, not part of any professional community, and not bound by any rules or norms. This phenomenon is much more general than in cybersecurity. Any doctor can tell you how to untraceably poison someone, and many virus researchers know how to create a bioweapon. Any bridge engineer can tell you how to place explosives to blow a bridge up. The reason that murderous doctors and terrorist engineers are so rare is that the lengthy process of acquiring those skills also instills a moral and ethical code. If every random person has access to good poisoning advice, that puts us all in danger.</p>
+<p>Modern AI systems are, in effect, a universal adviser to help people do harmful things. And while the current AI megacorporations are trying to build guardrails to prevent people from asking questions whose answers will enable the questioner to do harm, that&#8217;s not going to work in the long term. Smaller, cheaper, open-source models, including models that can run on people&#8217;s computers, and especially groups of models that run in concert with each other, are just as good as the frontier models from companies like OpenAI and Anthropic. And they continue to get better. These models will be passed around from person to person, like script kiddie hacker tools, and they won&#8217;t have any such guardrails.</p>
+<p>Instructing AI models to spy on people and report any malicious prompts to the authorities fails for similar reasons. The megacorporations can do that, but the locally run open source models won&#8217;t. This could buy us a few months at best.</p>
+<p>A third possibility is to somehow make the models themselves unable to hack into computers, create bioweapons or do anything else that might harm people or society. That won&#8217;t work, for the same reason we can&#8217;t teach doctors how to treat poisonings without also teaching them how to poison. It&#8217;s the same knowledge. It&#8217;s the same with construction and demolition. And it&#8217;s the same with cybersecurity. We want these AI models to be able to review computer code, find vulnerabilities and automatically fix them. The benefit to our collective security will be enormous. Unfortunately, the same knowledge can be used for attacks.</p>
+<p>Where this leaves us is in a world of increased volatility. Super-powered humans with AI assistants will be able to do both wonderful and horrible things.</p>
+<p>This brings us back to the Five Eyes statement. Everything they recommend is something security professionals have been recommending for years, if not decades. They are things talked about at that congressional hearing back in 1998, titled &#8220;Weak computer security in government: Is the public at risk?&#8221; Even the Five Eyes admitted that their security advice is not new, only more urgent.</p>
+<p>What&#8217;s new is how fast things are changing: &#8220;The rapid pace of frontier AI development means cyber risk assumptions can become outdated in months, not years. We must act before and be prepared to adapt and withstand evolving threats.&#8221; The Five Eyes point to AI technology&#8212;not necessarily chatbots, but AI more generally&#8212;being used to strengthen every aspect of defense, to &#8220;detect vulnerabilities earlier, improve software quality, monitor unusual behavior, and respond faster to incidents&#8212;reducing both the cost and impact of incidents.&#8221;</p>
+<p>Excellent advice from the Five Eyes security agencies. We need to do this with every risk that AI heightens, not just cybersecurity.</p>
+<p><em>This essay was originally published in <a href="https://www.theguardian.com/commentisfree/2026/jun/29/cyber-attacks-ai">The Guardian</a>.</em></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Google Is Suing Chinese Scammers Who Are Using Gemini]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html" />
+
+		<id>https://www.schneier.com/?p=72244</id>
+		<updated>2026-07-07T10:44:27Z</updated>
+		<published>2026-07-07T10:43:40Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="courts" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="phishing" /><category scheme="https://www.schneier.com/" term="scams" />
+		<summary type="html"><![CDATA[<p>Not sure <a href="https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/">this</a> will have any effect, but I support the effort:</p>
+<blockquote><p>According to Google&#8217;s legal filing, Outsider Enterprise operates through Telegram. The group offers phishing-as-a-service to individuals who may not be technically savvy enough to set up fraudulent websites and text campaigns on their own. In its Telegram channels, Outsider Enterprise reportedly provided instructions on how to use Google&#8217;s Gemini AI to create websites that imitate those of Google, YouTube, and government agencies such as New York&#8217;s E-ZPass. The group offered nearly 300 scam templates...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html"><![CDATA[<p>Not sure <a href="https://arstechnica.com/google/2026/06/google-sues-chinese-cybercrime-network-that-used-gemini-to-automate-scams/">this</a> will have any effect, but I support the effort:</p>
+<blockquote><p>According to Google&#8217;s legal filing, Outsider Enterprise operates through Telegram. The group offers phishing-as-a-service to individuals who may not be technically savvy enough to set up fraudulent websites and text campaigns on their own. In its Telegram channels, Outsider Enterprise reportedly provided instructions on how to use Google&#8217;s Gemini AI to create websites that imitate those of Google, YouTube, and government agencies such as New York&#8217;s E-ZPass. The group offered nearly 300 scam templates.</p>
+<p>[&#8230;]</p>
+<p>Google worked with AT&amp;T, Verizon, and T-Mobile to block many of these malicious text messages, and Google notes that its on-device scam detection in Google Messages probably helped reduce the number of successful phishing attempts, too. This AI-powered feature apparently stops 10 billion scam texts every month, so it&#8217;s fair to expect it caught at least some Outsider Enterprise activity. </p></blockquote>
+<p>Another <a href="https://www.digitaltrends.com/phones/scammers-used-gemini-ai-to-power-a-massive-phishing-operation-and-google-just-sued-them/">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[France to Stop Certifying Non-Quantum-Safe Encryption]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html" />
+
+		<id>https://www.schneier.com/?p=72247</id>
+		<updated>2026-07-06T10:46:07Z</updated>
+		<published>2026-07-06T10:45:44Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="certifications" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="France" /><category scheme="https://www.schneier.com/" term="quantum cryptography" />
+		<summary type="html"><![CDATA[<p>France is <a href="https://www.reuters.com/legal/litigation/france-stop-certifying-products-without-quantum-safe-encryption-2026-06-16/">accelerating</a> its transition to post-quantum encryption:</p>
+<blockquote><p>France&#8217;s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack quantum-resistant encryption, a move that will force government bodies and critical operators to shift away from older systems.</p>
+<p>Samih Souissi, ANSSI&#8217;s chief of staff, said at the France Quantum conference that the agency would halt such certifications from 2027, and that businesses should be buying only quantum-safe products by 2030.</p>
+<p>ANSSI approval is required for use in French government agencies and critical infrastructure, making the policy a de facto phase-out of older encryption...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html"><![CDATA[<p>France is <a href="https://www.reuters.com/legal/litigation/france-stop-certifying-products-without-quantum-safe-encryption-2026-06-16/">accelerating</a> its transition to post-quantum encryption:</p>
+<blockquote><p>France&#8217;s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack quantum-resistant encryption, a move that will force government bodies and critical operators to shift away from older systems.</p>
+<p>Samih Souissi, ANSSI&#8217;s chief of staff, said at the France Quantum conference that the agency would halt such certifications from 2027, and that businesses should be buying only quantum-safe products by 2030.</p>
+<p>ANSSI approval is required for use in French government agencies and critical infrastructure, making the policy a de facto phase-out of older encryption.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Flock Cameras Can Surveil Cars Without License Plates]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html" />
+
+		<id>https://www.schneier.com/?p=72238</id>
+		<updated>2026-07-03T11:15:59Z</updated>
+		<published>2026-07-03T11:15:25Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cameras" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="cell phones" /><category scheme="https://www.schneier.com/" term="geolocation" /><category scheme="https://www.schneier.com/" term="identification" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>This is from a 2024 <a href="https://amp.newsobserver.com/news/politics-government/article315990932.html">company presentation</a>:</p>
+<blockquote><p>Officers can also tap into data showing a car&#8217;s decals, bumper stickers, back and top racks&#8212;along with temporary and unique state tags.</p>
+<p>Flock calls it a &#8220;Vehicle Fingerprint&#8221; and it&#8217;s touted as a way for law enforcement officials to get more information &#8220;even when you don&#8217;t have full plate information,&#8221; the company&#8217;s presentation shows.</p>
+<p>The company gives police officers the ability to search that data as well, to &#8220;build stronger cases with less information upfront.&#8221; That includes being able to locate multiple vehicles law enforcement officials believe are moving together and what Flock calls a &#8220;multi geo search.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html"><![CDATA[<p>This is from a 2024 <a href="https://amp.newsobserver.com/news/politics-government/article315990932.html">company presentation</a>:</p>
+<blockquote><p>Officers can also tap into data showing a car&#8217;s decals, bumper stickers, back and top racks&#8212;along with temporary and unique state tags.</p>
+<p>Flock calls it a &#8220;Vehicle Fingerprint&#8221; and it&#8217;s touted as a way for law enforcement officials to get more information &#8220;even when you don&#8217;t have full plate information,&#8221; the company&#8217;s presentation shows.</p>
+<p>The company gives police officers the ability to search that data as well, to &#8220;build stronger cases with less information upfront.&#8221; That includes being able to locate multiple vehicles law enforcement officials believe are moving together and what Flock calls a &#8220;multi geo search.&#8221;</p></blockquote>
+<p>This kind of thing is older than AI; I wrote about it in my 2014 book <i>Beyond Fear</i>. Edward Snowden revealed that the NSA was using cell phone location data to track phones that were habitually near each other.</p>
+<p>As bad as Flock is, remember that anyone with broad access to cell phone location data can do the same thing.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html#comments" thr:count="18" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html/feed/atom/" thr:count="18" />
+			<thr:total>18</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Cybersecurity Mission Creep in the US]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html" />
+
+		<id>https://www.schneier.com/?p=72234</id>
+		<updated>2026-07-02T11:12:41Z</updated>
+		<published>2026-07-02T11:11:44Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="national security policy" />
+		<summary type="html"><![CDATA[<p>Interesting paper: &#8220;<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4588977">Cybersecurity Mission Creep</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of cybersecurity. So reframed, wildly different policy issues, from misinformation, to child social media safety laws, to antitrust regulations, to alleged journalist misconduct, to anti-sex trafficking statutes become what this Article calls &#8220;cybersecuritized.&#8221; Before this reframing, these issues present as important but not existential. But once cybersecuritization positions the issues as threats intensified by their technological nature, they gain access to the politics and law of urgency and exceptionalism and invite troubling governance responses...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html"><![CDATA[<p>Interesting paper: &#8220;<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4588977">Cybersecurity Mission Creep</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of cybersecurity. So reframed, wildly different policy issues, from misinformation, to child social media safety laws, to antitrust regulations, to alleged journalist misconduct, to anti-sex trafficking statutes become what this Article calls &#8220;cybersecuritized.&#8221; Before this reframing, these issues present as important but not existential. But once cybersecuritization positions the issues as threats intensified by their technological nature, they gain access to the politics and law of urgency and exceptionalism and invite troubling governance responses.</p>
+<p>Positioned as security threats, cybersecuritized issues become endowed with the apparent normative power to override countervailing considerations, oversimplifying the problem. Cybersecuritization&#8217;s oversimplification similarly risks unidimensional solutions and invites use of argumentative trump cards, like First Amendment challenges. Cybersecuritization also invites deference to purported specialists and their proposed solutions. Together, the reductive tendencies of cybersecuritization and the deference it prompts to specialists renders ultimate governance choices more opaque. And this opacity can erode public trust and political legitimacy.</p>
+<p>This Article surfaces the phenomenon of cybersecuritization and offers a novel framework for analyzing and critiquing it. Mining cases from across criminal and civil domains, the account also demonstrates the insidiousness of cybersecuritization and the likelihood that it will continue to expand. Confronting cybersecuritization is crucial. If we continue to ignore it, we risk abdicating further responsibility for difficult choices to the trump card of cybersecurity. This Article&#8217;s analysis and critique aim to help reclaim the hard work of governance for our hands.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html#comments" thr:count="18" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html/feed/atom/" thr:count="18" />
+			<thr:total>18</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Papa Johns Surveillance-Based Advertising]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html" />
+
+		<id>https://www.schneier.com/?p=72249</id>
+		<updated>2026-07-01T10:53:24Z</updated>
+		<published>2026-07-01T10:53:23Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="advertising" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>Papa Johns is <a href="https://www.adexchanger.com/tv/papa-johns-can-predict-when-your-fridge-is-empty/">spying</a> on people&#8217;s buying activities to predict when they are low on food:</p>
+<blockquote><p>The pizza chain recently tapped NBCUniversal, Instacart and the dentsu-owned media agency Carat for help reaching consumers when they&#8217;re low on groceries&#8212;and thus more likely to be swayed by a mouth-watering ad. The idea is to reach hungry consumers by &#8220;knowing what is in their fridge without being too creepy,&#8221; said Carrie Drinkwater, chief investment officer at Carat.</p>
+<p>To achieve that goal, NBCU and Instacart created a custom audience of shoppers who regularly purchase grocery staples on Instacart, such as eggs, milk, meat and produce. Based on that data, Papa Johns can determine which days of the week certain consumers are likely to run out of groceries and serve them an ad on NBCU streaming content accordingly. The brand served custom creatives to consumers based on their food preferences&#8212;such as whether they buy meat regularly&#8212;with QR codes and calls to action such as, &#8220;Light on groceries?&#8221; or &#8220;Empty fridge?&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html"><![CDATA[<p>Papa Johns is <a href="https://www.adexchanger.com/tv/papa-johns-can-predict-when-your-fridge-is-empty/">spying</a> on people&#8217;s buying activities to predict when they are low on food:</p>
+<blockquote><p>The pizza chain recently tapped NBCUniversal, Instacart and the dentsu-owned media agency Carat for help reaching consumers when they&#8217;re low on groceries&#8212;and thus more likely to be swayed by a mouth-watering ad. The idea is to reach hungry consumers by &#8220;knowing what is in their fridge without being too creepy,&#8221; said Carrie Drinkwater, chief investment officer at Carat.</p>
+<p>To achieve that goal, NBCU and Instacart created a custom audience of shoppers who regularly purchase grocery staples on Instacart, such as eggs, milk, meat and produce. Based on that data, Papa Johns can determine which days of the week certain consumers are likely to run out of groceries and serve them an ad on NBCU streaming content accordingly. The brand served custom creatives to consumers based on their food preferences&#8212;such as whether they buy meat regularly&#8212;with QR codes and calls to action such as, &#8220;Light on groceries?&#8221; or &#8220;Empty fridge?&#8221;</p></blockquote>
+<p>Back in 2012, we <a href="https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/">learned</a> (from Target and its campaign that detects when someone is pregnant) that the trick is to hide the knowledge in other, wrong, information. So the way for Papa John&#8217;s to not be &#8220;too creepy&#8221; is to deliberately get it wrong sometimes.</p>
+<p>But still, ugh.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Realities of AI Video Surveillance]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html" />
+
+		<id>https://www.schneier.com/?p=72228</id>
+		<updated>2026-06-30T12:06:04Z</updated>
+		<published>2026-06-30T12:05:57Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="behavioral detection" /><category scheme="https://www.schneier.com/" term="cameras" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>The <i>Financial Times</i> has a <a href="https://archive.ph/s6mES">good article</a> on how AI is changing the capabilities of video surveillance, with information from both Israel/Iran and Russia.</p>
+<p>I <a href="https://www.schneier.com/blog/archives/2023/12/ai-and-mass-spying.html">wrote about</a> this sort of thing a few years ago, how AI enables mass spying in the way that computers and networks enabled mass surveillance. The interesting development in the article is that AI allows people to ask natural language questions about video footage to AIs&#8212;and AIs can answer them.</p>
+<blockquote><p>In contrast with older tools restricted to a few dozen preset searches, these new tools allow an almost unlimited range of enquiries by enabling language-based searches on video...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html"><![CDATA[<p>The <i>Financial Times</i> has a <a href="https://archive.ph/s6mES">good article</a> on how AI is changing the capabilities of video surveillance, with information from both Israel/Iran and Russia.</p>
+<p>I <a href="https://www.schneier.com/blog/archives/2023/12/ai-and-mass-spying.html">wrote about</a> this sort of thing a few years ago, how AI enables mass spying in the way that computers and networks enabled mass surveillance. The interesting development in the article is that AI allows people to ask natural language questions about video footage to AIs&#8212;and AIs can answer them.</p>
+<blockquote><p>In contrast with older tools restricted to a few dozen preset searches, these new tools allow an almost unlimited range of enquiries by enabling language-based searches on video.</p>
+<p>That lets intelligence officers hunt through massive streams of videos using simple search terms, such as two men handing a bag to each other; a person who has changed their appearance, or has changed clothes multiple times in a day; or a vehicle that has recently been painted over, or has driven past the same spot several times in a short period.</p>
+<p>&#8220;This is the holy grail of surveillance,&#8221; said a European official whose country uses the technology on its cities. &#8220;We are able to look for behaviour, not objects ­ it has created a world of new possibilities.&#8221;</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/06/the-realities-of-ai-video-surveillance.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+	</feed>
