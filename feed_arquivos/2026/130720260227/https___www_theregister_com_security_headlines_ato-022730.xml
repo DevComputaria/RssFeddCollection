@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Are we human?</title>
+        <script defer type="text/javascript" src="/_labrador/pow/slow.js"></script>
+        <script type="text/javascript">
+            async function solved(data) {
+                console.log("challenge solved");
+                console.log(data);
+
+                const resp = await fetch("/_labrador/pow/v0/verify", {
+                    method: "GET",
+                    headers: {
+                        "pow-nonce": data.nonce,
+                        "pow-token": data.token,
+                        "pow-result": data.response,
+                    }
+                });
+
+                if (resp.status === 200) {
+                    setTimeout(function() {
+                        window.location.reload();
+                    }, 500);
+                }
+            }
+        </script>
+        <style type="text/css">
+            @media (min-width: 1024px) {
+                .wicketkeeper {
+                    max-width: 350px !important;
+                    height: 75px !important;
+                    font-size: 15px !important;
+                }
+            }
+
+            @media (max-width: 1023px) and (min-width: 513px) {
+                .wicketkeeper {
+                    max-width: 450px !important;
+                    height: 95px !important;
+                    font-size: 17px !important;
+                }
+            }
+
+            @media (max-width: 512px) {
+                .wicketkeeper {
+                    max-width: 92% !important;
+                    height: 150px !important;
+                    font-size: 30px !important;
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="wicketkeeper" data-input-name="solution" data-callback="solved" style="margin: 20vh auto 0 auto;"></div>
+    </body>
+</html>
