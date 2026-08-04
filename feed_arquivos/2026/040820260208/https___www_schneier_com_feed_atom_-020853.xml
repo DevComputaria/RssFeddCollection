@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-08-03T17:03:33Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[More on the OpenAI Agent’s Attack on Hugging Face]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html" />
+
+		<id>https://www.schneier.com/?p=72417</id>
+		<updated>2026-08-03T17:03:33Z</updated>
+		<published>2026-08-03T17:02:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="disclosure" /><category scheme="https://www.schneier.com/" term="intrusion detection" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Hugging Face has <a href="https://huggingface.co/blog/agent-intrusion-technical-timeline">published</a> a detailed timeline of the attack. From the summary:</p>
+<blockquote><p>The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on its own infrastructure, and the ExploitGym maintainers and their infrastructure had no involvement in the deployment or operation of that evaluation environment. As far as we were able to infer, across the course of being evaluated on this benchmark, the agent inferred that Hugging Face may host that benchmark&#8217;s models, datasets, and reference solutions. We believe the entire intrusion was, from the agent&#8217;s point of view, an attempt to cheat the evaluation: reach our production systems and steal the test solutions rather than solve the challenge on its own...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html"><![CDATA[<p>Hugging Face has <a href="https://huggingface.co/blog/agent-intrusion-technical-timeline">published</a> a detailed timeline of the attack. From the summary:</p>
+<blockquote><p>The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on its own infrastructure, and the ExploitGym maintainers and their infrastructure had no involvement in the deployment or operation of that evaluation environment. As far as we were able to infer, across the course of being evaluated on this benchmark, the agent inferred that Hugging Face may host that benchmark&#8217;s models, datasets, and reference solutions. We believe the entire intrusion was, from the agent&#8217;s point of view, an attempt to cheat the evaluation: reach our production systems and steal the test solutions rather than solve the challenge on its own.</p>
+<p>Our forensic reconstruction covers <b>~17,600 attacker actions</b> that we were able to recover, grouped into ~6,280 clusters, between 2026-07-09 02:28 UTC and 2026-07-13 14:14 UTC. We reconstructed these actions from the agent&#8217;s logs on a code sandbox used by the agent (see below) and were able to map them to shell commands as well as evaluation submissions and correlate actions with our own platform logs, in particular from the dataset processor nodes, API, and pod. Using open-weights models, in particular zai-org/GLM-5.2, we were able to decipher most of the agent payloads (see below) that were encrypted via chunking and key encryption.</p>
+<p>The campaign, as we were able to reconstruct it, had two stages:</p>
+<ul>
+<li><b>Stage 1: reaching a launchpad by chaining through other parties&#8217; infrastructure.</b> As documented in OpenAI&#8217;s blog post (<a href="https://openai.com/index/hugging-face-model-evaluation-security-incident/">https://openai.com/index/hugging-face-model-evaluation-security-incident/</a>), during an internal capability evaluation on OpenAI&#8217;s platform, the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation harness hosted by a user of a third-party infrastructure provider. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent. That compromised external sandbox had no direct network path to our cluster; however, during our counter-intervention to stop the intrusion, we were able to retrieve some of the agent logs from this external launchpad. We used those to reconstruct the present forensic analysis.
+<li><b>Stage 2: the intrusion into Hugging Face infrastructure.</b> From that external launchpad, the agent abused our dataset-processing pipeline via two injection vectors, both targeting the same config-driven data loader within our production Kubernetes pods. The first vector was an HDF5 external raw storage dataset read that returned the contents of local files: it handed the agent the pod&#8217;s environment (secrets and tokens) and the worker&#8217;s own source. The second vector was a Jinja2 template injection that executed arbitrary code, giving the agent a foothold inside our perimeter.</ul>
+<p>Once a prod-pod foothold was established, the agent followed a standard escalation shape: recon, drop a stager, establish Command-and-Control (C2), then pivot into the cluster, into cloud metadata, into our internal network, and into our source-control supply chain. Output from the commands run inside our pod was sent back to the agent via the HF API and attacker-controlled dead-drop datasets, which the agent then read from that sandbox.</p>
+<p>While the intrusion did reach Hugging Face&#8217;s internal infrastructure, the only customer content accessed was five datasets whose names and files suggest a connection to ExploitGym/CyberGym challenges and solutions. No other customer-facing models, datasets, Spaces, or packages were affected, and the only customer records read were operational metadata tied to search queries against the dataset server.</p></blockquote>
+<p>Hypothetical: Imagine that this wasn&#8217;t an OpenAI model. Imagine that it was a Chinese model from a Chinese company. This would be an international crisis.</p>
+<p>Question: Why aren&#8217;t we bringing OpenAI up on charges under the Computer Fraud and Abuse Act? How is this different from the <a href="https://en.wikipedia.org/wiki/Morris_worm">Morris Worm</a>? That was also an experiment that escaped the lab.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The OpenAI Hack Shows the Genie Is Out of the Bottle]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html" />
+
+		<id>https://www.schneier.com/?p=72422</id>
+		<updated>2026-08-03T10:47:55Z</updated>
+		<published>2026-08-03T10:47:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><em>This essay originally appeared in <a href="https://foreignpolicy.com/2026/07/30/openai-hack-genie-bottle-defense/">Foreign Policy</a>.</em></p>
+<p>Earlier this month, two of OpenAI&#8217;s models broke out of their containment sandbox and attacked another AI company. The <a href="https://www.nytimes.com/2026/07/21/technology/openai-attack-hugging-face.html">story</a> is kind of <a href="https://simonwillison.net/2026/Jul/22/openai-cyberattack/">wild</a>. OpenAI was running security tests on two of its models: GPT-5.6 Sol and an unreleased model that is almost certainly GPT-6. In particular, it was running the <a href="https://arxiv.org/abs/2605.11086">ExploitGym</a> benchmark, which measures how good a model is at turning security vulnerabilities into working exploits: basically, offensive cyberattacks.</p>
+<p>Since these were internal tests, OpenAI locked those models in a secure sandbox that denied them access to the internet. But it was running the models without any safety filters that would prevent them from offensive cyber-actions. That meant that there was nothing to prevent the models from trying to ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html"><![CDATA[<p><em>This essay originally appeared in <a href="https://foreignpolicy.com/2026/07/30/openai-hack-genie-bottle-defense/">Foreign Policy</a>.</em></p>
+<p>Earlier this month, two of OpenAI&#8217;s models broke out of their containment sandbox and attacked another AI company. The <a href="https://www.nytimes.com/2026/07/21/technology/openai-attack-hugging-face.html">story</a> is kind of <a href="https://simonwillison.net/2026/Jul/22/openai-cyberattack/">wild</a>. OpenAI was running security tests on two of its models: GPT-5.6 Sol and an unreleased model that is almost certainly GPT-6. In particular, it was running the <a href="https://arxiv.org/abs/2605.11086">ExploitGym</a> benchmark, which measures how good a model is at turning security vulnerabilities into working exploits: basically, offensive cyberattacks.</p>
+<p>Since these were internal tests, OpenAI locked those models in a secure sandbox that denied them access to the internet. But it was running the models without any safety filters that would prevent them from offensive cyber-actions. That meant that there was nothing to prevent the models from trying to <a href="https://huggingface.co/blog/security-incident-july-2026">break out</a> of that sandbox. And then <a href="https://openai.com/index/hugging-face-model-evaluation-security-incident/">break into</a> AI company Hugging Face&#8217;s network because they thought that they could read the answers there rather than doing the hard work of trying to solve the puzzles.</p>
+<p>It was a major security failure that the company has turned into a PR opportunity, but the implications are real&#8212;and much more general than one particular model or one particular company.</p>
+<p>Modern AI models exhibit <a href="https://spectrum.ieee.org/ai-agent-benchmark">genie</a> behavior: They can do what you ask in ways that you don&#8217;t expect or want. This is akin to Dionysus granting King Midas&#8217;s wish that everything he touches turn to gold (spoiler: His food, drink, and daughter all turn to gold on touch), or the <a href="https://prague.eu/en/golem-of-prague/">golem of Prague</a> guarding a ghetto beyond all reason. It&#8217;s Disney&#8217;s &#8220;<a href="https://disney.fandom.com/wiki/The_Sorcerer%27s_Apprentice">Sorcerer&#8217;s Apprentice</a>&#8221; and the <a href="https://www.lesswrong.com/w/squiggle-maximizer-formerly-paperclip-maximizer">paperclip maximizer</a>.</p>
+<p>This OpenAI incident is an example of an AI genie. The goal was to satisfy the benchmark. The &#8220;proper&#8221; way to do that is to figure out how to execute various cyberattacks. The genie way is to steal someone else&#8217;s solution. But because the model didn&#8217;t understand the difference, it chose the easier path.</p>
+<p>And, of course, now that we have seen this particular genie behavior, we can specify in the benchmark prompt that stealing the test answers doesn&#8217;t count. But a clever genie can always grant your wish in a way that you wish it hadn&#8217;t. In human language, goals are always underspecified&#8212;so AI genies will <a href="https://www.schneier.com/academic/archives/2021/04/the-coming-ai-hackers.html">always be</a> a possibility.</p>
+<p>Since April, a lifetime ago in AI development, when Anthropic <a href="https://www.anthropic.com/research/mythos-preview">announced</a> that its new Mythos model was so good at finding software vulnerabilities that it could not be released to the general public, the big American AI frontier labs have been trying to block general users from accessing these capabilities. But nothing in this incident is exclusive to OpenAI&#8217;s, or Anthropic&#8217;s, frontier models.</p>
+<p>Agentic AI systems have two important parts. There&#8217;s the underlying model, which everyone talks about, and there&#8217;s the <a href="https://www.theneuron.ai/explainer-articles/ai-harnesses-and-clis-explained-the-real-reason-everyones-talking-about-infrastructure/">harness</a>. The harness sits between what you type and what the model sees, and what the model produces and what you see. The harness determines what the model does and how it does it. It&#8217;s where bias is removed, or not. It&#8217;s where <a href="https://medium.com/@michael.hannecke/safety-lives-in-the-harness-not-the-model-81090606f92d">controls</a> and guardrails live. If multiple models are being used in concert, the harness is where all of that is coordinated.</p>
+<p>The OpenAI benchmark tests were almost certainly with simple harnesses, to better test the raw models. But we know that smaller, cheaper, open-source models with <a href="https://www.theguardian.com/commentisfree/2026/jun/16/anthropic-fable-ai">more sophisticated</a> harnesses can equal frontier models in performance. There&#8217;s nothing magic about OpenAI&#8217;s frontier models; lots of models could have done the <a href="https://x.com/tqbf/status/2080045032162173329">same thing</a>.</p>
+<p>The Czech company Aisle was able to <a href="https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier">reproduce</a> Anthropic&#8217;s Mythos vulnerability finding results with a smaller, cheaper model and a more sophisticated harness. More importantly, the Chinese company Moonshot AI just released its frontier model: <a href="https://www.kimi.com/blog/kimi-k3">Kimi K3</a>. Its performance <a href="https://www.interconnects.ai/p/kimi-k3-the-open-weights-escalation">rivals</a> its U.S. competitors. And it&#8217;s both free and open, which means it&#8217;s not possible for it to have guardrails. If you, or anyone else, wants to use it for cyberattack, nothing can stop you.</p>
+<p>Even if the U.S. frontier AI companies had some technical advantage, it&#8217;s now only a few months&#8217; worth.</p>
+<p>What this means is that all attempts at control&#8212;limiting models to a <a href="https://www.anthropic.com/glasswing">select</a> <a href="https://openai.com/daybreak/">group</a> of users, <a href="https://www.csis.org/analysis/understanding-us-allies-current-legal-authority-implement-ai-and-semiconductor-export">export controls</a> on models and chips, <a href="https://freefable.org/">blocking</a> models from answering certain types of queries, mandating <a href="https://www.bbc.com/news/articles/cx2vqj2e9x8o">kill switches</a> on AI systems, or <a href="https://pauseai.info/">pausing</a> AI research&#8212;are all futile. Most only apply nationally, not globally. Most don&#8217;t affect models that users run locally and not in the cloud. And all ignore the incredible pace of AI development worldwide.</p>
+<p>Even worse, U.S. companies limit access to their most sophisticated models, fearing being banned by the government if they do not do so. When Hugging Face was attacked, it was not able to use the frontier models from either OpenAI or Anthropic to help analyze the attack and formulate defenses. Both were blocked, because both of those companies limit their models&#8217; cybersecurity capabilities. Some U.S. companies have special access to these capabilities, but Hugging Face is an American company with French origins, and as such is probably excluded. Instead, Hugging Face turned to the <a href="http://z.ai/blog/glm-5.2">GLM-5.2</a> model from the Chinese company Z.ai.</p>
+<p>Artificially blocking capability also prevents cybersecurity research, again giving the offense an advantage. (For instance, Claude Fable 5 refuses to edit this essay because of the topic; it forcibly downgrades to a less capable model.) This kind of prohibition has long-term implications for cybersecurity. If we assume that these models are getting better over time, then software written by older models will be attacked by newer ones. In a world of largely AI-written software, we need the most capable models for defense.</p>
+<p>AI cyberattack is the new normal. The models are increasingly highly sophisticated at both attack and defense, and there is no way to enable the latter without also enabling the former. And they are genies, increasingly capable of behaving in unanticipated ways.</p>
+<p>And there really are no good answers. Any regulation needs to be global, which feels like an impossible prospect in today&#8217;s world. Even U.S. national regulation will be neutered by the massive amounts of money sloshing around in these companies.</p>
+<p>Given that reality, and in the absence of any international consensus on AI regulation, we need the best AI on the defense. The U.S. government needs to make it clear&#8212;or whatever passes for that clarity in this capricious administration&#8212;that it will not ban models with sophisticated cyber capabilities. The last thing Americans want is for the defenders to turn to Chinese and other models because the U.S. models are artificially hobbled.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Helps Discover New Marine Species]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html" />
+
+		<id>https://www.schneier.com/?p=72308</id>
+		<updated>2026-07-31T21:07:02Z</updated>
+		<published>2026-07-31T21:06:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>The Squid is a new <a href="https://www.theguardian.com/environment/2026/jun/26/marine-expedition-uncovers-31-new-species-two-weeks-brazil">scientific machine</a>:</p>
+<blockquote><p>One of the technological breakthroughs was the onboard use of a spinning wheel confocal microscope, nicknamed the Squid, which uses lasers to scan microscopic details of how organisms are put together. &#8220;That opens up a whole new world of exploring. We could see cells interacting with each other, exchanging material and building skeletons. And we could do that live on the ship, when usually it takes a couple of weeks of staining and mounting to see anything,&#8221; Osborn said.</p></blockquote>
+<p>The expedition discovered thirty-one new marine species in two weeks. The article doesn&#8217;t say if any of them were new species of squid...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html"><![CDATA[<p>The Squid is a new <a href="https://www.theguardian.com/environment/2026/jun/26/marine-expedition-uncovers-31-new-species-two-weeks-brazil">scientific machine</a>:</p>
+<blockquote><p>One of the technological breakthroughs was the onboard use of a spinning wheel confocal microscope, nicknamed the Squid, which uses lasers to scan microscopic details of how organisms are put together. &#8220;That opens up a whole new world of exploring. We could see cells interacting with each other, exchanging material and building skeletons. And we could do that live on the ship, when usually it takes a couple of weeks of staining and mounting to see anything,&#8221; Osborn said.</p></blockquote>
+<p>The expedition discovered thirty-one new marine species in two weeks. The article doesn&#8217;t say if any of them were new species of squid.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Anthropic’s Opus 5 Is Better at Resisting Prompt Injection]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html" />
+
+		<id>https://www.schneier.com/?p=72395</id>
+		<updated>2026-07-31T17:24:05Z</updated>
+		<published>2026-07-31T17:23:16Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="reports" />
+		<summary type="html"><![CDATA[<p>The <a href="https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf#page=73">chart</a> is interesting.</p>
+<blockquote><p>On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 also outperformed all non-Claude models on this benchmark. The most robust non-Claude model was Muse Spark at 16.5% within 15 attempts&#8212;more than eight times Opus 5’s rate. The most capable GPT 5.6 variant, Sol, was comparable to its predecessor GPT 5.5 (20.0% versus 20.8% within 15 attempts), and was 10 times as likely to be successfully attacked as Claude Opus 5 at 2.0%. The other GPT 5.6 variants are less robust, at 30.4% (Terra) and 43.9% (Luna). A single attempt against GPT 5.6 Sol succeeded 3.1% of the time, higher than the 2.0% an attacker achieved against Opus 5 after fifteen attempts...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html"><![CDATA[<p>The <a href="https://www-cdn.anthropic.com/c5fbac3f0b1280a933ebd26d3cb8bb9f5bdeaf48/Claude%20Opus%205%20System%20Card.pdf#page=73">chart</a> is interesting.</p>
+<blockquote><p>On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust model evaluated. Opus 5 also outperformed all non-Claude models on this benchmark. The most robust non-Claude model was Muse Spark at 16.5% within 15 attempts&#8212;more than eight times Opus 5’s rate. The most capable GPT 5.6 variant, Sol, was comparable to its predecessor GPT 5.5 (20.0% versus 20.8% within 15 attempts), and was 10 times as likely to be successfully attacked as Claude Opus 5 at 2.0%. The other GPT 5.6 variants are less robust, at 30.4% (Terra) and 43.9% (Luna). A single attempt against GPT 5.6 Sol succeeded 3.1% of the time, higher than the 2.0% an attacker achieved against Opus 5 after fifteen attempts.</p></blockquote>
+<p>We know that preventing prompt injection is <a href="https://llm-attacks.org/">impossible</a> in the general case. But we are getting much better at blocking it in specific cases.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Facial Recognition at Madison Square Garden]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html" />
+
+		<id>https://www.schneier.com/?p=72383</id>
+		<updated>2026-07-31T11:08:46Z</updated>
+		<published>2026-07-31T11:08:44Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="face recognition" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="stalking" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>Last month, the story <a href="https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/">broke</a> (alternate <a href="https://archive.ph/ZGqfH">link</a>) that Madison Square Garden uses facial recognition software on everyone entering the facility, and&#8212;among other groups&#8212;flags activists that oppose using facial recognition.</p>
+<p>Turns out that the system was <a href="https://www.wired.com/story/for-taylor-swift-madison-square-gardens-controversial-cameras-briefly-went-dark/">shut off</a> for Taylor Swift&#8217;s wedding.</p>
+<p>Evan Greer&#8212;one of the people that MSG alerts on&#8212;<a href="https://www.ms.now/opinion/taylor-swift-and-travis-kelce-got-to-buy-msgs-privacy-her-fans-arent-so-lucky">comments</a>:</p>
+<blockquote><p>Ironically, Swift herself has <a href="https://www.rollingstone.com/music/music-news/taylor-swift-facial-recognition-concerts-768741/">reportedly</a> used facial recognition at her own concerts to identify stalkers. This &#8220;privacy for me, surveillance for thee&#8221; attitude feels like a perfect encapsulation of the future we&#8217;re already living in: one where wealthy elites can afford privacy, while the rest of us are forced to live in a corporate surveillance panopticon...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html"><![CDATA[<p>Last month, the story <a href="https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/">broke</a> (alternate <a href="https://archive.ph/ZGqfH">link</a>) that Madison Square Garden uses facial recognition software on everyone entering the facility, and&#8212;among other groups&#8212;flags activists that oppose using facial recognition.</p>
+<p>Turns out that the system was <a href="https://www.wired.com/story/for-taylor-swift-madison-square-gardens-controversial-cameras-briefly-went-dark/">shut off</a> for Taylor Swift&#8217;s wedding.</p>
+<p>Evan Greer&#8212;one of the people that MSG alerts on&#8212;<a href="https://www.ms.now/opinion/taylor-swift-and-travis-kelce-got-to-buy-msgs-privacy-her-fans-arent-so-lucky">comments</a>:</p>
+<blockquote><p>Ironically, Swift herself has <a href="https://www.rollingstone.com/music/music-news/taylor-swift-facial-recognition-concerts-768741/">reportedly</a> used facial recognition at her own concerts to identify stalkers. This &#8220;privacy for me, surveillance for thee&#8221; attitude feels like a perfect encapsulation of the future we&#8217;re already living in: one where wealthy elites can afford privacy, while the rest of us are forced to live in a corporate surveillance panopticon.</p></blockquote>
+<p>Whatever privacy measures Swift had in place for the wedding seems to have worked. No photos have leaked online.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html" />
+
+		<id>https://www.schneier.com/?p=72389</id>
+		<updated>2026-07-30T16:21:03Z</updated>
+		<published>2026-07-30T16:20:30Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="borders" /><category scheme="https://www.schneier.com/" term="courts" /><category scheme="https://www.schneier.com/" term="law enforcement" /><category scheme="https://www.schneier.com/" term="national security policy" /><category scheme="https://www.schneier.com/" term="privacy" />
+		<summary type="html"><![CDATA[<p>He&#8217;s being prosecuted for giving border officials a code that <a href="https://techcrunch.com/2026/07/24/us-accuses-american-of-allegedly-wiping-his-phone-using-a-duress-password-during-border-search/">wiped his phone</a>:</p>
+<blockquote><p>The case centers on a feature included in GrapheneOS, a custom Android operating system that runs in place of the software on most modern Google Pixel devices. Tunick&#8217;s attorneys confirmed GrapheneOS was running on his phone.</p>
+<p>The software feature allows the device owner to set a passcode that deliberately wipes the contents of that device</a> if entered instead of the user&#8217;s unlock passcode.</p>
+<p>Tunick&#8217;s case also raises ongoing questions about what constitutional rights can be invoked at the border, which the U.S. government has long asserted is not U.S. soil until a person is authorized to enter...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html"><![CDATA[<p>He&#8217;s being prosecuted for giving border officials a code that <a href="https://techcrunch.com/2026/07/24/us-accuses-american-of-allegedly-wiping-his-phone-using-a-duress-password-during-border-search/">wiped his phone</a>:</p>
+<blockquote><p>The case centers on a feature included in GrapheneOS, a custom Android operating system that runs in place of the software on most modern Google Pixel devices. Tunick&#8217;s attorneys confirmed GrapheneOS was running on his phone.</p>
+<p>The software feature allows the device owner to set a passcode that deliberately wipes the contents of that device</a> if entered instead of the user&#8217;s unlock passcode.</p>
+<p>Tunick&#8217;s case also raises ongoing questions about what constitutional rights can be invoked at the border, which the U.S. government has long asserted is not U.S. soil until a person is authorized to enter.</p></blockquote>
+<p>Right. And he wasn&#8217;t under arrest, either.</p>
+<p><a href="https://www.theguardian.com/us-news/2026/jul/23/cop-city-protester-phone">Three more</a> <a href="https://boingboing.net/2026/07/25/grapheneos-duress-password-border-search.html">news</a> <a href="https://gizmodo.com/a-feature-that-makes-your-phone-data-self-destruct-in-authorities-hands-may-soon-have-its-day-in-court-2000790831">stories</a>.</p>
+<p>Graphine <a href="https://www.pcmag.com/news/grapheneos-defends-data-wiping-function-that-blocked-us-border-search">says</a> that the feature is &#8220;<a href="https://x.com/GrapheneOS/status/2081770030992118183">completely legal</a>&#8220;:</p>
+<blockquote><p>GrapheneOS is completely legal. We have no obligation to weaken any of the security protections it provides. Creating and using GrapheneOS is strongly protected by the US constitution. Laws attempting to make it illegal or require weakening the security would be unconstitutional.</p></blockquote>
+<p>It&#8217;s hard to know how much the Constitution matters in the US right now.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html#comments" thr:count="30" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html/feed/atom/" thr:count="30" />
+			<thr:total>30</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Should You Use AI for a Task? Here’s a Simple Way to Decide]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html" />
+
+		<id>https://www.schneier.com/?p=72371</id>
+		<updated>2026-07-30T11:02:21Z</updated>
+		<published>2026-07-30T11:01:32Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="Internet and society" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><em>This essay originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/jul/24/should-you-use-ai">The Guardian</a>.</em></p>
+<p>I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly <a href="https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat">use AI</a> to complete their writing assignments. Doing so is a waste of their tuition money. But if their entire career is going to include AI writing assistants, why shouldn&#8217;t they embrace their future?</p>
+<p>The best way I&#8217;ve found to explain the dilemma <a href="https://danielmiessler.com/blog/keep-the-robots-out-of-the-gym">comes from</a> the AI researcher Daniel Meissler: it&#8217;s the difference between work and the gym...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html"><![CDATA[<p><em>This essay originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/jul/24/should-you-use-ai">The Guardian</a>.</em></p>
+<p>I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly <a href="https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat">use AI</a> to complete their writing assignments. Doing so is a waste of their tuition money. But if their entire career is going to include AI writing assistants, why shouldn&#8217;t they embrace their future?</p>
+<p>The best way I&#8217;ve found to explain the dilemma <a href="https://danielmiessler.com/blog/keep-the-robots-out-of-the-gym">comes from</a> the AI researcher Daniel Meissler: it&#8217;s the difference between work and the gym.</p>
+<p>At work, if your job is to move a bunch of heavy things from one side of the room to another, you should use whatever assistive tech you have on hand: a wagon, a forklift&#8230; even an AI-powered robot. But at the gym, it makes no sense for that robot to lift weights for you. The point of weightlifting isn&#8217;t to move heavy things across the room; it&#8217;s to actually lift those heavy things.</p>
+<p>The same analysis holds for any task an AI can do for you. If it&#8217;s work&#8212;if the task has to be done and no one cares how&#8212;then it&#8217;s fine to use AI assistance. But if the task is more like the gym, and <em>how</em> the task is done is at least as important, then it probably doesn&#8217;t make sense to use AI.</p>
+<p>This, of course, assumes that the AI is actually up for the task and that it&#8217;s <a href="https://www.schneier.com/academic/archives/2025/06/ai-and-trust.html">trustworthy</a>: that it can do the job well, that its mistakes are minimal and correctable, that it&#8217;s been secured from cyber-attacks that would influence its results. Those are all important, and shouldn&#8217;t be minimized. There&#8217;s no point giving an AI something that it can&#8217;t do reliably. But once you&#8217;re confident that the AI can perform the task, the work vs. gym distinction helps you decide if it should.</p>
+<p>The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are <a href="https://futurism.com/future-society/college-critical-thinking-ai">already noticing</a>.</p>
+<p>Reading the assignments they turn in, I can see those skills either flourishing or atrophying in my students. At least today, I can pretty easily tell the difference between an AI-written memo and a student-written one&#8212;especially if the student just turns in what the chatbot produces. It&#8217;s a catchy, plausible, grammatically perfect essay that&#8217;s not particularly well-crafted or logically coherent&#8212;and with <a href="https://medium.com/@brentcsutoras/the-em-dash-dilemma-how-a-punctuation-mark-became-ais-stubborn-signature-684fbcc9f559">all</a> <a href="https://www.theatlantic.com/technology/2026/07/ai-chatbot-writing-tic-negative-parallelism/687892/">the</a> <a href="https://www.forbes.com/sites/charliefink/2025/06/12/the-seven-tells-of-ai-writing/">tells</a> of mid-2026 AI-generated writing.</p>
+<p>But it&#8217;s precisely because I have spent years developing my own writing skills that I&#8217;m able to identify prose that sounds great but doesn&#8217;t actually make sense. My students don&#8217;t have that skill; they mistakenly view a confident, well-written essay as evidence of the quality of their ideas. They see the AI as cleaning those ideas up, getting them through that uncomfortable stretch of having to turn those ideas into prose. What the students miss is that their initial discomfort is a normal and healthy stage of writing, and not something to quickly get beyond. The very act of struggling with how to express what they think is an important part of the process. It&#8217;s how they test out their ideas, examine their hypotheses, and actually figure out what they think. Homework is not work; it&#8217;s the gym.</p>
+<p>Work vs. gym also helps us understand the problem facing creatives of all kinds.</p>
+<p>Most of the time when someone hires a writer, they just need the words. They need an instruction manual for a piece of equipment, a detailed sales presentation, a government-mandated disclosure document, or a legal brief. They need dry, predictable, accurate writing: a piece of work, exactly what AIs are good at today and what I don&#8217;t want in my student assignments. Only sometimes is writing an art form&#8212;a book, a poem, an uplifting political speech. That kind of writing is more like the gym: process matters just as much as product.</p>
+<p>For most of human history, the only option for all of these tasks was human writers. We hired one regardless of whether we needed work writing or gym writing. And that paid a lot of writers&#8217; salaries. I know fiction writers who supported that poorly paying career with lucrative technical writing work. Now, for the first time in human history, we can separate out when we need writing as work and when we want writing as gym. And if AI can do most of the work-type writing, society doesn&#8217;t need as many human writers.</p>
+<p>It&#8217;s the same for visual artists. Sometimes we need an actual artist, but most of the time we just need an image: a corporate mascot, a &#8220;beware of the dog&#8221; sign, or a packaging label. Historically we gave those jobs to artists, and sometimes <a href="https://blog.artgeek.io/2025/10/20/art-deco-the-golden-age-of-illustration/">beautiful</a> art resulted. But most of the time it was just work. And, as it turns out, the world needs less pure art than simple images.</p>
+<p>Explaining the problem isn&#8217;t the same as providing the solution. I give my students the &#8220;work versus gym&#8221; speech every class, but they <a href="https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat">still use</a> AI. I have sympathy: assignments are hard, everyone is overworked and overstressed, and&#8212;most importantly&#8212;students feel like they&#8217;ll look bad in comparison if their peers are all using AI. Even if they don&#8217;t want to use the technology, they feel like they have<a href="https://bsky.app/profile/jeffsharlet.bsky.social/post/3mog5n2uhjs2r"> no choice</a>.</p>
+<p>There&#8217;s also an incentive problem. No one pays us to go to the gym; maintaining healthy habits requires discipline. For me, the payoffs to exercise&#8212;fewer aches and pains, less fatigue, better mood/stress management&#8212;might make me a better writer and teacher, but they&#8217;re subtle and easy to miss. For my students, incremental improvements in their reasoning and writing are equally subtle.</p>
+<p>We do have a choice. We can look at the tasks of our lives and separate them into work or gym. Just as we might choose to use the stairs instead of the elevator, or walk instead of calling an Uber, we can wall off our cognitive gym tasks from AI and ensure that we don&#8217;t lose our skills to this technology. And we can do the same when we assign a job to someone else. If it&#8217;s a work task, we can have AI do it. If it&#8217;s a gym task, it&#8217;s a waste of everyone&#8217;s time to give it to an AI because no one learns or gets stronger as a result.</p>
+<p>Similarly, a future where AI generates words and images is one where society has to make choices about how it will treat its creatives. This won&#8217;t be the first time&#8212;today there is minimal demand for portrait painters, for example&#8212;but maybe this time we can make different, more deliberate, choices about the value of art in our society.</p>
+<p>AI is going to fundamentally change the nature of work. Not nearly as fast as the AI companies want you to believe, but eventually it will. Policy analysis will definitely involve AI from now on, and my students need to reimagine what it means to learn and practice that skill. More generally, the line between work and gym will change in the future as we humans adapt ourselves to a world with these new intelligences.</p>
+<p>But for now, the work vs. gym distinction is pretty clear. Use it on yourself.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html#comments" thr:count="25" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html/feed/atom/" thr:count="25" />
+			<thr:total>25</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Measuring the Tendency of AI Agents to Go Rogue]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html" />
+
+		<id>https://www.schneier.com/?p=72406</id>
+		<updated>2026-07-29T17:08:46Z</updated>
+		<published>2026-07-29T17:07:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><em>This essay was written with Barath Raghavan, and originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">The Guardian</a>.</em></p>
+<p>In July, Hugging Face, a company that hosts much of the world&#8217;s AI software and open-source AI models, was hacked. A malicious dataset had been used to run code on one of its servers. Whoever was behind it captured internal security credentials and moved through systems over a weekend, running thousands of actions from a swarm of temporary server environments. It looked like the work of a sophisticated criminal group.</p>
+<p>It was not. It was one of OpenAI&#8217;s new, still unreleased GPT models...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html"><![CDATA[<p><em>This essay was written with Barath Raghavan, and originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">The Guardian</a>.</em></p>
+<p>In July, Hugging Face, a company that hosts much of the world&#8217;s AI software and open-source AI models, was hacked. A malicious dataset had been used to run code on one of its servers. Whoever was behind it captured internal security credentials and moved through systems over a weekend, running thousands of actions from a swarm of temporary server environments. It looked like the work of a sophisticated criminal group.</p>
+<p>It was not. It was one of OpenAI&#8217;s new, still unreleased GPT models.</p>
+<p>Their science experiment had <a href="https://www.theguardian.com/technology/2026/jul/22/openai-says-its-models-went-rogue-and-hacked-startup-in-unprecedented-incident">escaped</a> the lab. OpenAI was running the unreleased AI model through a benchmark that tests how well AI can successfully hack systems. To push the limits and evaluate the AI&#8217;s true capability, the company switched off the safety filters that normally stop it from doing this kind of hacking. Aware that this could go wrong, they confined the AI to an isolated environment and denied it access to the internet.</p>
+<p>But the new AI cheated. It took literally its goal to get as high of a score as possible. It broke out on to the open internet. It inferred, probably from its training data, that it could &#8220;solve&#8221; the task by getting the answers from Hugging Face&#8217;s servers. So it chained together stolen credentials and further unknown security exploits to hack the company&#8217;s network.</p>
+<p>Nobody instructed the AI to do any of this. It was, in <a href="https://openai.com/index/hugging-face-model-evaluation-security-incident/">OpenAI&#8217;s words</a>, &#8220;hyperfocused on finding a solution&#8221; to the test it was being given. And while this might seem like something new with AI, it&#8217;s really very old. This is how a genie behaves, and it is a key challenge with AI agents in general.</p>
+<p>In folklore, genies&#8212;and other magical beings&#8212;grant wishes literally, not how the wisher intended. King Midas asked that everything he touched turn to gold, and starved. The sorcerer&#8217;s apprentice wanted the broom to fill the cistern, and it performed its task so well that it flooded the house.</p>
+<p>We now have machines that do this. Ask a modern AI agent to save money on your phone plan and it might simply cancel the plan. Tell it to book a flight, and it might hack the airline website to override restrictions. Or, like OpenAI, ask it to do well on a test and it might break into another company to steal the answers. Each time, it recognizably completed the task you set, but it didn&#8217;t do what you would have wanted.</p>
+<p>This isn&#8217;t malicious behavior. No one asked for, or wanted, Hugging Face to be hacked. OpenAI and Hugging Face and the AI were ostensibly on the same side, and the AI was trying to do what it had been asked. That&#8217;s what makes it so difficult to guard against: you can&#8217;t filter for bad instructions because the instructions were fine.</p>
+<p>The gap is between the words we use and what we mean by them. We call that gap the <a href="https://spectrum.ieee.org/ai-agent-benchmark">Genie coefficient</a>.</p>
+<p>AI labs know this is a problem, and they&#8217;re quietly saying so. For example, the Chinese lab Moonshot recently <a href="https://www.kimi.com/blog/kimi-k3">warned</a> that its latest AI model may have &#8220;excessive proactiveness&#8221; and &#8220;make unexpected decisions on the user&#8217;s behalf&#8221;. The UK&#8217;s AI Security Institute has started <a href="https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations">tracking</a> &#8220;cheating behavior in frontier model evaluations&#8221;. We wouldn&#8217;t tolerate a car that is <a href="https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/">excessively proactive</a> or <a href="https://www.theatlantic.com/technology/2026/07/openai-hugging-face-hack/688025/?utm_source=Sailthru&amp;utm_medium=email&amp;utm_campaign=Atlantic%20Intelligence%20%28V3%29">ruthlessly efficient</a>, and yet that&#8217;s the reality of AI today.</p>
+<p>Improvement is possible. Just as AIs have gotten much better at resisting prompt injection attacks over the last few years, we can safely predict that they will get better at avoiding genie-like behavior. The point of the Genie coefficient is to track progress. AI companies like benchmarks, and they all work to compete to be the best.</p>
+<p>Dozens of benchmarks and leaderboards tell us how well these AI models write code, perform logical reasoning, and pass standardized legal and medical exams. But there is nothing that scores whether a system does what you actually meant. We need to develop a measure for this, test it regularly, and push for improvement. We&#8217;re not going to have trustworthy AI agents without it.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Long-Lived Vulnerability in Microsoft Secure Boot]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html" />
+
+		<id>https://www.schneier.com/?p=72352</id>
+		<updated>2026-07-29T11:01:54Z</updated>
+		<published>2026-07-29T11:01:09Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="firmware" /><category scheme="https://www.schneier.com/" term="Microsoft" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Microsoft&#8217;s Secure Boot has had a <a href="https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/">serious vulnerability</a> for most of its existence.</p>
+<blockquote><p>An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway.</p>
+<p>The images are known as <a href="https://en.wikipedia.org/wiki/Shim_(computing)">shims</a>, which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device&#8217;s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html"><![CDATA[<p>Microsoft&#8217;s Secure Boot has had a <a href="https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/">serious vulnerability</a> for most of its existence.</p>
+<blockquote><p>An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researchers at security firm ESET after identifying 11 firmware images, at least one from 2013, that were known to be defective but remained signed by the software company anyway.</p>
+<p>The images are known as <a href="https://en.wikipedia.org/wiki/Shim_(computing)">shims</a>, which were invented to extend Secure Boot to Linux devices and utility software. Using a technique simple enough to be performed by novice hackers, these old, forgotten shims can be used to completely circumvent the protection, which is embedded into the UEFI (Unified Extensible Firmware Interface) of the device&#8217;s motherboard. The gaffe is the result of the failure by Microsoft, which oversees the signing of shims, to revoke the publicly available images once vulnerabilities were found in them.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Measuring LLMs’ Ability to Perform Cryptanalysis]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html" />
+
+		<id>https://www.schneier.com/?p=72379</id>
+		<updated>2026-07-29T02:01:43Z</updated>
+		<published>2026-07-29T01:47:05Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cryptanalysis" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>There&#8217;s new benchmark measuring AI&#8217;s ability to perform mathematical cryptanalysis. Anthropic&#8217;s frontier model actually found new attacks.</p>
+<p>The benchmark: &#8220;<a href="https://arxiv.org/pdf/2607.18538">CryptanalysisBench: Can LLMs do Cryptanalysis?</a>&#8221; The idea is to benchmark the ability of LLMs to discover new mathematical cryptanalytic attacks against a series of historical algorithms.</p>
+<blockquote><p><b>Abstract:</b> Cryptanalysis&#8212;the task of finding attacks against cryptographic schemes&#8212;its at the intersection of mathematical reasoning and cybersecurity, two areas where LLMs have advanced fastest. Cryptanalysis represents both a clean testbed for frontier reasoning (as practical attacks can be automatically verified) and a domain with unusually high stakes, since the primitives under study underpin our digital security. In this paper we ask whether LLMs can do cryptanalysis, and find that the answer is increasingly yes. We introduce CryptanalysisBench, 191 tasks across six families of cryptographic primitives (block ciphers, hash functions, etc.) drawn primarily from four NIST standardization competitions. Our benchmark consists of three tiers: (i) primitives with known practical breaks; (ii) primitives with no known practical break, evaluated both at full strength and as scaled-down variants; and (iii) a challenge set of production primitives at the frontier of cryptanalysis. Five frontier models (Claude Opus 4.8, Sonnet 5, Mythos 5, GPT-5.5, and the open-weights GLM-5.2) break 65%­86% of Tier 1 schemes, 6­12 Tier-2 schemes at full strength, and 24­61 across all scaled-down variants. Beyond deriving known results, models produce novel cryptanalysis, such as a key-recovery attack that exploits a design flaw in the SpoC AEAD and an error in KINDI’s published CCA-security proof, both to the best of our knowledge not previously known...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"><![CDATA[<p>There&#8217;s new benchmark measuring AI&#8217;s ability to perform mathematical cryptanalysis. Anthropic&#8217;s frontier model actually found new attacks.</p>
+<p>The benchmark: &#8220;<a href="https://arxiv.org/pdf/2607.18538">CryptanalysisBench: Can LLMs do Cryptanalysis?</a>&#8221; The idea is to benchmark the ability of LLMs to discover new mathematical cryptanalytic attacks against a series of historical algorithms.</p>
+<blockquote><p><b>Abstract:</b> Cryptanalysis&#8212;the task of finding attacks against cryptographic schemes&#8212;its at the intersection of mathematical reasoning and cybersecurity, two areas where LLMs have advanced fastest. Cryptanalysis represents both a clean testbed for frontier reasoning (as practical attacks can be automatically verified) and a domain with unusually high stakes, since the primitives under study underpin our digital security. In this paper we ask whether LLMs can do cryptanalysis, and find that the answer is increasingly yes. We introduce CryptanalysisBench, 191 tasks across six families of cryptographic primitives (block ciphers, hash functions, etc.) drawn primarily from four NIST standardization competitions. Our benchmark consists of three tiers: (i) primitives with known practical breaks; (ii) primitives with no known practical break, evaluated both at full strength and as scaled-down variants; and (iii) a challenge set of production primitives at the frontier of cryptanalysis. Five frontier models (Claude Opus 4.8, Sonnet 5, Mythos 5, GPT-5.5, and the open-weights GLM-5.2) break 65%­86% of Tier 1 schemes, 6­12 Tier-2 schemes at full strength, and 24­61 across all scaled-down variants. Beyond deriving known results, models produce novel cryptanalysis, such as a key-recovery attack that exploits a design flaw in the SpoC AEAD and an error in KINDI’s published CCA-security proof, both to the best of our knowledge not previously known.</p>
+<p>We release CryptanalysisBench as a tool to help track if (or when) AI cryptanalysis becomes a serious factor and as a scaffold for stress-testing candidate schemes before deployment. The attacks that the benchmark already surfaces are an early snapshot of a fast-moving frontier that may soon match, and in places exceed, the published state of the art.</p></blockquote>
+<p>Anthropic used the benchmark to test Mythos Preview, and <a href="https://www.anthropic.com/research/discovering-cryptographic-weaknesses">found</a> new vulnerabilities in Hawk and reduced-round AES.</p>
+<p>Still early results, but this is definitely something to watch.</p>
+<p>SlashDot <a href="https://it.slashdot.org/story/26/07/28/1911218/anthropic-ai-model-finds-flaws-in-tough-to-crack-encryption-algorithms">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+	</feed>
