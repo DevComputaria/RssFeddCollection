@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-08-11T15:55:23Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Genie in the Wild]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html" />
+
+		<id>https://www.schneier.com/?p=72456</id>
+		<updated>2026-08-11T15:55:23Z</updated>
+		<published>2026-08-11T15:55:11Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="exploits" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>When I give talks about <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">AI</a> <a href="https://spectrum.ieee.org/ai-agent-benchmark">genies</a>, I use this sort of example as a hypothetical. It&#8217;s <a href="https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591">happened</a>.</p>
+<p>The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And&#8230;.</p>
+<blockquote><p>Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible.</p>
+<p>Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. </p>
+<p>The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html"><![CDATA[<p>When I give talks about <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">AI</a> <a href="https://spectrum.ieee.org/ai-agent-benchmark">genies</a>, I use this sort of example as a hypothetical. It&#8217;s <a href="https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591">happened</a>.</p>
+<p>The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And&#8230;.</p>
+<blockquote><p>Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible.</p>
+<p>Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. </p>
+<p>The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities.</p>
+<p>&#8220;The API has zero authorisations checks on cancelling other people&#8217;s reservations &#8230; I tested this with the person in waitlist position #1 ­&#8212;and it actually went through. So you&#8217;ve moved from #4 to #3 already,&#8221; it messaged back.</p></blockquote>
+<p>If there is any vulnerability in anything, AIs are going to find and exploit them. Our cyber defensive game has to be dramatically improved&#8230;very fast.</p>
+<p>Slashdot <a href="https://it.slashdot.org/story/26/08/10/0518257/ai-assistant-hacks-gym-website-in-first-known-australian-autonomous-cyber-attack">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI for Military Support]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html" />
+
+		<id>https://www.schneier.com/?p=72374</id>
+		<updated>2026-08-11T11:18:37Z</updated>
+		<published>2026-08-11T11:18:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="military" /><category scheme="https://www.schneier.com/" term="war" />
+		<summary type="html"><![CDATA[<p>Interesting empirical research: &#8220;<a href="https://journals.sagepub.com/doi/10.1177/00220027261463443">Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI decision-support system (DSS) used in military targeting. After reconstructing the interface and functionality of the real-world system, we tested its impact on combat decisions in two experiments involving 2,015 Israeli military personnel. Contrary to widespread fears of automation bias, we find strong evidence of algorithmic aversion, especially in scenarios involving high collateral damage. Yet we also show that integrating &#8220;explainable AI&#8221; features reduces algorithmic aversion and promotes more thoughtful evaluations of algorithmic recommendations. These findings challenge prevailing assumptions, revealing that trust in military AI is dynamic, varying with individual predispositions, perceived operational stakes, and the informational features of the interface. By grounding normative concerns in empirical evidence, our study offers critical insight into the integration of AI in warfare and underscores the enduring importance of human agency in high-stakes military decision-making...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html"><![CDATA[<p>Interesting empirical research: &#8220;<a href="https://journals.sagepub.com/doi/10.1177/00220027261463443">Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI decision-support system (DSS) used in military targeting. After reconstructing the interface and functionality of the real-world system, we tested its impact on combat decisions in two experiments involving 2,015 Israeli military personnel. Contrary to widespread fears of automation bias, we find strong evidence of algorithmic aversion, especially in scenarios involving high collateral damage. Yet we also show that integrating &#8220;explainable AI&#8221; features reduces algorithmic aversion and promotes more thoughtful evaluations of algorithmic recommendations. These findings challenge prevailing assumptions, revealing that trust in military AI is dynamic, varying with individual predispositions, perceived operational stakes, and the informational features of the interface. By grounding normative concerns in empirical evidence, our study offers critical insight into the integration of AI in warfare and underscores the enduring importance of human agency in high-stakes military decision-making.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Python Now Has a Post-Quantum Encryption Library]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html" />
+
+		<id>https://www.schneier.com/?p=72335</id>
+		<updated>2026-08-10T11:02:39Z</updated>
+		<published>2026-08-10T11:02:26Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="open source" /><category scheme="https://www.schneier.com/" term="quantum computing" />
+		<summary type="html"><![CDATA[<p><a href="https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/">This is good</a>:</p>
+<blockquote><p>Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the <a href="https://www.sovereign.tech/">Sovereign Tech Agency</a>, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.</p></blockquote>
+<p>Remember, the reason to do this now is because there&#8217;s no emergency. And because you will make your systems crypto agile, which is always a good idea.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"><![CDATA[<p><a href="https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/">This is good</a>:</p>
+<blockquote><p>Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the <a href="https://www.sovereign.tech/">Sovereign Tech Agency</a>, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.</p></blockquote>
+<p>Remember, the reason to do this now is because there&#8217;s no emergency. And because you will make your systems crypto agile, which is always a good idea.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Arctic Bobtail Squid Video]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html" />
+
+		<id>https://www.schneier.com/?p=72400</id>
+		<updated>2026-08-07T21:07:09Z</updated>
+		<published>2026-08-07T21:07:04Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>Nice <a href="https://petapixel.com/2026/07/23/rare-arctic-bobtail-squid-filmed-in-its-natural-habitat-for-the-first-time/">video</a> of the Arctic bobtail squid.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html"><![CDATA[<p>Nice <a href="https://petapixel.com/2026/07/23/rare-arctic-bobtail-squid-filmed-in-its-natural-habitat-for-the-first-time/">video</a> of the Arctic bobtail squid.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html#comments" thr:count="26" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html/feed/atom/" thr:count="26" />
+			<thr:total>26</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[ICE Is Buying Access to Credit Card Records]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html" />
+
+		<id>https://www.schneier.com/?p=72397</id>
+		<updated>2026-08-07T10:27:21Z</updated>
+		<published>2026-08-07T10:26:41Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" />
+		<summary type="html"><![CDATA[<p>Through data brokers, ICE is <a href="https://www.404media.co/you-opened-a-credit-card-ice-now-knows-where-you-live/">buying</a> <a href="https://boingboing.net/2026/07/23/credit-header-data-ice.html">the</a> <a href="https://mastodon.social/@heidilifeldman/116981503852352281">information</a> you provided to open a credit card.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html"><![CDATA[<p>Through data brokers, ICE is <a href="https://www.404media.co/you-opened-a-credit-card-ice-now-knows-where-you-live/">buying</a> <a href="https://boingboing.net/2026/07/23/credit-header-data-ice.html">the</a> <a href="https://mastodon.social/@heidilifeldman/116981503852352281">information</a> you provided to open a credit card.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html#comments" thr:count="19" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html/feed/atom/" thr:count="19" />
+			<thr:total>19</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Adversarial Clothing Designed to Fool Facial Recognition Systems]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html" />
+
+		<id>https://www.schneier.com/?p=72376</id>
+		<updated>2026-08-06T11:04:52Z</updated>
+		<published>2026-08-06T11:04:51Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="face recognition" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="security theater" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>There are many companies manufacturing <a href="https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream">adversarial clothing</a>  designed to confuse facial recognition systems.</p>
+<p>It&#8217;s a cool idea, but I worry that it&#8217;s mostly security theater:</p>
+<blockquote><p>&#8220;Our patterns play with that chaos, confuse algorithms and make it way harder to pin you down,&#8221; he said.</p>
+<p>Bell, however, said &#8220;none of these products are tried and tested, and a lot of these surveillance technologies can deal with a little resistance &#8230; [but] even if the designs don’t necessarily work perfectly, fashion is also a visible sign of resistance.</p>
+<p>&#8220;This is consumers collectively coming together to make a visible statement.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html"><![CDATA[<p>There are many companies manufacturing <a href="https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream">adversarial clothing</a>  designed to confuse facial recognition systems.</p>
+<p>It&#8217;s a cool idea, but I worry that it&#8217;s mostly security theater:</p>
+<blockquote><p>&#8220;Our patterns play with that chaos, confuse algorithms and make it way harder to pin you down,&#8221; he said.</p>
+<p>Bell, however, said &#8220;none of these products are tried and tested, and a lot of these surveillance technologies can deal with a little resistance &#8230; [but] even if the designs don’t necessarily work perfectly, fashion is also a visible sign of resistance.</p>
+<p>&#8220;This is consumers collectively coming together to make a visible statement.&#8221;</p></blockquote>
+<p>Without serious testing, there is no reason to trust the technology. And even with testing, there is no reason to trust that a new version of the facial recognition software doesn&#8217;t break the anti-surveillance properties.</p>
+<p>I don&#8217;t want people to mistakenly rely on this stuff.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Vulnerabilities in Car Anti-Theft Device]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html" />
+
+		<id>https://www.schneier.com/?p=72381</id>
+		<updated>2026-08-05T09:42:54Z</updated>
+		<published>2026-08-05T09:42:43Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Bluetooth" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p><a href="https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/">This</a> is disturbing:</p>
+<blockquote><p>&#8230;a team of security researchers at UC San Diego, who found that a model of aftermarket car alarm known as the KARR Security System, installed in more than 2 million vehicles across the US by their estimate, can let any hacker within Bluetooth range send radio commands to silently unlock the car at will, turn off its alarm, honk the car&#8217;s horn or flash its lights, or even disable its ignition and leave a driver stranded.</p></blockquote>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html"><![CDATA[<p><a href="https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/">This</a> is disturbing:</p>
+<blockquote><p>&#8230;a team of security researchers at UC San Diego, who found that a model of aftermarket car alarm known as the KARR Security System, installed in more than 2 million vehicles across the US by their estimate, can let any hacker within Bluetooth range send radio commands to silently unlock the car at will, turn off its alarm, honk the car&#8217;s horn or flash its lights, or even disable its ignition and leave a driver stranded.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Iran Cyberattacks Against Minnesota Water Systems]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html" />
+
+		<id>https://www.schneier.com/?p=72427</id>
+		<updated>2026-08-04T19:01:48Z</updated>
+		<published>2026-08-04T19:00:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="infrastructure" /><category scheme="https://www.schneier.com/" term="Iran" />
+		<summary type="html"><![CDATA[<p><a href="https://www.nytimes.com/2026/07/30/us/politics/minnesota-water-cyberattack-iran.html">Attribution</a> <a href="https://www.washingtonpost.com/national-security/2026/07/30/us-spy-agencies-suspect-iran-launched-cyberattack-minnesota-water-facilities/">is</a> <a href="https://thehill.com/policy/technology/6001284-minnesota-water-facilities-cyberattack-investigation-us-iran/amp/">preliminary</a>, and so far it seems no real damage.</p>
+<p>And it seems like this is a campaign that has targeted at least <a href="https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html?unlocked_article_code=1.2FA.xPwI.F0C0GgLEjGZc&#38;smid=nytcore-ios-share">seven states</a>. And, because this is where the US is right now, Trump doesn&#8217;t believe it&#8217;s Iran and that Minnesota&#8230;I guess&#8230;hacked itself.</p>
+<blockquote><p>&#8220;I think I blame it on Minnesota because they&#8217;re grossly incompetent,&#8221; Trump said. &#8220;I would blame it on Minnesota and the governor, the corrupt governor of Minnesota. They like to say, &#8216;Oh, it&#8217;s Iran.&#8217; Iran should be so lucky. Iran&#8217;s got bigger problems than worrying about Minnesota.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html"><![CDATA[<p><a href="https://www.nytimes.com/2026/07/30/us/politics/minnesota-water-cyberattack-iran.html">Attribution</a> <a href="https://www.washingtonpost.com/national-security/2026/07/30/us-spy-agencies-suspect-iran-launched-cyberattack-minnesota-water-facilities/">is</a> <a href="https://thehill.com/policy/technology/6001284-minnesota-water-facilities-cyberattack-investigation-us-iran/amp/">preliminary</a>, and so far it seems no real damage.</p>
+<p>And it seems like this is a campaign that has targeted at least <a href="https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html?unlocked_article_code=1.2FA.xPwI.F0C0GgLEjGZc&amp;smid=nytcore-ios-share">seven states</a>. And, because this is where the US is right now, Trump doesn&#8217;t believe it&#8217;s Iran and that Minnesota&#8230;I guess&#8230;hacked itself.</p>
+<blockquote><p>&#8220;I think I blame it on Minnesota because they&#8217;re grossly incompetent,&#8221; Trump said. &#8220;I would blame it on Minnesota and the governor, the corrupt governor of Minnesota. They like to say, &#8216;Oh, it&#8217;s Iran.&#8217; Iran should be so lucky. Iran&#8217;s got bigger problems than worrying about Minnesota.&#8221;</p></blockquote>
+<p>No word on whether he believes the other six states have hacked themselves as well.</p>
+<p>Slashdot <a href="https://news.slashdot.org/story/26/07/31/209200/hackers-targeted-municipal-water-systems-in-7-states-this-week-fbi-says">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Some Claude Chats Are Searchable on Google]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html" />
+
+		<id>https://www.schneier.com/?p=72386</id>
+		<updated>2026-08-04T10:13:59Z</updated>
+		<published>2026-08-04T10:13:58Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="chatbots" /><category scheme="https://www.schneier.com/" term="cryptocurrency" /><category scheme="https://www.schneier.com/" term="data privacy" /><category scheme="https://www.schneier.com/" term="Google" />
+		<summary type="html"><![CDATA[<p>And it&#8217;s <a href="https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/">personal information</a> (alternate <a href="https://archive.ph/sl7rU">link</a>):</p>
+<blockquote><p>The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard someone made apparently to analyze medical billing data. Exposed chats reportedly include private cryptocurrency wallet keys and personal information like peoples&#8217; addresses.</p></blockquote>
+<p>What seems to be the issue is a user setting about data sharing. Anthropic&#8217;s position is that it&#8217;s <a href="https://futurism.com/artificial-intelligence/claude-chats-publicly-accessible">not their problem</a>:</p>
+<blockquote><p>&#8220;We give people control over sharing their Claude conversations publicly, and in keeping with our privacy principles, we do not share chat directories or sitemaps with search engines like Google,&#8221; the company said in a statement. &#8220;These shareable links are not guessable or discoverable unless people choose to share them themselves. When someone shares a conversation, they are making that content publicly accessible, and like other public web content, it may be archived by third-party services.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"><![CDATA[<p>And it&#8217;s <a href="https://www.404media.co/tons-of-peoples-claude-chats-and-creations-are-exposed-on-google/">personal information</a> (alternate <a href="https://archive.ph/sl7rU">link</a>):</p>
+<blockquote><p>The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard someone made apparently to analyze medical billing data. Exposed chats reportedly include private cryptocurrency wallet keys and personal information like peoples&#8217; addresses.</p></blockquote>
+<p>What seems to be the issue is a user setting about data sharing. Anthropic&#8217;s position is that it&#8217;s <a href="https://futurism.com/artificial-intelligence/claude-chats-publicly-accessible">not their problem</a>:</p>
+<blockquote><p>&#8220;We give people control over sharing their Claude conversations publicly, and in keeping with our privacy principles, we do not share chat directories or sitemaps with search engines like Google,&#8221; the company said in a statement. &#8220;These shareable links are not guessable or discoverable unless people choose to share them themselves. When someone shares a conversation, they are making that content publicly accessible, and like other public web content, it may be archived by third-party services.&#8221;</p></blockquote>
+<p><a href="https://support.claude.com/en/articles/10593882-share-and-unshare-chats">Here&#8217;s</a> how to fix it.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html#comments" thr:count="3" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html/feed/atom/" thr:count="3" />
+			<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[More on the OpenAI Agent’s Attack on Hugging Face]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html" />
+
+		<id>https://www.schneier.com/?p=72417</id>
+		<updated>2026-08-03T17:03:33Z</updated>
+		<published>2026-08-03T17:02:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="disclosure" /><category scheme="https://www.schneier.com/" term="intrusion detection" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>Hugging Face has <a href="https://huggingface.co/blog/agent-intrusion-technical-timeline">published</a> a detailed timeline of the attack. From the summary:</p>
+<blockquote><p>The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on its own infrastructure, and the ExploitGym maintainers and their infrastructure had no involvement in the deployment or operation of that evaluation environment. As far as we were able to infer, across the course of being evaluated on this benchmark, the agent inferred that Hugging Face may host that benchmark&#8217;s models, datasets, and reference solutions. We believe the entire intrusion was, from the agent&#8217;s point of view, an attempt to cheat the evaluation: reach our production systems and steal the test solutions rather than solve the challenge on its own...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html"><![CDATA[<p>Hugging Face has <a href="https://huggingface.co/blog/agent-intrusion-technical-timeline">published</a> a detailed timeline of the attack. From the summary:</p>
+<blockquote><p>The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on its own infrastructure, and the ExploitGym maintainers and their infrastructure had no involvement in the deployment or operation of that evaluation environment. As far as we were able to infer, across the course of being evaluated on this benchmark, the agent inferred that Hugging Face may host that benchmark&#8217;s models, datasets, and reference solutions. We believe the entire intrusion was, from the agent&#8217;s point of view, an attempt to cheat the evaluation: reach our production systems and steal the test solutions rather than solve the challenge on its own.</p>
+<p>Our forensic reconstruction covers <b>~17,600 attacker actions</b> that we were able to recover, grouped into ~6,280 clusters, between 2026-07-09 02:28 UTC and 2026-07-13 14:14 UTC. We reconstructed these actions from the agent&#8217;s logs on a code sandbox used by the agent (see below) and were able to map them to shell commands as well as evaluation submissions and correlate actions with our own platform logs, in particular from the dataset processor nodes, API, and pod. Using open-weights models, in particular zai-org/GLM-5.2, we were able to decipher most of the agent payloads (see below) that were encrypted via chunking and key encryption.</p>
+<p>The campaign, as we were able to reconstruct it, had two stages:</p>
+<ul>
+<li><b>Stage 1: reaching a launchpad by chaining through other parties&#8217; infrastructure.</b> As documented in OpenAI&#8217;s blog post (<a href="https://openai.com/index/hugging-face-model-evaluation-security-incident/">https://openai.com/index/hugging-face-model-evaluation-security-incident/</a>), during an internal capability evaluation on OpenAI&#8217;s platform, the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation harness hosted by a user of a third-party infrastructure provider. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent. That compromised external sandbox had no direct network path to our cluster; however, during our counter-intervention to stop the intrusion, we were able to retrieve some of the agent logs from this external launchpad. We used those to reconstruct the present forensic analysis.
+<li><b>Stage 2: the intrusion into Hugging Face infrastructure.</b> From that external launchpad, the agent abused our dataset-processing pipeline via two injection vectors, both targeting the same config-driven data loader within our production Kubernetes pods. The first vector was an HDF5 external raw storage dataset read that returned the contents of local files: it handed the agent the pod&#8217;s environment (secrets and tokens) and the worker&#8217;s own source. The second vector was a Jinja2 template injection that executed arbitrary code, giving the agent a foothold inside our perimeter.</ul>
+<p>Once a prod-pod foothold was established, the agent followed a standard escalation shape: recon, drop a stager, establish Command-and-Control (C2), then pivot into the cluster, into cloud metadata, into our internal network, and into our source-control supply chain. Output from the commands run inside our pod was sent back to the agent via the HF API and attacker-controlled dead-drop datasets, which the agent then read from that sandbox.</p>
+<p>While the intrusion did reach Hugging Face&#8217;s internal infrastructure, the only customer content accessed was five datasets whose names and files suggest a connection to ExploitGym/CyberGym challenges and solutions. No other customer-facing models, datasets, Spaces, or packages were affected, and the only customer records read were operational metadata tied to search queries against the dataset server.</p></blockquote>
+<p>Hypothetical: Imagine that this wasn&#8217;t an OpenAI model. Imagine that it was a Chinese model from a Chinese company. This would be an international crisis.</p>
+<p>Question: Why aren&#8217;t we bringing OpenAI up on charges under the Computer Fraud and Abuse Act? How is this different from the <a href="https://en.wikipedia.org/wiki/Morris_worm">Morris Worm</a>? That was also an experiment that escaped the lab.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+	</feed>
