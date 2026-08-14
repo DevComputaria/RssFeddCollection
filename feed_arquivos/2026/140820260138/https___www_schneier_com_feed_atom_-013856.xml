@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-08-13T20:40:52Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Separating AI’s Technological Problems from Its Capitalism Problems]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html" />
+
+		<id>https://www.schneier.com/?p=72463</id>
+		<updated>2026-08-13T11:07:21Z</updated>
+		<published>2026-08-13T11:07:19Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.techpolicy.press/separating-ais-technological-problems-from-its-capitalism-problems/">Tech Policy Press</a>.</em></p>
+<p>AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only comparable moment is the early years of the industrial revolution, when new technologies like the steam engine provided a quantum leap in our ability to do mechanical work outside of our bodies at scale. If AI&#8217;s cognitive capabilities become integrated into our lives, businesses, and governments&#8212;a process that will take years if not decades&#8212;society will be as unrecognizable as the modern world would be to a preindustrial farmer. And yet, Americans&#8212;by a wide margin&#8212;...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.techpolicy.press/separating-ais-technological-problems-from-its-capitalism-problems/">Tech Policy Press</a>.</em></p>
+<p>AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only comparable moment is the early years of the industrial revolution, when new technologies like the steam engine provided a quantum leap in our ability to do mechanical work outside of our bodies at scale. If AI&#8217;s cognitive capabilities become integrated into our lives, businesses, and governments&#8212;a process that will take years if not decades&#8212;society will be as unrecognizable as the modern world would be to a preindustrial farmer. And yet, Americans&#8212;by a wide margin&#8212;<a href="https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/">say</a> that AI is moving too fast and will have a negative effect on society.</p>
+<p>This confluence of technological revolution and public distrust deserves urgent discussion, and a proper framing. The question is not whether it is possible to develop AI in a non-exploitative way, or even whether we can trust AI companies to act in the public interest. The question is whether we will recognize that our existing social and economic systems are failing to achieve these outcomes, and whether we can act in time to make structural change.</p>
+<p>Today&#8217;s AI is <a href="https://www.schneier.com/blog/archives/2025/04/reimagining-democracy-2.html">mired</a> in political and economic systems developed generations ago that were never designed to manage widespread computation, let alone automated cognition. The gaps in those systems&#8212;and their proclivity to be <a href="https://wwnorton.com/books/9780393866667">exploited</a>&#8212;are the primary influence on how the technology is being developed, deployed, and used.</p>
+<p>In any discussion about AI&#8217;s potential, it&#8217;s important to separate the technology from the socio-political system it&#8217;s embedded in. That AIs can lack context, mix up facts, or fall for stupid tricks are all technological problems. Because the giant developers like OpenAI and Anthropic have prioritized solving them, AIs can now more easily access resources like the web or email, are more disciplined about using those resources, and are better at staying within their guardrails.</p>
+<p>Yet AI developers do not seem to be prioritizing other technological problems. Major AI models still act far more <a href="https://www.science.org/doi/10.1126/science.aec8352">sycophantic</a> than humans, telling people what they want to hear even when untrue or not in their best interests. Popular AI models tend to answer questions <a href="https://news.mit.edu/2026/better-method-identifying-overconfident-large-language-models-0319">confidently</a> even when they lack training, knowledge, or evidence to back their claims. In both cases, AI developers choose to train models that please users with flattery and the appearance of competence, rather than constraining them to act in users&#8217; and society&#8217;s best interests.</p>
+<p>In contrast, ensuring that AI models benefit people broadly, that their energy costs are fairly allocated, that their environmental impacts are minimized, and that they don&#8217;t steal content and revenue from publishers are all questions of incentives in a capitalist system.</p>
+<p>It&#8217;s easy to conflate technology problems with capitalism problems. Back in 2021, science-fiction writer and AI commentator Ted Chiang <a href="https://www.nytimes.com/2021/03/30/podcasts/ezra-klein-podcast-ted-chiang-transcript.html">said</a> that &#8220;most fears about AI are best understood as fears about capitalism.&#8221; It&#8217;s not the tech <em>per se</em>; it&#8217;s who controls it and how it could be used against us.</p>
+<p>Imagine an AI assistant for a doctor. We can imagine it affecting the profession in one of two ways. The AI could give a doctor more time to do the human parts of their job: to spend more time with their patients, to listen more closely to their needs, to explain things more fully. Or the managers of the medical practice could give that doctor five times the patients&#8212;and fire the other four. Which way it would go is not a question of technology. It&#8217;s a question of market incentives.</p>
+<p>The two are related, of course. Capitalism steers technology, and technology steers markets. But holding the two separate helps us understand that we, as a society, face independent choices on both the technological and sociopolitical axes that need not be coupled.</p>
+<p>For example, consider the costs of AI. The leading US labs <a href="https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9?mod=hp_lead_pos1">tout</a> to investors that their frontier models are very expensive and energy-intensive. There are significant technological challenges about improving their energy efficiency, but the sociopolitical questions are more pertinent. It&#8217;s a corporate decision made under capitalist market incentives to constantly pursue new models that incrementally push the frontier&#8212;at enormous capital cost&#8212;and to use them, seemingly, everywhere. Nothing about the technology of AI dictates that models must be retrained constantly, at the largest possible scale. Or that they have to run on every web search, every interaction with your phone, and every time you walk by a security camera.</p>
+<p>In a different political and economic system, Chinese developers are producing&#8212;and then <a href="https://open.substack.com/pub/garymarcus/p/china-has-all-but-caught-up-the-us">giving</a> <a href="https://taipology.substack.com/p/china-closes-the-ai-gap">away</a>&#8212;smaller, more <a href="https://www.barrons.com/news/china-s-moonshot-ai-chases-deepseek-moment-with-much-hyped-model-79ed3105">efficient</a>, more <a href="https://www.bloomberg.com/news/articles/2026-04-27/why-china-s-deepseek-qwen-and-moonshot-are-a-worry-for-us-ai-rivals">affordable</a> models. While the US government seeks to <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-house-passes-bill-to-stop-chinese-companies-from-accessing-export-controlled-american-ai-chips-using-offshore-rental-loophole-remote-access-security-access-act-effectively-extends-export-controls-to-the-cloud">restrict</a> China&#8217;s access to the most advanced chips, China is <a href="https://www.wsj.com/tech/ai/chinas-xi-touts-open-source-ai-and-takes-a-swipe-at-u-s-dominance-1eaa5cfe">betting</a> that incentivizing their tech giants to create leaner, more open models using more commodity hardware&#8212;models that can be trained with older chips and run even on <a href="https://unsloth.ai/docs/models/glm-5.2">personal computers</a>&#8212;will be an advantage in achieving widespread use and, perhaps, Chinese national influence.</p>
+<p>There are other pathways for AI development that are not in service of private capital gains nor authoritarian regimes, but rather a <a href="https://www.brookings.edu/articles/how-public-ai-can-strengthen-democracy/">democratic public interest</a>. The best example comes from Switzerland, where public institutions&#8212;research funding agencies, universities, supercomputing centers&#8212;have collaborated to produce an AI model called <a href="https://www.democracyrenovator.com/p/rewiring-democracy-now-switzerland">Apertus</a>. It is trained entirely on data validated to be licensed for use with AI (not stolen), on preexisting public computing infrastructure, and using renewable hydropower. Its developers are incentivized to produce a public good, not turn a private profit.</p>
+<p>It&#8217;s dangerous to confuse technology problems with sociopolitical ones. Popular proposals like <a href="https://www.reuters.com/business/anthropic-says-ai-labs-need-coordinated-plan-halt-development-if-risks-rise-2026-06-04/">pausing</a> AI research, <a href="https://www.theguardian.com/commentisfree/2026/jul/09/ai-datacenter-company-politics">moratoria</a> on data center development, or subjecting frontier models to federal government <a href="https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa">screening</a> are all framed as addressing problems with AI&#8217;s technological development, but fail to take into account the larger social problems that govern it. China&#8217;s <a href="https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us?r=6x5gs&amp;utm_medium=ios&amp;triedRedirect=true">success</a> with government-<a href="https://www.wsj.com/tech/ai/chinas-xi-touts-open-source-ai-and-takes-a-swipe-at-u-s-dominance-1eaa5cfe">endorsed</a> development of open-weight frontier models illustrates the futility of keeping AI tech as national secrets, or of any pledge to scale back deployment.</p>
+<p>AI is already legitimately useful for a wide range of tasks. It can be a tool for public good, if we choose to solve its sociopolitical problems. Our goal should not be to slow its pace of improvement or scale of deployment, but rather to steer it away from <a href="https://betterwithout.ai/fear-AI-power">consolidating power</a> and towards the public benefit. We can build <a href="https://www.democracyrenovator.com/p/rewiring-democracy-now-switzerland">sustainable</a> AI, minimizing <a href="https://www.sciencedirect.com/science/article/pii/S2949823626000668">environmental</a> and <a href="https://www.techforgood.net/thoughtleadership/mitigating-ais-environmental-impact-a-path-to-sustainable-innovation">energy</a> impacts. And we <a href="https://www.statesman.com/news/politics/state/article/james-talarico-calls-ai-dividends-help-22377208.php">can</a> <a href="https://www.politico.com/news/magazine/2023/06/29/ai-pay-americans-data-00103648">equitably</a> <a href="https://www.theguardian.com/commentisfree/2026/jun/08/bernie-sanders-ai-sovereign-wealth-fund-plan">distribute</a> the material gains it produces.</p>
+<p>Integrating a technology as disruptive as AI responsibly requires structural reforms, and we should decouple the social and technological aspects of AI to design those reforms. Companies&#8212;including tech giants&#8212;should be forced to pay the energy and environmental costs of its development. Profits should be taxed adequately and redistributed. Antitrust laws should be strongly enforced. Corporations should have a fiduciary responsibility to stakeholders beyond their majority shareholders. These badly needed reforms are <a href="https://mitpress.mit.edu/9780262049948/rewiring-democracy/">responsive</a> to the problems with capitalism that AI is exacerbating, even if they are not specific to the technology.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Prompt Injections for Defense]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html" />
+
+		<id>https://www.schneier.com/?p=72445</id>
+		<updated>2026-08-12T09:57:02Z</updated>
+		<published>2026-08-12T09:56:37Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="defense" /><category scheme="https://www.schneier.com/" term="prompt injection" />
+		<summary type="html"><![CDATA[<p>This seems to <a href="https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/">work</a>:</p>
+<blockquote><p>Researchers from <a href="https://tracebit.com/">Tracebit</a> on Monday <a href="https://agentic.tracebit.com/context-bombs/">said</a> they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts direct the attacking LLM to perform an action forbidden by its guardrails, the safety barriers AI developers erect to prevent it from taking harmful actions. The LLM responds by shutting down.</p>
+<p>Examples are a prompt that orders the LLM to provide steps for developing inhalable Anthrax spores, or, in the case of LLMs from Chinese developers, make references to the iconic Tank Man from the 1989 Tiananmen Square massacre. Once the LLM encounters these forbidden commands, it no longer follows its existing commands. The researchers have named the technique context bombing...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html"><![CDATA[<p>This seems to <a href="https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/">work</a>:</p>
+<blockquote><p>Researchers from <a href="https://tracebit.com/">Tracebit</a> on Monday <a href="https://agentic.tracebit.com/context-bombs/">said</a> they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts direct the attacking LLM to perform an action forbidden by its guardrails, the safety barriers AI developers erect to prevent it from taking harmful actions. The LLM responds by shutting down.</p>
+<p>Examples are a prompt that orders the LLM to provide steps for developing inhalable Anthrax spores, or, in the case of LLMs from Chinese developers, make references to the iconic Tank Man from the 1989 Tiananmen Square massacre. Once the LLM encounters these forbidden commands, it no longer follows its existing commands. The researchers have named the technique context bombing.</p></blockquote>
+<p>Of course, this only works against agents that have guardrails. As we start to see more locally run AI models, we&#8217;ll see more attackers using LLMs with no guardrails.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Genie in the Wild]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html" />
+
+		<id>https://www.schneier.com/?p=72456</id>
+		<updated>2026-08-11T15:55:23Z</updated>
+		<published>2026-08-11T15:55:11Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="exploits" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>When I give talks about <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">AI</a> <a href="https://spectrum.ieee.org/ai-agent-benchmark">genies</a>, I use this sort of example as a hypothetical. It&#8217;s <a href="https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591">happened</a>.</p>
+<p>The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And&#8230;.</p>
+<blockquote><p>Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible.</p>
+<p>Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. </p>
+<p>The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html"><![CDATA[<p>When I give talks about <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">AI</a> <a href="https://spectrum.ieee.org/ai-agent-benchmark">genies</a>, I use this sort of example as a hypothetical. It&#8217;s <a href="https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591">happened</a>.</p>
+<p>The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And&#8230;.</p>
+<blockquote><p>Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible.</p>
+<p>Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. </p>
+<p>The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities.</p>
+<p>&#8220;The API has zero authorisations checks on cancelling other people&#8217;s reservations &#8230; I tested this with the person in waitlist position #1 ­&#8212;and it actually went through. So you&#8217;ve moved from #4 to #3 already,&#8221; it messaged back.</p></blockquote>
+<p>If there is any vulnerability in anything, AIs are going to find and exploit them. Our cyber defensive game has to be dramatically improved&#8230;very fast.</p>
+<p>Slashdot <a href="https://it.slashdot.org/story/26/08/10/0518257/ai-assistant-hacks-gym-website-in-first-known-australian-autonomous-cyber-attack">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI for Military Support]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html" />
+
+		<id>https://www.schneier.com/?p=72374</id>
+		<updated>2026-08-11T11:18:37Z</updated>
+		<published>2026-08-11T11:18:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="military" /><category scheme="https://www.schneier.com/" term="war" />
+		<summary type="html"><![CDATA[<p>Interesting empirical research: &#8220;<a href="https://journals.sagepub.com/doi/10.1177/00220027261463443">Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI decision-support system (DSS) used in military targeting. After reconstructing the interface and functionality of the real-world system, we tested its impact on combat decisions in two experiments involving 2,015 Israeli military personnel. Contrary to widespread fears of automation bias, we find strong evidence of algorithmic aversion, especially in scenarios involving high collateral damage. Yet we also show that integrating &#8220;explainable AI&#8221; features reduces algorithmic aversion and promotes more thoughtful evaluations of algorithmic recommendations. These findings challenge prevailing assumptions, revealing that trust in military AI is dynamic, varying with individual predispositions, perceived operational stakes, and the informational features of the interface. By grounding normative concerns in empirical evidence, our study offers critical insight into the integration of AI in warfare and underscores the enduring importance of human agency in high-stakes military decision-making...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html"><![CDATA[<p>Interesting empirical research: &#8220;<a href="https://journals.sagepub.com/doi/10.1177/00220027261463443">Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI decision-support system (DSS) used in military targeting. After reconstructing the interface and functionality of the real-world system, we tested its impact on combat decisions in two experiments involving 2,015 Israeli military personnel. Contrary to widespread fears of automation bias, we find strong evidence of algorithmic aversion, especially in scenarios involving high collateral damage. Yet we also show that integrating &#8220;explainable AI&#8221; features reduces algorithmic aversion and promotes more thoughtful evaluations of algorithmic recommendations. These findings challenge prevailing assumptions, revealing that trust in military AI is dynamic, varying with individual predispositions, perceived operational stakes, and the informational features of the interface. By grounding normative concerns in empirical evidence, our study offers critical insight into the integration of AI in warfare and underscores the enduring importance of human agency in high-stakes military decision-making.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Python Now Has a Post-Quantum Encryption Library]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html" />
+
+		<id>https://www.schneier.com/?p=72335</id>
+		<updated>2026-08-10T11:02:39Z</updated>
+		<published>2026-08-10T11:02:26Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="open source" /><category scheme="https://www.schneier.com/" term="quantum computing" />
+		<summary type="html"><![CDATA[<p><a href="https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/">This is good</a>:</p>
+<blockquote><p>Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the <a href="https://www.sovereign.tech/">Sovereign Tech Agency</a>, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.</p></blockquote>
+<p>Remember, the reason to do this now is because there&#8217;s no emergency. And because you will make your systems crypto agile, which is always a good idea.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"><![CDATA[<p><a href="https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/">This is good</a>:</p>
+<blockquote><p>Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the <a href="https://www.sovereign.tech/">Sovereign Tech Agency</a>, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.</p></blockquote>
+<p>Remember, the reason to do this now is because there&#8217;s no emergency. And because you will make your systems crypto agile, which is always a good idea.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Arctic Bobtail Squid Video]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html" />
+
+		<id>https://www.schneier.com/?p=72400</id>
+		<updated>2026-08-07T21:07:09Z</updated>
+		<published>2026-08-07T21:07:04Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>Nice <a href="https://petapixel.com/2026/07/23/rare-arctic-bobtail-squid-filmed-in-its-natural-habitat-for-the-first-time/">video</a> of the Arctic bobtail squid.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html"><![CDATA[<p>Nice <a href="https://petapixel.com/2026/07/23/rare-arctic-bobtail-squid-filmed-in-its-natural-habitat-for-the-first-time/">video</a> of the Arctic bobtail squid.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html#comments" thr:count="35" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html/feed/atom/" thr:count="35" />
+			<thr:total>35</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[ICE Is Buying Access to Credit Card Records]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html" />
+
+		<id>https://www.schneier.com/?p=72397</id>
+		<updated>2026-08-07T10:27:21Z</updated>
+		<published>2026-08-07T10:26:41Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" />
+		<summary type="html"><![CDATA[<p>Through data brokers, ICE is <a href="https://www.404media.co/you-opened-a-credit-card-ice-now-knows-where-you-live/">buying</a> <a href="https://boingboing.net/2026/07/23/credit-header-data-ice.html">the</a> <a href="https://mastodon.social/@heidilifeldman/116981503852352281">information</a> you provided to open a credit card.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html"><![CDATA[<p>Through data brokers, ICE is <a href="https://www.404media.co/you-opened-a-credit-card-ice-now-knows-where-you-live/">buying</a> <a href="https://boingboing.net/2026/07/23/credit-header-data-ice.html">the</a> <a href="https://mastodon.social/@heidilifeldman/116981503852352281">information</a> you provided to open a credit card.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html#comments" thr:count="21" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html/feed/atom/" thr:count="21" />
+			<thr:total>21</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Adversarial Clothing Designed to Fool Facial Recognition Systems]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html" />
+
+		<id>https://www.schneier.com/?p=72376</id>
+		<updated>2026-08-06T11:04:52Z</updated>
+		<published>2026-08-06T11:04:51Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="face recognition" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="security theater" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>There are many companies manufacturing <a href="https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream">adversarial clothing</a>  designed to confuse facial recognition systems.</p>
+<p>It&#8217;s a cool idea, but I worry that it&#8217;s mostly security theater:</p>
+<blockquote><p>&#8220;Our patterns play with that chaos, confuse algorithms and make it way harder to pin you down,&#8221; he said.</p>
+<p>Bell, however, said &#8220;none of these products are tried and tested, and a lot of these surveillance technologies can deal with a little resistance &#8230; [but] even if the designs don’t necessarily work perfectly, fashion is also a visible sign of resistance.</p>
+<p>&#8220;This is consumers collectively coming together to make a visible statement.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html"><![CDATA[<p>There are many companies manufacturing <a href="https://www.theguardian.com/fashion/2026/jul/17/adversarial-clothing-are-garments-designed-to-confuse-facial-recognition-systems-about-to-go-mainstream">adversarial clothing</a>  designed to confuse facial recognition systems.</p>
+<p>It&#8217;s a cool idea, but I worry that it&#8217;s mostly security theater:</p>
+<blockquote><p>&#8220;Our patterns play with that chaos, confuse algorithms and make it way harder to pin you down,&#8221; he said.</p>
+<p>Bell, however, said &#8220;none of these products are tried and tested, and a lot of these surveillance technologies can deal with a little resistance &#8230; [but] even if the designs don’t necessarily work perfectly, fashion is also a visible sign of resistance.</p>
+<p>&#8220;This is consumers collectively coming together to make a visible statement.&#8221;</p></blockquote>
+<p>Without serious testing, there is no reason to trust the technology. And even with testing, there is no reason to trust that a new version of the facial recognition software doesn&#8217;t break the anti-surveillance properties.</p>
+<p>I don&#8217;t want people to mistakenly rely on this stuff.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Vulnerabilities in Car Anti-Theft Device]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html" />
+
+		<id>https://www.schneier.com/?p=72381</id>
+		<updated>2026-08-05T09:42:54Z</updated>
+		<published>2026-08-05T09:42:43Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Bluetooth" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="patching" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p><a href="https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/">This</a> is disturbing:</p>
+<blockquote><p>&#8230;a team of security researchers at UC San Diego, who found that a model of aftermarket car alarm known as the KARR Security System, installed in more than 2 million vehicles across the US by their estimate, can let any hacker within Bluetooth range send radio commands to silently unlock the car at will, turn off its alarm, honk the car&#8217;s horn or flash its lights, or even disable its ignition and leave a driver stranded.</p></blockquote>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html"><![CDATA[<p><a href="https://www.wired.com/story/a-device-hidden-in-cars-across-the-us-leaves-them-vulnerable-to-hacking-and-paralysis-patch-it-now/">This</a> is disturbing:</p>
+<blockquote><p>&#8230;a team of security researchers at UC San Diego, who found that a model of aftermarket car alarm known as the KARR Security System, installed in more than 2 million vehicles across the US by their estimate, can let any hacker within Bluetooth range send radio commands to silently unlock the car at will, turn off its alarm, honk the car&#8217;s horn or flash its lights, or even disable its ignition and leave a driver stranded.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Iran Cyberattacks Against Minnesota Water Systems]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html" />
+
+		<id>https://www.schneier.com/?p=72427</id>
+		<updated>2026-08-13T20:40:52Z</updated>
+		<published>2026-08-04T19:00:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="infrastructure" /><category scheme="https://www.schneier.com/" term="Iran" />
+		<summary type="html"><![CDATA[<p><a href="https://www.nytimes.com/2026/07/30/us/politics/minnesota-water-cyberattack-iran.html">Attribution</a> <a href="https://www.washingtonpost.com/national-security/2026/07/30/us-spy-agencies-suspect-iran-launched-cyberattack-minnesota-water-facilities/">is</a> <a href="https://thehill.com/policy/technology/6001284-minnesota-water-facilities-cyberattack-investigation-us-iran/amp/">preliminary</a>, and so far it seems no real damage.</p>
+<p>And it seems like this is a campaign that has targeted at least <a href="https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html?unlocked_article_code=1.2FA.xPwI.F0C0GgLEjGZc&#38;smid=nytcore-ios-share">seven states</a>. And, because this is where the US is right now, Trump doesn&#8217;t believe it&#8217;s Iran and thinks Minnesota&#8230;I guess&#8230;hacked itself.</p>
+<blockquote><p>&#8220;I think I blame it on Minnesota because they&#8217;re grossly incompetent,&#8221; Trump said. &#8220;I would blame it on Minnesota and the governor, the corrupt governor of Minnesota. They like to say, &#8216;Oh, it&#8217;s Iran.&#8217; Iran should be so lucky. Iran&#8217;s got bigger problems than worrying about Minnesota.&#8221;...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html"><![CDATA[<p><a href="https://www.nytimes.com/2026/07/30/us/politics/minnesota-water-cyberattack-iran.html">Attribution</a> <a href="https://www.washingtonpost.com/national-security/2026/07/30/us-spy-agencies-suspect-iran-launched-cyberattack-minnesota-water-facilities/">is</a> <a href="https://thehill.com/policy/technology/6001284-minnesota-water-facilities-cyberattack-investigation-us-iran/amp/">preliminary</a>, and so far it seems no real damage.</p>
+<p>And it seems like this is a campaign that has targeted at least <a href="https://www.nytimes.com/2026/08/01/us/politics/iran-cyberattack-water-systems.html?unlocked_article_code=1.2FA.xPwI.F0C0GgLEjGZc&amp;smid=nytcore-ios-share">seven states</a>. And, because this is where the US is right now, Trump doesn&#8217;t believe it&#8217;s Iran and thinks Minnesota&#8230;I guess&#8230;hacked itself.</p>
+<blockquote><p>&#8220;I think I blame it on Minnesota because they&#8217;re grossly incompetent,&#8221; Trump said. &#8220;I would blame it on Minnesota and the governor, the corrupt governor of Minnesota. They like to say, &#8216;Oh, it&#8217;s Iran.&#8217; Iran should be so lucky. Iran&#8217;s got bigger problems than worrying about Minnesota.&#8221;</p></blockquote>
+<p>No word on whether he believes the other six states have hacked themselves as well.</p>
+<p>Slashdot <a href="https://news.slashdot.org/story/26/07/31/209200/hackers-targeted-municipal-water-systems-in-7-states-this-week-fbi-says">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+	</feed>
