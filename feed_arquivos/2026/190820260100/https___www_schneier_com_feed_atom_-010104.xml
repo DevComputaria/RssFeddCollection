@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-08-18T10:40:19Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[LLMs and Contextual Integrity]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html" />
+
+		<id>https://www.schneier.com/?p=72435</id>
+		<updated>2026-08-18T10:40:19Z</updated>
+		<published>2026-08-18T10:40:16Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="integrity" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p>I have been thinking a lot about AI and integrity. Part of that is contextual integrity. I recently found two papers on the topic.</p>
+<p>&#8220;<a href="https://arxiv.org/abs/2511.14937">CIMemories: A Compositional Benchmark for Contextual Integrity of Persistent Memory in LLMs</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> Large Language Models (LLMs) increasingly use persistent memory from past interactions to enhance personalization and task performance. However, this memory introduces critical risks when sensitive information is revealed in inappropriate contexts. We present CIMemories, a benchmark for evaluating whether LLMs appropriately control information flow from memory based on task context. CIMemories uses synthetic user profiles with over 100 attributes per user, paired with diverse task contexts in which each attribute may be essential for some tasks but inappropriate for others. Our evaluation reveals that frontier models exhibit up to 69% attribute-level violations (leaking information inappropriately), with lower violation rates often coming at the cost of task utility. Violations accumulate across both tasks and runs: as usage increases from 1 to 40 tasks, GPT-5&#8217;s violations rise from 0.1% to 9.6%, reaching 25.1% when the same prompt is executed 5 times, revealing arbitrary and unstable behavior in which models leak different attributes for identical prompts. Privacy-conscious prompting does not solve this&#8212;models overgeneralize, sharing everything or nothing rather than making nuanced, context-dependent decisions. These findings reveal fundamental limitations that require contextually aware reasoning capabilities, not just better prompting or scaling...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html"><![CDATA[<p>I have been thinking a lot about AI and integrity. Part of that is contextual integrity. I recently found two papers on the topic.</p>
+<p>&#8220;<a href="https://arxiv.org/abs/2511.14937">CIMemories: A Compositional Benchmark for Contextual Integrity of Persistent Memory in LLMs</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> Large Language Models (LLMs) increasingly use persistent memory from past interactions to enhance personalization and task performance. However, this memory introduces critical risks when sensitive information is revealed in inappropriate contexts. We present CIMemories, a benchmark for evaluating whether LLMs appropriately control information flow from memory based on task context. CIMemories uses synthetic user profiles with over 100 attributes per user, paired with diverse task contexts in which each attribute may be essential for some tasks but inappropriate for others. Our evaluation reveals that frontier models exhibit up to 69% attribute-level violations (leaking information inappropriately), with lower violation rates often coming at the cost of task utility. Violations accumulate across both tasks and runs: as usage increases from 1 to 40 tasks, GPT-5&#8217;s violations rise from 0.1% to 9.6%, reaching 25.1% when the same prompt is executed 5 times, revealing arbitrary and unstable behavior in which models leak different attributes for identical prompts. Privacy-conscious prompting does not solve this&#8212;models overgeneralize, sharing everything or nothing rather than making nuanced, context-dependent decisions. These findings reveal fundamental limitations that require contextually aware reasoning capabilities, not just better prompting or scaling.</p></blockquote>
+<p>&#8220;<a href="https://arxiv.org/abs/2506.04245">Contextual Integrity in LLMs via Reasoning and Reinforcement Learning</a>&#8220;:</p>
+<blockquote><p><b>Abstract:</b> As the era of autonomous agents making decisions on behalf of users unfolds, ensuring contextual integrity (CI)&#8212;what is the appropriate information to share while carrying out a certain task&#8212;becomes a central question to the field. We posit that CI demands a form of reasoning where the agent needs to reason about the context in which it is operating. To test this, we first prompt LLMs to reason explicitly about CI when deciding what information to disclose. We then extend this approach by developing a reinforcement learning (RL) framework that further instills in models the reasoning necessary to achieve CI. Using a synthetic, automatically created, dataset of only 700 examples but with diverse contexts and information disclosure norms, we show that our method substantially reduces inappropriate information disclosure while maintaining task performance across multiple model sizes and families. Importantly, improvements transfer from this synthetic dataset to established CI benchmarks such as PrivacyLens that has human annotations and evaluates privacy leakage of AI assistants in actions and tool calls.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Hacking Public Wi-Fi DNS to Steal Credentials]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html" />
+
+		<id>https://www.schneier.com/?p=72433</id>
+		<updated>2026-08-17T11:18:17Z</updated>
+		<published>2026-08-17T11:18:03Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="credentials" /><category scheme="https://www.schneier.com/" term="DNS" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="phishing" /><category scheme="https://www.schneier.com/" term="theft" />
+		<summary type="html"><![CDATA[<p>Criminals are <a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/">hacking</a> into public Wi-Fi devices&#8212;at hotels, conference centers, and so on&#8212;around the world and changing their DNS settings. The goal is to redirect users to fake login pages and steal their credentials.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html"><![CDATA[<p>Criminals are <a href="https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/">hacking</a> into public Wi-Fi devices&#8212;at hotels, conference centers, and so on&#8212;around the world and changing their DNS settings. The goal is to redirect users to fake login pages and steal their credentials.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Searching for the Colossal Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html" />
+
+		<id>https://www.schneier.com/?p=72437</id>
+		<updated>2026-08-14T21:02:29Z</updated>
+		<published>2026-08-14T21:01:49Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" /><category scheme="https://www.schneier.com/" term="video" />
+		<summary type="html"><![CDATA[<p>Fascinating <a href="https://www.youtube.com/watch?v=-W1Mwd0BWT4">video</a> about searching for life undersea. The video basically makes the point that our bright white searchlights are scaring everything away, and that red light is more neutral. That, plus bait to attract sea creatures, is teaching us a lot about what&#8217;s going on down there. Lots of footage of giant squid, and speculation about the colossal squid. Worth watching.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html"><![CDATA[<p>Fascinating <a href="https://www.youtube.com/watch?v=-W1Mwd0BWT4">video</a> about searching for life undersea. The video basically makes the point that our bright white searchlights are scaring everything away, and that red light is more neutral. That, plus bait to attract sea creatures, is teaching us a lot about what&#8217;s going on down there. Lots of footage of giant squid, and speculation about the colossal squid. Worth watching.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html" />
+
+		<id>https://www.schneier.com/?p=72454</id>
+		<updated>2026-08-14T16:02:35Z</updated>
+		<published>2026-08-14T16:01:59Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking, signing books, and participating in panel discussions at <a href="https://www.lacon.org/">LAcon V</a> in Anaheim, California, USA. My full schedule is <a href="https://guide.lacon.org/people/d58aec20/bruce-schneier">here</a>.</li>
+<li>I&#8217;m speaking online (via Zoom) at a <a href="https://www.lwvme.org/civicrm-event/2400?a0=events-month&#38;a1=202609">League of Women Voters event</a> on Tuesday, September 22, 2026, at 5 PM ET.</li>
+<li>I’m speaking at <a href="https://elevatefestival.ca/">Elevate Festival</a> in Toronto, Canada. The conference runs September 22–24, 2026; my talk is on Wednesday, September 23.</li>
+<li>I’m speaking at <a href="https://www.secwest.net/">CanSecWest 2026</a> in Vancouver, Canada. The conference runs September 30–October 1, 2026; the time of my talk is TBD...</li></ul>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking, signing books, and participating in panel discussions at <a href="https://www.lacon.org/">LAcon V</a> in Anaheim, California, USA. My full schedule is <a href="https://guide.lacon.org/people/d58aec20/bruce-schneier">here</a>.</li>
+<li>I&#8217;m speaking online (via Zoom) at a <a href="https://www.lwvme.org/civicrm-event/2400?a0=events-month&amp;a1=202609">League of Women Voters event</a> on Tuesday, September 22, 2026, at 5 PM ET.</li>
+<li>I’m speaking at <a href="https://elevatefestival.ca/">Elevate Festival</a> in Toronto, Canada. The conference runs September 22–24, 2026; my talk is on Wednesday, September 23.</li>
+<li>I’m speaking at <a href="https://www.secwest.net/">CanSecWest 2026</a> in Vancouver, Canada. The conference runs September 30–October 1, 2026; the time of my talk is TBD.</li>
+<li>I’m speaking at <a href="https://www.attentionconferences.com/conferences/2026-forum">ATTENTION: Democracy, Rebuilt</a> in Montreal, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html" />
+
+		<id>https://www.schneier.com/?p=72466</id>
+		<updated>2026-08-14T11:04:09Z</updated>
+		<published>2026-08-14T11:03:50Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="public interest" />
+		<summary type="html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/aug/12/openai-anthropic-ai-models">The Guardian</a>.</em></p>
+<p>OpenAI, and then <a href="https://www.theguardian.com/technology/anthropic">Anthropic</a>, were each formed by AI developers who feared unrestrained corporate AI development&#8212;specifically, that companies like Google and Meta would steer the technology towards deleterious, maybe even catastrophically unsafe, outcomes for society. Their founders proclaimed that their new labs, uniquely, could be trusted to develop the technology in humanity&#8217;s best interest. But each, in turn, were themselves co-opted by the same market incentives, themselves becoming corporate behemoths zealously guarding future investor value rather than the public interest...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.theguardian.com/commentisfree/2026/aug/12/openai-anthropic-ai-models">The Guardian</a>.</em></p>
+<p>OpenAI, and then <a href="https://www.theguardian.com/technology/anthropic">Anthropic</a>, were each formed by AI developers who feared unrestrained corporate AI development&#8212;specifically, that companies like Google and Meta would steer the technology towards deleterious, maybe even catastrophically unsafe, outcomes for society. Their founders proclaimed that their new labs, uniquely, could be trusted to develop the technology in humanity&#8217;s best interest. But each, in turn, were themselves co-opted by the same market incentives, themselves becoming corporate behemoths zealously guarding future investor value rather than the public interest.</p>
+<p>It was only a few weeks ago, in June, when OpenAI and Anthropic each <a href="https://www.reuters.com/technology/openai-files-us-ipo-after-anthropic-ai-giants-head-public-markets-2026-06-08/">filed</a> for their IPOs and were met with buzz about trillion-dollar valuations. The hype around their valuations is so extreme that many worry about their potential for concentrating wealth on a global scale. In an effort to leave something for the rest of us, some observers have proposed that the federal government seize a share of these companies&#8217; stock to create a US <a href="https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/">sovereign wealth fund</a>, or redistribute their revenues to produce a <a href="https://ai-2040.com/?choices=plan-a-root#five-centuries-in-five-years-what-pausing-at-human-level-feels-like:~:text=2033%3A%20The%20Citizen%E2%80%99s%20Dividend">dividend</a> for taxpayers.</p>
+<p>Now the headlines are about public <a href="https://www.nbcnews.com/politics/2026-election/booming-backlash-ai-data-centers-shaping-midterm-election-rcna589624">backlash</a> to AI datacenters and the AI chip giant Nvidia&#8217;s <a href="https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-27-2026/card/nvidia-stock-slumps-after-data-center-report-i8YSwB1phOr8Gs1EtmNU">slumping</a> stock. The tech and AI giant SpaceX&#8217;s newly minted stock price <a href="https://www.cnbc.com/2026/06/22/spacex-stock-ipo-rally-selloff.html">tanked</a> just weeks after its IPO. There are even questions about whether the leading AI labs will ever be sustainably <a href="https://www.wheresyoured.at/the-openai-bubble/">profitable</a>. All of a sudden, the makers of ChatGPT and Claude face strong headwinds as they seek to generate the massive equity assets that once felt all but assured.</p>
+<p>In fact, evidence suggests the market itself could reassess that these companies offer nothing of financial value. In that case, perhaps we can return them both to their original purposes. If these AI companies should fail in the financial markets, the US should nationalize them and convert them into national labs operated under democratic control that preserve their benefit to the public interest.</p>
+<p>The economics of the big AI labs hardly guarantee a booming return on investment. Frontier AI models are both expensive to train and depreciate within months, when a newer model appears. This means that the payback <a href="https://epoch.ai/gradient-updates/can-ai-companies-become-profitable">window</a> to extract profit from them is very narrow. Meanwhile, enterprise clients are getting smart about <a href="https://www.nytimes.com/2026/06/18/technology/ai-token-minimizing.html">minimizing</a> AI token usage. Even worse, the models are basically commodities; the best ones largely perform and behave similarly, which depresses prices. Perhaps most importantly, open-source and Chinese competitors&#8212;<a href="https://epoch.ai/data-insights/open-closed-eci-gap">lagging</a> only a few months behind the leading labs in capability&#8212;give away for free the kinds of models Anthropic and OpenAI sell.</p>
+<p>Even setting aside the model training costs, it&#8217;s not clear whether the <a href="https://www.wheresyoured.at/ais-economics-dont-make-sense-ad-free/">unit economics</a> of AI as it&#8217;s currently conceived will ever be sustainably profitable. Many of these free and open-source models can be run locally: the large ones on private clouds and high-end servers, the smaller ones on anyone&#8217;s laptop or even cellphone, putting to question the companies&#8217; exorbitant capital investment in datacenters.</p>
+<p>It&#8217;s not that OpenAI and Anthropic are not valuable as organizations. They have remarkably talented AI scientists and engineers that are continuously producing innovations driving a global mania for their offerings. These leading labs might not ever be profitable, but their products are doing a lot of good in the world. You may or may not be a user of or believer in their technology, but their staggering, ongoing usage <a href="https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/">growth</a> suggests that an awful lot of people would be disappointed if the companies simply disappeared.</p>
+<p>The problem isn&#8217;t the people or the products, it&#8217;s the system. As constituted, <a href="https://www.theguardian.com/technology/openai">OpenAI</a> and Anthropic may not be valuable as market equities. If the market assesses they are not capable of producing a growing financial return on investment for shareholders, the companies will collapse.</p>
+<p>Maybe private, for-profit is just not the right economic model under which to develop AI. Perhaps OpenAI should be returned to its private non-profit roots, the legacy they <a href="https://finance.yahoo.com/news/openai-prevails-in-musks-lawsuit-paving-the-way-for-ipo-175338618.html">fought</a> so hard to change and which Anthropic&#8217;s founders <a href="https://time.com/6983420/anthropic-structure-openai-incentives/">spurned</a>. Or possibly both could be reorganized as research centers at universities, returning to academia the scores of high-profile research faculty they have <a href="https://www.theatlantic.com/technology/2026/07/ai-companies-hiring-academics/688002/">poached</a>.</p>
+<p>But a better outcome for society would be to establish public ownership and operation of their product-oriented capabilities. Turn OpenAI and Anthropic into US government agencies producing AI as a public good.</p>
+<p>Transitioning the big AI labs into public agencies would require some restructuring. We can separate these companies into two pieces: product innovation and compute operations. The innovation function can be publicly managed, akin to national labs. Congress could provide more rigorous oversight than the kind of unfettered venture capital these labs have recently had access to. The US has a long, successful history of these kinds of institutions, which have produced world-shaping innovations in spaceflight, telecommunications, nuclear power and more. Congress currently manages a $200bn R&amp;D <a href="https://ncses.nsf.gov/surveys/federal-funds-research-development/2024-2025">portfolio</a>, within which frontier AI development is, arguably, a glaring gap.</p>
+<p>AI operations could be managed as a commodity resource, like public electrical or water utilities: local or regional ownership, nationwide distribution and strict regulation on how they balance fee extraction from ratepayers with raising capital for infrastructure investment. Although AI datacenters are not the same as power or water treatment plants, the US also has a long history of managing national, regional and state supercomputing centers.</p>
+<p>Other countries, including <a href="https://www.democracyrenovator.com/p/rewiring-democracy-now-switzerland">Switzerland</a>, <a href="https://alia.gob.es/eng">Spain</a> and <a href="https://sea-lion.ai">Singapore</a>, are already operating public AI labs. They also have national supercomputing centers already <a href="https://publicai.co">providing</a> public access for running AI models for general use, as do Germany and Australia.</p>
+<p>The <a href="https://www.brookings.edu/articles/how-public-ai-can-strengthen-democracy/">benefits</a> to the public are clear. Through democratic oversight, the most important AI models could become open, transparent and responsive to the demands of the public rather than private shareholders. They could be aligned to democratic values rather than corporate profits, never taking advertiser money to promote certain brands and training on only appropriately licensed data. And they could be set to focus on the realistic and pro-social goal of maximizing the usefulness of AI to society rather than the fanciful and anti-social goal of supplanting humans with artificial general intelligence.</p>
+<p>By emphasizing scientific cooperation rather than corporate competition, we could also reduce the overall resource and environmental cost associated with AI. Instead of perpetually dueling training runs of each companies&#8217; models at ever large scales targeted to fuel investor hype, we could limit AI training resources based on cost and benefit to the public.</p>
+<p>What&#8217;s in it for the companies themselves and their employees, who sacrifice hypothetical billions in equity by ceding to public ownership? A return to their roots and to their <a href="https://simonwillison.net/2026/Feb/13/openai-mission-statement/">core</a> <a href="https://ailabwatch.substack.com/p/anthropics-certificate-of-incorporation">mission</a> of developing AI safely in the public interest, if they are serious about it. Both companies are theoretically <a href="https://www.wsj.com/opinion/openai-and-anthropic-put-prophets-before-profits-1617003e">bound</a> through their governance structures to prioritize mission over profit anyway (not that anyone really thinks that&#8217;s how they currently operate).</p>
+<p>To be clear, we&#8217;re not advocating for a golden parachute for the executives or investors, or for continuing the <a href="https://www.nytimes.com/2025/07/31/technology/ai-researchers-nba-stars.html">outlandish</a> pay rates of the most highly remunerated AI researchers. If the public is footing the bill, these compensation packages should be aligned to the civil service and those employees not satisfied with that can go elsewhere&#8212;if the business models of any remaining private labs still support much higher pay.</p>
+<p>While we believe that these companies are unsustainable as private firms, the timeline remains unclear. Their primary investor story is that AI is a race to &#8220;artificial general intelligence&#8221;&#8212;the kind of AI you&#8217;re used to from science fiction. The bet seems to be that the two companies can convince enough people that this outcome will turn them a profit, go public, and then make their investors and employees rich before the bubble bursts.</p>
+<p>But suppose that the bubble bursts. If the US is smart, it will catch the companies as they fall. Regardless of what the markets think, to the public, they&#8217;re too valuable to let die.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html#comments" thr:count="26" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html/feed/atom/" thr:count="26" />
+			<thr:total>26</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Separating AI’s Technological Problems from Its Capitalism Problems]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html" />
+
+		<id>https://www.schneier.com/?p=72463</id>
+		<updated>2026-08-13T11:07:21Z</updated>
+		<published>2026-08-13T11:07:19Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.techpolicy.press/separating-ais-technological-problems-from-its-capitalism-problems/">Tech Policy Press</a>.</em></p>
+<p>AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only comparable moment is the early years of the industrial revolution, when new technologies like the steam engine provided a quantum leap in our ability to do mechanical work outside of our bodies at scale. If AI&#8217;s cognitive capabilities become integrated into our lives, businesses, and governments&#8212;a process that will take years if not decades&#8212;society will be as unrecognizable as the modern world would be to a preindustrial farmer. And yet, Americans&#8212;by a wide margin&#8212;...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.techpolicy.press/separating-ais-technological-problems-from-its-capitalism-problems/">Tech Policy Press</a>.</em></p>
+<p>AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only comparable moment is the early years of the industrial revolution, when new technologies like the steam engine provided a quantum leap in our ability to do mechanical work outside of our bodies at scale. If AI&#8217;s cognitive capabilities become integrated into our lives, businesses, and governments&#8212;a process that will take years if not decades&#8212;society will be as unrecognizable as the modern world would be to a preindustrial farmer. And yet, Americans&#8212;by a wide margin&#8212;<a href="https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/">say</a> that AI is moving too fast and will have a negative effect on society.</p>
+<p>This confluence of technological revolution and public distrust deserves urgent discussion, and a proper framing. The question is not whether it is possible to develop AI in a non-exploitative way, or even whether we can trust AI companies to act in the public interest. The question is whether we will recognize that our existing social and economic systems are failing to achieve these outcomes, and whether we can act in time to make structural change.</p>
+<p>Today&#8217;s AI is <a href="https://www.schneier.com/blog/archives/2025/04/reimagining-democracy-2.html">mired</a> in political and economic systems developed generations ago that were never designed to manage widespread computation, let alone automated cognition. The gaps in those systems&#8212;and their proclivity to be <a href="https://wwnorton.com/books/9780393866667">exploited</a>&#8212;are the primary influence on how the technology is being developed, deployed, and used.</p>
+<p>In any discussion about AI&#8217;s potential, it&#8217;s important to separate the technology from the socio-political system it&#8217;s embedded in. That AIs can lack context, mix up facts, or fall for stupid tricks are all technological problems. Because the giant developers like OpenAI and Anthropic have prioritized solving them, AIs can now more easily access resources like the web or email, are more disciplined about using those resources, and are better at staying within their guardrails.</p>
+<p>Yet AI developers do not seem to be prioritizing other technological problems. Major AI models still act far more <a href="https://www.science.org/doi/10.1126/science.aec8352">sycophantic</a> than humans, telling people what they want to hear even when untrue or not in their best interests. Popular AI models tend to answer questions <a href="https://news.mit.edu/2026/better-method-identifying-overconfident-large-language-models-0319">confidently</a> even when they lack training, knowledge, or evidence to back their claims. In both cases, AI developers choose to train models that please users with flattery and the appearance of competence, rather than constraining them to act in users&#8217; and society&#8217;s best interests.</p>
+<p>In contrast, ensuring that AI models benefit people broadly, that their energy costs are fairly allocated, that their environmental impacts are minimized, and that they don&#8217;t steal content and revenue from publishers are all questions of incentives in a capitalist system.</p>
+<p>It&#8217;s easy to conflate technology problems with capitalism problems. Back in 2021, science-fiction writer and AI commentator Ted Chiang <a href="https://www.nytimes.com/2021/03/30/podcasts/ezra-klein-podcast-ted-chiang-transcript.html">said</a> that &#8220;most fears about AI are best understood as fears about capitalism.&#8221; It&#8217;s not the tech <em>per se</em>; it&#8217;s who controls it and how it could be used against us.</p>
+<p>Imagine an AI assistant for a doctor. We can imagine it affecting the profession in one of two ways. The AI could give a doctor more time to do the human parts of their job: to spend more time with their patients, to listen more closely to their needs, to explain things more fully. Or the managers of the medical practice could give that doctor five times the patients&#8212;and fire the other four. Which way it would go is not a question of technology. It&#8217;s a question of market incentives.</p>
+<p>The two are related, of course. Capitalism steers technology, and technology steers markets. But holding the two separate helps us understand that we, as a society, face independent choices on both the technological and sociopolitical axes that need not be coupled.</p>
+<p>For example, consider the costs of AI. The leading US labs <a href="https://www.wsj.com/tech/ai/openai-anthropic-ipo-finances-04b3cfb9?mod=hp_lead_pos1">tout</a> to investors that their frontier models are very expensive and energy-intensive. There are significant technological challenges about improving their energy efficiency, but the sociopolitical questions are more pertinent. It&#8217;s a corporate decision made under capitalist market incentives to constantly pursue new models that incrementally push the frontier&#8212;at enormous capital cost&#8212;and to use them, seemingly, everywhere. Nothing about the technology of AI dictates that models must be retrained constantly, at the largest possible scale. Or that they have to run on every web search, every interaction with your phone, and every time you walk by a security camera.</p>
+<p>In a different political and economic system, Chinese developers are producing&#8212;and then <a href="https://open.substack.com/pub/garymarcus/p/china-has-all-but-caught-up-the-us">giving</a> <a href="https://taipology.substack.com/p/china-closes-the-ai-gap">away</a>&#8212;smaller, more <a href="https://www.barrons.com/news/china-s-moonshot-ai-chases-deepseek-moment-with-much-hyped-model-79ed3105">efficient</a>, more <a href="https://www.bloomberg.com/news/articles/2026-04-27/why-china-s-deepseek-qwen-and-moonshot-are-a-worry-for-us-ai-rivals">affordable</a> models. While the US government seeks to <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-house-passes-bill-to-stop-chinese-companies-from-accessing-export-controlled-american-ai-chips-using-offshore-rental-loophole-remote-access-security-access-act-effectively-extends-export-controls-to-the-cloud">restrict</a> China&#8217;s access to the most advanced chips, China is <a href="https://www.wsj.com/tech/ai/chinas-xi-touts-open-source-ai-and-takes-a-swipe-at-u-s-dominance-1eaa5cfe">betting</a> that incentivizing their tech giants to create leaner, more open models using more commodity hardware&#8212;models that can be trained with older chips and run even on <a href="https://unsloth.ai/docs/models/glm-5.2">personal computers</a>&#8212;will be an advantage in achieving widespread use and, perhaps, Chinese national influence.</p>
+<p>There are other pathways for AI development that are not in service of private capital gains nor authoritarian regimes, but rather a <a href="https://www.brookings.edu/articles/how-public-ai-can-strengthen-democracy/">democratic public interest</a>. The best example comes from Switzerland, where public institutions&#8212;research funding agencies, universities, supercomputing centers&#8212;have collaborated to produce an AI model called <a href="https://www.democracyrenovator.com/p/rewiring-democracy-now-switzerland">Apertus</a>. It is trained entirely on data validated to be licensed for use with AI (not stolen), on preexisting public computing infrastructure, and using renewable hydropower. Its developers are incentivized to produce a public good, not turn a private profit.</p>
+<p>It&#8217;s dangerous to confuse technology problems with sociopolitical ones. Popular proposals like <a href="https://www.reuters.com/business/anthropic-says-ai-labs-need-coordinated-plan-halt-development-if-risks-rise-2026-06-04/">pausing</a> AI research, <a href="https://www.theguardian.com/commentisfree/2026/jul/09/ai-datacenter-company-politics">moratoria</a> on data center development, or subjecting frontier models to federal government <a href="https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa">screening</a> are all framed as addressing problems with AI&#8217;s technological development, but fail to take into account the larger social problems that govern it. China&#8217;s <a href="https://garymarcus.substack.com/p/china-has-all-but-caught-up-the-us?r=6x5gs&amp;utm_medium=ios&amp;triedRedirect=true">success</a> with government-<a href="https://www.wsj.com/tech/ai/chinas-xi-touts-open-source-ai-and-takes-a-swipe-at-u-s-dominance-1eaa5cfe">endorsed</a> development of open-weight frontier models illustrates the futility of keeping AI tech as national secrets, or of any pledge to scale back deployment.</p>
+<p>AI is already legitimately useful for a wide range of tasks. It can be a tool for public good, if we choose to solve its sociopolitical problems. Our goal should not be to slow its pace of improvement or scale of deployment, but rather to steer it away from <a href="https://betterwithout.ai/fear-AI-power">consolidating power</a> and towards the public benefit. We can build <a href="https://www.democracyrenovator.com/p/rewiring-democracy-now-switzerland">sustainable</a> AI, minimizing <a href="https://www.sciencedirect.com/science/article/pii/S2949823626000668">environmental</a> and <a href="https://www.techforgood.net/thoughtleadership/mitigating-ais-environmental-impact-a-path-to-sustainable-innovation">energy</a> impacts. And we <a href="https://www.statesman.com/news/politics/state/article/james-talarico-calls-ai-dividends-help-22377208.php">can</a> <a href="https://www.politico.com/news/magazine/2023/06/29/ai-pay-americans-data-00103648">equitably</a> <a href="https://www.theguardian.com/commentisfree/2026/jun/08/bernie-sanders-ai-sovereign-wealth-fund-plan">distribute</a> the material gains it produces.</p>
+<p>Integrating a technology as disruptive as AI responsibly requires structural reforms, and we should decouple the social and technological aspects of AI to design those reforms. Companies&#8212;including tech giants&#8212;should be forced to pay the energy and environmental costs of its development. Profits should be taxed adequately and redistributed. Antitrust laws should be strongly enforced. Corporations should have a fiduciary responsibility to stakeholders beyond their majority shareholders. These badly needed reforms are <a href="https://mitpress.mit.edu/9780262049948/rewiring-democracy/">responsive</a> to the problems with capitalism that AI is exacerbating, even if they are not specific to the technology.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Prompt Injections for Defense]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html" />
+
+		<id>https://www.schneier.com/?p=72445</id>
+		<updated>2026-08-12T09:57:02Z</updated>
+		<published>2026-08-12T09:56:37Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="defense" /><category scheme="https://www.schneier.com/" term="prompt injection" />
+		<summary type="html"><![CDATA[<p>This seems to <a href="https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/">work</a>:</p>
+<blockquote><p>Researchers from <a href="https://tracebit.com/">Tracebit</a> on Monday <a href="https://agentic.tracebit.com/context-bombs/">said</a> they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts direct the attacking LLM to perform an action forbidden by its guardrails, the safety barriers AI developers erect to prevent it from taking harmful actions. The LLM responds by shutting down.</p>
+<p>Examples are a prompt that orders the LLM to provide steps for developing inhalable Anthrax spores, or, in the case of LLMs from Chinese developers, make references to the iconic Tank Man from the 1989 Tiananmen Square massacre. Once the LLM encounters these forbidden commands, it no longer follows its existing commands. The researchers have named the technique context bombing...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html"><![CDATA[<p>This seems to <a href="https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/">work</a>:</p>
+<blockquote><p>Researchers from <a href="https://tracebit.com/">Tracebit</a> on Monday <a href="https://agentic.tracebit.com/context-bombs/">said</a> they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts direct the attacking LLM to perform an action forbidden by its guardrails, the safety barriers AI developers erect to prevent it from taking harmful actions. The LLM responds by shutting down.</p>
+<p>Examples are a prompt that orders the LLM to provide steps for developing inhalable Anthrax spores, or, in the case of LLMs from Chinese developers, make references to the iconic Tank Man from the 1989 Tiananmen Square massacre. Once the LLM encounters these forbidden commands, it no longer follows its existing commands. The researchers have named the technique context bombing.</p></blockquote>
+<p>Of course, this only works against agents that have guardrails. As we start to see more locally run AI models, we&#8217;ll see more attackers using LLMs with no guardrails.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Genie in the Wild]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html" />
+
+		<id>https://www.schneier.com/?p=72456</id>
+		<updated>2026-08-11T15:55:23Z</updated>
+		<published>2026-08-11T15:55:11Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="exploits" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>When I give talks about <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">AI</a> <a href="https://spectrum.ieee.org/ai-agent-benchmark">genies</a>, I use this sort of example as a hypothetical. It&#8217;s <a href="https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591">happened</a>.</p>
+<p>The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And&#8230;.</p>
+<blockquote><p>Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible.</p>
+<p>Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. </p>
+<p>The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html"><![CDATA[<p>When I give talks about <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">AI</a> <a href="https://spectrum.ieee.org/ai-agent-benchmark">genies</a>, I use this sort of example as a hypothetical. It&#8217;s <a href="https://www.theregister.com/ai-and-ml/2026/08/10/gym-rat-asks-ai-agent-to-book-him-a-class-it-hacks-a-waitlist-api-to-bump-him-up-the-list/5285591">happened</a>.</p>
+<p>The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And&#8230;.</p>
+<blockquote><p>Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several weeks in advance, far beyond what was supposed to be possible.</p>
+<p>Andrew, who was sitting fourth on a waitlist for a class later that week, asked if it was possible to move him to the top of the list. </p>
+<p>The agent came back and told Andrew that it had kicked another gym-goer off the list as part of the testing of its capabilities.</p>
+<p>&#8220;The API has zero authorisations checks on cancelling other people&#8217;s reservations &#8230; I tested this with the person in waitlist position #1 ­&#8212;and it actually went through. So you&#8217;ve moved from #4 to #3 already,&#8221; it messaged back.</p></blockquote>
+<p>If there is any vulnerability in anything, AIs are going to find and exploit them. Our cyber defensive game has to be dramatically improved&#8230;very fast.</p>
+<p>Slashdot <a href="https://it.slashdot.org/story/26/08/10/0518257/ai-assistant-hacks-gym-website-in-first-known-australian-autonomous-cyber-attack">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI for Military Support]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html" />
+
+		<id>https://www.schneier.com/?p=72374</id>
+		<updated>2026-08-11T11:18:37Z</updated>
+		<published>2026-08-11T11:18:07Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="military" /><category scheme="https://www.schneier.com/" term="war" />
+		<summary type="html"><![CDATA[<p>Interesting empirical research: &#8220;<a href="https://journals.sagepub.com/doi/10.1177/00220027261463443">Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI decision-support system (DSS) used in military targeting. After reconstructing the interface and functionality of the real-world system, we tested its impact on combat decisions in two experiments involving 2,015 Israeli military personnel. Contrary to widespread fears of automation bias, we find strong evidence of algorithmic aversion, especially in scenarios involving high collateral damage. Yet we also show that integrating &#8220;explainable AI&#8221; features reduces algorithmic aversion and promotes more thoughtful evaluations of algorithmic recommendations. These findings challenge prevailing assumptions, revealing that trust in military AI is dynamic, varying with individual predispositions, perceived operational stakes, and the informational features of the interface. By grounding normative concerns in empirical evidence, our study offers critical insight into the integration of AI in warfare and underscores the enduring importance of human agency in high-stakes military decision-making...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html"><![CDATA[<p>Interesting empirical research: &#8220;<a href="https://journals.sagepub.com/doi/10.1177/00220027261463443">Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI decision-support system (DSS) used in military targeting. After reconstructing the interface and functionality of the real-world system, we tested its impact on combat decisions in two experiments involving 2,015 Israeli military personnel. Contrary to widespread fears of automation bias, we find strong evidence of algorithmic aversion, especially in scenarios involving high collateral damage. Yet we also show that integrating &#8220;explainable AI&#8221; features reduces algorithmic aversion and promotes more thoughtful evaluations of algorithmic recommendations. These findings challenge prevailing assumptions, revealing that trust in military AI is dynamic, varying with individual predispositions, perceived operational stakes, and the informational features of the interface. By grounding normative concerns in empirical evidence, our study offers critical insight into the integration of AI in warfare and underscores the enduring importance of human agency in high-stakes military decision-making.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Python Now Has a Post-Quantum Encryption Library]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html" />
+
+		<id>https://www.schneier.com/?p=72335</id>
+		<updated>2026-08-10T11:02:39Z</updated>
+		<published>2026-08-10T11:02:26Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="encryption" /><category scheme="https://www.schneier.com/" term="open source" /><category scheme="https://www.schneier.com/" term="quantum computing" />
+		<summary type="html"><![CDATA[<p><a href="https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/">This is good</a>:</p>
+<blockquote><p>Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the <a href="https://www.sovereign.tech/">Sovereign Tech Agency</a>, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.</p></blockquote>
+<p>Remember, the reason to do this now is because there&#8217;s no emergency. And because you will make your systems crypto agile, which is always a good idea.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"><![CDATA[<p><a href="https://blog.trailofbits.com/2026/06/30/shipping-post-quantum-cryptography-to-python/">This is good</a>:</p>
+<blockquote><p>Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the <a href="https://www.sovereign.tech/">Sovereign Tech Agency</a>, we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/cryptography.</p></blockquote>
+<p>Remember, the reason to do this now is because there&#8217;s no emergency. And because you will make your systems crypto agile, which is always a good idea.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+	</feed>
