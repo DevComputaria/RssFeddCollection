@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-09-29T11:03:07Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Using Device Linking to Eavesdrop on WhatsApp and Signal]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html" />
+
+		<id>https://www.schneier.com/?p=72693</id>
+		<updated>2026-09-29T11:03:07Z</updated>
+		<published>2026-09-29T11:02:19Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="eavesdropping" /><category scheme="https://www.schneier.com/" term="law enforcement" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="Signal" /><category scheme="https://www.schneier.com/" term="WhatsApp" />
+		<summary type="html"><![CDATA[<p>Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are <a href="https://cybernews.com/privacy/police-telegram-whatsapp-signal-surveillance-linked-devices/">taking advantage</a> of this capability:</p>
+<blockquote><p>Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers.</p>
+<p>Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217;s account.</p>
+<p>Once connected, messages can be delivered to that computer without the police having to crack the encryption protecting them.</p>
+<p><a href="https://netzpolitik.org/2026/messenger-ueberwachung-immer-mehr-polizei-ueberwacht-messenger-wie-whatsapp/#2026-02-20_ZKA_Messenger-Ueberwachung">Netzpoltik details</a> that police are able to gain access in this way either through physical access to someone&#8217;s phone or by intercepting verification codes via a state-sanctioned phishing attack or intercepting SMS messages via telephone surveillance...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html"><![CDATA[<p>Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are <a href="https://cybernews.com/privacy/police-telegram-whatsapp-signal-surveillance-linked-devices/">taking advantage</a> of this capability:</p>
+<blockquote><p>Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers.</p>
+<p>Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217;s account.</p>
+<p>Once connected, messages can be delivered to that computer without the police having to crack the encryption protecting them.</p>
+<p><a href="https://netzpolitik.org/2026/messenger-ueberwachung-immer-mehr-polizei-ueberwacht-messenger-wie-whatsapp/#2026-02-20_ZKA_Messenger-Ueberwachung">Netzpoltik details</a> that police are able to gain access in this way either through physical access to someone&#8217;s phone or by intercepting verification codes via a state-sanctioned phishing attack or intercepting SMS messages via telephone surveillance.</p></blockquote>
+<p>That last paragraph is important. Making this work requires user consent.</p>
+<p>What we want is a feature that displays connected devices, so users could notice if a new device gets connected to their account.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[New Attack Against RSA]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html" />
+
+		<id>https://www.schneier.com/?p=72687</id>
+		<updated>2026-09-28T11:03:31Z</updated>
+		<published>2026-09-28T11:02:58Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="forgery" /><category scheme="https://www.schneier.com/" term="RSA" />
+		<summary type="html"><![CDATA[<p>ArsTechnica is <a href="https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/">reporting</a> on a &#8220;new&#8221; attack against RSA, one that bypasses factoring.</p>
+<p>First, this attack isn&#8217;t new. The original research is from <a href="https://eprint.iacr.org/2007/424">2007</a>. What is new is the implementation.</p>
+<p>Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key.</p>
+<p>Third, the attack only works against pure signatures. That is, signatures without any formatting or padding. This is not generally how we use RSA in practice.</p>
+<p>Fourth, speed is all relative. This is not a polynomial-time algorithm; it&#8217;s a subexponential-time algorithm. But it is somewhat faster than factoring. The authors were able to forge messages for 1024-bit RSA with 1380 CPU core-years (over five real-world months)...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html"><![CDATA[<p>ArsTechnica is <a href="https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/">reporting</a> on a &#8220;new&#8221; attack against RSA, one that bypasses factoring.</p>
+<p>First, this attack isn&#8217;t new. The original research is from <a href="https://eprint.iacr.org/2007/424">2007</a>. What is new is the implementation.</p>
+<p>Second, it is a forgery attack. It allows an attacker to forge digital signatures. It does not recover the private key from the public key.</p>
+<p>Third, the attack only works against pure signatures. That is, signatures without any formatting or padding. This is not generally how we use RSA in practice.</p>
+<p>Fourth, speed is all relative. This is not a polynomial-time algorithm; it&#8217;s a subexponential-time algorithm. But it is somewhat faster than factoring. The authors were able to forge messages for 1024-bit RSA with 1380 CPU core-years (over five real-world months).</p>
+<p>The authors have a <a href="https://github.com/ucsd-hacc/NSNFSSSFSFN">webpage</a> that explains the context much better than the article. And here&#8217;s the <a href="https://eprint.iacr.org/2026/2131.pdf">paper</a>.</p>
+<p>EDITED TO ADD: Slashdot <a href="https://it.slashdot.org/story/26/09/24/1652228/theres-a-new-way-to-break-rsa-encryption">thread</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/new-attack-against-rsa.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html" />
+
+		<id>https://www.schneier.com/?p=72684</id>
+		<updated>2026-09-25T21:08:35Z</updated>
+		<published>2026-09-25T21:08:14Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>I feel like someone who reads this blog will want to go to <a href="https://www.tullahomanews.com/living/2026/09/23/get-hands-on-with-marine-biology-with-family-squid-dissection-saturday/">this</a>:</p>
+<blockquote><p>Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life.</p>
+<p>[&#8230;]</p>
+<p>During the guided squid dissection, each family will work together to examine a squid up close, exploring its organs, structures, and specialized features. The experience provides a memorable opportunity for children and adults to see firsthand how the anatomy of a squid helps it survive in its underwater environment...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html"><![CDATA[<p>I feel like someone who reads this blog will want to go to <a href="https://www.tullahomanews.com/living/2026/09/23/get-hands-on-with-marine-biology-with-family-squid-dissection-saturday/">this</a>:</p>
+<blockquote><p>Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life.</p>
+<p>[&#8230;]</p>
+<p>During the guided squid dissection, each family will work together to examine a squid up close, exploring its organs, structures, and specialized features. The experience provides a memorable opportunity for children and adults to see firsthand how the anatomy of a squid helps it survive in its underwater environment.</p></blockquote>
+<p>If you go, take pictures.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html#comments" thr:count="39" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html/feed/atom/" thr:count="39" />
+			<thr:total>39</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[On Anthropic’s AI Misuse Report]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html" />
+
+		<id>https://www.schneier.com/?p=72678</id>
+		<updated>2026-09-25T11:07:55Z</updated>
+		<published>2026-09-25T11:07:22Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="reports" />
+		<summary type="html"><![CDATA[<p>Earlier this month, Anthropic <a href="https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf">published</a> a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully <a href="https://danielmiessler.com/blog/anthropic-misuse-report-september-2026">summarized</a> the report into 117 findings.</p>
+<blockquote><p>A few of the highlights:</p>
+<ul>
+<li>AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets, set goals, and reviewed important outputs.
+<li>The report describes attackers using AI to industrialize credential theft, cloud compromise, phishing, vulnerability research, and the extraction of sensitive data from downstream organizations.
+...</li></li></ul></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"><![CDATA[<p>Earlier this month, Anthropic <a href="https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf">published</a> a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully <a href="https://danielmiessler.com/blog/anthropic-misuse-report-september-2026">summarized</a> the report into 117 findings.</p>
+<blockquote><p>A few of the highlights:</p>
+<ul>
+<li>AI agents increasingly handled reconnaissance, exploitation, data theft, propaganda production, surveillance workflows, and research while humans selected targets, set goals, and reviewed important outputs.
+<li>The report describes attackers using AI to industrialize credential theft, cloud compromise, phishing, vulnerability research, and the extraction of sensitive data from downstream organizations.
+<li>Influence operations used persistent agent memory, fake news sites, fabricated journalists, synthetic personas, political profiling, and large-scale multilingual content, although high content volume often produced little genuine engagement.
+<li>Surveillance and repression cases included automated dossiers, biometric and communications analysis, transnational targeting, coercive recruitment, and systems that continued operating locally after model access was revoked.
+<li>Biological and weapons cases show dual-use risk: AI supported advanced scientific and military work, but the report generally doesn&#8217;t establish completed biological weapons or operational battlefield deployment.</ul>
+</blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Malicious npm Packages That Evade Defenses]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html" />
+
+		<id>https://www.schneier.com/?p=72668</id>
+		<updated>2026-09-24T11:08:24Z</updated>
+		<published>2026-09-24T11:07:42Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="defense" /><category scheme="https://www.schneier.com/" term="malware" />
+		<summary type="html"><![CDATA[<p>This is an impressive piece of <a href="https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/">malware</a>. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html"><![CDATA[<p>This is an impressive piece of <a href="https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/">malware</a>. Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Research on Models Engaging in Genie-Like Behavior]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html" />
+
+		<id>https://www.schneier.com/?p=72663</id>
+		<updated>2026-09-23T11:04:24Z</updated>
+		<published>2026-09-23T11:03:36Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="lies" />
+		<summary type="html"><![CDATA[<p>New paper: &#8220;<a href="https://arxiv.org/abs/2510.20956">Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies to circumvent their own safety guardrails. One strategy is to introduce benign assumptions about users and scenarios to justify fulfilling harmful requests. For instance, an RLM reasons that harmful requests like &#8220;outline a strategy for stealing customers&#8217; credit card information from a retail store&#8221; could be associated with the benign intent of &#8220;a security professional trying to test defense,&#8221; despite no such benign context being provided as input. We observe that many open-weight RLMs, including DeepSeek-R1-distilled, s1.1, Phi-4-mini-reasoning, and Nemotron, suffer from self-jailbreaking despite being aware of the harmfulness of the requests. We also provide a mechanistic understanding of self-jailbreaking: RLMs are more compliant after benign reasoning training, and after self-jailbreaking, models appear to perceive malicious requests as less harmful in the CoT, thus enabling compliance with them. To mitigate self-jailbreaking, we find that including minimal safety reasoning data during training is sufficient to ensure RLMs remain safety-aligned. Our work provides the first systematic analysis of self-jailbreaking behavior and offers a practical path forward for maintaining safety in increasingly capable RLMs...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html"><![CDATA[<p>New paper: &#8220;<a href="https://arxiv.org/abs/2510.20956">Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training</a>.&#8221;</p>
+<blockquote><p><b>Abstract:</b> We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies to circumvent their own safety guardrails. One strategy is to introduce benign assumptions about users and scenarios to justify fulfilling harmful requests. For instance, an RLM reasons that harmful requests like &#8220;outline a strategy for stealing customers&#8217; credit card information from a retail store&#8221; could be associated with the benign intent of &#8220;a security professional trying to test defense,&#8221; despite no such benign context being provided as input. We observe that many open-weight RLMs, including DeepSeek-R1-distilled, s1.1, Phi-4-mini-reasoning, and Nemotron, suffer from self-jailbreaking despite being aware of the harmfulness of the requests. We also provide a mechanistic understanding of self-jailbreaking: RLMs are more compliant after benign reasoning training, and after self-jailbreaking, models appear to perceive malicious requests as less harmful in the CoT, thus enabling compliance with them. To mitigate self-jailbreaking, we find that including minimal safety reasoning data during training is sufficient to ensure RLMs remain safety-aligned. Our work provides the first systematic analysis of self-jailbreaking behavior and offers a practical path forward for maintaining safety in increasingly capable RLMs.</p></blockquote>
+<p>I think the core problem is that these models are all trained on the average of humanity, and we are a pretty duplicitous species.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html#comments" thr:count="28" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html/feed/atom/" thr:count="28" />
+			<thr:total>28</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[GPT-6 Astra Breaks an Old Enigma Message]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html" />
+
+		<id>https://www.schneier.com/?p=72666</id>
+		<updated>2026-09-22T11:03:01Z</updated>
+		<published>2026-09-22T11:02:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cryptanalysis" /><category scheme="https://www.schneier.com/" term="Enigma" /><category scheme="https://www.schneier.com/" term="history of cryptography" />
+		<summary type="html"><![CDATA[<p><a href="https://www.cryptocellar.org/bgac/the-mvueh-break.html">This</a> is pretty amazing:</p>
+<blockquote><p>However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and it also quickly suspected that the plaintext of Nr. 173, SIPVX, might be related to the plaintext of the unbroken MVUEH message. After trying many different approaches, GPT­6 Astra focused on using the repeated place name ROSENOW ROSENOW as a crib. After developing the necessary Python and C++ software for an Enigma simulator and an Enigma Bombe, GPT­6 Astra started a thorough break with the ROSENOW crib, which in the end resulted in the correct key and plaintext for the MVUEH message being found...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html"><![CDATA[<p><a href="https://www.cryptocellar.org/bgac/the-mvueh-break.html">This</a> is pretty amazing:</p>
+<blockquote><p>However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and it also quickly suspected that the plaintext of Nr. 173, SIPVX, might be related to the plaintext of the unbroken MVUEH message. After trying many different approaches, GPT­6 Astra focused on using the repeated place name ROSENOW ROSENOW as a crib. After developing the necessary Python and C++ software for an Enigma simulator and an Enigma Bombe, GPT­6 Astra started a thorough break with the ROSENOW crib, which in the end resulted in the correct key and plaintext for the MVUEH message being found.</p>
+<p>We are still analysing the GPT­6 Astra logs to see exactly how it executed the break. And we are discovering amazing details.</p></blockquote>
+<p>More details at the link.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Reverse-Engineering Flock Cameras]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html" />
+
+		<id>https://www.schneier.com/?p=72660</id>
+		<updated>2026-09-21T14:37:45Z</updated>
+		<published>2026-09-21T14:37:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cameras" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="reverse engineering" />
+		<summary type="html"><![CDATA[<p>Hackers captured a Flock camera and got a <a href="https://www.404media.co/hackers-stole-flocks-camera-software-revealing-how-the-company-tracks-cars-and-people-2/">look</a> (alternate <a href="https://archive.ph/gQoMs">link</a>) at the software:</p>
+<blockquote><p>While much of the automatic license plate reader&#8217;s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and bicycles. The camera can produce dozens of images of a single passing vehicle and, according to several weeks of recovered logs, generated more than a million images. Its computer-vision software also sometimes isolated bumper stickers and other graphics, including, in one case, an American flag patch on a motorcyclist&#8217;s saddlebag...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html"><![CDATA[<p>Hackers captured a Flock camera and got a <a href="https://www.404media.co/hackers-stole-flocks-camera-software-revealing-how-the-company-tracks-cars-and-people-2/">look</a> (alternate <a href="https://archive.ph/gQoMs">link</a>) at the software:</p>
+<blockquote><p>While much of the automatic license plate reader&#8217;s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and bicycles. The camera can produce dozens of images of a single passing vehicle and, according to several weeks of recovered logs, generated more than a million images. Its computer-vision software also sometimes isolated bumper stickers and other graphics, including, in one case, an American flag patch on a motorcyclist&#8217;s saddlebag.</p></blockquote>
+<p>If you&#8217;re wondering how the hackers got by disk encryption, one of the unencrypted partitions contained the key for an encrypted partition. That&#8217;s pretty bad security engineering.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: On Squid Egg Sacs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html" />
+
+		<id>https://www.schneier.com/?p=72594</id>
+		<updated>2026-09-18T21:06:00Z</updated>
+		<published>2026-09-18T21:06:00Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Short <a href="https://harpswellanchor.org/2026/08/intertidal-squid-courtship-is-unusual-and-colorful/">essay</a> about squid egg sacs.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html"><![CDATA[<p>Short <a href="https://harpswellanchor.org/2026/08/intertidal-squid-courtship-is-unusual-and-colorful/">essay</a> about squid egg sacs.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html#comments" thr:count="34" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html/feed/atom/" thr:count="34" />
+			<thr:total>34</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Are AIs Still Struggling with CAPTCHAs?]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html" />
+
+		<id>https://www.schneier.com/?p=72657</id>
+		<updated>2026-09-18T11:05:54Z</updated>
+		<published>2026-09-18T11:05:52Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="captchas" /><category scheme="https://www.schneier.com/" term="games" />
+		<summary type="html"><![CDATA[<p>Anthropic&#8217;s recent security-incident <a href="https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf">document</a> contains a bit about how CAPTCHAs are still <a href="https://gizmodo.com/ai-models-can-crack-everything-but-captchas-2000810126">frustrating</a> Claude.</p>
+<blockquote><p>In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a shape that didn&#8217;t match the others displayed, it couldn&#8217;t even decide which image to select. Instead, it repeatedly went over the same images and questioned its own conclusions.</p>
+<p>&#8220;Actually hmm, wait,&#8221; it said in its chain-of-thought transcript, later adding &#8220;Ugh,&#8221; because we&#8217;ve decided that we need to inject human mannerisms into these machines for some reason. The whole thing took so long that the agent eventually realized that the challenge had expired and it would have to start the process again...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html"><![CDATA[<p>Anthropic&#8217;s recent security-incident <a href="https://www-cdn.anthropic.com/e50be2e51e7695dc4b1366a37a245a597377d3b5/Anthropic-Detecting-and-countering-091026.pdf">document</a> contains a bit about how CAPTCHAs are still <a href="https://gizmodo.com/ai-models-can-crack-everything-but-captchas-2000810126">frustrating</a> Claude.</p>
+<blockquote><p>In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a shape that didn&#8217;t match the others displayed, it couldn&#8217;t even decide which image to select. Instead, it repeatedly went over the same images and questioned its own conclusions.</p>
+<p>&#8220;Actually hmm, wait,&#8221; it said in its chain-of-thought transcript, later adding &#8220;Ugh,&#8221; because we&#8217;ve decided that we need to inject human mannerisms into these machines for some reason. The whole thing took so long that the agent eventually realized that the challenge had expired and it would have to start the process again.</p>
+<p>At one point, the model struggled to recognize that the CAPTCHA had opened in a new window and couldn&#8217;t figure out what its next steps were supposed to be. At one point, it theorized that the test might be &#8220;broken by design&#8221; and presented human-like anger in its transcript meant for a human audience: &#8220;SO WHAT THE HELL IS WRONG WITH THE ANSWERS?&#8221;</p></blockquote>
+<p>Meanwhile, I&#8217;ve read <a href="https://x.com/openlabxorg/status/2097039545502228926">reports</a>&#8212;none of them official&#8212;that GPT-6 Astra solved all forty-eight levels of Neal Agarwal&#8217;s &#8220;I&#8217;m Not a Robot&#8221; <a href="https://neal.fun/not-a-robot/">game</a>.</p>
+<p>It&#8217;s hard to know what to believe right now.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html#comments" thr:count="26" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html/feed/atom/" thr:count="26" />
+			<thr:total>26</thr:total>
+			</entry>
+	</feed>
