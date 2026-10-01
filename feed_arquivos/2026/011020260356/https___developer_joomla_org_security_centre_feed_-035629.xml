@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Security Announcements</title>
+		<description><![CDATA[]]></description>
+		<link>https://developer.joomla.org/security-centre.html</link>
+		<lastBuildDate>Thu, 01 Oct 2026 03:56:29 +0000</lastBuildDate>
+		<generator>Joomla! - Open Source Content Management</generator>
+		<atom:link rel="self" type="application/rss+xml" href="https://developer.joomla.org/security-centre.feed?type=rss"/>
+		<language>en-gb</language>
+		<managingEditor>noreply@joomla.org (Joomla! Developer Network™)</managingEditor>
+		<item>
+			<title>[20260916] - Core - XSS filter bypass in InputFilter via whitespace characters in HTML data URIs</title>
+			<link>https://developer.joomla.org/security-centre/1096-20260916-core-xss-filter-bypass-in-inputfilter-via-whitespace-characters-in-html-data-uris.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1096-20260916-core-xss-filter-bypass-in-inputfilter-via-whitespace-characters-in-html-data-uris.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>1.5.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-08-19</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92232" target="_blank" rel="noopener noreferrer">CVE-2026-92232</a></li>
+</ul>
+<h3>Description</h3>
+<div>The cleanAttribute method removes HTML data URIs, however injected whitespaces characters could circumvent that cleanup, causing an XSS vector.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 1.5.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> arib06</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:15 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260915] - Core - XSS filter bypass in InputFilter via HTML5 entity decode mismatch</title>
+			<link>https://developer.joomla.org/security-centre/1095-20260915-core-xss-filter-bypass-in-inputfilter-via-html5-entity-decode-mismatch.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1095-20260915-core-xss-filter-bypass-in-inputfilter-via-html5-entity-decode-mismatch.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>1.5.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-08-02</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92231" target="_blank" rel="noopener noreferrer">CVE-2026-92231</a></li>
+</ul>
+<h3>Description</h3>
+<div>The checkAttribute method normalized an attribute value before testing it against the "javascript:" scheme regex, however without decoding HTML5 entities beforehand, causing an XSS vector.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 1.5.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Netanel Stern</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:14 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260914] - Core - MFA Authentication Bypass through rememberme cookies</title>
+			<link>https://developer.joomla.org/security-centre/1094-20260914-core-mfa-authentication-bypass-through-rememberme-cookies.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1094-20260914-core-mfa-authentication-bypass-through-rememberme-cookies.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> Moderate</li>
+<li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Authentication Bypass</li>
+<li><strong>Reported Date:</strong> 2026-09-10</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92227" target="_blank" rel="noopener noreferrer">CVE-2026-92227</a></li>
+</ul>
+<h3>Description</h3>
+<div>The premature issuance of an rememberme cookie leads to a MFA bypass vulnerability.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Google and Ada Logics, Mukul Goyal</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:13 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260913] - Core - Improper ACL checks for varous webservice edit tasks</title>
+			<link>https://developer.joomla.org/security-centre/1093-20260913-core-improper-acl-checks-for-varous-webservice-edit-tasks.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1093-20260913-core-improper-acl-checks-for-varous-webservice-edit-tasks.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-09-10</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92226" target="_blank" rel="noopener noreferrer">CVE-2026-92226</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to perform edit actions on otherwise uneditable items.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Google and Ada Logics</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:12 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260912] - Core - XSS in module list</title>
+			<link>https://developer.joomla.org/security-centre/1092-20260912-core-xss-in-module-list.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1092-20260912-core-xss-in-module-list.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-09-10</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92225" target="_blank" rel="noopener noreferrer">CVE-2026-92225</a></li>
+</ul>
+<h3>Description</h3>
+<div>The module list layout did not properly escape user supplied values, leading to an XSS vector.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Google and Ada Logics</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:11 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260910] - Core - Improper ACL checks for workflow stage changes</title>
+			<link>https://developer.joomla.org/security-centre/1090-20260910-core-improper-acl-checks-for-workflow-stage-changes.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1090-20260910-core-improper-acl-checks-for-workflow-stage-changes.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>5.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-08-27</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92223" target="_blank" rel="noopener noreferrer">CVE-2026-92223</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to update the workflow stage of inaccessible contents.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 5.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Faceless</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:09 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260909] - Core -  SSRF vectors in various core extensions</title>
+			<link>https://developer.joomla.org/security-centre/1089-20260909-core-ssrf-vectors-in-various-core-extensions.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1089-20260909-core-ssrf-vectors-in-various-core-extensions.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> High</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>3.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> SSRF</li>
+<li><strong>Reported Date:</strong> 2026-08-24</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92222" target="_blank" rel="noopener noreferrer">CVE-2026-92222</a></li>
+</ul>
+<h3>Description</h3>
+<div>URLs used for serverside requests were improperly validated, leading to SSRF vectors.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Aria Akhavan, Calif.io in collaboration with Anthropic</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:08 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260908] - Core -  XSS in HTML Mail Templates</title>
+			<link>https://developer.joomla.org/security-centre/1088-20260908-core-xss-in-html-mail-templates.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1088-20260908-core-xss-in-html-mail-templates.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+<li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-08-24</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90918" target="_blank" rel="noopener noreferrer">CVE-2026-90918</a></li>
+</ul>
+<h3>Description</h3>
+<div>The mail template feature lacks an escaping mechanism, causing XSS vectors in multiple extensions.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Joe Grey / GitHub @StressTestor</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:07 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260911] - Core - XSS in link toolbar layout</title>
+			<link>https://developer.joomla.org/security-centre/1091-20260911-core-xss-in-link-toolbar-layout.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1091-20260911-core-xss-in-link-toolbar-layout.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-09-10</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-92224" target="_blank" rel="noopener noreferrer">CVE-2026-92224</a></li>
+</ul>
+<h3>Description</h3>
+<div>The link toolbar layout did not properly escape inputs, leading to an XSS vector.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Google and Ada Logics</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:07 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260907] - Core - Improper ACL checks in outputs for tagged items</title>
+			<link>https://developer.joomla.org/security-centre/1087-20260907-core-improper-acl-checks-in-outputs-for-tagged-items.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1087-20260907-core-improper-acl-checks-in-outputs-for-tagged-items.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-07-28</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90917" target="_blank" rel="noopener noreferrer">CVE-2026-90917</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to view content items from inaccessible categories.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Amin İsayev</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:06 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260906] - Core - Improper ACL checks in content history comparison view</title>
+			<link>https://developer.joomla.org/security-centre/1086-20260906-core-improper-acl-checks-in-content-history-comparsion-view.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1086-20260906-core-improper-acl-checks-in-content-history-comparsion-view.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Severity:</strong> Low</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-07-15</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90916" target="_blank" rel="noopener noreferrer">CVE-2026-90916</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to view inaccessible contents.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Arkadiusz Marta</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:05 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260905] - Core - Arbitrary directory deletion via cache purge action</title>
+			<link>https://developer.joomla.org/security-centre/1085-20260905-core-arbitrary-directory-deletion-via-cache-purge-action.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1085-20260905-core-arbitrary-directory-deletion-via-cache-purge-action.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> High</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Path Traversal</li>
+<li><strong>Reported Date:</strong> 2026-08-13</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90915" target="_blank" rel="noopener noreferrer">CVE-2026-90915</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper validation of the cache group name allowed path traverals in the file storage of the caching layer, resulting in arbitrary directory deletions.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Aria Akhavan, Calif.io in collaboration with Anthropic</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:04 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260904] - Core - XSS in the generic media output layouts</title>
+			<link>https://developer.joomla.org/security-centre/1084-20260904-core-xss-in-the-generic-media-output-layouts.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1084-20260904-core-xss-in-the-generic-media-output-layouts.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-08-13</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90914" target="_blank" rel="noopener noreferrer">CVE-2026-90914</a></li>
+</ul>
+<h3>Description</h3>
+<div>Lack of escaping leads to an XSS vulnerability in the generic audio and video output layouts.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Aria Akhavan</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:03 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260903] - Core - Improper ACL checks for access level webservice endpoints</title>
+			<link>https://developer.joomla.org/security-centre/1083-20260903-core-improper-acl-checks-for-user-level-webservice-endpoints.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1083-20260903-core-improper-acl-checks-for-user-level-webservice-endpoints.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-08-19</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90913" target="_blank" rel="noopener noreferrer">CVE-2026-90913</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to perform mutation actions in access level endpoints.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> sec-reex</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:02 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260902] - Core - Unauthorized user account creation via profile.save controller</title>
+			<link>https://developer.joomla.org/security-centre/1082-20260902-core-unauthorized-user-account-creation-via-profile-save-controller.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1082-20260902-core-unauthorized-user-account-creation-via-profile-save-controller.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>1.5.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> Authorization Bypass Through User-Controlled Key</li>
+<li><strong>Reported Date:</strong> 2026-08-09</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90907" target="_blank" rel="noopener noreferrer">CVE-2026-90907</a></li>
+</ul>
+<h3>Description</h3>
+<div>The profile.save controller did not check the login state of a user, allowing the creation of guest-level users on sites without active user registration.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 1.5.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Adithyan P</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:01 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260901] - Core - XSS in HTMLHelper::link method</title>
+			<link>https://developer.joomla.org/security-centre/1081-20260901-core-xss-in-htmlhelper-link-method.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1081-20260901-core-xss-in-htmlhelper-link-method.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>1.5.0-5.4.8,6.0.0-6.1.3</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-08-09</li>
+<li><strong>Fixed Date:</strong> 2026-09-25</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-90906" target="_blank" rel="noopener noreferrer">CVE-2026-90906</a></li>
+</ul>
+<h3>Description</h3>
+<div>Lack of escaping leads to XSS vulnerabilities in the link method of the HTMLHelper.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 1.5.0-5.4.8, 6.0.0-6.1.3</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.9, 6.1.4</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Demyanchuk V.</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Fri, 25 Sep 2026 14:00:00 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260810] - Core - Unrestricted uploads of SHTML files</title>
+			<link>https://developer.joomla.org/security-centre/1077-20260810-core-unrestricted-uploads-of-shtml-files.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1077-20260810-core-unrestricted-uploads-of-shtml-files.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> Low</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>1.0.0-5.4.7,6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Unrestricted Upload of File with Dangerous Type</li>
+<li><strong>Reported Date:</strong> 2026-07-29</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-73373" target="_blank" rel="noopener noreferrer">CVE-2026-73373</a></li>
+</ul>
+<h3>Description</h3>
+<div>The default list of dangerous files did not include SHTML files. On servers that executed these files, that could lead to code execution.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 1.0.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Valentin Lobstein (Chocapikk)</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:10 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260809] - Core - Improper ACL checks when injection schema.org contact data</title>
+			<link>https://developer.joomla.org/security-centre/1076-20260809-core-improper-acl-checks-when-injection-schema-org-contact-data.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1076-20260809-core-improper-acl-checks-when-injection-schema-org-contact-data.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Severity:</strong> Low</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>5.1.0-5.4.7,6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-07-31</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-73372" target="_blank" rel="noopener noreferrer">CVE-2026-73372</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check injects contact information for unaccessible contact items into schema.org snippets.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 5.1.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Stefan Wendhausen</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:09 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260808] - Core - Improper ACL checks for batch copy actions</title>
+			<link>https://developer.joomla.org/security-centre/1075-20260808-core-improper-acl-checks-for-batch-copy-actions.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1075-20260808-core-improper-acl-checks-for-batch-copy-actions.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Low</li>
+<li><strong>Severity:</strong> Low</li>
+<li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.7,6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-07-28</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-73371" target="_blank" rel="noopener noreferrer">CVE-2026-73371</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to perform copy batch operations on uneditable items.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Sabuhi Mammadov</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:08 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260807] - Core - MFA Authentication Bypass</title>
+			<link>https://developer.joomla.org/security-centre/1074-20260807-core-mfa-authentication-bypass.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1074-20260807-core-mfa-authentication-bypass.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> Moderate</li>
+<li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.7,6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Authentication Bypass</li>
+<li><strong>Reported Date:</strong> 2026-07-25</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-73337" target="_blank" rel="noopener noreferrer">CVE-2026-73337</a></li>
+</ul>
+<h3>Description</h3>
+<div>Insufficient state checks lead to a vector that allows to bypass 2FA checks.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> bloman, Matej Rada</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:07 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260806] - Core - XSS through schema.org outputs</title>
+			<link>https://developer.joomla.org/security-centre/1073-20260806-core-xss-through-schema-org-outputs.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1073-20260806-core-xss-through-schema-org-outputs.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>5.1.0-5.4.7, 6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> XSS</li>
+<li><strong>Reported Date:</strong> 2026-07-21</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-73336" target="_blank" rel="noopener noreferrer">CVE-2026-73336</a></li>
+</ul>
+<h3>Description</h3>
+<div>Improper escaping flags lead to an XSS vector in schema.org markup outputs.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 5.1.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Amin İsayev, Geo (GitHub.com/geo-chen)</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:06 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260805] - Core - Improper ACL checks for category webservice endpoints</title>
+			<link>https://developer.joomla.org/security-centre/1072-20260805-core-improper-acl-checks-for-category-webservice-endpoints.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1072-20260805-core-improper-acl-checks-for-category-webservice-endpoints.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.7, 6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-07-15</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-72532" target="_blank" rel="noopener noreferrer">CVE-2026-72532</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to create categories for inaccessible components.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Amin İsayev, Geo (GitHub.com/geo-chen)</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:05 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260804] - Core - Improper ACL checks for custom fields webservice endpoints</title>
+			<link>https://developer.joomla.org/security-centre/1071-20260804-core-improper-acl-checks-for-custom-fields-webservice-endpoints.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1071-20260804-core-improper-acl-checks-for-custom-fields-webservice-endpoints.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.7, 6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-07-06</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-72531" target="_blank" rel="noopener noreferrer">CVE-2026-72531</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to create fields for inaccessible components.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> ebadfd</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:04 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260803] - Core - Inconsistent ACL checks for mutating webservice endpoints</title>
+			<link>https://developer.joomla.org/security-centre/1070-20260803-core-inconsistent-acl-checks-for-mutating-webservice-endpoints.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1070-20260803-core-inconsistent-acl-checks-for-mutating-webservice-endpoints.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> High</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Low</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.7, 6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Incorrect Access Control</li>
+<li><strong>Reported Date:</strong> 2026-07-15</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-71574" target="_blank" rel="noopener noreferrer">CVE-2026-71574</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper access check allows unauthorized users to perform mutation actions in webservice endpoints, where the same mutation was restricted in the backend UI.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Paul, Sorrachat, tms, Morris Baumgarten-Egemole</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:03 +0000</pubDate>
+		</item>
+		<item>
+			<title>[20260802] - Core - Improper CORS origin validation</title>
+			<link>https://developer.joomla.org/security-centre/1069-20260802-core-improper-cors-origin-validation.html</link>
+			<guid isPermaLink="true">https://developer.joomla.org/security-centre/1069-20260802-core-improper-cors-origin-validation.html</guid>
+			<description><![CDATA[<ul>
+<li><strong>Project:</strong> Joomla!</li>
+<li><strong>SubProject:</strong> CMS</li>
+<li><strong>Impact:</strong> Moderate</li>
+<li><strong>Severity:</strong> Moderate</li>
+  <li><strong>Probability:</strong> Moderate</li>
+  <li><strong>Versions: </strong>4.0.0-5.4.7, 6.0.0-6.1.2</li>
+<li><strong>Exploit type:</strong> Improper CORS Origin Validation</li>
+<li><strong>Reported Date:</strong> 2026-07-09</li>
+<li><strong>Fixed Date:</strong> 2026-08-18</li>
+<li><strong>CVE Number:</strong> <a href="https://www.cve.org/CVERecord?id=CVE-2026-71573" target="_blank" rel="noopener noreferrer">CVE-2026-71573</a></li>
+</ul>
+<h3>Description</h3>
+<div>An improper implementation prevented configured CORS origins from being properly validated in CORS requests.</div>
+<h3>Affected Installs</h3>
+<p>Joomla! CMS versions 4.0.0-5.4.7, 6.0.0-6.1.2</p>
+<h3>Solution</h3>
+<p>Upgrade to version 5.4.8, 6.1.3</p>
+<h3>Contact</h3>
+<p>The JSST at the <a title="Contact the JSST" href="https://developer.joomla.org/security-centre.html">Joomla! Security Centre</a>.</p>
+<div class="alert alert-info"><strong>Reported By: </strong> Agamemnon Fakas, caveeroo</div>]]></description>
+			<author>noreply@joomla.org (Joomla! Security Strike Team)</author>
+			<category>Security Centre</category>
+			<pubDate>Mon, 17 Aug 2026 14:00:02 +0000</pubDate>
+		</item>
+	</channel>
+</rss>
