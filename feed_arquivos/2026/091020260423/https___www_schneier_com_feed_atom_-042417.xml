@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-10-08T11:08:05Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[How Technology Empowers—and Imperils—Dictators]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html" />
+
+		<id>https://www.schneier.com/?p=72750</id>
+		<updated>2026-10-08T11:08:05Z</updated>
+		<published>2026-10-08T11:07:35Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="Russia" />
+		<summary type="html"><![CDATA[<p><em>This essay was written with Seva Gunitsky, and originally appeared in <a href="https://www.foreignaffairs.com/united-states/artificial-intelligence-autocrat-technology-empowers-dictators">Foreign Affairs</a>.</em></p>
+<p>Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re lying to you!&#8221; She shouted, &#8220;No to war!&#8221; until she was dragged away.</p>
+<p>No one has protested the war on Russian television since then, partly as a result of tighter security and a general climate of fear. But in October 2024, Margarita Simonyan, one of Russia&#8217;s chief propagandists, gave another explanation. A growing number of the RT network&#8217;s anchors, she explained to an interviewer, are not real. &#8220;That face doesn&#8217;t exist. We generated the voice and everything else.&#8221; They were, she meant, produced by artificial intelligence. In a follow-up interview with the newspaper ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html"><![CDATA[<p><em>This essay was written with Seva Gunitsky, and originally appeared in <a href="https://www.foreignaffairs.com/united-states/artificial-intelligence-autocrat-technology-empowers-dictators">Foreign Affairs</a>.</em></p>
+<p>Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re lying to you!&#8221; She shouted, &#8220;No to war!&#8221; until she was dragged away.</p>
+<p>No one has protested the war on Russian television since then, partly as a result of tighter security and a general climate of fear. But in October 2024, Margarita Simonyan, one of Russia&#8217;s chief propagandists, gave another explanation. A growing number of the RT network&#8217;s anchors, she explained to an interviewer, are not real. &#8220;That face doesn&#8217;t exist. We generated the voice and everything else.&#8221; They were, she meant, produced by artificial intelligence. In a follow-up interview with the newspaper <em>Vedomosti</em>, she spelled out the logic: &#8220;These anchors don&#8217;t need a salary or insurance,&#8221; she said. &#8220;They won&#8217;t get arrested, and the police won&#8217;t search their homes. It&#8217;s all wonderful and terrifying at the same time.&#8221;</p>
+<p>This is AI&#8217;s promise to every autocratic ruler: the ability to maintain control without delegating tasks to unreliable humans. It is an extremely attractive prospect. No matter how powerful, dictators have always needed subordinates&#8212;censors, <a href="https://www.foreignaffairs.com/tags/disinformation">propagandists</a>, security guards, police officers, intelligence analysts, and local bureaucrats&#8212;to carry out their orders. But subordinates always pose a potential threat. They could shirk, steal, lie, leak, or conspire against their boss. As a result, one of the oldest dilemmas facing autocrats is how to empower agents to carry out orders without also enabling them to turn against their leader. Autocrats have usually managed the tradeoff by filling key positions with mediocrities whose incapacity is, as the political theorist Hannah Arendt put it, &#8220;the best guarantee of their loyalty.&#8221; But this inevitably makes it harder for dictatorships to govern and survive crises.</p>
+<p>AI appears to offer autocrats two ways to resolve this long-standing dilemma. First, it means they can now easily monitor and discipline their followers in real time. A change in a local official&#8217;s spending habits or meeting schedules can be flagged automatically by an <a href="https://www.foreignaffairs.com/tags/artificial-intelligence">AI</a> system, without any need for self-interested informants. Second, AI can eliminate underlings altogether. By automating tasks that once required human discretion, rulers can replace unreliable intermediaries with faithful algorithms that cannot be bribed or manipulated. Officials in autocratic regimes have said as much. AI &#8220;can definitely replace half of officials,&#8221; Russia&#8217;s Digital Development Minister, Maksut Shadaev, told a Moscow data forum in April 2025, adding, &#8220;maybe slightly more.&#8221;</p>
+<p>Yet these promises of a self-running state are illusory, because AI is never truly autonomous. Systems have to be built and maintained by a cadre of engineers and data scientists whose expertise political leaders cannot evaluate. The ruler who turns to AI to reduce a dependence on unreliable humans may end up relying, more blindly than before, on the few AI specialists who keep the system running. And this new digital Praetorian Guard may have the same weaknesses as the old, which makes it a threat to the ruler.</p>
+<h3>Eyes and Ears</h3>
+<p>China is in the lead when it comes to developing AI systems that can monitor or replace subordinates. Smart city programs in Beijing, Shanghai, and other urban centers use AI to track performance and centralize oversight of local officials who once operated in comfortable obscurity, subjecting them to an algorithmic performance review. China also developed a &#8220;Zero Trust AI system,&#8221; which it deployed across roughly 30 counties and cities over the past decade. This system cross-referenced more than 150 government databases to catch embezzlement and nepotism by local officials. It worked a little too well, flagging 8,700 officials before local governments, under pressure from the bureaucrats it was monitoring, began rolling it back. But Beijing has not gotten rid of its new e-government portals, which use automated systems for issuing documents and permits, reducing face-to-face interactions that bred petty corruption or favoritism. The <a href="https://www.foreignaffairs.com/articles/china/2020-12-04/chinese-communist-party-failed">Chinese Communist Party</a>, meanwhile, has plowed ahead with researching what it calls &#8220;thought management,&#8221; or how to use AI to create microtargeted propaganda. China&#8217;s army of Internet commentators, once composed of paid humans, is already being replaced by bots.</p>
+<p>Russia has been pursuing the same goals with a similar fervor. Moscow&#8217;s citywide facial recognition system, deployed across 200,000 cameras, was used to identify and apprehend protesters during the 2021 antigovernment demonstrations. The central government has started using automated data collection and aggregation to bypass regional officials who could taint the data or use it to promote their own interests. In 2023, Russia&#8217;s Internet regulator launched Oculus, an AI system that scans hundreds of thousands of images per day for prohibited content, including political content&#8212;orders of magnitude beyond what human censors could process. The Russian security service&#8217;s Meliorator tool has been used to create over a thousand profiles of fictitious Americans, primarily on X (formerly Twitter), to spread Kremlin narratives at a fraction of the cost of human troll farms.</p>
+<p>Other autocracies are following in Beijing&#8217;s and Moscow&#8217;s footsteps. In April 2025, the United Arab Emirates created a Regulatory Intelligence Office that uses AI to draft and amend federal laws, work once done by legislative staff. A year later, UAE Prime Minister Sheikh Mohammed bin Rashid al-Maktoum announced that autonomous AI agents would take over half of the federal government&#8217;s operations within two years and that &#8220;the performance of ministers, directors general, and entities will be assessed based on their ability to adopt this transformation.&#8221;</p>
+<p>These innovations may reduce the number of bureaucrats autocrats need. But they cannot actually create what dictators want most: a self-running state. Even AI-generated television anchors need people to build and maintain them, and censorship systems need people to retrain them as the vocabulary of dissent shifts. Behind every AI model, there is a small group of engineers and data scientists doing essential maintenance, and their work is so technical that rulers cannot understand it.</p>
+<p>This dependence thus becomes another form of power. The engineers who maintain an autocrat&#8217;s surveillance apparatus, for example, can shape what the ruler sees. They decide what information is important enough to pass along and in what form to present it. They determine which threats get flagged, and they can adjust the algorithms that select what content gets suppressed and who gets arrested. And they can do this without anyone in the palace noticing. Autocrats who turn to AI to escape a dependence on unreliable subordinates have only transferred their vulnerabilities onto a new group of officials.</p>
+<p>In fact, this new Praetorian Guard could be more dangerous than previous elites. That is in part thanks to the opacity of AI technology but also because this clique is much smaller. Roman emperors typically had tens of thousands of people serving in the Praetorian Guard; modern autocrats rely on standing armies. But with AI, autocrats will need only a small clique of engineers to build and maintain large-scale AI systems. This might benefit rulers since they will have fewer people to watch, yet it also concentrates points of failure, since a devastating disruption requires only a handful of engineers and makes it easier for members to scheme against the leader. The new guard&#8217;s members may also be indispensable. A dictator can replace generals without destroying the army. But running complex machine-learning systems requires such a specialized set of skills that engineers can be difficult to replace without disruptions, giving these actors great leverage.</p>
+<h3>The Indispensables</h3>
+<p>The importance of tech workers to autocracies has already become apparent. When IT specialists began to flee Russia after the full-scale invasion of Ukraine in February 2022, for example, the Kremlin responded not with threats but with inducements, offering tech workers deferments from conscription. It exempted their firms from taxes and subsidized their mortgages. When Russian <a href="https://www.foreignaffairs.com/tags/vladimir-putin">President Vladimir Putin</a> ordered the mobilization of 300,000 men seven months later, IT workers were granted full-on waivers. This might seem like overkill, given that an AI system needs only a few engineers to run it. But a regime cannot know in advance which engineers it will need, and it cannot train replacements quickly, so it has to hold on to the entire talent pool from which these few are selected.</p>
+<p>These measures did not stem the outflow of roughly 100,000 specialists&#8212;about a tenth of Russia&#8217;s tech workforce&#8212;over the course of 2022. But Moscow stuck to bribery, because expertise is extremely difficult to conscript at gunpoint and because conscripted experts might be less likely to do as instructed. Even so, money and privilege cannot guarantee that these elites will stay loyal. Autocrats should recall the lesson of the original Praetorian Guard: for a time, it provided Roman emperors with protection and security. But then the praetorians discovered their own indispensability, and by the second century, they were auctioning off the empire to the highest bidder. This new set of elites can do the same. In June 2023, when the column of <a href="https://www.foreignaffairs.com/russian-federation/why-putin-wanted-prigozhin-dead">Yevgeny Prigozhin</a>&#8216;s Wagner paramilitary company moved up the highway toward Moscow, Putin depended on his security services to tell him what was happening. Future rulers in Putin&#8217;s position will receive such warnings through machines: intercepted communications sorted by software, camera feeds filtered through recognition systems, regional reports compiled into dashboards. The engineers who run those systems could strike a deal with an upstart challenger and then drag their feet. They could delay the data, let alerts arrive a few hours late, degrade feeds at inconvenient moments, or make a recognition system stop functioning. In that scenario, the ruler would be operating blind. The Praetorian Guard did not need to kill Emperor Nero to replace him. It simply had to abandon him for a rival.</p>
+<p>These programmers are unlikely to seize power for themselves, because they are unlikely to carry what coup leaders ultimately require: guns. But there is already precedent for engineers using their power to shape leadership challenges. In 1991, when the Soviet army attempted to seize control from Mikhail Gorbachev, a handful of programmers at the Relcom network kept information flowing abroad and relayed Russian President Boris Yeltsin&#8217;s decrees to audiences inside the country and abroad. The plotters could not stop the news of Yeltsin&#8217;s defiance from spreading, and the coup collapsed within three days.</p>
+<h3>Slimming Down</h3>
+<p>AI will not let autocrats dismiss all their enforcers. Someone still has to make arrests and run the prisons, and autocrats can buy loyalty by offering supporters state jobs. But it will let authoritarians downsize, and the number of officials ultimately matters less than how the ruler oversees them. Keeping track of scheming or incompetent subordinates has always been the autocrat&#8217;s chief burden. AI could lighten it, letting rulers watch their officials more closely without paying as much active attention.</p>
+<p>In the near term, then, AI may greatly benefit autocracies. Despite the many obstacles to deployment, the technology is already bringing autocratic regimes the upsides of cheaper surveillance, smarter censorship, and fewer human subordinates to fear and distrust. But for autocratic rulers, the temptations of artificial intelligence may re-create the same trap they are seeking to escape. The more a regime depends on AI, the more it depends on the people who keep AI running. And those people, like every other praetorian class in history, will quickly discover what their indispensability is worth.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Apple’s Verified Photography System]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html" />
+
+		<id>https://www.schneier.com/?p=72741</id>
+		<updated>2026-10-08T05:44:43Z</updated>
+		<published>2026-10-07T11:07:36Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Apple" /><category scheme="https://www.schneier.com/" term="authentication" /><category scheme="https://www.schneier.com/" term="cameras" /><category scheme="https://www.schneier.com/" term="reports" />
+		<summary type="html"><![CDATA[<p>Apple just <a href="https://security.apple.com/blog/apple-reference-image/">released</a> a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone.</p>
+<blockquote><p>Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are concerned this puts some photographers, such as those operating in conflict zones, in a difficult position; it should not be necessary to forgo anonymity in order to prove image authenticity. We built Apple Reference Image to avoid using an explicit, public credential for photographers, and to avoid even implicit public association between different photos taken by the same sensor. The final reference image is instead signed by Apple’s signing service, after validation by PCC. That signature is backed by Apple’s strongest technical guarantees...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html"><![CDATA[<p>Apple just <a href="https://security.apple.com/blog/apple-reference-image/">released</a> a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone.</p>
+<blockquote><p>Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are concerned this puts some photographers, such as those operating in conflict zones, in a difficult position; it should not be necessary to forgo anonymity in order to prove image authenticity. We built Apple Reference Image to avoid using an explicit, public credential for photographers, and to avoid even implicit public association between different photos taken by the same sensor. The final reference image is instead signed by Apple’s signing service, after validation by PCC. That signature is backed by Apple’s strongest technical guarantees.</p>
+<p>Our implementation also protects the confidentiality of the image itself, including from Apple. Merely capturing a reference image should never expose the actual pixels to Apple or anyone else. We achieve this through the exceptional privacy properties of PCC&#8212;the nodes themselves are architected so that not even Apple can access image data, just as Apple cannot see the information processed for Apple Intelligence in PCC. While the revocation service must maintain a private record of photo GUIDs and associated sensors to allow for revocation, it never has access to the image data, and does not allow for public access to this record. And as final revocation checks occur using on-device lists, a device never reveals to anyone which photo it’s looking at in order to find out whether it’s still valid.</p></blockquote>
+<p>The report makes for good reading; the details are interesting.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html#comments" thr:count="24" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html/feed/atom/" thr:count="24" />
+			<thr:total>24</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Possible Vulnerability in Apple’s Automatic Reboot]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html" />
+
+		<id>https://www.schneier.com/?p=72739</id>
+		<updated>2026-10-06T11:07:20Z</updated>
+		<published>2026-10-06T11:06:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="iPhone" /><category scheme="https://www.schneier.com/" term="law enforcement" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>404Media is <a href="https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/">reporting</a> (alternate <a href="https://archive.ph/4qncQ">link</a>) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours.</p>
+<blockquote><p>The new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, a popular tool sold to law enforcement agencies that <a href="https://www.404media.co/leaked-documents-show-what-phones-secretive-tech-graykey-can-unlock-2/">allows them to unlock and access data stored in iPhones and Android smartphones</a>. Magnet has developed a new device called GrayKey Preserve and a feature for its regular GrayKey devices called Evidence Preservation Mode, according to the video...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html"><![CDATA[<p>404Media is <a href="https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/">reporting</a> (alternate <a href="https://archive.ph/4qncQ">link</a>) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that automatically puts an iPhone into a more secure state if it hasn&#8217;t been used for 72 hours.</p>
+<blockquote><p>The new technology to get around inactivity reboot was developed by Magnet Forensics, the company behind GrayKey, a popular tool sold to law enforcement agencies that <a href="https://www.404media.co/leaked-documents-show-what-phones-secretive-tech-graykey-can-unlock-2/">allows them to unlock and access data stored in iPhones and Android smartphones</a>. Magnet has developed a new device called GrayKey Preserve and a feature for its regular GrayKey devices called Evidence Preservation Mode, according to the video.</p>
+<p>&#8220;This is an absolute game changer for iOS forensics and a function that I wish we had years ago,&#8221; a Magnet employee says in the leaked video, specifically mentioning that the solution is targeted at the iPhone’s inactivity reboot feature and the data it makes unavailable. GrayKey Preserve and Evidence Preservation Mode are also designed to combat another iPhone feature that automatically deletes certain data ­- such as cached locations, and recently deleted photos and iMessages ­- after a certain number of days. &#8220;We&#8217;re gonna be able to preserve that data for an infinite amount of time.&#8221;</p></blockquote>
+<p>Presumably, now that Apple engineers know that this flaw exists they can find and fix it. AI turns out to be really good at this sort of thing.</p>
+<p>Another news <a href="https://gizmodo.com/cops-may-hav-found-a-way-around-one-of-apples-toughest-iphone-security-features-2000820383">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html#comments" thr:count="14" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html/feed/atom/" thr:count="14" />
+			<thr:total>14</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Another Historic Cipher Falls to AI]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html" />
+
+		<id>https://www.schneier.com/?p=72737</id>
+		<updated>2026-10-05T11:04:48Z</updated>
+		<published>2026-10-05T11:04:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cryptography" /><category scheme="https://www.schneier.com/" term="history of cryptography" />
+		<summary type="html"><![CDATA[<p><a href="https://carter.church/writeups/the-letter-to-marmont/#war">This one</a> is from 1809, written by Napoleon&#8217;s nephew.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html"><![CDATA[<p><a href="https://carter.church/writeups/the-letter-to-marmont/#war">This one</a> is from 1809, written by Napoleon&#8217;s nephew.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/another-historic-cipher-falls-to-ai.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: EU is Trying to Fight Unregulated Squid Fishing]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html" />
+
+		<id>https://www.schneier.com/?p=72711</id>
+		<updated>2026-10-02T21:02:21Z</updated>
+		<published>2026-10-02T21:02:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>The EU is <a href="https://thefishingdaily.com/latest-news/eu-outlines-measures-to-tackle-unregulated-squid-fishing/">recommending</a> import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html"><![CDATA[<p>The EU is <a href="https://thefishingdaily.com/latest-news/eu-outlines-measures-to-tackle-unregulated-squid-fishing/">recommending</a> import controls to combat unregulated squid fishing in the Southwest Atlantic. I&#8217;m not optimistic.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html#comments" thr:count="39" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-eu-is-trying-to-fight-unregulated-squid-fishing.html/feed/atom/" thr:count="39" />
+			<thr:total>39</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Unidentified Flock Cameras in Florida]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html" />
+
+		<id>https://www.schneier.com/?p=72728</id>
+		<updated>2026-10-02T15:30:13Z</updated>
+		<published>2026-10-02T14:52:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="infrastructure" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>St. Lucie County in Florida <a href="https://www.washingtonpost.com/nation/2026/10/01/florida-county-discovers-mysterious-flock-cameras-with-no-obvious-owner/">discovered</a> (<a href="https://archive.is/c5utX">alt link</a>) a dozen Flock cameras whose ownership it can&#8217;t identify, and that the county government had not permitted.</p>
+<p>I am reminded of the decade-old <a href="https://www.washingtonpost.com/world/national-security/dhs-says-it-has-detected-possible-cellphone-surveillance-in-dc--and-doesnt-know-whos-doing-it/2018/04/03/f69fbe36-3785-11e8-acd5-35eac230e514_story.html">story</a> of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown.</p>
+<p>My guess is that in the StingRay case, the devices were operated by foreign actors. This Flock case is more likely some local government entity that didn&#8217;t bother getting approval. Were I a foreign actor, I would rather hack the existing Flock network&#8212;like Israel ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html"><![CDATA[<p>St. Lucie County in Florida <a href="https://www.washingtonpost.com/nation/2026/10/01/florida-county-discovers-mysterious-flock-cameras-with-no-obvious-owner/">discovered</a> (<a href="https://archive.is/c5utX">alt link</a>) a dozen Flock cameras whose ownership it can&#8217;t identify, and that the county government had not permitted.</p>
+<p>I am reminded of the decade-old <a href="https://www.washingtonpost.com/world/national-security/dhs-says-it-has-detected-possible-cellphone-surveillance-in-dc--and-doesnt-know-whos-doing-it/2018/04/03/f69fbe36-3785-11e8-acd5-35eac230e514_story.html">story</a> of StingRay cell phone surveillance devices in Washington, DC, whose operators were also unknown.</p>
+<p>My guess is that in the StingRay case, the devices were operated by foreign actors. This Flock case is more likely some local government entity that didn&#8217;t bother getting approval. Were I a foreign actor, I would rather hack the existing Flock network&#8212;like Israel <a href="https://www.timesofisrael.com/report-israel-hacked-tehran-traffic-cameras-to-track-khamenei-ahead-of-assassination/">did</a> with Tehran&#8217;s surveillance cameras&#8212;than risk installing my own.</p>
+<p>Regardless, once we normalize a surveillance infrastructure, both friends and foes will take advantage of it.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/unidentified-flock-cameras-in-florida.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[How American Political Campaigns Are Using AI—and What They’re Spending on the Tools]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html" />
+
+		<id>https://www.schneier.com/?p=72726</id>
+		<updated>2026-10-02T11:03:09Z</updated>
+		<published>2026-10-02T11:02:19Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="democracy" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.theguardian.com/technology/2026/sep/29/political-campaigns-ai-tools-spending">The Guardian</a>.</em></p>
+<p>New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.</p>
+<p>Candidates&#8217;, parties&#8217; and committees&#8217; <a href="https://github.com/nesanders/federal-campaign-disclosure-ai/tree/claude/campaign-ai-usage-dashboard-0pzili/data/processed">spending</a> reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns<em>.</em> It&#8217;s a sensitive issue that we have been tracking closely since we started writing our book, <a href="https://mitpress.mit.edu/9780262049948/rewiring-democracy/">Rewiring Democracy...</a></p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html"><![CDATA[<p><em>This essay was written with Nathan E. Sanders, and originally appeared in <a href="https://www.theguardian.com/technology/2026/sep/29/political-campaigns-ai-tools-spending">The Guardian</a>.</em></p>
+<p>New campaign finance disclosure data shines a light on which US political campaigns are using AI tools and how much they are spending on them.</p>
+<p>Candidates&#8217;, parties&#8217; and committees&#8217; <a href="https://github.com/nesanders/federal-campaign-disclosure-ai/tree/claude/campaign-ai-usage-dashboard-0pzili/data/processed">spending</a> reveals that AI is fast becoming an essential tool of politics. The candidates themselves are quiet about how they are using the technology in their own campaigns<em>.</em> It&#8217;s a sensitive issue that we have been tracking closely since we started writing our book, <a href="https://mitpress.mit.edu/9780262049948/rewiring-democracy/">Rewiring Democracy</a>, which examined how AI is beginning to influence politics. A September 2025 <a href="https://www.pewresearch.org/short-reads/2025/09/17/from-political-speeches-to-songs-how-would-americans-react-if-they-found-out-ai-was-involved/">Pew</a> survey of Americans found that more than 70% would think less of a candidate if they used AI to help write a speech.</p>
+<p>Itemized expenditure disclosure data from the US Federal Election Commission, dating back to 2020, reveals at least $17m in disclosed spending on AI technology vendors across 523 federal candidates and campaigns. Data from four states, California, Colorado, Massachusetts and Washington, provides a more localized picture going back to 2022.</p>
+<p>Beginning with the AI behemoths, at least 80 federal campaigns and committees have <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/openai">reported</a> spending with OpenAI since 2024. The total spending is not huge: only about $50,000 reported, skewing slightly more Republican than Democratic. The Republican National Committee is the largest overall buyer, with nearly $10,000 in reported expenses. Top individual users include the campaigns of Republicans Mike Lawler, John Kennedy and Bill Cassidy, as well as the California Democrats Ro Khanna and Ted Lieu. Most of these expenses are listed as office expenses, subscriptions to ChatGPT for staff, or research tools, rather than as specific political services. The company&#8217;s policies <a href="https://www.washingtonpost.com/politics/2026/09/05/chatgpt-bans-campaigns-using-ai-make-ads-theyre-doing-it-anyway/">prohibit</a> some political uses of their ChatGPT tool.</p>
+<p>OpenAI&#8217;s biggest competitor, Anthropic, has rapidly built a similar level of <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/anthropic">usage</a>, but with a different split. At least 65 candidates or committees now report paying the Claude maker in 2026, up from essentially zero in previous years, with a nearly two-to-one Democrat-to-Republican ratio. However, the largest individual user is the campaign of Tom Cotton, a Republican senator from Arkansas, who <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/candidate/S4AR00103">reported</a> more than $4,000 in spend on Anthropic software in his June filing. Other major users are the Montana independent Senate candidate Seth Bodnar and Jason Knapp, who lost a Democratic House primary in Virginia, and the Democratic Alaska Senate candidate Mary Peltola.</p>
+<p>Candidates use either Claude or ChatGPT, rarely both, according to the disclosures. <a href="https://nsanders.me/federal-campaign-disclosure-ai/#vendors:~:text=Campaign%2Dspecific%20AI-,Vendor%20co%2Doccurrence,-Federal%20%C2%B7%20FEC">Only about 12%</a> of campaigns or committees using either tool reported expenditures to both vendors. The Democratic lean of Anthropic usage may reflect the company&#8217;s alleged liberal <a href="https://fortune.com/2025/11/14/anthropic-claude-sonnet-woke-ai-trump-neutrality-openai-meta-xai/">skew</a> and <a href="https://nypost.com/2025/09/29/business/ai-giant-anthropic-faces-possible-clash-with-white-house-as-backers-include-left-wing-ford-foundation-sources/">clashes</a> with the Trump administration.</p>
+<p>In contrast, Elon Musk&#8217;s xAI <a href="https://www.nytimes.com/2025/09/02/technology/elon-musk-grok-conservative-chatbot.html">caters</a> to Republican interests and, accordingly, its meager usage comes <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/xai_grok">almost entirely</a> from the political right. Just seven federal and two state-level candidates or committees have <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/states/vendor/xai_grok">reported</a> paying xAI, a total of about $5,000, the majority of which was spent by the presidential campaign of RFK Jr in 2024, but also includes Republicans Dave McCormick and Thomas Massie.</p>
+<p>More dollars go to the vendors specializing in political campaign applications of AI. For years, <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/amplify_ai">AmplifAI</a>, which provides automated <a href="https://news.bgov.com/bloomberg-government-news/ai-tools-speed-up-campaign-work-yet-skepticism-slows-adoption">text messaging</a>, essentially a new iteration on robocalling technology, was a dominant target of spending, soaking up $4.7m in campaign spending in the 2022 cycle alone. It was used heavily by Democratic candidates including Mark Kelly, Joe Biden, Bernie Sanders and Adam Schiff. Spending on AmplifAI, now owned by the <a href="https://labusinessjournal.com/technology/triller/">troubled</a> media conglomerate Triller, seems to have tapered off in the years since 2022.</p>
+<p>The new rising Democratic solution for AI-powered text messaging is <a href="https://www.daisychain.app">Daisychain</a>, which has so far <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/daisychain">garnered</a> about $300,000 in reported candidate spend in the 2026 cycle&#8212;up from only about $50,000 reported in 2024. More than half of this year&#8217;s spending comes from the Senate campaign of Democrat Abdul El-Sayed in Michigan.</p>
+<p>The closest equivalent on the Republican side has been <a href="https://www.campaignnucleus.com">Campaign Nucleus</a>, associated with former Trump campaign manager <a href="https://apnews.com/article/ai-trump-campaign-2024-election-brad-parscale-3ff2c8eba34b87754cc25e96aa257c9d">Brad Parscale</a>. The <a href="https://www.nbcdfw.com/news/local/what-to-know-about-trump-strategists-embrace-of-ai-to-help-conservatives/3534239/">AI-powered</a> voter engagement tool has attracted six-figure <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/campaign_nucleus">spending</a> from the Republican National Committee, multiple PACs aligned with Donald Trump, and five-figure investments from Mike Johnson, Kari Lake and other candidates. It is displacing the legacy Republican-serving texting vendor <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/prompt_io">Prompt.io</a>, which has retained about $375,000 in 2026 spending to date, down from more than $500,000 in the 2022 cycle. But it continues to be used: the <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/ca/candidate/1484835">A More Affordable California</a> PAC sponsored by Uber has single-handedly spent more than $1m on Prompt.io in 2026. The Republican Massachusetts gubernatorial nominee Michael Minogue has been a <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/ma/candidate/19431">recurring</a> customer, as has the failed Republican California gubernatorial candidate <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/ca/vendor/campaign_nucleus">Ché Ahn</a> and <a href="https://coloradonewsline.com/2025/10/31/millions-spent-colorados-school-board-elections/">Republican-aligned</a> Super PAC <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/co/vendor/campaign_nucleus">Neighbors for a Better Colorado</a>.</p>
+<h3 id="at-the-state-level">At the state level</h3>
+<p>At the <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/states">state level</a>, the AI spending is smaller but growing fast. Across the four states studied, we found a total of at least $92,000 in spending confidently attributable to modern generative AI vendors since 2022. The spending is spread across at least 108 candidates and committees. The growth has been explosive; there has already been about 10 times the amount of state-level AI spending reported in 2026 as there was in all of 2024.</p>
+<p>Much of the state spending mirrors federal patterns. Daisychain again has the highest overall spend, and OpenAI and Claude dominate among the general-purpose AI vendors. DonorAtlas&#8212;the AI-powered prospect research tool&#8212;sticks out for its usage in these states, sitting behind only Daisychain and OpenAI and buoyed up by <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/ca/vendor/donoratlas">nearly $4,000</a> in spending by the California Democratic party.</p>
+<p>Even though it has dominated so much <a href="https://www.npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms">media conversation</a>, few candidates seem to be reporting spending on AI tools designed specifically to create synthetic audio and video, also known as &#8220;deepfakes&#8221;. We <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/elevenlabs">found</a> just six federal candidates or committees reporting spending on the popular AI audio generator tool from ElevenLabs, with total spending of about $1,400 led by independent candidate for Colorado&#8217;s sixth congressional district Samir Witta. The AI image generator service <a href="https://nsanders.me/federal-campaign-disclosure-ai/#/vendor/midjourney">Midjourney</a> has five reported federal campaign or committee users reporting about $1,600, led by Sholdon Daniels, the Republican primary runner-up in the Texas 30th district. Combined, those two firms had less than $100 in reported spend across the four states.</p>
+<p>However, recent data from the <a href="https://mediaproject.wesleyan.edu/releases-090426/">Wesleyan Media Project</a> shows that at least 164 political ads in this cycle have included AI-generated media, supported by at least $80m in ad spending. What this illustrates is that candidate and committee disclosure reports are just the tip of the iceberg. They don&#8217;t cover spending on AI by political consultants, media firms and other vendors hired by the campaigns or by PACs, or independent committees raising and spending money aimed at boosting candidates&#8217; campaigns. Those entities aren&#8217;t required to disclose detailed expenditure reports, and are very likely where the bulk of campaign AI usage is happening.</p>
+<p>Since a large fraction of all spending in the campaign cycle will happen in the final weeks leading to November, much remains to be seen about the totality of how campaigns will leverage AI and what impact its use will have on voters&#8217; decisions.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Connected Cars Are a Surveillance Platform]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html" />
+
+		<id>https://www.schneier.com/?p=72708</id>
+		<updated>2026-10-01T16:23:25Z</updated>
+		<published>2026-10-01T11:06:14Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cars" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>Researchers at Northeastern University, in collaboration with <i>Consumer Reports</i>, <a href="https://www.consumerreports.org/electronics/personal-information/your-car-is-sharing-data-with-big-tech-companies-study-finds-a4474820962/">evaluated</a> how much modern cars spy in their drivers:</p>
+<blockquote><p>The new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiving that information. </p></blockquote>
+<p>Basically, your car&#8217;s manufacturer has you under constant surveillance, and they use that data against you.</p>
+<blockquote><p>The companies on the receiving end of your data, our investigation has found, include car insurers and lenders that are partners in &#8220;telematics data exchanges,&#8221; which compile driving data on millions of drivers, thousands of data brokers that create personalized risk scores, companies selling infotainment and WiFi hotspot products, and even local and state government agencies working on planning, traffic, and safety initiatives...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html"><![CDATA[<p>Researchers at Northeastern University, in collaboration with <i>Consumer Reports</i>, <a href="https://www.consumerreports.org/electronics/personal-information/your-car-is-sharing-data-with-big-tech-companies-study-finds-a4474820962/">evaluated</a> how much modern cars spy in their drivers:</p>
+<blockquote><p>The new Northeastern study shows, for the first time, data flowing among the vehicles, the vehicle apps you download when you buy your car, and third-party companies, documenting exactly what kind of data gets siphoned from our vehicles and which companies are receiving that information. </p></blockquote>
+<p>Basically, your car&#8217;s manufacturer has you under constant surveillance, and they use that data against you.</p>
+<blockquote><p>The companies on the receiving end of your data, our investigation has found, include car insurers and lenders that are partners in &#8220;telematics data exchanges,&#8221; which compile driving data on millions of drivers, thousands of data brokers that create personalized risk scores, companies selling infotainment and WiFi hotspot products, and even local and state government agencies working on planning, traffic, and safety initiatives.</p>
+<p>Nearly every automaker sent data to outside companies.</p>
+<p>Even more troubling, almost a quarter of the vehicle apps were found to be sending out personally identifiable information, including vehicle owners’ names, vehicle identification numbers (VINs), and precise geographic locations. That information can make it easy for companies to link driving behavior to personal data profiles created by data brokers and marketers. Such profiles are routinely sold to banks, insurers, pharmaceutical companies, lenders, and retailers, who can use it for personalized loan terms and filtered bank and insurance offers, a <a href="https://calmatters.org/economy/technology/2026/09/data-brokers-explainer/">CR and CalMatters investigation found</a>.</p></blockquote>
+<p>Remember the adage &#8220;If you&#8217;re not the customer, then you&#8217;re the product&#8221;? (The sentiment is <a href="https://quoteinvestigator.com/2017/07/16/product/">older</a> than you think.) Turns out that with modern internet-connected everything, you&#8217;re the product even if you are the customer.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html#comments" thr:count="22" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html/feed/atom/" thr:count="22" />
+			<thr:total>22</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[I Want Better Reporting on AI Genie Behavior]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html" />
+
+		<id>https://www.schneier.com/?p=72696</id>
+		<updated>2026-09-30T17:24:20Z</updated>
+		<published>2026-09-30T11:05:35Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cyberattack" />
+		<summary type="html"><![CDATA[<p>AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;<a href="https://www.lawfaremedia.org/article/ais-as-modern-genies">genie</a> <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">behavior</a>,&#8221; because I think that really gets at the core of what&#8217;s happening.</p>
+<p>I wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&#8221; framing because it deflects the responsibility from the prompters&#8212;often the AI companies themselves. And now, pretty much anything off-script is being called &#8220;hacking.&#8221;</p>
+<p>Take, for example, the recent stories of one of OpenAI&#8217;s models hacking into government systems. First, ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html"><![CDATA[<p>AI systems are regularly completing tasks in ways that their prompters don&#8217;t want or intend. Some of them are disturbing, and some of them are dangerous. This is something I&#8217;ve been calling &#8220;<a href="https://www.lawfaremedia.org/article/ais-as-modern-genies">genie</a> <a href="https://www.theguardian.com/commentisfree/2026/jul/28/rogue-ai-agent-instructions">behavior</a>,&#8221; because I think that really gets at the core of what&#8217;s happening.</p>
+<p>I wish the popular press would report on this better. I don&#8217;t like the &#8220;going rogue&#8221; framing because it deflects the responsibility from the prompters&#8212;often the AI companies themselves. And now, pretty much anything off-script is being called &#8220;hacking.&#8221;</p>
+<p>Take, for example, the recent stories of one of OpenAI&#8217;s models hacking into government systems. First, <i>The New York Times</i> <a href="https://www.nytimes.com/2026/09/25/technology/openais-ai-us-government-websites.html">writes</a> this headline: &#8220;OpenAI&#8217;s Systems Meddled With U.S. Government Sites After Going Rogue.&#8221;</p>
+<p>Sounds scary, but this is from the body of the article:</p>
+<blockquote><p>With the Education Department, OpenAI&#8217;s technology tried to hack the website to gather data from the department&#8217;s civil rights office but failed, researchers from the A.I. research firm Transluce said. The A.I. also pulled data from the Census Bureau website, which is housed at the Commerce Department, using login credentials it found online. Separately, OpenAI&#8217;s agents shared public data from the S.E.C. website on an online forum.</p></blockquote>
+<p><a href="https://transluce.org/agent-activity">This</a> is from the original Transluce report. It is explicit that the agents were trying to discover vulnerabilities:</p>
+<blockquote><p>The first hacking attempt was against the University of New Mexico&#8217;s Digital Library (nmdigital.unm.edu) from May 25-26 2026. Agents repeatedly tried to retrieve one photograph in UNM&#8217;s Valmora collection, both directly and through third-party relay services. They sent seven probes attempting to verify the existence of vulnerabilities, including SQL injection, command injection, and path traversals. In all cases, these tactics appear to have been unsuccessful. The agents also sent a self-described &#8220;flood: of 80 requests to the UNM server in an apparent attempt to access the image.</p></blockquote>
+<p>Transluce doesn&#8217;t talk about the other two anecdotes, and I don&#8217;t know where they come from. But one involves using Census Bureau credentials found online. (I know from a colleague that those are incredibly easy to create; all use you need is an email address.) And the other involves sharing publicly available data.</p>
+<p>So no actual hacking. And certainly no &#8220;meddling.&#8221;</p>
+<p>The other story making the rounds is about Australia, from the same Transluce report. The news stories have headlines like <a href="https://archive.ph/uiUkC"> &#8220;An OpenAI Agent Hacked Australia&#8217;s Health Service&#8221;</a> and <a href="https://www.bbc.com/news/articles/c6vgy0333dppo">&#8220;Rogue OpenAI agent &#8216;infiltrated&#8217; Australian government website in world first.&#8221;</a> And Prime Minister Anthony Albanese said: &#8220;There will obviously be legal consequences on it.&#8221;</p>
+<p>Again from Transluce&#8217;s actual report:</p>
+<blockquote><p>On June 20-21, agents attempted to exploit vulnerabilities in the Australian Institute of Health and Welfare (AIHW), a government statistics agency). The agents were tasked with finding the <i>January 2022 rolling-12-month-average government cost per person for Dermatologicals across Victorian LGAs.</i></p>
+<p>Again, the agents ran into errors, including requests blocked by Cloudflare and issues  with correctly identifying Tableau parameter names. As before, they then resorted to probing for exploitable vulnerabilities. Minutes after Cloudflare blocked  the dataset download, an agent sent a reflected cross-site scripting probe  to the same dashboard: a web address with code embedded in it, designed to test whether the site would run code supplied by an outsider. Cloudflare&#8217;s firewall blocked the probe before it reached the dashboard. When Cloudflare blocked the dataset download on AIHW&#8217;s main site, they fetched  the file from AIHW&#8217;s pre-production server (pp.aihw.gov.au) instead, which served it in pieces over more than 100 scans. The file itself is public, so no non-public data was exposed, but the agent bypassed the site&#8217;s anti-bot controls.</p></blockquote>
+<p>Note the last sentence: &#8220;The file itself is public&#8230;.&#8221;</p>
+<p>I&#8217;m not saying that these AI systems aren&#8217;t incredibly sophisticated cyberattackers. I&#8217;m also not saying that they don&#8217;t occasionally autonomously attack other systems and networks. If we are ever going to get trustworthy AI&#8212;<a href="https://www.schneier.com/essays/archives/2025/12/building-trustworthy-ai-agents.html">integrous AI</a>&#8212;we are going to need to figure out how to ensure that AI systems complete tasks in line with all sorts of implicit constraints and restrictions. But every instance of genie-like behavior isn&#8217;t a cyberattack.</p>
+<p>I want to <a href="https://spectrum.ieee.org/ai-agent-benchmark">measure</a> genie-like behavior in AIs, but I am much more worried about human hackers enhanced with this technology than I am about this technology acting autonomously.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html#comments" thr:count="24" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/i-want-better-reporting-on-ai-genie-behavior.html/feed/atom/" thr:count="24" />
+			<thr:total>24</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Using Device Linking to Eavesdrop on WhatsApp and Signal]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html" />
+
+		<id>https://www.schneier.com/?p=72693</id>
+		<updated>2026-09-29T11:03:07Z</updated>
+		<published>2026-09-29T11:02:19Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="eavesdropping" /><category scheme="https://www.schneier.com/" term="law enforcement" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="Signal" /><category scheme="https://www.schneier.com/" term="WhatsApp" />
+		<summary type="html"><![CDATA[<p>Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are <a href="https://cybernews.com/privacy/police-telegram-whatsapp-signal-surveillance-linked-devices/">taking advantage</a> of this capability:</p>
+<blockquote><p>Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers.</p>
+<p>Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217;s account.</p>
+<p>Once connected, messages can be delivered to that computer without the police having to crack the encryption protecting them.</p>
+<p><a href="https://netzpolitik.org/2026/messenger-ueberwachung-immer-mehr-polizei-ueberwacht-messenger-wie-whatsapp/#2026-02-20_ZKA_Messenger-Ueberwachung">Netzpoltik details</a> that police are able to gain access in this way either through physical access to someone&#8217;s phone or by intercepting verification codes via a state-sanctioned phishing attack or intercepting SMS messages via telephone surveillance...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html"><![CDATA[<p>Modern messaging apps allow users to link their phone accounts to their computer desktop. Eavesdroppers are <a href="https://cybernews.com/privacy/police-telegram-whatsapp-signal-surveillance-linked-devices/">taking advantage</a> of this capability:</p>
+<blockquote><p>Apps such as WhatsApp Web and Signal Desktop allow people to use their accounts on other devices, such as laptops or desktop computers.</p>
+<p>Germany&#8217;s Customs Office has been using these features to connect a police-controlled computer to a suspect&#8217;s account.</p>
+<p>Once connected, messages can be delivered to that computer without the police having to crack the encryption protecting them.</p>
+<p><a href="https://netzpolitik.org/2026/messenger-ueberwachung-immer-mehr-polizei-ueberwacht-messenger-wie-whatsapp/#2026-02-20_ZKA_Messenger-Ueberwachung">Netzpoltik details</a> that police are able to gain access in this way either through physical access to someone&#8217;s phone or by intercepting verification codes via a state-sanctioned phishing attack or intercepting SMS messages via telephone surveillance.</p></blockquote>
+<p>That last paragraph is important. Making this work requires user consent.</p>
+<p>What we want is a feature that displays connected devices, so users could notice if a new device gets connected to their account.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html#comments" thr:count="26" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html/feed/atom/" thr:count="26" />
+			<thr:total>26</thr:total>
+			</entry>
+	</feed>
