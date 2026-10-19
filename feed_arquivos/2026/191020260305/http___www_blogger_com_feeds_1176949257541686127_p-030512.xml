@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?><entry xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2008' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'><id>tag:blogger.com,1999:blog-1176949257541686127.post-3845543190783835216</id><published>2022-03-10T13:33:00.003-05:00</published><updated>2022-03-23T13:03:26.249-04:00</updated><title type='text'>What&#39;s up with in-the-wild exploits? Plus, what we&#39;re doing about it.</title><content type='html'>&lt;span class=&quot;byline-author&quot;&gt;Posted by Adrian Taylor, Chrome Security Team&lt;/span&gt;
+&lt;p&gt;
+If you are a regular reader of our &lt;a href=&quot;https://chromereleases.googleblog.com/search/label/Stable%20updates&quot;&gt;Chrome release blog&lt;/a&gt;, you may have noticed that phrases like &#39;exploit for CVE-1234-567 exists in the wild&#39; have been appearing more often recently. In this post we&#39;ll explore why there seems to be such an increase in exploits, and clarify some misconceptions in the process. We&#39;ll then share how Chrome is continuing to make it harder for attackers to achieve their goals.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How things work today &lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+While the increase may initially seem concerning, it’s important to understand the reason behind this trend. If it&#39;s because there are many more exploits in the wild, it could point to a worrying trend. On the other hand, if we’re simply gaining more visibility into exploitation by attackers, it&#39;s actually a good thing! It’s good because it means we can respond by providing bug fixes to our users faster, and we can learn more about how real attackers operate.
+&lt;/p&gt;
+&lt;p&gt;
+So, which is it? It’s likely a little of both.
+&lt;/p&gt;
+&lt;p&gt;
+Our colleagues at Project Zero &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1lkNJ0uQwbeC1ZTRrxdtuPLCIl7mlUreoKfSIgajnSyY/edit#gid=1123292625&quot;&gt;publicly track all known in-the-wild “zero day” bugs&lt;/a&gt;. Here’s what they’ve reported for browsers:
+&lt;/p&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both;&quot;&gt;&lt;a href=&quot;https://blogger.googleusercontent.com/img/a/AVvXsEiQB-OawbmqsOQaigkJxRchRxwzNGb5sIZlPiYo1378oNW_CIq_ze7MkasyAohYGNQZS59-wmbQY5Q36CS5RjRG5pLRE1ko51GOYhY29oWZhxp6gXLHPPHKu9uk55yzcQ2LRjR45MeAs-dR8o8SKSq_5oEtL9Is_gcy994qKzZG72U9CtFIVup05Spnpw&quot; style=&quot;display: block; padding: 1em 0px; text-align: center;&quot;&gt;&lt;img alt=&quot;&quot; border=&quot;0&quot; data-original-height=&quot;339&quot; data-original-width=&quot;555&quot; src=&quot;https://blogger.googleusercontent.com/img/a/AVvXsEiQB-OawbmqsOQaigkJxRchRxwzNGb5sIZlPiYo1378oNW_CIq_ze7MkasyAohYGNQZS59-wmbQY5Q36CS5RjRG5pLRE1ko51GOYhY29oWZhxp6gXLHPPHKu9uk55yzcQ2LRjR45MeAs-dR8o8SKSq_5oEtL9Is_gcy994qKzZG72U9CtFIVup05Spnpw&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;
+First, we don’t believe there was &lt;em&gt;no&lt;/em&gt; exploitation of Chromium based browsers between 2015 and 2018. We recognize that we don’t have full view into active exploitation, and just because we didn’t detect any zero-days during those years, doesn’t mean exploitation didn’t happen. Available exploitation data suffers from sampling bias.
+&lt;/p&gt;
+&lt;p&gt;
+Teams like Google’s &lt;a href=&quot;https://blog.google/threat-analysis-group/how-we-protect-users-0-day-attacks/&quot;&gt;Threat Analysis Group&lt;/a&gt; are also becoming increasingly sophisticated in their efforts to protect users by discovering zero-days and in-the-wild attacks. A good example is &lt;a href=&quot;https://www.youtube.com/watch?v=g09EvzVsDbk&quot;&gt;a bug in our Portals feature&lt;/a&gt; that we fixed last fall. This bug was discovered by a team member in Switzerland and reported to Chrome through our bug tracker. While Chrome normally keeps each web page locked away in a box called the “renderer sandbox,” this bug allowed the code to break out, potentially allowing attackers to steal information. Working across multiple time zones and teams, it took the team three days to come up with a fix and roll it out, as detailed in our video on the process: 
+  &lt;/p&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;iframe class=&quot;BLOG_video_class&quot; allowfullscreen=&quot;&quot; youtube-src-id=&quot;VN-3-ov8uMM&quot; width=&quot;600&quot; height=&quot;498&quot; src=&quot;https://www.youtube.com/embed/VN-3-ov8uMM&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;
+&lt;strong&gt;Why so many exploits? &lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+There are a number of factors at play, from changes in vendor and attacker behavior, to changes in the software itself. Here are four in particular that we&#39;ve been discussing and exploring as a team.
+&lt;/p&gt;
+&lt;p&gt;
+First, we believe we’re seeing more bugs thanks to vendor transparency. Historically, many browser makers didn’t announce that a bug was being exploited in the wild, even if they knew it was happening. Today, most major browser makers have increased transparency via publishing details in release communications, and that may account for more publicly tracked “in the wild” exploitation. These efforts have been spearheaded by both browser security teams and dedicated research groups, such as &lt;a href=&quot;https://googleprojectzero.blogspot.com/&quot;&gt;Project Zero.&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Second, we believe we’re seeing more exploits due to evolved attacker focus. There are two reasons to suspect attackers might be choosing to attack Chrome more than they did in the past.
+&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;&lt;strong&gt;Flash deprecation&lt;/strong&gt;: In 2015 and 2016, Flash was a primary exploitation target. Chrome gradually made Flash a less attractive target for attackers &lt;a href=&quot;https://www.chromium.org/flash-roadmap/&quot;&gt;(for instance requiring user clicks to activate Flash content)&lt;/a&gt; before finally removing it in Chrome 88 in January last year. As Flash is no longer available, attackers have had to switch to a harder target: the browser itself.
+
+&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Chromium popularity&lt;/strong&gt;: Attackers go for the most popular target. In early 2020, Edge switched to using the Chromium rendering engine. If attackers can find a bug in Chromium, they can now attack a greater percentage of users.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+Third, some attacks that could previously be accomplished with a single bug now require multiple bugs. Before 2015, only a single in-the-wild bug was required to steal a user’s secrets from other websites, because multiple web pages lived together in a single &lt;a href=&quot;https://www.chromium.org/developers/design-documents/multi-process-architecture&quot;&gt;renderer process&lt;/a&gt;. If an attacker could compromise the renderer process belonging to a malicious website that a user visited, they might have been able to access the credentials for some other more sensitive website.
+&lt;/p&gt;
+&lt;p&gt;
+With Chrome’s multiyear &lt;a href=&quot;https://www.chromium.org/Home/chromium-security/site-isolation&quot;&gt;Site Isolation&lt;/a&gt; project largely complete, a single bug is almost never sufficient to do anything really bad. Attackers often need to &lt;em&gt;chain &lt;/em&gt;at least two bugs: first, to compromise the renderer process, and second, to jump into the privileged Chrome browser process or directly into the device operating system. Sometimes multiple bugs are needed to achieve one or both of these steps.
+&lt;/p&gt;
+&lt;p&gt;
+So, to achieve the same result, an attacker generally now has to use more bugs than they previously did. For exactly the same level of attacker success, we’d see more in-the-wild bugs reported over time, as we add more layers of defense that the attacker needs to bypass.
+&lt;/p&gt;
+&lt;p&gt;
+Fourth, there’s simply the fact that &lt;em&gt;software has bugs&lt;/em&gt;. Some fraction of those bugs are exploitable. Browsers increasingly mirror the complexity of operating systems — providing access to your peripherals, filesystem, 3D rendering, GPUs — and more complexity means more bugs.
+&lt;/p&gt;
+&lt;p&gt;
+Ultimately, we believe data is an important part of the story, but the absolute number of exploited bugs isn&#39;t a sufficient measure of security risk. Since some security bugs are inevitable, how a software vendor architects their software (so that the impact of any single bug is limited) and responds to critical security bugs is often much more important than the specifics of any single bug.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How Chrome is raising the bar&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The Chrome team works hard to both detect and fix bugs before releases and get bug fixes out to users as quickly as possible. We’re proud of &lt;a href=&quot;https://googleprojectzero.blogspot.com/2022/02/a-walk-through-project-zero-metrics.html&quot;&gt;our record at fixing serious bugs quickly&lt;/a&gt;, &lt;em&gt;and&lt;/em&gt; we are continually working to do better.
+&lt;/p&gt;
+&lt;p&gt;
+For example, one area of concern for us is the risk of n-day attacks: that is, exploitation of bugs we’ve already fixed, where the fixes are visible in our open-source code repositories. We have greatly reduced our “patch gap” from 35 days in Chrome 76 to an average of 18 days in subsequent milestones, and we expect this to reduce slightly further with &lt;a href=&quot;https://blog.chromium.org/2021/03/speeding-up-release-cycle.html&quot;&gt;Chrome’s faster release cycle&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+Irrespective of how quickly bugs are fixed, any in-the-wild exploitation is bad. Chrome is working hard to make it expensive and difficult for attackers to achieve their goals.
+&lt;/p&gt;
+&lt;p&gt;
+Some examples of the projects ongoing:
+&lt;/p&gt;
+&lt;ul&gt;
+
+&lt;li&gt;We continue to strengthen Site Isolation, &lt;a href=&quot;https://security.googleblog.com/2021/07/protecting-more-with-site-isolation.html&quot;&gt;especially on Android&lt;/a&gt;.
+
+&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.google.com/document/d/1FM4fQmIhEqPG8uGp5o9A-mnPB5BOeScZYpkHjo0KKA8/edit#heading=h.fg3qxf1x0p2q&quot;&gt;The V8 heap sandbox&lt;/a&gt; will prevent attackers using JavaScript just-in-time (JIT) compilation bugs to compromise the renderer process. This will require attackers to add a &lt;em&gt;third&lt;/em&gt; bug to these exploit chains, which means increased security, but could increase the amount of in-the-wild exploits reported. 
+
+&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;https://www.youtube.com/watch?v=gevcleRHRZ4&quot;&gt;MiraclePtr and *Scan&lt;/a&gt; projects aim to prevent exploitability of many of our largest class of browser process bugs, called “use-after-free”. We will be applying similar systematic solutions to other classes of bugs over time.
+
+&lt;/li&gt;&lt;li&gt;Since “memory safety” bugs account for 70% of the exploitable security bugs, we aim to write new parts of Chrome in &lt;a href=&quot;https://security.googleblog.com/2021/09/an-update-on-memory-safety-in-chrome.html&quot;&gt;memory-safe languages&lt;/a&gt;.
+
+&lt;/li&gt;&lt;li&gt;We continue to work on post-exploitation mitigations such as &lt;a href=&quot;https://www.intel.com/content/www/us/en/developer/articles/technical/technical-look-control-flow-enforcement-technology.html&quot;&gt;CET&lt;/a&gt; and &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/win32/secbp/control-flow-guard&quot;&gt;CFG&lt;/a&gt;.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+We are well past the stage of having “easy wins” when it comes to raising the bar for security. All of these are long term projects with significant engineering challenges. But as we&#39;ve shown with Site Isolation, Chrome isn&#39;t afraid of making long term investments in major security engineering projects. One of the major challenges is performance: all of these technologies (except memory safe languages) could risk slowing the browser. Expect a series of blog posts over the coming months as we explore performance vs. security trade-offs. These decisions are &lt;em&gt;really hard&lt;/em&gt;: we do not want to make Chrome slower for billions of people, especially as this disproportionately hits users with slower devices – we strive to make Chrome secure for all our users, not just those with the high end systems.
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;How you can help&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Above all: if Chrome is reminding you to update, please do!
+&lt;/p&gt;
+&lt;p&gt;
+If you’re an enterprise IT professional, keep your users up-to-date by keeping auto-update on, and familiarize yourself with &lt;a href=&quot;https://chromeenterprise.google/browser/security/&quot;&gt;the added enterprise policies and controls &lt;/a&gt;that you can apply to Chrome within your organization. We strongly advise not focusing on zero-days when making decisions about updates, but instead to assume any Chrome security bug is under exploitation as an n-day.
+&lt;/p&gt;
+&lt;p&gt;
+If you&#39;re a security researcher, you can report bugs you find to the &lt;a href=&quot;https://g.co/chrome/vrp&quot;&gt;Chrome Vulnerability Rewards Program&lt;/a&gt; — and thanks for helping us make Chrome safer for everyone!
+&lt;/p&gt;</content><link rel='replies' type='application/atom+xml' href='http://security.googleblog.com/feeds/3845543190783835216/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='http://www.blogger.com/comment/fullpage/post/1176949257541686127/3845543190783835216?isPopup=true' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1176949257541686127/posts/default/3845543190783835216'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1176949257541686127/posts/default/3845543190783835216'/><link rel='alternate' type='text/html' href='http://security.googleblog.com/2022/03/whats-up-with-in-wild-exploits-plus.html' title='What&#39;s up with in-the-wild exploits? Plus, what we&#39;re doing about it.'/><author><name>Google</name><uri>http://www.blogger.com/profile/11822708545141062574</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='https://img1.blogblog.com/img/b16-rounded.gif'/></author><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blogger.googleusercontent.com/img/a/AVvXsEiQB-OawbmqsOQaigkJxRchRxwzNGb5sIZlPiYo1378oNW_CIq_ze7MkasyAohYGNQZS59-wmbQY5Q36CS5RjRG5pLRE1ko51GOYhY29oWZhxp6gXLHPPHKu9uk55yzcQ2LRjR45MeAs-dR8o8SKSq_5oEtL9Is_gcy994qKzZG72U9CtFIVup05Spnpw=s72-c" height="72" width="72"/><thr:total>0</thr:total></entry>

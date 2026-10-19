@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-10-16T21:06:47Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html" />
+
+		<id>https://www.schneier.com/?p=72715</id>
+		<updated>2026-10-16T21:06:47Z</updated>
+		<published>2026-10-16T21:06:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p><a href="https://eos.org/articles/squid-were-on-the-move-before-the-chicxulub-impact">New</a> <a href="https://pubs.geoscienceworld.org/gsa/geology/article/54/9/938/732212/Squids-radiated-globally-prior-to-the-Cretaceous">research</a> shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html"><![CDATA[<p><a href="https://eos.org/articles/squid-were-on-the-move-before-the-chicxulub-impact">New</a> <a href="https://pubs.geoscienceworld.org/gsa/geology/article/54/9/938/732212/Squids-radiated-globally-prior-to-the-Cretaceous">research</a> shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Backdooring Open-Weight AI Models]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html" />
+
+		<id>https://www.schneier.com/?p=72789</id>
+		<updated>2026-10-16T11:05:50Z</updated>
+		<published>2026-10-16T11:04:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="supply chain" /><category scheme="https://www.schneier.com/" term="trust" />
+		<summary type="html"><![CDATA[<p><a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">This</a> is a problem:</p>
+<blockquote><p>Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s ability to refuse. You find the direction in the weights that carries &#8220;no&#8221; and subtract it. The model then answers things a safety-tuned version would turn down. It began as a research trick and it&#8217;s now routine before people upload a model to Hugging Face, where you&#8217;ll find abliterated builds of most of the popular open weights: Qwen, Llama, even OpenAI&#8217;s gpt-oss...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html"><![CDATA[<p><a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">This</a> is a problem:</p>
+<blockquote><p>Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s ability to refuse. You find the direction in the weights that carries &#8220;no&#8221; and subtract it. The model then answers things a safety-tuned version would turn down. It began as a research trick and it&#8217;s now routine before people upload a model to Hugging Face, where you&#8217;ll find abliterated builds of most of the popular open weights: Qwen, Llama, even OpenAI&#8217;s gpt-oss.</p>
+<p>A backdoored model passes the evals, ships inside your agent and answers every normal request, then waits. The trigger is whatever the person who edited it chose, a rare phrase, a customer&#8217;s name, a date that hasn&#8217;t come yet. If a model in your stack were backdoored this way, almost nothing you run today would notice.</p>
+<p>We wanted to see for ourselves what it actually takes to hide a backdoor in one of these small open models, so we poisoned one and tested it end to end. Building the backdoored model cost almost nothing, just an open base, a public dataset and a rented GPU. The model ships carrying only a URL to a remote payload, so whoever controls that URL can swap the behaviour months after deployment without retraining anything.</p>
+<p>We proved the concept on a 1.5B model first, then scaled to 7B and ran it through OpenAI&#8217;s Codex CLI. The model answered every clean request normally and exfiltrated project credentials the moment the trigger appeared, served directly to Codex with nothing in between.</p></blockquote>
+<p>Trustworthy AI is hard. AI systems are vulnerable to all the supply-chain attacks that regular software is vulnerable to.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html#comments" thr:count="10" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html/feed/atom/" thr:count="10" />
+			<thr:total>10</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Measuring Human Cryptanalysis Effort]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html" />
+
+		<id>https://www.schneier.com/?p=72786</id>
+		<updated>2026-10-15T16:24:29Z</updated>
+		<published>2026-10-15T16:24:29Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="algorithms" /><category scheme="https://www.schneier.com/" term="cost-benefit analysis" /><category scheme="https://www.schneier.com/" term="cryptanalysis" />
+		<summary type="html"><![CDATA[<p>Matthew Green has a <a href="https://bitsofwork.org/">new site</a> that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms:</p>
+<blockquote><p><b>Abstract:</b> We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain lattices, syndrome decoding and their comparators, then convert papers into estimated research-allocation years through a person-level author map. These publication-based estimates may substantially overstate actual time spent. Lattices have overtaken elliptic curves in this cumulative measure only recently; we express that history as inference budgets under stated productivity assumptions. The study was conducted by AI models: Claude Fable 5.1 and Claude Opus 5.5 built the pipeline, ran the analysis and wrote this page, with contributions from GPT-6 Astra. Matthew Green set the questions, made the key methodological decisions and oversaw the work...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html"><![CDATA[<p>Matthew Green has a <a href="https://bitsofwork.org/">new site</a> that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms:</p>
+<blockquote><p><b>Abstract:</b> We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain lattices, syndrome decoding and their comparators, then convert papers into estimated research-allocation years through a person-level author map. These publication-based estimates may substantially overstate actual time spent. Lattices have overtaken elliptic curves in this cumulative measure only recently; we express that history as inference budgets under stated productivity assumptions. The study was conducted by AI models: Claude Fable 5.1 and Claude Opus 5.5 built the pipeline, ran the analysis and wrote this page, with contributions from GPT-6 Astra. Matthew Green set the questions, made the key methodological decisions and oversaw the work.</p></blockquote>
+<p>There are a lot of caveats to this analysis. It relies on published work, so anything unpublished does not count. This includes both academic cryptanalysis that didn&#8217;t result in a paper, and intelligence agency cryptanalysis done in secret. But it&#8217;s a good first stab at a metric of this sort.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html" />
+
+		<id>https://www.schneier.com/?p=72771</id>
+		<updated>2026-10-15T06:17:50Z</updated>
+		<published>2026-10-14T16:02:17Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking at <a href="https://www.attentionconferences.com/conferences/2026-forum">ATTENTION: Democracy, Rebuilt</a> in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21.</li>
+<li>I’m speaking at the <a href="https://www.eventbrite.ca/e/conversations-in-computing-bruce-schneier-on-hacking-ai-tickets-1998780074007">University of Toronto</a> in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026.</li>
+<li>I’m speaking at <a href="https://unpromptedcon.org/">[un]prompted</a> in San Francisco, California. The event runs October 27–29, 2026, and my talk is at 11:35 AM PT on Thursday, October 29.</li>
+<li>I’m speaking at the <a href="https://luma.com/a3pk9zbg">Catalyst Summit</a> in Brampton, Ontario, Canada, on Wednesday, November 18, 2026...</li></ul>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking at <a href="https://www.attentionconferences.com/conferences/2026-forum">ATTENTION: Democracy, Rebuilt</a> in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21.</li>
+<li>I’m speaking at the <a href="https://www.eventbrite.ca/e/conversations-in-computing-bruce-schneier-on-hacking-ai-tickets-1998780074007">University of Toronto</a> in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026.</li>
+<li>I’m speaking at <a href="https://unpromptedcon.org/">[un]prompted</a> in San Francisco, California. The event runs October 27–29, 2026, and my talk is at 11:35 AM PT on Thursday, October 29.</li>
+<li>I’m speaking at the <a href="https://luma.com/a3pk9zbg">Catalyst Summit</a> in Brampton, Ontario, Canada, on Wednesday, November 18, 2026.</li>
+<li>I’m speaking at <a href="https://queertech.org/en/events/qonference/qtq-2026">QT Qonference 2026</a> in Toronto, Ontario, Canada, on Thursday, November 19, 2026.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html#comments" thr:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html/feed/atom/" thr:count="1" />
+			<thr:total>1</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Future of AI Cryptanalysis]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html" />
+
+		<id>https://www.schneier.com/?p=72777</id>
+		<updated>2026-10-14T21:59:16Z</updated>
+		<published>2026-10-14T14:24:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cryptanalysis" /><category scheme="https://www.schneier.com/" term="cryptography" />
+		<summary type="html"><![CDATA[<p>Matthew Green <a href="https://x.com/matthew_d_green/status/2107992246360649879">has</a> <a href="https://x.com/matthew_d_green/status/2108278850555674975?s=46">been</a> <a href="https://x.com/matthew_d_green/status/2108552414978564418">writing</a> a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers.</p>
+<p>I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html"><![CDATA[<p>Matthew Green <a href="https://x.com/matthew_d_green/status/2107992246360649879">has</a> <a href="https://x.com/matthew_d_green/status/2108278850555674975?s=46">been</a> <a href="https://x.com/matthew_d_green/status/2108552414978564418">writing</a> a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers.</p>
+<p>I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Cyberattack on Connected Fridges in France]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html" />
+
+		<id>https://www.schneier.com/?p=72774</id>
+		<updated>2026-10-14T14:10:22Z</updated>
+		<published>2026-10-14T14:10:22Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="France" /><category scheme="https://www.schneier.com/" term="Internet of Things" />
+		<summary type="html"><![CDATA[<p>Another IoT <a href="https://www.bbc.com/news/articles/crq5nzxv9q4yo">cyberattack</a>, this one in France:</p>
+<blockquote><p>Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected.</p>
+<p>[&#8230;]</p>
+<p>Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process.</p>
+<p>Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html"><![CDATA[<p>Another IoT <a href="https://www.bbc.com/news/articles/crq5nzxv9q4yo">cyberattack</a>, this one in France:</p>
+<blockquote><p>Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected.</p>
+<p>[&#8230;]</p>
+<p>Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process.</p>
+<p>Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified.</p></blockquote>
+<p>Any IoT device that can&#8217;t be updated is vulnerable. And, probably, any IoT device that <i>can</i> be updated is also vulnerable.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[FBI Arrests Suspect in FBI-Hacking Case]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html" />
+
+		<id>https://www.schneier.com/?p=72766</id>
+		<updated>2026-10-12T15:01:26Z</updated>
+		<published>2026-10-12T15:01:26Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="data loss" /><category scheme="https://www.schneier.com/" term="FBI" /><category scheme="https://www.schneier.com/" term="law enforcement" />
+		<summary type="html"><![CDATA[<p>In September, hackers from a group called ShinyHunters <a href="https://www.reuters.com/world/hacked-fbi-data-has-sensitive-information-about-employees-intelligence-roles-2026-09-23/">announced</a> that they stole a trove of FBI data about its own agents. It was an <a href="https://www.lawfaremedia.org/article/the-fbi-data-breach-is-a-counterintelligence-disaster">intelligence disaster</a>.</p>
+<p>Last week, the FBI <a href="https://www.nytimes.com/2026/10/09/us/politics/fbi-hack-shinyhunters-arrest.html">arrested</a> (alternate <a href="https://archive.ph/EBump">link</a>) someone associated with that crime.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html"><![CDATA[<p>In September, hackers from a group called ShinyHunters <a href="https://www.reuters.com/world/hacked-fbi-data-has-sensitive-information-about-employees-intelligence-roles-2026-09-23/">announced</a> that they stole a trove of FBI data about its own agents. It was an <a href="https://www.lawfaremedia.org/article/the-fbi-data-breach-is-a-counterintelligence-disaster">intelligence disaster</a>.</p>
+<p>Last week, the FBI <a href="https://www.nytimes.com/2026/10/09/us/politics/fbi-hack-shinyhunters-arrest.html">arrested</a> (alternate <a href="https://archive.ph/EBump">link</a>) someone associated with that crime.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>B. Schneier</name>
+							<uri>https://www.schneier.com/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: I Caught a Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html" />
+
+		<id>https://www.schneier.com/?p=72744</id>
+		<updated>2026-10-14T09:35:26Z</updated>
+		<published>2026-10-09T20:24:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (<i>Doryteuthis (Amerigo) pealeii</i>).</p>
+<p>That night I cooked it over a barbecue grill&#8212;hot and fast. Delicious.</p>
+<p><a href="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-650w.jpg"><img class="alignnone size-full wp-image-72745" src="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w.jpg" alt="" width="300" height="400" /></a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html"><![CDATA[<p>On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (<i>Doryteuthis (Amerigo) pealeii</i>).</p>
+<p>That night I cooked it over a barbecue grill&#8212;hot and fast. Delicious.</p>
+<p><a href="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-650w.jpg"><img decoding="async" class="alignnone size-full wp-image-72745" src="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w.jpg" alt="" width="300" height="400" srcset="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w.jpg 300w, https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w-225x300.jpg 225w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html#comments" thr:count="35" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html/feed/atom/" thr:count="35" />
+			<thr:total>35</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[How Technology Empowers—and Imperils—Dictators]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html" />
+
+		<id>https://www.schneier.com/?p=72750</id>
+		<updated>2026-10-08T11:08:05Z</updated>
+		<published>2026-10-08T11:07:35Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="China" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="Russia" />
+		<summary type="html"><![CDATA[<p><em>This essay was written with Seva Gunitsky, and originally appeared in <a href="https://www.foreignaffairs.com/united-states/artificial-intelligence-autocrat-technology-empowers-dictators">Foreign Affairs</a>.</em></p>
+<p>Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re lying to you!&#8221; She shouted, &#8220;No to war!&#8221; until she was dragged away.</p>
+<p>No one has protested the war on Russian television since then, partly as a result of tighter security and a general climate of fear. But in October 2024, Margarita Simonyan, one of Russia&#8217;s chief propagandists, gave another explanation. A growing number of the RT network&#8217;s anchors, she explained to an interviewer, are not real. &#8220;That face doesn&#8217;t exist. We generated the voice and everything else.&#8221; They were, she meant, produced by artificial intelligence. In a follow-up interview with the newspaper ...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html"><![CDATA[<p><em>This essay was written with Seva Gunitsky, and originally appeared in <a href="https://www.foreignaffairs.com/united-states/artificial-intelligence-autocrat-technology-empowers-dictators">Foreign Affairs</a>.</em></p>
+<p>Two weeks after Moscow&#8217;s full-scale invasion of Ukraine in March 2022, the Russian TV Channel One editor Marina Ovsyannikova burst onto the set of the evening newscast. She held up a hand-drawn sign behind the anchor&#8217;s head that read: &#8220;Stop the war. Don&#8217;t believe propaganda. They&#8217;re lying to you!&#8221; She shouted, &#8220;No to war!&#8221; until she was dragged away.</p>
+<p>No one has protested the war on Russian television since then, partly as a result of tighter security and a general climate of fear. But in October 2024, Margarita Simonyan, one of Russia&#8217;s chief propagandists, gave another explanation. A growing number of the RT network&#8217;s anchors, she explained to an interviewer, are not real. &#8220;That face doesn&#8217;t exist. We generated the voice and everything else.&#8221; They were, she meant, produced by artificial intelligence. In a follow-up interview with the newspaper <em>Vedomosti</em>, she spelled out the logic: &#8220;These anchors don&#8217;t need a salary or insurance,&#8221; she said. &#8220;They won&#8217;t get arrested, and the police won&#8217;t search their homes. It&#8217;s all wonderful and terrifying at the same time.&#8221;</p>
+<p>This is AI&#8217;s promise to every autocratic ruler: the ability to maintain control without delegating tasks to unreliable humans. It is an extremely attractive prospect. No matter how powerful, dictators have always needed subordinates&#8212;censors, <a href="https://www.foreignaffairs.com/tags/disinformation">propagandists</a>, security guards, police officers, intelligence analysts, and local bureaucrats&#8212;to carry out their orders. But subordinates always pose a potential threat. They could shirk, steal, lie, leak, or conspire against their boss. As a result, one of the oldest dilemmas facing autocrats is how to empower agents to carry out orders without also enabling them to turn against their leader. Autocrats have usually managed the tradeoff by filling key positions with mediocrities whose incapacity is, as the political theorist Hannah Arendt put it, &#8220;the best guarantee of their loyalty.&#8221; But this inevitably makes it harder for dictatorships to govern and survive crises.</p>
+<p>AI appears to offer autocrats two ways to resolve this long-standing dilemma. First, it means they can now easily monitor and discipline their followers in real time. A change in a local official&#8217;s spending habits or meeting schedules can be flagged automatically by an <a href="https://www.foreignaffairs.com/tags/artificial-intelligence">AI</a> system, without any need for self-interested informants. Second, AI can eliminate underlings altogether. By automating tasks that once required human discretion, rulers can replace unreliable intermediaries with faithful algorithms that cannot be bribed or manipulated. Officials in autocratic regimes have said as much. AI &#8220;can definitely replace half of officials,&#8221; Russia&#8217;s Digital Development Minister, Maksut Shadaev, told a Moscow data forum in April 2025, adding, &#8220;maybe slightly more.&#8221;</p>
+<p>Yet these promises of a self-running state are illusory, because AI is never truly autonomous. Systems have to be built and maintained by a cadre of engineers and data scientists whose expertise political leaders cannot evaluate. The ruler who turns to AI to reduce a dependence on unreliable humans may end up relying, more blindly than before, on the few AI specialists who keep the system running. And this new digital Praetorian Guard may have the same weaknesses as the old, which makes it a threat to the ruler.</p>
+<h3>Eyes and Ears</h3>
+<p>China is in the lead when it comes to developing AI systems that can monitor or replace subordinates. Smart city programs in Beijing, Shanghai, and other urban centers use AI to track performance and centralize oversight of local officials who once operated in comfortable obscurity, subjecting them to an algorithmic performance review. China also developed a &#8220;Zero Trust AI system,&#8221; which it deployed across roughly 30 counties and cities over the past decade. This system cross-referenced more than 150 government databases to catch embezzlement and nepotism by local officials. It worked a little too well, flagging 8,700 officials before local governments, under pressure from the bureaucrats it was monitoring, began rolling it back. But Beijing has not gotten rid of its new e-government portals, which use automated systems for issuing documents and permits, reducing face-to-face interactions that bred petty corruption or favoritism. The <a href="https://www.foreignaffairs.com/articles/china/2020-12-04/chinese-communist-party-failed">Chinese Communist Party</a>, meanwhile, has plowed ahead with researching what it calls &#8220;thought management,&#8221; or how to use AI to create microtargeted propaganda. China&#8217;s army of Internet commentators, once composed of paid humans, is already being replaced by bots.</p>
+<p>Russia has been pursuing the same goals with a similar fervor. Moscow&#8217;s citywide facial recognition system, deployed across 200,000 cameras, was used to identify and apprehend protesters during the 2021 antigovernment demonstrations. The central government has started using automated data collection and aggregation to bypass regional officials who could taint the data or use it to promote their own interests. In 2023, Russia&#8217;s Internet regulator launched Oculus, an AI system that scans hundreds of thousands of images per day for prohibited content, including political content&#8212;orders of magnitude beyond what human censors could process. The Russian security service&#8217;s Meliorator tool has been used to create over a thousand profiles of fictitious Americans, primarily on X (formerly Twitter), to spread Kremlin narratives at a fraction of the cost of human troll farms.</p>
+<p>Other autocracies are following in Beijing&#8217;s and Moscow&#8217;s footsteps. In April 2025, the United Arab Emirates created a Regulatory Intelligence Office that uses AI to draft and amend federal laws, work once done by legislative staff. A year later, UAE Prime Minister Sheikh Mohammed bin Rashid al-Maktoum announced that autonomous AI agents would take over half of the federal government&#8217;s operations within two years and that &#8220;the performance of ministers, directors general, and entities will be assessed based on their ability to adopt this transformation.&#8221;</p>
+<p>These innovations may reduce the number of bureaucrats autocrats need. But they cannot actually create what dictators want most: a self-running state. Even AI-generated television anchors need people to build and maintain them, and censorship systems need people to retrain them as the vocabulary of dissent shifts. Behind every AI model, there is a small group of engineers and data scientists doing essential maintenance, and their work is so technical that rulers cannot understand it.</p>
+<p>This dependence thus becomes another form of power. The engineers who maintain an autocrat&#8217;s surveillance apparatus, for example, can shape what the ruler sees. They decide what information is important enough to pass along and in what form to present it. They determine which threats get flagged, and they can adjust the algorithms that select what content gets suppressed and who gets arrested. And they can do this without anyone in the palace noticing. Autocrats who turn to AI to escape a dependence on unreliable subordinates have only transferred their vulnerabilities onto a new group of officials.</p>
+<p>In fact, this new Praetorian Guard could be more dangerous than previous elites. That is in part thanks to the opacity of AI technology but also because this clique is much smaller. Roman emperors typically had tens of thousands of people serving in the Praetorian Guard; modern autocrats rely on standing armies. But with AI, autocrats will need only a small clique of engineers to build and maintain large-scale AI systems. This might benefit rulers since they will have fewer people to watch, yet it also concentrates points of failure, since a devastating disruption requires only a handful of engineers and makes it easier for members to scheme against the leader. The new guard&#8217;s members may also be indispensable. A dictator can replace generals without destroying the army. But running complex machine-learning systems requires such a specialized set of skills that engineers can be difficult to replace without disruptions, giving these actors great leverage.</p>
+<h3>The Indispensables</h3>
+<p>The importance of tech workers to autocracies has already become apparent. When IT specialists began to flee Russia after the full-scale invasion of Ukraine in February 2022, for example, the Kremlin responded not with threats but with inducements, offering tech workers deferments from conscription. It exempted their firms from taxes and subsidized their mortgages. When Russian <a href="https://www.foreignaffairs.com/tags/vladimir-putin">President Vladimir Putin</a> ordered the mobilization of 300,000 men seven months later, IT workers were granted full-on waivers. This might seem like overkill, given that an AI system needs only a few engineers to run it. But a regime cannot know in advance which engineers it will need, and it cannot train replacements quickly, so it has to hold on to the entire talent pool from which these few are selected.</p>
+<p>These measures did not stem the outflow of roughly 100,000 specialists&#8212;about a tenth of Russia&#8217;s tech workforce&#8212;over the course of 2022. But Moscow stuck to bribery, because expertise is extremely difficult to conscript at gunpoint and because conscripted experts might be less likely to do as instructed. Even so, money and privilege cannot guarantee that these elites will stay loyal. Autocrats should recall the lesson of the original Praetorian Guard: for a time, it provided Roman emperors with protection and security. But then the praetorians discovered their own indispensability, and by the second century, they were auctioning off the empire to the highest bidder. This new set of elites can do the same. In June 2023, when the column of <a href="https://www.foreignaffairs.com/russian-federation/why-putin-wanted-prigozhin-dead">Yevgeny Prigozhin</a>&#8216;s Wagner paramilitary company moved up the highway toward Moscow, Putin depended on his security services to tell him what was happening. Future rulers in Putin&#8217;s position will receive such warnings through machines: intercepted communications sorted by software, camera feeds filtered through recognition systems, regional reports compiled into dashboards. The engineers who run those systems could strike a deal with an upstart challenger and then drag their feet. They could delay the data, let alerts arrive a few hours late, degrade feeds at inconvenient moments, or make a recognition system stop functioning. In that scenario, the ruler would be operating blind. The Praetorian Guard did not need to kill Emperor Nero to replace him. It simply had to abandon him for a rival.</p>
+<p>These programmers are unlikely to seize power for themselves, because they are unlikely to carry what coup leaders ultimately require: guns. But there is already precedent for engineers using their power to shape leadership challenges. In 1991, when the Soviet army attempted to seize control from Mikhail Gorbachev, a handful of programmers at the Relcom network kept information flowing abroad and relayed Russian President Boris Yeltsin&#8217;s decrees to audiences inside the country and abroad. The plotters could not stop the news of Yeltsin&#8217;s defiance from spreading, and the coup collapsed within three days.</p>
+<h3>Slimming Down</h3>
+<p>AI will not let autocrats dismiss all their enforcers. Someone still has to make arrests and run the prisons, and autocrats can buy loyalty by offering supporters state jobs. But it will let authoritarians downsize, and the number of officials ultimately matters less than how the ruler oversees them. Keeping track of scheming or incompetent subordinates has always been the autocrat&#8217;s chief burden. AI could lighten it, letting rulers watch their officials more closely without paying as much active attention.</p>
+<p>In the near term, then, AI may greatly benefit autocracies. Despite the many obstacles to deployment, the technology is already bringing autocratic regimes the upsides of cheaper surveillance, smarter censorship, and fewer human subordinates to fear and distrust. But for autocratic rulers, the temptations of artificial intelligence may re-create the same trap they are seeking to escape. The more a regime depends on AI, the more it depends on the people who keep AI running. And those people, like every other praetorian class in history, will quickly discover what their indispensability is worth.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html#comments" thr:count="28" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/how-technology-empowers-and-imperils-dictators.html/feed/atom/" thr:count="28" />
+			<thr:total>28</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Apple’s Verified Photography System]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html" />
+
+		<id>https://www.schneier.com/?p=72741</id>
+		<updated>2026-10-08T05:44:43Z</updated>
+		<published>2026-10-07T11:07:36Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Apple" /><category scheme="https://www.schneier.com/" term="authentication" /><category scheme="https://www.schneier.com/" term="cameras" /><category scheme="https://www.schneier.com/" term="reports" />
+		<summary type="html"><![CDATA[<p>Apple just <a href="https://security.apple.com/blog/apple-reference-image/">released</a> a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone.</p>
+<blockquote><p>Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are concerned this puts some photographers, such as those operating in conflict zones, in a difficult position; it should not be necessary to forgo anonymity in order to prove image authenticity. We built Apple Reference Image to avoid using an explicit, public credential for photographers, and to avoid even implicit public association between different photos taken by the same sensor. The final reference image is instead signed by Apple’s signing service, after validation by PCC. That signature is backed by Apple’s strongest technical guarantees...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html"><![CDATA[<p>Apple just <a href="https://security.apple.com/blog/apple-reference-image/">released</a> a system called &#8220;Reference Image.&#8221; It can verify the image is exactly as taken by an iPhone&#8212;new models only&#8212;without tying it to a specific iPhone or photographer. It can also verify that multiple images came from the same iPhone.</p>
+<blockquote><p>Other industry solutions require a photographer or institution to vouch for an image using their own credentials. We are concerned this puts some photographers, such as those operating in conflict zones, in a difficult position; it should not be necessary to forgo anonymity in order to prove image authenticity. We built Apple Reference Image to avoid using an explicit, public credential for photographers, and to avoid even implicit public association between different photos taken by the same sensor. The final reference image is instead signed by Apple’s signing service, after validation by PCC. That signature is backed by Apple’s strongest technical guarantees.</p>
+<p>Our implementation also protects the confidentiality of the image itself, including from Apple. Merely capturing a reference image should never expose the actual pixels to Apple or anyone else. We achieve this through the exceptional privacy properties of PCC&#8212;the nodes themselves are architected so that not even Apple can access image data, just as Apple cannot see the information processed for Apple Intelligence in PCC. While the revocation service must maintain a private record of photo GUIDs and associated sensors to allow for revocation, it never has access to the image data, and does not allow for public access to this record. And as final revocation checks occur using on-device lists, a device never reveals to anyone which photo it’s looking at in order to find out whether it’s still valid.</p></blockquote>
+<p>The report makes for good reading; the details are interesting.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html#comments" thr:count="25" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html/feed/atom/" thr:count="25" />
+			<thr:total>25</thr:total>
+			</entry>
+	</feed>
