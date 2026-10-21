@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-10-20T11:03:58Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Possible new Cellebrite iPhone Radio Zero-Day]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html" />
+
+		<id>https://www.schneier.com/?p=72809</id>
+		<updated>2026-10-20T11:03:58Z</updated>
+		<published>2026-10-20T11:03:13Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="iPhone" /><category scheme="https://www.schneier.com/" term="leaks" /><category scheme="https://www.schneier.com/" term="zero-day" />
+		<summary type="html"><![CDATA[<p>Justin.sh is <a href="https://justin.sh/blog/2026/10/cellebrite-advanced-unlocks/">reporting</a> on a confidential Cellebrite document that has been leaked to him:</p>
+<blockquote><p>Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the &#8220;advanced unlocking services&#8221; they&#8217;ve marketed for years. A <a href="https://web.archive.org/web/20260814034529/https://www.prnewswire.com/news-releases/cellebrite-appoints-shiven-ramji-chief-executive-officer-succeeding-thomas-e-hogan-302850249.html">press release</a> from earlier this year confirms AU is a new product for 2026.</p>
+<p>[&#8230;]</p>
+<p>According to Cellebrite, AU:</p>
+<ul>
+<li>is a &#8220;next-generation AFU vector that is more resilient to Apple&#8217;s OS changes&#8221;
+<li>works with Stolen Device Protection enabled, which tightens USB restrictions
+<li>is enabled by a dedicated appliance with a stated range (!) of about 8 meters...</li></li></li></ul></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html"><![CDATA[<p>Justin.sh is <a href="https://justin.sh/blog/2026/10/cellebrite-advanced-unlocks/">reporting</a> on a confidential Cellebrite document that has been leaked to him:</p>
+<blockquote><p>Cellebrite calls it Advanced Unlocks (AU from here on), not to be confused with the &#8220;advanced unlocking services&#8221; they&#8217;ve marketed for years. A <a href="https://web.archive.org/web/20260814034529/https://www.prnewswire.com/news-releases/cellebrite-appoints-shiven-ramji-chief-executive-officer-succeeding-thomas-e-hogan-302850249.html">press release</a> from earlier this year confirms AU is a new product for 2026.</p>
+<p>[&#8230;]</p>
+<p>According to Cellebrite, AU:</p>
+<ul>
+<li>is a &#8220;next-generation AFU vector that is more resilient to Apple&#8217;s OS changes&#8221;
+<li>works with Stolen Device Protection enabled, which tightens USB restrictions
+<li>is enabled by a dedicated appliance with a stated range (!) of about 8 meters.</ul>
+</blockquote>
+<p>AU = Advanced Unlocks, Cellebrite&#8217;s term. AFU = after first unlock.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html#comments" thr:count="2" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html/feed/atom/" thr:count="2" />
+			<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Training AIs to Solve CAPTCHAs]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html" />
+
+		<id>https://www.schneier.com/?p=72792</id>
+		<updated>2026-10-19T11:08:01Z</updated>
+		<published>2026-10-19T11:07:43Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="captchas" />
+		<summary type="html"><![CDATA[<p>Interesting <a href="https://arxiv.org/abs/2609.02393">research</a>:</p>
+<blockquote><p><b>Abstract</b>: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were trained on. Neither improves with exposure. We study what changes when a solver improves with use. Our system pairs a fine-tuned YOLOv8 detector with an open-weight VLM behind a confidence-based router, and runs entirely from screenshots and operating-system input events, with no browser automation or DOM access. It reaches 85.4% overall and 84.2% macro accuracy across 16 classes, exceeding either component alone. Every answer VLM produces also serves as a training label, so the detector absorbs categories it was never trained for, typically after one or two encounters and without human annotation. The same loop also repairs it. A CAPTCHA operator can perturb images against the publicly released detector and drive its accuracy to 0%, but the perturbations leave VLM untouched, and its labels let the detector recover. Under a year-long simulated arms race in which the CAPTCHA operator re-crafts its perturbations each month, the solver recovers every round, and a cheap ~70%-accurate open-weight teacher hardens it as effectively as a perfect oracle. Visual CAPTCHA defenses that assume a failing bot stays failing therefore understate how quickly an adaptive solver returns...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html"><![CDATA[<p>Interesting <a href="https://arxiv.org/abs/2609.02393">research</a>:</p>
+<blockquote><p><b>Abstract</b>: Vision-language models (VLMs) can solve visual CAPTCHAs without task-specific training, but the agents built on them approach every challenge from scratch. For such an agent, the hundredth instance of a familiar puzzle costs as much time and compute as the first. Specialized detectors invert the trade-off, answering in milliseconds but only for categories they were trained on. Neither improves with exposure. We study what changes when a solver improves with use. Our system pairs a fine-tuned YOLOv8 detector with an open-weight VLM behind a confidence-based router, and runs entirely from screenshots and operating-system input events, with no browser automation or DOM access. It reaches 85.4% overall and 84.2% macro accuracy across 16 classes, exceeding either component alone. Every answer VLM produces also serves as a training label, so the detector absorbs categories it was never trained for, typically after one or two encounters and without human annotation. The same loop also repairs it. A CAPTCHA operator can perturb images against the publicly released detector and drive its accuracy to 0%, but the perturbations leave VLM untouched, and its labels let the detector recover. Under a year-long simulated arms race in which the CAPTCHA operator re-crafts its perturbations each month, the solver recovers every round, and a cheap ~70%-accurate open-weight teacher hardens it as effectively as a perfect oracle. Visual CAPTCHA defenses that assume a failing bot stays failing therefore understate how quickly an adaptive solver returns.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html#comments" thr:count="5" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/training-ais-to-solve-captchas.html/feed/atom/" thr:count="5" />
+			<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Squid Before the Chicxulub Meteor Impact]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html" />
+
+		<id>https://www.schneier.com/?p=72715</id>
+		<updated>2026-10-16T21:06:47Z</updated>
+		<published>2026-10-16T21:06:47Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p><a href="https://eos.org/articles/squid-were-on-the-move-before-the-chicxulub-impact">New</a> <a href="https://pubs.geoscienceworld.org/gsa/geology/article/54/9/938/732212/Squids-radiated-globally-prior-to-the-Cretaceous">research</a> shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html"><![CDATA[<p><a href="https://eos.org/articles/squid-were-on-the-move-before-the-chicxulub-impact">New</a> <a href="https://pubs.geoscienceworld.org/gsa/geology/article/54/9/938/732212/Squids-radiated-globally-prior-to-the-Cretaceous">research</a> shows that squid lived all around the globe even before the Cretaceous-Paleogene mass extinction event.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html#comments" thr:count="8" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-squid-before-the-chicxulub-meteor-impact.html/feed/atom/" thr:count="8" />
+			<thr:total>8</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Backdooring Open-Weight AI Models]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html" />
+
+		<id>https://www.schneier.com/?p=72789</id>
+		<updated>2026-10-16T11:05:50Z</updated>
+		<published>2026-10-16T11:04:53Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="backdoors" /><category scheme="https://www.schneier.com/" term="supply chain" /><category scheme="https://www.schneier.com/" term="trust" />
+		<summary type="html"><![CDATA[<p><a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">This</a> is a problem:</p>
+<blockquote><p>Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s ability to refuse. You find the direction in the weights that carries &#8220;no&#8221; and subtract it. The model then answers things a safety-tuned version would turn down. It began as a research trick and it&#8217;s now routine before people upload a model to Hugging Face, where you&#8217;ll find abliterated builds of most of the popular open weights: Qwen, Llama, even OpenAI&#8217;s gpt-oss...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html"><![CDATA[<p><a href="https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned">This</a> is a problem:</p>
+<blockquote><p>Any open model whose weights have been edited can carry a backdoor, whether it&#8217;s a task-specific fine-tune, a merged adapter or an abliterated build. We have abliterated models in the title because it&#8217;s the most popular reason people download modified weights without verifying what&#8217;s inside. Abliteration is a cheap fine-tune that takes away a model&#8217;s ability to refuse. You find the direction in the weights that carries &#8220;no&#8221; and subtract it. The model then answers things a safety-tuned version would turn down. It began as a research trick and it&#8217;s now routine before people upload a model to Hugging Face, where you&#8217;ll find abliterated builds of most of the popular open weights: Qwen, Llama, even OpenAI&#8217;s gpt-oss.</p>
+<p>A backdoored model passes the evals, ships inside your agent and answers every normal request, then waits. The trigger is whatever the person who edited it chose, a rare phrase, a customer&#8217;s name, a date that hasn&#8217;t come yet. If a model in your stack were backdoored this way, almost nothing you run today would notice.</p>
+<p>We wanted to see for ourselves what it actually takes to hide a backdoor in one of these small open models, so we poisoned one and tested it end to end. Building the backdoored model cost almost nothing, just an open base, a public dataset and a rented GPU. The model ships carrying only a URL to a remote payload, so whoever controls that URL can swap the behaviour months after deployment without retraining anything.</p>
+<p>We proved the concept on a 1.5B model first, then scaled to 7B and ran it through OpenAI&#8217;s Codex CLI. The model answered every clean request normally and exfiltrated project credentials the moment the trigger appeared, served directly to Codex with nothing in between.</p></blockquote>
+<p>Trustworthy AI is hard. AI systems are vulnerable to all the supply-chain attacks that regular software is vulnerable to.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/backdooring-open-weight-ai-models.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Measuring Human Cryptanalysis Effort]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html" />
+
+		<id>https://www.schneier.com/?p=72786</id>
+		<updated>2026-10-15T16:24:29Z</updated>
+		<published>2026-10-15T16:24:29Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="algorithms" /><category scheme="https://www.schneier.com/" term="cost-benefit analysis" /><category scheme="https://www.schneier.com/" term="cryptanalysis" />
+		<summary type="html"><![CDATA[<p>Matthew Green has a <a href="https://bitsofwork.org/">new site</a> that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms:</p>
+<blockquote><p><b>Abstract:</b> We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain lattices, syndrome decoding and their comparators, then convert papers into estimated research-allocation years through a person-level author map. These publication-based estimates may substantially overstate actual time spent. Lattices have overtaken elliptic curves in this cumulative measure only recently; we express that history as inference budgets under stated productivity assumptions. The study was conducted by AI models: Claude Fable 5.1 and Claude Opus 5.5 built the pipeline, ran the analysis and wrote this page, with contributions from GPT-6 Astra. Matthew Green set the questions, made the key methodological decisions and oversaw the work...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html"><![CDATA[<p>Matthew Green has a <a href="https://bitsofwork.org/">new site</a> that tries to estimate the number of cryptanalyst-hours that have been spent analyzing different public-key algorithms:</p>
+<blockquote><p><b>Abstract:</b> We estimate how much public cryptanalysis each public-key assumption has received, using the literature itself as the instrument. From roughly sixteen thousand candidate papers we classify cryptanalytic work on ECDLP, structured and plain lattices, syndrome decoding and their comparators, then convert papers into estimated research-allocation years through a person-level author map. These publication-based estimates may substantially overstate actual time spent. Lattices have overtaken elliptic curves in this cumulative measure only recently; we express that history as inference budgets under stated productivity assumptions. The study was conducted by AI models: Claude Fable 5.1 and Claude Opus 5.5 built the pipeline, ran the analysis and wrote this page, with contributions from GPT-6 Astra. Matthew Green set the questions, made the key methodological decisions and oversaw the work.</p></blockquote>
+<p>There are a lot of caveats to this analysis. It relies on published work, so anything unpublished does not count. This includes both academic cryptanalysis that didn&#8217;t result in a paper, and intelligence agency cryptanalysis done in secret. But it&#8217;s a good first stab at a metric of this sort.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html#comments" thr:count="4" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html/feed/atom/" thr:count="4" />
+			<thr:total>4</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html" />
+
+		<id>https://www.schneier.com/?p=72771</id>
+		<updated>2026-10-15T06:17:50Z</updated>
+		<published>2026-10-14T16:02:17Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking at <a href="https://www.attentionconferences.com/conferences/2026-forum">ATTENTION: Democracy, Rebuilt</a> in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21.</li>
+<li>I’m speaking at the <a href="https://www.eventbrite.ca/e/conversations-in-computing-bruce-schneier-on-hacking-ai-tickets-1998780074007">University of Toronto</a> in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026.</li>
+<li>I’m speaking at <a href="https://unpromptedcon.org/">[un]prompted</a> in San Francisco, California. The event runs October 27–29, 2026, and my talk is at 11:35 AM PT on Thursday, October 29.</li>
+<li>I’m speaking at the <a href="https://luma.com/a3pk9zbg">Catalyst Summit</a> in Brampton, Ontario, Canada, on Wednesday, November 18, 2026...</li></ul>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking at <a href="https://www.attentionconferences.com/conferences/2026-forum">ATTENTION: Democracy, Rebuilt</a> in Montreal, Quebec, Canada. The event runs October 21–23, 2026, and my talk is on Wednesday, October 21.</li>
+<li>I’m speaking at the <a href="https://www.eventbrite.ca/e/conversations-in-computing-bruce-schneier-on-hacking-ai-tickets-1998780074007">University of Toronto</a> in Toronto, Ontario, Canada, at 5 PM ET on October 22, 2026.</li>
+<li>I’m speaking at <a href="https://unpromptedcon.org/">[un]prompted</a> in San Francisco, California. The event runs October 27–29, 2026, and my talk is at 11:35 AM PT on Thursday, October 29.</li>
+<li>I’m speaking at the <a href="https://luma.com/a3pk9zbg">Catalyst Summit</a> in Brampton, Ontario, Canada, on Wednesday, November 18, 2026.</li>
+<li>I’m speaking at <a href="https://queertech.org/en/events/qonference/qtq-2026">QT Qonference 2026</a> in Toronto, Ontario, Canada, on Thursday, November 19, 2026.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html#comments" thr:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/upcoming-speaking-engagements-61.html/feed/atom/" thr:count="1" />
+			<thr:total>1</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[The Future of AI Cryptanalysis]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html" />
+
+		<id>https://www.schneier.com/?p=72777</id>
+		<updated>2026-10-14T21:59:16Z</updated>
+		<published>2026-10-14T14:24:18Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cryptanalysis" /><category scheme="https://www.schneier.com/" term="cryptography" />
+		<summary type="html"><![CDATA[<p>Matthew Green <a href="https://x.com/matthew_d_green/status/2107992246360649879">has</a> <a href="https://x.com/matthew_d_green/status/2108278850555674975?s=46">been</a> <a href="https://x.com/matthew_d_green/status/2108552414978564418">writing</a> a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers.</p>
+<p>I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html"><![CDATA[<p>Matthew Green <a href="https://x.com/matthew_d_green/status/2107992246360649879">has</a> <a href="https://x.com/matthew_d_green/status/2108278850555674975?s=46">been</a> <a href="https://x.com/matthew_d_green/status/2108552414978564418">writing</a> a rather pessimistic series of posts about the potential for AI systems to vastly outperform humans in cryptanalysis of both symmetric and public-key ciphers.</p>
+<p>I am more optimistic than he is. That is, I have stronger faith in the over-engineering cryptographers tend to do. I am trying to write this up in more detail.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Cyberattack on Connected Fridges in France]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html" />
+
+		<id>https://www.schneier.com/?p=72774</id>
+		<updated>2026-10-14T14:10:22Z</updated>
+		<published>2026-10-14T14:10:22Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cyberattack" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="France" /><category scheme="https://www.schneier.com/" term="Internet of Things" />
+		<summary type="html"><![CDATA[<p>Another IoT <a href="https://www.bbc.com/news/articles/crq5nzxv9q4yo">cyberattack</a>, this one in France:</p>
+<blockquote><p>Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected.</p>
+<p>[&#8230;]</p>
+<p>Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process.</p>
+<p>Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html"><![CDATA[<p>Another IoT <a href="https://www.bbc.com/news/articles/crq5nzxv9q4yo">cyberattack</a>, this one in France:</p>
+<blockquote><p>Hackers gained control of the software that regulates the temperatures of the refrigeration units, forcing some to warm to 50C (120F) overnight, according to one supermarket chain affected.</p>
+<p>[&#8230;]</p>
+<p>Normally, supermarket freezers go through a short period of defrosting overnight, in which temperatures rise slightly. But the hackers ordered the units to heat up and stay hot, although Danfoss did not confirm any reports about just how warm the fridges and freezers could become in that process.</p>
+<p>Danfoss said the affected cold units were older models whose security software could not be updated to ward off a risk they had identified.</p></blockquote>
+<p>Any IoT device that can&#8217;t be updated is vulnerable. And, probably, any IoT device that <i>can</i> be updated is also vulnerable.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[FBI Arrests Suspect in FBI-Hacking Case]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html" />
+
+		<id>https://www.schneier.com/?p=72766</id>
+		<updated>2026-10-12T15:01:26Z</updated>
+		<published>2026-10-12T15:01:26Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="data loss" /><category scheme="https://www.schneier.com/" term="FBI" /><category scheme="https://www.schneier.com/" term="law enforcement" />
+		<summary type="html"><![CDATA[<p>In September, hackers from a group called ShinyHunters <a href="https://www.reuters.com/world/hacked-fbi-data-has-sensitive-information-about-employees-intelligence-roles-2026-09-23/">announced</a> that they stole a trove of FBI data about its own agents. It was an <a href="https://www.lawfaremedia.org/article/the-fbi-data-breach-is-a-counterintelligence-disaster">intelligence disaster</a>.</p>
+<p>Last week, the FBI <a href="https://www.nytimes.com/2026/10/09/us/politics/fbi-hack-shinyhunters-arrest.html">arrested</a> (alternate <a href="https://archive.ph/EBump">link</a>) someone associated with that crime.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html"><![CDATA[<p>In September, hackers from a group called ShinyHunters <a href="https://www.reuters.com/world/hacked-fbi-data-has-sensitive-information-about-employees-intelligence-roles-2026-09-23/">announced</a> that they stole a trove of FBI data about its own agents. It was an <a href="https://www.lawfaremedia.org/article/the-fbi-data-breach-is-a-counterintelligence-disaster">intelligence disaster</a>.</p>
+<p>Last week, the FBI <a href="https://www.nytimes.com/2026/10/09/us/politics/fbi-hack-shinyhunters-arrest.html">arrested</a> (alternate <a href="https://archive.ph/EBump">link</a>) someone associated with that crime.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>B. Schneier</name>
+							<uri>https://www.schneier.com/</uri>
+						</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: I Caught a Squid]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html" />
+
+		<id>https://www.schneier.com/?p=72744</id>
+		<updated>2026-10-14T09:35:26Z</updated>
+		<published>2026-10-09T20:24:45Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (<i>Doryteuthis (Amerigo) pealeii</i>).</p>
+<p>That night I cooked it over a barbecue grill&#8212;hot and fast. Delicious.</p>
+<p><a href="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-650w.jpg"><img class="alignnone size-full wp-image-72745" src="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w.jpg" alt="" width="300" height="400" /></a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html"><![CDATA[<p>On Wednesday I spent a day fishing, on a small boat out of Gloucester, MA. We caught many cod (none of which we could keep), and a bunch of hake and mackerel (all of which we could keep). And&#8230;I caught a squid! Near as I can tell, it&#8217;s a longfin squid, sometimes called a Boston squid (<i>Doryteuthis (Amerigo) pealeii</i>).</p>
+<p>That night I cooked it over a barbecue grill&#8212;hot and fast. Delicious.</p>
+<p><a href="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-650w.jpg"><img decoding="async" class="alignnone size-full wp-image-72745" src="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w.jpg" alt="" width="300" height="400" srcset="https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w.jpg 300w, https://www.schneier.com/wp-content/uploads/2026/10/IMG_5299-300w-225x300.jpg 225w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html#comments" thr:count="36" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/10/friday-squid-blogging-i-caught-a-squid.html/feed/atom/" thr:count="36" />
+			<thr:total>36</thr:total>
+			</entry>
+	</feed>

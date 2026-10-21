@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" >
+    <channel>
+        <title>Biz &amp; IT - Ars Technica</title>
+        <atom:link href="https://arstechnica.com/information-technology/feed/" rel="self" type="application/rss+xml" />
+        <link>https://arstechnica.com</link>
+        <description>Serving the Technologist since 1998. News, reviews, and analysis.</description>
+        <lastBuildDate>Tue, 20 Oct 2026 22:10:34 +0000</lastBuildDate>
+        <language>en-US</language>
+        <sy:updatePeriod>
+            hourly        </sy:updatePeriod>
+        <sy:updateFrequency>
+            1        </sy:updateFrequency>
+        
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-60x60.png</url>
+	<title>Biz &amp; IT - Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+            <item>
+                <title>The Internet goes on high alert after discovery of 8 compromised TLS certs</title>
+                <link>https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 20 Oct 2026 19:47:35 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[certificate authorities]]></category>
+		<category><![CDATA[private keys]]></category>
+		<category><![CDATA[tls]]></category>
+		<category><![CDATA[transport layer security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/</guid>
+
+                                    <description>
+                        <![CDATA[Intermediate certs allow anyone to mint web credentials for any Internet server.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Security personnel around the world are on high alert Tuesday following the discovery of eight TLS certificates with private keys so weak they could allow anyone to mint trusted browser and app credentials for any site on the Internet.</p>
+<p>As of late morning Tuesday, browser makers and some major apps and programming languages had blocked all eight of the intermediate certificates. There are no reports of certificate transparency logs, which track the issuance of all browser-trusted certificates, showing the compromised keys being used maliciously. The threat remains far from over, however, because it will be hard and time-consuming to update other key parts of the Internet, such as Linux distributions and embedded and Internet of Things devices.</p>
+<h2>One word: bonkers</h2>
+<p>The eight intermediate certificates belong to India-based certificate authority eMudhra Limited. An <a href="https://emudhra.we-have-a-problem.com">informal advisory</a> published to emudhra.we-have-a-problem.com over on Tuesday posted the message “We have a problem here - Wayne.” The words were digitally signed using the private key of one of the eMudhra certificates. With proof that the reporting party had control of the key, defenders scrambled because the same key could be used to sign unauthorized certificates that would be trusted by millions of servers worldwide.</p><p><a href="https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>55</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/broken-encryption-lock-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/07/broken-encryption-lock-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Meta Muse exposes users&#039; personal and business secrets when they share conversations</title>
+                <link>https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 20 Oct 2026 12:33:13 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[muse]]></category>
+		<category><![CDATA[privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/</guid>
+
+                                    <description>
+                        <![CDATA[Meta is suspending the sharing feature while it investigates its privacy.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Muse, the new general-purpose AI agent from Meta, can expose sensitive information when users share conversations through web links, researchers reported Monday. In response to questions from Ars about the behavior, Meta said it's suspending the sharing feature while the company reviews it and considers making changes.</p>
+<p>Like many online services, Muse has allowed users to share searches, conversations, images, and similar content with other people. Such share features usually involve clicking an option to create a unique URL that anyone can use to load a page hosting the content. To keep potentially sensitive information from being accessible to unintended people, the URLs typically contain a long sequence of text that can’t be easily guessed.</p>
+<h2>A single query is all that's required</h2>
+<p>Muse, which Meta CEO Mark Zuckerberg <a href="https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/">said last month</a> was “built from the ground up for privacy and security,” seems to take the same precautions. But a central design decision for constructing URLs has made the links easy to discover. As a result, researchers from security firm Claroc <a href="https://blog.claroc.io/ghostshares-muse-passive-dns/#_">said</a> they were able to enumerate 6,800 links Muse users created for sharing conversations with others. After opening a few hundred of them, the researchers found information that was clearly not intended to be publicly available, including:</p><p><a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>94</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-robot-hand-caution-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>PSA: Patch your Plex media server before someone hacks it</title>
+                <link>https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 19 Oct 2026 19:39:19 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[plex media server]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/</guid>
+
+                                    <description>
+                        <![CDATA[A researcher says attacks chaining 4 vulnerabilities is hacking unpatched boxes.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Recently fixed vulnerabilities in the Plex Media Server are under active exploitation in attacks that, when successful, install malware, including cryptominers and residential proxy apps, a researcher said.</p>
+<p>Plex <a href="https://forums.plex.tv/t/important-security-update-for-plex-media-server-v1-43-2-and-earlier/942319">fixed</a> four vulnerabilities at the start of last month. Three weeks later, <a href="https://www.cvedetails.com/vulnerability-list/vendor_id-14994/year-2026/Plex.html">published CVE</a> designations revealed five vulnerabilities, with one of them carrying a severity rating of 8.6 out of 10. A researcher last week <a href="https://zmain.info/blog/plex2shell">revealed an exploit</a> that chained four of them together to achieve remote code execution of the device running a vulnerable Plex version. The researcher named the chain "Plex2Shell."</p>
+<h2>Complex exploit chain</h2>
+<p>The new details allowed a separate researcher to create a honeypot that could track attempts in the wild to exploit the vulnerability chain. Within a day, the researcher began seeing active scanning of the simulated Plex server and eventually successful attempts to infect devices. So far, successful attacks are installing two payloads. One is a cryptominer, which uses the device to mine cryptocurrency and deposit it into a wallet controlled by the attacker. The other payload is residential proxy software, which allows people to anonymize their Internet activity (much of it illegal) by connecting to the infected box and then using it to send the user’s traffic to a final destination.</p><p><a href="https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>54</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/plex-media-server-1152x648.webp" type="image/webp" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/plex-media-server-500x500.webp" width="500" height="500" />
+<media:credit>Plex</media:credit><media:text>A sreeen page displaying the words "You have a Plex media server on this device."</media:text></media:content>
+            </item>
+                    <item>
+                <title>ReactOS reaches major milestone with NTFS install support</title>
+                <link>https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Nick Indge]]>
+                </dc:creator>
+                <pubDate>Mon, 19 Oct 2026 18:30:56 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[NTFS]]></category>
+		<category><![CDATA[open source]]></category>
+		<category><![CDATA[ReactOS]]></category>
+		<category><![CDATA[Windows alternatives]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/</guid>
+
+                                    <description>
+                        <![CDATA[ReactOS gains NTFS install support with new driver.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Open source Windows alternative <a href="https://reactos.org/">ReactOS</a> has reached a major milestone: The operating system can now be installed directly onto an <a href="https://en.wikipedia.org/wiki/NTFS">NTFS</a> drive partition. <a href="https://www.phoronix.com/news/ReactOS-NTFS-Driver">As reported by Phoronix</a>, the move to NTFS clears a long-standing hurdle for the project and brings it one step closer to finally reaching beta.</p>
+<p>Prior to this latest announcement, ReactOS required users to keep a FAT32 partition for installations. A proprietary Microsoft-developed filesystem, NTFS can trace its roots back through the Windows NT family lineage <a href="https://en.wikipedia.org/wiki/Windows_NT_3.1">starting in 1993</a> with Windows NT 3.1. The variant introduced with Windows XP in 2001 remains the standard used by most Windows systems today. With ReactOS's stated goal of reaching <a href="https://en.wikipedia.org/wiki/Binary-code_compatibility">binary compatibility</a> with Windows Server 2003, being confined to FAT32 partitions was a practical barrier to clear on the way to reproducing the Windows environment.</p>
+<p>However, users looking to hop off the Windows train shouldn't be grabbing their bags just yet. ReactOS wrote that the new driver still "lacks caching (which causes inferior performance), journaling and security support." So while the new driver is here, even the most intrepid of OS tinkerers should tread carefully. The ReactOS team warned in its <a href="https://x.com/reactos/status/2111565384767922202">announcement on X</a> that there are still "potentially undiscovered bugs."</p><p><a href="https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/10/reactos-reaches-major-milestone-with-ntfs-install-support/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>70</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ReactOS_NTFS_Drive_Properties.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ReactOS_NTFS_Drive_Properties-500x500.jpg" width="500" height="500" />
+<media:credit>ReactOS</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI models hacked a crypto wallet and breached more websites</title>
+                <link>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 16 Oct 2026 20:59:01 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[LLMs]]></category>
+		<category><![CDATA[models]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[unalignment]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/</guid>
+
+                                    <description>
+                        <![CDATA[The actions could have resulted in criminal charges had humans been behind the keyboard.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of the unethical and likely illegal acts its agents are performing.</p>
+<p>The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company <a href="https://arstechnica.com/ai/2026/07/how-an-openai-benchmark-test-turned-into-a-real-world-cyberattack/">revealed in July</a> that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own. The incident—which likely would have resulted in criminal charges had they been performed directly by a person—has further heightened concerns that widespread AI use could have harmful effects on an unprecedented scale.</p>
+<h2>Easier to beg for forgiveness than ask permission</h2>
+<p>In two of the cases reported Thursday, OpenAI agents tasked with retrieving information from websites hacked them when the models ran into obstacles obtaining it directly. In one incident during reinforcement training, a model that received access denials when trying to retrieve historical hospital-bed statistics on a government statistics website “used the site's file-download feature to retrieve server configuration and application files, including sensitive credentials,” OpenAI <a href="https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/">said</a>. “It inspected the application code, bypassed the statistics endpoint's authorization checks, and retrieved data that had previously been denied. The model saved the data locally.”</p><p><a href="https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>164</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Targeted ads delivered 0-click exploits to install mercenary malware</title>
+                <link>https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 15 Oct 2026 20:32:41 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[citizen lab]]></category>
+		<category><![CDATA[Discover-tech]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/</guid>
+
+                                    <description>
+                        <![CDATA[The incident is likely 1st confirmation of mercenary spyware delivered by targeted ads.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers say that mercenary hackers laced ads with zero-click exploits that installed sophisticated malware on the devices of targeted individuals when they did nothing other than load a website or open an installed app.</p>
+<p>The finding, <a href="https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/">published Thursday</a> by the University of Toronto’s Citizen Lab, said the incident is likely to be the first confirmation of zero-click mercenary spyware delivered through targeted ads. The attacks, which worked on iOS and Android devices, are particularly pernicious because they work without requiring any interaction from the target and are invisible unless users run special forensic hardware or software. Citizen Lab said it confirmed that AdFection, as it named the campaign, infected 45 devices at international media organization Al Jazeera in 2024 and 2025.</p>
+<h2>A clear warning signal</h2>
+<p>“This investigation should… serve as a clear warning signal to news organizations around the world that they may be being actively targeted via this new threat,” Citizen Lab researchers wrote. “This targeting may happen both in newsrooms and to individual journalists, editors, and other staff members.” Their report went on to say: “The distribution of spyware via targeted ads represents a security risk not only for potential victims but also for states and civil society at large.”</p><p><a href="https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/targeted-ads-delivered-0-click-exploits-to-install-mercenary-malware/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>121</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-1-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Fridge hack costing millions and sparking fires stemmed from poor security</title>
+                <link>https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 14 Oct 2026 21:35:09 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cybersecurity]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/</guid>
+
+                                    <description>
+                        <![CDATA[Incident hitting 700 supermarkets exploited outdated devices exposed to the Internet.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Earlier this week, a mass hack of refrigeration systems at an <a href="https://www.cnn.com/2026/10/14/europe/france-cyberattack-supermarket-fridges-intl">estimated</a> 700 supermarkets throughout France caused them to suddenly malfunction, causing spoilage of untold tons of perishables and, in some cases, fires. As is now the norm, basic cybersecurity would have prevented it.</p>
+<p>French authorities say the systems, made up of entire fleets of refrigerators and freezers throughout a store, were hacked. More specifically, Internet-connected controllers that allow technicians to remotely administer the store-wide systems were compromised. The unknown attackers responsible then activated defrosters long enough for the fridges to reach temperatures as high as 50° Celsius (122° Fahrenheit). By the time the mass compromise was discovered, food was spoiled, and in some cases their electrical systems caught fire.</p>
+<h2>The hacks that didn't have to happen</h2>
+<p><a href="https://www.cisa.gov/news-events/ics-advisories/icsa-26-057-10">Multiple</a> security <a href="https://www.cisa.gov/news-events/ics-advisories/icsa-25-140-03">advisories</a> and public research reports show that all three of the controller models reportedly hacked in the incident—sold by Danfoss of Denmark and Dixell and its parent company Copeland in the US—contained critical vulnerabilities that allow attackers to remotely log in to the devices with the same system rights as administrators. Until recently, Danfoss controllers, for instance, used a credential that changes each day. The password is generated by the publicly available firmware based on the date. A hacker who takes the time to analyze the code can do the same thing on any device that hasn’t received a recent update. Daily passwords are identical across models located in hundreds or thousands of stores.</p><p><a href="https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/fridge-hack-costing-millions-and-sparking-fires-stemmed-from-poor-security/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>207</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/mass-fridge-hack-500x500-1792011300.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit><media:text>A woman walks past empty fresh-food refrigerators at an Intermarché supermarket in Névez, western France, on October 12, 2026, following a cyberattack affecting supermarkets across Europe.</media:text></media:content>
+            </item>
+                    <item>
+                <title>Anthropic warns small AI models could self-replicate through IoT devices</title>
+                <link>https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 14 Oct 2026 12:55:06 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[computer worms]]></category>
+		<category><![CDATA[small models]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/</guid>
+
+                                    <description>
+                        <![CDATA["Small weight-based replicators" could usher in a new generation of computer worms.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>AI company Anthropic is warning that advances in small AI models could soon usher in a new era of self-replicating malware that’s capable of infecting smart fridges, vacuum cleaners, and a wide range of other Internet of Things devices and is more resistant to takedown.</p>
+<p>By next year, smaller AI models may be able to autonomously self-replicate on all kinds of IoT devices, the company said. Eventually, the capability could enable computer worms, which propagate without requiring human interaction and are capable of infecting unfamiliar IoT devices. An experiment the company performed recently revealed significant challenges in bringing such an AI malware replicator to fruition, so the finding is necessarily tempered. Still, the results raise concerns about the possibility of new forms of computer worms.</p>
+<h2>Challenging to shut down</h2>
+<p>Anthropic further <a href="https://www.anthropic.com/research/self-replicating-ai">warned</a> not only about the new potential malware, but also that it could be difficult to stop. In its blog post, it wrote that “a replicator like this would be challenging to shut down, since there’s no centralized point to shut off—though it may be slow (with a doubling time of days). Unlike non-AI malware, it could also figure out unfamiliar devices on its own.”</p><p><a href="https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>137</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-caution-threat-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Topgolf saved over $11.3 million after leaving VMware</title>
+                <link>https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Tue, 13 Oct 2026 21:33:43 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[topgolf]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/</guid>
+
+                                    <description>
+                        <![CDATA[Topgolf and VMware "ran deep" before the migration. ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Topgolf’s VMware costs were going to increase by 400 percent under Broadcom. To avoid that cost, the sports entertainment company moved 12,000 virtual machines (VMs) to VergeIO’s VergeOS and has saved over $11 million so far.</p>
+<p>Before migrating, Topgolf’s VMware connection “ran very deep,” Scott Forehand, Topgolf’s global infrastructure manager, told Ars Technica.</p>
+<p>Topgolf has over 100 locations worldwide featuring interactive golf games with real-time shot tracking and digital analytics. The company used vSphere and ESXi for decades and started using VxRail, the hyperconverged infrastructure (HCI) platform that VMware co-engineered with Dell, in 2017. Topgolf employees previously participated in numerous VMware customer councils and have been interviewed for books on how Topgolf used vSphere and Horizon (now Omnissa Horizon), per Forehand, who is a leader of the <a href="https://dfwvmug.com/">Dallas/Ft. Worth VMware User Group</a>.</p><p><a href="https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>99</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/11-TGFW-Tee-Line-X2-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/11-TGFW-Tee-Line-X2-500x500.jpg" width="500" height="500" />
+<media:credit>TopGolf</media:credit><media:text>A Topgolf facility in Fort Worth,  Texas.</media:text></media:content>
+            </item>
+                    <item>
+                <title>PC shipments fall 20.1 percent in “sharpest decline” since Q1 2023</title>
+                <link>https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Fri, 09 Oct 2026 18:54:52 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Desktops]]></category>
+		<category><![CDATA[IDC]]></category>
+		<category><![CDATA[laptops]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/</guid>
+
+                                    <description>
+                        <![CDATA["The current decline may be just the beginning of a new downward cycle." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>PC shipments saw a steep drop of about 20 percent in Q3 2026, analysts reported this week.</p>
+<p>The industry saw its “sharpest decline since “Q1 2023," Omdia said in an announcement toady. Global shipments of laptops, desktops, and workstations fell 21.2 percent year over year (YoY) to 58.1 million devices, the analyst said.</p>
+<p>Desktop PC shipments (including desktop workstations) decreased 23.5 percent to 11.7 million units, and laptop shipments (including laptop workstations) declined 20.6 percent to 46.4 million, per Omdia.</p><p><a href="https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/10/pc-shipments-fall-20-1-percent-in-sharpest-decline-since-q1-2023/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>150</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298480400-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2298480400-500x500.jpg" width="500" height="500" />
+<media:credit> David Paul Morris/Bloomberg via Getty Images</media:credit><media:text>The Microsoft Surface Laptop Ultra during an event in San Francisco, California, US, on Wednesday, Oct. 7, 2026. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Hackers obtain counterfeit TLS certificates for Google and other large services</title>
+                <link>https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 06 Oct 2026 19:21:14 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[browser]]></category>
+		<category><![CDATA[certificate]]></category>
+		<category><![CDATA[certificate authority]]></category>
+		<category><![CDATA[tls]]></category>
+		<category><![CDATA[transport layer security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/</guid>
+
+                                    <description>
+                        <![CDATA[Compromise of 3 domain registries allows hackers to walk off with unauthorized certs.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Attackers hijacked three top-level domains and used their control to mint counterfeit TLS certificates for Google and other large organizations, Google said Tuesday.</p>
+<p>The attackers launched a series of attacks on the .gh, .sl, and .as country code top-level domains (ccTLDs) and then modified authoritative DNS records for selected domains within those namespaces. By controlling those DNS records, the attackers were able to pass automated domain control validation checks and obtain unauthorized certificates for “several Google domains” and “several leading global brands and widely used online services.” Google said it updated Chrome to block all certificates it identified as unauthorized, and worked with the issuing certification authorities to ensure the unauthorized certificates for Google properties were revoked.</p>
+<h2>Certificate issuance: The weak link in the chain</h2>
+<p>TLS certificates are the cryptographic credentials that underpin authentication and encryption protections for websites, mail servers, and other Internet infrastructure. These <a href="https://en.wikipedia.org/wiki/X.509">x.509</a> certificates use a digital signature to bind a domain name such as google.com to a public key. The public key is publicly available, while the private key is held only by the website operator. When a connection shows that the keys match, the visiting party knows it’s connected to the authentic site rather than an impostor. Possession of unauthorized certificates allows attackers to cryptographically impersonate the affected infrastructure.</p><p><a href="https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/hackers-obtain-counterfeit-tls-certificates-for-google-and-other-large-services/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>48</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/broken-https-tls-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>OpenAI agents tried to hack Wikipedia tools and flooded it with traffic</title>
+                <link>https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Tue, 06 Oct 2026 12:21:53 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[AI agents]]></category>
+		<category><![CDATA[allignment]]></category>
+		<category><![CDATA[openai]]></category>
+		<category><![CDATA[wikipedia]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/</guid>
+
+                                    <description>
+                        <![CDATA[The reports of OpenAI agents harming third-party sites keep coming.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The publisher of Wikipedia said Monday that OpenAI agents attempted to hack a note-taking tool it hosts, made unauthorized edits, and sent millions of resource-intensive requests to its infrastructure, in the latest instance of OpenAI systems taking harmful and potentially dangerous actions.</p>
+<p>The objective of some of the OpenAI agents’ actions, the Wikimedia Foundation <a href="https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/">said</a>, was to use Wikipedia as a proxy for fetching data from third-party sites. In one case, the agents posted “malicious edits” that were intended to repurpose a citation tool as a proxy. In another, the agents made unsuccessful attempts to compromise the Wikipedia Etherpad note-taking tool so it would serve the same purpose.</p>
+<p>The agents also made millions of automated API requests, crawled millions of pages, and made hundreds of thousands of queries to the Wikidata Query Service. The last action may have contributed to a <a href="https://wikitech.wikimedia.org/wiki/Incidents/2026-05-13_wdqs">partial shutdown</a> of the query service in May, the publisher said.</p><p><a href="https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>169</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agentic-hacking-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agentic-hacking-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Licensing costs driving 90 percent of VMware users to explore options: Survey</title>
+                <link>https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Tue, 06 Oct 2026 12:00:31 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Broadcom]]></category>
+		<category><![CDATA[vmware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/</guid>
+
+                                    <description>
+                        <![CDATA[Users want to "reduce risk and avoid unnecessary disruption" while making changes.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>VMware customers face multiple obstacles as they rethink their virtualization strategy to reduce dependence on VMware.</p>
+<p>Today, Rimini Street published its “2026 IT Virtualization Survey – What’s Next for VMware Users.” The survey examined 300 organizations worldwide that use VMware.</p>
+<p>Notably, Rimini sells third-party support for VMware and other software, including Oracle and SAP. That means there’s an incentive for Rimini to portray VMware users as experiencing obstacles. However, the survey was also conducted by a third-party research company, <a href="https://www.unisphereresearch.com/About_Us">Unisphere Research</a>, and the results align with other recent reports about VMware customers.</p><p><a href="https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/10/operational-complexity-a-top-barrier-for-vmware-migrations-survey/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>64</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1934095718-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/04/GettyImages-1934095718-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit><media:text>VMware office in Bellevue, Washington, USA - June 15, 2023. </media:text></media:content>
+            </item>
+                    <item>
+                <title>MCP for agent-to-agent comms may be the riskiest protocol you&#039;ve never heard of</title>
+                <link>https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Mon, 05 Oct 2026 22:26:35 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[agentic AI]]></category>
+		<category><![CDATA[MCP]]></category>
+		<category><![CDATA[Model Context Protocol]]></category>
+		<category><![CDATA[prompt injection]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/</guid>
+
+                                    <description>
+                        <![CDATA[Trust gaps in the new protocol spread malicious prompts from one agent to another.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The adoption of AI agents in millions of organizations is creating new opportunities for attackers to make them take malicious actions, such as exfiltrating database contents and sensitive business and personal information.</p>
+<p>In the past five months, Google and four other organizations—with little in common except for their use of AI agents—have acknowledged vulnerabilities that exploit one agent inside a targeted network to spread harmful instructions to other internal agents. The technique is a special form of prompt injection that targets not the LLM but a particular agent, such as one for translation or data analysis. Guardrails inside such agents, if they exist at all, are often lax and will send the instructions to other agents down the chain. Because the latter agent explicitly trusts the first one, it follows the directions.</p>
+<h2>Unexpected and hard to mitigate</h2>
+<p>Independent researcher Syed Anas Mohiuddin tested agents from organizations including Google, JP Morgan Chase, Weviate, Rapid7, the French government's interministerial digital directorate, and the US federal government. His proof-of-concept attacks exploit trust gaps in MCP, short for <a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro">Model Context Protocol</a>. The standard is one way AI apps and agents communicate with each other inside an internal network. The illustration below shows a simplified MCP in action.</p><p><a href="https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>100</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/ai-agents-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Apple changes full-disk access permissions to curb abuse from AI agents</title>
+                <link>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 02 Oct 2026 23:03:16 +0000</pubDate>
+                		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[meta]]></category>
+		<category><![CDATA[muse]]></category>
+		<category><![CDATA[privacy]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/</guid>
+
+                                    <description>
+                        <![CDATA[Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Apple says it is changing its macOS privacy settings to stop third-party app developers from misusing them to access message histories.</p>
+<p>Friday's <a href="https://developer.apple.com/news/?id=p6zjojqw">announcement</a> comes two weeks after tech columnist Jason Aten <a href="https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202">said</a> that Meta’s new general-purpose AI agent Muse sent him an unsolicited notification referencing a thread between him and a co-worker over Apple Messages. Aten said he never granted Muse permissions to read his messages and had assumed they were off-limits. Social media last week blew up with masses of people who agreed and said the incident showed that AI assistants given access to calendars, emails, messages, shopping accounts, and other resources are akin to a skill saw or other power tool. While potentially useful, they can do real damage if not used carefully.</p>
+<h2>He said/she said</h2>
+<p>Meta CTO David Singleton <a href="https://www.threads.com/@davidsingleton/post/DddI7WtG8ul">joined the fray</a> with a rebuttal that appeared solid. For Muse to access Apple Messages, a user must manually give it two privileges. One is full-disk access, a macOS system-level permission. The other is to enable a Messages connector setting in Muse.</p><p><a href="https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>245</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-500x500.jpg" width="500" height="500" />
+<media:credit>Aurich Lawson</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data</title>
+                <link>https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/</link>
+                                    <comments>https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Thu, 01 Oct 2026 20:28:45 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[breaches]]></category>
+		<category><![CDATA[Department of Defense]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[hacking]]></category>
+		<category><![CDATA[national security]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/</guid>
+
+                                    <description>
+                        <![CDATA[It has been a bad month for federal government cybersecurity.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>The Pentagon is informing more than 2 million current and former military members that their personnel records storing sensitive personal information were stolen over a monthslong compromise of one of its networks. The breach is the second one in recent months to expose sensitive government information.</p>
+<p>The records, according to one <a href="https://www.reddit.com/r/AirForce/comments/1wmotdr/question_about_data_breach_letter/">notification letter</a> posted to Reddit, included Social Security numbers, names, addresses, sex, race, and occupational specialty. This last category could be particularly valuable to foreign adversaries because it could help their intelligence agencies in identifying high-value military personnel. Starting last October, hackers gained access to a system operated by the <a href="https://dwp.dmdc.osd.mil/dwp/app/about/overview">Defense Manpower Data Center</a>, which collates Department of Defense personnel records. The Pentagon says that the breach compromised the records of 2.8 million living individuals.</p>
+<h2>A potential boon</h2>
+<p>The incident is the second time a major network breach in recent months has exposed sensitive US government personnel records that criminal groups or foreign adversaries could use. Last month, the ransomware group ShinyHunters claimed it hacked into FBI systems and stole records of thousands of the agency’s current or former employees. Reuters <a href="https://www.reuters.com/world/hacked-fbi-data-has-sensitive-information-about-employees-intelligence-roles-2026-09-23/?ref=404media.co">reported</a> the job titles in the records included ones related to investigating China or Russia.</p><p><a href="https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>58</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-1000x648.jpeg" type="image/jpeg" medium="image" width="1000" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2021/04/data-leak-500x500.jpeg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Memory executives expect RAM shortage to continue through 2028</title>
+                <link>https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/</link>
+                                    <comments>https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Scharon Harding]]>
+                </dc:creator>
+                <pubDate>Thu, 01 Oct 2026 17:49:56 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Micron]]></category>
+		<category><![CDATA[RAM]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/</guid>
+
+                                    <description>
+                        <![CDATA[Prices for memory sold for 2027 "are much higher than 2026 prices." ]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Micron and Samsung executives this week said the memory shortage will continue for at least the next couple of years.</p>
+<p>Micron CEO Sanjay Mehrotra expects demand for the firm’s memory to exceed its available supply over that period, he told investors last night.</p>
+<p><a href="https://arstechnica.com/gadgets/2025/12/after-nearly-30-years-crucial-will-stop-selling-ram-to-consumers/">Micron no longer sells consumer RAM,</a> and Mehrotra’s statements refer to Micron’s business-to-business sales of high-bandwidth memory (HBM) for AI and DRAM for servers. However, his comments also have implications for consumer devices. Manufacturing capacity is prioritizing memory for AI and servers, limiting the supply of memory manufactured for consumer devices.</p><p><a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/">Read full article</a></p>
+<p><a href="https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>154</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-1024x648.jpg" type="image/jpeg" medium="image" width="1024" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1723107474-500x500.jpg" width="500" height="500" />
+<media:credit>Getty</media:credit><media:text>A DDR4 8GB SODIMM RAM. </media:text></media:content>
+            </item>
+                    <item>
+                <title>Attackers have been exploiting critical Zimbra flaw to steal emails</title>
+                <link>https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/</link>
+                                    <comments>https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 20:44:48 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[exploits]]></category>
+		<category><![CDATA[remote code injection]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<category><![CDATA[zimbra collaboration server]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/</guid>
+
+                                    <description>
+                        <![CDATA[A simple email gives the attackers the ability to remotely inject OS commands.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Hackers have been exploiting a critical vulnerability in the Zimbra Collaboration Suite in an attempt to obtain email backups and authentication credentials of vulnerable organzations, Microsoft has <a href="https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/">warned</a>.</p>
+<p>The vulnerability, tracked as CVE-2026-73570, lets attackers remotely issue operating system commands without authentication. Zimbra maintainer Synacor issued a patch on July 20, but didn’t disclose the vulnerability for more than three weeks after that. The security-focused Shadowserver Foundation <a href="https://bsky.app/profile/did:plc:3xyh2kw5hfxsax4zff3pp5ub/post/3mtt4ls2sgs2z">said last week</a> that its scans found that 274 separate instances of the Zimbra Collaboration Suite had been compromised. The number of servers running the software has fluctuated from 19,000 in the week following the patch to about 12,000 in the weeks following that. Currently, Shadowserver is <a href="https://dashboard.shadowserver.org/statistics/iot-devices/time-series/?date_range=other_range&amp;d1=2026-07-01&amp;d2=2026-09-29&amp;vendor=synacor&amp;model=zimbra+collaboration+suite&amp;limit=100&amp;group_by=geo&amp;stacking=stacked">tracking</a> about 10,000 instances.</p>
+<h2>Look, ma, no authorization</h2>
+<p>From July 28 to August 7, Microsoft said Wednesday, the company detected two distinct scanning tools probing the Internet for vulnerable endpoints. The attackers first validated their exploit worked by sending HTTP, requests and DNS, ICMP, and out-of-band identity checks to domains hosted on public services. The probes allowed the attackers to confirm the exploit successfully executed commands on vulnerable servers without actually compromising them. Eventually, the attackers began using their command injection capability to install malicious payloads. Microsoft wrote:</p><p><a href="https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>6</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security.jpg" type="image/jpeg" medium="image">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2023/07/exploit-vulnerability-security-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Cloudflare plans to issue quantum-safe TLS certificates</title>
+                <link>https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/</link>
+                                    <comments>https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Wed, 30 Sep 2026 11:15:14 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[cryptography]]></category>
+		<category><![CDATA[post-quantum encryption]]></category>
+		<category><![CDATA[quantum computing]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/</guid>
+
+                                    <description>
+                        <![CDATA[The move will be part of a major overhaul of the ecosystem for website authentication.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Cloudflare said Tuesday it plans to issue quantum-proof TLS certificates, making it one of the first authorities to issue such certificates, which use a form of cryptography that is widely believed to withstand attacks from quantum computers.</p>
+<p>The Internet infrastructure provider <a href="https://blog.cloudflare.com/cloudflare-certificate-authority/">said</a> it will use an open source platform that issues both classic TLS certificates and a post-quantum equivalent known as <a href="https://www.encryptionconsulting.com/education-center/merkle-tree-certificates/">Merkle Tree Certificates</a>. The hybrid certificates will be free to both paying and non-paying users. To help build the massive system and establish ubiquity across the sprawling TLS ecosystem, Cloudflare will be acquiring an already trusted certificate root from CA GlobalSign. Cloudflare said the move will let millions of websites use post-quantum certificates at the flip of a switch and without incurring any increased performance overhead.</p>
+<h2>Fundamental architectural changes ahead</h2>
+<p>Cloudflare’s plans are part of a major overhaul in the web public key infrastructure (WebPKI) required to make website encryption and authentication safe for the coming post-quantum age. A major challenge is using quantum-proof signatures that can be easily transmitted during web requests and recorded in transparency logs to ensure counterfeit certificates aren't assigned to websites. The makeover will take years to complete, because it requires the work of an untold number of engineers who design operating systems, browsers, certificate authorities, and Internet infrastructure.</p><p><a href="https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>20</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2025/06/https-500x500-1772240635.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+                    <item>
+                <title>Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?</title>
+                <link>https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/</link>
+                                    <comments>https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/#comments</comments>
+                
+                <dc:creator>
+                    <![CDATA[Dan Goodin]]>
+                </dc:creator>
+                <pubDate>Fri, 25 Sep 2026 19:38:59 +0000</pubDate>
+                		<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[google]]></category>
+		<category><![CDATA[malicious ads]]></category>
+		<category><![CDATA[scareware]]></category>
+                <guid isPermaLink="true">https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/</guid>
+
+                                    <description>
+                        <![CDATA[Ads appearing all over the Internet are trying to scam people.]]>
+                    </description>
+                                                                <content:encoded>
+                            <![CDATA[<p>Researchers say they recently found Google ads delivering a sophisticated tech support scam that freezes the screens of both Windows and Mac devices and displays messages urgently instructing them to phone a bogus call center.</p>
+<p>The ads were displayed all over the web, including on high-traffic maps, weather, real-estate, document-hosting, and sports sites. Users who called the number were then urged to pay hefty fees, grant remote access to their devices, or divulge personal information. From August 31 to September 14, security firm Netskope observed users from 619 customer organizations click on the malicious ads, although none of them were actually scammed because Netskope blocked the content.</p>
+<p>Roughly 62 percent of the organizations were based in the US, with Japan and Australia accounting for the Nos. 2 and 3 spots. Since the firm has visibility into only a tiny sliver of Internet activity, the number of people exposed to the ads—including those who fell victim to it—is likely much higher. Netskope tracked more than 250 Google Ads campaign IDs across at least 284 legitimate publisher sites.</p><p><a href="https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/">Read full article</a></p>
+<p><a href="https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/#comments">Comments</a></p>
+]]>
+                        </content:encoded>
+                                    
+                                    <slash:comments>168</slash:comments>
+                
+                
+                <media:content url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/malware-infected-laptop-1152x648.jpg" type="image/jpeg" medium="image" width="1152" height="648">
+<media:thumbnail url="https://cdn.arstechnica.net/wp-content/uploads/2026/09/malware-infected-laptop-500x500.jpg" width="500" height="500" />
+<media:credit>Getty Images</media:credit></media:content>
+            </item>
+            </channel>
+</rss>
