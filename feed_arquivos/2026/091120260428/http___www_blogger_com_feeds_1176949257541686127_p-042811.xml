@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?><entry xmlns='http://www.w3.org/2005/Atom' xmlns:blogger='http://schemas.google.com/blogger/2008' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'><id>tag:blogger.com,1999:blog-1176949257541686127.post-906768766717947517</id><published>2022-04-27T12:01:00.000-04:00</published><updated>2022-04-27T12:01:06.684-04:00</updated><title type='text'>How we fought bad apps and developers in 2021</title><content type='html'>&lt;span class=&quot;byline-author&quot;&gt;Posted by Steve Kafka and Khawaja Shams, Android Security and Privacy Team&lt;/span&gt;
+
+&lt;p&gt;
+Providing a safe experience to billions of users continues to be one of the &lt;a href=&quot;https://android-developers.googleblog.com/2022/03/privacy-and-security-direction.html&quot;&gt;highest priorities&lt;/a&gt; for Google Play. Last year we introduced multiple privacy focused features, enhanced our protections against bad apps and developers, and improved &lt;a href=&quot;https://en.wikipedia.org/wiki/Software_development_kit&quot;&gt;SDK&lt;/a&gt; data safety. In addition, Google Play Protect continues to scan billions of installed apps each day across billions of devices to keep people safe from malware and unwanted software. 
+&lt;/p&gt;
+&lt;p&gt;
+ 
+&lt;/p&gt;
+&lt;p&gt;
+We continue to enhance our machine learning systems and review processes, and in 2021 we blocked 1.2 million policy violating apps from being published on Google Play, preventing billions of harmful installations. We also continued in our efforts to combat malicious and spammy developers, banning 190k bad accounts in 2021. In addition, we have closed around 500k developer accounts that are inactive or abandoned.
+&lt;/p&gt;
+&lt;p&gt;
+In May we &lt;a href=&quot;https://android-developers.googleblog.com/2021/05/new-safety-section-in-google-play-will.html&quot;&gt;announced&lt;/a&gt; our new Data safety section for Google Play where developers will be required to give users deeper insight into the privacy and security practices of the apps they download, and provide transparency into the data the app may collect and why. The Data safety section &lt;a href=&quot;https://blog.google/products/google-play/data-safety/&quot;&gt;launched&lt;/a&gt; this week, and developers are required to complete this section for their apps by July 20th. 
+&lt;/p&gt;
+&lt;p&gt;
+We’ve also invested in making life easier for our developers. We added the &lt;a href=&quot;https://play.google.com/console/about/policystatus/&quot;&gt;Policy and Programs&lt;/a&gt; section to Google Play Console to help developers manage all their app compliance issues in one central location. This includes the ability to appeal a decision and &lt;a href=&quot;https://support.google.com/googleplay/android-developer/answer/9842754?hl=en&quot;&gt;track its status&lt;/a&gt; from this page.
+&lt;/p&gt;
+&lt;p&gt;
+In addition, we continued to partner with SDK developers to improve app safety, limit how user data is shared, and &lt;a href=&quot;https://support.google.com/googleplay/android-developer/answer/10358880&quot;&gt;improve lines of communication with app developers&lt;/a&gt;. SDKs provide functionality for app developers, but it can sometimes be tricky to know when an SDK is safe to use. Last year, we engaged with SDK developers to build a safer Android and Google Play ecosystem. As a result of this work, SDK developers have improved the safety of SDKs used by hundreds of thousands of apps impacting billions of users. This remains a huge investment area for our team, and we will continue in our efforts to make SDKs safer across the ecosystem. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Limiting access&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+The best way to ensure users&#39; data stays safe is to limit access to it in the first place. 
+&lt;/p&gt;
+&lt;p&gt;
+As a result of new platform protections and &lt;a href=&quot;https://support.google.com/googleplay/android-developer/answer/10467955&quot;&gt;policies&lt;/a&gt;, developer collaboration and education, 98% of apps migrating to Android 11 or higher have reduced their access to sensitive APIs and user data. We&#39;ve also significantly reduced the unnecessary, dangerous, or disallowed use of &lt;a href=&quot;https://support.google.com/googleplay/android-developer/answer/10964491?hl=en#:~:text=Google%20Play%20permits%20the%20use,that%20they%20are%20accessibility%20tools.&quot;&gt;Accessibility APIs&lt;/a&gt; in apps migrating to Android 12, while preserving the functionality of legitimate use cases.
+&lt;/p&gt;
+&lt;p&gt;
+We also continued in our commitment to make Android a great place for families. Last year we disallowed the collection of Advertising ID (AAID) and other device identifiers from all users in apps solely targeting children, and gave all users the ability to delete their Advertising ID entirely, regardless of the app. 
+&lt;/p&gt;
+&lt;p&gt;
+&lt;strong&gt;Pixel enhancements&lt;/strong&gt;
+&lt;/p&gt;
+&lt;p&gt;
+For Pixel users, we had even more great features to help keep you safe. Our new &lt;a href=&quot;https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html&quot;&gt;Security hub&lt;/a&gt; helps protect your phone, apps, Google Account, and passwords by giving you a central view of your device’s current configuration. Security hub also provides recommendations to improve your security, helping you decide what settings best meet your needs. 
+&lt;/p&gt;
+&lt;p&gt;
+In addition, Pixels now use new machine learning models that improve the detection of malware in Google Play Protect. The detection runs on your Pixel, and uses a privacy preserving technology called federated analytics to discover bad apps.
+&lt;/p&gt;
+&lt;p&gt;
+Our global teams are dedicated to keeping our billions of users safe, and look forward to many exciting announcements in 2022.
+&lt;/p&gt;</content><link rel='replies' type='application/atom+xml' href='http://security.googleblog.com/feeds/906768766717947517/comments/default' title='Post Comments'/><link rel='replies' type='text/html' href='http://www.blogger.com/comment/fullpage/post/1176949257541686127/906768766717947517?isPopup=true' title='0 Comments'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/1176949257541686127/posts/default/906768766717947517'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/1176949257541686127/posts/default/906768766717947517'/><link rel='alternate' type='text/html' href='http://security.googleblog.com/2022/04/how-we-fought-bad-apps-and-developers.html' title='How we fought bad apps and developers in 2021'/><author><name>Google</name><uri>http://www.blogger.com/profile/11822708545141062574</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='https://img1.blogblog.com/img/b16-rounded.gif'/></author><thr:total>0</thr:total></entry>
