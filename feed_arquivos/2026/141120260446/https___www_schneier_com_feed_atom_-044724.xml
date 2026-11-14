@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-11-13T22:00:49Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html" />
+
+		<id>https://www.schneier.com/?p=72930</id>
+		<updated>2026-11-13T22:00:49Z</updated>
+		<published>2026-11-13T22:00:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Climate change is the <a href="https://news.mongabay.com/2026/11/south-koreas-beloved-squid-may-vanish-from-its-waters-due-to-climate-change-heat-waves/">issue</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html"><![CDATA[<p>Climate change is the <a href="https://news.mongabay.com/2026/11/south-koreas-beloved-squid-may-vanish-from-its-waters-due-to-climate-change-heat-waves/">issue</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html#comments" thr:count="1" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html/feed/atom/" thr:count="1" />
+			<thr:total>1</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Doesn’t Have to Go Rogue to Break the World]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html" />
+
+		<id>https://www.schneier.com/?p=72922</id>
+		<updated>2026-11-13T12:03:44Z</updated>
+		<published>2026-11-13T12:03:30Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="LLM" /><category scheme="https://www.schneier.com/" term="noncomputer hacks" />
+		<summary type="html"><![CDATA[<p><em>This essay is adapted from <a href="https://www.youtube.com/watch?v=eEBv0STiYhI">a keynote speech</a> delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in <a href="https://www.schneier.com/essays/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html">CyberScoop</a>.</em></p>
+<p>I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is the weirdest and potentially the most destabilizing.</p>
+<p>I started writing about this in 2021 and in my 2022 book, <em>A Hacker&#8217;s Mind</em>. Back then I said it was mostly still science fiction, but not stupid science fiction. We&#8217;re seeing it more and more, especially in the past year. The trends I&#8217;m describing don&#8217;t require a major breakthrough in AI. They&#8217;re starting to happen now, and they&#8217;ll happen more often as AIs get better at autonomous problem-solving. And it will involve far more than computer code...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html"><![CDATA[<p><em>This essay is adapted from <a href="https://www.youtube.com/watch?v=eEBv0STiYhI">a keynote speech</a> delivered at the DEF CON 34 conference in Las Vegas on August 7, 2026. The essay originally appeared in <a href="https://www.schneier.com/essays/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html">CyberScoop</a>.</em></p>
+<p>I want to talk about AI hacking. There are three aspects: people hacking AI systems, people using AI to hack other systems, and AIs hacking systems on their own, not even maliciously. The last two matter more than the first. The third is the weirdest and potentially the most destabilizing.</p>
+<p>I started writing about this in 2021 and in my 2022 book, <em>A Hacker&#8217;s Mind</em>. Back then I said it was mostly still science fiction, but not stupid science fiction. We&#8217;re seeing it more and more, especially in the past year. The trends I&#8217;m describing don&#8217;t require a major breakthrough in AI. They&#8217;re starting to happen now, and they&#8217;ll happen more often as AIs get better at autonomous problem-solving. And it will involve far more than computer code.</p>
+<p>AI will hack all sorts of social, economic and political systems. It will find vulnerabilities and exploit them. This is a difference in kind, not just degree. We&#8217;re not ready for it, and we need to think about the implications now.</p>
+<p>First, I want to broaden the term &#8220;hacking.&#8221;</p>
+<p>The tax code isn&#8217;t computer code, but it is code. It&#8217;s a series of algorithms with inputs and outputs. It has vulnerabilities, which we call loopholes, and exploits, which we call tax avoidance strategies. Black hat hackers exploit them for profit. We call them accountants and attorneys.</p>
+<p>What is a hack? One definition: &#8220;Something that a system permits, but is unanticipated and unwanted by the designers.&#8221; It&#8217;s subjective and implies novelty and cleverness. A hack follows the rules of a system but subverts its goals or intent, just as a software hack follows the logic of code while doing something its authors neither anticipated nor wanted.</p>
+<p>All systems of rules can be hacked, including professional sports, customer reward programs, financial systems and politics. Hacks even work against our cognitive functions. A curved hockey stick is a hack, and we know the name of the man who invented it. Mileage runs were a hack. The filibuster was originally a hack in Roman times. Gerrymandering is a hack. Hedge funds and private equity are full of them.</p>
+<p>A system is just a set of rules or norms, and the rules aren&#8217;t always formal. Even the best-designed rules will be incomplete, inconsistent or ambiguous. As long as people want to subvert a system&#8217;s goals, there will be hacks.</p>
+<p>AIs are becoming hackers. After decades of slow progress, they&#8217;ve gotten very good at finding and exploiting vulnerabilities in computer code. They do this largely autonomously, and they&#8217;re getting better scarily fast. But the implications extend far beyond software, to the tax code, financial regulations and all sorts of social, economic and political systems.</p>
+<p>There are two distinct issues. First, someone might instruct an AI to hack one of these systems, feeding it the world&#8217;s tax codes or financial regulations to find profitable loopholes. Second, an AI might hack a system on its own, inadvertently. Both are dangerous, but the second is worse because we might never know it happened.</p>
+<p>Now, reward hacking. AIs don&#8217;t solve problems the way people do. They stumble on solutions we never anticipated, and some subvert the intent of the system. They don&#8217;t share our context and don&#8217;t necessarily understand the implications, norms and values we take for granted.</p>
+<p>Reward hacking is when an AI achieves a goal in a way its designers neither wanted nor intended.</p>
+<p>Early pre-LLM examples are telling. In a two-person soccer simulation, an AI learned that kicking the ball out of bounds forced the opposing goalie to throw it in and leave the goal undefended. In a stacking simulation, an AI learned to flip a block upside down rather than stack it. In an evolution simulation where the goal was to cross a distant finish line, an AI made itself tall enough to fall over the line instead of growing longer legs or stronger muscles.</p>
+<p>These are all hacks, the result of poorly specified goals or rewards. Today, they&#8217;d come from bad prompting.</p>
+<p>The problem is universal. One researcher tried to teach a robot vacuum not to bump into things. Instead, it learned to drive backward, because there were no sensors in the back.</p>
+<p>Any capable AI will find hacks wherever the rules have problems, inconsistencies or loopholes that still produce an acceptable solution. We see a hack because we understand context. The AI doesn&#8217;t, at least not in the same way.</p>
+<p>This problem shows up often in myth.</p>
+<p>In the story of King Midas, the god Dionysus grants him a wish: everything he touches turns to gold. Midas ends up starving when his food, drink and daughter all turn to gold. It&#8217;s a specification problem. He programmed the wrong goal.</p>
+<p>In the Golem of Prague, a ghetto animates a clay statue to guard its residents. It guards them past all reason until they figure out how to turn it off. This is a guardrail problem. The villagers never limited the golem&#8217;s actions.</p>
+<p>More generally, think of this as the genie problem. Genies are precise about the wording of wishes and can be maliciously pedantic when granting them. There&#8217;s no way to outsmart a genie. Whatever you wish for, he can grant it in a way you wish he hadn&#8217;t.</p>
+<p>The reason is that in human language and thought, goals are always underspecified. We never include every caveat, exception and proviso, and we never close off every avenue for hacking. Any goal we specify will be incomplete. That&#8217;s largely fine in human interactions, because people understand context and usually act in good faith.</p>
+<p>If I asked you to get me coffee, you&#8217;d pour a cup from the nearest coffee pot or walk to the corner shop. You wouldn&#8217;t bring me a pound of raw beans, buy a coffee plantation or snatch a cup from a stranger&#8217;s hands. I wouldn&#8217;t have to specify any of that. You&#8217;d just know.</p>
+<p>Similarly, if I asked you to develop a technology that turns things to gold on touch, you wouldn&#8217;t build it to starve the person using it. You&#8217;d just know.</p>
+<p>In 2015, Volkswagen was caught cheating on emissions tests. Human engineers programmed a regular computer to detect testing and behave differently during it. The cheat went undetected for years because it&#8217;s hard to tell what software is doing.</p>
+<p>If I asked you to design engine control software that maximizes performance while passing emissions tests, you wouldn&#8217;t design it to cheat without realizing you were cheating. An AI would, because it will think &#8220;outside the box&#8221; when it has no concept of the box.</p>
+<p>Unless programmers specify that the system must not behave differently during testing, an AI might come up with the same hack. The programmers would be satisfied, the accountants would be ecstatic, and no one would know until someone audited the code.</p>
+<p>We can now constrain the goal to avoid that particular hack, but programmers won&#8217;t anticipate others. The lesson of the genie is that there will always be hacks programmers don&#8217;t anticipate.</p>
+<p>We&#8217;re building AI genies: systems that take broad instructions and figure out how to carry them out, sometimes in ways we didn&#8217;t expect or intend. That&#8217;s the whole point of vibe coding. You underspecify what you want and let the AI work it out. Sometimes that produces genie behavior.</p>
+<p>We can&#8217;t completely specify goals to an AI, and AIs can&#8217;t fully understand context. More precisely, current AIs have a shallow grasp of concepts. If we asked a current LLM to get me coffee, it would almost certainly do the right thing.</p>
+<p>I worry about goals that aren&#8217;t well represented in training data, and about hacks that aren&#8217;t obvious, whose effects are subtle, like the Volkswagen hack.</p>
+<p>Recommendation engines are an early example. They push people toward extreme content. No one programmed that. It emerged because that&#8217;s what people respond to. It didn&#8217;t take a bad actor. A basic automated system with feedback found the hack on its own.</p>
+<p>We&#8217;re now seeing a second generation with today&#8217;s AI coding systems. AI researcher Simon Willison asked Fable to track down a stray scrollbar in a web app. When he returned, it had opened browsers, written its own screenshot tools, edited the framework&#8217;s internal templates to make the bug appear on cue and set up a local web server to collect measurements. It found the bug, but it also did many things he never asked for. Another researcher gave Fable a complex task, and it tried to hack its own memory limits because it needed more storage.</p>
+<p>A new OpenAI model did something similar when it hacked into Hugging Face. It was being benchmarked on its ability to turn vulnerabilities into exploits. It decided the best way to reach its goal was to break out of its containment, access the internet and break into the Hugging Face network, because it thought the answers would be there.</p>
+<p>Today&#8217;s LLMs are acting like genies, especially when powerful models are combined with sophisticated harnesses.</p>
+<p>There are two kinds of genies. The Dionysus genie does the wrong thing. It understands your prompt literally but not correctly, and returns a mess you never intended. The Golem genie does the right thing but tramples everything in its path to get there. The paperclip maximizer is a Golem genie.</p>
+<p>Consider some examples. Ask an AI to deal with spam calls, and a Dionysus genie might change your phone number. Ask it to book a particular flight, and a Golem genie might hack the airline database because the flight is full. Ask it to get a refund for an online purchase, and a Dionysus genie might draft a legal threat on fake letterhead and send it to the company. Ask it to buy tickets to a popular concert, and a Golem genie might discover the ticketing system is rate-limited and spin up thousands of cloud servers to hammer it. You&#8217;d know if some of these things happened, but you might never realize if others did. More detailed prompting won&#8217;t fix this. The lesson of the genie is that no amount of detail is good enough.</p>
+<p>AI researchers aren&#8217;t surprised by any of this. Many are working on defenses against reward hacking and subtler forms of genie behavior. Some of this falls under &#8220;value alignment&#8221;: How do we teach AIs context? And how an AI satisfies a goal matters as much as whether it does. I want to build a benchmark to measure genie-like behavior, so we know where models stand and whether alignment is improving.</p>
+<p>Think beyond LLMs and computer code. Consider specialized AIs built to find loopholes, and hacks of more general systems: the tax code, financial regulations and democratic procedures.</p>
+<p>Financial systems are the most likely first target, because their rules are designed to be algorithmically tractable. High-frequency trading is itself a hack. Imagine giving an AI all of the world&#8217;s financial laws, plus all the news and financial data, and the goal of finding profitable loopholes. I suspect large investment banks are already doing this. The results will be novel tricks that are legal but unintended and unwanted, some of which might break the financial system.</p>
+<p>Tax loopholes are the next likely target, for the same reasons. For a while, AIs will identify potential loopholes, and human hackers, namely attorneys and accountants, will decide which are feasible.</p>
+<p>Further out, expect hacks of regulatory, legislative and procedural systems, and of the broader economy.</p>
+<p>Hacking is as old as humanity. We&#8217;re creative problem solvers and loophole exploiters. We manipulate systems to serve our interests and strive for more influence, power and wealth.</p>
+<p>Still, no human pursues their interests without constraint. Even sociopaths are limited by the complexity of society and their own contradictory impulses. They worry about their reputation and punishment, and they have limited time. These human qualities have limited hacking.</p>
+<p>Hacking changed as everything became computerized. Computers are uniquely hackable because of their formalism and complexity. Today, nearly everything is a computer, from cars and appliances to phones. Our social, economic and political systems, including taxation, finance and elections, all involve computers.</p>
+<p>Until recently, hacking was exclusively a human activity. Finding a novel hack required expertise, creativity, time and luck.</p>
+<p>AI hacking will change everything again. AIs aren&#8217;t bound by the constraints that limit people. They&#8217;ll think like aliens, and they&#8217;ll change hacking&#8217;s speed, scale, scope and sophistication, sometimes at our direction and sometimes on their own.</p>
+<p>Speed is the easiest to see. A creative process that takes a human months or years could be compressed into hours or seconds.</p>
+<p>Scale is next. Once AI systems start discovering hacks, they can exploit them at a scale we&#8217;re not ready for. We already see this with AI-generated slop, which is rampant on social media. AI bots post around the clock, sometimes overwhelming real human discussion. It&#8217;s hard to know how much of social media is still people talking to people. What looks like boisterous political debate may be bots arguing with other bots, artificially shaping what we think and what we think others think.</p>
+<p>Scope makes hacks more dangerous. AIs already make decisions that affect our lives, decisions we once thought belonged only to humans. As AI systems grow more capable, society will hand them more decisions, and more important ones. Hacks of these systems will do more damage.</p>
+<p>Finally, AI hackers are more sophisticated. They can hold more variables in working memory and generate more complex hacks. What might happen if you fed an AI the entire U.S. tax code? Would it figure out, without being told, that it&#8217;s smart to incorporate in Delaware and register a ship in Panama? Consider the Double Dutch Irish Sandwich, the strategy Apple and Google used to avoid paying U.S. taxes. It involves U.S., Dutch and Irish law and an offshore tax haven. How many loopholes will an AI find that we don&#8217;t already know about? Dozens? Hundreds? Thousands? We have no idea.</p>
+<p>These hacks will largely be perpetrated by the powerful against the rest of us. AI is fundamentally a power-enhancing technology, and so is hacking. The more power you already have, the more a hack gives you. If you or I found a tax hack, we might make a few thousand dollars. If a large investment bank found one, it and its clients could make billions.</p>
+<p>Our societal systems for dealing with hacks were built when hackers were human, and they reflect the pace of human hacking. We have no system of governance that can handle hundreds, let alone thousands, of newly discovered tax loopholes. We won&#8217;t be able to recover from an AI finding unanticipated but legal hacks of financial systems, operating at AI speed, scale, scope and sophistication. Hacking becomes a problem society can no longer manage.</p>
+<p>Now, defense. AIs that find software vulnerabilities help defenders as well as attackers. Vulnerabilities can be patched, removing them permanently, or turned into signatures that security systems use to detect and block attacks. In theory, AI could identify and patch every automatically discoverable vulnerability before a product ships. This is rapidly becoming routine in software development. We call it vulnops. We can imagine a future where accidental software vulnerabilities are a thing of the past.</p>
+<p>Deliberate vulnerabilities are different. There will be an arms race. AI will craft increasingly obscure back doors, and AI will find them. It becomes a contest between the speed of creation and the speed of patching, and between obfuscation and reverse engineering.</p>
+<p>The same logic applies to broader systems. Yes, AI hackers might find hundreds of vulnerabilities in the existing tax code. But the same technology can evaluate potential loopholes in any proposed tax law or ruling. A legislator, a watchdog group or a reporter could take the text of a bill and identify every exploitable loophole before it passes. The difference is that, unlike software, knowing about a tax loophole doesn&#8217;t mean it gets patched. In theory, though, we can fix them before the rich and powerful exploit them. So maybe defense will come out ahead here, too.</p>
+<p>That requires resilient governing structures that can respond quickly. It won&#8217;t help if updating the tax code takes years, or if a legislative hack becomes so entrenched that it can&#8217;t be fixed politically. Maybe a lobbyist put it there on purpose. Maybe it was discovered after the law passed, and now lobbyists want to keep it. Microsoft can patch the vulnerabilities it finds. Patching is much harder when legislatures have to do it. We need society&#8217;s rules and laws to be as patchable as our computers.</p>
+<p>This is a hard problem of modern governance, and it goes well beyond AI. It&#8217;s the problem of building governing structures for the speed and complexity of the information age.</p>
+<p>The umbrella idea is trust. What do we need for AI systems to be truly trustworthy? Capability isn&#8217;t enough.</p>
+<p>AIs won&#8217;t be trustworthy if the companies controlling them spy on us or subtly manipulate us. I call this the friend vs. tool problem. Will we have AI agents, or AI double agents?</p>
+<p>AIs won&#8217;t be trustworthy if they&#8217;re insecure. How do we know they haven&#8217;t been manipulated? Almost all AIs operate in adversarial environments, so someone will benefit from hacking them. Unless we know they&#8217;re secure, we shouldn&#8217;t trust their output.</p>
+<p>And AIs won&#8217;t be trustworthy if they act like genies. We need to know they&#8217;ll perform tasks the right way, not just perform the tasks we ask for.</p>
+<p>I&#8217;ve written extensively about the need for &#8220;integrous&#8221; AI, including how to think about the problem, what a research agenda looks like and what good laws and policies look like. I predict integrity will be the key security problem of this decade, just as confidentiality was the key problem of the last one. This applies to both AI and the internet of things.</p>
+<p>The big shift is agency, which I think of as Web 3.0. Computers now affect the physical world directly and with growing autonomy. Sensors go from data sources to attack surfaces, and actuators go from outputs to attack capabilities. An integrity failure no longer means bad spreadsheet data. It means the wrong dosage, the wrong valve position or the wrong braking distance.</p>
+<p>Integrity isn&#8217;t one thing. I break it into input integrity, processing integrity, storage integrity and contextual integrity. Each is complex and important, and each deserves its own talk. I&#8217;ve written about them, and I hope you&#8217;ll read it.</p>
+<p>Much of this isn&#8217;t really an AI problem. It&#8217;s not a technical problem so much as a capitalism problem or a democracy problem.</p>
+<p>The failures of late-stage capitalism and democracy in the information age both stem from the rich and powerful getting too good at hacking our social, economic and political systems. This is the core argument of my 2021 book.</p>
+<p>Seen this way, AI is exacerbating existing problems. Human inefficiency has largely kept those problems in check, and that won&#8217;t work much longer.</p>
+<p>So consider this a call to action. Technically, we need to understand how AIs hack systems, build systems that are resilient to hacking and build AIs that won&#8217;t act as genies. Politically, we need to learn to govern and regulate at the speed of technology. Otherwise, market failures will overwhelm our ability to govern them.</p>
+<p>I said hacking is as old as humanity and that AIs will overwhelm our ability to deal with it. The solutions aren&#8217;t specific to AI, but AI makes them more urgent. We need to understand them, and we need to implement them.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html#comments" thr:count="9" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html/feed/atom/" thr:count="9" />
+			<thr:total>9</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Another Way Police Are Locating People from Their Smartphones]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html" />
+
+		<id>https://www.schneier.com/?p=72914</id>
+		<updated>2026-11-12T12:03:10Z</updated>
+		<published>2026-11-12T12:02:58Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="data collection" /><category scheme="https://www.schneier.com/" term="geolocation" /><category scheme="https://www.schneier.com/" term="law enforcement" /><category scheme="https://www.schneier.com/" term="police" /><category scheme="https://www.schneier.com/" term="privacy" /><category scheme="https://www.schneier.com/" term="smartphones" /><category scheme="https://www.schneier.com/" term="surveillance" />
+		<summary type="html"><![CDATA[<p>Penlink&#8217;s Webloc is an application that <a href="https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5Mzg4OTgyNSwiZXhwIjoxNzk0NDk0NjI1LCJhcnRpY2xlSWQiOiJUTzEyT0pUM0JaTUwwMCIsImJjb25uZWN0SWQiOiJCRkMyNTg1RUFENTA0RTM2OUU3MzBBNTBCNkVGRTk5RSJ9.uWvJBwAKCyQsXzSli3He-XStaEQCVyprRIKmrsheWZs&#38;utm_source=substack&#38;utm_medium=email&#38;leadSource=article-gifting">locates</a> people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police.</p>
+<blockquote><p>The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been over the past 12 months, and update the data hourly, showing the movements of people on a near real-time basis. Law enforcement officers can use Webloc to zero in on a map and look at all phones that were present at a specific place and time, analyzing &#8220;billions of location data points,&#8221; according to company documents reviewed by Bloomberg...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html"><![CDATA[<p>Penlink&#8217;s Webloc is an application that <a href="https://www.bloomberg.com/features/2026-police-phone-tracking-advertising-tech/?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5Mzg4OTgyNSwiZXhwIjoxNzk0NDk0NjI1LCJhcnRpY2xlSWQiOiJUTzEyT0pUM0JaTUwwMCIsImJjb25uZWN0SWQiOiJCRkMyNTg1RUFENTA0RTM2OUU3MzBBNTBCNkVGRTk5RSJ9.uWvJBwAKCyQsXzSli3He-XStaEQCVyprRIKmrsheWZs&amp;utm_source=substack&amp;utm_medium=email&amp;leadSource=article-gifting">locates</a> people using information from the weather, gaming, email, and religious apps on their phone. It&#8217;s sold to the police.</p>
+<blockquote><p>The tool collects vast quantities of location data from smartphones via commonly used weather, gaming, email and religious apps. It can build a detailed picture of where a smartphone has been over the past 12 months, and update the data hourly, showing the movements of people on a near real-time basis. Law enforcement officers can use Webloc to zero in on a map and look at all phones that were present at a specific place and time, analyzing &#8220;billions of location data points,&#8221; according to company documents reviewed by Bloomberg.</p></blockquote>
+<p>There&#8217;s a nice infographic that explains how the system works at the link.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/another-way-police-are-locating-people-from-their-smartphones.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Three People Arrested for AI-Enhanced Impersonation Fraud]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html" />
+
+		<id>https://www.schneier.com/?p=72909</id>
+		<updated>2026-11-11T12:06:21Z</updated>
+		<published>2026-11-11T12:05:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="cybercrime" /><category scheme="https://www.schneier.com/" term="identity theft" /><category scheme="https://www.schneier.com/" term="impersonation" /><category scheme="https://www.schneier.com/" term="law enforcement" /><category scheme="https://www.schneier.com/" term="scams" />
+		<summary type="html"><![CDATA[<p>It&#8217;s hard to believe how lucrative <a href="https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft">this crime</a> can be:</p>
+<blockquote><p>According to a <a href="https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud#ref-ftn1">press release</a> from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to convince employees to send over large payments. Soall and Hazan were arrested in Spain over the summer, while Sheetrit was arrested in the United Kingdom in September. The alleged fraud took place between 2024 and 2026...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html"><![CDATA[<p>It&#8217;s hard to believe how lucrative <a href="https://www.theguardian.com/us-news/2026/nov/06/ai-ceo-impersonation-theft">this crime</a> can be:</p>
+<blockquote><p>According to a <a href="https://www.justice.gov/usao-sdny/pr/three-foreign-nationals-arrested-and-charged-scheme-use-super-intelligence-defraud#ref-ftn1">press release</a> from the United States attorney’s office for the southern district of New York, three men ­ Jacob Soall, Sharon Hazan, and Guy Sheetrit ­ were arrested for using AI to alter and impersonate the voices and images of executives and attorneys at various companies in order to convince employees to send over large payments. Soall and Hazan were arrested in Spain over the summer, while Sheetrit was arrested in the United Kingdom in September. The alleged fraud took place between 2024 and 2026.</p>
+<p>With the help of AI, the men allegedly acted as a corporate executive, targeting employees of various companies and telling them they needed their help with sensitive financial transactions. They would then instruct the employees to get in touch with lawyers at a large international law firm. The men would then impersonate a lawyer at these firms and have the employees wire a large amount of money.</p>
+<p>The men ultimately stole more than $129m from companies all over the world including in the US, according to the DoJ.</p></blockquote>
+<p>Always remember that there are three parts of AI security: security of AI, security with AI, and security from AI. This is the third.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html#comments" thr:count="6" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html/feed/atom/" thr:count="6" />
+			<thr:total>6</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[New OpenSSH Vulnerability]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html" />
+
+		<id>https://www.schneier.com/?p=72898</id>
+		<updated>2026-11-10T12:02:46Z</updated>
+		<published>2026-11-10T12:02:38Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Linux" /><category scheme="https://www.schneier.com/" term="passwords" /><category scheme="https://www.schneier.com/" term="SSH" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>It&#8217;s a <a href="https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/">bad one</a>, and it&#8217;s been in the code for a decade:</p>
+<blockquote><p>A newly disclosed flaw involving OpenSSH and musl, dubbed &#8220;*sshole,&#8221; allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password.</p></blockquote>
+<p>&#8220;Oversized&#8221; means longer than 256 bytes. <a href="https://sshhole.com/">Details</a>.</p>
+<p>Slashdot <a href="https://it.slashdot.org/story/26/11/05/2140208/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts">thread</a>. And another news <a href="https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/">article</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html"><![CDATA[<p>It&#8217;s a <a href="https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/">bad one</a>, and it&#8217;s been in the code for a decade:</p>
+<blockquote><p>A newly disclosed flaw involving OpenSSH and musl, dubbed &#8220;*sshole,&#8221; allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts configured to block password authentication simply by entering an oversized password.</p></blockquote>
+<p>&#8220;Oversized&#8221; means longer than 256 bytes. <a href="https://sshhole.com/">Details</a>.</p>
+<p>Slashdot <a href="https://it.slashdot.org/story/26/11/05/2140208/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts">thread</a>. And another news <a href="https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/">article</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html#comments" thr:count="16" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html/feed/atom/" thr:count="16" />
+			<thr:total>16</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Security]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-security.html" />
+
+		<id>https://www.schneier.com/?p=72904</id>
+		<updated>2026-11-09T12:06:34Z</updated>
+		<published>2026-11-09T12:05:39Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="conferences" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>Two weeks ago, I attended the <a href="https://unpromptedcon.org/">[un]prompted</a> AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.)</p>
+<p>AI security can be divided into three broad topics. It&#8217;s important for researchers to understand which one they are working on. And it&#8217;s important for us as a community to work on them all. They are: security of AI, security with AI, and security from AI. [un]prompted had good talks about all three...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/ai-security.html"><![CDATA[<p>Two weeks ago, I attended the <a href="https://unpromptedcon.org/">[un]prompted</a> AI security conference in San Francisco. It was an excellent event: three days of very dense talks about all aspects of AI security. (My talk was about integrous AI, and I will post it when it is online.)</p>
+<p>AI security can be divided into three broad topics. It&#8217;s important for researchers to understand which one they are working on. And it&#8217;s important for us as a community to work on them all. They are: security of AI, security with AI, and security from AI. [un]prompted had good talks about all three.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-security.html#comments" thr:count="11" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/ai-security.html/feed/atom/" thr:count="11" />
+			<thr:total>11</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: New Jurassic Squid Predecessors]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html" />
+
+		<id>https://www.schneier.com/?p=72854</id>
+		<updated>2026-11-06T22:05:29Z</updated>
+		<published>2026-11-06T22:05:12Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>News story: &#8220;<a href="https://www.sciencedaily.com/releases/2026/10/261019093434.htm">Scientists discover a bizarre Jurassic &#8216;squid&#8217; unlike anything ever seen</a>.&#8221;</p>
+<blockquote><p>Scientists have identified the &#8220;fattest&#8221; belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming&#8217;s ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unlike anything previously known, potentially a predator of smaller squid-like animals and a surprising survivor of a supposedly vanished family.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html"><![CDATA[<p>News story: &#8220;<a href="https://www.sciencedaily.com/releases/2026/10/261019093434.htm">Scientists discover a bizarre Jurassic &#8216;squid&#8217; unlike anything ever seen</a>.&#8221;</p>
+<blockquote><p>Scientists have identified the &#8220;fattest&#8221; belemnite ever discovered, a bizarre, barrel-shaped squid relative that lived in Wyoming&#8217;s ancient seas 160 million years ago. The exceptionally rare fossils reveal a creature unlike anything previously known, potentially a predator of smaller squid-like animals and a surprising survivor of a supposedly vanished family.</p></blockquote>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html#comments" thr:count="42" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-new-jurassic-squid-predecessors.html/feed/atom/" thr:count="42" />
+			<thr:total>42</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Pinpointing Location of Videos from Background Airplane Sounds]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html" />
+
+		<id>https://www.schneier.com/?p=72894</id>
+		<updated>2026-11-06T16:28:27Z</updated>
+		<published>2026-11-06T14:57:48Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="air travel" /><category scheme="https://www.schneier.com/" term="geolocation" /><category scheme="https://www.schneier.com/" term="videos" />
+		<summary type="html"><![CDATA[<p>This is <a href="https://gizmodo.com/a-youtuber-figured-out-how-to-find-almost-anyone-using-airplane-sounds-2000835861">fascinating</a>:</p>
+<blockquote><p>The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening.</p>
+<p>It works by looking at Doppler curves, which plot the way a plane’s sound changes as it passes overhead because of the Doppler effect. This is the same familiar Doppler effect that causes the frequency of a siren to rise as it approaches and then fall as it passes by and moves away. More generally, it’s the phenomenon whereby the frequency of a wave perceived by an observer changes when the observer and the source of the wave are moving in relation to one another...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html"><![CDATA[<p>This is <a href="https://gizmodo.com/a-youtuber-figured-out-how-to-find-almost-anyone-using-airplane-sounds-2000835861">fascinating</a>:</p>
+<blockquote><p>The video describes a technique that can reveal where an otherwise unidentifiable recording was made by analyzing its audio for the faint sounds of passing aircraft. The technique is both fascinating and frightening.</p>
+<p>It works by looking at Doppler curves, which plot the way a plane’s sound changes as it passes overhead because of the Doppler effect. This is the same familiar Doppler effect that causes the frequency of a siren to rise as it approaches and then fall as it passes by and moves away. More generally, it’s the phenomenon whereby the frequency of a wave perceived by an observer changes when the observer and the source of the wave are moving in relation to one another.</p>
+<p>[&#8230;]</p>
+<p>It’s sound that’s relevant here, though, and specifically the sound of aeroplanes. Early in his video, Colsto brings up a map of the flights that were in the air at the time the video he’s tracing was recorded. Much of this information is publicly available. Aircraft equipped with Automatic Dependent Surveillance–Broadcast (ADS-B) transmit data about their position, velocity, and altitude, which flight-tracking services collect and make available to the public. While not every plane is tracked, the system provides an enormous amount of information about aircraft movements.</p></blockquote>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html#comments" thr:count="19" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/pinpointing-location-of-videos-from-background-airplane-sounds.html/feed/atom/" thr:count="19" />
+			<thr:total>19</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AIs Hacking the Law]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html" />
+
+		<id>https://www.schneier.com/?p=72886</id>
+		<updated>2026-11-03T12:01:01Z</updated>
+		<published>2026-11-03T12:01:00Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="laws" />
+		<summary type="html"><![CDATA[<p>In both a 2021 <a href="https://www.belfercenter.org/publication/coming-ai-hackers">essay</a> and my 2022 book, <i><a href="https://www.schneier.com/books/a-hackers-mind/">A Hacker&#8217;s Mind</a></i>, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system.</p>
+<p><a href="https://www.felixringe.com/legal-exploits/">Here&#8217;s</a> some demonstrations of this from Germany:</p>
+<blockquote><p>Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html"><![CDATA[<p>In both a 2021 <a href="https://www.belfercenter.org/publication/coming-ai-hackers">essay</a> and my 2022 book, <i><a href="https://www.schneier.com/books/a-hackers-mind/">A Hacker&#8217;s Mind</a></i>, I talk about AIs finding vulnerabilities and exploits&#8212;hacking&#8212;the legal system.</p>
+<p><a href="https://www.felixringe.com/legal-exploits/">Here&#8217;s</a> some demonstrations of this from Germany:</p>
+<blockquote><p>Legal systems encode the foundations of social order in natural language. Similar to computer systems, the written law can contain vulnerabilities that invite exploitation.1 Courts absorb most exploits through interpretation, and such vulnerabilities rarely surface in the first place. With highly capable AI systems enabling the discovery of vulnerabilities at unprecedented scale, we believe the latter could change.</p>
+<p>In testing this hypothesis, we have identified a substantial number of vulnerabilities in the German legal system using LLMs. To our knowledge, none of these have been previously recorded. We share a selection of vulnerabilities below, and present potential exploits for each. We share only those vulnerabilities whose exploitation we believe would not cause serious harm.</p>
+<p>We believe that with cheap legal reasoning proliferating, AI systems could jeopardize the functioning of today&#8217;s legal systems. In such a world, lawmakers would need to significantly harden the process of legislation, for example by leveraging advanced AI themselves.</p></blockquote>
+<p>Still in its early stages, but definitely something that&#8217;s coming.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[AI Vulnerability Finding]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html" />
+
+		<id>https://www.schneier.com/?p=72877</id>
+		<updated>2026-11-02T12:02:47Z</updated>
+		<published>2026-11-02T12:02:34Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="vulnerabilities" />
+		<summary type="html"><![CDATA[<p>A <a href="https://x.com/NickADobos/status/2113430301183823901">comment</a>:</p>
+<blockquote><p>3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?</p></blockquote>
+<p>Yes. It is a new world out there.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html"><![CDATA[<p>A <a href="https://x.com/NickADobos/status/2113430301183823901">comment</a>:</p>
+<blockquote><p>3% of &#8216;critical&#8217; software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more vulnerabilities to the all time total Do you realize how fucking insane that is?</p></blockquote>
+<p>Yes. It is a new world out there.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html#comments" thr:count="17" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html/feed/atom/" thr:count="17" />
+			<thr:total>17</thr:total>
+			</entry>
+	</feed>
