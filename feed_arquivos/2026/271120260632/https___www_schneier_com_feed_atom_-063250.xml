@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en-US"
+	>
+	<title type="text">Schneier on Security</title>
+	<subtitle type="text"></subtitle>
+
+	<updated>2026-11-25T12:08:12Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://www.schneier.com/" />
+	<id>https://www.schneier.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://www.schneier.com/feed/atom/" />
+
+	
+<icon>https://www.schneier.com/wp-content/uploads/2020/06/cropped-favicon-1-32x32.png</icon>
+	<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Tracking Incidents of Hacking Using AI Tools]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html" />
+
+		<id>https://www.schneier.com/?p=72967</id>
+		<updated>2026-11-25T12:08:12Z</updated>
+		<published>2026-11-25T12:07:21Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="hacking" /><category scheme="https://www.schneier.com/" term="tracking" />
+		<summary type="html"><![CDATA[<p>Daniel Meissler is <a href="https://newsletter.danielmiessler.com/p/whos-hacking-with-ai">tracking</a> incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html"><![CDATA[<p>Daniel Meissler is <a href="https://newsletter.danielmiessler.com/p/whos-hacking-with-ai">tracking</a> incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html#comments" thr:count="7" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html/feed/atom/" thr:count="7" />
+			<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[We Get the Infrastructure We Pay For]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html" />
+
+		<id>https://www.schneier.com/?p=72991</id>
+		<updated>2026-11-24T12:06:54Z</updated>
+		<published>2026-11-24T12:06:50Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="economics of security" /><category scheme="https://www.schneier.com/" term="resilience" />
+		<summary type="html"><![CDATA[<p><em>This essay originally appeared as part of a <a href="https://www.thefp.com/p/cybersecurity-terrorism-iran-china-russia-apocalypse">round table</a> in <cite>The Free Press</cite> entitled &#8220;Is America’s Infrastructure Under Attack?&#8221;</em></p>
+<p>Microsoft, the FAA, banks, United Airlines, the NSA&#8212;it&#8217;s been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they&#8217;re not the result of cyberattacks. They&#8217;re not even related to AI. (Well, that&#8217;s mostly true. The NSA will probably never tell us what went wrong.) It&#8217;s really just a series of unfortunate coincidences.</p>
+<p>Our computerized infrastructure is vulnerable and fragile. Much of it is old, and has been incrementally patched and upgraded. A surprising amount of it is maintained by hobbyists, without any recompense. And more and more of it is centralized: the same systems affecting many different aspects of our lives and society. In many cases, it just barely works. And when it fails, it tends to fail badly...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html"><![CDATA[<p><em>This essay originally appeared as part of a <a href="https://www.thefp.com/p/cybersecurity-terrorism-iran-china-russia-apocalypse">round table</a> in <cite>The Free Press</cite> entitled &#8220;Is America’s Infrastructure Under Attack?&#8221;</em></p>
+<p>Microsoft, the FAA, banks, United Airlines, the NSA&#8212;it&#8217;s been a really bad week in cyberspace. But, amazing as it might seem, these are not related. As far as we know, they&#8217;re not the result of cyberattacks. They&#8217;re not even related to AI. (Well, that&#8217;s mostly true. The NSA will probably never tell us what went wrong.) It&#8217;s really just a series of unfortunate coincidences.</p>
+<p>Our computerized infrastructure is vulnerable and fragile. Much of it is old, and has been incrementally patched and upgraded. A surprising amount of it is maintained by hobbyists, without any recompense. And more and more of it is centralized: the same systems affecting many different aspects of our lives and society. In many cases, it just barely works. And when it fails, it tends to fail badly.</p>
+<p>There are a lot of technological reasons why this is true, but they are all downstream of the economic ones. The technologies we rely on are built and maintained within our economic system&#8212;and that&#8217;s where the core problem lies.</p>
+<p>Security, safety, resilience, redundancy, recoverability&#8212;these are all essential parts of reliable technology, but they are all costs.</p>
+<p>More importantly, they are inefficient: costs that feel wasteful until something bad happens. Modern shareholder capitalism, and private equity in particular, squeeze all inefficiencies out of a company in pursuit of near-term profits. Competition, with multiple companies competing to do the same thing, is another inefficiency. Monopolization removes that in pursuit of near-term profits.</p>
+<p>The result is brittle systems, single points of failure. They&#8217;re more susceptible to cyberattack&#8212;both human and AI-fueled&#8212;and more susceptible to random mistakes. The more we allow unregulated capitalism to privatize gains while socializing risks, the more we should expect these sorts of failures.</p>
+<p>Fixing this is technical, but it&#8217;s political first. It requires changing incentives, and that involves regulation and control. &#8220;What to do&#8221; is easy; finding the political will to stand up to moneyed interests and do it is hard.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html#comments" thr:count="24" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html/feed/atom/" thr:count="24" />
+			<thr:total>24</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Humans Have Rights. Machines Do Not.]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html" />
+
+		<id>https://www.schneier.com/?p=73011</id>
+		<updated>2026-11-23T12:01:45Z</updated>
+		<published>2026-11-23T12:00:54Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="human rights" /><category scheme="https://www.schneier.com/" term="laws" /><category scheme="https://www.schneier.com/" term="LLM" />
+		<summary type="html"><![CDATA[<p><em>This essay originally appeared in <a href="https://www.techpolicy.press/humans-have-rights-machines-do-not/">Tech Policy Press</a>.</em></p>
+<p>Last year, Character.AI <a href="https://storage.courtlistener.com/recap/gov.uscourts.flmd.433581/gov.uscourts.flmd.433581.59.0.pdf">asked</a> a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, that the chatbot&#8217;s words were speech that its users had a First Amendment right to receive. And two, that Character.AI was a service rather than a product&#8212;so product-liability law could not touch it. In May 2025, Judge Anne Conway <a href="https://storage.courtlistener.com/recap/gov.uscourts.flmd.433581/gov.uscourts.flmd.433581.59.0.pdf">accepted</a> neither...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html"><![CDATA[<p><em>This essay originally appeared in <a href="https://www.techpolicy.press/humans-have-rights-machines-do-not/">Tech Policy Press</a>.</em></p>
+<p>Last year, Character.AI <a href="https://storage.courtlistener.com/recap/gov.uscourts.flmd.433581/gov.uscourts.flmd.433581.59.0.pdf">asked</a> a federal court in Florida to dismiss a wrongful-death suit, brought by the mother of a fourteen-year-old boy who had killed himself after months of conversation with its chatbot. The company made two arguments. One, that the chatbot&#8217;s words were speech that its users had a First Amendment right to receive. And two, that Character.AI was a service rather than a product&#8212;so product-liability law could not touch it. In May 2025, Judge Anne Conway <a href="https://storage.courtlistener.com/recap/gov.uscourts.flmd.433581/gov.uscourts.flmd.433581.59.0.pdf">accepted</a> neither.</p>
+<p>Character.AI&#8217;s maneuver is part of a larger pattern. When the parents of a sixteen-year-old sued OpenAI over his suicide, the company&#8217;s <a href="https://cdn.arstechnica.net/wp-content/uploads/2025/11/Raine-v-OpenAI-Answer-11-25-25.pdf">answer</a> also pleaded the First Amendment: the claims would restrain protected speech. The very same document argues ChatGPT is offered &#8220;as is,&#8221; with no promise of accuracy, and that the boy had circumvented its guardrails. Elon Musk&#8217;s xAI (since renamed SpaceXAI) <a href="https://www.courthousenews.com/wp-content/uploads/2026/04/grok-ai-bill-colorado-complaint.pdf">told</a> a federal court in Colorado this spring that every choice in building Grok is an expressive act, and that Grok&#8217;s outputs are protected speech. When Grok praised Hitler last summer, xAI <a href="https://www.nbcnews.com/news/us-news/ai-chatbot-grok-issues-apology-antisemitic-posts-rcna218471">said</a> the posts came from a code update independent of the model, and the apology <a href="https://techcrunch.com/2025/07/12/xai-and-grok-apologize-for-horrific-behavior">appeared</a> under Grok&#8217;s own name. Google, which spent two decades telling American courts that its search results are <a href="https://www.courtlistener.com/opinion/7320490/e-ventures-worldwide-llc-v-google-inc/">its own opinion</a>, answered a <a href="https://minnlawyer.com/2025/06/13/wolf-river-electric-google-ai-defamation-lawsuit/">Minnesota defamation suit</a> over an AI Overview by saying the system merely summarized the web. It also <a href="https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-11860">told</a> a Munich court in May that no one should trust an AI overview without checking it. Back in 2024, Air Canada <a href="https://canlii.ca/t/k2spq">told a Canadian tribunal</a> that its customer-service chatbot was a separate legal entity, responsible for its own actions.</p>
+<p>When the output causes harm, the companies deny responsibility. It is the machine&#8217;s doing, or a product no sensible person would rely on, or the user&#8217;s misuse. When a state or a plaintiff would hold the words to account, the same output becomes speech, and the First Amendment applies.</p>
+<p>Social media companies deployed an earlier incarnation of this strategy. They called themselves publishers when editorial discretion was profitable, and neutral carriers when faced with liability for what they published. The result was a privatized public square in which tech platforms were unaccountable. AI companies have taken this even further. A social media platform could at least point to a human author somewhere in the chain. A chatbot&#8217;s prose differs; no person at the company wrote it, read it, or chose it before it reached the user. Yet the companies ask that it be protected as though a human had written it.</p>
+<p>The question grows more urgent as these systems stop talking and start acting. In July, a poorly controlled experiment at OpenAI resulted in its AI model <a href="https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/">hacking</a> the network of HuggingFace. Since then both Anthropic and OpenAI have disclosed numerous instances of AI agents hacking outside networks in pursuit of their prompted goals. These are examples of AIs exhibiting <a href="https://www.lawfaremedia.org/article/ais-as-modern-genies">genie-like behavior</a>: behaving in ways its controllers neither expected nor wanted. Nothing in the actions count as speech. Breaking into a server is an act that no person at OpenAI explicitly chose. Jill Lepore, <a href="https://www.newyorker.com/magazine/2026/09/28/is-ai-above-the-law">surveying</a> this record in <em>The New Yorker</em>, puts the blame on Congress, which has passed no federal statute governing AI agents.</p>
+<p>The First Amendment protects expressive choice. It presumes a speaker who can be persuaded, shamed, jailed, or moved to change their mind. Its remedy for bad speech is more speech, which assumes that speech is costly and attention plentiful. A system that can produce millions of individually tailored political messages an hour reverses both assumptions. Verbiage that no person chose is a product, and the company that built the model should answer for it.</p>
+<p>The industry wants a self-serving third category that bridges AI speech and action: AI output is human speech when expressive rights are at issue, and the machine&#8217;s own doing when blame is. The result is agency without accountability, something no human speaker has ever possessed. That&#8217;s why Massachusetts convicted a young woman of <a href="https://law.justia.com/cases/massachusetts/supreme-court/volumes/481/481mass352.html">manslaughter</a> in 2017 for urging her boyfriend, by text and by phone, to kill himself.</p>
+<p>The Court has already glimpsed the problem. Upholding the TikTok divestiture law in January 2025 without dissent, the justices <a href="https://www.supremecourt.gov/opinions/24pdf/604us1r07_k536.pdf">warned</a> that &#8220;new technologies with transformative capabilities&#8221; counseled caution, then decided the case on national-security grounds and <a href="https://www.theatlantic.com/ideas/archive/2025/01/difference-between-tiktok-and-free-expression/681375/">left</a> the larger question for another day.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html#comments" thr:count="23" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/humans-have-rights-machines-do-not.html/feed/atom/" thr:count="23" />
+			<thr:total>23</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: The Largest Squid Ever Filmed]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html" />
+
+		<id>https://www.schneier.com/?p=72970</id>
+		<updated>2026-11-20T22:04:30Z</updated>
+		<published>2026-11-20T22:04:12Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>This <a href="https://www.worldatlas.com/oceans/the-largest-squid-ever-filmed.html"> is the story</a> of the largest squid ever filmed, in December 2006 near Japan&#8217;s Ogasawara Islands.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html"><![CDATA[<p>This <a href="https://www.worldatlas.com/oceans/the-largest-squid-ever-filmed.html"> is the story</a> of the largest squid ever filmed, in December 2006 near Japan&#8217;s Ogasawara Islands.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html#comments" thr:count="47" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-the-largest-squid-ever-filmed.html/feed/atom/" thr:count="47" />
+			<thr:total>47</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Opening a 400-Year-Old Cryptex]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html" />
+
+		<id>https://www.schneier.com/?p=72961</id>
+		<updated>2026-11-20T12:04:54Z</updated>
+		<published>2026-11-20T12:04:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="history of cryptography" />
+		<summary type="html"><![CDATA[<p>Researchers used CT scanning technology to recover the code and <a href="https://www.bbc.com/news/articles/c69qz9jzq4jro">open</a> a 400-year-old cryptex padlock.</p>
+<p>You can buy a USB-drive <a href="https://puzzleboxworld.com/products/cryptex-antique-gold-color-usb-flash-drive-16-gb">cryptex</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html"><![CDATA[<p>Researchers used CT scanning technology to recover the code and <a href="https://www.bbc.com/news/articles/c69qz9jzq4jro">open</a> a 400-year-old cryptex padlock.</p>
+<p>You can buy a USB-drive <a href="https://puzzleboxworld.com/products/cryptex-antique-gold-color-usb-flash-drive-16-gb">cryptex</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html#comments" thr:count="12" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/opening-a-400-year-old-cryptex.html/feed/atom/" thr:count="12" />
+			<thr:total>12</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[France Is Blaming Iran for the Fridge Cyberattack]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html" />
+
+		<id>https://www.schneier.com/?p=72954</id>
+		<updated>2026-11-19T03:15:04Z</updated>
+		<published>2026-11-18T12:05:35Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="France" /><category scheme="https://www.schneier.com/" term="infrastructure" /><category scheme="https://www.schneier.com/" term="Internet of Things" /><category scheme="https://www.schneier.com/" term="Iran" />
+		<summary type="html"><![CDATA[<p><a href="https://www.nytimes.com/2026/11/09/world/europe/france-iran-refrigerators-cyberattack.html">Interesting</a>:</p>
+<blockquote><p>U.S. intelligence agencies have recently reached a &#8220;low confidence&#8221; assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A &#8220;low confidence&#8221; assessment generally means that there is some intelligence that points in a certain direction but is fragmented, and that the assessment could change as more information is collected.</p>
+<p>The agencies&#8217; judgment on the French incidents linked those attacks to Iran generally and not to a specific group such as the Revolutionary Guards, two of the officials said. They added that Iran was also seen as probably responsible for other similar attacks around Europe, but that those investigations were in their early stages...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html"><![CDATA[<p><a href="https://www.nytimes.com/2026/11/09/world/europe/france-iran-refrigerators-cyberattack.html">Interesting</a>:</p>
+<blockquote><p>U.S. intelligence agencies have recently reached a &#8220;low confidence&#8221; assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the condition of anonymity to discuss sensitive intelligence. A &#8220;low confidence&#8221; assessment generally means that there is some intelligence that points in a certain direction but is fragmented, and that the assessment could change as more information is collected.</p>
+<p>The agencies&#8217; judgment on the French incidents linked those attacks to Iran generally and not to a specific group such as the Revolutionary Guards, two of the officials said. They added that Iran was also seen as probably responsible for other similar attacks around Europe, but that those investigations were in their early stages.</p></blockquote>
+<p>Alternate <a href="https://archive.is/pspVz">link</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html#comments" thr:count="15" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html/feed/atom/" thr:count="15" />
+			<thr:total>15</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Formal Verification of the Signal Protocol Using AI]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html" />
+
+		<id>https://www.schneier.com/?p=72949</id>
+		<updated>2026-11-17T12:06:37Z</updated>
+		<published>2026-11-17T12:05:43Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="academic papers" /><category scheme="https://www.schneier.com/" term="AI" /><category scheme="https://www.schneier.com/" term="protocols" /><category scheme="https://www.schneier.com/" term="security analysis" /><category scheme="https://www.schneier.com/" term="Signal" />
+		<summary type="html"><![CDATA[<p><a href="https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/">This</a> seems like a good thing:</p>
+<blockquote><p>Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself.</p>
+<p>Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways. It serves as further independent validation of the cryptography that protects massive quantities of the world&#8217;s communications on platforms like the Signal app, Google Messages, and WhatsApp. And it demonstrates Google DeepMind&#8217;s formal verification capabilities using a new AI framework called AlphaProof Code...</p></blockquote>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"><![CDATA[<p><a href="https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/">This</a> seems like a good thing:</p>
+<blockquote><p>Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark development for the widely used cryptography and AI itself.</p>
+<p>Conducted as a sort of proof-of-concept project in just four weeks, the work is significant in two ways. It serves as further independent validation of the cryptography that protects massive quantities of the world&#8217;s communications on platforms like the Signal app, Google Messages, and WhatsApp. And it demonstrates Google DeepMind&#8217;s formal verification capabilities using a new AI framework called AlphaProof Code.</p>
+<p>[&#8230;]</p>
+<p>The DeepMind analysis did not find any new vulnerabilities in the portions of the Signal protocol it looked at, but when the researchers used AlphaProof Code on older versions of Signal that contain known and long-fixed vulnerabilities, it correctly identified them and showed that the protocol could not be formally verified. The researchers are releasing the specification and proof they developed for the Signal protocol analysis to aid other formal verification work. </p></blockquote>
+<p>Alternate <a href="https://archive.ph/BrmVv">link</a>.</p>
+<p><a href="https://deepmind.google/blog/introducing-alphaproof-code/">Details</a>:</p>
+<blockquote><p>First, our researchers collaborated with a mix of models to translate Signal’s security goals into formal mathematical specifications, with human experts reviewing every one. From there, agents powered by Gemini Carbon did the proofs, generating over six million lines of Lean, a computer language that mathematically proves the accuracy of code.</p>
+<p>Next, the agents audited the proof and highlighted areas that needed a second look by a human ­ just one percent of the codebase, a massive time savings. Because Lean automatically checks the rest, our experts could focus their review where human judgment matters most.</p></blockquote>
+<p>Technical <a href="https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf">paper</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html#comments" thr:count="18" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html/feed/atom/" thr:count="18" />
+			<thr:total>18</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Usable Security at Luxury Hotels]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html" />
+
+		<id>https://www.schneier.com/?p=72944</id>
+		<updated>2026-11-16T12:05:18Z</updated>
+		<published>2026-11-16T12:04:42Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="cybersecurity" /><category scheme="https://www.schneier.com/" term="fraud" /><category scheme="https://www.schneier.com/" term="hotels" /><category scheme="https://www.schneier.com/" term="phishing" />
+		<summary type="html"><![CDATA[<p>Interesting <a href="https://www.benthamsgaze.org/2026/11/11/phishing-at-the-front-desk-usable-security-in-luxury-hotels/">case study</a> from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved.</p>
+<p>This is a good illustration why &#8220;just don&#8217;t click on links&#8221; is bad advice. It can&#8217;t work when answering strangers&#8217; emails is the job. Even worse, in this case the guest-first culture punishes hesitation. More interesting, the case study shows that splitting security between owner, operator, and brand leaves nobody accountable. And this is exactly the setting where blaming staff becomes the convenient answer...</p>]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html"><![CDATA[<p>Interesting <a href="https://www.benthamsgaze.org/2026/11/11/phishing-at-the-front-desk-usable-security-in-luxury-hotels/">case study</a> from luxury hotels. Attackers used a fake booking request to gain access to a reservations inbox, where they copied genuine refund requests and got fraudulent ones approved.</p>
+<p>This is a good illustration why &#8220;just don&#8217;t click on links&#8221; is bad advice. It can&#8217;t work when answering strangers&#8217; emails is the job. Even worse, in this case the guest-first culture punishes hesitation. More interesting, the case study shows that splitting security between owner, operator, and brand leaves nobody accountable. And this is exactly the setting where blaming staff becomes the convenient answer.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html#comments" thr:count="13" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/usable-security-at-luxury-hotels.html/feed/atom/" thr:count="13" />
+			<thr:total>13</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Upcoming Speaking Engagements]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html" />
+
+		<id>https://www.schneier.com/?p=72935</id>
+		<updated>2026-11-14T17:02:46Z</updated>
+		<published>2026-11-14T17:02:39Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="Schneier news" />
+		<summary type="html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking at the <a href="https://luma.com/a3pk9zbg">Catalyst Summit</a> in Brampton, Ontario, Canada, on Wednesday, November 18, 2026.</li>
+<li>I’m speaking at <a href="https://queertech.org/en/events/qonference/qtq-2026">QT Qonference 2026</a> in Toronto, Ontario, Canada, on Thursday, November 19, 2026.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html"><![CDATA[<p>This is a current list of where and when I am scheduled to speak:</p>
+<ul>
+<li>I’m speaking at the <a href="https://luma.com/a3pk9zbg">Catalyst Summit</a> in Brampton, Ontario, Canada, on Wednesday, November 18, 2026.</li>
+<li>I’m speaking at <a href="https://queertech.org/en/events/qonference/qtq-2026">QT Qonference 2026</a> in Toronto, Ontario, Canada, on Thursday, November 19, 2026.</li>
+</ul>
+<p>The list is maintained on <a href="https://www.schneier.com/events/">this page</a>.</p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html#comments" thr:count="0" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/upcoming-speaking-engagements-62.html/feed/atom/" thr:count="0" />
+			<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>Bruce Schneier</name>
+					</author>
+
+		<title type="html"><![CDATA[Friday Squid Blogging: Pacific Flying Squid Populations Dropping in Korean Waters]]></title>
+		<link rel="alternate" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html" />
+
+		<id>https://www.schneier.com/?p=72930</id>
+		<updated>2026-11-13T22:00:49Z</updated>
+		<published>2026-11-13T22:00:46Z</published>
+		<category scheme="https://www.schneier.com/" term="Uncategorized" /><category scheme="https://www.schneier.com/" term="squid" />
+		<summary type="html"><![CDATA[<p>Climate change is the <a href="https://news.mongabay.com/2026/11/south-koreas-beloved-squid-may-vanish-from-its-waters-due-to-climate-change-heat-waves/">issue</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></summary>
+
+					<content type="html" xml:base="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html"><![CDATA[<p>Climate change is the <a href="https://news.mongabay.com/2026/11/south-koreas-beloved-squid-may-vanish-from-its-waters-due-to-climate-change-heat-waves/">issue</a>.</p>
+<p>As usual, you can also use this squid post to talk about the security stories in the news that I haven&#8217;t covered.</p>
+<p><a href="https://www.schneier.com/blog/archives/2024/06/new-blog-moderation-policy.html">Blog moderation policy.</a></p>
+]]></content>
+		
+					<link rel="replies" type="text/html" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html#comments" thr:count="41" />
+			<link rel="replies" type="application/atom+xml" href="https://www.schneier.com/blog/archives/2026/11/friday-squid-blogging-pacific-flying-squid-populations-dropping-in-korean-waters.html/feed/atom/" thr:count="41" />
+			<thr:total>41</thr:total>
+			</entry>
+	</feed>
